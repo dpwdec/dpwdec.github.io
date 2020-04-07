@@ -3,7 +3,12 @@ layout: page
 exclude: true
 ---
 
-# RSpec
+## Expectations
+You should **test argument input values** by expecting the output of the correct input to *not* raise an error.
+```ruby
+#
+expect { subject.method(x, y) }.to_not raise_error
+```
 
 ## Mocks
 
@@ -147,7 +152,8 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjg1MTQsNDI3NDA0OTczLC0yMTEwOD
-c2NTE0LDE2MTM5MTE0MDksNzI4NDMxMTM5LC0xNjE4NDkyNjQ1
-LC0xMjI3OTI5NTQxLDg2NDc3NDUxMSwtNzUwNDU5NDU1XX0=
+eyJoaXN0b3J5IjpbLTIzMTAxMTM4LDE4MjI4NTE0LDQyNzQwND
+k3MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyODQzMTEzOSwt
+MTYxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1MTEsLTc1MD
+Q1OTQ1NV19
 -->
