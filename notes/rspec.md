@@ -21,7 +21,7 @@ dbl.method_1
 => 3
 # using a double's method in an example block
 it "passes" do
-	expect(dbl.method_2).to eq("hello")
+  expect(dbl.method_2).to eq("hello")
 end
 ```
 You can make a double **non-strict** by adding `.as_null_object` to the end of the double creation. For any method its receives that is undefined it will return itself. These non-strict can also be created *with* strict return types as well.
@@ -49,15 +49,15 @@ You can use **expect with receive** to check if a method is called on an object 
 ```ruby
 # failing expect / receieve
 it "fails" do
-	dbl = double("Name")
-	expect(dbl).receive(:a_method)
+  dbl = double("Name")
+  expect(dbl).receive(:a_method)
 end
 => F
 # passing expect / receive
 it "passes" do
-	dbl = double("Name")
-	expect(dbl).receive(:a_method)
-	dbl.a_method
+  dbl = double("Name")
+  expect(dbl).receive(:a_method)
+  dbl.a_method
 end
 => .
 ```
@@ -76,9 +76,9 @@ class MyClass
 end
 
 it "returns a redefined value" do
-	allow(MyClass).to receive(:my_method) { 0 }
-	# where subject is an instance of MyClass
-	expect(subject.my_method).to eq(0) => true
+  allow(MyClass).to receive(:my_method) { 0 }
+  # where subject is an instance of MyClass
+  expect(subject.my_method).to eq(0) => true
 end
 => .
 ```
@@ -147,7 +147,7 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3NDA0OTczLC0yMTEwODc2NTE0LDE2MT
-M5MTE0MDksNzI4NDMxMTM5LC0xNjE4NDkyNjQ1LC0xMjI3OTI5
-NTQxLDg2NDc3NDUxMSwtNzUwNDU5NDU1XX0=
+eyJoaXN0b3J5IjpbMTgyMjg1MTQsNDI3NDA0OTczLC0yMTEwOD
+c2NTE0LDE2MTM5MTE0MDksNzI4NDMxMTM5LC0xNjE4NDkyNjQ1
+LC0xMjI3OTI5NTQxLDg2NDc3NDUxMSwtNzUwNDU5NDU1XX0=
 -->
