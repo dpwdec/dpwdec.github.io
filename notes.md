@@ -3,6 +3,9 @@ layout: page
 title: Notes
 ---
 
-### [RSpec](notes/rspec.html)
+### [RSpec](notes/rsRSpec.htmlmd)
 
-### [Ruby](notes/ruby.html)
+### [Ruby](notes/rRuby.htmlmd)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE4OTcxMzY5MjldfQ==
+-->
