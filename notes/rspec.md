@@ -6,9 +6,10 @@ exclude: true
 ## Expectations
 You should **test argument input values** by expecting the output of the correct input to *not* raise an error.
 ```ruby
-#
-expect { subject.method(x, y) }.to_not raise_error
+## testing that method accepts 2 integers as input
+expect { subject.method(2, 10) }.to_not raise_error
 ```
+
 
 ## Mocks
 
@@ -152,8 +153,8 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTAxMTM4LDE4MjI4NTE0LDQyNzQwND
-k3MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyODQzMTEzOSwt
-MTYxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1MTEsLTc1MD
-Q1OTQ1NV19
+eyJoaXN0b3J5IjpbLTYyMDM1NTEyMSwxODIyODUxNCw0Mjc0MD
+Q5NzMsLTIxMTA4NzY1MTQsMTYxMzkxMTQwOSw3Mjg0MzExMzks
+LTE2MTg0OTI2NDUsLTEyMjc5Mjk1NDEsODY0Nzc0NTExLC03NT
+A0NTk0NTVdfQ==
 -->
