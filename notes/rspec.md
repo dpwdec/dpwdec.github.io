@@ -87,10 +87,15 @@ You should **test argument input values** by expecting the output of the correct
 expect { subject.method(2, 10) }.to_not raise_error
 ```
 ### Include matchers
-You can **check the contents** of a hash's key-value pair by using the `include` matcher with the literal hash input as its argument.
+You can **check the contents** of a hash's key-value pair by using the `include` matcher with any arbitrary *and* literal hash input as its argument.
 ```ruby
 my_hash = { "a" => 2, :b => 3 }
-it "contains kv pair 'a':2 and kv pair b:3"
+it "contains kv pair 'a':2 and kv pair b:3" do
+  expect(my_hash).to include("a" => 2)
+  expect(my_hash).to include(:b => 3)
+  # testing for 
+  expect(my_hash).to include("a" => 2, :b => 3)
+end
 ```
 
 ### Collection matchers:
@@ -249,10 +254,10 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjA0NjI1NTMsNjU4NTcwNzM2LC0zNz
-Y2NTE3Miw0OTI3Mjk3MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5
-LDM0NTc4OTQ4OSwtMjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02Mj
-AzNTUxMjEsMTgyMjg1MTQsNDI3NDA0OTczLC0yMTEwODc2NTE0
-LDE2MTM5MTE0MDksNzI4NDMxMTM5LC0xNjE4NDkyNjQ1LC0xMj
-I3OTI5NTQxLDg2NDc3NDUxMSwtNzUwNDU5NDU1XX0=
+eyJoaXN0b3J5IjpbLTM2NDIyNTUzOCw2NTg1NzA3MzYsLTM3Nj
+Y1MTcyLDQ5MjcyOTcyNiwxNjUyNTQxMjY0LDEyMTY0Nzc0OTks
+MzQ1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NTQ4NDcwNTgsLTYyMD
+M1NTEyMSwxODIyODUxNCw0Mjc0MDQ5NzMsLTIxMTA4NzY1MTQs
+MTYxMzkxMTQwOSw3Mjg0MzExMzksLTE2MTg0OTI2NDUsLTEyMj
+c5Mjk1NDEsODY0Nzc0NTExLC03NTA0NTk0NTVdfQ==
 -->
