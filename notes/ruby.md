@@ -34,12 +34,13 @@ dpwdec/
 
  - The **bin** directory contains an executable that is added to the user's `$PATH` when the gem is installed.
  - The **lib** directory contains the code that the gem runs on
- - The 
+ - The **test** directory contains verification tests for the gem
+ - The `README` contains documentation information about the code and how to use it.
  - The **gemspec** file contains information about the gem such as version, author, homepage etc.
 
 The **gemspec** file contains information about the gem such as version, author, homepage etc.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg4NDkyNzIsLTExNTk1MjcwNDFdfQ
+eyJoaXN0b3J5IjpbLTE4MTEwODM4NDEsLTExNTk1MjcwNDFdfQ
 ==
 -->
