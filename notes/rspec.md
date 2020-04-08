@@ -3,7 +3,7 @@ layout: page
 exclude: true
 ---
 ## Core
-
+A **shared context** allows you to define re-usable context code for your examples.
 
 ## Expectations
 You should **test argument input values** by expecting the output of the correct input to *not* raise an error.
@@ -155,8 +155,9 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzUwODUyOSwtMTY1NDg0NzA1OCwtNj
-IwMzU1MTIxLDE4MjI4NTE0LDQyNzQwNDk3MywtMjExMDg3NjUx
-NCwxNjEzOTExNDA5LDcyODQzMTEzOSwtMTYxODQ5MjY0NSwtMT
-IyNzkyOTU0MSw4NjQ3NzQ1MTEsLTc1MDQ1OTQ1NV19
+eyJoaXN0b3J5IjpbLTc5ODI3MTM1MiwtMjE3NTA4NTI5LC0xNj
+U0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMjg1MTQsNDI3NDA0OTcz
+LC0yMTEwODc2NTE0LDE2MTM5MTE0MDksNzI4NDMxMTM5LC0xNj
+E4NDkyNjQ1LC0xMjI3OTI5NTQxLDg2NDc3NDUxMSwtNzUwNDU5
+NDU1XX0=
 -->
