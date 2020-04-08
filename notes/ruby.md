@@ -36,11 +36,11 @@ dpwdec/
  - The **lib** directory contains the code that the gem runs on
  - The **test** directory contains verification tests for the gem
  - The `README` contains documentation information about the code and how to use it.
+ - The **rake file** is a `rake` program that performs utility tasks on the gem.
  - The **gemspec** file contains information about the gem such as version, author, homepage etc.
 
-The **gemspec** file contains information about the gem such as version, author, homepage etc.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTEwODM4NDEsLTExNTk1MjcwNDFdfQ
-==
+eyJoaXN0b3J5IjpbMTk0MjQ0NTUwOSwtMTE1OTUyNzA0MV19
 -->
