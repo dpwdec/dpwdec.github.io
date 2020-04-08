@@ -14,12 +14,20 @@ shared_context 'context name' do
   end
 end
 ```
-You can **invoke a shared context** by placing it inside a `context` block with the `include_context` method and the name of the context. Objects and methods define in the shared context can b
+You can **invoke a shared context** by placing it inside a `context` block with the `include_context` method and the name of the context. Objects and methods define in the shared context can then be called from your example testing code as if they had been defined inside that context's scope.
 ```ruby
 # call a context
 context "my shared context" do
   include_context 'context name'
-  it "should return 10 for some_var"
+  it "should return 10 for some_var" do
+    expect(@some_var).to eq(10)
+  end
+  it "should return 20 for another_var" do
+	  expect(another_var).to eq(20)
+  end
+  it "should return 'This is a shared method'" do
+    
+  end
 end
 ```
 ## Expectations
@@ -172,9 +180,9 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjMxMzkyMCwzNDU3ODk0ODksLTIxNz
-UwODUyOSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0
-LDQyNzQwNDk3MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyOD
-QzMTEzOSwtMTYxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1
-MTEsLTc1MDQ1OTQ1NV19
+eyJoaXN0b3J5IjpbLTE3NjM1NzMxMjEsMzQ1Nzg5NDg5LC0yMT
+c1MDg1MjksLTE2NTQ4NDcwNTgsLTYyMDM1NTEyMSwxODIyODUx
+NCw0Mjc0MDQ5NzMsLTIxMTA4NzY1MTQsMTYxMzkxMTQwOSw3Mj
+g0MzExMzksLTE2MTg0OTI2NDUsLTEyMjc5Mjk1NDEsODY0Nzc0
+NTExLC03NTA0NTk0NTVdfQ==
 -->
