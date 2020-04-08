@@ -32,7 +32,11 @@ dpwdec/
 └── dpwdec.gemspec
 ```
 
+ - List item
+
+The **gemspec** file contains information about the gem such as version, author, homepage etc.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NzQ1MzIwOSwtMTE1OTUyNzA0MV19
+eyJoaXN0b3J5IjpbLTExOTg5MDE0MzgsLTExNTk1MjcwNDFdfQ
+==
 -->
