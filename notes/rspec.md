@@ -72,9 +72,10 @@ end
 ```
 It is possible to define variables outside of a `before` or `let` block within a shared context block providing you only intend to use those variables within the scope of the shared context code.
 ```ruby
+# variable defined and used within shared context scope
 shared_context 'context name' do
   input_var = 10
-  let(:my_
+  let(:my_object) { MyClass.new(input_var) }
 end
 ```
 ## Expectations
@@ -227,7 +228,7 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyNjE1NDg2LDE2NTI1NDEyNjQsMTIxNj
+eyJoaXN0b3J5IjpbNDkyNzI5NzI2LDE2NTI1NDEyNjQsMTIxNj
 Q3NzQ5OSwzNDU3ODk0ODksLTIxNzUwODUyOSwtMTY1NDg0NzA1
 OCwtNjIwMzU1MTIxLDE4MjI4NTE0LDQyNzQwNDk3MywtMjExMD
 g3NjUxNCwxNjEzOTExNDA5LDcyODQzMTEzOSwtMTYxODQ5MjY0
