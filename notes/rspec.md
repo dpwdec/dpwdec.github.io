@@ -93,7 +93,7 @@ my_hash = { "a" => 2, :b => 3 }
 it "contains kv pair 'a':2 and kv pair b:3" do
   expect(my_hash).to include("a" => 2)
   expect(my_hash).to include(:b => 3)
-  # testing for 
+  # testing for multiple key-value pairs
   expect(my_hash).to include("a" => 2, :b => 3)
 end
 ```
@@ -254,7 +254,7 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDIyNTUzOCw2NTg1NzA3MzYsLTM3Nj
+eyJoaXN0b3J5IjpbMTIwMDY0NTc3OCw2NTg1NzA3MzYsLTM3Nj
 Y1MTcyLDQ5MjcyOTcyNiwxNjUyNTQxMjY0LDEyMTY0Nzc0OTks
 MzQ1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NTQ4NDcwNTgsLTYyMD
 M1NTEyMSwxODIyODUxNCw0Mjc0MDQ5NzMsLTIxMTA4NzY1MTQs
