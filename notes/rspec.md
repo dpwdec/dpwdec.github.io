@@ -39,6 +39,7 @@ You **cannot:**
  - Use the `subject` keyword inside the `before` block of a shared context.
  - Define variables outside of a `before` block. 
  - Define non-instance variables unless through a `let` method.
+ 
 ```ruby
 # INVALID object initialization:
 shared_context "non functional context" do
@@ -241,10 +242,10 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NjY1MTcyLDQ5MjcyOTcyNiwxNjUyNT
-QxMjY0LDEyMTY0Nzc0OTksMzQ1Nzg5NDg5LC0yMTc1MDg1Mjks
-LTE2NTQ4NDcwNTgsLTYyMDM1NTEyMSwxODIyODUxNCw0Mjc0MD
-Q5NzMsLTIxMTA4NzY1MTQsMTYxMzkxMTQwOSw3Mjg0MzExMzks
-LTE2MTg0OTI2NDUsLTEyMjc5Mjk1NDEsODY0Nzc0NTExLC03NT
-A0NTk0NTVdfQ==
+eyJoaXN0b3J5IjpbNjU4NTcwNzM2LC0zNzY2NTE3Miw0OTI3Mj
+k3MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5LDM0NTc4OTQ4OSwt
+MjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMj
+g1MTQsNDI3NDA0OTczLC0yMTEwODc2NTE0LDE2MTM5MTE0MDks
+NzI4NDMxMTM5LC0xNjE4NDkyNjQ1LC0xMjI3OTI5NTQxLDg2ND
+c3NDUxMSwtNzUwNDU5NDU1XX0=
 -->
