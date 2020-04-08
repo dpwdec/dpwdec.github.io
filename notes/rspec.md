@@ -14,7 +14,14 @@ shared_context 'context name' do
   end
 end
 ```
-You can **call a shared context** by placing it inside a `context` block with the 
+You can **invoke a shared context** by placing it inside a `context` block with the `include_context` method and the name of the context. Objects and methods define in the shared context can b
+```ruby
+# call a context
+context "my shared context" do
+  include_context 'context name'
+  it "should return 10 for some_var"
+end
+```
 ## Expectations
 You should **test argument input values** by expecting the output of the correct input to *not* raise an error.
 ```ruby
@@ -165,7 +172,7 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODczODI1NSwzNDU3ODk0ODksLTIxNz
+eyJoaXN0b3J5IjpbLTg2NjMxMzkyMCwzNDU3ODk0ODksLTIxNz
 UwODUyOSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0
 LDQyNzQwNDk3MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyOD
 QzMTEzOSwtMTYxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1
