@@ -70,7 +70,7 @@ shared_context "my context" do
   let(:subject) { described_class.new(:input) }
 end
 ```
-
+It is 
 ## Expectations
 You should **test argument input values** by expecting the output of the correct input to *not* raise an error.
 ```ruby
@@ -221,9 +221,10 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjU0MTI2NCwxMjE2NDc3NDk5LDM0NT
-c4OTQ4OSwtMjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUx
-MjEsMTgyMjg1MTQsNDI3NDA0OTczLC0yMTEwODc2NTE0LDE2MT
-M5MTE0MDksNzI4NDMxMTM5LC0xNjE4NDkyNjQ1LC0xMjI3OTI5
-NTQxLDg2NDc3NDUxMSwtNzUwNDU5NDU1XX0=
+eyJoaXN0b3J5IjpbMTUxNjgyMzYwMSwxNjUyNTQxMjY0LDEyMT
+Y0Nzc0OTksMzQ1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NTQ4NDcw
+NTgsLTYyMDM1NTEyMSwxODIyODUxNCw0Mjc0MDQ5NzMsLTIxMT
+A4NzY1MTQsMTYxMzkxMTQwOSw3Mjg0MzExMzksLTE2MTg0OTI2
+NDUsLTEyMjc5Mjk1NDEsODY0Nzc0NTExLC03NTA0NTk0NTVdfQ
+==
 -->
