@@ -20,7 +20,10 @@ This allows you to store methods that you might want to call as a list of symbol
 ## Gems
 Gems are pieces of reusable code that can be installed inside your ruby projects. 
 
-You can **search for a g**
+You can **search for a gem from the ruby command line** using:
+```
+gem search GEM_NAME
+```
 
 The basic structure of a gem is:
 ```
@@ -46,5 +49,5 @@ dpwdec/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3MjYwMTc5LC0xMTU5NTI3MDQxXX0=
+eyJoaXN0b3J5IjpbMTMyODg2MTUwMSwtMTE1OTUyNzA0MV19
 -->
