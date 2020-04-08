@@ -23,9 +23,15 @@ A **set** is a data storage object  that functions similarly to an array, the ma
 my_set = Set[1, 3, 4]
 # to add a new element
 my_set.add(6) # => {1, 3, 4, 6}
-# adding a
+# adding a duplicate element changes nothing
+my_set.add(4) # => {1, 3, 4, 6}
 ```
-
+You can **merge sets together**:
+```ruby
+set_1 = Set[1, 2]
+set_2 = Set[3, 4]
+set_1.merge(set_2) #=>
+```
 ## Gems
 Gems are pieces of reusable code that can be installed inside your ruby projects. 
 
@@ -66,6 +72,6 @@ dpwdec/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjY5MDgsLTExMjUxMDU5ODUsLTExNT
-k1MjcwNDFdfQ==
+eyJoaXN0b3J5IjpbLTEyNzY4MDMzODcsLTExMjUxMDU5ODUsLT
+ExNTk1MjcwNDFdfQ==
 -->
