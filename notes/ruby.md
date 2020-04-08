@@ -24,7 +24,11 @@ You can **search for a gem from the ruby command line** using:
 ```
 gem search GEM_NAME
 ```
-
+You can **download a gem without installing it** using the `feth` command and then `unpack` the gem to see its contents which will
+```
+gem fetch rails
+gem unpack rails
+```
 The basic structure of a gem is:
 ```
 dpwdec/
@@ -49,5 +53,5 @@ dpwdec/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyODg2MTUwMSwtMTE1OTUyNzA0MV19
+eyJoaXN0b3J5IjpbLTE0MjQyODU0OCwtMTE1OTUyNzA0MV19
 -->
