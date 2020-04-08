@@ -90,7 +90,12 @@ Collection matchers have been [removed][colremove] from RSpec expectations. To d
 gem install rspec-collection_matchers
 ```
 Collection matchers allow you to check size and structure of collections without referencing their collection attributes (such as `.length`) directly. You must `require` collection matchers to use the collection matching code.
-
+```ruby
+require 'rspec/collection_matchers'
+it "matches the number of items in a collection" do
+  expect([1, 2, 3]).to have_exactly(3).items
+end
+```
 [colremove]: [https://stackoverflow.com/questions/24111204/rspec-to-haven-items-undefined-method](https://stackoverflow.com/questions/24111204/rspec-to-haven-items-undefined-method)
 [rscm]: [https://github.com/rspec/rspec-collection_matchers](https://github.com/rspec/rspec-collection_matchers)
 ## Mocks
@@ -235,10 +240,10 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDcwMzQzNzUsNDkyNzI5NzI2LDE2NT
-I1NDEyNjQsMTIxNjQ3NzQ5OSwzNDU3ODk0ODksLTIxNzUwODUy
-OSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0LDQyNz
-QwNDk3MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyODQzMTEz
-OSwtMTYxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1MTEsLT
-c1MDQ1OTQ1NV19
+eyJoaXN0b3J5IjpbMTQ5Mjg1NDQ3Nyw0OTI3Mjk3MjYsMTY1Mj
+U0MTI2NCwxMjE2NDc3NDk5LDM0NTc4OTQ4OSwtMjE3NTA4NTI5
+LC0xNjU0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMjg1MTQsNDI3ND
+A0OTczLC0yMTEwODc2NTE0LDE2MTM5MTE0MDksNzI4NDMxMTM5
+LC0xNjE4NDkyNjQ1LC0xMjI3OTI5NTQxLDg2NDc3NDUxMSwtNz
+UwNDU5NDU1XX0=
 -->
