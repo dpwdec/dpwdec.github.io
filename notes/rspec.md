@@ -86,9 +86,10 @@ expect { subject.method(2, 10) }.to_not raise_error
 ```
 ### Collection Matchers:
 Collection matchers have been [removed][colremove] from RSpec expectations. To do collection matching you should now use the [`rspec-collection_matchers`][rscm] gem to run collection matching expectations. To **install collection matching gem** use:
-```r
-
 ```
+gem install rspec-collection_matchers
+```
+Collection matchers allow you to check size and structure of collections without referencing their collection attributes (such as `.length`) directly. You must `require` collection matchers to use the collection matching code.
 
 [colremove]: [https://stackoverflow.com/questions/24111204/rspec-to-haven-items-undefined-method](https://stackoverflow.com/questions/24111204/rspec-to-haven-items-undefined-method)
 [rscm]: [https://github.com/rspec/rspec-collection_matchers](https://github.com/rspec/rspec-collection_matchers)
@@ -234,7 +235,7 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzcxODg2OTAsNDkyNzI5NzI2LDE2NT
+eyJoaXN0b3J5IjpbLTEzNDcwMzQzNzUsNDkyNzI5NzI2LDE2NT
 I1NDEyNjQsMTIxNjQ3NzQ5OSwzNDU3ODk0ODksLTIxNzUwODUy
 OSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0LDQyNz
 QwNDk3MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyODQzMTEz
