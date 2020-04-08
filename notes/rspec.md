@@ -52,13 +52,12 @@ shared_context "non functional context" do
   @my_var = MyClass.new(:input)
 end
 ```
-It is however **valid to use the** `described_class` syntax within a shared context - the class instantiated will be taken implicitly from the `describe` block which your `include_context` statement appears in.
+It is however **valid to use** the `described_class` syntax within a shared context - the class instantiated will be taken implicitly from the `describe` block which your `include_context` statement appears in. You can also **initialize subject from a shared context** using a `let` block.
 ```ruby
 shared_context "my context" do
-  # NOT VALID:
-  subject = MyClass.new(:some_input_var) # X
-  # 
-  
+  before
+    @cla
+  end
 end
 ```
 
@@ -212,7 +211,7 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDg2NjQzNSwzNDU3ODk0ODksLTIxNz
+eyJoaXN0b3J5IjpbLTMzMzkzOTc3MiwzNDU3ODk0ODksLTIxNz
 UwODUyOSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0
 LDQyNzQwNDk3MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyOD
 QzMTEzOSwtMTYxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1
