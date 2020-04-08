@@ -20,18 +20,19 @@ This allows you to store methods that you might want to call as a list of symbol
 ## Gems
 Gems are pieces of reusable code that can be installed inside your ruby projects. The basic structure of a gem is:
 ```
-/
+dpwdec/
 ├── bin/
-│   └── freewill
+│   └── dpwdec
 ├── lib/
-│   └── freewill.rb
+│   └── dpwdec.rb
 ├── test/
-│   └── test_freewill.rb
+│   └── test_dpwdec.rb
 ├── README
 ├── Rakefile
-└── freewill.gemspec
+└── dpwdec.gemspec
 ```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5NjQ1MTA0LC0xMTU5NTI3MDQxXX0=
+eyJoaXN0b3J5IjpbMjA5NzQ1MzIwOSwtMTE1OTUyNzA0MV19
 -->
