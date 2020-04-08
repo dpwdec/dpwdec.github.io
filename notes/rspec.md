@@ -33,6 +33,7 @@ context "my shared context" do
   end
 end
 ```
+You **cannot use the** `subject` keyword inside a shared context block for initialization. 
 ## Expectations
 You should **test argument input values** by expecting the output of the correct input to *not* raise an error.
 ```ruby
@@ -183,9 +184,9 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQ2MzkyMTgsMzQ1Nzg5NDg5LC0yMT
-c1MDg1MjksLTE2NTQ4NDcwNTgsLTYyMDM1NTEyMSwxODIyODUx
-NCw0Mjc0MDQ5NzMsLTIxMTA4NzY1MTQsMTYxMzkxMTQwOSw3Mj
-g0MzExMzksLTE2MTg0OTI2NDUsLTEyMjc5Mjk1NDEsODY0Nzc0
-NTExLC03NTA0NTk0NTVdfQ==
+eyJoaXN0b3J5IjpbNTM3NjQ4Nzc0LDM0NTc4OTQ4OSwtMjE3NT
+A4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMjg1MTQs
+NDI3NDA0OTczLC0yMTEwODc2NTE0LDE2MTM5MTE0MDksNzI4ND
+MxMTM5LC0xNjE4NDkyNjQ1LC0xMjI3OTI5NTQxLDg2NDc3NDUx
+MSwtNzUwNDU5NDU1XX0=
 -->
