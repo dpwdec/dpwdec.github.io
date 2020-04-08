@@ -6,7 +6,8 @@ exclude: true
 A **shared context** allows you to define re-usable context code for your examples. You can define a shared context inside a `shared_context` block that is separate from your main `describe` code. You can **define instance variables, methods and** `let` **statements** inside a shared context. Instance variables must initialized inside a shared context must be contained in a `before` block.
 ```ruby
 shared_context 'context name' do
-  
+  before { @some_var = 10 }
+  let(:another_var
 end
 ```
 
@@ -160,9 +161,9 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTg4NTYxOSwzNDU3ODk0ODksLTIxNz
-UwODUyOSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0
-LDQyNzQwNDk3MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyOD
-QzMTEzOSwtMTYxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1
-MTEsLTc1MDQ1OTQ1NV19
+eyJoaXN0b3J5IjpbOTUzNDAxNTI0LDM0NTc4OTQ4OSwtMjE3NT
+A4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMjg1MTQs
+NDI3NDA0OTczLC0yMTEwODc2NTE0LDE2MTM5MTE0MDksNzI4ND
+MxMTM5LC0xNjE4NDkyNjQ1LC0xMjI3OTI5NTQxLDg2NDc3NDUx
+MSwtNzUwNDU5NDU1XX0=
 -->
