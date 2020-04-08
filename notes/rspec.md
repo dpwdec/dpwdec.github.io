@@ -33,7 +33,8 @@ context "my shared context" do
   end
 end
 ```
-You **cannot use the** `subject` keyword inside a shared context block for initialization. 
+You **cannot use the** `subject` keyword inside a shared context block for initialization. However it is **valid to use the** `described_class` syntax within a shared context - the class instantiated will be taken implicitly from the `describe
+
 ## Expectations
 You should **test argument input values** by expecting the output of the correct input to *not* raise an error.
 ```ruby
@@ -184,9 +185,9 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM3NjQ4Nzc0LDM0NTc4OTQ4OSwtMjE3NT
-A4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMjg1MTQs
-NDI3NDA0OTczLC0yMTEwODc2NTE0LDE2MTM5MTE0MDksNzI4ND
-MxMTM5LC0xNjE4NDkyNjQ1LC0xMjI3OTI5NTQxLDg2NDc3NDUx
-MSwtNzUwNDU5NDU1XX0=
+eyJoaXN0b3J5IjpbMTE5NjU2NjE2NSwzNDU3ODk0ODksLTIxNz
+UwODUyOSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0
+LDQyNzQwNDk3MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyOD
+QzMTEzOSwtMTYxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1
+MTEsLTc1MDQ1OTQ1NV19
 -->
