@@ -38,7 +38,7 @@ You **cannot:**
  - Use the `subject` keyword inside the `before` block of a shared context.
  - Define variables outside of a `before` block. 
 ```ruby
-# NOT VALID:
+# INVALID object initialization:
 shared_context "non functional context" do
   # subject will not be initialized with input
   # when called in an example
@@ -217,9 +217,9 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjQ3NzQ5OSwzNDU3ODk0ODksLTIxNz
-UwODUyOSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0
-LDQyNzQwNDk3MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyOD
-QzMTEzOSwtMTYxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1
-MTEsLTc1MDQ1OTQ1NV19
+eyJoaXN0b3J5IjpbMTY1MTQ1MTM2NCwxMjE2NDc3NDk5LDM0NT
+c4OTQ4OSwtMjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUx
+MjEsMTgyMjg1MTQsNDI3NDA0OTczLC0yMTEwODc2NTE0LDE2MT
+M5MTE0MDksNzI4NDMxMTM5LC0xNjE4NDkyNjQ1LC0xMjI3OTI5
+NTQxLDg2NDc3NDUxMSwtNzUwNDU5NDU1XX0=
 -->
