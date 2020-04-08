@@ -86,7 +86,10 @@ You should **test argument input values** by expecting the output of the correct
 # testing that method accepts 2 integers as input
 expect { subject.method(2, 10) }.to_not raise_error
 ```
-### Collection Matchers:
+### Include matchers
+You can **check the contents** of a hash's key pa
+
+### Collection matchers:
 Collection matchers have been [removed][colremove] from RSpec expectations. To do collection matching you should now use the [`rspec-collection_matchers`][rscm] gem to run collection matching expectations. To **install collection matching gem** use:
 ```
 gem install rspec-collection_matchers
@@ -242,10 +245,10 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4NTcwNzM2LC0zNzY2NTE3Miw0OTI3Mj
-k3MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5LDM0NTc4OTQ4OSwt
-MjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMj
-g1MTQsNDI3NDA0OTczLC0yMTEwODc2NTE0LDE2MTM5MTE0MDks
-NzI4NDMxMTM5LC0xNjE4NDkyNjQ1LC0xMjI3OTI5NTQxLDg2ND
-c3NDUxMSwtNzUwNDU5NDU1XX0=
+eyJoaXN0b3J5IjpbMzM1NDI4NTMwLDY1ODU3MDczNiwtMzc2Nj
+UxNzIsNDkyNzI5NzI2LDE2NTI1NDEyNjQsMTIxNjQ3NzQ5OSwz
+NDU3ODk0ODksLTIxNzUwODUyOSwtMTY1NDg0NzA1OCwtNjIwMz
+U1MTIxLDE4MjI4NTE0LDQyNzQwNDk3MywtMjExMDg3NjUxNCwx
+NjEzOTExNDA5LDcyODQzMTEzOSwtMTYxODQ5MjY0NSwtMTIyNz
+kyOTU0MSw4NjQ3NzQ1MTEsLTc1MDQ1OTQ1NV19
 -->
