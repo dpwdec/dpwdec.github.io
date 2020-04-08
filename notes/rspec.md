@@ -3,7 +3,11 @@ layout: page
 exclude: true
 ---
 ## Core
-A **shared context** allows you to define re-usable context code for your examples.
+A **shared context** allows you to define re-usable context code for your examples. You can define a shared context inside a `shared_context` block at the outside of your main `describe` block.
+```ruby
+shared_context 'context name' do
+e
+```
 
 ## Expectations
 You should **test argument input values** by expecting the output of the correct input to *not* raise an error.
@@ -155,9 +159,9 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODI3MTM1MiwtMjE3NTA4NTI5LC0xNj
-U0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMjg1MTQsNDI3NDA0OTcz
-LC0yMTEwODc2NTE0LDE2MTM5MTE0MDksNzI4NDMxMTM5LC0xNj
-E4NDkyNjQ1LC0xMjI3OTI5NTQxLDg2NDc3NDUxMSwtNzUwNDU5
-NDU1XX0=
+eyJoaXN0b3J5IjpbLTIxMzc2NjUzNzEsLTIxNzUwODUyOSwtMT
+Y1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0LDQyNzQwNDk3
+MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyODQzMTEzOSwtMT
+YxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1MTEsLTc1MDQ1
+OTQ1NV19
 -->
