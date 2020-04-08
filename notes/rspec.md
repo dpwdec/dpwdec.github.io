@@ -3,10 +3,11 @@ layout: page
 exclude: true
 ---
 ## Core
-A **shared context** allows you to define re-usable context code for your examples. You can define a shared context inside a `shared_context` block at the outside of your main `describe` block.
+A **shared context** allows you to define re-usable context code for your examples. You can define a shared context inside a `shared_context` block that is separate from your main `describe` code. Instance variables initialized 
 ```ruby
 shared_context 'context name' do
-e
+  
+end
 ```
 
 ## Expectations
@@ -159,9 +160,9 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc2NjUzNzEsLTIxNzUwODUyOSwtMT
-Y1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0LDQyNzQwNDk3
-MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyODQzMTEzOSwtMT
-YxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1MTEsLTc1MDQ1
-OTQ1NV19
+eyJoaXN0b3J5IjpbMzQ1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NT
+Q4NDcwNTgsLTYyMDM1NTEyMSwxODIyODUxNCw0Mjc0MDQ5NzMs
+LTIxMTA4NzY1MTQsMTYxMzkxMTQwOSw3Mjg0MzExMzksLTE2MT
+g0OTI2NDUsLTEyMjc5Mjk1NDEsODY0Nzc0NTExLC03NTA0NTk0
+NTVdfQ==
 -->
