@@ -70,7 +70,13 @@ shared_context "my context" do
   let(:subject) { described_class.new(:input) }
 end
 ```
-It is 
+It is possible to define variables outside of a `before` or `let` block within a shared context block providing you only intend to use those variables within the scope of the shared context code.
+```ruby
+shared_context 'context name' do
+  input_var = 10
+  let(:my_
+end
+```
 ## Expectations
 You should **test argument input values** by expecting the output of the correct input to *not* raise an error.
 ```ruby
@@ -221,10 +227,9 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjgyMzYwMSwxNjUyNTQxMjY0LDEyMT
-Y0Nzc0OTksMzQ1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NTQ4NDcw
-NTgsLTYyMDM1NTEyMSwxODIyODUxNCw0Mjc0MDQ5NzMsLTIxMT
-A4NzY1MTQsMTYxMzkxMTQwOSw3Mjg0MzExMzksLTE2MTg0OTI2
-NDUsLTEyMjc5Mjk1NDEsODY0Nzc0NTExLC03NTA0NTk0NTVdfQ
-==
+eyJoaXN0b3J5IjpbOTkyNjE1NDg2LDE2NTI1NDEyNjQsMTIxNj
+Q3NzQ5OSwzNDU3ODk0ODksLTIxNzUwODUyOSwtMTY1NDg0NzA1
+OCwtNjIwMzU1MTIxLDE4MjI4NTE0LDQyNzQwNDk3MywtMjExMD
+g3NjUxNCwxNjEzOTExNDA5LDcyODQzMTEzOSwtMTYxODQ5MjY0
+NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1MTEsLTc1MDQ1OTQ1NV19
 -->
