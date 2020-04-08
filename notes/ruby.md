@@ -30,7 +30,13 @@ You can **merge sets together**:
 ```ruby
 set_1 = Set[1, 2]
 set_2 = Set[3, 4]
-set_1.merge(set_2) #=>
+set_1.merge(set_2) #=> {1, 2, 3, 4}
+```
+You can also do return as a boolean whether one set is a **subset** of another set:
+```ruby
+set_1 = Set[1, 2, 3, 4]
+set_2 = Set[3, 4]
+set_2.subset?(set_1) # => true
 ```
 ## Gems
 Gems are pieces of reusable code that can be installed inside your ruby projects. 
@@ -72,6 +78,6 @@ dpwdec/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY4MDMzODcsLTExMjUxMDU5ODUsLT
-ExNTk1MjcwNDFdfQ==
+eyJoaXN0b3J5IjpbMTgyODYzMzM1MCwtMTEyNTEwNTk4NSwtMT
+E1OTUyNzA0MV19
 -->
