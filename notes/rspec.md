@@ -87,7 +87,11 @@ You should **test argument input values** by expecting the output of the correct
 expect { subject.method(2, 10) }.to_not raise_error
 ```
 ### Include matchers
-You can **check the contents** of a hash's key pa
+You can **check the contents** of a hash's key-value pair by using the `include` matcher with the literal hash input as its argument.
+```ruby
+my_hash = { "a" => 2, :b => 3 }
+it "contains kv pair 'a':2 and kv pair b:3"
+```
 
 ### Collection matchers:
 Collection matchers have been [removed][colremove] from RSpec expectations. To do collection matching you should now use the [`rspec-collection_matchers`][rscm] gem to run collection matching expectations. To **install collection matching gem** use:
@@ -245,10 +249,10 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1NDI4NTMwLDY1ODU3MDczNiwtMzc2Nj
-UxNzIsNDkyNzI5NzI2LDE2NTI1NDEyNjQsMTIxNjQ3NzQ5OSwz
-NDU3ODk0ODksLTIxNzUwODUyOSwtMTY1NDg0NzA1OCwtNjIwMz
-U1MTIxLDE4MjI4NTE0LDQyNzQwNDk3MywtMjExMDg3NjUxNCwx
-NjEzOTExNDA5LDcyODQzMTEzOSwtMTYxODQ5MjY0NSwtMTIyNz
-kyOTU0MSw4NjQ3NzQ1MTEsLTc1MDQ1OTQ1NV19
+eyJoaXN0b3J5IjpbLTExMjA0NjI1NTMsNjU4NTcwNzM2LC0zNz
+Y2NTE3Miw0OTI3Mjk3MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5
+LDM0NTc4OTQ4OSwtMjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02Mj
+AzNTUxMjEsMTgyMjg1MTQsNDI3NDA0OTczLC0yMTEwODc2NTE0
+LDE2MTM5MTE0MDksNzI4NDMxMTM5LC0xNjE4NDkyNjQ1LC0xMj
+I3OTI5NTQxLDg2NDc3NDUxMSwtNzUwNDU5NDU1XX0=
 -->
