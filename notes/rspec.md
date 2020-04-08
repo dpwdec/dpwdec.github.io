@@ -2,6 +2,8 @@
 layout: page
 exclude: true
 ---
+## Core
+
 
 ## Expectations
 You should **test argument input values** by expecting the output of the correct input to *not* raise an error.
@@ -153,8 +155,8 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTQ4NDcwNTgsLTYyMDM1NTEyMSwxOD
-IyODUxNCw0Mjc0MDQ5NzMsLTIxMTA4NzY1MTQsMTYxMzkxMTQw
-OSw3Mjg0MzExMzksLTE2MTg0OTI2NDUsLTEyMjc5Mjk1NDEsOD
-Y0Nzc0NTExLC03NTA0NTk0NTVdfQ==
+eyJoaXN0b3J5IjpbLTIxNzUwODUyOSwtMTY1NDg0NzA1OCwtNj
+IwMzU1MTIxLDE4MjI4NTE0LDQyNzQwNDk3MywtMjExMDg3NjUx
+NCwxNjEzOTExNDA5LDcyODQzMTEzOSwtMTYxODQ5MjY0NSwtMT
+IyNzkyOTU0MSw4NjQ3NzQ1MTEsLTc1MDQ1OTQ1NV19
 -->
