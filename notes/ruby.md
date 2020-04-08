@@ -17,7 +17,10 @@ You can **call an object method by name** by using `send` to push the method to 
 
 This allows you to store methods that you might want to call as a list of symbols that can then be iterated through very cleanly and called on an object. Furthermore if you have an object method that returns a list of methods it responds to as an array of symbols you can easily iterate through that array and call these methods.
 ## Data
-A **set** is a data storage object  that functions similarly to an array, the main difference being that it
+A **set** is a data storage object  that functions similarly to an array, the main difference being that it is *limited to containing unique elements* or no duplicate elements. To create a set:
+```ruby
+my_set = Set[1, 4, 3]
+```
 
 ## Gems
 Gems are pieces of reusable code that can be installed inside your ruby projects. 
@@ -59,6 +62,6 @@ dpwdec/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1NDI3NzU2LC0xMTI1MTA1OTg1LC0xMT
-U5NTI3MDQxXX0=
+eyJoaXN0b3J5IjpbLTEyMzAxNzI3MDEsLTExMjUxMDU5ODUsLT
+ExNTk1MjcwNDFdfQ==
 -->
