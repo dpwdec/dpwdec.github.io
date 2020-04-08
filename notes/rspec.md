@@ -33,12 +33,16 @@ context "my shared context" do
   end
 end
 ```
-You **cannot use the** `subject` keyword inside a shared context block for initialization. However it is **valid to use the** `described_class` syntax within a shared context - the class instantiated will be taken implicitly from the `describe` block which your `include_context` statement appears in.
+You **cannot use the** `subject` keyword inside a shared context block for initialization. You **cannot define variables** outside of a `before` block. 
+```ruby
+```
+It is however **valid to use the** `described_class` syntax within a shared context - the class instantiated will be taken implicitly from the `describe` block which your `include_context` statement appears in.
 ```ruby
 shared_context "my context" do
   # NOT VALID:
   subject = MyClass.new(:some_input_var) # X
   # 
+  
 end
 ```
 
@@ -192,7 +196,7 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDg2ODU4MywzNDU3ODk0ODksLTIxNz
+eyJoaXN0b3J5IjpbMTI2NzUwMjA1OCwzNDU3ODk0ODksLTIxNz
 UwODUyOSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0
 LDQyNzQwNDk3MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyOD
 QzMTEzOSwtMTYxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1
