@@ -84,7 +84,10 @@ You should **test argument input values** by expecting the output of the correct
 # testing that method accepts 2 integers as input
 expect { subject.method(2, 10) }.to_not raise_error
 ```
+### Collection Matchers:
+Collection matchers have been [removed][colremove] from RSpec expectations
 
+[colremove]: [https://stackoverflow.com/questions/24111204/rspec-to-haven-items-undefined-method](https://stackoverflow.com/questions/24111204/rspec-to-haven-items-undefined-method)
 
 ## Mocks
 
@@ -228,9 +231,10 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyNzI5NzI2LDE2NTI1NDEyNjQsMTIxNj
-Q3NzQ5OSwzNDU3ODk0ODksLTIxNzUwODUyOSwtMTY1NDg0NzA1
-OCwtNjIwMzU1MTIxLDE4MjI4NTE0LDQyNzQwNDk3MywtMjExMD
-g3NjUxNCwxNjEzOTExNDA5LDcyODQzMTEzOSwtMTYxODQ5MjY0
-NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1MTEsLTc1MDQ1OTQ1NV19
+eyJoaXN0b3J5IjpbNTAyNzEwNzMyLDQ5MjcyOTcyNiwxNjUyNT
+QxMjY0LDEyMTY0Nzc0OTksMzQ1Nzg5NDg5LC0yMTc1MDg1Mjks
+LTE2NTQ4NDcwNTgsLTYyMDM1NTEyMSwxODIyODUxNCw0Mjc0MD
+Q5NzMsLTIxMTA4NzY1MTQsMTYxMzkxMTQwOSw3Mjg0MzExMzks
+LTE2MTg0OTI2NDUsLTEyMjc5Mjk1NDEsODY0Nzc0NTExLC03NT
+A0NTk0NTVdfQ==
 -->
