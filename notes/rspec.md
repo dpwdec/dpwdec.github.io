@@ -35,8 +35,8 @@ end
 ```
 You **cannot:** 
 
- - Use the `subject` keyword inside a shared context block for initialization with `before`.  
- - Define outside of a `before` block. 
+ - Use the `subject` keyword inside the `before` block of a shared context.
+ - Define variables outside of a `before` block. 
 ```ruby
 # NOT VALID:
 shared_context "non functional context" do
@@ -61,7 +61,9 @@ shared_context "my context" do
     @described_instance = described_class.new(:input)
   end
   let(:class_instance) { MyClass(:input) }
-  let(:subject) { described
+  # initialize subject as instance of described class
+  # with shared contextual settings
+  let(:subject) { described_class.new(:input) }
 end
 ```
 
@@ -215,7 +217,7 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Mjc1ODU2MiwzNDU3ODk0ODksLTIxNz
+eyJoaXN0b3J5IjpbMTIxNjQ3NzQ5OSwzNDU3ODk0ODksLTIxNz
 UwODUyOSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0
 LDQyNzQwNDk3MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyOD
 QzMTEzOSwtMTYxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1
