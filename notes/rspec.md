@@ -54,10 +54,14 @@ end
 ```
 It is however **valid to use** the `described_class` syntax within a shared context - the class instantiated will be taken implicitly from the `describe` block which your `include_context` statement appears in. You can also **initialize subject from a shared context** using a `let` block.
 ```ruby
+# VALID object initialization
 shared_context "my context" do
   before
-    @cla
+    @class_instance = MyClass(:input)
+    @described_instance = described_class.new(:input)
   end
+  let(:class_instance) { MyClass(:input) }
+  let(:subject) { described
 end
 ```
 
@@ -211,7 +215,7 @@ before(:context) do
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMzkzOTc3MiwzNDU3ODk0ODksLTIxNz
+eyJoaXN0b3J5IjpbLTY3Mjc1ODU2MiwzNDU3ODk0ODksLTIxNz
 UwODUyOSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0
 LDQyNzQwNDk3MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyOD
 QzMTEzOSwtMTYxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1
