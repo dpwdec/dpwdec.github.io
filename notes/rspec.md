@@ -374,16 +374,18 @@ describe Checker do
     allow(my_checker).to receive(:check) { "checked!" }
     my_checker(5)
   end
+  # => .
   it "fails with wrong number of arguments" do
     my_checker = instance_double(Checker)
     allow(my_checker).to receive(:check) { "checked!" }
-    my_checker(5)
+    my_checker(5, 10)
   end
+  # => ArgumentError
 end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTc3MTE0ODcsMTgzNzMzMzA2OCw0Nj
+eyJoaXN0b3J5IjpbLTEyMzQ2MjM2MjcsMTgzNzMzMzA2OCw0Nj
 A1Njk5MywtMTIwNTA5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0
 Nzg5NiwtMjA4NjE0ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Ny
 w1MDEzODc4MDQsLTgwNTYzMjM0NiwxODUyNTU3NDMsMTIwMDY0
