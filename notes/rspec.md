@@ -210,7 +210,17 @@ end
 ```ruby
 describe "method argument matching" do
   let(:dbl) { double }
-  
+  before { expect(dbl).to receive(:a_method).with(/ab/)
+  it "passes absolute" do
+    dbl.a_method("absolute")
+  end
+  it "passes abdominals" do
+    dbl.a_method("abdominals")
+  end
+  it "fails acting" do
+    dbl.
+  end
+end
 ```
  **Redefinition stops outside of the block** in which it was created. However if you want to **add a double of partial double before every test** you should enclose the `allow(...).to receive(...)` inside a `before { }` block.
 
@@ -333,7 +343,7 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjYyMzIzNiw0NjA1Njk5MywtMTIwNT
+eyJoaXN0b3J5IjpbLTk0MDY4NDk1Myw0NjA1Njk5MywtMTIwNT
 A5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0
 ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQsLT
 gwNTYzMjM0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3
