@@ -464,7 +464,7 @@ describe Caller do
   it "fails by calling profile on notifier" do
     note = instance_double("Notifier")
 
-    expect(note).to receive(:profile).with("re-call", 12) { "re-called 12" }
+    expect(note).to receive(:profile).with("input", 20) { "re-called 12" }
     
     caller = Caller.new(note)
     caller.notify!
@@ -474,11 +474,11 @@ end
 Had an `instance_double` not been used here and we passed a method that
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE1NzI2MTksLTQzMDM0NDk5MywtMT
-ExOTczMTE1MiwxNzcwNzE3MTMxLC0xNjYxMjM5MDc1LDE4Mzcz
-MzMwNjgsNDYwNTY5OTMsLTEyMDUwOTU5OTEsLTExMzc1ODc2OD
-csLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4
-NTU1ODc3ODcsNTAxMzg3ODA0LC04MDU2MzIzNDYsMTg1MjU1Nz
-QzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNzY2NTE3Miw0OTI3
-Mjk3MjZdfQ==
+eyJoaXN0b3J5IjpbLTc1NTIyNDI4NCwtNDMwMzQ0OTkzLC0xMT
+E5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEyMzkwNzUsMTgzNzMz
+MzA2OCw0NjA1Njk5MywtMTIwNTA5NTk5MSwtMTEzNzU4NzY4Ny
+wtMTM2MzY0Nzg5NiwtMjA4NjE0ODk3MywxNTY0NTc2MzMwLDg1
+NTU4Nzc4Nyw1MDEzODc4MDQsLTgwNTYzMjM0NiwxODUyNTU3ND
+MsMTIwMDY0NTc3OCw2NTg1NzA3MzYsLTM3NjY1MTcyLDQ5Mjcy
+OTcyNl19
 -->
