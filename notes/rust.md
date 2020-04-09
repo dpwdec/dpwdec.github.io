@@ -13,14 +13,15 @@ crate_name = "0.5.5"
 Use `cargo build` to update and download any dependencies to your project. You can use `cargo update` to update your installed dependencies, this will also ignore your `cargo.lock` file.
 
 ## Rand
-The `rand` crate allows you generate random numbers at run time for your program.
+The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
 ```rust
 use rand::Rng;
 
-let random_number = rand::thread_rng.gen
+let random_number = rand::thread_rng.gen_range(1, 101)
 ```
+The `gen_range()` function is inclusive at its bottom end and exclu
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTgyNTc5NywtODU4MDg4MjQzLC0xNj
-A4ODI1MjYzXX0=
+eyJoaXN0b3J5IjpbLTEyMjk0Nzg4MDUsLTg1ODA4ODI0MywtMT
+YwODgyNTI2M119
 -->
