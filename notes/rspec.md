@@ -189,7 +189,11 @@ it "returns a redefined value" do
 end
 => .
 ```
-You can use the `with` match appended to a receive check to make sure a method receives 
+You can use the `with` match appended to a receive check if a method receives a particular set of arguments.
+```ruby
+it "receives a method with an argument of 1" do
+end
+```
 This also works with `expect` syntax shown above, to temporarily overwrite the output value *and* launch an example test for the method being called on the object
 
  **Redefinition stops outside of the block** in which it was created. However if you want to **add a double of partial double before every test** you should enclose the `allow(...).to receive(...)` inside a `before { }` block.
@@ -313,11 +317,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NzYyMjExMiwtMTIwNTA5NTk5MSwtMT
-EzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0ODk3MywxNTY0
-NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQsLTgwNTYzMjM0Ni
-wxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3MzYsLTM3NjY1
-MTcyLDQ5MjcyOTcyNiwxNjUyNTQxMjY0LDEyMTY0Nzc0OTksMz
-Q1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NTQ4NDcwNTgsLTYyMDM1
-NTEyMV19
+eyJoaXN0b3J5IjpbLTE3MTQ4NjU0OTksLTEyMDUwOTU5OTEsLT
+ExMzc1ODc2ODcsLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2
+NDU3NjMzMCw4NTU1ODc3ODcsNTAxMzg3ODA0LC04MDU2MzIzND
+YsMTg1MjU1NzQzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNzY2
+NTE3Miw0OTI3Mjk3MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5LD
+M0NTc4OTQ4OSwtMjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02MjAz
+NTUxMjFdfQ==
 -->
