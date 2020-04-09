@@ -26,6 +26,7 @@ match a_num.cmp(&b_num) {
   Ordering::Equal => println!("Same")
 }
 ```
+In the example above, the `a_num.cmp` method takes a pointer to `b_num` as indicated by the `&` ampersand, and compares itself to that value.
 ## Cargo
 You can **add a new code library** (also known as a "crate") to rust by adding to the `[dependencies]` section of the `cargo.toml` file. To add a new a crate simply input the crate's name and the version that you want to use. The actual installed version may differ from the version specified as this number only ensures that a version compatible with the specified version number will be installed.
 ```toml
@@ -44,6 +45,6 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzI4NDgwOSw2MTcyMjAzNDcsLTg1OD
-A4ODI0MywtMTYwODgyNTI2M119
+eyJoaXN0b3J5IjpbLTE2NDY4MzIwNzksNjE3MjIwMzQ3LC04NT
+gwODgyNDMsLTE2MDg4MjUyNjNdfQ==
 -->
