@@ -4,11 +4,12 @@ layout: page
 exclude: true
 ---
 
- - [Core](#core)
- - [Expectations](#expectations)
+ - [core](#core)
+	 - [shared context](#shared-context)
+ - [expectations](#expectations)
 	 - [collection matchers](#collection-matchers)
- - [Mocks](#mocks)
-	 - [Instance Doubles](#instance-double)
+ - [mocks](#mocks)
+	 - [instance doubles](#instance-double)
 
 ## Core
 You can **add a class description and a block description to a describe block** by submitting multiple comma separated arguments to the describe.
@@ -17,7 +18,8 @@ describe MyClass, '#my_method' do
   # ... testing code
 end
 ``` 
-
+---
+#### Shared Context
 A **shared context** allows you to define re-usable context code for your examples. You can define a shared context inside a `shared_context` block that is separate from your main `describe` code. You can **define instance variables, methods and** `let` **statements** inside a shared context. Instance variables must initialized inside a shared context must be contained in a `before` block.
 ```ruby
 # defining a shared context
@@ -490,11 +492,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDEyOTk5OSwtMTIzMTc2NDU4NSwtND
-MwMzQ0OTkzLC0xMTE5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEy
-MzkwNzUsMTgzNzMzMzA2OCw0NjA1Njk5MywtMTIwNTA5NTk5MS
-wtMTEzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0ODk3Mywx
-NTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQsLTgwNTYzMj
-M0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3MzYsLTM3
-NjY1MTcyXX0=
+eyJoaXN0b3J5IjpbLTE5NzY1MzgzOTAsLTEyMzE3NjQ1ODUsLT
+QzMDM0NDk5MywtMTExOTczMTE1MiwxNzcwNzE3MTMxLC0xNjYx
+MjM5MDc1LDE4MzczMzMwNjgsNDYwNTY5OTMsLTEyMDUwOTU5OT
+EsLTExMzc1ODc2ODcsLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMs
+MTU2NDU3NjMzMCw4NTU1ODc3ODcsNTAxMzg3ODA0LC04MDU2Mz
+IzNDYsMTg1MjU1NzQzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC0z
+NzY2NTE3Ml19
 -->
