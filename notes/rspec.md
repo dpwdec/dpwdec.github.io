@@ -152,7 +152,7 @@ allow(dbl).to receive(:a_method) { 3 }
 
 dbl.a_method => 3
 ```
-You can use **expect with receive** to check if a method is called on an object during an `example` block. Below, the first example fails because `a_method` is never called during the block. In the second instance `a_method` *is* called at least once on the object so it passes. `expect` is separate from `allow` it does not check the object *can* receive a method only that it did.
+You can use **expect with receive** to check if a method is called on an object during an `example` block. Below, the first example fails because `a_method` is never called during the block. In the second instance `a_method` *is* called at least once on the object so it passes. `expect` is separate from `allow` it does not check the object *can* receive a method only that it did. The method **must be called after the receive** statement for this to work.
 ```ruby
 # failing expect / receieve
 it "fails" do
@@ -296,11 +296,11 @@ allow(my_class).to receive(:another_method) { "Bye!" }
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4NT
-U1ODc3ODcsNTAxMzg3ODA0LC04MDU2MzIzNDYsMTg1MjU1NzQz
-LDEyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNzY2NTE3Miw0OTI3Mj
-k3MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5LDM0NTc4OTQ4OSwt
-MjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMj
-g1MTQsNDI3NDA0OTczLC0yMTEwODc2NTE0LDE2MTM5MTE0MDld
-fQ==
+eyJoaXN0b3J5IjpbLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMsMT
+U2NDU3NjMzMCw4NTU1ODc3ODcsNTAxMzg3ODA0LC04MDU2MzIz
+NDYsMTg1MjU1NzQzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNz
+Y2NTE3Miw0OTI3Mjk3MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5
+LDM0NTc4OTQ4OSwtMjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02Mj
+AzNTUxMjEsMTgyMjg1MTQsNDI3NDA0OTczLC0yMTEwODc2NTE0
+XX0=
 -->
