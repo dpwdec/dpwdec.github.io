@@ -344,7 +344,7 @@ allow(my_class).to receive(:my_method) { "Goodbye" }
 allow(my_class).to receive(:another_method) { "Bye!" }
 # => the MyClass class does not implement the instance method another_method
 ```
-`instance_double` like normal doubles **does not automatically allow methods from the class it is verifying**. These methods *must* be added using `allow` even if they exist on the verified class.
+`instance_double` like normal doubles **do not automatically allow methods from the class it is verifying**. These methods *must* be added using `allow` even if they exist on the verified class.
 ```ruby
 it "passes because method is allowed" do
   my_class = instance_double(MyClass)
@@ -360,10 +360,10 @@ it "fails because method was not allowed" do
   # => received unexpected message
 end
 ```
-
+`instance_double` will also check the arity (number of input arguments) to a real stubbed method
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODgxMzY4OSw0NjA1Njk5MywtMTIwNT
+eyJoaXN0b3J5IjpbMTc5ODgyNDUzMCw0NjA1Njk5MywtMTIwNT
 A5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0
 ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQsLT
 gwNTYzMjM0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3
