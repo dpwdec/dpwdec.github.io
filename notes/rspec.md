@@ -284,15 +284,18 @@ The class that the `instance double` verifies with can be submitted as the liter
 my_class = instance_double(MyClass)
 my_class = instance_double("MyClass")
 ```
-`instance double` can also be used with the 
+`instance double` can also be used with the `allow(...)` and `receive(...)` syntax.
+```ruby
+
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTI3Nzg4Myw1MDEzODc4MDQsLTgwNT
-YzMjM0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3MzYs
-LTM3NjY1MTcyLDQ5MjcyOTcyNiwxNjUyNTQxMjY0LDEyMTY0Nz
-c0OTksMzQ1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NTQ4NDcwNTgs
-LTYyMDM1NTEyMSwxODIyODUxNCw0Mjc0MDQ5NzMsLTIxMTA4Nz
-Y1MTQsMTYxMzkxMTQwOSw3Mjg0MzExMzksLTE2MTg0OTI2NDVd
-fQ==
+eyJoaXN0b3J5IjpbODU1NTg3Nzg3LDUwMTM4NzgwNCwtODA1Nj
+MyMzQ2LDE4NTI1NTc0MywxMjAwNjQ1Nzc4LDY1ODU3MDczNiwt
+Mzc2NjUxNzIsNDkyNzI5NzI2LDE2NTI1NDEyNjQsMTIxNjQ3Nz
+Q5OSwzNDU3ODk0ODksLTIxNzUwODUyOSwtMTY1NDg0NzA1OCwt
+NjIwMzU1MTIxLDE4MjI4NTE0LDQyNzQwNDk3MywtMjExMDg3Nj
+UxNCwxNjEzOTExNDA5LDcyODQzMTEzOSwtMTYxODQ5MjY0NV19
+
 -->
