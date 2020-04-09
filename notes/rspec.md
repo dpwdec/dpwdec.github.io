@@ -252,7 +252,7 @@ before(:context) do
 ### Verifying doubles
 Double verification allows you to **ensure that your double's methods match a real object** if the object exists. If you create a double that mirrors a real object in your software then a verifying double will check that the method you are stubbing with your double exists *and* has the correct number of inputs / outputs.
 
-An `instance_double` represents an instance of a real class and can **verify that it really does receive a specified method**.
+An `instance_double` represents an instance of a real class and can **verify that it really does receive a specified method**. Attempting to add a method to a verifying double that does not exist 
 ```ruby
 class MyClass
   def my_method
@@ -270,11 +270,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTYzMjM0NiwxODUyNTU3NDMsMTIwMD
-Y0NTc3OCw2NTg1NzA3MzYsLTM3NjY1MTcyLDQ5MjcyOTcyNiwx
-NjUyNTQxMjY0LDEyMTY0Nzc0OTksMzQ1Nzg5NDg5LC0yMTc1MD
-g1MjksLTE2NTQ4NDcwNTgsLTYyMDM1NTEyMSwxODIyODUxNCw0
-Mjc0MDQ5NzMsLTIxMTA4NzY1MTQsMTYxMzkxMTQwOSw3Mjg0Mz
-ExMzksLTE2MTg0OTI2NDUsLTEyMjc5Mjk1NDEsODY0Nzc0NTEx
+eyJoaXN0b3J5IjpbNjgxNjM0NDM5LC04MDU2MzIzNDYsMTg1Mj
+U1NzQzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNzY2NTE3Miw0
+OTI3Mjk3MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5LDM0NTc4OT
+Q4OSwtMjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUxMjEs
+MTgyMjg1MTQsNDI3NDA0OTczLC0yMTEwODc2NTE0LDE2MTM5MT
+E0MDksNzI4NDMxMTM5LC0xNjE4NDkyNjQ1LC0xMjI3OTI5NTQx
 XX0=
 -->
