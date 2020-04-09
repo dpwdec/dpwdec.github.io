@@ -266,11 +266,11 @@ describe MyClass, '#my_method' do
   => "Goodbye"
 end
 ```
-
+`instance double` can also be used with 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MTU4MTIzNSwxODUyNTU3NDMsMTIwMD
+eyJoaXN0b3J5IjpbLTgwNTYzMjM0NiwxODUyNTU3NDMsMTIwMD
 Y0NTc3OCw2NTg1NzA3MzYsLTM3NjY1MTcyLDQ5MjcyOTcyNiwx
 NjUyNTQxMjY0LDEyMTY0Nzc0OTksMzQ1Nzg5NDg5LC0yMTc1MD
 g1MjksLTE2NTQ4NDcwNTgsLTYyMDM1NTEyMSwxODIyODUxNCw0
