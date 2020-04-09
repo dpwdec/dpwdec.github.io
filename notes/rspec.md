@@ -204,7 +204,10 @@ it "fails by receiving a method with arugme '1'" do
 end
 # => F
 ```
+`with` can be **used with regular expressions** to match a range of different potential input arguments. In the example below it is also placed in a `before` block so that it can be run before 
+```ruby
 
+```
 This also works with `expect` syntax shown above, to temporarily overwrite the output value *and* launch an example test for the method being called on the object
 
  **Redefinition stops outside of the block** in which it was created. However if you want to **add a double of partial double before every test** you should enclose the `allow(...).to receive(...)` inside a `before { }` block.
@@ -328,7 +331,7 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDMxMDQwODEsLTEyMDUwOTU5OTEsLT
+eyJoaXN0b3J5IjpbLTE2Mzc4MzI3OTksLTEyMDUwOTU5OTEsLT
 ExMzc1ODc2ODcsLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2
 NDU3NjMzMCw4NTU1ODc3ODcsNTAxMzg3ODA0LC04MDU2MzIzND
 YsMTg1MjU1NzQzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNzY2
