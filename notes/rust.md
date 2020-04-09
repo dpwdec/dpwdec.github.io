@@ -4,13 +4,13 @@ layout: page
 exclude: true
 ---
 ## Variables and Types
-Variables in Rust are **immutable** by default and cannot be changed after they are assigned.
+Variables in Rust are **immutable** by default and cannot be changed after they are assigned. The Rust team argues that immutable variables are more in general more stable and easier to debug because they are clear and do n
 ```rust
 let x = 4
 // next line will cause an error
 let x = 5 // --> NOT VALID
 ```
-You can define **mutable** variables by using the 
+You can define **mutable** variables by using the `mut` keyword before a variable is first assigned.
 
 You can **convert a string into a number** by using Rust's string `parse` method. This takes a string input and converts it into a number. There are many types of numbers such as an unsigned or signed 64 bit integer or a signed 32 bit integer, this means you need to specify what type of number you want the parse method to output by adding a `:` and the number type, such as `u32` to the end of the variable name. The `trim` method works like Ruby's `chomp` method and removes any `\n` special characters from the string which would cause an error if you tried to parse them to a number.
 ```rust
@@ -53,6 +53,6 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NTc3NTM5Miw2MTcyMjAzNDcsLTg1OD
-A4ODI0MywtMTYwODgyNTI2M119
+eyJoaXN0b3J5IjpbLTExMjkyNzY0NjEsNjE3MjIwMzQ3LC04NT
+gwODgyNDMsLTE2MDg4MjUyNjNdfQ==
 -->
