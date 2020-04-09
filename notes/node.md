@@ -9,10 +9,10 @@ You can **trigger nodemon server running** by adding a new script the `package.j
   "dev": "nodemon SERVER_FILE_NAME"
 }
 ```
-You can then trigger this script with the command `npm run dev`.
+You can then **trigger this nodemon script** with the command `npm run dev`. You can also give this script whatever name you want, like `tomato`.
 [nm]: https://www.npmjs.com/package/nodemon
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzY1OTU4LC0xNTM4NTU4OTBdfQ==
+eyJoaXN0b3J5IjpbLTE1NDY0MzI2NzEsLTE1Mzg1NTg5MF19
 -->
