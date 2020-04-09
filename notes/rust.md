@@ -5,7 +5,7 @@ exclude: true
 ---
 ## Control Flow
 ## Pattern Matching
-The `match` keyword can be used to match the output of a particular set of enums and execute code based on the result. In the example below `a_num`
+The `match` keyword can be used to match the output of a particular set of enums and execute code based on the result. In the example below `a_num` run a comparison method on `b_num` which returns an enum with three possible outputs - Less, Greater and Equal. The `match` block then executes code based on each possible return type from the enum.
 ```rust
 use std::cmp::Ordering;
 // initialize numbers
@@ -18,6 +18,7 @@ match a_num.cmp(&b_num) {
   Ordering::Equal => println!("Same")
 }
 ```
+
 ## Cargo
 You can **add a new code library** (also known as a "crate") to rust by adding to the `[dependencies]` section of the `cargo.toml` file. To add a new a crate simply input the crate's name and the version that you want to use. The actual installed version may differ from the version specified as this number only ensures that a version compatible with the specified version number will be installed.
 ```toml
@@ -36,6 +37,6 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDQ2NTk5MCwtODU4MDg4MjQzLC0xNj
-A4ODI1MjYzXX0=
+eyJoaXN0b3J5IjpbNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2MD
+g4MjUyNjNdfQ==
 -->
