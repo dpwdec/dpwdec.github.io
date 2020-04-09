@@ -81,7 +81,7 @@ shared_context 'context name' do
 end
 ```
 ## Expectations
-A basic way to **test argument input values** by expecting the output of the correct input to *not* raise an error.
+A basic way to **test argument input values** is by expecting the output of the correct input to *not* raise an error.
 ```ruby
 # testing that method accepts 2 integers as input
 expect { subject.method(2, 10) }.to_not raise_error
@@ -312,11 +312,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzc1ODc2ODcsLTEzNjM2NDc4OTYsLT
-IwODYxNDg5NzMsMTU2NDU3NjMzMCw4NTU1ODc3ODcsNTAxMzg3
-ODA0LC04MDU2MzIzNDYsMTg1MjU1NzQzLDEyMDA2NDU3NzgsNj
-U4NTcwNzM2LC0zNzY2NTE3Miw0OTI3Mjk3MjYsMTY1MjU0MTI2
-NCwxMjE2NDc3NDk5LDM0NTc4OTQ4OSwtMjE3NTA4NTI5LC0xNj
-U0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMjg1MTQsNDI3NDA0OTcz
-XX0=
+eyJoaXN0b3J5IjpbLTEyMDUwOTU5OTEsLTExMzc1ODc2ODcsLT
+EzNjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4NTU1
+ODc3ODcsNTAxMzg3ODA0LC04MDU2MzIzNDYsMTg1MjU1NzQzLD
+EyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNzY2NTE3Miw0OTI3Mjk3
+MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5LDM0NTc4OTQ4OSwtMj
+E3NTA4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMjg1
+MTRdfQ==
 -->
