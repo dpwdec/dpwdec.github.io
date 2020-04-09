@@ -252,15 +252,15 @@ before(:context) do
 ### Verifying doubles
 Double verification allows you to **ensure that your double's methods match a real object** if the object exists. If you create a double that mirrors a real object in your software then a verifying double will check that the method you are stubbing with your double exists *and* has the correct number of inputs / outputs.
 
-
+An `instance_double` represents an instance of a real class
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjU1NzQzLDEyMDA2NDU3NzgsNjU4NT
-cwNzM2LC0zNzY2NTE3Miw0OTI3Mjk3MjYsMTY1MjU0MTI2NCwx
-MjE2NDc3NDk5LDM0NTc4OTQ4OSwtMjE3NTA4NTI5LC0xNjU0OD
-Q3MDU4LC02MjAzNTUxMjEsMTgyMjg1MTQsNDI3NDA0OTczLC0y
-MTEwODc2NTE0LDE2MTM5MTE0MDksNzI4NDMxMTM5LC0xNjE4ND
-kyNjQ1LC0xMjI3OTI5NTQxLDg2NDc3NDUxMSwtNzUwNDU5NDU1
-XX0=
+eyJoaXN0b3J5IjpbLTE4NjA4NDkxNzQsMTg1MjU1NzQzLDEyMD
+A2NDU3NzgsNjU4NTcwNzM2LC0zNzY2NTE3Miw0OTI3Mjk3MjYs
+MTY1MjU0MTI2NCwxMjE2NDc3NDk5LDM0NTc4OTQ4OSwtMjE3NT
+A4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMjg1MTQs
+NDI3NDA0OTczLC0yMTEwODc2NTE0LDE2MTM5MTE0MDksNzI4ND
+MxMTM5LC0xNjE4NDkyNjQ1LC0xMjI3OTI5NTQxLDg2NDc3NDUx
+MV19
 -->
