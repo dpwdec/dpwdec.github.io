@@ -5,6 +5,10 @@ exclude: true
 ---
 
  - [Core](#core)
+ - [Expectations](#expectations)
+	 - [collection matchers](#collection-matchers)
+ - [Mocks](#mocks)
+	 - 
 
 ## Core
 You can **add a class description and a block description to a describe block** by submitting multiple comma separated arguments to the describe.
@@ -486,11 +490,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTQ1MDcwNiwtMTIzMTc2NDU4NSwtND
-MwMzQ0OTkzLC0xMTE5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEy
-MzkwNzUsMTgzNzMzMzA2OCw0NjA1Njk5MywtMTIwNTA5NTk5MS
-wtMTEzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0ODk3Mywx
-NTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQsLTgwNTYzMj
-M0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3MzYsLTM3
-NjY1MTcyXX0=
+eyJoaXN0b3J5IjpbMTMwNDE0NDA5LC0xMjMxNzY0NTg1LC00Mz
+AzNDQ5OTMsLTExMTk3MzExNTIsMTc3MDcxNzEzMSwtMTY2MTIz
+OTA3NSwxODM3MzMzMDY4LDQ2MDU2OTkzLC0xMjA1MDk1OTkxLC
+0xMTM3NTg3Njg3LC0xMzYzNjQ3ODk2LC0yMDg2MTQ4OTczLDE1
+NjQ1NzYzMzAsODU1NTg3Nzg3LDUwMTM4NzgwNCwtODA1NjMyMz
+Q2LDE4NTI1NTc0MywxMjAwNjQ1Nzc4LDY1ODU3MDczNiwtMzc2
+NjUxNzJdfQ==
 -->
