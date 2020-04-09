@@ -261,13 +261,17 @@ class MyClass
 end
 
 describe MyClass, '#my_method' do
+  # verifies that my_method exists
   it "creates a working verified double" do
     my_class = instance_double(MyClass, :my_method => "Goodbye")
     my_class.my_method
   => "Goodbye"
   end
   it "creates a failing verified double" do
+    # errors when you try to add a method that 
+    # doesn't exist on the original class
     my_class = instance_double(MyClass, :another_method => "Hello")
+    => the MyClass class does not implement the instance method another_method
   end
 end
 ```
@@ -276,11 +280,11 @@ An `instance double` must be created inside an `it` example block.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjYyNzY1NiwtODA1NjMyMzQ2LDE4NT
-I1NTc0MywxMjAwNjQ1Nzc4LDY1ODU3MDczNiwtMzc2NjUxNzIs
-NDkyNzI5NzI2LDE2NTI1NDEyNjQsMTIxNjQ3NzQ5OSwzNDU3OD
-k0ODksLTIxNzUwODUyOSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIx
-LDE4MjI4NTE0LDQyNzQwNDk3MywtMjExMDg3NjUxNCwxNjEzOT
-ExNDA5LDcyODQzMTEzOSwtMTYxODQ5MjY0NSwtMTIyNzkyOTU0
-MV19
+eyJoaXN0b3J5IjpbNTAxMzg3ODA0LC04MDU2MzIzNDYsMTg1Mj
+U1NzQzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNzY2NTE3Miw0
+OTI3Mjk3MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5LDM0NTc4OT
+Q4OSwtMjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUxMjEs
+MTgyMjg1MTQsNDI3NDA0OTczLC0yMTEwODc2NTE0LDE2MTM5MT
+E0MDksNzI4NDMxMTM5LC0xNjE4NDkyNjQ1LC0xMjI3OTI5NTQx
+XX0=
 -->
