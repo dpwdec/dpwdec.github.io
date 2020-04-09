@@ -5,6 +5,11 @@ exclude: true
 ---
 ## Variables and Types
 You can **convert a string into a number** by using Rust's string `parse` method. This takes a string input and converts it into a number. There are many types of numbers such as an unsigned or signed 64 bit integer or a signed 32 bit integer, this means you need to specify what type of number you want the parse method to output. The `trim` method works like Ruby's `chomp` method and removes any `\n` special characters from the string.
+```rust
+let my_string = "48";
+// parse string into a number
+let my_number: u32 = my_string.trim().parse()
+  .expect("Invalid number")
 ```
 ## Control Flow
 ## Pattern Matching
@@ -40,6 +45,6 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0MDY2NDczLDYxNzIyMDM0NywtODU4MD
+eyJoaXN0b3J5IjpbLTk1MDU5NjY1LDYxNzIyMDM0NywtODU4MD
 g4MjQzLC0xNjA4ODI1MjYzXX0=
 -->
