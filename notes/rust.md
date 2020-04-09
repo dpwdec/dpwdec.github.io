@@ -8,10 +8,15 @@ exclude: true
 The `match` keyword can be used to match the output of a particular set of enums and execute code based on the result.
 ```rust
 use std::cmp::Ordering;
+// initialize numbers
 let a_num = 10;
 let b_num = 15;
-
-match a.cmp(&b
+// check matches
+match a_num.cmp(&b_num) {
+  Ordering::Less => println!("Smaller")
+  Ordering::Greater=> println!("Larger")
+  Ordering::Equal => println!("Same")
+}
 ```
 ## Cargo
 You can **add a new code library** (also known as a "crate") to rust by adding to the `[dependencies]` section of the `cargo.toml` file. To add a new a crate simply input the crate's name and the version that you want to use. The actual installed version may differ from the version specified as this number only ensures that a version compatible with the specified version number will be installed.
@@ -31,6 +36,6 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDUzNTEyMywtODU4MDg4MjQzLC0xNj
-A4ODI1MjYzXX0=
+eyJoaXN0b3J5IjpbOTkyNTQwNTk3LC04NTgwODgyNDMsLTE2MD
+g4MjUyNjNdfQ==
 -->
