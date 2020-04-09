@@ -448,7 +448,7 @@ class Notifier
 end
 
 describe Caller do
-  it "calls create on notifier" do
+  it "passes by calling create on notifier" do
     note = instance_double("Notifier")
 
     expect(note).to receive(:create).with("re-call", 12) { "re-called 12" }
@@ -457,16 +457,17 @@ describe Caller do
     caller.notify!
   end
   # => .
+  it "fails by calling 
 end
 ```
-
+Had an `instance_double` not been used here and we passed a method that
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDM0NDk5MywtMTExOTczMTE1MiwxNz
-cwNzE3MTMxLC0xNjYxMjM5MDc1LDE4MzczMzMwNjgsNDYwNTY5
-OTMsLTEyMDUwOTU5OTEsLTExMzc1ODc2ODcsLTEzNjM2NDc4OT
-YsLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4NTU1ODc3ODcsNTAx
-Mzg3ODA0LC04MDU2MzIzNDYsMTg1MjU1NzQzLDEyMDA2NDU3Nz
-gsNjU4NTcwNzM2LC0zNzY2NTE3Miw0OTI3Mjk3MjYsMTY1MjU0
-MTI2NF19
+eyJoaXN0b3J5IjpbMTEyNDY5NDY3NCwtNDMwMzQ0OTkzLC0xMT
+E5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEyMzkwNzUsMTgzNzMz
+MzA2OCw0NjA1Njk5MywtMTIwNTA5NTk5MSwtMTEzNzU4NzY4Ny
+wtMTM2MzY0Nzg5NiwtMjA4NjE0ODk3MywxNTY0NTc2MzMwLDg1
+NTU4Nzc4Nyw1MDEzODc4MDQsLTgwNTYzMjM0NiwxODUyNTU3ND
+MsMTIwMDY0NTc3OCw2NTg1NzA3MzYsLTM3NjY1MTcyLDQ5Mjcy
+OTcyNl19
 -->
