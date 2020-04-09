@@ -407,6 +407,7 @@ describe Checker do
   # => Missing required keyword arguments: baz
 end
 ```
+You can use `instance_double` the `expect(...)` and `receive(...
 `instance_double` can be **combined with `expect(...)`, `receive(...)`, `have_received(..)` and `with` methods** to create matchers for methods called on verifying doubles.
 ```ruby
 class Caller
@@ -440,7 +441,7 @@ end
 As with 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTgzNDA5MCwxODM3MzMzMDY4LDQ2MD
+eyJoaXN0b3J5IjpbMTczODAxMDA4OCwxODM3MzMzMDY4LDQ2MD
 U2OTkzLC0xMjA1MDk1OTkxLC0xMTM3NTg3Njg3LC0xMzYzNjQ3
 ODk2LC0yMDg2MTQ4OTczLDE1NjQ1NzYzMzAsODU1NTg3Nzg3LD
 UwMTM4NzgwNCwtODA1NjMyMzQ2LDE4NTI1NTc0MywxMjAwNjQ1
