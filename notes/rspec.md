@@ -407,9 +407,19 @@ describe Checker do
   # => Missing required keyword arguments: baz
 end
 ```
-You can use `instance_double` the `expect(...)` and `receive(...)` matchers to check that a real object is being checked.
+You can **use `instance_double` the `expect(...)` and `receive(...)` matchers** to check that a real object is being checked. When doing this methods **do not** need to be 
 ```ruby
+class Mint
+  def minty!
+    # ..
+  end
+end
 
+describe Mint do
+  it "expects a real method" do
+    mint = instance_double(
+  end
+end
 ```
 `instance_double` can be **combined with `expect(...)`, `receive(...)`, `have_received(..)` and `with` methods** to create matchers for methods called on verifying doubles.
 ```ruby
@@ -444,7 +454,7 @@ end
 As with 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzA0MTIzNDYsMTgzNzMzMzA2OCw0Nj
+eyJoaXN0b3J5IjpbLTEzMjMzNDMxNDcsMTgzNzMzMzA2OCw0Nj
 A1Njk5MywtMTIwNTA5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0
 Nzg5NiwtMjA4NjE0ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Ny
 w1MDEzODc4MDQsLTgwNTYzMjM0NiwxODUyNTU3NDMsMTIwMDY0
