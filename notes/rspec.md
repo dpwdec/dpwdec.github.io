@@ -360,10 +360,10 @@ it "fails because method was not allowed" do
   # => received unexpected message
 end
 ```
-`instance_double` will also check the arity (number of input arguments) to a real stubbed method
+`instance_double` will also check the arity (number of input arguments) to a real stubbed method.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODgyNDUzMCw0NjA1Njk5MywtMTIwNT
+eyJoaXN0b3J5IjpbMTgzNzMzMzA2OCw0NjA1Njk5MywtMTIwNT
 A5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0
 ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQsLT
 gwNTYzMjM0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3
