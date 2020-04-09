@@ -326,12 +326,11 @@ describe MyClass, '#my_method' do
   end
 end
 ```
-An `instance_double` must be created inside an `it` example block.
+An `instance_double` **must be created inside an `it` example block**.
 
 The class that the `instance_double` verifies with can be submitted as the literal class name *or* as a string. They can be **used interchangeably**.
 ```ruby
-# both of these are valid constructors for a
-# MyClass verifying double
+# both of these are valid constructors for a MyClass verifying double
 my_class = instance_double(MyClass)
 my_class = instance_double("MyClass")
 ```
@@ -351,7 +350,7 @@ it "passes because method is allowed" do
   allow(my_class).to receive(:my_method) { "Goodbye" }
   my_class.my_method
 end
-# Even though MyClass impement my_method
+# Even though MyClass impements my_method
 # it wasn't explicitly allowed on this double
 # so it fails
 it "fails because method was not allowed" do
@@ -463,11 +462,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDcxNzEzMSwtMTY2MTIzOTA3NSwxOD
-M3MzMzMDY4LDQ2MDU2OTkzLC0xMjA1MDk1OTkxLC0xMTM3NTg3
-Njg3LC0xMzYzNjQ3ODk2LC0yMDg2MTQ4OTczLDE1NjQ1NzYzMz
-AsODU1NTg3Nzg3LDUwMTM4NzgwNCwtODA1NjMyMzQ2LDE4NTI1
-NTc0MywxMjAwNjQ1Nzc4LDY1ODU3MDczNiwtMzc2NjUxNzIsND
-kyNzI5NzI2LDE2NTI1NDEyNjQsMTIxNjQ3NzQ5OSwzNDU3ODk0
-ODldfQ==
+eyJoaXN0b3J5IjpbLTEyMjA4NTE1NzEsMTc3MDcxNzEzMSwtMT
+Y2MTIzOTA3NSwxODM3MzMzMDY4LDQ2MDU2OTkzLC0xMjA1MDk1
+OTkxLC0xMTM3NTg3Njg3LC0xMzYzNjQ3ODk2LC0yMDg2MTQ4OT
+czLDE1NjQ1NzYzMzAsODU1NTg3Nzg3LDUwMTM4NzgwNCwtODA1
+NjMyMzQ2LDE4NTI1NTc0MywxMjAwNjQ1Nzc4LDY1ODU3MDczNi
+wtMzc2NjUxNzIsNDkyNzI5NzI2LDE2NTI1NDEyNjQsMTIxNjQ3
+NzQ5OV19
 -->
