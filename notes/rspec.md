@@ -440,7 +440,7 @@ class Caller
     puts @notifier.create("re-call", 12)
   end
 
-  def reiterate!
+  def reiterate
     puts @notifier.profile("input", 20)
   end
 end
@@ -455,21 +455,26 @@ describe Caller do
   it "passes by calling create on notifier" do
     note = instance_double("Notifier")
 
-    expect(note).to receive(:profile).with("input", 20) { "input 20" }
+    expect(note).to receive(:create).with("re-call", 12) { "re-called 12" }
     
     caller = Caller.new(note)
-    caller.reiterate!
+    caller.notify!
   end
   # => .
   it "fails by calling profile on notifier" do
-  
+    note = instance_double("Notifier")
+
+    expect(note).to receive(:profile).with("re-call", 12) { "re-called 12" }
+    
+    caller = Caller.new(note)
+    caller.notify!
   end
 end
 ```
 Had an `instance_double` not been used here and we passed a method that
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDg4NzU0OTIsLTQzMDM0NDk5MywtMT
+eyJoaXN0b3J5IjpbLTE2MjE1NzI2MTksLTQzMDM0NDk5MywtMT
 ExOTczMTE1MiwxNzcwNzE3MTMxLC0xNjYxMjM5MDc1LDE4Mzcz
 MzMwNjgsNDYwNTY5OTMsLTEyMDUwOTU5OTEsLTExMzc1ODc2OD
 csLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4
