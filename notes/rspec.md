@@ -416,8 +416,14 @@ class Mint
 end
 
 describe Mint do
-  it "expects a real method" do
-    mint = instance_double(
+  it "passes with a real method" do
+    mint = instance_double("Mint")
+    expect(mint).to receive(:minty!)
+    mint.minty!
+  end
+  # => .
+  it "fails with an unknown method" do
+    mint = instance_double("Mint")
   end
 end
 ```
@@ -454,11 +460,11 @@ end
 As with 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzM2NDY3OCwxODM3MzMzMDY4LDQ2MD
-U2OTkzLC0xMjA1MDk1OTkxLC0xMTM3NTg3Njg3LC0xMzYzNjQ3
-ODk2LC0yMDg2MTQ4OTczLDE1NjQ1NzYzMzAsODU1NTg3Nzg3LD
-UwMTM4NzgwNCwtODA1NjMyMzQ2LDE4NTI1NTc0MywxMjAwNjQ1
-Nzc4LDY1ODU3MDczNiwtMzc2NjUxNzIsNDkyNzI5NzI2LDE2NT
-I1NDEyNjQsMTIxNjQ3NzQ5OSwzNDU3ODk0ODksLTIxNzUwODUy
-OV19
+eyJoaXN0b3J5IjpbNzg0NTI0NzkwLDE4MzczMzMwNjgsNDYwNT
+Y5OTMsLTEyMDUwOTU5OTEsLTExMzc1ODc2ODcsLTEzNjM2NDc4
+OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4NTU1ODc3ODcsNT
+AxMzg3ODA0LC04MDU2MzIzNDYsMTg1MjU1NzQzLDEyMDA2NDU3
+NzgsNjU4NTcwNzM2LC0zNzY2NTE3Miw0OTI3Mjk3MjYsMTY1Mj
+U0MTI2NCwxMjE2NDc3NDk5LDM0NTc4OTQ4OSwtMjE3NTA4NTI5
+XX0=
 -->
