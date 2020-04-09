@@ -406,7 +406,7 @@ describe Checker do
   # => Missing required keyword arguments: baz
 end
 ```
-You can **use `instance_double` the `expect(...)` and `receive(...)` matchers** to check that a real object is being checked. When doing this methods **do not** need to be `allowed` because they are just having their calls checked.
+You can **use `instance_double` the `expect(...)` and `receive(...)` matchers** to confirm that doubles being called by other objects are being interacted with correctly. When doing this methods **do not** need to be `allowed` because they are just having their calls checked.
 ```ruby
 class Mint
   def minty!
@@ -462,11 +462,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjA4NTE1NzEsMTc3MDcxNzEzMSwtMT
-Y2MTIzOTA3NSwxODM3MzMzMDY4LDQ2MDU2OTkzLC0xMjA1MDk1
-OTkxLC0xMTM3NTg3Njg3LC0xMzYzNjQ3ODk2LC0yMDg2MTQ4OT
-czLDE1NjQ1NzYzMzAsODU1NTg3Nzg3LDUwMTM4NzgwNCwtODA1
-NjMyMzQ2LDE4NTI1NTc0MywxMjAwNjQ1Nzc4LDY1ODU3MDczNi
-wtMzc2NjUxNzIsNDkyNzI5NzI2LDE2NTI1NDEyNjQsMTIxNjQ3
-NzQ5OV19
+eyJoaXN0b3J5IjpbMjEzOTAwNTAxNywxNzcwNzE3MTMxLC0xNj
+YxMjM5MDc1LDE4MzczMzMwNjgsNDYwNTY5OTMsLTEyMDUwOTU5
+OTEsLTExMzc1ODc2ODcsLTEzNjM2NDc4OTYsLTIwODYxNDg5Nz
+MsMTU2NDU3NjMzMCw4NTU1ODc3ODcsNTAxMzg3ODA0LC04MDU2
+MzIzNDYsMTg1MjU1NzQzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC
+0zNzY2NTE3Miw0OTI3Mjk3MjYsMTY1MjU0MTI2NCwxMjE2NDc3
+NDk5XX0=
 -->
