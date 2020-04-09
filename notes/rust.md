@@ -10,9 +10,11 @@ You can **add a new code library** (also known as a "crate") to rust by adding t
 [dependencies]
 crate_name = "0.5.5"
 ```
-Use `cargo build` to update and download any dependencies to your project.
+Use `cargo build` to update and download any dependencies to your project. You can use `cargo update` to update your installed dependencies, this will also ignore your `cargo.lock` file.
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3Njk0ODAwOSwtODU4MDg4MjQzLC0xNj
+eyJoaXN0b3J5IjpbMTE1NjM5OTI2MywtODU4MDg4MjQzLC0xNj
 A4ODI1MjYzXX0=
 -->
