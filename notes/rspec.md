@@ -189,6 +189,8 @@ it "returns a redefined value" do
 end
 # => .
 ```
+This also works with `expect` syntax shown above, to temporarily overwrite the output value *and* launch an example test for the method being called on the object
+
 You can use the `with` match appended to a receive check if a method receives a particular set of arguments.
 ```ruby
 it "passes by receiving a method with argument 1" do
@@ -208,8 +210,6 @@ end
 ```ruby
 
 ```
-This also works with `expect` syntax shown above, to temporarily overwrite the output value *and* launch an example test for the method being called on the object
-
  **Redefinition stops outside of the block** in which it was created. However if you want to **add a double of partial double before every test** you should enclose the `allow(...).to receive(...)` inside a `before { }` block.
 
 This is useful if you want to mock up the response of an object without effecting its functionality. For example, say we have a method in our object `random_number` which just returns a  random number that determines the state of our program in some way. When testing we want to check for all the states that this random number could create without just running our code over and over again to get all the possible states *or* changing the code in random number so that it outputs the numbers that we want for testing purposes. We can simply use **partial test doubles** to temporarily overwrite the output of `random_number` for the purposes of a test. You can see an implementation of this in the `Dice Messenger` kata of my [RSpec Katas][rkata] repo.
@@ -331,11 +331,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzc4MzI3OTksLTEyMDUwOTU5OTEsLT
-ExMzc1ODc2ODcsLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2
-NDU3NjMzMCw4NTU1ODc3ODcsNTAxMzg3ODA0LC04MDU2MzIzND
-YsMTg1MjU1NzQzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNzY2
-NTE3Miw0OTI3Mjk3MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5LD
-M0NTc4OTQ4OSwtMjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02MjAz
-NTUxMjFdfQ==
+eyJoaXN0b3J5IjpbNDYwNTY5OTMsLTEyMDUwOTU5OTEsLTExMz
+c1ODc2ODcsLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2NDU3
+NjMzMCw4NTU1ODc3ODcsNTAxMzg3ODA0LC04MDU2MzIzNDYsMT
+g1MjU1NzQzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNzY2NTE3
+Miw0OTI3Mjk3MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5LDM0NT
+c4OTQ4OSwtMjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUx
+MjFdfQ==
 -->
