@@ -113,7 +113,7 @@ end
 [colremove]: [https://stackoverflow.com/questions/24111204/rspec-to-haven-items-undefined-method](https://stackoverflow.com/questions/24111204/rspec-to-haven-items-undefined-method)
 [rscm]: [https://github.com/rspec/rspec-collection_matchers](https://github.com/rspec/rspec-collection_matchers)
 ## Mocks
-
+### Basics
 **Test doubles** allow you to define object's that "stand in" for a real object in your system and will give and receive data in a predefined patterns as if they were an actual object. To **create a double** use:
 ```ruby
 dbl = double()
@@ -250,15 +250,15 @@ before(:context) do
   end
 ```
 ### Verifying doubles
-
+Double verification allows you to **ensure that your double's methods match a real object** if the object exists. If you create a double that mirrors a real object in your software then a verifying double will check that the method you are stubbing with y
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTMwMzEwOCwxMjAwNjQ1Nzc4LDY1OD
-U3MDczNiwtMzc2NjUxNzIsNDkyNzI5NzI2LDE2NTI1NDEyNjQs
-MTIxNjQ3NzQ5OSwzNDU3ODk0ODksLTIxNzUwODUyOSwtMTY1ND
-g0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0LDQyNzQwNDk3Mywt
-MjExMDg3NjUxNCwxNjEzOTExNDA5LDcyODQzMTEzOSwtMTYxOD
-Q5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1MTEsLTc1MDQ1OTQ1
-NV19
+eyJoaXN0b3J5IjpbLTE5MDI0NzQ4NzAsMTIwMDY0NTc3OCw2NT
+g1NzA3MzYsLTM3NjY1MTcyLDQ5MjcyOTcyNiwxNjUyNTQxMjY0
+LDEyMTY0Nzc0OTksMzQ1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NT
+Q4NDcwNTgsLTYyMDM1NTEyMSwxODIyODUxNCw0Mjc0MDQ5NzMs
+LTIxMTA4NzY1MTQsMTYxMzkxMTQwOSw3Mjg0MzExMzksLTE2MT
+g0OTI2NDUsLTEyMjc5Mjk1NDEsODY0Nzc0NTExLC03NTA0NTk0
+NTVdfQ==
 -->
