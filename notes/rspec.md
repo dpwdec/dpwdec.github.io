@@ -440,7 +440,7 @@ class Caller
     puts @notifier.create("re-call", 12)
   end
 
-  def reiterate
+  def reiterate!
     puts @notifier.profile("input", 20)
   end
 end
@@ -474,11 +474,11 @@ end
 Had an `instance_double` not been used here and we passed a method that
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3MTY4ODAyLC00MzAzNDQ5OTMsLTExMT
-k3MzExNTIsMTc3MDcxNzEzMSwtMTY2MTIzOTA3NSwxODM3MzMz
-MDY4LDQ2MDU2OTkzLC0xMjA1MDk1OTkxLC0xMTM3NTg3Njg3LC
-0xMzYzNjQ3ODk2LC0yMDg2MTQ4OTczLDE1NjQ1NzYzMzAsODU1
-NTg3Nzg3LDUwMTM4NzgwNCwtODA1NjMyMzQ2LDE4NTI1NTc0My
-wxMjAwNjQ1Nzc4LDY1ODU3MDczNiwtMzc2NjUxNzIsNDkyNzI5
-NzI2XX0=
+eyJoaXN0b3J5IjpbLTkxNjkzODUxOSwtNDMwMzQ0OTkzLC0xMT
+E5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEyMzkwNzUsMTgzNzMz
+MzA2OCw0NjA1Njk5MywtMTIwNTA5NTk5MSwtMTEzNzU4NzY4Ny
+wtMTM2MzY0Nzg5NiwtMjA4NjE0ODk3MywxNTY0NTc2MzMwLDg1
+NTU4Nzc4Nyw1MDEzODc4MDQsLTgwNTYzMjM0NiwxODUyNTU3ND
+MsMTIwMDY0NTc3OCw2NTg1NzA3MzYsLTM3NjY1MTcyLDQ5Mjcy
+OTcyNl19
 -->
