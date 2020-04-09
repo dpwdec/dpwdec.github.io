@@ -419,17 +419,23 @@ class Caller
   end
 end
 
-describe Caller do
+class Notifier
+end
 
+describe Caller do
+  it "calls create on notifier"
+    note = instance_double("Notifier")
+    caller = Caller.new
+  end
 end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTUyOTg4NzUsMTgzNzMzMzA2OCw0Nj
-A1Njk5MywtMTIwNTA5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0
-Nzg5NiwtMjA4NjE0ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Ny
-w1MDEzODc4MDQsLTgwNTYzMjM0NiwxODUyNTU3NDMsMTIwMDY0
-NTc3OCw2NTg1NzA3MzYsLTM3NjY1MTcyLDQ5MjcyOTcyNiwxNj
-UyNTQxMjY0LDEyMTY0Nzc0OTksMzQ1Nzg5NDg5LC0yMTc1MDg1
-MjldfQ==
+eyJoaXN0b3J5IjpbNDA5MjE5MDM4LDE4MzczMzMwNjgsNDYwNT
+Y5OTMsLTEyMDUwOTU5OTEsLTExMzc1ODc2ODcsLTEzNjM2NDc4
+OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4NTU1ODc3ODcsNT
+AxMzg3ODA0LC04MDU2MzIzNDYsMTg1MjU1NzQzLDEyMDA2NDU3
+NzgsNjU4NTcwNzM2LC0zNzY2NTE3Miw0OTI3Mjk3MjYsMTY1Mj
+U0MTI2NCwxMjE2NDc3NDk5LDM0NTc4OTQ4OSwtMjE3NTA4NTI5
+XX0=
 -->
