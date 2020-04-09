@@ -277,7 +277,7 @@ end
 ```
 An `instance double` must be created inside an `it` example block.
 
-The class that the `instance double` verifies with can be submitted as the literal class name *or* as a string.
+The class that the `instance double` verifies with can be submitted as the literal class name *or* as a string. They can be **used interchangeably**.
 ```ruby
 # both of these are valid constructors for a
 # MyClass verifying double
@@ -286,16 +286,16 @@ my_class = instance_double("MyClass")
 ```
 `instance double` can also be used with the `allow(...)` and `receive(...)` syntax.
 ```ruby
-
+my_class = instance_double("MyClass")
+my
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1NTg3Nzg3LDUwMTM4NzgwNCwtODA1Nj
-MyMzQ2LDE4NTI1NTc0MywxMjAwNjQ1Nzc4LDY1ODU3MDczNiwt
-Mzc2NjUxNzIsNDkyNzI5NzI2LDE2NTI1NDEyNjQsMTIxNjQ3Nz
-Q5OSwzNDU3ODk0ODksLTIxNzUwODUyOSwtMTY1NDg0NzA1OCwt
-NjIwMzU1MTIxLDE4MjI4NTE0LDQyNzQwNDk3MywtMjExMDg3Nj
-UxNCwxNjEzOTExNDA5LDcyODQzMTEzOSwtMTYxODQ5MjY0NV19
-
+eyJoaXN0b3J5IjpbMTYyOTEzMzMsODU1NTg3Nzg3LDUwMTM4Nz
+gwNCwtODA1NjMyMzQ2LDE4NTI1NTc0MywxMjAwNjQ1Nzc4LDY1
+ODU3MDczNiwtMzc2NjUxNzIsNDkyNzI5NzI2LDE2NTI1NDEyNj
+QsMTIxNjQ3NzQ5OSwzNDU3ODk0ODksLTIxNzUwODUyOSwtMTY1
+NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0LDQyNzQwNDk3My
+wtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyODQzMTEzOV19
 -->
