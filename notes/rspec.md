@@ -261,17 +261,20 @@ class MyClass
 end
 
 describe MyClass, '#my_method' do
-  my_class = instance_double(MyClass, my_method: "Goddbye")
+  my_class = instance_double(MyClass, :my_method => "Goodbye")
+  my_class.my_method
+  => "Goodbye"
 end
 ```
 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1NjQyNjQwLDE4NTI1NTc0MywxMjAwNj
-Q1Nzc4LDY1ODU3MDczNiwtMzc2NjUxNzIsNDkyNzI5NzI2LDE2
-NTI1NDEyNjQsMTIxNjQ3NzQ5OSwzNDU3ODk0ODksLTIxNzUwOD
-UyOSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0LDQy
-NzQwNDk3MywtMjExMDg3NjUxNCwxNjEzOTExNDA5LDcyODQzMT
-EzOSwtMTYxODQ5MjY0NSwtMTIyNzkyOTU0MSw4NjQ3NzQ1MTFd
-fQ==
+eyJoaXN0b3J5IjpbLTM3MTU4MTIzNSwxODUyNTU3NDMsMTIwMD
+Y0NTc3OCw2NTg1NzA3MzYsLTM3NjY1MTcyLDQ5MjcyOTcyNiwx
+NjUyNTQxMjY0LDEyMTY0Nzc0OTksMzQ1Nzg5NDg5LC0yMTc1MD
+g1MjksLTE2NTQ4NDcwNTgsLTYyMDM1NTEyMSwxODIyODUxNCw0
+Mjc0MDQ5NzMsLTIxMTA4NzY1MTQsMTYxMzkxMTQwOSw3Mjg0Mz
+ExMzksLTE2MTg0OTI2NDUsLTEyMjc5Mjk1NDEsODY0Nzc0NTEx
+XX0=
 -->
