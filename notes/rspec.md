@@ -275,16 +275,16 @@ describe MyClass, '#my_method' do
   end
 end
 ```
-An `instance double` must be created inside an `it` example block.
+An `instance_double` must be created inside an `it` example block.
 
-The class that the `instance double` verifies with can be submitted as the literal class name *or* as a string. They can be **used interchangeably**.
+The class that the `instance_double` verifies with can be submitted as the literal class name *or* as a string. They can be **used interchangeably**.
 ```ruby
 # both of these are valid constructors for a
 # MyClass verifying double
 my_class = instance_double(MyClass)
 my_class = instance_double("MyClass")
 ```
-`instance double` can also be used with the `allow(...)` and `receive(...)` syntax.
+`instance_double` can also be used with the `allow(...)` and `receive(...)` syntax.
 ```ruby
 my_class = instance_double("MyClass")
 # working method stubbing with verification
@@ -293,14 +293,17 @@ allow(my_class).to receive(:my_method) { "Goodbye" }
 allow(my_class).to receive(:another_method) { "Bye!" }
 => the MyClass class does not implement the instance method another_method
 ```
-
+`instance_double` like normal doubles **does not automatically allow methods from the class it is verifying**. These methods *must* be added.
+```ruby
+it "passes because meth
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMsMT
-U2NDU3NjMzMCw4NTU1ODc3ODcsNTAxMzg3ODA0LC04MDU2MzIz
-NDYsMTg1MjU1NzQzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNz
-Y2NTE3Miw0OTI3Mjk3MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5
-LDM0NTc4OTQ4OSwtMjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02Mj
-AzNTUxMjEsMTgyMjg1MTQsNDI3NDA0OTczLC0yMTEwODc2NTE0
+eyJoaXN0b3J5IjpbLTE2Nzc5NzA1NDIsLTEzNjM2NDc4OTYsLT
+IwODYxNDg5NzMsMTU2NDU3NjMzMCw4NTU1ODc3ODcsNTAxMzg3
+ODA0LC04MDU2MzIzNDYsMTg1MjU1NzQzLDEyMDA2NDU3NzgsNj
+U4NTcwNzM2LC0zNzY2NTE3Miw0OTI3Mjk3MjYsMTY1MjU0MTI2
+NCwxMjE2NDc3NDk5LDM0NTc4OTQ4OSwtMjE3NTA4NTI5LC0xNj
+U0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMjg1MTQsNDI3NDA0OTcz
 XX0=
 -->
