@@ -242,7 +242,7 @@ These `with` queries **can be combined arbitrarily for testing multiple argument
 ```ruby
 expect(dbl).to receive(:a_method).with(1, anything, /abs/)
 ```
- **Redefinition stops outside of the block** in which it was created. However if you want to **add a double of partial double before every test** you should enclose the `allow(...).to receive(...)` inside a `before { }` block.
+ **Redefinition from a double stops outside of the block** in which it was created. However if you want to **add a double of partial double before every test** you should enclose the `allow(...).to receive(...)` inside a `before { }` block.
 
 This is useful if you want to mock up the response of an object without effecting its functionality. For example, say we have a method in our object `random_number` which just returns a  random number that determines the state of our program in some way. When testing we want to check for all the states that this random number could create without just running our code over and over again to get all the possible states *or* changing the code in random number so that it outputs the numbers that we want for testing purposes. We can simply use **partial test doubles** to temporarily overwrite the output of `random_number` for the purposes of a test. You can see an implementation of this in the `Dice Messenger` kata of my [RSpec Katas][rkata] repo.
 
@@ -363,7 +363,7 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODk5OTQ4Nyw0NjA1Njk5MywtMTIwNT
+eyJoaXN0b3J5IjpbMTM0ODgxMzY4OSw0NjA1Njk5MywtMTIwNT
 A5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0
 ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQsLT
 gwNTYzMjM0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3
