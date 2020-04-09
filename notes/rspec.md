@@ -276,15 +276,20 @@ describe MyClass, '#my_method' do
 end
 ```
 An `instance double` must be created inside an `it` example block.
+
+The class that the `instance double` verifies with can be submitted as the literal class name *or* as a string.
+```ruby
+
+```
 `instance double` can also be used with 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQ4NDcwNiw1MDEzODc4MDQsLTgwNT
-YzMjM0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3MzYs
-LTM3NjY1MTcyLDQ5MjcyOTcyNiwxNjUyNTQxMjY0LDEyMTY0Nz
-c0OTksMzQ1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NTQ4NDcwNTgs
-LTYyMDM1NTEyMSwxODIyODUxNCw0Mjc0MDQ5NzMsLTIxMTA4Nz
-Y1MTQsMTYxMzkxMTQwOSw3Mjg0MzExMzksLTE2MTg0OTI2NDVd
-fQ==
+eyJoaXN0b3J5IjpbLTExODk5OTI4NTYsNTAxMzg3ODA0LC04MD
+U2MzIzNDYsMTg1MjU1NzQzLDEyMDA2NDU3NzgsNjU4NTcwNzM2
+LC0zNzY2NTE3Miw0OTI3Mjk3MjYsMTY1MjU0MTI2NCwxMjE2ND
+c3NDk5LDM0NTc4OTQ4OSwtMjE3NTA4NTI5LC0xNjU0ODQ3MDU4
+LC02MjAzNTUxMjEsMTgyMjg1MTQsNDI3NDA0OTczLC0yMTEwOD
+c2NTE0LDE2MTM5MTE0MDksNzI4NDMxMTM5LC0xNjE4NDkyNjQ1
+XX0=
 -->
