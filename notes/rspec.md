@@ -226,15 +226,15 @@ The `anything` keyword can be used **to match `with` to any potential argument i
 ```ruby
 describe "matching with anything" do
   let(:dbl) { double }
-  before { expect(dbl).to receive(:a_method).with()
-  it "passes absolute" do
-    dbl.a_method("absolute")
+  before { expect(dbl).to receive(:a_method).with(anything)
+  it "passes nil" do
+    dbl.a_method(nil)
   end
-  it "passes abdominals" do
-    dbl.a_method("abdominals")
+  it "passes string" do
+    dbl.a_method("hello")
   end
-  it "fails acting" do
-    dbl.a_method("acting")
+  it "passes int" do
+    dbl.a_method(10)
   end
 end
 ```
@@ -360,11 +360,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjUzMTAxMSw0NjA1Njk5MywtMTIwNT
-A5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0
-ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQsLT
-gwNTYzMjM0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3
-MzYsLTM3NjY1MTcyLDQ5MjcyOTcyNiwxNjUyNTQxMjY0LDEyMT
-Y0Nzc0OTksMzQ1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NTQ4NDcw
-NThdfQ==
+eyJoaXN0b3J5IjpbNDE4NzQ1MDgyLDQ2MDU2OTkzLC0xMjA1MD
+k1OTkxLC0xMTM3NTg3Njg3LC0xMzYzNjQ3ODk2LC0yMDg2MTQ4
+OTczLDE1NjQ1NzYzMzAsODU1NTg3Nzg3LDUwMTM4NzgwNCwtOD
+A1NjMyMzQ2LDE4NTI1NTc0MywxMjAwNjQ1Nzc4LDY1ODU3MDcz
+NiwtMzc2NjUxNzIsNDkyNzI5NzI2LDE2NTI1NDEyNjQsMTIxNj
+Q3NzQ5OSwzNDU3ODk0ODksLTIxNzUwODUyOSwtMTY1NDg0NzA1
+OF19
 -->
