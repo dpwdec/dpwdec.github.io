@@ -261,10 +261,14 @@ class MyClass
 end
 
 describe MyClass, '#my_method' do
-  
-  my_class = instance_double(MyClass, :my_method => "Goodbye")
-  my_class.my_method
+  it "creates a working verified double" do
+    my_class = instance_double(MyClass, :my_method => "Goodbye")
+    my_class.my_method
   => "Goodbye"
+  end
+  it "creates a failing verified double" do
+    my_class = instance_double(MyClass, :another_method => "Hello")
+  end
 end
 ```
 An `instance double` must be created inside an `it` example block.
@@ -272,7 +276,7 @@ An `instance double` must be created inside an `it` example block.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzQyNzUzNywtODA1NjMyMzQ2LDE4NT
+eyJoaXN0b3J5IjpbMTExMjYyNzY1NiwtODA1NjMyMzQ2LDE4NT
 I1NTc0MywxMjAwNjQ1Nzc4LDY1ODU3MDczNiwtMzc2NjUxNzIs
 NDkyNzI5NzI2LDE2NTI1NDEyNjQsMTIxNjQ3NzQ5OSwzNDU3OD
 k0ODksLTIxNzUwODUyOSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIx
