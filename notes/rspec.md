@@ -293,17 +293,25 @@ allow(my_class).to receive(:my_method) { "Goodbye" }
 allow(my_class).to receive(:another_method) { "Bye!" }
 => the MyClass class does not implement the instance method another_method
 ```
-`instance_double` like normal doubles **does not automatically allow methods from the class it is verifying**. These methods *must* be added.
+`instance_double` like normal doubles **does not automatically allow methods from the class it is verifying**. These methods *must* be added using `allow` even if they exist on the verified class.
 ```ruby
-it "passes because meth
+it "passes because method is allowed" do
+  my_class = instance_double(MyClass)
+  allow(my_class).to receive(:my_method) { "Goodbye" }
+  my_class.my_method
+end
+# Even though MyClass impement my_method
+# it w
+it "fails because method was not allowed" do
+end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzc5NzA1NDIsLTEzNjM2NDc4OTYsLT
-IwODYxNDg5NzMsMTU2NDU3NjMzMCw4NTU1ODc3ODcsNTAxMzg3
-ODA0LC04MDU2MzIzNDYsMTg1MjU1NzQzLDEyMDA2NDU3NzgsNj
-U4NTcwNzM2LC0zNzY2NTE3Miw0OTI3Mjk3MjYsMTY1MjU0MTI2
-NCwxMjE2NDc3NDk5LDM0NTc4OTQ4OSwtMjE3NTA4NTI5LC0xNj
-U0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMjg1MTQsNDI3NDA0OTcz
-XX0=
+eyJoaXN0b3J5IjpbMTQ1NDA1Nzc0OSwtMTM2MzY0Nzg5NiwtMj
+A4NjE0ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4
+MDQsLTgwNTYzMjM0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2NT
+g1NzA3MzYsLTM3NjY1MTcyLDQ5MjcyOTcyNiwxNjUyNTQxMjY0
+LDEyMTY0Nzc0OTksMzQ1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NT
+Q4NDcwNTgsLTYyMDM1NTEyMSwxODIyODUxNCw0Mjc0MDQ5NzNd
+fQ==
 -->
