@@ -267,16 +267,16 @@ describe MyClass, '#my_method' do
   => "Goodbye"
 end
 ```
-
+An `instance double` must be created inside an `it` example block.
 `instance double` can also be used with 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzA2NDc4ODEsLTgwNTYzMjM0NiwxOD
-UyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3MzYsLTM3NjY1MTcy
-LDQ5MjcyOTcyNiwxNjUyNTQxMjY0LDEyMTY0Nzc0OTksMzQ1Nz
-g5NDg5LC0yMTc1MDg1MjksLTE2NTQ4NDcwNTgsLTYyMDM1NTEy
-MSwxODIyODUxNCw0Mjc0MDQ5NzMsLTIxMTA4NzY1MTQsMTYxMz
-kxMTQwOSw3Mjg0MzExMzksLTE2MTg0OTI2NDUsLTEyMjc5Mjk1
-NDFdfQ==
+eyJoaXN0b3J5IjpbMTQ2NzQyNzUzNywtODA1NjMyMzQ2LDE4NT
+I1NTc0MywxMjAwNjQ1Nzc4LDY1ODU3MDczNiwtMzc2NjUxNzIs
+NDkyNzI5NzI2LDE2NTI1NDEyNjQsMTIxNjQ3NzQ5OSwzNDU3OD
+k0ODksLTIxNzUwODUyOSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIx
+LDE4MjI4NTE0LDQyNzQwNDk3MywtMjExMDg3NjUxNCwxNjEzOT
+ExNDA5LDcyODQzMTEzOSwtMTYxODQ5MjY0NSwtMTIyNzkyOTU0
+MV19
 -->
