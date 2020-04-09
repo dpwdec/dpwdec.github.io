@@ -360,14 +360,26 @@ it "fails because method was not allowed" do
   # => received unexpected message
 end
 ```
-`instance_double` will also check the arity (number of input arguments) to a real stubbed method.
+`instance_double` will also check the arity (number of input arguments) for a method on a verifying double.
+```ruby
+class Checker
+  def check(n)
+    puts "checked #{n}"
+  end
+end
+
+describe Checker do
+  it "passes with correct number of argument" do
+  end
+end
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNzMzMzA2OCw0NjA1Njk5MywtMTIwNT
-A5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0
-ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQsLT
-gwNTYzMjM0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3
-MzYsLTM3NjY1MTcyLDQ5MjcyOTcyNiwxNjUyNTQxMjY0LDEyMT
-Y0Nzc0OTksMzQ1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NTQ4NDcw
-NThdfQ==
+eyJoaXN0b3J5IjpbNDI4ODU1NDMzLDE4MzczMzMwNjgsNDYwNT
+Y5OTMsLTEyMDUwOTU5OTEsLTExMzc1ODc2ODcsLTEzNjM2NDc4
+OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4NTU1ODc3ODcsNT
+AxMzg3ODA0LC04MDU2MzIzNDYsMTg1MjU1NzQzLDEyMDA2NDU3
+NzgsNjU4NTcwNzM2LC0zNzY2NTE3Miw0OTI3Mjk3MjYsMTY1Mj
+U0MTI2NCwxMjE2NDc3NDk5LDM0NTc4OTQ4OSwtMjE3NTA4NTI5
+XX0=
 -->
