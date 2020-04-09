@@ -472,10 +472,10 @@ describe Caller do
   # => Instance does not implement profile
 end
 ```
-Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual f
+Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE0NTQ2NzAsLTQzMDM0NDk5MywtMT
+eyJoaXN0b3J5IjpbLTEyMzE3NjQ1ODUsLTQzMDM0NDk5MywtMT
 ExOTczMTE1MiwxNzcwNzE3MTMxLC0xNjYxMjM5MDc1LDE4Mzcz
 MzMwNjgsNDYwNTY5OTMsLTEyMDUwOTU5OTEsLTExMzc1ODc2OD
 csLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4
