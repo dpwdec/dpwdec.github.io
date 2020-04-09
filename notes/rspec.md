@@ -18,7 +18,7 @@ describe MyClass, '#my_method' do
   # ... testing code
 end
 ``` 
-It's best to **avoid variable type changes** when using RSpec as this will likely result in errors and incorrectly functioning tests. In the example below, despite the class of `@some_var` changing over when the `update` method is called, RSpec will still process it as being of class `
+It's best to **avoid variable type changes** when using RSpec as this will likely result in errors and incorrectly functioning tests. In the example below, despite the class of `@some_var` changing over when the `update` method is called, RSpec will still process it as being of class `Object` and the code will not function correctly.
 ```ruby
 # AVOID THIS
 class MyClass
@@ -506,11 +506,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxOTc3Mzg0LC0xOTc2NTM4MzkwLC0xMj
-MxNzY0NTg1LC00MzAzNDQ5OTMsLTExMTk3MzExNTIsMTc3MDcx
-NzEzMSwtMTY2MTIzOTA3NSwxODM3MzMzMDY4LDQ2MDU2OTkzLC
-0xMjA1MDk1OTkxLC0xMTM3NTg3Njg3LC0xMzYzNjQ3ODk2LC0y
-MDg2MTQ4OTczLDE1NjQ1NzYzMzAsODU1NTg3Nzg3LDUwMTM4Nz
-gwNCwtODA1NjMyMzQ2LDE4NTI1NTc0MywxMjAwNjQ1Nzc4LDY1
-ODU3MDczNl19
+eyJoaXN0b3J5IjpbLTg1NjAwMDIwNCwtMTk3NjUzODM5MCwtMT
+IzMTc2NDU4NSwtNDMwMzQ0OTkzLC0xMTE5NzMxMTUyLDE3NzA3
+MTcxMzEsLTE2NjEyMzkwNzUsMTgzNzMzMzA2OCw0NjA1Njk5My
+wtMTIwNTA5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0Nzg5Niwt
+MjA4NjE0ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzOD
+c4MDQsLTgwNTYzMjM0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2
+NTg1NzA3MzZdfQ==
 -->
