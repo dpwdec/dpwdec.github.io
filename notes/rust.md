@@ -5,7 +5,7 @@ exclude: true
 ---
 ## Control Flow
 ## Pattern Matching
-The `match` keyword can be used to match the output of a particular set of enums and execute code based on the result.
+The `match` keyword can be used to match the output of a particular set of enums and execute code based on the result. In the example below `a_num`
 ```rust
 use std::cmp::Ordering;
 // initialize numbers
@@ -36,6 +36,6 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyNTQwNTk3LC04NTgwODgyNDMsLTE2MD
-g4MjUyNjNdfQ==
+eyJoaXN0b3J5IjpbLTI2MDQ2NTk5MCwtODU4MDg4MjQzLC0xNj
+A4ODI1MjYzXX0=
 -->
