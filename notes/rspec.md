@@ -303,6 +303,7 @@ before(:context) do
 ### Verifying doubles
 Double verification allows you to **ensure that your double's methods and attributes match a real object**.
 
+#### Instance double
 An `instance_double` represents an instance of a real class and can **verify that it really does receive a specified method**. Attempting to add a method to a verifying double that does not exist on the class that double is attempting to mock will result in an error. Apart from this functionality **verifying doubles work in the same way as regular doubles**.
 ```ruby
 class MyClass
@@ -475,11 +476,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzE3NjQ1ODUsLTQzMDM0NDk5MywtMT
-ExOTczMTE1MiwxNzcwNzE3MTMxLC0xNjYxMjM5MDc1LDE4Mzcz
-MzMwNjgsNDYwNTY5OTMsLTEyMDUwOTU5OTEsLTExMzc1ODc2OD
-csLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4
-NTU1ODc3ODcsNTAxMzg3ODA0LC04MDU2MzIzNDYsMTg1MjU1Nz
-QzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNzY2NTE3Miw0OTI3
-Mjk3MjZdfQ==
+eyJoaXN0b3J5IjpbMTQ4MTIyOTAyOSwtMTIzMTc2NDU4NSwtND
+MwMzQ0OTkzLC0xMTE5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEy
+MzkwNzUsMTgzNzMzMzA2OCw0NjA1Njk5MywtMTIwNTA5NTk5MS
+wtMTEzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0ODk3Mywx
+NTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQsLTgwNTYzMj
+M0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3MzYsLTM3
+NjY1MTcyXX0=
 -->
