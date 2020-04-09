@@ -157,13 +157,13 @@ You can use **expect with receive** to check if a method is called on an object 
 # failing expect / receieve
 it "fails" do
   dbl = double("Name")
-  expect(dbl).receive(:a_method)
+  expect(dbl).to receive(:a_method)
 end
 => F
 # passing expect / receive
 it "passes" do
   dbl = double("Name")
-  expect(dbl).receive(:a_method)
+  expect(dbl).to receive(:a_method)
   dbl.a_method
 end
 => .
@@ -172,7 +172,7 @@ You can also combined `expect` with a pre-defined output block.
 ```ruby
 # expect a method to be received and specify an output
 dbl = double("Name")
-expect(dbl).received(:a_mother) { 10 }
+expect(dbl).to receive(:a_mother) { 10 }
 ```
 **Partial test doubles** allow you to temporarily overwrite or extend the functionality of a real object for the purposes of a test. It follows the same syntax pattern as doubles `allow(MyClass).to receive(:my_method) { my_return_value }` and references the class within your system. This can also be combined with any `subject` keyword and instance calls within your tests.
 ```ruby
@@ -312,11 +312,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDUwOTU5OTEsLTExMzc1ODc2ODcsLT
-EzNjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4NTU1
-ODc3ODcsNTAxMzg3ODA0LC04MDU2MzIzNDYsMTg1MjU1NzQzLD
-EyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNzY2NTE3Miw0OTI3Mjk3
-MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5LDM0NTc4OTQ4OSwtMj
-E3NTA4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUxMjEsMTgyMjg1
-MTRdfQ==
+eyJoaXN0b3J5IjpbLTYxMjAyNDIwMCwtMTIwNTA5NTk5MSwtMT
+EzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0ODk3MywxNTY0
+NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQsLTgwNTYzMjM0Ni
+wxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3MzYsLTM3NjY1
+MTcyLDQ5MjcyOTcyNiwxNjUyNTQxMjY0LDEyMTY0Nzc0OTksMz
+Q1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NTQ4NDcwNTgsLTYyMDM1
+NTEyMV19
 -->
