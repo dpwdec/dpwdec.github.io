@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 ## Variables and Types
-You can **convert a string into a number** by using Rust's `parse` method. 
+You can **convert a string into a number** by using Rust's string `parse` method. This takes a string input and converts it into a number. There are many types of numbers in Rust, such as 
 ## Control Flow
 ## Pattern Matching
 The `match` keyword can be used to match the output of a particular set of enums and execute code based on the result. In the example below `a_num` run a comparison method on `b_num` which returns an enum with three possible outputs - Less, Greater and Equal. The `match` block then executes code based on each possible return type from the enum.
@@ -39,6 +39,6 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDIwNDAxOSw2MTcyMjAzNDcsLTg1OD
-A4ODI0MywtMTYwODgyNTI2M119
+eyJoaXN0b3J5IjpbLTIxMjg1MjM0NjksNjE3MjIwMzQ3LC04NT
+gwODgyNDMsLTE2MDg4MjUyNjNdfQ==
 -->
