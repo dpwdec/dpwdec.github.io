@@ -429,7 +429,7 @@ describe Mint do
   # => does not implement method
 end
 ```
-`instance_double` can be **combined with `expect(...)`, `receive(...)`, `have_received(..)` and `with` methods** to create matchers for methods called on verifying doubles. The code below passes a verifying double of the `Notifier` class to a new instance of `Caller` with an `expect` block the `create` method to be called on the doubl
+`instance_double` can be **combined with `expect(...)`, `receive(...)`, `have_received(..)` and `with` methods** to create matchers for methods called on verifying doubles. The code below passes a verifying double of the `Notifier` class to a new instance of `Caller` with an `expect` block the `create` method to be called on the double.
 ```ruby
 class Caller
   def initialize(notifier)
@@ -451,7 +451,7 @@ describe Caller do
   it "calls create on notifier"
     note = instance_double("Notifier")
 
-    expect(note).to receive(:create).with("re-call", 12)
+    expect(note).to receive(:create).with("re-call", 12) { "re-called 12" }
     
     caller = Caller.new(note)
     caller.notify!
@@ -462,11 +462,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTI3NDU1OTUsMTc3MDcxNzEzMSwtMT
-Y2MTIzOTA3NSwxODM3MzMzMDY4LDQ2MDU2OTkzLC0xMjA1MDk1
-OTkxLC0xMTM3NTg3Njg3LC0xMzYzNjQ3ODk2LC0yMDg2MTQ4OT
-czLDE1NjQ1NzYzMzAsODU1NTg3Nzg3LDUwMTM4NzgwNCwtODA1
-NjMyMzQ2LDE4NTI1NTc0MywxMjAwNjQ1Nzc4LDY1ODU3MDczNi
-wtMzc2NjUxNzIsNDkyNzI5NzI2LDE2NTI1NDEyNjQsMTIxNjQ3
-NzQ5OV19
+eyJoaXN0b3J5IjpbMTY5ODYzODgyNiwxNzcwNzE3MTMxLC0xNj
+YxMjM5MDc1LDE4MzczMzMwNjgsNDYwNTY5OTMsLTEyMDUwOTU5
+OTEsLTExMzc1ODc2ODcsLTEzNjM2NDc4OTYsLTIwODYxNDg5Nz
+MsMTU2NDU3NjMzMCw4NTU1ODc3ODcsNTAxMzg3ODA0LC04MDU2
+MzIzNDYsMTg1MjU1NzQzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC
+0zNzY2NTE3Miw0OTI3Mjk3MjYsMTY1MjU0MTI2NCwxMjE2NDc3
+NDk5XX0=
 -->
