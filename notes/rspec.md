@@ -399,21 +399,21 @@ describe Checker do
     bar.foo(baz: 7)
   end
   # => .
-  it "fails with wrong number of arguments" do
-    my_checker = instance_double(Checker)
-    allow(my_checker).to receive(:check) { "checked!" }
-    my_checker(5, 10)
+  it "fails with no required argument" do
+    bar= instance_double(Bar)
+    allow(bar).to receive(:foo) { "checked!" }
+    bar.foo(7)
   end
   # => ArgumentError
 end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDM4ODE5NCwxODM3MzMzMDY4LDQ2MD
-U2OTkzLC0xMjA1MDk1OTkxLC0xMTM3NTg3Njg3LC0xMzYzNjQ3
-ODk2LC0yMDg2MTQ4OTczLDE1NjQ1NzYzMzAsODU1NTg3Nzg3LD
-UwMTM4NzgwNCwtODA1NjMyMzQ2LDE4NTI1NTc0MywxMjAwNjQ1
-Nzc4LDY1ODU3MDczNiwtMzc2NjUxNzIsNDkyNzI5NzI2LDE2NT
-I1NDEyNjQsMTIxNjQ3NzQ5OSwzNDU3ODk0ODksLTIxNzUwODUy
-OV19
+eyJoaXN0b3J5IjpbOTI4ODA2Mzk0LDE4MzczMzMwNjgsNDYwNT
+Y5OTMsLTEyMDUwOTU5OTEsLTExMzc1ODc2ODcsLTEzNjM2NDc4
+OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4NTU1ODc3ODcsNT
+AxMzg3ODA0LC04MDU2MzIzNDYsMTg1MjU1NzQzLDEyMDA2NDU3
+NzgsNjU4NTcwNzM2LC0zNzY2NTE3Miw0OTI3Mjk3MjYsMTY1Mj
+U0MTI2NCwxMjE2NDc3NDk5LDM0NTc4OTQ4OSwtMjE3NTA4NTI5
+XX0=
 -->
