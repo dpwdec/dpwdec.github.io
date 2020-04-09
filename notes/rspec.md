@@ -260,12 +260,14 @@ class MyClass
   end
 end
 
-describe MyClass, '#my_
+describe MyClass, '#my_method' do
+  my_class = instance_double(MyClass, my_method: "Goddbye")
+end
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5MDE3NTYwLDE4NTI1NTc0MywxMjAwNj
+eyJoaXN0b3J5IjpbMjE1NjQyNjQwLDE4NTI1NTc0MywxMjAwNj
 Q1Nzc4LDY1ODU3MDczNiwtMzc2NjUxNzIsNDkyNzI5NzI2LDE2
 NTI1NDEyNjQsMTIxNjQ3NzQ5OSwzNDU3ODk0ODksLTIxNzUwOD
 UyOSwtMTY1NDg0NzA1OCwtNjIwMzU1MTIxLDE4MjI4NTE0LDQy
