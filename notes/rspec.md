@@ -172,7 +172,7 @@ You can also combined `expect` with a pre-defined output block.
 ```ruby
 # expect a method to be received and specify an output
 dbl = double("Name")
-expect(dbl).to receive(:a_mother) { 10 }
+expect(dbl).to receive(:a_method) { 10 }
 ```
 **Partial test doubles** allow you to temporarily overwrite or extend the functionality of a real object for the purposes of a test. It follows the same syntax pattern as doubles `allow(MyClass).to receive(:my_method) { my_return_value }` and references the class within your system. This can also be combined with any `subject` keyword and instance calls within your tests.
 ```ruby
@@ -312,11 +312,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjAyNDIwMCwtMTIwNTA5NTk5MSwtMT
-EzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0ODk3MywxNTY0
-NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQsLTgwNTYzMjM0Ni
-wxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3MzYsLTM3NjY1
-MTcyLDQ5MjcyOTcyNiwxNjUyNTQxMjY0LDEyMTY0Nzc0OTksMz
-Q1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NTQ4NDcwNTgsLTYyMDM1
-NTEyMV19
+eyJoaXN0b3J5IjpbLTIxNDE2NDUyODYsLTEyMDUwOTU5OTEsLT
+ExMzc1ODc2ODcsLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2
+NDU3NjMzMCw4NTU1ODc3ODcsNTAxMzg3ODA0LC04MDU2MzIzND
+YsMTg1MjU1NzQzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNzY2
+NTE3Miw0OTI3Mjk3MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5LD
+M0NTc4OTQ4OSwtMjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02MjAz
+NTUxMjFdfQ==
 -->
