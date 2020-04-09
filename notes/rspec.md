@@ -191,7 +191,7 @@ end
 ```
 This also works with `expect` syntax shown above, to temporarily overwrite the output value *and* launch an example test for the method being called on the object
 
-You can use the `with` match appended to a receive check if a method receives a particular set of arguments.
+You can **use the `with` matcher appended to receive to check if a method receives a particular set of arguments.**
 ```ruby
 it "passes by receiving a method with argument 1" do
   dbl = double
@@ -208,7 +208,9 @@ end
 ```
 `with` can be **used with regular expressions** to match a range of different potential input arguments. In the example below it is also placed in a `before` block so that it can be run before 
 ```ruby
-
+describe "method argument matching" do
+  let(:dbl) { double }
+  
 ```
  **Redefinition stops outside of the block** in which it was created. However if you want to **add a double of partial double before every test** you should enclose the `allow(...).to receive(...)` inside a `before { }` block.
 
@@ -331,11 +333,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYwNTY5OTMsLTEyMDUwOTU5OTEsLTExMz
-c1ODc2ODcsLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2NDU3
-NjMzMCw4NTU1ODc3ODcsNTAxMzg3ODA0LC04MDU2MzIzNDYsMT
-g1MjU1NzQzLDEyMDA2NDU3NzgsNjU4NTcwNzM2LC0zNzY2NTE3
-Miw0OTI3Mjk3MjYsMTY1MjU0MTI2NCwxMjE2NDc3NDk5LDM0NT
-c4OTQ4OSwtMjE3NTA4NTI5LC0xNjU0ODQ3MDU4LC02MjAzNTUx
-MjFdfQ==
+eyJoaXN0b3J5IjpbMTk2MjYyMzIzNiw0NjA1Njk5MywtMTIwNT
+A5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0
+ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQsLT
+gwNTYzMjM0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2NTg1NzA3
+MzYsLTM3NjY1MTcyLDQ5MjcyOTcyNiwxNjUyNTQxMjY0LDEyMT
+Y0Nzc0OTksMzQ1Nzg5NDg5LC0yMTc1MDg1MjksLTE2NTQ4NDcw
+NThdfQ==
 -->
