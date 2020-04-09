@@ -3,6 +3,9 @@ title: RSpec
 layout: page
 exclude: true
 ---
+
+ - [Core](#core)
+
 ## Core
 You can **add a class description and a block description to a describe block** by submitting multiple comma separated arguments to the describe.
 ```ruby
@@ -483,7 +486,7 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjcyMDU0MywtMTIzMTc2NDU4NSwtND
+eyJoaXN0b3J5IjpbLTM1MTQ1MDcwNiwtMTIzMTc2NDU4NSwtND
 MwMzQ0OTkzLC0xMTE5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEy
 MzkwNzUsMTgzNzMzMzA2OCw0NjA1Njk5MywtMTIwNTA5NTk5MS
 wtMTEzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0ODk3Mywx
