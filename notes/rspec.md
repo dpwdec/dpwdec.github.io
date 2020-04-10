@@ -13,7 +13,10 @@ exclude: true
 
 ## Core
 
+#### Scope
 
+
+---
 
 You can **add a class description and a block description to a describe block** by submitting multiple comma separated arguments to the describe.
 ```ruby
@@ -538,11 +541,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTMyNDgxNDksLTY5ODg3MDMyMSwxMz
-QyODExODE2LDE4NzE3ODQxNDQsNDg1Nzk2OTAyLC0xMjEyODI1
-MjU3LDIwNjA4NjUxOTMsLTg1NjAwMDIwNCwtMTk3NjUzODM5MC
-wtMTIzMTc2NDU4NSwtNDMwMzQ0OTkzLC0xMTE5NzMxMTUyLDE3
-NzA3MTcxMzEsLTE2NjEyMzkwNzUsMTgzNzMzMzA2OCw0NjA1Nj
-k5MywtMTIwNTA5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0Nzg5
-NiwtMjA4NjE0ODk3M119
+eyJoaXN0b3J5IjpbMTc2NzcwNTcwLC0xOTkzMjQ4MTQ5LC02OT
+g4NzAzMjEsMTM0MjgxMTgxNiwxODcxNzg0MTQ0LDQ4NTc5Njkw
+MiwtMTIxMjgyNTI1NywyMDYwODY1MTkzLC04NTYwMDAyMDQsLT
+E5NzY1MzgzOTAsLTEyMzE3NjQ1ODUsLTQzMDM0NDk5MywtMTEx
+OTczMTE1MiwxNzcwNzE3MTMxLC0xNjYxMjM5MDc1LDE4MzczMz
+MwNjgsNDYwNTY5OTMsLTEyMDUwOTU5OTEsLTExMzc1ODc2ODcs
+LTEzNjM2NDc4OTZdfQ==
 -->
