@@ -14,7 +14,8 @@ exclude: true
 ## Core
 
 #### Scope
-You cannot use subject in a before 
+You cannot use the `subject` keyword 
+
 
 ---
 
@@ -541,11 +542,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0OTg2MzQxMiwxNzY3NzA1NzAsLTE5OT
-MyNDgxNDksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQx
-NDQsNDg1Nzk2OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLT
-g1NjAwMDIwNCwtMTk3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMw
-MzQ0OTkzLC0xMTE5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEyMz
-kwNzUsMTgzNzMzMzA2OCw0NjA1Njk5MywtMTIwNTA5NTk5MSwt
-MTEzNzU4NzY4N119
+eyJoaXN0b3J5IjpbNjkxNzMzMjY5LDE3Njc3MDU3MCwtMTk5Mz
+I0ODE0OSwtNjk4ODcwMzIxLDEzNDI4MTE4MTYsMTg3MTc4NDE0
+NCw0ODU3OTY5MDIsLTEyMTI4MjUyNTcsMjA2MDg2NTE5MywtOD
+U2MDAwMjA0LC0xOTc2NTM4MzkwLC0xMjMxNzY0NTg1LC00MzAz
+NDQ5OTMsLTExMTk3MzExNTIsMTc3MDcxNzEzMSwtMTY2MTIzOT
+A3NSwxODM3MzMzMDY4LDQ2MDU2OTkzLC0xMjA1MDk1OTkxLC0x
+MTM3NTg3Njg3XX0=
 -->
