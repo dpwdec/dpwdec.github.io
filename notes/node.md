@@ -46,8 +46,13 @@ You can **variables to your web pages from your server** using the `app.get()` f
 ```javascript
 app.get('/', function (req, res) {
   res.render('home', {
+    stuff: "Stuff variable"
   })
 });
+```
+This can then be referenced from your `HTML` page using `{{ }}` braces which will inject that varia
+```html
+<p>{{ stuff }}</p>
 ```
 [hb]: https://github.com/ericf/express-handlebars
 
@@ -67,7 +72,7 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODY1MzA3MSwtMTM1ODgxNjE5OCwxMz
+eyJoaXN0b3J5IjpbLTY4NzA0MTMxOSwtMTM1ODgxNjE5OCwxMz
 gyODcyMTY1LC03MDUwMzgzNTYsLTE1NDY0MzI2NzEsLTE1Mzg1
 NTg5MF19
 -->
