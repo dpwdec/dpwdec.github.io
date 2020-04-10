@@ -37,7 +37,9 @@ Where `views/layouts/main.handlebars` represents code that will appear on each p
   {{{body}}}
 </div>
 ```
-To **strong text**
+To **create a route to your `main.handlebars` page** use express's routing function, which has `'/'` representing the root url.
+```javasciprt
+```
 
 [hb]: https://github.com/ericf/express-handlebars
 
@@ -57,7 +59,7 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTE3NDE0NCwtMTM1ODgxNjE5OCwxMz
-gyODcyMTY1LC03MDUwMzgzNTYsLTE1NDY0MzI2NzEsLTE1Mzg1
-NTg5MF19
+eyJoaXN0b3J5IjpbLTE1Nzc1NzU0MjYsLTEzNTg4MTYxOTgsMT
+M4Mjg3MjE2NSwtNzA1MDM4MzU2LC0xNTQ2NDMyNjcxLC0xNTM4
+NTU4OTBdfQ==
 -->
