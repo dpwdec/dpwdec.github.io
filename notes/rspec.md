@@ -58,6 +58,12 @@ Often you should prefer `let` over `before`, this is because "let is lazy" and s
 
 Use [Mocks](#mocks) sparingly, while they will increase the speed of your tests they make tests less usable and reliable in general.
 
+Avoid using the imperative form "should" when describing test outcomes. Instead use the third person prescriptive form "does".
+```ruby
+it "should not change" do # --> BAD
+it "does not change" do # --> GOOD
+```
+
 
 
 ---
@@ -534,11 +540,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MjgxMTgxNiwxODcxNzg0MTQ0LDQ4NT
-c5NjkwMiwtMTIxMjgyNTI1NywyMDYwODY1MTkzLC04NTYwMDAy
-MDQsLTE5NzY1MzgzOTAsLTEyMzE3NjQ1ODUsLTQzMDM0NDk5My
-wtMTExOTczMTE1MiwxNzcwNzE3MTMxLC0xNjYxMjM5MDc1LDE4
-MzczMzMwNjgsNDYwNTY5OTMsLTEyMDUwOTU5OTEsLTExMzc1OD
-c2ODcsLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMz
-MCw4NTU1ODc3ODddfQ==
+eyJoaXN0b3J5IjpbLTY5ODg3MDMyMSwxMzQyODExODE2LDE4Nz
+E3ODQxNDQsNDg1Nzk2OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUx
+OTMsLTg1NjAwMDIwNCwtMTk3NjUzODM5MCwtMTIzMTc2NDU4NS
+wtNDMwMzQ0OTkzLC0xMTE5NzMxMTUyLDE3NzA3MTcxMzEsLTE2
+NjEyMzkwNzUsMTgzNzMzMzA2OCw0NjA1Njk5MywtMTIwNTA5NT
+k5MSwtMTEzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4NjE0ODk3
+MywxNTY0NTc2MzMwXX0=
 -->
