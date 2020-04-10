@@ -31,6 +31,9 @@ class MyClass
   end
 end
 ```
+---
+#### Structure
+
 
 ---
 #### Shared Context
@@ -506,11 +509,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjAwMDIwNCwtMTk3NjUzODM5MCwtMT
-IzMTc2NDU4NSwtNDMwMzQ0OTkzLC0xMTE5NzMxMTUyLDE3NzA3
-MTcxMzEsLTE2NjEyMzkwNzUsMTgzNzMzMzA2OCw0NjA1Njk5My
-wtMTIwNTA5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0Nzg5Niwt
-MjA4NjE0ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzOD
-c4MDQsLTgwNTYzMjM0NiwxODUyNTU3NDMsMTIwMDY0NTc3OCw2
-NTg1NzA3MzZdfQ==
+eyJoaXN0b3J5IjpbNTQzMDk5OTE2LC04NTYwMDAyMDQsLTE5Nz
+Y1MzgzOTAsLTEyMzE3NjQ1ODUsLTQzMDM0NDk5MywtMTExOTcz
+MTE1MiwxNzcwNzE3MTMxLC0xNjYxMjM5MDc1LDE4MzczMzMwNj
+gsNDYwNTY5OTMsLTEyMDUwOTU5OTEsLTExMzc1ODc2ODcsLTEz
+NjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4NTU1OD
+c3ODcsNTAxMzg3ODA0LC04MDU2MzIzNDYsMTg1MjU1NzQzLDEy
+MDA2NDU3NzhdfQ==
 -->
