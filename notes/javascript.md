@@ -5,7 +5,7 @@ Constants are Javascripts **immutable** variables. They are defined using the ke
 const N = 204
 N = 300 //ERROR
 ```
-Javascript are **actually just constant references to variables**. This means that you **cannot change a primitive constant**, but you **can change the properties of an object constant**. This changing pri
+Javascript are **actually just constant references to variables**. This means that you **cannot change a primitive constant**, but you **can change the properties of an object constant**. This changing principle goes for all types of objects including arrays, hashes etc.
 ```javascript
 const profile = { name:"Tatsuki", age:"59" }
 // change the age property of the profile object
@@ -17,5 +17,5 @@ profile = { name:"Ogawa", age:"18" } //ERROR
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk5MzczMjVdfQ==
+eyJoaXN0b3J5IjpbLTExNTkyNTc0MjVdfQ==
 -->
