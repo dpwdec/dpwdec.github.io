@@ -25,6 +25,7 @@ subject { [1, 2, 3] }
 it { is_expected.to not be_empty }
 # method output one liner
 subject { "Hello".upcase }
+it { is_expected.to eq("HELLO") }
 ```
 
 
@@ -529,7 +530,7 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI1ODM3NTUsMTg3MTc4NDE0NCw0OD
+eyJoaXN0b3J5IjpbLTEzMTUxOTg1NjcsMTg3MTc4NDE0NCw0OD
 U3OTY5MDIsLTEyMTI4MjUyNTcsMjA2MDg2NTE5MywtODU2MDAw
 MjA0LC0xOTc2NTM4MzkwLC0xMjMxNzY0NTg1LC00MzAzNDQ5OT
 MsLTExMTk3MzExNTIsMTc3MDcxNzEzMSwtMTY2MTIzOTA3NSwx
