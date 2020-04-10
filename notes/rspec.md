@@ -38,6 +38,14 @@ Use `describe` blocks with a `#` or `.` appended to their beginning for each met
 describe ".include?" do
 describe "#include?" do
 ```
+Nest `context` within descriptions to indicate different paths and states that a method might encounter.
+```ruby
+describe ".include?" do
+  context "It contains element 3" do
+  
+  end
+```
+
 
 ---
 #### Shared Context
@@ -513,7 +521,7 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDc1NTAzNzIsLTg1NjAwMDIwNCwtMT
+eyJoaXN0b3J5IjpbLTE3Nzc0ODU1NDEsLTg1NjAwMDIwNCwtMT
 k3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMwMzQ0OTkzLC0xMTE5
 NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEyMzkwNzUsMTgzNzMzMz
 A2OCw0NjA1Njk5MywtMTIwNTA5NTk5MSwtMTEzNzU4NzY4Nywt
