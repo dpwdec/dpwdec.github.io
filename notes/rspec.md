@@ -12,9 +12,10 @@ exclude: true
 	 - [instance doubles](#instance-double)
 
 ## Core
+i
 
 #### Scope
-You should use the `subject` keyword *inside* a `before` block. This is because `subject` is created at the time of each example anyway.
+You should use the `subject` keyword *inside* a `before` block. This is because `subject` is re initialised for each example.
 
 
 ---
@@ -542,11 +543,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTY5MDI0NDQsMTc2NzcwNTcwLC0xOT
-kzMjQ4MTQ5LC02OTg4NzAzMjEsMTM0MjgxMTgxNiwxODcxNzg0
-MTQ0LDQ4NTc5NjkwMiwtMTIxMjgyNTI1NywyMDYwODY1MTkzLC
-04NTYwMDAyMDQsLTE5NzY1MzgzOTAsLTEyMzE3NjQ1ODUsLTQz
-MDM0NDk5MywtMTExOTczMTE1MiwxNzcwNzE3MTMxLC0xNjYxMj
-M5MDc1LDE4MzczMzMwNjgsNDYwNTY5OTMsLTEyMDUwOTU5OTEs
-LTExMzc1ODc2ODddfQ==
+eyJoaXN0b3J5IjpbLTQzODU1NTYzLDE3Njc3MDU3MCwtMTk5Mz
+I0ODE0OSwtNjk4ODcwMzIxLDEzNDI4MTE4MTYsMTg3MTc4NDE0
+NCw0ODU3OTY5MDIsLTEyMTI4MjUyNTcsMjA2MDg2NTE5MywtOD
+U2MDAwMjA0LC0xOTc2NTM4MzkwLC0xMjMxNzY0NTg1LC00MzAz
+NDQ5OTMsLTExMTk3MzExNTIsMTc3MDcxNzEzMSwtMTY2MTIzOT
+A3NSwxODM3MzMzMDY4LDQ2MDU2OTkzLC0xMjA1MDk1OTkxLC0x
+MTM3NTg3Njg3XX0=
 -->
