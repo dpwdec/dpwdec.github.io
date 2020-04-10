@@ -38,7 +38,7 @@ Use `describe` blocks with a `#` or `.` appended to their beginning for each met
 describe ".include?" do
 describe "#include?" do
 ```
-Nest `context` within descriptions to indicate different paths and states that a method might encounter and 
+Nest `context` within descriptions to indicate different paths and states that a method might encounter and `it` blocks to describe the expected output in clear terms. *Keep descriptions short!* [Better Specs][bs] suggests a description length capped at 40 characters.
 ```ruby
 describe ".include?" do
   context "It contains element 3" do
@@ -528,7 +528,7 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTEwNjc0MywtODU2MDAwMjA0LC0xOT
+eyJoaXN0b3J5IjpbLTEzODkzODY2NywtODU2MDAwMjA0LC0xOT
 c2NTM4MzkwLC0xMjMxNzY0NTg1LC00MzAzNDQ5OTMsLTExMTk3
 MzExNTIsMTc3MDcxNzEzMSwtMTY2MTIzOTA3NSwxODM3MzMzMD
 Y4LDQ2MDU2OTkzLC0xMjA1MDk1OTkxLC0xMTM3NTg3Njg3LC0x
