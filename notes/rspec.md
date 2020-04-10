@@ -38,11 +38,18 @@ Use `describe` blocks with a `#` or `.` appended to their beginning for each met
 describe ".include?" do
 describe "#include?" do
 ```
-Nest `context` within descriptions to indicate different paths and states that a method might encounter.
+Nest `context` within descriptions to indicate different paths and states that a method might encounter and 
 ```ruby
 describe ".include?" do
   context "It contains element 3" do
-  
+    it "returns true" do
+      expect(subject.include?).to be true
+    end
+  end
+  context "It does not contain 4" do
+    it "return false" do
+      expect(subject.include?).to be false
+    end
   end
 ```
 
@@ -521,11 +528,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzc0ODU1NDEsLTg1NjAwMDIwNCwtMT
-k3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMwMzQ0OTkzLC0xMTE5
-NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEyMzkwNzUsMTgzNzMzMz
-A2OCw0NjA1Njk5MywtMTIwNTA5NTk5MSwtMTEzNzU4NzY4Nywt
-MTM2MzY0Nzg5NiwtMjA4NjE0ODk3MywxNTY0NTc2MzMwLDg1NT
-U4Nzc4Nyw1MDEzODc4MDQsLTgwNTYzMjM0NiwxODUyNTU3NDMs
-MTIwMDY0NTc3OF19
+eyJoaXN0b3J5IjpbMTEwNTEwNjc0MywtODU2MDAwMjA0LC0xOT
+c2NTM4MzkwLC0xMjMxNzY0NTg1LC00MzAzNDQ5OTMsLTExMTk3
+MzExNTIsMTc3MDcxNzEzMSwtMTY2MTIzOTA3NSwxODM3MzMzMD
+Y4LDQ2MDU2OTkzLC0xMjA1MDk1OTkxLC0xMTM3NTg3Njg3LC0x
+MzYzNjQ3ODk2LC0yMDg2MTQ4OTczLDE1NjQ1NzYzMzAsODU1NT
+g3Nzg3LDUwMTM4NzgwNCwtODA1NjMyMzQ2LDE4NTI1NTc0Mywx
+MjAwNjQ1Nzc4XX0=
 -->
