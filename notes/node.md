@@ -1,3 +1,8 @@
+---
+title: Node
+layout: page
+exclude: true
+---
 
 
 ## Frameworks
@@ -51,6 +56,7 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg4MTYxOTgsMTM4Mjg3MjE2NSwtNz
-A1MDM4MzU2LC0xNTQ2NDMyNjcxLC0xNTM4NTU4OTBdfQ==
+eyJoaXN0b3J5IjpbLTEzOTU3NjcyNjcsLTEzNTg4MTYxOTgsMT
+M4Mjg3MjE2NSwtNzA1MDM4MzU2LC0xNTQ2NDMyNjcxLC0xNTM4
+NTU4OTBdfQ==
 -->
