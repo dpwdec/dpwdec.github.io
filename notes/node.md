@@ -37,6 +37,7 @@ Where `views/layouts/main.handlebars` represents code that will appear on each p
   {{{body}}}
 </div>
 ```
+To **strong text**
 
 [hb]: https://github.com/ericf/express-handlebars
 
@@ -56,7 +57,7 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTU3NjcyNjcsLTEzNTg4MTYxOTgsMT
-M4Mjg3MjE2NSwtNzA1MDM4MzU2LC0xNTQ2NDMyNjcxLC0xNTM4
-NTU4OTBdfQ==
+eyJoaXN0b3J5IjpbLTIyOTE3NDE0NCwtMTM1ODgxNjE5OCwxMz
+gyODcyMTY1LC03MDUwMzgzNTYsLTE1NDY0MzI2NzEsLTE1Mzg1
+NTg5MF19
 -->
