@@ -54,7 +54,9 @@ describe ".include?" do
 ```
 Keep all `it` assertions separated unless the performance speed loss from separating them due to complex set at dependencies would several impact the functioning of your test suite.
 
-Often you should prefer `let` over `before`, this is because > let is lazy
+Often you should prefer `let` over `before`, this is because "let is lazy" and so only runs when the object is needed.
+
+Use [Mocks][#mocks] 
 
 ---
 #### Shared Context
@@ -530,11 +532,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwMzU0Nzk2LDE4NzE3ODQxNDQsNDg1Nz
-k2OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLTg1NjAwMDIw
-NCwtMTk3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMwMzQ0OTkzLC
-0xMTE5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEyMzkwNzUsMTgz
-NzMzMzA2OCw0NjA1Njk5MywtMTIwNTA5NTk5MSwtMTEzNzU4Nz
-Y4NywtMTM2MzY0Nzg5NiwtMjA4NjE0ODk3MywxNTY0NTc2MzMw
-LDg1NTU4Nzc4N119
+eyJoaXN0b3J5IjpbMTQ2MTk1NDgyNiwxODcxNzg0MTQ0LDQ4NT
+c5NjkwMiwtMTIxMjgyNTI1NywyMDYwODY1MTkzLC04NTYwMDAy
+MDQsLTE5NzY1MzgzOTAsLTEyMzE3NjQ1ODUsLTQzMDM0NDk5My
+wtMTExOTczMTE1MiwxNzcwNzE3MTMxLC0xNjYxMjM5MDc1LDE4
+MzczMzMwNjgsNDYwNTY5OTMsLTEyMDUwOTU5OTEsLTExMzc1OD
+c2ODcsLTEzNjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMz
+MCw4NTU1ODc3ODddfQ==
 -->
