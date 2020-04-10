@@ -36,8 +36,9 @@ it "responds with pops to cocoa" do
 end
 # => subject expected 1 argument but received 0
 ```
-You **can use instance variables that refer to `described_class`** from within a `before` block.
+You **can use any sort of instance variables** from within a `before` block as well any **that refer to `described_class`**
 ```ruby
+# PASSES
 before { @my_subject = desribed_class.new("pops") }
 it "responds with pops to cocoa" do
   expect(@my_subject.cocoa).to eq("pops")
@@ -569,11 +570,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzAwOTQ4MTksMTc2NzcwNTcwLC0xOT
-kzMjQ4MTQ5LC02OTg4NzAzMjEsMTM0MjgxMTgxNiwxODcxNzg0
-MTQ0LDQ4NTc5NjkwMiwtMTIxMjgyNTI1NywyMDYwODY1MTkzLC
-04NTYwMDAyMDQsLTE5NzY1MzgzOTAsLTEyMzE3NjQ1ODUsLTQz
-MDM0NDk5MywtMTExOTczMTE1MiwxNzcwNzE3MTMxLC0xNjYxMj
-M5MDc1LDE4MzczMzMwNjgsNDYwNTY5OTMsLTEyMDUwOTU5OTEs
-LTExMzc1ODc2ODddfQ==
+eyJoaXN0b3J5IjpbMTM1ODM4NTk1MCwxNzY3NzA1NzAsLTE5OT
+MyNDgxNDksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQx
+NDQsNDg1Nzk2OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLT
+g1NjAwMDIwNCwtMTk3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMw
+MzQ0OTkzLC0xMTE5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEyMz
+kwNzUsMTgzNzMzMzA2OCw0NjA1Njk5MywtMTIwNTA5NTk5MSwt
+MTEzNzU4NzY4N119
 -->
