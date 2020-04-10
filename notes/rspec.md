@@ -5,7 +5,7 @@ exclude: true
 ---
 
  - [core](#core)
-	 - 
+	 - [subject scope](#subject-scope)
 	 - [shared context](#shared-context)
  - [expectations](#expectations)
 	 - [collection matchers](#collection-matchers)
@@ -600,11 +600,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1MDI2ODQ1LDE3MzU0MjAyMTMsMTc2Nz
-cwNTcwLC0xOTkzMjQ4MTQ5LC02OTg4NzAzMjEsMTM0MjgxMTgx
-NiwxODcxNzg0MTQ0LDQ4NTc5NjkwMiwtMTIxMjgyNTI1NywyMD
-YwODY1MTkzLC04NTYwMDAyMDQsLTE5NzY1MzgzOTAsLTEyMzE3
-NjQ1ODUsLTQzMDM0NDk5MywtMTExOTczMTE1MiwxNzcwNzE3MT
-MxLC0xNjYxMjM5MDc1LDE4MzczMzMwNjgsNDYwNTY5OTMsLTEy
-MDUwOTU5OTFdfQ==
+eyJoaXN0b3J5IjpbLTI2MDUzNzA0MiwxNzM1NDIwMjEzLDE3Nj
+c3MDU3MCwtMTk5MzI0ODE0OSwtNjk4ODcwMzIxLDEzNDI4MTE4
+MTYsMTg3MTc4NDE0NCw0ODU3OTY5MDIsLTEyMTI4MjUyNTcsMj
+A2MDg2NTE5MywtODU2MDAwMjA0LC0xOTc2NTM4MzkwLC0xMjMx
+NzY0NTg1LC00MzAzNDQ5OTMsLTExMTk3MzExNTIsMTc3MDcxNz
+EzMSwtMTY2MTIzOTA3NSwxODM3MzMzMDY4LDQ2MDU2OTkzLC0x
+MjA1MDk1OTkxXX0=
 -->
