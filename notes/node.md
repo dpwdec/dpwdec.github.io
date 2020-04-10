@@ -2,7 +2,10 @@
 
 ## Frameworks
 ### Express
-
+You can **create a new instance of the express framework and start a server** using:
+```javascript
+const app = express();
+```
 
 ### Nodemon
 By default you must restart you node server every time you make a change to your serve code so that it can run. [Nodemon][nm] is an automated service that **monitors your node server** and **restarts it automatically when server code changes are made**. 
@@ -20,6 +23,6 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTAzODM1NiwtMTU0NjQzMjY3MSwtMT
-UzODU1ODkwXX0=
+eyJoaXN0b3J5IjpbLTIyMTg1MDkyMCwtNzA1MDM4MzU2LC0xNT
+Q2NDMyNjcxLC0xNTM4NTU4OTBdfQ==
 -->
