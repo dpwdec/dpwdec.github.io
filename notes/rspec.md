@@ -56,7 +56,9 @@ Keep all `it` assertions separated unless the performance speed loss from separa
 
 Often you should prefer `let` over `before`, this is because "let is lazy" and so only runs when the object is needed.
 
-Use [Mocks][#mocks] 
+Use [Mocks](#mocks) sparingly, while they will increase the speed of your tests they make tests less usable and reliable in general.
+
+
 
 ---
 #### Shared Context
@@ -532,7 +534,7 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTk1NDgyNiwxODcxNzg0MTQ0LDQ4NT
+eyJoaXN0b3J5IjpbMTM0MjgxMTgxNiwxODcxNzg0MTQ0LDQ4NT
 c5NjkwMiwtMTIxMjgyNTI1NywyMDYwODY1MTkzLC04NTYwMDAy
 MDQsLTE5NzY1MzgzOTAsLTEyMzE3NjQ1ODUsLTQzMDM0NDk5My
 wtMTExOTczMTE1MiwxNzcwNzE3MTMxLC0xNjYxMjM5MDc1LDE4
