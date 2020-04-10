@@ -55,6 +55,7 @@ end
 ```
 If you want to **define the subject *before* each example** without the use of a custom instance variable (HINT: you *should* want to do this) then you must use a `subject { ... }` block at the `context` level.
 ```ruby
+# Both example PASS because the subject block is run on each example
 subject { described_class.new("pops")
 it "returns a string to cocoa" do
   expect(subject.cocoa).to be_a_kind_of(String)
@@ -590,7 +591,7 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDM3NTMxNiwxNzM1NDIwMjEzLDE3Nj
+eyJoaXN0b3J5IjpbMTI2OTkyNTIwMiwxNzM1NDIwMjEzLDE3Nj
 c3MDU3MCwtMTk5MzI0ODE0OSwtNjk4ODcwMzIxLDEzNDI4MTE4
 MTYsMTg3MTc4NDE0NCw0ODU3OTY5MDIsLTEyMTI4MjUyNTcsMj
 A2MDg2NTE5MywtODU2MDAwMjA0LC0xOTc2NTM4MzkwLC0xMjMx
