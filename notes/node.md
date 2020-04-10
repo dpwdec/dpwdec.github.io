@@ -16,7 +16,17 @@ app.use(express.static(path.join(__dirname, 'public')));
 Where `__dirname` is the directory from which you main `.js` file is executing and `'public'` is another directory that contains static html web pages. These commands are essentially all you need to create a basic static website.
 
 #### Handlebars
-[Handlebars][hb] allows you to set up web pages with injected reproducible code and a views format. The dir
+[Handlebars][hb] allows you to set up web pages with injected reproducible code and a views format. The directory for Handlebars to work should be structured like so:
+
+```
+.
+├── app.js
+└── views
+    ├── home.handlebars
+    └── layouts
+        └── main.handlebars
+```
+Where `main.handlebars` represents code that will appear on each 
 
 [hb]: https://github.com/ericf/express-handlebars
 
@@ -36,6 +46,6 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQ5MjQ4MywxMzgyODcyMTY1LC03MD
-UwMzgzNTYsLTE1NDY0MzI2NzEsLTE1Mzg1NTg5MF19
+eyJoaXN0b3J5IjpbNjI2MDE2MjUxLDEzODI4NzIxNjUsLTcwNT
+AzODM1NiwtMTU0NjQzMjY3MSwtMTUzODU1ODkwXX0=
 -->
