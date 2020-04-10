@@ -137,7 +137,7 @@ it "should not change" do # --> BAD
 it "does not change" do # --> GOOD
 ```
 ---
-#### Shared Context
+### Shared Context
 A **shared context** allows you to define re-usable context code for your examples. You can define a shared context inside a `shared_context` block that is separate from your main `describe` code. You can **define instance variables, methods and** `let` **statements** inside a shared context. Instance variables must initialized inside a shared context must be contained in a `before` block.
 ```ruby
 # defining a shared context
@@ -610,7 +610,7 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzUzNjk5NDUsMzgwNzQ5MTYxLC0yNj
+eyJoaXN0b3J5IjpbLTExNTEyOTc4MDAsMzgwNzQ5MTYxLC0yNj
 A1MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OTMyNDgx
 NDksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQxNDQsND
 g1Nzk2OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLTg1NjAw
