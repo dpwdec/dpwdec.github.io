@@ -5,6 +5,7 @@ exclude: true
 ---
 
  - [core](#core)
+	 - 
 	 - [shared context](#shared-context)
  - [expectations](#expectations)
 	 - [collection matchers](#collection-matchers)
@@ -14,7 +15,9 @@ exclude: true
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
 
-#### Scope
+---
+
+#### Subject Scope
 You should not use the `subject` keyword *inside* a `before` block. This is because `subject` is re initialised for each example.  In the below example we initialize `subject.message` in `before` but when we test the code with `expect` it returns nil, because `subject` was reinitialised as an empty object when the example was triggered.
 ```ruby
 # FAILS
@@ -64,7 +67,13 @@ it "responds with pops to cocoa" do
   expect(my_subject.cocoa).to eq("pops")
 end
 ```
-You can also just  **define subject locally to an **
+You can also just  **define subject locally to an `it` block**.
+```ruby
+it "returns with pops to cocoa" do
+  subject = described_class("pops")
+  expect(my_subject.cocoa).to eq("pops")
+end
+```
 
 ---
 
@@ -591,7 +600,7 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTY1OTk3LDE3MzU0MjAyMTMsMTc2Nz
+eyJoaXN0b3J5IjpbNzM1MDI2ODQ1LDE3MzU0MjAyMTMsMTc2Nz
 cwNTcwLC0xOTkzMjQ4MTQ5LC02OTg4NzAzMjEsMTM0MjgxMTgx
 NiwxODcxNzg0MTQ0LDQ4NTc5NjkwMiwtMTIxMjgyNTI1NywyMD
 YwODY1MTkzLC04NTYwMDAyMDQsLTE5NzY1MzgzOTAsLTEyMzE3
