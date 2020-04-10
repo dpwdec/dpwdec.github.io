@@ -22,7 +22,6 @@ Where `__dirname` is the directory from which you main `.js` file is executing a
 
 #### Handlebars
 [Handlebars][hb] is an extension for Express that allows you to pass content dynamically from your server to your web pages and set up web pages which injected reproducible code into multiple web pages.. The directory for Handlebars to work should be structured like so:
-
 ```
 .
 ├── app.js
@@ -43,7 +42,13 @@ app.get('/', function (req, res) {
   res.render('home')
 });
 ```
-
+You can **variables to your web pages from your server** using the `app.get()` function and adding input variable dictionaries as an argument to the `render()` function.
+```javascript
+app.get('/', function (req, res) {
+  res.render('home', {
+  })
+});
+```
 [hb]: https://github.com/ericf/express-handlebars
 
 ### Nodemon
@@ -62,7 +67,7 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NjM1OTMyNSwtMTM1ODgxNjE5OCwxMz
+eyJoaXN0b3J5IjpbMTQ1ODY1MzA3MSwtMTM1ODgxNjE5OCwxMz
 gyODcyMTY1LC03MDUwMzgzNTYsLTE1NDY0MzI2NzEsLTE1Mzg1
 NTg5MF19
 -->
