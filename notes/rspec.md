@@ -33,7 +33,11 @@ end
 ```
 ---
 #### Structure
-
+Use `describe` blocks with a `#` or `.` appended to their beginning for each method that you are testing.
+```ruby
+describe ".include?" do
+describe "#include?" do
+```
 
 ---
 #### Shared Context
@@ -509,11 +513,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzMDk5OTE2LC04NTYwMDAyMDQsLTE5Nz
-Y1MzgzOTAsLTEyMzE3NjQ1ODUsLTQzMDM0NDk5MywtMTExOTcz
-MTE1MiwxNzcwNzE3MTMxLC0xNjYxMjM5MDc1LDE4MzczMzMwNj
-gsNDYwNTY5OTMsLTEyMDUwOTU5OTEsLTExMzc1ODc2ODcsLTEz
-NjM2NDc4OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4NTU1OD
-c3ODcsNTAxMzg3ODA0LC04MDU2MzIzNDYsMTg1MjU1NzQzLDEy
-MDA2NDU3NzhdfQ==
+eyJoaXN0b3J5IjpbLTEyNDc1NTAzNzIsLTg1NjAwMDIwNCwtMT
+k3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMwMzQ0OTkzLC0xMTE5
+NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEyMzkwNzUsMTgzNzMzMz
+A2OCw0NjA1Njk5MywtMTIwNTA5NTk5MSwtMTEzNzU4NzY4Nywt
+MTM2MzY0Nzg5NiwtMjA4NjE0ODk3MywxNTY0NTc2MzMwLDg1NT
+U4Nzc4Nyw1MDEzODc4MDQsLTgwNTYzMjM0NiwxODUyNTU3NDMs
+MTIwMDY0NTc3OF19
 -->
