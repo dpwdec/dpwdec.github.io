@@ -2,9 +2,12 @@
 
 ## Frameworks
 ### Express
-You can **create a new instance of the express framework and start a server** using:
+After installing express. You can **create a new instance of the express framework and start a server** using the following code:
 ```javascript
+//
 const app = express();
+
+app.listen(4000, 127.160.0.1, () => console.log("Starting server));
 ```
 
 ### Nodemon
@@ -23,6 +26,6 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTg1MDkyMCwtNzA1MDM4MzU2LC0xNT
+eyJoaXN0b3J5IjpbMTgxOTMzODYwMywtNzA1MDM4MzU2LC0xNT
 Q2NDMyNjcxLC0xNTM4NTU4OTBdfQ==
 -->
