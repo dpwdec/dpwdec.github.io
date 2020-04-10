@@ -54,7 +54,9 @@ end
 # => unitialized variable "my_subject"
 ```
 If you want to **define the subject *before* each example** without the use of a custom instance variable (HINT: you *should* want to do this) then you must use a `subject { ... }` block at the `context` level.
-
+```ruby
+subject { described_class.new("pops")
+```
 
 
 ---
@@ -582,11 +584,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OT
-MyNDgxNDksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQx
-NDQsNDg1Nzk2OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLT
-g1NjAwMDIwNCwtMTk3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMw
-MzQ0OTkzLC0xMTE5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEyMz
-kwNzUsMTgzNzMzMzA2OCw0NjA1Njk5MywtMTIwNTA5NTk5MSwt
-MTEzNzU4NzY4N119
+eyJoaXN0b3J5IjpbLTE2NDkxOTc1MTksMTczNTQyMDIxMywxNz
+Y3NzA1NzAsLTE5OTMyNDgxNDksLTY5ODg3MDMyMSwxMzQyODEx
+ODE2LDE4NzE3ODQxNDQsNDg1Nzk2OTAyLC0xMjEyODI1MjU3LD
+IwNjA4NjUxOTMsLTg1NjAwMDIwNCwtMTk3NjUzODM5MCwtMTIz
+MTc2NDU4NSwtNDMwMzQ0OTkzLC0xMTE5NzMxMTUyLDE3NzA3MT
+cxMzEsLTE2NjEyMzkwNzUsMTgzNzMzMzA2OCw0NjA1Njk5Mywt
+MTIwNTA5NTk5MV19
 -->
