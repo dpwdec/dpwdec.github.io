@@ -13,7 +13,11 @@ You can **set up static paths** to web pages using with the `use` command.
 ```javascript
 app.use(express.static(path.join(__dirname, 'public')));
 ```
-Where `__dirname` is the directory from which you main `.js` file is executing and `'public'` is another directory that contains static html web pages. These commands are es
+Where `__dirname` is the directory from which you main `.js` file is executing and `'public'` is another directory that contains static html web pages. These commands are essentially all you need to create a basic static website.
+
+#### Handlebars
+
+
 ### Nodemon
 By default you must restart you node server every time you make a change to your serve code so that it can run. [Nodemon][nm] is an automated service that **monitors your node server** and **restarts it automatically when server code changes are made**. 
 
@@ -30,6 +34,6 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTIzMjA0NywtNzA1MDM4MzU2LC0xNT
+eyJoaXN0b3J5IjpbMTM4Mjg3MjE2NSwtNzA1MDM4MzU2LC0xNT
 Q2NDMyNjcxLC0xNTM4NTU4OTBdfQ==
 -->
