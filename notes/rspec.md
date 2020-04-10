@@ -27,7 +27,7 @@ it "responds with pops to cocoa" do
 end
 # => Expected "pops" but got "nil"
 ```
-This also means that you can't use 
+This also means that you can't use `described_class` subject's with constructors that require arguments because when RSpec initializes the subject inside an example it will not submit the requisite arguments.
 ```ruby
 # FAILS
 before { subject = described_class.new("pops") }
@@ -562,11 +562,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3MzA0MDIsMTc2NzcwNTcwLC0xOTkzMj
-Q4MTQ5LC02OTg4NzAzMjEsMTM0MjgxMTgxNiwxODcxNzg0MTQ0
-LDQ4NTc5NjkwMiwtMTIxMjgyNTI1NywyMDYwODY1MTkzLC04NT
-YwMDAyMDQsLTE5NzY1MzgzOTAsLTEyMzE3NjQ1ODUsLTQzMDM0
-NDk5MywtMTExOTczMTE1MiwxNzcwNzE3MTMxLC0xNjYxMjM5MD
-c1LDE4MzczMzMwNjgsNDYwNTY5OTMsLTEyMDUwOTU5OTEsLTEx
-Mzc1ODc2ODddfQ==
+eyJoaXN0b3J5IjpbLTIxMzkzMzQ0NjUsMTc2NzcwNTcwLC0xOT
+kzMjQ4MTQ5LC02OTg4NzAzMjEsMTM0MjgxMTgxNiwxODcxNzg0
+MTQ0LDQ4NTc5NjkwMiwtMTIxMjgyNTI1NywyMDYwODY1MTkzLC
+04NTYwMDAyMDQsLTE5NzY1MzgzOTAsLTEyMzE3NjQ1ODUsLTQz
+MDM0NDk5MywtMTExOTczMTE1MiwxNzcwNzE3MTMxLC0xNjYxMj
+M5MDc1LDE4MzczMzMwNjgsNDYwNTY5OTMsLTEyMDUwOTU5OTEs
+LTExMzc1ODc2ODddfQ==
 -->
