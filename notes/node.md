@@ -16,7 +16,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 Where `__dirname` is the directory from which you main `.js` file is executing and `'public'` is another directory that contains static html web pages. These commands are essentially all you need to create a basic static website.
 
 #### Handlebars
+[Handlebars][hb] allows you to set up web pages with injected reproducible code and a views format. The dir
 
+[hb]: https://github.com/ericf/express-handlebars
 
 ### Nodemon
 By default you must restart you node server every time you make a change to your serve code so that it can run. [Nodemon][nm] is an automated service that **monitors your node server** and **restarts it automatically when server code changes are made**. 
@@ -34,6 +36,6 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Mjg3MjE2NSwtNzA1MDM4MzU2LC0xNT
-Q2NDMyNjcxLC0xNTM4NTU4OTBdfQ==
+eyJoaXN0b3J5IjpbLTEzODQ5MjQ4MywxMzgyODcyMTY1LC03MD
+UwMzgzNTYsLTE1NDY0MzI2NzEsLTE1Mzg1NTg5MF19
 -->
