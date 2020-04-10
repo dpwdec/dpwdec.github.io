@@ -24,7 +24,7 @@ You can **create single like `it` blocks** using one-liner syntax combined with 
 subject { [1, 2, 3] }
 it { is_expected.to not be_empty }
 # method output one liner
-subject { 
+subject { "Hello".upcase }
 ```
 
 
@@ -529,11 +529,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzA0OTQzLDE4NzE3ODQxNDQsNDg1Nz
-k2OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLTg1NjAwMDIw
-NCwtMTk3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMwMzQ0OTkzLC
-0xMTE5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEyMzkwNzUsMTgz
-NzMzMzA2OCw0NjA1Njk5MywtMTIwNTA5NTk5MSwtMTEzNzU4Nz
-Y4NywtMTM2MzY0Nzg5NiwtMjA4NjE0ODk3MywxNTY0NTc2MzMw
-LDg1NTU4Nzc4N119
+eyJoaXN0b3J5IjpbLTE0MjI1ODM3NTUsMTg3MTc4NDE0NCw0OD
+U3OTY5MDIsLTEyMTI4MjUyNTcsMjA2MDg2NTE5MywtODU2MDAw
+MjA0LC0xOTc2NTM4MzkwLC0xMjMxNzY0NTg1LC00MzAzNDQ5OT
+MsLTExMTk3MzExNTIsMTc3MDcxNzEzMSwtMTY2MTIzOTA3NSwx
+ODM3MzMzMDY4LDQ2MDU2OTkzLC0xMjA1MDk1OTkxLC0xMTM3NT
+g3Njg3LC0xMzYzNjQ3ODk2LC0yMDg2MTQ4OTczLDE1NjQ1NzYz
+MzAsODU1NTg3Nzg3XX0=
 -->
