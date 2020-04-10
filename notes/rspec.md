@@ -18,11 +18,15 @@ describe MyClass, '#my_method' do
   # ... testing code
 end
 ``` 
-You can **create single like `it` blocks** using one-liner syntax combined with the `is_expected` keyword. The defined `subject` is used implicitly as the object to be tested.
+You can **create single like `it` blocks** using one-liner syntax combined with the `is_expected` keyword. When testing a method output with `is_expected` set the output of an object to the subject.
 ```ruby
+# object one liner
 subject { [1, 2, 3] }
 it { is_expected.to not be_empty }
+# method output one liner
+subject { 
 ```
+
 
 ---
 #### Structure
@@ -525,11 +529,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MTc4NDE0NCw0ODU3OTY5MDIsLTEyMT
-I4MjUyNTcsMjA2MDg2NTE5MywtODU2MDAwMjA0LC0xOTc2NTM4
-MzkwLC0xMjMxNzY0NTg1LC00MzAzNDQ5OTMsLTExMTk3MzExNT
-IsMTc3MDcxNzEzMSwtMTY2MTIzOTA3NSwxODM3MzMzMDY4LDQ2
-MDU2OTkzLC0xMjA1MDk1OTkxLC0xMTM3NTg3Njg3LC0xMzYzNj
-Q3ODk2LC0yMDg2MTQ4OTczLDE1NjQ1NzYzMzAsODU1NTg3Nzg3
-LDUwMTM4NzgwNF19
+eyJoaXN0b3J5IjpbLTg0NzA0OTQzLDE4NzE3ODQxNDQsNDg1Nz
+k2OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLTg1NjAwMDIw
+NCwtMTk3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMwMzQ0OTkzLC
+0xMTE5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEyMzkwNzUsMTgz
+NzMzMzA2OCw0NjA1Njk5MywtMTIwNTA5NTk5MSwtMTEzNzU4Nz
+Y4NywtMTM2MzY0Nzg5NiwtMjA4NjE0ODk3MywxNTY0NTc2MzMw
+LDg1NTU4Nzc4N119
 -->
