@@ -18,9 +18,9 @@ describe MyClass, '#my_method' do
   # ... testing code
 end
 ``` 
-You can **create single like `it` blocks**:
+You can **create single like `it` blocks** using one-liner syntax combined with the `is_expected` keyword.
 ```ruby
-it { expect(subject.foo).to be true }
+it { is_expected.to not be_empty }
 ```
 
 ---
@@ -524,11 +524,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1Nzk2OTAyLC0xMjEyODI1MjU3LDIwNj
-A4NjUxOTMsLTg1NjAwMDIwNCwtMTk3NjUzODM5MCwtMTIzMTc2
-NDU4NSwtNDMwMzQ0OTkzLC0xMTE5NzMxMTUyLDE3NzA3MTcxMz
-EsLTE2NjEyMzkwNzUsMTgzNzMzMzA2OCw0NjA1Njk5MywtMTIw
-NTA5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4Nj
-E0ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQs
-LTgwNTYzMjM0Nl19
+eyJoaXN0b3J5IjpbNjI0OTE3NTkwLDQ4NTc5NjkwMiwtMTIxMj
+gyNTI1NywyMDYwODY1MTkzLC04NTYwMDAyMDQsLTE5NzY1Mzgz
+OTAsLTEyMzE3NjQ1ODUsLTQzMDM0NDk5MywtMTExOTczMTE1Mi
+wxNzcwNzE3MTMxLC0xNjYxMjM5MDc1LDE4MzczMzMwNjgsNDYw
+NTY5OTMsLTEyMDUwOTU5OTEsLTExMzc1ODc2ODcsLTEzNjM2ND
+c4OTYsLTIwODYxNDg5NzMsMTU2NDU3NjMzMCw4NTU1ODc3ODcs
+NTAxMzg3ODA0XX0=
 -->
