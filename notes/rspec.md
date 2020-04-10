@@ -18,9 +18,9 @@ describe MyClass, '#my_method' do
   # ... testing code
 end
 ``` 
-You can **create single like `it` blocks**
+You can **create single like `it` blocks**:
 ```ruby
-it { expect(subject.m
+it { expect(subject.foo).to be true }
 ```
 
 ---
@@ -46,6 +46,8 @@ describe ".include?" do
     end
   end
 ```
+Keep all `it` assertions separated unless the performance speed loss from separating them due to complex set at dependencies would several impact the functioning of your test suite.
+
 
 
 ---
@@ -522,11 +524,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NzAzNDgwOCwtMTIxMjgyNTI1NywyMD
-YwODY1MTkzLC04NTYwMDAyMDQsLTE5NzY1MzgzOTAsLTEyMzE3
-NjQ1ODUsLTQzMDM0NDk5MywtMTExOTczMTE1MiwxNzcwNzE3MT
-MxLC0xNjYxMjM5MDc1LDE4MzczMzMwNjgsNDYwNTY5OTMsLTEy
-MDUwOTU5OTEsLTExMzc1ODc2ODcsLTEzNjM2NDc4OTYsLTIwOD
-YxNDg5NzMsMTU2NDU3NjMzMCw4NTU1ODc3ODcsNTAxMzg3ODA0
-LC04MDU2MzIzNDZdfQ==
+eyJoaXN0b3J5IjpbNDg1Nzk2OTAyLC0xMjEyODI1MjU3LDIwNj
+A4NjUxOTMsLTg1NjAwMDIwNCwtMTk3NjUzODM5MCwtMTIzMTc2
+NDU4NSwtNDMwMzQ0OTkzLC0xMTE5NzMxMTUyLDE3NzA3MTcxMz
+EsLTE2NjEyMzkwNzUsMTgzNzMzMzA2OCw0NjA1Njk5MywtMTIw
+NTA5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0Nzg5NiwtMjA4Nj
+E0ODk3MywxNTY0NTc2MzMwLDg1NTU4Nzc4Nyw1MDEzODc4MDQs
+LTgwNTYzMjM0Nl19
 -->
