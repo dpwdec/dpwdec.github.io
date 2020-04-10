@@ -50,7 +50,7 @@ app.get('/', function (req, res) {
   })
 });
 ```
-This can then be referenced from your `HTML` page using `{{ }}` braces which will inject that varia
+This can then be referenced from your `HTML` page using `{{ }}` braces which will inject that variables content into these html tags.
 ```html
 <p>{{ stuff }}</p>
 ```
@@ -72,7 +72,7 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzA0MTMxOSwtMTM1ODgxNjE5OCwxMz
+eyJoaXN0b3J5IjpbLTU0NDM0NjU1MywtMTM1ODgxNjE5OCwxMz
 gyODcyMTY1LC03MDUwMzgzNTYsLTE1NDY0MzI2NzEsLTE1Mzg1
 NTg5MF19
 -->
