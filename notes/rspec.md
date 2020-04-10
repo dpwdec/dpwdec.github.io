@@ -14,6 +14,7 @@ exclude: true
 ## Core
 
 
+
 You can **add a class description and a block description to a describe block** by submitting multiple comma separated arguments to the describe.
 ```ruby
 describe MyClass, '#my_method' do
@@ -29,8 +30,6 @@ it { is_expected.to not be_empty }
 subject { "Hello".upcase }
 it { is_expected.to eq("HELLO") }
 ```
-
-
 ---
 #### Structure
 Use `describe` blocks with a `#` or `.` appended to their beginning for each method that you are testing.
@@ -65,9 +64,6 @@ Avoid using the imperative form "should" when describing test outcomes. Instead 
 it "should not change" do # --> BAD
 it "does not change" do # --> GOOD
 ```
-
-
-
 ---
 #### Shared Context
 A **shared context** allows you to define re-usable context code for your examples. You can define a shared context inside a `shared_context` block that is separate from your main `describe` code. You can **define instance variables, methods and** `let` **statements** inside a shared context. Instance variables must initialized inside a shared context must be contained in a `before` block.
@@ -542,11 +538,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODk5MzcwNywtNjk4ODcwMzIxLDEzND
-I4MTE4MTYsMTg3MTc4NDE0NCw0ODU3OTY5MDIsLTEyMTI4MjUy
-NTcsMjA2MDg2NTE5MywtODU2MDAwMjA0LC0xOTc2NTM4MzkwLC
-0xMjMxNzY0NTg1LC00MzAzNDQ5OTMsLTExMTk3MzExNTIsMTc3
-MDcxNzEzMSwtMTY2MTIzOTA3NSwxODM3MzMzMDY4LDQ2MDU2OT
-kzLC0xMjA1MDk1OTkxLC0xMTM3NTg3Njg3LC0xMzYzNjQ3ODk2
-LC0yMDg2MTQ4OTczXX0=
+eyJoaXN0b3J5IjpbLTE5OTMyNDgxNDksLTY5ODg3MDMyMSwxMz
+QyODExODE2LDE4NzE3ODQxNDQsNDg1Nzk2OTAyLC0xMjEyODI1
+MjU3LDIwNjA4NjUxOTMsLTg1NjAwMDIwNCwtMTk3NjUzODM5MC
+wtMTIzMTc2NDU4NSwtNDMwMzQ0OTkzLC0xMTE5NzMxMTUyLDE3
+NzA3MTcxMzEsLTE2NjEyMzkwNzUsMTgzNzMzMzA2OCw0NjA1Nj
+k5MywtMTIwNTA5NTk5MSwtMTEzNzU4NzY4NywtMTM2MzY0Nzg5
+NiwtMjA4NjE0ODk3M119
 -->
