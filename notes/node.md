@@ -26,7 +26,11 @@ Where `__dirname` is the directory from which you main `.js` file is executing a
     └── layouts
         └── main.handlebars
 ```
-Where `main.handlebars` represents code that will appear on each 
+Where `views/layouts/main.handlebars` represents code that will appear on each page, and `layouts/main.handlebars` represents a page in our website. To insert the content from a page into a handlebars layout use the `{{{body}}}` indicator.
+```html
+
+//
+```
 
 [hb]: https://github.com/ericf/express-handlebars
 
@@ -46,6 +50,6 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI2MDE2MjUxLDEzODI4NzIxNjUsLTcwNT
-AzODM1NiwtMTU0NjQzMjY3MSwtMTUzODU1ODkwXX0=
+eyJoaXN0b3J5IjpbMTk1MDY4MjYyMywxMzgyODcyMTY1LC03MD
+UwMzgzNTYsLTE1NDY0MzI2NzEsLTE1Mzg1NTg5MF19
 -->
