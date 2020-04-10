@@ -69,11 +69,15 @@ end
 ```
 After initializing `subject` using a `subject { ... }` block you **can alter the contents of subject from within `before`**. This actually an enforced feature as editing `subject` outside of an `it` literal can only be done from within a boock. See the example after this next one for that!
 ```ruby
-# set up
-subject { subject.described_class.new("cops") }
-before { subject.messsage = "pop" }
+# set up the subject object with a block
+subject { subject.described_class.new("pops") }
+# make changes and do further set up before each example
+before { subject.messsage = "cops" }
+it "responds with cops to cocoa" do
+  expect(subject.cocoa).to eq("cops")
+end
 ```
-You can also just  **define subject locally to an `it` block**.
+You can also just  **define (and alter) subject locally to an `it` block**:
 ```ruby
 it "returns with pops to cocoa" do
   subject = described_class("pops")
@@ -606,7 +610,7 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1OTEwOTAxLC0yNjA1MzcwNDIsMTczNT
+eyJoaXN0b3J5IjpbMzgwNzQ5MTYxLC0yNjA1MzcwNDIsMTczNT
 QyMDIxMywxNzY3NzA1NzAsLTE5OTMyNDgxNDksLTY5ODg3MDMy
 MSwxMzQyODExODE2LDE4NzE3ODQxNDQsNDg1Nzk2OTAyLC0xMj
 EyODI1MjU3LDIwNjA4NjUxOTMsLTg1NjAwMDIwNCwtMTk3NjUz
