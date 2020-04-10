@@ -17,7 +17,7 @@ If you **do not define a top level `describe` value** for your tests then `subje
 
 ---
 
-#### Subject Scope
+### Subject Scope
 You should not use the `subject` keyword *inside* a `before` block. This is because `subject` is re initialised for each example.  In the below example we initialize `subject.message` in `before` but when we test the code with `expect` it returns nil, because `subject` was reinitialised as an empty object when the example was triggered.
 ```ruby
 # FAILS
@@ -103,7 +103,7 @@ subject { "Hello".upcase }
 it { is_expected.to eq("HELLO") }
 ```
 ---
-#### Structure
+### Structure
 Use `describe` blocks with a `#` or `.` appended to their beginning for each method that you are testing.
 ```ruby
 describe ".include?" do
@@ -610,11 +610,11 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwNzQ5MTYxLC0yNjA1MzcwNDIsMTczNT
-QyMDIxMywxNzY3NzA1NzAsLTE5OTMyNDgxNDksLTY5ODg3MDMy
-MSwxMzQyODExODE2LDE4NzE3ODQxNDQsNDg1Nzk2OTAyLC0xMj
-EyODI1MjU3LDIwNjA4NjUxOTMsLTg1NjAwMDIwNCwtMTk3NjUz
-ODM5MCwtMTIzMTc2NDU4NSwtNDMwMzQ0OTkzLC0xMTE5NzMxMT
-UyLDE3NzA3MTcxMzEsLTE2NjEyMzkwNzUsMTgzNzMzMzA2OCw0
-NjA1Njk5M119
+eyJoaXN0b3J5IjpbLTEzMzUzNjk5NDUsMzgwNzQ5MTYxLC0yNj
+A1MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OTMyNDgx
+NDksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQxNDQsND
+g1Nzk2OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLTg1NjAw
+MDIwNCwtMTk3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMwMzQ0OT
+kzLC0xMTE5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEyMzkwNzUs
+MTgzNzMzMzA2OF19
 -->
