@@ -8,7 +8,7 @@ Variables in Rust are **immutable** by default and cannot be changed after they 
 ```rust
 let x = 4
 // next line will cause an error
-x= 5 // --> NOT VALID
+x = 5 // --> NOT VALID
 ```
 You can define **mutable** variables by using the `mut` keyword before a variable is first assigned.
 ```rust
@@ -60,6 +60,6 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDk1NzcyOSwyMDM4ODQ0ODY5LDYxNz
-IyMDM0NywtODU4MDg4MjQzLC0xNjA4ODI1MjYzXX0=
+eyJoaXN0b3J5IjpbLTE2MzgyMzI2NzcsMjAzODg0NDg2OSw2MT
+cyMjAzNDcsLTg1ODA4ODI0MywtMTYwODgyNTI2M119
 -->
