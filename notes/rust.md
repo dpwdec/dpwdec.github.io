@@ -16,6 +16,11 @@ let mut x = 5
 // now you change the variable
 x = 6
 ```
+`mut` variables can change value but **cannot change type**.
+```rust
+let mut x = 5;
+x = "6" //Error
+```
 You can **assign datatypes** using a `:` followed by the type attached to the end of a value:
 ```rust
 let x: i32 = 10;
@@ -80,7 +85,7 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1Nzc1NjAxMiwtMTYzODIzMjY3NywyMD
-M4ODQ0ODY5LDYxNzIyMDM0NywtODU4MDg4MjQzLC0xNjA4ODI1
-MjYzXX0=
+eyJoaXN0b3J5IjpbOTQyNTcxNjg3LC0xNjM4MjMyNjc3LDIwMz
+g4NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2MDg4MjUy
+NjNdfQ==
 -->
