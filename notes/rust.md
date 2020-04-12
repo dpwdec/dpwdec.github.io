@@ -36,6 +36,11 @@ Rust also has an integer type called `arch` indicated by the `isize` for signed 
 // on 64-bit architecture
 let x: isize = 97520; // 97520 64-bit integer
 ```
+Floats can be assigned in rust using the `f32` and `f64` types.
+```rust
+let x: f32 = 5.0;
+```
+
 Large numbers can be assigned using `_` number syntax:
 ```rust
 let number = 100_000; // one hundred thousand
@@ -108,7 +113,7 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5MDM4ODUwLC0xNjM4MjMyNjc3LDIwMz
-g4NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2MDg4MjUy
-NjNdfQ==
+eyJoaXN0b3J5IjpbMTQ3NTc0OTkyOCwtMTYzODIzMjY3NywyMD
+M4ODQ0ODY5LDYxNzIyMDM0NywtODU4MDg4MjQzLC0xNjA4ODI1
+MjYzXX0=
 -->
