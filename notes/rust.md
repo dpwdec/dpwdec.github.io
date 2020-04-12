@@ -16,7 +16,12 @@ let mut x = 5
 // now you change the variable
 x = 6
 ```
-You can create a constant with the `const` keyword. Constants are *always* immutable and cannot be used with the `mut` keyword. Constants must be defined with a type ind
+Data types are assigned using a `:` followed by the type attached to the end of a value:
+```rust
+let x: i32 = 10;
+```
+
+You can create a constant with the `const` keyword. Constants are *always* immutable and cannot be used with the `mut` keyword. Constants must be defined with a type indicator like `i32`.
 
 Rust constants can *never* be changed or assigned using by functions that require computation at run time.
 
@@ -62,7 +67,7 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjQxMzAwNywtMTYzODIzMjY3NywyMD
+eyJoaXN0b3J5IjpbMTQxNTIzODc4MCwtMTYzODIzMjY3NywyMD
 M4ODQ0ODY5LDYxNzIyMDM0NywtODU4MDg4MjQzLC0xNjA4ODI1
 MjYzXX0=
 -->
