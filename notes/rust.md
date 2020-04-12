@@ -40,7 +40,7 @@ Floats can be assigned in rust using the `f32` and `f64` types.
 ```rust
 let x: f32 = 5.0;
 ```
-**Integer Overflow** happens when you input a value into an data type that is larger than that data type is meant to hold. For example a `u8` is can hold a maximum value of 255. If you input a value of 256+ you will get an integer overflow error. In Rust if you compile in `debug` mode your program will crash when it encounters a integer overflow error. However 
+**Integer Overflow** happens when you input a value into an data type that is larger than that data type is meant to hold. For example a `u8` is can hold a maximum value of 255. If you input a value of 256+ you will get an integer overflow error. In Rust if you compile in `debug` mode your program will crash when it encounters a integer overflow error. However if you compile in `release` mode, when your program reaches an integer overflow error it
 
 Large numbers can be assigned using `_` number syntax:
 ```rust
@@ -114,7 +114,7 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTMwODk1OSwxNjczNDMwMDE3LDE0Nz
-U3NDk5MjgsLTE2MzgyMzI2NzcsMjAzODg0NDg2OSw2MTcyMjAz
-NDcsLTg1ODA4ODI0MywtMTYwODgyNTI2M119
+eyJoaXN0b3J5IjpbNDMxMTQ5ODMzLDE2NzM0MzAwMTcsMTQ3NT
+c0OTkyOCwtMTYzODIzMjY3NywyMDM4ODQ0ODY5LDYxNzIyMDM0
+NywtODU4MDg4MjQzLC0xNjA4ODI1MjYzXX0=
 -->
