@@ -20,12 +20,11 @@ You can **assign datatypes** using a `:` followed by the type attached to the en
 ```rust
 let x: i32 = 10;
 ```
-You can **create a constant** with the `const` keyword. Constants are *always* immutable and cannot be used with the `mut` keyword. ****Constants** must be defined with a type indicator**, like `i32`. 
+You can **create a constant** with the `const` keyword. Constants are *always* immutable and cannot be used with the `mut` keyword. Constants **must be defined with a type indicator**, like `i32`. The rust naming convention for constants is to use all upper with `_` underscores.
 ```rust
-const 
+const MY_CONSTANT: u32 = 100;
 ```
-
-Rust constants can *never* be changed or assigned using by functions that require computation at run time.
+Rust constants can *never* be changed or assigned using functions that require computation at run time. They are also valid for the ent
 
 
 You can **convert a string into a number** by using Rust's string `parse` method. This takes a string input and converts it into a number. There are many types of numbers such as an unsigned or signed 64 bit integer or a signed 32 bit integer, this means you need to specify what type of number you want the parse method to output by adding a `:` and the number type, such as `u32` to the end of the variable name. The `trim` method works like Ruby's `chomp` method and removes any `\n` special characters from the string which would cause an error if you tried to parse them to a number.
@@ -69,7 +68,7 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTY4MzQ0NywtMTYzODIzMjY3NywyMD
-M4ODQ0ODY5LDYxNzIyMDM0NywtODU4MDg4MjQzLC0xNjA4ODI1
-MjYzXX0=
+eyJoaXN0b3J5IjpbOTAzMDk1OTE1LC0xNjM4MjMyNjc3LDIwMz
+g4NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2MDg4MjUy
+NjNdfQ==
 -->
