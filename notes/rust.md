@@ -31,7 +31,11 @@ You can **assign datatypes** using a `:` followed by the type attached to the en
 ```rust
 let x: i32 = 10;
 ```
-Rust also has an integer type called `arch` indicated by the 
+Rust also has an integer type called `arch` indicated by the `isize` for signed and `usize` for unsigned. This size is based on the *architecture* of the system you are using. So for a 32 bit system it will be a `i32`.
+```rust
+// on 64-bit architecture
+let x: isize = 97520; // 97520 64-bit integer
+```
 Large numbers can be assigned using `_` number syntax:
 ```rust
 let number = 100_000; // one hundred thousand
@@ -104,7 +108,7 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTA4MDYzMiwtMTYzODIzMjY3NywyMD
-M4ODQ0ODY5LDYxNzIyMDM0NywtODU4MDg4MjQzLC0xNjA4ODI1
-MjYzXX0=
+eyJoaXN0b3J5IjpbODg5MDM4ODUwLC0xNjM4MjMyNjc3LDIwMz
+g4NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2MDg4MjUy
+NjNdfQ==
 -->
