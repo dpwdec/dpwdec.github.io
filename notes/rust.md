@@ -20,6 +20,10 @@ You can **assign datatypes** using a `:` followed by the type attached to the en
 ```rust
 let x: i32 = 10;
 ```
+Large numbers can be assigned using `_` number syntax:
+```rust
+let number = 100_000; 
+```
 You can **create a constant** with the `const` keyword. Constants are valid for the entire run time of the program. Constants are *always* immutable and cannot be used with the `mut` keyword. Constants **must be defined with a type indicator**, like `i32`. The rust naming convention for constants is to use all upper with `_` underscores.
 ```rust
 const MY_CONSTANT: u32 = 100;
@@ -72,7 +76,7 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzk0MTYxODAsLTE2MzgyMzI2NzcsMj
-AzODg0NDg2OSw2MTcyMjAzNDcsLTg1ODA4ODI0MywtMTYwODgy
-NTI2M119
+eyJoaXN0b3J5IjpbNzAyMjA0NDk3LC0xNjM4MjMyNjc3LDIwMz
+g4NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2MDg4MjUy
+NjNdfQ==
 -->
