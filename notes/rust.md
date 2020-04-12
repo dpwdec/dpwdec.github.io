@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 ## Variables and Types
-### V
+### Variables
 Variables in Rust are **immutable** by default and cannot be changed after they are assigned. The Rust team argues that immutable variables are more in general more stable and easier to debug especially in the case of multiple sections of your code accessing of changing a single mutable variable.
 ```rust
 let x = 4
@@ -31,6 +31,7 @@ You can **assign datatypes** using a `:` followed by the type attached to the en
 ```rust
 let x: i32 = 10;
 ```
+Rust also has an integer type called `arch` indicated by the 
 Large numbers can be assigned using `_` number syntax:
 ```rust
 let number = 100_000; // one hundred thousand
@@ -103,7 +104,7 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjAzNzg3NSwtMTYzODIzMjY3NywyMD
+eyJoaXN0b3J5IjpbLTY2NTA4MDYzMiwtMTYzODIzMjY3NywyMD
 M4ODQ0ODY5LDYxNzIyMDM0NywtODU4MDg4MjQzLC0xNjA4ODI1
 MjYzXX0=
 -->
