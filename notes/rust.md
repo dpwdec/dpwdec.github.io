@@ -25,7 +25,10 @@ You can **create a constant** with the `const` keyword. Constants are *always* i
 const MY_CONSTANT: u32 = 100;
 ```
 Rust constants can *never* be changed. They can also never be assigned using functions that require computation at run time, such as a function that uses input. They are also valid for the entire run time of the program.
-```ru
+```rust
+const A_CONSTANT = 3 + 4; //Valid
+const ANOTHER_CONSTANT = 
+```
 
 You can **convert a string into a number** by using Rust's string `parse` method. This takes a string input and converts it into a number. There are many types of numbers such as an unsigned or signed 64 bit integer or a signed 32 bit integer, this means you need to specify what type of number you want the parse method to output by adding a `:` and the number type, such as `u32` to the end of the variable name. The `trim` method works like Ruby's `chomp` method and removes any `\n` special characters from the string which would cause an error if you tried to parse them to a number.
 ```rust
@@ -68,7 +71,7 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTEyOTc4LC0xNjM4MjMyNjc3LDIwMz
+eyJoaXN0b3J5IjpbNTgxODIzOTg0LC0xNjM4MjMyNjc3LDIwMz
 g4NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2MDg4MjUy
 NjNdfQ==
 -->
