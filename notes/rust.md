@@ -65,6 +65,8 @@ Shadowed variables can also be assigned from functions.
 let fruit = "pineapple";
 let fruit = fruit.chars().count(); // fruit = 9
 ```
+#### Tuples
+
 
 ### Strings
 You can return the number of characters in a string using the `.chars().count()` function:
@@ -114,7 +116,7 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDk0MzEwMywxNjczNDMwMDE3LDE0Nz
+eyJoaXN0b3J5IjpbMTc4OTM4OTE0NCwxNjczNDMwMDE3LDE0Nz
 U3NDk5MjgsLTE2MzgyMzI2NzcsMjAzODg0NDg2OSw2MTcyMjAz
 NDcsLTg1ODA4ODI0MywtMTYwODgyNTI2M119
 -->
