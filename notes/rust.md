@@ -40,7 +40,7 @@ Floats can be assigned in rust using the `f32` and `f64` types.
 ```rust
 let x: f32 = 5.0;
 ```
-
+**Integer Overflow** happens when you input a value into an data type that is larger than that data type is meant to hold. 
 Large numbers can be assigned using `_` number syntax:
 ```rust
 let number = 100_000; // one hundred thousand
@@ -113,7 +113,7 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTc0OTkyOCwtMTYzODIzMjY3NywyMD
-M4ODQ0ODY5LDYxNzIyMDM0NywtODU4MDg4MjQzLC0xNjA4ODI1
-MjYzXX0=
+eyJoaXN0b3J5IjpbLTkwMDMwMDE2NiwxNDc1NzQ5OTI4LC0xNj
+M4MjMyNjc3LDIwMzg4NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgy
+NDMsLTE2MDg4MjUyNjNdfQ==
 -->
