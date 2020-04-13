@@ -18,9 +18,14 @@ Any **url extensions** wil got be appended to this url.
 ### Rails
 When making a rails app you should use amazon's Ubuntu server distribution rather than the Amazon Linux EC-2 version. I don't really understand the reason for this but it has to do with the installation of different dependencies such as SQLite and WebPacker and how they rely on each other. In any case, on Amazon Linux getting a clean install is very difficult but things mostly just work if you use the Ubuntu distribution.
 
-To access a loc
+This [post][soWebp] covers how to install `webpacker` and get the basics of a rails server installed.
+
+[soWebp]: https://stackoverflow.com/questions/57891751/webpacker-configuration-file-not-found-rails-6-0-0
+
+To set 
+ 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjQyNjQ5LC03NzIyMTYwNzksLTE3MT
-U0NjM5MjRdfQ==
+eyJoaXN0b3J5IjpbLTEyMjA2MTM1NCwtNzcyMjE2MDc5LC0xNz
+E1NDYzOTI0XX0=
 -->
