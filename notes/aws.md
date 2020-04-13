@@ -16,9 +16,11 @@ Aws will not always give you correct feedback on local host deployment, launchin
 Any **url extensions** wil got be appended to this url.
 
 ### Rails
-When making a rails app you should use amazon's Ubuntu server distribution rather than the Amazon Linux EC-2 version
+When making a rails app you should use amazon's Ubuntu server distribution rather than the Amazon Linux EC-2 version. I don't really understand the reason for this but it has to do with the installation of different dependencies such as SQLite and WebPacker and how they rely on each other. In any case, on Amazon Linux getting a clean install is very difficult but things mostly just work if you use the Ubuntu distribution.
+
+To access a loc
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0MDY5MTI1LC03NzIyMTYwNzksLTE3MT
+eyJoaXN0b3J5IjpbLTg2MjQyNjQ5LC03NzIyMTYwNzksLTE3MT
 U0NjM5MjRdfQ==
 -->
