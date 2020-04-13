@@ -22,10 +22,14 @@ This [post][soWebp] covers how to install `webpacker` and get the basics of a ra
 
 [soWebp]: https://stackoverflow.com/questions/57891751/webpacker-configuration-file-not-found-rails-6-0-0
 
-To set 
+To set up a rails server to work on aws' `localhost` go to the `config/environments/development.rb` and add the following code to the bottom of the `development.rb` file just before the `end` keyword.
+
+```ruby
+[https://stackoverflow.com/questions/57891751/webpacker-configuration-file-not-found-rails-6-0-0](https://stackoverflow.com/questions/57891751/webpacker-configuration-file-not-found-rails-6-0-0)
+```
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjA2MTM1NCwtNzcyMjE2MDc5LC0xNz
+eyJoaXN0b3J5IjpbLTk1MjM0NzU3MywtNzcyMjE2MDc5LC0xNz
 E1NDYzOTI0XX0=
 -->
