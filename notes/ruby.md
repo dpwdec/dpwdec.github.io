@@ -93,8 +93,13 @@ You can use the `p()` method to help debug code. This method outputs the equival
 end
 # => 1, 2, 3
 ```
+
+## IRB
+You can load classes and ruby file into the irb using the `require` and `require_relative` keywords. I mostly use `require_relative` which initializes a file path that is relative to the directory from which you 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5LDIwNj
-gzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1MjcwNDFdfQ==
+eyJoaXN0b3J5IjpbMTc4ODk0Njg1LDE0ODQ5NTc0NSwtMTU5Mz
+IzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3
+MDQxXX0=
 -->
