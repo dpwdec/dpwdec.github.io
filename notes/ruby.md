@@ -83,10 +83,10 @@ dpwdec/
  - The **rake file** is a `rake` program that performs utility tasks on the gem.
  - The **gemspec** file contains information about the gem such as version, author, homepage etc.
 
-## Kernal Commands
-
+## Kernel Methods
+Kernel methods are a module that is mixed into 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTI1ODk2LC0xNTkzMjM2MDQ5LDIwNj
-gzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1MjcwNDFdfQ==
+eyJoaXN0b3J5IjpbMTk3NTAyOTQwNCwtMTU5MzIzNjA0OSwyMD
+Y4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3MDQxXX0=
 -->
