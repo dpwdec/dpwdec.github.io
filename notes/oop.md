@@ -41,15 +41,13 @@ The `fly` method however *is* exposed to the rest of our code so that we have an
 Because our code has clearly defined channels for interacting with our `Bird` class it means we can easily change the implementation of the class without effecting the rest of our code. For example if we wanted to completely rewrite the `fly` method to changed how we calculating flying we can do that without in any way changing how the rest of our code outside of the `Bird` class works.
 
 ### SRP (Single Responsibility Principle)
-**SRP** means structuring our program so that each part individual part of its functionality is encapsulated as a distinct entity (or class) capable of handling that responsibility without outside assistance. Each class should have
-
-Individual pieces of a program’s functionality should be distributed to distinct entities that are capable of handling them without outside assistance.
+**SRP** means structuring our program so that each individual part of its functionality is encapsulated as a distinct entity (or class) capable of handling that responsibility without outside assistance. Each class should have one thing that is responsible for changing or editing.
 
 ### Cohesion
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDgwODQ0MSwtMTE4Mzg0MjE3NywtNz
-I1NDUwMjc3LC0xOTMzODUxMTU4LC0zNzIyMTgxMzZdfQ==
+eyJoaXN0b3J5IjpbLTE1Njk0MjAxNzIsLTExODM4NDIxNzcsLT
+cyNTQ1MDI3NywtMTkzMzg1MTE1OCwtMzcyMjE4MTM2XX0=
 -->
