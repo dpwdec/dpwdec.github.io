@@ -95,7 +95,7 @@ end
 ```
 
 ## IRB
-You can load classes and ruby file into the irb using the `require` and `require_relative` keywords. I mostly use `require_relative` which initializes a file path that is relative to the directory from which you start the irb. For example, in the following directory if you were running an irb instance from `my_diretory` and wanted to include the `my_class.rb` files contents you would use `require_relative "classes/my_class.rb"`. However, if you were in the `classes` directory you could reference the `my_class.rb` file with `requi
+You can load classes and ruby file into the irb using the `require` and `require_relative` keywords. I mostly use `require_relative` which initializes a file path that is relative to the directory from which you start the irb. For example, in the following directory if you were running an irb instance from `my_diretory` and wanted to include the `my_class.rb` files contents you would use `require_relative "classes/my_class.rb"`. However, if you executed the irb from within the `classes` directory you could reference the `my_class.rb` file with `require_relative "my_class.rb"`
 ```
 my_directory
 ├── classes/
@@ -104,7 +104,7 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjM3NTg3NiwxNDg0OTU3NDUsLTE1OT
+eyJoaXN0b3J5IjpbMTkxNDg4Mzg5MywxNDg0OTU3NDUsLTE1OT
 MyMzYwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUy
 NzA0MV19
 -->
