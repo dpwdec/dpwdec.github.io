@@ -4,9 +4,9 @@ layout: page
 exclude: true
 ---
 ## Data Abstraction
-"Data abstraction" means creating classes the s
+When creating a class to represent a real world object we can use "data abstraction" which means creating classes so that their data is structured so that it *matches* the real world object's structure.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyNzc3Mzg0XX0=
+eyJoaXN0b3J5IjpbMTQ2MTgxMzgwN119
 -->
