@@ -10,11 +10,22 @@ For example if we have a `Bird` object we can create a generalised blueprint tha
 ```ruby
 class Bird
   GRAVITY = 9.8
-  def initialize(wingspan, 
+  def initialize(wing_span, weight)
+    @wing_span = wing_span
+    @weight = weight
+  end
+
+  def flying_speed
+    # code using gravity, weight and wing span
+  end
+
+  def fly
+    # use flying speed to move the bird and make it fly
+  end
 end
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODc0MTc2MV19
+eyJoaXN0b3J5IjpbLTQ2OTcyNTYxOV19
 -->
