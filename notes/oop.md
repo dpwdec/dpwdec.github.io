@@ -38,10 +38,11 @@ The `@position`,`@wing_span` and `@weight` instance variables cannot be accessed
 
 The `fly` method however *is* exposed to the rest of our code so that we have an interface for interacting with our `Bird` instances to make them fly!
 
-### SRP (Single Resp
+### SRP (Single Responsibility Principle)
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTQ5MDY1OSwtNzI1NDUwMjc3LC0xOT
+eyJoaXN0b3J5IjpbMTMzODI1MTcyMiwtNzI1NDUwMjc3LC0xOT
 MzODUxMTU4LC0zNzIyMTgxMzZdfQ==
 -->
