@@ -25,8 +25,8 @@ class Bird
   end
 end
 ```
-
+Here the `Bird` class represents a bird with a `position`, `wing_span` and `weight`, everything need to calculate the bird's flying speed.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTcxNDM0NDBdfQ==
+eyJoaXN0b3J5IjpbLTE2MzczMzkxMTZdfQ==
 -->
