@@ -13,19 +13,20 @@ class Bird
   def initialize(wing_span, weight)
     @wing_span = wing_span
     @weight = weight
+    @position = { x: 0, y: 0 }
+  end
+  
+  def fly
+    # use flying speed to move the bird and make it fly
   end
 
   def flying_speed
     # code using gravity, weight and wing span
-  end
-
-  def fly
-    # use flying speed to move the bird and make it fly
   end
 end
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTcyNTYxOV19
+eyJoaXN0b3J5IjpbLTEyMTcxNDM0NDBdfQ==
 -->
