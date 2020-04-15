@@ -31,7 +31,11 @@ Here the `Bird` class represents a bird with a `position`, `wing_span` and `weig
 
 ### Encapsulation
 **Encapsulation** means structuring objects that only the properties that are required to interact with the object are *exposed* to the rest of the program. 
+
+In the above example `GRAVITY` is a constant that can be accessed for the `Bird` class but not changed, this is useful if we were perhaps modelling an entire woodland and wanted to get a consistent gravity across the entire model.
+
+The `@position`,`@wing_span` and `@weight` instance variables cannot be accessed from outside the 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzQ2OTc2MCwtMzcyMjE4MTM2XX0=
+eyJoaXN0b3J5IjpbLTUzOTA5NTkxNCwtMzcyMjE4MTM2XX0=
 -->
