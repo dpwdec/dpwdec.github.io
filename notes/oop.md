@@ -38,7 +38,7 @@ The `@position`,`@wing_span` and `@weight` instance variables cannot be accessed
 
 The `fly` method however *is* exposed to the rest of our code so that we have an interface for interacting with our `Bird` instances to make them fly!
 
-Because our code has clearly defined channels for interacting with our `Bird` class it means we can easily change the implementation of the class without effecting the rest of our code. For example if we wanted to completely rewrite the `fly` method to changed how we calculating flying we can do that without in any way changing how the rest of our code interest
+Because our code has clearly defined channels for interacting with our `Bird` class it means we can easily change the implementation of the class without effecting the rest of our code. For example if we wanted to completely rewrite the `fly` method to changed how we calculating flying we can do that without in any way changing how the rest of our code outside of the `Bird` class works.
 
 ### SRP (Single Responsibility Principle)
 
@@ -47,6 +47,6 @@ Because our code has clearly defined channels for interacting with our `Bird` cl
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDU5MDc2OCwtMTE4Mzg0MjE3NywtNz
-I1NDUwMjc3LC0xOTMzODUxMTU4LC0zNzIyMTgxMzZdfQ==
+eyJoaXN0b3J5IjpbLTE1MDQ0ODgxMDYsLTExODM4NDIxNzcsLT
+cyNTQ1MDI3NywtMTkzMzg1MTE1OCwtMzcyMjE4MTM2XX0=
 -->
