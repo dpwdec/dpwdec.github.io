@@ -34,7 +34,7 @@ Here the `Bird` class represents a bird with a `position`, `wing_span` and `weig
 
 In the above example `GRAVITY` is a constant that can be accessed for the `Bird` class using `Bird::GRAVITY` but not changed, this is useful if we were perhaps modelling an entire woodland and wanted to get a consistent gravity across the entire model.
 
-The `@position`,`@wing_span` and `@weight` instance variables cannot be accessed from outside the `Bird` class because the rest of program does not need to change these directly. Furthermore the `flying_speed` method is kept private so that only a particular instance of the `Bird` class can calculate its flying speed becau
+The `@position`,`@wing_span` and `@weight` instance variables cannot be accessed from outside the `Bird` class because the rest of program does not need to change these directly. Furthermore the `flying_speed` method is kept private so that only a particular instance of the `Bird` class can calculate its flying speed because the rest of our code doesn't need to interact with this method.
 
 The `fly` method however *is* exposed to the rest of our code so that we have an interface for interacting with our `Bird` instances to make them fly!
 
@@ -43,6 +43,6 @@ The `fly` method however *is* exposed to the rest of our code so that we have an
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDA2MDc0LC03MjU0NTAyNzcsLTE5Mz
-M4NTExNTgsLTM3MjIxODEzNl19
+eyJoaXN0b3J5IjpbLTExODM4NDIxNzcsLTcyNTQ1MDI3NywtMT
+kzMzg1MTE1OCwtMzcyMjE4MTM2XX0=
 -->
