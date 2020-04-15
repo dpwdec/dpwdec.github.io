@@ -84,9 +84,14 @@ dpwdec/
  - The **gemspec** file contains information about the gem such as version, author, homepage etc.
 
 ## Kernel Methods
-Kernel methods are a module that is mixed into 
+Kernel methods are a module that is mixed into Ruby's `Object` class and contains methods like `puts`.
+
+You can use the `p()` method to help debug code. This method outputs the equivalent of `object.inspect` to the standard output.
+```ruby
+[1, 
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTAyOTQwNCwtMTU5MzIzNjA0OSwyMD
+eyJoaXN0b3J5IjpbLTk0NDE3NTY1NywtMTU5MzIzNjA0OSwyMD
 Y4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3MDQxXX0=
 -->
