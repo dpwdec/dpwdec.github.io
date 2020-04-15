@@ -22,6 +22,7 @@ You can **call an object method by name** by using `send` to push the method to 
 > Why would you want to do this?
 
 This allows you to store methods that you might want to call as a list of symbols that can then be iterated through very cleanly and called on an object. Furthermore if you have an object method that returns a list of methods it responds to as an array of symbols you can easily iterate through that array and call these methods.
+
 ## Other data structures
 A **set** is a data storage object  that functions similarly to an array, the main difference being that it is *limited to containing unique elements* or no duplicate elements. You may need to `require 'set'` to use the set object. To create a set:
 ```ruby
@@ -82,9 +83,10 @@ dpwdec/
  - The **rake file** is a `rake` program that performs utility tasks on the gem.
  - The **gemspec** file contains information about the gem such as version, author, homepage etc.
 
+## Kernal Commands
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTMyMzYwNDksMjA2ODM1MDMzNCwtMT
-EyNTEwNTk4NSwtMTE1OTUyNzA0MV19
+eyJoaXN0b3J5IjpbMTQ5NTI1ODk2LC0xNTkzMjM2MDQ5LDIwNj
+gzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1MjcwNDFdfQ==
 -->
