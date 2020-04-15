@@ -7,7 +7,7 @@ exclude: true
 You can convert an integer into a string `char` by running the `.chr` method on it.
 ```ruby
 (65).chr
-=> 'A'
+# => 'A'
 ```
 
 ## Objects
@@ -88,10 +88,13 @@ Kernel methods are a module that is mixed into Ruby's `Object` class and contain
 
 You can use the `p()` method to help debug code. This method outputs the equivalent of `object.inspect` to the standard output.
 ```ruby
-[1, 
+[1, 2, 3].each do |num|
+  p num
+end
+# => 1, 2, 3
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDE3NTY1NywtMTU5MzIzNjA0OSwyMD
-Y4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3MDQxXX0=
+eyJoaXN0b3J5IjpbMTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5LDIwNj
+gzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1MjcwNDFdfQ==
 -->
