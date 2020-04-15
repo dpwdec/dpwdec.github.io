@@ -16,10 +16,12 @@ class Bird
     @position = { x: 0, y: 0 }
   end
   
+  private
   def fly
     # use flying speed to move the bird and make it fly
   end
 
+  public
   def flying_speed
     # code using gravity, weight and wing span
   end
@@ -28,5 +30,5 @@ end
 Here the `Bird` class represents a bird with a `position`, `wing_span` and `weight`, everything need to calculate the bird's flying speed.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzczMzkxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1MTI2OTQ2XX0=
 -->
