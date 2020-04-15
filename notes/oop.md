@@ -30,7 +30,7 @@ end
 Here the `Bird` class represents a bird with a `position`, `wing_span` and `weight`, everything need to calculate the bird's `flying_speed`. We then include a `fly` to change the bird's position.
 
 ### Encapsulation
-**Encapsulation** means structuring objects that only the properties that are required to interact with the object are *exposed* to the rest of the program giving your code a standard interface with which to interact with a class.
+**Encapsulation** means structuring objects so that only the properties that are required to interact with the object are *exposed* to the rest of the program giving your code a standard interface with which to interact with a class.
 
 In the above example `GRAVITY` is a constant that can be accessed for the `Bird` class using `Bird::GRAVITY` but not changed, this is useful if we were perhaps modelling an entire woodland and wanted to get a consistent gravity across the entire model.
 
@@ -40,9 +40,11 @@ The `fly` method however *is* exposed to the rest of our code so that we have an
 
 ### SRP (Single Responsibility Principle)
 
+### Cohesion
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODM4NDIxNzcsLTcyNTQ1MDI3NywtMT
-kzMzg1MTE1OCwtMzcyMjE4MTM2XX0=
+eyJoaXN0b3J5IjpbNDI3MzM0OTA4LC0xMTgzODQyMTc3LC03Mj
+U0NTAyNzcsLTE5MzM4NTExNTgsLTM3MjIxODEzNl19
 -->
