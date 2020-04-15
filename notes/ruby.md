@@ -9,6 +9,8 @@ You can convert an integer into a string `char` by running the `.chr` method on 
 (65).chr
 # => 'A'
 ```
+## Arrays
+
 
 ## Objects
 You can **call an object method by name** by using `send` to push the method to an object as a message instead of calling it directly with the `.` syntax.
@@ -104,7 +106,7 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5Mz
-IzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3
-MDQxXX0=
+eyJoaXN0b3J5IjpbMTI5Nzk3Njc0OSwtODIyNTE4NDcsMTQ4ND
+k1NzQ1LC0xNTkzMjM2MDQ5LDIwNjgzNTAzMzQsLTExMjUxMDU5
+ODUsLTExNTk1MjcwNDFdfQ==
 -->
