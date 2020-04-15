@@ -37,7 +37,8 @@ In the above example `GRAVITY` is a constant that can be accessed for the `Bird`
 The `@position`,`@wing_span` and `@weight` instance variables cannot be accessed from outside the `Bird` class because the rest of program does not need to change these directly. Furthermore more the `flying_speed` method is kept private so that only our `Bird` class can use it to calculate the speed of a particular `Bird` instance.
 
 The `fly` method however *is* exposed to the rest of our code so that we have an interface for interacting with our `Bird` instances to make them fly!
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzcwNTU3MzAsLTM3MjIxODEzNl19
+eyJoaXN0b3J5IjpbLTY5OTUyNjgsLTM3MjIxODEzNl19
 -->
