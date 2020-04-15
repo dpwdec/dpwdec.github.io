@@ -3,6 +3,12 @@ layout: page
 title: Ruby
 exclude: true
 ---
+## Strings
+You can convert an integer into a string `char` by running the `.chr` method on it.
+```ruby
+(65).chr
+=> 'A'
+```
 
 ## Objects
 You can **call an object method by name** by using `send` to push the method to an object as a message instead of calling it directly with the `.` syntax.
@@ -79,6 +85,6 @@ dpwdec/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMT
-E1OTUyNzA0MV19
+eyJoaXN0b3J5IjpbLTE1OTMyMzYwNDksMjA2ODM1MDMzNCwtMT
+EyNTEwNTk4NSwtMTE1OTUyNzA0MV19
 -->
