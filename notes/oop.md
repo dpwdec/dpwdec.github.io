@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 ### Data Abstraction
-When creating a class to represent a real world object we can use "data abstraction" to the model that real object more effectively. This means creating classes so that their data is structured in such a way that it *matches* the real world object's structure. 
+When creating a class to represent a real world object we can use **data abstraction** to the model that real object more effectively. This means creating classes so that their data is structured in such a way that it *matches* the real world object's structure. 
 
 For example if we have a `Bird` object we can create a generalised blueprint that matches the structure of how information about a bird might be represented.
 ```ruby
@@ -30,8 +30,8 @@ end
 Here the `Bird` class represents a bird with a `position`, `wing_span` and `weight`, everything need to calculate the bird's `flying_speed`. We then include a `fly` to change the bird's position.
 
 ### Encapsulation
-
+**Encapsulation** means structuring objects that only the properties that are required to interact with the object are *exposed* to the rest of the program. 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjIxODEzNl19
+eyJoaXN0b3J5IjpbMTkzNzQ2OTc2MCwtMzcyMjE4MTM2XX0=
 -->
