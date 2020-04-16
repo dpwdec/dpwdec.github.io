@@ -608,9 +608,13 @@ describe Caller do
 end
 ```
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
+
+## CLI
+You can run a specific RSpec tests by specificying a line number from the tests. ./spec/appointment_spec.rb:9
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTEyOTc4MDAsMzgwNzQ5MTYxLC0yNj
+eyJoaXN0b3J5IjpbLTE5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNj
 A1MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OTMyNDgx
 NDksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQxNDQsND
 g1Nzk2OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLTg1NjAw
