@@ -12,6 +12,8 @@ exclude: true
  - [mocks](#mocks)
 	 - [instance doubles](#instance-double)
 
+it { is_expected.to respond_to(:dock).with(1).argument }
+
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
 
@@ -616,11 +618,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzOD
-A3NDkxNjEsLTI2MDUzNzA0MiwxNzM1NDIwMjEzLDE3Njc3MDU3
-MCwtMTk5MzI0ODE0OSwtNjk4ODcwMzIxLDEzNDI4MTE4MTYsMT
-g3MTc4NDE0NCw0ODU3OTY5MDIsLTEyMTI4MjUyNTcsMjA2MDg2
-NTE5MywtODU2MDAwMjA0LC0xOTc2NTM4MzkwLC0xMjMxNzY0NT
-g1LC00MzAzNDQ5OTMsLTExMTk3MzExNTIsMTc3MDcxNzEzMSwt
-MTY2MTIzOTA3NV19
+eyJoaXN0b3J5IjpbMTQxNTE2NzkwNCwtNjE3MjIxMjU5LC0xOT
+c3NzUzMzUwLDM4MDc0OTE2MSwtMjYwNTM3MDQyLDE3MzU0MjAy
+MTMsMTc2NzcwNTcwLC0xOTkzMjQ4MTQ5LC02OTg4NzAzMjEsMT
+M0MjgxMTgxNiwxODcxNzg0MTQ0LDQ4NTc5NjkwMiwtMTIxMjgy
+NTI1NywyMDYwODY1MTkzLC04NTYwMDAyMDQsLTE5NzY1MzgzOT
+AsLTEyMzE3NjQ1ODUsLTQzMDM0NDk5MywtMTExOTczMTE1Miwx
+NzcwNzE3MTMxXX0=
 -->
