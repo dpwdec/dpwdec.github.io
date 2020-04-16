@@ -89,13 +89,13 @@ class Eyes
   end
 end
 ```
-
+We could go further with this principle. For example, what if we want to distinguish between different parts of movement such as moving the legs to walk, or moving the arms to wave? We don't want to put the code for the walking and wa
 ### Cohesion
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjI3MzU2NiwtMzI1ODQ2ODM0LDQzMT
+eyJoaXN0b3J5IjpbMTIxMjg0MzMxNSwtMzI1ODQ2ODM0LDQzMT
 M4Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQyMDE3
 MiwtMTE4Mzg0MjE3NywtNzI1NDUwMjc3LC0xOTMzODUxMTU4LC
 0zNzIyMTgxMzZdfQ==
