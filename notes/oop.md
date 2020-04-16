@@ -43,16 +43,14 @@ Because our code has clearly defined channels for interacting with our `Bird` cl
 ### SRP (Single Responsibility Principle)
 **SRP** means structuring our program so that each individual part of its functionality is encapsulated as a distinct entity (or class) capable of handling that responsibility without outside assistance. Each class should have one logical thing that is responsible for.
 
-This also means that if changes are required to your code they should only effect *one* component class in your system. If you find that writing a change into your syst
-
-
+This also means that if changes are required to your code they should only effect *one* component class in your system. If you find that writing a change into your system is propagating out to multiple classes in your system then you have probably violated SRP.
 
 ### Cohesion
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3NDc0MTk4LDE3NDc0NTM0MTAsNzk1Nz
+eyJoaXN0b3J5IjpbNDMxMzgzNzg2LDE3NDc0NTM0MTAsNzk1Nz
 AxNTk3LC0xNTY5NDIwMTcyLC0xMTgzODQyMTc3LC03MjU0NTAy
 NzcsLTE5MzM4NTExNTgsLTM3MjIxODEzNl19
 -->
