@@ -610,15 +610,17 @@ end
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 
 ## CLI
-You can run a specific RSpec tests by specificying a line number from the tests. ./spec/appointment_spec.rb:9
-
+You can run a specific RSpec tests by specifying a line number from the tests that falls within a block. For example if you had a test block which started on line 9, you could run *only* that test by using.
+```
+rspec ./spec/myclass_spec.rb:9
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNj
-A1MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OTMyNDgx
-NDksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQxNDQsND
-g1Nzk2OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLTg1NjAw
-MDIwNCwtMTk3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMwMzQ0OT
-kzLC0xMTE5NzMxMTUyLDE3NzA3MTcxMzEsLTE2NjEyMzkwNzUs
-MTgzNzMzMzA2OF19
+eyJoaXN0b3J5IjpbLTYxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzOD
+A3NDkxNjEsLTI2MDUzNzA0MiwxNzM1NDIwMjEzLDE3Njc3MDU3
+MCwtMTk5MzI0ODE0OSwtNjk4ODcwMzIxLDEzNDI4MTE4MTYsMT
+g3MTc4NDE0NCw0ODU3OTY5MDIsLTEyMTI4MjUyNTcsMjA2MDg2
+NTE5MywtODU2MDAwMjA0LC0xOTc2NTM4MzkwLC0xMjMxNzY0NT
+g1LC00MzAzNDQ5OTMsLTExMTk3MzExNTIsMTc3MDcxNzEzMSwt
+MTY2MTIzOTA3NV19
 -->
