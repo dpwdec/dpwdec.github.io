@@ -11,7 +11,7 @@ exclude: true
 	 - [collection matchers](#collection-matchers)
  - [mocks](#mocks)
 	 - [instance doubles](#instance-double)
-- [command line interface](#
+- [command line interface](#cli)
 
 
 You do not need to test `private` methods.
@@ -625,11 +625,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDYyNDUzMSwxMTA1NTE0NTMxLDE0MT
-UxNjc5MDQsLTYxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzODA3NDkx
-NjEsLTI2MDUzNzA0MiwxNzM1NDIwMjEzLDE3Njc3MDU3MCwtMT
-k5MzI0ODE0OSwtNjk4ODcwMzIxLDEzNDI4MTE4MTYsMTg3MTc4
-NDE0NCw0ODU3OTY5MDIsLTEyMTI4MjUyNTcsMjA2MDg2NTE5My
-wtODU2MDAwMjA0LC0xOTc2NTM4MzkwLC0xMjMxNzY0NTg1LC00
-MzAzNDQ5OTNdfQ==
+eyJoaXN0b3J5IjpbNTU2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MT
+Y3OTA0LC02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5MTYx
+LC0yNjA1MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OT
+MyNDgxNDksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQx
+NDQsNDg1Nzk2OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLT
+g1NjAwMDIwNCwtMTk3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMw
+MzQ0OTkzXX0=
 -->
