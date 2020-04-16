@@ -89,14 +89,14 @@ class Eyes
   end
 end
 ```
-We could go further with this principle. For example, what if we want to distinguish between different parts of movement such as moving the legs to walk, or moving the arms to wave? We don't want to put the code for the walking and waving into the `Muscles` class directly because if we wanted to change our walking or waving code it would mean having more than one reason to change the `Muscles` class, thus violating SRP. Instead we should spin out this functionality into `Legs` and `Arms` classes that are simply managed by inherit from the `Muscles` class. That
+We could go further with this principle. For example, what if we want to distinguish between different parts of movement such as moving the legs to walk, or moving the arms to wave? We don't want to put the code for the walking and waving into the `Muscles` class directly because if we wanted to change our walking or waving code it would mean having more than one reason to change the `Muscles` class, thus violating SRP. Instead we should spin out this functionality into `Legs` and `Arms` classes that are simply managed by inherit from the `Muscles` class. That way if we need to change the way
 ### Cohesion
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY0NTA5ODEsLTMyNTg0NjgzNCw0Mz
-EzODM3ODYsMTc0NzQ1MzQxMCw3OTU3MDE1OTcsLTE1Njk0MjAx
-NzIsLTExODM4NDIxNzcsLTcyNTQ1MDI3NywtMTkzMzg1MTE1OC
-wtMzcyMjE4MTM2XX0=
+eyJoaXN0b3J5IjpbNzU1OTg5NDgsLTMyNTg0NjgzNCw0MzEzOD
+M3ODYsMTc0NzQ1MzQxMCw3OTU3MDE1OTcsLTE1Njk0MjAxNzIs
+LTExODM4NDIxNzcsLTcyNTQ1MDI3NywtMTkzMzg1MTE1OCwtMz
+cyMjE4MTM2XX0=
 -->
