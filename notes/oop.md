@@ -104,7 +104,13 @@ end
 
 class Legs < Muscles
   def walk
-    # w
+    # walks around
+  end
+end
+
+class Arms < Muscles
+  def wave
+    # waves at friends
   end
 end
 
@@ -125,8 +131,8 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjQxNzMzOSwtMTIzMjY1MjE2NSwtMz
-I1ODQ2ODM0LDQzMTM4Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5
-NywtMTU2OTQyMDE3MiwtMTE4Mzg0MjE3NywtNzI1NDUwMjc3LC
-0xOTMzODUxMTU4LC0zNzIyMTgxMzZdfQ==
+eyJoaXN0b3J5IjpbLTIwOTk4MTU3MjEsLTEyMzI2NTIxNjUsLT
+MyNTg0NjgzNCw0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3MDE1
+OTcsLTE1Njk0MjAxNzIsLTExODM4NDIxNzcsLTcyNTQ1MDI3Ny
+wtMTkzMzg1MTE1OCwtMzcyMjE4MTM2XX0=
 -->
