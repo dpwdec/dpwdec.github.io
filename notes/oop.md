@@ -45,7 +45,7 @@ Because our code has clearly defined channels for interacting with our `Bird` cl
 
 This also means that if changes are required to your code they should only effect *one* component class in your system. If you find that writing a change into your system is propagating out to multiple classes in then you have probably violated SRP.
 
-The code below describes a class `Body` which has several different methods for things like thinking, moving and looking around. Currently the `Body` class violates SRP because it is responsible for multiple components and behaviours in our system. Furthermore, if we want to make a change to "thinking" or "moving" then both of those changes require use to change the body class, rather than a single component in our system further viola
+The code below describes a class `Body` which has several different methods for things like thinking, moving and looking around. Currently the `Body` class violates SRP because it is responsible for multiple components and behaviours in our system. Furthermore, if we want to make a change to "thinking" or "moving" then both of those changes require use to change the body class, rather than a single component in our system further violating SRP.
 ```ruby
 class Body
   def think
@@ -61,13 +61,34 @@ class Body
   end
 end
 ```
+Here is another version of the body's functionality refactored to adhere to SRP.
+```ruby
+class Body
+   def initialize
+     @muscles = Muscles.new
+     @brain = Brain.new
+     @eyes = Eyes.new
+   end
+end
 
+class Muscles
+  def move
+    # 
+  end
+end
+
+class Brain
+end
+
+class Eyes
+end
+```
 ### Cohesion
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzE3OTMwOSwtMzI1ODQ2ODM0LDQzMT
+eyJoaXN0b3J5IjpbMTMyOTkzMzg4NCwtMzI1ODQ2ODM0LDQzMT
 M4Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQyMDE3
 MiwtMTE4Mzg0MjE3NywtNzI1NDUwMjc3LC0xOTMzODUxMTU4LC
 0zNzIyMTgxMzZdfQ==
