@@ -127,12 +127,13 @@ class Eyes
 end
 ```
 ### Cohesion
-
+**Cohesion** is similar to both encapsulation and SRP, it s
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTk4MTU3MjEsLTEyMzI2NTIxNjUsLT
-MyNTg0NjgzNCw0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3MDE1
-OTcsLTE1Njk0MjAxNzIsLTExODM4NDIxNzcsLTcyNTQ1MDI3Ny
-wtMTkzMzg1MTE1OCwtMzcyMjE4MTM2XX0=
+eyJoaXN0b3J5IjpbLTExODI5ODg4MjYsLTIwOTk4MTU3MjEsLT
+EyMzI2NTIxNjUsLTMyNTg0NjgzNCw0MzEzODM3ODYsMTc0NzQ1
+MzQxMCw3OTU3MDE1OTcsLTE1Njk0MjAxNzIsLTExODM4NDIxNz
+csLTcyNTQ1MDI3NywtMTkzMzg1MTE1OCwtMzcyMjE4MTM2XX0=
+
 -->
