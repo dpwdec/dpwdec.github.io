@@ -61,7 +61,7 @@ class Body
   end
 end
 ```
-Here is another version of the body's functionality refactored to adhere to SRP. In this version the body class has been changed to function simply as a container for the new classes which function as logical units to contain the functionality that was originally in the `Body` class. Now, if we need to make changes to "thinking", "moving" or "seeing" we only e
+Here is another version of the body's functionality refactored to adhere to SRP. In this version the body class has been changed to function simply as a container for the new classes which function as logical units to contain the functionality that was originally in the `Body` class. Now, if we need to make changes to "thinking", "moving" or "seeing" we only need to change one part of our code that is logical separated from the other elements of our program.
 ```ruby
 class Body
    def initialize
@@ -89,12 +89,13 @@ class Eyes
   end
 end
 ```
+
 ### Cohesion
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTI2MzgxNywtMzI1ODQ2ODM0LDQzMT
+eyJoaXN0b3J5IjpbMTE1NjI3MzU2NiwtMzI1ODQ2ODM0LDQzMT
 M4Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQyMDE3
 MiwtMTE4Mzg0MjE3NywtNzI1NDUwMjc3LC0xOTMzODUxMTU4LC
 0zNzIyMTgxMzZdfQ==
