@@ -45,15 +45,29 @@ Because our code has clearly defined channels for interacting with our `Bird` cl
 
 This also means that if changes are required to your code they should only effect *one* component class in your system. If you find that writing a change into your system is propagating out to multiple classes in then you have probably violated SRP.
 
+```ruby
+class Body
+  def think
+    # has thoughts
+  end
 
+  def digest
+    # digests food
+  end
+
+  def look
+    
+  end
+end
+```
 
 ### Cohesion
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyNzU4NTcwLC0zMjU4NDY4MzQsNDMxMz
-gzNzg2LDE3NDc0NTM0MTAsNzk1NzAxNTk3LC0xNTY5NDIwMTcy
-LC0xMTgzODQyMTc3LC03MjU0NTAyNzcsLTE5MzM4NTExNTgsLT
-M3MjIxODEzNl19
+eyJoaXN0b3J5IjpbLTE4ODkyNjU2NSwtMzI1ODQ2ODM0LDQzMT
+M4Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQyMDE3
+MiwtMTE4Mzg0MjE3NywtNzI1NDUwMjc3LC0xOTMzODUxMTU4LC
+0zNzIyMTgxMzZdfQ==
 -->
