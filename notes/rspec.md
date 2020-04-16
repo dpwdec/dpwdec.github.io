@@ -12,7 +12,7 @@ exclude: true
  - [mocks](#mocks)
 	 - [instance doubles](#instance-double)
 
-it { is_expected.to respond_to(:dock).with(1).argument }
+
 You do not need to test `private` methods.
 
 ## Core
@@ -223,7 +223,10 @@ A basic way to **test argument input values** is by expecting the output of the 
 # testing that method accepts 2 integers as input
 expect { subject.method(2, 10) }.to_not raise_error
 ```
-You can **create a test for the number of arguments that a method s**
+You can **create a test for the number of arguments that a method should accept** by using the `respond_to` syntax.
+```ruby
+it { is_expected.to respond_to(:dock).with(1).argument }
+```
 
 ### Include matchers
 You can **check the contents** of a hash's key-value pair by using the `include` matcher with any arbitrary *and* literal hash input as its argument.
@@ -621,11 +624,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzMzNjc1LDExMDU1MTQ1MzEsMTQxNT
-E2NzkwNCwtNjE3MjIxMjU5LC0xOTc3NzUzMzUwLDM4MDc0OTE2
-MSwtMjYwNTM3MDQyLDE3MzU0MjAyMTMsMTc2NzcwNTcwLC0xOT
-kzMjQ4MTQ5LC02OTg4NzAzMjEsMTM0MjgxMTgxNiwxODcxNzg0
-MTQ0LDQ4NTc5NjkwMiwtMTIxMjgyNTI1NywyMDYwODY1MTkzLC
-04NTYwMDAyMDQsLTE5NzY1MzgzOTAsLTEyMzE3NjQ1ODUsLTQz
-MDM0NDk5M119
+eyJoaXN0b3J5IjpbMTU2OTY3NDE5NSwxMTA1NTE0NTMxLDE0MT
+UxNjc5MDQsLTYxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzODA3NDkx
+NjEsLTI2MDUzNzA0MiwxNzM1NDIwMjEzLDE3Njc3MDU3MCwtMT
+k5MzI0ODE0OSwtNjk4ODcwMzIxLDEzNDI4MTE4MTYsMTg3MTc4
+NDE0NCw0ODU3OTY5MDIsLTEyMTI4MjUyNTcsMjA2MDg2NTE5My
+wtODU2MDAwMjA0LC0xOTc2NTM4MzkwLC0xMjMxNzY0NTg1LC00
+MzAzNDQ5OTNdfQ==
 -->
