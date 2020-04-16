@@ -45,13 +45,15 @@ Because our code has clearly defined channels for interacting with our `Bird` cl
 
 This also means that if changes are required to your code they should only effect *one* component class in your system. If you find that writing a change into your system is propagating out to multiple classes in then you have probably violated SRP.
 
+
+
 ### Cohesion
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTg0NjgzNCw0MzEzODM3ODYsMTc0Nz
-Q1MzQxMCw3OTU3MDE1OTcsLTE1Njk0MjAxNzIsLTExODM4NDIx
-NzcsLTcyNTQ1MDI3NywtMTkzMzg1MTE1OCwtMzcyMjE4MTM2XX
-0=
+eyJoaXN0b3J5IjpbODMyNzU4NTcwLC0zMjU4NDY4MzQsNDMxMz
+gzNzg2LDE3NDc0NTM0MTAsNzk1NzAxNTk3LC0xNTY5NDIwMTcy
+LC0xMTgzODQyMTc3LC03MjU0NTAyNzcsLTE5MzM4NTExNTgsLT
+M3MjIxODEzNl19
 -->
