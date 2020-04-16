@@ -223,6 +223,8 @@ A basic way to **test argument input values** is by expecting the output of the 
 # testing that method accepts 2 integers as input
 expect { subject.method(2, 10) }.to_not raise_error
 ```
+You can **create a test for the number of arguments that a method s**
+
 ### Include matchers
 You can **check the contents** of a hash's key-value pair by using the `include` matcher with any arbitrary *and* literal hash input as its argument.
 ```ruby
@@ -619,11 +621,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC02MT
-cyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1Mzcw
-NDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OTMyNDgxNDksLT
-Y5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQxNDQsNDg1Nzk2
-OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLTg1NjAwMDIwNC
-wtMTk3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMwMzQ0OTkzLC0x
-MTE5NzMxMTUyXX0=
+eyJoaXN0b3J5IjpbLTM0NzMzNjc1LDExMDU1MTQ1MzEsMTQxNT
+E2NzkwNCwtNjE3MjIxMjU5LC0xOTc3NzUzMzUwLDM4MDc0OTE2
+MSwtMjYwNTM3MDQyLDE3MzU0MjAyMTMsMTc2NzcwNTcwLC0xOT
+kzMjQ4MTQ5LC02OTg4NzAzMjEsMTM0MjgxMTgxNiwxODcxNzg0
+MTQ0LDQ4NTc5NjkwMiwtMTIxMjgyNTI1NywyMDYwODY1MTkzLC
+04NTYwMDAyMDQsLTE5NzY1MzgzOTAsLTEyMzE3NjQ1ODUsLTQz
+MDM0NDk5M119
 -->
