@@ -13,6 +13,7 @@ exclude: true
 	 - [instance doubles](#instance-double)
 
 it { is_expected.to respond_to(:dock).with(1).argument }
+You do not need to test `private` methods.
 
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
@@ -618,11 +619,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTE2NzkwNCwtNjE3MjIxMjU5LC0xOT
-c3NzUzMzUwLDM4MDc0OTE2MSwtMjYwNTM3MDQyLDE3MzU0MjAy
-MTMsMTc2NzcwNTcwLC0xOTkzMjQ4MTQ5LC02OTg4NzAzMjEsMT
-M0MjgxMTgxNiwxODcxNzg0MTQ0LDQ4NTc5NjkwMiwtMTIxMjgy
-NTI1NywyMDYwODY1MTkzLC04NTYwMDAyMDQsLTE5NzY1MzgzOT
-AsLTEyMzE3NjQ1ODUsLTQzMDM0NDk5MywtMTExOTczMTE1Miwx
-NzcwNzE3MTMxXX0=
+eyJoaXN0b3J5IjpbMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC02MT
+cyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1Mzcw
+NDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OTMyNDgxNDksLT
+Y5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQxNDQsNDg1Nzk2
+OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLTg1NjAwMDIwNC
+wtMTk3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMwMzQ0OTkzLC0x
+MTE5NzMxMTUyXX0=
 -->
