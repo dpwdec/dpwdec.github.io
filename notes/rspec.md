@@ -14,6 +14,8 @@ exclude: true
 - [command line interface](#cli)
 
 
+red green refactor
+
 You do not need to test `private` methods.
 
 ## Core
@@ -625,11 +627,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MT
-Y3OTA0LC02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5MTYx
-LC0yNjA1MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OT
-MyNDgxNDksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQx
-NDQsNDg1Nzk2OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLT
-g1NjAwMDIwNCwtMTk3NjUzODM5MCwtMTIzMTc2NDU4NSwtNDMw
-MzQ0OTkzXX0=
+eyJoaXN0b3J5IjpbLTExNjg2MjIxMjAsNTU2NjU0NTAsMTEwNT
+UxNDUzMSwxNDE1MTY3OTA0LC02MTcyMjEyNTksLTE5Nzc3NTMz
+NTAsMzgwNzQ5MTYxLC0yNjA1MzcwNDIsMTczNTQyMDIxMywxNz
+Y3NzA1NzAsLTE5OTMyNDgxNDksLTY5ODg3MDMyMSwxMzQyODEx
+ODE2LDE4NzE3ODQxNDQsNDg1Nzk2OTAyLC0xMjEyODI1MjU3LD
+IwNjA4NjUxOTMsLTg1NjAwMDIwNCwtMTk3NjUzODM5MCwtMTIz
+MTc2NDU4NV19
 -->
