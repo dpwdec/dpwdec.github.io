@@ -23,6 +23,8 @@ refactor --> commit
 
 rspec is a domain specific languae --> it has unique syntax
 
+wait for 3 instances of duplication before refactoring.
+
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
 
@@ -632,11 +634,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMT
-E2ODYyMjEyMCw1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5
-MDQsLTYxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLT
-I2MDUzNzA0MiwxNzM1NDIwMjEzLDE3Njc3MDU3MCwtMTk5MzI0
-ODE0OSwtNjk4ODcwMzIxLDEzNDI4MTE4MTYsMTg3MTc4NDE0NC
-w0ODU3OTY5MDIsLTEyMTI4MjUyNTcsMjA2MDg2NTE5MywtODU2
-MDAwMjA0XX0=
+eyJoaXN0b3J5IjpbMTY3NTIwODA0NCwtMTkzMzc4ODAyOSwtOT
+QwNTg1MTA1LC0xMTY4NjIyMTIwLDU1NjY1NDUwLDExMDU1MTQ1
+MzEsMTQxNTE2NzkwNCwtNjE3MjIxMjU5LC0xOTc3NzUzMzUwLD
+M4MDc0OTE2MSwtMjYwNTM3MDQyLDE3MzU0MjAyMTMsMTc2Nzcw
+NTcwLC0xOTkzMjQ4MTQ5LC02OTg4NzAzMjEsMTM0MjgxMTgxNi
+wxODcxNzg0MTQ0LDQ4NTc5NjkwMiwtMTIxMjgyNTI1NywyMDYw
+ODY1MTkzXX0=
 -->
