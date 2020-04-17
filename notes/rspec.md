@@ -21,6 +21,8 @@ You do not need to test `private` methods.
 pass test --> commit
 refactor --> commit
 
+rspec is a domain specific languae
+
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
 
@@ -630,11 +632,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDU4NTEwNSwtMTE2ODYyMjEyMCw1NT
-Y2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIyMTI1
-OSwtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLTI2MDUzNzA0MiwxNz
-M1NDIwMjEzLDE3Njc3MDU3MCwtMTk5MzI0ODE0OSwtNjk4ODcw
-MzIxLDEzNDI4MTE4MTYsMTg3MTc4NDE0NCw0ODU3OTY5MDIsLT
-EyMTI4MjUyNTcsMjA2MDg2NTE5MywtODU2MDAwMjA0LC0xOTc2
-NTM4MzkwXX0=
+eyJoaXN0b3J5IjpbNzQ3Njk3Mzk2LC05NDA1ODUxMDUsLTExNj
+g2MjIxMjAsNTU2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0
+LC02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNj
+A1MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OTMyNDgx
+NDksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQxNDQsND
+g1Nzk2OTAyLC0xMjEyODI1MjU3LDIwNjA4NjUxOTMsLTg1NjAw
+MDIwNF19
 -->
