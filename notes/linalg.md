@@ -1,3 +1,10 @@
+---
+title: Linear Algebra
+layout: page
+exclude: true
+---
+
+
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
 
@@ -27,5 +34,5 @@ var chart = new Chart(ctx, {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1OTgzODk4OF19
+eyJoaXN0b3J5IjpbMTQyMzc3NzYzMCwxNDU5ODM4OTg4XX0=
 -->
