@@ -126,14 +126,16 @@ class Eyes
   end
 end
 ```
+You can also conceptualise SRP further as being **method specific** if you have a method *within* a class that has more than one responsibility then this also violates SRP and should be refactored into multiple methods.
+
 ### Cohesion
 **Cohesion** is similar to both encapsulation and SRP, it simply refers to grouping code in a way that is self contained and executes singular tasks well as opposed to spreading out the functionality of your code base.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODMyNzUyOTQsLTIwOTk4MTU3MjEsLT
-EyMzI2NTIxNjUsLTMyNTg0NjgzNCw0MzEzODM3ODYsMTc0NzQ1
-MzQxMCw3OTU3MDE1OTcsLTE1Njk0MjAxNzIsLTExODM4NDIxNz
-csLTcyNTQ1MDI3NywtMTkzMzg1MTE1OCwtMzcyMjE4MTM2XX0=
-
+eyJoaXN0b3J5IjpbMjA4NTY5Njc3NywtMTM4MzI3NTI5NCwtMj
+A5OTgxNTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LDQzMTM4
+Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQyMDE3Mi
+wtMTE4Mzg0MjE3NywtNzI1NDUwMjc3LC0xOTMzODUxMTU4LC0z
+NzIyMTgxMzZdfQ==
 -->
