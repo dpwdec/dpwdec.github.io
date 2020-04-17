@@ -18,6 +18,9 @@ red green refactor
 
 You do not need to test `private` methods.
 
+pass test --> commit
+refactor --> commit
+
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
 
@@ -627,11 +630,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjg2MjIxMjAsNTU2NjU0NTAsMTEwNT
-UxNDUzMSwxNDE1MTY3OTA0LC02MTcyMjEyNTksLTE5Nzc3NTMz
-NTAsMzgwNzQ5MTYxLC0yNjA1MzcwNDIsMTczNTQyMDIxMywxNz
-Y3NzA1NzAsLTE5OTMyNDgxNDksLTY5ODg3MDMyMSwxMzQyODEx
-ODE2LDE4NzE3ODQxNDQsNDg1Nzk2OTAyLC0xMjEyODI1MjU3LD
-IwNjA4NjUxOTMsLTg1NjAwMDIwNCwtMTk3NjUzODM5MCwtMTIz
-MTc2NDU4NV19
+eyJoaXN0b3J5IjpbLTk0MDU4NTEwNSwtMTE2ODYyMjEyMCw1NT
+Y2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIyMTI1
+OSwtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLTI2MDUzNzA0MiwxNz
+M1NDIwMjEzLDE3Njc3MDU3MCwtMTk5MzI0ODE0OSwtNjk4ODcw
+MzIxLDEzNDI4MTE4MTYsMTg3MTc4NDE0NCw0ODU3OTY5MDIsLT
+EyMTI4MjUyNTcsMjA2MDg2NTE5MywtODU2MDAwMjA0LC0xOTc2
+NTM4MzkwXX0=
 -->
