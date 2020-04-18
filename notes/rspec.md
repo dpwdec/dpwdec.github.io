@@ -151,7 +151,7 @@ it "does not change" do # --> GOOD
 ```
 ---
 ### Shared Context
-A **shared context** allows you to define re-usable context code for your examples. You can define a shared context inside a `shared_context` block that is separate from your main `describe` code. You can **define instance variables, methods and** `let` **statements** inside a shared context. Instance variables must initialized inside a shared context must be contained in a `before` block.
+A **shared context** allows you to define re-usable context code for your examples. You can define a shared context inside a `shared_context` block that is separate from your main `describe` code. Shared context blocks **must be placed at the beginning** of your RSpec test file. You can **define instance variables, methods and** `let` **statements** inside a shared context. Instance variables must initialized inside a shared context must be contained in a `before` block.
 ```ruby
 # defining a shared context
 shared_context 'context name' do
@@ -634,11 +634,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTIwODA0NCwtMTkzMzc4ODAyOSwtOT
-QwNTg1MTA1LC0xMTY4NjIyMTIwLDU1NjY1NDUwLDExMDU1MTQ1
-MzEsMTQxNTE2NzkwNCwtNjE3MjIxMjU5LC0xOTc3NzUzMzUwLD
-M4MDc0OTE2MSwtMjYwNTM3MDQyLDE3MzU0MjAyMTMsMTc2Nzcw
-NTcwLC0xOTkzMjQ4MTQ5LC02OTg4NzAzMjEsMTM0MjgxMTgxNi
-wxODcxNzg0MTQ0LDQ4NTc5NjkwMiwtMTIxMjgyNTI1NywyMDYw
-ODY1MTkzXX0=
+eyJoaXN0b3J5IjpbLTk0NjE2Mjk3MSwxNjc1MjA4MDQ0LC0xOT
+MzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2MjIxMjAsNTU2NjU0
+NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC02MTcyMjEyNTksLT
+E5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1MzcwNDIsMTczNTQy
+MDIxMywxNzY3NzA1NzAsLTE5OTMyNDgxNDksLTY5ODg3MDMyMS
+wxMzQyODExODE2LDE4NzE3ODQxNDQsNDg1Nzk2OTAyLC0xMjEy
+ODI1MjU3XX0=
 -->
