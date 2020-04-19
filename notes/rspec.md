@@ -653,6 +653,10 @@ class MyClass
   def initialize
     @my_object = MyObject.new
   end
+
+  def get_report
+    @my_object.report
+  end
 end
 
 class MyObject
@@ -661,12 +665,13 @@ class MyObject
   end
 end
 ```
-`MyClass` contains a private instance variable `@my_object` which is an instance of `MyObject`. We do not want this variable to be publicly available to the rest of our program during normal functioning but we *do* want to interact with it during testing to influence the behaviour of `MyClass`. For example, **what if we wanted to created a mock of `@my_object`** inside `MyClass`? This wouldn't be possible because that variable is private, but we still need to assign it as an RSpec mock to check some functionality. To do this we can use the `instance_variable_set` method. This allows to assign a private instance variable on an object as long as you know its names.
+`MyClass` contains a private instance variable `@my_object` which is an instance of `MyObject`. We do not want this variable to be publicly available to the rest of our program during normal functioning but we *do* want to interact with it during testing to influence the behaviour of `MyClass`. For example, **what if we wanted to created a mock of `@my_object`** inside `MyClass`? This wouldn't be possible because that variable is private, but we still need to assign it as an RSpec mock to check some functionality. To do this we can use the `instance_variable_set` method. This allows to assign a private instance variable on an object as long as you know its names. The first argument specifies the name of the instance variable as a symbol and the second argument is the value that you want that variable to be assigned to.
 ```ruby
 describe MyClass do
   it 'has a mock object' do
     dbl = instance_double(MyObject, :report => "No Report!")
-    
+    subject.instance_variable_set(:@my_object, dbl)
+    expect(subject.get_report).to eq('No report
 ```
 
 ## CLI
@@ -676,7 +681,7 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MjQ2ODc0MSwtOTQ2MTYyOTcxLDE2Nz
+eyJoaXN0b3J5IjpbMTc5NjE2OTU3NCwtOTQ2MTYyOTcxLDE2Nz
 UyMDgwNDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYy
 MjEyMCw1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLT
 YxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLTI2MDUz
