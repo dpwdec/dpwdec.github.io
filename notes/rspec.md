@@ -4,14 +4,15 @@ layout: page
 exclude: true
 ---
 
- - [core](#core)
-	 - [subject scope](#subject-scope)
-	 - [shared context](#shared-context)
- - [expectations](#expectations)
-	 - [collection matchers](#collection-matchers)
- - [mocks](#mocks)
-	 - [instance doubles](#instance-double)
-- [command line interface](#cli)
+1. [Workflow](#workflow)
+ 2. [core](#core)
+	 2.1. [subject scope](#subject-scope)
+	 2.2. [shared context](#shared-context)
+ 3. [expectations](#expectations)
+	 3.1. [collection matchers](#collection-matchers)
+ 4. [mocks](#mocks)
+     4.1 [instance doubles](#instance-double)
+5. [command line interface](#cli)
 
 ## Workflow
 
@@ -684,11 +685,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyOTQ1NDE5LC05NDYxNjI5NzEsMTY3NT
-IwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIy
-MTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNj
-E3MjIxMjU5LC0xOTc3NzUzMzUwLDM4MDc0OTE2MSwtMjYwNTM3
-MDQyLDE3MzU0MjAyMTMsMTc2NzcwNTcwLC0xOTkzMjQ4MTQ5LC
-02OTg4NzAzMjEsMTM0MjgxMTgxNiwxODcxNzg0MTQ0LDQ4NTc5
-NjkwMl19
+eyJoaXN0b3J5IjpbMTcxNjgyMDQyNCwtOTQ2MTYyOTcxLDE2Nz
+UyMDgwNDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYy
+MjEyMCw1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLT
+YxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLTI2MDUz
+NzA0MiwxNzM1NDIwMjEzLDE3Njc3MDU3MCwtMTk5MzI0ODE0OS
+wtNjk4ODcwMzIxLDEzNDI4MTE4MTYsMTg3MTc4NDE0NCw0ODU3
+OTY5MDJdfQ==
 -->
