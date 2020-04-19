@@ -41,7 +41,7 @@ You should `commit` when:
 2. Your tests pass after refactoring your code.
 
 ### Refactoring
-
+When should you refactor? There is a balance to be struck between refactoring too early by second guessing how your code base will evolve and refactoring too late when there are so many problems with your code that changes become difficult. The rule of thumb is to **refactor when you see three or more instances of code duplication**
 
 wait for 3 instances of duplication before refactoring.
 
@@ -654,11 +654,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1OTMxMjEyLC05NDYxNjI5NzEsMTY3NT
-IwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIy
-MTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNj
-E3MjIxMjU5LC0xOTc3NzUzMzUwLDM4MDc0OTE2MSwtMjYwNTM3
-MDQyLDE3MzU0MjAyMTMsMTc2NzcwNTcwLC0xOTkzMjQ4MTQ5LC
-02OTg4NzAzMjEsMTM0MjgxMTgxNiwxODcxNzg0MTQ0LDQ4NTc5
-NjkwMl19
+eyJoaXN0b3J5IjpbLTE4NzI2MTg0NywtOTQ2MTYyOTcxLDE2Nz
+UyMDgwNDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYy
+MjEyMCw1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLT
+YxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLTI2MDUz
+NzA0MiwxNzM1NDIwMjEzLDE3Njc3MDU3MCwtMTk5MzI0ODE0OS
+wtNjk4ODcwMzIxLDEzNDI4MTE4MTYsMTg3MTc4NDE0NCw0ODU3
+OTY5MDJdfQ==
 -->
