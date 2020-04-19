@@ -18,14 +18,17 @@ exclude: true
 RSpec is a testing framework that allows you to `expect` particular outputs from your code before you ever actually run it. This workflow means that you can you can manually generate error messages that inform you about the expected functionality of your code before you ever write a single line or "real" code.
 
 Testing code in this way allows you to:
-1. 
+1. Ensure that your code works as intended before it is shipped.
+2. Test sections of your code in isolation.
+3. Communicate to other developers how your code should function.
+4. Refactor your code cleanly.
 
 The basic workflow in RSpec is to follow a **Red - Green - Refactor** coding loop. These steps are:
 1. Write a test that will fail (because there isn't any code to pass it yet).
 2. Write the code to pass the test.
 3. Refactor the passing code maintaining its passing status.
 
-This workflow ensures that you build your code with the intended functionality *and* when you refactor it you don't accidentally break it. If you make refactoring changes to your code *after* you have a passing test you can ensure that as long as your tests still pass after the refactor your code still works in the same way, despite its form or method being altered.,
+This workflow ensures that you build your code with the intended functionality *and* when you refactor it you don't accidentally break it. If you make refactoring changes to your code *after* you have a passing test you can ensure that as long as your tests still pass after the refactor your code still works in the same way, despite its form or method being altered.
 
 red green refactor
 
@@ -647,11 +650,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjYzNjEyMCwtOTQ2MTYyOTcxLDE2Nz
-UyMDgwNDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYy
-MjEyMCw1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLT
-YxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLTI2MDUz
-NzA0MiwxNzM1NDIwMjEzLDE3Njc3MDU3MCwtMTk5MzI0ODE0OS
-wtNjk4ODcwMzIxLDEzNDI4MTE4MTYsMTg3MTc4NDE0NCw0ODU3
-OTY5MDJdfQ==
+eyJoaXN0b3J5IjpbLTIwMjg3MTQ1MzYsLTk0NjE2Mjk3MSwxNj
+c1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2
+MjIxMjAsNTU2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC
+02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1
+MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OTMyNDgxND
+ksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQxNDQsNDg1
+Nzk2OTAyXX0=
 -->
