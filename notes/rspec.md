@@ -671,8 +671,11 @@ describe MyClass do
   it 'has a mock object' do
     dbl = instance_double(MyObject, :report => "No Report!")
     subject.instance_variable_set(:@my_object, dbl)
-    expect(subject.get_report).to eq('No report
+    expect(subject.get_report).to eq('No report!')
+  end
+end
 ```
+This works as intended with the `subject`'s private instance variable being replaced by our mock object that returns a different value when the `report` function is called.
 
 ## CLI
 You can run a specific RSpec tests by specifying a line number from the tests that falls within a block. For example if you had a test block which started on line 9, you could run *only* that test by using.
@@ -681,11 +684,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjE2OTU3NCwtOTQ2MTYyOTcxLDE2Nz
-UyMDgwNDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYy
-MjEyMCw1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLT
-YxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLTI2MDUz
-NzA0MiwxNzM1NDIwMjEzLDE3Njc3MDU3MCwtMTk5MzI0ODE0OS
-wtNjk4ODcwMzIxLDEzNDI4MTE4MTYsMTg3MTc4NDE0NCw0ODU3
-OTY5MDJdfQ==
+eyJoaXN0b3J5IjpbMzMyOTQ1NDE5LC05NDYxNjI5NzEsMTY3NT
+IwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIy
+MTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNj
+E3MjIxMjU5LC0xOTc3NzUzMzUwLDM4MDc0OTE2MSwtMjYwNTM3
+MDQyLDE3MzU0MjAyMTMsMTc2NzcwNTcwLC0xOTkzMjQ4MTQ5LC
+02OTg4NzAzMjEsMTM0MjgxMTgxNiwxODcxNzg0MTQ0LDQ4NTc5
+NjkwMl19
 -->
