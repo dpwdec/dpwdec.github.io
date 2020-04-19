@@ -15,7 +15,8 @@ exclude: true
 
 ## Workfklow
 
-RSpec is a testing framework that allows you to `expect` particular outputs from your code before you ever actually run it. This workflow means that you can 
+RSpec is a testing framework that allows you to `expect` particular outputs from your code before you ever actually run it. This workflow means that you can you can manually generate error messages that inform you about the expected functionality of your code
+
 red green refactor
 
 You do not need to test `private` methods.
@@ -636,11 +637,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzNDg4MTc4LC05NDYxNjI5NzEsMTY3NT
-IwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIy
-MTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNj
-E3MjIxMjU5LC0xOTc3NzUzMzUwLDM4MDc0OTE2MSwtMjYwNTM3
-MDQyLDE3MzU0MjAyMTMsMTc2NzcwNTcwLC0xOTkzMjQ4MTQ5LC
-02OTg4NzAzMjEsMTM0MjgxMTgxNiwxODcxNzg0MTQ0LDQ4NTc5
-NjkwMl19
+eyJoaXN0b3J5IjpbLTIxMDE2NDc1NTIsLTk0NjE2Mjk3MSwxNj
+c1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2
+MjIxMjAsNTU2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC
+02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1
+MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OTMyNDgxND
+ksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQxNDQsNDg1
+Nzk2OTAyXX0=
 -->
