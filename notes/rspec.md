@@ -661,7 +661,7 @@ class MyObject
   end
 end
 ```
-`MyClass` contains a private instance variable `@my_object` which is an instance of `MyObject`. We do not want this variable to be publicly available to the rest of our program during normal functioning but we *do* want to interact with it during testing to ch
+`MyClass` contains a private instance variable `@my_object` which is an instance of `MyObject`. We do not want this variable to be publicly available to the rest of our program during normal functioning but we *do* want to interact with it during testing to influence the behaviour of `MyClass`. For example, **what if we wanted to created a mock of `@my_object`** inside `MyClass`? This wouldn't be possible because that variable is private, but we still need to assign it as an RSpec mock to check some functionality. To do this we can use the `instance_varua
 
 ## CLI
 You can run a specific RSpec tests by specifying a line number from the tests that falls within a block. For example if you had a test block which started on line 9, you could run *only* that test by using.
@@ -670,7 +670,7 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg4NzY5MzYsLTk0NjE2Mjk3MSwxNj
+eyJoaXN0b3J5IjpbLTE2MDY1NDc5MDksLTk0NjE2Mjk3MSwxNj
 c1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2
 MjIxMjAsNTU2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC
 02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1
