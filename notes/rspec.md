@@ -5,6 +5,9 @@ exclude: true
 ---
 
 1. [Workflow](#workflow)
+	1.1. [Scope](#scope)
+	1.2. [Committing](#committing)
+	1.3. [Refactoring](#refactoring)
  2. [core](#core)
 	 2.1. [subject scope](#subject-scope)
 	 2.2. [shared context](#shared-context)
@@ -12,7 +15,7 @@ exclude: true
 	 3.1. [collection matchers](#collection-matchers)
  4. [mocks](#mocks)
      4.1 [instance doubles](#instance-double)
-5. [command line interface](#cli)
+3. [command line interface](#cli)
 
 ## Workflow
 
@@ -685,11 +688,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjgyMDQyNCwtOTQ2MTYyOTcxLDE2Nz
-UyMDgwNDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYy
-MjEyMCw1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLT
-YxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLTI2MDUz
-NzA0MiwxNzM1NDIwMjEzLDE3Njc3MDU3MCwtMTk5MzI0ODE0OS
-wtNjk4ODcwMzIxLDEzNDI4MTE4MTYsMTg3MTc4NDE0NCw0ODU3
-OTY5MDJdfQ==
+eyJoaXN0b3J5IjpbNTI3MzUwODkxLDE3MTY4MjA0MjQsLTk0Nj
+E2Mjk3MSwxNjc1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUx
+MDUsLTExNjg2MjIxMjAsNTU2NjU0NTAsMTEwNTUxNDUzMSwxND
+E1MTY3OTA0LC02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5
+MTYxLC0yNjA1MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLT
+E5OTMyNDgxNDksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3
+ODQxNDRdfQ==
 -->
