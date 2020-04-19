@@ -15,7 +15,7 @@ exclude: true
 
 ## Workflow
 
-RSpec is a testing framework that allows you to `expect` particular outputs from your code before you ever actually run it. This workflow means that you can you can manually generate error messages that inform you about the expected functionality of your code before you ever write a single line or "real" code.
+RSpec is a **domain specific language** that works as a testing framework which allows you to `expect` particular outputs from your code before you ever actually run it. This workflow means that you can you can manually generate error messages that inform you about the expected functionality of your code before you ever write a single line or "real" code.
 
 Testing code in this way allows you to:
 1. Ensure that your code works as intended before it is shipped.
@@ -34,15 +34,14 @@ This workflow ensures that you build your code with the intended functionality *
 
 You do not need to test `private` methods in RSpec. When testing we only want to confirm that our interface facing behaviour of our program is working correctly. Are we getting the correct inputs and outputs. A private method would only influence the internal parts of a class so it can be safely ignored as long our tests that measure the external outputs of our class are working as intended.
 
-### Commiting
+### Committing
 
 You should `commit` when:
-1
+1. Your tests pass after writing a new piece of code.
+2. Your tests pass after refactoring your code.
 
-pass test --> commit
-refactor --> commit
+### Refactoring
 
-rspec is a domain specific languae --> it has unique syntax
 
 wait for 3 instances of duplication before refactoring.
 
@@ -655,11 +654,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTgzNTEzMjUsLTk0NjE2Mjk3MSwxNj
-c1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2
-MjIxMjAsNTU2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC
-02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1
-MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OTMyNDgxND
-ksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQxNDQsNDg1
-Nzk2OTAyXX0=
+eyJoaXN0b3J5IjpbOTI1OTMxMjEyLC05NDYxNjI5NzEsMTY3NT
+IwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIy
+MTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNj
+E3MjIxMjU5LC0xOTc3NzUzMzUwLDM4MDc0OTE2MSwtMjYwNTM3
+MDQyLDE3MzU0MjAyMTMsMTc2NzcwNTcwLC0xOTkzMjQ4MTQ5LC
+02OTg4NzAzMjEsMTM0MjgxMTgxNiwxODcxNzg0MTQ0LDQ4NTc5
+NjkwMl19
 -->
