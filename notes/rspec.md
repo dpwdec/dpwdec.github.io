@@ -13,9 +13,11 @@ exclude: true
 	 - [instance doubles](#instance-double)
 - [command line interface](#cli)
 
-## Workfklow
+## Workflow
 
-RSpec is a testing framework that allows you to `expect` particular outputs from your code before you ever actually run it. This workflow means that you can you can manually generate error messages that inform you about the expected functionality of your code
+RSpec is a testing framework that allows you to `expect` particular outputs from your code before you ever actually run it. This workflow means that you can you can manually generate error messages that inform you about the expected functionality of your code before you ever write a single line or "real" code.
+
+The basic workflow in RSpec 
 
 red green refactor
 
@@ -637,7 +639,7 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDE2NDc1NTIsLTk0NjE2Mjk3MSwxNj
+eyJoaXN0b3J5IjpbLTE1OTY1NzM5NzksLTk0NjE2Mjk3MSwxNj
 c1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2
 MjIxMjAsNTU2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC
 02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1
