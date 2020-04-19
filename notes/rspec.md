@@ -13,7 +13,9 @@ exclude: true
 	 - [instance doubles](#instance-double)
 - [command line interface](#cli)
 
+## Workfklow
 
+RSpec is a testing framework that allows you to `expect` particular outputs from your code before you ever actually run it. This workflow means that you can 
 red green refactor
 
 You do not need to test `private` methods.
@@ -634,11 +636,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjE2Mjk3MSwxNjc1MjA4MDQ0LC0xOT
-MzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2MjIxMjAsNTU2NjU0
-NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC02MTcyMjEyNTksLT
-E5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1MzcwNDIsMTczNTQy
-MDIxMywxNzY3NzA1NzAsLTE5OTMyNDgxNDksLTY5ODg3MDMyMS
-wxMzQyODExODE2LDE4NzE3ODQxNDQsNDg1Nzk2OTAyLC0xMjEy
-ODI1MjU3XX0=
+eyJoaXN0b3J5IjpbNDIzNDg4MTc4LC05NDYxNjI5NzEsMTY3NT
+IwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIy
+MTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNj
+E3MjIxMjU5LC0xOTc3NzUzMzUwLDM4MDc0OTE2MSwtMjYwNTM3
+MDQyLDE3MzU0MjAyMTMsMTc2NzcwNTcwLC0xOTkzMjQ4MTQ5LC
+02OTg4NzAzMjEsMTM0MjgxMTgxNiwxODcxNzg0MTQ0LDQ4NTc5
+NjkwMl19
 -->
