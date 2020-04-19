@@ -41,9 +41,7 @@ You should `commit` when:
 2. Your tests pass after refactoring your code.
 
 ### Refactoring
-When should you refactor? There is a balance to be struck between refactoring too early by second guessing how your code base will evolve and refactoring too late when there are so many problems with your code that changes become difficult. The rule of thumb is to **refactor when you see three or more instances of code duplication**
-
-wait for 3 instances of duplication before refactoring.
+When should you refactor? There is a balance to be struck between refactoring too early by second guessing how your code base will evolve and refactoring too late when there are so many problems with your code that changes become difficult. The rule of thumb is to **refactor when you see three or more instances of code duplication**. You can then be sure that you are seeing a code pattern that will need to dried and extracted.
 
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
@@ -647,6 +645,10 @@ end
 ```
 Had an `instance_double` not been used in the above code the second example would have actually passed because (even though that situation would have had no relation to the actual functioning of our code) because a normal double would not check for any verification with the original object and would have only verified that the double received a message.
 
+### Private Instance Variables
+
+Sometimes you will want to set the value of private instance variables of a class for the purpose of running tests.
+
 ## CLI
 You can run a specific RSpec tests by specifying a line number from the tests that falls within a block. For example if you had a test block which started on line 9, you could run *only* that test by using.
 ```
@@ -654,11 +656,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzI2MTg0NywtOTQ2MTYyOTcxLDE2Nz
-UyMDgwNDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYy
-MjEyMCw1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLT
-YxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLTI2MDUz
-NzA0MiwxNzM1NDIwMjEzLDE3Njc3MDU3MCwtMTk5MzI0ODE0OS
-wtNjk4ODcwMzIxLDEzNDI4MTE4MTYsMTg3MTc4NDE0NCw0ODU3
-OTY5MDJdfQ==
+eyJoaXN0b3J5IjpbLTIwODY4OTY5NzEsLTk0NjE2Mjk3MSwxNj
+c1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2
+MjIxMjAsNTU2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC
+02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1
+MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OTMyNDgxND
+ksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQxNDQsNDg1
+Nzk2OTAyXX0=
 -->
