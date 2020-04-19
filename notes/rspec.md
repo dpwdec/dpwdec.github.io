@@ -32,7 +32,12 @@ This workflow ensures that you build your code with the intended functionality *
 
 ### Scope
 
-You do not need to test `private` methods in RSpec. When testing we only want to confirm that our interface facing behaviour of our program is working correctly. Are we getting the correct inputs and outputs. A private method would only influence the internal parts of a class so it can be safe
+You do not need to test `private` methods in RSpec. When testing we only want to confirm that our interface facing behaviour of our program is working correctly. Are we getting the correct inputs and outputs. A private method would only influence the internal parts of a class so it can be safely ignored as long our tests that measure the external outputs of our class are working as intended.
+
+### Commiting
+
+You should `commit` when:
+1
 
 pass test --> commit
 refactor --> commit
@@ -650,7 +655,7 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQ5MzcyNzksLTk0NjE2Mjk3MSwxNj
+eyJoaXN0b3J5IjpbLTExMTgzNTEzMjUsLTk0NjE2Mjk3MSwxNj
 c1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2
 MjIxMjAsNTU2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC
 02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1
