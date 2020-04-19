@@ -14,7 +14,7 @@ exclude: true
  3. [expectations](#expectations)
 	 3.1. [collection matchers](#collection-matchers)
  4. [mocks](#mocks)
-     4.1 [instance doubles](#instance-double)
+     4.1. [instance doubles](#instance-double)
 3. [command line interface](#cli)
 
 ## Workflow
@@ -688,11 +688,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3MzUwODkxLDE3MTY4MjA0MjQsLTk0Nj
-E2Mjk3MSwxNjc1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUx
-MDUsLTExNjg2MjIxMjAsNTU2NjU0NTAsMTEwNTUxNDUzMSwxND
-E1MTY3OTA0LC02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5
-MTYxLC0yNjA1MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLT
-E5OTMyNDgxNDksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3
-ODQxNDRdfQ==
+eyJoaXN0b3J5IjpbLTg4Njc0NDQ5OSwxNzE2ODIwNDI0LC05ND
+YxNjI5NzEsMTY3NTIwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1
+MTA1LC0xMTY4NjIyMTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMT
+QxNTE2NzkwNCwtNjE3MjIxMjU5LC0xOTc3NzUzMzUwLDM4MDc0
+OTE2MSwtMjYwNTM3MDQyLDE3MzU0MjAyMTMsMTc2NzcwNTcwLC
+0xOTkzMjQ4MTQ5LC02OTg4NzAzMjEsMTM0MjgxMTgxNiwxODcx
+Nzg0MTQ0XX0=
 -->
