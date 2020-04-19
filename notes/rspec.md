@@ -17,7 +17,10 @@ exclude: true
 
 RSpec is a testing framework that allows you to `expect` particular outputs from your code before you ever actually run it. This workflow means that you can you can manually generate error messages that inform you about the expected functionality of your code before you ever write a single line or "real" code.
 
-The basic workflow in RSpec 
+The basic workflow in RSpec is to follow a **Red - Green - Refactor** coding loop. These steps are:
+1. Write a test that will fail (because there isn't any code to pass it yet).
+2. Write the code to pass the test.
+3. Refactor the passing code maintaining its passing status
 
 red green refactor
 
@@ -639,11 +642,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTY1NzM5NzksLTk0NjE2Mjk3MSwxNj
-c1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2
-MjIxMjAsNTU2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC
-02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1
-MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OTMyNDgxND
-ksLTY5ODg3MDMyMSwxMzQyODExODE2LDE4NzE3ODQxNDQsNDg1
-Nzk2OTAyXX0=
+eyJoaXN0b3J5IjpbMTExOTkzNDgxOCwtOTQ2MTYyOTcxLDE2Nz
+UyMDgwNDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYy
+MjEyMCw1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLT
+YxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLTI2MDUz
+NzA0MiwxNzM1NDIwMjEzLDE3Njc3MDU3MCwtMTk5MzI0ODE0OS
+wtNjk4ODcwMzIxLDEzNDI4MTE4MTYsMTg3MTc4NDE0NCw0ODU3
+OTY5MDJdfQ==
 -->
