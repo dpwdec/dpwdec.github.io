@@ -9,6 +9,13 @@ You can convert an integer into a string `char` by running the `.chr` method on 
 (65).chr
 # => 'A'
 ```
+## Booleans
+You can assign the output of a boolean operation directly from a bool.
+```ruby
+my_bool = 10 < 20
+# => true
+```
+
 ## Arrays
 
 
@@ -106,7 +113,7 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5Nzk3Njc0OSwtODIyNTE4NDcsMTQ4ND
-k1NzQ1LC0xNTkzMjM2MDQ5LDIwNjgzNTAzMzQsLTExMjUxMDU5
-ODUsLTExNTk1MjcwNDFdfQ==
+eyJoaXN0b3J5IjpbOTYxMDU3NTY3LDEyOTc5NzY3NDksLTgyMj
+UxODQ3LDE0ODQ5NTc0NSwtMTU5MzIzNjA0OSwyMDY4MzUwMzM0
+LC0xMTI1MTA1OTg1LC0xMTU5NTI3MDQxXX0=
 -->
