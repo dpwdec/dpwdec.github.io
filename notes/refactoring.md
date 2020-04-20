@@ -9,9 +9,9 @@ Code review
 using the files changed section on the pull requests section
 you can also CMD + F to find specific elements that you want to review
 
-you can leave comments on someone's pull request from the `changed files` section by using the "+" on the side to leave a comment.
+you can leave comments on someone's pull request from the `changed files` section by using the "+" on the side to leave a comment.	
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQ0NzU0MDYsMTg0NTMyNTA4MywtMj
-A1NDQ3NTQwNiwtODU2MDUxMTE3XX0=
+eyJoaXN0b3J5IjpbMTk0NDI2MzMwLC0yMDU0NDc1NDA2LDE4ND
+UzMjUwODMsLTIwNTQ0NzU0MDYsLTg1NjA1MTExN119
 -->
