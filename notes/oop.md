@@ -3,6 +3,9 @@ title: OOP
 layout: page
 exclude: true
 ---
+polymorphism
+inheritance
+
 ### Data Abstraction
 When creating a class to represent a real world object we can use **data abstraction** to the model that real object more effectively. This means creating classes so that their data is structured in such a way that it *matches* the real world object's structure. 
 
@@ -133,9 +136,9 @@ You can also conceptualise SRP further as being **method specific** if you have 
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0ODQ1NTA3LDIwODU2OTY3NzcsLTEzOD
-MyNzUyOTQsLTIwOTk4MTU3MjEsLTEyMzI2NTIxNjUsLTMyNTg0
-NjgzNCw0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3MDE1OTcsLT
-E1Njk0MjAxNzIsLTExODM4NDIxNzcsLTcyNTQ1MDI3NywtMTkz
-Mzg1MTE1OCwtMzcyMjE4MTM2XX0=
+eyJoaXN0b3J5IjpbLTYyOTAzNzM5NCwyMjQ4NDU1MDcsMjA4NT
+Y5Njc3NywtMTM4MzI3NTI5NCwtMjA5OTgxNTcyMSwtMTIzMjY1
+MjE2NSwtMzI1ODQ2ODM0LDQzMTM4Mzc4NiwxNzQ3NDUzNDEwLD
+c5NTcwMTU5NywtMTU2OTQyMDE3MiwtMTE4Mzg0MjE3NywtNzI1
+NDUwMjc3LC0xOTMzODUxMTU4LC0zNzIyMTgxMzZdfQ==
 -->
