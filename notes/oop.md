@@ -193,14 +193,15 @@ taster.taste(Almond.new) # => "Like a nut party in my mouth"
 In the above example we can see the `Taster` class calls the the functionality on the different types of food in exactly the same way with the line `food.flavor` to produce wildly different outputs. This is because each of the food classes have a **polymorphic** relationship in which they all implement the same method `flavor` but with different outputs. Thus we only need one line of code in the `Taster` class to interact with all of these classes.
 
 ### Inheritance
-**Inheritance** is the method of defining objects based on common sets of functionality that are im
+**Inheritance** is the method of defining objects based on common sets of functionality that would be implemented on those classes.
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDk1NzY0MzcsMTAyNzkwMjQ5NywxND
-U4Mzg4NTg0LC02MjkwMzczOTQsMjI0ODQ1NTA3LDIwODU2OTY3
-NzcsLTEzODMyNzUyOTQsLTIwOTk4MTU3MjEsLTEyMzI2NTIxNj
-UsLTMyNTg0NjgzNCw0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3
-MDE1OTcsLTE1Njk0MjAxNzIsLTExODM4NDIxNzcsLTcyNTQ1MD
-I3NywtMTkzMzg1MTE1OCwtMzcyMjE4MTM2XX0=
+eyJoaXN0b3J5IjpbMTcwNDkxMzA2MywtMTIwOTU3NjQzNywxMD
+I3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAzNzM5NCwyMjQ4NDU1
+MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NCwtMjA5OTgxNTcyMS
+wtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LDQzMTM4Mzc4NiwxNzQ3
+NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQyMDE3MiwtMTE4Mzg0Mj
+E3NywtNzI1NDUwMjc3LC0xOTMzODUxMTU4LC0zNzIyMTgxMzZd
+fQ==
 -->
