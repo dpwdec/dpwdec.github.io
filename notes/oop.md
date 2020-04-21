@@ -188,12 +188,14 @@ class Almond
 end
 
 taster = Taster.new
-taster.taste(Cabbage.new) #=> 
+taster.taste(Cabbage.new) #=> "Tastes like old socks"
+taster.taste(Rice.new) #=> "Has the flavor of cardboard"
+taster.taste(
 ```
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjg3ODE0OTIsMTQ1ODM4ODU4NCwtNj
+eyJoaXN0b3J5IjpbLTEyMjMwNjk0NTEsMTQ1ODM4ODU4NCwtNj
 I5MDM3Mzk0LDIyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgzMjc1
 Mjk0LC0yMDk5ODE1NzIxLC0xMjMyNjUyMTY1LC0zMjU4NDY4Mz
 QsNDMxMzgzNzg2LDE3NDc0NTM0MTAsNzk1NzAxNTk3LC0xNTY5
