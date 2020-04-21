@@ -69,7 +69,10 @@ class Printer
   end
 end
 ```
+Now out code is clearly managed by two separate classes that interact keeping responsibilities entirely separated.
 
+### Other extractions
+We can go a little further with the above example
 
 ## General Refactoring Patterns
 ### Three instances of repetition
@@ -84,8 +87,8 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzYzMTEwNCwxODI4NzMwODY5LDE3ND
-g4MTg1MDQsMTE1NTExOTI3LC01NTIzMjgyMzYsLTIwNTQ0NzU0
-MDYsMTg0NTMyNTA4MywtMjA1NDQ3NTQwNiwtODU2MDUxMTE3XX
-0=
+eyJoaXN0b3J5IjpbLTEyNzY2MzAxNjEsMTgyODczMDg2OSwxNz
+Q4ODE4NTA0LDExNTUxMTkyNywtNTUyMzI4MjM2LC0yMDU0NDc1
+NDA2LDE4NDUzMjUwODMsLTIwNTQ0NzU0MDYsLTg1NjA1MTExN1
+19
 -->
