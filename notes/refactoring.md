@@ -50,6 +50,9 @@ end
 We now have clear responsibilities based on different methods within this class
 If you can extract a method within a class into a separate `private` method which the class delegates responsibility to, there is a good chance that you can extract this method into its own class.
 
+## General Refactoring Patterns
+### Three instances of repetition
+When should you refactor? There is a balance to be struck between refactoring too early by second guessing how your code base will evolve and refactoring too late when there are so many problems with your code that changes become difficult. The rule of thumb is to **refactor when you see three or more instances of code duplication**. You can then be sure that you are seeing a code pattern that will need to dried and extracted.
 
 ## Code review
 
@@ -60,7 +63,7 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0Mzg1MTg1LDE3NDg4MTg1MDQsMTE1NT
-ExOTI3LC01NTIzMjgyMzYsLTIwNTQ0NzU0MDYsMTg0NTMyNTA4
-MywtMjA1NDQ3NTQwNiwtODU2MDUxMTE3XX0=
+eyJoaXN0b3J5IjpbLTEyMjY1MDE1NzgsMTc0ODgxODUwNCwxMT
+U1MTE5MjcsLTU1MjMyODIzNiwtMjA1NDQ3NTQwNiwxODQ1MzI1
+MDgzLC0yMDU0NDc1NDA2LC04NTYwNTExMTddfQ==
 -->
