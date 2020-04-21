@@ -230,15 +230,15 @@ class Almond < Food
   end
 end
 ```
- We have now created a shared `initialize` method for each of foods that records their type and color as well as a boolean that describes them as edible. Furthermore each food sub class (`Cabbage`, `Rice`, `A
+ We have now created a shared `initialize` method for each of foods that records their type and color as well as a boolean that describes them as edible. Furthermore each food sub class (`Cabbage`, `Rice`, `Almond`) overloads the `flavor` method defined in the `Food` class. This allows us to organise our code and centralise changes to the parent class of these items. For example, if we wanted to change how the `initialize` method on each of these class
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2MjYyODUxLC0xMjA5NTc2NDM3LDEwMj
-c5MDI0OTcsMTQ1ODM4ODU4NCwtNjI5MDM3Mzk0LDIyNDg0NTUw
-NywyMDg1Njk2Nzc3LC0xMzgzMjc1Mjk0LC0yMDk5ODE1NzIxLC
-0xMjMyNjUyMTY1LC0zMjU4NDY4MzQsNDMxMzgzNzg2LDE3NDc0
-NTM0MTAsNzk1NzAxNTk3LC0xNTY5NDIwMTcyLC0xMTgzODQyMT
-c3LC03MjU0NTAyNzcsLTE5MzM4NTExNTgsLTM3MjIxODEzNl19
-
+eyJoaXN0b3J5IjpbLTIwNjg0NjMyNzQsLTEyMDk1NzY0MzcsMT
+AyNzkwMjQ5NywxNDU4Mzg4NTg0LC02MjkwMzczOTQsMjI0ODQ1
+NTA3LDIwODU2OTY3NzcsLTEzODMyNzUyOTQsLTIwOTk4MTU3Mj
+EsLTEyMzI2NTIxNjUsLTMyNTg0NjgzNCw0MzEzODM3ODYsMTc0
+NzQ1MzQxMCw3OTU3MDE1OTcsLTE1Njk0MjAxNzIsLTExODM4ND
+IxNzcsLTcyNTQ1MDI3NywtMTkzMzg1MTE1OCwtMzcyMjE4MTM2
+XX0=
 -->
