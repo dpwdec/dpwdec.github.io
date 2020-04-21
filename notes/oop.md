@@ -177,15 +177,26 @@ end
 
 class Rice
   def flavor
-    "Has the flavor o
+    "Has the flavor of cardboard"
+  end
+end
+
+class Almond
+  def flavor
+    "Like a nut party in my mouth"
+  end
+end
+
+taster = Taster.new
+taster.taste(Cabbage.new) #=> 
 ```
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1NDEzNTAyLDE0NTgzODg1ODQsLTYyOT
-AzNzM5NCwyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5
-NCwtMjA5OTgxNTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LD
-QzMTM4Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQy
-MDE3MiwtMTE4Mzg0MjE3NywtNzI1NDUwMjc3LC0xOTMzODUxMT
-U4LC0zNzIyMTgxMzZdfQ==
+eyJoaXN0b3J5IjpbLTE5Mjg3ODE0OTIsMTQ1ODM4ODU4NCwtNj
+I5MDM3Mzk0LDIyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgzMjc1
+Mjk0LC0yMDk5ODE1NzIxLC0xMjMyNjUyMTY1LC0zMjU4NDY4Mz
+QsNDMxMzgzNzg2LDE3NDc0NTM0MTAsNzk1NzAxNTk3LC0xNTY5
+NDIwMTcyLC0xMTgzODQyMTc3LC03MjU0NTAyNzcsLTE5MzM4NT
+ExNTgsLTM3MjIxODEzNl19
 -->
