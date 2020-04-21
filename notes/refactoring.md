@@ -58,12 +58,11 @@ In our example we could probably refactor the `print_words` method into its own 
 class Words
   def combine_words(word_1, word_2)
     result = word_1 + word_2
-    puts(message + result)
+    Printer.new.print_words(result)
   end
 end
 
 class Printer
-  private
   def print_words(result)
     message = "The two words together are "
     puts(message + result)
@@ -85,8 +84,8 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzUzOTI4LDE4Mjg3MzA4NjksMTc0OD
-gxODUwNCwxMTU1MTE5MjcsLTU1MjMyODIzNiwtMjA1NDQ3NTQw
-NiwxODQ1MzI1MDgzLC0yMDU0NDc1NDA2LC04NTYwNTExMTddfQ
-==
+eyJoaXN0b3J5IjpbLTYyMzYzMTEwNCwxODI4NzMwODY5LDE3ND
+g4MTg1MDQsMTE1NTExOTI3LC01NTIzMjgyMzYsLTIwNTQ0NzU0
+MDYsMTg0NTMyNTA4MywtMjA1NDQ3NTQwNiwtODU2MDUxMTE3XX
+0=
 -->
