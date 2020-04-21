@@ -43,6 +43,7 @@ private
 def print_words(result)
   message = "The two words together are "
   puts(message + result)
+end
 ```
 
 If you can extract a method within a class into a separate `private` method which the class delegates responsibility to, there is a good chance that you can extract this method into its own class.
@@ -57,7 +58,7 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTMwMjkzNywxNzQ4ODE4NTA0LDExNT
+eyJoaXN0b3J5IjpbLTU1MzA4MTYxNiwxNzQ4ODE4NTA0LDExNT
 UxMTkyNywtNTUyMzI4MjM2LC0yMDU0NDc1NDA2LDE4NDUzMjUw
 ODMsLTIwNTQ0NzU0MDYsLTg1NjA1MTExN119
 -->
