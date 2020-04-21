@@ -224,16 +224,21 @@ class Almond < Food
   def flavor
     "Like a nut party in my mouth"
   end
+
+  def crunch
+    puts "Crunchy nuts"
+  end
 end
 ```
+ We have now created a shared `initialize` method for each of foods that records their type and color as well as a boolean that describes them as edible. Furthermore each food sub class (`Cabbage`, `Rice`, `A
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTUyMzUxMiwtMTIwOTU3NjQzNywxMD
-I3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAzNzM5NCwyMjQ4NDU1
-MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NCwtMjA5OTgxNTcyMS
-wtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LDQzMTM4Mzc4NiwxNzQ3
-NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQyMDE3MiwtMTE4Mzg0Mj
-E3NywtNzI1NDUwMjc3LC0xOTMzODUxMTU4LC0zNzIyMTgxMzZd
-fQ==
+eyJoaXN0b3J5IjpbNjY2MjYyODUxLC0xMjA5NTc2NDM3LDEwMj
+c5MDI0OTcsMTQ1ODM4ODU4NCwtNjI5MDM3Mzk0LDIyNDg0NTUw
+NywyMDg1Njk2Nzc3LC0xMzgzMjc1Mjk0LC0yMDk5ODE1NzIxLC
+0xMjMyNjUyMTY1LC0zMjU4NDY4MzQsNDMxMzgzNzg2LDE3NDc0
+NTM0MTAsNzk1NzAxNTk3LC0xNTY5NDIwMTcyLC0xMTgzODQyMT
+c3LC03MjU0NTAyNzcsLTE5MzM4NTExNTgsLTM3MjIxODEzNl19
+
 -->
