@@ -193,11 +193,11 @@ taster.taste(Almond.new) # => "Like a nut party in my mouth"
 In the above example we can see the `Taster` class calls the the functionality on the different types of food in exactly the same way with the line `food.flavor` to produce wildly different outputs. This is because each of the food classes have a **polymorphic** relationship in which they all implement the same method `flavor` but with different outputs. Thus we only need one line of code in the `Taster` class to interact with all of these classes.
 
 ### Inheritance
-**Inheritance** is the method of defining objects based on common sets of functionality that would be implemented on those classes.
+**Inheritance** is the method of defining multiple objects based on common sets of functionality that would be implemented on those objects. In the last example we created a set of polymorphic classes however its clear that there is a category relationship between all of these objects. They are all food. Which means they can *inherit* from the food class
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDkxMzA2MywtMTIwOTU3NjQzNywxMD
+eyJoaXN0b3J5IjpbMjAxNzI0MjQ5MSwtMTIwOTU3NjQzNywxMD
 I3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAzNzM5NCwyMjQ4NDU1
 MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NCwtMjA5OTgxNTcyMS
 wtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LDQzMTM4Mzc4NiwxNzQ3
