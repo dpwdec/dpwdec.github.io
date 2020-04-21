@@ -161,14 +161,21 @@ end
 ```
 
 ### Polymorphism
-**Polymorphism** is the method of presenting the same interface on different objects, so that, even though the objects have different functionality the way code interacts with them is kept consistent meaning that we can use only a few lines of code to produ
+**Polymorphism** is the method of presenting the same interface on different objects, so that, even though the objects have different functionality the way code interacts with them is kept consistent meaning that we can use only a few lines of code to produce wildly different results simply by calling on different objects with the same interface.
+```ruby
+class Taster
+  def taste(food)
+    food.flavor
+  end
+end
+```
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjA5ODI0MCwxNDU4Mzg4NTg0LC02Mj
-kwMzczOTQsMjI0ODQ1NTA3LDIwODU2OTY3NzcsLTEzODMyNzUy
-OTQsLTIwOTk4MTU3MjEsLTEyMzI2NTIxNjUsLTMyNTg0NjgzNC
-w0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3MDE1OTcsLTE1Njk0
-MjAxNzIsLTExODM4NDIxNzcsLTcyNTQ1MDI3NywtMTkzMzg1MT
-E1OCwtMzcyMjE4MTM2XX0=
+eyJoaXN0b3J5IjpbMjYxMTQxNTA5LDE0NTgzODg1ODQsLTYyOT
+AzNzM5NCwyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5
+NCwtMjA5OTgxNTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LD
+QzMTM4Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQy
+MDE3MiwtMTE4Mzg0MjE3NywtNzI1NDUwMjc3LC0xOTMzODUxMT
+U4LC0zNzIyMTgxMzZdfQ==
 -->
