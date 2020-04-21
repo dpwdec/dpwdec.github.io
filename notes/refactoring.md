@@ -3,6 +3,8 @@ title: Refactoring
 layout: page
 exclude: true
 ---
+## Basic VMC Refactoring
+Basic refactoring follows a pattern of extracting variables, then methods then classes, or VMC. By slowly extricating different pieces of our code we can start to created more cohesive encapsulated programs with well defined a
 Code comments that mention elements of your code with an apparent name *should* match the names in code. For example:
 ```ruby
 # combines result of adding two words and puts them with a message.
@@ -31,7 +33,7 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2NDQzODc2LC01NTIzMjgyMzYsLTIwNT
+eyJoaXN0b3J5IjpbMzk2NzU5NjMwLC01NTIzMjgyMzYsLTIwNT
 Q0NzU0MDYsMTg0NTMyNTA4MywtMjA1NDQ3NTQwNiwtODU2MDUx
 MTE3XX0=
 -->
