@@ -7,7 +7,6 @@ exclude: true
 1. [Workflow](#workflow)
 	1.1. [Scope](#scope)
 	1.2. [Committing](#committing)
-	1.3. [Refactoring](#refactoring)
  2. [core](#core)
 	 2.1. [subject scope](#subject-scope)
 	 2.2. [shared context](#shared-context)
@@ -685,7 +684,7 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxMzc3MTM1LC04ODY3NDQ0OTksMTcxNj
+eyJoaXN0b3J5IjpbMjY1NjQxNDU3LC04ODY3NDQ0OTksMTcxNj
 gyMDQyNCwtOTQ2MTYyOTcxLDE2NzUyMDgwNDQsLTE5MzM3ODgw
 MjksLTk0MDU4NTEwNSwtMTE2ODYyMjEyMCw1NTY2NTQ1MCwxMT
 A1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIyMTI1OSwtMTk3Nzc1
