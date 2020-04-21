@@ -44,9 +44,6 @@ You should `commit` when:
 1. Your tests pass after writing a new piece of code.
 2. Your tests pass after refactoring your code.
 
-### Refactoring
-When should you refactor? There is a balance to be struck between refactoring too early by second guessing how your code base will evolve and refactoring too late when there are so many problems with your code that changes become difficult. The rule of thumb is to **refactor when you see three or more instances of code duplication**. You can then be sure that you are seeing a code pattern that will need to dried and extracted.
-
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
 
@@ -688,11 +685,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4Njc0NDQ5OSwxNzE2ODIwNDI0LC05ND
-YxNjI5NzEsMTY3NTIwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1
-MTA1LC0xMTY4NjIyMTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMT
-QxNTE2NzkwNCwtNjE3MjIxMjU5LC0xOTc3NzUzMzUwLDM4MDc0
-OTE2MSwtMjYwNTM3MDQyLDE3MzU0MjAyMTMsMTc2NzcwNTcwLC
-0xOTkzMjQ4MTQ5LC02OTg4NzAzMjEsMTM0MjgxMTgxNiwxODcx
-Nzg0MTQ0XX0=
+eyJoaXN0b3J5IjpbNDMxMzc3MTM1LC04ODY3NDQ0OTksMTcxNj
+gyMDQyNCwtOTQ2MTYyOTcxLDE2NzUyMDgwNDQsLTE5MzM3ODgw
+MjksLTk0MDU4NTEwNSwtMTE2ODYyMjEyMCw1NTY2NTQ1MCwxMT
+A1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIyMTI1OSwtMTk3Nzc1
+MzM1MCwzODA3NDkxNjEsLTI2MDUzNzA0MiwxNzM1NDIwMjEzLD
+E3Njc3MDU3MCwtMTk5MzI0ODE0OSwtNjk4ODcwMzIxLDEzNDI4
+MTE4MTZdfQ==
 -->
