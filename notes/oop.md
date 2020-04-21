@@ -188,17 +188,17 @@ class Almond
 end
 
 taster = Taster.new
-taster.taste(Cabbage.new) #=> "Tastes like old socks"
-taster.taste(Rice.new) #=> "Has the flavor of cardboard"
-taster.taste(
+taster.taste(Cabbage.new) # => "Tastes like old socks"
+taster.taste(Rice.new) # => "Has the flavor of cardboard"
+taster.taste(Almond.new) # => "Like a nut party in my mouth"
 ```
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjMwNjk0NTEsMTQ1ODM4ODU4NCwtNj
-I5MDM3Mzk0LDIyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgzMjc1
-Mjk0LC0yMDk5ODE1NzIxLC0xMjMyNjUyMTY1LC0zMjU4NDY4Mz
-QsNDMxMzgzNzg2LDE3NDc0NTM0MTAsNzk1NzAxNTk3LC0xNTY5
-NDIwMTcyLC0xMTgzODQyMTc3LC03MjU0NTAyNzcsLTE5MzM4NT
-ExNTgsLTM3MjIxODEzNl19
+eyJoaXN0b3J5IjpbMTY1NzI3ODM5OCwxNDU4Mzg4NTg0LC02Mj
+kwMzczOTQsMjI0ODQ1NTA3LDIwODU2OTY3NzcsLTEzODMyNzUy
+OTQsLTIwOTk4MTU3MjEsLTEyMzI2NTIxNjUsLTMyNTg0NjgzNC
+w0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3MDE1OTcsLTE1Njk0
+MjAxNzIsLTExODM4NDIxNzcsLTcyNTQ1MDI3NywtMTkzMzg1MT
+E1OCwtMzcyMjE4MTM2XX0=
 -->
