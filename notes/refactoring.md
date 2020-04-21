@@ -47,8 +47,14 @@ class Words
   end
 end
 ```
-We now have clear responsibilities based on different methods within this class
+We now have clear responsibilities based on different methods within this class, each piece of code has a clear responsibility and does exactly what it says it does.
+
+### Extract Class
+
 If you can extract a method within a class into a separate `private` method which the class delegates responsibility to, there is a good chance that you can extract this method into its own class.
+
+In our example we could probably refactor the `print_words` method into its own class entirely as printing stuff doesn't really have anything to do with managing how words interact.
+
 
 ## General Refactoring Patterns
 ### Three instances of repetition
@@ -63,7 +69,7 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjY1MDE1NzgsMTc0ODgxODUwNCwxMT
-U1MTE5MjcsLTU1MjMyODIzNiwtMjA1NDQ3NTQwNiwxODQ1MzI1
-MDgzLC0yMDU0NDc1NDA2LC04NTYwNTExMTddfQ==
+eyJoaXN0b3J5IjpbMTgyODczMDg2OSwxNzQ4ODE4NTA0LDExNT
+UxMTkyNywtNTUyMzI4MjM2LC0yMDU0NDc1NDA2LDE4NDUzMjUw
+ODMsLTIwNTQ0NzU0MDYsLTg1NjA1MTExN119
 -->
