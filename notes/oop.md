@@ -3,8 +3,6 @@ title: OOP
 layout: page
 exclude: true
 ---
-polymorphism
-inheritance
 
 ### Data Abstraction
 When creating a class to represent a real world object we can use **data abstraction** to the model that real object more effectively. This means creating classes so that their data is structured in such a way that it *matches* the real world object's structure. 
@@ -193,13 +191,16 @@ taster.taste(Rice.new) # => "Has the flavor of cardboard"
 taster.taste(Almond.new) # => "Like a nut party in my mouth"
 ```
 In the above example we can see the `Taster` class calls the the functionality on the different types of food in exactly the same way with the line `food.flavor` to produce wildly different outputs. This is because each of the food classes have a **polymorphic** relationship in which they all implement the same method `flavor` but with different outputs. Thus we only need one line of code in the `Taster` class to interact with all of these classes.
+
+### Inheritance
+**Inheritance** is the method of defining objects based on common sets of functionality that are im
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzkwMjQ5NywxNDU4Mzg4NTg0LC02Mj
-kwMzczOTQsMjI0ODQ1NTA3LDIwODU2OTY3NzcsLTEzODMyNzUy
-OTQsLTIwOTk4MTU3MjEsLTEyMzI2NTIxNjUsLTMyNTg0NjgzNC
-w0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3MDE1OTcsLTE1Njk0
-MjAxNzIsLTExODM4NDIxNzcsLTcyNTQ1MDI3NywtMTkzMzg1MT
-E1OCwtMzcyMjE4MTM2XX0=
+eyJoaXN0b3J5IjpbLTEyMDk1NzY0MzcsMTAyNzkwMjQ5NywxND
+U4Mzg4NTg0LC02MjkwMzczOTQsMjI0ODQ1NTA3LDIwODU2OTY3
+NzcsLTEzODMyNzUyOTQsLTIwOTk4MTU3MjEsLTEyMzI2NTIxNj
+UsLTMyNTg0NjgzNCw0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3
+MDE1OTcsLTE1Njk0MjAxNzIsLTExODM4NDIxNzcsLTcyNTQ1MD
+I3NywtMTkzMzg1MTE1OCwtMzcyMjE4MTM2XX0=
 -->
