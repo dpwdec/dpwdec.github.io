@@ -72,7 +72,26 @@ end
 Now out code is clearly managed by two separate classes that interact keeping responsibilities entirely separated.
 
 ### Other extractions
-We can go a little further with the above example. Currently the mes
+We can go a little further with the above example. Currently the message in the `Printer` class is always the same, so it can be safely extracted into a constant. Furthermore the `Words` class could implement an instance variable that contains an instance of the `Printer` class so it doesn't need to create a new printer every time the `combine_words` method is called.
+
+```ruby
+class Words
+  def initialize
+   
+
+  def combine_words(word_1, word_2)
+    result = word_1 + word_2
+    Printer.new.print_words(result)
+  end
+end
+
+class Printer
+  def print_words(result)
+    message = "The two words together are "
+    puts(message + result)
+  end
+end
+```
 
 ## General Refactoring Patterns
 ### Three instances of repetition
@@ -87,8 +106,8 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNDA2NjU2NSwtMTI3NjYzMDE2MSwxOD
-I4NzMwODY5LDE3NDg4MTg1MDQsMTE1NTExOTI3LC01NTIzMjgy
-MzYsLTIwNTQ0NzU0MDYsMTg0NTMyNTA4MywtMjA1NDQ3NTQwNi
-wtODU2MDUxMTE3XX0=
+eyJoaXN0b3J5IjpbLTE4NzgzNzI1OTcsLTEyNzY2MzAxNjEsMT
+gyODczMDg2OSwxNzQ4ODE4NTA0LDExNTUxMTkyNywtNTUyMzI4
+MjM2LC0yMDU0NDc1NDA2LDE4NDUzMjUwODMsLTIwNTQ0NzU0MD
+YsLTg1NjA1MTExN119
 -->
