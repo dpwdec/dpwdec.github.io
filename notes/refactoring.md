@@ -72,7 +72,7 @@ end
 Now out code is clearly managed by two separate classes that interact keeping responsibilities entirely separated.
 
 ### Other extractions
-We can go a little further with the above example
+We can go a little further with the above example. Currently the mes
 
 ## General Refactoring Patterns
 ### Three instances of repetition
@@ -87,8 +87,8 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY2MzAxNjEsMTgyODczMDg2OSwxNz
-Q4ODE4NTA0LDExNTUxMTkyNywtNTUyMzI4MjM2LC0yMDU0NDc1
-NDA2LDE4NDUzMjUwODMsLTIwNTQ0NzU0MDYsLTg1NjA1MTExN1
-19
+eyJoaXN0b3J5IjpbLTMwNDA2NjU2NSwtMTI3NjYzMDE2MSwxOD
+I4NzMwODY5LDE3NDg4MTg1MDQsMTE1NTExOTI3LC01NTIzMjgy
+MzYsLTIwNTQ0NzU0MDYsMTg0NTMyNTA4MywtMjA1NDQ3NTQwNi
+wtODU2MDUxMTE3XX0=
 -->
