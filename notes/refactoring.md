@@ -32,7 +32,17 @@ After clarifying the above examples functionality with variables we can see that
 1. Adding the words together
 2. Outputting the result.
 
-This means that we could refactor the code further to have a method that outputs words rather than doing the combining *inside* the `combine_words` method.
+This means that we could refactor the code further to have a method that outputs words rather than doing the combining *and* the printing *inside* the `combine_words` method.
+```ruby
+def combine_words(word_1, word_2)
+  result = word_1 + word_2
+  puts(message + result)
+end
+
+def print_words(result)
+  message = "The two words together are "
+  puts(message + result)
+```
 
 If you can extract a method within a class into a separate `private` method which the class delegates responsibility to, there is a good chance that you can extract this method into its own class.
 
@@ -46,7 +56,7 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0ODgxODUwNCwxMTU1MTE5MjcsLTU1Mj
-MyODIzNiwtMjA1NDQ3NTQwNiwxODQ1MzI1MDgzLC0yMDU0NDc1
-NDA2LC04NTYwNTExMTddfQ==
+eyJoaXN0b3J5IjpbMTMyMDYxMTc4NCwxNzQ4ODE4NTA0LDExNT
+UxMTkyNywtNTUyMzI4MjM2LC0yMDU0NDc1NDA2LDE4NDUzMjUw
+ODMsLTIwNTQ0NzU0MDYsLTg1NjA1MTExN119
 -->
