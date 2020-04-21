@@ -9,7 +9,12 @@ Code comments that mention elements of your code with an apparent name *should* 
 def combine_words(word_1, word_2)
   puts("The two words together are " + word_1 + word_2)
 ```
+This is a bad example of how to structure your code and comment names because our method comment makes reference to a `#result` and `#header` but these are never referenced in our actual code. A better solution would be:
+```ruby
+# combines result of adding two words and puts them with a message.
+def combine_words(word_1, word_2)
 
+```
 
 If you can extract a method within a class into a separate `private` method which the class delegates responsibility to, there is a good chance that you can extract this method into its own class.
 
@@ -23,7 +28,7 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MTAyODczMCwtNTUyMzI4MjM2LC0yMD
-U0NDc1NDA2LDE4NDUzMjUwODMsLTIwNTQ0NzU0MDYsLTg1NjA1
-MTExN119
+eyJoaXN0b3J5IjpbLTE4MDc4NzUyOTEsLTU1MjMyODIzNiwtMj
+A1NDQ3NTQwNiwxODQ1MzI1MDgzLC0yMDU0NDc1NDA2LC04NTYw
+NTExMTddfQ==
 -->
