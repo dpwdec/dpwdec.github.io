@@ -197,9 +197,10 @@ In the above example we can see the `Taster` class calls the the functionality o
 
 ```ruby
 class Food
-  def initialize
-    @type = "nothing"
-    @color = "colorless"
+  def initialize(type, color)
+    @type = type
+    @color = color
+    @edible = true
   end
   
   def flavor
@@ -228,11 +229,11 @@ end
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTUwODUwODgsLTEyMDk1NzY0MzcsMT
-AyNzkwMjQ5NywxNDU4Mzg4NTg0LC02MjkwMzczOTQsMjI0ODQ1
-NTA3LDIwODU2OTY3NzcsLTEzODMyNzUyOTQsLTIwOTk4MTU3Mj
-EsLTEyMzI2NTIxNjUsLTMyNTg0NjgzNCw0MzEzODM3ODYsMTc0
-NzQ1MzQxMCw3OTU3MDE1OTcsLTE1Njk0MjAxNzIsLTExODM4ND
-IxNzcsLTcyNTQ1MDI3NywtMTkzMzg1MTE1OCwtMzcyMjE4MTM2
-XX0=
+eyJoaXN0b3J5IjpbMTM0OTUyMzUxMiwtMTIwOTU3NjQzNywxMD
+I3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAzNzM5NCwyMjQ4NDU1
+MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NCwtMjA5OTgxNTcyMS
+wtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LDQzMTM4Mzc4NiwxNzQ3
+NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQyMDE3MiwtMTE4Mzg0Mj
+E3NywtNzI1NDUwMjc3LC0xOTMzODUxMTU4LC0zNzIyMTgxMzZd
+fQ==
 -->
