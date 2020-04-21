@@ -165,14 +165,24 @@ end
 ```ruby
 class Taster
   def taste(food)
-    food.flavor
+    puts food.flavor
   end
 end
+
+class Cabbage
+  def flavor
+    "Tastes like old socks"
+  end
+end
+
+class Rice
+  def flavor
+    "Has the flavor o
 ```
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxMTQxNTA5LDE0NTgzODg1ODQsLTYyOT
+eyJoaXN0b3J5IjpbNzY1NDEzNTAyLDE0NTgzODg1ODQsLTYyOT
 AzNzM5NCwyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5
 NCwtMjA5OTgxNTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LD
 QzMTM4Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQy
