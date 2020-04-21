@@ -28,10 +28,11 @@ We can see in the code above the elements have been refactored into separate var
 
 ### Method Extraction
 After clarifying the above examples functionality with variables we can see that this method has more than one responsibility:
+
 1. Adding the words together
 2. Outputting the result.
 
-
+This means that we could refactor the code further to have a method that outputs words rather than doing the combining *inside* the `combine_words` method.
 
 If you can extract a method within a class into a separate `private` method which the class delegates responsibility to, there is a good chance that you can extract this method into its own class.
 
@@ -45,7 +46,7 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1MjMzOTUxLDExNTUxMTkyNywtNTUyMz
-I4MjM2LC0yMDU0NDc1NDA2LDE4NDUzMjUwODMsLTIwNTQ0NzU0
-MDYsLTg1NjA1MTExN119
+eyJoaXN0b3J5IjpbMTc0ODgxODUwNCwxMTU1MTE5MjcsLTU1Mj
+MyODIzNiwtMjA1NDQ3NTQwNiwxODQ1MzI1MDgzLC0yMDU0NDc1
+NDA2LC04NTYwNTExMTddfQ==
 -->
