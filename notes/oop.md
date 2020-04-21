@@ -160,14 +160,15 @@ class Thermostat
 end
 ```
 
-
+### Polymorphism
+**Polymorphism** is the method of presenting the same interface on different objects, so that, even though the objects have different functionality the way code interacts with them is kept consistent meaning that we can use only a few lines of code to produ
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODM4ODU4NCwtNjI5MDM3Mzk0LDIyND
-g0NTUwNywyMDg1Njk2Nzc3LC0xMzgzMjc1Mjk0LC0yMDk5ODE1
-NzIxLC0xMjMyNjUyMTY1LC0zMjU4NDY4MzQsNDMxMzgzNzg2LD
-E3NDc0NTM0MTAsNzk1NzAxNTk3LC0xNTY5NDIwMTcyLC0xMTgz
-ODQyMTc3LC03MjU0NTAyNzcsLTE5MzM4NTExNTgsLTM3MjIxOD
-EzNl19
+eyJoaXN0b3J5IjpbMTY4NjA5ODI0MCwxNDU4Mzg4NTg0LC02Mj
+kwMzczOTQsMjI0ODQ1NTA3LDIwODU2OTY3NzcsLTEzODMyNzUy
+OTQsLTIwOTk4MTU3MjEsLTEyMzI2NTIxNjUsLTMyNTg0NjgzNC
+w0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3MDE1OTcsLTE1Njk0
+MjAxNzIsLTExODM4NDIxNzcsLTcyNTQ1MDI3NywtMTkzMzg1MT
+E1OCwtMzcyMjE4MTM2XX0=
 -->
