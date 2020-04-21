@@ -139,24 +139,25 @@ You can also conceptualise SRP further as being **method specific** if you have 
 ```ruby
 class Oven
   def initialize
-    @thermostat = Thermostat,n
+    @thermostat = Thermostat.new
+  end
   
   def cook_food_fast
-    Thermostat.new.set_temp(200)
+    @thermostat.set_temp(200)
   end
 
   def cook_food_slow
-    Thermostat.new.set_temp(200)
+    @thermostat.set_temp(50)
   end
 end
 ```
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTYzNDgwMTAsLTYyOTAzNzM5NCwyMj
-Q4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NCwtMjA5OTgx
-NTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LDQzMTM4Mzc4Ni
-wxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQyMDE3MiwtMTE4
-Mzg0MjE3NywtNzI1NDUwMjc3LC0xOTMzODUxMTU4LC0zNzIyMT
-gxMzZdfQ==
+eyJoaXN0b3J5IjpbLTI5OTg2Mzc2LC02MjkwMzczOTQsMjI0OD
+Q1NTA3LDIwODU2OTY3NzcsLTEzODMyNzUyOTQsLTIwOTk4MTU3
+MjEsLTEyMzI2NTIxNjUsLTMyNTg0NjgzNCw0MzEzODM3ODYsMT
+c0NzQ1MzQxMCw3OTU3MDE1OTcsLTE1Njk0MjAxNzIsLTExODM4
+NDIxNzcsLTcyNTQ1MDI3NywtMTkzMzg1MTE1OCwtMzcyMjE4MT
+M2XX0=
 -->
