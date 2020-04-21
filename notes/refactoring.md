@@ -5,8 +5,11 @@ exclude: true
 ---
 Code comments that mention elements of your code with an apparent name *should* match the names in code. For example:
 ```ruby
-def 
+# combines result of adding two words and puts them with a message.
+def combine_words(word_1, word_2)
+  puts("The two words together are " + word_1 + word_2)
 ```
+
 
 If you can extract a method within a class into a separate `private` method which the class delegates responsibility to, there is a good chance that you can extract this method into its own class.
 
@@ -20,7 +23,7 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5NzUyNzYzLC01NTIzMjgyMzYsLTIwNT
-Q0NzU0MDYsMTg0NTMyNTA4MywtMjA1NDQ3NTQwNiwtODU2MDUx
-MTE3XX0=
+eyJoaXN0b3J5IjpbMTg1MTAyODczMCwtNTUyMzI4MjM2LC0yMD
+U0NDc1NDA2LDE4NDUzMjUwODMsLTIwNTQ0NzU0MDYsLTg1NjA1
+MTExN119
 -->
