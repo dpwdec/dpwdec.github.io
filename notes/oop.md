@@ -138,11 +138,15 @@ You can also conceptualise SRP further as being **method specific** if you have 
 **Forwarding** is the method of delegating a task to another class by calling a method on that class from another piece of code.
 ```ruby
 class Oven
+  def cook_food
+  
+  end
+end
 ```
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzAxODM3MiwtNjI5MDM3Mzk0LDIyND
+eyJoaXN0b3J5IjpbLTM2OTMxMjM2MiwtNjI5MDM3Mzk0LDIyND
 g0NTUwNywyMDg1Njk2Nzc3LC0xMzgzMjc1Mjk0LC0yMDk5ODE1
 NzIxLC0xMjMyNjUyMTY1LC0zMjU4NDY4MzQsNDMxMzgzNzg2LD
 E3NDc0NTM0MTAsNzk1NzAxNTk3LC0xNTY5NDIwMTcyLC0xMTgz
