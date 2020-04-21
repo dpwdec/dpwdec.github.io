@@ -8,13 +8,15 @@ Basic refactoring follows a pattern of extracting variables, then methods then c
 
 ### Variable Extraction
 
-Code that is all compressed onto one line without the use of variables can confuse the different pieces of functionality that a method might have. In the code below, the combining functionality *and* the printing functionality are combined onto a single line. Even though these are separate responsibilities they appear entwined when presented this way in the body of our method. Furthermore the lack of variables Code comments that mention elements of your code with an apparent name *should* match the names in code. For example:
+Code that is all compressed onto one line without the use of variables can confuse the different pieces of functionality that a method might have. 
 ```ruby
 # combines result of adding two words and puts them with a message.
 def combine_words(word_1, word_2)
   puts("The two words together are " + word_1 + word_2)
+
 ```
-This is a bad example of how to structure your code and comment names because our method comment makes reference to a `#result` and `#header` but these are never referenced in our actual code. A better solution would be:
+In the code a, the combining functionality *and* the printing functionality are combined onto a single line. Even though these are separate responsibilities they appear entwined when presented this way in the body of our method. Furthermore the lack of variables means that the code comments are widely redundant, because even though we makes reference to a `#result` and `#header` these are never referenced in our actual code.
+
 ```ruby
 # combines result of adding two words and puts them with a message.
 def combine_words(word_1, word_2)
@@ -36,7 +38,7 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDM0NDMwMSwtNTUyMzI4MjM2LC0yMD
-U0NDc1NDA2LDE4NDUzMjUwODMsLTIwNTQ0NzU0MDYsLTg1NjA1
-MTExN119
+eyJoaXN0b3J5IjpbLTE5OTgxNzg1NDcsLTU1MjMyODIzNiwtMj
+A1NDQ3NTQwNiwxODQ1MzI1MDgzLC0yMDU0NDc1NDA2LC04NTYw
+NTExMTddfQ==
 -->
