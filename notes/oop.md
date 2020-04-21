@@ -133,12 +133,16 @@ You can also conceptualise SRP further as being **method specific** if you have 
 
 ### Cohesion
 **Cohesion** is similar to both encapsulation and SRP, it simply refers to grouping code in a way that is self contained and executes singular tasks well as opposed to spreading out the functionality of your code base.
+
+### Forwarding
+**Forwarding** is the method of delegating a task to another class by calling a method on that class from another pi
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTAzNzM5NCwyMjQ4NDU1MDcsMjA4NT
-Y5Njc3NywtMTM4MzI3NTI5NCwtMjA5OTgxNTcyMSwtMTIzMjY1
-MjE2NSwtMzI1ODQ2ODM0LDQzMTM4Mzc4NiwxNzQ3NDUzNDEwLD
-c5NTcwMTU5NywtMTU2OTQyMDE3MiwtMTE4Mzg0MjE3NywtNzI1
-NDUwMjc3LC0xOTMzODUxMTU4LC0zNzIyMTgxMzZdfQ==
+eyJoaXN0b3J5IjpbLTg4MjQ5MjA0OSwtNjI5MDM3Mzk0LDIyND
+g0NTUwNywyMDg1Njk2Nzc3LC0xMzgzMjc1Mjk0LC0yMDk5ODE1
+NzIxLC0xMjMyNjUyMTY1LC0zMjU4NDY4MzQsNDMxMzgzNzg2LD
+E3NDc0NTM0MTAsNzk1NzAxNTk3LC0xNTY5NDIwMTcyLC0xMTgz
+ODQyMTc3LC03MjU0NTAyNzcsLTE5MzM4NTExNTgsLTM3MjIxOD
+EzNl19
 -->
