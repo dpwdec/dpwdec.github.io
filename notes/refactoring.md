@@ -49,6 +49,14 @@ end
 ```
 We now have clear responsibilities based on different methods within this class, each piece of code has a clear responsibility and does exactly what it says it does.
 
+Don't be afraid to extract a line with multiple clauses into multiple methods.
+```ruby
+def checker
+  time < 5 && location == "home"
+end
+```
+The method above has two
+
 ### Extract Class
 
 If you can extract a method within a class into a separate `private` method which the class delegates responsibility to, there is a good chance that you can extract this method into its own class.
@@ -107,8 +115,8 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDM4MjI4MiwtMTI3NjYzMDE2MSwxOD
-I4NzMwODY5LDE3NDg4MTg1MDQsMTE1NTExOTI3LC01NTIzMjgy
-MzYsLTIwNTQ0NzU0MDYsMTg0NTMyNTA4MywtMjA1NDQ3NTQwNi
-wtODU2MDUxMTE3XX0=
+eyJoaXN0b3J5IjpbMTk0NzEzMTgyNywyMTA0MzgyMjgyLC0xMj
+c2NjMwMTYxLDE4Mjg3MzA4NjksMTc0ODgxODUwNCwxMTU1MTE5
+MjcsLTU1MjMyODIzNiwtMjA1NDQ3NTQwNiwxODQ1MzI1MDgzLC
+0yMDU0NDc1NDA2LC04NTYwNTExMTddfQ==
 -->
