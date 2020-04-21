@@ -13,7 +13,7 @@ Code that is all compressed onto one line without the use of variables can confu
 # combines result of adding two words and puts them with a message.
 def combine_words(word_1, word_2)
   puts("The two words together are " + word_1 + word_2)
-
+end
 ```
 In the code above, the combining functionality *and* the printing functionality are combined onto a single line. Even though these are separate responsibilities they appear entwined when presented this way in the body of our method. Furthermore the lack of variables means that the code comments are widely redundant, because even though we makes reference to a `#result` and `#header` these are never referenced in our actual code. 
 ```ruby
@@ -28,6 +28,7 @@ We can see in the code above the elements have been refactored into separate var
 
 ### Method Extraction
 
+
 If you can extract a method within a class into a separate `private` method which the class delegates responsibility to, there is a good chance that you can extract this method into its own class.
 
 
@@ -40,7 +41,7 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTExOTI3LC01NTIzMjgyMzYsLTIwNT
-Q0NzU0MDYsMTg0NTMyNTA4MywtMjA1NDQ3NTQwNiwtODU2MDUx
-MTE3XX0=
+eyJoaXN0b3J5IjpbLTEzNjAzODYxMjgsMTE1NTExOTI3LC01NT
+IzMjgyMzYsLTIwNTQ0NzU0MDYsMTg0NTMyNTA4MywtMjA1NDQ3
+NTQwNiwtODU2MDUxMTE3XX0=
 -->
