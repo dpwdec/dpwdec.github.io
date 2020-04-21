@@ -135,7 +135,7 @@ You can also conceptualise SRP further as being **method specific** if you have 
 **Cohesion** is similar to both encapsulation and SRP, it simply refers to grouping code in a way that is self contained and executes singular tasks well as opposed to spreading out the functionality of your code base.
 
 ### Forwarding
-**Forwarding** is the method of delegating a task to another class by calling a method on that class from another piece of code.
+**Forwarding** is the method of delegating a task to another class by calling a method on that class from another piece of code. In the below example the `Oven` class forwards functionality to the `Thermostat` class by calling its methods.
 ```ruby
 class Oven
   def initialize
@@ -159,13 +159,15 @@ class Thermostat
   end
 end
 ```
+
+
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk1MjEzMjMsLTYyOTAzNzM5NCwyMj
-Q4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NCwtMjA5OTgx
-NTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LDQzMTM4Mzc4Ni
-wxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQyMDE3MiwtMTE4
-Mzg0MjE3NywtNzI1NDUwMjc3LC0xOTMzODUxMTU4LC0zNzIyMT
-gxMzZdfQ==
+eyJoaXN0b3J5IjpbMTQ1ODM4ODU4NCwtNjI5MDM3Mzk0LDIyND
+g0NTUwNywyMDg1Njk2Nzc3LC0xMzgzMjc1Mjk0LC0yMDk5ODE1
+NzIxLC0xMjMyNjUyMTY1LC0zMjU4NDY4MzQsNDMxMzgzNzg2LD
+E3NDc0NTM0MTAsNzk1NzAxNTk3LC0xNTY5NDIwMTcyLC0xMTgz
+ODQyMTc3LC03MjU0NTAyNzcsLTE5MzM4NTExNTgsLTM3MjIxOD
+EzNl19
 -->
