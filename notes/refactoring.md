@@ -55,7 +55,7 @@ def checker
   time < 5 && location == "home"
 end
 ```
-The method above has two evaluation clauses inside it that can be refactored into two separated predicate methods.
+The method above has two evaluation clauses inside it that can be refactored into two separated predicate methods. Such that responsibilities are made clear again.
 ```ruby
 def checker
   time? && home?
@@ -128,7 +128,7 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDUxMTk4NzgsMjEwNDM4MjI4MiwtMT
+eyJoaXN0b3J5IjpbLTEzNzg2MzMwNjQsMjEwNDM4MjI4MiwtMT
 I3NjYzMDE2MSwxODI4NzMwODY5LDE3NDg4MTg1MDQsMTE1NTEx
 OTI3LC01NTIzMjgyMzYsLTIwNTQ0NzU0MDYsMTg0NTMyNTA4My
 wtMjA1NDQ3NTQwNiwtODU2MDUxMTE3XX0=
