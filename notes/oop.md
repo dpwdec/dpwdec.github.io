@@ -230,15 +230,15 @@ class Almond < Food
   end
 end
 ```
- We have now created a shared `initialize` method for each of foods that records their type and color as well as a boolean that describes them as edible. Furthermore each food sub class (`Cabbage`, `Rice`, `Almond`) overloads the `flavor` method defined in the `Food` class. This allows us to organise our code and centralise changes to the parent class of these items. For example, if we wanted to change how the `initialize` method on each of these class
+ We have now created a shared `initialize` method for each of foods that records their type and color as well as a boolean that describes them as edible. Furthermore each food sub class (`Cabbage`, `Rice`, `Almond`) overloads the `flavor` method defined in the `Food` class. This allows us to organise our code and centralise changes to the parent class of these items. For example, if we wanted to change how the `initialize` method on each of these classes *without* them inheriting from `Food` we would need to change three different constructors - not very dry or efficient. By letting our classes inherit the constructor we only have to change one piece of code to update all the subclasses.
  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjg0NjMyNzQsLTEyMDk1NzY0MzcsMT
-AyNzkwMjQ5NywxNDU4Mzg4NTg0LC02MjkwMzczOTQsMjI0ODQ1
-NTA3LDIwODU2OTY3NzcsLTEzODMyNzUyOTQsLTIwOTk4MTU3Mj
-EsLTEyMzI2NTIxNjUsLTMyNTg0NjgzNCw0MzEzODM3ODYsMTc0
-NzQ1MzQxMCw3OTU3MDE1OTcsLTE1Njk0MjAxNzIsLTExODM4ND
-IxNzcsLTcyNTQ1MDI3NywtMTkzMzg1MTE1OCwtMzcyMjE4MTM2
-XX0=
+eyJoaXN0b3J5IjpbLTIxNzQzMDA1MSwtMTIwOTU3NjQzNywxMD
+I3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAzNzM5NCwyMjQ4NDU1
+MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NCwtMjA5OTgxNTcyMS
+wtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LDQzMTM4Mzc4NiwxNzQ3
+NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQyMDE3MiwtMTE4Mzg0Mj
+E3NywtNzI1NDUwMjc3LC0xOTMzODUxMTU4LC0zNzIyMTgxMzZd
+fQ==
 -->
