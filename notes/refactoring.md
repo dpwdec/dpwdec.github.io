@@ -18,6 +18,7 @@ end
 In the code above, the combining functionality *and* the printing functionality are combined onto a single line. Even though these are separate responsibilities they appear entwined when presented this way in the body of our method. Furthermore the lack of variables means that the code comments are widely redundant, because even though we makes reference to a `#result` and `#header` these are never referenced in our actual code. 
 ```ruby
 # combines result of adding two words and puts them with a message.
+
 def combine_words(word_1, word_2)
   message = "The two words together are "
   result = word_1 + word_2
@@ -32,17 +33,19 @@ After clarifying the above examples functionality with variables we can see that
 1. Adding the words together
 2. Outputting the result.
 
-This means that we could refactor the code further to have a method that outputs words rather than doing the combining *and* the printing *inside* the `combine_words` method.
+This means that we could refactor the code further to have a method that outputs words rather than doing the combining *and* the printing *inside* the `combine_words` method. In the below example this refactoring has been completed and because the `print_words` method is not used by any code outside of the `combine_words` method it can be safely set as `private`.
 ```ruby
-def combine_words(word_1, word_2)
-  result = word_1 + word_2
-  puts(message + result)
-end
+class Words
+  def combine_words(word_1, word_2)
+    result = word_1 + word_2
+    puts(message + result)
+  end
 
-private
-def print_words(result)
-  message = "The two words together are "
-  puts(message + result)
+  private
+  def print_words(result)
+    message = "The two words together are "
+    puts(message + result)
+  end
 end
 ```
 
@@ -58,7 +61,7 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzA4MTYxNiwxNzQ4ODE4NTA0LDExNT
+eyJoaXN0b3J5IjpbLTQyNTA2MTMwOCwxNzQ4ODE4NTA0LDExNT
 UxMTkyNywtNTUyMzI4MjM2LC0yMDU0NDc1NDA2LDE4NDUzMjUw
 ODMsLTIwNTQ0NzU0MDYsLTg1NjA1MTExN119
 -->
