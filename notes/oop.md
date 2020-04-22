@@ -133,7 +133,9 @@ You can also conceptualise SRP further as being **method specific** if you have 
 **Cohesion** is similar to both encapsulation and SRP, it simply refers to grouping code in a way that is self contained and executes singular tasks well as opposed to spreading out the functionality of your code base.
 
 ### Forwarding and Delegation
-**Forwarding** and **delegation** are very similar. They both involve passing messages that are passed to a class down to other objects and using the methods on those objects instead. The main difference is that when you **forward** the class receiving the message is has its own entirely separate context and interface from the class sending the method. Whereas when you **delegate** the receiving class is *wrapped* inside t
+**Forwarding** and **delegation** are very similar. They both involve passing messages that are passed to a class down to other objects and using the methods on those objects instead. The main difference is that when you **forward** the class receiving the message is has its own entirely separate context and interface from the class sending the method. Whereas when you **delegate** the receiving class is *wrapped* inside the class calling it, so that the context of code remains consistent with the calling object.
+
+One analogy used is that of receiving an email asking you to donate to a charity. If you **forward** the email you might send it to a friend who would be able to donate that amount. It's not a personally responsibility. However, if you delegate the task of donating to your accountant
 
 is the method of sending a task to another class by calling a method on that class from another piece of code. In the below example the `Oven` class forwards functionality to the `Thermostat` class by calling its methods.
 ```ruby
@@ -236,11 +238,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE5NTUxMzQsNDE0MTI2NTY5LDIwMD
-c0NTYxMDAsMTkxMzE4NDY3MiwtMjE3NDMwMDUxLC0xMjA5NTc2
-NDM3LDEwMjc5MDI0OTcsMTQ1ODM4ODU4NCwtNjI5MDM3Mzk0LD
-IyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgzMjc1Mjk0LC0yMDk5
-ODE1NzIxLC0xMjMyNjUyMTY1LC0zMjU4NDY4MzQsNDMxMzgzNz
-g2LDE3NDc0NTM0MTAsNzk1NzAxNTk3LC0xNTY5NDIwMTcyLC0x
-MTgzODQyMTc3XX0=
+eyJoaXN0b3J5IjpbMTYyMjYyOTU1Nyw0MTQxMjY1NjksMjAwNz
+Q1NjEwMCwxOTEzMTg0NjcyLC0yMTc0MzAwNTEsLTEyMDk1NzY0
+MzcsMTAyNzkwMjQ5NywxNDU4Mzg4NTg0LC02MjkwMzczOTQsMj
+I0ODQ1NTA3LDIwODU2OTY3NzcsLTEzODMyNzUyOTQsLTIwOTk4
+MTU3MjEsLTEyMzI2NTIxNjUsLTMyNTg0NjgzNCw0MzEzODM3OD
+YsMTc0NzQ1MzQxMCw3OTU3MDE1OTcsLTE1Njk0MjAxNzIsLTEx
+ODM4NDIxNzddfQ==
 -->
