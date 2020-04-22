@@ -142,8 +142,14 @@ But, **what does this actually look like in ruby?**
 The essential difference is how classes interact.
 
 ```ruby
-a phone has a screen component that it displays to and these methods can be entirely contained within that object without direct access from outside. However if you have two objects which you send messages between THAT is forwarding.
+class Phone
+  def initialize
+    @screen = Screen.new
+  end
+end
 ```
+
+a phone has a screen component that it displays to and these methods can be entirely contained within that object without direct access from outside. However if you have two objects which you send messages between THAT is forwarding.
 
 is the method of sending a task to another class by calling a method on that class from another piece of code. In the below example the `Oven` class forwards functionality to the `Thermostat` class by calling its methods.
 ```ruby
@@ -246,11 +252,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQ2OTM5MjYsNDE0MTI2NTY5LDIwMD
-c0NTYxMDAsMTkxMzE4NDY3MiwtMjE3NDMwMDUxLC0xMjA5NTc2
-NDM3LDEwMjc5MDI0OTcsMTQ1ODM4ODU4NCwtNjI5MDM3Mzk0LD
-IyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgzMjc1Mjk0LC0yMDk5
-ODE1NzIxLC0xMjMyNjUyMTY1LC0zMjU4NDY4MzQsNDMxMzgzNz
-g2LDE3NDc0NTM0MTAsNzk1NzAxNTk3LC0xNTY5NDIwMTcyLC0x
-MTgzODQyMTc3XX0=
+eyJoaXN0b3J5IjpbNDI1NTUzMjA2LC0xMzc0NjkzOTI2LDQxND
+EyNjU2OSwyMDA3NDU2MTAwLDE5MTMxODQ2NzIsLTIxNzQzMDA1
+MSwtMTIwOTU3NjQzNywxMDI3OTAyNDk3LDE0NTgzODg1ODQsLT
+YyOTAzNzM5NCwyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3
+NTI5NCwtMjA5OTgxNTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2OD
+M0LDQzMTM4Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2
+OTQyMDE3Ml19
 -->
