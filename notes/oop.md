@@ -133,7 +133,7 @@ You can also conceptualise SRP further as being **method specific** if you have 
 **Cohesion** is similar to both encapsulation and SRP, it simply refers to grouping code in a way that is self contained and executes singular tasks well as opposed to spreading out the functionality of your code base.
 
 ### Forwarding
-**Forwarding** is the method of delegating a task to another class by calling a method on that class from another piece of code. In the below example the `Oven` class forwards functionality to the `Thermostat` class by calling its methods.
+**Forwarding** is the method of sending a task to another class by calling a method on that class from another piece of code. In the below example the `Oven` class forwards functionality to the `Thermostat` class by calling its methods.
 ```ruby
 class Oven
   def initialize
@@ -157,6 +157,8 @@ class Thermostat
   end
 end
 ```
+### Delegation
+
 
 ### Polymorphism
 **Polymorphism** is the method of presenting the same interface on different objects, so that, even though the objects have different functionality the way code interacts with them is kept consistent meaning that we can use only a few lines of code to produce wildly different results simply by calling on different objects with the same interface.
@@ -231,14 +233,14 @@ class Almond < Food
 end
 ```
  We have now created a shared `initialize` method for each of foods that records their type and color as well as a boolean that describes them as edible. Furthermore each food sub class (`Cabbage`, `Rice`, `Almond`) overloads the `flavor` method defined in the `Food` class. This allows us to organise our code and centralise changes to the parent class of these items. For example, if we wanted to change how the `initialize` method on each of these classes *without* them inheriting from `Food` we would need to change three different constructors - not very dry or efficient. By letting our classes inherit the constructor we only have to change one piece of code to update all the subclasses.
- 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzQzMDA1MSwtMTIwOTU3NjQzNywxMD
-I3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAzNzM5NCwyMjQ4NDU1
-MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NCwtMjA5OTgxNTcyMS
-wtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LDQzMTM4Mzc4NiwxNzQ3
-NDUzNDEwLDc5NTcwMTU5NywtMTU2OTQyMDE3MiwtMTE4Mzg0Mj
-E3NywtNzI1NDUwMjc3LC0xOTMzODUxMTU4LC0zNzIyMTgxMzZd
-fQ==
+eyJoaXN0b3J5IjpbMTkxMzE4NDY3MiwtMjE3NDMwMDUxLC0xMj
+A5NTc2NDM3LDEwMjc5MDI0OTcsMTQ1ODM4ODU4NCwtNjI5MDM3
+Mzk0LDIyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgzMjc1Mjk0LC
+0yMDk5ODE1NzIxLC0xMjMyNjUyMTY1LC0zMjU4NDY4MzQsNDMx
+MzgzNzg2LDE3NDc0NTM0MTAsNzk1NzAxNTk3LC0xNTY5NDIwMT
+cyLC0xMTgzODQyMTc3LC03MjU0NTAyNzcsLTE5MzM4NTExNTgs
+LTM3MjIxODEzNl19
 -->
