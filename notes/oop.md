@@ -137,7 +137,7 @@ You can also conceptualise SRP further as being **method specific** if you have 
 
 One analogy used is that of receiving an email asking you to donate to a charity. If you **forward** the email you might send it to a friend who would be able to donate that amount. It's not a personally responsibility. However, if you **delegate** the task of donating to your accountant then its still ultimately your responsibility to pay the money to the charity.
 
-But, **what does this actually look like in ruby?**
+But, **what does this actually look like?**
 
 The essential difference is how classes interact. The example below shows how **delegation** works. In this example the `Phone` class delegates the act of displaying things on the screen to the `Screen` class by storing an instance of it in the `@screen` instance variable. It has an essentially private relationship with the screen which it **delegates** responsibilities to. This is delegation because it is never exposed the context of `@screen` is never exposed publicly, it is all mediated through the `display` method in the phone object.
 ```ruby
@@ -177,34 +177,7 @@ server = Server.new
 client = Client.new(server)
 client.server.data
 ```
-Here we are calling the namespace of the `server` object directly and **forwarding** the request for data onto that object. It's this distinction that is the primary difference between these two methods of object communication. In essence however they are both about extracting functio
-
-a phone has a screen component that it displays to and these methods can be entirely contained within that object without direct access from outside. However if you have two objects which you send messages between THAT is forwarding.
-
-is the method of sending a task to another class by calling a method on that class from another piece of code. In the below example the `Oven` class forwards functionality to the `Thermostat` class by calling its methods.
-```ruby
-class Oven
-  def initialize
-    @thermostat = Thermostat.new
-  end
-  
-  def cook_food_fast
-    @thermostat.set_temp(200)
-    # code for cooking food based on temperature
-  end
-
-  def cook_food_slow
-    @thermostat.set_temp(50)
-    # code for cooking food based on temperature
-  end
-end
-
-class Thermostat
-  def set_temp(temp)
-    @temp = temp
-  end
-end
-```
+Here we are calling the namespace of the `server` object directly and **forwarding** the request for data onto that object. It's this distinction that is the primary difference between these two methods of object communication. In essence however they are both about extracting functionality and organising code.
 
 ### Polymorphism
 **Polymorphism** is the method of presenting the same interface on different objects, so that, even though the objects have different functionality the way code interacts with them is kept consistent meaning that we can use only a few lines of code to produce wildly different results simply by calling on different objects with the same interface.
@@ -282,11 +255,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg5Mjk3ODMsLTEzNzQ2OTM5MjYsND
-E0MTI2NTY5LDIwMDc0NTYxMDAsMTkxMzE4NDY3MiwtMjE3NDMw
-MDUxLC0xMjA5NTc2NDM3LDEwMjc5MDI0OTcsMTQ1ODM4ODU4NC
-wtNjI5MDM3Mzk0LDIyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgz
-Mjc1Mjk0LC0yMDk5ODE1NzIxLC0xMjMyNjUyMTY1LC0zMjU4ND
-Y4MzQsNDMxMzgzNzg2LDE3NDc0NTM0MTAsNzk1NzAxNTk3LC0x
-NTY5NDIwMTcyXX0=
+eyJoaXN0b3J5IjpbLTIyNzMxOTA1LC0xMzc0NjkzOTI2LDQxND
+EyNjU2OSwyMDA3NDU2MTAwLDE5MTMxODQ2NzIsLTIxNzQzMDA1
+MSwtMTIwOTU3NjQzNywxMDI3OTAyNDk3LDE0NTgzODg1ODQsLT
+YyOTAzNzM5NCwyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3
+NTI5NCwtMjA5OTgxNTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2OD
+M0LDQzMTM4Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2
+OTQyMDE3Ml19
 -->
