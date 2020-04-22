@@ -171,7 +171,11 @@ class Server
   end
 end
 ```
-In the code above the `Client` class takes in 
+In the code above the `Client` class takes in a `Server` object when created. This means that `Server` object exists in its own right even before the `Client` is first initialized. Then if our `Client` wants to get `server_data` it will **forward** that request to the server object. An example in the `irb` might be:
+```
+server = Server.new
+client 
+```
 
 a phone has a screen component that it displays to and these methods can be entirely contained within that object without direct access from outside. However if you have two objects which you send messages between THAT is forwarding.
 
@@ -276,7 +280,7 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2Mjg2MjIyOCwtMTM3NDY5MzkyNiw0MT
+eyJoaXN0b3J5IjpbMTIzNDg3ODUzNSwtMTM3NDY5MzkyNiw0MT
 QxMjY1NjksMjAwNzQ1NjEwMCwxOTEzMTg0NjcyLC0yMTc0MzAw
 NTEsLTEyMDk1NzY0MzcsMTAyNzkwMjQ5NywxNDU4Mzg4NTg0LC
 02MjkwMzczOTQsMjI0ODQ1NTA3LDIwODU2OTY3NzcsLTEzODMy
