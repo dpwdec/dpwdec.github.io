@@ -46,6 +46,9 @@ You should `commit` when:
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
 
+### Let
+The `let` assigning function **goes out of scope when you move into a new `describe` block**. If you have nested `describe` blocks for 
+
 ---
 
 ### Subject Scope
@@ -684,11 +687,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1NjQxNDU3LC04ODY3NDQ0OTksMTcxNj
-gyMDQyNCwtOTQ2MTYyOTcxLDE2NzUyMDgwNDQsLTE5MzM3ODgw
-MjksLTk0MDU4NTEwNSwtMTE2ODYyMjEyMCw1NTY2NTQ1MCwxMT
-A1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIyMTI1OSwtMTk3Nzc1
-MzM1MCwzODA3NDkxNjEsLTI2MDUzNzA0MiwxNzM1NDIwMjEzLD
-E3Njc3MDU3MCwtMTk5MzI0ODE0OSwtNjk4ODcwMzIxLDEzNDI4
-MTE4MTZdfQ==
+eyJoaXN0b3J5IjpbLTg5Mjc3ODA0NSwyNjU2NDE0NTcsLTg4Nj
+c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
+NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLD
+U1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIx
+MjU5LC0xOTc3NzUzMzUwLDM4MDc0OTE2MSwtMjYwNTM3MDQyLD
+E3MzU0MjAyMTMsMTc2NzcwNTcwLC0xOTkzMjQ4MTQ5LC02OTg4
+NzAzMjFdfQ==
 -->
