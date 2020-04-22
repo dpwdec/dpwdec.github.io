@@ -158,7 +158,20 @@ class Screen
 end
 ```
 On the other hand **forwarding** is when the interface and context of the object that is handling things is exposed.
-``
+```ruby
+class Client
+  def initialize(server)
+    @server = server
+  end
+end
+
+class Server
+  def server_data
+    # return server data
+  end
+end
+```
+In the code above the `Client` class takes in 
 
 a phone has a screen component that it displays to and these methods can be entirely contained within that object without direct access from outside. However if you have two objects which you send messages between THAT is forwarding.
 
@@ -263,11 +276,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDE5NDQwLC0xMzc0NjkzOTI2LDQxND
-EyNjU2OSwyMDA3NDU2MTAwLDE5MTMxODQ2NzIsLTIxNzQzMDA1
-MSwtMTIwOTU3NjQzNywxMDI3OTAyNDk3LDE0NTgzODg1ODQsLT
-YyOTAzNzM5NCwyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3
-NTI5NCwtMjA5OTgxNTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2OD
-M0LDQzMTM4Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2
-OTQyMDE3Ml19
+eyJoaXN0b3J5IjpbMTQ2Mjg2MjIyOCwtMTM3NDY5MzkyNiw0MT
+QxMjY1NjksMjAwNzQ1NjEwMCwxOTEzMTg0NjcyLC0yMTc0MzAw
+NTEsLTEyMDk1NzY0MzcsMTAyNzkwMjQ5NywxNDU4Mzg4NTg0LC
+02MjkwMzczOTQsMjI0ODQ1NTA3LDIwODU2OTY3NzcsLTEzODMy
+NzUyOTQsLTIwOTk4MTU3MjEsLTEyMzI2NTIxNjUsLTMyNTg0Nj
+gzNCw0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3MDE1OTcsLTE1
+Njk0MjAxNzJdfQ==
 -->
