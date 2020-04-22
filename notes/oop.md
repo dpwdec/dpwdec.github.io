@@ -275,17 +275,17 @@ Robot
 | Murderer
 | | .murder()
 ```
-Considering the above inheritance and class chart, image that we were asked to make a "robot muder dog" that can `drive`, `murder` and `bark` but not `poop` because it is a robot. We would be in a very bad situation
+Considering the above inheritance and class chart, image that we were asked to make a "robot muder dog" that can `drive`, `murder` and `bark` but not `poop` because it is a robot. We would be in a very bad situation because there is no way we can redefine this inheritance structure to include this functionality without bundling a lot of functionality that we don't want, or confusing our types.
 
 guerilla banana problem
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NzY4MzI4MSwzMTIwMzI3NDEsLTEzNz
-Q2OTM5MjYsNDE0MTI2NTY5LDIwMDc0NTYxMDAsMTkxMzE4NDY3
-MiwtMjE3NDMwMDUxLC0xMjA5NTc2NDM3LDEwMjc5MDI0OTcsMT
-Q1ODM4ODU4NCwtNjI5MDM3Mzk0LDIyNDg0NTUwNywyMDg1Njk2
-Nzc3LC0xMzgzMjc1Mjk0LC0yMDk5ODE1NzIxLC0xMjMyNjUyMT
-Y1LC0zMjU4NDY4MzQsNDMxMzgzNzg2LDE3NDc0NTM0MTAsNzk1
-NzAxNTk3XX0=
+eyJoaXN0b3J5IjpbMjU5MDM2NTkyLDMxMjAzMjc0MSwtMTM3ND
+Y5MzkyNiw0MTQxMjY1NjksMjAwNzQ1NjEwMCwxOTEzMTg0Njcy
+LC0yMTc0MzAwNTEsLTEyMDk1NzY0MzcsMTAyNzkwMjQ5NywxND
+U4Mzg4NTg0LC02MjkwMzczOTQsMjI0ODQ1NTA3LDIwODU2OTY3
+NzcsLTEzODMyNzUyOTQsLTIwOTk4MTU3MjEsLTEyMzI2NTIxNj
+UsLTMyNTg0NjgzNCw0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3
+MDE1OTddfQ==
 -->
