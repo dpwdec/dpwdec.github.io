@@ -49,10 +49,18 @@ If you **do not define a top level `describe` value** for your tests then `subje
 ### Let
 The `let` assigning function **goes out of scope when you move into a new `describe` block**. If you have nested `describe` blocks for classes, functions etc. then `let` name definitions will only persist within the describe block they were defined.
 ```ruby
-describe MyClass
+describe MyClass do
   let(:my_variable) { 10 }
 
-  it "
+  it "returns the value of my variable"
+    puts my_variable
+    # => 10
+  end
+
+  describe "#something else" do
+    it "tries to return the value of my variable but errors" do
+    
+  end
 end
 ```
 
@@ -694,7 +702,7 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTY2NzA3NiwyNjU2NDE0NTcsLTg4Nj
+eyJoaXN0b3J5IjpbLTUxOTc4MTcyOCwyNjU2NDE0NTcsLTg4Nj
 c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
 NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLD
 U1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIx
