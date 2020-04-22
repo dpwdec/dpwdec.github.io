@@ -257,18 +257,23 @@ end
 **Composition** is process of designing the different parts of your code based on what they do *rather than* by what they are. In a traditional inheritance in object oriented programming, we manage classes based on classifying them as objects that *are* something.
 
 ```ruby
+Fairy
 
+Bokoblin
+|
+| Pirate
+| | attack
 ```
 
 guerilla banana problem
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEyMDMyNzQxLC0xMzc0NjkzOTI2LDQxND
-EyNjU2OSwyMDA3NDU2MTAwLDE5MTMxODQ2NzIsLTIxNzQzMDA1
-MSwtMTIwOTU3NjQzNywxMDI3OTAyNDk3LDE0NTgzODg1ODQsLT
-YyOTAzNzM5NCwyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3
-NTI5NCwtMjA5OTgxNTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2OD
-M0LDQzMTM4Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2
-OTQyMDE3Ml19
+eyJoaXN0b3J5IjpbLTE4OTE4Mzk5MDEsMzEyMDMyNzQxLC0xMz
+c0NjkzOTI2LDQxNDEyNjU2OSwyMDA3NDU2MTAwLDE5MTMxODQ2
+NzIsLTIxNzQzMDA1MSwtMTIwOTU3NjQzNywxMDI3OTAyNDk3LD
+E0NTgzODg1ODQsLTYyOTAzNzM5NCwyMjQ4NDU1MDcsMjA4NTY5
+Njc3NywtMTM4MzI3NTI5NCwtMjA5OTgxNTcyMSwtMTIzMjY1Mj
+E2NSwtMzI1ODQ2ODM0LDQzMTM4Mzc4NiwxNzQ3NDUzNDEwLDc5
+NTcwMTU5N119
 -->
