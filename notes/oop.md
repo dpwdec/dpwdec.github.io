@@ -139,12 +139,21 @@ One analogy used is that of receiving an email asking you to donate to a charity
 
 But, **what does this actually look like in ruby?**
 
-The essential difference is how classes interact.
-
+The essential difference is how classes interact. The example below shows how **delegation** works. In this example the `Phone` class delegates the act 
 ```ruby
 class Phone
   def initialize
     @screen = Screen.new
+  end
+
+  def display
+    @screen.display
+  end
+end
+
+class Screen
+  def display
+    # display stuff
   end
 end
 ```
@@ -252,11 +261,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1NTUzMjA2LC0xMzc0NjkzOTI2LDQxND
-EyNjU2OSwyMDA3NDU2MTAwLDE5MTMxODQ2NzIsLTIxNzQzMDA1
-MSwtMTIwOTU3NjQzNywxMDI3OTAyNDk3LDE0NTgzODg1ODQsLT
-YyOTAzNzM5NCwyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3
-NTI5NCwtMjA5OTgxNTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2OD
-M0LDQzMTM4Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2
-OTQyMDE3Ml19
+eyJoaXN0b3J5IjpbLTY5MTMwMTY1OSwtMTM3NDY5MzkyNiw0MT
+QxMjY1NjksMjAwNzQ1NjEwMCwxOTEzMTg0NjcyLC0yMTc0MzAw
+NTEsLTEyMDk1NzY0MzcsMTAyNzkwMjQ5NywxNDU4Mzg4NTg0LC
+02MjkwMzczOTQsMjI0ODQ1NTA3LDIwODU2OTY3NzcsLTEzODMy
+NzUyOTQsLTIwOTk4MTU3MjEsLTEyMzI2NTIxNjUsLTMyNTg0Nj
+gzNCw0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3MDE1OTcsLTE1
+Njk0MjAxNzJdfQ==
 -->
