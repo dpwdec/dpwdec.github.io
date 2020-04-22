@@ -52,17 +52,20 @@ The `let` assigning function **goes out of scope when you move into a new `descr
 describe MyClass do
   let(:my_variable) { 10 }
 
-  it "returns the value of my variable"
+  it "returns the value of my variable" do
     puts my_variable
     # => 10
   end
 
   describe "#something else" do
     it "tries to return the value of my variable but errors" do
-    
+      puts my_variable
+      # => No Name Error
+    end
   end
 end
 ```
+The above example shows how `my_variable` goes out of scope when a new `describe` block is initialised. 
 
 ---
 
@@ -702,7 +705,7 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTc4MTcyOCwyNjU2NDE0NTcsLTg4Nj
+eyJoaXN0b3J5IjpbLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Nj
 c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
 NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLD
 U1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIx
