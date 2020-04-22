@@ -166,16 +166,18 @@ class Client
 end
 
 class Server
-  def server_data
+  def data
     # return server data
   end
 end
 ```
-In the code above the `Client` class takes in a `Server` object when created. This means that `Server` object exists in its own right even before the `Client` is first initialized. Then if our `Client` wants to get `server_data` it will **forward** that request to the server object. An example in the `irb` might be:
+In the code above the `Client` class takes in a `Server` object when created. This means that `Server` object exists in its own right even before the `Client` is first initialized. Then if our `Client` wants to get `data` it will **forward** that request to the server object. An example in the `irb` might be:
 ```
 server = Server.new
-client 
+client = Client.new(server)
+client.server.data
 ```
+Here we are calling the namespace of the `server` object directly and **forwarding** the request for data onto that object. It's this distinction that is the primary difference between these two methods of object communication. In essence however they are both about extracting functio
 
 a phone has a screen component that it displays to and these methods can be entirely contained within that object without direct access from outside. However if you have two objects which you send messages between THAT is forwarding.
 
@@ -280,11 +282,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDg3ODUzNSwtMTM3NDY5MzkyNiw0MT
-QxMjY1NjksMjAwNzQ1NjEwMCwxOTEzMTg0NjcyLC0yMTc0MzAw
-NTEsLTEyMDk1NzY0MzcsMTAyNzkwMjQ5NywxNDU4Mzg4NTg0LC
-02MjkwMzczOTQsMjI0ODQ1NTA3LDIwODU2OTY3NzcsLTEzODMy
-NzUyOTQsLTIwOTk4MTU3MjEsLTEyMzI2NTIxNjUsLTMyNTg0Nj
-gzNCw0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3MDE1OTcsLTE1
-Njk0MjAxNzJdfQ==
+eyJoaXN0b3J5IjpbLTE1Njg5Mjk3ODMsLTEzNzQ2OTM5MjYsND
+E0MTI2NTY5LDIwMDc0NTYxMDAsMTkxMzE4NDY3MiwtMjE3NDMw
+MDUxLC0xMjA5NTc2NDM3LDEwMjc5MDI0OTcsMTQ1ODM4ODU4NC
+wtNjI5MDM3Mzk0LDIyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgz
+Mjc1Mjk0LC0yMDk5ODE1NzIxLC0xMjMyNjUyMTY1LC0zMjU4ND
+Y4MzQsNDMxMzgzNzg2LDE3NDc0NTM0MTAsNzk1NzAxNTk3LC0x
+NTY5NDIwMTcyXX0=
 -->
