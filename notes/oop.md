@@ -254,13 +254,13 @@ end
  We have now created a shared `initialize` method for each of foods that records their type and color as well as a boolean that describes them as edible. Furthermore each food sub class (`Cabbage`, `Rice`, `Almond`) overloads the `flavor` method defined in the `Food` class. This allows us to organise our code and centralise changes to the parent class of these items. For example, if we wanted to change how the `initialize` method on each of these classes *without* them inheriting from `Food` we would need to change three different constructors - not very dry or efficient. By letting our classes inherit the constructor we only have to change one piece of code to update all the subclasses.
 
 ### Composition over Inheritance
-Composition means designing your classes based on what they do *rather than* by what they are.
+**Composition** is process of designing the different parts of your code based on what they do *rather than* by what they are. In tradit
 
 guerilla banana problem
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczMTAwNjY5LC0xMzc0NjkzOTI2LDQxND
+eyJoaXN0b3J5IjpbNTcyNzYzODEwLC0xMzc0NjkzOTI2LDQxND
 EyNjU2OSwyMDA3NDU2MTAwLDE5MTMxODQ2NzIsLTIxNzQzMDA1
 MSwtMTIwOTU3NjQzNywxMDI3OTAyNDk3LDE0NTgzODg1ODQsLT
 YyOTAzNzM5NCwyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3
