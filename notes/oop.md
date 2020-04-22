@@ -139,7 +139,7 @@ One analogy used is that of receiving an email asking you to donate to a charity
 
 But, **what does this actually look like in ruby?**
 
-The essential difference is how classes interact. The example below shows how **delegation** works. In this example the `Phone` class delegates the act of displaying things on the screen to the `Screen` class by storing an instance of it in the `@screen` instance variable. It has an essentially private relationship with the screen which it **delegates** responsibilities to. This is delegation because it is never exposed the context of `@screen` is never exposed publicly, it is all mediated through the `displayz
+The essential difference is how classes interact. The example below shows how **delegation** works. In this example the `Phone` class delegates the act of displaying things on the screen to the `Screen` class by storing an instance of it in the `@screen` instance variable. It has an essentially private relationship with the screen which it **delegates** responsibilities to. This is delegation because it is never exposed the context of `@screen` is never exposed publicly, it is all mediated through the `display` method in the phone object.
 ```ruby
 class Phone
   def initialize
@@ -157,6 +157,8 @@ class Screen
   end
 end
 ```
+On the other hand **forwarding** is when the interface and context of the object that is handling things is exposed.
+``
 
 a phone has a screen component that it displays to and these methods can be entirely contained within that object without direct access from outside. However if you have two objects which you send messages between THAT is forwarding.
 
@@ -261,11 +263,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTYzMzg0NTYsLTEzNzQ2OTM5MjYsND
-E0MTI2NTY5LDIwMDc0NTYxMDAsMTkxMzE4NDY3MiwtMjE3NDMw
-MDUxLC0xMjA5NTc2NDM3LDEwMjc5MDI0OTcsMTQ1ODM4ODU4NC
-wtNjI5MDM3Mzk0LDIyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgz
-Mjc1Mjk0LC0yMDk5ODE1NzIxLC0xMjMyNjUyMTY1LC0zMjU4ND
-Y4MzQsNDMxMzgzNzg2LDE3NDc0NTM0MTAsNzk1NzAxNTk3LC0x
-NTY5NDIwMTcyXX0=
+eyJoaXN0b3J5IjpbMTA0MDE5NDQwLC0xMzc0NjkzOTI2LDQxND
+EyNjU2OSwyMDA3NDU2MTAwLDE5MTMxODQ2NzIsLTIxNzQzMDA1
+MSwtMTIwOTU3NjQzNywxMDI3OTAyNDk3LDE0NTgzODg1ODQsLT
+YyOTAzNzM5NCwyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3
+NTI5NCwtMjA5OTgxNTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2OD
+M0LDQzMTM4Mzc4NiwxNzQ3NDUzNDEwLDc5NTcwMTU5NywtMTU2
+OTQyMDE3Ml19
 -->
