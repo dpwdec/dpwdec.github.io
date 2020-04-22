@@ -139,7 +139,7 @@ One analogy used is that of receiving an email asking you to donate to a charity
 
 But, **what does this actually look like in ruby?**
 
-The essential difference is how classes interact. The example below shows how **delegation** works. In this example the `Phone` class delegates the act 
+The essential difference is how classes interact. The example below shows how **delegation** works. In this example the `Phone` class delegates the act of displaying things on the screen to the `Screen` class by storing an instance of it in the `@screen` instance variable. It has an essentially private relationship with the screen which it **delegates** responsibilities to. This is delegation because it is never exposed the context of `@screen` is never exposed publicly, it is all mediated through the `displayz
 ```ruby
 class Phone
   def initialize
@@ -261,11 +261,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTMwMTY1OSwtMTM3NDY5MzkyNiw0MT
-QxMjY1NjksMjAwNzQ1NjEwMCwxOTEzMTg0NjcyLC0yMTc0MzAw
-NTEsLTEyMDk1NzY0MzcsMTAyNzkwMjQ5NywxNDU4Mzg4NTg0LC
-02MjkwMzczOTQsMjI0ODQ1NTA3LDIwODU2OTY3NzcsLTEzODMy
-NzUyOTQsLTIwOTk4MTU3MjEsLTEyMzI2NTIxNjUsLTMyNTg0Nj
-gzNCw0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3MDE1OTcsLTE1
-Njk0MjAxNzJdfQ==
+eyJoaXN0b3J5IjpbLTE4MTYzMzg0NTYsLTEzNzQ2OTM5MjYsND
+E0MTI2NTY5LDIwMDc0NTYxMDAsMTkxMzE4NDY3MiwtMjE3NDMw
+MDUxLC0xMjA5NTc2NDM3LDEwMjc5MDI0OTcsMTQ1ODM4ODU4NC
+wtNjI5MDM3Mzk0LDIyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgz
+Mjc1Mjk0LC0yMDk5ODE1NzIxLC0xMjMyNjUyMTY1LC0zMjU4ND
+Y4MzQsNDMxMzgzNzg2LDE3NDc0NTM0MTAsNzk1NzAxNTk3LC0x
+NTY5NDIwMTcyXX0=
 -->
