@@ -47,7 +47,14 @@ You should `commit` when:
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
 
 ### Let
-The `let` assigning function **goes out of scope when you move into a new `describe` block**. If you have nested `describe` blocks for 
+The `let` assigning function **goes out of scope when you move into a new `describe` block**. If you have nested `describe` blocks for classes, functions etc. then `let` name definitions will only persist within the describe block they were defined.
+```ruby
+describe MyClass
+  let(:my_variable) { 10 }
+
+  it "
+end
+```
 
 ---
 
@@ -687,7 +694,7 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Mjc3ODA0NSwyNjU2NDE0NTcsLTg4Nj
+eyJoaXN0b3J5IjpbMTA5NTY2NzA3NiwyNjU2NDE0NTcsLTg4Nj
 c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
 NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLD
 U1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIx
