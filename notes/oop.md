@@ -254,15 +254,17 @@ end
  We have now created a shared `initialize` method for each of foods that records their type and color as well as a boolean that describes them as edible. Furthermore each food sub class (`Cabbage`, `Rice`, `Almond`) overloads the `flavor` method defined in the `Food` class. This allows us to organise our code and centralise changes to the parent class of these items. For example, if we wanted to change how the `initialize` method on each of these classes *without* them inheriting from `Food` we would need to change three different constructors - not very dry or efficient. By letting our classes inherit the constructor we only have to change one piece of code to update all the subclasses.
 
 ### Composition over Inheritance
+Composition means designing your classes based on what they
+
 guerilla banana problem
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTI5NzY5NSwtMTM3NDY5MzkyNiw0MT
-QxMjY1NjksMjAwNzQ1NjEwMCwxOTEzMTg0NjcyLC0yMTc0MzAw
-NTEsLTEyMDk1NzY0MzcsMTAyNzkwMjQ5NywxNDU4Mzg4NTg0LC
-02MjkwMzczOTQsMjI0ODQ1NTA3LDIwODU2OTY3NzcsLTEzODMy
-NzUyOTQsLTIwOTk4MTU3MjEsLTEyMzI2NTIxNjUsLTMyNTg0Nj
-gzNCw0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3MDE1OTcsLTE1
-Njk0MjAxNzJdfQ==
+eyJoaXN0b3J5IjpbLTE4NzEwMzk0OTAsLTEzNzQ2OTM5MjYsND
+E0MTI2NTY5LDIwMDc0NTYxMDAsMTkxMzE4NDY3MiwtMjE3NDMw
+MDUxLC0xMjA5NTc2NDM3LDEwMjc5MDI0OTcsMTQ1ODM4ODU4NC
+wtNjI5MDM3Mzk0LDIyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgz
+Mjc1Mjk0LC0yMDk5ODE1NzIxLC0xMjMyNjUyMTY1LC0zMjU4ND
+Y4MzQsNDMxMzgzNzg2LDE3NDc0NTM0MTAsNzk1NzAxNTk3LC0x
+NTY5NDIwMTcyXX0=
 -->
