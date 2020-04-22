@@ -266,14 +266,14 @@ Bird
 | Parrot
 | | talk()
 
-
+Recorder
 ```
 
 guerilla banana problem
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDAzMTc0MSwzMTIwMzI3NDEsLTEzNz
+eyJoaXN0b3J5IjpbMTIzODczMDU5NywzMTIwMzI3NDEsLTEzNz
 Q2OTM5MjYsNDE0MTI2NTY5LDIwMDc0NTYxMDAsMTkxMzE4NDY3
 MiwtMjE3NDMwMDUxLC0xMjA5NTc2NDM3LDEwMjc5MDI0OTcsMT
 Q1ODM4ODU4NCwtNjI5MDM3Mzk0LDIyNDg0NTUwNywyMDg1Njk2
