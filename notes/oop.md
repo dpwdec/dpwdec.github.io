@@ -323,16 +323,25 @@ Now our original classes and desired features can be created by simply slotting 
 ```ruby
 class Cat
   def initialize
-    @
+    @meower = Meow.new
+    @pooper = Poop.new
   end
+
+  def meow
+    @meower.meow
+  end
+
+  def poop
+    
+end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjY4MjQ0OTEsMTQ1ODAyNTk2OSwyNT
-kwMzY1OTIsMzEyMDMyNzQxLC0xMzc0NjkzOTI2LDQxNDEyNjU2
-OSwyMDA3NDU2MTAwLDE5MTMxODQ2NzIsLTIxNzQzMDA1MSwtMT
-IwOTU3NjQzNywxMDI3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAz
-NzM5NCwyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NC
-wtMjA5OTgxNTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LDQz
-MTM4Mzc4Nl19
+eyJoaXN0b3J5IjpbMjk1OTI3MzA4LDE0NTgwMjU5NjksMjU5MD
+M2NTkyLDMxMjAzMjc0MSwtMTM3NDY5MzkyNiw0MTQxMjY1Njks
+MjAwNzQ1NjEwMCwxOTEzMTg0NjcyLC0yMTc0MzAwNTEsLTEyMD
+k1NzY0MzcsMTAyNzkwMjQ5NywxNDU4Mzg4NTg0LC02MjkwMzcz
+OTQsMjI0ODQ1NTA3LDIwODU2OTY3NzcsLTEzODMyNzUyOTQsLT
+IwOTk4MTU3MjEsLTEyMzI2NTIxNjUsLTMyNTg0NjgzNCw0MzEz
+ODM3ODZdfQ==
 -->
