@@ -344,12 +344,17 @@ class RobotMurderDog
   end
 
   def murder
-  
+    @murderer.murder
+  end
+
+  def bark
+    @barker.bark
+  end
 end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDY2OTgzOSwxNDU4MDI1OTY5LDI1OT
+eyJoaXN0b3J5IjpbLTg0NDY2MTEyNiwxNDU4MDI1OTY5LDI1OT
 AzNjU5MiwzMTIwMzI3NDEsLTEzNzQ2OTM5MjYsNDE0MTI2NTY5
 LDIwMDc0NTYxMDAsMTkxMzE4NDY3MiwtMjE3NDMwMDUxLC0xMj
 A5NTc2NDM3LDEwMjc5MDI0OTcsMTQ1ODM4ODU4NCwtNjI5MDM3
