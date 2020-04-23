@@ -312,18 +312,27 @@ class Bark
     "barks loudly"
   end
 end
+
+class Meow
+  def meow
+    "meows gently"
+  end
+end
 ```
 Now our original classes and desired features can be created by simply slotting together the different pieces of functionality we have created in a "has a" relationship where the larger class structures contain these smaller functional classes and then use them to do things.
 ```ruby
-
+class Cat
+  def initialize
+    @
+  end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MDkzNTI3NCwxNDU4MDI1OTY5LDI1OT
-AzNjU5MiwzMTIwMzI3NDEsLTEzNzQ2OTM5MjYsNDE0MTI2NTY5
-LDIwMDc0NTYxMDAsMTkxMzE4NDY3MiwtMjE3NDMwMDUxLC0xMj
-A5NTc2NDM3LDEwMjc5MDI0OTcsMTQ1ODM4ODU4NCwtNjI5MDM3
-Mzk0LDIyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgzMjc1Mjk0LC
-0yMDk5ODE1NzIxLC0xMjMyNjUyMTY1LC0zMjU4NDY4MzQsNDMx
-MzgzNzg2XX0=
+eyJoaXN0b3J5IjpbLTE0NjY4MjQ0OTEsMTQ1ODAyNTk2OSwyNT
+kwMzY1OTIsMzEyMDMyNzQxLC0xMzc0NjkzOTI2LDQxNDEyNjU2
+OSwyMDA3NDU2MTAwLDE5MTMxODQ2NzIsLTIxNzQzMDA1MSwtMT
+IwOTU3NjQzNywxMDI3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAz
+NzM5NCwyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NC
+wtMjA5OTgxNTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LDQz
+MTM4Mzc4Nl19
 -->
