@@ -67,8 +67,6 @@ end
 ```
 The above example shows how `my_variable` goes out of scope when a new `describe` block is initialised. 
 
----
-
 ### Subject Scope
 You should not use the `subject` keyword *inside* a `before` block. This is because `subject` is re initialised for each example.  In the below example we initialize `subject.message` in `before` but when we test the code with `expect` it returns nil, because `subject` was reinitialised as an empty object when the example was triggered.
 ```ruby
@@ -266,6 +264,9 @@ shared_context 'context name' do
   let(:my_object) { MyClass.new(input_var) }
 end
 ```
+---
+### Pending Tests
+You can define pending tests in your spec files by using the `pending` keyword in plac
 ## Expectations
 A basic way to **test argument input values** is by expecting the output of the correct input to *not* raise an error.
 ```ruby
@@ -705,11 +706,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Nj
-c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
-NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLD
-U1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIx
-MjU5LC0xOTc3NzUzMzUwLDM4MDc0OTE2MSwtMjYwNTM3MDQyLD
-E3MzU0MjAyMTMsMTc2NzcwNTcwLC0xOTkzMjQ4MTQ5LC02OTg4
-NzAzMjFdfQ==
+eyJoaXN0b3J5IjpbNzQ2MjEzNTE5LC02NjkzOTYxODUsMjY1Nj
+QxNDU3LC04ODY3NDQ0OTksMTcxNjgyMDQyNCwtOTQ2MTYyOTcx
+LDE2NzUyMDgwNDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMT
+E2ODYyMjEyMCw1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5
+MDQsLTYxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLT
+I2MDUzNzA0MiwxNzM1NDIwMjEzLDE3Njc3MDU3MCwtMTk5MzI0
+ODE0OV19
 -->
