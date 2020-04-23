@@ -11,10 +11,10 @@ where the arrow points indicates the method being called on that object
 object --hello()--> thing
 This calls the hello() method on the thing object.
 
-return types are returned with dotted lines back 
+return types are returned with dotted lines back --> this can contain the return type or even the value
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5MDA3NDYxXX0=
+eyJoaXN0b3J5IjpbLTEzMzM0ODQwMTldfQ==
 -->
