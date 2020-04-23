@@ -13,8 +13,11 @@ This calls the hello() method on the thing object.
 
 return types are returned with dotted lines back --> this can contain the return type or even the value
 
+There are 13 types of UML diagrams
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM0ODQwMTldfQ==
+eyJoaXN0b3J5IjpbLTEwOTQ3MjM5NTEsLTEzMzM0ODQwMTldfQ
+==
 -->
