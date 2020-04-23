@@ -254,7 +254,11 @@ end
  We have now created a shared `initialize` method for each of foods that records their type and color as well as a boolean that describes them as edible. Furthermore each food sub class (`Cabbage`, `Rice`, `Almond`) overloads the `flavor` method defined in the `Food` class. This allows us to organise our code and centralise changes to the parent class of these items. For example, if we wanted to change how the `initialize` method on each of these classes *without* them inheriting from `Food` we would need to change three different constructors - not very dry or efficient. By letting our classes inherit the constructor we only have to change one piece of code to update all the subclasses.
 
 ### Composition over Inheritance
-**Composition** is process of designing the different parts of your code based on what they do *rather than* by what they are. In a traditional inheritance in object oriented programming, we manage classes based on classifying them as objects that *are* something.
+**Composition** is process of **designing the different parts of your code based on what they do or what they have** *rather than* by what they are. In a traditional inheritance in object oriented programming, we manage classes based on classifying them as objects that *are* something.
+
+| Inheritance | Composition |
+| --- | ---
+| 
 
 ```ruby
 Animal
@@ -281,11 +285,11 @@ guerilla banana problem
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5MDM2NTkyLDMxMjAzMjc0MSwtMTM3ND
-Y5MzkyNiw0MTQxMjY1NjksMjAwNzQ1NjEwMCwxOTEzMTg0Njcy
-LC0yMTc0MzAwNTEsLTEyMDk1NzY0MzcsMTAyNzkwMjQ5NywxND
-U4Mzg4NTg0LC02MjkwMzczOTQsMjI0ODQ1NTA3LDIwODU2OTY3
-NzcsLTEzODMyNzUyOTQsLTIwOTk4MTU3MjEsLTEyMzI2NTIxNj
-UsLTMyNTg0NjgzNCw0MzEzODM3ODYsMTc0NzQ1MzQxMCw3OTU3
-MDE1OTddfQ==
+eyJoaXN0b3J5IjpbOTY3MjEzODkxLDI1OTAzNjU5MiwzMTIwMz
+I3NDEsLTEzNzQ2OTM5MjYsNDE0MTI2NTY5LDIwMDc0NTYxMDAs
+MTkxMzE4NDY3MiwtMjE3NDMwMDUxLC0xMjA5NTc2NDM3LDEwMj
+c5MDI0OTcsMTQ1ODM4ODU4NCwtNjI5MDM3Mzk0LDIyNDg0NTUw
+NywyMDg1Njk2Nzc3LC0xMzgzMjc1Mjk0LC0yMDk5ODE1NzIxLC
+0xMjMyNjUyMTY1LC0zMjU4NDY4MzQsNDMxMzgzNzg2LDE3NDc0
+NTM0MTBdfQ==
 -->
