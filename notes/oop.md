@@ -259,8 +259,9 @@ end
 | Inheritance | Composition |
 | --- | ---
 | What something is - a computer is a type of machine | What something does - A computer displays stuff
-| | What it has - a computer has a screen compo
+| | What it has - a computer has a screen component that displasys stuff
 
+Considering the  inheritance and class chart below, imagine that we were asked to make a "robot muder dog" that can `drive`, `murder` and `bark` but not `poop` because it is a robot. We would be in a very bad situation because there is no way we can redefine this inheritance structure to include this functionality without bundling a lot of functionality that we don't want - by creating a common inheritor for everything -  or confusing our types. This is sometimes called the **gurilla and banana problem**
 ```ruby
 Animal
 | .poop()
@@ -280,13 +281,11 @@ Robot
 | Murderer
 | | .murder()
 ```
-Considering the above inheritance and class chart, image that we were asked to make a "robot muder dog" that can `drive`, `murder` and `bark` but not `poop` because it is a robot. We would be in a very bad situation because there is no way we can redefine this inheritance structure to include this functionality without bundling a lot of functionality that we don't want, or confusing our types.
-
 guerilla banana problem
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzQ5MDUxMywyNTkwMzY1OTIsMzEyMD
+eyJoaXN0b3J5IjpbMTEwODk4MzU3MywyNTkwMzY1OTIsMzEyMD
 MyNzQxLC0xMzc0NjkzOTI2LDQxNDEyNjU2OSwyMDA3NDU2MTAw
 LDE5MTMxODQ2NzIsLTIxNzQzMDA1MSwtMTIwOTU3NjQzNywxMD
 I3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAzNzM5NCwyMjQ4NDU1
