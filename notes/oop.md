@@ -281,14 +281,14 @@ Robot
 | Murderer
 | | .murder()
 ```
-
+We can solve the above problem using **composition** by extracting the different pieces of functionality into there own classes and instantiating them in a "has a" relationship on
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODAyNTk2OSwyNTkwMzY1OTIsMzEyMD
-MyNzQxLC0xMzc0NjkzOTI2LDQxNDEyNjU2OSwyMDA3NDU2MTAw
-LDE5MTMxODQ2NzIsLTIxNzQzMDA1MSwtMTIwOTU3NjQzNywxMD
-I3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAzNzM5NCwyMjQ4NDU1
-MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NCwtMjA5OTgxNTcyMS
-wtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LDQzMTM4Mzc4NiwxNzQ3
-NDUzNDEwXX0=
+eyJoaXN0b3J5IjpbLTQyMjczMzkxMCwxNDU4MDI1OTY5LDI1OT
+AzNjU5MiwzMTIwMzI3NDEsLTEzNzQ2OTM5MjYsNDE0MTI2NTY5
+LDIwMDc0NTYxMDAsMTkxMzE4NDY3MiwtMjE3NDMwMDUxLC0xMj
+A5NTc2NDM3LDEwMjc5MDI0OTcsMTQ1ODM4ODU4NCwtNjI5MDM3
+Mzk0LDIyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgzMjc1Mjk0LC
+0yMDk5ODE1NzIxLC0xMjMyNjUyMTY1LC0zMjU4NDY4MzQsNDMx
+MzgzNzg2XX0=
 -->
