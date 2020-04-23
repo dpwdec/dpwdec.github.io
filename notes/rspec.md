@@ -268,7 +268,9 @@ end
 ### Pending Tests
 You can define pending tests in your spec files by using the `pending` keyword in place of an `it` for the thing you test should do. This does not run any code for the pending test when running rspec but sends messages prints messages telling you which tests are not yet implemented. Very useful for the planning stage and making sure you have a indication of what tests you might write in the future.
 ```ruby
-describe "
+describe "pending tests" do
+  pending "must write a test here"
+end
 ```
 ## Expectations
 A basic way to **test argument input values** is by expecting the output of the correct input to *not* raise an error.
@@ -709,11 +711,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDMzNzI4MSwtNjY5Mzk2MTg1LDI2NT
-Y0MTQ1NywtODg2NzQ0NDk5LDE3MTY4MjA0MjQsLTk0NjE2Mjk3
-MSwxNjc1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUxMDUsLT
-ExNjg2MjIxMjAsNTU2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MTY3
-OTA0LC02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5MTYxLC
-0yNjA1MzcwNDIsMTczNTQyMDIxMywxNzY3NzA1NzAsLTE5OTMy
-NDgxNDldfQ==
+eyJoaXN0b3J5IjpbLTEwNDAzODQwNTksLTY2OTM5NjE4NSwyNj
+U2NDE0NTcsLTg4Njc0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5
+NzEsMTY3NTIwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC
+0xMTY4NjIyMTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2
+NzkwNCwtNjE3MjIxMjU5LC0xOTc3NzUzMzUwLDM4MDc0OTE2MS
+wtMjYwNTM3MDQyLDE3MzU0MjAyMTMsMTc2NzcwNTcwLC0xOTkz
+MjQ4MTQ5XX0=
 -->
