@@ -258,7 +258,8 @@ end
 
 | Inheritance | Composition |
 | --- | ---
-| 
+| What something is - a computer is a type of machine | What something does - A computer displays stuff
+| | What it has - a computer has a screen compo
 
 ```ruby
 Animal
@@ -285,11 +286,11 @@ guerilla banana problem
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3MjEzODkxLDI1OTAzNjU5MiwzMTIwMz
-I3NDEsLTEzNzQ2OTM5MjYsNDE0MTI2NTY5LDIwMDc0NTYxMDAs
-MTkxMzE4NDY3MiwtMjE3NDMwMDUxLC0xMjA5NTc2NDM3LDEwMj
-c5MDI0OTcsMTQ1ODM4ODU4NCwtNjI5MDM3Mzk0LDIyNDg0NTUw
-NywyMDg1Njk2Nzc3LC0xMzgzMjc1Mjk0LC0yMDk5ODE1NzIxLC
-0xMjMyNjUyMTY1LC0zMjU4NDY4MzQsNDMxMzgzNzg2LDE3NDc0
-NTM0MTBdfQ==
+eyJoaXN0b3J5IjpbMTUzMzQ5MDUxMywyNTkwMzY1OTIsMzEyMD
+MyNzQxLC0xMzc0NjkzOTI2LDQxNDEyNjU2OSwyMDA3NDU2MTAw
+LDE5MTMxODQ2NzIsLTIxNzQzMDA1MSwtMTIwOTU3NjQzNywxMD
+I3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAzNzM5NCwyMjQ4NDU1
+MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NCwtMjA5OTgxNTcyMS
+wtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LDQzMTM4Mzc4NiwxNzQ3
+NDUzNDEwXX0=
 -->
