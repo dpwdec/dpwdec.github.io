@@ -356,14 +356,14 @@ class RobotMurderDog
   end
 end
 ```
-Now we can easily create our
+Now we can easily create our `RobotMurderDog` without introducing any unnecessary code into the class. We have kept our code try by extracting actions like barking and pooping into their own classes and can **compose** them in anywa
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA1ODQ2MDUsMTQ1ODAyNTk2OSwyNT
-kwMzY1OTIsMzEyMDMyNzQxLC0xMzc0NjkzOTI2LDQxNDEyNjU2
-OSwyMDA3NDU2MTAwLDE5MTMxODQ2NzIsLTIxNzQzMDA1MSwtMT
-IwOTU3NjQzNywxMDI3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAz
-NzM5NCwyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NC
-wtMjA5OTgxNTcyMSwtMTIzMjY1MjE2NSwtMzI1ODQ2ODM0LDQz
-MTM4Mzc4Nl19
+eyJoaXN0b3J5IjpbLTQ0Njk2NTU1OSwtMTc3MDU4NDYwNSwxND
+U4MDI1OTY5LDI1OTAzNjU5MiwzMTIwMzI3NDEsLTEzNzQ2OTM5
+MjYsNDE0MTI2NTY5LDIwMDc0NTYxMDAsMTkxMzE4NDY3MiwtMj
+E3NDMwMDUxLC0xMjA5NTc2NDM3LDEwMjc5MDI0OTcsMTQ1ODM4
+ODU4NCwtNjI5MDM3Mzk0LDIyNDg0NTUwNywyMDg1Njk2Nzc3LC
+0xMzgzMjc1Mjk0LC0yMDk5ODE1NzIxLC0xMjMyNjUyMTY1LC0z
+MjU4NDY4MzRdfQ==
 -->
