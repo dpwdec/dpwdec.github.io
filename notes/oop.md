@@ -261,7 +261,7 @@ end
 | What something is - a computer is a type of machine | What something does - A computer displays stuff
 | | What it has - a computer has a screen component that displasys stuff
 
-Considering the  inheritance and class chart below, imagine that we were asked to make a "robot muder dog" that can `drive`, `murder` and `bark` but not `poop` because it is a robot. We would be in a very bad situation because there is no way we can redefine this inheritance structure to include this functionality without bundling a lot of functionality that we don't want - by creating a common inheritor for everything -  or confusing our types. This is sometimes called the **gurilla and banana problem**
+Considering the  inheritance and class chart below, imagine that we were asked to make a "robot muder dog" that can `drive`, `murder` and `bark` but not `poop` because it is a robot. We would be in a very bad situation because there is no way we can redefine this inheritance structure to include this functionality without bundling a lot of functionality that we don't want - by creating a common inheritor for everything -  or confusing our types. This is sometimes called the **gorilla and banana problem** because when ask for a banana - i.e. a small piece of added functionality - we instead get a gorilla holding a banana - i.e. implementing that small piece of functionality means we need to include a lot of unnecessary functionality in that class.
 ```ruby
 Animal
 | .poop()
@@ -281,11 +281,10 @@ Robot
 | Murderer
 | | .murder()
 ```
-guerilla banana problem
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwODk4MzU3MywyNTkwMzY1OTIsMzEyMD
+eyJoaXN0b3J5IjpbMTQ1ODAyNTk2OSwyNTkwMzY1OTIsMzEyMD
 MyNzQxLC0xMzc0NjkzOTI2LDQxNDEyNjU2OSwyMDA3NDU2MTAw
 LDE5MTMxODQ2NzIsLTIxNzQzMDA1MSwtMTIwOTU3NjQzNywxMD
 I3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAzNzM5NCwyMjQ4NDU1
