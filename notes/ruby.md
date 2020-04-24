@@ -125,7 +125,7 @@ There are also a **pessimistic gem version specifier** using the `~>` which work
 gem "my_gem", "~> 2.0" # give me a version of my gem that is in the category 2.0, i.e. won't return any 3.0 version gems
 gem "my_gem", "~> 2.5.0" # give me a version of my gem that is in the category 2.5.0 won't return any 2.6.0 version gems
 ``` 
-This seems very unintuitive on the surface but it is essentially a shortening of writing a compound operator.
+For example in the second example above gem version `2.5.11` would be valid, as would `2.5.3` but `2.6.0` or `2.4.9` would not be. This seems very unintuitive on the surface but **it is essentially a shortening of writing a compound operator**.
 ```ruby
 gem "my_gem", "~> 2.0"  = gem "my_gem", ">=2.0, <3.0"
 gem "my_gem", "~> 2.5.0"  = gem "my_gem", ">=2.5.0, <2.6.0"
@@ -152,9 +152,9 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODk4MDE2MSwtMjkyMjE3NDI5LDk1Nz
-U4ODA4MywxNDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1Njcs
-MTI5Nzk3Njc0OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMj
-M2MDQ5LDIwNjgzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1Mjcw
-NDFdfQ==
+eyJoaXN0b3J5IjpbLTEyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NT
+c1ODgwODMsMTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3
+LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5Mz
+IzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3
+MDQxXX0=
 -->
