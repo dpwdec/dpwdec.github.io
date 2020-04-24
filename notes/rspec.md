@@ -389,8 +389,12 @@ class Cake
   # code to make a delicious make
 end
 ```
-The `CakeMaker` class takes in a class when created and when the `make_cake` method is called it returns an instance of the class that was passed when the `CakeMaker` was initialized. You can mock this dependency
+The `CakeMaker` class takes in a class when created and when the `make_cake` method is called it returns an instance of the class that was passed when the `CakeMaker` was initialized. You can mock this dependency with by injecting one double into another.
 ```ruby
+describe CakeMaker do
+  it 'makes a cake' do
+  end
+end
 ```
 
 ### Partial Doubles (Receive)
@@ -734,11 +738,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk5NDkwMTYsMjAwNzUyODU0MSwxOT
-kxMDMyNjEwLC02NjkzOTYxODUsMjY1NjQxNDU3LC04ODY3NDQ0
-OTksMTcxNjgyMDQyNCwtOTQ2MTYyOTcxLDE2NzUyMDgwNDQsLT
-E5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYyMjEyMCw1NTY2
-NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIyMTI1OS
-wtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLTI2MDUzNzA0MiwxNzM1
-NDIwMjEzXX0=
+eyJoaXN0b3J5IjpbLTYxMTQ3MDMyLDIwMDc1Mjg1NDEsMTk5MT
+AzMjYxMCwtNjY5Mzk2MTg1LDI2NTY0MTQ1NywtODg2NzQ0NDk5
+LDE3MTY4MjA0MjQsLTk0NjE2Mjk3MSwxNjc1MjA4MDQ0LC0xOT
+MzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2MjIxMjAsNTU2NjU0
+NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC02MTcyMjEyNTksLT
+E5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1MzcwNDIsMTczNTQy
+MDIxM119
 -->
