@@ -400,6 +400,7 @@ describe CakeMaker do
   end
 end
 ```
+A double is defined to represent the instance of `Cake` that is created and another doubles is created to represent the `Cake` class as a whole. This `cake_class` double has a method added to it that returns the double representing an instance. How the tests fo
 
 ### Partial Doubles (Receive)
 **Partial test doubles** allow you to temporarily overwrite or extend the functionality of a real object for the purposes of a test. It follows the same syntax pattern as doubles `allow(MyClass).to receive(:my_method) { my_return_value }` and references the class within your system. This can also be combined with any `subject` keyword and instance calls within your tests.
@@ -742,7 +743,7 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDI2Nzc1NSwyMDA3NTI4NTQxLDE5OT
+eyJoaXN0b3J5IjpbLTYxMTYyMjYxMCwyMDA3NTI4NTQxLDE5OT
 EwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Njc0NDQ5
 OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0NCwtMT
 kzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLDU1NjY1
