@@ -163,6 +163,7 @@ gem "my_gem", require: false
 **`Bundler.require` can have the names of different groups added to it and load them**. For example `Bundler.require(:default, Rails.env)` will load all gems in the `default` group and all gems in a group that matches the current `Rails.env`ironment.  You can submit an arbitrary list of groups to `require` such as `Bundler.require(:default, :test, :development)`.
 
 
+
 ## Kernel Methods
 Kernel methods are a module that is mixed into Ruby's `Object` class and contains methods like `puts`.
 
@@ -184,10 +185,10 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzIxNzEzNjUsMTA0NjE2NDQ2LDk5MT
-Y4MTA1NCwtMTIxMzk4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4
-MywxNDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1NjcsMTI5Nz
-k3Njc0OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5
-LDIwNjgzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1MjcwNDFdfQ
-==
+eyJoaXN0b3J5IjpbLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMD
+Q2MTY0NDYsOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0
+MjksOTU3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MT
+A1NzU2NywxMjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUs
+LTE1OTMyMzYwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMT
+E1OTUyNzA0MV19
 -->
