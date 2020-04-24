@@ -116,7 +116,8 @@ This can be combined with **defining the version of a gem you want** using basic
 gem "my_gem", "=1.0" # give me version 1.0 of my gem
 gem "my_gem", "!=1.0" # give anything but version 1.0 of my gem
 gem "my_gem", ">=1.0" # give me version 1.0 or greater of my gem
-gem "my_gem", "<=1.0" # give me version 1.0 or greater of my gem
+gem "my_gem", "<=1.0" # give me version 1.0 or less of my gem
+gem "my_gem", ">=1.0" # give me version 1.0 or greater of my gem
 ```
 
 ## Kernel Methods
@@ -140,9 +141,9 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4OTA5NjgxLC0yOTIyMTc0MjksOTU3NT
-g4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2Nywx
-Mjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OTMyMz
-YwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUyNzA0
-MV19
+eyJoaXN0b3J5IjpbLTE4MTM1NTYwNjUsLTI5MjIxNzQyOSw5NT
+c1ODgwODMsMTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3
+LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5Mz
+IzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3
+MDQxXX0=
 -->
