@@ -136,7 +136,7 @@ The `require` gem modifier is a function designed to work with Rails. When setti
 gem "my_gem", require: false
 ```
 #### Groups
-
+You can group your ruby gems inside your `Gemfile`. If you don't explicitly give a gem a group then it will go into the `default` group.
 
 ## Kernel Methods
 Kernel methods are a module that is mixed into Ruby's `Object` class and contains methods like `puts`.
@@ -159,9 +159,9 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NjE2NDQ2LDk5MTY4MTA1NCwtMTIxMz
-k4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxNDk1ODc0NTEs
-MTYwOTAyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3Njc0OSwtODIyNT
-E4NDcsMTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5LDIwNjgzNTAzMzQs
-LTExMjUxMDU5ODUsLTExNTk1MjcwNDFdfQ==
+eyJoaXN0b3J5IjpbMTY5MDIwMTM3OCwxMDQ2MTY0NDYsOTkxNj
+gxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOTU3NTg4MDgz
+LDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2NywxMjk3OT
+c2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OTMyMzYwNDks
+MjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUyNzA0MV19
 -->
