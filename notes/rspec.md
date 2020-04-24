@@ -386,8 +386,10 @@ class CakeMaker
 end
 
 class Cake
+  # code to make a delicious make
 end
 ```
+The `CakeMaker` class takes in a class when created and when the `make_cake` method is called it returns an instance of the class that was passed when th
 
 ### Partial Doubles (Receive)
 **Partial test doubles** allow you to temporarily overwrite or extend the functionality of a real object for the purposes of a test. It follows the same syntax pattern as doubles `allow(MyClass).to receive(:my_method) { my_return_value }` and references the class within your system. This can also be combined with any `subject` keyword and instance calls within your tests.
@@ -730,7 +732,7 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3NjQxNjA1LDIwMDc1Mjg1NDEsMTk5MT
+eyJoaXN0b3J5IjpbLTkzMTExNzgwLDIwMDc1Mjg1NDEsMTk5MT
 AzMjYxMCwtNjY5Mzk2MTg1LDI2NTY0MTQ1NywtODg2NzQ0NDk5
 LDE3MTY4MjA0MjQsLTk0NjE2Mjk3MSwxNjc1MjA4MDQ0LC0xOT
 MzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2MjIxMjAsNTU2NjU0
