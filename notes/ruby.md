@@ -141,7 +141,8 @@ You can group your ruby gems inside your `Gemfile`. If you don't explicitly give
 # assigning my_gem in the development group
 gem "my_gem", group: :development
 ```
-Groups allow you to **selectively install gems based on groups**. For example `bundle install --without 
+Groups allow you to **selectively install gems based on groups**. For example running `bundle install --without my_group` will install everything apart from gems in the `my_group` group.
+
 
 ## Kernel Methods
 Kernel methods are a module that is mixed into Ruby's `Object` class and contains methods like `puts`.
@@ -164,7 +165,7 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzODcyMzM3LDEwNDYxNjQ0Niw5OTE2OD
+eyJoaXN0b3J5IjpbLTgwNzc1NjkxLDEwNDYxNjQ0Niw5OTE2OD
 EwNTQsLTEyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NTc1ODgwODMs
 MTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3LDEyOTc5Nz
 Y3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5MzIzNjA0OSwy
