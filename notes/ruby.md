@@ -127,7 +127,7 @@ gem "my_gem", "~> 2.5.0" # give me a version of my gem that is in the category 2
 ``` 
 This seems very unintuitive on the surface but it is essentially a shortening of writing a compound operator.
 ```ruby
-gem "my_gem"
+gem "my_gem", "~> 2.0"  = gem "my_gem", ">=2.0, <3.0"
 ```
 
 ## Kernel Methods
@@ -151,7 +151,7 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3MDY4ODUsLTI5MjIxNzQyOSw5NTc1OD
+eyJoaXN0b3J5IjpbNjQ2NjExNDMsLTI5MjIxNzQyOSw5NTc1OD
 gwODMsMTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3LDEy
 OTc5NzY3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5MzIzNj
 A0OSwyMDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3MDQx
