@@ -396,7 +396,7 @@ describe CakeMaker do
     cake = double("cake")
     cake_class = ("cake class", :new => cake)
     subject = described_class.new(cake_class)
-    expect
+    expect(subject.make_cake).to eq(cake)
   end
 end
 ```
@@ -742,11 +742,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQ5NTIyODksMjAwNzUyODU0MSwxOT
-kxMDMyNjEwLC02NjkzOTYxODUsMjY1NjQxNDU3LC04ODY3NDQ0
-OTksMTcxNjgyMDQyNCwtOTQ2MTYyOTcxLDE2NzUyMDgwNDQsLT
-E5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYyMjEyMCw1NTY2
-NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIyMTI1OS
-wtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLTI2MDUzNzA0MiwxNzM1
-NDIwMjEzXX0=
+eyJoaXN0b3J5IjpbLTg4MDI2Nzc1NSwyMDA3NTI4NTQxLDE5OT
+EwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Njc0NDQ5
+OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0NCwtMT
+kzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLDU1NjY1
+NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIxMjU5LC
+0xOTc3NzUzMzUwLDM4MDc0OTE2MSwtMjYwNTM3MDQyLDE3MzU0
+MjAyMTNdfQ==
 -->
