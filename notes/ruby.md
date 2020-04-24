@@ -95,7 +95,7 @@ dpwdec/
  - The **gemspec** file contains information about the gem such as version, author, homepage etc.
 
 ### Gem Files
-You can initialize a new `Gemfile` within a directory by running the `bundle init` command. If you create the `Gemfile` manually it **must be named with a capital "G"**.
+A gem file set of code that can be extracted into a list of dependencies which your program uses to run. You can initialize a new `Gemfile` within a directory by running the `bundle init` command. If you create the `Gemfile` manually it **must be named with a capital "G"**.
 
 
 
@@ -120,8 +120,8 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDcyMzQ2NzQsMTQ5NTg3NDUxLDE2MD
-kwMjY0MTYsOTYxMDU3NTY3LDEyOTc5NzY3NDksLTgyMjUxODQ3
-LDE0ODQ5NTc0NSwtMTU5MzIzNjA0OSwyMDY4MzUwMzM0LC0xMT
-I1MTA1OTg1LC0xMTU5NTI3MDQxXX0=
+eyJoaXN0b3J5IjpbLTE3MDkzMTEsMTQ5NTg3NDUxLDE2MDkwMj
+Y0MTYsOTYxMDU3NTY3LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0
+ODQ5NTc0NSwtMTU5MzIzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MT
+A1OTg1LC0xMTU5NTI3MDQxXX0=
 -->
