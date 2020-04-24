@@ -157,7 +157,7 @@ group :development, :test do
   gem "my_db"
 end
 ```
-In the above example the gems are now placed in *both* the `:development` and `:test` groups.
+In the above example the gems are now placed in *both* the `:development` and `:test` groups. You can specify a group multiple times as well. For example later in the above example you might write `gem "some_other_gem", group: :test` which would then include that newly added gem to just the `test` group while keeping the `my_dev_gem` and 
 
 
 ## Kernel Methods
@@ -181,9 +181,10 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk1OTcyNTg5LDEwNDYxNjQ0Niw5OTE2OD
-EwNTQsLTEyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NTc1ODgwODMs
-MTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3LDEyOTc5Nz
-Y3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5MzIzNjA0OSwy
-MDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3MDQxXX0=
+eyJoaXN0b3J5IjpbLTE5MzI3ODM0ODgsMTA0NjE2NDQ2LDk5MT
+Y4MTA1NCwtMTIxMzk4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4
+MywxNDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1NjcsMTI5Nz
+k3Njc0OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5
+LDIwNjgzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1MjcwNDFdfQ
+==
 -->
