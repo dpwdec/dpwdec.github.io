@@ -107,11 +107,14 @@ You can **specify the version of ruby** that you want to use in your `Gemfile` w
 ```ruby
 ruby "2.7.0"
 ```
-You can specify a gem to use in your project by simply writing the `gem` command with the name of the gem.
+You can s**pecify a gem to use in your project** by simply writing the `gem` command with the name of the gem.
 ```ruby
-gem "rspec"
+gem "my_gem"
 ```
-This can be combined with **defin**
+This can be combined with **defining the version of a gem you want** using basic comparison operators.
+```ruby
+gem 
+```
 
 ## Kernel Methods
 Kernel methods are a module that is mixed into Ruby's `Object` class and contains methods like `puts`.
@@ -134,9 +137,9 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjA1Nzk0OSwtMjkyMjE3NDI5LDk1Nz
-U4ODA4MywxNDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1Njcs
-MTI5Nzk3Njc0OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMj
-M2MDQ5LDIwNjgzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1Mjcw
-NDFdfQ==
+eyJoaXN0b3J5IjpbLTEwOTYzNjAwNzgsLTI5MjIxNzQyOSw5NT
+c1ODgwODMsMTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3
+LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5Mz
+IzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3
+MDQxXX0=
 -->
