@@ -130,7 +130,11 @@ For example in the second example above gem version `2.5.11` would be valid, as 
 gem "my_gem", "~> 2.0"  = gem "my_gem", ">=2.0, <3.0"
 gem "my_gem", "~> 2.5.0"  = gem "my_gem", ">=2.5.0, <2.6.0"
 ```
-The `require` gem modifier is a function designed to work with Rails. When setting up a Rails project there will be `config/application.rb` that will call `Bundler.require` which will load all gems *unless* they have the `require: false` function added to them. The reason you might want to do this is if you have to manually want to set up gem installation.
+The `require` gem modifier is a function designed to work with Rails. When setting up a Rails project there will be `config/application.rb` that will call `Bundler.require` which will load all gems *unless* they have the `require: false` function added to them. The reason you might want to do this is if you have to manually want to set up gem installation including this gives you the option.
+```ruby
+gem "my_gem", require: false
+```
+
 ## Kernel Methods
 Kernel methods are a module that is mixed into Ruby's `Object` class and contains methods like `puts`.
 
@@ -152,7 +156,7 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3NjA2NTE3LC0xMjEzOTg4NTQwLC0yOT
+eyJoaXN0b3J5IjpbOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOT
 IyMTc0MjksOTU3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2
 LDk2MTA1NzU2NywxMjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OT
 U3NDUsLTE1OTMyMzYwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4
