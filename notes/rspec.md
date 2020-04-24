@@ -373,7 +373,7 @@ expect(dbl).to receive(:a_method) { 10 }
 ```
 
 ### Doubles and Class
-One slight unintuitive piece of functionality related to doubles is that they can be used to **mock class behavior** by combining giving them a response to the `.new` method that a class might receive 
+One slight unintuitive piece of functionality related to doubles is that they can be used to **mock class behavior** by combining giving them a response to the `.new` method that a class might receive *with* return type of 
 
 ### Partial Doubles (Receive)
 **Partial test doubles** allow you to temporarily overwrite or extend the functionality of a real object for the purposes of a test. It follows the same syntax pattern as doubles `allow(MyClass).to receive(:my_method) { my_return_value }` and references the class within your system. This can also be combined with any `subject` keyword and instance calls within your tests.
@@ -716,7 +716,7 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTgwNjQ1NCwxOTkxMDMyNjEwLC02Nj
+eyJoaXN0b3J5IjpbMjAwNzUyODU0MSwxOTkxMDMyNjEwLC02Nj
 kzOTYxODUsMjY1NjQxNDU3LC04ODY3NDQ0OTksMTcxNjgyMDQy
 NCwtOTQ2MTYyOTcxLDE2NzUyMDgwNDQsLTE5MzM3ODgwMjksLT
 k0MDU4NTEwNSwtMTE2ODYyMjEyMCw1NTY2NTQ1MCwxMTA1NTE0
