@@ -103,7 +103,10 @@ The **first thing a gem file needs is a `source`** from which gems will be fetch
 ```ruby
 source "https://rubygems.org:"
 ```
-
+You can specify the version of ruby that you want to use in your `Gemfile` with the `ruby` command.
+```ruby
+ruby "2.7.0
+```
 
 
 ## Kernel Methods
@@ -127,8 +130,8 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5MD
-I2NDE2LDk2MTA1NzU2NywxMjk3OTc2NzQ5LC04MjI1MTg0Nywx
-NDg0OTU3NDUsLTE1OTMyMzYwNDksMjA2ODM1MDMzNCwtMTEyNT
-EwNTk4NSwtMTE1OTUyNzA0MV19
+eyJoaXN0b3J5IjpbMTUwNDM2MzY5MSw5NTc1ODgwODMsMTQ5NT
+g3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3LDEyOTc5NzY3NDks
+LTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5MzIzNjA0OSwyMDY4Mz
+UwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3MDQxXX0=
 -->
