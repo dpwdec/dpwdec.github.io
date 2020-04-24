@@ -107,7 +107,8 @@ You can **specify the version of ruby** that you want to use in your `Gemfile` w
 ```ruby
 ruby "2.7.0"
 ```
-You can s**pecify a gem to use in your project** by simply writing the `gem` command with the name of the gem. When this line is read by the `bundle` command it will then go to the `source` you specified and retrieve the gem of that name.
+#### Loading gems
+You can **specify a gem to use in your project** by simply writing the `gem` command with the name of the gem. When this line is read by the `bundle` command it will then go to the `source` you specified and retrieve the gem of that name.
 ```ruby
 gem "my_gem"
 ```
@@ -134,6 +135,8 @@ The `require` gem modifier is a function designed to work with Rails. When setti
 ```ruby
 gem "my_gem", require: false
 ```
+#### Groups
+
 
 ## Kernel Methods
 Kernel methods are a module that is mixed into Ruby's `Object` class and contains methods like `puts`.
@@ -156,9 +159,9 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOT
-IyMTc0MjksOTU3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2
-LDk2MTA1NzU2NywxMjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OT
-U3NDUsLTE1OTMyMzYwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4
-NSwtMTE1OTUyNzA0MV19
+eyJoaXN0b3J5IjpbMTA0NjE2NDQ2LDk5MTY4MTA1NCwtMTIxMz
+k4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxNDk1ODc0NTEs
+MTYwOTAyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3Njc0OSwtODIyNT
+E4NDcsMTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5LDIwNjgzNTAzMzQs
+LTExMjUxMDU5ODUsLTExNTk1MjcwNDFdfQ==
 -->
