@@ -137,7 +137,7 @@ The `require` gem modifier is a function designed to work with Rails. When setti
 ```ruby
 gem "my_gem", require: false
 ```
-`Bundler.require` can have the names of different groups added to it and load them. For example `Bundler.r
+**`Bundler.require` can have the names of different groups added to it and load them**. For example `Bundler.require(:default, Rails.env)` will load all gems in the `default` group and all gems in a group that matches the current `Rails.env`ironment.  You can submit an arbitrary list of groups to `require` such as `Bundler.require(
 #### Groups
 You can group your ruby gems inside your `Gemfile`. If you don't explicitly give a gem a group then it will go into the `default` group. You can **specify a gem's group** by appending the `group:` argument to the gem's definition.
 ```ruby
@@ -182,9 +182,9 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODQxMDg5NiwxMDQ2MTY0NDYsOTkxNj
-gxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOTU3NTg4MDgz
-LDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2NywxMjk3OT
-c2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OTMyMzYwNDks
-MjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUyNzA0MV19
+eyJoaXN0b3J5IjpbLTU4NzYxODAsMTA0NjE2NDQ2LDk5MTY4MT
+A1NCwtMTIxMzk4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4Mywx
+NDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3Nj
+c0OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5LDIw
+NjgzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1MjcwNDFdfQ==
 -->
