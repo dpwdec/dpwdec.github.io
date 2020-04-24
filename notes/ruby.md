@@ -122,7 +122,7 @@ gem "my_gem", "<1.0" # give me a version of my gem less than 1.0
 ```
 There are also a **pessimistic gem version specifier** using the `~>` which works by allowing any gem that matches a specific prefix range of gem versions.
 ```ruby
-
+gem "my_gem" "~> 2.0"
 ``` 
 
 ## Kernel Methods
@@ -146,9 +146,9 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDgyODExOSwtMjkyMjE3NDI5LDk1Nz
-U4ODA4MywxNDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1Njcs
-MTI5Nzk3Njc0OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMj
-M2MDQ5LDIwNjgzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1Mjcw
-NDFdfQ==
+eyJoaXN0b3J5IjpbOTMyODA4MTg0LC0yOTIyMTc0MjksOTU3NT
+g4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2Nywx
+Mjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OTMyMz
+YwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUyNzA0
+MV19
 -->
