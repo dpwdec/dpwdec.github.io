@@ -750,12 +750,14 @@ group :development, :test do
   gem 'guard-rspec', require: false
 end
 ```
-Guard requires a `Guardfile` to run correctly. To **set up the `Guardfile`** use `guard init rspec` command. You can also use `bundle exec 
+Guard requires a `Guardfile` to run correctly. To **set up the `Guardfile`** use `guard init rspec` command. You can also use `
+bundle exec guard init rspec`.
+
 
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDI5OTgwNSw3NjY1ODY3NzcsMjAwNz
+eyJoaXN0b3J5IjpbMTY3NzI1OTE0OSw3NjY1ODY3NzcsMjAwNz
 UyODU0MSwxOTkxMDMyNjEwLC02NjkzOTYxODUsMjY1NjQxNDU3
 LC04ODY3NDQ0OTksMTcxNjgyMDQyNCwtOTQ2MTYyOTcxLDE2Nz
 UyMDgwNDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYy
