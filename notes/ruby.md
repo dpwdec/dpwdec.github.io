@@ -150,11 +150,14 @@ group :development do
   gem "my_db"
 end
 ```
-The above code will place the `my_dev_gem` and `my_db` gem in the development group. This can be **expanded to assign multiple groups to gems simultaneously** as well.
+The above code will place the `my_dev_gem` and `my_db` gem in the `:development group`. This can be **expanded to assign multiple groups to gems simultaneously** as well.
 ```ruby
 group :development, :test do
+  gem "my_dev_gem"
+  gem "my_db"
 end
 ```
+In the above example the gems are now placed in *both* the `:development` and `:test` groups.
 
 
 ## Kernel Methods
@@ -178,9 +181,9 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTYxMDE1NCwxMDQ2MTY0NDYsOTkxNj
-gxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOTU3NTg4MDgz
-LDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2NywxMjk3OT
-c2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OTMyMzYwNDks
-MjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUyNzA0MV19
+eyJoaXN0b3J5IjpbMjk1OTcyNTg5LDEwNDYxNjQ0Niw5OTE2OD
+EwNTQsLTEyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NTc1ODgwODMs
+MTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3LDEyOTc5Nz
+Y3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5MzIzNjA0OSwy
+MDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3MDQxXX0=
 -->
