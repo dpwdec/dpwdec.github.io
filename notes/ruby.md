@@ -95,7 +95,9 @@ dpwdec/
  - The **gemspec** file contains information about the gem such as version, author, homepage etc.
 
 ### Gem Files
-A gem file set of code that can be extracted into a list of dependencies which your program uses to run. You can initialize a new `Gemfile` within a directory by running the `bundle init` command. If you create the `Gemfile` manually it **must be named with a capital "G"**.
+A gem file set of code that can be extracted into a list of dependencies which your program uses to run. Gem files are written and evaluated as ruby code which allows you to use a range of ruby syntax and methods within them. 
+
+You can initialize a new `Gemfile` within a directory by running the `bundle init` command. If you create the `Gemfile` manually it **must be named with a capital "G"**.
 
 
 
@@ -120,8 +122,8 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDkzMTEsMTQ5NTg3NDUxLDE2MDkwMj
-Y0MTYsOTYxMDU3NTY3LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0
-ODQ5NTc0NSwtMTU5MzIzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MT
-A1OTg1LC0xMTU5NTI3MDQxXX0=
+eyJoaXN0b3J5IjpbLTM2NjU2MzkxOSwxNDk1ODc0NTEsMTYwOT
+AyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3Njc0OSwtODIyNTE4NDcs
+MTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5LDIwNjgzNTAzMzQsLTExMj
+UxMDU5ODUsLTExNTk1MjcwNDFdfQ==
 -->
