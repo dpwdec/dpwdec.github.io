@@ -381,7 +381,7 @@ class CakeMaker
   end
 
   def make_cake
-   
+    @cake_class.new
   end
 end
 ```
@@ -727,7 +727,7 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTUzODM0MSwyMDA3NTI4NTQxLDE5OT
+eyJoaXN0b3J5IjpbLTI3ODI2ODgzNCwyMDA3NTI4NTQxLDE5OT
 EwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Njc0NDQ5
 OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0NCwtMT
 kzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLDU1NjY1
