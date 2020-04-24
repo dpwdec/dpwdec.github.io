@@ -400,7 +400,7 @@ describe CakeMaker do
   end
 end
 ```
-A double is defined to represent the instance of `Cake` that is created and another doubles is created to represent the `Cake` class as a whole. This `cake_class` double has a method added to it that returns the double representing an instance. How the tests fo
+A double is defined to represent the instance of `Cake` that is created and another doubles is created to represent the `Cake` class as a whole. This `cake_class` double has a method added to it that returns the double representing an instance. How the tests for `CakeMaker` work without relying on the class that would be made at all.
 
 ### Partial Doubles (Receive)
 **Partial test doubles** allow you to temporarily overwrite or extend the functionality of a real object for the purposes of a test. It follows the same syntax pattern as doubles `allow(MyClass).to receive(:my_method) { my_return_value }` and references the class within your system. This can also be combined with any `subject` keyword and instance calls within your tests.
@@ -743,11 +743,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTYyMjYxMCwyMDA3NTI4NTQxLDE5OT
-EwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Njc0NDQ5
-OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0NCwtMT
-kzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLDU1NjY1
-NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIxMjU5LC
-0xOTc3NzUzMzUwLDM4MDc0OTE2MSwtMjYwNTM3MDQyLDE3MzU0
-MjAyMTNdfQ==
+eyJoaXN0b3J5IjpbNzY2NTg2Nzc3LDIwMDc1Mjg1NDEsMTk5MT
+AzMjYxMCwtNjY5Mzk2MTg1LDI2NTY0MTQ1NywtODg2NzQ0NDk5
+LDE3MTY4MjA0MjQsLTk0NjE2Mjk3MSwxNjc1MjA4MDQ0LC0xOT
+MzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2MjIxMjAsNTU2NjU0
+NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC02MTcyMjEyNTksLT
+E5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1MzcwNDIsMTczNTQy
+MDIxM119
 -->
