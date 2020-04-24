@@ -123,7 +123,7 @@ gem "my_gem", "<1.0" # give me a version of my gem less than 1.0
 There are also a **pessimistic gem version specifier** using the `~>` which works by allowing any gem that matches a specific prefix range of gem versions.
 ```ruby
 gem "my_gem" "~> 2.0" # give me a version of my gem that is in the category 2.0, i.e. won't return any 3.0 gems
-gem "my_gem" "~> 2.5.0" # give me a version of my gem that is in the category 2.5.0
+gem "my_gem" "~> 2.5.0" # give me a version of my gem that is in the category 2.5.0 won't return any 2.6.0 gems
 ``` 
 This seems very unint
 
@@ -148,7 +148,7 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjYzNDk0OCwtMjkyMjE3NDI5LDk1Nz
+eyJoaXN0b3J5IjpbMTIyNjU3MzI2NywtMjkyMjE3NDI5LDk1Nz
 U4ODA4MywxNDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1Njcs
 MTI5Nzk3Njc0OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMj
 M2MDQ5LDIwNjgzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1Mjcw
