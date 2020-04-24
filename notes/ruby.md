@@ -130,7 +130,7 @@ For example in the second example above gem version `2.5.11` would be valid, as 
 gem "my_gem", "~> 2.0"  = gem "my_gem", ">=2.0, <3.0"
 gem "my_gem", "~> 2.5.0"  = gem "my_gem", ">=2.5.0, <2.6.0"
 ```
-
+The `require` gem modifier is a function designed to work with Rails. When setting up a Rails projects
 ## Kernel Methods
 Kernel methods are a module that is mixed into Ruby's `Object` class and contains methods like `puts`.
 
@@ -152,9 +152,9 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NT
-c1ODgwODMsMTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3
-LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5Mz
-IzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3
-MDQxXX0=
+eyJoaXN0b3J5IjpbNDQxNzIzNTY2LC0xMjEzOTg4NTQwLC0yOT
+IyMTc0MjksOTU3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2
+LDk2MTA1NzU2NywxMjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OT
+U3NDUsLTE1OTMyMzYwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4
+NSwtMTE1OTUyNzA0MV19
 -->
