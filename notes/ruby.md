@@ -94,6 +94,9 @@ dpwdec/
  - The **rake file** is a `rake` program that performs utility tasks on the gem.
  - The **gemspec** file contains information about the gem such as version, author, homepage etc.
 
+### Gem Files
+You can initialize a new `Gemfile` within a directory by running the `bundle init` command.
+
 ## Kernel Methods
 Kernel methods are a module that is mixed into Ruby's `Object` class and contains methods like `puts`.
 
@@ -115,8 +118,8 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTAyNjQxNiw5NjEwNTc1NjcsMTI5Nz
-k3Njc0OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5
-LDIwNjgzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1MjcwNDFdfQ
-==
+eyJoaXN0b3J5IjpbMTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMD
+U3NTY3LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwt
+MTU5MzIzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMT
+U5NTI3MDQxXX0=
 -->
