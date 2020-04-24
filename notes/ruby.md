@@ -122,10 +122,13 @@ gem "my_gem", "<1.0" # give me a version of my gem less than 1.0
 ```
 There are also a **pessimistic gem version specifier** using the `~>` which works by allowing any gem that matches a specific prefix range of gem versions.
 ```ruby
-gem "my_gem" "~> 2.0" # give me a version of my gem that is in the category 2.0, i.e. won't return any 3.0 gems
-gem "my_gem" "~> 2.5.0" # give me a version of my gem that is in the category 2.5.0 won't return any 2.6.0 gems
+gem "my_gem", "~> 2.0" # give me a version of my gem that is in the category 2.0, i.e. won't return any 3.0 version gems
+gem "my_gem", "~> 2.5.0" # give me a version of my gem that is in the category 2.5.0 won't return any 2.6.0 version gems
 ``` 
-This seems very unint
+This seems very unintuitive on the surface but it is essentially a shortening of writing a compound operator.
+```ruby
+gem "my_gem"
+```
 
 ## Kernel Methods
 Kernel methods are a module that is mixed into Ruby's `Object` class and contains methods like `puts`.
@@ -148,9 +151,9 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjU3MzI2NywtMjkyMjE3NDI5LDk1Nz
-U4ODA4MywxNDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1Njcs
-MTI5Nzk3Njc0OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMj
-M2MDQ5LDIwNjgzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1Mjcw
-NDFdfQ==
+eyJoaXN0b3J5IjpbNDc3MDY4ODUsLTI5MjIxNzQyOSw5NTc1OD
+gwODMsMTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3LDEy
+OTc5NzY3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5MzIzNj
+A0OSwyMDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3MDQx
+XX0=
 -->
