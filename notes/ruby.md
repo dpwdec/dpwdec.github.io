@@ -136,7 +136,12 @@ The `require` gem modifier is a function designed to work with Rails. When setti
 gem "my_gem", require: false
 ```
 #### Groups
-You can group your ruby gems inside your `Gemfile`. If you don't explicitly give a gem a group then it will go into the `default` group.
+You can group your ruby gems inside your `Gemfile`. If you don't explicitly give a gem a group then it will go into the `default` group. You can **specify a gem's group** by appending the `group:` argument to the gem's definition.
+```ruby
+# assigning my_gem in the development group
+gem "my_gem", group: :development
+```
+Groups allow you to **selectively install gems based on groups**. For example `b
 
 ## Kernel Methods
 Kernel methods are a module that is mixed into Ruby's `Object` class and contains methods like `puts`.
@@ -159,7 +164,7 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDIwMTM3OCwxMDQ2MTY0NDYsOTkxNj
+eyJoaXN0b3J5IjpbMTk3NDcwNzkxNCwxMDQ2MTY0NDYsOTkxNj
 gxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOTU3NTg4MDgz
 LDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2NywxMjk3OT
 c2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OTMyMzYwNDks
