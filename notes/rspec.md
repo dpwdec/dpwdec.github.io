@@ -310,7 +310,7 @@ end
 [colremove]: [https://stackoverflow.com/questions/24111204/rspec-to-haven-items-undefined-method](https://stackoverflow.com/questions/24111204/rspec-to-haven-items-undefined-method)
 [rscm]: [https://github.com/rspec/rspec-collection_matchers](https://github.com/rspec/rspec-collection_matchers)
 ## Mocks
-### Basics
+### Doubles
 **Test doubles** allow you to define object's that "stand in" for a real object in your system and will give and receive data in a predefined patterns as if they were an actual object. To **create a double** use:
 ```ruby
 dbl = double()
@@ -714,7 +714,7 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzEyMDQ5MiwxOTkxMDMyNjEwLC02Nj
+eyJoaXN0b3J5IjpbMTI0OTE2Mjk4MSwxOTkxMDMyNjEwLC02Nj
 kzOTYxODUsMjY1NjQxNDU3LC04ODY3NDQ0OTksMTcxNjgyMDQy
 NCwtOTQ2MTYyOTcxLDE2NzUyMDgwNDQsLTE5MzM3ODgwMjksLT
 k0MDU4NTEwNSwtMTE2ODYyMjEyMCw1NTY2NTQ1MCwxMTA1NTE0
