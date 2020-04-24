@@ -753,15 +753,17 @@ end
 Guard requires a `Guardfile` to run correctly. To **set up the `Guardfile`** use `guard init rspec` command. You can also use `
 bundle exec guard init rspec`.
 
+**To run guard** so that it automatically triggers testing when files change simply type the `guard` command. You can also use `bundle exec guard`. You can **stop guard running** by typing `exit`.
+
 
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzI1OTE0OSw3NjY1ODY3NzcsMjAwNz
-UyODU0MSwxOTkxMDMyNjEwLC02NjkzOTYxODUsMjY1NjQxNDU3
-LC04ODY3NDQ0OTksMTcxNjgyMDQyNCwtOTQ2MTYyOTcxLDE2Nz
-UyMDgwNDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYy
-MjEyMCw1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLT
-YxNzIyMTI1OSwtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLTI2MDUz
-NzA0Ml19
+eyJoaXN0b3J5IjpbODUzMTMwNjI0LDc2NjU4Njc3NywyMDA3NT
+I4NTQxLDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcs
+LTg4Njc0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NT
+IwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIy
+MTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNj
+E3MjIxMjU5LC0xOTc3NzUzMzUwLDM4MDc0OTE2MSwtMjYwNTM3
+MDQyXX0=
 -->
