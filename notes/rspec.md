@@ -393,6 +393,10 @@ The `CakeMaker` class takes in a class when created and when the `make_cake` met
 ```ruby
 describe CakeMaker do
   it 'makes a cake' do
+    cake = double("cake")
+    cake_class = ("cake class", :new => cake)
+    subject = described_class.new(cake_class)
+    expect
   end
 end
 ```
@@ -738,11 +742,11 @@ rspec ./spec/myclass_spec.rb:9
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTQ3MDMyLDIwMDc1Mjg1NDEsMTk5MT
-AzMjYxMCwtNjY5Mzk2MTg1LDI2NTY0MTQ1NywtODg2NzQ0NDk5
-LDE3MTY4MjA0MjQsLTk0NjE2Mjk3MSwxNjc1MjA4MDQ0LC0xOT
-MzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2MjIxMjAsNTU2NjU0
-NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC02MTcyMjEyNTksLT
-E5Nzc3NTMzNTAsMzgwNzQ5MTYxLC0yNjA1MzcwNDIsMTczNTQy
-MDIxM119
+eyJoaXN0b3J5IjpbLTE0NDQ5NTIyODksMjAwNzUyODU0MSwxOT
+kxMDMyNjEwLC02NjkzOTYxODUsMjY1NjQxNDU3LC04ODY3NDQ0
+OTksMTcxNjgyMDQyNCwtOTQ2MTYyOTcxLDE2NzUyMDgwNDQsLT
+E5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYyMjEyMCw1NTY2
+NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIyMTI1OS
+wtMTk3Nzc1MzM1MCwzODA3NDkxNjEsLTI2MDUzNzA0MiwxNzM1
+NDIwMjEzXX0=
 -->
