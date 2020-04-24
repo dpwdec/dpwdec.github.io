@@ -99,7 +99,10 @@ A gem file set of code that can be extracted into a list of dependencies which y
 
 You can initialize a new `Gemfile` within a directory by running the `bundle init` command. If you create the `Gemfile` manually it **must be named with a capital "G"**.
 
-The **first thing a gem file needs is a `source`** from which gems will be fetched. Thi
+The **first thing a gem file needs is a `source`** from which gems will be fetched. This is a method that you "point" at a valid rubygems directory in the method's argument. For almost all projects this will just be `rubygems.org`.
+```ruby
+source "https://rubygems.org:"
+```
 
 
 
@@ -124,7 +127,7 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDQ4NjU2MywxNDk1ODc0NTEsMTYwOT
+eyJoaXN0b3J5IjpbMTUxMTI2Mzg4MiwxNDk1ODc0NTEsMTYwOT
 AyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3Njc0OSwtODIyNTE4NDcs
 MTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5LDIwNjgzNTAzMzQsLTExMj
 UxMDU5ODUsLTExNTk1MjcwNDFdfQ==
