@@ -113,7 +113,8 @@ gem "my_gem"
 ```
 This can be combined with **defining the version of a gem you want** using basic comparison operators in a second argument with the version you are working on.
 ```ruby
-gem "my_gem", "=1.0"
+gem "my_gem", "=1.0" # give me version 1.0 of my gem
+gem "my_gem", "!=1.0" # give anything but version 1.0 of my gem
 ```
 
 ## Kernel Methods
@@ -137,9 +138,9 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODQzNjM1MiwtMjkyMjE3NDI5LDk1Nz
-U4ODA4MywxNDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1Njcs
-MTI5Nzk3Njc0OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMj
-M2MDQ5LDIwNjgzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1Mjcw
-NDFdfQ==
+eyJoaXN0b3J5IjpbNjM3NzUzMDI1LC0yOTIyMTc0MjksOTU3NT
+g4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2Nywx
+Mjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OTMyMz
+YwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUyNzA0
+MV19
 -->
