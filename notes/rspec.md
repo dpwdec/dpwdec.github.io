@@ -743,12 +743,15 @@ rspec ./spec/myclass_spec.rb:9
 ```
 ## Guard
 
-[Guard][gd1] is a framework for automatically running RSpec tests when files inside the directory change (i.e. are saved).
+[Guard][gd1] is a framework for automatically running RSpec tests when files inside the directory change (i.e. are saved). You install guard by adding it to your `Gemfile` in the `development` group.
+```ruby
+gem 'guard-rspec', require: false
+```
 
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzE2ODk1Nyw3NjY1ODY3NzcsMjAwNz
+eyJoaXN0b3J5IjpbMjAyOTUyNTU0MCw3NjY1ODY3NzcsMjAwNz
 UyODU0MSwxOTkxMDMyNjEwLC02NjkzOTYxODUsMjY1NjQxNDU3
 LC04ODY3NDQ0OTksMTcxNjgyMDQyNCwtOTQ2MTYyOTcxLDE2Nz
 UyMDgwNDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYy
