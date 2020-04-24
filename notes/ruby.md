@@ -97,17 +97,17 @@ dpwdec/
 ### Gem Files
 A gem file set of code that can be extracted into a list of dependencies which your program uses to run. Gem files are written and evaluated as ruby code which allows you to use a range of ruby syntax and methods within them. 
 
-You can initialize a new `Gemfile` within a directory by running the `bundle init` command. If you create the `Gemfile` manually it **must be named with a capital "G"**.
+You can **initialize a new `Gemfile`** within a directory by running the `bundle init` command. If you create the `Gemfile` manually it **must be named with a capital "G"**.
 
 The **first thing a gem file needs is a `source`** from which gems will be fetched. This is a method that you "point" at a valid rubygems directory in the method's argument. For almost all projects this will just be `rubygems.org`. It's recommended to **not have more than one `source`** per project.
 ```ruby
 source "https://rubygems.org:"
 ```
-You can specify the version of ruby that you want to use in your `Gemfile` with the `ruby` command. You can also optionally specify other parameters like `:engine` and `:path_level` in this command.
+You can **specify the version of ruby** that you want to use in your `Gemfile` with the `ruby` command. You can also optionally specify other parameters like `:engine` and `:path_level` in this command.
 ```ruby
 ruby "2.7.0"
 ```
-
+You can 
 
 ## Kernel Methods
 Kernel methods are a module that is mixed into Ruby's `Object` class and contains methods like `puts`.
@@ -130,8 +130,9 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjIxNzQyOSw5NTc1ODgwODMsMTQ5NT
-g3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3LDEyOTc5NzY3NDks
-LTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5MzIzNjA0OSwyMDY4Mz
-UwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3MDQxXX0=
+eyJoaXN0b3J5IjpbLTIwNTg0NDI5NTAsLTI5MjIxNzQyOSw5NT
+c1ODgwODMsMTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3
+LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5Mz
+IzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3
+MDQxXX0=
 -->
