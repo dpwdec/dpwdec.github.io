@@ -19,7 +19,12 @@ my_bool = 10 < 20
 ## Arrays
 
 ## Hashes
-You can have **any arbitrary object as a key**.
+You can have **any arbitrary object as a key** in a hash. This can be useful if you have other information stored in your `key
+```ruby
+key_object = Object.new
+my_hash = Hash.new
+my_hash[key_object] = 1
+```
 
 
 ## Objects
@@ -188,10 +193,10 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzODU5NDU5LC04NzQ3NzEyNTUsLTE5Nz
-IxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4MTA1NCwtMTIxMzk4ODU0
-MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxNDk1ODc0NTEsMTYwOT
-AyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3Njc0OSwtODIyNTE4NDcs
-MTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5LDIwNjgzNTAzMzQsLTExMj
-UxMDU5ODUsLTExNTk1MjcwNDFdfQ==
+eyJoaXN0b3J5IjpbLTExNjE0MTE0NzUsLTg3NDc3MTI1NSwtMT
+k3MjE3MTM2NSwxMDQ2MTY0NDYsOTkxNjgxMDU0LC0xMjEzOTg4
+NTQwLC0yOTIyMTc0MjksOTU3NTg4MDgzLDE0OTU4NzQ1MSwxNj
+A5MDI2NDE2LDk2MTA1NzU2NywxMjk3OTc2NzQ5LC04MjI1MTg0
+NywxNDg0OTU3NDUsLTE1OTMyMzYwNDksMjA2ODM1MDMzNCwtMT
+EyNTEwNTk4NSwtMTE1OTUyNzA0MV19
 -->
