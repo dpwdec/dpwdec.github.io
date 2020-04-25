@@ -18,6 +18,9 @@ my_bool = 10 < 20
 
 ## Arrays
 
+## Hashes
+You can have **any arbitrary object as a key**.
+
 
 ## Objects
 You can **call an object method by name** by using `send` to push the method to an object as a message instead of calling it directly with the `.` syntax.
@@ -185,10 +188,10 @@ my_directory
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMD
-Q2MTY0NDYsOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0
-MjksOTU3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MT
-A1NzU2NywxMjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUs
-LTE1OTMyMzYwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMT
-E1OTUyNzA0MV19
+eyJoaXN0b3J5IjpbMzAzODU5NDU5LC04NzQ3NzEyNTUsLTE5Nz
+IxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4MTA1NCwtMTIxMzk4ODU0
+MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxNDk1ODc0NTEsMTYwOT
+AyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3Njc0OSwtODIyNTE4NDcs
+MTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5LDIwNjgzNTAzMzQsLTExMj
+UxMDU5ODUsLTExNTk1MjcwNDFdfQ==
 -->
