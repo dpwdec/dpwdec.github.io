@@ -25,10 +25,11 @@ key_object = Object.new
 my_hash = Hash.new
 my_hash[key_object] = 1
 ```
-You can **use the `inject` method with a hash to create a cumulative count of its values**. This works by
+You can **use the `inject` method with a hash to create a cumulative count of its values**. This works by the block variables coming in 
 ```ruby
 my_hash = { "one" => 1, "two" => 2, "three => 3" }
-
+my_hash.inject(0) { |count, hash| count + hash[1] }
+# => 6
 ```
 
 ## Objects
@@ -214,11 +215,11 @@ ENV.select  { |key ,value | key.size < 4  }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyNDg0MTQ5LC0zMzQzNTkzMDgsLTk4Nz
-Q2NzYyMywtODc0NzcxMjU1LC0xOTcyMTcxMzY1LDEwNDYxNjQ0
-Niw5OTE2ODEwNTQsLTEyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NT
-c1ODgwODMsMTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3
-LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5Mz
-IzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3
-MDQxXX0=
+eyJoaXN0b3J5IjpbMTk3MTIyMjAyOSwtMzM0MzU5MzA4LC05OD
+c0Njc2MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0
+NDYsOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOT
+U3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2
+NywxMjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OT
+MyMzYwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUy
+NzA0MV19
 -->
