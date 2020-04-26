@@ -90,6 +90,10 @@ set_1.subset?(set_2) # => false
 
 ## Methods
 You can submit to a splat operator via a an array by appending the array with an `*` asterisk.
+```ruby
+def my_method(*args)
+end
+```
 
 ## Gems
 Gems are pieces of reusable code that can be installed inside your ruby projects. 
@@ -236,11 +240,11 @@ ENV.select  { |key ,value | key.size < 4  }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTIxNjE5MiwtMTk1MzYxNzE2LC0zMz
-QzNTkzMDgsLTk4NzQ2NzYyMywtODc0NzcxMjU1LC0xOTcyMTcx
-MzY1LDEwNDYxNjQ0Niw5OTE2ODEwNTQsLTEyMTM5ODg1NDAsLT
-I5MjIxNzQyOSw5NTc1ODgwODMsMTQ5NTg3NDUxLDE2MDkwMjY0
-MTYsOTYxMDU3NTY3LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0OD
-Q5NTc0NSwtMTU5MzIzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MTA1
-OTg1XX0=
+eyJoaXN0b3J5IjpbLTEzMTAzMzMyMzIsMTQ4OTIxNjE5MiwtMT
+k1MzYxNzE2LC0zMzQzNTkzMDgsLTk4NzQ2NzYyMywtODc0Nzcx
+MjU1LC0xOTcyMTcxMzY1LDEwNDYxNjQ0Niw5OTE2ODEwNTQsLT
+EyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NTc1ODgwODMsMTQ5NTg3
+NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3LDEyOTc5NzY3NDksLT
+gyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5MzIzNjA0OSwyMDY4MzUw
+MzM0XX0=
 -->
