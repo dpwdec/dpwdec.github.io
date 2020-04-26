@@ -10,7 +10,14 @@ You can **convert an integer into a string** `char` by running the `.chr` method
 # => 'A'
 ```
 You can **split single strings over multiple lines** by using backslash outside of the string new-line separators.
-```r
+```ruby
+multi_line_str = "This is"\
+"a string tha"\
+"is split over"\
+"multiple line"\
+"s"
+# => "This is a string that is split over multiple lines"
+```
 ## Booleans
 You can assign the output of a boolean operation directly from a bool.
 ```ruby
@@ -225,11 +232,11 @@ ENV.select  { |key ,value | key.size < 4  }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExNjAwMjc5LC0zMzQzNTkzMDgsLTk4Nz
-Q2NzYyMywtODc0NzcxMjU1LC0xOTcyMTcxMzY1LDEwNDYxNjQ0
-Niw5OTE2ODEwNTQsLTEyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NT
-c1ODgwODMsMTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3
-LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5Mz
-IzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3
-MDQxXX0=
+eyJoaXN0b3J5IjpbLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05OD
+c0Njc2MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0
+NDYsOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOT
+U3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2
+NywxMjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OT
+MyMzYwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUy
+NzA0MV19
 -->
