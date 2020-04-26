@@ -196,13 +196,21 @@ You can **access environment variables** in Ruby using the `ENV` object. This wo
 ```ruby
 my_var = ENV['MY_VAR']
 ```
-
+You can **get the size of the environment variables list** using the `.size` method.
+```ruby
+ENV.size
+```
+You can **return a list of environment variable keys** using the `.keys` method.
+```ruby
+ENV.keys
+```
+Y
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzA3NDc2OSwtOTg3NDY3NjIzLC04Nz
-Q3NzEyNTUsLTE5NzIxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4MTA1
-NCwtMTIxMzk4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxND
-k1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3Njc0
-OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5LDIwNj
-gzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1MjcwNDFdfQ==
+eyJoaXN0b3J5IjpbMTYyMzc3MDMzLC05ODc0Njc2MjMsLTg3ND
+c3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0NDYsOTkxNjgxMDU0
+LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOTU3NTg4MDgzLDE0OT
+U4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2NywxMjk3OTc2NzQ5
+LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OTMyMzYwNDksMjA2OD
+M1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUyNzA0MV19
 -->
