@@ -98,6 +98,7 @@ def my_method(*args)
 end
 
 arguent_array = [1, 2, 3]
+my_method(*argument_array)
 ```
 
 ## Gems
@@ -245,7 +246,7 @@ ENV.select  { |key ,value | key.size < 4  }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3Mjg4MzM3MywxNDg5MjE2MTkyLC0xOT
+eyJoaXN0b3J5IjpbLTI2NDc4MDM1MywxNDg5MjE2MTkyLC0xOT
 UzNjE3MTYsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04NzQ3NzEy
 NTUsLTE5NzIxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4MTA1NCwtMT
 IxMzk4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxNDk1ODc0
