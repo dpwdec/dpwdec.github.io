@@ -17,6 +17,7 @@ my_bool = 10 < 20
 ```
 
 ## Arrays
+If you want to **return a single value from an array based on some condition** use the `detect` method. This is different from the `select` method in that it only returns a single
 
 ## Hashes
 You can have **any arbitrary object as a key** in a hash. This can be useful if you have other information stored in your `key_object` that you want to access while still binding that object temporarily to some information in your hash.
@@ -215,11 +216,11 @@ ENV.select  { |key ,value | key.size < 4  }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzU4NDkyNSwtMzM0MzU5MzA4LC05OD
-c0Njc2MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0
-NDYsOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOT
-U3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2
-NywxMjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OT
-MyMzYwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUy
-NzA0MV19
+eyJoaXN0b3J5IjpbLTE3OTk2MTQ4ODEsLTMzNDM1OTMwOCwtOT
+g3NDY3NjIzLC04NzQ3NzEyNTUsLTE5NzIxNzEzNjUsMTA0NjE2
+NDQ2LDk5MTY4MTA1NCwtMTIxMzk4ODU0MCwtMjkyMjE3NDI5LD
+k1NzU4ODA4MywxNDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1
+NjcsMTI5Nzk3Njc0OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNT
+kzMjM2MDQ5LDIwNjgzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1
+MjcwNDFdfQ==
 -->
