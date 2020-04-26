@@ -25,7 +25,7 @@ key_object = Object.new
 my_hash = Hash.new
 my_hash[key_object] = 1
 ```
-You can **use the `inject` method with a hash to create a cumulative count of its values**. This works by the block variables coming in the form of an accumulator variable and a hash variable which represents the key-value pair in an array for that iteration through the loop. In the example below on the first iteration through `|count|` will equal `0` and `|hash|` will be an array of `["one", 1]` so 
+You can **use the `inject` method with a hash to create a cumulative count of its values**. This works by the block variables coming in the form of an accumulator variable and a hash variable which represents the key-value pair in an array for that iteration through the loop. In the example below on the first iteration through `|count|` will equal `0` and `|hash|` will be an array of `["one", 1]` so to access the value `1` and add it to the `count` we access it with index `[1]` from the `hash` array as it is the second element in that array that represents a single key-value pair of that hash. On the next loop `count` will equal `1` and `hash` will now contain the second 
 ```ruby
 my_hash = { "one" => 1, "two" => 2, "three => 3" }
 my_hash.inject(0) { |count, hash| count + hash[1] }
@@ -215,11 +215,11 @@ ENV.select  { |key ,value | key.size < 4  }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODU1NjQ0MiwtMzM0MzU5MzA4LC05OD
-c0Njc2MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0
-NDYsOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOT
-U3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2
-NywxMjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OT
-MyMzYwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUy
-NzA0MV19
+eyJoaXN0b3J5IjpbOTcyNjU3MzI2LC0zMzQzNTkzMDgsLTk4Nz
+Q2NzYyMywtODc0NzcxMjU1LC0xOTcyMTcxMzY1LDEwNDYxNjQ0
+Niw5OTE2ODEwNTQsLTEyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NT
+c1ODgwODMsMTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3
+LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5Mz
+IzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3
+MDQxXX0=
 -->
