@@ -92,7 +92,12 @@ set_1.subset?(set_2) # => false
 You can submit to a splat operator via a an array by appending the array with an `*` asterisk.
 ```ruby
 def my_method(*args)
+  args.each do |arg|
+    puts arg
+  end
 end
+
+arguent_array = [1, 2, 3]
 ```
 
 ## Gems
@@ -240,11 +245,11 @@ ENV.select  { |key ,value | key.size < 4  }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTAzMzMyMzIsMTQ4OTIxNjE5MiwtMT
-k1MzYxNzE2LC0zMzQzNTkzMDgsLTk4NzQ2NzYyMywtODc0Nzcx
-MjU1LC0xOTcyMTcxMzY1LDEwNDYxNjQ0Niw5OTE2ODEwNTQsLT
-EyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NTc1ODgwODMsMTQ5NTg3
-NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3LDEyOTc5NzY3NDksLT
-gyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5MzIzNjA0OSwyMDY4MzUw
-MzM0XX0=
+eyJoaXN0b3J5IjpbMTY3Mjg4MzM3MywxNDg5MjE2MTkyLC0xOT
+UzNjE3MTYsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04NzQ3NzEy
+NTUsLTE5NzIxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4MTA1NCwtMT
+IxMzk4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxNDk1ODc0
+NTEsMTYwOTAyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3Njc0OSwtOD
+IyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5LDIwNjgzNTAz
+MzRdfQ==
 -->
