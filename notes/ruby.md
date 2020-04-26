@@ -4,11 +4,13 @@ title: Ruby
 exclude: true
 ---
 ## Strings
-You can convert an integer into a string `char` by running the `.chr` method on it.
+You can **convert an integer into a string** `char` by running the `.chr` method on it.
 ```ruby
 (65).chr
 # => 'A'
 ```
+You can **split single strings over multiple lines** by using backslash outside of the string new-line separators.
+```r
 ## Booleans
 You can assign the output of a boolean operation directly from a bool.
 ```ruby
@@ -23,6 +25,7 @@ If you want to **return a single value from an array based on some condition** u
 # => 3
 # Select as well for comparison
 [1, 2, 3].select { |n| n == 3 }
+# => [3]
 ```
 
 ## Hashes
@@ -222,11 +225,11 @@ ENV.select  { |key ,value | key.size < 4  }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA5NTk3NTIsLTMzNDM1OTMwOCwtOT
-g3NDY3NjIzLC04NzQ3NzEyNTUsLTE5NzIxNzEzNjUsMTA0NjE2
-NDQ2LDk5MTY4MTA1NCwtMTIxMzk4ODU0MCwtMjkyMjE3NDI5LD
-k1NzU4ODA4MywxNDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1
-NjcsMTI5Nzk3Njc0OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNT
-kzMjM2MDQ5LDIwNjgzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1
-MjcwNDFdfQ==
+eyJoaXN0b3J5IjpbOTExNjAwMjc5LC0zMzQzNTkzMDgsLTk4Nz
+Q2NzYyMywtODc0NzcxMjU1LC0xOTcyMTcxMzY1LDEwNDYxNjQ0
+Niw5OTE2ODEwNTQsLTEyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NT
+c1ODgwODMsMTQ5NTg3NDUxLDE2MDkwMjY0MTYsOTYxMDU3NTY3
+LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0ODQ5NTc0NSwtMTU5Mz
+IzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MTA1OTg1LC0xMTU5NTI3
+MDQxXX0=
 -->
