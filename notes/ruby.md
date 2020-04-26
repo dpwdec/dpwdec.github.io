@@ -204,13 +204,16 @@ You can **return a list of environment variable keys** using the `.keys` method.
 ```ruby
 ENV.keys
 ```
-Y
+You can even **iterate through the `ENV` object's entries**.
+```ruby
+ENV.select  { |key ,value | key.size < 4  }
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzc3MDMzLC05ODc0Njc2MjMsLTg3ND
-c3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0NDYsOTkxNjgxMDU0
-LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOTU3NTg4MDgzLDE0OT
-U4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2NywxMjk3OTc2NzQ5
-LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OTMyMzYwNDksMjA2OD
-M1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUyNzA0MV19
+eyJoaXN0b3J5IjpbLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04Nz
+Q3NzEyNTUsLTE5NzIxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4MTA1
+NCwtMTIxMzk4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxND
+k1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3Njc0
+OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5LDIwNj
+gzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1MjcwNDFdfQ==
 -->
