@@ -25,7 +25,10 @@ key_object = Object.new
 my_hash = Hash.new
 my_hash[key_object] = 1
 ```
-
+You can **use the `inject` method with a hash to create a cumulative count of its values**. This works by
+```ruby
+my_hash = {"one" => 1, "two" => 2, "three => 3" 
+```
 
 ## Objects
 You can **call an object method by name** by using `send` to push the method to an object as a message instead of calling it directly with the `.` syntax.
@@ -210,10 +213,11 @@ ENV.select  { |key ,value | key.size < 4  }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04Nz
-Q3NzEyNTUsLTE5NzIxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4MTA1
-NCwtMTIxMzk4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxND
-k1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3Njc0
-OSwtODIyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5LDIwNj
-gzNTAzMzQsLTExMjUxMDU5ODUsLTExNTk1MjcwNDFdfQ==
+eyJoaXN0b3J5IjpbMTUyODU0MTk4MiwtMzM0MzU5MzA4LC05OD
+c0Njc2MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0
+NDYsOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOT
+U3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2
+NywxMjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OT
+MyMzYwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUy
+NzA0MV19
 -->
