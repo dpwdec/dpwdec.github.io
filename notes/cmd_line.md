@@ -1,4 +1,9 @@
-
+---
+layout: page
+exclude: true
+title: Command Line
+---
+### Environment Variables
 You can **permanently** add environment variables to all future bash terminal sessions for a user by editing the `bash.rc` file in the user's `$HOME` directory. This is done using the `export` keyword.
 ```
 /.bash.rc
@@ -12,5 +17,5 @@ If the environment **still don't load after restarting** you can force the termi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM5MDQ0Njg2XX0=
+eyJoaXN0b3J5IjpbNjg3OTY2MTk1LDIzOTA0NDY4Nl19
 -->
