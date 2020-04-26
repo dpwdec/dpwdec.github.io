@@ -87,6 +87,10 @@ set_2 = Set[3, 4]
 set_2.subset?(set_1) # => true
 set_1.subset?(set_2) # => false
 ```
+
+## Methods
+You can submit to a splat operator via a an array by appending the array with an `*` asterisk.
+
 ## Gems
 Gems are pieces of reusable code that can be installed inside your ruby projects. 
 
@@ -232,11 +236,11 @@ ENV.select  { |key ,value | key.size < 4  }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05OD
-c0Njc2MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0
-NDYsOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOT
-U3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2
-NywxMjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OT
-MyMzYwNDksMjA2ODM1MDMzNCwtMTEyNTEwNTk4NSwtMTE1OTUy
-NzA0MV19
+eyJoaXN0b3J5IjpbMTQ4OTIxNjE5MiwtMTk1MzYxNzE2LC0zMz
+QzNTkzMDgsLTk4NzQ2NzYyMywtODc0NzcxMjU1LC0xOTcyMTcx
+MzY1LDEwNDYxNjQ0Niw5OTE2ODEwNTQsLTEyMTM5ODg1NDAsLT
+I5MjIxNzQyOSw5NTc1ODgwODMsMTQ5NTg3NDUxLDE2MDkwMjY0
+MTYsOTYxMDU3NTY3LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0OD
+Q5NTc0NSwtMTU5MzIzNjA0OSwyMDY4MzUwMzM0LC0xMTI1MTA1
+OTg1XX0=
 -->
