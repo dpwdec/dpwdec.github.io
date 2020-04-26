@@ -25,7 +25,7 @@ key_object = Object.new
 my_hash = Hash.new
 my_hash[key_object] = 1
 ```
-You can **use the `inject` method with a hash to create a cumulative count of its values**. This works by the block variables coming in 
+You can **use the `inject` method with a hash to create a cumulative count of its values**. This works by the block variables coming in the form of an accumulator variable and a hash variable which represents the key-value pair in an array for that iteration through the loop. In the example below on the first iteration through `|count|` will equal `0` and `|hash|` will be an array of `["one", 1]` so 
 ```ruby
 my_hash = { "one" => 1, "two" => 2, "three => 3" }
 my_hash.inject(0) { |count, hash| count + hash[1] }
@@ -215,7 +215,7 @@ ENV.select  { |key ,value | key.size < 4  }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTIyMjAyOSwtMzM0MzU5MzA4LC05OD
+eyJoaXN0b3J5IjpbMTkxODU1NjQ0MiwtMzM0MzU5MzA4LC05OD
 c0Njc2MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0
 NDYsOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOT
 U3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2
