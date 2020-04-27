@@ -72,7 +72,7 @@ www.some-website.com/about?name=tog&age=300
 ```
 The example above sends a request to the `some-website` url as well as two key-value pairs. This is method of sending data directly via the url **can only be used with a `GET` request**. When submitting from a form or other source using a `GET` request the data sent by the client will be appended to the url when sent. For example, an HTML form with `GET` as its submit method will append the data submitted with the form to the url that it points to.
 
-By contrast the `POST` method **adds r**
+By contrast the `POST` method **adds query data to the body of the HTTP request**. Usually this query body would be empty, but when using `POST`, an HTTP method designed for sending data, the data is wrapped in the body of the request. This also means that **data sent with `POST` is obscured from the destination URL**.
 
 ## DNS
 DNS or **Domain Name Servers** are a way of translating the nice readable URL address of a website that the client wants to visit into a real, unique server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
@@ -92,7 +92,7 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDk1ODE0NSw4NzUyNzE2ODgsLTgxMD
+eyJoaXN0b3J5IjpbMjA4OTE4NDQyNyw4NzUyNzE2ODgsLTgxMD
 k5OTIxNSw1NzQ1ODA3LDE4NzczMDY4ODAsLTY1MDI0NjUwMywt
 MTYyMjkzODMyNSw4NjExOTY0MjIsMTc1OTI4NjUyOCw3NjA5Nj
 g1NTcsLTE0OTA5NjYyOSwyMTE2NjU5NjU3LC02MjgyMDY3NDYs
