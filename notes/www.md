@@ -104,12 +104,17 @@ You can make an HTTP request that also **displays the data for outgoing request*
 ```
 http -v https://www.google.co.uk/
 ```
+You can **make a `POST` request** using the `-f` flag with the `POST` keyword and submit key-value pairs after the url.
+```
+http -f POST https://some-website.com/ key=value
+```
+
 ## Telnet
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTgxNTM3NCw4NzUyNzE2ODgsLTgxMD
+eyJoaXN0b3J5IjpbMTY3OTkyODEwNyw4NzUyNzE2ODgsLTgxMD
 k5OTIxNSw1NzQ1ODA3LDE4NzczMDY4ODAsLTY1MDI0NjUwMywt
 MTYyMjkzODMyNSw4NjExOTY0MjIsMTc1OTI4NjUyOCw3NjA5Nj
 g1NTcsLTE0OTA5NjYyOSwyMTE2NjU5NjU3LC02MjgyMDY3NDYs
