@@ -15,7 +15,8 @@ A **client** can be an application such as a web browser, but it can also be ano
 When sending an HTTP request the client sends a text string containing a request for a specific resource to a URL as well as information about how they want to interact with the resource.
 
 How the client interacts with a particularly resource is communicated using the **request method**. There are several different types of **request method**, however the most common four are `GET`, `POST`, `PUT` and `DELETE`:
-- `GET` requests simply return a resource unchanged. Re
+- `GET` requests simply return a resource unchanged. Requesting the code for a page from a URL such as [https://www.youtube.com/](https://www.youtube.com/) for example.
+- `POST` requests send data to the server for storage
 
 You can **view the HTTP request method for a particular resource** by using the Chrome Development Tools in the `Network` tab and viewing the `Headers` section of a request. 
 
@@ -38,7 +39,7 @@ http status dogs
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTQxNDUzNTgsMjExNjY1OTY1NywtNj
-I4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxNDg3ODEwLDkzMDY3NjQ0
-NywxNjQwMjc5MTcsLTIxNDQyMDA5MjddfQ==
+eyJoaXN0b3J5IjpbNTAyNzA1ODAwLDIxMTY2NTk2NTcsLTYyOD
+IwNjc0Niw2NDIwNzAzNjUsMTc5MTQ4NzgxMCw5MzA2NzY0NDcs
+MTY0MDI3OTE3LC0yMTQ0MjAwOTI3XX0=
 -->
