@@ -46,14 +46,14 @@ You can **view the HTTP request method, status codes and body for a particular r
 HTTP is an **application protocol** and is based on TCP/IP or **Transport Control Protocol / Internet Protocol** which is a **communication protocol** or **transport protocol**. It is important to keep this distinction in mind as TCP/IP is designed for transferring data whereas HTTP is designed to allow applications to format data in an effective way and share it between each other.
 
 ## DNS
-DNS or **Domain Name Servers** are a way of translating the address the client wants to visit into a real server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
+DNS or **Domain Name Servers** are a way of translating the nice readable URL address of a website that the client wants to visit into a real, unique server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
 
 ### Telnet
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODA1ODQ1OCw4NjExOTY0MjIsMTc1OT
-I4NjUyOCw3NjA5Njg1NTcsLTE0OTA5NjYyOSwyMTE2NjU5NjU3
-LC02MjgyMDY3NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNj
-c2NDQ3LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
+eyJoaXN0b3J5IjpbLTE2MjI5MzgzMjUsODYxMTk2NDIyLDE3NT
+kyODY1MjgsNzYwOTY4NTU3LC0xNDkwOTY2MjksMjExNjY1OTY1
+NywtNjI4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxNDg3ODEwLDkzMD
+Y3NjQ0NywxNjQwMjc5MTcsLTIxNDQyMDA5MjddfQ==
 -->
