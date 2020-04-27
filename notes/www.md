@@ -53,6 +53,7 @@ You can **view the HTTP request method, status codes and body for a particular r
 
 ### Headers
 
+
 ### Protocol Type
 
 HTTP is an **application protocol** and is based on TCP/IP or **Transport Control Protocol / Internet Protocol** which is a **communication protocol** or **transport protocol**. It is important to keep this distinction in mind as TCP/IP is designed for transferring data whereas HTTP is designed to allow applications to format data in an effective way and share it between each other.
@@ -78,9 +79,9 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0NTgwNywxODc3MzA2ODgwLC02NTAyND
-Y1MDMsLTE2MjI5MzgzMjUsODYxMTk2NDIyLDE3NTkyODY1Mjgs
-NzYwOTY4NTU3LC0xNDkwOTY2MjksMjExNjY1OTY1NywtNjI4Mj
-A2NzQ2LDY0MjA3MDM2NSwxNzkxNDg3ODEwLDkzMDY3NjQ0Nywx
-NjQwMjc5MTcsLTIxNDQyMDA5MjddfQ==
+eyJoaXN0b3J5IjpbLTc4OTI3NTU1LDU3NDU4MDcsMTg3NzMwNj
+g4MCwtNjUwMjQ2NTAzLC0xNjIyOTM4MzI1LDg2MTE5NjQyMiwx
+NzU5Mjg2NTI4LDc2MDk2ODU1NywtMTQ5MDk2NjI5LDIxMTY2NT
+k2NTcsLTYyODIwNjc0Niw2NDIwNzAzNjUsMTc5MTQ4NzgxMCw5
+MzA2NzY0NDcsMTY0MDI3OTE3LC0yMTQ0MjAwOTI3XX0=
 -->
