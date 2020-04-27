@@ -66,7 +66,11 @@ Host: some-website.com
 HTTP is an **application protocol** and is based on TCP/IP or **Transport Control Protocol / Internet Protocol** which is a **communication protocol** or **transport protocol**. It is important to keep this distinction in mind as TCP/IP is designed for transferring data whereas HTTP is designed to allow applications to format data in an effective way and share it between each other.
 
 ### Queries
-When you send an HTTP request you can submit data with your request by appending it to outgoing URL. This called a query. Queries are structured using **key-value pairs**.
+When you send an HTTP request you can submit data with your request by appending it to outgoing URL. This called a query. Queries are structured using **key-value pairs**. They are initiated with `?` question mark and multiple value pairs are separated with an `&` ampersand.
+```
+www.some-website.com/about?name=tog&age=300
+```
+The example above sends a
 
 ## DNS
 DNS or **Domain Name Servers** are a way of translating the nice readable URL address of a website that the client wants to visit into a real, unique server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
@@ -86,7 +90,7 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5NjQwMDgxLC04MTA5OTkyMTUsNTc0NT
+eyJoaXN0b3J5IjpbODc1MjcxNjg4LC04MTA5OTkyMTUsNTc0NT
 gwNywxODc3MzA2ODgwLC02NTAyNDY1MDMsLTE2MjI5MzgzMjUs
 ODYxMTk2NDIyLDE3NTkyODY1MjgsNzYwOTY4NTU3LC0xNDkwOT
 Y2MjksMjExNjY1OTY1NywtNjI4MjA2NzQ2LDY0MjA3MDM2NSwx
