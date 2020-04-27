@@ -20,7 +20,8 @@ Web requests work by using the above components to send information.
 - Next the client retrieves the IP address of the location of the server they are trying to send a request to from the `DNS`.
 - Next the client sends their request using `TCP/IP` to the destination server.
 - The server receives the request and serves a resource based on it as another response HTTP document.
-- This document is sent back to the client via th
+- This document is sent back to the client via `TCP/IP`
+- When the client receives the HTTP response it is displayed or used in some way.
 ![enter image description here](https://lh3.googleusercontent.com/xfaaNyJZZRn5n9H76o_Z2g9MGthn0tdN0_vhQXIdgzWhOz28VVXrLccvJEgr9_W388oTpUGT_bAMkgEnvWbO-szlpPznm3RoyDw95CT1A70m3mMBTz4-5DWxjZX2iYF5NomfwTbx4b0HAYkq51lI_SGyFi-OV2XLTdtblBLwoun6HNRVUjsc9EkY83N3TUm-6QkYbsnLRzBuHIe2tkrd2icnO381Nvy7aFiv5TWy6CJ1pRdtJCNnO8N_OV1WdpP7bgZLAzsYY9HwOX6wgujkRhcA3DXaUQao0XInYkql24fdSkmkUR0HsyUEqLWtqjOzv4MIE-vAgzUXSbx9upGU8R7D15m6PQ0qspdytWopAbY9NL-135qEw-YU_4XNPqgqnd0KgHbFSac6fkag3Ljzq6w_HTlFhw7VgzEe5JPGC1zkSTA8x-HbPu43COwLsmakTL8aHKjWFlXFATh_cIDIw4m0-xUh_lMC9taPqm3eXU9MR6eVwELVZAi6gUVCJfGQxMt5vDfVXaEfbyR3eWfvho73huiws5sLnENZ4_CUstkLOhst3CqCnNQ70WYg7BYIcobXWiV_LoVVG_SVZrgJyTvFZzKV5q5352fMUCXKgVC9BNXDVeQz-EOUCgW-WYVNtbW8UUtEPkbgcOzRuCJTrDtunke6GDZT26vKvQAsBA0bGm_Bnczvz1LoHoBY6g=w686-h406-no)
 
 ## HTTP
@@ -28,7 +29,7 @@ HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applicati
 
 A **client** can be an application such as a web browser, but it can also be another server or API call requesting data for some other purpose or even the command line, such as in the case of the `cURL` command. The essential structuring distinction here is that [one party requests and the other responds](#request-response-cycle).
 
-Hypertext is a structured document that uses **hyperlinks** between nodes. HTML or **Hyper Text Markup Language** is used to manipulate the hypertext so that the `client` can request different types of media (such as images, text or data) from the server. This information about the type of request such as the **request method**, HTTP version, or resource needed is contained in the **HTTP header** for the client's request the body of which will be empty. The server then replies with its own HTTP document containing the **status code** in the header and the resource in the body of the document.
+Hypertext is a structured document based around the use of **hyperlinks** between nodes. HTML or **Hyper Text Markup Language** is used to manipulate the hypertext so that the `client` can request different types of media (such as images, text or data) from the server. This information about the type of request such as the **request method**, HTTP version, or resource needed is contained in the **HTTP header** for the client's request the body of which will be empty. The server then replies with its own HTTP document containing the **status code** in the header and the resource in the body of the document.
 
 ![enter image description here](https://mdn.mozillademos.org/files/13827/HTTPMsgStructure2.png)
 
@@ -61,9 +62,9 @@ DNS or **Domain Name Servers** are a way of translating the nice readable URL ad
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4MzMxNjA0LC02NTAyNDY1MDMsLTE2Mj
-I5MzgzMjUsODYxMTk2NDIyLDE3NTkyODY1MjgsNzYwOTY4NTU3
-LC0xNDkwOTY2MjksMjExNjY1OTY1NywtNjI4MjA2NzQ2LDY0Mj
-A3MDM2NSwxNzkxNDg3ODEwLDkzMDY3NjQ0NywxNjQwMjc5MTcs
-LTIxNDQyMDA5MjddfQ==
+eyJoaXN0b3J5IjpbMTU1NjA0MTAsLTY1MDI0NjUwMywtMTYyMj
+kzODMyNSw4NjExOTY0MjIsMTc1OTI4NjUyOCw3NjA5Njg1NTcs
+LTE0OTA5NjYyOSwyMTE2NjU5NjU3LC02MjgyMDY3NDYsNjQyMD
+cwMzY1LDE3OTE0ODc4MTAsOTMwNjc2NDQ3LDE2NDAyNzkxNywt
+MjE0NDIwMDkyN119
 -->
