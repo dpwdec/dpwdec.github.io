@@ -29,7 +29,7 @@ HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applicati
 
 A **client** can be an application such as a web browser, but it can also be another server or API call requesting data for some other purpose or even the command line, such as in the case of the `cURL` command. The essential structuring distinction here is that [one party requests and the other responds](#request-response-cycle).
 
-Hypertext is a structured document based around the use of **hyperlinks** between nodes. HTML or **Hyper Text Markup Language** is used to manipulate the hypertext so that the `client` can request different types of media (such as images, text or data) from the server. This information about the type of request such as the **request method**, HTTP version, or resource needed is contained in the **HTTP header** for the client's request the body of which will be empty. The server then replies with its own HTTP document containing the **status code** in the header and the resource in the body of the document.
+Hypertext is a structured document based around the use of **hyperlinks** between nodes. HTML or **Hyper Text Markup Language** is used to manipulate the hypertext so that the `client` can request different types of media (such as images, text or data) from the server. This information about the type of request such as the **request method**, HTTP version, or resource needed is contained in the **HTTP header** for the client's request, in the body of the client request is other data that the server might use (such as when submitting a form) but often this can be empty. The server then replies with its own HTTP document containing the **status code** in the header and the resource in the body of the document.
 
 ![enter image description here](https://mdn.mozillademos.org/files/13827/HTTPMsgStructure2.png)
 
@@ -62,9 +62,9 @@ DNS or **Domain Name Servers** are a way of translating the nice readable URL ad
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjA0MTAsLTY1MDI0NjUwMywtMTYyMj
-kzODMyNSw4NjExOTY0MjIsMTc1OTI4NjUyOCw3NjA5Njg1NTcs
-LTE0OTA5NjYyOSwyMTE2NjU5NjU3LC02MjgyMDY3NDYsNjQyMD
-cwMzY1LDE3OTE0ODc4MTAsOTMwNjc2NDQ3LDE2NDAyNzkxNywt
-MjE0NDIwMDkyN119
+eyJoaXN0b3J5IjpbMTg3NzMwNjg4MCwtNjUwMjQ2NTAzLC0xNj
+IyOTM4MzI1LDg2MTE5NjQyMiwxNzU5Mjg2NTI4LDc2MDk2ODU1
+NywtMTQ5MDk2NjI5LDIxMTY2NTk2NTcsLTYyODIwNjc0Niw2ND
+IwNzAzNjUsMTc5MTQ4NzgxMCw5MzA2NzY0NDcsMTY0MDI3OTE3
+LC0yMTQ0MjAwOTI3XX0=
 -->
