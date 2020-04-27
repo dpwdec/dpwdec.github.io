@@ -12,6 +12,8 @@ HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applicati
 
 Hypertext is a structured document that uses **hyperlinks** between nodes. HTML or **Hyper Text Markup Language** is used to manipulate the hypertext so that the `client` can request different types of media (such as images, text or data) from the server.
 
+HTTP resources are identified using a **URL** or **Uniform Resource Locator** that points to where the Hypertext is stored over the internet.
+
 
 HTTP is an **application protocol** and is based on TCP/IP which is a **communication protocol** or **transport protocol**. It is important to keep this distinction in mind as TCP/IP is designed for transferring data whereas HTTP is designed to allow applications to format data in an effective way and share it between each other.
 
@@ -27,7 +29,7 @@ http status dogs
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTk0MzA5NzcsLTYyODIwNjc0Niw2ND
-IwNzAzNjUsMTc5MTQ4NzgxMCw5MzA2NzY0NDcsMTY0MDI3OTE3
-LC0yMTQ0MjAwOTI3XX0=
+eyJoaXN0b3J5IjpbLTk0NjM0ODEsLTYyODIwNjc0Niw2NDIwNz
+AzNjUsMTc5MTQ4NzgxMCw5MzA2NzY0NDcsMTY0MDI3OTE3LC0y
+MTQ0MjAwOTI3XX0=
 -->
