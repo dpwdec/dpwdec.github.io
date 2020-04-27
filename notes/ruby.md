@@ -226,7 +226,10 @@ my_directory
 ├── classes/
      └── my_class.rb
 ```
-
+You can **`require` multiple classes in the irb** simultaneously by requiring them with the following snippet of code.
+```
+Dir["/path/to/directory/*.rb"].each {|file| require file }
+```
 
 ## Environment Variables
 You can **access environment variables** in Ruby using the `ENV` object. This works just like a hash where you submit the name of the environment variable as a string to retrieve its value.
@@ -247,11 +250,11 @@ ENV.select  { |key ,value | key.size < 4  }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzE4MjU4MywxNDg5MjE2MTkyLC0xOT
-UzNjE3MTYsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04NzQ3NzEy
-NTUsLTE5NzIxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4MTA1NCwtMT
-IxMzk4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxNDk1ODc0
-NTEsMTYwOTAyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3Njc0OSwtOD
-IyNTE4NDcsMTQ4NDk1NzQ1LC0xNTkzMjM2MDQ5LDIwNjgzNTAz
-MzRdfQ==
+eyJoaXN0b3J5IjpbMTMyODE2MjQ0OCwxNDczMTgyNTgzLDE0OD
+kyMTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05ODc0Njc2
+MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0NDYsOT
+kxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOTU3NTg4
+MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2LDk2MTA1NzU2NywxMj
+k3OTc2NzQ5LC04MjI1MTg0NywxNDg0OTU3NDUsLTE1OTMyMzYw
+NDldfQ==
 -->
