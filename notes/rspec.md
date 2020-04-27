@@ -59,7 +59,7 @@ project/
 For example, in the above file structure if we were running out tests from the `project` directory directly and we had code in `my_app.rb` file that loads resources from `my_resource.json` file we could use the `__FILE__` attribute with the `File` class and the name of the file appended. However, if we wanted to load the `another_resource.json` file we would need to reference it relative to the `my_app.rb` file because this is where the `__FILE__` path points.
 ```ruby
 path = File.dirname(__FILE__)
-my_resource = File.open(path + '/restaurants.json')
+my_resource = File.open(path + '/my_resource.json')
 ```
 
 ## Core
@@ -778,11 +778,11 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODk2MjUzNSw4NTMxMzA2MjQsNzY2NT
-g2Nzc3LDIwMDc1Mjg1NDEsMTk5MTAzMjYxMCwtNjY5Mzk2MTg1
-LDI2NTY0MTQ1NywtODg2NzQ0NDk5LDE3MTY4MjA0MjQsLTk0Nj
-E2Mjk3MSwxNjc1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUx
-MDUsLTExNjg2MjIxMjAsNTU2NjU0NTAsMTEwNTUxNDUzMSwxND
-E1MTY3OTA0LC02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5
-MTYxXX0=
+eyJoaXN0b3J5IjpbLTE1MjQ2Njc3NzIsODUzMTMwNjI0LDc2Nj
+U4Njc3NywyMDA3NTI4NTQxLDE5OTEwMzI2MTAsLTY2OTM5NjE4
+NSwyNjU2NDE0NTcsLTg4Njc0NDQ5OSwxNzE2ODIwNDI0LC05ND
+YxNjI5NzEsMTY3NTIwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1
+MTA1LC0xMTY4NjIyMTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMT
+QxNTE2NzkwNCwtNjE3MjIxMjU5LC0xOTc3NzUzMzUwLDM4MDc0
+OTE2MV19
 -->
