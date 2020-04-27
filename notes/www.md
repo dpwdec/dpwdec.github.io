@@ -51,9 +51,14 @@ If the request worked the server also returns a **message body** which contains 
 
 You can **view the HTTP request method, status codes and body for a particular resource/request** by using the Chrome Development Tools in the `Network` tab and viewing the `Headers` section of a request. 
 
+### Headers
+
 ### Protocol Type
 
 HTTP is an **application protocol** and is based on TCP/IP or **Transport Control Protocol / Internet Protocol** which is a **communication protocol** or **transport protocol**. It is important to keep this distinction in mind as TCP/IP is designed for transferring data whereas HTTP is designed to allow applications to format data in an effective way and share it between each other.
+
+## HTTP Methods in depth
+
 
 ## DNS
 DNS or **Domain Name Servers** are a way of translating the nice readable URL address of a website that the client wants to visit into a real, unique server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
@@ -64,15 +69,18 @@ HTTpie can be used to make HTTP requests to urls the command line. You can **mak
 ```
 http https://www.google.co.uk/
 ```
-You can make an HTTP request that also displays the data for outgoing request by using 
+You can make an HTTP request that also **displays the data for outgoing request** by using the `-v` flag.
+```
+http -v https://www.google.co.uk/
+```
 ## Telnet
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3NjExOTgzLDE4NzczMDY4ODAsLTY1MD
-I0NjUwMywtMTYyMjkzODMyNSw4NjExOTY0MjIsMTc1OTI4NjUy
-OCw3NjA5Njg1NTcsLTE0OTA5NjYyOSwyMTE2NjU5NjU3LC02Mj
-gyMDY3NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNjc2NDQ3
-LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
+eyJoaXN0b3J5IjpbLTIwODA2MTA5MzUsMTg3NzMwNjg4MCwtNj
+UwMjQ2NTAzLC0xNjIyOTM4MzI1LDg2MTE5NjQyMiwxNzU5Mjg2
+NTI4LDc2MDk2ODU1NywtMTQ5MDk2NjI5LDIxMTY2NTk2NTcsLT
+YyODIwNjc0Niw2NDIwNzAzNjUsMTc5MTQ4NzgxMCw5MzA2NzY0
+NDcsMTY0MDI3OTE3LC0yMTQ0MjAwOTI3XX0=
 -->
