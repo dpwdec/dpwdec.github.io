@@ -16,7 +16,7 @@ When sending an HTTP request the client sends a text string containing a request
 
 How the client interacts with a particularly resource is communicated using the **request method**. There are several different types of **request method**, however the most common four are `GET`, `POST`, `PUT` and `DELETE`:
 
-You can **view the HTTP request method for a particular resource** by using the Chrome Development Tools in the `netowkr`
+You can **view the HTTP request method for a particular resource** by using the Chrome Development Tools in the `network` tab and viewing the 
 
 HTTP resources are identified using a **URL** or **Uniform Resource Locator** that points to where the Hypertext is stored over the internet.
 
@@ -37,7 +37,7 @@ http status dogs
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjI3NDg0NCwyMTE2NjU5NjU3LC02Mj
+eyJoaXN0b3J5IjpbMjAxNDcxNzIxMiwyMTE2NjU5NjU3LC02Mj
 gyMDY3NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNjc2NDQ3
 LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
 -->
