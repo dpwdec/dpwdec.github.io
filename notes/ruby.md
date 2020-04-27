@@ -226,7 +226,7 @@ my_directory
 ├── classes/
      └── my_class.rb
 ```
-You can **`require` multiple classes in the irb** simultaneously by requiring them with the following snippet of code.
+You can **`require` multiple classes in the irb** simultaneously by requiring them with the following snippet of code. This finds all files with the `.rb` extension and loads them.
 ```
 Dir["/path/to/directory/*.rb"].each {|file| require file }
 ```
@@ -250,7 +250,7 @@ ENV.select  { |key ,value | key.size < 4  }
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyODE2MjQ0OCwxNDczMTgyNTgzLDE0OD
+eyJoaXN0b3J5IjpbLTU4OTMxODE5MCwxNDczMTgyNTgzLDE0OD
 kyMTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05ODc0Njc2
 MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0NDYsOT
 kxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOTU3NTg4
