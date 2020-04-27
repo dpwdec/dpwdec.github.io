@@ -12,11 +12,9 @@ HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applicati
 
 A **client** can be an application such as a web browser, but it can also be another server or API call requesting data for some other purpose or even the command line, such as in the case of the `cURL` command. The essential structuring distinction here is that [one party requests and the other responds](#request-response-cycle).
 
-Hypertext is a structured document that uses **hyperlinks** between nodes. HTML or **Hyper Text Markup Language** is used to manipulate the hypertext so that the `client` can request different types of media (such as images, text or data) from the server.
+Hypertext is a structured document that uses **hyperlinks** between nodes. HTML or **Hyper Text Markup Language** is used to manipulate the hypertext so that the `client` can request different types of media (such as images, text or data) from the server. Information about what re
 
-The information
-
-When sending an HTTP request the client sends a text string containing a request for a specific resource to a URL as well as information about how they want to interact with the resource. HTTP resources are identified using a **URL** or **Uniform Resource Locator** that points to where the Hypertext is stored over the internet. You can also use an IP address to identify a server but URLs are much more user friendly.
+When sending an HTTP request the client sends a text string containing a request for a specific resource to a URL as well as information about how they want to interact with the resource. HTTP resources are identified using a **URL** or **Uniform Resource Locator** that points to where the Hypertext is stored over the internet. You can also use an IP address to identify a server but URLs are much more user friendly. 
 
 How the client interacts with a particularly resource when they make a request is communicated using the **request method**. There are several different types of **request method**, however the most common four are `GET`, `POST`, `PUT` and `DELETE`:
 - `GET` requests simply return a resource unchanged. Requesting the code for a page from a URL such as [https://www.youtube.com/](https://www.youtube.com/) for example.
@@ -38,7 +36,7 @@ HTTP is an **application protocol** and is based on TCP/IP which is a **communic
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NjY3MTc2LC0xNDkwOTY2MjksMjExNj
-Y1OTY1NywtNjI4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxNDg3ODEw
-LDkzMDY3NjQ0NywxNjQwMjc5MTcsLTIxNDQyMDA5MjddfQ==
+eyJoaXN0b3J5IjpbMTAyNzA5NDA5MywtMTQ5MDk2NjI5LDIxMT
+Y2NTk2NTcsLTYyODIwNjc0Niw2NDIwNzAzNjUsMTc5MTQ4Nzgx
+MCw5MzA2NzY0NDcsMTY0MDI3OTE3LC0yMTQ0MjAwOTI3XX0=
 -->
