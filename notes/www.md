@@ -52,7 +52,10 @@ If the request worked the server also returns a **message body** which contains 
 You can **view the HTTP request method, status codes and body for a particular resource/request** by using the Chrome Development Tools in the `Network` tab and viewing the `Headers` section of a request. 
 
 ### Headers
-
+#### Request Header
+The HTTP request header contains a **method**, a **url extension**
+```
+```
 
 ### Protocol Type
 
@@ -79,9 +82,9 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTI3NTU1LDU3NDU4MDcsMTg3NzMwNj
-g4MCwtNjUwMjQ2NTAzLC0xNjIyOTM4MzI1LDg2MTE5NjQyMiwx
-NzU5Mjg2NTI4LDc2MDk2ODU1NywtMTQ5MDk2NjI5LDIxMTY2NT
-k2NTcsLTYyODIwNjc0Niw2NDIwNzAzNjUsMTc5MTQ4NzgxMCw5
-MzA2NzY0NDcsMTY0MDI3OTE3LC0yMTQ0MjAwOTI3XX0=
+eyJoaXN0b3J5IjpbLTE3MjY2MDc4Miw1NzQ1ODA3LDE4NzczMD
+Y4ODAsLTY1MDI0NjUwMywtMTYyMjkzODMyNSw4NjExOTY0MjIs
+MTc1OTI4NjUyOCw3NjA5Njg1NTcsLTE0OTA5NjYyOSwyMTE2Nj
+U5NjU3LC02MjgyMDY3NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAs
+OTMwNjc2NDQ3LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
 -->
