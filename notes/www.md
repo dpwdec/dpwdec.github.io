@@ -13,7 +13,6 @@ Several different components make up a web request. If we image the client and s
 - **TCP/IP** are transport mechanisms that move data between a client and server.  They are like a car.
 - **DNS** is used to look up where the server the client is trying to contact is. This is like an address book.
 - **HTTP** is a protocol that defines how the client and server communicate with each other. This like the language you use to request goods once you reach a location.
-- 
 
 ## HTTP
 HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applications to communicate across the web. HTTP is structured on a **client** and **server** relationship in which hypertext documents are exchanged between the two parties. 
@@ -46,12 +45,15 @@ You can **view the HTTP request method, status codes and body for a particular r
 
 HTTP is an **application protocol** and is based on TCP/IP or **Transport Control Protocol / Internet Protocol** which is a **communication protocol** or **transport protocol**. It is important to keep this distinction in mind as TCP/IP is designed for transferring data whereas HTTP is designed to allow applications to format data in an effective way and share it between each other.
 
+## DNS
+DNS or **Domain Name Servers** are a way of translating the address you want to visit into a real server IP that can be visited. Some where the website you are visiting is running on a physical server that needs to be contacted. The DNS allows you took look up where that server is
+
 ### Telnet
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTY3NjcyMCw4NjExOTY0MjIsMTc1OT
-I4NjUyOCw3NjA5Njg1NTcsLTE0OTA5NjYyOSwyMTE2NjU5NjU3
-LC02MjgyMDY3NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNj
-c2NDQ3LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
+eyJoaXN0b3J5IjpbNzM4NjExMzIyLDg2MTE5NjQyMiwxNzU5Mj
+g2NTI4LDc2MDk2ODU1NywtMTQ5MDk2NjI5LDIxMTY2NTk2NTcs
+LTYyODIwNjc0Niw2NDIwNzAzNjUsMTc5MTQ4NzgxMCw5MzA2Nz
+Y0NDcsMTY0MDI3OTE3LC0yMTQ0MjAwOTI3XX0=
 -->
