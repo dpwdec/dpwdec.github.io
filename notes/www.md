@@ -4,11 +4,11 @@ title: Web Structures
 layout: page
 exclude: true
 ---
-## Request Response Cycle
+## Request / Response Cycle
 The request-response cycle is a **message exchange pattern** used widely on the web in which a caller "requests" something from an answerer who then "responds" with an answer to their request. There may be many intermediaries in this cycle that pass the request or response between themselves before returning it to the original caller. This cycle allows intermediaries to perform value-added functions on the request, such as encryption or compression while still ensuring that the caller with eventually receive a response.
 
 ## HTTP
-HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applications to communicate across the web. HTTP is structured to on a **client** and **server** relationship in which hypertext documents are exchanged between the two parties. A client can be an application such as a web browser, but it can also be another server or API call requesting data for some other purpose. The essential distinction being that [one party requests and the other responds](#request-response-cycle) 
+HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applications to communicate across the web. HTTP is structured to on a **client** and **server** relationship in which hypertext documents are exchanged between the two parties. A client can be an application such as a web browser, but it can also be another server or API call requesting data for some other purpose. The essential distinction being that [one party requests and the other responds](#request-/-response-cycle) 
 
 Hypertext is a structured document that uses **hyperlinks** between nodes. HTML or **Hyper Text Markup Language** is used to manipulate the hypertext so that the `client` can request different types of media (such as images, text or data) from the server.
 
@@ -27,7 +27,7 @@ http status dogs
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTk0MzA5NzcsLTYyODIwNjc0Niw2ND
-IwNzAzNjUsMTc5MTQ4NzgxMCw5MzA2NzY0NDcsMTY0MDI3OTE3
-LC0yMTQ0MjAwOTI3XX0=
+eyJoaXN0b3J5IjpbNTQ0NjI2NzMyLC02MjgyMDY3NDYsNjQyMD
+cwMzY1LDE3OTE0ODc4MTAsOTMwNjc2NDQ3LDE2NDAyNzkxNywt
+MjE0NDIwMDkyN119
 -->
