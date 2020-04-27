@@ -22,7 +22,8 @@ How the client interacts with a particularly resource is communicated using the 
 
 You can **view the HTTP request method for a particular resource** by using the Chrome Development Tools in the `Network` tab and viewing the `Headers` section of a request. 
 
-After a client sends an HTTP request with a method, they will receive a response from the server with a 
+After a client sends an HTTP request with a method, they will receive a response from the server with a **status code** which describes what happened to the request. The two most common **status codes** are `200` and `404`.
+- `202` means everything went "OK" and the request was successful.
 
 HTTP resources are identified using a **URL** or **Uniform Resource Locator** that points to where the Hypertext is stored over the internet.
 
@@ -43,7 +44,7 @@ http status dogs
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODc5MTI3MSwyMTE2NjU5NjU3LC02Mj
+eyJoaXN0b3J5IjpbMjA5MzMxNzA2NSwyMTE2NjU5NjU3LC02Mj
 gyMDY3NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNjc2NDQ3
 LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
 -->
