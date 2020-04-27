@@ -53,8 +53,11 @@ You can **view the HTTP request method, status codes and body for a particular r
 
 ### Headers
 #### Request Header
-The HTTP request header contains a **method**, a **url extension** and a **host**. There are other things in the request but these are the three most important elements.
+The HTTP request header contains a **method**, a **url extension** and a **host**. There are other things in the request but these are the three most important elements. The `/` points to a directory within the host URL, a 
 ```
+GET /about
+...
+Host: some-website.com
 ```
 
 ### Protocol Type
@@ -82,9 +85,10 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDk5OTIxNSw1NzQ1ODA3LDE4NzczMD
-Y4ODAsLTY1MDI0NjUwMywtMTYyMjkzODMyNSw4NjExOTY0MjIs
-MTc1OTI4NjUyOCw3NjA5Njg1NTcsLTE0OTA5NjYyOSwyMTE2Nj
-U5NjU3LC02MjgyMDY3NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAs
-OTMwNjc2NDQ3LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
+eyJoaXN0b3J5IjpbLTQ1MDUyMzQwNiwtODEwOTk5MjE1LDU3ND
+U4MDcsMTg3NzMwNjg4MCwtNjUwMjQ2NTAzLC0xNjIyOTM4MzI1
+LDg2MTE5NjQyMiwxNzU5Mjg2NTI4LDc2MDk2ODU1NywtMTQ5MD
+k2NjI5LDIxMTY2NTk2NTcsLTYyODIwNjc0Niw2NDIwNzAzNjUs
+MTc5MTQ4NzgxMCw5MzA2NzY0NDcsMTY0MDI3OTE3LC0yMTQ0Mj
+AwOTI3XX0=
 -->
