@@ -60,16 +60,19 @@ DNS or **Domain Name Servers** are a way of translating the nice readable URL ad
 
 ## HTTPie
 
-HTTpie can be used to make HTTP requests to urls the command line. You can make a basic HTTP request using `http [some url]`.
-
+HTTpie can be used to make HTTP requests to urls the command line. You can **make a basic HTTP request** using the `http` command. This will return the entire HTTP document for that request including its header meta-data.
+```
+http https://www.google.co.uk/
+```
+You can make an HTTP request that also displays the data for outgoing request by using 
 ## Telnet
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM0NTc0NjYsMTg3NzMwNjg4MCwtNj
-UwMjQ2NTAzLC0xNjIyOTM4MzI1LDg2MTE5NjQyMiwxNzU5Mjg2
-NTI4LDc2MDk2ODU1NywtMTQ5MDk2NjI5LDIxMTY2NTk2NTcsLT
-YyODIwNjc0Niw2NDIwNzAzNjUsMTc5MTQ4NzgxMCw5MzA2NzY0
-NDcsMTY0MDI3OTE3LC0yMTQ0MjAwOTI3XX0=
+eyJoaXN0b3J5IjpbNzk3NjExOTgzLDE4NzczMDY4ODAsLTY1MD
+I0NjUwMywtMTYyMjkzODMyNSw4NjExOTY0MjIsMTc1OTI4NjUy
+OCw3NjA5Njg1NTcsLTE0OTA5NjYyOSwyMTE2NjU5NjU3LC02Mj
+gyMDY3NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNjc2NDQ3
+LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
 -->
