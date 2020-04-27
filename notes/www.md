@@ -13,12 +13,15 @@ HTTP is an **application protocol** and is based on TCP/IP which is a **communic
 
 network tabe chrome dev tools
 
+200 --> ok
+404 --> error
 
+http status dogs
 
 ### Telnet
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTgwNzI4OCwxNzkxNDg3ODEwLDkzMD
-Y3NjQ0NywxNjQwMjc5MTcsLTIxNDQyMDA5MjddfQ==
+eyJoaXN0b3J5IjpbNjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNj
+c2NDQ3LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
 -->
