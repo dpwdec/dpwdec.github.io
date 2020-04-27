@@ -48,8 +48,8 @@ If you load files directly in the code that RSpec test, i.e. with static path na
 ```
 project/
 ├── lib/
-│   └── dpwdec.rb
 │	├── 
+│   └── dpwdec.rb
 ├── spec/
 │   └── test_dpwdec.rb
 ├── 
@@ -772,7 +772,7 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDY4ODMxMCw4NTMxMzA2MjQsNzY2NT
+eyJoaXN0b3J5IjpbLTc5OTY5OTg2MCw4NTMxMzA2MjQsNzY2NT
 g2Nzc3LDIwMDc1Mjg1NDEsMTk5MTAzMjYxMCwtNjY5Mzk2MTg1
 LDI2NTY0MTQ1NywtODg2NzQ0NDk5LDE3MTY4MjA0MjQsLTk0Nj
 E2Mjk3MSwxNjc1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUx
