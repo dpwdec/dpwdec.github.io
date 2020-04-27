@@ -7,6 +7,9 @@ exclude: true
 ## Request Response Cycle
 The request-response cycle is a **message exchange pattern** used widely on the web in which a caller "requests" something from an answerer who then "responds" with an answer to their request. There may be many intermediaries in this cycle that pass the request or response between themselves before returning it to the original caller. This cycle allows intermediaries to perform value-added functions on the request, such as encryption or compression while still ensuring that the caller with eventually receive a response.
 
+## Web Request Components
+Several different components make up a web request. If we image the client and server that communicate through a web request as two locations, the different components are physical elem
+
 ## HTTP
 HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applications to communicate across the web. HTTP is structured on a **client** and **server** relationship in which hypertext documents are exchanged between the two parties. 
 
@@ -42,7 +45,7 @@ HTTP is an **application protocol** and is based on TCP/IP or **Transport Contro
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzY1MzAwNyw4NjExOTY0MjIsMTc1OT
+eyJoaXN0b3J5IjpbMTY1MDk5MTg4Nyw4NjExOTY0MjIsMTc1OT
 I4NjUyOCw3NjA5Njg1NTcsLTE0OTA5NjYyOSwyMTE2NjU5NjU3
 LC02MjgyMDY3NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNj
 c2NDQ3LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
