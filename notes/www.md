@@ -17,10 +17,12 @@ When sending an HTTP request the client sends a text string containing a request
 How the client interacts with a particularly resource is communicated using the **request method**. There are several different types of **request method**, however the most common four are `GET`, `POST`, `PUT` and `DELETE`:
 - `GET` requests simply return a resource unchanged. Requesting the code for a page from a URL such as [https://www.youtube.com/](https://www.youtube.com/) for example.
 - `POST` requests send data new data to the server for storage. Posting a comment a cringey poorly spelt comment on a youtube video for example.
-- `PUT` requests are used for updating existing resources. Editing that comment you just made to correct the basic spelling errors but not reducing its cringiness at all.
+- `PUT` requests are used for updating existing resources. Editing that comment you just made to correct the basic spelling errors but not reducing its cringiness at all for example.
 - `DELETE` requests are used to remove data from the server. Deleting that ill advised and poorly written youtube video comment for example.
 
 You can **view the HTTP request method for a particular resource** by using the Chrome Development Tools in the `Network` tab and viewing the `Headers` section of a request. 
+
+After a client sends an HTTP request with a method, they will receive a response from the server with a 
 
 HTTP resources are identified using a **URL** or **Uniform Resource Locator** that points to where the Hypertext is stored over the internet.
 
@@ -41,7 +43,7 @@ http status dogs
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjk1ODU3OTUsMjExNjY1OTY1NywtNj
-I4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxNDg3ODEwLDkzMDY3NjQ0
-NywxNjQwMjc5MTcsLTIxNDQyMDA5MjddfQ==
+eyJoaXN0b3J5IjpbMTM2ODc5MTI3MSwyMTE2NjU5NjU3LC02Mj
+gyMDY3NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNjc2NDQ3
+LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
 -->
