@@ -70,7 +70,7 @@ When you send an HTTP request you can submit data with your request by appending
 ```
 www.some-website.com/about?name=tog&age=300
 ```
-The example above sends a
+The example above sends a request to the `some-website` url as well as two key-value pairs.
 
 ## DNS
 DNS or **Domain Name Servers** are a way of translating the nice readable URL address of a website that the client wants to visit into a real, unique server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
@@ -90,10 +90,10 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1MjcxNjg4LC04MTA5OTkyMTUsNTc0NT
-gwNywxODc3MzA2ODgwLC02NTAyNDY1MDMsLTE2MjI5MzgzMjUs
-ODYxMTk2NDIyLDE3NTkyODY1MjgsNzYwOTY4NTU3LC0xNDkwOT
-Y2MjksMjExNjY1OTY1NywtNjI4MjA2NzQ2LDY0MjA3MDM2NSwx
-NzkxNDg3ODEwLDkzMDY3NjQ0NywxNjQwMjc5MTcsLTIxNDQyMD
-A5MjddfQ==
+eyJoaXN0b3J5IjpbNzE5MDgzMTc2LDg3NTI3MTY4OCwtODEwOT
+k5MjE1LDU3NDU4MDcsMTg3NzMwNjg4MCwtNjUwMjQ2NTAzLC0x
+NjIyOTM4MzI1LDg2MTE5NjQyMiwxNzU5Mjg2NTI4LDc2MDk2OD
+U1NywtMTQ5MDk2NjI5LDIxMTY2NTk2NTcsLTYyODIwNjc0Niw2
+NDIwNzAzNjUsMTc5MTQ4NzgxMCw5MzA2NzY0NDcsMTY0MDI3OT
+E3LC0yMTQ0MjAwOTI3XX0=
 -->
