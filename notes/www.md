@@ -9,9 +9,11 @@ The request-response cycle is a **message exchange pattern** used widely on the 
 
 ## Web Request Components
 Several different components make up a web request. If we image the client and server that communicate through a web request as two locations, the different components are physical elements that allow you to travel to and from these locations and move goods between them.
-- An **internet connection** is the basic physical basis by which a client and server can communicate. It is like the road linking them.
+- An **internet connection** is the basic physical basis by which a client and server can communicate. This is like the road linking them.
 - **TCP/IP** are transport mechanisms that move data between a client and server.  They are like a car.
-- **DNS** is used to look up where the server the clie
+- **DNS** is used to look up where the server the client is trying to contact is. This is like an address book.
+- **HTTP** is a protocol that defines how the client and server communicate with each other. This like the language you use to request goods once you reach a location.
+- 
 
 ## HTTP
 HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applications to communicate across the web. HTTP is structured on a **client** and **server** relationship in which hypertext documents are exchanged between the two parties. 
@@ -48,8 +50,8 @@ HTTP is an **application protocol** and is based on TCP/IP or **Transport Contro
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjU4ODUxOTMsODYxMTk2NDIyLDE3NT
-kyODY1MjgsNzYwOTY4NTU3LC0xNDkwOTY2MjksMjExNjY1OTY1
-NywtNjI4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxNDg3ODEwLDkzMD
-Y3NjQ0NywxNjQwMjc5MTcsLTIxNDQyMDA5MjddfQ==
+eyJoaXN0b3J5IjpbMTQ3NTY3NjcyMCw4NjExOTY0MjIsMTc1OT
+I4NjUyOCw3NjA5Njg1NTcsLTE0OTA5NjYyOSwyMTE2NjU5NjU3
+LC02MjgyMDY3NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNj
+c2NDQ3LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
 -->
