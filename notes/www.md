@@ -12,7 +12,7 @@ HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applicati
 
 A **client** can be an application such as a web browser, but it can also be another server or API call requesting data for some other purpose or even the command line, such as in the case of the `cURL` command. The essential structuring distinction here is that [one party requests and the other responds](#request-response-cycle).
 
-Hypertext is a structured document that uses **hyperlinks** between nodes. HTML or **Hyper Text Markup Language** is used to manipulate the hypertext so that the `client` can request different types of media (such as images, text or data) from the server. This information about the type of request such as the **request method**, HTTP version, or resource needed is contained in the **HTTP header** for the client's request. The body for this request will be empty. The server then replies with its own HTTP document containing what the client requested.
+Hypertext is a structured document that uses **hyperlinks** between nodes. HTML or **Hyper Text Markup Language** is used to manipulate the hypertext so that the `client` can request different types of media (such as images, text or data) from the server. This information about the type of request such as the **request method**, HTTP version, or resource needed is contained in the **HTTP header** for the client's request the body of which will be empty. The server then replies with its own HTTP document containing what the client requested.
 
 ![enter image description here](https://mdn.mozillademos.org/files/13827/HTTPMsgStructure2.png)
 
@@ -42,8 +42,8 @@ HTTP is an **application protocol** and is based on TCP/IP which is a **communic
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTI4NjUyOCw3NjA5Njg1NTcsLTE0OT
-A5NjYyOSwyMTE2NjU5NjU3LC02MjgyMDY3NDYsNjQyMDcwMzY1
-LDE3OTE0ODc4MTAsOTMwNjc2NDQ3LDE2NDAyNzkxNywtMjE0ND
-IwMDkyN119
+eyJoaXN0b3J5IjpbLTE4NDk4NDM3OTIsMTc1OTI4NjUyOCw3Nj
+A5Njg1NTcsLTE0OTA5NjYyOSwyMTE2NjU5NjU3LC02MjgyMDY3
+NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNjc2NDQ3LDE2ND
+AyNzkxNywtMjE0NDIwMDkyN119
 -->
