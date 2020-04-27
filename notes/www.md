@@ -8,7 +8,7 @@ exclude: true
 The request-response cycle is a **message exchange pattern** used widely on the web in which a caller "requests" something from an answerer who then "responds" with an answer to their request. There may be many intermediaries in this cycle that pass the request or response between themselves before returning it to the original caller. This cycle allows intermediaries to perform value-added functions on the request, such as encryption or compression while still ensuring that the caller with eventually receive a response.
 
 ## HTTP
-HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applications to communicate across the web. HTTP is structured to on a **client** and **server** relationship in which hypertext documents are exchanged between the two parties. 
+HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applications to communicate across the web. HTTP is structured on a **client** and **server** relationship in which hypertext documents are exchanged between the two parties. 
 
 A **client** can be an application such as a web browser, but it can also be another server or API call requesting data for some other purpose or even the command line, such as in the case of the `cURL` command. The essential structuring distinction here is that [one party requests and the other responds](#request-response-cycle).
 
@@ -42,7 +42,8 @@ HTTP is an **application protocol** and is based on TCP/IP which is a **communic
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwOTY4NTU3LC0xNDkwOTY2MjksMjExNj
-Y1OTY1NywtNjI4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxNDg3ODEw
-LDkzMDY3NjQ0NywxNjQwMjc5MTcsLTIxNDQyMDA5MjddfQ==
+eyJoaXN0b3J5IjpbMTc1OTI4NjUyOCw3NjA5Njg1NTcsLTE0OT
+A5NjYyOSwyMTE2NjU5NjU3LC02MjgyMDY3NDYsNjQyMDcwMzY1
+LDE3OTE0ODc4MTAsOTMwNjc2NDQ3LDE2NDAyNzkxNywtMjE0ND
+IwMDkyN119
 -->
