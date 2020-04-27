@@ -60,7 +60,7 @@ For example, in the above file structure if we were running out tests from the `
 ```ruby
 path = File.dirname(__FILE__)
 my_resource = File.open(path + '/my_resource.json')
-another_resource = File.open(path + '/my_resource.json')
+another_resource = File.open(path + '/../resources/another_resource.json')
 ```
 
 ## Core
@@ -779,7 +779,7 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTE3NDMyOCw4NTMxMzA2MjQsNzY2NT
+eyJoaXN0b3J5IjpbMTY4NzAzNTA1MCw4NTMxMzA2MjQsNzY2NT
 g2Nzc3LDIwMDc1Mjg1NDEsMTk5MTAzMjYxMCwtNjY5Mzk2MTg1
 LDI2NTY0MTQ1NywtODg2NzQ0NDk5LDE3MTY4MjA0MjQsLTk0Nj
 E2Mjk3MSwxNjc1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUx
