@@ -12,7 +12,9 @@ HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applicati
 
 A **client** can be an application such as a web browser, but it can also be another server or API call requesting data for some other purpose or even the command line, such as in the case of the `cURL` command. The essential structuring distinction here is that [one party requests and the other responds](#request-response-cycle).
 
-When sending an HTTP request the client sends a text string containing the request to
+When sending an HTTP request the client sends a text string containing a request for a specific resource to a URL as well as information about how they want to interact with the resource.
+
+How the client interacts with a particularly resource is communicated using the **request method**
 
 HTTP resources are identified using a **URL** or **Uniform Resource Locator** that points to where the Hypertext is stored over the internet.
 
@@ -33,7 +35,7 @@ http status dogs
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTExMzg5NiwtNjI4MjA2NzQ2LDY0Mj
+eyJoaXN0b3J5IjpbLTc1NjE5MzI4NSwtNjI4MjA2NzQ2LDY0Mj
 A3MDM2NSwxNzkxNDg3ODEwLDkzMDY3NjQ0NywxNjQwMjc5MTcs
 LTIxNDQyMDA5MjddfQ==
 -->
