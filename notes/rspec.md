@@ -55,6 +55,7 @@ project/
 ├── 
 └── README.md
 ```
+For example, in the above file structure if we were running out tests from the `project` directory directly and we had code in `my_app.rb` file that loads resources from `my_resource.json` file we could use the `__FILE__` 
 
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
@@ -772,7 +773,7 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODM1MjU5NCw4NTMxMzA2MjQsNzY2NT
+eyJoaXN0b3J5IjpbMTA4MzI5Nzc5MSw4NTMxMzA2MjQsNzY2NT
 g2Nzc3LDIwMDc1Mjg1NDEsMTk5MTAzMjYxMCwtNjY5Mzk2MTg1
 LDI2NTY0MTQ1NywtODg2NzQ0NDk5LDE3MTY4MjA0MjQsLTk0Nj
 E2Mjk3MSwxNjc1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUx
