@@ -60,6 +60,7 @@ GET /about
 Host: some-website.com
 ```
 #### Response Header
+The HTTP repo
 
 ### Protocol Type
 
@@ -72,7 +73,7 @@ www.some-website.com/about?name=tog&age=300
 ```
 The example above sends a request to the `some-website` url as well as two key-value pairs. This is method of sending data directly via the url **can only be used with a `GET` request**. When submitting from a form or other source using a `GET` request the data sent by the client will be appended to the url when sent. For example, an HTML form with `GET` as its submit method will append the data submitted with the form to the url that it points to.
 
-By contrast the `POST` method **adds query data to the body of the HTTP request**. Usually this query body would be empty, but when using `POST`, an HTTP method designed for sending data, the data is wrapped in the body of the request. This also means that **data sent with `POST` is obscured from the destination URL**.
+By contrast the `POST` method **adds query data to the body of the HTTP request**. Usually this query body would be empty, but when using `POST`, an HTTP method designed for sending data, the data is wrapped in the body of the request. This also means that **data sent with `POST` is obscured from the destination URL**, it is entirely invisible except for what is explicitly displayed on the page by the server response.
 
 ## DNS
 DNS or **Domain Name Servers** are a way of translating the nice readable URL address of a website that the client wants to visit into a real, unique server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
@@ -92,10 +93,10 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTE4NDQyNyw4NzUyNzE2ODgsLTgxMD
-k5OTIxNSw1NzQ1ODA3LDE4NzczMDY4ODAsLTY1MDI0NjUwMywt
-MTYyMjkzODMyNSw4NjExOTY0MjIsMTc1OTI4NjUyOCw3NjA5Nj
-g1NTcsLTE0OTA5NjYyOSwyMTE2NjU5NjU3LC02MjgyMDY3NDYs
-NjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNjc2NDQ3LDE2NDAyNz
-kxNywtMjE0NDIwMDkyN119
+eyJoaXN0b3J5IjpbLTYwMTU4MzQ1LDg3NTI3MTY4OCwtODEwOT
+k5MjE1LDU3NDU4MDcsMTg3NzMwNjg4MCwtNjUwMjQ2NTAzLC0x
+NjIyOTM4MzI1LDg2MTE5NjQyMiwxNzU5Mjg2NTI4LDc2MDk2OD
+U1NywtMTQ5MDk2NjI5LDIxMTY2NTk2NTcsLTYyODIwNjc0Niw2
+NDIwNzAzNjUsMTc5MTQ4NzgxMCw5MzA2NzY0NDcsMTY0MDI3OT
+E3LC0yMTQ0MjAwOTI3XX0=
 -->
