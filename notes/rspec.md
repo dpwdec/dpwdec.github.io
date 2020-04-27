@@ -51,7 +51,7 @@ project/
 │	├── my_app.rb
 │   └── my_resource.json
 ├── spec/
-│   └── test_dpwdec.rb
+│   └── my_app_spec.rb
 ├── 
 └── README.md
 ```
@@ -772,7 +772,7 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDc1ODc3NCw4NTMxMzA2MjQsNzY2NT
+eyJoaXN0b3J5IjpbLTQyODM1MjU5NCw4NTMxMzA2MjQsNzY2NT
 g2Nzc3LDIwMDc1Mjg1NDEsMTk5MTAzMjYxMCwtNjY5Mzk2MTg1
 LDI2NTY0MTQ1NywtODg2NzQ0NDk5LDE3MTY4MjA0MjQsLTk0Nj
 E2Mjk3MSwxNjc1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUx
