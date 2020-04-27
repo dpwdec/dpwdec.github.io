@@ -52,10 +52,15 @@ project/
 │   └── my_resource.json
 ├── spec/
 │   └── my_app_spec.rb
-├── 
+├── resources/
+│   └── another_resource.json
 └── README.md
 ```
-For example, in the above file structure if we were running out tests from the `project` directory directly and we had code in `my_app.rb` file that loads resources from `my_resource.json` file we could use the `__FILE__` 
+For example, in the above file structure if we were running out tests from the `project` directory directly and we had code in `my_app.rb` file that loads resources from `my_resource.json` file we could use the `__FILE__` attribute with the `File` class and the name of the file appended. However, if we wanted to load the `another_resource.json` file we would need to reference it relative to the `my_app.rb` file because this is where the `__FILE__` path points.
+```ruby
+path = File.dirname(__FILE__)
+my_resource = File.open(path + '/restaurants.json')
+```
 
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
@@ -773,7 +778,7 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MzI5Nzc5MSw4NTMxMzA2MjQsNzY2NT
+eyJoaXN0b3J5IjpbLTY3ODk2MjUzNSw4NTMxMzA2MjQsNzY2NT
 g2Nzc3LDIwMDc1Mjg1NDEsMTk5MTAzMjYxMCwtNjY5Mzk2MTg1
 LDI2NTY0MTQ1NywtODg2NzQ0NDk5LDE3MTY4MjA0MjQsLTk0Nj
 E2Mjk3MSwxNjc1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUx
