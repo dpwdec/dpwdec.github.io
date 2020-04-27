@@ -53,19 +53,20 @@ You can **view the HTTP request method, status codes and body for a particular r
 
 ### Headers
 #### Request Header
-The HTTP request header contains a **method**, a **url extension** and a **host**. There are other things in the request but these are the three most important elements. The `/` points to a directory within the host URL, a 
+The HTTP request header contains a **method**, a **url extension** and a **host**. There are other things in the request but these are the three most important elements. The `/` points to a directory within the host URL. A `/` without anything after it indicates the root directory. In the example the HTTP request points to the `about` directory of `some-website.com`.
 ```
 GET /about
 ...
 Host: some-website.com
 ```
+#### Response Header
 
 ### Protocol Type
 
 HTTP is an **application protocol** and is based on TCP/IP or **Transport Control Protocol / Internet Protocol** which is a **communication protocol** or **transport protocol**. It is important to keep this distinction in mind as TCP/IP is designed for transferring data whereas HTTP is designed to allow applications to format data in an effective way and share it between each other.
 
 ### Queries
-When you send an HTTP request you can submit data with your request by appending it to outgoing URL as a query.
+When you send an HTTP request you can submit data with your request by appending it to outgoing URL. This called a query. Queries are structured using **key-value pairs**.
 
 ## DNS
 DNS or **Domain Name Servers** are a way of translating the nice readable URL address of a website that the client wants to visit into a real, unique server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
@@ -85,10 +86,10 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDUyMzQwNiwtODEwOTk5MjE1LDU3ND
-U4MDcsMTg3NzMwNjg4MCwtNjUwMjQ2NTAzLC0xNjIyOTM4MzI1
-LDg2MTE5NjQyMiwxNzU5Mjg2NTI4LDc2MDk2ODU1NywtMTQ5MD
-k2NjI5LDIxMTY2NTk2NTcsLTYyODIwNjc0Niw2NDIwNzAzNjUs
-MTc5MTQ4NzgxMCw5MzA2NzY0NDcsMTY0MDI3OTE3LC0yMTQ0Mj
-AwOTI3XX0=
+eyJoaXN0b3J5IjpbMjk5NjQwMDgxLC04MTA5OTkyMTUsNTc0NT
+gwNywxODc3MzA2ODgwLC02NTAyNDY1MDMsLTE2MjI5MzgzMjUs
+ODYxMTk2NDIyLDE3NTkyODY1MjgsNzYwOTY4NTU3LC0xNDkwOT
+Y2MjksMjExNjY1OTY1NywtNjI4MjA2NzQ2LDY0MjA3MDM2NSwx
+NzkxNDg3ODEwLDkzMDY3NjQ0NywxNjQwMjc5MTcsLTIxNDQyMD
+A5MjddfQ==
 -->
