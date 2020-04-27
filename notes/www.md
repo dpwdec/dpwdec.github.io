@@ -53,14 +53,20 @@ You can **view the HTTP request method, status codes and body for a particular r
 
 ### Headers
 #### Request Header
-The HTTP request header contains a **method**, a **url extension** and a **host**. There are other things in the request but these are the three most important elements. The `/` points to a directory within the host URL. A `/` without anything after it indicates the root directory. In the example the HTTP request points to the `about` directory of `some-website.com`.
+The HTTP request header contains a **method**, a **url extension to a directory** and a **host**. There are other things in the request but these are the three most important elements. The `/` points to a directory within the host URL. A `/` without anything after it indicates the root directory. In the example the HTTP request points to the `about` directory of `some-website.com`.
 ```
-GET /about
+[Example Request Header]
+GET /about --> method and directory
 ...
-Host: some-website.com
+Host: some-website.com --> the host
 ```
 #### Response Header
 The HTTP response header contains a **status code**, a **content type**, a **content length**. The **content type** allows the server to tell the client what sort of data is incoming. For example, if an HTTP request yielded some video and image content in the body of the response then that data will need to be decoded and display differently from text code for an HTML website.
+```
+[Example Response Header]
+200 OK --> status code
+content-type: text/html --> content t
+```
 
 ### Protocol Type
 
@@ -93,10 +99,10 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk0ODQyMjcsODc1MjcxNjg4LC04MT
-A5OTkyMTUsNTc0NTgwNywxODc3MzA2ODgwLC02NTAyNDY1MDMs
-LTE2MjI5MzgzMjUsODYxMTk2NDIyLDE3NTkyODY1MjgsNzYwOT
-Y4NTU3LC0xNDkwOTY2MjksMjExNjY1OTY1NywtNjI4MjA2NzQ2
-LDY0MjA3MDM2NSwxNzkxNDg3ODEwLDkzMDY3NjQ0NywxNjQwMj
-c5MTcsLTIxNDQyMDA5MjddfQ==
+eyJoaXN0b3J5IjpbNTU5NzA5MzgzLDg3NTI3MTY4OCwtODEwOT
+k5MjE1LDU3NDU4MDcsMTg3NzMwNjg4MCwtNjUwMjQ2NTAzLC0x
+NjIyOTM4MzI1LDg2MTE5NjQyMiwxNzU5Mjg2NTI4LDc2MDk2OD
+U1NywtMTQ5MDk2NjI5LDIxMTY2NTk2NTcsLTYyODIwNjc0Niw2
+NDIwNzAzNjUsMTc5MTQ4NzgxMCw5MzA2NzY0NDcsMTY0MDI3OT
+E3LC0yMTQ0MjAwOTI3XX0=
 -->
