@@ -44,7 +44,7 @@ You should `commit` when:
 2. Your tests pass after refactoring your code.
 
 ### File loading
-If you load files directly in the code that RSpec test, i.e. with static path names from a `File` class then you will likely run into `No File Found` errors because the RSpec test function will run from a different relative directory. You
+If you load files directly in the code that RSpec test, i.e. with static path names from a `File` class then you will likely run into `No File Found` errors because the RSpec test function will run from a different relative directory. You can **consistently load files in your code and in RSpec tests** using the `File.dirname(__FILE__)` utility. This will return a file path that is **absolute from the file that is being tested**.
 
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
@@ -762,7 +762,7 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDUxMTYxLDg1MzEzMDYyNCw3NjY1OD
+eyJoaXN0b3J5IjpbNDQ1NTc1MDc0LDg1MzEzMDYyNCw3NjY1OD
 Y3NzcsMjAwNzUyODU0MSwxOTkxMDMyNjEwLC02NjkzOTYxODUs
 MjY1NjQxNDU3LC04ODY3NDQ0OTksMTcxNjgyMDQyNCwtOTQ2MT
 YyOTcxLDE2NzUyMDgwNDQsLTE5MzM3ODgwMjksLTk0MDU4NTEw
