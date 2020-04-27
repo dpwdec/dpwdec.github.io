@@ -34,13 +34,15 @@ If the request worked the server also returns a **message body** which contains 
 
 You can **view the HTTP request method, status codes and body for a particular resource/request** by using the Chrome Development Tools in the `Network` tab and viewing the `Headers` section of a request. 
 
+### Protocol Type
+
 HTTP is an **application protocol** and is based on TCP/IP which is a **communication protocol** or **transport protocol**. It is important to keep this distinction in mind as TCP/IP is designed for transferring data whereas HTTP is designed to allow applications to format data in an effective way and share it between each other.
 
 ### Telnet
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDYzMjAyMTgsLTE0OTA5NjYyOSwyMT
-E2NjU5NjU3LC02MjgyMDY3NDYsNjQyMDcwMzY1LDE3OTE0ODc4
-MTAsOTMwNjc2NDQ3LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
+eyJoaXN0b3J5IjpbNzYwOTY4NTU3LC0xNDkwOTY2MjksMjExNj
+Y1OTY1NywtNjI4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxNDg3ODEw
+LDkzMDY3NjQ0NywxNjQwMjc5MTcsLTIxNDQyMDA5MjddfQ==
 -->
