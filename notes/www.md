@@ -24,7 +24,7 @@ After a client sends an HTTP request with a method, they will receive a response
 - `202` means everything went "OK" and the request was successful.
 - `404` means something went wrong and the request resource was not found.
 
-The server also returns a message body which contains 
+If the request worked the server also returns a **message body** which contains the resource the client requested. This code an 
 
 You can **view the HTTP request method, status codes and body for a particular resource/request** by using the Chrome Development Tools in the `Network` tab and viewing the `Headers` section of a request. 
 
@@ -47,7 +47,7 @@ http status dogs
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODAxNTU1MzEsMjExNjY1OTY1NywtNj
+eyJoaXN0b3J5IjpbLTE4MzczOTc0OTcsMjExNjY1OTY1NywtNj
 I4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxNDg3ODEwLDkzMDY3NjQ0
 NywxNjQwMjc5MTcsLTIxNDQyMDA5MjddfQ==
 -->
