@@ -16,7 +16,8 @@ Several different components make up a web request. If we image the client and s
 
 ### Web Request Sequence
 Web requests work by using the above components to send information.
-- First 
+- First the client encodes a request with what they would like and how they would like it in an HTTP request.
+- Next the client retrieves the IP address of the location of the server they are trying to send a request to from the `DNS`.
 ![enter image description here](https://lh3.googleusercontent.com/xfaaNyJZZRn5n9H76o_Z2g9MGthn0tdN0_vhQXIdgzWhOz28VVXrLccvJEgr9_W388oTpUGT_bAMkgEnvWbO-szlpPznm3RoyDw95CT1A70m3mMBTz4-5DWxjZX2iYF5NomfwTbx4b0HAYkq51lI_SGyFi-OV2XLTdtblBLwoun6HNRVUjsc9EkY83N3TUm-6QkYbsnLRzBuHIe2tkrd2icnO381Nvy7aFiv5TWy6CJ1pRdtJCNnO8N_OV1WdpP7bgZLAzsYY9HwOX6wgujkRhcA3DXaUQao0XInYkql24fdSkmkUR0HsyUEqLWtqjOzv4MIE-vAgzUXSbx9upGU8R7D15m6PQ0qspdytWopAbY9NL-135qEw-YU_4XNPqgqnd0KgHbFSac6fkag3Ljzq6w_HTlFhw7VgzEe5JPGC1zkSTA8x-HbPu43COwLsmakTL8aHKjWFlXFATh_cIDIw4m0-xUh_lMC9taPqm3eXU9MR6eVwELVZAi6gUVCJfGQxMt5vDfVXaEfbyR3eWfvho73huiws5sLnENZ4_CUstkLOhst3CqCnNQ70WYg7BYIcobXWiV_LoVVG_SVZrgJyTvFZzKV5q5352fMUCXKgVC9BNXDVeQz-EOUCgW-WYVNtbW8UUtEPkbgcOzRuCJTrDtunke6GDZT26vKvQAsBA0bGm_Bnczvz1LoHoBY6g=w686-h406-no)
 
 ## HTTP
@@ -57,7 +58,7 @@ DNS or **Domain Name Servers** are a way of translating the nice readable URL ad
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MjY2MDIwNSwtMTYyMjkzODMyNSw4Nj
+eyJoaXN0b3J5IjpbLTY1MDI0NjUwMywtMTYyMjkzODMyNSw4Nj
 ExOTY0MjIsMTc1OTI4NjUyOCw3NjA5Njg1NTcsLTE0OTA5NjYy
 OSwyMTE2NjU5NjU3LC02MjgyMDY3NDYsNjQyMDcwMzY1LDE3OT
 E0ODc4MTAsOTMwNjc2NDQ3LDE2NDAyNzkxNywtMjE0NDIwMDky
