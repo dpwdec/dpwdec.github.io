@@ -4,8 +4,8 @@ title: Web Structures
 layout: page
 exclude: true
 ---
-## Request / Response Cycle
-
+## request-response Cycle
+The **request-response cycle** is a message exchange pattern
 
 ## HTTP
 HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applications to communicate across the web. HTTP is structured to on a **client** and **server** relationship in which hypertext documents are exchanged between the two parties. A client can be an application such as a web browser, but it can also be another server or API call requesting data for some other purpose. The essential distinction being that one party requests and the other responds. 
@@ -27,7 +27,7 @@ http status dogs
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1MDE1Mjc0LDY0MjA3MDM2NSwxNzkxND
+eyJoaXN0b3J5IjpbLTcxNTQ2OTE3LDY0MjA3MDM2NSwxNzkxND
 g3ODEwLDkzMDY3NjQ0NywxNjQwMjc5MTcsLTIxNDQyMDA5Mjdd
 fQ==
 -->
