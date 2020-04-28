@@ -111,7 +111,7 @@ name=YourNameHere --> query content submitted in the body
 ```
 
 ### Version
-`HTTP/1.1` allows HTTP documents to be sent in a human readable form that can be accessed and modified easily at 
+`HTTP/1.1` allows HTTP documents to be sent in a human readable form that can be accessed and modified easily at any point along the request response cycle. `HTTP/2` on the other hand splits the document into HTTP frames that are re-assembled at either end of the communication process into a response. These are not human readable.
 
 ## DNS
 DNS or **Domain Name Servers** are a way of translating the nice readable URL address of a website that the client wants to visit into a real, unique server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
@@ -136,11 +136,11 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDY5MDc5LDY3NzgzMjI5NSwxNjc5OT
-I4MTA3LDg3NTI3MTY4OCwtODEwOTk5MjE1LDU3NDU4MDcsMTg3
-NzMwNjg4MCwtNjUwMjQ2NTAzLC0xNjIyOTM4MzI1LDg2MTE5Nj
-QyMiwxNzU5Mjg2NTI4LDc2MDk2ODU1NywtMTQ5MDk2NjI5LDIx
-MTY2NTk2NTcsLTYyODIwNjc0Niw2NDIwNzAzNjUsMTc5MTQ4Nz
-gxMCw5MzA2NzY0NDcsMTY0MDI3OTE3LC0yMTQ0MjAwOTI3XX0=
+eyJoaXN0b3J5IjpbMzI0NDkwNTgsNjc3ODMyMjk1LDE2Nzk5Mj
+gxMDcsODc1MjcxNjg4LC04MTA5OTkyMTUsNTc0NTgwNywxODc3
+MzA2ODgwLC02NTAyNDY1MDMsLTE2MjI5MzgzMjUsODYxMTk2ND
+IyLDE3NTkyODY1MjgsNzYwOTY4NTU3LC0xNDkwOTY2MjksMjEx
+NjY1OTY1NywtNjI4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxNDg3OD
+EwLDkzMDY3NjQ0NywxNjQwMjc5MTcsLTIxNDQyMDA5MjddfQ==
 
 -->
