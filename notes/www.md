@@ -70,7 +70,8 @@ The HTTP response header contains a **status code**, a **content type**, a **con
 content-length: 400
 content-type: text/html
 ```
-Some **other HTTP status codes**
+Some **other HTTP status codes** are:
+- `307` means that the resource the client is trying to access was **temporarily moved**. The HTTP response body for this code wi
 ### Protocol Type
 
 HTTP is an **application protocol** and is based on TCP/IP or **Transport Control Protocol / Internet Protocol** which is a **communication protocol** or **transport protocol**. It is important to keep this distinction in mind as TCP/IP is designed for transferring data whereas HTTP is designed to allow applications to format data in an effective way and share it between each other.
@@ -116,11 +117,11 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODYwMjExMCw2Nzc4MzIyOTUsMTY3OT
-kyODEwNyw4NzUyNzE2ODgsLTgxMDk5OTIxNSw1NzQ1ODA3LDE4
-NzczMDY4ODAsLTY1MDI0NjUwMywtMTYyMjkzODMyNSw4NjExOT
-Y0MjIsMTc1OTI4NjUyOCw3NjA5Njg1NTcsLTE0OTA5NjYyOSwy
-MTE2NjU5NjU3LC02MjgyMDY3NDYsNjQyMDcwMzY1LDE3OTE0OD
-c4MTAsOTMwNjc2NDQ3LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
-
+eyJoaXN0b3J5IjpbLTEzMjA4MjUyMjMsNjc3ODMyMjk1LDE2Nz
+k5MjgxMDcsODc1MjcxNjg4LC04MTA5OTkyMTUsNTc0NTgwNywx
+ODc3MzA2ODgwLC02NTAyNDY1MDMsLTE2MjI5MzgzMjUsODYxMT
+k2NDIyLDE3NTkyODY1MjgsNzYwOTY4NTU3LC0xNDkwOTY2Mjks
+MjExNjY1OTY1NywtNjI4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxND
+g3ODEwLDkzMDY3NjQ0NywxNjQwMjc5MTcsLTIxNDQyMDA5Mjdd
+fQ==
 -->
