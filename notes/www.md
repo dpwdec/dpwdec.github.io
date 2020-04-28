@@ -106,6 +106,9 @@ User-Agent: HTTPie/2.1.0
 name=YourNameHere --> query content submitted in the body
 ```
 
+### Version
+
+
 ## DNS
 DNS or **Domain Name Servers** are a way of translating the nice readable URL address of a website that the client wants to visit into a real, unique server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
 
@@ -129,11 +132,11 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0Mjk0MjkzMSw2Nzc4MzIyOTUsMTY3OT
-kyODEwNyw4NzUyNzE2ODgsLTgxMDk5OTIxNSw1NzQ1ODA3LDE4
-NzczMDY4ODAsLTY1MDI0NjUwMywtMTYyMjkzODMyNSw4NjExOT
-Y0MjIsMTc1OTI4NjUyOCw3NjA5Njg1NTcsLTE0OTA5NjYyOSwy
-MTE2NjU5NjU3LC02MjgyMDY3NDYsNjQyMDcwMzY1LDE3OTE0OD
-c4MTAsOTMwNjc2NDQ3LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
-
+eyJoaXN0b3J5IjpbLTE3MjY4MTcwMTgsNjc3ODMyMjk1LDE2Nz
+k5MjgxMDcsODc1MjcxNjg4LC04MTA5OTkyMTUsNTc0NTgwNywx
+ODc3MzA2ODgwLC02NTAyNDY1MDMsLTE2MjI5MzgzMjUsODYxMT
+k2NDIyLDE3NTkyODY1MjgsNzYwOTY4NTU3LC0xNDkwOTY2Mjks
+MjExNjY1OTY1NywtNjI4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxND
+g3ODEwLDkzMDY3NjQ0NywxNjQwMjc5MTcsLTIxNDQyMDA5Mjdd
+fQ==
 -->
