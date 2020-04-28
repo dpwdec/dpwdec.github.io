@@ -250,17 +250,20 @@ ENV.select  { |key ,value | key.size < 4  }
 ```
 
 ## TCPServer
-The `TCPServer` class is a simple class for creating a `TCP/IP` server socket to send a receive information in ruby. You can start a server by creating a new instance of the `TCPSserver` class.
+The `TCPServer` class is a simple class for creating a `TCP/IP` server socket to send a receive information in ruby. You can **start a server** by creating a new instance of the `TCPSserver` class.
 ```ruby
 server = TCPServer.new(2345)
 ```
+You can then contact this server using the `Telnet` command line tool and connecting to your `localhost` and the port number the server is listening at.
+
+You can use `server.accept` to **create an objet that process information like the command line** on your web
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzcwMTQ3OTksLTU4OTMxODE5MCwxND
-czMTgyNTgzLDE0ODkyMTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5
-MzA4LC05ODc0Njc2MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NS
-wxMDQ2MTY0NDYsOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIy
-MTc0MjksOTU3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5MDI2NDE2LD
-k2MTA1NzU2NywxMjk3OTc2NzQ5LC04MjI1MTg0NywxNDg0OTU3
-NDVdfQ==
+eyJoaXN0b3J5IjpbLTM5MjUyNzcyNCwtNTg5MzE4MTkwLDE0Nz
+MxODI1ODMsMTQ4OTIxNjE5MiwtMTk1MzYxNzE2LC0zMzQzNTkz
+MDgsLTk4NzQ2NzYyMywtODc0NzcxMjU1LC0xOTcyMTcxMzY1LD
+EwNDYxNjQ0Niw5OTE2ODEwNTQsLTEyMTM5ODg1NDAsLTI5MjIx
+NzQyOSw5NTc1ODgwODMsMTQ5NTg3NDUxLDE2MDkwMjY0MTYsOT
+YxMDU3NTY3LDEyOTc5NzY3NDksLTgyMjUxODQ3LDE0ODQ5NTc0
+NV19
 -->
