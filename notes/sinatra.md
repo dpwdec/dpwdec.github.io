@@ -52,9 +52,11 @@ get '/' do
   erb(code)
 end
 ```
-Views **should be kept free of code concerns**. You should never do more than light `<
+Views **should be kept free of code concerns**. You should never do more than light `<% if %>` and `<% else %>` statements in your embedded ruby code. Anything more complex should be extracted out to the main program and encapsulated in an instance variable. You can submit an instance variable by defining it inside the route and then referencing it as embedded ruby.
+```ruby
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjEzNDc3NywtOTkyNDYwNzE3LDc3MT
+eyJoaXN0b3J5IjpbMTU0OTAyNTIxMiwtOTkyNDYwNzE3LDc3MT
 cyMjE1MV19
 -->
