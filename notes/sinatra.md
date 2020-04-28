@@ -52,9 +52,9 @@ get '/' do
   erb(code)
 end
 ```
-
+Views **should be kept free of code concerns**. You should never do more than light `<
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDA2NDg4NSwtOTkyNDYwNzE3LDc3MT
+eyJoaXN0b3J5IjpbMTU3NjEzNDc3NywtOTkyNDYwNzE3LDc3MT
 cyMjE1MV19
 -->
