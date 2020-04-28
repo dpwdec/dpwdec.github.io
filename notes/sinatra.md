@@ -12,10 +12,15 @@ You can **start a Sinatra app running** i.e. listening and functioning as a serv
 ```
 ruby myapp.rb
 ```
-## Routes
+This should be the file in which your different web page routes and defined.
 
+## Routes
+You can **specify different web pages to return** by using an *HTTP Verb* combined with a block that display or loads the content for that page.
+```ruby
+get '/'
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjk5MjEwNDYsNzcxNzIyMTUxXX0=
+eyJoaXN0b3J5IjpbLTE2MTEzMzMwNSw3NzE3MjIxNTFdfQ==
 -->
