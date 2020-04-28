@@ -259,20 +259,25 @@ You can then contact this server using the `Telnet` command line tool and connec
 You can use `server.accept` to **create an object that processes information like the command line** on your web server. This allows to use methods like `gets` and `puts` to pass information to the server and perform actions on it, or output information to the client.
 
 ```ruby
+# Initialize server
 server = TCPServer.new(2345)
+# Get the sock
 socket = server.accept
+# Output something to a connect client
 socket.puts('Hello. Say something!')
+# Get something the connected client inputs and save it
 they_stay = socket.gets.chomp
+# Output the saved input of the client
 socket.puts(they_say)
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDkyNzI1NTAsLTE3NzcxMTEwMTcsLT
-U4OTMxODE5MCwxNDczMTgyNTgzLDE0ODkyMTYxOTIsLTE5NTM2
-MTcxNiwtMzM0MzU5MzA4LC05ODc0Njc2MjMsLTg3NDc3MTI1NS
-wtMTk3MjE3MTM2NSwxMDQ2MTY0NDYsOTkxNjgxMDU0LC0xMjEz
-OTg4NTQwLC0yOTIyMTc0MjksOTU3NTg4MDgzLDE0OTU4NzQ1MS
-wxNjA5MDI2NDE2LDk2MTA1NzU2NywxMjk3OTc2NzQ5LC04MjI1
-MTg0N119
+eyJoaXN0b3J5IjpbMjQ0MjQzMjMyLC0xMTA5MjcyNTUwLC0xNz
+c3MTExMDE3LC01ODkzMTgxOTAsMTQ3MzE4MjU4MywxNDg5MjE2
+MTkyLC0xOTUzNjE3MTYsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC
+04NzQ3NzEyNTUsLTE5NzIxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4
+MTA1NCwtMTIxMzk4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4My
+wxNDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3
+Njc0OV19
 -->
