@@ -44,8 +44,14 @@ end
 ```
 Structuring your application in this way has the benefit of separating out concerns for routing your application and displaying page content as page content is simply kept as a dependency.
 
+You can **submit `.erb` code directly to the Sinatra `erb` function** to be rendered.
+```ruby
+get '/' do
+  code = '<%= [1, 2, 3].sample %
+end
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MDE0MDE2NSwtOTkyNDYwNzE3LDc3MT
+eyJoaXN0b3J5IjpbMTAwMjgxNzkzNSwtOTkyNDYwNzE3LDc3MT
 cyMjE1MV19
 -->
