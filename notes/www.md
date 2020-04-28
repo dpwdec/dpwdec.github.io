@@ -70,7 +70,7 @@ The HTTP response header contains a **status code**, a **content type**, a **con
 content-length: 400
 content-type: text/html
 ```
-
+Some **other HTTP status codes**
 ### Protocol Type
 
 HTTP is an **application protocol** and is based on TCP/IP or **Transport Control Protocol / Internet Protocol** which is a **communication protocol** or **transport protocol**. It is important to keep this distinction in mind as TCP/IP is designed for transferring data whereas HTTP is designed to allow applications to format data in an effective way and share it between each other.
@@ -116,7 +116,7 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NzM3NzE2Niw2Nzc4MzIyOTUsMTY3OT
+eyJoaXN0b3J5IjpbMTk4ODYwMjExMCw2Nzc4MzIyOTUsMTY3OT
 kyODEwNyw4NzUyNzE2ODgsLTgxMDk5OTIxNSw1NzQ1ODA3LDE4
 NzczMDY4ODAsLTY1MDI0NjUwMywtMTYyMjkzODMyNSw4NjExOT
 Y0MjIsMTc1OTI4NjUyOCw3NjA5Njg1NTcsLTE0OTA5NjYyOSwy
