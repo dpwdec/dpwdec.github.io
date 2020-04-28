@@ -1,3 +1,9 @@
+---
+layout: page
+exclude: true
+title: dmd
+---
+
 UML - unified modelling language
 
 wireframe.cc
@@ -21,6 +27,6 @@ There are 13 types of UML diagrams
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjc5MTcyNSwtMTA5NDcyMzk1MSwtMT
-MzMzQ4NDAxOV19
+eyJoaXN0b3J5IjpbLTE2OTg4NzY0NSwxOTE2NzkxNzI1LC0xMD
+k0NzIzOTUxLC0xMzMzNDg0MDE5XX0=
 -->
