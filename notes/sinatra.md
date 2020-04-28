@@ -66,9 +66,9 @@ The corresponding `.erb` file:
 <h1><%= @my_variable %></h1>
 ```
 ## Params
-
+User queries or request bodies (from a `PUT` statement etc.) will appear inside your routes stored inside a hash called `params`.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5OTk5NTYyNiwtOTkyNDYwNzE3LDc3MT
-cyMjE1MV19
+eyJoaXN0b3J5IjpbLTE5ODA4MjI0NTQsLTk5MjQ2MDcxNyw3Nz
+E3MjIxNTFdfQ==
 -->
