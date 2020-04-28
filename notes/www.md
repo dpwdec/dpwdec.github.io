@@ -76,6 +76,13 @@ Some **other HTTP status codes** are:
 - `401` means that the resource is **gone** and has been **deleted** permanently.
 - `500` means that the HTTP part of the server doesn't really know what went wrong. This comes with the `internal server error` message and usually arises when some program on the server has been asked for a piece of information and not returned what was expected. Essentially its something that the HTTP doesn't have knowledge of why it happened, they just know they didn't get the right information to return.
 
+There are **different families of HTTP status codes** based on the first number of the code.
+-   `1xx`  (Informational): Request received, continuing process.
+-   `2xx`  (Successful): The action was successfully received, understood, and accepted.
+-   `3xx`  (Redirection): Further action needs to be taken in order to complete the request.
+-   `4xx`  (Client Error): The request contains bad syntax or cannot be fulfilled.
+-   `5xx`  (Server Error): The server failed to fulfil an apparently valid request.
+
 
 ### Protocol Type
 
@@ -122,7 +129,7 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzM4MTE4MCw2Nzc4MzIyOTUsMTY3OT
+eyJoaXN0b3J5IjpbMTE0Mjk0MjkzMSw2Nzc4MzIyOTUsMTY3OT
 kyODEwNyw4NzUyNzE2ODgsLTgxMDk5OTIxNSw1NzQ1ODA3LDE4
 NzczMDY4ODAsLTY1MDI0NjUwMywtMTYyMjkzODMyNSw4NjExOT
 Y0MjIsMTc1OTI4NjUyOCw3NjA5Njg1NTcsLTE0OTA5NjYyOSwy
