@@ -14,6 +14,13 @@ ruby myapp.rb
 ```
 This should be the file in which your different web page routes and defined.
 
+To **stop a Sinatra server** use `CTRL + C` in the command line window where the server is running.
+
+When changing files in your Sinatra project you will need to s
+
+### Shotgun
+[Shotgun](https://github.com/rtomayko/shotgun) is another ruby gem that can be used
+
 ## Routes
 You can **specify different web pages to return** by using an *HTTP Verb* combined with a string representing the page name and a block that display or loads the content for that page.
 ```ruby
@@ -27,5 +34,5 @@ The example above defines how to respond to a `GET` request from a client to the
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjMxMjY2NTMsNzcxNzIyMTUxXX0=
+eyJoaXN0b3J5IjpbMTIwODU1NTI2MSw3NzE3MjIxNTFdfQ==
 -->
