@@ -261,9 +261,9 @@ You can use `server.accept` to **create an object that processes information lik
 ```ruby
 # Initialize server
 server = TCPServer.new(2345)
-# Get the sock
+# Get the output object, here we call it 'socket'
 socket = server.accept
-# Output something to a connect client
+# Output something to a connected client
 socket.puts('Hello. Say something!')
 # Get something the connected client inputs and save it
 they_stay = socket.gets.chomp
@@ -273,11 +273,11 @@ socket.puts(they_say)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ0MjQzMjMyLC0xMTA5MjcyNTUwLC0xNz
-c3MTExMDE3LC01ODkzMTgxOTAsMTQ3MzE4MjU4MywxNDg5MjE2
-MTkyLC0xOTUzNjE3MTYsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC
-04NzQ3NzEyNTUsLTE5NzIxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4
-MTA1NCwtMTIxMzk4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4My
-wxNDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3
-Njc0OV19
+eyJoaXN0b3J5IjpbLTE4MTE1NDM1MTksMjQ0MjQzMjMyLC0xMT
+A5MjcyNTUwLC0xNzc3MTExMDE3LC01ODkzMTgxOTAsMTQ3MzE4
+MjU4MywxNDg5MjE2MTkyLC0xOTUzNjE3MTYsLTMzNDM1OTMwOC
+wtOTg3NDY3NjIzLC04NzQ3NzEyNTUsLTE5NzIxNzEzNjUsMTA0
+NjE2NDQ2LDk5MTY4MTA1NCwtMTIxMzk4ODU0MCwtMjkyMjE3ND
+I5LDk1NzU4ODA4MywxNDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEw
+NTc1NjddfQ==
 -->
