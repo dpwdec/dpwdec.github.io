@@ -46,12 +46,15 @@ Structuring your application in this way has the benefit of separating out conce
 
 You can **submit `.erb` code directly to the Sinatra `erb` function** to be rendered.
 ```ruby
+# render erb code defined by a variable
 get '/' do
-  code = '<%= [1, 2, 3].sample %
+  code = '<%= [1, 2, 3].sample %>'
+  erb(code)
 end
 ```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjgxNzkzNSwtOTkyNDYwNzE3LDc3MT
+eyJoaXN0b3J5IjpbLTYyNDA2NDg4NSwtOTkyNDYwNzE3LDc3MT
 cyMjE1MV19
 -->
