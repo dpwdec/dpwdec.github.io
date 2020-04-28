@@ -73,6 +73,7 @@ content-type: text/html
 Some **other HTTP status codes** are:
 - `307` means that the resource the client is trying to access was **temporarily moved**. The HTTP response body for this code will contain a new URL pointing to where the resource is stored for the moment. Most browsers will automatically redirect to this address.
 - `301` means that the resource the client is trying to access has been **permanently moved**. Its format is very similar to the `307` code and contains a new URL. However, the fact that it has permanently changed gives a single to the client to update an stores or bookmarks they have of where the information is stored.
+- `401` means that the resource is **gone** and has been **deleted** permanently.
 - 
 ### Protocol Type
 
@@ -119,11 +120,11 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU1Nzg1OTQzLDY3NzgzMjI5NSwxNjc5OT
-I4MTA3LDg3NTI3MTY4OCwtODEwOTk5MjE1LDU3NDU4MDcsMTg3
-NzMwNjg4MCwtNjUwMjQ2NTAzLC0xNjIyOTM4MzI1LDg2MTE5Nj
-QyMiwxNzU5Mjg2NTI4LDc2MDk2ODU1NywtMTQ5MDk2NjI5LDIx
-MTY2NTk2NTcsLTYyODIwNjc0Niw2NDIwNzAzNjUsMTc5MTQ4Nz
-gxMCw5MzA2NzY0NDcsMTY0MDI3OTE3LC0yMTQ0MjAwOTI3XX0=
-
+eyJoaXN0b3J5IjpbLTE4MTEwNjc3ODMsNjc3ODMyMjk1LDE2Nz
+k5MjgxMDcsODc1MjcxNjg4LC04MTA5OTkyMTUsNTc0NTgwNywx
+ODc3MzA2ODgwLC02NTAyNDY1MDMsLTE2MjI5MzgzMjUsODYxMT
+k2NDIyLDE3NTkyODY1MjgsNzYwOTY4NTU3LC0xNDkwOTY2Mjks
+MjExNjY1OTY1NywtNjI4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxND
+g3ODEwLDkzMDY3NjQ0NywxNjQwMjc5MTcsLTIxNDQyMDA5Mjdd
+fQ==
 -->
