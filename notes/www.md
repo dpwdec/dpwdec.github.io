@@ -52,7 +52,8 @@ If the request worked the server also returns a **message body** which contains 
 You can **view the HTTP request method, status codes and body for a particular resource/request** by using the Chrome Development Tools in the `Network` tab and viewing the `Headers` section of a request. 
 
 ### Headers
-HTTP headers store meta information about a specific HTTP document. At the end of a header a blank line is left to separate the
+HTTP headers store meta information about a specific HTTP document. **At the end of a header a blank line is left to separate the body of the document from the meta information.**
+
 #### Request Header
 The HTTP request header contains a **method**, a **url extension to a directory** and a **host**. There are other things in the request but these are the three most important elements. The `/` points to a directory within the host URL. A `/` without anything after it indicates the root directory. In the example the HTTP request points to the `about` directory of `some-website.com`.
 ```
@@ -133,11 +134,11 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTE4MTA4LDY3NzgzMjI5NSwxNjc5OT
-I4MTA3LDg3NTI3MTY4OCwtODEwOTk5MjE1LDU3NDU4MDcsMTg3
-NzMwNjg4MCwtNjUwMjQ2NTAzLC0xNjIyOTM4MzI1LDg2MTE5Nj
-QyMiwxNzU5Mjg2NTI4LDc2MDk2ODU1NywtMTQ5MDk2NjI5LDIx
-MTY2NTk2NTcsLTYyODIwNjc0Niw2NDIwNzAzNjUsMTc5MTQ4Nz
-gxMCw5MzA2NzY0NDcsMTY0MDI3OTE3LC0yMTQ0MjAwOTI3XX0=
-
+eyJoaXN0b3J5IjpbLTEzMjAxMTE0NjMsNjc3ODMyMjk1LDE2Nz
+k5MjgxMDcsODc1MjcxNjg4LC04MTA5OTkyMTUsNTc0NTgwNywx
+ODc3MzA2ODgwLC02NTAyNDY1MDMsLTE2MjI5MzgzMjUsODYxMT
+k2NDIyLDE3NTkyODY1MjgsNzYwOTY4NTU3LC0xNDkwOTY2Mjks
+MjExNjY1OTY1NywtNjI4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxND
+g3ODEwLDkzMDY3NjQ0NywxNjQwMjc5MTcsLTIxNDQyMDA5Mjdd
+fQ==
 -->
