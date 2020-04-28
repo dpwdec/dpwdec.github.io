@@ -29,7 +29,7 @@ HTTP or **Hyper Text Transfer Protocol** is a protocol that allows two applicati
 
 A **client** can be an application such as a web browser, but it can also be another server or API call requesting data for some other purpose or even the command line, such as in the case of the `cURL` command. The essential structuring distinction here is that [one party requests and the other responds](#request-response-cycle).
 
-Hypertext is a structured document based around the use of **hyperlinks** between nodes. HTML or **Hyper Text Markup Language** is used to manipulate the hypertext so that the `client` can request different things from the server in different ways. This information about the type of request such as the **request method**, HTTP version, or resource needed is contained in the **HTTP header** for the client's request, in the body of the client request is other data that the server might use (such as when submitting a form) but often this can be empty. The server then replies with its own HTTP document containing the **status code** in the header and the resource in the body of the document.
+Hypertext is a structured document based around the use of **hyperlinks** between nodes. HTML or **Hyper Text Markup Language** is used to manipulate the hypertext so that the `client` can request different things from the server in different ways. This information about the type of request such as the **request method**, HTTP version, or resource needed is contained in the **HTTP header** for the client's request, in the body of the client request is other data that the server might use (such as when submitting a form) but often this can be empty. The server then replies with its own HTTP document containing the **status code** in the header and the resource in the body of the document. Syntactically, the only essential difference between HTTP requests and HTTP responses is the first line of the header.
 
 ![enter image description here](https://mdn.mozillademos.org/files/13827/HTTPMsgStructure2.png)
 
@@ -116,10 +116,11 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3ODMyMjk1LDE2Nzk5MjgxMDcsODc1Mj
-cxNjg4LC04MTA5OTkyMTUsNTc0NTgwNywxODc3MzA2ODgwLC02
-NTAyNDY1MDMsLTE2MjI5MzgzMjUsODYxMTk2NDIyLDE3NTkyOD
-Y1MjgsNzYwOTY4NTU3LC0xNDkwOTY2MjksMjExNjY1OTY1Nywt
-NjI4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxNDg3ODEwLDkzMDY3Nj
-Q0NywxNjQwMjc5MTcsLTIxNDQyMDA5MjddfQ==
+eyJoaXN0b3J5IjpbLTY1NzM3NzE2Niw2Nzc4MzIyOTUsMTY3OT
+kyODEwNyw4NzUyNzE2ODgsLTgxMDk5OTIxNSw1NzQ1ODA3LDE4
+NzczMDY4ODAsLTY1MDI0NjUwMywtMTYyMjkzODMyNSw4NjExOT
+Y0MjIsMTc1OTI4NjUyOCw3NjA5Njg1NTcsLTE0OTA5NjYyOSwy
+MTE2NjU5NjU3LC02MjgyMDY3NDYsNjQyMDcwMzY1LDE3OTE0OD
+c4MTAsOTMwNjc2NDQ3LDE2NDAyNzkxNywtMjE0NDIwMDkyN119
+
 -->
