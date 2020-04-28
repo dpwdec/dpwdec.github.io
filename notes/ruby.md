@@ -262,16 +262,17 @@ You can use `server.accept` to **create an object that processes information lik
 server = TCPServer.new(2345)
 socket = server.accept
 socket.puts('Hello. Say something!')
-socket.gets.chomp
+they_stay = socket.gets.chomp
+socket.puts(they_say)
 ```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ2NzA5OTE5LC0xNzc3MTExMDE3LC01OD
-kzMTgxOTAsMTQ3MzE4MjU4MywxNDg5MjE2MTkyLC0xOTUzNjE3
-MTYsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04NzQ3NzEyNTUsLT
-E5NzIxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4MTA1NCwtMTIxMzk4
-ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxNDk1ODc0NTEsMT
-YwOTAyNjQxNiw5NjEwNTc1NjcsMTI5Nzk3Njc0OSwtODIyNTE4
-NDddfQ==
+eyJoaXN0b3J5IjpbLTExMDkyNzI1NTAsLTE3NzcxMTEwMTcsLT
+U4OTMxODE5MCwxNDczMTgyNTgzLDE0ODkyMTYxOTIsLTE5NTM2
+MTcxNiwtMzM0MzU5MzA4LC05ODc0Njc2MjMsLTg3NDc3MTI1NS
+wtMTk3MjE3MTM2NSwxMDQ2MTY0NDYsOTkxNjgxMDU0LC0xMjEz
+OTg4NTQwLC0yOTIyMTc0MjksOTU3NTg4MDgzLDE0OTU4NzQ1MS
+wxNjA5MDI2NDE2LDk2MTA1NzU2NywxMjk3OTc2NzQ5LC04MjI1
+MTg0N119
 -->
