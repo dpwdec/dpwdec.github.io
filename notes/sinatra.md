@@ -35,13 +35,16 @@ end
 The example above defines how to respond to a `GET` request from a client to the root URL of the server. In this case it returns the string `Hello world` which is then displayed in plain text by the browser. You can insert HTML as a string, for example `'<h1>Hello World</h1>'`, into the route block, but this is not advised!
 
 ## Views
-You can load HTML display for pages as a dependency by using the `erb` method in the block that loads a page with an argument that represents a `.erb` file. This file should be placed in the `/views` directory of your Sinatra project. This `/views` directory should be at the same directory level as the `my_app.rb` file that runs to start your server.
+You can load HTML to display on pages as a dependency by using the `erb` method in the block that loads a page with an argument that represents a `.erb` file. This file should be placed in the `/views` directory of your Sinatra project. This `/views` directory should be at the same directory level as the `my_app.rb` file that runs to start your server.
 ```ruby
+# loads the .erb file views/index.erb
 get '/' do
   erb(:index)
+end
 ```
+This has the benefit of separating out concerns for routing your application and displaying page content.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MjA1Mjg0MSwtOTkyNDYwNzE3LDc3MT
-cyMjE1MV19
+eyJoaXN0b3J5IjpbLTExMzc4MDQyNzgsLTk5MjQ2MDcxNyw3Nz
+E3MjIxNTFdfQ==
 -->
