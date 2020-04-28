@@ -60,6 +60,8 @@ GET /about --> method and directory
 ...
 Host: some-website.com --> the host
 ```
+The request header can also contain a `Accept-Language` property that will change what language HTTP content is returned in if there is an available resource in another language.
+
 #### Response Header
 The HTTP response header contains a **status code**, a **content type**, a **content length**. The **content type** allows the server to tell the client what sort of data is incoming. For example, if an HTTP request yielded some video and image content in the body of the response then that data will need to be decoded and display differently from text code for an HTML website. The **content length** is counted in characters.
 ```
@@ -114,10 +116,10 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTkyODEwNyw4NzUyNzE2ODgsLTgxMD
-k5OTIxNSw1NzQ1ODA3LDE4NzczMDY4ODAsLTY1MDI0NjUwMywt
-MTYyMjkzODMyNSw4NjExOTY0MjIsMTc1OTI4NjUyOCw3NjA5Nj
-g1NTcsLTE0OTA5NjYyOSwyMTE2NjU5NjU3LC02MjgyMDY3NDYs
-NjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNjc2NDQ3LDE2NDAyNz
-kxNywtMjE0NDIwMDkyN119
+eyJoaXN0b3J5IjpbNjc3ODMyMjk1LDE2Nzk5MjgxMDcsODc1Mj
+cxNjg4LC04MTA5OTkyMTUsNTc0NTgwNywxODc3MzA2ODgwLC02
+NTAyNDY1MDMsLTE2MjI5MzgzMjUsODYxMTk2NDIyLDE3NTkyOD
+Y1MjgsNzYwOTY4NTU3LC0xNDkwOTY2MjksMjExNjY1OTY1Nywt
+NjI4MjA2NzQ2LDY0MjA3MDM2NSwxNzkxNDg3ODEwLDkzMDY3Nj
+Q0NywxNjQwMjc5MTcsLTIxNDQyMDA5MjddfQ==
 -->
