@@ -22,10 +22,10 @@ get '/' do
   'Hello World'
 end
 ```
-The example above defines how to respond to a `GET` request from a client to the root URL of the server. In this case it returns the string `Hello world` which is then displayed in plain text by the browser. You can insert HTML as a st
+The example above defines how to respond to a `GET` request from a client to the root URL of the server. In this case it returns the string `Hello world` which is then displayed in plain text by the browser. You can insert HTML as a string, for example `'<h1>Hello World</h1>'`, into the route block, but this is not advised!
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjI3MDUyOSw3NzE3MjIxNTFdfQ==
+eyJoaXN0b3J5IjpbLTE2MjMxMjY2NTMsNzcxNzIyMTUxXX0=
 -->
