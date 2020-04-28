@@ -34,8 +34,8 @@ end
 ```
 The example above defines how to respond to a `GET` request from a client to the root URL of the server. In this case it returns the string `Hello world` which is then displayed in plain text by the browser. You can insert HTML as a string, for example `'<h1>Hello World</h1>'`, into the route block, but this is not advised!
 
-
+## Views
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Mjk1MzgyMyw3NzE3MjIxNTFdfQ==
+eyJoaXN0b3J5IjpbLTk5MjQ2MDcxNyw3NzE3MjIxNTFdfQ==
 -->
