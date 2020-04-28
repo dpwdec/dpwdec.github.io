@@ -52,19 +52,23 @@ get '/' do
   erb(code)
 end
 ```
-Views **should be kept free of code concerns**. You should never do more than light `<% if %>` and `<% else %>` statements and light iterators like  in your embedded ruby code. Anything more complex should be extracted out to the main program and encapsulated in an instance variable. You can submit an instance variable by defining it inside the route and then referencing it as embedded ruby. The `my_app.rb` file might be:
+Views **should be kept free of code concerns**. You should never do more than light `<% if %>` and `<% else %>` statements and light iterators like `<% each %>` in your embedded ruby code. Anything more complex should be extracted out to the main program and encapsulated in an instance variable. You can submit an instance variable by defining it inside the route and then referencing it as embedded ruby. The `my_app.rb` file might be:
 ```ruby
 get '/' do
+  # do something complex and programatic here and store it to a varaiable
   @my_variable = "Hello"
   erb(:index)
 end
 ```
 The corresponding `.erb` file:
 ```html
+<!-- Render the variable from your routes file -->
 <h1><%= @my_variable %></h1>
 ```
+## Params
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzM4NzUyLC05OTI0NjA3MTcsNzcxNz
-IyMTUxXX0=
+eyJoaXN0b3J5IjpbLTQ5OTk5NTYyNiwtOTkyNDYwNzE3LDc3MT
+cyMjE1MV19
 -->
