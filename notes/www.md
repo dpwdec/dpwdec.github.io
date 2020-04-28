@@ -52,7 +52,7 @@ If the request worked the server also returns a **message body** which contains 
 You can **view the HTTP request method, status codes and body for a particular resource/request** by using the Chrome Development Tools in the `Network` tab and viewing the `Headers` section of a request. 
 
 ### Multiple Resources / Requests
-When receiving a response from a request a client machine will often have load multiple pieces of information to properly produce something that is useful to the user. In the example below, the HTML page that is loaded contains a reference to a an image called `cat.jpg`. When the user loads the page their browser requests from the server the HTML for this page. When it receives the HTML in a response from the server it reads through it and displays until it reaches the `img` tag where a new resource is referenced. It then makes a further HTTP request to the server for the resource, in this case an image, that will fill the `img` tag. The server then returns the image to
+When receiving a response from a request a client machine will often have load multiple pieces of information to properly produce something that is useful to the user. 
 ```html
 <!DOCTYPE html>
 <html>
@@ -65,6 +65,8 @@ When receiving a response from a request a client machine will often have load m
   </body>
 </html>
 ```
+In the example above, the HTML page that is loaded contains a reference to a an image called `cat.jpg`. When the user loads the page their browser requests from the server the HTML for this page. When it receives the HTML in a response from the server it reads through it and displays until it reaches the `img` tag where a new resource is referenced. It then makes a further HTTP request to the server for the resource, in this case an image, that will fill the `img` tag. The server then returns the image to the browser which displays it with the associated HTML.
+![enter image description here](https://lh3.googleusercontent.com/I4blqXOUOGw516ModpH_9J-dtV9iwUMdKc6E5FtEUlAP2GSCQdQqHgo828AWhpWxZEnwzWDnlM0N_WNU20_IINaQl8DOiGKE34WYpZ0u4vWDIFSg7A2xxzDoRq0uBy5sbIsfNSw_Whmceq84HGnFmeS8_wXG7k1ezn1I86Uet2Og-p-Tt108FPqQ8YM9f3B6L2Z_Ween4knXKbNthpptP6in5G4AIaTga17RcRqId4bbu8SbMVr09hEowN_bwunqCvB7SCtv6f24tMGOC7xt5UCCWtB61prcYg6SxZYwpDKD6f4yuaivhwUMogiapYruLFrKnulSdPOQj5Wv0XUQ7grOnzYr6qNYgDIYIC68TCvHYcX6S4sQya_yIVVJs96_ej5DGubnAT-szRzVGTpjOSYIfJjUAbC9u_9Fq0-ezSbxVMQipHujWiZy8-1uAMrComplJan9SQtnfwljX388OJcxqQVEQcUn6Dht5sA1MfS9rDZazkqIG_U1TeqENcnYclpz5Z8UBM3sW8LIDU-eNlSjHyUbQF8CLCJ1CDiUU2Qh2zkLJi8h_W-PCVicag61VzFAE_rKy1qOCVSXo8IiGVvDjn3aexwXMZTcAaazcYO4KJKmOVSMVDoGSfn2BNZ0kX76LZy4LMZ7_bb5mnqVFpK5ZsMRFNUbcge8juveQvixwtig-EmM4VKqmxBN6A=w735-h366-no)
 
 ### Headers
 HTTP headers store meta information about a specific HTTP document. **At the end of a header a blank line is left to separate the body of the document from the meta information.**
@@ -151,7 +153,7 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2Mzk3MTAxNiwzMjQ0OTA1OCw2Nzc4Mz
+eyJoaXN0b3J5IjpbMTA5MTg3NDM3MywzMjQ0OTA1OCw2Nzc4Mz
 IyOTUsMTY3OTkyODEwNyw4NzUyNzE2ODgsLTgxMDk5OTIxNSw1
 NzQ1ODA3LDE4NzczMDY4ODAsLTY1MDI0NjUwMywtMTYyMjkzOD
 MyNSw4NjExOTY0MjIsMTc1OTI4NjUyOCw3NjA5Njg1NTcsLTE0
