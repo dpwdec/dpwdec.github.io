@@ -74,7 +74,7 @@ Some **other HTTP status codes** are:
 - `307` means that the resource the client is trying to access was **temporarily moved**. The HTTP response body for this code will contain a new URL pointing to where the resource is stored for the moment. Most browsers will automatically redirect to this address.
 - `301` means that the resource the client is trying to access has been **permanently moved**. Its format is very similar to the `307` code and contains a new URL. However, the fact that it has permanently changed gives a single to the client to update an stores or bookmarks they have of where the information is stored.
 - `401` means that the resource is **gone** and has been **deleted** permanently.
-- 
+- `500` means that the HTTP part of the server doesn't really know what went wrong. This comes with the `internal server error` message and usually arises when some program on the server has been asked for a piece of information and not returned what was expected. Essentially its something that the HTTP doesn't have knowledge or why i happened, they just 
 ### Protocol Type
 
 HTTP is an **application protocol** and is based on TCP/IP or **Transport Control Protocol / Internet Protocol** which is a **communication protocol** or **transport protocol**. It is important to keep this distinction in mind as TCP/IP is designed for transferring data whereas HTTP is designed to allow applications to format data in an effective way and share it between each other.
@@ -120,7 +120,7 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTEwNjc3ODMsNjc3ODMyMjk1LDE2Nz
+eyJoaXN0b3J5IjpbLTE0MDUxMzUwODcsNjc3ODMyMjk1LDE2Nz
 k5MjgxMDcsODc1MjcxNjg4LC04MTA5OTkyMTUsNTc0NTgwNywx
 ODc3MzA2ODgwLC02NTAyNDY1MDMsLTE2MjI5MzgzMjUsODYxMT
 k2NDIyLDE3NTkyODY1MjgsNzYwOTY4NTU3LC0xNDkwOTY2Mjks
