@@ -42,9 +42,10 @@ get '/' do
   erb(:index)
 end
 ```
-This has the benefit of separating out concerns for routing your application and displaying page content.
+Structuring your application in this way has the benefit of separating out concerns for routing your application and displaying page content as page content is simply kept as a dependency.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzc4MDQyNzgsLTk5MjQ2MDcxNyw3Nz
-E3MjIxNTFdfQ==
+eyJoaXN0b3J5IjpbLTY4MDE0MDE2NSwtOTkyNDYwNzE3LDc3MT
+cyMjE1MV19
 -->
