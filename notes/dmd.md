@@ -4,6 +4,8 @@ exclude: true
 title: dmd
 ---
 
+rspec --documentation view
+
 UML - unified modelling language
 
 wireframe.cc
@@ -27,6 +29,6 @@ There are 13 types of UML diagrams
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTg4NzY0NSwxOTE2NzkxNzI1LC0xMD
+eyJoaXN0b3J5IjpbMTk1MzYxMDExNywxOTE2NzkxNzI1LC0xMD
 k0NzIzOTUxLC0xMzMzNDg0MDE5XX0=
 -->
