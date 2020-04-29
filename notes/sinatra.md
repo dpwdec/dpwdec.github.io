@@ -49,14 +49,14 @@ class MyApp < Sinatra::Base
 end
 ```
 You then need to create a `config.ru` file in the root directory of your project which `require`s the file in which your app classes are stored and uses the `run` command to specify a class (which is child of `Sinatra::Base`) to start the application.
-```
 ```ruby
-# config.ru (run with rackup)
-require './my_app'
+# config.ru
+require './app'
 run MyApp
 ```
+The app is then run *from* the `config.ru` file using a command like `rackup` or `shotgun`. These commands will automatically find the `config.ru` file and execute it running the correct class and file.
 ```
-
+```
 
 ## Views
 You can load HTML to display on pages as a dependency by using the `erb` method in the block that loads a page with an argument that represents a `.erb` file. This file should be placed in the `/views` directory of your Sinatra project. This `/views` directory should be at the same directory level as the `my_app.rb` file that runs to start your server.
@@ -100,7 +100,7 @@ end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDY4Nzk4OCwtMTM0MTA3OTMwOCwxMT
-k5OTI3NTMwLC0xOTgwODIyNDU0LC05OTI0NjA3MTcsNzcxNzIy
-MTUxXX0=
+eyJoaXN0b3J5IjpbNjIyMDQ3MjI4LC0xMzQxMDc5MzA4LDExOT
+k5Mjc1MzAsLTE5ODA4MjI0NTQsLTk5MjQ2MDcxNyw3NzE3MjIx
+NTFdfQ==
 -->
