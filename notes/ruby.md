@@ -276,20 +276,23 @@ You can programmatically interact with a server by using Ruby's `TCPSocket` clas
 require 'socket'
 # open a socket pointing to our running server above
 socket = TCPSocket.new('localhost', 2345)
-
+# output the information from that the server socket has output
 puts socket.gets
+# send information back to the server
 socket.puts "Hi there!"
+# output what the server said again
 puts socket.gets
-
+# close the connection
 socket.close
 ```
+In the example above, we can imagine the server and client as almost editing a shared document. When the client called `socket.gets` they receive whatever the client last said with `
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDM3ODcyNiwtMTgxMTU0MzUxOSwyND
-QyNDMyMzIsLTExMDkyNzI1NTAsLTE3NzcxMTEwMTcsLTU4OTMx
-ODE5MCwxNDczMTgyNTgzLDE0ODkyMTYxOTIsLTE5NTM2MTcxNi
-wtMzM0MzU5MzA4LC05ODc0Njc2MjMsLTg3NDc3MTI1NSwtMTk3
-MjE3MTM2NSwxMDQ2MTY0NDYsOTkxNjgxMDU0LC0xMjEzOTg4NT
-QwLC0yOTIyMTc0MjksOTU3NTg4MDgzLDE0OTU4NzQ1MSwxNjA5
-MDI2NDE2XX0=
+eyJoaXN0b3J5IjpbLTIwNDczMjEzODUsLTE4MTE1NDM1MTksMj
+Q0MjQzMjMyLC0xMTA5MjcyNTUwLC0xNzc3MTExMDE3LC01ODkz
+MTgxOTAsMTQ3MzE4MjU4MywxNDg5MjE2MTkyLC0xOTUzNjE3MT
+YsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04NzQ3NzEyNTUsLTE5
+NzIxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4MTA1NCwtMTIxMzk4OD
+U0MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxNDk1ODc0NTEsMTYw
+OTAyNjQxNl19
 -->
