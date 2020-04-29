@@ -103,7 +103,15 @@ post '/page-with-params' do
   @my_parameter = params[:name]
 end
 ```
-The `params` hash only has elements pushed through from the `name` value of an html element. For example if I have a form field with an `id="my_param"` this will NOT appear in the `params` hash
+The `params` hash only has elements pushed through from the `name` value of an html element. For example if I have a form field with an `id="my_param"` this will NOT appear in the `params` hash when submitted. The form field MUST have a value `name="my_param"` for that element to appear in the `params` hash.
+```html
+<form action="/greet" method="post">
+  
+  <label for="name">This text won't be submitted</label><br>
+  <input type="text" id="name" name="name"><br>
+  <input type="submit" value="Submit">
+</form>
+```
 ## Rack
 You can **specify the port on which you want a server to run with `rack`** by using the `-p` argument followed by the port number.
 ```
@@ -111,7 +119,7 @@ rackup -p 4567
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1MTIxNTIsLTUwMDQ2MzAyMywtMTM0MT
+eyJoaXN0b3J5IjpbMTM5MzY5MDEsLTUwMDQ2MzAyMywtMTM0MT
 A3OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyNDU0LC05OTI0NjA3
 MTcsNzcxNzIyMTUxXX0=
 -->
