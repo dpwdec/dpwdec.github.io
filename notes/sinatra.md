@@ -37,6 +37,14 @@ The example above defines how to respond to a `GET` request from a client to the
 ### Redirect
 You can **redirect to a different route** using the `redirect` method within a controller block.
 ```ruby
+# visiting this page
+get '/redirect' do
+  redirect('/different')
+end
+# will redirect to this page
+get '/different' do
+  'Redirected here'
+end
 ```
 
 
@@ -127,7 +135,7 @@ rackup -p 4567
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNjA4NjYzMSwtMTg1MjEzMDUwMCwtNT
+eyJoaXN0b3J5IjpbLTE1NzM5MjIyOCwtMTg1MjEzMDUwMCwtNT
 AwNDYzMDIzLC0xMzQxMDc5MzA4LDExOTk5Mjc1MzAsLTE5ODA4
 MjI0NTQsLTk5MjQ2MDcxNyw3NzE3MjIxNTFdfQ==
 -->
