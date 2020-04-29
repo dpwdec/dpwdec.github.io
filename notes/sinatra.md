@@ -56,7 +56,12 @@ run MyApp
 ```
 The app is then run *from* the `config.ru` file using a command like `rackup` or `shotgun`. These commands will automatically find the `config.ru` file and execute it running the correct class and file.
 ```
+# start with rackup from command line on port 4567
+rackup -p 4567
+# start with shotgun from command line on port 4567
+shotgun -p 4567
 ```
+If you are using `shotgun`, when you change the class specified in 
 
 ## Views
 You can load HTML to display on pages as a dependency by using the `erb` method in the block that loads a page with an argument that represents a `.erb` file. This file should be placed in the `/views` directory of your Sinatra project. This `/views` directory should be at the same directory level as the `my_app.rb` file that runs to start your server.
@@ -100,7 +105,7 @@ end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyMDQ3MjI4LC0xMzQxMDc5MzA4LDExOT
-k5Mjc1MzAsLTE5ODA4MjI0NTQsLTk5MjQ2MDcxNyw3NzE3MjIx
-NTFdfQ==
+eyJoaXN0b3J5IjpbLTExOTU4MzYzMTMsLTEzNDEwNzkzMDgsMT
+E5OTkyNzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNzE3LDc3MTcy
+MjE1MV19
 -->
