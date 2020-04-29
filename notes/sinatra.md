@@ -68,12 +68,14 @@ The corresponding `.erb` file:
 ## Params
 User queries or request bodies (from a `PUT` statement etc.) will appear inside your routes stored inside a hash called `params`. This `params` hash is typically filled by the HTTP request's body so its scope is localised to the page where the parameters are passed in. If you navigate from one page where you have some parameters loaded to another page without sending those parameters again then the `params` hash will be empty as you load the next page.
 
-You can **access the value in your `params` hash** by using the key defined in your user arguments.
+You can **access the value in your `params` hash** by using the key in the form of a symbol defined in your user arguments. The key is automatically converted to a symbol.
 ```ruby
-
+post '/page-with-params' do
+  @my_parameter = params[:name]
+end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzM4NTIxNTcsMTE5OTkyNzUzMCwtMT
+eyJoaXN0b3J5IjpbLTEzNDEwNzkzMDgsMTE5OTkyNzUzMCwtMT
 k4MDgyMjQ1NCwtOTkyNDYwNzE3LDc3MTcyMjE1MV19
 -->
