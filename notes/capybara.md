@@ -43,6 +43,7 @@ Most capybara matchers for testing page elements work by using the `name`, `id` 
 
 You can test a page has a specific piece of text or content by using the `have_content(content)` matcher which returns true if a page contains the content submitted in the argument.
 ```ruby
+expect(page).to have_content('Hello world!')
 ```
 
 You can **check for form content elements** using the `have_field` matcher. This checks based `id` component of the HTML `<form>` field object.
@@ -51,6 +52,6 @@ expect(page).to have_field('name')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODI5NjM2MiwxMzc5OTM1NzA5LC0xNz
-g1MDUzNTg3LDEwMDMxNjE2OTksLTE0NjAxOTExOTBdfQ==
+eyJoaXN0b3J5IjpbNjQwODE4MDA2LDEzNzk5MzU3MDksLTE3OD
+UwNTM1ODcsMTAwMzE2MTY5OSwtMTQ2MDE5MTE5MF19
 -->
