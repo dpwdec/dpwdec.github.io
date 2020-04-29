@@ -40,6 +40,7 @@ Sinatra's **modular style** allows you to create classes that inherit from `Sina
 
 To **set up a new modular style app** create a new `Sinatra::Base` class that contains the routes for your app.
 ```ruby
+# app.rb
 class MyApp < Sinatra::Base
   # app routes here
 
@@ -47,7 +48,14 @@ class MyApp < Sinatra::Base
   run! if app_file == $0
 end
 ```
-You then need to create a `config.ru` file in the root directory of your project which `require`s the file in which your app classes are stored and 
+You then need to create a `config.ru` file in the root directory of your project which `require`s the file in which your app classes are stored and uses the `run` command to specify a class (which is child of `Sinatra::Base`) to start the application.
+```
+```ruby
+# config.ru (run with rackup)
+require './my_app'
+run MyApp
+```
+```
 
 
 ## Views
@@ -92,7 +100,7 @@ end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTMyMDQxNiwtMTM0MTA3OTMwOCwxMT
+eyJoaXN0b3J5IjpbMTI1NDY4Nzk4OCwtMTM0MTA3OTMwOCwxMT
 k5OTI3NTMwLC0xOTgwODIyNDU0LC05OTI0NjA3MTcsNzcxNzIy
 MTUxXX0=
 -->
