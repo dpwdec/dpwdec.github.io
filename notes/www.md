@@ -138,7 +138,7 @@ Instead, when the server receives the `POST` request it processes the relevant d
 
 ![enter image description here](https://tinyurl.com/y74txdbx)
 
-There is a special HTTP status code `303` for "See Other" that is used pred
+There is a special HTTP [status code `303`](https://en.wikipedia.org/wiki/HTTP_303) for "See Other" that is used predominantly with the PRG pattern when the first post request is sent.
 
 ## DNS
 DNS or **Domain Name Servers** are a way of translating the nice readable URL address of a website that the client wants to visit into a real, unique server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
@@ -163,11 +163,11 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MzcyNTc5OSwxMDkxODc0MzczLDMyND
-Q5MDU4LDY3NzgzMjI5NSwxNjc5OTI4MTA3LDg3NTI3MTY4OCwt
-ODEwOTk5MjE1LDU3NDU4MDcsMTg3NzMwNjg4MCwtNjUwMjQ2NT
-AzLC0xNjIyOTM4MzI1LDg2MTE5NjQyMiwxNzU5Mjg2NTI4LDc2
-MDk2ODU1NywtMTQ5MDk2NjI5LDIxMTY2NTk2NTcsLTYyODIwNj
-c0Niw2NDIwNzAzNjUsMTc5MTQ4NzgxMCw5MzA2NzY0NDddfQ==
+eyJoaXN0b3J5IjpbLTE5OTU5MzAyMjMsMTA5MTg3NDM3MywzMj
+Q0OTA1OCw2Nzc4MzIyOTUsMTY3OTkyODEwNyw4NzUyNzE2ODgs
+LTgxMDk5OTIxNSw1NzQ1ODA3LDE4NzczMDY4ODAsLTY1MDI0Nj
+UwMywtMTYyMjkzODMyNSw4NjExOTY0MjIsMTc1OTI4NjUyOCw3
+NjA5Njg1NTcsLTE0OTA5NjYyOSwyMTE2NjU5NjU3LC02MjgyMD
+Y3NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNjc2NDQ3XX0=
 
 -->
