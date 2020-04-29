@@ -36,7 +36,8 @@ end
 ```
 The `page` variable is the equivalent of `subject` in capybara and points to the content on whatever page the test is currently running.
 
-Capybara will raise a confusing `XPath` error if you try to test a page which contains no HTML. 
+Capybara will raise a confusing `XPath` error that reads `unable to find xpath "/html"` if you try to test a page which is entirely empty. Be wary of this!
+
 ## Commands
 - `visit('/url-extension')` loads whatever page you want to test.
 
@@ -59,6 +60,6 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODk3NDE2MiwxMzc5OTM1NzA5LC0xNz
+eyJoaXN0b3J5IjpbLTg2MDg4OTIyOCwxMzc5OTM1NzA5LC0xNz
 g1MDUzNTg3LDEwMDMxNjE2OTksLTE0NjAxOTExOTBdfQ==
 -->
