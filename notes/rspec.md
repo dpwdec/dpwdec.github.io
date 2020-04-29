@@ -14,7 +14,8 @@ exclude: true
 	 3.1. [collection matchers](#collection-matchers)
  4. [mocks](#mocks)
      4.1. [instance doubles](#instance-double)
-3. [command line interface](#cli)
+2. [command line interface](#cli)
+6. [Guard](#guard)
 
 ## Workflow
 
@@ -779,11 +780,11 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzAzNTA1MCw4NTMxMzA2MjQsNzY2NT
-g2Nzc3LDIwMDc1Mjg1NDEsMTk5MTAzMjYxMCwtNjY5Mzk2MTg1
-LDI2NTY0MTQ1NywtODg2NzQ0NDk5LDE3MTY4MjA0MjQsLTk0Nj
-E2Mjk3MSwxNjc1MjA4MDQ0LC0xOTMzNzg4MDI5LC05NDA1ODUx
-MDUsLTExNjg2MjIxMjAsNTU2NjU0NTAsMTEwNTUxNDUzMSwxND
-E1MTY3OTA0LC02MTcyMjEyNTksLTE5Nzc3NTMzNTAsMzgwNzQ5
-MTYxXX0=
+eyJoaXN0b3J5IjpbMjIyNTQ2NzM1LDE2ODcwMzUwNTAsODUzMT
+MwNjI0LDc2NjU4Njc3NywyMDA3NTI4NTQxLDE5OTEwMzI2MTAs
+LTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Njc0NDQ5OSwxNzE2OD
+IwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0NCwtMTkzMzc4ODAy
+OSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLDU1NjY1NDUwLDExMD
+U1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIxMjU5LC0xOTc3NzUz
+MzUwXX0=
 -->
