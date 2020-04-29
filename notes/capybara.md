@@ -41,7 +41,11 @@ The `page` variable is the equivalent of `subject` in capybara and points to the
 ## Matchers
 - `have_content(content)` returns true if a page contains the content submitted in the argument.
 
+You can **check for form content elements** using the `have_field` matcher.
+```ruby
+expect(page).to have_field('name')
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjAxOTExOTBdfQ==
+eyJoaXN0b3J5IjpbMTAwMzE2MTY5OSwtMTQ2MDE5MTE5MF19
 -->
