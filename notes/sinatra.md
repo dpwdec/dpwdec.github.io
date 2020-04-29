@@ -41,7 +41,14 @@ Sinatra's **modular style** allows you to create classes that inherit from `Sina
 To **set up a new modular style app** create a new `Sinatra::Base` class that contains the routes for your app.
 ```ruby
 class MyApp < Sinatra::Base
+  # app routes here
+
+  # start the server if ruby file executed directly
+  run! if app_file == $0
+end
 ```
+You then need to create a `config.ru` file in the root directory of your project which `require`s the file in which your app classes are stored and 
+
 
 ## Views
 You can load HTML to display on pages as a dependency by using the `erb` method in the block that loads a page with an argument that represents a `.erb` file. This file should be placed in the `/views` directory of your Sinatra project. This `/views` directory should be at the same directory level as the `my_app.rb` file that runs to start your server.
@@ -85,7 +92,7 @@ end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTQ3MjgzNiwtMTM0MTA3OTMwOCwxMT
+eyJoaXN0b3J5IjpbMTY3OTMyMDQxNiwtMTM0MTA3OTMwOCwxMT
 k5OTI3NTMwLC0xOTgwODIyNDU0LC05OTI0NjA3MTcsNzcxNzIy
 MTUxXX0=
 -->
