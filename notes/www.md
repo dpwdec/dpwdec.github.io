@@ -134,9 +134,11 @@ PRG stands for **Post/Redirect/Get** and is a web routing pattern for avoiding f
 
 ![enter image description here](https://tinyurl.com/y7w7pagv)
 
-Instead, when the server receives the `POST` request it processes the relevant data, making the order etc. and then immediately redirects to a new page with a `GET` request showing order success. Now if the user refreshes the page they will simply re-submit the `GET` request solving the problem of duplicated order.
+Instead, when the server receives the `POST` request it processes the relevant data, making the order etc. and then immediately redirects to a new page with a `GET` request showing order success. Now if the user refreshes the page they will simply re-submit the `GET` request solving the problem of duplicated order. This is where the pattern gets its name as it quickly `POST`s data then, `redirect`s to a new `GET` request.
 
 ![enter image description here](https://tinyurl.com/y74txdbx)
+
+There is a special HTTP status code `303` for "See Other" that is used pred
 
 ## DNS
 DNS or **Domain Name Servers** are a way of translating the nice readable URL address of a website that the client wants to visit into a real, unique server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
@@ -161,10 +163,11 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyODYyODMyLDEwOTE4NzQzNzMsMzI0ND
-kwNTgsNjc3ODMyMjk1LDE2Nzk5MjgxMDcsODc1MjcxNjg4LC04
-MTA5OTkyMTUsNTc0NTgwNywxODc3MzA2ODgwLC02NTAyNDY1MD
-MsLTE2MjI5MzgzMjUsODYxMTk2NDIyLDE3NTkyODY1MjgsNzYw
-OTY4NTU3LC0xNDkwOTY2MjksMjExNjY1OTY1NywtNjI4MjA2Nz
-Q2LDY0MjA3MDM2NSwxNzkxNDg3ODEwLDkzMDY3NjQ0N119
+eyJoaXN0b3J5IjpbMTg2MzcyNTc5OSwxMDkxODc0MzczLDMyND
+Q5MDU4LDY3NzgzMjI5NSwxNjc5OTI4MTA3LDg3NTI3MTY4OCwt
+ODEwOTk5MjE1LDU3NDU4MDcsMTg3NzMwNjg4MCwtNjUwMjQ2NT
+AzLC0xNjIyOTM4MzI1LDg2MTE5NjQyMiwxNzU5Mjg2NTI4LDc2
+MDk2ODU1NywtMTQ5MDk2NjI5LDIxMTY2NTk2NTcsLTYyODIwNj
+c0Niw2NDIwNzAzNjUsMTc5MTQ4NzgxMCw5MzA2NzY0NDddfQ==
+
 -->
