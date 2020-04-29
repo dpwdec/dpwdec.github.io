@@ -61,7 +61,7 @@ rackup -p 4567
 # start with shotgun from command line on port 4567
 shotgun -p 4567
 ```
-If you are using `shotgun`, when you change the class specified in 
+If you are using `shotgun`, when you change the class specified in `config.ru` the server will dynamically change to run the code from that other class which could be an entirely separate web application.
 
 ## Views
 You can load HTML to display on pages as a dependency by using the `erb` method in the block that loads a page with an argument that represents a `.erb` file. This file should be placed in the `/views` directory of your Sinatra project. This `/views` directory should be at the same directory level as the `my_app.rb` file that runs to start your server.
@@ -103,9 +103,14 @@ post '/page-with-params' do
   @my_parameter = params[:name]
 end
 ```
+## Rack
+You can **specify the port on which you want a server to run with `rack`** by using the `-p` argument followed by the port number.
+```
+rackup -p 4567
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTU4MzYzMTMsLTEzNDEwNzkzMDgsMT
-E5OTkyNzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNzE3LDc3MTcy
-MjE1MV19
+eyJoaXN0b3J5IjpbLTUwMDQ2MzAyMywtMTM0MTA3OTMwOCwxMT
+k5OTI3NTMwLC0xOTgwODIyNDU0LC05OTI0NjA3MTcsNzcxNzIy
+MTUxXX0=
 -->
