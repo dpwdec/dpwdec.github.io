@@ -41,7 +41,7 @@ The `page` variable is the equivalent of `subject` in capybara and points to the
 ## Matchers
 Most capybara matchers for testing page elements work by using the `name`, `id` or `type` values on an HTML element. You should **avoid using the CSS selectors** to test elements on the page.
 
-You can test a page has a specific piece of text or content by using the `have_content(content)` matcher which returns true if a page contains the content submitted in the argument.
+You can t**est a page has a specific piece of text or content** by using the `have_content(content)` matcher which returns true if a page contains the content submitted in the argument.
 ```ruby
 expect(page).to have_content('Hello world!')
 ```
@@ -50,8 +50,13 @@ You can **check for form content elements** using the `have_field` matcher. This
 ```ruby
 expect(page).to have_field('name')
 ```
+You can test that a link or button goes to a specific URL by using the `have_current_path` matcher which test the current URL page extension. In the example below we test a button that takes us to the `/b
+```ruby
+click_button('some link')
+expect(page).to have_current_path('/about')
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwODE4MDA2LDEzNzk5MzU3MDksLTE3OD
+eyJoaXN0b3J5IjpbLTM5MDM0MTMwLDEzNzk5MzU3MDksLTE3OD
 UwNTM1ODcsMTAwMzE2MTY5OSwtMTQ2MDE5MTE5MF19
 -->
