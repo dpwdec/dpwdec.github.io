@@ -109,6 +109,7 @@ The `params` hash only has elements pushed through from the `name` value of an h
   <label for="name">This text won't be submitted</label><br>
   <!-- params[:no_submit] will be empty -->
   <input type="text" id="no_submit"><br>
+  <!-- params[:submit] will be empty -->
   <input type="text" name="submit"><br>
   <input type="submit" value="Submit">
 </form>
@@ -120,7 +121,7 @@ rackup -p 4567
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk1OTAyMjAsLTUwMDQ2MzAyMywtMT
+eyJoaXN0b3J5IjpbLTEyODI3NTc0MDcsLTUwMDQ2MzAyMywtMT
 M0MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyNDU0LC05OTI0
 NjA3MTcsNzcxNzIyMTUxXX0=
 -->
