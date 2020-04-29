@@ -34,6 +34,9 @@ end
 ```
 The example above defines how to respond to a `GET` request from a client to the root URL of the server. In this case it returns the string `Hello world` which is then displayed in plain text by the browser. You can insert HTML as a string, for example `'<h1>Hello World</h1>'`, into the route block, but this is not advised!
 
+### PRG in Sinatra
+
+
 ## Modular Style
 
 Sinatra's **modular style** allows you to create classes that inherit from `Sinatra::Base` class and contain the code for your application. You can define multiple different app classes in your root file each one representing a self contained web application, you can switch between these seamlessly within a single ruby process running the server.
@@ -121,7 +124,7 @@ rackup -p 4567
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTIxMzA1MDAsLTUwMDQ2MzAyMywtMT
-M0MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyNDU0LC05OTI0
-NjA3MTcsNzcxNzIyMTUxXX0=
+eyJoaXN0b3J5IjpbOTA4MzYzNzI3LC0xODUyMTMwNTAwLC01MD
+A0NjMwMjMsLTEzNDEwNzkzMDgsMTE5OTkyNzUzMCwtMTk4MDgy
+MjQ1NCwtOTkyNDYwNzE3LDc3MTcyMjE1MV19
 -->
