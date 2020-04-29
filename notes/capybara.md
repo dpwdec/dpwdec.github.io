@@ -25,9 +25,12 @@ Capybara.app = Battle
 Tests that use capybara should be placed in the `spec/features` directory.
 
 ## Structure
-The basic structure of capybara tests is similar to RSpec core with sligh
+The basic structure of capybara tests is similar to RSpec core with slightly different adjectives. In Capybara we run a `feature` block instead of a `describe` block to indicate which broad feature we are testing and we run a `scenario` block instead of an `it` block. You can then do set up using basic capybara and the vanilla RSpec `expect` adjective with capybara commands.
+```ruby
+
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDQ2Mjg0Nl19
+eyJoaXN0b3J5IjpbMTA2MTY5NzU4Ml19
 -->
