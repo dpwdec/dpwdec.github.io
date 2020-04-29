@@ -50,13 +50,13 @@ You can **check for form content elements** using the `have_field` matcher. This
 ```ruby
 expect(page).to have_field('name')
 ```
-You can test that a link or button goes to a specific URL by using the `have_current_path` matcher which test the current URL page extension. In the example below we test a button that takes us to the `/b
+You can **test that a link or button goes to a the correct URL** by using the `have_current_path` matcher which test the current URL page extension. In the example below we test a button that takes us to the `/about` page.
 ```ruby
 click_button('some link')
 expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDM0MTMwLDEzNzk5MzU3MDksLTE3OD
-UwNTM1ODcsMTAwMzE2MTY5OSwtMTQ2MDE5MTE5MF19
+eyJoaXN0b3J5IjpbLTEzMzk1MDcxNDEsMTM3OTkzNTcwOSwtMT
+c4NTA1MzU4NywxMDAzMTYxNjk5LC0xNDYwMTkxMTkwXX0=
 -->
