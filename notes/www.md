@@ -131,7 +131,7 @@ name=YourNameHere --> query content submitted in the body
 
 ## PRG
 PRG stands for **Post/Redirect/Get** and is a web routing pattern for avoiding form re-submission errors and improving separation of concerns for HTTP verbs. If we imagine a scenario in which a user refreshes a page after making a `POST` request that places an order, the order when will then be sent again as another `POST` request that is duplicated in the server. *Very undesirable!*
-
+![Failed post](https://tinyurl.com/y8j493mv)
 Instead
 
 ## DNS
@@ -157,7 +157,7 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU1OTg3NTYsMTA5MTg3NDM3MywzMj
+eyJoaXN0b3J5IjpbLTIxMjU4MDQ3ODUsMTA5MTg3NDM3MywzMj
 Q0OTA1OCw2Nzc4MzIyOTUsMTY3OTkyODEwNyw4NzUyNzE2ODgs
 LTgxMDk5OTIxNSw1NzQ1ODA3LDE4NzczMDY4ODAsLTY1MDI0Nj
 UwMywtMTYyMjkzODMyNSw4NjExOTY0MjIsMTc1OTI4NjUyOCw3
