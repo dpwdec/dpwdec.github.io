@@ -774,17 +774,17 @@ end
 Guard requires a `Guardfile` to run correctly. To **set up the `Guardfile`** use `guard init rspec` command. You can also use `
 bundle exec guard init rspec`.
 
-**To run guard** so that it automatically triggers testing when files change simply type the `guard` command. You can also use `bundle exec guard`. You can **stop guard running** by typing `exit`.
+**To run guard** so that it automatically triggers testing when files change simply type the `guard` command. This will start guard running in the terminal window. Now when you save edited files in your project your RSpec tests will be automatically triggered. You can also use `bundle exec guard`. You can **stop guard running** by typing `exit`.
 
 
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyNTQ2NzM1LDE2ODcwMzUwNTAsODUzMT
-MwNjI0LDc2NjU4Njc3NywyMDA3NTI4NTQxLDE5OTEwMzI2MTAs
-LTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Njc0NDQ5OSwxNzE2OD
-IwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0NCwtMTkzMzc4ODAy
-OSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLDU1NjY1NDUwLDExMD
-U1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIxMjU5LC0xOTc3NzUz
-MzUwXX0=
+eyJoaXN0b3J5IjpbLTE2ODA2NTExOCwxNjg3MDM1MDUwLDg1Mz
+EzMDYyNCw3NjY1ODY3NzcsMjAwNzUyODU0MSwxOTkxMDMyNjEw
+LC02NjkzOTYxODUsMjY1NjQxNDU3LC04ODY3NDQ0OTksMTcxNj
+gyMDQyNCwtOTQ2MTYyOTcxLDE2NzUyMDgwNDQsLTE5MzM3ODgw
+MjksLTk0MDU4NTEwNSwtMTE2ODYyMjEyMCw1NTY2NTQ1MCwxMT
+A1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIyMTI1OSwtMTk3Nzc1
+MzM1MF19
 -->
