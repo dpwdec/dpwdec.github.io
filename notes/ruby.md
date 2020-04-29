@@ -285,11 +285,17 @@ puts socket.gets
 # close the connection
 socket.close
 ```
-In the example above, we can imagine the server and client as almost editing a shared document. When the client called `socket.gets` they receive whatever the client first said with `socket.puts`. This works in reverse as well, whenever the server `gets` from the `socket` they will receive whatever the client `puts`ed. **Multiple individual `puts` and `gets` statements are not passed** between the client and server.   
+In the example above, we can imagine the server and client as almost editing a shared document. When the client called `socket.gets` they receive whatever the client first said with `socket.puts`. This works in reverse as well, whenever the server `gets` from the `socket` they will receive whatever the client `puts`ed. **Multiple individual `puts` and `gets` statements are not passed** between the client and server. 
+```ruby
+# Server code
+
+```
+
+`socket.puts` **does not output to the `std_out`** (standard output), only to the server. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODEwMTc5NiwzNTIyNDA5MDgsLTE4MT
+eyJoaXN0b3J5IjpbLTYzNzM0ODkzMSwzNTIyNDA5MDgsLTE4MT
 E1NDM1MTksMjQ0MjQzMjMyLC0xMTA5MjcyNTUwLC0xNzc3MTEx
 MDE3LC01ODkzMTgxOTAsMTQ3MzE4MjU4MywxNDg5MjE2MTkyLC
 0xOTUzNjE3MTYsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04NzQ3
