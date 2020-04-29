@@ -22,7 +22,7 @@ require 'rspec'
 # tell Capybara about our app class
 Capybara.app = Battle
 ```
-Tests that use capybara should be placed in the `spec/features` directory.
+Tests that use capybara should be placed in the `spec/features` directory. These tests are then run automatically when you use the `rspec` command to trigger all your tests.
 
 ## Structure
 The basic structure of capybara tests is similar to RSpec core with slightly different adjectives. In Capybara we run a `feature` block instead of a `describe` block to indicate which broad feature we are testing and we run a `scenario` block instead of an `it` block. You can then do set up using basic capybara and the vanilla RSpec `expect` adjective with capybara commands.
@@ -43,5 +43,5 @@ The `page` variable is the equivalent of `subject` in capybara and points to the
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NjI5NDU4Nl19
+eyJoaXN0b3J5IjpbLTE0NjAxOTExOTBdfQ==
 -->
