@@ -285,14 +285,15 @@ puts socket.gets
 # close the connection
 socket.close
 ```
-In the example above, we can imagine the server and client as almost editing a shared document. When the client called `socket.gets` they receive whatever the client last said with `
+In the example above, we can imagine the server and client as almost editing a shared document. When the client called `socket.gets` they receive whatever the client last said with `socket.puts`. This works in reverse as well, whenever the server `gets` from the `socket` they will receive whatever the client `puts`ed.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDczMjEzODUsLTE4MTE1NDM1MTksMj
-Q0MjQzMjMyLC0xMTA5MjcyNTUwLC0xNzc3MTExMDE3LC01ODkz
-MTgxOTAsMTQ3MzE4MjU4MywxNDg5MjE2MTkyLC0xOTUzNjE3MT
-YsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04NzQ3NzEyNTUsLTE5
-NzIxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4MTA1NCwtMTIxMzk4OD
-U0MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxNDk1ODc0NTEsMTYw
-OTAyNjQxNl19
+eyJoaXN0b3J5IjpbMzUyMjQwOTA4LC0xODExNTQzNTE5LDI0ND
+I0MzIzMiwtMTEwOTI3MjU1MCwtMTc3NzExMTAxNywtNTg5MzE4
+MTkwLDE0NzMxODI1ODMsMTQ4OTIxNjE5MiwtMTk1MzYxNzE2LC
+0zMzQzNTkzMDgsLTk4NzQ2NzYyMywtODc0NzcxMjU1LC0xOTcy
+MTcxMzY1LDEwNDYxNjQ0Niw5OTE2ODEwNTQsLTEyMTM5ODg1ND
+AsLTI5MjIxNzQyOSw5NTc1ODgwODMsMTQ5NTg3NDUxLDE2MDkw
+MjY0MTZdfQ==
 -->
