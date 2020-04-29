@@ -270,14 +270,14 @@ they_stay = socket.gets.chomp
 # Output the saved input of the client
 socket.puts(they_say)
 ```
-
+You can programmatically interact with a server by using Ruby's `TCPSocket` c
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTE1NDM1MTksMjQ0MjQzMjMyLC0xMT
-A5MjcyNTUwLC0xNzc3MTExMDE3LC01ODkzMTgxOTAsMTQ3MzE4
-MjU4MywxNDg5MjE2MTkyLC0xOTUzNjE3MTYsLTMzNDM1OTMwOC
-wtOTg3NDY3NjIzLC04NzQ3NzEyNTUsLTE5NzIxNzEzNjUsMTA0
-NjE2NDQ2LDk5MTY4MTA1NCwtMTIxMzk4ODU0MCwtMjkyMjE3ND
-I5LDk1NzU4ODA4MywxNDk1ODc0NTEsMTYwOTAyNjQxNiw5NjEw
-NTc1NjddfQ==
+eyJoaXN0b3J5IjpbODYxOTYxMDIyLC0xODExNTQzNTE5LDI0ND
+I0MzIzMiwtMTEwOTI3MjU1MCwtMTc3NzExMTAxNywtNTg5MzE4
+MTkwLDE0NzMxODI1ODMsMTQ4OTIxNjE5MiwtMTk1MzYxNzE2LC
+0zMzQzNTkzMDgsLTk4NzQ2NzYyMywtODc0NzcxMjU1LC0xOTcy
+MTcxMzY1LDEwNDYxNjQ0Niw5OTE2ODEwNTQsLTEyMTM5ODg1ND
+AsLTI5MjIxNzQyOSw5NTc1ODgwODMsMTQ5NTg3NDUxLDE2MDkw
+MjY0MTZdfQ==
 -->
