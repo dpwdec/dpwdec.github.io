@@ -27,10 +27,16 @@ Tests that use capybara should be placed in the `spec/features` directory.
 ## Structure
 The basic structure of capybara tests is similar to RSpec core with slightly different adjectives. In Capybara we run a `feature` block instead of a `describe` block to indicate which broad feature we are testing and we run a `scenario` block instead of an `it` block. You can then do set up using basic capybara and the vanilla RSpec `expect` adjective with capybara commands.
 ```ruby
-
+feature 'Tests web page content' do
+  scenario 'It has correct text' do
+    visit('/')
+    expect(page).to have_content 'Hello world!'
+  end
+end
 ```
+The `page` variable is the equivalent of `subject` in capybara and points to the content on whatever pag
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTY5NzU4Ml19
+eyJoaXN0b3J5IjpbLTU2OTI3MjQ1NV19
 -->
