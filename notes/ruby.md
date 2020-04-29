@@ -285,7 +285,9 @@ puts socket.gets
 # close the connection
 socket.close
 ```
-In the example above, we can imagine the server and client as almost editing a shared document. When the client called `socket.gets` they receive whatever the client first said with `socket.puts`. This works in reverse as well, whenever the server `gets` from the `socket` they will receive whatever the client `puts`ed. **Multiple individual `puts` and `gets` statements are not passed** between the client and server. 
+In the example above, we can imagine the server and client as almost editing a shared document. When the client called `socket.gets` they receive whatever the client first said with `socket.puts`. This works in reverse as well, whenever the server `gets` from the `socket` they will receive whatever the client `puts`ed. 
+
+**Multiple individual `puts` and `gets` statements are not passed** between the client and server.  In the example below, the output will be only `Multiple output lines` because as soon as the `Client` does `puts` on a single line the `socket.gets.chomp` command in the server will re
 ```ruby
 # Server code
 require 'socket'
@@ -301,7 +303,14 @@ class Server
 end
 
 class Client
+  require 'socket'
 
+  socket = TCPSocket.new('localhost', 2345)
+
+  socket.puts "Multiple output lines"
+  socket.puts "Another output"
+
+  socket.close
 end
 ```
 
@@ -309,11 +318,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyODA5NzEyLDM1MjI0MDkwOCwtMTgxMT
-U0MzUxOSwyNDQyNDMyMzIsLTExMDkyNzI1NTAsLTE3NzcxMTEw
-MTcsLTU4OTMxODE5MCwxNDczMTgyNTgzLDE0ODkyMTYxOTIsLT
-E5NTM2MTcxNiwtMzM0MzU5MzA4LC05ODc0Njc2MjMsLTg3NDc3
-MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0NDYsOTkxNjgxMDU0LC
-0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOTU3NTg4MDgzLDE0OTU4
-NzQ1MV19
+eyJoaXN0b3J5IjpbMTY1NDY0MDM0OCwzNTIyNDA5MDgsLTE4MT
+E1NDM1MTksMjQ0MjQzMjMyLC0xMTA5MjcyNTUwLC0xNzc3MTEx
+MDE3LC01ODkzMTgxOTAsMTQ3MzE4MjU4MywxNDg5MjE2MTkyLC
+0xOTUzNjE3MTYsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04NzQ3
+NzEyNTUsLTE5NzIxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4MTA1NC
+wtMTIxMzk4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxNDk1
+ODc0NTFdfQ==
 -->
