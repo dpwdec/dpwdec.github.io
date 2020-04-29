@@ -35,6 +35,8 @@ feature 'Tests web page content' do
 end
 ```
 The `page` variable is the equivalent of `subject` in capybara and points to the content on whatever page the test is currently running.
+
+Capybara will raise a confusing `XPath` error if you try to test a page which contains no HTML. 
 ## Commands
 - `visit('/url-extension')` loads whatever page you want to test.
 
@@ -57,6 +59,6 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk1MDcxNDEsMTM3OTkzNTcwOSwtMT
-c4NTA1MzU4NywxMDAzMTYxNjk5LC0xNDYwMTkxMTkwXX0=
+eyJoaXN0b3J5IjpbLTE2ODk3NDE2MiwxMzc5OTM1NzA5LC0xNz
+g1MDUzNTg3LDEwMDMxNjE2OTksLTE0NjAxOTExOTBdfQ==
 -->
