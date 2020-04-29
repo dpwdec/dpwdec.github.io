@@ -36,7 +36,12 @@ The example above defines how to respond to a `GET` request from a client to the
 
 ## Modular Style
 
-Sinatra's **modular style** allows you to create classes that inherit from `Sinatra::Base` class and contain the code for your application. You can define multiple different app classes in your root file each one representing a self contained web application, you can switch between these seamlessly within
+Sinatra's **modular style** allows you to create classes that inherit from `Sinatra::Base` class and contain the code for your application. You can define multiple different app classes in your root file each one representing a self contained web application, you can switch between these seamlessly within a single ruby process running the server.
+
+To **set up a new modular style app** create a new `Sinatra::Base` class that contains the routes for your app.
+```ruby
+class MyApp < Sinatra::Base
+```
 
 ## Views
 You can load HTML to display on pages as a dependency by using the `erb` method in the block that loads a page with an argument that represents a `.erb` file. This file should be placed in the `/views` directory of your Sinatra project. This `/views` directory should be at the same directory level as the `my_app.rb` file that runs to start your server.
@@ -80,7 +85,7 @@ end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDU2NjI3NiwtMTM0MTA3OTMwOCwxMT
+eyJoaXN0b3J5IjpbMTcyMTQ3MjgzNiwtMTM0MTA3OTMwOCwxMT
 k5OTI3NTMwLC0xOTgwODIyNDU0LC05OTI0NjA3MTcsNzcxNzIy
 MTUxXX0=
 -->
