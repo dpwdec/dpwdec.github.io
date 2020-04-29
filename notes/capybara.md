@@ -41,6 +41,12 @@ Capybara will raise a confusing `XPath` error that reads `unable to find xpath "
 ## Commands
 - `visit('/url-extension')` loads whatever page you want to test.
 
+You can **fill in a form field** using the `fill_in` command, combined with the field `name`, `id` or `label` and the value to add.
+```ruby
+# fills in the name field of a form with "John"
+fill_in('name', with: 'John')
+```
+
 ## Matchers
 Most capybara matchers for testing page elements work by using the `name`, `id` or `type` values on an HTML element. You should **avoid using the CSS selectors** to test elements on the page.
 
@@ -60,6 +66,6 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MDg4OTIyOCwxMzc5OTM1NzA5LC0xNz
-g1MDUzNTg3LDEwMDMxNjE2OTksLTE0NjAxOTExOTBdfQ==
+eyJoaXN0b3J5IjpbLTY1NTA3MDE0LDEzNzk5MzU3MDksLTE3OD
+UwNTM1ODcsMTAwMzE2MTY5OSwtMTQ2MDE5MTE5MF19
 -->
