@@ -34,9 +34,14 @@ feature 'Tests web page content' do
   end
 end
 ```
-The `page` variable is the equivalent of `subject` in capybara and points to the content on whatever pag
+The `page` variable is the equivalent of `subject` in capybara and points to the content on whatever page the test is currently running.
+## Commands
+- `visit('/url-extension')` loads whatever page you want to test.
+
+## Matchers
+- `have_content(content)` chec
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTI3MjQ1NV19
+eyJoaXN0b3J5IjpbLTExODk2OTMzMjJdfQ==
 -->
