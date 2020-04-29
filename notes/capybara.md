@@ -39,9 +39,9 @@ The `page` variable is the equivalent of `subject` in capybara and points to the
 - `visit('/url-extension')` loads whatever page you want to test.
 
 ## Matchers
-- `have_content(content)` chec
+- `have_content(content)` returns true if a page contains the content submitted in the argument.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODk2OTMzMjJdfQ==
+eyJoaXN0b3J5IjpbMTY3NjI5NDU4Nl19
 -->
