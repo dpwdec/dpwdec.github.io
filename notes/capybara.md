@@ -39,7 +39,11 @@ The `page` variable is the equivalent of `subject` in capybara and points to the
 - `visit('/url-extension')` loads whatever page you want to test.
 
 ## Matchers
-- `have_content(content)` returns true if a page contains the content submitted in the argument.
+Most capybara matchers for testing page elements work by using the `name`, `id` or `type` values on an HTML element. You should **avoid using the CSS selectors** to test elements on the page.
+
+You can test a page has a specific piece of text or content by using the `have_content(content)` matcher which returns true if a page contains the content submitted in the argument.
+```ruby
+```
 
 You can **check for form content elements** using the `have_field` matcher. This checks based `id` component of the HTML `<form>` field object.
 ```ruby
@@ -47,6 +51,6 @@ expect(page).to have_field('name')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTkzNTcwOSwtMTc4NTA1MzU4NywxMD
-AzMTYxNjk5LC0xNDYwMTkxMTkwXX0=
+eyJoaXN0b3J5IjpbMTY2ODI5NjM2MiwxMzc5OTM1NzA5LC0xNz
+g1MDUzNTg3LDEwMDMxNjE2OTksLTE0NjAxOTExOTBdfQ==
 -->
