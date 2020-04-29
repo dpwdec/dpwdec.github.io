@@ -287,7 +287,7 @@ socket.close
 ```
 In the example above, we can imagine the server and client as almost editing a shared document. When the client called `socket.gets` they receive whatever the client first said with `socket.puts`. This works in reverse as well, whenever the server `gets` from the `socket` they will receive whatever the client `puts`ed. 
 
-**Multiple individual `puts` and `gets` statements are not passed** between the client and server.  In the example below, the output will be only `Multiple output lines` because as soon as the `Client` does `puts` on a single line the `socket.gets.chomp` command in the server will re
+**Multiple individual `puts` and `gets` statements are not passed** between the client and server.  In the example below, the output will be only `Multiple output lines` because as soon as the `Client` does `puts` on a single line the `socket.gets.chomp` command in the server will return and the next `puts` to the server will never be displayed unless we write another `gets` and `puts` pair on the server.
 ```ruby
 # Server code
 require 'socket'
@@ -313,12 +313,11 @@ class Client
   socket.close
 end
 ```
-
 `socket.puts` **does not output to the `std_out`** (standard output), only to the server. 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDY0MDM0OCwzNTIyNDA5MDgsLTE4MT
+eyJoaXN0b3J5IjpbLTQxMjc4NjQzMCwzNTIyNDA5MDgsLTE4MT
 E1NDM1MTksMjQ0MjQzMjMyLC0xMTA5MjcyNTUwLC0xNzc3MTEx
 MDE3LC01ODkzMTgxOTAsMTQ3MzE4MjU4MywxNDg5MjE2MTkyLC
 0xOTUzNjE3MTYsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04NzQ3
