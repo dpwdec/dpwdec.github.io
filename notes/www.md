@@ -131,9 +131,12 @@ name=YourNameHere --> query content submitted in the body
 
 ## PRG
 PRG stands for **Post/Redirect/Get** and is a web routing pattern for avoiding form re-submission errors and improving separation of concerns for HTTP verbs. If we imagine a scenario in which a user refreshes a page after making a `POST` request that places an order, the order when will then be sent again as another `POST` request that is duplicated in the server. *Very undesirable!*
+
 ![enter image description here](https://tinyurl.com/y7w7pagv)
+
 Instead, when the server receives the `POST` request it processes the relevant data, making the order etc. and then immediately redirects to a new page with a `GET` request showing order success. Now if the user refreshes the page they will simply re-submit the `GET` request solving the problem of duplicated order.
 
+![enter image description here](https://tinyurl.com/y74txdbx)
 
 ## DNS
 DNS or **Domain Name Servers** are a way of translating the nice readable URL address of a website that the client wants to visit into a real, unique server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
@@ -158,11 +161,10 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTI4NjM3ODcsMTA5MTg3NDM3MywzMj
-Q0OTA1OCw2Nzc4MzIyOTUsMTY3OTkyODEwNyw4NzUyNzE2ODgs
-LTgxMDk5OTIxNSw1NzQ1ODA3LDE4NzczMDY4ODAsLTY1MDI0Nj
-UwMywtMTYyMjkzODMyNSw4NjExOTY0MjIsMTc1OTI4NjUyOCw3
-NjA5Njg1NTcsLTE0OTA5NjYyOSwyMTE2NjU5NjU3LC02MjgyMD
-Y3NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNjc2NDQ3XX0=
-
+eyJoaXN0b3J5IjpbOTIyODYyODMyLDEwOTE4NzQzNzMsMzI0ND
+kwNTgsNjc3ODMyMjk1LDE2Nzk5MjgxMDcsODc1MjcxNjg4LC04
+MTA5OTkyMTUsNTc0NTgwNywxODc3MzA2ODgwLC02NTAyNDY1MD
+MsLTE2MjI5MzgzMjUsODYxMTk2NDIyLDE3NTkyODY1MjgsNzYw
+OTY4NTU3LC0xNDkwOTY2MjksMjExNjY1OTY1NywtNjI4MjA2Nz
+Q2LDY0MjA3MDM2NSwxNzkxNDg3ODEwLDkzMDY3NjQ0N119
 -->
