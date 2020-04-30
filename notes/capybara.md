@@ -55,6 +55,14 @@ find_by_id('my dropdown').find(:xpath, 'option[2]')
 ```
 ### Actions
 
+To **click a button** use the `click_button` command. You can also use the `click` command appended to a query that `find`s an element in your HTML document.
+```ruby
+# clicks 'My Button'
+click_button('my button')
+# find the 'My Button' element and click it
+find('my
+```
+
 You can **fill in a form field** using the `fill_in` command, combined with the field `name`, `id` or `label` and the value to add.
 ```ruby
 # fills in the name field of a form with "John"
@@ -84,7 +92,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MzMwOTk4NSwtNjU1MDcwMTQsMTM3OT
+eyJoaXN0b3J5IjpbMTM2NjkxNDEzNCwtNjU1MDcwMTQsMTM3OT
 kzNTcwOSwtMTc4NTA1MzU4NywxMDAzMTYxNjk5LC0xNDYwMTkx
 MTkwXX0=
 -->
