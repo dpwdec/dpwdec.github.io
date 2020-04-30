@@ -46,6 +46,11 @@ You can **fill in a form field** using the `fill_in` command, combined with the 
 # fills in the name field of a form with "John"
 fill_in('name', with: 'John')
 ```
+You can **find an object by its ID value** using the `find_by_id` method. This can then have other actions appended to it.
+```ruby
+find_by_id('my button').click
+```
+You can **find a specific option within an element** by using the `find` method combined with the `xpath
 
 ## Matchers
 Most capybara matchers for testing page elements work by using the `name`, `id` or `type` values on an HTML element. You should **avoid using the CSS selectors** to test elements on the page.
@@ -66,6 +71,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTA3MDE0LDEzNzk5MzU3MDksLTE3OD
-UwNTM1ODcsMTAwMzE2MTY5OSwtMTQ2MDE5MTE5MF19
+eyJoaXN0b3J5IjpbMTA1NDc0NDI4NCwtNjU1MDcwMTQsMTM3OT
+kzNTcwOSwtMTc4NTA1MzU4NywxMDAzMTYxNjk5LC0xNDYwMTkx
+MTkwXX0=
 -->
