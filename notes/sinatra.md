@@ -46,7 +46,9 @@ get '/different' do
   'Redirected here'
 end
 ```
+### Sessions
 
+You can **save information between different pages** so that it is available to all your different controllers by using the `sessions` object.
 
 ## Modular Style
 
@@ -135,7 +137,8 @@ rackup -p 4567
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzM5MjIyOCwtMTg1MjEzMDUwMCwtNT
-AwNDYzMDIzLC0xMzQxMDc5MzA4LDExOTk5Mjc1MzAsLTE5ODA4
-MjI0NTQsLTk5MjQ2MDcxNyw3NzE3MjIxNTFdfQ==
+eyJoaXN0b3J5IjpbMTU4NjQxMjQ3LC0xNTczOTIyMjgsLTE4NT
+IxMzA1MDAsLTUwMDQ2MzAyMywtMTM0MTA3OTMwOCwxMTk5OTI3
+NTMwLC0xOTgwODIyNDU0LC05OTI0NjA3MTcsNzcxNzIyMTUxXX
+0=
 -->
