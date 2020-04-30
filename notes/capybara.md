@@ -39,13 +39,11 @@ The `page` variable is the equivalent of `subject` in capybara and points to the
 Capybara will raise a confusing `XPath` error that reads `unable to find xpath "/html"` if you try to test a page which is entirely empty. Be wary of this!
 
 ## Commands
-- `visit('/url-extension')` loads whatever page you want to test.
 
-You can **fill in a form field** using the `fill_in` command, combined with the field `name`, `id` or `label` and the value to add.
-```ruby
-# fills in the name field of a form with "John"
-fill_in('name', with: 'John')
-```
+### Finders
+
+`visit('/url-extension')` loads whatever page you want to test.
+
 You can **find an object by its ID value** using the `find_by_id` method. This can then have other actions appended to it.
 ```ruby
 find_by_id('my button').click
@@ -55,12 +53,18 @@ You can **find a specific option within an element** by using the `find` method 
 # finds the second option in a drop down menu
 find_by_id('my dropdown').find(:xpath, 'option[2]')
 ```
+### Actions
+
+You can **fill in a form field** using the `fill_in` command, combined with the field `name`, `id` or `label` and the value to add.
+```ruby
+# fills in the name field of a form with "John"
+fill_in('name', with: 'John')
+```
 To **select an option from a dropdown** use the `select_option` action. Un-intuitively you cannot use the `click` selector for selecting an option from a drop down.
 ```ruby
-# finds the sencond option of the drop down meny and
+# finds the sencond option of the drop down menu and selects it
 find_by_id('my dropdown').find(:xpath, 'option[2]').select_option
 ``` 
-
 ## Matchers
 Most capybara matchers for testing page elements work by using the `name`, `id` or `type` values on an HTML element. You should **avoid using the CSS selectors** to test elements on the page.
 
@@ -80,7 +84,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTYyMzM5NCwtNjU1MDcwMTQsMTM3OT
+eyJoaXN0b3J5IjpbLTM3MzMwOTk4NSwtNjU1MDcwMTQsMTM3OT
 kzNTcwOSwtMTc4NTA1MzU4NywxMDAzMTYxNjk5LC0xNDYwMTkx
 MTkwXX0=
 -->
