@@ -48,7 +48,21 @@ end
 ```
 ### Sessions
 
-You can **save information between different pages** so that it is available to all your different controllers by using the `sessions` object. To start using sessions you need to add `enable :sessions` to top of your file or class. Then you can use the `sessions` object just like the `params` hash however it starts off empty and its value will persist in different controllers
+You can **save information between different pages** so that it is available to all your different controllers by using the `sessions` object. To start using sessions you need to add `enable :sessions` to top of your file or class. Then you can use the `sessions` object just like the `params` hash however it starts off empty and its value will persist in different controllers.
+```ruby
+class MyApp < Sinatra::Base
+  enable :sessions
+
+  get '/' do
+    sessions[:my_var] = 'Hello'
+  end
+
+  get '/print' do
+    # prints 'Hello'
+    sessions[:my_var]
+  end
+end
+```
 
 ## Modular Style
 
@@ -137,7 +151,7 @@ rackup -p 4567
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTExMzM4NCwtMTU3MzkyMjI4LC0xOD
+eyJoaXN0b3J5IjpbMTE3NjUxNTg4NCwtMTU3MzkyMjI4LC0xOD
 UyMTMwNTAwLC01MDA0NjMwMjMsLTEzNDEwNzkzMDgsMTE5OTky
 NzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNzE3LDc3MTcyMjE1MV
 19
