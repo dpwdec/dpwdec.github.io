@@ -48,7 +48,7 @@ end
 ```
 ### Sessions
 
-You can **save information between different pages** so that it is available to all your different controllers by using the `sessions` object.
+You can **save information between different pages** so that it is available to all your different controllers by using the `sessions` object. To start using sessions you need to add `enable :sessions` to top of your file or class. Then you can use the `sessions` object just like the `params` hash however it starts off empty and its value will persist in different controllers
 
 ## Modular Style
 
@@ -137,8 +137,8 @@ rackup -p 4567
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjQxMjQ3LC0xNTczOTIyMjgsLTE4NT
-IxMzA1MDAsLTUwMDQ2MzAyMywtMTM0MTA3OTMwOCwxMTk5OTI3
-NTMwLC0xOTgwODIyNDU0LC05OTI0NjA3MTcsNzcxNzIyMTUxXX
-0=
+eyJoaXN0b3J5IjpbMTM2OTExMzM4NCwtMTU3MzkyMjI4LC0xOD
+UyMTMwNTAwLC01MDA0NjMwMjMsLTEzNDEwNzkzMDgsMTE5OTky
+NzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNzE3LDc3MTcyMjE1MV
+19
 -->
