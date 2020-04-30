@@ -50,7 +50,12 @@ You can **find an object by its ID value** using the `find_by_id` method. This c
 ```ruby
 find_by_id('my button').click
 ```
-You can **find a specific option within an element** by using the `find` method combined with the `xpath
+You can **find a specific option within an element** by using the `find` method combined with the `:xpath` option and an identifier. The query in the `find` should be submitted as an `xpath` identifier.
+```ruby
+# finds the second option in a drop down menu
+find_by_id('my dropdown').find(:xpath, 'option[2]')
+```
+To 
 
 ## Matchers
 Most capybara matchers for testing page elements work by using the `name`, `id` or `type` values on an HTML element. You should **avoid using the CSS selectors** to test elements on the page.
@@ -71,7 +76,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDc0NDI4NCwtNjU1MDcwMTQsMTM3OT
+eyJoaXN0b3J5IjpbLTUzODI1MTUwOSwtNjU1MDcwMTQsMTM3OT
 kzNTcwOSwtMTc4NTA1MzU4NywxMDAzMTYxNjk5LC0xNDYwMTkx
 MTkwXX0=
 -->
