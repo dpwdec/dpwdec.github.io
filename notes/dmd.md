@@ -26,11 +26,13 @@ return types are returned with dotted lines back --> this can contain the return
 There are 13 types of UML diagrams
 
 
+why was I not able to use a CONSTANT for class methods inside my sinatra object?
+
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTU3NTc5OCwxOTE2NzkxNzI1LC0xMD
-k0NzIzOTUxLC0xMzMzNDg0MDE5XX0=
+eyJoaXN0b3J5IjpbLTExMzI4NDYxMzcsMTgwMTU3NTc5OCwxOT
+E2NzkxNzI1LC0xMDk0NzIzOTUxLC0xMzMzNDg0MDE5XX0=
 -->
