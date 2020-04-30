@@ -55,7 +55,11 @@ You can **find a specific option within an element** by using the `find` method 
 # finds the second option in a drop down menu
 find_by_id('my dropdown').find(:xpath, 'option[2]')
 ```
-To 
+To **select an option from a dropdown** use the `select_option` action. Un-intuitively you cannot use the `click` selector for selecting an option from a drop down.
+```ruby
+# finds the sencond option of the drop down meny and
+find_by_id('my dropdown').find(:xpath, 'option[2]').select_option
+``` 
 
 ## Matchers
 Most capybara matchers for testing page elements work by using the `name`, `id` or `type` values on an HTML element. You should **avoid using the CSS selectors** to test elements on the page.
@@ -76,7 +80,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODI1MTUwOSwtNjU1MDcwMTQsMTM3OT
+eyJoaXN0b3J5IjpbLTQzMTYyMzM5NCwtNjU1MDcwMTQsMTM3OT
 kzNTcwOSwtMTc4NTA1MzU4NywxMDAzMTYxNjk5LC0xNDYwMTkx
 MTkwXX0=
 -->
