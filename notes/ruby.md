@@ -94,7 +94,7 @@ There are two ways to define a class variable:
 1. Define a variable using the `@@` syntax.
 2. Define an instance variable in the body of a `self.` method.
 
-The first example allows you to define a variable that is class wide in the body of the class. If you want to access this from out the class you will still need to write accessors.
+The first example allows you to **define a variable that is class wide in the body of the class**. If you want to access this from out the class you will still need to write accessors.
 ```ruby
 class MyClass
   @@my_class_var
@@ -103,6 +103,7 @@ class MyClass
   end
 end
 ```
+
 
 ## Methods
 You can submit to a splat operator via a an array by appending the array with an `*` asterisk. This allows you to assign all the splat arguments as an array without submitting them manually.
@@ -333,7 +334,7 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA3MzczNzksLTQxMjc4NjQzMCwzNT
+eyJoaXN0b3J5IjpbLTExNjY3MjkzNjEsLTQxMjc4NjQzMCwzNT
 IyNDA5MDgsLTE4MTE1NDM1MTksMjQ0MjQzMjMyLC0xMTA5Mjcy
 NTUwLC0xNzc3MTExMDE3LC01ODkzMTgxOTAsMTQ3MzE4MjU4My
 wxNDg5MjE2MTkyLC0xOTUzNjE3MTYsLTMzNDM1OTMwOCwtOTg3
