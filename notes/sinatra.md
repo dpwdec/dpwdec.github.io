@@ -125,9 +125,13 @@ The corresponding `.erb` file:
 <h1><%= @my_variable %></h1>
 ```
 ## Partials
-Web partials are a way of DRYing up web interface code by extracting repeated interface elements into a single display file that is invoked on pages. An example of this would be something like a nav bar. Our website might have 100 pages all with the same navbar, so to avoid duplication we have one *partial* file containing the navbar code which we render on each page.
+Web partials are a way of DRYing up web interface code by extracting repeated interface elements into a single display file that is invoked on pages. An example of this would be something like a nav bar. Our website might have 100 pages all with the same navbar, so to avoid duplication we have one *partial* file containing the navbar code which we render on each page. Partials are also a great way to insert dependency code like CSS.
 
-To **[render a partial][part] in Sinatra** use the 
+To **[render a partial][part] in Sinatra** use the `erb` method with `:layout` set to false. Place your partial file in the Sinatra `views` directory. I also like to name by partial files beginning with an `_` underscore to indicate they are partial views.
+```ruby
+# index.erb
+<% 
+```
 
 [part]: https://steve.dynedge.co.uk/2010/04/14/render-rails-style-partials-in-sinatra/
 
@@ -176,8 +180,8 @@ end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwOTgzMzc3LC0xOTc0ODI4MjcyLDExNz
-Y1MTU4ODQsLTE1NzM5MjIyOCwtMTg1MjEzMDUwMCwtNTAwNDYz
-MDIzLC0xMzQxMDc5MzA4LDExOTk5Mjc1MzAsLTE5ODA4MjI0NT
-QsLTk5MjQ2MDcxNyw3NzE3MjIxNTFdfQ==
+eyJoaXN0b3J5IjpbLTQ0Mjg4MzczNiwtMTk3NDgyODI3MiwxMT
+c2NTE1ODg0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2
+MzAyMywtMTM0MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyND
+U0LC05OTI0NjA3MTcsNzcxNzIyMTUxXX0=
 -->
