@@ -138,6 +138,9 @@ before do
   end
 end
 ```
+You can also **filter pages negatively** using the `pass` keyword which will essentially break out of the filter if the `request.path` name matches your condition.
+```ruby
+```
 
 ## Modular Style
 
@@ -258,7 +261,7 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY3ODc4ODYsLTE3NDk1NjA4LC00OT
+eyJoaXN0b3J5IjpbLTIwNDMwNDEzODAsLTE3NDk1NjA4LC00OT
 EwMzg5MjIsMTQ4ODQyOTUyMiwxOTE5NDAxMzUxLC0yMzkyNzI3
 MDEsMTI2ODM5NDA3MiwtMTk3NDgyODI3MiwxMTc2NTE1ODg0LC
 0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2MzAyMywtMTM0
