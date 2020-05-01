@@ -97,9 +97,10 @@ There are two ways to define a class variable:
 The first example allows you to define a variable that is class wide in the body of the class. If you want to access this from out the class you will still need to write accessors.
 ```ruby
 class MyClass
-  @@my_class_var = 0
+  @@my_class_var
   self.increment
     @@my_class_var += 0
+  end
 end
 ```
 
@@ -332,7 +333,7 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjcxNTE2MzEsLTQxMjc4NjQzMCwzNT
+eyJoaXN0b3J5IjpbLTExODA3MzczNzksLTQxMjc4NjQzMCwzNT
 IyNDA5MDgsLTE4MTE1NDM1MTksMjQ0MjQzMjMyLC0xMTA5Mjcy
 NTUwLC0xNzc3MTExMDE3LC01ODkzMTgxOTAsMTQ3MzE4MjU4My
 wxNDg5MjE2MTkyLC0xOTUzNjE3MTYsLTMzNDM1OTMwOCwtOTg3
