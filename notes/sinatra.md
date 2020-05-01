@@ -115,7 +115,13 @@ class MyApp < Sinatra::Base
   end
 end
 ```
-You can **specify a route that a filter should run on** by submitting that route's URL extension as a `String`.
+You can **specify a route that a filter should run on** by submitting that route's URL extension as a `String`. This works for both `before` and `after` filters.
+```ruby
+# this before method only runs on /page
+before '/page' do
+  # before code
+end
+```
 
 ## Modular Style
 
@@ -236,10 +242,10 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTI3MzY5NjIsLTQ5MTAzODkyMiwxND
-g4NDI5NTIyLDE5MTk0MDEzNTEsLTIzOTI3MjcwMSwxMjY4Mzk0
-MDcyLC0xOTc0ODI4MjcyLDExNzY1MTU4ODQsLTE1NzM5MjIyOC
-wtMTg1MjEzMDUwMCwtNTAwNDYzMDIzLC0xMzQxMDc5MzA4LDEx
-OTk5Mjc1MzAsLTE5ODA4MjI0NTQsLTk5MjQ2MDcxNyw3NzE3Mj
-IxNTFdfQ==
+eyJoaXN0b3J5IjpbLTM2OTg4MjI1NSwtNDkxMDM4OTIyLDE0OD
+g0Mjk1MjIsMTkxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNjgzOTQw
+NzIsLTE5NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMTU3MzkyMjI4LC
+0xODUyMTMwNTAwLC01MDA0NjMwMjMsLTEzNDEwNzkzMDgsMTE5
+OTkyNzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNzE3LDc3MTcyMj
+E1MV19
 -->
