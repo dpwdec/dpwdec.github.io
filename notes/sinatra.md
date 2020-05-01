@@ -75,7 +75,7 @@ Then in our Sinatra routes this can be accessed directly from the `Game` class o
 ```ruby
 class MyApp < Sinatra::Base
   get '/' do
-    @game = Game.current_game
+    Game.new_game
   end
   
   get '/play' do
@@ -203,7 +203,7 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjYyMjU4MiwxOTE5NDAxMzUxLC0yMz
+eyJoaXN0b3J5IjpbMTk2MTgzNDA5MiwxOTE5NDAxMzUxLC0yMz
 kyNzI3MDEsMTI2ODM5NDA3MiwtMTk3NDgyODI3MiwxMTc2NTE1
 ODg0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2MzAyMy
 wtMTM0MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyNDU0LC05
