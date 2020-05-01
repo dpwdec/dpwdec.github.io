@@ -98,12 +98,20 @@ The first example allows you to **define a variable that is class wide in the bo
 ```ruby
 class MyClass
   @@my_class_var
-  self.increment
+  def self.increment
     @@my_class_var += 0
   end
 end
 ```
-
+In the second method, you can **define an instance variable in a method that is available to all other class methods**.
+```ruby
+class MyClass
+  def self.set_up_var
+    @my_var = 0 # <-- This is a class variable
+  end
+d
+end
+```
 
 ## Methods
 You can submit to a splat operator via a an array by appending the array with an `*` asterisk. This allows you to assign all the splat arguments as an array without submitting them manually.
@@ -334,11 +342,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjY3MjkzNjEsLTQxMjc4NjQzMCwzNT
-IyNDA5MDgsLTE4MTE1NDM1MTksMjQ0MjQzMjMyLC0xMTA5Mjcy
-NTUwLC0xNzc3MTExMDE3LC01ODkzMTgxOTAsMTQ3MzE4MjU4My
-wxNDg5MjE2MTkyLC0xOTUzNjE3MTYsLTMzNDM1OTMwOCwtOTg3
-NDY3NjIzLC04NzQ3NzEyNTUsLTE5NzIxNzEzNjUsMTA0NjE2ND
-Q2LDk5MTY4MTA1NCwtMTIxMzk4ODU0MCwtMjkyMjE3NDI5LDk1
-NzU4ODA4M119
+eyJoaXN0b3J5IjpbLTgzOTY4ODA2OCwtNDEyNzg2NDMwLDM1Mj
+I0MDkwOCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDkyNzI1
+NTAsLTE3NzcxMTEwMTcsLTU4OTMxODE5MCwxNDczMTgyNTgzLD
+E0ODkyMTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05ODc0
+Njc2MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0ND
+YsOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOTU3
+NTg4MDgzXX0=
 -->
