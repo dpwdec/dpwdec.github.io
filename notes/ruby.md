@@ -109,7 +109,11 @@ class MyClass
   def self.set_up_var
     @my_var = 0 # <-- This is a class variable
   end
-d
+
+  # The scope of @my_var persists across class methods.
+  def self.increment
+    @my_var += 0
+  end
 end
 ```
 
@@ -342,11 +346,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTY4ODA2OCwtNDEyNzg2NDMwLDM1Mj
-I0MDkwOCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDkyNzI1
-NTAsLTE3NzcxMTEwMTcsLTU4OTMxODE5MCwxNDczMTgyNTgzLD
-E0ODkyMTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05ODc0
-Njc2MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0ND
-YsOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOTU3
-NTg4MDgzXX0=
+eyJoaXN0b3J5IjpbMTMwNzExNjEwLC00MTI3ODY0MzAsMzUyMj
+QwOTA4LC0xODExNTQzNTE5LDI0NDI0MzIzMiwtMTEwOTI3MjU1
+MCwtMTc3NzExMTAxNywtNTg5MzE4MTkwLDE0NzMxODI1ODMsMT
+Q4OTIxNjE5MiwtMTk1MzYxNzE2LC0zMzQzNTkzMDgsLTk4NzQ2
+NzYyMywtODc0NzcxMjU1LC0xOTcyMTcxMzY1LDEwNDYxNjQ0Ni
+w5OTE2ODEwNTQsLTEyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NTc1
+ODgwODNdfQ==
 -->
