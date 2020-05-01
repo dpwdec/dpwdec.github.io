@@ -123,7 +123,7 @@ before '/page' do
   # before code
 end
 ```
-You can **also submit `RegEx`** to this argument to text for specific pages.
+You can **also submit `RegEx`** to this argument to text for specific pages. You **must escape the `/` in your route names with `\`** so each regex for a specific route will begin with `\/` inside the double forward slash `RegEx` indicators `/../` to initiate the fact that you are searching for a route.
 ```ruby
 before /\/D\w+/ do
   # matches any pages starting with D that are one word long
@@ -250,10 +250,10 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzcwODg2MiwtNDkxMDM4OTIyLDE0OD
-g0Mjk1MjIsMTkxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNjgzOTQw
-NzIsLTE5NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMTU3MzkyMjI4LC
-0xODUyMTMwNTAwLC01MDA0NjMwMjMsLTEzNDEwNzkzMDgsMTE5
-OTkyNzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNzE3LDc3MTcyMj
-E1MV19
+eyJoaXN0b3J5IjpbLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4OD
+QyOTUyMiwxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3
+MiwtMTk3NDgyODI3MiwxMTc2NTE1ODg0LC0xNTczOTIyMjgsLT
+E4NTIxMzA1MDAsLTUwMDQ2MzAyMywtMTM0MTA3OTMwOCwxMTk5
+OTI3NTMwLC0xOTgwODIyNDU0LC05OTI0NjA3MTcsNzcxNzIyMT
+UxXX0=
 -->
