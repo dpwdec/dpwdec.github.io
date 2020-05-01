@@ -115,7 +115,7 @@ class MyApp < Sinatra::Base
   end
 end
 ```
-
+You can **specify a route that a filter should run on** by submitting that route's URL extension as a `String`.
 
 ## Modular Style
 
@@ -236,9 +236,10 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTAzODkyMiwxNDg4NDI5NTIyLDE5MT
-k0MDEzNTEsLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOTc0ODI4
-MjcyLDExNzY1MTU4ODQsLTE1NzM5MjIyOCwtMTg1MjEzMDUwMC
-wtNTAwNDYzMDIzLC0xMzQxMDc5MzA4LDExOTk5Mjc1MzAsLTE5
-ODA4MjI0NTQsLTk5MjQ2MDcxNyw3NzE3MjIxNTFdfQ==
+eyJoaXN0b3J5IjpbLTEyNTI3MzY5NjIsLTQ5MTAzODkyMiwxND
+g4NDI5NTIyLDE5MTk0MDEzNTEsLTIzOTI3MjcwMSwxMjY4Mzk0
+MDcyLC0xOTc0ODI4MjcyLDExNzY1MTU4ODQsLTE1NzM5MjIyOC
+wtMTg1MjEzMDUwMCwtNTAwNDYzMDIzLC0xMzQxMDc5MzA4LDEx
+OTk5Mjc1MzAsLTE5ODA4MjI0NTQsLTk5MjQ2MDcxNyw3NzE3Mj
+IxNTFdfQ==
 -->
