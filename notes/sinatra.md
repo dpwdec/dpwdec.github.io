@@ -85,7 +85,12 @@ end
 ```
 
 ### Filters
-Filters allow you to extract code that is repeated in your controllers into blocks that run before or after each controller.
+Filters allow you to extract code that is repeated in your controllers into blocks that run before or after each controller. To **defin a before filter** use the `before` keyword with a block. Variables defined in a before block **are available in the routes before which they run**.
+```ruby
+class MyApp < Sinatra::Base
+
+end
+```
 
 ## Modular Style
 
@@ -206,7 +211,7 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTM3MjM1MywxNDg4NDI5NTIyLDE5MT
+eyJoaXN0b3J5IjpbLTM0OTA2OTQ1MSwxNDg4NDI5NTIyLDE5MT
 k0MDEzNTEsLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOTc0ODI4
 MjcyLDExNzY1MTU4ODQsLTE1NzM5MjIyOCwtMTg1MjEzMDUwMC
 wtNTAwNDYzMDIzLC0xMzQxMDc5MzA4LDExOTk5Mjc1MzAsLTE5
