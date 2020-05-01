@@ -92,7 +92,16 @@ set_1.subset?(set_2) # => false
 ### Class Variables
 There are two ways to define a class variable:
 1. Define a variable using the `@@` syntax.
-2. Define an instance variable in the body
+2. Define an instance variable in the body of a `self.` method.
+
+The first example allows you to define a variable that is class wide in the body of the class. If you want to access this from out the class you will still need to write accessors.
+```ruby
+class MyClass
+  @@my_class_var = 0
+  self.increment
+    @@my_class_var 
+end
+```
 
 ## Methods
 You can submit to a splat operator via a an array by appending the array with an `*` asterisk. This allows you to assign all the splat arguments as an array without submitting them manually.
@@ -323,11 +332,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4NjE5NTE3LC00MTI3ODY0MzAsMzUyMj
-QwOTA4LC0xODExNTQzNTE5LDI0NDI0MzIzMiwtMTEwOTI3MjU1
-MCwtMTc3NzExMTAxNywtNTg5MzE4MTkwLDE0NzMxODI1ODMsMT
-Q4OTIxNjE5MiwtMTk1MzYxNzE2LC0zMzQzNTkzMDgsLTk4NzQ2
-NzYyMywtODc0NzcxMjU1LC0xOTcyMTcxMzY1LDEwNDYxNjQ0Ni
-w5OTE2ODEwNTQsLTEyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NTc1
-ODgwODNdfQ==
+eyJoaXN0b3J5IjpbLTk5ODQyNzI4MSwtNDEyNzg2NDMwLDM1Mj
+I0MDkwOCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDkyNzI1
+NTAsLTE3NzcxMTEwMTcsLTU4OTMxODE5MCwxNDczMTgyNTgzLD
+E0ODkyMTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05ODc0
+Njc2MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0ND
+YsOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOTU3
+NTg4MDgzXX0=
 -->
