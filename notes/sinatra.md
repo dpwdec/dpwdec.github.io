@@ -157,11 +157,11 @@ Shotgun is an application gem for running your server and dynamically restarting
 shotgun -p 4567
 ```
 
-By default **shotgun does not remember `session` hash data** because it restarts the server every time you load a new page thus erasing the data. To **sace**
+By default **shotgun does not remember `session` hash data** because it restarts the server every time you load a new page thus erasing the data. To **save session data in shotgun** use the `configure` method on Sinatra's `:development` mode and set the `:session_secret` to be something. This will make the `session` hash persistent across automatic server restarts of Ra
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0ODczMzI4LDExNzY1MTU4ODQsLTE1Nz
-M5MjIyOCwtMTg1MjEzMDUwMCwtNTAwNDYzMDIzLC0xMzQxMDc5
-MzA4LDExOTk5Mjc1MzAsLTE5ODA4MjI0NTQsLTk5MjQ2MDcxNy
-w3NzE3MjIxNTFdfQ==
+eyJoaXN0b3J5IjpbLTE0MTI1MzA5MTIsMTE3NjUxNTg4NCwtMT
+U3MzkyMjI4LC0xODUyMTMwNTAwLC01MDA0NjMwMjMsLTEzNDEw
+NzkzMDgsMTE5OTkyNzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNz
+E3LDc3MTcyMjE1MV19
 -->
