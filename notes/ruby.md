@@ -87,6 +87,12 @@ set_2 = Set[3, 4]
 set_2.subset?(set_1) # => true
 set_1.subset?(set_2) # => false
 ```
+## Classes
+
+### Class Variables
+There are two ways to define a class variable:
+1. Define a variable using the `@@` syntax.
+2. Define an instance variable in the body
 
 ## Methods
 You can submit to a splat operator via a an array by appending the array with an `*` asterisk. This allows you to assign all the splat arguments as an array without submitting them manually.
@@ -317,11 +323,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjc4NjQzMCwzNTIyNDA5MDgsLTE4MT
-E1NDM1MTksMjQ0MjQzMjMyLC0xMTA5MjcyNTUwLC0xNzc3MTEx
-MDE3LC01ODkzMTgxOTAsMTQ3MzE4MjU4MywxNDg5MjE2MTkyLC
-0xOTUzNjE3MTYsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04NzQ3
-NzEyNTUsLTE5NzIxNzEzNjUsMTA0NjE2NDQ2LDk5MTY4MTA1NC
-wtMTIxMzk4ODU0MCwtMjkyMjE3NDI5LDk1NzU4ODA4MywxNDk1
-ODc0NTFdfQ==
+eyJoaXN0b3J5IjpbNjg4NjE5NTE3LC00MTI3ODY0MzAsMzUyMj
+QwOTA4LC0xODExNTQzNTE5LDI0NDI0MzIzMiwtMTEwOTI3MjU1
+MCwtMTc3NzExMTAxNywtNTg5MzE4MTkwLDE0NzMxODI1ODMsMT
+Q4OTIxNjE5MiwtMTk1MzYxNzE2LC0zMzQzNTkzMDgsLTk4NzQ2
+NzYyMywtODc0NzcxMjU1LC0xOTcyMTcxMzY1LDEwNDYxNjQ0Ni
+w5OTE2ODEwNTQsLTEyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NTc1
+ODgwODNdfQ==
 -->
