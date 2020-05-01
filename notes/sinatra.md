@@ -176,11 +176,10 @@ class MyApp < Sinatra::Base
   # ...sinatra web code using sessions here...
 end
 ```
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOT
-c0ODI4MjcyLDExNzY1MTU4ODQsLTE1NzM5MjIyOCwtMTg1MjEz
-MDUwMCwtNTAwNDYzMDIzLC0xMzQxMDc5MzA4LDExOTk5Mjc1Mz
-AsLTE5ODA4MjI0NTQsLTk5MjQ2MDcxNyw3NzE3MjIxNTFdfQ==
-
+eyJoaXN0b3J5IjpbMTkxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNj
+gzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMTU3Mzky
+MjI4LC0xODUyMTMwNTAwLC01MDA0NjMwMjMsLTEzNDEwNzkzMD
+gsMTE5OTkyNzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNzE3LDc3
+MTcyMjE1MV19
 -->
