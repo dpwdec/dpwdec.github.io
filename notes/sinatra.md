@@ -35,7 +35,10 @@ get /\/h\w+/ do
   'This is an H page.'
 end
 ```
-You can **return the current page URL extensions** using the `request.path` object, this can be used inside routes 
+You can **return the current page URL extensions** using the `request.path` object, this can be used inside routes *or* filters.
+```ruby
+get '/my
+```
 
 ### Redirect
 You can **redirect to a different route** using the `redirect` method within a controller block.
@@ -277,7 +280,7 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0NDMxNTg5LC0xMTQ4OTUyMjQ5LC0xOD
+eyJoaXN0b3J5IjpbODc5MzA1NTE3LC0xMTQ4OTUyMjQ5LC0xOD
 E3NDExMzUxLC0xNzc3MzI2NTgyLC0xNzQ5NTYwOCwtNDkxMDM4
 OTIyLDE0ODg0Mjk1MjIsMTkxOTQwMTM1MSwtMjM5MjcyNzAxLD
 EyNjgzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMTU3
