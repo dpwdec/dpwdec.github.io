@@ -61,6 +61,19 @@ end
 
 For more functional data that needs to be stored between page reloads you can **use class variables as a way to persist data** across reloading. For example, if we have a `@game` instance object that we need to persist on many different views we can save this instance to a class variable of the `Game` class and then access it anywhere.
 ```ruby
+class Game
+  def self.new_game
+    @game = Game.new
+  end
+
+  def self.current_game
+    @game
+  end
+end
+```
+Then in our Sinatra routes this can be accessed directly from the `Game` class or by assigning from the game class to a route specific instance variable.
+```ruby
+class MyApp < Sinatra:
 ```
 
 ## Modular Style
@@ -182,9 +195,9 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjE2Njg5NSwxOTE5NDAxMzUxLC0yMz
-kyNzI3MDEsMTI2ODM5NDA3MiwtMTk3NDgyODI3MiwxMTc2NTE1
-ODg0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2MzAyMy
-wtMTM0MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyNDU0LC05
-OTI0NjA3MTcsNzcxNzIyMTUxXX0=
+eyJoaXN0b3J5IjpbLTEwMDAxODI0ODIsMTkxOTQwMTM1MSwtMj
+M5MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3NjUx
+NTg4NCwtMTU3MzkyMjI4LC0xODUyMTMwNTAwLC01MDA0NjMwMj
+MsLTEzNDEwNzkzMDgsMTE5OTkyNzUzMCwtMTk4MDgyMjQ1NCwt
+OTkyNDYwNzE3LDc3MTcyMjE1MV19
 -->
