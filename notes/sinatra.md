@@ -129,7 +129,7 @@ before /\/D\w+/ do
   # matches any pages starting with D that are one word long
 end
 ```
-
+If you want to **set up a filter for multiple we**
 
 ## Modular Style
 
@@ -250,10 +250,10 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4OD
-QyOTUyMiwxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3
-MiwtMTk3NDgyODI3MiwxMTc2NTE1ODg0LC0xNTczOTIyMjgsLT
-E4NTIxMzA1MDAsLTUwMDQ2MzAyMywtMTM0MTA3OTMwOCwxMTk5
-OTI3NTMwLC0xOTgwODIyNDU0LC05OTI0NjA3MTcsNzcxNzIyMT
-UxXX0=
+eyJoaXN0b3J5IjpbMTcyNjk5MTIyMCwtMTc0OTU2MDgsLTQ5MT
+AzODkyMiwxNDg4NDI5NTIyLDE5MTk0MDEzNTEsLTIzOTI3Mjcw
+MSwxMjY4Mzk0MDcyLC0xOTc0ODI4MjcyLDExNzY1MTU4ODQsLT
+E1NzM5MjIyOCwtMTg1MjEzMDUwMCwtNTAwNDYzMDIzLC0xMzQx
+MDc5MzA4LDExOTk5Mjc1MzAsLTE5ODA4MjI0NTQsLTk5MjQ2MD
+cxNyw3NzE3MjIxNTFdfQ==
 -->
