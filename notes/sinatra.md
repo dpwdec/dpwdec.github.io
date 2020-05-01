@@ -84,6 +84,9 @@ class MyApp < Sinatra::Base
 end
 ```
 
+### Filters
+
+
 ## Modular Style
 
 Sinatra's **modular style** allows you to create classes that inherit from `Sinatra::Base` class and contain the code for your application. You can define multiple different app classes in your root file each one representing a self contained web application, you can switch between these seamlessly within a single ruby process running the server.
@@ -203,7 +206,7 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTgzNDA5MiwxOTE5NDAxMzUxLC0yMz
+eyJoaXN0b3J5IjpbMTQ4ODQyOTUyMiwxOTE5NDAxMzUxLC0yMz
 kyNzI3MDEsMTI2ODM5NDA3MiwtMTk3NDgyODI3MiwxMTc2NTE1
 ODg0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2MzAyMy
 wtMTM0MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyNDU0LC05
