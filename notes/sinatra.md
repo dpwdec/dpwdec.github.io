@@ -149,10 +149,13 @@ You can **specify the port on which you want a server to run with `rack`** by us
 ```
 rackup -p 4567
 ```
+
+## Shotgun
+Shotgun is an application gem for running your server and dynamically restarting the server when you make changes to your web code. You can install sh
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjUxNTg4NCwtMTU3MzkyMjI4LC0xOD
-UyMTMwNTAwLC01MDA0NjMwMjMsLTEzNDEwNzkzMDgsMTE5OTky
-NzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNzE3LDc3MTcyMjE1MV
-19
+eyJoaXN0b3J5IjpbMjA1Njk4MTcxOSwxMTc2NTE1ODg0LC0xNT
+czOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2MzAyMywtMTM0MTA3
+OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyNDU0LC05OTI0NjA3MT
+csNzcxNzIyMTUxXX0=
 -->
