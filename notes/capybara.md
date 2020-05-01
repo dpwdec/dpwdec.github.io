@@ -47,9 +47,23 @@ You can **define reusable pieces of code** for your Capybara tests to help keep 
 4. Replace the duplicated code in your main capybara tests with the method from `helpers.rb`.
 
 Your `helpers.rb` file might look like this:
+
 ```ruby
 def visit_page_and_sign_in
+  visit('/')
+  fill_in :player_1_name, with: 'Dave'
+  fill_in :player_2_name, with: 'Mittens'
+  click_button 'Submit'
 end
+```
+
+Now in the main tests you simply replace these lines with `visit_page_and_sign_in` methods in your main test.
+
+```ruby
+feature 'has sign in confirmation' do
+  scenario 'signs in' do
+    visit_page_and_sign_in
+    expect(page).to have_content('sign in sucessful;
 ```
 
 ## Commands
@@ -106,7 +120,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODg0MzQ1MCwtMTUzNjg0MjEwNCwtNj
+eyJoaXN0b3J5IjpbLTExNjg3ODMyOCwtMTUzNjg0MjEwNCwtNj
 U1MDcwMTQsMTM3OTkzNTcwOSwtMTc4NTA1MzU4NywxMDAzMTYx
 Njk5LC0xNDYwMTkxMTkwXX0=
 -->
