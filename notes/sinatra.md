@@ -129,7 +129,10 @@ before /\/D\w+/ do
   # matches any pages starting with D that are one word long
 end
 ```
-If you want to **set up a filter for multiple we**
+If you want to **set up a filter for multiple web pages** you can use an `if` statement in conjunction with the `request.path` object.
+```ruby
+
+```
 
 ## Modular Style
 
@@ -250,10 +253,10 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjk5MTIyMCwtMTc0OTU2MDgsLTQ5MT
-AzODkyMiwxNDg4NDI5NTIyLDE5MTk0MDEzNTEsLTIzOTI3Mjcw
-MSwxMjY4Mzk0MDcyLC0xOTc0ODI4MjcyLDExNzY1MTU4ODQsLT
-E1NzM5MjIyOCwtMTg1MjEzMDUwMCwtNTAwNDYzMDIzLC0xMzQx
-MDc5MzA4LDExOTk5Mjc1MzAsLTE5ODA4MjI0NTQsLTk5MjQ2MD
-cxNyw3NzE3MjIxNTFdfQ==
+eyJoaXN0b3J5IjpbMTQwNjA0NzU4LC0xNzQ5NTYwOCwtNDkxMD
+M4OTIyLDE0ODg0Mjk1MjIsMTkxOTQwMTM1MSwtMjM5MjcyNzAx
+LDEyNjgzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMT
+U3MzkyMjI4LC0xODUyMTMwNTAwLC01MDA0NjMwMjMsLTEzNDEw
+NzkzMDgsMTE5OTkyNzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNz
+E3LDc3MTcyMjE1MV19
 -->
