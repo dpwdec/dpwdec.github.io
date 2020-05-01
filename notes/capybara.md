@@ -39,7 +39,8 @@ The `page` variable is the equivalent of `subject` in capybara and points to the
 Capybara will raise a confusing `XPath` error that reads `unable to find xpath "/html"` if you try to test a page which is entirely empty. Be wary of this!
 
 ## Helpers
-You can **define reusable pieces of code** for your Capybara tests to help keep your test code dry using **helper** methods. These are essentially methods defined in a separate file that can be called in your capybara tests to execu
+
+You can **define reusable pieces of code** for your Capybara tests to help keep your test code dry using **helper** methods. These are essentially methods defined in a separate file that can be called in your capybara tests to execute code that is used multiple times.
 
 ## Commands
 
@@ -95,7 +96,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTMzMjM1NzEsLTE1MzY4NDIxMDQsLT
-Y1NTA3MDE0LDEzNzk5MzU3MDksLTE3ODUwNTM1ODcsMTAwMzE2
-MTY5OSwtMTQ2MDE5MTE5MF19
+eyJoaXN0b3J5IjpbLTkwMDkyNDU4NywtMTUzNjg0MjEwNCwtNj
+U1MDcwMTQsMTM3OTkzNTcwOSwtMTc4NTA1MzU4NywxMDAzMTYx
+Njk5LC0xNDYwMTkxMTkwXX0=
 -->
