@@ -94,10 +94,10 @@ There are two ways to define a class variable:
 1. Define a variable using the `@@` syntax.
 2. Define an instance variable in the body of a `self.` method.
 
-The first example allows you to **define a variable that is class wide in the body of the class**. If you want to access this from out the class you will still need to write accessors.
+The first example allows you to **define a variable that is class wide in the body of the class**. If you want to access this from out the class you will still need to write accessors. You can also **initialize class variables in the bo**
 ```ruby
 class MyClass
-  @@my_class_var
+  @@my_class_var = 0
   def self.increment
     @@my_class_var += 0
   end
@@ -346,11 +346,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzExNjEwLC00MTI3ODY0MzAsMzUyMj
-QwOTA4LC0xODExNTQzNTE5LDI0NDI0MzIzMiwtMTEwOTI3MjU1
-MCwtMTc3NzExMTAxNywtNTg5MzE4MTkwLDE0NzMxODI1ODMsMT
-Q4OTIxNjE5MiwtMTk1MzYxNzE2LC0zMzQzNTkzMDgsLTk4NzQ2
-NzYyMywtODc0NzcxMjU1LC0xOTcyMTcxMzY1LDEwNDYxNjQ0Ni
-w5OTE2ODEwNTQsLTEyMTM5ODg1NDAsLTI5MjIxNzQyOSw5NTc1
-ODgwODNdfQ==
+eyJoaXN0b3J5IjpbLTI3MTE5NzMyOSwxMzA3MTE2MTAsLTQxMj
+c4NjQzMCwzNTIyNDA5MDgsLTE4MTE1NDM1MTksMjQ0MjQzMjMy
+LC0xMTA5MjcyNTUwLC0xNzc3MTExMDE3LC01ODkzMTgxOTAsMT
+Q3MzE4MjU4MywxNDg5MjE2MTkyLC0xOTUzNjE3MTYsLTMzNDM1
+OTMwOCwtOTg3NDY3NjIzLC04NzQ3NzEyNTUsLTE5NzIxNzEzNj
+UsMTA0NjE2NDQ2LDk5MTY4MTA1NCwtMTIxMzk4ODU0MCwtMjky
+MjE3NDI5XX0=
 -->
