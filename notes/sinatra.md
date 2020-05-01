@@ -140,7 +140,11 @@ end
 ```
 You can also **filter pages negatively** using the `pass` keyword which will essentially break out of the filter if the `request.path` name matches your condition.
 ```ruby
-
+# runs before code on every page except for '/nobefore'
+before do
+  pass if request.path == '/nobefore'
+  @my_var = 'hello'
+end
 ```
 
 ## Modular Style
@@ -262,10 +266,10 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzczMjY1ODIsLTE3NDk1NjA4LC00OT
-EwMzg5MjIsMTQ4ODQyOTUyMiwxOTE5NDAxMzUxLC0yMzkyNzI3
-MDEsMTI2ODM5NDA3MiwtMTk3NDgyODI3MiwxMTc2NTE1ODg0LC
-0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2MzAyMywtMTM0
-MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyNDU0LC05OTI0Nj
-A3MTcsNzcxNzIyMTUxXX0=
+eyJoaXN0b3J5IjpbLTEwNjgxMTIyNTQsLTE3NzczMjY1ODIsLT
+E3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMiwxOTE5NDAx
+MzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3NDgyODI3Mi
+wxMTc2NTE1ODg0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUw
+MDQ2MzAyMywtMTM0MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwOD
+IyNDU0LC05OTI0NjA3MTcsNzcxNzIyMTUxXX0=
 -->
