@@ -131,7 +131,8 @@ end
 ```
 If you want to **set up a filter for multiple web pages** you can use an `if` statement in conjunction with the `request.path` object.
 ```ruby
-
+before do
+  if request.path == '/mypage' || request.path == '
 ```
 
 ## Modular Style
@@ -253,10 +254,10 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjA0NzU4LC0xNzQ5NTYwOCwtNDkxMD
-M4OTIyLDE0ODg0Mjk1MjIsMTkxOTQwMTM1MSwtMjM5MjcyNzAx
-LDEyNjgzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMT
-U3MzkyMjI4LC0xODUyMTMwNTAwLC01MDA0NjMwMjMsLTEzNDEw
-NzkzMDgsMTE5OTkyNzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNz
-E3LDc3MTcyMjE1MV19
+eyJoaXN0b3J5IjpbLTE3MDkwNjI1MTQsLTE3NDk1NjA4LC00OT
+EwMzg5MjIsMTQ4ODQyOTUyMiwxOTE5NDAxMzUxLC0yMzkyNzI3
+MDEsMTI2ODM5NDA3MiwtMTk3NDgyODI3MiwxMTc2NTE1ODg0LC
+0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2MzAyMywtMTM0
+MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyNDU0LC05OTI0Nj
+A3MTcsNzcxNzIyMTUxXX0=
 -->
