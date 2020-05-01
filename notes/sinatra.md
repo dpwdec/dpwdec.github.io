@@ -29,7 +29,9 @@ end
 The example above defines how to respond to a `GET` request from a client to the root URL of the server. In this case it returns the string `Hello world` which is then displayed in plain text by the browser. You can insert HTML as a string, for example `'<h1>Hello World</h1>'`, into the route block, but this is not advised!
 
 You can **write route titles as `RegEx` expressions** if you want to match a route to a particular class of URL extension in your application.
+```ruby
 
+```
 
 ### Redirect
 You can **redirect to a different route** using the `redirect` method within a controller block.
@@ -271,10 +273,10 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE1NTYwOSwtMTc3NzMyNjU4MiwtMT
-c0OTU2MDgsLTQ5MTAzODkyMiwxNDg4NDI5NTIyLDE5MTk0MDEz
-NTEsLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOTc0ODI4MjcyLD
-ExNzY1MTU4ODQsLTE1NzM5MjIyOCwtMTg1MjEzMDUwMCwtNTAw
-NDYzMDIzLC0xMzQxMDc5MzA4LDExOTk5Mjc1MzAsLTE5ODA4Mj
-I0NTQsLTk5MjQ2MDcxNyw3NzE3MjIxNTFdfQ==
+eyJoaXN0b3J5IjpbLTE4MTc0MTEzNTEsLTE3NzczMjY1ODIsLT
+E3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMiwxOTE5NDAx
+MzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3NDgyODI3Mi
+wxMTc2NTE1ODg0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUw
+MDQ2MzAyMywtMTM0MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwOD
+IyNDU0LC05OTI0NjA3MTcsNzcxNzIyMTUxXX0=
 -->
