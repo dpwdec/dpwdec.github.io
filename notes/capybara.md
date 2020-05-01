@@ -42,7 +42,9 @@ Capybara will raise a confusing `XPath` error that reads `unable to find xpath "
 
 You can **define reusable pieces of code** for your Capybara tests to help keep your test code dry using **helper** methods. These are essentially methods defined in a separate file that can be called in your capybara tests to execute code that is used multiple times. To **create a capybara test helper**:
 1. Create a file in your projects `spec/features` directory. It can be called something like `helpers.rb`, but the name doesn't actually matter.
-2. Add a `require helpers.
+2. Add a `require helpers.rb` line to your `spec_helper` file.
+3. In the `helpers.rb` file define a method that implements the duplicated capybara code you want to extract.
+4. Replace the duplicated code in your main capybara tests with the methods
 
 ## Commands
 
@@ -98,7 +100,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTAyMTcyNiwtMTUzNjg0MjEwNCwtNj
-U1MDcwMTQsMTM3OTkzNTcwOSwtMTc4NTA1MzU4NywxMDAzMTYx
-Njk5LC0xNDYwMTkxMTkwXX0=
+eyJoaXN0b3J5IjpbLTIwNDQ4NDA5ODQsLTE1MzY4NDIxMDQsLT
+Y1NTA3MDE0LDEzNzk5MzU3MDksLTE3ODUwNTM1ODcsMTAwMzE2
+MTY5OSwtMTQ2MDE5MTE5MF19
 -->
