@@ -73,7 +73,15 @@ end
 ```
 Then in our Sinatra routes this can be accessed directly from the `Game` class or by assigning from the game class to a route specific instance variable.
 ```ruby
-class MyApp < Sinatra:
+class MyApp < Sinatra::Base
+  get '/' do
+    @game = Game.current_game
+  end
+  
+  get '/play' do
+    @game = Game.current_game
+  end
+end
 ```
 
 ## Modular Style
@@ -195,9 +203,9 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDAxODI0ODIsMTkxOTQwMTM1MSwtMj
-M5MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3NjUx
-NTg4NCwtMTU3MzkyMjI4LC0xODUyMTMwNTAwLC01MDA0NjMwMj
-MsLTEzNDEwNzkzMDgsMTE5OTkyNzUzMCwtMTk4MDgyMjQ1NCwt
-OTkyNDYwNzE3LDc3MTcyMjE1MV19
+eyJoaXN0b3J5IjpbMjAyNjYyMjU4MiwxOTE5NDAxMzUxLC0yMz
+kyNzI3MDEsMTI2ODM5NDA3MiwtMTk3NDgyODI3MiwxMTc2NTE1
+ODg0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2MzAyMy
+wtMTM0MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyNDU0LC05
+OTI0NjA3MTcsNzcxNzIyMTUxXX0=
 -->
