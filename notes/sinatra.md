@@ -151,14 +151,17 @@ rackup -p 4567
 ```
 
 ## Shotgun
-Shotgun is an application gem for running your server and dynamically restarting the server when you make changes to your web code. You can **install Shotgun** by adding `gem 'shotgun'` in your `Gemfile` and running the `bundle` command. Shotgun has the same port specification as `rackup` and also uses your `config.ru` file to start the server when using Sinatra's 
+Shotgun is an application gem for running your server and dynamically restarting the server when you make changes to your web code. You can **install Shotgun** by adding `gem 'shotgun'` in your `Gemfile` and running the `bundle` command. Shotgun has the **same port specification as `rackup`** and also uses your `config.ru` file to start the server when using Sinatra's modular style
+
 ```
-shotgun
+shotgun -p 4567
 ```
+
+By default **shotgun does not remember `session` hash data** because it restarts the server every time you load a new page thus erasing the data. To **sace**
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjEyOTc2NCwxMTc2NTE1ODg0LC0xNT
-czOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2MzAyMywtMTM0MTA3
-OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyNDU0LC05OTI0NjA3MT
-csNzcxNzIyMTUxXX0=
+eyJoaXN0b3J5IjpbODU0ODczMzI4LDExNzY1MTU4ODQsLTE1Nz
+M5MjIyOCwtMTg1MjEzMDUwMCwtNTAwNDYzMDIzLC0xMzQxMDc5
+MzA4LDExOTk5Mjc1MzAsLTE5ODA4MjI0NTQsLTk5MjQ2MDcxNy
+w3NzE3MjIxNTFdfQ==
 -->
