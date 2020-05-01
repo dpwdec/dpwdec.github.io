@@ -18,12 +18,6 @@ To **stop a Sinatra server** use `CTRL + C` in the command line window where the
 
 When changing files in your Sinatra project you will need to start and restart the server to see those changes propagated to the web pages displayed online.
 
-### Shotgun
-[Shotgun](https://github.com/rtomayko/shotgun) is another ruby gem that can be used to **automatically restart your Sinatra server** after changes are made. To install simply add the `gem Shotgun` line to your `Gemfile`. You can then run the server using the `shotgun` command instead of the `ruby` command so that it is automatically restarted when changes to the code are made.
-```
-shotgun my_app.rb
-```
-
 ## Routes
 You can **specify different web pages to return** by using an *HTTP Verb* combined with a string representing the page name and a block that display or loads the content for that page.
 ```ruby
@@ -162,7 +156,11 @@ rackup -p 4567
 ```
 
 ## Shotgun
-Shotgun is an application gem for running your server and dynamically restarting the server when you make changes to your web code. You can **install Shotgun** by adding `gem 'shotgun'` in your `Gemfile` and running the `bundle` command. Shotgun has the **same port specification as `rackup`** and also uses your `config.ru` file to start the server when using Sinatra's modular style
+[Shotgun](https://github.com/rtomayko/shotgun) is another ruby gem that can be used to **automatically restart your Sinatra server** after changes are made. To install simply add the `gem Shotgun` line to your `Gemfile`. You can then run the server using the `shotgun` command instead of the `ruby` command so that it is automatically restarted when changes to the code are made.
+```
+shotgun my_app.rb
+```
+Shotgun has the **same port specification as `rackup`** and also uses your `config.ru` file to start the server when using Sinatra's modular style
 
 ```
 shotgun -p 4567
@@ -180,8 +178,9 @@ end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODM5NDA3MiwtMTk3NDgyODI3MiwxMT
-c2NTE1ODg0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2
-MzAyMywtMTM0MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyND
-U0LC05OTI0NjA3MTcsNzcxNzIyMTUxXX0=
+eyJoaXN0b3J5IjpbLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOT
+c0ODI4MjcyLDExNzY1MTU4ODQsLTE1NzM5MjIyOCwtMTg1MjEz
+MDUwMCwtNTAwNDYzMDIzLC0xMzQxMDc5MzA4LDExOTk5Mjc1Mz
+AsLTE5ODA4MjI0NTQsLTk5MjQ2MDcxNyw3NzE3MjIxNTFdfQ==
+
 -->
