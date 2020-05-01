@@ -129,8 +129,8 @@ Web partials are a way of DRYing up web interface code by extracting repeated in
 
 To **[render a partial][part] in Sinatra** use the `erb` method with `:layout` set to false. Place your partial file in the Sinatra `views` directory. I also like to name by partial files beginning with an `_` underscore to indicate they are partial views.
 ```ruby
-# index.erb
-<% 
+<!-- renders the _style.erb file in index.erb -->
+<%= erb(:_style, :layout => false) %>
 ```
 
 [part]: https://steve.dynedge.co.uk/2010/04/14/render-rails-style-partials-in-sinatra/
@@ -180,7 +180,7 @@ end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0Mjg4MzczNiwtMTk3NDgyODI3MiwxMT
+eyJoaXN0b3J5IjpbMTI2ODM5NDA3MiwtMTk3NDgyODI3MiwxMT
 c2NTE1ODg0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2
 MzAyMywtMTM0MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyND
 U0LC05OTI0NjA3MTcsNzcxNzIyMTUxXX0=
