@@ -37,7 +37,9 @@ end
 ```
 You can **return the current page URL extensions** using the `request.path` object, this can be used inside routes *or* filters.
 ```ruby
-get '/my
+get '/mypath' do
+  request.path # => '/mypath'
+end
 ```
 
 ### Redirect
@@ -280,11 +282,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5MzA1NTE3LC0xMTQ4OTUyMjQ5LC0xOD
-E3NDExMzUxLC0xNzc3MzI2NTgyLC0xNzQ5NTYwOCwtNDkxMDM4
-OTIyLDE0ODg0Mjk1MjIsMTkxOTQwMTM1MSwtMjM5MjcyNzAxLD
-EyNjgzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMTU3
-MzkyMjI4LC0xODUyMTMwNTAwLC01MDA0NjMwMjMsLTEzNDEwNz
-kzMDgsMTE5OTkyNzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNzE3
-LDc3MTcyMjE1MV19
+eyJoaXN0b3J5IjpbLTE4ODM5MTI1OTEsODc5MzA1NTE3LC0xMT
+Q4OTUyMjQ5LC0xODE3NDExMzUxLC0xNzc3MzI2NTgyLC0xNzQ5
+NTYwOCwtNDkxMDM4OTIyLDE0ODg0Mjk1MjIsMTkxOTQwMTM1MS
+wtMjM5MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3
+NjUxNTg4NCwtMTU3MzkyMjI4LC0xODUyMTMwNTAwLC01MDA0Nj
+MwMjMsLTEzNDEwNzkzMDgsMTE5OTkyNzUzMCwtMTk4MDgyMjQ1
+NCwtOTkyNDYwNzE3XX0=
 -->
