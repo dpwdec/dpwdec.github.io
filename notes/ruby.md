@@ -346,13 +346,16 @@ end
 ```
 `socket.puts` **does not output to the `std_out`** (standard output), only to the server. 
 
+## Rational
+You can convert an instance of the `Rational` class to an integer using the `.to_i` function.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDIxMTMyOCwxMzA3MTE2MTAsLTQxMj
-c4NjQzMCwzNTIyNDA5MDgsLTE4MTE1NDM1MTksMjQ0MjQzMjMy
-LC0xMTA5MjcyNTUwLC0xNzc3MTExMDE3LC01ODkzMTgxOTAsMT
-Q3MzE4MjU4MywxNDg5MjE2MTkyLC0xOTUzNjE3MTYsLTMzNDM1
-OTMwOCwtOTg3NDY3NjIzLC04NzQ3NzEyNTUsLTE5NzIxNzEzNj
-UsMTA0NjE2NDQ2LDk5MTY4MTA1NCwtMTIxMzk4ODU0MCwtMjky
-MjE3NDI5XX0=
+eyJoaXN0b3J5IjpbMTc2MDM1MjAwOCwxNzA0MjExMzI4LDEzMD
+cxMTYxMCwtNDEyNzg2NDMwLDM1MjI0MDkwOCwtMTgxMTU0MzUx
+OSwyNDQyNDMyMzIsLTExMDkyNzI1NTAsLTE3NzcxMTEwMTcsLT
+U4OTMxODE5MCwxNDczMTgyNTgzLDE0ODkyMTYxOTIsLTE5NTM2
+MTcxNiwtMzM0MzU5MzA4LC05ODc0Njc2MjMsLTg3NDc3MTI1NS
+wtMTk3MjE3MTM2NSwxMDQ2MTY0NDYsOTkxNjgxMDU0LC0xMjEz
+OTg4NTQwXX0=
 -->
