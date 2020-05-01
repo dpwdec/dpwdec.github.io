@@ -99,7 +99,7 @@ The first example allows you to define a variable that is class wide in the body
 class MyClass
   @@my_class_var = 0
   self.increment
-    @@my_class_var 
+    @@my_class_var += 0
 end
 ```
 
@@ -332,11 +332,11 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODQyNzI4MSwtNDEyNzg2NDMwLDM1Mj
-I0MDkwOCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDkyNzI1
-NTAsLTE3NzcxMTEwMTcsLTU4OTMxODE5MCwxNDczMTgyNTgzLD
-E0ODkyMTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05ODc0
-Njc2MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0ND
-YsOTkxNjgxMDU0LC0xMjEzOTg4NTQwLC0yOTIyMTc0MjksOTU3
-NTg4MDgzXX0=
+eyJoaXN0b3J5IjpbLTE3NjcxNTE2MzEsLTQxMjc4NjQzMCwzNT
+IyNDA5MDgsLTE4MTE1NDM1MTksMjQ0MjQzMjMyLC0xMTA5Mjcy
+NTUwLC0xNzc3MTExMDE3LC01ODkzMTgxOTAsMTQ3MzE4MjU4My
+wxNDg5MjE2MTkyLC0xOTUzNjE3MTYsLTMzNDM1OTMwOCwtOTg3
+NDY3NjIzLC04NzQ3NzEyNTUsLTE5NzIxNzEzNjUsMTA0NjE2ND
+Q2LDk5MTY4MTA1NCwtMTIxMzk4ODU0MCwtMjkyMjE3NDI5LDk1
+NzU4ODA4M119
 -->
