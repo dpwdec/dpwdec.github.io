@@ -127,7 +127,9 @@ The corresponding `.erb` file:
 ## Partials
 Web partials are a way of DRYing up web interface code by extracting repeated interface elements into a single display file that is invoked on pages. An example of this would be something like a nav bar. Our website might have 100 pages all with the same navbar, so to avoid duplication we have one *partial* file containing the navbar code which we render on each page.
 
+To **[render a partial][part] in Sinatra** use the 
 
+[part]: https://steve.dynedge.co.uk/2010/04/14/render-rails-style-partials-in-sinatra/
 
 ## Params
 User queries or request bodies (from a `PUT` statement etc.) will appear inside your routes stored inside a hash called `params`. This `params` hash is typically filled by the HTTP request's body so its scope is localised to the page where the parameters are passed in. If you navigate from one page where you have some parameters loaded to another page without sending those parameters again then the `params` hash will be empty as you load the next page.
@@ -174,8 +176,8 @@ end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTgzNDE4MiwtMTk3NDgyODI3MiwxMT
-c2NTE1ODg0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2
-MzAyMywtMTM0MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyND
-U0LC05OTI0NjA3MTcsNzcxNzIyMTUxXX0=
+eyJoaXN0b3J5IjpbNDIwOTgzMzc3LC0xOTc0ODI4MjcyLDExNz
+Y1MTU4ODQsLTE1NzM5MjIyOCwtMTg1MjEzMDUwMCwtNTAwNDYz
+MDIzLC0xMzQxMDc5MzA4LDExOTk5Mjc1MzAsLTE5ODA4MjI0NT
+QsLTk5MjQ2MDcxNyw3NzE3MjIxNTFdfQ==
 -->
