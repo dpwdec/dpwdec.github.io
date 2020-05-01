@@ -57,13 +57,15 @@ def visit_page_and_sign_in
 end
 ```
 
-Now in the main tests you simply replace these lines with `visit_page_and_sign_in` methods in your main test.
+Now in the main tests you simply replace these lines with `visit_page_and_sign_in` methods in your main test. Any future tests we write can used this extracted code easily to sign in one line.
 
 ```ruby
 feature 'has sign in confirmation' do
   scenario 'signs in' do
     visit_page_and_sign_in
-    expect(page).to have_content('sign in sucessful;
+    expect(page).to have_content('sign in sucessful')
+  end
+end
 ```
 
 ## Commands
@@ -120,7 +122,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjg3ODMyOCwtMTUzNjg0MjEwNCwtNj
+eyJoaXN0b3J5IjpbLTY5NTIwNzA5MCwtMTUzNjg0MjEwNCwtNj
 U1MDcwMTQsMTM3OTkzNTcwOSwtMTc4NTA1MzU4NywxMDAzMTYx
 Njk5LC0xNDYwMTkxMTkwXX0=
 -->
