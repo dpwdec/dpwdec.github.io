@@ -57,6 +57,9 @@ class MyApp < Sinatra::Base
   end
 end
 ```
+### Storing Data
+
+For more functional data that needs to be stored between page reloads you can **use class variables as a way to persist data** across reloading. For example, if we 
 
 ## Modular Style
 
@@ -177,9 +180,9 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNj
-gzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMTU3Mzky
-MjI4LC0xODUyMTMwNTAwLC01MDA0NjMwMjMsLTEzNDEwNzkzMD
-gsMTE5OTkyNzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNzE3LDc3
-MTcyMjE1MV19
+eyJoaXN0b3J5IjpbLTEwMzM3MDYzOTcsMTkxOTQwMTM1MSwtMj
+M5MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3NjUx
+NTg4NCwtMTU3MzkyMjI4LC0xODUyMTMwNTAwLC01MDA0NjMwMj
+MsLTEzNDEwNzkzMDgsMTE5OTkyNzUzMCwtMTk4MDgyMjQ1NCwt
+OTkyNDYwNzE3LDc3MTcyMjE1MV19
 -->
