@@ -129,7 +129,7 @@ before /\/D\w+/ do
   # matches any pages starting with D that are one word long
 end
 ```
-If you want to **set up a filter for multiple web pages** you can use an `if` statement in conjunction with the `request.path` object.
+If you want to **set up a filter for [multiple][stackm] web pages** you can use an `if` statement in conjunction with the `request.path` object.
 ```ruby
 # runs before code only on 'mypage' and 'about' page
 before do
@@ -138,6 +138,8 @@ before do
   end
 end
 ```
+[stackm]: https://stackoverflow.com/questions/7703962/in-sinatra-how-do-you-make-a-before-filter-that-matches-all-routes-except-some
+
 You can also **filter pages negatively** using the `pass` keyword which will essentially break out of the filter if the `request.path` name matches your condition.
 ```ruby
 # runs before code on every page except for '/nobefore'
@@ -266,7 +268,7 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjgxMTIyNTQsLTE3NzczMjY1ODIsLT
+eyJoaXN0b3J5IjpbLTE5Mzg2MTQ1NTksLTE3NzczMjY1ODIsLT
 E3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMiwxOTE5NDAx
 MzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3NDgyODI3Mi
 wxMTc2NTE1ODg0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUw
