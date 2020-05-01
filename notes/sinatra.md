@@ -30,9 +30,12 @@ The example above defines how to respond to a `GET` request from a client to the
 
 You can **write route titles as `RegEx` expressions** if you want to match a route to a particular class of URL extension in your application by containing the route name inside `/.../` slashes. You also **must escape the opening `/`** with a `\`.
 ```ruby
-# route for webpages that begin with an 'h'
-get '/' do
+# route for webpages that begin with an 'h' followed by some letters
+get /\/h\w+/ do
+  'This is an H page.'
+end
 ```
+You can **return the current page URL extensions** using the `request.path` object, this can be used inside routes 
 
 ### Redirect
 You can **redirect to a different route** using the `redirect` method within a controller block.
@@ -274,11 +277,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTgxMDE1OSwtMTE0ODk1MjI0OSwtMT
-gxNzQxMTM1MSwtMTc3NzMyNjU4MiwtMTc0OTU2MDgsLTQ5MTAz
-ODkyMiwxNDg4NDI5NTIyLDE5MTk0MDEzNTEsLTIzOTI3MjcwMS
-wxMjY4Mzk0MDcyLC0xOTc0ODI4MjcyLDExNzY1MTU4ODQsLTE1
-NzM5MjIyOCwtMTg1MjEzMDUwMCwtNTAwNDYzMDIzLC0xMzQxMD
-c5MzA4LDExOTk5Mjc1MzAsLTE5ODA4MjI0NTQsLTk5MjQ2MDcx
-Nyw3NzE3MjIxNTFdfQ==
+eyJoaXN0b3J5IjpbNTg0NDMxNTg5LC0xMTQ4OTUyMjQ5LC0xOD
+E3NDExMzUxLC0xNzc3MzI2NTgyLC0xNzQ5NTYwOCwtNDkxMDM4
+OTIyLDE0ODg0Mjk1MjIsMTkxOTQwMTM1MSwtMjM5MjcyNzAxLD
+EyNjgzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMTU3
+MzkyMjI4LC0xODUyMTMwNTAwLC01MDA0NjMwMjMsLTEzNDEwNz
+kzMDgsMTE5OTkyNzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNzE3
+LDc3MTcyMjE1MV19
 -->
