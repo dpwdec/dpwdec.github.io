@@ -124,6 +124,9 @@ The corresponding `.erb` file:
 <!-- Render the variable from your routes file -->
 <h1><%= @my_variable %></h1>
 ```
+## Partials
+Web partials are a way of DRYing up web interface code by 
+
 ## Params
 User queries or request bodies (from a `PUT` statement etc.) will appear inside your routes stored inside a hash called `params`. This `params` hash is typically filled by the HTTP request's body so its scope is localised to the page where the parameters are passed in. If you navigate from one page where you have some parameters loaded to another page without sending those parameters again then the `params` hash will be empty as you load the next page.
 
@@ -169,8 +172,8 @@ end
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMT
-U3MzkyMjI4LC0xODUyMTMwNTAwLC01MDA0NjMwMjMsLTEzNDEw
-NzkzMDgsMTE5OTkyNzUzMCwtMTk4MDgyMjQ1NCwtOTkyNDYwNz
-E3LDc3MTcyMjE1MV19
+eyJoaXN0b3J5IjpbLTgyMDM0MDM5OCwtMTk3NDgyODI3MiwxMT
+c2NTE1ODg0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2
+MzAyMywtMTM0MTA3OTMwOCwxMTk5OTI3NTMwLC0xOTgwODIyND
+U0LC05OTI0NjA3MTcsNzcxNzIyMTUxXX0=
 -->
