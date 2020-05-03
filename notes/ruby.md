@@ -405,6 +405,10 @@ date.next_day # => 2021/01/01
 ```
 
 To **find the previous day's date** use the `prev_day` function.
+```ruby
+date = Date.new(2020, 12, 31)
+date.next_day # => 2021/01/01
+```
 
 These two `prev` and `next` type functions can be chained using loops to add many days to your to create automate calculations on future dates.
 
@@ -426,7 +430,7 @@ Time.now.strftime('%H:%M') # => 17:56
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDY4NzYzNywxMzgxNzAxMzksLTIwOT
+eyJoaXN0b3J5IjpbMTgyNzA4MzkwMywxMzgxNzAxMzksLTIwOT
 I1NjY1ODMsLTEwODQ2NDk0OTksLTE2MTk0ODA0MDAsMTc2MDM1
 MjAwOCwxNzA0MjExMzI4LDEzMDcxMTYxMCwtNDEyNzg2NDMwLD
 M1MjI0MDkwOCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDky
