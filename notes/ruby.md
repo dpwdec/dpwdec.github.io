@@ -368,10 +368,13 @@ The `Date` ruby object allows you to work with date information and date calcula
 require 'date'
 Date.today # => returns todays date
 ```
-You can **parse a human readable date**
+You can **parse a human readable date string into a `Date` object** using the `parse` function.
+```ruby
+Date.parse('3rd Feb 2021')
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDc0MDQyNCwtMTA4NDY0OTQ5OSwtMT
+eyJoaXN0b3J5IjpbMTY5MjM0MjYwMCwtMTA4NDY0OTQ5OSwtMT
 YxOTQ4MDQwMCwxNzYwMzUyMDA4LDE3MDQyMTEzMjgsMTMwNzEx
 NjEwLC00MTI3ODY0MzAsMzUyMjQwOTA4LC0xODExNTQzNTE5LD
 I0NDI0MzIzMiwtMTEwOTI3MjU1MCwtMTc3NzExMTAxNywtNTg5
