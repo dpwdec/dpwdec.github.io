@@ -224,9 +224,10 @@ The corresponding `.erb` file:
 <h1><%= @my_variable %></h1>
 ```
 ## Partials
+
 Web partials are a way of DRYing up web interface code by extracting repeated interface elements into a single display file that is invoked on pages. An example of this would be something like a nav bar. Our website might have 100 pages all with the same navbar, so to avoid duplication we have one *partial* file containing the navbar code which we render on each page. Partials are also a great way to insert dependency code like CSS.
 
-The primary way to do this in Sinatra is **using the `layout.erb`** file. This is a file is placed in the `views` folder and contains the `<%= yield %>` tags to render page specific content. It is run on every single page in your application. 
+The primary way to do this in Sinatra is **using the `layout.erb`** file. This is a file is placed in the `views` folder and contains the `<%= yield %>` tags to render page specific content. It is run on every single page in your application and whatever the content is for that page will be inserted where the `yield` is called.
 ```html
 <!doctype html>
 <html>
@@ -234,7 +235,7 @@ The primary way to do this in Sinatra is **using the `layout.erb`** file. This i
 </html>
 ```
 
-To **[render a partial][part] in Sinatra** use the `erb` method with `:layout` set to false. Place your partial file in the Sinatra `views` directory. I also like to name by partial files beginning with an `_` underscore to indicate they are partial views.
+You can also render page specific partials by calling them with the**[render a partial][part] functionality in Sinatra** which use the `erb` method with `:layout` set to false. Place your partial file in the Sinatra `views` directory. I also like to name by partial files beginning with an `_` underscore to indicate they are partial views.
 ```ruby
 <!-- renders the _style.erb file in index.erb -->
 <%= erb(:_style, :layout => false) %>
@@ -319,11 +320,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODQ2NjAzNCwzOTg0NTg5MTUsLTE4Mj
-IyOTQ2NzAsLTE4ODM5MTI1OTEsODc5MzA1NTE3LC0xMTQ4OTUy
-MjQ5LC0xODE3NDExMzUxLC0xNzc3MzI2NTgyLC0xNzQ5NTYwOC
-wtNDkxMDM4OTIyLDE0ODg0Mjk1MjIsMTkxOTQwMTM1MSwtMjM5
-MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3NjUxNT
-g4NCwtMTU3MzkyMjI4LC0xODUyMTMwNTAwLC01MDA0NjMwMjMs
-LTEzNDEwNzkzMDhdfQ==
+eyJoaXN0b3J5IjpbNTI1MjAzOTU3LDM5ODQ1ODkxNSwtMTgyMj
+I5NDY3MCwtMTg4MzkxMjU5MSw4NzkzMDU1MTcsLTExNDg5NTIy
+NDksLTE4MTc0MTEzNTEsLTE3NzczMjY1ODIsLTE3NDk1NjA4LC
+00OTEwMzg5MjIsMTQ4ODQyOTUyMiwxOTE5NDAxMzUxLC0yMzky
+NzI3MDEsMTI2ODM5NDA3MiwtMTk3NDgyODI3MiwxMTc2NTE1OD
+g0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2MzAyMywt
+MTM0MTA3OTMwOF19
 -->
