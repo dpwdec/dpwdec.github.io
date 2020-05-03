@@ -103,7 +103,12 @@ To **select an option from a dropdown** use the `select_option` action. Un-intui
 # finds the sencond option of the drop down menu and selects it
 find_by_id('my dropdown').find(:xpath, 'option[2]').select_option
 ``` 
-To **select a radio button** use the `choose` action
+To **select a radio button** use the `choose` action. This clicks a radio button based on its name.
+```ruby
+# chooses a gender identity from a radio button list
+choose('male')
+click_button('submit')
+```
 ## Matchers
 Most capybara matchers for testing page elements work by using the `name`, `id` or `type` values on an HTML element. You should **avoid using the CSS selectors** to test elements on the page.
 
@@ -123,7 +128,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ0NjU1NzQ2LC02OTUyMDcwOTAsLTE1Mz
-Y4NDIxMDQsLTY1NTA3MDE0LDEzNzk5MzU3MDksLTE3ODUwNTM1
-ODcsMTAwMzE2MTY5OSwtMTQ2MDE5MTE5MF19
+eyJoaXN0b3J5IjpbLTc5OTE3NDM5OCwtNjk1MjA3MDkwLC0xNT
+M2ODQyMTA0LC02NTUwNzAxNCwxMzc5OTM1NzA5LC0xNzg1MDUz
+NTg3LDEwMDMxNjE2OTksLTE0NjAxOTExOTBdfQ==
 -->
