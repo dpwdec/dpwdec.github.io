@@ -267,8 +267,8 @@ Rack is a minimal interface that facilitates the communication of web servers an
 ![enter image description here](https://miro.medium.com/max/1134/0*GN3ldsyRjwXwqdHO.png)
 The problem with this, is that if we want to change the server architecture *or* the type of app that is running the entire basis of our code would have be altered causing a lot of problems. 
 
-`Rack` acts as a layer between the server and the application that they both agree to communicate with. Then, if the server needs to change or a different framework 
-
+`Rack` acts as a layer between the server and the application that they both agree to communicate with. Then, if the server needs to change or a different framework needs to be used for the web application, as long as they both speak rack there don't need to be any big changes to how the application works for these improvements and changes to be carried out.
+![enter image description here](https://miro.medium.com/max/1400/0*d-jA4FIoJ9cuZA9p.png)
 You can **specify the port on which you want a server to run with `rack`** by using the `-p` argument followed by the port number.
 ```
 rackup -p 4567
@@ -296,11 +296,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzk4MzIxMywtMTg4MzkxMjU5MSw4Nz
-kzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLTE3Nzcz
-MjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMi
-wxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3
-NDgyODI3MiwxMTc2NTE1ODg0LC0xNTczOTIyMjgsLTE4NTIxMz
-A1MDAsLTUwMDQ2MzAyMywtMTM0MTA3OTMwOCwxMTk5OTI3NTMw
-LC0xOTgwODIyNDU0XX0=
+eyJoaXN0b3J5IjpbLTE4MjIyOTQ2NzAsLTE4ODM5MTI1OTEsOD
+c5MzA1NTE3LC0xMTQ4OTUyMjQ5LC0xODE3NDExMzUxLC0xNzc3
+MzI2NTgyLC0xNzQ5NTYwOCwtNDkxMDM4OTIyLDE0ODg0Mjk1Mj
+IsMTkxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNjgzOTQwNzIsLTE5
+NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMTU3MzkyMjI4LC0xODUyMT
+MwNTAwLC01MDA0NjMwMjMsLTEzNDEwNzkzMDgsMTE5OTkyNzUz
+MCwtMTk4MDgyMjQ1NF19
 -->
