@@ -131,7 +131,13 @@ end
 arguent_array = [1, 2, 3]
 my_method(*argument_array)
 ```
-
+### Unused arguments
+If you want to indicate that an argument to a function is unused you preface the variable with an `_` underscore. You may need to do this if you are overloading a class method that does nothing in a different impk
+```ruby
+def my_function(_unused = 'placeholder')
+  true
+end
+```
 ## Gems
 Gems are pieces of reusable code that can be installed inside your ruby projects. 
 
@@ -351,11 +357,11 @@ You can convert an instance of the `Rational` class to an integer using the `.to
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDM1MjAwOCwxNzA0MjExMzI4LDEzMD
-cxMTYxMCwtNDEyNzg2NDMwLDM1MjI0MDkwOCwtMTgxMTU0MzUx
-OSwyNDQyNDMyMzIsLTExMDkyNzI1NTAsLTE3NzcxMTEwMTcsLT
-U4OTMxODE5MCwxNDczMTgyNTgzLDE0ODkyMTYxOTIsLTE5NTM2
-MTcxNiwtMzM0MzU5MzA4LC05ODc0Njc2MjMsLTg3NDc3MTI1NS
-wtMTk3MjE3MTM2NSwxMDQ2MTY0NDYsOTkxNjgxMDU0LC0xMjEz
-OTg4NTQwXX0=
+eyJoaXN0b3J5IjpbLTE3MDk2MjgzODQsMTc2MDM1MjAwOCwxNz
+A0MjExMzI4LDEzMDcxMTYxMCwtNDEyNzg2NDMwLDM1MjI0MDkw
+OCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDkyNzI1NTAsLT
+E3NzcxMTEwMTcsLTU4OTMxODE5MCwxNDczMTgyNTgzLDE0ODky
+MTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05ODc0Njc2Mj
+MsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0NDYsOTkx
+NjgxMDU0XX0=
 -->
