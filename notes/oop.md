@@ -367,13 +367,14 @@ else
   puts user.user_message
 end
 ```
+In the above example, this code queries whether the object is an `admin?` and then calls different `user` or `admin` specific message methods based on the result of that. This is a **clear violation of TDA**. As a caller we simply want to tell the `user` object to return the appropriate message. **It is the responsibility of the called object** to m
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzY5MjA4LDE1MDc2ODYxNzEsMTE4NT
-kyMjQ5NSwtMTc3MDU4NDYwNSwxNDU4MDI1OTY5LDI1OTAzNjU5
-MiwzMTIwMzI3NDEsLTEzNzQ2OTM5MjYsNDE0MTI2NTY5LDIwMD
-c0NTYxMDAsMTkxMzE4NDY3MiwtMjE3NDMwMDUxLC0xMjA5NTc2
-NDM3LDEwMjc5MDI0OTcsMTQ1ODM4ODU4NCwtNjI5MDM3Mzk0LD
-IyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgzMjc1Mjk0LC0yMDk5
-ODE1NzIxXX0=
+eyJoaXN0b3J5IjpbMTgwODAyODQyMCwxNTA3Njg2MTcxLDExOD
+U5MjI0OTUsLTE3NzA1ODQ2MDUsMTQ1ODAyNTk2OSwyNTkwMzY1
+OTIsMzEyMDMyNzQxLC0xMzc0NjkzOTI2LDQxNDEyNjU2OSwyMD
+A3NDU2MTAwLDE5MTMxODQ2NzIsLTIxNzQzMDA1MSwtMTIwOTU3
+NjQzNywxMDI3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAzNzM5NC
+wyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NCwtMjA5
+OTgxNTcyMV19
 -->
