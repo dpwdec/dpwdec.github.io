@@ -287,7 +287,7 @@ class MyClass
   end
 end
 ```
-This class is n
+This class will now work effectively with `rack` and can interface with any web server that also runs rack to output `'This is my class'` text to a web page or server request.
 ## Shotgun
 [Shotgun](https://github.com/rtomayko/shotgun) is another ruby gem that can be used to **automatically restart your Sinatra server** after changes are made. To install simply add the `gem Shotgun` line to your `Gemfile`. You can then run the server using the `shotgun` command instead of the `ruby` command so that it is automatically restarted when changes to the code are made.
 ```
@@ -310,11 +310,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NjAwNDYzNiwtMTgyMjI5NDY3MCwtMT
-g4MzkxMjU5MSw4NzkzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0
-MTEzNTEsLTE3NzczMjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5Mj
-IsMTQ4ODQyOTUyMiwxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMTI2
-ODM5NDA3MiwtMTk3NDgyODI3MiwxMTc2NTE1ODg0LC0xNTczOT
-IyMjgsLTE4NTIxMzA1MDAsLTUwMDQ2MzAyMywtMTM0MTA3OTMw
-OCwxMTk5OTI3NTMwXX0=
+eyJoaXN0b3J5IjpbMzk4NDU4OTE1LC0xODIyMjk0NjcwLC0xOD
+gzOTEyNTkxLDg3OTMwNTUxNywtMTE0ODk1MjI0OSwtMTgxNzQx
+MTM1MSwtMTc3NzMyNjU4MiwtMTc0OTU2MDgsLTQ5MTAzODkyMi
+wxNDg4NDI5NTIyLDE5MTk0MDEzNTEsLTIzOTI3MjcwMSwxMjY4
+Mzk0MDcyLC0xOTc0ODI4MjcyLDExNzY1MTU4ODQsLTE1NzM5Mj
+IyOCwtMTg1MjEzMDUwMCwtNTAwNDYzMDIzLC0xMzQxMDc5MzA4
+LDExOTk5Mjc1MzBdfQ==
 -->
