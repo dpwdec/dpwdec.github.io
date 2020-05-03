@@ -398,10 +398,14 @@ date = Date.new(2020, 12, 31)
 date.strftime('%Y/%d/%m') # => 2020/31/12
 ```
 
-To **find the next da**
+To **find the next day's date** use the `next_day` function.
+
+To **find the previous day's date** use the `prev_day` function.
+
+These two `prev` and `next` type functions can be chained using loops to add many days to your to create automate calculations on future dates.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU0NzkzNDcsMTM4MTcwMTM5LC0yMD
+eyJoaXN0b3J5IjpbLTEzNjEzODQwOTcsMTM4MTcwMTM5LC0yMD
 kyNTY2NTgzLC0xMDg0NjQ5NDk5LC0xNjE5NDgwNDAwLDE3NjAz
 NTIwMDgsMTcwNDIxMTMyOCwxMzA3MTE2MTAsLTQxMjc4NjQzMC
 wzNTIyNDA5MDgsLTE4MTE1NDM1MTksMjQ0MjQzMjMyLC0xMTA5
