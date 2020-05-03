@@ -143,7 +143,10 @@ There is a special HTTP [status code `303`](https://en.wikipedia.org/wiki/HTTP_3
 ## DNS
 DNS or **Domain Name Servers** are a way of translating the nice readable URL address of a website that the client wants to visit into a real, unique server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
 
+## Minimal Interface
+A **minimal interface** is simply a piece of code that sits between two components that need to talk to each other providing a common ground. An example of such an interface would be the [Rack][racklink] frame work.
 
+[racklink]: https://medium.com/whynotio/what-is-rack-in-ruby-7e0615f1d9b6
 
 ## HTTPie
 
@@ -165,11 +168,11 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDkyMTI2OSwtMTk5NTkzMDIyMywxMD
-kxODc0MzczLDMyNDQ5MDU4LDY3NzgzMjI5NSwxNjc5OTI4MTA3
-LDg3NTI3MTY4OCwtODEwOTk5MjE1LDU3NDU4MDcsMTg3NzMwNj
-g4MCwtNjUwMjQ2NTAzLC0xNjIyOTM4MzI1LDg2MTE5NjQyMiwx
-NzU5Mjg2NTI4LDc2MDk2ODU1NywtMTQ5MDk2NjI5LDIxMTY2NT
-k2NTcsLTYyODIwNjc0Niw2NDIwNzAzNjUsMTc5MTQ4NzgxMF19
+eyJoaXN0b3J5IjpbNzU4MDEzMjg4LDIxMDQ5MjEyNjksLTE5OT
+U5MzAyMjMsMTA5MTg3NDM3MywzMjQ0OTA1OCw2Nzc4MzIyOTUs
+MTY3OTkyODEwNyw4NzUyNzE2ODgsLTgxMDk5OTIxNSw1NzQ1OD
+A3LDE4NzczMDY4ODAsLTY1MDI0NjUwMywtMTYyMjkzODMyNSw4
+NjExOTY0MjIsMTc1OTI4NjUyOCw3NjA5Njg1NTcsLTE0OTA5Nj
+YyOSwyMTE2NjU5NjU3LC02MjgyMDY3NDYsNjQyMDcwMzY1XX0=
 
 -->
