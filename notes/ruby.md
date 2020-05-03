@@ -399,6 +399,10 @@ date.strftime('%Y/%d/%m') # => 2020/31/12
 ```
 
 To **find the next day's date** use the `next_day` function.
+```ruby
+date = Date.new(2020, 12, 31)
+date.strftime('%Y/%d/%m') # => 2020/31/12
+```
 
 To **find the previous day's date** use the `prev_day` function.
 
@@ -415,10 +419,14 @@ Time.new # => whatever the time is right now.
 Time.now + 3600 # => time in one hour
 ```
 
-You can **format your time object as a String** using the `strftime` method which takes arguments of prepended by a `%` percentage sign to indicate which parts of the time should be
+You can **format your time object as a String** using the `strftime` method which takes arguments of prepended by a `%` percentage sign to indicate which parts of the time should be output.
+```ruby
+# output the hour and minute of the time
+Time.now.strftime('%H:%M') # => 17:56
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTYzNzgxMjUsMTM4MTcwMTM5LC0yMD
+eyJoaXN0b3J5IjpbLTE4NjczNzk1NDksMTM4MTcwMTM5LC0yMD
 kyNTY2NTgzLC0xMDg0NjQ5NDk5LC0xNjE5NDgwNDAwLDE3NjAz
 NTIwMDgsMTcwNDIxMTMyOCwxMzA3MTE2MTAsLTQxMjc4NjQzMC
 wzNTIyNDA5MDgsLTE4MTE1NDM1MTksMjQ0MjQzMjMyLC0xMTA5
