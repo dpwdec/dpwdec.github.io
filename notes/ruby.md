@@ -387,13 +387,13 @@ new_years_eve = Date.new(2020, 12, 31)
 new_years_eve - new_year # => 356/1
 ```
 
-You can **convert month abbreviations to month numeric codes** i.e. `Jun => 6` or `Sep => 9` by using the `ABBR_MONTHNAMES` constant in the `Date` class with the index method. This hash contains a `nil` object at the 0th index meaning the the first three letters of the month names submitted to it as a index with smoothly convert over.
+You can **convert month abbreviations to month numeric codes** i.e. `Jun => 6` or `Sep => 9` by using the `ABBR_MONTHNAMES` constant in the `Date` class with the index method. This hash contains a `nil` object at the 0th index meaning the the first three letters of the month names submitted to it as an index with smoothly convert over. It's worth noting that the **month names are capitalized**.
 ```ruby
 Date::ABBR_MONTHNAMES.index('Feb') # => 2
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4NTQyMzgzLC0yMDkyNTY2NTgzLC0xMD
+eyJoaXN0b3J5IjpbMTM4MTcwMTM5LC0yMDkyNTY2NTgzLC0xMD
 g0NjQ5NDk5LC0xNjE5NDgwNDAwLDE3NjAzNTIwMDgsMTcwNDIx
 MTMyOCwxMzA3MTE2MTAsLTQxMjc4NjQzMCwzNTIyNDA5MDgsLT
 E4MTE1NDM1MTksMjQ0MjQzMjMyLC0xMTA5MjcyNTUwLC0xNzc3
