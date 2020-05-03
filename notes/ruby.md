@@ -362,13 +362,15 @@ You can generate a random floating point number outside of the `0-1` range by su
 rand(1.0..5.0)
 ```
 
+## Date
+The `Date` ruby object allows you to work with date information and date calculations. You can 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQ2NDk0OTksLTE2MTk0ODA0MDAsMT
-c2MDM1MjAwOCwxNzA0MjExMzI4LDEzMDcxMTYxMCwtNDEyNzg2
-NDMwLDM1MjI0MDkwOCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLT
-ExMDkyNzI1NTAsLTE3NzcxMTEwMTcsLTU4OTMxODE5MCwxNDcz
-MTgyNTgzLDE0ODkyMTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5Mz
-A4LC05ODc0Njc2MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwx
-MDQ2MTY0NDZdfQ==
+eyJoaXN0b3J5IjpbODg4OTg2OTkyLC0xMDg0NjQ5NDk5LC0xNj
+E5NDgwNDAwLDE3NjAzNTIwMDgsMTcwNDIxMTMyOCwxMzA3MTE2
+MTAsLTQxMjc4NjQzMCwzNTIyNDA5MDgsLTE4MTE1NDM1MTksMj
+Q0MjQzMjMyLC0xMTA5MjcyNTUwLC0xNzc3MTExMDE3LC01ODkz
+MTgxOTAsMTQ3MzE4MjU4MywxNDg5MjE2MTkyLC0xOTUzNjE3MT
+YsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04NzQ3NzEyNTUsLTE5
+NzIxNzEzNjVdfQ==
 -->
