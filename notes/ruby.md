@@ -410,14 +410,19 @@ The ruby `Time` object returns an object representing a time. You can **create a
 Time.new # => whatever the time is right now.
 ```
 
-**Addition** with the time object is done **using seconds** and `+` plus operator. For e
+**Addition** with the time object is done **using seconds** and `+` plus operator. For example, if you want to add an hour to the current time you would add `3600` to the current time.
+```ruby
+Time.now + 3600 # => time in one hour
+```
+
+You can **format your time object as a String** using the `strftime` method which takes arguments of prepended by a `%` percentage sign to indicate which parts of the time should be
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1ODcyNDIwLDEzODE3MDEzOSwtMjA5Mj
-U2NjU4MywtMTA4NDY0OTQ5OSwtMTYxOTQ4MDQwMCwxNzYwMzUy
-MDA4LDE3MDQyMTEzMjgsMTMwNzExNjEwLC00MTI3ODY0MzAsMz
-UyMjQwOTA4LC0xODExNTQzNTE5LDI0NDI0MzIzMiwtMTEwOTI3
-MjU1MCwtMTc3NzExMTAxNywtNTg5MzE4MTkwLDE0NzMxODI1OD
-MsMTQ4OTIxNjE5MiwtMTk1MzYxNzE2LC0zMzQzNTkzMDgsLTk4
-NzQ2NzYyM119
+eyJoaXN0b3J5IjpbLTE1OTYzNzgxMjUsMTM4MTcwMTM5LC0yMD
+kyNTY2NTgzLC0xMDg0NjQ5NDk5LC0xNjE5NDgwNDAwLDE3NjAz
+NTIwMDgsMTcwNDIxMTMyOCwxMzA3MTE2MTAsLTQxMjc4NjQzMC
+wzNTIyNDA5MDgsLTE4MTE1NDM1MTksMjQ0MjQzMjMyLC0xMTA5
+MjcyNTUwLC0xNzc3MTExMDE3LC01ODkzMTgxOTAsMTQ3MzE4Mj
+U4MywxNDg5MjE2MTkyLC0xOTUzNjE3MTYsLTMzNDM1OTMwOCwt
+OTg3NDY3NjIzXX0=
 -->
