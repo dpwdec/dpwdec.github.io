@@ -368,17 +368,22 @@ The `Date` ruby object allows you to work with date information and date calcula
 require 'date'
 Date.today # => returns todays date
 ```
+New `Date` objects are **create using the format `Year : Month : Day`**.
+```ruby
+Date.new(2001, 10, 22)
+```
+
 You can **parse a human readable date string into a `Date` object** using the `parse` function.
 ```ruby
 Date.parse('3rd Feb 2021')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjM0MjYwMCwtMTA4NDY0OTQ5OSwtMT
-YxOTQ4MDQwMCwxNzYwMzUyMDA4LDE3MDQyMTEzMjgsMTMwNzEx
-NjEwLC00MTI3ODY0MzAsMzUyMjQwOTA4LC0xODExNTQzNTE5LD
-I0NDI0MzIzMiwtMTEwOTI3MjU1MCwtMTc3NzExMTAxNywtNTg5
-MzE4MTkwLDE0NzMxODI1ODMsMTQ4OTIxNjE5MiwtMTk1MzYxNz
-E2LC0zMzQzNTkzMDgsLTk4NzQ2NzYyMywtODc0NzcxMjU1LC0x
-OTcyMTcxMzY1XX0=
+eyJoaXN0b3J5IjpbLTEzMjUyNTE4NDAsLTEwODQ2NDk0OTksLT
+E2MTk0ODA0MDAsMTc2MDM1MjAwOCwxNzA0MjExMzI4LDEzMDcx
+MTYxMCwtNDEyNzg2NDMwLDM1MjI0MDkwOCwtMTgxMTU0MzUxOS
+wyNDQyNDMyMzIsLTExMDkyNzI1NTAsLTE3NzcxMTEwMTcsLTU4
+OTMxODE5MCwxNDczMTgyNTgzLDE0ODkyMTYxOTIsLTE5NTM2MT
+cxNiwtMzM0MzU5MzA4LC05ODc0Njc2MjMsLTg3NDc3MTI1NSwt
+MTk3MjE3MTM2NV19
 -->
