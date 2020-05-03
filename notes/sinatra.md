@@ -254,6 +254,9 @@ The `params` hash only has elements pushed through from the `name` value of an h
   <input type="submit" value="Submit">
 </form>
 ```
+## CSS
+To **link to CSS stylesheets** within your Sinatra project you should place stylesheets in the `public` directo
+
 ## Rack
 You can **specify the port on which you want a server to run with `rack`** by using the `-p` argument followed by the port number.
 ```
@@ -282,11 +285,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODM5MTI1OTEsODc5MzA1NTE3LC0xMT
-Q4OTUyMjQ5LC0xODE3NDExMzUxLC0xNzc3MzI2NTgyLC0xNzQ5
-NTYwOCwtNDkxMDM4OTIyLDE0ODg0Mjk1MjIsMTkxOTQwMTM1MS
-wtMjM5MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3
-NjUxNTg4NCwtMTU3MzkyMjI4LC0xODUyMTMwNTAwLC01MDA0Nj
-MwMjMsLTEzNDEwNzkzMDgsMTE5OTkyNzUzMCwtMTk4MDgyMjQ1
-NCwtOTkyNDYwNzE3XX0=
+eyJoaXN0b3J5IjpbLTE4NTkxMjEyMjYsLTE4ODM5MTI1OTEsOD
+c5MzA1NTE3LC0xMTQ4OTUyMjQ5LC0xODE3NDExMzUxLC0xNzc3
+MzI2NTgyLC0xNzQ5NTYwOCwtNDkxMDM4OTIyLDE0ODg0Mjk1Mj
+IsMTkxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNjgzOTQwNzIsLTE5
+NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMTU3MzkyMjI4LC0xODUyMT
+MwNTAwLC01MDA0NjMwMjMsLTEzNDEwNzkzMDgsMTE5OTkyNzUz
+MCwtMTk4MDgyMjQ1NF19
 -->
