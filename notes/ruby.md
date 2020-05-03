@@ -355,13 +355,16 @@ end
 ## Rational
 You can convert an instance of the `Rational` class to an integer using the `.to_i` function.
 
+## Random
+You can generate a random floating point number outside of the `0-1` range by submitting the generation delimet
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTk0ODA0MDAsMTc2MDM1MjAwOCwxNz
-A0MjExMzI4LDEzMDcxMTYxMCwtNDEyNzg2NDMwLDM1MjI0MDkw
-OCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDkyNzI1NTAsLT
-E3NzcxMTEwMTcsLTU4OTMxODE5MCwxNDczMTgyNTgzLDE0ODky
-MTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05ODc0Njc2Mj
-MsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwxMDQ2MTY0NDYsOTkx
-NjgxMDU0XX0=
+eyJoaXN0b3J5IjpbMTQ0NTg5ODMxMiwtMTYxOTQ4MDQwMCwxNz
+YwMzUyMDA4LDE3MDQyMTEzMjgsMTMwNzExNjEwLC00MTI3ODY0
+MzAsMzUyMjQwOTA4LC0xODExNTQzNTE5LDI0NDI0MzIzMiwtMT
+EwOTI3MjU1MCwtMTc3NzExMTAxNywtNTg5MzE4MTkwLDE0NzMx
+ODI1ODMsMTQ4OTIxNjE5MiwtMTk1MzYxNzE2LC0zMzQzNTkzMD
+gsLTk4NzQ2NzYyMywtODc0NzcxMjU1LC0xOTcyMTcxMzY1LDEw
+NDYxNjQ0Nl19
 -->
