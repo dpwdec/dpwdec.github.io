@@ -392,14 +392,18 @@ You can **convert month abbreviations to month numeric codes** i.e. `Jun => 6` o
 Date::ABBR_MONTHNAMES.index('Feb') # => 2
 ```
 
-To **format date output as a string** use the `strftime` method. This takes a string symbol input and outputs formatted components of the date. For example, to print the year, day and month in that order use the `%
+To **format date output as a string** use the `strftime` method. This takes a string symbol input and outputs formatted components of the date. For example, to print the year, day and month in that order use the `%Y`, `%m` and `%d` indicators.
+```ruby
+date = Date.new(2020, 12, 31)
+date.strftime('%Y/%m/%d') # => 2020/
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTc1MzQwMzksMTM4MTcwMTM5LC0yMD
-kyNTY2NTgzLC0xMDg0NjQ5NDk5LC0xNjE5NDgwNDAwLDE3NjAz
-NTIwMDgsMTcwNDIxMTMyOCwxMzA3MTE2MTAsLTQxMjc4NjQzMC
-wzNTIyNDA5MDgsLTE4MTE1NDM1MTksMjQ0MjQzMjMyLC0xMTA5
-MjcyNTUwLC0xNzc3MTExMDE3LC01ODkzMTgxOTAsMTQ3MzE4Mj
-U4MywxNDg5MjE2MTkyLC0xOTUzNjE3MTYsLTMzNDM1OTMwOCwt
-OTg3NDY3NjIzXX0=
+eyJoaXN0b3J5IjpbLTk0MDk5NTQ3OCwxMzgxNzAxMzksLTIwOT
+I1NjY1ODMsLTEwODQ2NDk0OTksLTE2MTk0ODA0MDAsMTc2MDM1
+MjAwOCwxNzA0MjExMzI4LDEzMDcxMTYxMCwtNDEyNzg2NDMwLD
+M1MjI0MDkwOCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDky
+NzI1NTAsLTE3NzcxMTEwMTcsLTU4OTMxODE5MCwxNDczMTgyNT
+gzLDE0ODkyMTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05
+ODc0Njc2MjNdfQ==
 -->
