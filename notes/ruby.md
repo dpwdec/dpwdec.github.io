@@ -380,16 +380,20 @@ You can **parse a human readable date string into a `Date` object** using the `p
 Date.parse('3rd Feb 2021')
 ```
 
-You can **subtract dates from each other** using the `-` minus operator to return the difference between them. The difference is returned as `Rational` object. The operators **always favour year specific**
+You can **subtract dates from each other** using the `-` minus operator to return the difference between them. The difference is returned as `Rational` object.
 ```ruby
+new_year = Date.new(2020, 1, 1)
+new_years_eve = Date.new(2020, 12, 31)
+new_years_eve - new_year # => 356/1
 ```
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTc1Nzc0MCwtMjA5MjU2NjU4MywtMT
-A4NDY0OTQ5OSwtMTYxOTQ4MDQwMCwxNzYwMzUyMDA4LDE3MDQy
-MTEzMjgsMTMwNzExNjEwLC00MTI3ODY0MzAsMzUyMjQwOTA4LC
-0xODExNTQzNTE5LDI0NDI0MzIzMiwtMTEwOTI3MjU1MCwtMTc3
-NzExMTAxNywtNTg5MzE4MTkwLDE0NzMxODI1ODMsMTQ4OTIxNj
-E5MiwtMTk1MzYxNzE2LC0zMzQzNTkzMDgsLTk4NzQ2NzYyMywt
-ODc0NzcxMjU1XX0=
+eyJoaXN0b3J5IjpbLTEyODU2NzEwNTcsLTIwOTI1NjY1ODMsLT
+EwODQ2NDk0OTksLTE2MTk0ODA0MDAsMTc2MDM1MjAwOCwxNzA0
+MjExMzI4LDEzMDcxMTYxMCwtNDEyNzg2NDMwLDM1MjI0MDkwOC
+wtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDkyNzI1NTAsLTE3
+NzcxMTEwMTcsLTU4OTMxODE5MCwxNDczMTgyNTgzLDE0ODkyMT
+YxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05ODc0Njc2MjMs
+LTg3NDc3MTI1NV19
 -->
