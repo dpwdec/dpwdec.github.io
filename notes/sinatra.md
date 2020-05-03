@@ -273,19 +273,21 @@ You can **specify the port on which you want a server to run with `rack`** by us
 ```
 rackup -p 4567
 ```
-You can create your own `rack` compliant classes by given them a `call` method that return an array containing three elements:
+You can create your own `rack` compliant classes by given them a `call` method that returns an array containing three elements:
 
 - a status code
 - a hash containing header information
 - a body (inside an array)
 
+And takes in an `env` variable as an argument.
 ```ruby
 class MyClass
   def call(env)
-    
+    [200, {'content-type' => 'text/plain'}. ['This is my class.']]
   end
 end
 ```
+This class is n
 ## Shotgun
 [Shotgun](https://github.com/rtomayko/shotgun) is another ruby gem that can be used to **automatically restart your Sinatra server** after changes are made. To install simply add the `gem Shotgun` line to your `Gemfile`. You can then run the server using the `shotgun` command instead of the `ruby` command so that it is automatically restarted when changes to the code are made.
 ```
@@ -308,7 +310,7 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDIzMTk1NiwtMTgyMjI5NDY3MCwtMT
+eyJoaXN0b3J5IjpbLTc5NjAwNDYzNiwtMTgyMjI5NDY3MCwtMT
 g4MzkxMjU5MSw4NzkzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0
 MTEzNTEsLTE3NzczMjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5Mj
 IsMTQ4ODQyOTUyMiwxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMTI2
