@@ -361,16 +361,21 @@ Now we can easily create our `RobotMurderDog` without introducing any unnecessar
 ## Tell, Don't Ask
 "Tell, Don't Ask" means telling an object what you want and letting it handle how to accomplish that *as opposed to* querying the state of an object and then calling methods based on the results of that test.
 ```ruby
+# Not so good
 if user.admin?
   puts user.admin_message
 else
   puts user.user_message
 end
 ```
-In the above example, this code queries whether the object is an `admin?` and then calls different `user` or `admin` specific message methods based on the result of that. This is a **clear violation of TDA**. As a caller we simply want to tell the `user` object to return the appropriate message. **It is the responsibility of the called object** to m
+In the above example, this code queries whether the object is an `admin?` and then calls different `user` or `admin` specific message methods based on the result of that. This is a **clear violation of TDA**. As a caller we simply want to tell the `user` object to return the appropriate message. **It is the responsibility of the called object** to manage what is the correct output for that call. So instead we can refactor the `User` class to run a conditional inside a method called `message` that does this logic itself. Then when we call the `.message` method from outside the class it is clear and declarative.
+```ruby
+# better
+puts user.message
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODAyODQyMCwxNTA3Njg2MTcxLDExOD
+eyJoaXN0b3J5IjpbMTkyNDI2NTg3NywxNTA3Njg2MTcxLDExOD
 U5MjI0OTUsLTE3NzA1ODQ2MDUsMTQ1ODAyNTk2OSwyNTkwMzY1
 OTIsMzEyMDMyNzQxLC0xMzc0NjkzOTI2LDQxNDEyNjU2OSwyMD
 A3NDU2MTAwLDE5MTMxODQ2NzIsLTIxNzQzMDA1MSwtMTIwOTU3
