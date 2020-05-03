@@ -38,7 +38,11 @@ The `page` variable is the equivalent of `subject` in capybara and points to the
 
 Capybara will raise a confusing `XPath` error that reads `unable to find xpath "/html"` if you try to test a page which is entirely empty. Be wary of this!
 
-### 
+### Or And
+Capybara **does not support conjunction operators** like `or` or `and` from regular RSpec its `expect` blocks.
+```ruby
+
+```
 
 ## Helpers
 
@@ -135,7 +139,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDU2OTMyMTAsLTY5NTIwNzA5MCwtMT
-UzNjg0MjEwNCwtNjU1MDcwMTQsMTM3OTkzNTcwOSwtMTc4NTA1
-MzU4NywxMDAzMTYxNjk5LC0xNDYwMTkxMTkwXX0=
+eyJoaXN0b3J5IjpbMzMxNzM4NTE5LC02OTUyMDcwOTAsLTE1Mz
+Y4NDIxMDQsLTY1NTA3MDE0LDEzNzk5MzU3MDksLTE3ODUwNTM1
+ODcsMTAwMzE2MTY5OSwtMTQ2MDE5MTE5MF19
 -->
