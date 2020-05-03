@@ -263,6 +263,8 @@ To **link to CSS stylesheets** within your Sinatra project you should place styl
 ```
 
 ## Rack
+Rack is a minimal interface that facilitates the communication of web servers and ruby applications. 
+
 You can **specify the port on which you want a server to run with `rack`** by using the `-p` argument followed by the port number.
 ```
 rackup -p 4567
@@ -290,11 +292,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYwNjcwNzUsLTE4ODM5MTI1OTEsOD
-c5MzA1NTE3LC0xMTQ4OTUyMjQ5LC0xODE3NDExMzUxLC0xNzc3
-MzI2NTgyLC0xNzQ5NTYwOCwtNDkxMDM4OTIyLDE0ODg0Mjk1Mj
-IsMTkxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNjgzOTQwNzIsLTE5
-NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMTU3MzkyMjI4LC0xODUyMT
-MwNTAwLC01MDA0NjMwMjMsLTEzNDEwNzkzMDgsMTE5OTkyNzUz
-MCwtMTk4MDgyMjQ1NF19
+eyJoaXN0b3J5IjpbNTA2NTM3ODAzLC0xODgzOTEyNTkxLDg3OT
+MwNTUxNywtMTE0ODk1MjI0OSwtMTgxNzQxMTM1MSwtMTc3NzMy
+NjU4MiwtMTc0OTU2MDgsLTQ5MTAzODkyMiwxNDg4NDI5NTIyLD
+E5MTk0MDEzNTEsLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOTc0
+ODI4MjcyLDExNzY1MTU4ODQsLTE1NzM5MjIyOCwtMTg1MjEzMD
+UwMCwtNTAwNDYzMDIzLC0xMzQxMDc5MzA4LDExOTk5Mjc1MzAs
+LTE5ODA4MjI0NTRdfQ==
 -->
