@@ -401,7 +401,7 @@ date.strftime('%Y/%d/%m') # => 2020/31/12
 To **find the next day's date** use the `next_day` function.
 ```ruby
 date = Date.new(2020, 12, 31)
-date.next_day('%Y/%d/%m') # => 2020/31/12
+date.next_day # => 2020/31/12
 ```
 
 To **find the previous day's date** use the `prev_day` function.
@@ -426,11 +426,11 @@ Time.now.strftime('%H:%M') # => 17:56
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEzMTI1NDI5LDEzODE3MDEzOSwtMjA5Mj
-U2NjU4MywtMTA4NDY0OTQ5OSwtMTYxOTQ4MDQwMCwxNzYwMzUy
-MDA4LDE3MDQyMTEzMjgsMTMwNzExNjEwLC00MTI3ODY0MzAsMz
-UyMjQwOTA4LC0xODExNTQzNTE5LDI0NDI0MzIzMiwtMTEwOTI3
-MjU1MCwtMTc3NzExMTAxNywtNTg5MzE4MTkwLDE0NzMxODI1OD
-MsMTQ4OTIxNjE5MiwtMTk1MzYxNzE2LC0zMzQzNTkzMDgsLTk4
-NzQ2NzYyM119
+eyJoaXN0b3J5IjpbMTg1MjQxMjI3NSwxMzgxNzAxMzksLTIwOT
+I1NjY1ODMsLTEwODQ2NDk0OTksLTE2MTk0ODA0MDAsMTc2MDM1
+MjAwOCwxNzA0MjExMzI4LDEzMDcxMTYxMCwtNDEyNzg2NDMwLD
+M1MjI0MDkwOCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDky
+NzI1NTAsLTE3NzcxMTEwMTcsLTU4OTMxODE5MCwxNDczMTgyNT
+gzLDE0ODkyMTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05
+ODc0Njc2MjNdfQ==
 -->
