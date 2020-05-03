@@ -38,6 +38,8 @@ The `page` variable is the equivalent of `subject` in capybara and points to the
 
 Capybara will raise a confusing `XPath` error that reads `unable to find xpath "/html"` if you try to test a page which is entirely empty. Be wary of this!
 
+### 
+
 ## Helpers
 
 You can **define reusable pieces of code** for your Capybara tests to help keep your test code dry using **helper** methods. These are essentially methods defined in a separate file that can be called in your capybara tests to execute code that is used multiple times. To **create a capybara test helper**:
@@ -111,7 +113,9 @@ click_button('submit')
 ```
 
 ### Randomness
-Like the RSpec, Capybara supports use of the `srand` object.
+
+Like the RSpec, Capybara supports **use of the `srand` object to get consistent random behavior**. Because you can't directly mock outputs in Capybara easily using `srand` can be give you consistent outputs.
+
 ## Matchers
 Most capybara matchers for testing page elements work by using the `name`, `id` or `type` values on an HTML element. You should **avoid using the CSS selectors** to test elements on the page.
 
@@ -131,7 +135,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTIyMzUyMywtNjk1MjA3MDkwLC0xNT
-M2ODQyMTA0LC02NTUwNzAxNCwxMzc5OTM1NzA5LC0xNzg1MDUz
-NTg3LDEwMDMxNjE2OTksLTE0NjAxOTExOTBdfQ==
+eyJoaXN0b3J5IjpbLTE5MDU2OTMyMTAsLTY5NTIwNzA5MCwtMT
+UzNjg0MjEwNCwtNjU1MDcwMTQsMTM3OTkzNTcwOSwtMTc4NTA1
+MzU4NywxMDAzMTYxNjk5LC0xNDYwMTkxMTkwXX0=
 -->
