@@ -3,7 +3,8 @@ title: OOP
 layout: page
 exclude: true
 ---
-###
+### Just the Data
+The fundamental idea behind Object Oriented Programming is the unification of methods and data. When dealing with data in an OO manner it should never be uncoupled from the object which gives it meaning.
 
 ### Data Abstraction
 When creating a class to represent a real world object we can use **data abstraction** to the model that real object more effectively. This means creating classes so that their data is structured in such a way that it *matches* the real world object's structure. 
@@ -377,11 +378,11 @@ puts user.message
 The Pragmatic Programmer describes this way of coding as "Think[ing] declaratively not procedurally." and that it arises naturally if you design classes based on their responsibilities not their function.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE4NTA0Njk1LDIxMDg3MTE3NDMsMTkyND
-I2NTg3NywxNTA3Njg2MTcxLDExODU5MjI0OTUsLTE3NzA1ODQ2
-MDUsMTQ1ODAyNTk2OSwyNTkwMzY1OTIsMzEyMDMyNzQxLC0xMz
-c0NjkzOTI2LDQxNDEyNjU2OSwyMDA3NDU2MTAwLDE5MTMxODQ2
-NzIsLTIxNzQzMDA1MSwtMTIwOTU3NjQzNywxMDI3OTAyNDk3LD
-E0NTgzODg1ODQsLTYyOTAzNzM5NCwyMjQ4NDU1MDcsMjA4NTY5
-Njc3N119
+eyJoaXN0b3J5IjpbMTYyOTkyNTkxNywyMTA4NzExNzQzLDE5Mj
+QyNjU4NzcsMTUwNzY4NjE3MSwxMTg1OTIyNDk1LC0xNzcwNTg0
+NjA1LDE0NTgwMjU5NjksMjU5MDM2NTkyLDMxMjAzMjc0MSwtMT
+M3NDY5MzkyNiw0MTQxMjY1NjksMjAwNzQ1NjEwMCwxOTEzMTg0
+NjcyLC0yMTc0MzAwNTEsLTEyMDk1NzY0MzcsMTAyNzkwMjQ5Ny
+wxNDU4Mzg4NTg0LC02MjkwMzczOTQsMjI0ODQ1NTA3LDIwODU2
+OTY3NzddfQ==
 -->
