@@ -109,6 +109,9 @@ To **select a radio button** use the `choose` action. This clicks a radio button
 choose('male')
 click_button('submit')
 ```
+
+### Randomness
+Like the RSpec, Capybara supports use of the `srand` object.
 ## Matchers
 Most capybara matchers for testing page elements work by using the `name`, `id` or `type` values on an HTML element. You should **avoid using the CSS selectors** to test elements on the page.
 
@@ -128,7 +131,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTE3NDM5OCwtNjk1MjA3MDkwLC0xNT
+eyJoaXN0b3J5IjpbMjEzNTIyMzUyMywtNjk1MjA3MDkwLC0xNT
 M2ODQyMTA0LC02NTUwNzAxNCwxMzc5OTM1NzA5LC0xNzg1MDUz
 NTg3LDEwMDMxNjE2OTksLTE0NjAxOTExOTBdfQ==
 -->
