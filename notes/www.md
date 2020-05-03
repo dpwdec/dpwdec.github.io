@@ -143,6 +143,8 @@ There is a special HTTP [status code `303`](https://en.wikipedia.org/wiki/HTTP_3
 ## DNS
 DNS or **Domain Name Servers** are a way of translating the nice readable URL address of a website that the client wants to visit into a real, unique server IP that can be visited. Some where the website the client is visiting is running on a physical server that needs to be contacted. The DNS allows the client to look up where the server is so that they can send their request there.
 
+
+
 ## HTTPie
 
 HTTpie can be used to make HTTP requests to urls the command line. You can **make a basic HTTP request** using the `http` command. This will return the entire HTTP document for that request including its header meta-data.
@@ -163,11 +165,11 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU5MzAyMjMsMTA5MTg3NDM3MywzMj
-Q0OTA1OCw2Nzc4MzIyOTUsMTY3OTkyODEwNyw4NzUyNzE2ODgs
-LTgxMDk5OTIxNSw1NzQ1ODA3LDE4NzczMDY4ODAsLTY1MDI0Nj
-UwMywtMTYyMjkzODMyNSw4NjExOTY0MjIsMTc1OTI4NjUyOCw3
-NjA5Njg1NTcsLTE0OTA5NjYyOSwyMTE2NjU5NjU3LC02MjgyMD
-Y3NDYsNjQyMDcwMzY1LDE3OTE0ODc4MTAsOTMwNjc2NDQ3XX0=
+eyJoaXN0b3J5IjpbMjEwNDkyMTI2OSwtMTk5NTkzMDIyMywxMD
+kxODc0MzczLDMyNDQ5MDU4LDY3NzgzMjI5NSwxNjc5OTI4MTA3
+LDg3NTI3MTY4OCwtODEwOTk5MjE1LDU3NDU4MDcsMTg3NzMwNj
+g4MCwtNjUwMjQ2NTAzLC0xNjIyOTM4MzI1LDg2MTE5NjQyMiwx
+NzU5Mjg2NTI4LDc2MDk2ODU1NywtMTQ5MDk2NjI5LDIxMTY2NT
+k2NTcsLTYyODIwNjc0Niw2NDIwNzAzNjUsMTc5MTQ4NzgxMF19
 
 -->
