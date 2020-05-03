@@ -359,10 +359,10 @@ end
 Now we can easily create our `RobotMurderDog` without introducing any unnecessary code into the class. We have kept our code try by extracting actions like barking and pooping into their own classes and can **compose** them in any way that we want.
 
 ## Tell, Don't Ask
-
+"Tell, Don't Ask" means telling an object what you want and letting it handle how to accomplish that *as opposed to* querying the state of an object and then calling
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1MzU2NTgxLDE1MDc2ODYxNzEsMTE4NT
+eyJoaXN0b3J5IjpbNjMzMzAwMjQ3LDE1MDc2ODYxNzEsMTE4NT
 kyMjQ5NSwtMTc3MDU4NDYwNSwxNDU4MDI1OTY5LDI1OTAzNjU5
 MiwzMTIwMzI3NDEsLTEzNzQ2OTM5MjYsNDE0MTI2NTY5LDIwMD
 c0NTYxMDAsMTkxMzE4NDY3MiwtMjE3NDMwMDUxLC0xMjA5NTc2
