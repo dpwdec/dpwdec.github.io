@@ -103,6 +103,7 @@ To **select an option from a dropdown** use the `select_option` action. Un-intui
 # finds the sencond option of the drop down menu and selects it
 find_by_id('my dropdown').find(:xpath, 'option[2]').select_option
 ``` 
+To **select a radio button** use the `choose` action
 ## Matchers
 Most capybara matchers for testing page elements work by using the `name`, `id` or `type` values on an HTML element. You should **avoid using the CSS selectors** to test elements on the page.
 
@@ -122,7 +123,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTIwNzA5MCwtMTUzNjg0MjEwNCwtNj
-U1MDcwMTQsMTM3OTkzNTcwOSwtMTc4NTA1MzU4NywxMDAzMTYx
-Njk5LC0xNDYwMTkxMTkwXX0=
+eyJoaXN0b3J5IjpbOTQ0NjU1NzQ2LC02OTUyMDcwOTAsLTE1Mz
+Y4NDIxMDQsLTY1NTA3MDE0LDEzNzk5MzU3MDksLTE3ODUwNTM1
+ODcsMTAwMzE2MTY5OSwtMTQ2MDE5MTE5MF19
 -->
