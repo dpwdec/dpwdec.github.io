@@ -132,7 +132,7 @@ arguent_array = [1, 2, 3]
 my_method(*argument_array)
 ```
 ### Unused arguments
-If you want to indicate that an argument to a function is unused you preface the variable with an `_` underscore. You may need to do this if you are overloading a class method that does nothing in a different impk
+If you want to indicate that an argument to a function is unused you preface the variable with an `_` underscore. You may need to do this if you are overloading a class method that does nothing in a different implementation of your code.
 ```ruby
 def my_function(_unused = 'placeholder')
   true
@@ -357,7 +357,7 @@ You can convert an instance of the `Rational` class to an integer using the `.to
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk2MjgzODQsMTc2MDM1MjAwOCwxNz
+eyJoaXN0b3J5IjpbLTE2MTk0ODA0MDAsMTc2MDM1MjAwOCwxNz
 A0MjExMzI4LDEzMDcxMTYxMCwtNDEyNzg2NDMwLDM1MjI0MDkw
 OCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDkyNzI1NTAsLT
 E3NzcxMTEwMTcsLTU4OTMxODE5MCwxNDczMTgyNTgzLDE0ODky
