@@ -363,14 +363,19 @@ rand(1.0..5.0)
 ```
 
 ## Date
-The `Date` ruby object allows you to work with date information and date calculations. You can 
+The `Date` ruby object allows you to work with date information and date calculations. You can **load the `Date` object** by `require`ing it.
+```ruby
+require 'date'
+Date.today # => returns todays date
+```
+You can **parse a human readable date**
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4OTg2OTkyLC0xMDg0NjQ5NDk5LC0xNj
-E5NDgwNDAwLDE3NjAzNTIwMDgsMTcwNDIxMTMyOCwxMzA3MTE2
-MTAsLTQxMjc4NjQzMCwzNTIyNDA5MDgsLTE4MTE1NDM1MTksMj
-Q0MjQzMjMyLC0xMTA5MjcyNTUwLC0xNzc3MTExMDE3LC01ODkz
-MTgxOTAsMTQ3MzE4MjU4MywxNDg5MjE2MTkyLC0xOTUzNjE3MT
-YsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04NzQ3NzEyNTUsLTE5
-NzIxNzEzNjVdfQ==
+eyJoaXN0b3J5IjpbMTM2NDc0MDQyNCwtMTA4NDY0OTQ5OSwtMT
+YxOTQ4MDQwMCwxNzYwMzUyMDA4LDE3MDQyMTEzMjgsMTMwNzEx
+NjEwLC00MTI3ODY0MzAsMzUyMjQwOTA4LC0xODExNTQzNTE5LD
+I0NDI0MzIzMiwtMTEwOTI3MjU1MCwtMTc3NzExMTAxNywtNTg5
+MzE4MTkwLDE0NzMxODI1ODMsMTQ4OTIxNjE5MiwtMTk1MzYxNz
+E2LC0zMzQzNTkzMDgsLTk4NzQ2NzYyMywtODc0NzcxMjU1LC0x
+OTcyMTcxMzY1XX0=
 -->
