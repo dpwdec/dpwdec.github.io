@@ -357,13 +357,15 @@ class RobotMurderDog
 end
 ```
 Now we can easily create our `RobotMurderDog` without introducing any unnecessary code into the class. We have kept our code try by extracting actions like barking and pooping into their own classes and can **compose** them in any way that we want.
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTkyMjQ5NSwtMTc3MDU4NDYwNSwxND
-U4MDI1OTY5LDI1OTAzNjU5MiwzMTIwMzI3NDEsLTEzNzQ2OTM5
-MjYsNDE0MTI2NTY5LDIwMDc0NTYxMDAsMTkxMzE4NDY3MiwtMj
-E3NDMwMDUxLC0xMjA5NTc2NDM3LDEwMjc5MDI0OTcsMTQ1ODM4
-ODU4NCwtNjI5MDM3Mzk0LDIyNDg0NTUwNywyMDg1Njk2Nzc3LC
-0xMzgzMjc1Mjk0LC0yMDk5ODE1NzIxLC0xMjMyNjUyMTY1LC0z
-MjU4NDY4MzRdfQ==
+eyJoaXN0b3J5IjpbMTUwNzY4NjE3MSwxMTg1OTIyNDk1LC0xNz
+cwNTg0NjA1LDE0NTgwMjU5NjksMjU5MDM2NTkyLDMxMjAzMjc0
+MSwtMTM3NDY5MzkyNiw0MTQxMjY1NjksMjAwNzQ1NjEwMCwxOT
+EzMTg0NjcyLC0yMTc0MzAwNTEsLTEyMDk1NzY0MzcsMTAyNzkw
+MjQ5NywxNDU4Mzg4NTg0LC02MjkwMzczOTQsMjI0ODQ1NTA3LD
+IwODU2OTY3NzcsLTEzODMyNzUyOTQsLTIwOTk4MTU3MjEsLTEy
+MzI2NTIxNjVdfQ==
 -->
