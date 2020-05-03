@@ -257,7 +257,9 @@ The `params` hash only has elements pushed through from the `name` value of an h
 ## CSS
 To **link to CSS stylesheets** within your Sinatra project you should place stylesheets in the `public` directory and then ideally in a `stylesheets` sub-directory. The ultimate path to your stylesheet will then be `public/stylesheets/my_style.css`. To access these sheets simply link to them inside a `link` element placed in the `head` of document.
 ```html
-
+<head>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/my_style.css">
+</head>
 ```
 
 ## Rack
@@ -288,11 +290,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTMyMTM1OCwtMTg4MzkxMjU5MSw4Nz
-kzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLTE3Nzcz
-MjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMi
-wxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3
-NDgyODI3MiwxMTc2NTE1ODg0LC0xNTczOTIyMjgsLTE4NTIxMz
-A1MDAsLTUwMDQ2MzAyMywtMTM0MTA3OTMwOCwxMTk5OTI3NTMw
-LC0xOTgwODIyNDU0XX0=
+eyJoaXN0b3J5IjpbLTE1MzYwNjcwNzUsLTE4ODM5MTI1OTEsOD
+c5MzA1NTE3LC0xMTQ4OTUyMjQ5LC0xODE3NDExMzUxLC0xNzc3
+MzI2NTgyLC0xNzQ5NTYwOCwtNDkxMDM4OTIyLDE0ODg0Mjk1Mj
+IsMTkxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNjgzOTQwNzIsLTE5
+NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMTU3MzkyMjI4LC0xODUyMT
+MwNTAwLC01MDA0NjMwMjMsLTEzNDEwNzkzMDgsMTE5OTkyNzUz
+MCwtMTk4MDgyMjQ1NF19
 -->
