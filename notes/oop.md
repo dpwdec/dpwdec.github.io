@@ -373,13 +373,14 @@ In the above example, this code queries whether the object is an `admin?` and th
 # better
 puts user.message
 ```
+The Pragmatic Programmer describes this way of coding as "Think[ing] declaratively not procedurally."
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNDI2NTg3NywxNTA3Njg2MTcxLDExOD
-U5MjI0OTUsLTE3NzA1ODQ2MDUsMTQ1ODAyNTk2OSwyNTkwMzY1
-OTIsMzEyMDMyNzQxLC0xMzc0NjkzOTI2LDQxNDEyNjU2OSwyMD
-A3NDU2MTAwLDE5MTMxODQ2NzIsLTIxNzQzMDA1MSwtMTIwOTU3
-NjQzNywxMDI3OTAyNDk3LDE0NTgzODg1ODQsLTYyOTAzNzM5NC
-wyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4MzI3NTI5NCwtMjA5
-OTgxNTcyMV19
+eyJoaXN0b3J5IjpbLTEyMjQ2MjEyMjQsMTkyNDI2NTg3NywxNT
+A3Njg2MTcxLDExODU5MjI0OTUsLTE3NzA1ODQ2MDUsMTQ1ODAy
+NTk2OSwyNTkwMzY1OTIsMzEyMDMyNzQxLC0xMzc0NjkzOTI2LD
+QxNDEyNjU2OSwyMDA3NDU2MTAwLDE5MTMxODQ2NzIsLTIxNzQz
+MDA1MSwtMTIwOTU3NjQzNywxMDI3OTAyNDk3LDE0NTgzODg1OD
+QsLTYyOTAzNzM5NCwyMjQ4NDU1MDcsMjA4NTY5Njc3NywtMTM4
+MzI3NTI5NF19
 -->
