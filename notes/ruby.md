@@ -395,11 +395,11 @@ Date::ABBR_MONTHNAMES.index('Feb') # => 2
 To **format date output as a string** use the `strftime` method. This takes a string symbol input and outputs formatted components of the date. For example, to print the year, day and month in that order use the `%Y`, `%m` and `%d` indicators.
 ```ruby
 date = Date.new(2020, 12, 31)
-date.strftime('%Y/%m/%d') # => 2020/
+date.strftime('%Y/%d/%m') # => 2020/31/12
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDk5NTQ3OCwxMzgxNzAxMzksLTIwOT
+eyJoaXN0b3J5IjpbLTE5OTU0MDg4NiwxMzgxNzAxMzksLTIwOT
 I1NjY1ODMsLTEwODQ2NDk0OTksLTE2MTk0ODA0MDAsMTc2MDM1
 MjAwOCwxNzA0MjExMzI4LDEzMDcxMTYxMCwtNDEyNzg2NDMwLD
 M1MjI0MDkwOCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDky
