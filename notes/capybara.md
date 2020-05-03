@@ -41,7 +41,10 @@ Capybara will raise a confusing `XPath` error that reads `unable to find xpath "
 ### Or And
 Capybara **does not support conjunction operators** like `or` or `and` from regular RSpec its `expect` blocks.
 ```ruby
+# both of these are NOT VALID
+expect(page).to have_content('this').and have_content('that')
 
+expect(page).to have_content('this').and have_content('that')
 ```
 
 ## Helpers
@@ -139,7 +142,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMxNzM4NTE5LC02OTUyMDcwOTAsLTE1Mz
-Y4NDIxMDQsLTY1NTA3MDE0LDEzNzk5MzU3MDksLTE3ODUwNTM1
-ODcsMTAwMzE2MTY5OSwtMTQ2MDE5MTE5MF19
+eyJoaXN0b3J5IjpbLTE1NDI5NTk5MDYsLTY5NTIwNzA5MCwtMT
+UzNjg0MjEwNCwtNjU1MDcwMTQsMTM3OTkzNTcwOSwtMTc4NTA1
+MzU4NywxMDAzMTYxNjk5LC0xNDYwMTkxMTkwXX0=
 -->
