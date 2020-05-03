@@ -405,14 +405,19 @@ To **find the previous day's date** use the `prev_day` function.
 These two `prev` and `next` type functions can be chained using loops to add many days to your to create automate calculations on future dates.
 
 ## Time
-The ruby `Time` object 
+The ruby `Time` object returns an object representing a time. You can **create a new `Time`** object for the current moment using the `now` method.
+```ruby
+Time.new # => whatever the time is right now.
+```
+
+**Addition** with the time object is done **using seconds** and `+` plus operator. For e
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODk1MTgyMywxMzgxNzAxMzksLTIwOT
-I1NjY1ODMsLTEwODQ2NDk0OTksLTE2MTk0ODA0MDAsMTc2MDM1
-MjAwOCwxNzA0MjExMzI4LDEzMDcxMTYxMCwtNDEyNzg2NDMwLD
-M1MjI0MDkwOCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDky
-NzI1NTAsLTE3NzcxMTEwMTcsLTU4OTMxODE5MCwxNDczMTgyNT
-gzLDE0ODkyMTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05
-ODc0Njc2MjNdfQ==
+eyJoaXN0b3J5IjpbOTU1ODcyNDIwLDEzODE3MDEzOSwtMjA5Mj
+U2NjU4MywtMTA4NDY0OTQ5OSwtMTYxOTQ4MDQwMCwxNzYwMzUy
+MDA4LDE3MDQyMTEzMjgsMTMwNzExNjEwLC00MTI3ODY0MzAsMz
+UyMjQwOTA4LC0xODExNTQzNTE5LDI0NDI0MzIzMiwtMTEwOTI3
+MjU1MCwtMTc3NzExMTAxNywtNTg5MzE4MTkwLDE0NzMxODI1OD
+MsMTQ4OTIxNjE5MiwtMTk1MzYxNzE2LC0zMzQzNTkzMDgsLTk4
+NzQ2NzYyM119
 -->
