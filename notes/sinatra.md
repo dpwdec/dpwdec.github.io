@@ -226,6 +226,8 @@ The corresponding `.erb` file:
 ## Partials
 Web partials are a way of DRYing up web interface code by extracting repeated interface elements into a single display file that is invoked on pages. An example of this would be something like a nav bar. Our website might have 100 pages all with the same navbar, so to avoid duplication we have one *partial* file containing the navbar code which we render on each page. Partials are also a great way to insert dependency code like CSS.
 
+The primary way to do this in Sinatra is **using the `layout.erb`**
+
 To **[render a partial][part] in Sinatra** use the `erb` method with `:layout` set to false. Place your partial file in the Sinatra `views` directory. I also like to name by partial files beginning with an `_` underscore to indicate they are partial views.
 ```ruby
 <!-- renders the _style.erb file in index.erb -->
@@ -288,6 +290,7 @@ class MyClass
 end
 ```
 This class will now work effectively with `rack` and can interface with any web server that also runs rack to output `'This is my class'` text to a web page or server request.
+
 ## Shotgun
 [Shotgun](https://github.com/rtomayko/shotgun) is another ruby gem that can be used to **automatically restart your Sinatra server** after changes are made. To install simply add the `gem Shotgun` line to your `Gemfile`. You can then run the server using the `shotgun` command instead of the `ruby` command so that it is automatically restarted when changes to the code are made.
 ```
@@ -310,11 +313,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4NDU4OTE1LC0xODIyMjk0NjcwLC0xOD
-gzOTEyNTkxLDg3OTMwNTUxNywtMTE0ODk1MjI0OSwtMTgxNzQx
-MTM1MSwtMTc3NzMyNjU4MiwtMTc0OTU2MDgsLTQ5MTAzODkyMi
-wxNDg4NDI5NTIyLDE5MTk0MDEzNTEsLTIzOTI3MjcwMSwxMjY4
-Mzk0MDcyLC0xOTc0ODI4MjcyLDExNzY1MTU4ODQsLTE1NzM5Mj
-IyOCwtMTg1MjEzMDUwMCwtNTAwNDYzMDIzLC0xMzQxMDc5MzA4
-LDExOTk5Mjc1MzBdfQ==
+eyJoaXN0b3J5IjpbMTE5OTUzMTI5NCwzOTg0NTg5MTUsLTE4Mj
+IyOTQ2NzAsLTE4ODM5MTI1OTEsODc5MzA1NTE3LC0xMTQ4OTUy
+MjQ5LC0xODE3NDExMzUxLC0xNzc3MzI2NTgyLC0xNzQ5NTYwOC
+wtNDkxMDM4OTIyLDE0ODg0Mjk1MjIsMTkxOTQwMTM1MSwtMjM5
+MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3NjUxNT
+g4NCwtMTU3MzkyMjI4LC0xODUyMTMwNTAwLC01MDA0NjMwMjMs
+LTEzNDEwNzkzMDhdfQ==
 -->
