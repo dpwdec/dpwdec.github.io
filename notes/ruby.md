@@ -368,8 +368,10 @@ The `Date` ruby object allows you to work with date information and date calcula
 require 'date'
 Date.today # => returns todays date
 ```
+
 New `Date` objects are **create using the format `Year : Month : Day`**.
 ```ruby
+# create a date object on 22nd October 2001
 Date.new(2001, 10, 22)
 ```
 
@@ -377,9 +379,11 @@ You can **parse a human readable date string into a `Date` object** using the `p
 ```ruby
 Date.parse('3rd Feb 2021')
 ```
+
+You can **subtract dates from each other** using the `-` minus operator to return the difference between them. The difference is returned as `Rational` object.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjUyNTE4NDAsLTEwODQ2NDk0OTksLT
+eyJoaXN0b3J5IjpbLTIwOTI1NjY1ODMsLTEwODQ2NDk0OTksLT
 E2MTk0ODA0MDAsMTc2MDM1MjAwOCwxNzA0MjExMzI4LDEzMDcx
 MTYxMCwtNDEyNzg2NDMwLDM1MjI0MDkwOCwtMTgxMTU0MzUxOS
 wyNDQyNDMyMzIsLTExMDkyNzI1NTAsLTE3NzcxMTEwMTcsLTU4
