@@ -356,15 +356,19 @@ end
 You can convert an instance of the `Rational` class to an integer using the `.to_i` function.
 
 ## Random
-You can generate a random floating point number outside of the `0-1` range by submitting the generation delimet
+You can generate a random floating point number outside of the `0-1` range by submitting the generation range using floats.
+```ruby
+# returns a floating point number between 1 and 5
+rand(1.0..5.0)
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NTg5ODMxMiwtMTYxOTQ4MDQwMCwxNz
-YwMzUyMDA4LDE3MDQyMTEzMjgsMTMwNzExNjEwLC00MTI3ODY0
-MzAsMzUyMjQwOTA4LC0xODExNTQzNTE5LDI0NDI0MzIzMiwtMT
-EwOTI3MjU1MCwtMTc3NzExMTAxNywtNTg5MzE4MTkwLDE0NzMx
-ODI1ODMsMTQ4OTIxNjE5MiwtMTk1MzYxNzE2LC0zMzQzNTkzMD
-gsLTk4NzQ2NzYyMywtODc0NzcxMjU1LC0xOTcyMTcxMzY1LDEw
-NDYxNjQ0Nl19
+eyJoaXN0b3J5IjpbLTEwODQ2NDk0OTksLTE2MTk0ODA0MDAsMT
+c2MDM1MjAwOCwxNzA0MjExMzI4LDEzMDcxMTYxMCwtNDEyNzg2
+NDMwLDM1MjI0MDkwOCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLT
+ExMDkyNzI1NTAsLTE3NzcxMTEwMTcsLTU4OTMxODE5MCwxNDcz
+MTgyNTgzLDE0ODkyMTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5Mz
+A4LC05ODc0Njc2MjMsLTg3NDc3MTI1NSwtMTk3MjE3MTM2NSwx
+MDQ2MTY0NDZdfQ==
 -->
