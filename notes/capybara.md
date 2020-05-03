@@ -44,7 +44,7 @@ Capybara **does not support conjunction operators** like `or` or `and` from regu
 # both of these are NOT VALID
 expect(page).to have_content('this').and have_content('that')
 
-expect(page).to have_content('this').and have_content('that')
+expect(page).to have_content('this').or have_content('that')
 ```
 
 ## Helpers
@@ -142,7 +142,7 @@ expect(page).to have_current_path('/about')
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDI5NTk5MDYsLTY5NTIwNzA5MCwtMT
-UzNjg0MjEwNCwtNjU1MDcwMTQsMTM3OTkzNTcwOSwtMTc4NTA1
-MzU4NywxMDAzMTYxNjk5LC0xNDYwMTkxMTkwXX0=
+eyJoaXN0b3J5IjpbLTQ3MDI1OTU4MCwtNjk1MjA3MDkwLC0xNT
+M2ODQyMTA0LC02NTUwNzAxNCwxMzc5OTM1NzA5LC0xNzg1MDUz
+NTg3LDEwMDMxNjE2OTksLTE0NjAxOTExOTBdfQ==
 -->
