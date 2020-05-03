@@ -397,13 +397,15 @@ To **format date output as a string** use the `strftime` method. This takes a st
 date = Date.new(2020, 12, 31)
 date.strftime('%Y/%d/%m') # => 2020/31/12
 ```
+
+To **find the next da**
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU0MDg4NiwxMzgxNzAxMzksLTIwOT
-I1NjY1ODMsLTEwODQ2NDk0OTksLTE2MTk0ODA0MDAsMTc2MDM1
-MjAwOCwxNzA0MjExMzI4LDEzMDcxMTYxMCwtNDEyNzg2NDMwLD
-M1MjI0MDkwOCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDky
-NzI1NTAsLTE3NzcxMTEwMTcsLTU4OTMxODE5MCwxNDczMTgyNT
-gzLDE0ODkyMTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05
-ODc0Njc2MjNdfQ==
+eyJoaXN0b3J5IjpbLTEyNDU0NzkzNDcsMTM4MTcwMTM5LC0yMD
+kyNTY2NTgzLC0xMDg0NjQ5NDk5LC0xNjE5NDgwNDAwLDE3NjAz
+NTIwMDgsMTcwNDIxMTMyOCwxMzA3MTE2MTAsLTQxMjc4NjQzMC
+wzNTIyNDA5MDgsLTE4MTE1NDM1MTksMjQ0MjQzMjMyLC0xMTA5
+MjcyNTUwLC0xNzc3MTExMDE3LC01ODkzMTgxOTAsMTQ3MzE4Mj
+U4MywxNDg5MjE2MTkyLC0xOTUzNjE3MTYsLTMzNDM1OTMwOCwt
+OTg3NDY3NjIzXX0=
 -->
