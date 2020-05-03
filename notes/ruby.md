@@ -387,13 +387,14 @@ new_years_eve = Date.new(2020, 12, 31)
 new_years_eve - new_year # => 356/1
 ```
 
+You can **convert month abbreviations to month numeric codes** i.e. `Jun => 6` or `Sep => 9` by using the `ABBR_MONTHNAMES` constant in the `Date` class with the index method. This hash contains a `nil` object at the 0th index meaning the the first three letters of the month names submitted to i
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODU2NzEwNTcsLTIwOTI1NjY1ODMsLT
-EwODQ2NDk0OTksLTE2MTk0ODA0MDAsMTc2MDM1MjAwOCwxNzA0
-MjExMzI4LDEzMDcxMTYxMCwtNDEyNzg2NDMwLDM1MjI0MDkwOC
-wtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDkyNzI1NTAsLTE3
-NzcxMTEwMTcsLTU4OTMxODE5MCwxNDczMTgyNTgzLDE0ODkyMT
-YxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05ODc0Njc2MjMs
-LTg3NDc3MTI1NV19
+eyJoaXN0b3J5IjpbNTUyNjg0MTkwLC0yMDkyNTY2NTgzLC0xMD
+g0NjQ5NDk5LC0xNjE5NDgwNDAwLDE3NjAzNTIwMDgsMTcwNDIx
+MTMyOCwxMzA3MTE2MTAsLTQxMjc4NjQzMCwzNTIyNDA5MDgsLT
+E4MTE1NDM1MTksMjQ0MjQzMjMyLC0xMTA5MjcyNTUwLC0xNzc3
+MTExMDE3LC01ODkzMTgxOTAsMTQ3MzE4MjU4MywxNDg5MjE2MT
+kyLC0xOTUzNjE3MTYsLTMzNDM1OTMwOCwtOTg3NDY3NjIzLC04
+NzQ3NzEyNTVdfQ==
 -->
