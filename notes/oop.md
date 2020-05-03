@@ -3,6 +3,7 @@ title: OOP
 layout: page
 exclude: true
 ---
+###
 
 ### Data Abstraction
 When creating a class to represent a real world object we can use **data abstraction** to the model that real object more effectively. This means creating classes so that their data is structured in such a way that it *matches* the real world object's structure. 
@@ -358,7 +359,7 @@ end
 ```
 Now we can easily create our `RobotMurderDog` without introducing any unnecessary code into the class. We have kept our code try by extracting actions like barking and pooping into their own classes and can **compose** them in any way that we want.
 
-## Tell, Don't Ask
+### Tell, Don't Ask
 "Tell, Don't Ask" means telling an object what you want and letting it handle how to accomplish that *as opposed to* querying the state of an object and then calling methods based on the results of that test.
 ```ruby
 # Not so good
@@ -376,11 +377,11 @@ puts user.message
 The Pragmatic Programmer describes this way of coding as "Think[ing] declaratively not procedurally." and that it arises naturally if you design classes based on their responsibilities not their function.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODcxMTc0MywxOTI0MjY1ODc3LDE1MD
-c2ODYxNzEsMTE4NTkyMjQ5NSwtMTc3MDU4NDYwNSwxNDU4MDI1
-OTY5LDI1OTAzNjU5MiwzMTIwMzI3NDEsLTEzNzQ2OTM5MjYsND
-E0MTI2NTY5LDIwMDc0NTYxMDAsMTkxMzE4NDY3MiwtMjE3NDMw
-MDUxLC0xMjA5NTc2NDM3LDEwMjc5MDI0OTcsMTQ1ODM4ODU4NC
-wtNjI5MDM3Mzk0LDIyNDg0NTUwNywyMDg1Njk2Nzc3LC0xMzgz
-Mjc1Mjk0XX0=
+eyJoaXN0b3J5IjpbNzE4NTA0Njk1LDIxMDg3MTE3NDMsMTkyND
+I2NTg3NywxNTA3Njg2MTcxLDExODU5MjI0OTUsLTE3NzA1ODQ2
+MDUsMTQ1ODAyNTk2OSwyNTkwMzY1OTIsMzEyMDMyNzQxLC0xMz
+c0NjkzOTI2LDQxNDEyNjU2OSwyMDA3NDU2MTAwLDE5MTMxODQ2
+NzIsLTIxNzQzMDA1MSwtMTIwOTU3NjQzNywxMDI3OTAyNDk3LD
+E0NTgzODg1ODQsLTYyOTAzNzM5NCwyMjQ4NDU1MDcsMjA4NTY5
+Njc3N119
 -->
