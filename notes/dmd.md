@@ -33,14 +33,14 @@ the model CAN BE CONSIDERED AS ITS OWN APP
 4xx are for user errors
 
 you can have multiple servers running on a single machine
-d
+databases are visually referenced by a cylinder
 
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzc1MjE3LC0yMDg1MDUxOTcxLC0yMD
-M1ODc5NDA2LC0xMTMyODQ2MTM3LDE4MDE1NzU3OTgsMTkxNjc5
-MTcyNSwtMTA5NDcyMzk1MSwtMTMzMzQ4NDAxOV19
+eyJoaXN0b3J5IjpbLTY0OTYyMDAzMywtMjA4NTA1MTk3MSwtMj
+AzNTg3OTQwNiwtMTEzMjg0NjEzNywxODAxNTc1Nzk4LDE5MTY3
+OTE3MjUsLTEwOTQ3MjM5NTEsLTEzMzM0ODQwMTldfQ==
 -->
