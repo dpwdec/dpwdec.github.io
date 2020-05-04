@@ -23,9 +23,11 @@ Postgres also comes with a default built in database called `postgres` which all
 $ psql postgres
 postgres=#
 ```
+You can **display a list of all databases** using the `\l`
 
+## Commands
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjg4NDk5N119
+eyJoaXN0b3J5IjpbLTE0MDc1NDU5NDhdfQ==
 -->
