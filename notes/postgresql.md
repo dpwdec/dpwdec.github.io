@@ -34,6 +34,7 @@ $ \q
 ```
 
 To **create a new database** use the `CREATE DATABASE` command. It is optional whether you contain your database name inside `"` double quote marks.
+
 ```
 $ CREATE DATABASE "name_of_database";
 ```
@@ -43,14 +44,14 @@ You can **connect to a database** using the `\c` command.
 $ \c database_name
 ```
 
-To **create a new database** use the `CREATE DATABASE` command. It is optional whether you contain your database name inside `"` double quote marks.
+You can **display a list of tables in your database** using `\dt`
 ```
-$ CREATE DATABASE "name_of_database";
+$ \dt
 ```
 
-## Commands
+## Table Commands
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODk1MDE1NiwxNzY3MDM0NDA1LC0zMD
+eyJoaXN0b3J5IjpbMTYzNzcwMzExMiwxNzY3MDM0NDA1LC0zMD
 c3ODcyMzYsNjY4ODYwNjgxXX0=
 -->
