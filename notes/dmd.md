@@ -28,14 +28,14 @@ There are 13 types of UML diagrams
 
 why was I not able to use a CONSTANT for class methods inside my sinatra object?
 
-the model
+the model CAN BE CONSIDERED AS ITS OWN APP
 
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzk0MDExMTcsLTExMzI4NDYxMzcsMT
-gwMTU3NTc5OCwxOTE2NzkxNzI1LC0xMDk0NzIzOTUxLC0xMzMz
-NDg0MDE5XX0=
+eyJoaXN0b3J5IjpbLTQzNDEwMDM4MywtMTEzMjg0NjEzNywxOD
+AxNTc1Nzk4LDE5MTY3OTE3MjUsLTEwOTQ3MjM5NTEsLTEzMzM0
+ODQwMTldfQ==
 -->
