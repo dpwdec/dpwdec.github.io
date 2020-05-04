@@ -28,10 +28,18 @@ You can **display a list of all databases** using the `\l` command. This prints 
 $ \l
 ```
 
+To **exit `psql`** use the `\q` command.
+```
+$ \q
+```
+
 ## Commands
 
 To **create a new database** use the `CREATE DATABASE` command.
+```
+CREATE DATABASE "Name_of_database";
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU2NzQzODBdfQ==
+eyJoaXN0b3J5IjpbNjY4ODYwNjgxXX0=
 -->
