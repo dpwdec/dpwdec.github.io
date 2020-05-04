@@ -38,14 +38,14 @@ You can **connect to a database** using the `\c` command.
 $ \c database_name
 ```
 
-## Commands
-
 To **create a new database** use the `CREATE DATABASE` command. It is optional whether you contain your database name inside `"` double quote marks.
 ```
 $ CREATE DATABASE "name_of_database";
 ```
+
+## Commands
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMzAzNzczNywxNzY3MDM0NDA1LC0zMD
-c3ODcyMzYsNjY4ODYwNjgxXX0=
+eyJoaXN0b3J5IjpbNjg4NjM5MTk5LDE3NjcwMzQ0MDUsLTMwNz
+c4NzIzNiw2Njg4NjA2ODFdfQ==
 -->
