@@ -10,7 +10,7 @@ Relational databases' physical storage - the name of the database, how users con
 
 | Physical storage | Logical storage |
 | ---  | --- 
-| How
+| the name of the databases | tabl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzcyNTI5OV19
+eyJoaXN0b3J5IjpbLTIxMjgzMzk1NTZdfQ==
 -->
