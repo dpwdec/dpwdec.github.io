@@ -12,8 +12,9 @@ You can use brew to automatically run the postgres application in the background
 ```
 brew services start postgresql
 ```
-
+## PSQL
+The `psql` is a command line interface that allows use to interact with your database by writing SQL. It is similar to the `irb` in Ruby. To start `psql` type th
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NTc0NjEzXX0=
+eyJoaXN0b3J5IjpbNzIwNzYwNzAyXX0=
 -->
