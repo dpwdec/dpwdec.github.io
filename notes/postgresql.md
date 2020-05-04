@@ -33,6 +33,8 @@ To **exit `psql`** use the `\q` command.
 $ \q
 ```
 
+You can **connect to a **
+
 ## Commands
 
 To **create a new database** use the `CREATE DATABASE` command. It is optional whether you contain your database name inside `"` double quote marks.
@@ -41,5 +43,6 @@ CREATE DATABASE "name_of_database";
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzc4NzIzNiw2Njg4NjA2ODFdfQ==
+eyJoaXN0b3J5IjpbMTk2MjM2MDU3OSwtMzA3Nzg3MjM2LDY2OD
+g2MDY4MV19
 -->
