@@ -57,9 +57,13 @@ $ \d+ <table name>
 ## Table Commands
 
 ### Insertion
-To **insert a value into a table**
+To **insert a value into a table** use the `INSERT INTO` command.
+
+## Quote Mark Rules
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1NTUxMTYzLDMxMTc2NTQ1OCwxNzY3MD
-M0NDA1LC0zMDc3ODcyMzYsNjY4ODYwNjgxXX0=
+eyJoaXN0b3J5IjpbLTQwMDA4MTcyMywzMTE3NjU0NTgsMTc2Nz
+AzNDQwNSwtMzA3Nzg3MjM2LDY2ODg2MDY4MV19
 -->
