@@ -8,7 +8,9 @@ A relational database is a type of database that stores data so that it can be a
 
 Relational databases' physical storage - the name of the database, how users connect to it - and the logical storage - 
 
-
+| Physical storage | Logical storage |
+| ---  | --- 
+| How
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDI3Mzk5NTFdfQ==
+eyJoaXN0b3J5IjpbMTkyNzcyNTI5OV19
 -->
