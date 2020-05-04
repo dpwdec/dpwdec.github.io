@@ -57,8 +57,11 @@ $ \d+ <table name>
 ## Table Commands
 
 ### Insertion
-To **insert a value into a table** use the `INSERT INTO` command combined with the `VALUES` command. There are two ways to accomplish this insertion. The first uses **implicit column order** to insert values.
+To **insert a value into a table** use the `INSERT INTO` command combined with the `VALUES` command. There are two ways to accomplish this insertion. The first uses **implicit column order** to insert values. In the example below the arguments in `VALUES` will be inserted into `my_table` with the first argument going into column 1 of the table and s
+
 ```sql
+INSERT INTO my_table
+VALUES (4, 'some value');
 ```
 
 ## Case Sensitivity
@@ -76,6 +79,6 @@ $ SELECT * FROM my_table
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTc4NTM4OSwzMTE3NjU0NTgsMTc2Nz
-AzNDQwNSwtMzA3Nzg3MjM2LDY2ODg2MDY4MV19
+eyJoaXN0b3J5IjpbLTE4NDg5ODc4NzIsMzExNzY1NDU4LDE3Nj
+cwMzQ0MDUsLTMwNzc4NzIzNiw2Njg4NjA2ODFdfQ==
 -->
