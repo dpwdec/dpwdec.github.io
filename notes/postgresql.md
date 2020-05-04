@@ -35,11 +35,11 @@ $ \q
 
 ## Commands
 
-To **create a new database** use the `CREATE DATABASE` command.
+To **create a new database** use the `CREATE DATABASE` command. It is optional whether you contain your database name inside `"`
 ```
-CREATE DATABASE "Name_of_database";
+CREATE DATABASE "name_of_database";
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4ODYwNjgxXX0=
+eyJoaXN0b3J5IjpbMTMxMzQ2MzEwNSw2Njg4NjA2ODFdfQ==
 -->
