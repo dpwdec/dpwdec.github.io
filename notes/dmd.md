@@ -30,12 +30,14 @@ why was I not able to use a CONSTANT for class methods inside my sinatra object?
 
 the model CAN BE CONSIDERED AS ITS OWN APP
 
+4
+
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDEwMDM4MywtMTEzMjg0NjEzNywxOD
-AxNTc1Nzk4LDE5MTY3OTE3MjUsLTEwOTQ3MjM5NTEsLTEzMzM0
-ODQwMTldfQ==
+eyJoaXN0b3J5IjpbMjAzODg3MzExLC0xMTMyODQ2MTM3LDE4MD
+E1NzU3OTgsMTkxNjc5MTcyNSwtMTA5NDcyMzk1MSwtMTMzMzQ4
+NDAxOV19
 -->
