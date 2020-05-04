@@ -23,7 +23,9 @@ Postgres also comes with a default built in database called `postgres` which all
 $ psql postgres
 postgres=#
 ```
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDUxNTU1M119
+eyJoaXN0b3J5IjpbLTcyNjg4NDk5N119
 -->
