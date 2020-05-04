@@ -49,7 +49,7 @@ You can **display a list of tables in your database** using `\dt`
 $ \dt
 ```
 
-To **display a list of columns from your table** use the `\d+` command
+To **display a list of columns from your table** use the `\d+` command followed by the name of the table who's columns you want to show.
 ```
 $ \d+ <table name>
 ```
@@ -57,6 +57,6 @@ $ \d+ <table name>
 ## Table Commands
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTE3ODM5MSwxNzY3MDM0NDA1LC0zMD
-c3ODcyMzYsNjY4ODYwNjgxXX0=
+eyJoaXN0b3J5IjpbMzExNzY1NDU4LDE3NjcwMzQ0MDUsLTMwNz
+c4NzIzNiw2Njg4NjA2ODFdfQ==
 -->
