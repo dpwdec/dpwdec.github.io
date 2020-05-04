@@ -61,13 +61,19 @@ To **insert a value into a table** use the `INSERT INTO` command.
 
 ## Case Sensitivity
 
-Most **SQL commands and case insensitive**. This means you can  
+Most **SQL commands and case insensitive**. This means you *can* write your SQL queries using lowercase, however, its recommended to avoid this as it makes your queries much less readable and creates difficulties when you do have to deal with the case sensitivity of table names and values.
+
+```
+
+$ select * from my_table
+$ SELECT * FROM my_table
+``` 
 
 ## Quote Mark Rules
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTU4OTY4MjYsMzExNzY1NDU4LDE3Nj
-cwMzQ0MDUsLTMwNzc4NzIzNiw2Njg4NjA2ODFdfQ==
+eyJoaXN0b3J5IjpbLTI3Mzk0OTE1OSwzMTE3NjU0NTgsMTc2Nz
+AzNDQwNSwtMzA3Nzg3MjM2LDY2ODg2MDY4MV19
 -->
