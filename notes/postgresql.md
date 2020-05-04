@@ -23,11 +23,15 @@ Postgres also comes with a default built in database called `postgres` which all
 $ psql postgres
 postgres=#
 ```
-You can **display a list of all databases** using the `\l`
+You can **display a list of all databases** using the `\l` command. This prints a table displaying `Owner`s, `Access Privileges` among other database information.
+```
+$ \l
+```
 
 ## Commands
 
+To **create a new database** use the `CREATE DATABASE` command.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDc1NDU5NDhdfQ==
+eyJoaXN0b3J5IjpbLTEyMzU2NzQzODBdfQ==
 -->
