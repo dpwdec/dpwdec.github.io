@@ -56,9 +56,10 @@ $ \d+ <table name>
 
 ## Table Commands
 
-
+### Insertion
+To **insert a value into a table**
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDA0NTU3NjIsMzExNzY1NDU4LDE3Nj
-cwMzQ0MDUsLTMwNzc4NzIzNiw2Njg4NjA2ODFdfQ==
+eyJoaXN0b3J5IjpbNTQ1NTUxMTYzLDMxMTc2NTQ1OCwxNzY3MD
+M0NDA1LC0zMDc3ODcyMzYsNjY4ODYwNjgxXX0=
 -->
