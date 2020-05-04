@@ -76,10 +76,10 @@ $ SELECT * FROM my_table
 
 ## Quote Mark Rules
 
-You should **submit `varchar` string type values inside single `'` quote marks**. For example, when using an `INS
+You should **submit `varchar` string type values inside single `'` quote marks**. For example, when using an `INSERT` query
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzgwODQ4OCwzMTE3NjU0NTgsMTc2Nz
+eyJoaXN0b3J5IjpbLTk1ODg3ODE4NSwzMTE3NjU0NTgsMTc2Nz
 AzNDQwNSwtMzA3Nzg3MjM2LDY2ODg2MDY4MV19
 -->
