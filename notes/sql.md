@@ -163,12 +163,14 @@ You can **combine column and record selection**. Below example shows he ages of 
 SELECT age FROM users WHERE name = 'James'
 ```
 
-You can **combine `WHERE` with other logical operators** like `>` greater than and `<` less than. Below, the query selects all records with an `age` field greater than 20.
+Here some **other examples of comparison operators** with `WHERE`:
 ```sql
-SELECT name FROM users WHERE age > 20
+SELECT name FROM users WHERE age > 20;
+SELECT name FROM users WHERE age <= 20;
+SELECT name FROM users WHERE age != 20
 ```
 
-You can **perform date based comparison operations** using `>` for dates  by submitting dates as strings in the form `%Y-%M-%D`. So if we wanted to match 
+You can **perform date based comparison operations** using `>` for dates after the argument and `<` for dates before the argument and by submitting dates as strings in the form `%Y-%M-%D`. So if we wanted to match with all records with a `birth_date` after 1990 we would use the `>` 
 
 You can **match a several distinct of possibilities** with the `WHERE` command by combining it with `IN` command which checks if a records value matches a list of possibilities. In the below example, if the value of `name` is `IN` the list submitted in the parentheses then the `age` field of that record will be displayed. 
 ```sql
@@ -235,8 +237,8 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4MzEyNjQ1LDEzNTg1ODgyOTIsMjExMD
-E0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5
-LC0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4MzQwLC02Mz
-gzNzI1MTUsLTE5MjAyMDgwXX0=
+eyJoaXN0b3J5IjpbLTE0NDg4MjM1MywxMzU4NTg4MjkyLDIxMT
+AxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3
+OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNj
+M4MzcyNTE1LC0xOTIwMjA4MF19
 -->
