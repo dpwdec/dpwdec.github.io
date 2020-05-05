@@ -37,13 +37,20 @@ databases are visually referenced by a cylinder
 
 
 NOT changes OR to AND and logical comparators to their inverse i.e. `>` becomes `<=`
+
+INSERT INTO table_name (column_list)
+VALUES
+    (value_list_1),
+    (value_list_2),
+    ...
+    (value_list_n);
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxODM4MDA1LC02NDk2MjAwMzMsLTIwOD
-UwNTE5NzEsLTIwMzU4Nzk0MDYsLTExMzI4NDYxMzcsMTgwMTU3
-NTc5OCwxOTE2NzkxNzI1LC0xMDk0NzIzOTUxLC0xMzMzNDg0MD
-E5XX0=
+eyJoaXN0b3J5IjpbLTE2NDQ4NDc2OTAsLTY0OTYyMDAzMywtMj
+A4NTA1MTk3MSwtMjAzNTg3OTQwNiwtMTEzMjg0NjEzNywxODAx
+NTc1Nzk4LDE5MTY3OTE3MjUsLTEwOTQ3MjM5NTEsLTEzMzM0OD
+QwMTldfQ==
 -->
