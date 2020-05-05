@@ -110,6 +110,11 @@ The **order in which you submit column queries changes the output order**. If yo
 SELECT age, name FROM users
 ```
 
+Although its not very useful immediately, you can **duplicate column output**.
+```sql
+SELECT name, name, FROM users
+```
+
 To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In the below example this query will display every column for each record the `name` value of which is "James".
 ```sql
 SELECT * FROM users WHERE name = 'James'
@@ -140,7 +145,7 @@ You can **match a range of numeric values** by using the `BETWEEN` command for a
 SELECT name FROM users WHERE age BETWEEN 25 AND 34
 ```
 
-You can **execute numeric operations on output data** by including calculations as part of the `SELECT` query. For example, if you were getting the areas of some countries that where thousands of kilometers square, you could rational those numbers by dividing them by `1000` within your query. This will then return the areas divided by that number.
+You can **execute numeric operations on output data** by including calculations as part of the `SELECT` query. You can use the `+`, `-`, `/`, `*` and `%` operators inside of the `SELECT` query. For example, if you were getting the areas of some countries that where thousands of kilometers square, you could rational those numbers by dividing them by `1000` within your query. This will then return the areas divided by that number.
 ```sql
 SELECT area/1000 FROM countries 
 ```
@@ -171,7 +176,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMj
-k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
-NTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbLTE2ODkzNjY4OTAsLTUwOTk1MTgyMSwtMT
+Y4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3
+ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
 -->
