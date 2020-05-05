@@ -75,13 +75,14 @@ To **select ALL columns and records from a table** use the `*` argument with `SE
 SELECT * FROM my_table
 ```
 
-To **select a specific column** from a table specify that column after the `SELECT` command.
+To **select a specific column** from a table specify that column after the `SELECT` command. In the below example this query will display the `name` column field of each record in `my_table`.
 ```sql
+SELECT name FROM my_table
 ``` 
 
-To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value.
+To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In
 ```sql
-SELECT 
+SELECT * WHERE name = 'James'
 ```
 
 ## Case Sensitivity
@@ -100,6 +101,6 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODQ4ODk4MCwtNjM4MzcyNTE1LC0xOT
-IwMjA4MF19
+eyJoaXN0b3J5IjpbODAzMDMwNTgwLC02MzgzNzI1MTUsLTE5Mj
+AyMDgwXX0=
 -->
