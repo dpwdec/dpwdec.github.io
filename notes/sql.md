@@ -86,7 +86,7 @@ FROM users
 
 ## Creation
 
-
+You can **create a new table** using the `CREATE TABLE` command followed by the table name and set of parentheses representing the 
 
 ## Insertion
 
@@ -294,9 +294,9 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3NDk4NjgzLDE0NTIzMDk2ODcsLTIwND
-k0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5
-Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMj
-k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
-NTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbLTE3ODk4NjYxOTEsMjM3NDk4NjgzLDE0NT
+IzMDk2ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4
+MjkyLDIxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMT
+Y4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3
+ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
 -->
