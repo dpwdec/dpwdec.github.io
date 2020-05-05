@@ -174,6 +174,11 @@ Numeric operations in SQL also **support `()` parentheses** for controlling expr
 SELECT (area + 10) * 1000 FROM countries
 ```
 
+It's useful to use `AS` to rename numeric queries based on what the calculation actually represents.
+```sql
+SELECT gdp/population AS per capita gdp FROM countries
+```
+
 You can also **execute numeric operations using table data**. For example, instead of dividing area by a fixed number of `1000` we could divide by the `population` field of each record to see how much space each person in the country gets.
 ```sql
 SELECT area/population FROM countries
@@ -200,7 +205,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMzc4OTY4Myw2NTcwNzk3MzYsLTUwOT
-k1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0
-MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbMjk5ODA0NjkxLDY1NzA3OTczNiwtNTA5OT
+UxODIxLC0xNjg0MTU2Nzc5LC0yOTc5Mjc3NjYsMTQ4NDkxODQy
+NCwxNzE5MTc4MzQwLC02MzgzNzI1MTUsLTE5MjAyMDgwXX0=
 -->
