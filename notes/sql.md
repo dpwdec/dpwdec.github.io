@@ -97,7 +97,7 @@ VALUES (4, 'some value')
 
 The main statements for SQL retrieval queries are `SELECT`, `FROM`, `WHERE` and `SORT BY` in that order. Using these clauses out of order will results in a `syntax error`.
 
-### Select
+### Selecting with `SELECT`
 
 You can use the `SELECT` command to **specify a column of data to retrieve** from a table and the `FROM` command to **specify which table you want to retrieve data from**. This can be combined with the `WHERE` command which is used **specify a value in a column to match** as a way to find a record.
 
@@ -126,7 +126,9 @@ Although its not very useful immediately, you can **duplicate column output**. T
 SELECT name, name, FROM users
 ```
 
-### Al
+You can **only display unique column values** by using the `DISTINCT` keyword. 
+
+### Aliases with `AS`
 
 You can **output a column with specified name** using the `AS` keyword. The example below will output the data from the `name` column of the `users` table but with the column name `alias` instead of `name`.
 ```sql
@@ -138,7 +140,7 @@ SELECT name AS alias FROM users
 SELECT name AS 'my alias' FROM users
 ```
 
-### Matching
+### Matching with `WHERE`
 
 To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In the below example this query will display every column for each record the `name` value of which is "James".
 ```sql
@@ -175,6 +177,8 @@ You can **execute numeric operations on output data** by including calculations 
 SELECT area/1000 FROM countries 
 ```
 
+### Numeric Operations
+
 You can **chain numeric operations** in a long form clause.
 ```sql
 SELECT area * 1000 + 10 FROM countries
@@ -194,6 +198,8 @@ It's useful to use `AS` to rename numeric queries based on what the calculation 
 ```sql
 SELECT gdp/population AS 'per capita gdp' FROM countries
 ```
+
+### Sorting
 
 You can **sort data output** using the `ORDER BY` command followed by a column field. This will then sort the data output based on that field. Below, the query selects `name` and `age` from and then orders it by the name field.
 ```sql
@@ -216,8 +222,8 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTI5NDU4NiwyMTEwMTQ4OTYsNjU3MD
-c5NzM2LC01MDk5NTE4MjEsLTE2ODQxNTY3NzksLTI5NzkyNzc2
-NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNSwtMT
-kyMDIwODBdfQ==
+eyJoaXN0b3J5IjpbNTYxMzgxNTEyLDIxMTAxNDg5Niw2NTcwNz
+k3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2
+LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOT
+IwMjA4MF19
 -->
