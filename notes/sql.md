@@ -129,6 +129,11 @@ You can **output a column with specified name** using the `AS` keyword. The exam
 SELECT name AS alias FROM users
 ```
 
+**Multiple word `AS` commands must be contained in `'` quote marks**:
+```sql
+SELECT name AS 'my alias' FROM users
+```
+
 To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In the below example this query will display every column for each record the `name` value of which is "James".
 ```sql
 SELECT * FROM users WHERE name = 'James'
@@ -176,7 +181,7 @@ SELECT (area + 10) * 1000 FROM countries
 
 It's useful to use `AS` to rename numeric queries based on what the calculation actually represents.
 ```sql
-SELECT gdp/population AS per capita gdp FROM countries
+SELECT gdp/population AS 'per capita gdp' FROM countries
 ```
 
 You can also **execute numeric operations using table data**. For example, instead of dividing area by a fixed number of `1000` we could divide by the `population` field of each record to see how much space each person in the country gets.
@@ -205,7 +210,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5ODA0NjkxLDY1NzA3OTczNiwtNTA5OT
-UxODIxLC0xNjg0MTU2Nzc5LC0yOTc5Mjc3NjYsMTQ4NDkxODQy
-NCwxNzE5MTc4MzQwLC02MzgzNzI1MTUsLTE5MjAyMDgwXX0=
+eyJoaXN0b3J5IjpbMTUzNjY5OTAyNyw2NTcwNzk3MzYsLTUwOT
+k1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0
+MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
 -->
