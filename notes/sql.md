@@ -125,7 +125,7 @@ You can also **execute numeric operations using table data**. For example, inste
 SELECT area/population FROM countries
 ```
 
-
+You can 
 
 ## Case Sensitivity
 
@@ -143,7 +143,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDU4MzU1OCwtMjk3OTI3NzY2LDE0OD
-Q5MTg0MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4
-MF19
+eyJoaXN0b3J5IjpbLTE2ODQxNTY3NzksLTI5NzkyNzc2NiwxND
+g0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIw
+ODBdfQ==
 -->
