@@ -302,11 +302,13 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 ## Documentation
 
+You can document your database changes by placing initialisations SQL code within a `migrations` directory inside a `db` folder with the `.sql` extension.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjQ1NDcyNywyMzc0OTg2ODMsMTQ1Mj
-MwOTY4NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgy
-OTIsMjExMDE0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNj
-g0MTU2Nzc5LC0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4
-MzQwLC02MzgzNzI1MTUsLTE5MjAyMDgwXX0=
+eyJoaXN0b3J5IjpbNTI1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMz
+A5Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5
+MiwyMTEwMTQ4OTYsNjU3MDc5NzM2LC01MDk5NTE4MjEsLTE2OD
+QxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgz
+NDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ==
 -->
