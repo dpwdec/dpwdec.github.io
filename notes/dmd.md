@@ -35,12 +35,15 @@ the model CAN BE CONSIDERED AS ITS OWN APP
 you can have multiple servers running on a single machine
 databases are visually referenced by a cylinder
 
+
+NOT changes OR to AND and logical comparators to their inverse i.e. `>` becomes `<=`
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTYyMDAzMywtMjA4NTA1MTk3MSwtMj
-AzNTg3OTQwNiwtMTEzMjg0NjEzNywxODAxNTc1Nzk4LDE5MTY3
-OTE3MjUsLTEwOTQ3MjM5NTEsLTEzMzM0ODQwMTldfQ==
+eyJoaXN0b3J5IjpbODYxODM4MDA1LC02NDk2MjAwMzMsLTIwOD
+UwNTE5NzEsLTIwMzU4Nzk0MDYsLTExMzI4NDYxMzcsMTgwMTU3
+NTc5OCwxOTE2NzkxNzI1LC0xMDk0NzIzOTUxLC0xMzMzNDg0MD
+E5XX0=
 -->
