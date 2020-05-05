@@ -175,6 +175,8 @@ You can **perform date based comparison operations** using `>` for dates after t
 SELECT name FROM users WHERE birth_date > '1990-01-01'
 ```
 
+### Combining with `AND` and `OR`
+
 You can **combine `WHERE` clauses** using the `AND` command between comparison clauses. The following query selects all users with the `name` 'Jake' with an age greater than `40`.
 ```sql
 SELECT name FROM users WHERE age > 40 AND name = 'Jake'
@@ -197,7 +199,13 @@ select * FROM users WHERE (age > 40 OR name = 'Jake') AND
 birth_date < '2010-01-01'
 ```
 
-It's recommended that you use parentheses anyway even when they don't change the order f
+It's recommended that you use parentheses anyway even when they don't change the order of logical operators to **make the intent of your queries clear**.
+```sql
+select * FROM users WHERE age > 40 OR 
+(name = 'Jake' AND birth_date < '2010-01-01')
+```
+
+### Checking Ranges with `IN`
 
 You can **match a several distinct of possibilities** with the `WHERE` command by combining it with `IN` command which checks if a records value matches a list of possibilities. In the below example, if the value of `name` is `IN` the list submitted in the parentheses then the `age` field of that record will be displayed. 
 ```sql
@@ -264,7 +272,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjc2OTYwMTQsLTIwNDk0Mjc4MzYsLT
+eyJoaXN0b3J5IjpbLTEyMDU2OTk4MDcsLTIwNDk0Mjc4MzYsLT
 U5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5Niw2NTcwNzk3
 MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2LD
 E0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIw
