@@ -84,12 +84,12 @@ SELECT name FROM users
 
 You can **select multiple columns** by submitting them as a list to `SELECT`:
 ```sql
-SELECT name, age FROM my_table
+SELECT name, age FROM users
 ```
 
 To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In the below example this query will display every column for each record the `name` value of which is "James".
 ```sql
-SELECT * WHERE name = 'James'
+SELECT * FROM users WHERE name = 'James'
 ```
 
 You can **combine column and record selection**. Below example shows he ages of all records with the `name` of "James".
@@ -148,7 +148,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjcyNTkyMCwtMTY4NDE1Njc3OSwtMj
-k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
-NTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbNDU0NzgyMDg5LC0xNjg0MTU2Nzc5LC0yOT
+c5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4MzQwLC02MzgzNzI1
+MTUsLTE5MjAyMDgwXX0=
 -->
