@@ -20,10 +20,12 @@ Relational databases also follow a set of **integrity rules** that ensure data i
 
 A big advantages of relational databases are their ability to offer **data consistency** across multiple copies of the database. These copies are called database **instances**. Relational databases can immediately propagate changes in the data in one instance to other instances. This can take longer or not be possible at all with non-relational databases.
 
-Relational databases also implement a form of **commitment** and **atomicity**
+Relational databases also implement a form of **commitment**. This means that the database has rules on how to manage data. For example, there may be pieces of information that can only be retrieved and committed together, such that database will refuse to retrieve or commit data to its records if all information is not present. This linking of multiple complex records is called **atomicty**.
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk0MjQyMjldfQ==
+eyJoaXN0b3J5IjpbLTE1NTAxODU5OTldfQ==
 -->
