@@ -74,7 +74,10 @@ You can **execute arbitrary SQL commands on your database** using the `PG:Connec
 result = connection.exec('SELECT * FROM my_table;')
 ```
 
-The `PG::Result` object can be iterated through using the `each` method and returns 
+The **`PG::Result` object can be iterated through** using the `each` method and **returns records (rows from the database) as hashes**. For example, a database with `name` and `age` fields would, for each record selected and stored in the `PG::Result` object be a hash with the value of each record column tied to that key.
+```ruby
+result.ea
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTg3OTczMF19
+eyJoaXN0b3J5IjpbLTIwNjE4Mjg5MDRdfQ==
 -->
