@@ -95,7 +95,10 @@ You can **combine column and record selection**. Below example shows he ages of 
 SELECT age WHERE name = 'James'
 ```
 
-You can **match a c**
+You can **match a range of possibilities** with the `WHERE` command by combining it with `IN` command which checks if a records value matches a list of possibilities. In the below example, if the value of `name` is `IN` the l
+```sql
+SELECT age WHERE name IN ('James', 'John', 'Joe', 'Jackie')
+```
 
 ## Case Sensitivity
 
@@ -113,6 +116,6 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2Nzk1MjE0LC02MzgzNzI1MTUsLTE5Mj
-AyMDgwXX0=
+eyJoaXN0b3J5IjpbLTE5MDY5MDQ2NjEsLTYzODM3MjUxNSwtMT
+kyMDIwODBdfQ==
 -->
