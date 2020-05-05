@@ -55,7 +55,7 @@ To **display a list of columns from your table** use the `\d+` command followed 
 $ \d+ <table name>
 ```
 
-## Table Commands
+# Table Commands
 
 A single SQL statement can be **compressed to a single line or spread over multiple consecutive lines**. The following would be a valid query with *or* without new line breaks. Tabs and white spaces are also ignored when writing SQL queries.
 ```sql
@@ -84,7 +84,7 @@ SELECT
 FROM users
 ```
 
-### Insertion
+## Insertion
 
 To **insert a value into a table** use the `INSERT INTO` command combined with the `VALUES` command. There are two ways to accomplish this insertion. The first uses **implicit column order** to insert values. In the example below the arguments in `VALUES` will be inserted into `my_table` with the first argument of `4` going into column 1 of the table and second argument of `'some value'` into column 2.
 
@@ -93,9 +93,11 @@ INSERT INTO my_table
 VALUES (4, 'some value')
 ```
 
-### Retrieval
+## Retrieval
 
 The main statements for SQL retrieval queries are `SELECT`, `FROM`, `WHERE` and `SORT BY` in that order. Using these clauses out of order will results in a `syntax error`.
+
+### Select
 
 You can use the `SELECT` command to **specify a column of data to retrieve** from a table and the `FROM` command to **specify which table you want to retrieve data from**. This can be combined with the `WHERE` command which is used **specify a value in a column to match** as a way to find a record.
 
@@ -124,6 +126,8 @@ Although its not very useful immediately, you can **duplicate column output**. T
 SELECT name, name, FROM users
 ```
 
+### Al
+
 You can **output a column with specified name** using the `AS` keyword. The example below will output the data from the `name` column of the `users` table but with the column name `alias` instead of `name`.
 ```sql
 SELECT name AS alias FROM users
@@ -133,6 +137,8 @@ SELECT name AS alias FROM users
 ```sql
 SELECT name AS 'my alias' FROM users
 ```
+
+### Matching
 
 To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In the below example this query will display every column for each record the `name` value of which is "James".
 ```sql
@@ -210,7 +216,8 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDE0ODk2LDY1NzA3OTczNiwtNTA5OT
-UxODIxLC0xNjg0MTU2Nzc5LC0yOTc5Mjc3NjYsMTQ4NDkxODQy
-NCwxNzE5MTc4MzQwLC02MzgzNzI1MTUsLTE5MjAyMDgwXX0=
+eyJoaXN0b3J5IjpbMTI3NTI5NDU4NiwyMTEwMTQ4OTYsNjU3MD
+c5NzM2LC01MDk5NTE4MjEsLTE2ODQxNTY3NzksLTI5NzkyNzc2
+NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNSwtMT
+kyMDIwODBdfQ==
 -->
