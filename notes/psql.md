@@ -62,7 +62,9 @@ Ruby requires the `PG` library to connect to a postgres database. You can do thi
 - Using the `require 'pg'` (useful for `irb` code)
 - Using the `gem 'pg'` in your gem file.
 
-Using the `pg` gem gives you access to the `PG` class which is wrapper the methods of which can be used to access a postgres database running on your machine.
+Using the `pg` gem gives you access to the `PG` class which is wrapper the methods of which can be used to access and manipulate a postgres database running on your machine. The database must be up and running for the `PG` class to interact with it and yield results.
+
+To **connect to a database** use the `connect` method with the symbol `dbname` and the name of the database you want to connect to. This metho
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDAxNDExNDBdfQ==
+eyJoaXN0b3J5IjpbMTE5MDM1Nzk1Ml19
 -->
