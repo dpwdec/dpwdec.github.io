@@ -76,8 +76,11 @@ result = connection.exec('SELECT * FROM my_table;')
 
 The **`PG::Result` object can be iterated through** using the `each` method and **returns records (rows from the database) as hashes**. For example, a database with `name` and `age` fields would, for each record selected and stored in the `PG::Result` object be a hash with the value of each record column tied to that key.
 ```ruby
-result.ea
+# outputs the 'name' record field for each record returned in the result
+result.each do |record|
+  puts record['name']
+end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjE4Mjg5MDRdfQ==
+eyJoaXN0b3J5IjpbMTk5MzI0OTAwN119
 -->
