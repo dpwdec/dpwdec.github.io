@@ -58,8 +58,11 @@ $ \d+ <table name>
 
 ## Connecting to Postgres with Ruby
 
-Ruby requiresconnect to a postgres database you should use the `PG` gem.
-> Written with [StackEdit](https://stackedit.io/).
+Ruby requires the `PG` library to connect to a postgres database. You can do this by:
+- Using the `require 'pg'` (useful for `irb` code)
+- Using the `gem 'pg'` in your gem file.
+
+Using the `pg` gem gives you access to the `PG` class which is wrapper the methods of which can be used to access a postgres database runni
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDAzNzg0XX0=
+eyJoaXN0b3J5IjpbOTY2ODI5OTY2XX0=
 -->
