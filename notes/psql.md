@@ -16,7 +16,7 @@ brew services start postgresql
 ```
 
 ## Connections
-When postgres starts running on a server or local machine it functions much like a web server. It accepts connections from client applications and returns results based on their requests. Postgres runs on port `5432` if it is available. Otherwise it runs on p
+When postgres starts running on a server or local machine it functions much like a web server. It accepts connections from client applications and returns results based on their requests. Postgres runs on port `5432` if it is available. Otherwise it runs on port `5433`.
 
 ## PSQL
 The **`psql` is a command line interface that allows use to interact with your database** by writing SQL. It is similar to the `irb` in Ruby. To start `psql` type the `psql` command followed by the name of a database you want to access. 
@@ -86,5 +86,5 @@ result.each do |record|
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Nzc4NzM0N119
+eyJoaXN0b3J5IjpbMTA3MDc2NDMzOV19
 -->
