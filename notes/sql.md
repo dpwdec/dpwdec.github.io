@@ -145,7 +145,13 @@ SELECT name AS 'my alias' FROM users
 
 ### Matching with `WHERE`
 
-The `WHER
+The `WHERE` command supports a variety of comparison operators combined with table output values. The full list is:
+- `=` - equality
+- `>` - greater than
+- `>=` - greater than or equal to
+- `<` - less than 
+- `<=` - less than or equal to
+- `!=` - not equal 
 
 To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In the below example this query will display every column for each record the `name` value of which is "James".
 ```sql
@@ -227,7 +233,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTM4MjYxMywxMzU4NTg4MjkyLDIxMT
+eyJoaXN0b3J5IjpbLTk0ODU0NDg2NSwxMzU4NTg4MjkyLDIxMT
 AxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3
 OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNj
 M4MzcyNTE1LC0xOTIwMjA4MF19
