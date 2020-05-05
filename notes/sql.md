@@ -145,6 +145,8 @@ SELECT name AS 'my alias' FROM users
 
 ### Matching with `WHERE`
 
+The `WHER
+
 To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In the below example this query will display every column for each record the `name` value of which is "James".
 ```sql
 SELECT * FROM users WHERE name = 'James'
@@ -225,8 +227,8 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODU4ODI5MiwyMTEwMTQ4OTYsNjU3MD
-c5NzM2LC01MDk5NTE4MjEsLTE2ODQxNTY3NzksLTI5NzkyNzc2
-NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNSwtMT
-kyMDIwODBdfQ==
+eyJoaXN0b3J5IjpbLTkyOTM4MjYxMywxMzU4NTg4MjkyLDIxMT
+AxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3
+OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNj
+M4MzcyNTE1LC0xOTIwMjA4MF19
 -->
