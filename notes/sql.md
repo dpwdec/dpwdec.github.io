@@ -205,12 +205,15 @@ select * FROM users WHERE age > 40 OR
 (name = 'Jake' AND birth_date < '2010-01-01')
 ```
 
-You can **negate a logical query** using the `NOT` keyword.
+You can **negate a logical query** using the `NOT` keyword:
 ```sql
 select * FROM users WHERE NOT name = 'Jake' 
 ```
 
-Negative logical queries **can also be combined with parenthese**
+Negative logical queries **can also be combined with parentheses**:
+```sql
+select * FROM users WHERE NOT (name = 'Jake' OR age > 40)
+```
 
 ### Checking Ranges with `IN`
 
@@ -279,7 +282,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDU5MjM0MiwtMjA0OTQyNzgzNiwtNT
+eyJoaXN0b3J5IjpbMTQ1MjMwOTY4NywtMjA0OTQyNzgzNiwtNT
 k3NjI3NTAyLDEzNTg1ODgyOTIsMjExMDE0ODk2LDY1NzA3OTcz
 NiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5LC0yOTc5Mjc3NjYsMT
 Q4NDkxODQyNCwxNzE5MTc4MzQwLC02MzgzNzI1MTUsLTE5MjAy
