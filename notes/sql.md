@@ -95,7 +95,7 @@ You can **combine column and record selection**. Below example shows he ages of 
 SELECT age WHERE name = 'James'
 ```
 
-You can **combine `WHERE` with other logical operators** like `>` greater than and `<` less than. Below, the query selects all records with an a
+You can **combine `WHERE` with other logical operators** like `>` greater than and `<` less than. Below, the query selects all records with an `age` field greater than 20.
 ```sql
 SELECT name WHERE age > 20
 ```
@@ -131,6 +131,6 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjU0MjM1MSwxNDg0OTE4NDI0LDE3MT
-kxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ==
+eyJoaXN0b3J5IjpbLTE1OTE5OTg0MDAsMTQ4NDkxODQyNCwxNz
+E5MTc4MzQwLC02MzgzNzI1MTUsLTE5MjAyMDgwXX0=
 -->
