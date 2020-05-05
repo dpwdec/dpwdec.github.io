@@ -110,7 +110,7 @@ The **order in which you submit column queries changes the output order**. If yo
 SELECT age, name FROM users
 ```
 
-Although its not very useful immediately, you can **duplicate column output**.
+Although its not very useful immediately, you can **duplicate column output**. The query below which specifies `name` twice is valid. This can be useful if you wanted to compare a column directly with a column that had had some mathematical operation run on it. For example `age` and `age + 10` could be displayed next to each other with the duplicate `SELECT` query.
 ```sql
 SELECT name, name, FROM users
 ```
@@ -176,7 +176,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODkzNjY4OTAsLTUwOTk1MTgyMSwtMT
-Y4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3
-ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbMTAxMTA5NjIwOCwtNTA5OTUxODIxLC0xNj
+g0MTU2Nzc5LC0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4
+MzQwLC02MzgzNzI1MTUsLTE5MjAyMDgwXX0=
 -->
