@@ -120,6 +120,11 @@ You can **execute numeric operations on output data** by including calculations 
 SELECT area/1000 FROM countries 
 ```
 
+You can also **execute numeric operations using table data**. For example, instead of dividing area by a fixed number of `1000` we could divide by the `population` field of each record to see how much space each person in the country gets.
+```sql
+SELECT area/population FROM countries
+```
+
 ## Case Sensitivity
 
 Most **SQL commands and case insensitive**. This means you *can* write your SQL queries using lowercase, however, its recommended to avoid this as it makes your queries much less readable and creates difficulties when you do have to deal with the case sensitivity of table names and values.
@@ -136,6 +141,6 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTQ4NDY1NSwxNDg0OTE4NDI0LDE3MT
+eyJoaXN0b3J5IjpbLTI5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MT
 kxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ==
 -->
