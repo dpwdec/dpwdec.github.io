@@ -84,6 +84,10 @@ SELECT
 FROM users
 ```
 
+## Creation
+
+
+
 ## Insertion
 
 To **insert a value into a table** use the `INSERT INTO` command combined with the `VALUES` command. There are two ways to accomplish this insertion. The first uses **implicit column order** to insert values. In the example below the arguments in `VALUES` will be inserted into `my_table` with the first argument of `4` going into column 1 of the table and second argument of `'some value'` into column 2.
@@ -290,9 +294,9 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzk0MDQ4MDgsMTQ1MjMwOTY4NywtMj
-A0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMjExMDE0
-ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5LC
-0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4MzQwLC02Mzgz
-NzI1MTUsLTE5MjAyMDgwXX0=
+eyJoaXN0b3J5IjpbMjM3NDk4NjgzLDE0NTIzMDk2ODcsLTIwND
+k0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5
+Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMj
+k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
+NTE1LC0xOTIwMjA4MF19
 -->
