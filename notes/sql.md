@@ -105,7 +105,7 @@ You can also **match number values** using `IN` by omitting the quote marks. Bel
 SELECT name WHERE age IN (25, 34)
 ```
 
-You can **match a range of numeric values** by using the `BETWEEN` command for a numeric field. The ranges are joined by the `AND` command. Range checking is **boundary inclusive**. Below, the query returns the `name` field for all records with an `age` field of value 25 - 34 inclusive. You cannot break up large numbers 
+You can **match a range of numeric values** by using the `BETWEEN` command for a numeric field. The ranges are joined by the `AND` command. Range checking is **boundary inclusive**. Below, the query returns the `name` field for all records with an `age` field of value 25 - 34 inclusive. You cannot break up large numbers when submitting range queries with `,` or `_`.
 ```sql
 SELECT name WHERE age BETWEEN 25 AND 34
 ```
@@ -126,6 +126,6 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwNjgyMDkzLDE3MTkxNzgzNDAsLTYzOD
-M3MjUxNSwtMTkyMDIwODBdfQ==
+eyJoaXN0b3J5IjpbMTQ4NDkxODQyNCwxNzE5MTc4MzQwLC02Mz
+gzNzI1MTUsLTE5MjAyMDgwXX0=
 -->
