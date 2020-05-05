@@ -221,9 +221,14 @@ The SQL `LIKE` command is used for **matching string patterns** in your database
 SELECT * FROM users WHERE name LIKE 'J%'
 ```
 
-The **`%` sign can be anywhere in the `LIKE` query**.
+The **`%` sign can be anywhere in the `LIKE` query** and used to check endings beginnings or just letter combinations in general.
 ```sql
--- return records
+-- return records the name of which ends in s
+SELECT * FROM users WHERE name LIKE '%s'
+-- return records the name of which contains a g
+SELECT * FROM users WHERE name LIKE '%g%'
+-- return records the name of which starts with a k and ends in an e
+SELECT * FROM users WHERE name 
 ```
 
 ### Numeric Operations
@@ -301,7 +306,7 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTE2NDAwNCwtODg1OTc5NDIwLC0xMz
+eyJoaXN0b3J5IjpbMTc2ODY5OTM0MCwtODg1OTc5NDIwLC0xMz
 k0MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4
 NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMj
 ExMDE0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2
