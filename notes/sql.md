@@ -57,13 +57,15 @@ $ \d+ <table name>
 
 ## Table Commands
 
+Multiple SQL statements must be terminated with a `;` semi-colon.
+
 ### Insertion
 
 To **insert a value into a table** use the `INSERT INTO` command combined with the `VALUES` command. There are two ways to accomplish this insertion. The first uses **implicit column order** to insert values. In the example below the arguments in `VALUES` will be inserted into `my_table` with the first argument of `4` going into column 1 of the table and second argument of `'some value'` into column 2.
 
 ```sql
 INSERT INTO my_table
-VALUES (4, 'some value');
+VALUES (4, 'some value')
 ```
 
 ### Retrieval
@@ -143,7 +145,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQxNTY3NzksLTI5NzkyNzc2NiwxND
-g0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIw
-ODBdfQ==
+eyJoaXN0b3J5IjpbMTg5MDg4Nzc4OSwtMTY4NDE1Njc3OSwtMj
+k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
+NTE1LC0xOTIwMjA4MF19
 -->
