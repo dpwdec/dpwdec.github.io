@@ -115,6 +115,8 @@ You can **match a range of numeric values** by using the `BETWEEN` command for a
 SELECT name WHERE age BETWEEN 25 AND 34
 ```
 
+You can **execute numeric operations on output**
+
 ## Case Sensitivity
 
 Most **SQL commands and case insensitive**. This means you *can* write your SQL queries using lowercase, however, its recommended to avoid this as it makes your queries much less readable and creates difficulties when you do have to deal with the case sensitivity of table names and values.
@@ -131,6 +133,6 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE5OTg0MDAsMTQ4NDkxODQyNCwxNz
-E5MTc4MzQwLC02MzgzNzI1MTUsLTE5MjAyMDgwXX0=
+eyJoaXN0b3J5IjpbOTUwOTY5MDg3LDE0ODQ5MTg0MjQsMTcxOT
+E3ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
 -->
