@@ -287,9 +287,9 @@ SELECT name, age FROM users ORDER BY name
 
 ## Deletion
 
-You can **delete a record from a table** using the `DELETE` command combined with the `WHERE` command to delete a specific record.
+You can **delete a record from a table** using the `DELETE FROM` command combined with the `WHERE` command to delete a specific record.
 ```sql
-DELETE FRO
+DELETE FROM users WHERE name = 'Jim'
 ```
 
 ## Case Sensitivity
@@ -313,10 +313,9 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY3MzIxNjMsNTI1MzE2Nzk1LDIzNz
-Q5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1
-MDIsMTM1ODU4ODI5MiwyMTEwMTQ4OTYsNjU3MDc5NzM2LC01MD
-k5NTE4MjEsLTE2ODQxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4
-NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ
-==
+eyJoaXN0b3J5IjpbMTY1Njg0NDg2Myw1MjUzMTY3OTUsMjM3ND
+k4NjgzLDE0NTIzMDk2ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUw
+MiwxMzU4NTg4MjkyLDIxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOT
+k1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0
+MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
 -->
