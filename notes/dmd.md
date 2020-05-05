@@ -44,13 +44,15 @@ VALUES
     (value_list_2),
     ...
     (value_list_n);
+
+the resistance
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQ4NDc2OTAsLTY0OTYyMDAzMywtMj
-A4NTA1MTk3MSwtMjAzNTg3OTQwNiwtMTEzMjg0NjEzNywxODAx
-NTc1Nzk4LDE5MTY3OTE3MjUsLTEwOTQ3MjM5NTEsLTEzMzM0OD
-QwMTldfQ==
+eyJoaXN0b3J5IjpbLTE5ODc2MjkzNCwtMTY0NDg0NzY5MCwtNj
+Q5NjIwMDMzLC0yMDg1MDUxOTcxLC0yMDM1ODc5NDA2LC0xMTMy
+ODQ2MTM3LDE4MDE1NzU3OTgsMTkxNjc5MTcyNSwtMTA5NDcyMz
+k1MSwtMTMzMzQ4NDAxOV19
 -->
