@@ -93,6 +93,8 @@ CREATE TABLE users(id SERIAL PRIMARY KEY, name VARCHAR(60))
 
 Each element in your table should have a unique ID. Using `SERIAL PRIMARY KEY` allows you to later on to add values to the table without specifying a new ID, with this data type tied to `id` when a new record is inserted the `id` field will be automatically generated with a unique id.
 
+The `VARCHAR` element is approx
+
 ## Insertion
 
 To **insert a value into a table** use the `INSERT INTO` command combined with the `VALUES` command. There are two ways to accomplish this insertion. The first uses **implicit column order** to insert values. In the example below the arguments in `VALUES` will be inserted into `my_table` with the first argument of `4` going into column 1 of the table and second argument of `'some value'` into column 2.
@@ -299,7 +301,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDQxMzU2NiwyMzc0OTg2ODMsMTQ1Mj
+eyJoaXN0b3J5IjpbMTIwODE1MjE0NiwyMzc0OTg2ODMsMTQ1Mj
 MwOTY4NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgy
 OTIsMjExMDE0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNj
 g0MTU2Nzc5LC0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4
