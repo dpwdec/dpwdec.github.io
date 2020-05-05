@@ -14,6 +14,10 @@ Relational databases' physical storage and logical storage are separated. This m
 | how users connect to the databases | table indexes |
 | | table views
 
+Relational databases also follow a set of **integrity rules** that ensure data is kept consistent. For example, one integrity rule might be that you cannot have a duplicated row in a table.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODQzMzk4M119
+eyJoaXN0b3J5IjpbLTEzOTY4ODI0NThdfQ==
 -->
