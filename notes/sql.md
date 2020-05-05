@@ -227,8 +227,8 @@ The **`%` sign can be anywhere in the `LIKE` query** and used to check endings b
 SELECT * FROM users WHERE name LIKE '%s'
 -- return records the name of which contains a g
 SELECT * FROM users WHERE name LIKE '%g%'
--- return records the name of which starts with a k and ends in an e
-SELECT * FROM users WHERE name 
+-- return records the name of which starts with a k, contains an l and ends in an e
+SELECT * FROM users WHERE name LIKE 'k%l%e'
 ```
 
 ### Numeric Operations
@@ -306,10 +306,10 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2ODY5OTM0MCwtODg1OTc5NDIwLC0xMz
-k0MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4
-NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMj
-ExMDE0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2
-Nzc5LC0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4MzQwLC
-02MzgzNzI1MTUsLTE5MjAyMDgwXX0=
+eyJoaXN0b3J5IjpbLTEwMjgzNTA2MTUsLTg4NTk3OTQyMCwtMT
+M5NDM2MTM3Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2
+ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLD
+IxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1
+Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MC
+wtNjM4MzcyNTE1LC0xOTIwMjA4MF19
 -->
