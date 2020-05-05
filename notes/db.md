@@ -18,10 +18,12 @@ Relational databases' physical storage and logical storage are separated. This m
 
 Relational databases also follow a set of **integrity rules** that ensure data is kept consistent. For example, one integrity rule might be that you cannot have a duplicated row in a table.
 
-A big advantages of relational databases are their ability to offer **data consistency** across multiple copies of the database. These copies are called database **instances**. Relational databases can immediately propagate changes in the data in one instance
+A big advantages of relational databases are their ability to offer **data consistency** across multiple copies of the database. These copies are called database **instances**. Relational databases can immediately propagate changes in the data in one instance to other instances. This can take longer or not be possible at all with non-relational databases.
+
+Relational databases also implement a form of **commitment** and **atomicity**
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MzAxNzY4N119
+eyJoaXN0b3J5IjpbLTEzNDk0MjQyMjldfQ==
 -->
