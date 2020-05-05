@@ -189,6 +189,11 @@ You can also **match number values** using `IN` by omitting the quote marks. Bel
 SELECT name FROM users WHERE age IN (25, 34)
 ```
 
+You can also **negate `IN` selection queries** using the `NOT` command:
+```s
+
+### Filling in the gaps with `BETWEEN`
+
 You can **match a range of numeric values** by using the `BETWEEN` command for a numeric field. The ranges are joined by the `AND` command. Range checking is **boundary inclusive**. Below, the query returns the `name` field for all records with an `age` field of value 25 - 34 inclusive. You cannot break up large numbers when submitting range queries with `,` or `_`.
 ```sql
 SELECT name FROM users WHERE age BETWEEN 25 AND 34
@@ -269,10 +274,10 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQzNjEzNzYsNTI1MzE2Nzk1LDIzNz
-Q5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1
-MDIsMTM1ODU4ODI5MiwyMTEwMTQ4OTYsNjU3MDc5NzM2LC01MD
-k5NTE4MjEsLTE2ODQxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4
-NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ
-==
+eyJoaXN0b3J5IjpbLTE5MTAwOTk1OTQsLTEzOTQzNjEzNzYsNT
+I1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3
+ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5MiwyMTEwMTQ4OTYsNj
+U3MDc5NzM2LC01MDk5NTE4MjEsLTE2ODQxNTY3NzksLTI5Nzky
+Nzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNS
+wtMTkyMDIwODBdfQ==
 -->
