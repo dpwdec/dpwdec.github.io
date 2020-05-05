@@ -80,9 +80,14 @@ To **select a specific column** from a table specify that column after the `SELE
 SELECT name FROM my_table
 ``` 
 
-To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In
+To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In the below example this query will display every column for each record the `name` value of which is "James".
 ```sql
 SELECT * WHERE name = 'James'
+```
+
+You can **combine column and record selection**. Below example shows he ages of all records with the 
+```sql
+SELECT age WHERE name = 'James'
 ```
 
 ## Case Sensitivity
@@ -101,6 +106,6 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzMDMwNTgwLC02MzgzNzI1MTUsLTE5Mj
-AyMDgwXX0=
+eyJoaXN0b3J5IjpbLTEyOTg4MjMwOTIsLTYzODM3MjUxNSwtMT
+kyMDIwODBdfQ==
 -->
