@@ -74,12 +74,12 @@ You can use the `SELECT` command to **specify a column of data to retrieve** fro
 
 To **select ALL columns and records from a table** use the `*` argument with `SELECT`. The `*` means "ALL" in the context of SQL.
 ```sql
-SELECT * FROM my_table
+SELECT * FROM users
 ```
 
-To **select a specific column** from a table specify that column after the `SELECT` command. In the below example this query will display the `name` column field of each record in `my_table`.
+To **select a specific column** from a table specify that column after the `SELECT` command. In the below example this query will display the `name` column field of each record in `users`.
 ```sql
-SELECT name FROM my_table
+SELECT name FROM users
 ``` 
 
 You can **select multiple columns** by submitting them as a list to `SELECT`:
@@ -94,7 +94,7 @@ SELECT * WHERE name = 'James'
 
 You can **combine column and record selection**. Below example shows he ages of all records with the `name` of "James".
 ```sql
-SELECT age WHERE name = 'James'
+SELECT age FROM my_table WHERE name = 'James'
 ```
 
 You can **combine `WHERE` with other logical operators** like `>` greater than and `<` less than. Below, the query selects all records with an `age` field greater than 20.
@@ -148,7 +148,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY5MjQ0MzIsLTE2ODQxNTY3NzksLT
-I5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3
-MjUxNSwtMTkyMDIwODBdfQ==
+eyJoaXN0b3J5IjpbMTA5NjcyNTkyMCwtMTY4NDE1Njc3OSwtMj
+k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
+NTE1LC0xOTIwMjA4MF19
 -->
