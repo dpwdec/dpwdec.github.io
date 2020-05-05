@@ -236,7 +236,10 @@ SELECT name, age FROM users ORDER BY name
 
 ## Updating
 
-You can **update a database record** using the `UPDATE` and `SET` methods.
+You can **update a database record** using the `UPDATE` and `SET` methods. The `UPDATE` is followed by a table name and the `SET` command specifies a table column to update. This can be combined with selection methods with `WHERE` to specify particular records to update.
+```sql
+UPDATE users SET name = '
+```
 
 ## Deletion
 
@@ -266,10 +269,9 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ4MDU1MzQsNTI1MzE2Nzk1LDIzNz
-Q5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1
-MDIsMTM1ODU4ODI5MiwyMTEwMTQ4OTYsNjU3MDc5NzM2LC01MD
-k5NTE4MjEsLTE2ODQxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4
-NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ
-==
+eyJoaXN0b3J5IjpbMTE3MzQyNDU3OCw1MjUzMTY3OTUsMjM3ND
+k4NjgzLDE0NTIzMDk2ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUw
+MiwxMzU4NTg4MjkyLDIxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOT
+k1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0
+MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
 -->
