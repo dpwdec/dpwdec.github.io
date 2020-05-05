@@ -105,7 +105,10 @@ You can **select multiple columns** by submitting them as a list to `SELECT`.
 SELECT name, age FROM users
 ```
 
-The 
+The **order in which you submit column queries changes the output order**. If you switch the column `SELECT` specification the output will *also* be switched. For example, the query below will output `age` then `name` as opposed to the one above which will reverse this.
+```sql
+SELECT age, name FROM users
+```
 
 To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In the below example this query will display every column for each record the `name` value of which is "James".
 ```sql
@@ -168,7 +171,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTkwMTE5NTMsLTE2ODQxNTY3NzksLT
-I5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3
-MjUxNSwtMTkyMDIwODBdfQ==
+eyJoaXN0b3J5IjpbLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMj
+k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
+NTE1LC0xOTIwMjA4MF19
 -->
