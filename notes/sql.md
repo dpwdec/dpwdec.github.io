@@ -95,7 +95,7 @@ You can **combine column and record selection**. Below example shows he ages of 
 SELECT age WHERE name = 'James'
 ```
 
-You can **match a range of possibilities** with the `WHERE` command by combining it with `IN` command which checks if a records value matches a list of possibilities. In the below example, if the value of `name` is `IN` the list submitted in the parentheses then the `age` field of that record will be displayed. 
+You can **match a range of possibilities** with the `WHERE` command by combining it with `IN` command which checks if a records value matches a list of possibilities. The `IN` function is mainly for matching exact strings contained in `''` commas. In the below example, if the value of `name` is `IN` the list submitted in the parentheses then the `age` field of that record will be displayed. 
 ```sql
 SELECT age WHERE name IN ('James', 'John', 'Joe', 'Jackie')
 ```
@@ -116,6 +116,6 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOT
-IwMjA4MF19
+eyJoaXN0b3J5IjpbLTk3MTE5MTY0NywxNzE5MTc4MzQwLC02Mz
+gzNzI1MTUsLTE5MjAyMDgwXX0=
 -->
