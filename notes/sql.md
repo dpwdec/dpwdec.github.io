@@ -85,7 +85,8 @@ VALUES (4, 'some value')
 ```
 
 ### Retrieval
-The main statements for SQL retrieval queries are `SELECT`, `FROM`, `WHERE` and `SORT BY`
+
+The main statements for SQL retrieval queries are `SELECT`, `FROM`, `WHERE` and `SORT BY` in that order. Using these clauses out of order will results in a `syntax error`.
 
 You can use the `SELECT` command to **specify a column of data to retrieve** from a table and the `FROM` command to **specify which table you want to retrieve data from**. This can be combined with the `WHERE` command which is used **specify a value in a column to match** as a way to find a record.
 
@@ -99,10 +100,12 @@ To **select a specific column** from a table specify that column after the `SELE
 SELECT name FROM users
 ``` 
 
-You can **select multiple columns** by submitting them as a list to `SELECT`:
+You can **select multiple columns** by submitting them as a list to `SELECT`.
 ```sql
 SELECT name, age FROM users
 ```
+
+The 
 
 To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In the below example this query will display every column for each record the `name` value of which is "James".
 ```sql
@@ -165,7 +168,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ0MTg5NDksLTE2ODQxNTY3NzksLT
+eyJoaXN0b3J5IjpbLTEzNTkwMTE5NTMsLTE2ODQxNTY3NzksLT
 I5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3
 MjUxNSwtMTkyMDIwODBdfQ==
 -->
