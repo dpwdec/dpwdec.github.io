@@ -124,6 +124,11 @@ Although its not very useful immediately, you can **duplicate column output**. T
 SELECT name, name, FROM users
 ```
 
+You can **output a column with specified name** using the `AS` keyword. The example below will output the data from the `name` column of the `users` table but with the column name `alias` instead of `name`.
+```sql
+SELECT name AS alias FROM users
+```
+
 To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In the below example this query will display every column for each record the `name` value of which is "James".
 ```sql
 SELECT * FROM users WHERE name = 'James'
@@ -195,8 +200,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzIwOTYwNDksNjU3MDc5NzM2LC01MD
-k5NTE4MjEsLTE2ODQxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4
-NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ
-==
+eyJoaXN0b3J5IjpbMjAxMzc4OTY4Myw2NTcwNzk3MzYsLTUwOT
+k1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0
+MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
 -->
