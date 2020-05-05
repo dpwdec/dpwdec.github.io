@@ -70,7 +70,7 @@ VALUES (4, 'some value');
 
 You can use the `SELECT` command to **specify a column of data to retrieve** from a table and the `FROM` command to **specify which table you want to retrieve data from**. This can be combined with the `WHERE` command which is used **specify a value in a column to match** as a way to find a record.
 
-To ** select ALL records from a table** use the `*` argument with `SELECT`. The `*` means "ALL" in the contect of
+To ** select ALL records from a table** use the `*` argument with `SELECT`. The `*` means "ALL" in the context of SQL.
 
 ## Case Sensitivity
 
@@ -88,5 +88,5 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk3ODE5MzFdfQ==
+eyJoaXN0b3J5IjpbLTE5MjAyMDgwXX0=
 -->
