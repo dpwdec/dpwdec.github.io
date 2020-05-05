@@ -126,7 +126,10 @@ Although its not very useful immediately, you can **duplicate column output**. T
 SELECT name, name, FROM users
 ```
 
-You can **only display unique column values** by using the `DISTINCT` keyword. 
+You can **only display unique column values** by using the `DISTINCT` keyword. This will remove any duplicate values in the selected columns. In the query below even though the table might have many entries with 
+```sql
+SELECT DISTINCT continent FROM countries
+```
 
 ### Aliases with `AS`
 
@@ -222,8 +225,8 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxMzgxNTEyLDIxMTAxNDg5Niw2NTcwNz
-k3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2
-LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOT
-IwMjA4MF19
+eyJoaXN0b3J5IjpbLTk4MDQ0MTU5NiwyMTEwMTQ4OTYsNjU3MD
+c5NzM2LC01MDk5NTE4MjEsLTE2ODQxNTY3NzksLTI5NzkyNzc2
+NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNSwtMT
+kyMDIwODBdfQ==
 -->
