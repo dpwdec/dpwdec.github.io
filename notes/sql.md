@@ -109,12 +109,12 @@ SELECT age FROM users WHERE name IN ('James', 'John', 'Joe', 'Jackie')
 
 You can also **match number values** using `IN` by omitting the quote marks. Below, the query returns the `name`s of users with `age` exactly 25 and 34.
 ```sql
-SELECT name WHERE age IN (25, 34)
+SELECT name FROM users WHERE age IN (25, 34)
 ```
 
 You can **match a range of numeric values** by using the `BETWEEN` command for a numeric field. The ranges are joined by the `AND` command. Range checking is **boundary inclusive**. Below, the query returns the `name` field for all records with an `age` field of value 25 - 34 inclusive. You cannot break up large numbers when submitting range queries with `,` or `_`.
 ```sql
-SELECT name WHERE age BETWEEN 25 AND 34
+SELECT name FROM users WHERE age BETWEEN 25 AND 34
 ```
 
 You can **execute numeric operations on output data** by including calculations as part of the `SELECT` query. For example, if you were getting the areas of some countries that where thousands of kilometers square, you could rational those numbers by dividing them by `1000` within your query. This will then return the areas divided by that number.
@@ -148,7 +148,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMjU5NDY3NiwtMTY4NDE1Njc3OSwtMj
+eyJoaXN0b3J5IjpbLTQ5NTU5MzA3NiwtMTY4NDE1Njc3OSwtMj
 k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
 NTE1LC0xOTIwMjA4MF19
 -->
