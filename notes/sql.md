@@ -86,6 +86,7 @@ VALUES (4, 'some value')
 
 ### Retrieval
 
+
 You can use the `SELECT` command to **specify a column of data to retrieve** from a table and the `FROM` command to **specify which table you want to retrieve data from**. This can be combined with the `WHERE` command which is used **specify a value in a column to match** as a way to find a record.
 
 To **select ALL columns and records from a table** use the `*` argument with `SELECT`. The `*` means "ALL" in the context of SQL.
@@ -164,7 +165,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MjUxNTc3LC0xNjg0MTU2Nzc5LC0yOT
-c5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4MzQwLC02MzgzNzI1
-MTUsLTE5MjAyMDgwXX0=
+eyJoaXN0b3J5IjpbMTEyMzgwMTcwMywtMTY4NDE1Njc3OSwtMj
+k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
+NTE1LC0xOTIwMjA4MF19
 -->
