@@ -16,7 +16,7 @@ brew services start postgresql
 ```
 
 ## Connections
-
+When postgres starts running on a server or local machine it functions much like a web server. It accepts connections from client applications and returns results based on their requests. Postgres runs on port `5432` if it is available. Otherwise it runs on p
 
 ## PSQL
 The **`psql` is a command line interface that allows use to interact with your database** by writing SQL. It is similar to the `irb` in Ruby. To start `psql` type the `psql` command followed by the name of a database you want to access. 
@@ -68,7 +68,7 @@ Ruby requires the `PG` library to connect to a postgres database. You can do thi
 
 Using the `pg` gem gives you access to the `PG` class which is wrapper the methods of which can be used to access and manipulate a postgres database running on your machine. The database must be up and running for the `PG` class to interact with it and yield results.
 
-To **connect to a database** use the `connect` method with the symbol `dbname` and the name of the database you want to connect to. This method yields a `PG::Connection` object that represents a connection to your database. This is the equivalent of writing `\c my_
+To **connect to a database** use the `connect` method with the symbol `dbname` and the name of the database you want to connect to. This method yields a `PG::Connection` object that represents a connection to your database. This is the equivalent of writing `\c my_database` in the command line `psql` environment.
 ```ruby
 connection = PG.connect(dbname: 'my_database')
 ```
@@ -86,5 +86,5 @@ result.each do |record|
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODAxNDIzMF19
+eyJoaXN0b3J5IjpbLTg0Nzc4NzM0N119
 -->
