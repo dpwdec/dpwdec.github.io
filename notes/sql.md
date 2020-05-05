@@ -115,9 +115,9 @@ You can **match a range of numeric values** by using the `BETWEEN` command for a
 SELECT name WHERE age BETWEEN 25 AND 34
 ```
 
-You can **execute numeric operations on output data** by including calculations as part of the `SELECT` query. For example, if you were getting the areas of some countries that where thousands of kilometers square, you could rational those numbers by dividing them by `1000` within your query.
+You can **execute numeric operations on output data** by including calculations as part of the `SELECT` query. For example, if you were getting the areas of some countries that where thousands of kilometers square, you could rational those numbers by dividing them by `1000` within your query. This will then return the areas divided by that number.
 ```sql
-SELECT  
+SELECT area/1000 FROM countries 
 ```
 
 ## Case Sensitivity
@@ -136,6 +136,6 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTA2NDQzMCwxNDg0OTE4NDI0LDE3MT
+eyJoaXN0b3J5IjpbMTQ5MTQ4NDY1NSwxNDg0OTE4NDI0LDE3MT
 kxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ==
 -->
