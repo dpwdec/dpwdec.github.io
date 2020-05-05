@@ -205,6 +205,8 @@ select * FROM users WHERE age > 40 OR
 (name = 'Jake' AND birth_date < '2010-01-01')
 ```
 
+### Negating with `NOT`
+
 You can **negate a logical query** using the `NOT` keyword:
 ```sql
 select * FROM users WHERE NOT name = 'Jake' 
@@ -249,6 +251,8 @@ Numeric operations in SQL also **support `()` parentheses** for controlling expr
 SELECT (area + 10) * 1000 FROM countries
 ```
 
+You can also **place arithmetic operations within **
+
 You can also **execute numeric operations using table data**. For example, instead of dividing area by a fixed number of `1000` we could divide by the `population` field of each record to see how much space each person in the country gets.
 ```sql
 SELECT area/population FROM countries
@@ -282,9 +286,9 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjMwOTY4NywtMjA0OTQyNzgzNiwtNT
-k3NjI3NTAyLDEzNTg1ODgyOTIsMjExMDE0ODk2LDY1NzA3OTcz
-NiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5LC0yOTc5Mjc3NjYsMT
-Q4NDkxODQyNCwxNzE5MTc4MzQwLC02MzgzNzI1MTUsLTE5MjAy
-MDgwXX0=
+eyJoaXN0b3J5IjpbMjYxMDY0NTgyLDE0NTIzMDk2ODcsLTIwND
+k0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5
+Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMj
+k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
+NTE1LC0xOTIwMjA4MF19
 -->
