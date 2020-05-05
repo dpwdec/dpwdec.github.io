@@ -190,7 +190,9 @@ SELECT name FROM users WHERE age IN (25, 34)
 ```
 
 You can also **negate `IN` selection queries** using the `NOT` command:
-```s
+```sql
+SELECT * FROM users WHERE state NOT IN ('VA', 'FL', 'TX')
+```
 
 ### Filling in the gaps with `BETWEEN`
 
@@ -274,10 +276,10 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTAwOTk1OTQsLTEzOTQzNjEzNzYsNT
-I1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3
-ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5MiwyMTEwMTQ4OTYsNj
-U3MDc5NzM2LC01MDk5NTE4MjEsLTE2ODQxNTY3NzksLTI5Nzky
-Nzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNS
-wtMTkyMDIwODBdfQ==
+eyJoaXN0b3J5IjpbMTg1NTMwMTYxNywtMTM5NDM2MTM3Niw1Mj
+UzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2ODcsLTIwNDk0Mjc4
+MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5Niw2NT
+cwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3
+NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC
+0xOTIwMjA4MF19
 -->
