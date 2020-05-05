@@ -251,7 +251,11 @@ Numeric operations in SQL also **support `()` parentheses** for controlling expr
 SELECT (area + 10) * 1000 FROM countries
 ```
 
-You can also **place arithmetic operations within **
+You can also **place arithmetic operations within conditional `WHERE` style clauses**:
+```sql
+SELECT * FROM countries
+WHERE area/1000 > 500000 AND population + 100000 <= 40000000
+```
 
 You can also **execute numeric operations using table data**. For example, instead of dividing area by a fixed number of `1000` we could divide by the `population` field of each record to see how much space each person in the country gets.
 ```sql
@@ -286,9 +290,9 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxMDY0NTgyLDE0NTIzMDk2ODcsLTIwND
-k0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5
-Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMj
-k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
-NTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbLTE1Nzk0MDQ4MDgsMTQ1MjMwOTY4NywtMj
+A0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMjExMDE0
+ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5LC
+0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4MzQwLC02Mzgz
+NzI1MTUsLTE5MjAyMDgwXX0=
 -->
