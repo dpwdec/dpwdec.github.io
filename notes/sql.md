@@ -185,9 +185,15 @@ You can **match at least one `WHERE` clause** using the `OR` operator. Any recor
 SELECT * FROM users WHERE age > 40 OR name = 'Jake'
 ```
 
-Logical operators also have an order of operations. **`AND` always takes precedence over `OR`.**  In the example below the query will returns records if the `age` is great than `40` *or* if the record's `name` is 
+Logical operators also have an order of operations. **`AND` always takes precedence over `OR`.**  In the example below the query will returns records if the `age` is great than `40` *or* if the record's `name` is 'Jake' *and* the person was born before 2010.
 ```sql
-select * FROM users WHERE age > 40 OR name = 'Jake' AND birth_date < '2010-01-01'
+select * FROM users WHERE age > 40 OR 
+name = 'Jake' AND birth_date < '2010-01-01'
+```
+
+You can **change the order of logical operations** using parentheses.
+```sql
+select * FROM users WHERE (age > 40 OR name = 'Jake' AND birth_date < '2010-01-01'
 ```
 
 You can **match a several distinct of possibilities** with the `WHERE` command by combining it with `IN` command which checks if a records value matches a list of possibilities. In the below example, if the value of `name` is `IN` the list submitted in the parentheses then the `age` field of that record will be displayed. 
@@ -255,8 +261,8 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxODExODg1LC01OTc2Mjc1MDIsMTM1OD
-U4ODI5MiwyMTEwMTQ4OTYsNjU3MDc5NzM2LC01MDk5NTE4MjEs
-LTE2ODQxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MT
-kxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ==
+eyJoaXN0b3J5IjpbLTEwMTQ0MDk3MzUsLTU5NzYyNzUwMiwxMz
+U4NTg4MjkyLDIxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgy
+MSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMT
+cxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
 -->
