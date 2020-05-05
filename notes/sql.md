@@ -168,6 +168,8 @@ You can **combine `WHERE` with other logical operators** like `>` greater than a
 SELECT name FROM users WHERE age > 20
 ```
 
+You can **perform date based comparison operations** using `>` for dates  by submitting dates as strings in the form `%Y-%M-%D`. So if we wanted to match 
+
 You can **match a several distinct of possibilities** with the `WHERE` command by combining it with `IN` command which checks if a records value matches a list of possibilities. In the below example, if the value of `name` is `IN` the list submitted in the parentheses then the `age` field of that record will be displayed. 
 ```sql
 SELECT age FROM users WHERE name IN ('James', 'John', 'Joe', 'Jackie')
@@ -233,7 +235,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0ODU5NDcyLDEzNTg1ODgyOTIsMjExMD
+eyJoaXN0b3J5IjpbNjM4MzEyNjQ1LDEzNTg1ODgyOTIsMjExMD
 E0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5
 LC0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4MzQwLC02Mz
 gzNzI1MTUsLTE5MjAyMDgwXX0=
