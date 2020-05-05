@@ -214,9 +214,9 @@ The `BETWEEN` command can also be used with date ranges. Dates should again be s
 SELECT * FROM users WHERE birth_date BETWEEN '1991-01-01' AND '2000-01-01'
 ```
 
-### Finding Strings with `LIKE`
+### Finding Patterns with `LIKE`
 
-The `LIKE`
+The SQL `LIKE` command is used for **matching string patterns** in your database. The match criteria for these queries should come as strings. They use the special character `%` percent to indicate a 
 
 ### Numeric Operations
 
@@ -293,10 +293,10 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzE4MjgxOSwtODg1OTc5NDIwLC0xMz
-k0MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4
-NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMj
-ExMDE0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2
-Nzc5LC0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4MzQwLC
-02MzgzNzI1MTUsLTE5MjAyMDgwXX0=
+eyJoaXN0b3J5IjpbLTE4MDMwNjM2MjIsLTg4NTk3OTQyMCwtMT
+M5NDM2MTM3Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2
+ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLD
+IxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1
+Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MC
+wtNjM4MzcyNTE1LC0xOTIwMjA4MF19
 -->
