@@ -57,11 +57,23 @@ $ \d+ <table name>
 
 ## Table Commands
 
-A single SQL statement can be compressed to a single line or spread over multiple co
+A single SQL statement can be **compressed to a single line or spread over multiple consecutive lines**. The following would be a valid query with *or* without new line breaks.
+```sql
+SELECT name, age
+FROM users
+WHERE age > 20
+ORDER BY age
+```
 
 Multiple SQL statements must be terminated with a `;` semi-colon.
 
 You can **comment out SQL queries** using a set of  `--` dashes on a new line. 
+```sql
+SELECT name, age
+FROM users
+--WHERE age > 20
+ORDER BY age
+```
 
 ### Insertion
 
@@ -152,7 +164,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzIxMTIxOCwtMTY4NDE1Njc3OSwtMj
-k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
-NTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbMTc5MjUxNTc3LC0xNjg0MTU2Nzc5LC0yOT
+c5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4MzQwLC02MzgzNzI1
+MTUsLTE5MjAyMDgwXX0=
 -->
