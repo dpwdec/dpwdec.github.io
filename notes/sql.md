@@ -170,7 +170,10 @@ SELECT name FROM users WHERE age <= 20;
 SELECT name FROM users WHERE age != 20
 ```
 
-You can **perform date based comparison operations** using `>` for dates after the argument and `<` for dates before the argument and by submitting dates as strings in the form `%Y-%M-%D`. So if we wanted to match with all records with a `birth_date` after 1990 we would use the `>` 
+You can **perform date based comparison operations** using `>` for dates after the argument and `<` for dates before the argument and by submitting dates as strings in the form `%Y-%M-%D`. So if we wanted to match with all records with a `birth_date` after 1990 we would use the `>` operator combined with the date in string format.
+```sql
+SELECT name FROM users WHERE birth_date > '1990-01-01'
+```
 
 You can **match a several distinct of possibilities** with the `WHERE` command by combining it with `IN` command which checks if a records value matches a list of possibilities. In the below example, if the value of `name` is `IN` the list submitted in the parentheses then the `age` field of that record will be displayed. 
 ```sql
@@ -237,8 +240,8 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDg4MjM1MywxMzU4NTg4MjkyLDIxMT
-AxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3
-OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNj
-M4MzcyNTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbLTE4OTM3ODE2MTUsMTM1ODU4ODI5MiwyMT
+EwMTQ4OTYsNjU3MDc5NzM2LC01MDk5NTE4MjEsLTE2ODQxNTY3
+NzksLTI5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLT
+YzODM3MjUxNSwtMTkyMDIwODBdfQ==
 -->
