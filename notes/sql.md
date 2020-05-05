@@ -175,6 +175,8 @@ You can **perform date based comparison operations** using `>` for dates after t
 SELECT name FROM users WHERE birth_date > '1990-01-01'
 ```
 
+You can **combine **
+
 You can **match a several distinct of possibilities** with the `WHERE` command by combining it with `IN` command which checks if a records value matches a list of possibilities. In the below example, if the value of `name` is `IN` the list submitted in the parentheses then the `age` field of that record will be displayed. 
 ```sql
 SELECT age FROM users WHERE name IN ('James', 'John', 'Joe', 'Jackie')
@@ -190,12 +192,12 @@ You can **match a range of numeric values** by using the `BETWEEN` command for a
 SELECT name FROM users WHERE age BETWEEN 25 AND 34
 ```
 
+### Numeric Operations
+
 You can **execute numeric operations on output data** by including calculations as part of the `SELECT` query. You can use the `+`, `-`, `/`, `*` and `%` operators inside of the `SELECT` query. For example, if you were getting the areas of some countries that where thousands of kilometers square, you could rational those numbers by dividing them by `1000` within your query. This will then return the areas divided by that number.
 ```sql
 SELECT area/1000 FROM countries 
 ```
-
-### Numeric Operations
 
 You can **chain numeric operations** in a long form clause.
 ```sql
@@ -240,8 +242,8 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTM3ODE2MTUsMTM1ODU4ODI5MiwyMT
-EwMTQ4OTYsNjU3MDc5NzM2LC01MDk5NTE4MjEsLTE2ODQxNTY3
-NzksLTI5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLT
-YzODM3MjUxNSwtMTkyMDIwODBdfQ==
+eyJoaXN0b3J5IjpbLTk2NTIwNTM2OSwxMzU4NTg4MjkyLDIxMT
+AxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3
+OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNj
+M4MzcyNTE1LC0xOTIwMjA4MF19
 -->
