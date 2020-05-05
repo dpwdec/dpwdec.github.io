@@ -180,7 +180,7 @@ You can **combine `WHERE` clauses** using the `AND` command between comparison c
 SELECT name FROM users WHERE age > 40 AND name = 'Jake'
 ```
 
-You can **match at least one `WHERE` clause** using the `OR` operator.
+You can **match at least one `WHERE` clause** using the `OR` operator. Any record that matches one of these clauses will be returned.
 ```sql
 SELECT name FROM users WHERE age > 40 OR name = 'Jake'
 ```
@@ -250,8 +250,8 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTMzMjQ1NDQsLTU5NzYyNzUwMiwxMz
-U4NTg4MjkyLDIxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgy
-MSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMT
-cxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbMjcyMDQ2MDg3LC01OTc2Mjc1MDIsMTM1OD
+U4ODI5MiwyMTEwMTQ4OTYsNjU3MDc5NzM2LC01MDk5NTE4MjEs
+LTE2ODQxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MT
+kxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ==
 -->
