@@ -77,7 +77,11 @@ ORDER BY age
 
 It is customary to **split long `SELECT` clause columns across new line breaks** with the **column names indented with a tab**.
 ```sql
-
+SELECT
+  name,
+  age,
+  height / 10
+FROM users
 ```
 
 ### Insertion
@@ -186,7 +190,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODYxMDI0LC01MDk5NTE4MjEsLTE2OD
-QxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgz
-NDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ==
+eyJoaXN0b3J5IjpbLTE4NTc1MDUxNjEsLTUwOTk1MTgyMSwtMT
+Y4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3
+ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
 -->
