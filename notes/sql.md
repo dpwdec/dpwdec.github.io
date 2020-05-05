@@ -125,6 +125,8 @@ You can also **execute numeric operations using table data**. For example, inste
 SELECT area/population FROM countries
 ```
 
+
+
 ## Case Sensitivity
 
 Most **SQL commands and case insensitive**. This means you *can* write your SQL queries using lowercase, however, its recommended to avoid this as it makes your queries much less readable and creates difficulties when you do have to deal with the case sensitivity of table names and values.
@@ -141,6 +143,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MT
-kxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ==
+eyJoaXN0b3J5IjpbMTkwNDU4MzU1OCwtMjk3OTI3NzY2LDE0OD
+Q5MTg0MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4
+MF19
 -->
