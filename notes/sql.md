@@ -153,7 +153,7 @@ The `WHERE` command supports a variety of comparison operators combined with tab
 - `<=` - less than or equal to
 - `!=` - not equal to (this can also be communicated with `<>`)
 
-To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In the below example this query will display every column for each record the `name` value of which is "James".
+To **select a specific record based on a column value** use the `WHERE` command with `=` and then the value. In the below example this query will display every column for each record the `name` value of which is "James". **String queries are case insensitive.**
 ```sql
 SELECT * FROM users WHERE name = 'James'
 ```
@@ -233,8 +233,8 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDY3ODQyMCwxMzU4NTg4MjkyLDIxMT
-AxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3
-OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNj
-M4MzcyNTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbOTU0ODU5NDcyLDEzNTg1ODgyOTIsMjExMD
+E0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5
+LC0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4MzQwLC02Mz
+gzNzI1MTUsLTE5MjAyMDgwXX0=
 -->
