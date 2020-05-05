@@ -95,6 +95,11 @@ You can **combine column and record selection**. Below example shows he ages of 
 SELECT age WHERE name = 'James'
 ```
 
+You can **combine `WHERE` with other logical operators** like `>` greater than and `<` less than. Below, the query selects all records with an a
+```sql
+SELECT name WHERE age > 20
+```
+
 You can **match a several distinct of possibilities** with the `WHERE` command by combining it with `IN` command which checks if a records value matches a list of possibilities. In the below example, if the value of `name` is `IN` the list submitted in the parentheses then the `age` field of that record will be displayed. 
 ```sql
 SELECT age WHERE name IN ('James', 'John', 'Joe', 'Jackie')
@@ -126,6 +131,6 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDkxODQyNCwxNzE5MTc4MzQwLC02Mz
-gzNzI1MTUsLTE5MjAyMDgwXX0=
+eyJoaXN0b3J5IjpbMjEyMjU0MjM1MSwxNDg0OTE4NDI0LDE3MT
+kxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ==
 -->
