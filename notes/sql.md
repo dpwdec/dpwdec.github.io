@@ -104,7 +104,7 @@ SELECT name FROM users WHERE age > 20
 
 You can **match a several distinct of possibilities** with the `WHERE` command by combining it with `IN` command which checks if a records value matches a list of possibilities. In the below example, if the value of `name` is `IN` the list submitted in the parentheses then the `age` field of that record will be displayed. 
 ```sql
-SELECT age WHERE name IN ('James', 'John', 'Joe', 'Jackie')
+SELECT age FROM users WHERE name IN ('James', 'John', 'Joe', 'Jackie')
 ```
 
 You can also **match number values** using `IN` by omitting the quote marks. Below, the query returns the `name`s of users with `age` exactly 25 and 34.
@@ -148,7 +148,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTE5MTU5MiwtMTY4NDE1Njc3OSwtMj
+eyJoaXN0b3J5IjpbLTkwMjU5NDY3NiwtMTY4NDE1Njc3OSwtMj
 k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
 NTE1LC0xOTIwMjA4MF19
 -->
