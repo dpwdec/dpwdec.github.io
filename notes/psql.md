@@ -69,7 +69,12 @@ To **connect to a database** use the `connect` method with the symbol `dbname` a
 connection = PG.connect(dbname: 'my_database')
 ```
 
-You can **execute arbitrary SQL commands on your database** using the `PG:Connection` object's `exec` method. This takes a SQL in 
+You can **execute arbitrary SQL commands on your database** using the `PG:Connection` object's `exec` method. This takes a SQL in the form of the string, executes it on the database and returns a `PG::Result` object.
+```ruby
+result = connection.exec('SELECT * FROM my_table;')
+```
+
+The `PG::Result` object can be iterated through using the `each` method and returns 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODMzMzk3XX0=
+eyJoaXN0b3J5IjpbMjA3NTg3OTczMF19
 -->
