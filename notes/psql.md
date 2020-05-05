@@ -56,7 +56,10 @@ To **display a list of columns from your table** use the `\d+` command followed 
 $ \d+ <table name>
 ```
 
+## Connecting to Postgres with Ruby
+
+Ruby requiresconnect to a postgres database you should use the `PG` gem.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNTEyNzg3MF19
+eyJoaXN0b3J5IjpbLTIyMDAzNzg0XX0=
 -->
