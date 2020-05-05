@@ -22,10 +22,10 @@ Relational databases also implement a form of **commitment**. This means that th
 
 Relational databases also follow a set of **integrity rules** that ensure data is kept consistent. For example, one integrity rule might be that you cannot have a duplicated row in a table. Furthermore relational databases can **store access procedures** so that need not be re-written multiple times and can be implemented in specific ways.
 
-
+To manage multiple applications or user accessing data simultaneously relational databases have a **locking** function that stops users from accessing database elements if they are being updated. 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzEzNDQ3N119
+eyJoaXN0b3J5IjpbLTE1OTc3NzkyMjRdfQ==
 -->
