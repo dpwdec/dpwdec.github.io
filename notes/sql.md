@@ -216,9 +216,14 @@ SELECT * FROM users WHERE birth_date BETWEEN '1991-01-01' AND '2000-01-01'
 
 ### Finding Patterns with `LIKE`
 
-The SQL `LIKE` command is used for **matching string patterns** in your database. The match criteria for these queries should come as strings. They **use the special character `%` percent to indicate any number of characters**. In the example below, the query selects all users whose name starts with a `'J'` followed by any number of different characters.
+The SQL `LIKE` command is used for **matching string patterns** in your database. The match criteria for these queries should come as strings. They **use the special character `%` percent to indicate any number of characters**. These **matching patterns are case insensitive.** In the example below, the query selects all users whose name starts with a `'J'` followed by any number of different characters.
 ```sql
 SELECT * FROM users WHERE name LIKE 'J%'
+```
+
+The **`%` sign can be anywhere in the `LIKE` query**.
+```sql
+-- return records
 ```
 
 ### Numeric Operations
@@ -296,7 +301,7 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjAzNzkwNiwtODg1OTc5NDIwLC0xMz
+eyJoaXN0b3J5IjpbLTM0NTE2NDAwNCwtODg1OTc5NDIwLC0xMz
 k0MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4
 NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMj
 ExMDE0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2
