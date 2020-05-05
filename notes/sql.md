@@ -201,6 +201,8 @@ You can **match a range of numeric values** by using the `BETWEEN` command for a
 SELECT name FROM users WHERE age BETWEEN 25 AND 34
 ```
 
+If 
+
 ### Numeric Operations
 
 You can **execute numeric operations on output data** by including calculations as part of the `SELECT` query. You can use the `+`, `-`, `/`, `*` and `%` operators inside of the `SELECT` query. For example, if you were getting the areas of some countries that where thousands of kilometers square, you could rational those numbers by dividing them by `1000` within your query. This will then return the areas divided by that number.
@@ -276,10 +278,10 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTMwMTYxNywtMTM5NDM2MTM3Niw1Mj
-UzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2ODcsLTIwNDk0Mjc4
-MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5Niw2NT
-cwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3
-NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC
-0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbLTEwOTg1NDkwMDAsLTEzOTQzNjEzNzYsNT
+I1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3
+ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5MiwyMTEwMTQ4OTYsNj
+U3MDc5NzM2LC01MDk5NTE4MjEsLTE2ODQxNTY3NzksLTI5Nzky
+Nzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNS
+wtMTkyMDIwODBdfQ==
 -->
