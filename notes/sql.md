@@ -57,7 +57,7 @@ $ \d+ <table name>
 
 ## Table Commands
 
-A single SQL statement can be **compressed to a single line or spread over multiple consecutive lines**. The following would be a valid query with *or* without new line breaks.
+A single SQL statement can be **compressed to a single line or spread over multiple consecutive lines**. The following would be a valid query with *or* without new line breaks. Tabs and white spaces are also ignored when writing SQL queries.
 ```sql
 SELECT name, age
 FROM users
@@ -85,7 +85,7 @@ VALUES (4, 'some value')
 ```
 
 ### Retrieval
-
+The main statements for SQL retrieval queries are `SELECT`, `FROM`, `WHERE` and `SORT BY`
 
 You can use the `SELECT` command to **specify a column of data to retrieve** from a table and the `FROM` command to **specify which table you want to retrieve data from**. This can be combined with the `WHERE` command which is used **specify a value in a column to match** as a way to find a record.
 
@@ -165,7 +165,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzgwMTcwMywtMTY4NDE1Njc3OSwtMj
-k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
-NTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbLTE3NjQ0MTg5NDksLTE2ODQxNTY3NzksLT
+I5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3
+MjUxNSwtMTkyMDIwODBdfQ==
 -->
