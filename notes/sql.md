@@ -75,6 +75,11 @@ FROM users
 ORDER BY age
 ```
 
+It is customary to **split long `SELECT` clause columns across new line breaks** with the **column names indented with a tab**.
+```sql
+
+```
+
 ### Insertion
 
 To **insert a value into a table** use the `INSERT INTO` command combined with the `VALUES` command. There are two ways to accomplish this insertion. The first uses **implicit column order** to insert values. In the example below the arguments in `VALUES` will be inserted into `my_table` with the first argument of `4` going into column 1 of the table and second argument of `'some value'` into column 2.
@@ -150,6 +155,11 @@ You can **execute numeric operations on output data** by including calculations 
 SELECT area/1000 FROM countries 
 ```
 
+You can **chain numeric operations** in a long form clause.
+```sql
+SELECT area * 1000 + 10 FROM countries
+```
+
 You can also **execute numeric operations using table data**. For example, instead of dividing area by a fixed number of `1000` we could divide by the `population` field of each record to see how much space each person in the country gets.
 ```sql
 SELECT area/population FROM countries
@@ -176,7 +186,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTA5NjIwOCwtNTA5OTUxODIxLC0xNj
-g0MTU2Nzc5LC0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4
-MzQwLC02MzgzNzI1MTUsLTE5MjAyMDgwXX0=
+eyJoaXN0b3J5IjpbMTc1ODYxMDI0LC01MDk5NTE4MjEsLTE2OD
+QxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgz
+NDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ==
 -->
