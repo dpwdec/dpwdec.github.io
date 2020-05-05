@@ -129,7 +129,7 @@ SELECT area/population FROM countries
 
 You can **sort data output** using the `ORDER BY` command followed by a column field. This will then sort the data output based on that field.
 ```sql
-SELECT name FROM
+SELECT name, age FROM users ORDER BY name
 ```
 
 ## Case Sensitivity
@@ -148,7 +148,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTU5MzA3NiwtMTY4NDE1Njc3OSwtMj
-k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
-NTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbOTY2MTAyMTksLTE2ODQxNTY3NzksLTI5Nz
+kyNzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUx
+NSwtMTkyMDIwODBdfQ==
 -->
