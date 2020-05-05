@@ -130,6 +130,8 @@ SELECT name FROM users WHERE age <= 20;
 SELECT name FROM users WHERE age != 20
 ```
 
+### Dates
+
 You can **perform date based comparison operations** using `>` for dates after the argument and `<` for dates before the argument and by submitting dates as strings in the form `%Y-%M-%D`. So if we wanted to match with all records with a `birth_date` after 1990 we would use the `>` operator combined with the date in string format.
 ```sql
 SELECT name FROM users WHERE birth_date > '1990-01-01'
@@ -207,6 +209,11 @@ This same query can be written using conditionals but the `BETWEEN` query makes 
 SELECT name FROM users WHERE age >= 25 AND age <= 34
 ```
 
+The `BETWEEN` command can also be used with date ranges. Dates should again be submitted in their string format.
+```sql
+SELECT * FROM users WHERE birth_date BETWEEN '1991-01-01' AND '2000-01-01'
+```
+
 ### Numeric Operations
 
 You can **execute numeric operations on output data** by including calculations as part of the `SELECT` query. You can use the `+`, `-`, `/`, `*` and `%` operators inside of the `SELECT` query. For example, if you were getting the areas of some countries that where thousands of kilometers square, you could rational those numbers by dividing them by `1000` within your query. This will then return the areas divided by that number.
@@ -282,10 +289,10 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTk3OTQyMCwtMTM5NDM2MTM3Niw1Mj
-UzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2ODcsLTIwNDk0Mjc4
-MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5Niw2NT
-cwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3
-NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC
-0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbLTE0Mzc3MzE4MzgsLTg4NTk3OTQyMCwtMT
+M5NDM2MTM3Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2
+ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLD
+IxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1
+Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MC
+wtNjM4MzcyNTE1LC0xOTIwMjA4MF19
 -->
