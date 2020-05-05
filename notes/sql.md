@@ -285,6 +285,13 @@ You can **sort data output** using the `ORDER BY` command followed by a column f
 SELECT name, age FROM users ORDER BY name
 ```
 
+## Deletion
+
+You can **delete a record from a table** using the `DELETE` command combined with the `WHERE` command to delete a specific record.
+```sql
+DELETE FRO
+```
+
 ## Case Sensitivity
 
 Most **SQL commands and case insensitive**. This means you *can* write your SQL queries using lowercase, however, its recommended to avoid this as it makes your queries much less readable and creates difficulties when you do have to deal with the case sensitivity of table names and values.
@@ -306,9 +313,10 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMz
-A5Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5
-MiwyMTEwMTQ4OTYsNjU3MDc5NzM2LC01MDk5NTE4MjEsLTE2OD
-QxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgz
-NDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ==
+eyJoaXN0b3J5IjpbLTE5NzY3MzIxNjMsNTI1MzE2Nzk1LDIzNz
+Q5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1
+MDIsMTM1ODU4ODI5MiwyMTEwMTQ4OTYsNjU3MDc5NzM2LC01MD
+k5NTE4MjEsLTE2ODQxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4
+NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ
+==
 -->
