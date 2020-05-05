@@ -185,17 +185,19 @@ You can **match at least one `WHERE` clause** using the `OR` operator. Any recor
 SELECT * FROM users WHERE age > 40 OR name = 'Jake'
 ```
 
-Logical operators also have an order of operations. **`AND` always takes precedence over `OR`.**  In the example below the query will returns records if the `age` is great than `40` *or* if the record's `name` is 'Jake' *and* the person was born before 2010.
+Logical operators also have an order of operations. **`AND` always takes precedence over `OR`.**  In the example below the query will returns records if the `age` is great than `40` *or* if the record's `name` is `'Jake'` *and* the person was born before `2010`.
 ```sql
 select * FROM users WHERE age > 40 OR 
 name = 'Jake' AND birth_date < '2010-01-01'
 ```
 
-You can **change the order of logical operations** using parentheses. The following 
+You can **change the order of logical operations** using parentheses. The following  would first match a record the `age` of which is great than `40` *or* with a `name` that is `'Jake'` and then only return it if the `birth_date` is also before `2010`.
 ```sql
 select * FROM users WHERE (age > 40 OR name = 'Jake') AND 
 birth_date < '2010-01-01'
 ```
+
+It's recommended that you use parentheses anyway even when they don't change the order f
 
 You can **match a several distinct of possibilities** with the `WHERE` command by combining it with `IN` command which checks if a records value matches a list of possibilities. In the below example, if the value of `name` is `IN` the list submitted in the parentheses then the `age` field of that record will be displayed. 
 ```sql
@@ -262,8 +264,9 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMz
-U4NTg4MjkyLDIxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgy
-MSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMT
-cxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbLTEyNjc2OTYwMTQsLTIwNDk0Mjc4MzYsLT
+U5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5Niw2NTcwNzk3
+MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2LD
+E0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIw
+MjA4MF19
 -->
