@@ -164,6 +164,11 @@ You can **chain numeric operations** in a long form clause.
 SELECT area * 1000 + 10 FROM countries
 ```
 
+Numeric operations in SQL also **support `()` parentheses** for controlling expression order.
+```sql
+SELECT (area + 20) * 100 FROM countries
+```
+
 You can also **execute numeric operations using table data**. For example, instead of dividing area by a fixed number of `1000` we could divide by the `population` field of each record to see how much space each person in the country gets.
 ```sql
 SELECT area/population FROM countries
@@ -190,7 +195,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc1MDUxNjEsLTUwOTk1MTgyMSwtMT
-Y4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3
-ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbNjU3MDc5NzM2LC01MDk5NTE4MjEsLTE2OD
+QxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgz
+NDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ==
 -->
