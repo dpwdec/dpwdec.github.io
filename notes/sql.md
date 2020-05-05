@@ -129,7 +129,7 @@ You can **output a column with specified name** using the `AS` keyword. The exam
 SELECT name AS alias FROM users
 ```
 
-**Multiple word `AS` commands must be contained in `'` quote marks**:
+**Multiple word `AS` commands must be contained in `'` quote marks** otherwise you will get a syntax error:
 ```sql
 SELECT name AS 'my alias' FROM users
 ```
@@ -179,14 +179,14 @@ Numeric operations in SQL also **support `()` parentheses** for controlling expr
 SELECT (area + 10) * 1000 FROM countries
 ```
 
-It's useful to use `AS` to rename numeric queries based on what the calculation actually represents.
-```sql
-SELECT gdp/population AS 'per capita gdp' FROM countries
-```
-
 You can also **execute numeric operations using table data**. For example, instead of dividing area by a fixed number of `1000` we could divide by the `population` field of each record to see how much space each person in the country gets.
 ```sql
 SELECT area/population FROM countries
+```
+
+It's useful to use `AS` to rename numeric queries based on what the calculation actually represents.
+```sql
+SELECT gdp/population AS 'per capita gdp' FROM countries
 ```
 
 You can **sort data output** using the `ORDER BY` command followed by a column field. This will then sort the data output based on that field. Below, the query selects `name` and `age` from and then orders it by the name field.
@@ -210,7 +210,7 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjY5OTAyNyw2NTcwNzk3MzYsLTUwOT
-k1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0
-MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIwMjA4MF19
+eyJoaXN0b3J5IjpbMjExMDE0ODk2LDY1NzA3OTczNiwtNTA5OT
+UxODIxLC0xNjg0MTU2Nzc5LC0yOTc5Mjc3NjYsMTQ4NDkxODQy
+NCwxNzE5MTc4MzQwLC02MzgzNzI1MTUsLTE5MjAyMDgwXX0=
 -->
