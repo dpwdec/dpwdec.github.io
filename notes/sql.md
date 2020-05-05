@@ -68,7 +68,7 @@ VALUES (4, 'some value');
 
 ### Retrieval
 
-You can use the `SELECT` command to **retrieve data from a table** and the `FROM` command to specify wh
+You can use the `SELECT` command to **specify a column of data to retrieve** from a table and the `FROM` command to **specify which table you want to retrieve data from**. 
 
 ## Case Sensitivity
 
@@ -86,5 +86,5 @@ You should **submit `varchar` string type values inside single `'` quote marks**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDQ0MTg3Ml19
+eyJoaXN0b3J5IjpbMzI2OTAzMDE2XX0=
 -->
