@@ -311,6 +311,11 @@ You can **reserve the sorting order** by appending the `DESC` to the end of the 
 SELECT * FROM users ORDER BY name DESC
 ```
 
+To **order results based on multiple fields** separate order fields by a `,` comma. The **priority of ordering is evaluated from left to right**. 
+```sql
+SELECT * FROM users ORDER BY age, name
+```
+
 ## Updating
 
 You can **update a database record** using the `UPDATE` and `SET` methods. The `UPDATE` is followed by a table name and the `SET` command specifies a table column to update. This can be combined with selection methods with `WHERE` to specify particular records to update.
@@ -346,11 +351,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTU1ODk5NTUsMTg1NDQ2OTc4LDkzMz
-g1NTMwNiwtMTQwMDM0MDksLTEwMjgzNTA2MTUsLTg4NTk3OTQy
-MCwtMTM5NDM2MTM3Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NT
-IzMDk2ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4
-MjkyLDIxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMT
-Y4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3
-ODM0MF19
+eyJoaXN0b3J5IjpbOTYyODE0MjEwLC0xNjU1NTg5OTU1LDE4NT
+Q0Njk3OCw5MzM4NTUzMDYsLTE0MDAzNDA5LC0xMDI4MzUwNjE1
+LC04ODU5Nzk0MjAsLTEzOTQzNjEzNzYsNTI1MzE2Nzk1LDIzNz
+Q5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1
+MDIsMTM1ODU4ODI5MiwyMTEwMTQ4OTYsNjU3MDc5NzM2LC01MD
+k5NTE4MjEsLTE2ODQxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4
+NDI0XX0=
 -->
