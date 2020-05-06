@@ -52,10 +52,23 @@ A **one to one** relationship encompasses direct relationships between an object
 
 ### One to many relationship
 
-A **one to many relationship** describes a situation in which one record in a table can be associated with *one or more* records in another table. An example of this would be a `class` and its `students`. You will only have one `april_2020` class but that class might encompass many students who are all *members* of that class. In this case we would place a **foreign key in the table with the many relationship** so that in our table 
+A **one to many relationship** describes a situation in which one record in a table can be associated with *one or more* records in another table. An example of this would be a `class` and its `students`. You will only have one `april_2020` class but that class might encompass many students who are all *members* of that class. In this case we would place a **foreign key in the table with the many relationship** so that in our table that tracks `students` each member would have a field that records the `class` they are a member of as a foreign key that points to the singular class.
+
+`class` database:
+
+| id | class_name |
+| --- | --- |
+| 1 | april_2020
+| 2 | may_2020 |
+
+`students` database:
+
+| id | name | class_id |
+| --- | --- | --- |
+| 1 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzEwMzE5NywyMzMxMDgxNjgsMzUzND
-UzMjY3XX0=
+eyJoaXN0b3J5IjpbLTE5NjA2NjY4MTcsMjMzMTA4MTY4LDM1Mz
+Q1MzI2N119
 -->
