@@ -316,7 +316,7 @@ To **order results based on multiple fields** separate order fields by a `,` com
 SELECT * FROM users ORDER BY age, name
 ```
 
-You can **add the `DESC` keyword**
+You can **add the `DESC` or  keyword** 
 
 ## Updating
 
@@ -353,11 +353,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0NDAwMjMzLC0xNjU1NTg5OTU1LDE4NT
-Q0Njk3OCw5MzM4NTUzMDYsLTE0MDAzNDA5LC0xMDI4MzUwNjE1
-LC04ODU5Nzk0MjAsLTEzOTQzNjEzNzYsNTI1MzE2Nzk1LDIzNz
-Q5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1
-MDIsMTM1ODU4ODI5MiwyMTEwMTQ4OTYsNjU3MDc5NzM2LC01MD
-k5NTE4MjEsLTE2ODQxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4
-NDI0XX0=
+eyJoaXN0b3J5IjpbLTc2ODQzMDk1NiwtMTY1NTU4OTk1NSwxOD
+U0NDY5NzgsOTMzODU1MzA2LC0xNDAwMzQwOSwtMTAyODM1MDYx
+NSwtODg1OTc5NDIwLC0xMzk0MzYxMzc2LDUyNTMxNjc5NSwyMz
+c0OTg2ODMsMTQ1MjMwOTY4NywtMjA0OTQyNzgzNiwtNTk3NjI3
+NTAyLDEzNTg1ODgyOTIsMjExMDE0ODk2LDY1NzA3OTczNiwtNT
+A5OTUxODIxLC0xNjg0MTU2Nzc5LC0yOTc5Mjc3NjYsMTQ4NDkx
+ODQyNF19
 -->
