@@ -69,8 +69,11 @@ A **one to many relationship** describes a situation in which one record in a ta
 | 2 | Dan | 1 |
 | 3 | Dely | 2 |
 
+### Many to many relationship
+
+A **many to many relationship** occurs when one record can be associated with many other records and many other records can be associated with that record.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzA5OTg0MCwyMzMxMDgxNjgsMzUzND
+eyJoaXN0b3J5IjpbMTI4NTIxNTAzOSwyMzMxMDgxNjgsMzUzND
 UzMjY3XX0=
 -->
