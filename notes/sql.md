@@ -245,6 +245,11 @@ SELECT * FROM users WHERE name LIKE '____k' OR name LIKE '%ani%'
 -- check for users whose name does not contain e
 SELECT * FROM users WHERE name NOT LIKE '%e%'
 ```
+
+### Matching with `REGEXP`
+
+You can **use regular expressions** in SQL by invoking the `
+
 ### Numeric Operations
 
 You can **execute numeric operations on output data** by including calculations as part of the `SELECT` query. You can use the `+`, `-`, `/`, `*` and `%` operators inside of the `SELECT` query. For example, if you were getting the areas of some countries that where thousands of kilometers square, you could rational those numbers by dividing them by `1000` within your query. This will then return the areas divided by that number.
@@ -320,11 +325,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzA3NTExNSwtMTQwMDM0MDksLTEwMj
-gzNTA2MTUsLTg4NTk3OTQyMCwtMTM5NDM2MTM3Niw1MjUzMTY3
-OTUsMjM3NDk4NjgzLDE0NTIzMDk2ODcsLTIwNDk0Mjc4MzYsLT
-U5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5Niw2NTcwNzk3
-MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2LD
-E0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIw
-MjA4MF19
+eyJoaXN0b3J5IjpbNTUxODg0MzM3LC0xNDAwMzQwOSwtMTAyOD
+M1MDYxNSwtODg1OTc5NDIwLC0xMzk0MzYxMzc2LDUyNTMxNjc5
+NSwyMzc0OTg2ODMsMTQ1MjMwOTY4NywtMjA0OTQyNzgzNiwtNT
+k3NjI3NTAyLDEzNTg1ODgyOTIsMjExMDE0ODk2LDY1NzA3OTcz
+NiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5LC0yOTc5Mjc3NjYsMT
+Q4NDkxODQyNCwxNzE5MTc4MzQwLC02MzgzNzI1MTUsLTE5MjAy
+MDgwXX0=
 -->
