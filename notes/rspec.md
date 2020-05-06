@@ -783,13 +783,27 @@ end
 ```
 Next we create a ruby file that has code for scrubbing our database before each test contained in a method `setup_test_database`.
 ```ruby
+# setup_database.rb
 def setup_test_database
   require 'pg'
   connection = PG.connect(dbname: 'bookmark_manager_test')
   connection.exec("TRUNCATE bookmarks;")
 end
 ```
-Then call th
+Then call this code using an `configure` block in the `spec_helper.rb` file with a `before(:each)` argument so that it runs before *each* test. This way the database will be `TRUNCATE`d before every test, removing data that might cause problems for our test.
+```ruby
+# spec_helper.rb
+
+require_relative './setup_test_database'
+
+ENV['ENVIRONMENT'] = 'test'
+
+RSpec.configure do |config|
+  config.before(:each) do
+    setup_test_database
+  end
+end
+```
 
 ## CLI
 You can run a specific RSpec tests by specifying a line number from the tests that falls within a block. For example if you had a test block which started on line 9, you could run *only* that test by using.
@@ -814,11 +828,11 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTYzOTY5NSwtMTY4MDY1MTE4LDE2OD
-cwMzUwNTAsODUzMTMwNjI0LDc2NjU4Njc3NywyMDA3NTI4NTQx
-LDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Nj
-c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
-NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLD
-U1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIx
-MjU5XX0=
+eyJoaXN0b3J5IjpbLTEyOTMyNzIxOTMsLTE2ODA2NTExOCwxNj
+g3MDM1MDUwLDg1MzEzMDYyNCw3NjY1ODY3NzcsMjAwNzUyODU0
+MSwxOTkxMDMyNjEwLC02NjkzOTYxODUsMjY1NjQxNDU3LC04OD
+Y3NDQ0OTksMTcxNjgyMDQyNCwtOTQ2MTYyOTcxLDE2NzUyMDgw
+NDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYyMjEyMC
+w1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIy
+MTI1OV19
 -->
