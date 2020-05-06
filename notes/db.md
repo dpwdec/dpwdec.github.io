@@ -26,11 +26,14 @@ To manage multiple applications or user accessing data simultaneously relational
 
 ## Entity Relationships
 
-
+There are three main types of relationship that data can have:
+- one to one
+- one to many
+- many to many
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ3NDIwMTUsMzUzNDUzMjY3XX0=
+eyJoaXN0b3J5IjpbLTkwNDg2OTQ0OCwzNTM0NTMyNjddfQ==
 -->
