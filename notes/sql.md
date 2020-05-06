@@ -306,10 +306,12 @@ You can **sort data output** using the `ORDER BY` command followed by a column f
 SELECT name, age FROM users ORDER BY name
 ```
 
-You can **reserve the sorting order** by appending the `DESC` to the end of the query.
+You can **reverse the sorting order** by appending the `DESC` to the end of the query.
 ```sql
 SELECT * FROM users ORDER BY name DESC
 ```
+
+You can *
 
 To **order results based on multiple fields** separate order fields by a `,` comma. The **priority of ordering is evaluated from left to right**. In the query below, the data will first be ordered by `age` and for records with the same age they will be ordered by `name`.
 ```sql
@@ -353,11 +355,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODQzMDk1NiwtMTY1NTU4OTk1NSwxOD
-U0NDY5NzgsOTMzODU1MzA2LC0xNDAwMzQwOSwtMTAyODM1MDYx
-NSwtODg1OTc5NDIwLC0xMzk0MzYxMzc2LDUyNTMxNjc5NSwyMz
-c0OTg2ODMsMTQ1MjMwOTY4NywtMjA0OTQyNzgzNiwtNTk3NjI3
-NTAyLDEzNTg1ODgyOTIsMjExMDE0ODk2LDY1NzA3OTczNiwtNT
-A5OTUxODIxLC0xNjg0MTU2Nzc5LC0yOTc5Mjc3NjYsMTQ4NDkx
-ODQyNF19
+eyJoaXN0b3J5IjpbMjA2MjY5NzMsLTc2ODQzMDk1NiwtMTY1NT
+U4OTk1NSwxODU0NDY5NzgsOTMzODU1MzA2LC0xNDAwMzQwOSwt
+MTAyODM1MDYxNSwtODg1OTc5NDIwLC0xMzk0MzYxMzc2LDUyNT
+MxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4NywtMjA0OTQyNzgz
+NiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMjExMDE0ODk2LDY1Nz
+A3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5LC0yOTc5Mjc3
+NjZdfQ==
 -->
