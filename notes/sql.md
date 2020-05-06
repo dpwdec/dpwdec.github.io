@@ -254,6 +254,10 @@ You can **use regular expressions** in SQL by invoking the `REGEXP` command. Thi
 SELECT * FROM users WHERE name REGEXP '[gj]\w+field$'
 ```
 
+### Absence with `IS NULL`
+
+When a column field is empty for a record in SQL it is described as being `null` You can **return record's which specified empty fields**
+
 ### Numeric Operations
 
 You can **execute numeric operations on output data** by including calculations as part of the `SELECT` query. You can use the `+`, `-`, `/`, `*` and `%` operators inside of the `SELECT` query. For example, if you were getting the areas of some countries that where thousands of kilometers square, you could rational those numbers by dividing them by `1000` within your query. This will then return the areas divided by that number.
@@ -329,11 +333,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzUxNjY5MzMsOTMzODU1MzA2LC0xND
-AwMzQwOSwtMTAyODM1MDYxNSwtODg1OTc5NDIwLC0xMzk0MzYx
-Mzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4NywtMj
-A0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMjExMDE0
-ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5LC
-0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4MzQwLC02Mzgz
-NzI1MTVdfQ==
+eyJoaXN0b3J5IjpbMzM3OTgzMzIxLDkzMzg1NTMwNiwtMTQwMD
+M0MDksLTEwMjgzNTA2MTUsLTg4NTk3OTQyMCwtMTM5NDM2MTM3
+Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2ODcsLTIwND
+k0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5
+Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMj
+k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
+NTE1XX0=
 -->
