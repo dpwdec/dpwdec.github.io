@@ -32,6 +32,8 @@ There are three main types of relationship that data can have:
 - One to many
 - Many to many
 
+### One to one relationship
+
 A **one to one** relationship encompasses direct relationships between an object and the data it stores. For example, a `class` will have one official `group page` and the `group page` will have a one `class` associated with it. In this case the `id` field of one object's database representation can be used as the `id` for another object's database because the relationship is unique.
 
 `class` database:
@@ -48,8 +50,12 @@ A **one to one** relationship encompasses direct relationships between an object
 | 1 | http://www.group-page-april.com |
 | 2 | http://www.group-page-may.com |
 
+### One to many relationship
+
+A **one to many relationship** describes a situation in which one record in a table can be associated with *one or more* records in 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzMTA4MTY4LDM1MzQ1MzI2N119
+eyJoaXN0b3J5IjpbLTE0MjUyNzA2MTgsMjMzMTA4MTY4LDM1Mz
+Q1MzI2N119
 -->
