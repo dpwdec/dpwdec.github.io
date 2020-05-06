@@ -266,7 +266,7 @@ You can **negate the `NULL` command** by inserting `NOT` into it to find records
 SELECT * FROM users WHERE phone_number IS NOT NULL
 ```
 
-### Numeric Operations
+### Numeric Operations with `+ - / * %`
 
 You can **execute numeric operations on output data** by including calculations as part of the `SELECT` query. You can use the `+`, `-`, `/`, `*` and `%` operators inside of the `SELECT` query. For example, if you were getting the areas of some countries that where thousands of kilometers square, you could rational those numbers by dividing them by `1000` within your query. This will then return the areas divided by that number.
 ```sql
@@ -299,7 +299,7 @@ It's useful to use `AS` to rename numeric queries based on what the calculation 
 SELECT gdp/population AS 'per capita gdp' FROM countries
 ```
 
-### Sorting
+### Sorting with `ORDER BY`
 
 You can **sort data output** using the `ORDER BY` command followed by a column field. This will then sort the data output based on that field. Below, the query selects `name` and `age` from and then orders it by the name field.
 ```sql
@@ -341,11 +341,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDQ2OTc4LDkzMzg1NTMwNiwtMTQwMD
-M0MDksLTEwMjgzNTA2MTUsLTg4NTk3OTQyMCwtMTM5NDM2MTM3
-Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2ODcsLTIwND
-k0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5
-Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMj
-k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
-NTE1XX0=
+eyJoaXN0b3J5IjpbMTUxOTQ5MjMyNywxODU0NDY5NzgsOTMzOD
+U1MzA2LC0xNDAwMzQwOSwtMTAyODM1MDYxNSwtODg1OTc5NDIw
+LC0xMzk0MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1Mj
+MwOTY4NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgy
+OTIsMjExMDE0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNj
+g0MTU2Nzc5LC0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4
+MzQwXX0=
 -->
