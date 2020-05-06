@@ -350,7 +350,7 @@ Using the `LIMIT` command you can **set a maximum for the number of results that
 SELECT * FROM users LIMIT 3
 ```
 
-You can **add an offset value as an argument to the `LIMIT` clause** to offset the data that is returned. This **useful for situations like pagination** where you might want to return records `1-3` on page 1 and then records `4-6` on page 2, by using an offset we can create a query for this effect.
+You can **add an offset value as an argument to the `LIMIT` clause** to offset the data that is returned. This **useful for situations like pagination** where you might want to return records `1-3` on page 1 and then records `4-6` on page 2 and then records `7-9` on page 3. By using an offset we can create a query for this effect. In the query below the offset is `6` and the `LIMIT` is `3` so the first six records are skipped and then the next `3` (namely record 7, 8 and 9) are returned.
 ```sql
 SELECT * FROM users LIMIT 6, 3
 ```
@@ -390,11 +390,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4NzIzNTM2LDEwNTc4MzQyNjcsLTc2OD
-QzMDk1NiwtMTY1NTU4OTk1NSwxODU0NDY5NzgsOTMzODU1MzA2
-LC0xNDAwMzQwOSwtMTAyODM1MDYxNSwtODg1OTc5NDIwLC0xMz
-k0MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4
-NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMj
-ExMDE0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2
-Nzc5XX0=
+eyJoaXN0b3J5IjpbLTE1OTkwNjUzMzEsMTA1NzgzNDI2NywtNz
+Y4NDMwOTU2LC0xNjU1NTg5OTU1LDE4NTQ0Njk3OCw5MzM4NTUz
+MDYsLTE0MDAzNDA5LC0xMDI4MzUwNjE1LC04ODU5Nzk0MjAsLT
+EzOTQzNjEzNzYsNTI1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5
+Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5Mi
+wyMTEwMTQ4OTYsNjU3MDc5NzM2LC01MDk5NTE4MjEsLTE2ODQx
+NTY3NzldfQ==
 -->
