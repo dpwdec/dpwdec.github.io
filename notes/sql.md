@@ -350,14 +350,17 @@ Using the `LIMIT` command you can **set a maximum for the number of results that
 SELECT * FROM users LIMIT 3
 ```
 
+You can **add an offset value as an argument to the `LIMIT` clause** to offset the data that is returned. This **useful for situations like pagination** where you might want to return records `1-3` on page 1 and then records `4-6` on page 2, by using an offset we can create a query for this effect.
+```sql
+SELECT * FROM users LIMIT 6, 3
+```
+
 ## Updating
 
 You can **update a database record** using the `UPDATE` and `SET` methods. The `UPDATE` is followed by a table name and the `SET` command specifies a table column to update. This can be combined with selection methods with `WHERE` to specify particular records to update.
 ```sql
 UPDATE users SET name = 'baby' WHERE age < 3
 ```
-
-You can **add an offset value as**
 
 ## Deletion
 
@@ -387,11 +390,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDAxNDE4OSwxMDU3ODM0MjY3LC03Nj
-g0MzA5NTYsLTE2NTU1ODk5NTUsMTg1NDQ2OTc4LDkzMzg1NTMw
-NiwtMTQwMDM0MDksLTEwMjgzNTA2MTUsLTg4NTk3OTQyMCwtMT
-M5NDM2MTM3Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2
-ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLD
-IxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1
-Njc3OV19
+eyJoaXN0b3J5IjpbNTg4NzIzNTM2LDEwNTc4MzQyNjcsLTc2OD
+QzMDk1NiwtMTY1NTU4OTk1NSwxODU0NDY5NzgsOTMzODU1MzA2
+LC0xNDAwMzQwOSwtMTAyODM1MDYxNSwtODg1OTc5NDIwLC0xMz
+k0MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4
+NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMj
+ExMDE0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2
+Nzc5XX0=
 -->
