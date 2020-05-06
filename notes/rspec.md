@@ -759,7 +759,7 @@ This works as intended with the `subject`'s private instance variable being repl
 
 ## Databases
 
-You will often need to test objects or features that interface with database objects. Doing this with the live (production) version of your database would not be ideal as you could easily run into problems with data changing, or changing production data when testing. To solve this problem we can **create a test database** that is scrubbed clean of data before each test and only contains the data relevant to that test.......
+You will often need to test objects or features that interface with database objects. Doing this with the live (production) version of your database would not be ideal as you could easily run into problems with data changing, or changing production data when testing. To solve this problem we can **create a test database** that is scrubbed clean of data before each test and only contains the data relevant to that test.
 
 ## CLI
 You can run a specific RSpec tests by specifying a line number from the tests that falls within a block. For example if you had a test block which started on line 9, you could run *only* that test by using.
@@ -784,11 +784,11 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjgxNjE4OCwtMTY4MDY1MTE4LDE2OD
-cwMzUwNTAsODUzMTMwNjI0LDc2NjU4Njc3NywyMDA3NTI4NTQx
-LDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Nj
-c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
-NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLD
-U1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIx
-MjU5XX0=
+eyJoaXN0b3J5IjpbODU5ODU2NDQ0LC0xNjgwNjUxMTgsMTY4Nz
+AzNTA1MCw4NTMxMzA2MjQsNzY2NTg2Nzc3LDIwMDc1Mjg1NDEs
+MTk5MTAzMjYxMCwtNjY5Mzk2MTg1LDI2NTY0MTQ1NywtODg2Nz
+Q0NDk5LDE3MTY4MjA0MjQsLTk0NjE2Mjk3MSwxNjc1MjA4MDQ0
+LC0xOTMzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2MjIxMjAsNT
+U2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC02MTcyMjEy
+NTldfQ==
 -->
