@@ -343,8 +343,11 @@ FROM users
 ORDER BY bmi DESC
 ```
 
-### Cleaning with `LIMIT`
-
+### Putting a lid on it with `LIMIT`
+Using the `LIMIT` command you can **set a maximum for the number of results that a query can return**. The query below will return a maximum of 3
+```sql
+SELECT * FROM users LIMIT 3
+```
 
 ## Updating
 
@@ -381,11 +384,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjA2NzU5MCwxMDU3ODM0MjY3LC03Nj
-g0MzA5NTYsLTE2NTU1ODk5NTUsMTg1NDQ2OTc4LDkzMzg1NTMw
-NiwtMTQwMDM0MDksLTEwMjgzNTA2MTUsLTg4NTk3OTQyMCwtMT
-M5NDM2MTM3Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2
-ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLD
-IxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1
-Njc3OV19
+eyJoaXN0b3J5IjpbNTk5MTE2MjgwLDEwNTc4MzQyNjcsLTc2OD
+QzMDk1NiwtMTY1NTU4OTk1NSwxODU0NDY5NzgsOTMzODU1MzA2
+LC0xNDAwMzQwOSwtMTAyODM1MDYxNSwtODg1OTc5NDIwLC0xMz
+k0MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4
+NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMj
+ExMDE0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2
+Nzc5XX0=
 -->
