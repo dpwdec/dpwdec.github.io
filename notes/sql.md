@@ -321,7 +321,7 @@ To **order results based on multiple fields** separate order fields by a `,` com
 SELECT * FROM users ORDER BY age, name
 ```
 
-You can **add the `DESC` or  `ASC` keyword before or after multiple data sorting fields**. The query below sorts users by `age
+You can **add the `DESC` or  `ASC` keyword before or after multiple data sorting fields**. The query below sorts users by `age` in descending order and then by `name` in ascending order for users with the same `age`.
 ```sql
 SELECT * FROM users ORDER BY age DESC, name ASC
 ``` 
@@ -361,7 +361,7 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDQwOTU0NiwtNzY4NDMwOTU2LC0xNj
+eyJoaXN0b3J5IjpbMTA1NzgzNDI2NywtNzY4NDMwOTU2LC0xNj
 U1NTg5OTU1LDE4NTQ0Njk3OCw5MzM4NTUzMDYsLTE0MDAzNDA5
 LC0xMDI4MzUwNjE1LC04ODU5Nzk0MjAsLTEzOTQzNjEzNzYsNT
 I1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3
