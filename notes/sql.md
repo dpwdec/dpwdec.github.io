@@ -250,7 +250,8 @@ SELECT * FROM users WHERE name NOT LIKE '%e%'
 
 You can **use regular expressions** in SQL by invoking the `REGEXP` command. This command takes a regular expression literal as a string. It **does not need to be enclosed in `/../`** like regex in Ruby or other programming languages. The query below matches names that begin with either a `g` or a `j` followed by a number of characters and then ends in `field`.
 ```sql
-SELECT * FROM users WHERE name REGEXP '[g,j]\w+field$'
+-- matches the name 'Garfield'
+SELECT * FROM users WHERE name REGEXP '[gj]\w+field$'
 ```
 
 ### Numeric Operations
@@ -328,11 +329,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzODU1MzA2LC0xNDAwMzQwOSwtMTAyOD
-M1MDYxNSwtODg1OTc5NDIwLC0xMzk0MzYxMzc2LDUyNTMxNjc5
-NSwyMzc0OTg2ODMsMTQ1MjMwOTY4NywtMjA0OTQyNzgzNiwtNT
-k3NjI3NTAyLDEzNTg1ODgyOTIsMjExMDE0ODk2LDY1NzA3OTcz
-NiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5LC0yOTc5Mjc3NjYsMT
-Q4NDkxODQyNCwxNzE5MTc4MzQwLC02MzgzNzI1MTUsLTE5MjAy
-MDgwXX0=
+eyJoaXN0b3J5IjpbLTEyNzUxNjY5MzMsOTMzODU1MzA2LC0xND
+AwMzQwOSwtMTAyODM1MDYxNSwtODg1OTc5NDIwLC0xMzk0MzYx
+Mzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4NywtMj
+A0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMjExMDE0
+ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5LC
+0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4MzQwLC02Mzgz
+NzI1MTVdfQ==
 -->
