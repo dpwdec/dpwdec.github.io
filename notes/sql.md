@@ -301,9 +301,14 @@ SELECT gdp/population AS 'per capita gdp' FROM countries
 
 ### Sorting with `ORDER BY`
 
-You can **sort data output** using the `ORDER BY` command followed by a column field. This will then sort the data output based on that field. Below, the query selects `name` and `age` from and then orders it by the name field.
+You can **sort data output** using the `ORDER BY` command followed by a column field. This will then sort the data output based on that field. Below, the query selects `name` and `age` from and then orders it by the name field. `ORDER BY` **sorts data in ascending order** by default.
 ```sql
 SELECT name, age FROM users ORDER BY name
+```
+
+You can **reserve the sorting order** by appending the `DESC` to the end of the query.
+```sql
+
 ```
 
 ## Updating
@@ -341,11 +346,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTQ5MjMyNywxODU0NDY5NzgsOTMzOD
-U1MzA2LC0xNDAwMzQwOSwtMTAyODM1MDYxNSwtODg1OTc5NDIw
-LC0xMzk0MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1Mj
-MwOTY4NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgy
-OTIsMjExMDE0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNj
-g0MTU2Nzc5LC0yOTc5Mjc3NjYsMTQ4NDkxODQyNCwxNzE5MTc4
-MzQwXX0=
+eyJoaXN0b3J5IjpbLTE2NjY4ODA3NDIsMTg1NDQ2OTc4LDkzMz
+g1NTMwNiwtMTQwMDM0MDksLTEwMjgzNTA2MTUsLTg4NTk3OTQy
+MCwtMTM5NDM2MTM3Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NT
+IzMDk2ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4
+MjkyLDIxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMT
+Y4NDE1Njc3OSwtMjk3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3
+ODM0MF19
 -->
