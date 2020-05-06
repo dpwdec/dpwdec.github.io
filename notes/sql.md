@@ -238,9 +238,12 @@ You can **use the special character `_` to match any single character**. It work
 SELECT * FROM users WHERE name LIKE '_g'
 ```
 
-`LIKE` clauses **can be concatenated** with logical operators like `AND` and `OR`.
+`LIKE` clauses **can be concatenated** with logical operators like `AND` and `OR` and with the **negative operator** `NOT`.
 ```sql
+-- use two possible like clauses to match user's name
 SELECT * FROM users WHERE name LIKE '____k' OR name LIKE '%ani%'
+-- check for users whose name does not contain e
+SELECT * FROM users WHERE name NOT LIKE '%e%'
 ```
 ### Numeric Operations
 
@@ -317,7 +320,7 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTk1MjQ2NiwtMTQwMDM0MDksLTEwMj
+eyJoaXN0b3J5IjpbMjA2NzA3NTExNSwtMTQwMDM0MDksLTEwMj
 gzNTA2MTUsLTg4NTk3OTQyMCwtMTM5NDM2MTM3Niw1MjUzMTY3
 OTUsMjM3NDk4NjgzLDE0NTIzMDk2ODcsLTIwNDk0Mjc4MzYsLT
 U5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5Niw2NTcwNzk3
