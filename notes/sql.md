@@ -331,7 +331,7 @@ You can **combined `ORDER BY` commands with numeric expressions**. In the expres
 SELECT * FROM users ORDER BY weight/(height*height) DESC
 ```
 
-You can **`ORDER BY` alias expressions as well** by referencing the alias in as the `ORDER BY` argument.
+You can **`ORDER BY` alias expressions as well** by referencing the alias in as the `ORDER BY` argument. In the query below we define the `weight/(height*height)` as the user's `bmi` and then give that an alias before referencing it in the `ORDER BY` line and sorting in `DESC`ending order.
 ```sql
 SELECT *, weight/(height*height) AS bmi 
 FROM users 
@@ -373,11 +373,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NzE3OTM3OCwxMDU3ODM0MjY3LC03Nj
-g0MzA5NTYsLTE2NTU1ODk5NTUsMTg1NDQ2OTc4LDkzMzg1NTMw
-NiwtMTQwMDM0MDksLTEwMjgzNTA2MTUsLTg4NTk3OTQyMCwtMT
-M5NDM2MTM3Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2
-ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLD
-IxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1
-Njc3OV19
+eyJoaXN0b3J5IjpbMTc5MTEyMzAxLDEwNTc4MzQyNjcsLTc2OD
+QzMDk1NiwtMTY1NTU4OTk1NSwxODU0NDY5NzgsOTMzODU1MzA2
+LC0xNDAwMzQwOSwtMTAyODM1MDYxNSwtODg1OTc5NDIwLC0xMz
+k0MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4
+NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMj
+ExMDE0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2
+Nzc5XX0=
 -->
