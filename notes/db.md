@@ -73,9 +73,9 @@ A **one to many relationship** describes a situation in which one record in a ta
 
 A **many to many relationship** occurs when one record can be associated with many other records and many other records can be associated with that record. For example, we could have a system for tagging students so that teachers can keep track of how the students are progressing with tags like `'needs improvement'` or `'requires more support`'. A single tag could be applied to many `students` and like wise a single student could have many `tags` applied to them thus resulting in a many to many relationship.
 
-To represent this relationship the many to many relationship is decomposed into **two one to many relationships** by having a third table that has a unique id for each association between the `students` and `ta
+To represent this relationship the many to many relationship is decomposed into **two one to many relationships** by having a third table that has a unique id for each association between the `students` and `tags`. This third table, called a **join table** contains the foreign keys for both `students` and `tags` and places them together to associate in a single record to associate them. You can also **add ot**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTU2MjE0OTIsMjMzMTA4MTY4LDM1Mz
-Q1MzI2N119
+eyJoaXN0b3J5IjpbLTM1MjQyMDIwNSwyMzMxMDgxNjgsMzUzND
+UzMjY3XX0=
 -->
