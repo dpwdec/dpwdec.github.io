@@ -32,10 +32,10 @@ There are three main types of relationship that data can have:
 - One to many
 - Many to many
 
-A **one to one** relationship encompasses direct relationships between an object and the data it stores. For example, a `class` will have one official `group page` and the `group page` will have a 
+A **one to one** relationship encompasses direct relationships between an object and the data it stores. For example, a `class` will have one official `group page` and the `group page` will have a one `class` associated with it. In this case the `id` field of one objet can be used as the `id` for another
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTU0MzQ2MiwzNTM0NTMyNjddfQ==
+eyJoaXN0b3J5IjpbNjA1MTc1NDMxLDM1MzQ1MzI2N119
 -->
