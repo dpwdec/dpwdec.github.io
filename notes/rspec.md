@@ -73,7 +73,13 @@ If you `require` a code file from within the `spec_helper` file that is a script
 # spec_code.rb
 ENV['ENVIRONMENT'] = 'rspec'
 ```
-Because this code is placed directly into the body of `spec_code.rb` when we `require` it i
+Because this code is placed directly into the body of `spec_code.rb` when we `require` it in our `spec_helper` file it is automatically run and our `ENV` variable is set.
+```ruby
+# spec_helper.rb
+require './spec_code'
+
+# other spec helper code here
+```
 
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
@@ -850,7 +856,7 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDc5NDAyNiwtMTY4MDY1MTE4LDE2OD
+eyJoaXN0b3J5IjpbLTIxMDI1ODAwMCwtMTY4MDY1MTE4LDE2OD
 cwMzUwNTAsODUzMTMwNjI0LDc2NjU4Njc3NywyMDA3NTI4NTQx
 LDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Nj
 c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
