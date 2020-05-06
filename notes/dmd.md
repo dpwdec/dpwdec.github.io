@@ -55,14 +55,16 @@ a responsibility is what a class knows, or what a class does
 something is a collaborator of class if that collaborator is required for that class to complete its responsibilities.]
 
 when you have a ONE TO MANY relationship you put the foreign key in the MANY table.
+
+
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTI4NTg1MywtNjI2NzM4MTczLC0xOT
-g3NjI5MzQsLTE2NDQ4NDc2OTAsLTY0OTYyMDAzMywtMjA4NTA1
-MTk3MSwtMjAzNTg3OTQwNiwtMTEzMjg0NjEzNywxODAxNTc1Nz
-k4LDE5MTY3OTE3MjUsLTEwOTQ3MjM5NTEsLTEzMzM0ODQwMTld
-fQ==
+eyJoaXN0b3J5IjpbLTE5NDExMDQzMjcsMTk0MTI4NTg1MywtNj
+I2NzM4MTczLC0xOTg3NjI5MzQsLTE2NDQ4NDc2OTAsLTY0OTYy
+MDAzMywtMjA4NTA1MTk3MSwtMjAzNTg3OTQwNiwtMTEzMjg0Nj
+EzNywxODAxNTc1Nzk4LDE5MTY3OTE3MjUsLTEwOTQ3MjM5NTEs
+LTEzMzM0ODQwMTldfQ==
 -->
