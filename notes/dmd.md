@@ -49,12 +49,16 @@ the resistance
 
 crc --> class responsibilities and collaborators
 agile modeling class responsibility collaborator CRC
+
+a responsibility is what a class knows, or what a class does
+
+something is a collaborator of class if that collaborator is required for that class to complete its responsibilities.
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTcyNTAxMSwtMTk4NzYyOTM0LC0xNj
+eyJoaXN0b3J5IjpbLTYyNjczODE3MywtMTk4NzYyOTM0LC0xNj
 Q0ODQ3NjkwLC02NDk2MjAwMzMsLTIwODUwNTE5NzEsLTIwMzU4
 Nzk0MDYsLTExMzI4NDYxMzcsMTgwMTU3NTc5OCwxOTE2NzkxNz
 I1LC0xMDk0NzIzOTUxLC0xMzMzNDg0MDE5XX0=
