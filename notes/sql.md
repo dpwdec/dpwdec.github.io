@@ -311,10 +311,12 @@ You can **reserve the sorting order** by appending the `DESC` to the end of the 
 SELECT * FROM users ORDER BY name DESC
 ```
 
-To **order results based on multiple fields** separate order fields by a `,` comma. The **priority of ordering is evaluated from left to right**. 
+To **order results based on multiple fields** separate order fields by a `,` comma. The **priority of ordering is evaluated from left to right**. In the query below, the data will first be ordered by `age` and for records with the same age they will be ordered by `name`.
 ```sql
 SELECT * FROM users ORDER BY age, name
 ```
+
+
 
 ## Updating
 
@@ -351,7 +353,7 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyODE0MjEwLC0xNjU1NTg5OTU1LDE4NT
+eyJoaXN0b3J5IjpbODg0NDE2NjA4LC0xNjU1NTg5OTU1LDE4NT
 Q0Njk3OCw5MzM4NTUzMDYsLTE0MDAzNDA5LC0xMDI4MzUwNjE1
 LC04ODU5Nzk0MjAsLTEzOTQzNjEzNzYsNTI1MzE2Nzk1LDIzNz
 Q5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1
