@@ -326,10 +326,12 @@ You can **add the `DESC` or  `ASC` keyword before or after multiple data sorting
 SELECT * FROM users ORDER BY age DESC, name ASC
 ``` 
 
-You can **combined `ORDER BY` commands with numeric expressions**. In the expression below, even though the query will not display `height/weight` we can still use an arithmetic expression using these column values to calculate
+You can **combined `ORDER BY` commands with numeric expressions**. In the expression below, even though the query will not display `height/weight` we can still use an arithmetic expression using these column values to calculate a sorting order.
 ```sql
 SELECT * FROM users ORDER BY height/weight DESC
 ```
+
+You can **`ORDER BY` alias expressions as well** b
 
 ## Updating
 
@@ -366,7 +368,7 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDM5NDU4NCwxMDU3ODM0MjY3LC03Nj
+eyJoaXN0b3J5IjpbMTE3MTYwMzU4NCwxMDU3ODM0MjY3LC03Nj
 g0MzA5NTYsLTE2NTU1ODk5NTUsMTg1NDQ2OTc4LDkzMzg1NTMw
 NiwtMTQwMDM0MDksLTEwMjgzNTA2MTUsLTg4NTk3OTQyMCwtMT
 M5NDM2MTM3Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2
