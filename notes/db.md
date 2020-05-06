@@ -71,9 +71,9 @@ A **one to many relationship** describes a situation in which one record in a ta
 
 ### Many to many relationship
 
-A **many to many relationship** occurs when one record can be associated with many other records and many other records can be associated with that record.
+A **many to many relationship** occurs when one record can be associated with many other records and many other records can be associated with that record. For example, we could have a system for tagging students so that teachers can keep track of how the students are progressing with tags like `'needs improvement'` or `'requires more support`'. A single tag could be applied to many students and like wise a single student could have many tags applied to them thus resul
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTIxNTAzOSwyMzMxMDgxNjgsMzUzND
-UzMjY3XX0=
+eyJoaXN0b3J5IjpbOTgzNjYwNDAwLDIzMzEwODE2OCwzNTM0NT
+MyNjddfQ==
 -->
