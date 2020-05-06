@@ -103,6 +103,11 @@ SELECT name AS alias FROM users
 SELECT name AS 'my alias' FROM users
 ```
 
+You can **combined the `AS` combine with the `*` selector** to get all columns *and* your alias columns. The query below is not very useful as all it does is add an extra column that contains the value `10` for each user, however we can replace the `
+```sql
+SELECT *, 10 AS points FROM users
+```
+
 ### Matching with `WHERE`
 
 The `WHERE` command supports a variety of comparison operators combined with table output values. The full list is:
@@ -373,11 +378,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MTEyMzAxLDEwNTc4MzQyNjcsLTc2OD
-QzMDk1NiwtMTY1NTU4OTk1NSwxODU0NDY5NzgsOTMzODU1MzA2
-LC0xNDAwMzQwOSwtMTAyODM1MDYxNSwtODg1OTc5NDIwLC0xMz
-k0MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4
-NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMj
-ExMDE0ODk2LDY1NzA3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2
-Nzc5XX0=
+eyJoaXN0b3J5IjpbLTEzODM4ODgwNDAsMTA1NzgzNDI2NywtNz
+Y4NDMwOTU2LC0xNjU1NTg5OTU1LDE4NTQ0Njk3OCw5MzM4NTUz
+MDYsLTE0MDAzNDA5LC0xMDI4MzUwNjE1LC04ODU5Nzk0MjAsLT
+EzOTQzNjEzNzYsNTI1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5
+Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5Mi
+wyMTEwMTQ4OTYsNjU3MDc5NzM2LC01MDk5NTE4MjEsLTE2ODQx
+NTY3NzldfQ==
 -->
