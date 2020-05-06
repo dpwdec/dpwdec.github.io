@@ -261,7 +261,10 @@ When a column field is empty for a record in SQL it is described as being `null`
 SELECT * FROM users WHERE phone_number IS NULL
 ```
 
-You can **negate the `NULL` command** by inserting `NOT` into it to find records that 
+You can **negate the `NULL` command** by inserting `NOT` into it to find records that do contain information.
+```sql
+SELECT * FROM users WHERE phone_number IS NOT NULL
+```
 
 ### Numeric Operations
 
@@ -338,11 +341,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTU4MTk5NCw5MzM4NTUzMDYsLTE0MD
-AzNDA5LC0xMDI4MzUwNjE1LC04ODU5Nzk0MjAsLTEzOTQzNjEz
-NzYsNTI1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5Njg3LC0yMD
-Q5NDI3ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5MiwyMTEwMTQ4
-OTYsNjU3MDc5NzM2LC01MDk5NTE4MjEsLTE2ODQxNTY3NzksLT
-I5NzkyNzc2NiwxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3
-MjUxNV19
+eyJoaXN0b3J5IjpbMTg1NDQ2OTc4LDkzMzg1NTMwNiwtMTQwMD
+M0MDksLTEwMjgzNTA2MTUsLTg4NTk3OTQyMCwtMTM5NDM2MTM3
+Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2ODcsLTIwND
+k0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5
+Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMj
+k3OTI3NzY2LDE0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4Mzcy
+NTE1XX0=
 -->
