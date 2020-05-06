@@ -65,10 +65,12 @@ A **one to many relationship** describes a situation in which one record in a ta
 
 | id | name | class_id |
 | --- | --- | --- |
-| 1 
+| 1 | Dec | 1 |
+| 2 | Dan | 1 |
+| 3 | Dely | 2 |
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjA2NjY4MTcsMjMzMTA4MTY4LDM1Mz
+eyJoaXN0b3J5IjpbLTE1MDgyMjM2NTksMjMzMTA4MTY4LDM1Mz
 Q1MzI2N119
 -->
