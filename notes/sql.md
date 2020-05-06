@@ -316,7 +316,7 @@ To **order results based on multiple fields** separate order fields by a `,` com
 SELECT * FROM users ORDER BY age, name
 ```
 
-
+You can **add the `DESC` keyword**
 
 ## Updating
 
@@ -353,7 +353,7 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NDE2NjA4LC0xNjU1NTg5OTU1LDE4NT
+eyJoaXN0b3J5IjpbNjI0NDAwMjMzLC0xNjU1NTg5OTU1LDE4NT
 Q0Njk3OCw5MzM4NTUzMDYsLTE0MDAzNDA5LC0xMDI4MzUwNjE1
 LC04ODU5Nzk0MjAsLTEzOTQzNjEzNzYsNTI1MzE2Nzk1LDIzNz
 Q5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1
