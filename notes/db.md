@@ -36,14 +36,14 @@ There are three main types of relationship that data can have:
 
 A **one to one** relationship encompasses direct relationships between an object and the data it stores. For example, a `class` will have one official `group page` and the `group page` will have a one `class` associated with it. In this case the `id` field of one object's database representation can be used as the `id` for another object's database because the relationship is unique.
 
-`class` database:
+`class` table:
 
 | id | class_name |
 | --- | --- |
 | 1 | april_2020
 | 2 | may_2020 |
 
-`group page` database:
+`group page` table:
 
 | class_id | url |
 | --- | --- |
@@ -52,16 +52,16 @@ A **one to one** relationship encompasses direct relationships between an object
 
 ### One to many relationship
 
-A **one to many relationship** describes a situation in which one record in a table can be associated with *one or more* records in another table. An example of this would be a `class` and its `students`. You will only have one `april_2020` class but that class might encompass many students who are all *members* of that class. In this case we would place a **foreign key in the table with the many relationship** so that in our table that tracks `students` each member would have a field that records the `class` they are a member of as a foreign key that points to the singular class.
+A **one to many relationship** describes a situation in which one record in a table can be associated with *one or more* records in another table. An example of this would be a `class` and its `students`. You will only have one `april_2020` class but that class might encompass many students who are all *members* of that class. In this case we would place a **foreign key in the table with the many relationship** so that in our table that tracks `students` each member would have a field that records the `class` they are a member of as a foreign key that points to the singular class. This way the key that points to the unique class can be duplicated in the `students` table while continuing to point to a single entity in the `class` table.
 
-`class` database:
+`class` table:
 
 | id | class_name |
 | --- | --- |
 | 1 | april_2020
 | 2 | may_2020 |
 
-`students` database:
+`students` table:
 
 | id | name | class_id |
 | --- | --- | --- |
@@ -71,6 +71,6 @@ A **one to many relationship** describes a situation in which one record in a ta
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDgyMjM2NTksMjMzMTA4MTY4LDM1Mz
-Q1MzI2N119
+eyJoaXN0b3J5IjpbLTg1NzA5OTg0MCwyMzMxMDgxNjgsMzUzND
+UzMjY3XX0=
 -->
