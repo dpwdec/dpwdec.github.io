@@ -326,6 +326,11 @@ You can **add the `DESC` or  `ASC` keyword before or after multiple data sorting
 SELECT * FROM users ORDER BY age DESC, name ASC
 ``` 
 
+You can **combined `ORDER BY` commands with numeric expressions**. In the expression below, even though the query will not display `height/weight` we can still use an arithmetic expression using these column values to calculate
+```sql
+SELECT * FROM users ORDER BY height/weight DESC
+```
+
 ## Updating
 
 You can **update a database record** using the `UPDATE` and `SET` methods. The `UPDATE` is followed by a table name and the `SET` command specifies a table column to update. This can be combined with selection methods with `WHERE` to specify particular records to update.
@@ -361,11 +366,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzgzNDI2NywtNzY4NDMwOTU2LC0xNj
-U1NTg5OTU1LDE4NTQ0Njk3OCw5MzM4NTUzMDYsLTE0MDAzNDA5
-LC0xMDI4MzUwNjE1LC04ODU5Nzk0MjAsLTEzOTQzNjEzNzYsNT
-I1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3
-ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5MiwyMTEwMTQ4OTYsNj
-U3MDc5NzM2LC01MDk5NTE4MjEsLTE2ODQxNTY3NzksLTI5Nzky
-Nzc2Nl19
+eyJoaXN0b3J5IjpbMTY5NDM5NDU4NCwxMDU3ODM0MjY3LC03Nj
+g0MzA5NTYsLTE2NTU1ODk5NTUsMTg1NDQ2OTc4LDkzMzg1NTMw
+NiwtMTQwMDM0MDksLTEwMjgzNTA2MTUsLTg4NTk3OTQyMCwtMT
+M5NDM2MTM3Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2
+ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLD
+IxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOTk1MTgyMSwtMTY4NDE1
+Njc3OV19
 -->
