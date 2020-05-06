@@ -805,7 +805,13 @@ end
 ```
 Finally within our tests themselves we can add any relevant data.
 ```ruby
+describe Connector do
+  it 'gets database data' do
+    connection = PG.connect(dbname: 'bookmark_manager_test')
 
+      # Add the test data
+      connection.exec("INSERT INTO test (name) VALUES ('Dec');")
+      expect(bookmarks).to include("http://www.makersacademy.com")
 ```
 
 ## CLI
@@ -831,11 +837,11 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODIzMjM0MywtMTY4MDY1MTE4LDE2OD
-cwMzUwNTAsODUzMTMwNjI0LDc2NjU4Njc3NywyMDA3NTI4NTQx
-LDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Nj
-c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
-NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLD
-U1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIx
-MjU5XX0=
+eyJoaXN0b3J5IjpbNTcwNDk4MTMsLTE2ODA2NTExOCwxNjg3MD
+M1MDUwLDg1MzEzMDYyNCw3NjY1ODY3NzcsMjAwNzUyODU0MSwx
+OTkxMDMyNjEwLC02NjkzOTYxODUsMjY1NjQxNDU3LC04ODY3ND
+Q0OTksMTcxNjgyMDQyNCwtOTQ2MTYyOTcxLDE2NzUyMDgwNDQs
+LTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYyMjEyMCw1NT
+Y2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIyMTI1
+OV19
 -->
