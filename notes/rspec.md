@@ -763,11 +763,12 @@ You will often need to test objects or features that interface with database obj
 
 To do this we should: 
 1. Set up a test database
-2. Create an environment variable that tells our application whether we are using the test database or the live database (or some other database).
+2. Create an environment variable and use it to tell our application whether we are using the test database or the live database (or some other database).
+3. Add a script to RSpec that scrubs database data before each test.
 
 To **set up a test database** all we need to do is create a new database that has the same structure as our live database but has a different name. Generally we append the word `_test` to the end of the database name. So if our database was `users` or test database would be `users_test`.
 
-
+We can then **set **
 
 ## CLI
 You can run a specific RSpec tests by specifying a line number from the tests that falls within a block. For example if you had a test block which started on line 9, you could run *only* that test by using.
@@ -792,11 +793,11 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODU1Mzc1NCwtMTY4MDY1MTE4LDE2OD
-cwMzUwNTAsODUzMTMwNjI0LDc2NjU4Njc3NywyMDA3NTI4NTQx
-LDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Nj
-c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
-NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLD
-U1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIx
-MjU5XX0=
+eyJoaXN0b3J5IjpbLTE4Mzc4MDgzMzEsLTE2ODA2NTExOCwxNj
+g3MDM1MDUwLDg1MzEzMDYyNCw3NjY1ODY3NzcsMjAwNzUyODU0
+MSwxOTkxMDMyNjEwLC02NjkzOTYxODUsMjY1NjQxNDU3LC04OD
+Y3NDQ0OTksMTcxNjgyMDQyNCwtOTQ2MTYyOTcxLDE2NzUyMDgw
+NDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYyMjEyMC
+w1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIy
+MTI1OV19
 -->
