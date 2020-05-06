@@ -65,7 +65,10 @@ another_resource = File.open(path + '/../resources/another_resource.json')
 ```
 
 ## Spec Helper
-RSpec's `spec_helper` file **contains many of the configuration options** that RSpec uses to run tests. Any methods of classes and set up that needs to be don
+RSpec's `spec_helper` file **contains many of the configuration options** that RSpec uses to run tests. Any methods of classes and set up that needs to be done for tests should be placed in the `spec_helper.rb` file.
+
+### Scripts
+If you `require` a code file from within the `spec_helper` file that is a script. i.e. It doesn't contain any methods or classes just code placed directly into the body of the file. This code will be run automatically when RSpec starts. But **only once**. This is useful for extracting some au
 
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
@@ -842,7 +845,7 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjE0MjQxLC0xNjgwNjUxMTgsMTY4Nz
+eyJoaXN0b3J5IjpbMjQzNDYxOTQzLC0xNjgwNjUxMTgsMTY4Nz
 AzNTA1MCw4NTMxMzA2MjQsNzY2NTg2Nzc3LDIwMDc1Mjg1NDEs
 MTk5MTAzMjYxMCwtNjY5Mzk2MTg1LDI2NTY0MTQ1NywtODg2Nz
 Q0NDk5LDE3MTY4MjA0MjQsLTk0NjE2Mjk3MSwxNjc1MjA4MDQ0
