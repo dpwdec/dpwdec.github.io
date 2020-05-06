@@ -52,14 +52,17 @@ agile modeling class responsibility collaborator CRC
 
 a responsibility is what a class knows, or what a class does
 
-something is a collaborator of class if that collaborator is required for that class to complete its responsibilities.
+something is a collaborator of class if that collaborator is required for that class to complete its responsibilities.]
+
+when you have a ONE TO MANY relationship you put the foreign key in the MANY table.
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjczODE3MywtMTk4NzYyOTM0LC0xNj
-Q0ODQ3NjkwLC02NDk2MjAwMzMsLTIwODUwNTE5NzEsLTIwMzU4
-Nzk0MDYsLTExMzI4NDYxMzcsMTgwMTU3NTc5OCwxOTE2NzkxNz
-I1LC0xMDk0NzIzOTUxLC0xMzMzNDg0MDE5XX0=
+eyJoaXN0b3J5IjpbMTk0MTI4NTg1MywtNjI2NzM4MTczLC0xOT
+g3NjI5MzQsLTE2NDQ4NDc2OTAsLTY0OTYyMDAzMywtMjA4NTA1
+MTk3MSwtMjAzNTg3OTQwNiwtMTEzMjg0NjEzNywxODAxNTc1Nz
+k4LDE5MTY3OTE3MjUsLTEwOTQ3MjM5NTEsLTEzMzM0ODQwMTld
+fQ==
 -->
