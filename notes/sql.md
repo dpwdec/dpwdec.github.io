@@ -308,7 +308,7 @@ SELECT name, age FROM users ORDER BY name
 
 You can **reserve the sorting order** by appending the `DESC` to the end of the query.
 ```sql
-
+SELECT * FROM users ORDER BY name DESC
 ```
 
 ## Updating
@@ -346,7 +346,7 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjY4ODA3NDIsMTg1NDQ2OTc4LDkzMz
+eyJoaXN0b3J5IjpbLTE2NTU1ODk5NTUsMTg1NDQ2OTc4LDkzMz
 g1NTMwNiwtMTQwMDM0MDksLTEwMjgzNTA2MTUsLTg4NTk3OTQy
 MCwtMTM5NDM2MTM3Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NT
 IzMDk2ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4
