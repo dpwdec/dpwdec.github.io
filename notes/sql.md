@@ -345,7 +345,7 @@ ORDER BY bmi DESC
 
 ### Putting a lid on it with `LIMIT`
 
-Using the `LIMIT` command you can **set a maximum for the number of results that a query can return**. The query below will return a maximum of `3` users.
+Using the `LIMIT` command you can **set a maximum for the number of results that a query can return**. The query below will return a maximum of `3` users. The `LIMIT` command **should always come at the end of your queries.**
 ```sql
 SELECT * FROM users LIMIT 3
 ```
@@ -390,7 +390,7 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTkwNjUzMzEsMTA1NzgzNDI2NywtNz
+eyJoaXN0b3J5IjpbLTE3ODY2NDQyMTUsMTA1NzgzNDI2NywtNz
 Y4NDMwOTU2LC0xNjU1NTg5OTU1LDE4NTQ0Njk3OCw5MzM4NTUz
 MDYsLTE0MDAzNDA5LC0xMDI4MzUwNjE1LC04ODU5Nzk0MjAsLT
 EzOTQzNjEzNzYsNTI1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5
