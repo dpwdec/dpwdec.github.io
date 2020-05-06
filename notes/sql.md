@@ -233,9 +233,9 @@ SELECT * FROM users WHERE name LIKE '%g%'
 SELECT * FROM users WHERE name LIKE 'k%l%e'
 ```
 
-You can **use the special character `_` to match any single character**.
+You can **use the special character `_` to match any single character**. It works the same as `%` but just with singular characters. In the query below a match will be found if the name is exactly 2 characters long and ends in a `'g'`.
 ```sql
-SELECT * FROM users WHERE name LIKE
+SELECT * FROM users WHERE name LIKE '_g'
 ```
 ### Numeric Operations
 
@@ -312,11 +312,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTI1NzYyNCwtMTQwMDM0MDksLTEwMj
-gzNTA2MTUsLTg4NTk3OTQyMCwtMTM5NDM2MTM3Niw1MjUzMTY3
-OTUsMjM3NDk4NjgzLDE0NTIzMDk2ODcsLTIwNDk0Mjc4MzYsLT
-U5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5Niw2NTcwNzk3
-MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2LD
-E0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIw
-MjA4MF19
+eyJoaXN0b3J5IjpbNjIwODgyNDM4LC0xNDAwMzQwOSwtMTAyOD
+M1MDYxNSwtODg1OTc5NDIwLC0xMzk0MzYxMzc2LDUyNTMxNjc5
+NSwyMzc0OTg2ODMsMTQ1MjMwOTY4NywtMjA0OTQyNzgzNiwtNT
+k3NjI3NTAyLDEzNTg1ODgyOTIsMjExMDE0ODk2LDY1NzA3OTcz
+NiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5LC0yOTc5Mjc3NjYsMT
+Q4NDkxODQyNCwxNzE5MTc4MzQwLC02MzgzNzI1MTUsLTE5MjAy
+MDgwXX0=
 -->
