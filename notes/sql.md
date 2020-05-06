@@ -218,7 +218,7 @@ SELECT * FROM users WHERE birth_date BETWEEN '1991-01-01' AND '2000-01-01'
 
 The SQL `LIKE` command is used for **matching string patterns** in your database. The match criteria for these queries should come as strings. These **matching patterns are case insensitive.**
 
-They **use the special character `%` percent to indicate any number of characters**. In the example below, the query selects all users whose name starts with a `'J'` followed by any number of different characters.
+You can **use the special character `%` percent to indicate any number of characters**. In the example below, the query selects all users whose name starts with a `'J'` followed by any number of different characters.
 ```sql
 SELECT * FROM users WHERE name LIKE 'J%'
 ```
@@ -233,6 +233,10 @@ SELECT * FROM users WHERE name LIKE '%g%'
 SELECT * FROM users WHERE name LIKE 'k%l%e'
 ```
 
+You can **use the special character `_` to match any single character**.
+```sql
+SELECT * FROM users WHERE name LIKE
+```
 ### Numeric Operations
 
 You can **execute numeric operations on output data** by including calculations as part of the `SELECT` query. You can use the `+`, `-`, `/`, `*` and `%` operators inside of the `SELECT` query. For example, if you were getting the areas of some countries that where thousands of kilometers square, you could rational those numbers by dividing them by `1000` within your query. This will then return the areas divided by that number.
@@ -308,10 +312,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDAzNDA5LC0xMDI4MzUwNjE1LC04OD
-U5Nzk0MjAsLTEzOTQzNjEzNzYsNTI1MzE2Nzk1LDIzNzQ5ODY4
-MywxNDUyMzA5Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1MDIsMT
-M1ODU4ODI5MiwyMTEwMTQ4OTYsNjU3MDc5NzM2LC01MDk5NTE4
-MjEsLTE2ODQxNTY3NzksLTI5NzkyNzc2NiwxNDg0OTE4NDI0LD
-E3MTkxNzgzNDAsLTYzODM3MjUxNSwtMTkyMDIwODBdfQ==
+eyJoaXN0b3J5IjpbLTc1OTI1NzYyNCwtMTQwMDM0MDksLTEwMj
+gzNTA2MTUsLTg4NTk3OTQyMCwtMTM5NDM2MTM3Niw1MjUzMTY3
+OTUsMjM3NDk4NjgzLDE0NTIzMDk2ODcsLTIwNDk0Mjc4MzYsLT
+U5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5Niw2NTcwNzk3
+MzYsLTUwOTk1MTgyMSwtMTY4NDE1Njc3OSwtMjk3OTI3NzY2LD
+E0ODQ5MTg0MjQsMTcxOTE3ODM0MCwtNjM4MzcyNTE1LC0xOTIw
+MjA4MF19
 -->
