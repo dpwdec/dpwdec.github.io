@@ -781,7 +781,15 @@ else
   # connect to the live database
 end
 ```
-
+Next we create a ruby file that has code for scrubbing our database before each test contained in a method `setup_test_database`.
+```ruby
+def setup_test_database
+  require 'pg'
+  connection = PG.connect(dbname: 'bookmark_manager_test')
+  connection.exec("TRUNCATE bookmarks;")
+end
+```
+Then call th
 
 ## CLI
 You can run a specific RSpec tests by specifying a line number from the tests that falls within a block. For example if you had a test block which started on line 9, you could run *only* that test by using.
@@ -806,7 +814,7 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDEzMDQ3OCwtMTY4MDY1MTE4LDE2OD
+eyJoaXN0b3J5IjpbLTcyNTYzOTY5NSwtMTY4MDY1MTE4LDE2OD
 cwMzUwNTAsODUzMTMwNjI0LDc2NjU4Njc3NywyMDA3NTI4NTQx
 LDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Nj
 c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
