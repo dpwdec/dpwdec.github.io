@@ -68,7 +68,12 @@ another_resource = File.open(path + '/../resources/another_resource.json')
 RSpec's `spec_helper` file **contains many of the configuration options** that RSpec uses to run tests. Any methods of classes and set up that needs to be done for tests should be placed in the `spec_helper.rb` file.
 
 ### Scripts
-If you `require` a code file from within the `spec_helper` file that is a script. i.e. It doesn't contain any methods or classes just code placed directly into the body of the file. This code will be run automatically when RSpec starts. But **only once**. This is useful for extracting some au
+If you `require` a code file from within the `spec_helper` file that is a script. i.e. It doesn't contain any methods or classes just code placed directly into the body of the file. This code will be run automatically when RSpec starts. But **only once**. This is useful for extracting some automatic initial set up out of the `spec_helper` file. For example, our script file might contain the following code that sets up an environment variable:
+```ruby
+# spec_code.rb
+ENV['ENVIRONMENT'] = 'rspec'
+```
+Because this code is placed directly into the body of `spec_code.rb` when we `require` it i
 
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
@@ -845,11 +850,11 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzNDYxOTQzLC0xNjgwNjUxMTgsMTY4Nz
-AzNTA1MCw4NTMxMzA2MjQsNzY2NTg2Nzc3LDIwMDc1Mjg1NDEs
-MTk5MTAzMjYxMCwtNjY5Mzk2MTg1LDI2NTY0MTQ1NywtODg2Nz
-Q0NDk5LDE3MTY4MjA0MjQsLTk0NjE2Mjk3MSwxNjc1MjA4MDQ0
-LC0xOTMzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2MjIxMjAsNT
-U2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC02MTcyMjEy
-NTldfQ==
+eyJoaXN0b3J5IjpbMTUwNDc5NDAyNiwtMTY4MDY1MTE4LDE2OD
+cwMzUwNTAsODUzMTMwNjI0LDc2NjU4Njc3NywyMDA3NTI4NTQx
+LDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Nj
+c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
+NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLD
+U1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIx
+MjU5XX0=
 -->
