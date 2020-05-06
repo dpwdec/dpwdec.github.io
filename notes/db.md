@@ -27,13 +27,15 @@ To manage multiple applications or user accessing data simultaneously relational
 ## Entity Relationships
 
 There are three main types of relationship that data can have:
-- one to one
-- one to many
-- many to many
 
+- One to one
+- One to many
+- Many to many
+
+A **one to one** relationship encompasses direct relationships between an object and the data it stores. For example, a person will only have one first name. This means that the data that relates to the first name can be stored
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDg2OTQ0OCwzNTM0NTMyNjddfQ==
+eyJoaXN0b3J5IjpbMTEyMDExNzI2NCwzNTM0NTMyNjddfQ==
 -->
