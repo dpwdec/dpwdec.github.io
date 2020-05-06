@@ -311,14 +311,20 @@ You can **reverse the sorting order** by appending the `DESC` to the end of the 
 SELECT * FROM users ORDER BY name DESC
 ```
 
-You can *
+You can explicitly state that you want to **order data in ascending order** by using the `ASC` command.
+```sql
+SELECT * FROM users ORDER BY name ASC
+```
 
 To **order results based on multiple fields** separate order fields by a `,` comma. The **priority of ordering is evaluated from left to right**. In the query below, the data will first be ordered by `age` and for records with the same age they will be ordered by `name`.
 ```sql
 SELECT * FROM users ORDER BY age, name
 ```
 
-You can **add the `DESC` or  keyword** 
+You can **add the `DESC` or  `ASC` keyword before or after multiple data sorting fields**. The query below sorts users by `age
+```sql
+SELECT * FROM users ORDER BY age DESC, name ASC
+``` 
 
 ## Updating
 
@@ -355,11 +361,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjY5NzMsLTc2ODQzMDk1NiwtMTY1NT
-U4OTk1NSwxODU0NDY5NzgsOTMzODU1MzA2LC0xNDAwMzQwOSwt
-MTAyODM1MDYxNSwtODg1OTc5NDIwLC0xMzk0MzYxMzc2LDUyNT
-MxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4NywtMjA0OTQyNzgz
-NiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMjExMDE0ODk2LDY1Nz
-A3OTczNiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5LC0yOTc5Mjc3
-NjZdfQ==
+eyJoaXN0b3J5IjpbLTkwNDQwOTU0NiwtNzY4NDMwOTU2LC0xNj
+U1NTg5OTU1LDE4NTQ0Njk3OCw5MzM4NTUzMDYsLTE0MDAzNDA5
+LC0xMDI4MzUwNjE1LC04ODU5Nzk0MjAsLTEzOTQzNjEzNzYsNT
+I1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3
+ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5MiwyMTEwMTQ4OTYsNj
+U3MDc5NzM2LC01MDk5NTE4MjEsLTE2ODQxNTY3NzksLTI5Nzky
+Nzc2Nl19
 -->
