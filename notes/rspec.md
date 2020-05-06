@@ -768,7 +768,12 @@ To do this we should:
 
 To **set up a test database** all we need to do is create a new database that has the same structure as our live database but has a different name. Generally we append the word `_test` to the end of the database name. So if our database was `users` or test database would be `users_test`.
 
-We can then **set **
+We can then **set a testing environment variable** from within our `spec_helper.rb` file, because this runs when we first execute our tests.
+```ruby
+# spec_helper.rb
+ENV['ENVIRONMENT'] = 'test'
+```
+This can used as a conditional in classes that access the database.
 
 ## CLI
 You can run a specific RSpec tests by specifying a line number from the tests that falls within a block. For example if you had a test block which started on line 9, you could run *only* that test by using.
@@ -793,11 +798,11 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzc4MDgzMzEsLTE2ODA2NTExOCwxNj
-g3MDM1MDUwLDg1MzEzMDYyNCw3NjY1ODY3NzcsMjAwNzUyODU0
-MSwxOTkxMDMyNjEwLC02NjkzOTYxODUsMjY1NjQxNDU3LC04OD
-Y3NDQ0OTksMTcxNjgyMDQyNCwtOTQ2MTYyOTcxLDE2NzUyMDgw
-NDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYyMjEyMC
-w1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIy
-MTI1OV19
+eyJoaXN0b3J5IjpbNjU2ODQ4MDkyLC0xNjgwNjUxMTgsMTY4Nz
+AzNTA1MCw4NTMxMzA2MjQsNzY2NTg2Nzc3LDIwMDc1Mjg1NDEs
+MTk5MTAzMjYxMCwtNjY5Mzk2MTg1LDI2NTY0MTQ1NywtODg2Nz
+Q0NDk5LDE3MTY4MjA0MjQsLTk0NjE2Mjk3MSwxNjc1MjA4MDQ0
+LC0xOTMzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2MjIxMjAsNT
+U2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC02MTcyMjEy
+NTldfQ==
 -->
