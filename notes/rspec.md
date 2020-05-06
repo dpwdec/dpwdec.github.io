@@ -774,6 +774,14 @@ We can then **set a testing environment variable** from within our `spec_helper.
 ENV['ENVIRONMENT'] = 'test'
 ```
 This can used as a conditional in classes that access the database.
+```ruby
+if ENV['ENVIRONMENT'] == 'test'
+  # connect to test database
+else
+  # connect to the live database
+end
+```
+
 
 ## CLI
 You can run a specific RSpec tests by specifying a line number from the tests that falls within a block. For example if you had a test block which started on line 9, you could run *only* that test by using.
@@ -798,11 +806,11 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2ODQ4MDkyLC0xNjgwNjUxMTgsMTY4Nz
-AzNTA1MCw4NTMxMzA2MjQsNzY2NTg2Nzc3LDIwMDc1Mjg1NDEs
-MTk5MTAzMjYxMCwtNjY5Mzk2MTg1LDI2NTY0MTQ1NywtODg2Nz
-Q0NDk5LDE3MTY4MjA0MjQsLTk0NjE2Mjk3MSwxNjc1MjA4MDQ0
-LC0xOTMzNzg4MDI5LC05NDA1ODUxMDUsLTExNjg2MjIxMjAsNT
-U2NjU0NTAsMTEwNTUxNDUzMSwxNDE1MTY3OTA0LC02MTcyMjEy
-NTldfQ==
+eyJoaXN0b3J5IjpbMTQ2NDEzMDQ3OCwtMTY4MDY1MTE4LDE2OD
+cwMzUwNTAsODUzMTMwNjI0LDc2NjU4Njc3NywyMDA3NTI4NTQx
+LDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Nj
+c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
+NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLD
+U1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIx
+MjU5XX0=
 -->
