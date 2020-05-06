@@ -56,15 +56,15 @@ something is a collaborator of class if that collaborator is required for that c
 
 when you have a ONE TO MANY relationship you put the foreign key in the MANY table.
 
-
+MANY to MANY relationships in a middle man table
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDExMDQzMjcsMTk0MTI4NTg1MywtNj
-I2NzM4MTczLC0xOTg3NjI5MzQsLTE2NDQ4NDc2OTAsLTY0OTYy
-MDAzMywtMjA4NTA1MTk3MSwtMjAzNTg3OTQwNiwtMTEzMjg0Nj
-EzNywxODAxNTc1Nzk4LDE5MTY3OTE3MjUsLTEwOTQ3MjM5NTEs
-LTEzMzM0ODQwMTldfQ==
+eyJoaXN0b3J5IjpbLTE5MjgwODI4LDE5NDEyODU4NTMsLTYyNj
+czODE3MywtMTk4NzYyOTM0LC0xNjQ0ODQ3NjkwLC02NDk2MjAw
+MzMsLTIwODUwNTE5NzEsLTIwMzU4Nzk0MDYsLTExMzI4NDYxMz
+csMTgwMTU3NTc5OCwxOTE2NzkxNzI1LC0xMDk0NzIzOTUxLC0x
+MzMzNDg0MDE5XX0=
 -->
