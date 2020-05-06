@@ -761,7 +761,9 @@ This works as intended with the `subject`'s private instance variable being repl
 
 You will often need to test objects or features that interface with database objects. Doing this with the live (production) version of your database would not be ideal as you could easily run into problems with data changing, or changing production data when testing. To solve this problem we can **create a test database** that is scrubbed clean of data before each test and only contains the data relevant to that test.
 
-To do this we should: 
+### Setting up a testing database
+
+To automate a testing database, we should:
 1. Set up a test database
 2. Create an environment variable and use it to tell our application whether we are using the test database or the live database (or some other database).
 3. Add a script to RSpec that scrubs database data before each test.
@@ -793,16 +795,17 @@ end
 Then call this code using an `configure` block in the `spec_helper.rb` file with a `before(:each)` argument so that it runs before *each* test. This way the database will be `TRUNCATE`d before every test, removing data that might cause problems for our test.
 ```ruby
 # spec_helper.rb
-
-require_relative './setup_test_database'
-
-ENV['ENVIRONMENT'] = 'test'
-
+require'./setup_database'
+# runs before each test that is execute
 RSpec.configure do |config|
   config.before(:each) do
     setup_test_database
   end
 end
+```
+Finally within our tests themselves we can add any relevant data.
+```ruby
+
 ```
 
 ## CLI
@@ -828,11 +831,11 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTMyNzIxOTMsLTE2ODA2NTExOCwxNj
-g3MDM1MDUwLDg1MzEzMDYyNCw3NjY1ODY3NzcsMjAwNzUyODU0
-MSwxOTkxMDMyNjEwLC02NjkzOTYxODUsMjY1NjQxNDU3LC04OD
-Y3NDQ0OTksMTcxNjgyMDQyNCwtOTQ2MTYyOTcxLDE2NzUyMDgw
-NDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYyMjEyMC
-w1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIy
-MTI1OV19
+eyJoaXN0b3J5IjpbMjA2ODIzMjM0MywtMTY4MDY1MTE4LDE2OD
+cwMzUwNTAsODUzMTMwNjI0LDc2NjU4Njc3NywyMDA3NTI4NTQx
+LDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Nj
+c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
+NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLD
+U1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIx
+MjU5XX0=
 -->
