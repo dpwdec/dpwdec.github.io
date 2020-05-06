@@ -757,6 +757,10 @@ end
 ```
 This works as intended with the `subject`'s private instance variable being replaced by our mock object that returns a different value when the `report` function is called.
 
+## Databases
+
+You will often need to test objects or features that interface with database objects. Doing this with 
+
 ## CLI
 You can run a specific RSpec tests by specifying a line number from the tests that falls within a block. For example if you had a test block which started on line 9, you could run *only* that test by using.
 ```
@@ -780,11 +784,11 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA2NTExOCwxNjg3MDM1MDUwLDg1Mz
-EzMDYyNCw3NjY1ODY3NzcsMjAwNzUyODU0MSwxOTkxMDMyNjEw
-LC02NjkzOTYxODUsMjY1NjQxNDU3LC04ODY3NDQ0OTksMTcxNj
-gyMDQyNCwtOTQ2MTYyOTcxLDE2NzUyMDgwNDQsLTE5MzM3ODgw
-MjksLTk0MDU4NTEwNSwtMTE2ODYyMjEyMCw1NTY2NTQ1MCwxMT
-A1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIyMTI1OSwtMTk3Nzc1
-MzM1MF19
+eyJoaXN0b3J5IjpbLTEzMjQzNjE3OTYsLTE2ODA2NTExOCwxNj
+g3MDM1MDUwLDg1MzEzMDYyNCw3NjY1ODY3NzcsMjAwNzUyODU0
+MSwxOTkxMDMyNjEwLC02NjkzOTYxODUsMjY1NjQxNDU3LC04OD
+Y3NDQ0OTksMTcxNjgyMDQyNCwtOTQ2MTYyOTcxLDE2NzUyMDgw
+NDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMTE2ODYyMjEyMC
+w1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5MDQsLTYxNzIy
+MTI1OV19
 -->
