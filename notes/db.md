@@ -92,8 +92,13 @@ To represent this relationship the many to many relationship is decomposed into 
 
 `tag listings` table
 
-| id | student_id | 
+| id | student_id | tag_id | date_added |
+| --- | --- | --- | --- |
+| 1 | 1 | 2 | 2020-04-03 |
+| 2 | 1 | 1 | 2019-12-03 |
+| 3 | 3 | 2 | 2019-12-22 |
+| 4 | 2 | 1 | 2020-01-13 |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzk0MjMwOCwyMzMxMDgxNjgsMzUzND
-UzMjY3XX0=
+eyJoaXN0b3J5IjpbOTY1NDQxNzkxLDIzMzEwODE2OCwzNTM0NT
+MyNjddfQ==
 -->
