@@ -237,6 +237,8 @@ You can **use the special character `_` to match any single character**. It work
 ```sql
 SELECT * FROM users WHERE name LIKE '_g'
 ```
+
+`LIKE` clauses **can be concatenated**
 ### Numeric Operations
 
 You can **execute numeric operations on output data** by including calculations as part of the `SELECT` query. You can use the `+`, `-`, `/`, `*` and `%` operators inside of the `SELECT` query. For example, if you were getting the areas of some countries that where thousands of kilometers square, you could rational those numbers by dividing them by `1000` within your query. This will then return the areas divided by that number.
@@ -312,11 +314,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwODgyNDM4LC0xNDAwMzQwOSwtMTAyOD
-M1MDYxNSwtODg1OTc5NDIwLC0xMzk0MzYxMzc2LDUyNTMxNjc5
-NSwyMzc0OTg2ODMsMTQ1MjMwOTY4NywtMjA0OTQyNzgzNiwtNT
-k3NjI3NTAyLDEzNTg1ODgyOTIsMjExMDE0ODk2LDY1NzA3OTcz
-NiwtNTA5OTUxODIxLC0xNjg0MTU2Nzc5LC0yOTc5Mjc3NjYsMT
-Q4NDkxODQyNCwxNzE5MTc4MzQwLC02MzgzNzI1MTUsLTE5MjAy
-MDgwXX0=
+eyJoaXN0b3J5IjpbLTExNDg4NTcwNjMsLTE0MDAzNDA5LC0xMD
+I4MzUwNjE1LC04ODU5Nzk0MjAsLTEzOTQzNjEzNzYsNTI1MzE2
+Nzk1LDIzNzQ5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3ODM2LC
+01OTc2Mjc1MDIsMTM1ODU4ODI5MiwyMTEwMTQ4OTYsNjU3MDc5
+NzM2LC01MDk5NTE4MjEsLTE2ODQxNTY3NzksLTI5NzkyNzc2Ni
+wxNDg0OTE4NDI0LDE3MTkxNzgzNDAsLTYzODM3MjUxNSwtMTky
+MDIwODBdfQ==
 -->
