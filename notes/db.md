@@ -24,10 +24,13 @@ Relational databases also follow a set of **integrity rules** that ensure data i
 
 To manage multiple applications or user accessing data simultaneously relational databases have a **locking** function that stops users from accessing database elements if they are being updated. If the database locks an entire table this can be detrimental to performance, however, some databases offer individual record level locking. There is also a **concurrency** system manages this access from multiple users to the same table ensuring that each user or application receives the correct information.
 
+## Entity Relationships
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzNDUzMjY3XX0=
+eyJoaXN0b3J5IjpbLTEzNDQ3NDIwMTUsMzUzNDUzMjY3XX0=
 -->
