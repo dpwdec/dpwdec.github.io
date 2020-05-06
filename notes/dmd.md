@@ -46,13 +46,16 @@ VALUES
     (value_list_n);
 
 the resistance
+
+crc --> class responsibilities and collaborators
+
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODc2MjkzNCwtMTY0NDg0NzY5MCwtNj
-Q5NjIwMDMzLC0yMDg1MDUxOTcxLC0yMDM1ODc5NDA2LC0xMTMy
-ODQ2MTM3LDE4MDE1NzU3OTgsMTkxNjc5MTcyNSwtMTA5NDcyMz
-k1MSwtMTMzMzQ4NDAxOV19
+eyJoaXN0b3J5IjpbLTQ3NTcwMjYxMCwtMTk4NzYyOTM0LC0xNj
+Q0ODQ3NjkwLC02NDk2MjAwMzMsLTIwODUwNTE5NzEsLTIwMzU4
+Nzk0MDYsLTExMzI4NDYxMzcsMTgwMTU3NTc5OCwxOTE2NzkxNz
+I1LC0xMDk0NzIzOTUxLC0xMzMzNDg0MDE5XX0=
 -->
