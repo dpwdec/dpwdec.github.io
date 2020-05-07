@@ -83,9 +83,12 @@ require './spec_code'
 
 ## Test Output
 
-You can **customise the formatting output** that RSpec gives you by editing the `.rspec` file in the root directory of your project.
+You can **customise the formatting output** that RSpec gives you by editing the `.rspec` file in the root directory of your project. Commands inside this file are given with a `--` double hyphen flag.
 
-To add **documenta**
+To add **a color coded documentation mode** to tests, which will display passing test titles use the `color` and `documentation` flags.
+```
+# .rspec fil
+```
 
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
@@ -862,11 +865,11 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI4NjY0NjUsLTIxMDI1ODAwMCwtMTY4MD
-Y1MTE4LDE2ODcwMzUwNTAsODUzMTMwNjI0LDc2NjU4Njc3Nywy
-MDA3NTI4NTQxLDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNjU2ND
-E0NTcsLTg4Njc0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEs
-MTY3NTIwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMT
-Y4NjIyMTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2Nzkw
-NF19
+eyJoaXN0b3J5IjpbLTEyODg1NzUzNDcsLTIxMDI1ODAwMCwtMT
+Y4MDY1MTE4LDE2ODcwMzUwNTAsODUzMTMwNjI0LDc2NjU4Njc3
+NywyMDA3NTI4NTQxLDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNj
+U2NDE0NTcsLTg4Njc0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5
+NzEsMTY3NTIwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC
+0xMTY4NjIyMTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2
+NzkwNF19
 -->
