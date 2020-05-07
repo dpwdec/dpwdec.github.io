@@ -165,7 +165,14 @@ end
 
 ### `DELETE`, `PUT` and other HTTP methods
 
-Sinatra and HTML don't directly support HTTP methods apart from `GET` and `POST`. However, Sinatra *does have* route code for managing these routes in `app.rb`, there's just no built in way to direct HTTP requests from pages to these routes. These is a work around using a class called `Rack::MethodOverride` which allows you to submit other HTTP request methods as a hidden `param` from within a submission form using the
+Sinatra and HTML don't directly support HTTP methods apart from `GET` and `POST`. However, Sinatra *does have* route code for managing these routes in `app.rb`, there's just no built in way to direct HTTP requests from pages to these routes. These is a work around using a class called `Rack::MethodOverride` which allows you to submit other HTTP request methods as a hidden `param` from within a submission form using the `_method` key. When your Sinatra application receives this data it will redirect automatically to the appropriate HTTP method route. To use this functionality `use` the `MethodOverride` class inside `app.rb`.
+```ruby
+class MyApp < Sinatra::Base
+  use Rack::Override
+
+
+end
+```
 
 
 ## Modular Style
@@ -325,7 +332,7 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTczODk5NDYsNTI1MjAzOTU3LDM5OD
+eyJoaXN0b3J5IjpbLTEzODcxOTUzNzksNTI1MjAzOTU3LDM5OD
 Q1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5MSw4NzkzMDU1
 MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLTE3NzczMjY1OD
 IsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMiwxOTE5
