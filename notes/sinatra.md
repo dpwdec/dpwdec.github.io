@@ -210,8 +210,14 @@ The corresponding Sinatra route would match with this url extension and then loa
 
 ```ruby
 class MyApp < Sinatra::Base
-  get '/'
-  e
+  get '/' do
+    # route that shows posts and links to posts
+  end
+
+  get '/post/:id' do
+    @post = load_post_from_database(params[:id])
+    # some code for rendering a view that uses the data in @post
+  end
 end
 ```
 
@@ -372,11 +378,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzk0NTU2MSw4MDQzMzI5OTQsNTI1Mj
-AzOTU3LDM5ODQ1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5
-MSw4NzkzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLT
-E3NzczMjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQy
-OTUyMiwxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3Mi
-wtMTk3NDgyODI3MiwxMTc2NTE1ODg0LC0xNTczOTIyMjgsLTE4
-NTIxMzA1MDBdfQ==
+eyJoaXN0b3J5IjpbLTIwOTkzNjQsODA0MzMyOTk0LDUyNTIwMz
+k1NywzOTg0NTg5MTUsLTE4MjIyOTQ2NzAsLTE4ODM5MTI1OTEs
+ODc5MzA1NTE3LC0xMTQ4OTUyMjQ5LC0xODE3NDExMzUxLC0xNz
+c3MzI2NTgyLC0xNzQ5NTYwOCwtNDkxMDM4OTIyLDE0ODg0Mjk1
+MjIsMTkxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNjgzOTQwNzIsLT
+E5NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMTU3MzkyMjI4LC0xODUy
+MTMwNTAwXX0=
 -->
