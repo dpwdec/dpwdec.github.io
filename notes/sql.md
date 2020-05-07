@@ -369,6 +369,10 @@ You can **delete a record from a table** using the `DELETE FROM` command combine
 DELETE FROM users WHERE name = 'Jim'
 ```
 
+## Getting things back with `RETURNING`
+
+The `RETURNING` keyword allows you 
+
 ## Case Sensitivity
 
 Most **SQL commands and case insensitive**. This means you *can* write your SQL queries using lowercase, however, its recommended to avoid this as it makes your queries much less readable and creates difficulties when you do have to deal with the case sensitivity of table names and values.
@@ -390,11 +394,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY2NDQyMTUsMTA1NzgzNDI2NywtNz
-Y4NDMwOTU2LC0xNjU1NTg5OTU1LDE4NTQ0Njk3OCw5MzM4NTUz
-MDYsLTE0MDAzNDA5LC0xMDI4MzUwNjE1LC04ODU5Nzk0MjAsLT
-EzOTQzNjEzNzYsNTI1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5
-Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5Mi
-wyMTEwMTQ4OTYsNjU3MDc5NzM2LC01MDk5NTE4MjEsLTE2ODQx
-NTY3NzldfQ==
+eyJoaXN0b3J5IjpbLTMwMTU2MTk5MiwtMTc4NjY0NDIxNSwxMD
+U3ODM0MjY3LC03Njg0MzA5NTYsLTE2NTU1ODk5NTUsMTg1NDQ2
+OTc4LDkzMzg1NTMwNiwtMTQwMDM0MDksLTEwMjgzNTA2MTUsLT
+g4NTk3OTQyMCwtMTM5NDM2MTM3Niw1MjUzMTY3OTUsMjM3NDk4
+NjgzLDE0NTIzMDk2ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUwMi
+wxMzU4NTg4MjkyLDIxMTAxNDg5Niw2NTcwNzk3MzYsLTUwOTk1
+MTgyMV19
 -->
