@@ -199,7 +199,7 @@ This same work around can be used for other HTTP methods like `PUT`, `PATH` etc.
 
 ### ID specific pages
 
-You may often be dealing with URLs that are related to a large number of similarly formatted by different resources. For example, posts on a website. A 
+You may often be dealing with URLs that are related to a large number of similarly formatted but different resources. For example, posts on a website. A user may make a huge number of posts each with a unique ID and ideally we will have a unique URL for each post that can be viewed. We can do this generatively from w
 
 ## Modular Style
 
@@ -358,7 +358,7 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2Mzg3MDY0MSw4MDQzMzI5OTQsNTI1Mj
+eyJoaXN0b3J5IjpbMTMwMDIxOTQwMSw4MDQzMzI5OTQsNTI1Mj
 AzOTU3LDM5ODQ1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5
 MSw4NzkzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLT
 E3NzczMjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQy
