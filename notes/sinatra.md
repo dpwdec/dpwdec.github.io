@@ -199,7 +199,10 @@ This same work around can be used for other HTTP methods like `PUT`, `PATH` etc.
 
 ### ID specific pages
 
-You may often be dealing with URLs that are related to a large number of similarly formatted but different resources. For example, posts on a website. A user may make a huge number of posts each with a unique ID and ideally we will have a unique URL for each post that can be viewed. We can do this generatively from w
+You may often be dealing with URLs that are related to a large number of similarly formatted but different resources. For example, posts on a website. A user may make a huge number of posts each with a unique ID and ideally we will have a unique URL for each post that can be viewed. We can **generatively add dynamic routes for different resources** by appending a symbol to the 
+
+```ruby
+```
 
 ## Modular Style
 
@@ -358,11 +361,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDIxOTQwMSw4MDQzMzI5OTQsNTI1Mj
-AzOTU3LDM5ODQ1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5
-MSw4NzkzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLT
-E3NzczMjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQy
-OTUyMiwxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3Mi
-wtMTk3NDgyODI3MiwxMTc2NTE1ODg0LC0xNTczOTIyMjgsLTE4
-NTIxMzA1MDBdfQ==
+eyJoaXN0b3J5IjpbODI5NjU5MjQwLDgwNDMzMjk5NCw1MjUyMD
+M5NTcsMzk4NDU4OTE1LC0xODIyMjk0NjcwLC0xODgzOTEyNTkx
+LDg3OTMwNTUxNywtMTE0ODk1MjI0OSwtMTgxNzQxMTM1MSwtMT
+c3NzMyNjU4MiwtMTc0OTU2MDgsLTQ5MTAzODkyMiwxNDg4NDI5
+NTIyLDE5MTk0MDEzNTEsLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC
+0xOTc0ODI4MjcyLDExNzY1MTU4ODQsLTE1NzM5MjIyOCwtMTg1
+MjEzMDUwMF19
 -->
