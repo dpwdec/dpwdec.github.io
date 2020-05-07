@@ -81,6 +81,12 @@ require './spec_code'
 # other spec helper code here
 ```
 
+## Test Output
+
+You can **customise the formatting output** that RSpec gives you by editing the `.rspec` file in the root directory of your project.
+
+To add **documenta**
+
 ## Core
 If you **do not define a top level `describe` value** for your tests then `subject` will default to a `String` that matches the top level name of your tests.
 
@@ -856,11 +862,11 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDI1ODAwMCwtMTY4MDY1MTE4LDE2OD
-cwMzUwNTAsODUzMTMwNjI0LDc2NjU4Njc3NywyMDA3NTI4NTQx
-LDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNjU2NDE0NTcsLTg4Nj
-c0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEsMTY3NTIwODA0
-NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMTY4NjIyMTIwLD
-U1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2NzkwNCwtNjE3MjIx
-MjU5XX0=
+eyJoaXN0b3J5IjpbNjI4NjY0NjUsLTIxMDI1ODAwMCwtMTY4MD
+Y1MTE4LDE2ODcwMzUwNTAsODUzMTMwNjI0LDc2NjU4Njc3Nywy
+MDA3NTI4NTQxLDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNjU2ND
+E0NTcsLTg4Njc0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5NzEs
+MTY3NTIwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC0xMT
+Y4NjIyMTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2Nzkw
+NF19
 -->
