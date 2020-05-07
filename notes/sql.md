@@ -371,9 +371,9 @@ DELETE FROM users WHERE name = 'Jim'
 
 ## Getting things back with `RETURNING`
 
-The **`RETURNING` keyword allows you to retrieve records that were `INSERT`ed, `DELETE`d or `UPDATE`d within the same query**. Without this function you would need to run a separate `SELECT` query after doing an `INSERT`, `UPDATE` or `DELETE` to get back the data you had inserted to check its validity. To use `RETURNING` simply append it to the end of a query that changes table data followed by the columns to return.
+The **`RETURNING` keyword allows you to retrieve records that were `INSERT`ed, `DELETE`d or `UPDATE`d within the same query**. Without this function you would need to run a separate `SELECT` query after doing an `INSERT`, `UPDATE` or `DELETE` to get back the data you had inserted to check its validity. To use `RETURNING` simply append it to the end of a query that changes table data followed by the columns to return. The query below inserts a new user `'Dec'` into `users` and then returns the `id` and `name` columns for the inserted record.
 ```sql
-INSERT INTO users (name) VALUES ('Dec') RETURNING id, name, age
+INSERT INTO users (name) VALUES ('Dec') RETURNING id, name
 ```
 
 ## Case Sensitivity
@@ -397,11 +397,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDg2OTM5LDI2Njk2MzA3NCwtMTc4Nj
-Y0NDIxNSwxMDU3ODM0MjY3LC03Njg0MzA5NTYsLTE2NTU1ODk5
-NTUsMTg1NDQ2OTc4LDkzMzg1NTMwNiwtMTQwMDM0MDksLTEwMj
-gzNTA2MTUsLTg4NTk3OTQyMCwtMTM5NDM2MTM3Niw1MjUzMTY3
-OTUsMjM3NDk4NjgzLDE0NTIzMDk2ODcsLTIwNDk0Mjc4MzYsLT
-U5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5Niw2NTcwNzk3
-MzZdfQ==
+eyJoaXN0b3J5IjpbLTE2MDQwMDE4MjksMjY2OTYzMDc0LC0xNz
+g2NjQ0MjE1LDEwNTc4MzQyNjcsLTc2ODQzMDk1NiwtMTY1NTU4
+OTk1NSwxODU0NDY5NzgsOTMzODU1MzA2LC0xNDAwMzQwOSwtMT
+AyODM1MDYxNSwtODg1OTc5NDIwLC0xMzk0MzYxMzc2LDUyNTMx
+Njc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4NywtMjA0OTQyNzgzNi
+wtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMjExMDE0ODk2LDY1NzA3
+OTczNl19
 -->
