@@ -373,7 +373,7 @@ DELETE FROM users WHERE name = 'Jim'
 
 The **`RETURNING` keyword allows you to retrieve records that were `INSERT`ed, `DELETE`d or `UPDATE`d within the same query**. Without this function you would need to run a separate `SELECT` query after doing an `INSERT`, `UPDATE` or `DELETE` to get back the data you had inserted to check its validity. To use `RETURNING` simply append it to the end of a query that changes table data.
 ```sql
-INSERT INTO users (name) VALUES
+INSERT INTO users (name) VALUES ('Dec') RETURNING 
 ```
 
 ## Case Sensitivity
@@ -397,11 +397,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2MjUxMTg3LDI2Njk2MzA3NCwtMTc4Nj
-Y0NDIxNSwxMDU3ODM0MjY3LC03Njg0MzA5NTYsLTE2NTU1ODk5
-NTUsMTg1NDQ2OTc4LDkzMzg1NTMwNiwtMTQwMDM0MDksLTEwMj
-gzNTA2MTUsLTg4NTk3OTQyMCwtMTM5NDM2MTM3Niw1MjUzMTY3
-OTUsMjM3NDk4NjgzLDE0NTIzMDk2ODcsLTIwNDk0Mjc4MzYsLT
-U5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAxNDg5Niw2NTcwNzk3
-MzZdfQ==
+eyJoaXN0b3J5IjpbLTUyNjQzMzQwNiwyNjY5NjMwNzQsLTE3OD
+Y2NDQyMTUsMTA1NzgzNDI2NywtNzY4NDMwOTU2LC0xNjU1NTg5
+OTU1LDE4NTQ0Njk3OCw5MzM4NTUzMDYsLTE0MDAzNDA5LC0xMD
+I4MzUwNjE1LC04ODU5Nzk0MjAsLTEzOTQzNjEzNzYsNTI1MzE2
+Nzk1LDIzNzQ5ODY4MywxNDUyMzA5Njg3LC0yMDQ5NDI3ODM2LC
+01OTc2Mjc1MDIsMTM1ODU4ODI5MiwyMTEwMTQ4OTYsNjU3MDc5
+NzM2XX0=
 -->
