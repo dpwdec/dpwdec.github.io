@@ -201,12 +201,18 @@ This same work around can be used for other HTTP methods like `PUT`, `PATH` etc.
 
 You may often be dealing with URLs that are related to a large number of similarly formatted but different resources. For example, posts on a website. A user may make a huge number of posts each with a unique ID and ideally we will have a unique URL for each post that can be viewed. We can **generatively add dynamic routes for different resources** by appending a symbol to your Sinatra route, such as `:id` which is usually used for routing to resource specific pages. For example we might have the url extension `/post/:id` which would display the post with whatever id replaced the `:id` part of the route string. This `:id` replacement **also appears in the `params` hash** so it can accessed and used to get data from a database.
 
-If our user visited `post/263` then our corresponding Sinatra route with the `:id` route would have access to a `params` entry for `:id` that corresponds to `263`. The html for this would be something like:
+If our user visited `post/263` then our corresponding Sinatra route with the `:id` route would have access to a `params` entry for `:id` that corresponds to `263`. The html for this would be dynamically plug in the corresponding id from a `GET` request to load general data.
 ```html
 <a href="/post/<%= post.id %>"> <%= post.title %> </a>
 ```
 
+The corresponding Sinatra route would match with this url extension and then load the post from the database before displaying it.
+
 ```ruby
+class MyApp < Sinatra::Base
+  get '/'
+  e
+end
 ```
 
 ## Modular Style
@@ -366,7 +372,7 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjMxNTI1Nyw4MDQzMzI5OTQsNTI1Mj
+eyJoaXN0b3J5IjpbMTUxMzk0NTU2MSw4MDQzMzI5OTQsNTI1Mj
 AzOTU3LDM5ODQ1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5
 MSw4NzkzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLT
 E3NzczMjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQy
