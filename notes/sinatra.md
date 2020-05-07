@@ -183,7 +183,7 @@ class MyApp < Sinatra::Base
   end
 end
 ```
-With the `app.rb` file set up with the appropriate routes. We can now edit our HTML forms to contain the appropriate data fields. E
+With the `app.rb` file set up with the appropriate routes. We can now edit our HTML forms to contain the appropriate data fields. Even though official method of this form is still `POST` when your web application receives that request with a `params` key called `_method` the rack part of our Sinatra application will process it as a `DELETE` request and reroute it to the `delete` block.
 
 ```html
 <form class="" action="/bookmarks" method="post">
@@ -193,6 +193,7 @@ With the `app.rb` file set up with the appropriate routes. We can now edit our H
 </form>
 ```
 
+This same method can be used for other HTTP methods like `PUT`, P
 
 ## Modular Style
 
@@ -351,11 +352,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTgyMzQyMCw1MjUyMDM5NTcsMzk4ND
-U4OTE1LC0xODIyMjk0NjcwLC0xODgzOTEyNTkxLDg3OTMwNTUx
-NywtMTE0ODk1MjI0OSwtMTgxNzQxMTM1MSwtMTc3NzMyNjU4Mi
-wtMTc0OTU2MDgsLTQ5MTAzODkyMiwxNDg4NDI5NTIyLDE5MTk0
-MDEzNTEsLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOTc0ODI4Mj
-cyLDExNzY1MTU4ODQsLTE1NzM5MjIyOCwtMTg1MjEzMDUwMCwt
-NTAwNDYzMDIzXX0=
+eyJoaXN0b3J5IjpbMTI0ODA0NjQsNTI1MjAzOTU3LDM5ODQ1OD
+kxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5MSw4NzkzMDU1MTcs
+LTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLTE3NzczMjY1ODIsLT
+E3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMiwxOTE5NDAx
+MzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3NDgyODI3Mi
+wxMTc2NTE1ODg0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUw
+MDQ2MzAyM119
 -->
