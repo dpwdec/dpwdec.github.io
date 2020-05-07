@@ -87,7 +87,8 @@ You can **customise the formatting output** that RSpec gives you by editing the 
 
 To add **a color coded documentation mode** to tests, which will display passing test titles use the `color` and `documentation` flags.
 ```
-# .rspec fil
+# .rspec
+--color --format documentation
 ```
 
 ## Core
@@ -865,11 +866,11 @@ bundle exec guard init rspec`.
 [gd1]: https://github.com/guard/guard-rspec
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODg1NzUzNDcsLTIxMDI1ODAwMCwtMT
-Y4MDY1MTE4LDE2ODcwMzUwNTAsODUzMTMwNjI0LDc2NjU4Njc3
-NywyMDA3NTI4NTQxLDE5OTEwMzI2MTAsLTY2OTM5NjE4NSwyNj
-U2NDE0NTcsLTg4Njc0NDQ5OSwxNzE2ODIwNDI0LC05NDYxNjI5
-NzEsMTY3NTIwODA0NCwtMTkzMzc4ODAyOSwtOTQwNTg1MTA1LC
-0xMTY4NjIyMTIwLDU1NjY1NDUwLDExMDU1MTQ1MzEsMTQxNTE2
-NzkwNF19
+eyJoaXN0b3J5IjpbODA0MDg2MDM4LC0yMTAyNTgwMDAsLTE2OD
+A2NTExOCwxNjg3MDM1MDUwLDg1MzEzMDYyNCw3NjY1ODY3Nzcs
+MjAwNzUyODU0MSwxOTkxMDMyNjEwLC02NjkzOTYxODUsMjY1Nj
+QxNDU3LC04ODY3NDQ0OTksMTcxNjgyMDQyNCwtOTQ2MTYyOTcx
+LDE2NzUyMDgwNDQsLTE5MzM3ODgwMjksLTk0MDU4NTEwNSwtMT
+E2ODYyMjEyMCw1NTY2NTQ1MCwxMTA1NTE0NTMxLDE0MTUxNjc5
+MDRdfQ==
 -->
