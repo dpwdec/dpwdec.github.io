@@ -197,6 +197,10 @@ With the `app.rb` file set up with the appropriate routes. We can now edit our H
 
 This same work around can be used for other HTTP methods like `PUT`, `PATH` etc.
 
+### ID specific pages
+
+You may often be dealing with URLs that are related to a large number of similarly formatted by different resources. For example, posts on a website. A 
+
 ## Modular Style
 
 Sinatra's **modular style** allows you to create classes that inherit from `Sinatra::Base` class and contain the code for your application. You can define multiple different app classes in your root file each one representing a self contained web application, you can switch between these seamlessly within a single ruby process running the server.
@@ -354,11 +358,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3Nzk1MDYwLDgwNDMzMjk5NCw1MjUyMD
-M5NTcsMzk4NDU4OTE1LC0xODIyMjk0NjcwLC0xODgzOTEyNTkx
-LDg3OTMwNTUxNywtMTE0ODk1MjI0OSwtMTgxNzQxMTM1MSwtMT
-c3NzMyNjU4MiwtMTc0OTU2MDgsLTQ5MTAzODkyMiwxNDg4NDI5
-NTIyLDE5MTk0MDEzNTEsLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC
-0xOTc0ODI4MjcyLDExNzY1MTU4ODQsLTE1NzM5MjIyOCwtMTg1
-MjEzMDUwMF19
+eyJoaXN0b3J5IjpbLTY2Mzg3MDY0MSw4MDQzMzI5OTQsNTI1Mj
+AzOTU3LDM5ODQ1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5
+MSw4NzkzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLT
+E3NzczMjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQy
+OTUyMiwxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3Mi
+wtMTk3NDgyODI3MiwxMTc2NTE1ODg0LC0xNTczOTIyMjgsLTE4
+NTIxMzA1MDBdfQ==
 -->
