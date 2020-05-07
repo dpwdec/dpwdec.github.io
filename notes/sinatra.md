@@ -193,7 +193,7 @@ With the `app.rb` file set up with the appropriate routes. We can now edit our H
 </form>
 ```
 
-This same method can be used for other HTTP methods like `PUT`, P
+This same work around can be used for other HTTP methods like `PUT`, `PATH` etc.
 
 ## Modular Style
 
@@ -352,11 +352,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODA0NjQsNTI1MjAzOTU3LDM5ODQ1OD
-kxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5MSw4NzkzMDU1MTcs
-LTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLTE3NzczMjY1ODIsLT
-E3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMiwxOTE5NDAx
-MzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3NDgyODI3Mi
-wxMTc2NTE1ODg0LC0xNTczOTIyMjgsLTE4NTIxMzA1MDAsLTUw
-MDQ2MzAyM119
+eyJoaXN0b3J5IjpbODA0MzMyOTk0LDUyNTIwMzk1NywzOTg0NT
+g5MTUsLTE4MjIyOTQ2NzAsLTE4ODM5MTI1OTEsODc5MzA1NTE3
+LC0xMTQ4OTUyMjQ5LC0xODE3NDExMzUxLC0xNzc3MzI2NTgyLC
+0xNzQ5NTYwOCwtNDkxMDM4OTIyLDE0ODg0Mjk1MjIsMTkxOTQw
+MTM1MSwtMjM5MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4MjgyNz
+IsMTE3NjUxNTg4NCwtMTU3MzkyMjI4LC0xODUyMTMwNTAwLC01
+MDA0NjMwMjNdfQ==
 -->
