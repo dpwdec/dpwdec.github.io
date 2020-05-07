@@ -371,7 +371,7 @@ DELETE FROM users WHERE name = 'Jim'
 
 ## Getting things back with `RETURNING`
 
-The `RETURNING` keyword allows you 
+The `RETURNING` keyword allows you to retrieve records that were `INSERT`ed, `DELETE`d or `UPDATE`d
 
 ## Case Sensitivity
 
@@ -394,7 +394,7 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTU2MTk5MiwtMTc4NjY0NDIxNSwxMD
+eyJoaXN0b3J5IjpbMTAzODUxMTU0NiwtMTc4NjY0NDIxNSwxMD
 U3ODM0MjY3LC03Njg0MzA5NTYsLTE2NTU1ODk5NTUsMTg1NDQ2
 OTc4LDkzMzg1NTMwNiwtMTQwMDM0MDksLTEwMjgzNTA2MTUsLT
 g4NTk3OTQyMCwtMTM5NDM2MTM3Niw1MjUzMTY3OTUsMjM3NDk4
