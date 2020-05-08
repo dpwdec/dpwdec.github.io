@@ -5,7 +5,7 @@ exclude: true
 ---
 Sinatra is a lightweight web framework for building small web applications in ruby.
 
-## Start up
+## Setup
 You can **install Sinatra** by simply including the `gem Sinatra` in your `Gemfile` and running the `bundle` command.
 
 You can **start a Sinatra app running** i.e. listening and functioning as a server by using the `ruby` command in the terminal to run whichever is the main file in your Sinatra project.
@@ -17,6 +17,8 @@ This should be the file in which your different web page routes and defined.
 To **stop a Sinatra server** use `CTRL + C` in the command line window where the server is running.
 
 When changing files in your Sinatra project you will need to start and restart the server to see those changes propagated to the web pages displayed online.
+
+Scripts (i.e. ruby files that contain code directly without methods or classes) that are `require`d inside `app.rb` will be run when your sinatra application start up. Use this functionality to **execute set up**
 
 ## Routes
 You can **specify different web pages to return** by using an *HTTP Verb* combined with a string representing the page name and a block that display or loads the content for that page.
@@ -378,11 +380,11 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTkzNjQsODA0MzMyOTk0LDUyNTIwMz
-k1NywzOTg0NTg5MTUsLTE4MjIyOTQ2NzAsLTE4ODM5MTI1OTEs
-ODc5MzA1NTE3LC0xMTQ4OTUyMjQ5LC0xODE3NDExMzUxLC0xNz
-c3MzI2NTgyLC0xNzQ5NTYwOCwtNDkxMDM4OTIyLDE0ODg0Mjk1
-MjIsMTkxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNjgzOTQwNzIsLT
-E5NzQ4MjgyNzIsMTE3NjUxNTg4NCwtMTU3MzkyMjI4LC0xODUy
-MTMwNTAwXX0=
+eyJoaXN0b3J5IjpbLTI2MzMxODA3NSwtMjA5OTM2NCw4MDQzMz
+I5OTQsNTI1MjAzOTU3LDM5ODQ1ODkxNSwtMTgyMjI5NDY3MCwt
+MTg4MzkxMjU5MSw4NzkzMDU1MTcsLTExNDg5NTIyNDksLTE4MT
+c0MTEzNTEsLTE3NzczMjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5
+MjIsMTQ4ODQyOTUyMiwxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMT
+I2ODM5NDA3MiwtMTk3NDgyODI3MiwxMTc2NTE1ODg0LC0xNTcz
+OTIyMjhdfQ==
 -->
