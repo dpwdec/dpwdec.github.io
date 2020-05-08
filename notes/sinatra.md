@@ -18,7 +18,7 @@ To **stop a Sinatra server** use `CTRL + C` in the command line window where the
 
 When changing files in your Sinatra project you will need to start and restart the server to see those changes propagated to the web pages displayed online.
 
-Scripts (i.e. ruby files that contain code directly without methods or classes) that are `require`d inside `app.rb` will be run when your sinatra application start up. Use this functionality to **execute set up**
+Scripts (i.e. ruby files that contain code directly without methods or classes) that are `require`d inside `app.rb` will be run when your sinatra application start up. Use this functionality to **execute set up code** for your sinatra application.
 
 ## Routes
 You can **specify different web pages to return** by using an *HTTP Verb* combined with a string representing the page name and a block that display or loads the content for that page.
@@ -380,7 +380,7 @@ class MyApp < Sinatra::Base
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzMxODA3NSwtMjA5OTM2NCw4MDQzMz
+eyJoaXN0b3J5IjpbLTgyMTgwMTg1NCwtMjA5OTM2NCw4MDQzMz
 I5OTQsNTI1MjAzOTU3LDM5ODQ1ODkxNSwtMTgyMjI5NDY3MCwt
 MTg4MzkxMjU5MSw4NzkzMDU1MTcsLTExNDg5NTIyNDksLTE4MT
 c0MTEzNTEsLTE3NzczMjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5
