@@ -461,12 +461,18 @@ To **add a new record to the database** simply create a new instance of your mod
 # saves user 'John' to the database
 User.new(name: 'John').save
 ```
+
+You can **execute arbitrary SQL** on the database you are currently connected to by using the `.adapter.execute` method.
+```ruby
+# truncate the users database in the default database
+DataMapper.repository(:default).adapter.execute('TRUNCATE users;')
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzk3NzE4NzEsLTE0NDEwNzM1OTMsLT
-gyMTgwMTg1NCwtMjA5OTM2NCw4MDQzMzI5OTQsNTI1MjAzOTU3
-LDM5ODQ1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5MSw4Nz
-kzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLTE3Nzcz
-MjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMi
-wxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3
-NDgyODI3Ml19
+eyJoaXN0b3J5IjpbMjE0MDU3MzQ4MCwtMTQ0MTA3MzU5MywtOD
+IxODAxODU0LC0yMDk5MzY0LDgwNDMzMjk5NCw1MjUyMDM5NTcs
+Mzk4NDU4OTE1LC0xODIyMjk0NjcwLC0xODgzOTEyNTkxLDg3OT
+MwNTUxNywtMTE0ODk1MjI0OSwtMTgxNzQxMTM1MSwtMTc3NzMy
+NjU4MiwtMTc0OTU2MDgsLTQ5MTAzODkyMiwxNDg4NDI5NTIyLD
+E5MTk0MDEzNTEsLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOTc0
+ODI4MjcyXX0=
 -->
