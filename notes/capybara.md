@@ -145,10 +145,16 @@ expect(page).to have_current_path('/about')
 
 Orderly provides a simple **custom matcher for checking that page one page element appears before another**. You can install Orderly by adding the `gem 'orderly'` to your gemfile.
 
-To **test if one element appears before another** s
+To **test if one element appears before another** select an element using regular Capybara and then assert a test with the `appear_before` matcher.
+```ruby
+# find elements on the page
+this = find('text_area_1')
+that = find('text_area_2')
+expect(this).to appear_before(that)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTYxODY3NzYsLTQ3MDI1OTU4MCwtNj
-k1MjA3MDkwLC0xNTM2ODQyMTA0LC02NTUwNzAxNCwxMzc5OTM1
-NzA5LC0xNzg1MDUzNTg3LDEwMDMxNjE2OTksLTE0NjAxOTExOT
-BdfQ==
+eyJoaXN0b3J5IjpbNDcxOTc4MjkyLC00NzAyNTk1ODAsLTY5NT
+IwNzA5MCwtMTUzNjg0MjEwNCwtNjU1MDcwMTQsMTM3OTkzNTcw
+OSwtMTc4NTA1MzU4NywxMDAzMTYxNjk5LC0xNDYwMTkxMTkwXX
+0=
 -->
