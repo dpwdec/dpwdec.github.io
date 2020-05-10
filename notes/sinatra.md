@@ -414,7 +414,7 @@ end
 
 A Datamapper model is a class that is defined to match the structure of a table. For example, if you had a table called `users` which stored an `id` and a `name` then you would have a corresponding object called `User` that would represent the data from that table as a singular record. As a developer **all you need to do is created the appropriate class with the properties you would like stored**. Datamapper will then automatically create the corresponding table in your database (with a pluralised name).
 
-To set up a datamapper model `include Datamapper::Resource` at the start of your class and then use the `property` tag to **define fields using symbols in your class that will be translated into columns in your database**. 
+To set up a datamapper model `include Datamapper::Resource` at the start of your class and then use the `property` tag to **define fields using symbols in your class that will be translated into columns in your database**.  The `Serial` class is a custom `data_mapper` property that is the equivalent of setting your `id` field to be a `PRIMARY SERIAL KEY`.
 ```ruby
 # models/user.rb
 require 'data_mapper'
@@ -424,13 +424,13 @@ class User
 
   property :id, Serial
   property :name, String
-  prop
 end
 ```
 
+To **migrate your databases**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDU4OTYwMSwtMTQ0MTA3MzU5MywtOD
+eyJoaXN0b3J5IjpbLTMyNDI1Nzk1NCwtMTQ0MTA3MzU5MywtOD
 IxODAxODU0LC0yMDk5MzY0LDgwNDMzMjk5NCw1MjUyMDM5NTcs
 Mzk4NDU4OTE1LC0xODIyMjk0NjcwLC0xODgzOTEyNTkxLDg3OT
 MwNTUxNywtMTE0ODk1MjI0OSwtMTgxNzQxMTM1MSwtMTc3NzMy
