@@ -440,6 +440,12 @@ To **migrate your models to the database** i.e. automatically create and update 
 
 ### Queries
 
+To **get a record by `id`** use the `.get` class method. This returns an object that is an instance of the class which wraps the data from the database.
+```ruby
+# gets user with ID one.
+User.get(1)
+```
+
 You can **get all records for a class** using the `.all` class method which returns an array of `User` object instances populated with the data from the database.
 ```ruby
 # get all user records
@@ -450,8 +456,9 @@ You **search by non primary parameter** by combining the `.all` method with a sy
 # get all user records with the name Dec
 User.all(User.name => 'Dec')
 ```
+To **add a n**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2NDg5Mjc1LC0xNDQxMDczNTkzLC04Mj
+eyJoaXN0b3J5IjpbODA5MzQyMDQ4LC0xNDQxMDczNTkzLC04Mj
 E4MDE4NTQsLTIwOTkzNjQsODA0MzMyOTk0LDUyNTIwMzk1Nywz
 OTg0NTg5MTUsLTE4MjIyOTQ2NzAsLTE4ODM5MTI1OTEsODc5Mz
 A1NTE3LC0xMTQ4OTUyMjQ5LC0xODE3NDExMzUxLC0xNzc3MzI2
