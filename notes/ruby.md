@@ -432,13 +432,17 @@ You can **format your time object as a String** using the `strftime` method whic
 # output the hour and minute of the time
 Time.now.strftime('%H:%M') # => 17:56
 ```
+
+## HEREDOC
+HEREDOC allows you type arbitrarily formatted string lines and assign them to a variable. This is very useful for making SQL queries that are much easier to read when formatted over multiple lines.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1OTg4NzU0NCwxMzgxNzAxMzksLTIwOT
-I1NjY1ODMsLTEwODQ2NDk0OTksLTE2MTk0ODA0MDAsMTc2MDM1
-MjAwOCwxNzA0MjExMzI4LDEzMDcxMTYxMCwtNDEyNzg2NDMwLD
-M1MjI0MDkwOCwtMTgxMTU0MzUxOSwyNDQyNDMyMzIsLTExMDky
-NzI1NTAsLTE3NzcxMTEwMTcsLTU4OTMxODE5MCwxNDczMTgyNT
-gzLDE0ODkyMTYxOTIsLTE5NTM2MTcxNiwtMzM0MzU5MzA4LC05
-ODc0Njc2MjNdfQ==
+eyJoaXN0b3J5IjpbMjU1MDc0NzI3LDIwNTk4ODc1NDQsMTM4MT
+cwMTM5LC0yMDkyNTY2NTgzLC0xMDg0NjQ5NDk5LC0xNjE5NDgw
+NDAwLDE3NjAzNTIwMDgsMTcwNDIxMTMyOCwxMzA3MTE2MTAsLT
+QxMjc4NjQzMCwzNTIyNDA5MDgsLTE4MTE1NDM1MTksMjQ0MjQz
+MjMyLC0xMTA5MjcyNTUwLC0xNzc3MTExMDE3LC01ODkzMTgxOT
+AsMTQ3MzE4MjU4MywxNDg5MjE2MTkyLC0xOTUzNjE3MTYsLTMz
+NDM1OTMwOF19
 -->
