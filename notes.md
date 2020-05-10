@@ -3,8 +3,9 @@ layout: page
 title: Notes
 ---
 
-
-
+| Ruby |
+| Topic | Notes |
+| -
 Ruby:
 [RSpec](notes/rspec.html)
 [Ruby](notes/ruby.html)
@@ -21,6 +22,6 @@ Databases:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjM4MzIxNywtMTk5MDQzNTk3MCwtMj
-I2MTc1MTM4XX0=
+eyJoaXN0b3J5IjpbLTEzNjM1MDk5MTgsLTE5OTA0MzU5NzAsLT
+IyNjE3NTEzOF19
 -->
