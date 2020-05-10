@@ -414,7 +414,7 @@ end
 
 A Datamapper model is a class that is defined to match the structure of a table. For example, if you had a table called `users` which stored an `id` and a `name` then you would have a corresponding object called `User` that would represent the data from that table as a singular record. As a developer **all you need to do is created the appropriate class with the properties you would like stored**. Datamapper will then automatically create the corresponding table in your database (with a pluralised name).
 
-To set up a datamapper model `include Datamapper::Resource` at the start of your class and then use the `property` tag to **define fields using symbols in your class that will be translated into columns in your database**.  The `Serial` class is a custom `data_mapper` property that is the equivalent of setting your `id` field to be a `PRIMARY SERIAL KEY`.
+To set up a datamapper model `include Datamapper::Resource` at the start of your class and then use the `property` tag to **define fields using symbols in your class that will be translated into columns in your database**.  The `Serial` class is a custom `data_mapper` property that is the equivalent of setting your `id` field to be a `PRIMARY SERIAL KEY`. You will also need to `require` these model files in whatever script you are using to setup, configure and migrate your database so that the model structure can be pushed into a table structure in your database.
 ```ruby
 # models/user.rb
 require 'data_mapper'
@@ -427,10 +427,10 @@ class User
 end
 ```
 
-To **migrate your models to the database** i.e. automatically create and update the tables in your corresponding postgres server use `Datamapper.auto_migrate!` or `Datamapper.auto_upgrade!`. The **former will clear all data from the database** whenever it is run whereas the **latter will try and reconcile the data already in the database with changes**. I place these calls inside the same file that contacts
+To **migrate your models to the database** i.e. automatically create and update the tables in your corresponding postgres server use `Datamapper.auto_migrate!` or `Datamapper.auto_upgrade!`. The **former will clear all data from the database** whenever it is run whereas the **latter will try and reconcile the data already in the database with changes**. I place these calls inside the same file with the `configuration` blocks that creates a connection to the database.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTIwMTE0NTgsLTE0NDEwNzM1OTMsLT
+eyJoaXN0b3J5IjpbLTE4MDM2NDExNTQsLTE0NDEwNzM1OTMsLT
 gyMTgwMTg1NCwtMjA5OTM2NCw4MDQzMzI5OTQsNTI1MjAzOTU3
 LDM5ODQ1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5MSw4Nz
 kzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLTE3Nzcz
