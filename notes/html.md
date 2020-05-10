@@ -10,7 +10,14 @@ You can **hide a form `input` by setting its `type` to `"hidden"`**. It's data w
 ```
 
 **Empty form fields will not appear in request data body once `submit`ted**, they will be entirely absent from the `params` or whatever object is used to communicate user data to the server. This means that it is possible when needed to have elements of user submission come through as empty strings or `null` values to be acted upon.
+
+To **create a hidden field** for a password that does not display what the user is typing. Use an `input` with `type="password"`.
+```html
+<input typ="password">
+```
+
+If you 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzI3MjAyNF19
+eyJoaXN0b3J5IjpbNDg2NjM3OTY1XX0=
 -->
