@@ -445,13 +445,17 @@ You can **get all records for a class** using the `.all` class method which retu
 # get all user records
 User.all
 ```
-You can 
+You **search by non primary parameter** by combining the `.all` method with a symbol specifying which class parameter you want to search by the value to search for. This returns an array even if there is only one match.
+```ruby
+# get all user records with the name Dec
+User.all(User.name => 'Dec')
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExNzM2OTEsLTE0NDEwNzM1OTMsLTgyMT
-gwMTg1NCwtMjA5OTM2NCw4MDQzMzI5OTQsNTI1MjAzOTU3LDM5
-ODQ1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5MSw4NzkzMD
-U1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLTE3NzczMjY1
-ODIsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMiwxOT
-E5NDAxMzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3NDgy
-ODI3Ml19
+eyJoaXN0b3J5IjpbMzM2NDg5Mjc1LC0xNDQxMDczNTkzLC04Mj
+E4MDE4NTQsLTIwOTkzNjQsODA0MzMyOTk0LDUyNTIwMzk1Nywz
+OTg0NTg5MTUsLTE4MjIyOTQ2NzAsLTE4ODM5MTI1OTEsODc5Mz
+A1NTE3LC0xMTQ4OTUyMjQ5LC0xODE3NDExMzUxLC0xNzc3MzI2
+NTgyLC0xNzQ5NTYwOCwtNDkxMDM4OTIyLDE0ODg0Mjk1MjIsMT
+kxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4
+MjgyNzJdfQ==
 -->
