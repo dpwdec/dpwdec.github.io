@@ -412,15 +412,15 @@ configure :development do
 end
 ```
 
-A Datamapper model is a class that is defined to match the structure of a table. For example, if you had a table called `users` which stored an `id` and a `name` then you would have
+A Datamapper model is a class that is defined to match the structure of a table. For example, if you had a table called `users` which stored an `id` and a `name` then you would have a corresponding object called `User` that would represent the data from that table as a singular record. As a developer **all you need to do is created the `User` class with the properties you would like stored**. Datamapper will then automatically create the corresponding pluralised table in your database.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MzA2MjE0LC0xNDQxMDczNTkzLC04Mj
-E4MDE4NTQsLTIwOTkzNjQsODA0MzMyOTk0LDUyNTIwMzk1Nywz
-OTg0NTg5MTUsLTE4MjIyOTQ2NzAsLTE4ODM5MTI1OTEsODc5Mz
-A1NTE3LC0xMTQ4OTUyMjQ5LC0xODE3NDExMzUxLC0xNzc3MzI2
-NTgyLC0xNzQ5NTYwOCwtNDkxMDM4OTIyLDE0ODg0Mjk1MjIsMT
-kxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4
-MjgyNzJdfQ==
+eyJoaXN0b3J5IjpbMTg5NzY2MjMxNiwtMTQ0MTA3MzU5MywtOD
+IxODAxODU0LC0yMDk5MzY0LDgwNDMzMjk5NCw1MjUyMDM5NTcs
+Mzk4NDU4OTE1LC0xODIyMjk0NjcwLC0xODgzOTEyNTkxLDg3OT
+MwNTUxNywtMTE0ODk1MjI0OSwtMTgxNzQxMTM1MSwtMTc3NzMy
+NjU4MiwtMTc0OTU2MDgsLTQ5MTAzODkyMiwxNDg4NDI5NTIyLD
+E5MTk0MDEzNTEsLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOTc0
+ODI4MjcyXX0=
 -->
