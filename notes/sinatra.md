@@ -401,6 +401,8 @@ gem 'data_mapper'
 gem 'dm-postgres-adapter'
 ```
 
+### Database Connection
+
 To **connect to a postgres database** with Datamapper use the `Datamapper.setup` function in a call from your main Sinatra file. Ideally, place this code in a `configuration` block so that it can contact a different database depending on whether you are in a `:development`, `:test` or `:production` environment.
 ```ruby
 configure :test do
@@ -436,12 +438,20 @@ You will also **need to `require` these model files in whatever script you are u
 
 To **migrate your models to the database** i.e. automatically create and update the tables in your corresponding postgres server use `Datamapper.auto_migrate!` or `Datamapper.auto_upgrade!`. The **former will clear all data from the database** whenever it is run whereas the **latter will try and reconcile the data already in the database with changes**. I place these calls inside the same file with the `configuration` blocks that creates a connection to the database.
 
+### Queries
+
+You can **get all records for a class** using the `.all` class method which returns an array of `User` object instances populated with the data from the database.
+```ruby
+# get all user records
+User.all
+```
+You can 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ1ODQ5MDMsLTE0NDEwNzM1OTMsLT
-gyMTgwMTg1NCwtMjA5OTM2NCw4MDQzMzI5OTQsNTI1MjAzOTU3
-LDM5ODQ1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5MSw4Nz
-kzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLTE3Nzcz
-MjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMi
-wxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3
-NDgyODI3Ml19
+eyJoaXN0b3J5IjpbODExNzM2OTEsLTE0NDEwNzM1OTMsLTgyMT
+gwMTg1NCwtMjA5OTM2NCw4MDQzMzI5OTQsNTI1MjAzOTU3LDM5
+ODQ1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5MSw4NzkzMD
+U1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLTE3NzczMjY1
+ODIsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMiwxOT
+E5NDAxMzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3NDgy
+ODI3Ml19
 -->
