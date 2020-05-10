@@ -401,17 +401,26 @@ gem 'data_mapper'
 gem 'dm-postgres-adapter'
 ```
 
-To **connect to a postgres database** with Datamapper use the `Datamapper.setup` function in a call from your main Sinatra file. Ideally, place this code in a `configuration` block so that it can be 
+To **connect to a postgres database** with Datamapper use the `Datamapper.setup` function in a call from your main Sinatra file. Ideally, place this code in a `configuration` block so that it can contact a different database depending on whether you are in a `:development`, `:test` or `:production` environment.
+```ruby
+configure :test do
+  DataMapper.setup :default, 'postgres://localhost/database_name_test'
+end
+
+configure :development do
+  DataMapper.setup :default, 'postgres://localhost/database_name'
+end
 ```
-```
+
+A Datamapper model is a class thjat
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5NzkyNTAxLC0xNDQxMDczNTkzLC04Mj
-E4MDE4NTQsLTIwOTkzNjQsODA0MzMyOTk0LDUyNTIwMzk1Nywz
-OTg0NTg5MTUsLTE4MjIyOTQ2NzAsLTE4ODM5MTI1OTEsODc5Mz
-A1NTE3LC0xMTQ4OTUyMjQ5LC0xODE3NDExMzUxLC0xNzc3MzI2
-NTgyLC0xNzQ5NTYwOCwtNDkxMDM4OTIyLDE0ODg0Mjk1MjIsMT
-kxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4
-MjgyNzJdfQ==
+eyJoaXN0b3J5IjpbMTEwNDE0NDAxMSwtMTQ0MTA3MzU5MywtOD
+IxODAxODU0LC0yMDk5MzY0LDgwNDMzMjk5NCw1MjUyMDM5NTcs
+Mzk4NDU4OTE1LC0xODIyMjk0NjcwLC0xODgzOTEyNTkxLDg3OT
+MwNTUxNywtMTE0ODk1MjI0OSwtMTgxNzQxMTM1MSwtMTc3NzMy
+NjU4MiwtMTc0OTU2MDgsLTQ5MTAzODkyMiwxNDg4NDI5NTIyLD
+E5MTk0MDEzNTEsLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOTc0
+ODI4MjcyXX0=
 -->
