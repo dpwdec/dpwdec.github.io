@@ -407,7 +407,19 @@ require 'sinatra'
 require 'sinatra/flash'
 
 class MyApp < Sinatra::Base
-  enable :ses
+  enable :sessions
+  register Sinatra::Flash
+
+  get '/notice' do
+	# print the flash notice
+    flash[:notice]
+  end
+
+  post '/notice' do
+    # set flash notice and redirect
+    flash[:notice] = 'This is a notice.'
+    redirect('/notice')
+  end
 end
 ```
 
@@ -486,11 +498,11 @@ You can **execute arbitrary SQL** on the database you are currently connected to
 DataMapper.repository(:default).adapter.execute('TRUNCATE users;')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3MzIxNDQyLDE4NjMzNzA5ODEsMjE0MD
-U3MzQ4MCwtMTQ0MTA3MzU5MywtODIxODAxODU0LC0yMDk5MzY0
-LDgwNDMzMjk5NCw1MjUyMDM5NTcsMzk4NDU4OTE1LC0xODIyMj
-k0NjcwLC0xODgzOTEyNTkxLDg3OTMwNTUxNywtMTE0ODk1MjI0
-OSwtMTgxNzQxMTM1MSwtMTc3NzMyNjU4MiwtMTc0OTU2MDgsLT
-Q5MTAzODkyMiwxNDg4NDI5NTIyLDE5MTk0MDEzNTEsLTIzOTI3
-MjcwMV19
+eyJoaXN0b3J5IjpbLTMxNzYyMDIyOCwxODYzMzcwOTgxLDIxND
+A1NzM0ODAsLTE0NDEwNzM1OTMsLTgyMTgwMTg1NCwtMjA5OTM2
+NCw4MDQzMzI5OTQsNTI1MjAzOTU3LDM5ODQ1ODkxNSwtMTgyMj
+I5NDY3MCwtMTg4MzkxMjU5MSw4NzkzMDU1MTcsLTExNDg5NTIy
+NDksLTE4MTc0MTEzNTEsLTE3NzczMjY1ODIsLTE3NDk1NjA4LC
+00OTEwMzg5MjIsMTQ4ODQyOTUyMiwxOTE5NDAxMzUxLC0yMzky
+NzI3MDFdfQ==
 -->
