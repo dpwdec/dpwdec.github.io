@@ -22,7 +22,7 @@ Scripts (i.e. ruby files that contain code directly without methods or classes) 
 
 ### Configuration
 
-Sinatra `configuration` blocks run on files `require`d in 
+Sinatra `configuration` blocks run on files `require`d in your main Sinatra file. Usually `app.rb`.  You can submit arguments to these `configuration` blocks in the form of symbols which represent the different environment you are in when running the code. Which environment you are in depends on the `ENV['RACK_ENV'
 
 ## Routes
 You can **specify different web pages to return** by using an *HTTP Verb* combined with a string representing the page name and a block that display or loads the content for that page.
@@ -394,11 +394,11 @@ gem 'dm-postgres-adapter'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyNDkxMzM1LC04MjE4MDE4NTQsLTIwOT
-kzNjQsODA0MzMyOTk0LDUyNTIwMzk1NywzOTg0NTg5MTUsLTE4
-MjIyOTQ2NzAsLTE4ODM5MTI1OTEsODc5MzA1NTE3LC0xMTQ4OT
-UyMjQ5LC0xODE3NDExMzUxLC0xNzc3MzI2NTgyLC0xNzQ5NTYw
-OCwtNDkxMDM4OTIyLDE0ODg0Mjk1MjIsMTkxOTQwMTM1MSwtMj
-M5MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3NjUx
-NTg4NF19
+eyJoaXN0b3J5IjpbMTQ1NjI5MzUxNywtODIxODAxODU0LC0yMD
+k5MzY0LDgwNDMzMjk5NCw1MjUyMDM5NTcsMzk4NDU4OTE1LC0x
+ODIyMjk0NjcwLC0xODgzOTEyNTkxLDg3OTMwNTUxNywtMTE0OD
+k1MjI0OSwtMTgxNzQxMTM1MSwtMTc3NzMyNjU4MiwtMTc0OTU2
+MDgsLTQ5MTAzODkyMiwxNDg4NDI5NTIyLDE5MTk0MDEzNTEsLT
+IzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOTc0ODI4MjcyLDExNzY1
+MTU4ODRdfQ==
 -->
