@@ -379,12 +379,16 @@ class MyApp < Sinatra::Base
   # ...sinatra web code using sessions here...
 end
 ```
+
+## Datamapper
+
+Datamapper is an ORM similar to active record that allows you to use ruby objects and code to execute database queries. You can get **datamapp**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTgwMTg1NCwtMjA5OTM2NCw4MDQzMz
-I5OTQsNTI1MjAzOTU3LDM5ODQ1ODkxNSwtMTgyMjI5NDY3MCwt
-MTg4MzkxMjU5MSw4NzkzMDU1MTcsLTExNDg5NTIyNDksLTE4MT
-c0MTEzNTEsLTE3NzczMjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5
-MjIsMTQ4ODQyOTUyMiwxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMT
-I2ODM5NDA3MiwtMTk3NDgyODI3MiwxMTc2NTE1ODg0LC0xNTcz
-OTIyMjhdfQ==
+eyJoaXN0b3J5IjpbLTEzODE4ODE4NiwtODIxODAxODU0LC0yMD
+k5MzY0LDgwNDMzMjk5NCw1MjUyMDM5NTcsMzk4NDU4OTE1LC0x
+ODIyMjk0NjcwLC0xODgzOTEyNTkxLDg3OTMwNTUxNywtMTE0OD
+k1MjI0OSwtMTgxNzQxMTM1MSwtMTc3NzMyNjU4MiwtMTc0OTU2
+MDgsLTQ5MTAzODkyMiwxNDg4NDI5NTIyLDE5MTk0MDEzNTEsLT
+IzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOTc0ODI4MjcyLDExNzY1
+MTU4ODRdfQ==
 -->
