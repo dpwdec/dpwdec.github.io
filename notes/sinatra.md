@@ -401,13 +401,17 @@ gem 'data_mapper'
 gem 'dm-postgres-adapter'
 ```
 
+To **connect to a postgres database** with Datamapper use the `Datamapper.setup` function in a call from your main Sinatra file. Ideally, place this code in a `configuration` block so that it can be 
+```
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDEwNzM1OTMsLTgyMTgwMTg1NCwtMj
-A5OTM2NCw4MDQzMzI5OTQsNTI1MjAzOTU3LDM5ODQ1ODkxNSwt
-MTgyMjI5NDY3MCwtMTg4MzkxMjU5MSw4NzkzMDU1MTcsLTExND
-g5NTIyNDksLTE4MTc0MTEzNTEsLTE3NzczMjY1ODIsLTE3NDk1
-NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMiwxOTE5NDAxMzUxLC
-0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3NDgyODI3MiwxMTc2
-NTE1ODg0XX0=
+eyJoaXN0b3J5IjpbMzc5NzkyNTAxLC0xNDQxMDczNTkzLC04Mj
+E4MDE4NTQsLTIwOTkzNjQsODA0MzMyOTk0LDUyNTIwMzk1Nywz
+OTg0NTg5MTUsLTE4MjIyOTQ2NzAsLTE4ODM5MTI1OTEsODc5Mz
+A1NTE3LC0xMTQ4OTUyMjQ5LC0xODE3NDExMzUxLC0xNzc3MzI2
+NTgyLC0xNzQ5NTYwOCwtNDkxMDM4OTIyLDE0ODg0Mjk1MjIsMT
+kxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4
+MjgyNzJdfQ==
 -->
