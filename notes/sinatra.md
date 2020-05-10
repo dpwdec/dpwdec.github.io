@@ -456,13 +456,17 @@ You **search by non primary parameter** by combining the `.all` method with a sy
 # get all user records with the name Dec
 User.all(User.name => 'Dec')
 ```
-To **add a n**
+To **add a new record to the database** simply create a new instance of your model class with the data you want to save and use the `.save` method to commit it to the database.
+```ruby
+# saves user 'John' to the database
+User.new(name: 'John').save
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5MzQyMDQ4LC0xNDQxMDczNTkzLC04Mj
-E4MDE4NTQsLTIwOTkzNjQsODA0MzMyOTk0LDUyNTIwMzk1Nywz
-OTg0NTg5MTUsLTE4MjIyOTQ2NzAsLTE4ODM5MTI1OTEsODc5Mz
-A1NTE3LC0xMTQ4OTUyMjQ5LC0xODE3NDExMzUxLC0xNzc3MzI2
-NTgyLC0xNzQ5NTYwOCwtNDkxMDM4OTIyLDE0ODg0Mjk1MjIsMT
-kxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4
-MjgyNzJdfQ==
+eyJoaXN0b3J5IjpbLTE4Nzk3NzE4NzEsLTE0NDEwNzM1OTMsLT
+gyMTgwMTg1NCwtMjA5OTM2NCw4MDQzMzI5OTQsNTI1MjAzOTU3
+LDM5ODQ1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5MSw4Nz
+kzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLTE3Nzcz
+MjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMi
+wxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3
+NDgyODI3Ml19
 -->
