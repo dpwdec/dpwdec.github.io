@@ -382,9 +382,13 @@ end
 
 ## Datamapper
 
-Datamapper is an ORM similar to active record that allows you to use ruby objects and code to execute database queries. You can get **datamapp**
+Datamapper is an ORM similar to active record that allows you to use ruby objects and code to execute database queries. You can get **datamapper to work with postgres** by using the `dm-postgres-adapter` gem. To start using datamapper add the `data_mapper` gem to your gem file.
+```ruby
+gem 'data_mapper'
+gem 'dm-postgres-adapter'
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODE4ODE4NiwtODIxODAxODU0LC0yMD
+eyJoaXN0b3J5IjpbLTY4MjYzNzExOSwtODIxODAxODU0LC0yMD
 k5MzY0LDgwNDMzMjk5NCw1MjUyMDM5NTcsMzk4NDU4OTE1LC0x
 ODIyMjk0NjcwLC0xODgzOTEyNTkxLDg3OTMwNTUxNywtMTE0OD
 k1MjI0OSwtMTgxNzQxMTM1MSwtMTc3NzMyNjU4MiwtMTc0OTU2
