@@ -22,7 +22,16 @@ Scripts (i.e. ruby files that contain code directly without methods or classes) 
 
 ### Configuration
 
-Sinatra `configuration` blocks run on files `require`d in your main Sinatra file. Usually `app.rb`.  You can submit arguments to these `configuration` blocks in the form of symbols which represent the different environment you are in when running the code. Which environment you are in depends on the `ENV['RACK_ENV'
+Sinatra `configuration` blocks run on files `require`d in your main Sinatra file. Usually `app.rb`.  You can submit arguments to these `configuration` blocks in the form of symbols which represent the different environment you are in when running the code. For example, the `:test` symbol is used for running test code. Which environment you are in depends on the `ENV['RACK_ENV']`. The environment defaults to `:development` if not environment is set.
+```ruby
+configuration :development do
+  # do some development set up
+end
+
+configuration :test do
+  # do so
+end
+```
 
 ## Routes
 You can **specify different web pages to return** by using an *HTTP Verb* combined with a string representing the page name and a block that display or loads the content for that page.
@@ -394,7 +403,7 @@ gem 'dm-postgres-adapter'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjI5MzUxNywtODIxODAxODU0LC0yMD
+eyJoaXN0b3J5IjpbMjA4NzczNzc2OCwtODIxODAxODU0LC0yMD
 k5MzY0LDgwNDMzMjk5NCw1MjUyMDM5NTcsMzk4NDU4OTE1LC0x
 ODIyMjk0NjcwLC0xODgzOTEyNTkxLDg3OTMwNTUxNywtMTE0OD
 k1MjI0OSwtMTgxNzQxMTM1MSwtMTc3NzMyNjU4MiwtMTc0OTU2
