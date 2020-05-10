@@ -427,10 +427,10 @@ class User
 end
 ```
 
-To **migrate your models to the database** i.e. automatically create and update the tables in your corresponding postgres server use `Datamapper.auto_migrate!` and `Datamapper.auto_upgrad
+To **migrate your models to the database** i.e. automatically create and update the tables in your corresponding postgres server use `Datamapper.auto_migrate!` or `Datamapper.auto_upgrade!`. The **former will clear all data from the database** whenever it is run whereas the **latter will try and reconcile the data already in the database with changes**. I place these calls inside the same file that contacts
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE2MzE2NDQsLTE0NDEwNzM1OTMsLT
+eyJoaXN0b3J5IjpbLTExOTIwMTE0NTgsLTE0NDEwNzM1OTMsLT
 gyMTgwMTg1NCwtMjA5OTM2NCw4MDQzMzI5OTQsNTI1MjAzOTU3
 LDM5ODQ1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5MSw4Nz
 kzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLTE3Nzcz
