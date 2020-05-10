@@ -22,7 +22,9 @@ Scripts (i.e. ruby files that contain code directly without methods or classes) 
 
 ### Configuration
 
-Sinatra `configuration` blocks run on files `require`d in your main Sinatra file. Usually `app.rb`.  You can submit arguments to these `configuration` blocks in the form of symbols which represent the different environment you are in when running the code. For example, the `:test` symbol is used for running test code. Which environment you are in depends on the `ENV['RACK_ENV']`. The environment defaults to `:development` if not environment is set.
+Sinatra `configuration` blocks run on files `require`d in your main Sinatra file. Usually `app.rb`.  You can submit arguments to these `configuration` blocks in the form of symbols which represent the different environment you are in when running the code. This environment is actually recorded as a symbol of the same name: `:envrionment`.
+
+For example, the `:test` symbol is used for running test code. Which environment you are in depends on the `ENV['RACK_ENV']`. The environment defaults to `:development` if not environment is set.
 ```ruby
 configuration :development do
   # do some development set up
@@ -468,11 +470,11 @@ You can **execute arbitrary SQL** on the database you are currently connected to
 DataMapper.repository(:default).adapter.execute('TRUNCATE users;')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDU3MzQ4MCwtMTQ0MTA3MzU5MywtOD
-IxODAxODU0LC0yMDk5MzY0LDgwNDMzMjk5NCw1MjUyMDM5NTcs
-Mzk4NDU4OTE1LC0xODIyMjk0NjcwLC0xODgzOTEyNTkxLDg3OT
-MwNTUxNywtMTE0ODk1MjI0OSwtMTgxNzQxMTM1MSwtMTc3NzMy
-NjU4MiwtMTc0OTU2MDgsLTQ5MTAzODkyMiwxNDg4NDI5NTIyLD
-E5MTk0MDEzNTEsLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOTc0
-ODI4MjcyXX0=
+eyJoaXN0b3J5IjpbMTg2MzM3MDk4MSwyMTQwNTczNDgwLC0xND
+QxMDczNTkzLC04MjE4MDE4NTQsLTIwOTkzNjQsODA0MzMyOTk0
+LDUyNTIwMzk1NywzOTg0NTg5MTUsLTE4MjIyOTQ2NzAsLTE4OD
+M5MTI1OTEsODc5MzA1NTE3LC0xMTQ4OTUyMjQ5LC0xODE3NDEx
+MzUxLC0xNzc3MzI2NTgyLC0xNzQ5NTYwOCwtNDkxMDM4OTIyLD
+E0ODg0Mjk1MjIsMTkxOTQwMTM1MSwtMjM5MjcyNzAxLDEyNjgz
+OTQwNzJdfQ==
 -->
