@@ -401,7 +401,15 @@ end
 
 To setup `sinatra-flash` add it as a gem to your gemfile. Then `require 'sinatra/flash'` in your main Sinatra, `enable :sessions` and `register` the `Sinatra::Flash` namespace.
 
-This allows you to use the `flash` which you can fill with values of your choosing and then display in your app
+This allows you to use the `flash` which you can fill with values of your choosing and then display in your applications `.erb` files. These **flash messages persist through `redirect`s**. So, if you assign a flash messages value inside a `post` route for example, and then `redirect` to a `GET` page the value of the `flash` has will still be available for viewing.
+```ruby
+require 'sinatra'
+require 'sinatra/flash'
+
+class MyApp < Sinatra::Base
+  enable :ses
+end
+```
 
 ## Datamapper
 
@@ -478,11 +486,11 @@ You can **execute arbitrary SQL** on the database you are currently connected to
 DataMapper.repository(:default).adapter.execute('TRUNCATE users;')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4OTEzNTk0OCwxODYzMzcwOTgxLDIxND
-A1NzM0ODAsLTE0NDEwNzM1OTMsLTgyMTgwMTg1NCwtMjA5OTM2
-NCw4MDQzMzI5OTQsNTI1MjAzOTU3LDM5ODQ1ODkxNSwtMTgyMj
-I5NDY3MCwtMTg4MzkxMjU5MSw4NzkzMDU1MTcsLTExNDg5NTIy
-NDksLTE4MTc0MTEzNTEsLTE3NzczMjY1ODIsLTE3NDk1NjA4LC
-00OTEwMzg5MjIsMTQ4ODQyOTUyMiwxOTE5NDAxMzUxLC0yMzky
-NzI3MDFdfQ==
+eyJoaXN0b3J5IjpbMjc3MzIxNDQyLDE4NjMzNzA5ODEsMjE0MD
+U3MzQ4MCwtMTQ0MTA3MzU5MywtODIxODAxODU0LC0yMDk5MzY0
+LDgwNDMzMjk5NCw1MjUyMDM5NTcsMzk4NDU4OTE1LC0xODIyMj
+k0NjcwLC0xODgzOTEyNTkxLDg3OTMwNTUxNywtMTE0ODk1MjI0
+OSwtMTgxNzQxMTM1MSwtMTc3NzMyNjU4MiwtMTc0OTU2MDgsLT
+Q5MTAzODkyMiwxNDg4NDI5NTIyLDE5MTk0MDEzNTEsLTIzOTI3
+MjcwMV19
 -->
