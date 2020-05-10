@@ -16,7 +16,7 @@ title: Notes
 | | [Jekyll](notes/jekyll.html) |
 | | [Node](notes/node.html) |
 | front end | [HTML](notes/html.html) |
-| | [CSS](notes/
+| | [CSS](notes/css.html) |
 
 | databases | |
 | --- | --- |
@@ -29,8 +29,12 @@ title: Notes
 | structure | [Object Oriented Programming](notes/oop.html) |
 | | [Refactoring](notes/refactoring.html) |
 
+| tools | |
+| --- | --- |
+| IDEs | [Atom](notes/atom.html) |
+| Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NTQzMzcwMCwtMTk5MDQzNTk3MCwtMj
-I2MTc1MTM4XX0=
+eyJoaXN0b3J5IjpbLTQwMzI0MTQ4LC0xOTkwNDM1OTcwLC0yMj
+YxNzUxMzhdfQ==
 -->
