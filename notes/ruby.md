@@ -434,20 +434,23 @@ Time.now.strftime('%H:%M') # => 17:56
 ```
 
 ## HEREDOC
-HEREDOC allows you type arbitrarily formatted string lines and assign them to a variable. This is very useful for making SQL queries that are much easier to read when formatted over multiple lines. You can **define a HEREDOC block** using the `<<-` indicator followed by the type of HEREDOC you are creating.
+HEREDOC allows you type arbitrarily formatted string lines and assign them to a variable. This is very useful for making SQL queries that are much easier to read when formatted over multiple lines. 
+
+You can **define a HEREDOC block** using the `<<-` indicator followed by the type of HEREDOC you are creating. The type indicator is used as a container around the HEREDOC. In the example below the `SQL` text is placed at the beginning and end showing where the query text starts and finishes and what should be saved into the `query` variable.
 ```ruby
 query = <<-SQL
 SELECT * FROM table
 WHERE name = #{name} AND age = 10
-L
+ORDER BY name DESC
+SQL
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODIxOTYzMCwyMDU5ODg3NTQ0LDEzOD
-E3MDEzOSwtMjA5MjU2NjU4MywtMTA4NDY0OTQ5OSwtMTYxOTQ4
-MDQwMCwxNzYwMzUyMDA4LDE3MDQyMTEzMjgsMTMwNzExNjEwLC
-00MTI3ODY0MzAsMzUyMjQwOTA4LC0xODExNTQzNTE5LDI0NDI0
-MzIzMiwtMTEwOTI3MjU1MCwtMTc3NzExMTAxNywtNTg5MzE4MT
-kwLDE0NzMxODI1ODMsMTQ4OTIxNjE5MiwtMTk1MzYxNzE2LC0z
-MzQzNTkzMDhdfQ==
+eyJoaXN0b3J5IjpbMTA2ODg1NjUsMjA1OTg4NzU0NCwxMzgxNz
+AxMzksLTIwOTI1NjY1ODMsLTEwODQ2NDk0OTksLTE2MTk0ODA0
+MDAsMTc2MDM1MjAwOCwxNzA0MjExMzI4LDEzMDcxMTYxMCwtND
+EyNzg2NDMwLDM1MjI0MDkwOCwtMTgxMTU0MzUxOSwyNDQyNDMy
+MzIsLTExMDkyNzI1NTAsLTE3NzcxMTEwMTcsLTU4OTMxODE5MC
+wxNDczMTgyNTgzLDE0ODkyMTYxOTIsLTE5NTM2MTcxNiwtMzM0
+MzU5MzA4XX0=
 -->
