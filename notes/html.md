@@ -18,9 +18,9 @@ To **create a hidden field** for a password that does not display what the user 
 
 To **create a text box that can be resized and typed into** use the `textarea` tags within a form. This also takes an argument `rows` that sets the default height of the text box when first created.
 ```html
-
+<textarea rows=
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0MjgyMDIxXX0=
+eyJoaXN0b3J5IjpbNzkxODI4OTk3LDczNDI4MjAyMV19
 -->
