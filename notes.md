@@ -9,12 +9,16 @@ Ruby:
 
 Web development:
 [Web Structures](notes/www.html)
+[Sinatra](
 
+Databases:
+[Database Fundamentals](notes/db.html)
+[SQL](notes/sql.html)
 
 [Object Oriented Programming](notes/oop.html)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTcxNjUwOCwtMTk5MDQzNTk3MCwtMj
+eyJoaXN0b3J5IjpbLTg0NDYxOTEyMSwtMTk5MDQzNTk3MCwtMj
 I2MTc1MTM4XX0=
 -->
