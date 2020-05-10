@@ -12,8 +12,11 @@ title: Notes
 | web development |  |
 | --- | ---|
 | topic | notes |
-| basics | [Web Structures](notes/www.html)
-| testing | [RSpec](notes/rspec.html) |
+| basics | [Web Structures](notes/www.html) |
+| testing | [Capybara](notes/capybara.html) |
+| frameworks | [Sinatra](notes/sinatra.html) |
+| | [Jekyll](notes/jekyll.html) |
+| | [Node](notes/node.html) |
 
 Web development:
 [Web Structures](notes/www.html)
@@ -27,6 +30,6 @@ Databases:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDc2MzgyNSwtMTk5MDQzNTk3MCwtMj
-I2MTc1MTM4XX0=
+eyJoaXN0b3J5IjpbMTM3MzU3Nzg0LC0xOTkwNDM1OTcwLC0yMj
+YxNzUxMzhdfQ==
 -->
