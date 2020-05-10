@@ -20,6 +20,10 @@ When changing files in your Sinatra project you will need to start and restart t
 
 Scripts (i.e. ruby files that contain code directly without methods or classes) that are `require`d inside `app.rb` will be run when your sinatra application start up. Use this functionality to **execute set up code** for your sinatra application.
 
+### Configuration
+
+Sinatra `configuration` blocks run on files `require`d in 
+
 ## Routes
 You can **specify different web pages to return** by using an *HTTP Verb* combined with a string representing the page name and a block that display or loads the content for that page.
 ```ruby
@@ -387,12 +391,14 @@ Datamapper is an ORM similar to active record that allows you to use ruby object
 gem 'data_mapper'
 gem 'dm-postgres-adapter'
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjYzNzExOSwtODIxODAxODU0LC0yMD
-k5MzY0LDgwNDMzMjk5NCw1MjUyMDM5NTcsMzk4NDU4OTE1LC0x
-ODIyMjk0NjcwLC0xODgzOTEyNTkxLDg3OTMwNTUxNywtMTE0OD
-k1MjI0OSwtMTgxNzQxMTM1MSwtMTc3NzMyNjU4MiwtMTc0OTU2
-MDgsLTQ5MTAzODkyMiwxNDg4NDI5NTIyLDE5MTk0MDEzNTEsLT
-IzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOTc0ODI4MjcyLDExNzY1
-MTU4ODRdfQ==
+eyJoaXN0b3J5IjpbNDYyNDkxMzM1LC04MjE4MDE4NTQsLTIwOT
+kzNjQsODA0MzMyOTk0LDUyNTIwMzk1NywzOTg0NTg5MTUsLTE4
+MjIyOTQ2NzAsLTE4ODM5MTI1OTEsODc5MzA1NTE3LC0xMTQ4OT
+UyMjQ5LC0xODE3NDExMzUxLC0xNzc3MzI2NTgyLC0xNzQ5NTYw
+OCwtNDkxMDM4OTIyLDE0ODg0Mjk1MjIsMTkxOTQwMTM1MSwtMj
+M5MjcyNzAxLDEyNjgzOTQwNzIsLTE5NzQ4MjgyNzIsMTE3NjUx
+NTg4NF19
 -->
