@@ -427,14 +427,14 @@ class User
 end
 ```
 
-To **migrate your databases**
+To **migrate your models to the database** i.e. automatically create and update the tables in your corresponding postgres server use `Datamapper.auto_migrate!` and `Datamapper.auto_upgrad
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDI1Nzk1NCwtMTQ0MTA3MzU5MywtOD
-IxODAxODU0LC0yMDk5MzY0LDgwNDMzMjk5NCw1MjUyMDM5NTcs
-Mzk4NDU4OTE1LC0xODIyMjk0NjcwLC0xODgzOTEyNTkxLDg3OT
-MwNTUxNywtMTE0ODk1MjI0OSwtMTgxNzQxMTM1MSwtMTc3NzMy
-NjU4MiwtMTc0OTU2MDgsLTQ5MTAzODkyMiwxNDg4NDI5NTIyLD
-E5MTk0MDEzNTEsLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOTc0
-ODI4MjcyXX0=
+eyJoaXN0b3J5IjpbLTE5NjE2MzE2NDQsLTE0NDEwNzM1OTMsLT
+gyMTgwMTg1NCwtMjA5OTM2NCw4MDQzMzI5OTQsNTI1MjAzOTU3
+LDM5ODQ1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5MSw4Nz
+kzMDU1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLTE3Nzcz
+MjY1ODIsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMi
+wxOTE5NDAxMzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3
+NDgyODI3Ml19
 -->
