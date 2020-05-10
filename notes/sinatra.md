@@ -412,15 +412,22 @@ configure :development do
 end
 ```
 
-A Datamapper model is a class that is defined to match the structure of a table. For example, if you had a table called `users` which stored an `id` and a `name` then you would have a corresponding object called `User` that would represent the data from that table as a singular record. As a developer **all you need to do is created the `User` class with the properties you would like stored**. Datamapper will then automatically create the corresponding pluralised table in your database.
+A Datamapper model is a class that is defined to match the structure of a table. For example, if you had a table called `users` which stored an `id` and a `name` then you would have a corresponding object called `User` that would represent the data from that table as a singular record. As a developer **all you need to do is created the appropriate class with the properties you would like stored**. Datamapper will then automatically create the corresponding table in your database (with a pluralised name).
+
+To set up a datamapper model `include Datamapper::Resource` at the start of your class and then use the `property` tag to define fields in your class that will be translated into columns in your database.
+```ruby
+class User
+  
+end
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzY2MjMxNiwtMTQ0MTA3MzU5MywtOD
-IxODAxODU0LC0yMDk5MzY0LDgwNDMzMjk5NCw1MjUyMDM5NTcs
-Mzk4NDU4OTE1LC0xODIyMjk0NjcwLC0xODgzOTEyNTkxLDg3OT
-MwNTUxNywtMTE0ODk1MjI0OSwtMTgxNzQxMTM1MSwtMTc3NzMy
-NjU4MiwtMTc0OTU2MDgsLTQ5MTAzODkyMiwxNDg4NDI5NTIyLD
-E5MTk0MDEzNTEsLTIzOTI3MjcwMSwxMjY4Mzk0MDcyLC0xOTc0
-ODI4MjcyXX0=
+eyJoaXN0b3J5IjpbOTIyMTk0NTMsLTE0NDEwNzM1OTMsLTgyMT
+gwMTg1NCwtMjA5OTM2NCw4MDQzMzI5OTQsNTI1MjAzOTU3LDM5
+ODQ1ODkxNSwtMTgyMjI5NDY3MCwtMTg4MzkxMjU5MSw4NzkzMD
+U1MTcsLTExNDg5NTIyNDksLTE4MTc0MTEzNTEsLTE3NzczMjY1
+ODIsLTE3NDk1NjA4LC00OTEwMzg5MjIsMTQ4ODQyOTUyMiwxOT
+E5NDAxMzUxLC0yMzkyNzI3MDEsMTI2ODM5NDA3MiwtMTk3NDgy
+ODI3Ml19
 -->
