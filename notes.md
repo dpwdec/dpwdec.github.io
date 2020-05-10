@@ -15,6 +15,8 @@ title: Notes
 | frameworks | [Sinatra](notes/sinatra.html) |
 | | [Jekyll](notes/jekyll.html) |
 | | [Node](notes/node.html) |
+| front end | [HTML](notes/html.html) |
+| | [CSS](notes/
 
 | databases | |
 | --- | --- |
@@ -22,11 +24,13 @@ title: Notes
 | | [SQL](notes/sql.html) |
 | frameworks | [PostgreSQL](notes/psql.html) |
 
-
-[Object Oriented Programming](notes/oop.html)
+| fundamentals | |
+| --- | --- |
+| structure | [Object Oriented Programming](notes/oop.html) |
+| | [Refactoring](notes/refactoring.html) |
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTEwODk1NCwtMTk5MDQzNTk3MCwtMj
+eyJoaXN0b3J5IjpbMTE5NTQzMzcwMCwtMTk5MDQzNTk3MCwtMj
 I2MTc1MTM4XX0=
 -->
