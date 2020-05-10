@@ -397,7 +397,9 @@ end
 
 ## Sinatra-Flash
 
-[Sinatra-Flash](https://github.com/SFEley/sinatra-flash) is a library that **allows you to use flash messages inside your sinatra** application. These messages appear
+[Sinatra-Flash](https://github.com/SFEley/sinatra-flash) is a library that **allows you to use flash messages inside your sinatra** application. These messages appear once and when the page is refreshed disappear. This useful for displaying information that doesn't need to be persistently dispalyed, things like error messages and log in confirmation.
+
+To install `sinatra-flash` add it as a gem to your gemfile. Then `require 'sinatra/flash'` in your main sinat
 
 ## Datamapper
 
@@ -474,11 +476,11 @@ You can **execute arbitrary SQL** on the database you are currently connected to
 DataMapper.repository(:default).adapter.execute('TRUNCATE users;')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4ODExNjMzLDE4NjMzNzA5ODEsMjE0MD
-U3MzQ4MCwtMTQ0MTA3MzU5MywtODIxODAxODU0LC0yMDk5MzY0
-LDgwNDMzMjk5NCw1MjUyMDM5NTcsMzk4NDU4OTE1LC0xODIyMj
-k0NjcwLC0xODgzOTEyNTkxLDg3OTMwNTUxNywtMTE0ODk1MjI0
-OSwtMTgxNzQxMTM1MSwtMTc3NzMyNjU4MiwtMTc0OTU2MDgsLT
-Q5MTAzODkyMiwxNDg4NDI5NTIyLDE5MTk0MDEzNTEsLTIzOTI3
-MjcwMV19
+eyJoaXN0b3J5IjpbLTExMzMwMDU4NjUsMTg2MzM3MDk4MSwyMT
+QwNTczNDgwLC0xNDQxMDczNTkzLC04MjE4MDE4NTQsLTIwOTkz
+NjQsODA0MzMyOTk0LDUyNTIwMzk1NywzOTg0NTg5MTUsLTE4Mj
+IyOTQ2NzAsLTE4ODM5MTI1OTEsODc5MzA1NTE3LC0xMTQ4OTUy
+MjQ5LC0xODE3NDExMzUxLC0xNzc3MzI2NTgyLC0xNzQ5NTYwOC
+wtNDkxMDM4OTIyLDE0ODg0Mjk1MjIsMTkxOTQwMTM1MSwtMjM5
+MjcyNzAxXX0=
 -->
