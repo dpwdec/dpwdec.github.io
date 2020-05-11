@@ -69,6 +69,8 @@ var catScratch = function() {
 cat.scratch = catScratch; // => 'Cat scratches you!'
 ```
 
+You can also **define functions directly inside**
+
 ## Functions
 
 Javascript functions are treated just like regular variables.
@@ -95,8 +97,8 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NzY5OTYwNywtNzAzMzA3MTY2LDE4MD
-c2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNzkzNzc5
-ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1OTI1NzQyNV
-19
+eyJoaXN0b3J5IjpbODUwNjc4NTg5LDE2Njc2OTk2MDcsLTcwMz
+MwNzE2NiwxODA3NjQ2MzA2LC01NDI4MTM4MjEsLTE5MjcyNzE5
+MTIsLTc5Mzc3OTgwMywxMTI2MDM1Mzc0LDE1MTAyMTUyOTYsLT
+ExNTkyNTc0MjVdfQ==
 -->
