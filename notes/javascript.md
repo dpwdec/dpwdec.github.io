@@ -71,6 +71,8 @@ cat.scratch = catScratch; // => 'Cat scratches you!'
 
 ## Functions
 
+Javascript functions are treated just like regular variables.
+
 You can ** define functions in Javascript** using the `function` keyword and assigning it to a `var` using `=` to name the function.
 ```js
 var myFunction = function() {
@@ -93,8 +95,8 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Mjc1NjEyLC03MDMzMDcxNjYsMTgwNz
-Y0NjMwNiwtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3Nzk4
-MDMsMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC0xMTU5MjU3NDI1XX
-0=
+eyJoaXN0b3J5IjpbMTY2NzY5OTYwNywtNzAzMzA3MTY2LDE4MD
+c2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNzkzNzc5
+ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1OTI1NzQyNV
+19
 -->
