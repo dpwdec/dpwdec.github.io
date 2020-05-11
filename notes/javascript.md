@@ -14,8 +14,12 @@ profile.age = "60"
 profile = { name:"Ogawa", age:"18" } //ERROR
 ```
 
+## Dictionaries
+
+A dictionary is **javascript's equivalent of a hash**. It stores information in key value pairs. Dictionaries are defined using `{ }` curly brackets with the keys and values
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTkyNTc0MjVdfQ==
+eyJoaXN0b3J5IjpbMzQ5NjQzMTYzLC0xMTU5MjU3NDI1XX0=
 -->
