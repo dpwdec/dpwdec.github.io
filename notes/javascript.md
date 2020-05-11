@@ -1,5 +1,5 @@
 ---
-title: JavaSript
+title: JavaScript
 layout: page
 exclude: true
 ---
@@ -157,7 +157,13 @@ You can **call a function** by appending `()` to the end of the variable name th
 myFunction(); // => 'hello'
 ```
 
-If you define a variable in a function without using the `var` keyword. Then **the function variable will be in the global scope**. The global variable is only assigned when
+If you define a variable in a function without using the `var` keyword. Then **the function variable will be in the global scope**. The global variable is only assigned when the function is called. To avoid this always use the `var` keyword inside functions!
+```js
+function myFunction() {
+  globalVariable = 5;
+}
+globalVariable // => 5
+```
 
 ## Objects
 
@@ -270,11 +276,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxMTQ3OTUwLDQzMDk3ODU1MSw2ODY4OT
-YyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDcz
-NTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNj
-kzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2
-ODYsMTE3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMT
-gwNzY0NjMwNiwtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3
-Nzk4MDNdfQ==
+eyJoaXN0b3J5IjpbMTkyNzczNjA2OSw0MzA5Nzg1NTEsNjg2OD
+k2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3
+MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLD
+Y5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQz
+Njg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3MTY2LD
+E4MDc2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNzkz
+Nzc5ODAzXX0=
 -->
