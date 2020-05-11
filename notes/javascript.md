@@ -157,12 +157,17 @@ You can **call a function** by appending `()` to the end of the variable name th
 myFunction(); // => 'hello'
 ```
 
-If you define a variable in a function without using the `var` keyword. Then **the function variable will be in the global scope**. The global variable is only assigned when the function is called. To avoid this always use the `var` keyword inside functions!
+If you define a variable in a function without using the `var` keyword. Then **the function variable will be in the global scope**. The global variable is only assigned when the function is called. To **limit variables to the local scope of the function** the `var` keyword inside functions!
 ```js
-function myFunction() {
+function myBadFunction() {
   globalVariable = 5;
 }
 globalVariable // => 5
+
+function myBetterFunction() {
+  var localVariable = 5;
+}
+localVariable // => undefined
 ```
 
 ## Objects
@@ -276,7 +281,7 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzczNjA2OSw0MzA5Nzg1NTEsNjg2OD
+eyJoaXN0b3J5IjpbLTIxOTM5NDE3OCw0MzA5Nzg1NTEsNjg2OD
 k2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3
 MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLD
 Y5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQz
