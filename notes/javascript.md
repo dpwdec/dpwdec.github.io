@@ -151,7 +151,18 @@ class Antelope {
 }
 ```
 
-You can **define class and i**
+You can **define class and instance methods** inside the body of the class using the ES6 standard. You **can also use the prototype syntax** to add methods to ES6 classes.
+```js
+class Antelope {
+  constructor(name) {
+    this.name = name;
+  }
+
+  myFunction() {
+    return 'My name is ' + this.name
+  }
+}
+```
 
 ### Both Standards
 
@@ -163,10 +174,10 @@ var antelope = new Antelope('Jonathan');
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTE5Mjg2OSwtMjEzNzQzMTU4MCw2OT
-M1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4NDcwLDkzMTk0MzY4
-NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLTcwMzMwNzE2NiwxOD
-A3NjQ2MzA2LC01NDI4MTM4MjEsLTE5MjcyNzE5MTIsLTc5Mzc3
-OTgwMywxMTI2MDM1Mzc0LDE1MTAyMTUyOTYsLTExNTkyNTc0Mj
-VdfQ==
+eyJoaXN0b3J5IjpbNDcyNjA1ODMzLC0yMTM3NDMxNTgwLDY5Mz
+U2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQzNjg2
+LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3MTY2LDE4MD
+c2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNzkzNzc5
+ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1OTI1NzQyNV
+19
 -->
