@@ -1,6 +1,10 @@
 ## Style
 
-You should **name **
+You should use **lowerCamelCase** for **variables, properties and function names**.
+```js
+var myVarName = 'name';
+function myFunctionName
+```
 
 ## Variables
 You can **define a new variable in Javascript** using the `var` keyword.
@@ -77,8 +81,8 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODAyNzI2NCwtNzAzMzA3MTY2LDE4MD
-c2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNzkzNzc5
-ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1OTI1NzQyNV
-19
+eyJoaXN0b3J5IjpbMjkxNzk5NDk3LC03MDMzMDcxNjYsMTgwNz
+Y0NjMwNiwtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3Nzk4
+MDMsMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC0xMTU5MjU3NDI1XX
+0=
 -->
