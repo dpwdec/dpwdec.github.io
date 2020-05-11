@@ -4,6 +4,14 @@ You can **define a new variable in Javascript** using the `var` keyword.
 var x = 5
 ```
 
+## Strings
+
+You can **interpolate variables into a string** by using a `${ }` symbol inside the string with the variable you want to interpolate placed between the curly brackets.
+```js
+var name = 'Dec'
+
+```
+
 #### Constants
 Constants are Javascripts **immutable** variables. They are defined using the keyword `const`.  
 ```javascript
@@ -59,6 +67,6 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Mzc3OTgwMywxMTI2MDM1Mzc0LDE1MT
-AyMTUyOTYsLTExNTkyNTc0MjVdfQ==
+eyJoaXN0b3J5IjpbLTkwNjA1MzY5MCwtNzkzNzc5ODAzLDExMj
+YwMzUzNzQsMTUxMDIxNTI5NiwtMTE1OTI1NzQyNV19
 -->
