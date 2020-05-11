@@ -16,10 +16,15 @@ profile = { name:"Ogawa", age:"18" } //ERROR
 
 ## Dictionaries
 
-A dictionary is **javascript's equivalent of a hash**. It stores information in key value pairs. Dictionaries are defined using `{ }` curly brackets with the keys and values
+A dictionary is **javascript's equivalent of a hash**. It stores information in key value pairs. Dictionaries are defined using `{ }` curly brackets and `:` to indicate assignment from key to value. 
+```js
+cat = { legs: 4, sound: 'meow' };
+```
+
+You can **ret**
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5NjQzMTYzLC0xMTU5MjU3NDI1XX0=
+eyJoaXN0b3J5IjpbMTIzMDQ4OTAxNywtMTE1OTI1NzQyNV19
 -->
