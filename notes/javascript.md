@@ -66,6 +66,8 @@ profile.age = "60";
 profile = { name:"Ogawa", age:"18" }; //ERROR
 ```
 
+#
+
 ## Strings
 
 You can **place `"` double quotes directly into `'` single quote strings**.
@@ -308,11 +310,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDQwMzE0MDIsNDMwOTc4NTUxLDY4Nj
-g5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcw
-NzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQzMTU4MC
-w2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4NDcwLDkzMTk0
-MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLTcwMzMwNzE2Ni
-wxODA3NjQ2MzA2LC01NDI4MTM4MjEsLTE5MjcyNzE5MTIsLTc5
-Mzc3OTgwM119
+eyJoaXN0b3J5IjpbMTI3NDg3MzI1NSw0MzA5Nzg1NTEsNjg2OD
+k2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3
+MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLD
+Y5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQz
+Njg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3MTY2LD
+E4MDc2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNzkz
+Nzc5ODAzXX0=
 -->
