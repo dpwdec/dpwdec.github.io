@@ -120,9 +120,9 @@ myFunction('Dec'); // 'hello Dec'
 
 ## Classes
 
-
+There are **two ways to define classes** in Javascript. There is an **older ES5** standard that uses the `function` keyword and the **e**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTMzMzg4LC0xNDE5Nzg0NzAsOTMxOT
+eyJoaXN0b3J5IjpbOTAzNTQ1NDY3LC0xNDE5Nzg0NzAsOTMxOT
 QzNjg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3MTY2
 LDE4MDc2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNz
 kzNzc5ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1OTI1
