@@ -139,10 +139,13 @@ class Antelope {
 
 You can **create a new instance of a class** using the `new` keyword followed by the object.
 ```js
+// this new definition works for both ES5 and ES6
 var antelope = new Antelope('Jonathan');
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDIxMjE1NDUsNjkzNTY3OTUyLDE2MD
+eyJoaXN0b3J5IjpbLTIxMzc0MzE1ODAsNjkzNTY3OTUyLDE2MD
 YxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMTE3MjQwNTQz
 NCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0NjMwNiwtNT
 QyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3Nzk4MDMsMTEyNjAz
