@@ -45,6 +45,21 @@ var a;
 a + ""; // => 'undefined'
 ```
 
+## Constants
+Constants are Javascripts **immutable** variables. They are defined using the keyword `const`.  
+```javascript
+const N = 204;
+N = 300; //ERROR
+```
+Javascript are **actually just constant references to variables**. This means that you **cannot change a primitive constant**, but you **can change the properties of an object constant**. This changing principle goes for all types of objects including arrays, hashes etc.
+```javascript
+const profile = { name:"Tatsuki", age:"59" };
+// change the age property of the profile object
+profile.age = "60";
+// CANNOT change profile to point to a new object
+profile = { name:"Ogawa", age:"18" }; //ERROR
+```
+
 ## Strings
 
 You can **place `"` double quotes directly into `'` single quote strings**.
@@ -88,19 +103,12 @@ var name = 'Dec';
 console.log(`My name is ${name}.`);
 ```
 
-## Constants
-Constants are Javascripts **immutable** variables. They are defined using the keyword `const`.  
-```javascript
-const N = 204;
-N = 300; //ERROR
-```
-Javascript are **actually just constant references to variables**. This means that you **cannot change a primitive constant**, but you **can change the properties of an object constant**. This changing principle goes for all types of objects including arrays, hashes etc.
-```javascript
-const profile = { name:"Tatsuki", age:"59" };
-// change the age property of the profile object
-profile.age = "60";
-// CANNOT change profile to point to a new object
-profile = { name:"Ogawa", age:"18" }; //ERROR
+## Arrays
+
+You can access the content of multi dimensional arrays using two consecutive sets of `[ ]` square brackets.
+```js
+var array = [
+]
 ```
 
 ## Functions
@@ -239,11 +247,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLT
-E3MjY3MDczNTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0
-MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MC
-w5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMz
-MDcxNjYsMTgwNzY0NjMwNiwtNTQyODEzODIxLC0xOTI3MjcxOT
-EyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC0x
-MTU5MjU3NDI1XX0=
+eyJoaXN0b3J5IjpbNzIxNjE1NjczLC0xMDMwMTg1MzY3LC0xNT
+QwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYw
+ODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC
+0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5
+OTYwNywtNzAzMzA3MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgyMS
+wtMTkyNzI3MTkxMiwtNzkzNzc5ODAzLDExMjYwMzUzNzQsMTUx
+MDIxNTI5Nl19
 -->
