@@ -170,6 +170,8 @@ function myBetterFunction() {
 localVariable // => undefined
 ```
 
+**Any variables defined in the**
+
 ## Objects
 
 A basic javascript object is **structured like a hash in ruby** or a **struct in Rust**. It stores information in key value pairs. Objects are defined using `{ }` curly brackets and `:` to indicate assignment from key to value. 
@@ -281,7 +283,7 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTM5NDE3OCw0MzA5Nzg1NTEsNjg2OD
+eyJoaXN0b3J5IjpbMjA2Nzc1NTY2NCw0MzA5Nzg1NTEsNjg2OD
 k2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3
 MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLD
 Y5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQz
