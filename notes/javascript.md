@@ -6,10 +6,10 @@ var x = 5;
 
 ## Strings
 
-You can **interpolate variables into a string** by using a `${ }` symbol inside the string with the variable you want to interpolate placed between the curly brackets.
+You can **interpolate variables into a string** by surrounding your string with back-ticks and using a `${ }` symbol inside the string with the variable you want to interpolate placed between the curly brackets.
 ```js
 var name = 'Dec';
-console.log('My name is ${name}.');
+console.log(`My name is ${name}.`);
 ```
 
 #### Constants
@@ -67,6 +67,7 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjcyNzE5MTIsLTc5Mzc3OTgwMywxMT
-I2MDM1Mzc0LDE1MTAyMTUyOTYsLTExNTkyNTc0MjVdfQ==
+eyJoaXN0b3J5IjpbLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNz
+kzNzc5ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1OTI1
+NzQyNV19
 -->
