@@ -29,7 +29,7 @@ var name = 'Dec';
 console.log(`My name is ${name}.`);
 ```
 
-#### Constants
+## Constants
 Constants are Javascripts **immutable** variables. They are defined using the keyword `const`.  
 ```javascript
 const N = 204;
@@ -117,9 +117,8 @@ var myFunction = function(name) {
 
 myFunction('Dec'); // 'hello Dec'
 ```
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODAzNDkzNCw5MzE5NDM2ODYsMTE3Mj
+eyJoaXN0b3J5IjpbLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMTE3Mj
 QwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0NjMw
 NiwtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3Nzk4MDMsMT
 EyNjAzNTM3NCwxNTEwMjE1Mjk2LC0xMTU5MjU3NDI1XX0=
