@@ -132,6 +132,11 @@ array.shift(); // => [5]
 
 ## Functions
 
+You can **define a function** using the `function` keyword.
+```js
+
+```
+
 Javascript functions are treated just like regular variables.
 
 You can ** define functions in Javascript** using the `function` keyword and assigning it to a `var` using `=` to name the function.
@@ -266,11 +271,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNT
-QwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYw
-ODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC
-0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5
-OTYwNywtNzAzMzA3MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgyMS
-wtMTkyNzI3MTkxMiwtNzkzNzc5ODAzLDExMjYwMzUzNzQsMTUx
-MDIxNTI5Nl19
+eyJoaXN0b3J5IjpbLTcxNzAxNzY5Myw2ODY4OTYyOTUsLTEwMz
+AxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMTAwOTIw
+NjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3OTUyLD
+E2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMTE3MjQw
+NTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0NjMwNi
+wtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3Nzk4MDMsMTEy
+NjAzNTM3NF19
 -->
