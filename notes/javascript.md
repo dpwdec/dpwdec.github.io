@@ -135,7 +135,11 @@ switch(n) {
   case 1:
   case 2:
   case 3:
-    // do some
+    // do something
+    break;
+  case 4:
+    // something else
+    break;
 }
 ```
 
@@ -381,11 +385,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDg3MTc5MCw3ODAzNzYxMjcsNDMwOT
-c4NTUxLDY4Njg5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQx
-NywtMTcyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMj
-EzNzQzMTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4
-NDcwLDkzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLT
-cwMzMwNzE2NiwxODA3NjQ2MzA2LC01NDI4MTM4MjEsLTE5Mjcy
-NzE5MTJdfQ==
+eyJoaXN0b3J5IjpbODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nz
+g1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3
+LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMT
+M3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0
+NzAsOTMxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNz
+AzMzA3MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3
+MTkxMl19
 -->
