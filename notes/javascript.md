@@ -21,6 +21,13 @@ You can **define a new variable in Javascript** using the `var` keyword.
 var x = 5;
 ```
 
+### Undefined
+
+An **unassigned variable returns `undefined`**.
+```js
+var a; // => d
+```
+
 ## Strings
 
 You can **interpolate variables into a string** by surrounding your string with back-ticks and using a `${ }` symbol inside the string with the variable you want to interpolate placed between the curly brackets.
@@ -180,10 +187,10 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMz
-c0MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3
-MCw5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNjY3Njk5NjA3LC03MD
-MzMDcxNjYsMTgwNzY0NjMwNiwtNTQyODEzODIxLC0xOTI3Mjcx
-OTEyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC
-0xMTU5MjU3NDI1XX0=
+eyJoaXN0b3J5IjpbNTQ2NTc2NjAzLDEwMDkyMDYyODYsMTUwMD
+YwODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEy
+LC0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0MDU0MzQsMTY2Nz
+Y5OTYwNywtNzAzMzA3MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgy
+MSwtMTkyNzI3MTkxMiwtNzkzNzc5ODAzLDExMjYwMzUzNzQsMT
+UxMDIxNTI5NiwtMTE1OTI1NzQyNV19
 -->
