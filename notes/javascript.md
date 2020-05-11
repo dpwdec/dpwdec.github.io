@@ -26,10 +26,13 @@ A dictionary is **javascript's equivalent of a hash**. It stores information in 
 var cat = { legs: 4, sound: 'meow' };
 ```
 
-You can **retrieve values from a dictionary** using `.` syntax and the na
-
+You can **retrieve values from a dictionary** using `.` syntax and the name of the key.
+```js
+var cat_sound = cat.sound // => 'meow'
+```
+=
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTM3MjM2NywtMTE1OTI1NzQyNV19
+eyJoaXN0b3J5IjpbMTUxMDIxNTI5NiwtMTE1OTI1NzQyNV19
 -->
