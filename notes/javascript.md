@@ -65,7 +65,10 @@ text += ' And some more text.'; // => 'Some text. And some more text.'
 
 You can ** get the length of a string** using the string `length` function.
 ```js
-'
+'Hello'.length // => 5
+```
+
+You can **get a specific string character** by appending `[ ]` square brackets to its end as if it were an array and placing the index of the character you want to output.
 ```
 
 You can **interpolate variables into a string** by surrounding your string with back-ticks and using a `${ }` symbol inside the string with the variable you want to interpolate placed between the curly brackets.
@@ -225,11 +228,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTgxNjYyODYsLTE1NDA4NjA0MTcsLT
-E3MjY3MDczNTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0
-MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MC
-w5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMz
-MDcxNjYsMTgwNzY0NjMwNiwtNTQyODEzODIxLC0xOTI3MjcxOT
-EyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC0x
-MTU5MjU3NDI1XX0=
+eyJoaXN0b3J5IjpbLTczMjM1NTMzLC0xNTQwODYwNDE3LC0xNz
+I2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMx
+NTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOT
+MxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3
+MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMi
+wtNzkzNzc5ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1
+OTI1NzQyNV19
 -->
