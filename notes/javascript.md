@@ -48,8 +48,17 @@ You can **call a function** by appending `()` to the end of the variable name th
 ```js
 myFunction(); // => 'hello'
 ```
+
+You can **submit an argument to a function** by placing it inside the `function` definitions `()` brackets.
+```js
+var myFunction = function(name) {
+  return 'hello ' + name;
+};
+
+myFunction
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC0xMT
-U5MjU3NDI1XX0=
+eyJoaXN0b3J5IjpbMTc4MjEzMDcxLDExMjYwMzUzNzQsMTUxMD
+IxNTI5NiwtMTE1OTI1NzQyNV19
 -->
