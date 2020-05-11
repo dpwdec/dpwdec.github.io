@@ -44,6 +44,11 @@ cat.legs = 10;
 cat.name = 'Muffins';
 ```
 
+You can **assign functions to dictionary keys**. When that key is called on the dictionary the function will be executed.
+```js
+cat_function
+```
+
 ## Functions
 
 You can ** define functions in Javascript** using the `function` keyword and assigning it to a `var` using `=` to name the function.
@@ -68,7 +73,7 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzY0NjMwNiwtNTQyODEzODIxLC0xOT
-I3MjcxOTEyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NCwxNTEwMjE1
-Mjk2LC0xMTU5MjU3NDI1XX0=
+eyJoaXN0b3J5IjpbLTcwMzMwNzE2NiwxODA3NjQ2MzA2LC01ND
+I4MTM4MjEsLTE5MjcyNzE5MTIsLTc5Mzc3OTgwMywxMTI2MDM1
+Mzc0LDE1MTAyMTUyOTYsLTExNTkyNTc0MjVdfQ==
 -->
