@@ -105,11 +105,18 @@ console.log(`My name is ${name}.`);
 
 ## Arrays
 
-You can access the content of multi dimensional arrays using two consecutive sets of `[ ]` square brackets.
+You can **access the content of multi dimensional arrays** using two consecutive sets of `[ ]` square brackets.
 ```js
 var array = [
-]
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+
+array[1][0] // => 4
 ```
+
+You can **add an elem**
 
 ## Functions
 
@@ -247,7 +254,7 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxNjE1NjczLC0xMDMwMTg1MzY3LC0xNT
+eyJoaXN0b3J5IjpbMjM2OTE4OTQwLC0xMDMwMTg1MzY3LC0xNT
 QwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYw
 ODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC
 0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5
