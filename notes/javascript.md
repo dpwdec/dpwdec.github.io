@@ -30,9 +30,10 @@ You can **retrieve values from a dictionary** using `.` syntax and the name of t
 ```js
 var cat_sound = cat.sound // => 'meow'
 ```
-=
+You can **assign key values to a dictionary key** by using `.` syntax and the name of the 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDIxNTI5NiwtMTE1OTI1NzQyNV19
+eyJoaXN0b3J5IjpbLTU2ODY5MzIxNCwxNTEwMjE1Mjk2LC0xMT
+U5MjU3NDI1XX0=
 -->
