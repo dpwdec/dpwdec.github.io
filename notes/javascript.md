@@ -170,7 +170,17 @@ function myBetterFunction() {
 localVariable // => undefined
 ```
 
-**Any variables defined in the**
+**Any variables defined in the main code are available in the `function` scope**. If a **local and global variable conflict** then the **local variable takes precedence**.
+```js
+var myVar = 5;
+function myAdder() {
+  return 10 + myVar;
+}
+
+myAdder(); // => 15
+
+function
+```
 
 ## Objects
 
@@ -283,7 +293,7 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2Nzc1NTY2NCw0MzA5Nzg1NTEsNjg2OD
+eyJoaXN0b3J5IjpbMTQwNDgyMjQwOSw0MzA5Nzg1NTEsNjg2OD
 k2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3
 MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLD
 Y5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQz
