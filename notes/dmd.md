@@ -60,19 +60,22 @@ MANY to MANY relationships in a middle man table
 
 es5 was the previous version js
 in this syntax classes are define with functions
-```
+```js
 function Parrot(name) {
-  this.name = name
+  this.name = name;
 }
+
+Parrot.prototype.speal = function() {
+
 ```
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDkxMDQ4NiwxNjY4Njc2ODQxLC0xOT
-I4MDgyOCwxOTQxMjg1ODUzLC02MjY3MzgxNzMsLTE5ODc2Mjkz
-NCwtMTY0NDg0NzY5MCwtNjQ5NjIwMDMzLC0yMDg1MDUxOTcxLC
-0yMDM1ODc5NDA2LC0xMTMyODQ2MTM3LDE4MDE1NzU3OTgsMTkx
-Njc5MTcyNSwtMTA5NDcyMzk1MSwtMTMzMzQ4NDAxOV19
+eyJoaXN0b3J5IjpbLTEyOTU2OTE0NjIsMTY2ODY3Njg0MSwtMT
+kyODA4MjgsMTk0MTI4NTg1MywtNjI2NzM4MTczLC0xOTg3NjI5
+MzQsLTE2NDQ4NDc2OTAsLTY0OTYyMDAzMywtMjA4NTA1MTk3MS
+wtMjAzNTg3OTQwNiwtMTEzMjg0NjEzNywxODAxNTc1Nzk4LDE5
+MTY3OTE3MjUsLTEwOTQ3MjM5NTEsLTEzMzM0ODQwMTldfQ==
 -->
