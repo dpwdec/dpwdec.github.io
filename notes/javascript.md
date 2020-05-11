@@ -44,18 +44,18 @@ profile.age = "60";
 profile = { name:"Ogawa", age:"18" }; //ERROR
 ```
 
-## Dictionaries
+## Objects
 
-A dictionary is **javascript's equivalent of a hash**. It stores information in key value pairs. Dictionaries are defined using `{ }` curly brackets and `:` to indicate assignment from key to value. 
+A basic javascript object is **structured like a hash in ruby** or a **struct in Rust**. It stores information in key value pairs. Objects are defined using `{ }` curly brackets and `:` to indicate assignment from key to value. 
 ```js
 var cat = { legs: 4, sound: 'meow' };
 ```
 
-You can **retrieve values from a dictionary** using `.` syntax and the name of the key.
+You can **retrieve values from an Object** using `.` syntax and the name of the key.
 ```js
 var cat_sound = cat.sound; // => 'meow'
 ```
-You can **assign key values to a dictionary key** by using `.` syntax and the name of the key with an assignment with `=`. This is also the same syntax for **defining a new key and value pair** to the dictionary.
+You can **assign key values to an O key** by using `.` syntax and the name of the key with an assignment with `=`. This is also the same syntax for **defining a new key and value pair** to the dictionary.
 ```js
 cat.legs = 10;
 cat.name = 'Muffins';
@@ -180,10 +180,10 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDYwODM2LC0yMTM3NDMxNTgwLDY5Mz
-U2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQzNjg2
-LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3MTY2LDE4MD
-c2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNzkzNzc5
-ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1OTI1NzQyNV
-19
+eyJoaXN0b3J5IjpbLTU4OTM1NTYzMSwxNTAwNjA4MzYsLTIxMz
+c0MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3
+MCw5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNjY3Njk5NjA3LC03MD
+MzMDcxNjYsMTgwNzY0NjMwNiwtNTQyODEzODIxLC0xOTI3Mjcx
+OTEyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC
+0xMTU5MjU3NDI1XX0=
 -->
