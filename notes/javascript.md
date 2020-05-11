@@ -76,7 +76,7 @@ var cat {
     return 'Meow!';
   };
 };
-
+cat.speak // => 'Meow!'
 ```
 
 ## Functions
@@ -105,8 +105,8 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjQwNTQzNCwxNjY3Njk5NjA3LC03MD
-MzMDcxNjYsMTgwNzY0NjMwNiwtNTQyODEzODIxLC0xOTI3Mjcx
-OTEyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC
-0xMTU5MjU3NDI1XX0=
+eyJoaXN0b3J5IjpbOTMxOTQzNjg2LDExNzI0MDU0MzQsMTY2Nz
+Y5OTYwNywtNzAzMzA3MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgy
+MSwtMTkyNzI3MTkxMiwtNzkzNzc5ODAzLDExMjYwMzUzNzQsMT
+UxMDIxNTI5NiwtMTE1OTI1NzQyNV19
 -->
