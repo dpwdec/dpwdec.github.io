@@ -9,7 +9,7 @@ var x = 5
 You can **interpolate variables into a string** by using a `${ }` symbol inside the string with the variable you want to interpolate placed between the curly brackets.
 ```js
 var name = 'Dec'
-
+console.log('My name is ${name}.')
 ```
 
 #### Constants
@@ -67,6 +67,6 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjA1MzY5MCwtNzkzNzc5ODAzLDExMj
+eyJoaXN0b3J5IjpbMTM5NDM4OTQ3NiwtNzkzNzc5ODAzLDExMj
 YwMzUzNzQsMTUxMDIxNTI5NiwtMTE1OTI1NzQyNV19
 -->
