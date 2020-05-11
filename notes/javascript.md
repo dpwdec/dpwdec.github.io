@@ -57,6 +57,13 @@ You can **place `"` double quotes inside `"` double quotes by escaping them**.
 var sampleText = "She came in and said \"Good Morning.\" to everyone.";
 ```
 
+You can **use the `+=` operator to concatenate and assign the string result**.
+```js
+var text = 'Some text.';
+text += ' And some more text.';
+tex
+```
+
 You can **interpolate variables into a string** by surrounding your string with back-ticks and using a `${ }` symbol inside the string with the variable you want to interpolate placed between the curly brackets.
 ```js
 var name = 'Dec';
@@ -214,11 +221,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDQzMTM2MywtMTU0MDg2MDQxNywtMT
-cyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQz
-MTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4NDcwLD
-kzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLTcwMzMw
-NzE2NiwxODA3NjQ2MzA2LC01NDI4MTM4MjEsLTE5MjcyNzE5MT
-IsLTc5Mzc3OTgwMywxMTI2MDM1Mzc0LDE1MTAyMTUyOTYsLTEx
-NTkyNTc0MjVdfQ==
+eyJoaXN0b3J5IjpbODYyMDE0NDE1LC0xNTQwODYwNDE3LC0xNz
+I2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMx
+NTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOT
+MxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3
+MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMi
+wtNzkzNzc5ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1
+OTI1NzQyNV19
 -->
