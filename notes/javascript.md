@@ -120,7 +120,9 @@ myFunction('Dec'); // 'hello Dec'
 
 ## Classes
 
-There are **two ways to define classes** in Javascript. There is an **older ES5** standard that **uses the `function` keyword** and the **newer ES6** standard that **uses the new `Class` keyword**. You can **define instance variables** inside class definitions using the `this` keyword.
+There are **two ways to define classes** in Javascript. There is an **older ES5** standard that **uses the `function` keyword** and the **newer ES6** standard that **uses the new `Class` keyword**. 
+
+You can **define instance variables** inside class definitions using the `this` keyword.
 ```js
 // ES5 class definition
 var Antelope = function(name) {
@@ -130,10 +132,15 @@ var Antelope = function(name) {
 // ES6 class definition
 
 ```
+
+You can **create a new instance of a class** using the `new` keyword followed by the object.
+```js
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjE5NTQxMiwtMTQxOTc4NDcwLDkzMT
-k0MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLTcwMzMwNzE2
-NiwxODA3NjQ2MzA2LC01NDI4MTM4MjEsLTE5MjcyNzE5MTIsLT
-c5Mzc3OTgwMywxMTI2MDM1Mzc0LDE1MTAyMTUyOTYsLTExNTky
-NTc0MjVdfQ==
+eyJoaXN0b3J5IjpbOTY4NTg4MjQ5LDE2MDYxOTU0MTIsLTE0MT
+k3ODQ3MCw5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNjY3Njk5NjA3
+LC03MDMzMDcxNjYsMTgwNzY0NjMwNiwtNTQyODEzODIxLC0xOT
+I3MjcxOTEyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NCwxNTEwMjE1
+Mjk2LC0xMTU5MjU3NDI1XX0=
 -->
