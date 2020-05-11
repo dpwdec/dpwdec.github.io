@@ -84,6 +84,10 @@ if (5 != '5') // => false
 if (5 !== '5') // => true
 ```
 
+## Switch
+
+
+
 ## Strings
 
 You can **place `"` double quotes directly into `'` single quote strings**.
@@ -326,11 +330,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OT
-YyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDcz
-NTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNj
-kzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2
-ODYsMTE3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMT
-gwNzY0NjMwNiwtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3
-Nzk4MDNdfQ==
+eyJoaXN0b3J5IjpbLTY4MDg5NTUxMSw3ODAzNzYxMjcsNDMwOT
+c4NTUxLDY4Njg5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQx
+NywtMTcyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMj
+EzNzQzMTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4
+NDcwLDkzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLT
+cwMzMwNzE2NiwxODA3NjQ2MzA2LC01NDI4MTM4MjEsLTE5Mjcy
+NzE5MTJdfQ==
 -->
