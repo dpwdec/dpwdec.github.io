@@ -88,6 +88,7 @@ var cat {
   },
   legs: 4
 };
+cat.speak // => 'I have 4 legs!'
 ```
 
 ## Functions
@@ -116,8 +117,8 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzAzNzI3OCw5MzE5NDM2ODYsMTE3Mj
-QwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0NjMw
-NiwtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3Nzk4MDMsMT
-EyNjAzNTM3NCwxNTEwMjE1Mjk2LC0xMTU5MjU3NDI1XX0=
+eyJoaXN0b3J5IjpbLTIwNzgzNDg0NzAsOTMxOTQzNjg2LDExNz
+I0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3MTY2LDE4MDc2NDYz
+MDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNzkzNzc5ODAzLD
+ExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1OTI1NzQyNV19
 -->
