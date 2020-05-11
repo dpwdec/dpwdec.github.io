@@ -38,9 +38,10 @@ You can **retrieve values from a dictionary** using `.` syntax and the name of t
 ```js
 var cat_sound = cat.sound; // => 'meow'
 ```
-You can **assign key values to a dictionary key** by using `.` syntax and the name of the key with an assignment with `=`.
+You can **assign key values to a dictionary key** by using `.` syntax and the name of the key with an assignment with `=`. This is also the same syntax for **defining a new key and value pair** to the dictionary.
 ```js
 cat.legs = 10;
+cat.name = 'Muffins';
 ```
 
 ## Functions
@@ -67,7 +68,7 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNz
-kzNzc5ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1OTI1
-NzQyNV19
+eyJoaXN0b3J5IjpbMTgwNzY0NjMwNiwtNTQyODEzODIxLC0xOT
+I3MjcxOTEyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NCwxNTEwMjE1
+Mjk2LC0xMTU5MjU3NDI1XX0=
 -->
