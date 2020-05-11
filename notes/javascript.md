@@ -15,6 +15,11 @@ class MyClass {
 }
 ```
 
+You should **use `'` single quotes for strings** unless you are writing in `JSON`.
+```js
+var myString = 'my string';
+```
+
 ## Variables
 You can **define a new variable in Javascript** using the `var` keyword.
 ```js
@@ -199,10 +204,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjY3MDczNTksMTAwOTIwNjI4NiwxNT
-AwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0
-MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNj
-Y3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0NjMwNiwtNTQyODEz
-ODIxLC0xOTI3MjcxOTEyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NC
-wxNTEwMjE1Mjk2LC0xMTU5MjU3NDI1XX0=
+eyJoaXN0b3J5IjpbLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMT
+AwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3
+OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMT
+E3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0
+NjMwNiwtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3Nzk4MD
+MsMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC0xMTU5MjU3NDI1XX0=
+
 -->
