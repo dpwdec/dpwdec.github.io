@@ -70,12 +70,13 @@ profile = { name:"Ogawa", age:"18" }; //ERROR
 
 Javascript **automatically coerces string and integer types when running a comparison**, such that writing out one number an an integer `5` and writing string containing just the character `'5'` will be evaluated as `true` when compared.
 ```js
-if (5 == '5') {
-  console.log('True!') // => True!
-}
+if (5 == '5') // => true
 ```
 
-You can **stop integers and the string forms of integers being compared as true**
+You can **stop integers and the string forms of integers being compared as true** by using the **strict equality** operator `===`. This operator simply does not perform any type conversion on its arguments.
+```js
+if (5 === '5') // => false
+```
 
 ## Strings
 
@@ -319,11 +320,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTE0MDkzMzksNDMwOTc4NTUxLDY4Nj
-g5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcw
-NzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQzMTU4MC
-w2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4NDcwLDkzMTk0
-MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLTcwMzMwNzE2Ni
-wxODA3NjQ2MzA2LC01NDI4MTM4MjEsLTE5MjcyNzE5MTIsLTc5
-Mzc3OTgwM119
+eyJoaXN0b3J5IjpbNjU5ODU0ODc1LDQzMDk3ODU1MSw2ODY4OT
+YyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDcz
+NTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNj
+kzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2
+ODYsMTE3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMT
+gwNzY0NjMwNiwtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3
+Nzk4MDNdfQ==
 -->
