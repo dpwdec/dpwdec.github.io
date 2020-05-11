@@ -117,6 +117,17 @@ switch (myVar) {
 ```
 
 You can **add a default return type** to a `switch` block using the `default` keyword.
+```js
+switch(n) {
+  case 1:
+    //some code
+    break;
+  // ...
+  default:
+    console.log('no value found');
+    break;
+}
+```
 
 ## Strings
 
@@ -360,11 +371,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTM3NTcyMzcsNzgwMzc2MTI3LDQzMD
-k3ODU1MSw2ODY4OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0
-MTcsLTE3MjY3MDczNTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLT
-IxMzc0MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MTk3
-ODQ3MCw5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNjY3Njk5NjA3LC
-03MDMzMDcxNjYsMTgwNzY0NjMwNiwtNTQyODEzODIxLC0xOTI3
-MjcxOTEyXX0=
+eyJoaXN0b3J5IjpbLTcwODg0NzA1MSw3ODAzNzYxMjcsNDMwOT
+c4NTUxLDY4Njg5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQx
+NywtMTcyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMj
+EzNzQzMTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4
+NDcwLDkzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLT
+cwMzMwNzE2NiwxODA3NjQ2MzA2LC01NDI4MTM4MjEsLTE5Mjcy
+NzE5MTJdfQ==
 -->
