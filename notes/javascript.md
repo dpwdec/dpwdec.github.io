@@ -1,3 +1,7 @@
+## Style
+
+You should **name **
+
 ## Variables
 You can **define a new variable in Javascript** using the `var` keyword.
 ```js
@@ -73,7 +77,8 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzMwNzE2NiwxODA3NjQ2MzA2LC01ND
-I4MTM4MjEsLTE5MjcyNzE5MTIsLTc5Mzc3OTgwMywxMTI2MDM1
-Mzc0LDE1MTAyMTUyOTYsLTExNTkyNTc0MjVdfQ==
+eyJoaXN0b3J5IjpbLTQ3ODAyNzI2NCwtNzAzMzA3MTY2LDE4MD
+c2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNzkzNzc5
+ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1OTI1NzQyNV
+19
 -->
