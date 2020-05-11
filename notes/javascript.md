@@ -129,6 +129,16 @@ switch(n) {
 }
 ```
 
+You can **describe the same output for multiple inputs** by letting `case` blocks without keywords "cascade down".
+```js
+switch(n) {
+  case 1:
+  case 2:
+  case 3:
+    // do some
+}
+```
+
 ## Strings
 
 You can **place `"` double quotes directly into `'` single quote strings**.
@@ -371,7 +381,7 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODg0NzA1MSw3ODAzNzYxMjcsNDMwOT
+eyJoaXN0b3J5IjpbLTU1NDg3MTc5MCw3ODAzNzYxMjcsNDMwOT
 c4NTUxLDY4Njg5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQx
 NywtMTcyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMj
 EzNzQzMTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4
