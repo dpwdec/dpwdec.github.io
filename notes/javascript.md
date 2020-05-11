@@ -3,7 +3,16 @@
 You should use **lowerCamelCase** for **variables, properties and function names**.
 ```js
 var myVarName = 'name';
-function myFunctionName
+var myFunctionName = function() {
+  //some function
+};
+```
+
+You should use **UpperCamelCase** for **class** names.
+```js
+class MyClass {
+  //class definition
+}
 ```
 
 ## Variables
@@ -81,8 +90,8 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxNzk5NDk3LC03MDMzMDcxNjYsMTgwNz
-Y0NjMwNiwtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3Nzk4
-MDMsMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC0xMTU5MjU3NDI1XX
-0=
+eyJoaXN0b3J5IjpbLTE4MTYxNjM1NjEsLTcwMzMwNzE2NiwxOD
+A3NjQ2MzA2LC01NDI4MTM4MjEsLTE5MjcyNzE5MTIsLTc5Mzc3
+OTgwMywxMTI2MDM1Mzc0LDE1MTAyMTUyOTYsLTExNTkyNTc0Mj
+VdfQ==
 -->
