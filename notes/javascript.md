@@ -1,3 +1,8 @@
+## Variables
+You can **define a new variable in Javascript** using the `var` keyword.
+```js
+var x = 5
+```
 
 #### Constants
 Constants are Javascripts **immutable** variables. They are defined using the keyword `const`.  
@@ -18,13 +23,13 @@ profile = { name:"Ogawa", age:"18" } //ERROR
 
 A dictionary is **javascript's equivalent of a hash**. It stores information in key value pairs. Dictionaries are defined using `{ }` curly brackets and `:` to indicate assignment from key to value. 
 ```js
-cat = { legs: 4, sound: 'meow' };
+var cat = { legs: 4, sound: 'meow' };
 ```
 
-You can **ret**
+You can **retrieve values from a dictionary** using `.` syntax and the na
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMDQ4OTAxNywtMTE1OTI1NzQyNV19
+eyJoaXN0b3J5IjpbLTYxNTM3MjM2NywtMTE1OTI1NzQyNV19
 -->
