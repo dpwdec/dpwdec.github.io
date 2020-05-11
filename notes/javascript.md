@@ -68,11 +68,13 @@ You can ** get the length of a string** using the string `length` function.
 'Hello'.length; // => 5
 ```
 
-The **contents of strings are immutable**.  This immutability refers only to the actual string object NOT the reference to the string.
+The **contents of strings are immutable**.  This immutability refers only to the actual string object NOT the reference to the string. In the example below you can see that trying to change a string character by index leaves the value of `text` unchanged because the string is immutable. However the `text` variable that points to the string 
 ```js
 var text = 'Bob';
 text[0] = 'J'
-text // => 'Bob' - var
+text // => 'Bob' - string not changed
+text = 'Job'
+text // => 'Job' - text reassigned to a new immutable string
 ```
 
 You can **return a specific sub-string character of a string** by appending `[ ]` square brackets to its end as if it were an array and placing the index of the character you want to output.
@@ -237,11 +239,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MjM4MjM0MSwtMTU0MDg2MDQxNywtMT
-cyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQz
-MTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4NDcwLD
-kzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLTcwMzMw
-NzE2NiwxODA3NjQ2MzA2LC01NDI4MTM4MjEsLTE5MjcyNzE5MT
-IsLTc5Mzc3OTgwMywxMTI2MDM1Mzc0LDE1MTAyMTUyOTYsLTEx
-NTkyNTc0MjVdfQ==
+eyJoaXN0b3J5IjpbNjM3OTU5NTM4LC0xNTQwODYwNDE3LC0xNz
+I2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMx
+NTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOT
+MxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3
+MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMi
+wtNzkzNzc5ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1
+OTI1NzQyNV19
 -->
