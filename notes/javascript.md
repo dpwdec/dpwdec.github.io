@@ -27,12 +27,18 @@ An **unassigned variable returns `undefined`**.
 ```js
 var a; // => undefined
 ```
+
 If you **add a number `undefined` variable** you will get the type `NaN` for "Not a Number".
 ```js
 var a; // => undefined
 a + 5; // => NaN
 ```
-If you a **add a string to an `undefined` variable** you will get the word `"undefined"` as a string lit
+
+If you a **add a string to an `undefined` variable** you will get the word `"undefined"` as a string literal.
+```js
+var a;
+a + ""; // => 'undefined'
+```
 
 ## Strings
 
@@ -193,7 +199,7 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDUzODUzNTksMTAwOTIwNjI4NiwxNT
+eyJoaXN0b3J5IjpbLTE3MjY3MDczNTksMTAwOTIwNjI4NiwxNT
 AwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0
 MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNj
 Y3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0NjMwNiwtNTQyODEz
