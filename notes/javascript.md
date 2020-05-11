@@ -78,6 +78,11 @@ You can **stop integers and the string forms of integers being compared as true*
 if (5 === '5') // => false
 ```
 
+The `!=` **inequality operator follows the same rule as the equality operator for type coercion**. There is also a **strict inequality** that works like the strict equality operator.
+```js
+if (5 != '5')
+```
+
 ## Strings
 
 You can **place `"` double quotes directly into `'` single quote strings**.
@@ -320,11 +325,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5ODU0ODc1LDQzMDk3ODU1MSw2ODY4OT
-YyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDcz
-NTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNj
-kzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2
-ODYsMTE3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMT
-gwNzY0NjMwNiwtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3
-Nzk4MDNdfQ==
+eyJoaXN0b3J5IjpbMTE4NjgxNzQ2NSw0MzA5Nzg1NTEsNjg2OD
+k2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3
+MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLD
+Y5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQz
+Njg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3MTY2LD
+E4MDc2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNzkz
+Nzc5ODAzXX0=
 -->
