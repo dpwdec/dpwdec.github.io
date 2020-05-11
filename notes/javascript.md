@@ -25,8 +25,14 @@ var x = 5;
 
 An **unassigned variable returns `undefined`**.
 ```js
-var a; // => d
+var a; // => undefined
 ```
+If you **add a number `undefined` variable** you will get the type `NaN` for "Not a Number".
+```js
+var a; // => undefined
+a + 5; // => NaN
+```
+If you a **add a string to an `undefined` variable** you will get the word `"undefined"` as a string lit
 
 ## Strings
 
@@ -187,10 +193,10 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ2NTc2NjAzLDEwMDkyMDYyODYsMTUwMD
-YwODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEy
-LC0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0MDU0MzQsMTY2Nz
-Y5OTYwNywtNzAzMzA3MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgy
-MSwtMTkyNzI3MTkxMiwtNzkzNzc5ODAzLDExMjYwMzUzNzQsMT
-UxMDIxNTI5NiwtMTE1OTI1NzQyNV19
+eyJoaXN0b3J5IjpbLTEzMDUzODUzNTksMTAwOTIwNjI4NiwxNT
+AwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0
+MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNj
+Y3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0NjMwNiwtNTQyODEz
+ODIxLC0xOTI3MjcxOTEyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NC
+wxNTEwMjE1Mjk2LC0xMTU5MjU3NDI1XX0=
 -->
