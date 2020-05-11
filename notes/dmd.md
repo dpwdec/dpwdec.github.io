@@ -59,14 +59,20 @@ when you have a ONE TO MANY relationship you put the foreign key in the MANY tab
 MANY to MANY relationships in a middle man table
 
 es5 was the previous version js
+in this syntax classes are define with functions
+```
+function Parrot(name) {
+  this.name = name
+}
+```
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODY3Njg0MSwtMTkyODA4MjgsMTk0MT
-I4NTg1MywtNjI2NzM4MTczLC0xOTg3NjI5MzQsLTE2NDQ4NDc2
-OTAsLTY0OTYyMDAzMywtMjA4NTA1MTk3MSwtMjAzNTg3OTQwNi
-wtMTEzMjg0NjEzNywxODAxNTc1Nzk4LDE5MTY3OTE3MjUsLTEw
-OTQ3MjM5NTEsLTEzMzM0ODQwMTldfQ==
+eyJoaXN0b3J5IjpbMTUwMDkxMDQ4NiwxNjY4Njc2ODQxLC0xOT
+I4MDgyOCwxOTQxMjg1ODUzLC02MjY3MzgxNzMsLTE5ODc2Mjkz
+NCwtMTY0NDg0NzY5MCwtNjQ5NjIwMDMzLC0yMDg1MDUxOTcxLC
+0yMDM1ODc5NDA2LC0xMTMyODQ2MTM3LDE4MDE1NzU3OTgsMTkx
+Njc5MTcyNSwtMTA5NDcyMzk1MSwtMTMzMzQ4NDAxOV19
 -->
