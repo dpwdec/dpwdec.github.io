@@ -69,7 +69,15 @@ var catScratch = function() {
 cat.scratch = catScratch; // => 'Cat scratches you!'
 ```
 
-You can also **define functions directly inside**
+You can also **define functions inside the dictionary definition**.
+```js
+var cat {
+  speak: function() {
+    return 'Meow!';
+  };
+};
+
+```
 
 ## Functions
 
@@ -97,8 +105,8 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwNjc4NTg5LDE2Njc2OTk2MDcsLTcwMz
-MwNzE2NiwxODA3NjQ2MzA2LC01NDI4MTM4MjEsLTE5MjcyNzE5
-MTIsLTc5Mzc3OTgwMywxMTI2MDM1Mzc0LDE1MTAyMTUyOTYsLT
-ExNTkyNTc0MjVdfQ==
+eyJoaXN0b3J5IjpbMTE3MjQwNTQzNCwxNjY3Njk5NjA3LC03MD
+MzMDcxNjYsMTgwNzY0NjMwNiwtNTQyODEzODIxLC0xOTI3Mjcx
+OTEyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC
+0xMTU5MjU3NDI1XX0=
 -->
