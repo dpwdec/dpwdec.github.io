@@ -119,15 +119,15 @@ array[1][0] // => 4
 You can **add an element to the end of an array** using the `push` function. You can **add an element to the start of an array** using the `unshift` function.
 ```js
 var array = [4, 5, 6];
-array.push(7) // => [4, 5, 6, 7]
-array.unshift(3) // =>[3, 4, 5, 6, 7]
+array.push(7); // => [4, 5, 6, 7]
+array.unshift(3); // =>[3, 4, 5, 6, 7]
 ```
 
 You can **remove an element from the end of an array** using the `pop` function. You can **remove an element from the start of an array** using the `shift` function.
 ```js
 var array = [4, 5, 6];
-array.pop // => [4, 5]
-array.shift // =>[3, 4, 5, 6, 7]
+array.pop(); // => [4, 5]
+array.shift(); // => [5]
 ```
 
 ## Functions
@@ -266,11 +266,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NjMyNTA4MSwtMTAzMDE4NTM2NywtMT
-U0MDg2MDQxNywtMTcyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2
-MDgzNiwtMjEzNzQzMTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMi
-wtMTQxOTc4NDcwLDkzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2
-OTk2MDcsLTcwMzMwNzE2NiwxODA3NjQ2MzA2LC01NDI4MTM4Mj
-EsLTE5MjcyNzE5MTIsLTc5Mzc3OTgwMywxMTI2MDM1Mzc0LDE1
-MTAyMTUyOTZdfQ==
+eyJoaXN0b3J5IjpbNjg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNT
+QwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYw
+ODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC
+0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5
+OTYwNywtNzAzMzA3MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgyMS
+wtMTkyNzI3MTkxMiwtNzkzNzc5ODAzLDExMjYwMzUzNzQsMTUx
+MDIxNTI5Nl19
 -->
