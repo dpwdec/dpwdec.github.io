@@ -132,9 +132,12 @@ var Antelope = function(name) {
 };
 ```
 
-### ES6
-```js
+Y
 
+### ES6
+
+To **define instance variables** in ES5 use the `constructor` block with the initialisation arguments and assignments placed inside.
+```js
 // ES6 class definition
 class Antelope {
   constructor(name) {
@@ -142,6 +145,8 @@ class Antelope {
   }
 }
 ```
+
+### Both Standards
 
 You can **create a new instance of a class** using the `new` keyword followed by the object.
 ```js
@@ -151,10 +156,10 @@ var antelope = new Antelope('Jonathan');
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDQ2OTQxNCwtMjEzNzQzMTU4MCw2OT
-M1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4NDcwLDkzMTk0MzY4
-NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLTcwMzMwNzE2NiwxOD
-A3NjQ2MzA2LC01NDI4MTM4MjEsLTE5MjcyNzE5MTIsLTc5Mzc3
-OTgwMywxMTI2MDM1Mzc0LDE1MTAyMTUyOTYsLTExNTkyNTc0Mj
-VdfQ==
+eyJoaXN0b3J5IjpbNDE2OTc4MzA0LC0yMTM3NDMxNTgwLDY5Mz
+U2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQzNjg2
+LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3MTY2LDE4MD
+c2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNzkzNzc5
+ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1OTI1NzQyNV
+19
 -->
