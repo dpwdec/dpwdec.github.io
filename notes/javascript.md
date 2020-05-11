@@ -86,7 +86,7 @@ if (5 !== '5') // => true
 
 ## Switch
 
-
+To **match multiple conditions** use a `switch` statement. This allows to test a variable and match its value using a `case` block to execute a specific piece of code. 
 
 ## Strings
 
@@ -330,11 +330,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MDg5NTUxMSw3ODAzNzYxMjcsNDMwOT
-c4NTUxLDY4Njg5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQx
-NywtMTcyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMj
-EzNzQzMTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4
-NDcwLDkzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLT
-cwMzMwNzE2NiwxODA3NjQ2MzA2LC01NDI4MTM4MjEsLTE5Mjcy
-NzE5MTJdfQ==
+eyJoaXN0b3J5IjpbLTE2MDQ3MTgwNzYsNzgwMzc2MTI3LDQzMD
+k3ODU1MSw2ODY4OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0
+MTcsLTE3MjY3MDczNTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLT
+IxMzc0MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MTk3
+ODQ3MCw5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNjY3Njk5NjA3LC
+03MDMzMDcxNjYsMTgwNzY0NjMwNiwtNTQyODEzODIxLC0xOTI3
+MjcxOTEyXX0=
 -->
