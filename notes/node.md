@@ -3,7 +3,11 @@ title: Node
 layout: page
 exclude: true
 ---
-
+## REPL
+You can start the `node` REPL by using the node command in the terminal.
+```
+$ node
+```
 
 ## Frameworks
 ### Express
@@ -84,7 +88,8 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzY5ODIxMyw5MzQzMjI4OTksLTU0ND
-M0NjU1MywtMTM1ODgxNjE5OCwxMzgyODcyMTY1LC03MDUwMzgz
-NTYsLTE1NDY0MzI2NzEsLTE1Mzg1NTg5MF19
+eyJoaXN0b3J5IjpbLTEwMDkzODYzMzQsMTcxNzY5ODIxMyw5Mz
+QzMjI4OTksLTU0NDM0NjU1MywtMTM1ODgxNjE5OCwxMzgyODcy
+MTY1LC03MDUwMzgzNTYsLTE1NDY0MzI2NzEsLTE1Mzg1NTg5MF
+19
 -->
