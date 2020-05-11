@@ -44,9 +44,12 @@ var myFunction = function() {
 };
 ```
 
-You can **call a function** by appending 
+You can **call a function** by appending `()` to the end of the variable name that describes the function.
+```js
+myFunction(); // => 'hello'
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTIyNzk3MzMsMTUxMDIxNTI5NiwtMT
-E1OTI1NzQyNV19
+eyJoaXN0b3J5IjpbMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC0xMT
+U5MjU3NDI1XX0=
 -->
