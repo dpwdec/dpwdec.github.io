@@ -63,7 +63,10 @@ cat.name = 'Muffins';
 
 You can **assign functions to dictionary keys**. When that key is called on the dictionary the function will be executed.
 ```js
-cat_function
+var catScratch = function() {
+  return 'Cat scratches you!';
+};
+cat.scratch = catScratch; // => 'Cat scratches you!'
 ```
 
 ## Functions
@@ -90,8 +93,8 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTYxNjM1NjEsLTcwMzMwNzE2NiwxOD
-A3NjQ2MzA2LC01NDI4MTM4MjEsLTE5MjcyNzE5MTIsLTc5Mzc3
-OTgwMywxMTI2MDM1Mzc0LDE1MTAyMTUyOTYsLTExNTkyNTc0Mj
-VdfQ==
+eyJoaXN0b3J5IjpbLTQ5Mjc1NjEyLC03MDMzMDcxNjYsMTgwNz
+Y0NjMwNiwtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3Nzk4
+MDMsMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC0xMTU5MjU3NDI1XX
+0=
 -->
