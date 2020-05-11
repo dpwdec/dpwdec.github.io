@@ -81,7 +81,11 @@ cat.speak // => 'Meow!'
 
 You can **use the `this` keyword to use variables from inside the dictionary**.
 ```js
-
+var cat {
+  speak: function() {
+    return `I have ${legs} legs!`
+  },
+};
 ```
 
 ## Functions
@@ -110,7 +114,7 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMDY3MjY3NSw5MzE5NDM2ODYsMTE3Mj
+eyJoaXN0b3J5IjpbLTE0MTgzMzI2OCw5MzE5NDM2ODYsMTE3Mj
 QwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0NjMw
 NiwtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3Nzk4MDMsMT
 EyNjAzNTM3NCwxNTEwMjE1Mjk2LC0xMTU5MjU3NDI1XX0=
