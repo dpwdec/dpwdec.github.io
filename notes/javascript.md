@@ -116,7 +116,14 @@ var array = [
 array[1][0] // => 4
 ```
 
-You can **add an element to the end of an array** use the `push` function. You can **add an element to the start of an array using the **
+You can **add an element to the end of an array** using the `push` function. You can **add an element to the start of an array** using the `unshift` function.
+```js
+var array = [4, 5, 6];
+array.push(7) // => [4, 5, 6, 7]
+array.unshift(3) // =>[3, 4, 5, 6, 7]
+```
+
+You can **remove an element from the end of an array** using the `pop` function. You can **remove an element from the start of an array** using the `shift` function.
 
 ## Functions
 
@@ -254,11 +261,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzIwMzU4NTgsLTEwMzAxODUzNjcsLT
-E1NDA4NjA0MTcsLTE3MjY3MDczNTksMTAwOTIwNjI4NiwxNTAw
-NjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0MT
-IsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNjY3
-Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0NjMwNiwtNTQyODEzOD
-IxLC0xOTI3MjcxOTEyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NCwx
-NTEwMjE1Mjk2XX0=
+eyJoaXN0b3J5IjpbMTk5NTMwMzc3NiwtMTAzMDE4NTM2NywtMT
+U0MDg2MDQxNywtMTcyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2
+MDgzNiwtMjEzNzQzMTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMi
+wtMTQxOTc4NDcwLDkzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2
+OTk2MDcsLTcwMzMwNzE2NiwxODA3NjQ2MzA2LC01NDI4MTM4Mj
+EsLTE5MjcyNzE5MTIsLTc5Mzc3OTgwMywxMTI2MDM1Mzc0LDE1
+MTAyMTUyOTZdfQ==
 -->
