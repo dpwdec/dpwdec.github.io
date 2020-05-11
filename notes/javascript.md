@@ -71,8 +71,11 @@ profile = { name:"Ogawa", age:"18" }; //ERROR
 Javascript **automatically coerces string and integer types when running a comparison**, such that writing out one number an an integer `5` and writing string containing just the character `'5'` will be evaluated as `true` when compared.
 ```js
 if (5 == '5') {
+  console.log('True!') // => True!
 }
 ```
+
+You can **stop integers and the string forms of integers being compared as true**
 
 ## Strings
 
@@ -316,11 +319,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTM5NTQ1OCw0MzA5Nzg1NTEsNjg2OD
-k2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3
-MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLD
-Y5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQz
-Njg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3MTY2LD
-E4MDc2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNzkz
-Nzc5ODAzXX0=
+eyJoaXN0b3J5IjpbLTE0OTE0MDkzMzksNDMwOTc4NTUxLDY4Nj
+g5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcw
+NzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQzMTU4MC
+w2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4NDcwLDkzMTk0
+MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLTcwMzMwNzE2Ni
+wxODA3NjQ2MzA2LC01NDI4MTM4MjEsLTE5MjcyNzE5MTIsLTc5
+Mzc3OTgwM119
 -->
