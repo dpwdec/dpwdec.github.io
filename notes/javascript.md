@@ -116,7 +116,7 @@ var array = [
 array[1][0] // => 4
 ```
 
-You can **add an elem**
+You can **add an element to the end of an array** use the `push` function. You can **add an element to the start of an array using the **
 
 ## Functions
 
@@ -254,11 +254,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2OTE4OTQwLC0xMDMwMTg1MzY3LC0xNT
-QwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYw
-ODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC
-0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5
-OTYwNywtNzAzMzA3MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgyMS
-wtMTkyNzI3MTkxMiwtNzkzNzc5ODAzLDExMjYwMzUzNzQsMTUx
-MDIxNTI5Nl19
+eyJoaXN0b3J5IjpbLTE0NzIwMzU4NTgsLTEwMzAxODUzNjcsLT
+E1NDA4NjA0MTcsLTE3MjY3MDczNTksMTAwOTIwNjI4NiwxNTAw
+NjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0MT
+IsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNjY3
+Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0NjMwNiwtNTQyODEzOD
+IxLC0xOTI3MjcxOTEyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NCwx
+NTEwMjE1Mjk2XX0=
 -->
