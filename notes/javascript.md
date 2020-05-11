@@ -47,6 +47,13 @@ a + ""; // => 'undefined'
 
 ## Strings
 
+You can **place `"` double quotes directly into `'` single quote strings**.
+```js
+var sampleText = 'She came in and said "Good Morning." to everyone.';
+```
+
+You can **place `"` double qu**
+
 You can **interpolate variables into a string** by surrounding your string with back-ticks and using a `${ }` symbol inside the string with the variable you want to interpolate placed between the curly brackets.
 ```js
 var name = 'Dec';
@@ -204,11 +211,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMT
-AwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3
-OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMT
-E3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0
-NjMwNiwtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3Nzk4MD
-MsMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC0xMTU5MjU3NDI1XX0=
-
+eyJoaXN0b3J5IjpbNjcxNTI1OTI4LC0xNTQwODYwNDE3LC0xNz
+I2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMx
+NTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOT
+MxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3
+MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMi
+wtNzkzNzc5ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1
+OTI1NzQyNV19
 -->
