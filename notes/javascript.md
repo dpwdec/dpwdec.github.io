@@ -130,7 +130,11 @@ var Antelope = function(name) {
 };
 
 // ES6 class definition
-
+class Antelope {
+  constructor(name) {
+    this.name = name;
+  }
+}
 ```
 
 You can **create a new instance of a class** using the `new` keyword followed by the object.
@@ -138,9 +142,9 @@ You can **create a new instance of a class** using the `new` keyword followed by
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MT
-k3ODQ3MCw5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNjY3Njk5NjA3
-LC03MDMzMDcxNjYsMTgwNzY0NjMwNiwtNTQyODEzODIxLC0xOT
-I3MjcxOTEyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NCwxNTEwMjE1
-Mjk2LC0xMTU5MjU3NDI1XX0=
+eyJoaXN0b3J5IjpbLTU5OTU5NjkyMiw2OTM1Njc5NTIsMTYwNj
+E5NTQxMiwtMTQxOTc4NDcwLDkzMTk0MzY4NiwxMTcyNDA1NDM0
+LDE2Njc2OTk2MDcsLTcwMzMwNzE2NiwxODA3NjQ2MzA2LC01ND
+I4MTM4MjEsLTE5MjcyNzE5MTIsLTc5Mzc3OTgwMywxMTI2MDM1
+Mzc0LDE1MTAyMTUyOTYsLTExNTkyNTc0MjVdfQ==
 -->
