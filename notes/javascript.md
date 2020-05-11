@@ -139,9 +139,7 @@ function myFunction(parameter) {
 }
 ```
 
-Javascript functions are treated just like regular variables.
-
-You can ** define functions in Javascript** using the `function` keyword and assigning it to a `var` using `=` to name the function.
+Javascript functions are treated just like regular variables. You can **assign an un-named function to a `var`** using `=` to name the function.
 ```js
 var myFunction = function() {
   return 'hello';
@@ -153,14 +151,7 @@ You can **call a function** by appending `()` to the end of the variable name th
 myFunction(); // => 'hello'
 ```
 
-You can **submit an argument to a function** by placing it inside the `function` definitions `()` brackets.
-```js
-var myFunction = function(name) {
-  return 'hello ' + name;
-};
-
-myFunction('Dec'); // 'hello Dec'
-```
+If you define a variable in a fun
 
 ## Objects
 
@@ -273,11 +264,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwOTc4NTUxLDY4Njg5NjI5NSwtMTAzMD
-E4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcwNzM1OSwxMDA5MjA2
-Mjg2LDE1MDA2MDgzNiwtMjEzNzQzMTU4MCw2OTM1Njc5NTIsMT
-YwNjE5NTQxMiwtMTQxOTc4NDcwLDkzMTk0MzY4NiwxMTcyNDA1
-NDM0LDE2Njc2OTk2MDcsLTcwMzMwNzE2NiwxODA3NjQ2MzA2LC
-01NDI4MTM4MjEsLTE5MjcyNzE5MTIsLTc5Mzc3OTgwMywxMTI2
-MDM1Mzc0XX0=
+eyJoaXN0b3J5IjpbMTIxODUyOTAyNyw0MzA5Nzg1NTEsNjg2OD
+k2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3
+MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLD
+Y5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQz
+Njg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3MTY2LD
+E4MDc2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMiwtNzkz
+Nzc5ODAzXX0=
 -->
