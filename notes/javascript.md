@@ -126,8 +126,8 @@ array.unshift(3) // =>[3, 4, 5, 6, 7]
 You can **remove an element from the end of an array** using the `pop` function. You can **remove an element from the start of an array** using the `shift` function.
 ```js
 var array = [4, 5, 6];
-array.pop(7) // => [4, 5, 6, 7]
-array.unshift(3) // =>[3, 4, 5, 6, 7]
+array.pop // => [4, 5]
+array.shift(3) // =>[3, 4, 5, 6, 7]
 ```
 
 ## Functions
@@ -266,7 +266,7 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODg3Mzg5NSwtMTAzMDE4NTM2NywtMT
+eyJoaXN0b3J5IjpbMTg0MjYxMDI1MywtMTAzMDE4NTM2NywtMT
 U0MDg2MDQxNywtMTcyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2
 MDgzNiwtMjEzNzQzMTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMi
 wtMTQxOTc4NDcwLDkzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2
