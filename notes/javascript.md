@@ -39,10 +39,14 @@ cat.legs = 10
 
 You can ** define functions in Javascript** using the `function` keyword and assigning it to a `var` using `=` to name the function.
 ```js
-var myFunction = function()
+var myFunction = function() {
+  return 'hello';
+};
 ```
+
+You can **call a function** by appending 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTM3MzQ2NiwxNTEwMjE1Mjk2LC0xMT
-U5MjU3NDI1XX0=
+eyJoaXN0b3J5IjpbLTExNTIyNzk3MzMsMTUxMDIxNTI5NiwtMT
+E1OTI1NzQyNV19
 -->
