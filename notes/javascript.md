@@ -55,10 +55,10 @@ var myFunction = function(name) {
   return 'hello ' + name;
 };
 
-myFunction
+myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjEzMDcxLDExMjYwMzUzNzQsMTUxMD
-IxNTI5NiwtMTE1OTI1NzQyNV19
+eyJoaXN0b3J5IjpbLTc5Mzc3OTgwMywxMTI2MDM1Mzc0LDE1MT
+AyMTUyOTYsLTExNTkyNTc0MjVdfQ==
 -->
