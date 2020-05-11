@@ -35,9 +35,14 @@ You can **assign key values to a dictionary key** by using `.` syntax and the na
 cat.legs = 10
 ```
 
-## Functi
+## Functions
+
+You can ** define functions in Javascript** using the `function` keyword and assigning it to a `var` using `=` to name the function.
+```js
+var myFunction = function()
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDYwMTk4OSwxNTEwMjE1Mjk2LC0xMT
+eyJoaXN0b3J5IjpbLTYxOTM3MzQ2NiwxNTEwMjE1Mjk2LC0xMT
 U5MjU3NDI1XX0=
 -->
