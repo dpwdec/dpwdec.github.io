@@ -79,6 +79,11 @@ var cat {
 cat.speak // => 'Meow!'
 ```
 
+You can **use the `this` keyword to use variables from inside the dictionary**.
+```js
+
+```
+
 ## Functions
 
 Javascript functions are treated just like regular variables.
@@ -105,8 +110,8 @@ myFunction('Dec'); // 'hello Dec'
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxOTQzNjg2LDExNzI0MDU0MzQsMTY2Nz
-Y5OTYwNywtNzAzMzA3MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgy
-MSwtMTkyNzI3MTkxMiwtNzkzNzc5ODAzLDExMjYwMzUzNzQsMT
-UxMDIxNTI5NiwtMTE1OTI1NzQyNV19
+eyJoaXN0b3J5IjpbLTgzMDY3MjY3NSw5MzE5NDM2ODYsMTE3Mj
+QwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0NjMw
+NiwtNTQyODEzODIxLC0xOTI3MjcxOTEyLC03OTM3Nzk4MDMsMT
+EyNjAzNTM3NCwxNTEwMjE1Mjk2LC0xMTU5MjU3NDI1XX0=
 -->
