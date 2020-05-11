@@ -88,7 +88,7 @@ if (5 !== '5') // => true
 
 To **match multiple conditions** use a `switch` statement. This allows to test a variable and match its value using a `case` block to execute a specific piece of code. 
 
-Statements inside a `switch` block are executed from the first match until a `break` is encountered. This means, if you forget to add a `break` the code below, even though it does not match your condition will *also* be execute.
+Statements inside a `switch` block are executed from the first match until a `break` is encountered. This means, if you forget to add a `break` the code below, even though it does not match your condition will *also* be execute. 
 ```js
 var myVar = 12;
 
@@ -101,6 +101,8 @@ switch (myVar) {
   default:
     console.log('something else');
 }
+// => 'it is twelve'
+// => 'it is thirteen'
 ```
 
 ## Strings
@@ -345,11 +347,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTIxODMxNSw3ODAzNzYxMjcsNDMwOT
-c4NTUxLDY4Njg5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQx
-NywtMTcyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMj
-EzNzQzMTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4
-NDcwLDkzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLT
-cwMzMwNzE2NiwxODA3NjQ2MzA2LC01NDI4MTM4MjEsLTE5Mjcy
-NzE5MTJdfQ==
+eyJoaXN0b3J5IjpbNTk5MzgzMjg1LDc4MDM3NjEyNyw0MzA5Nz
+g1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3
+LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMT
+M3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0
+NzAsOTMxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNz
+AzMzA3MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3
+MTkxMl19
 -->
