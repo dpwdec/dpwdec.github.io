@@ -60,8 +60,12 @@ var sampleText = "She came in and said \"Good Morning.\" to everyone.";
 You can **use the `+=` operator to concatenate and assign the string result**.
 ```js
 var text = 'Some text.';
-text += ' And some more text.';
-tex
+text += ' And some more text.'; // => 'Some text. And some more text.'
+```
+
+You can ** get the length of a string** using the string `length` function.
+```js
+'
 ```
 
 You can **interpolate variables into a string** by surrounding your string with back-ticks and using a `${ }` symbol inside the string with the variable you want to interpolate placed between the curly brackets.
@@ -221,11 +225,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyMDE0NDE1LC0xNTQwODYwNDE3LC0xNz
-I2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMx
-NTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOT
-MxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3
-MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3MTkxMi
-wtNzkzNzc5ODAzLDExMjYwMzUzNzQsMTUxMDIxNTI5NiwtMTE1
-OTI1NzQyNV19
+eyJoaXN0b3J5IjpbLTE3OTgxNjYyODYsLTE1NDA4NjA0MTcsLT
+E3MjY3MDczNTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0
+MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MC
+w5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMz
+MDcxNjYsMTgwNzY0NjMwNiwtNTQyODEzODIxLC0xOTI3MjcxOT
+EyLC03OTM3Nzk4MDMsMTEyNjAzNTM3NCwxNTEwMjE1Mjk2LC0x
+MTU5MjU3NDI1XX0=
 -->
