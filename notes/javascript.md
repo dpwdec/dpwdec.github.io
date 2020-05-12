@@ -66,6 +66,8 @@ profile.age = "60";
 profile = { name:"Ogawa", age:"18" }; //ERROR
 ```
 
+##
+
 ## `Var` vs `Let`
 
 The `let` and `var` keywords are different ways of defining a variable in Javascript. The primary difference between them is their scoping and definition.
@@ -511,11 +513,11 @@ console.log(first, second);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMT
-gxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3
-MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMD
-MwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDky
-MDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1Mi
-wxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0
-MDU0MzRdfQ==
+eyJoaXN0b3J5IjpbLTE2OTEyNDM5MjIsLTExMTY1MjU1ODIsLT
+U5OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2
+ODQwMDMsODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNj
+g2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2
+NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNT
+gwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMx
+OTQzNjg2XX0=
 -->
