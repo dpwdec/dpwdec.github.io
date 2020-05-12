@@ -73,6 +73,11 @@ The `let` and `var` keywords are different ways of defining a variable in Javasc
 The `**var` defined variable are scoped to the function they are declared in** whereas **`let` defined variables are scoped to the block they are defined in and any blocks contained within that block**.
 
 If you try to **use a `let` variable** in a block with a scope outside of the one it was defined in you will get a `ReferenceError`.
+```js
+{
+  let spam = 'spam';
+}
+console.log(spam); // => ReferenceError
 ```
 
 ## Conditionals
@@ -462,7 +467,7 @@ console.log(first, second);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNTQ5NTIyOSwtNTk5MjQwNDIyLDExOD
+eyJoaXN0b3J5IjpbMTM3Mjk1NjcyOSwtNTk5MjQwNDIyLDExOD
 E2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcw
 NDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUsLTEwMz
 AxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMTAwOTIw
