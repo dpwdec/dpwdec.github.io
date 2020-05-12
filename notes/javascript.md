@@ -292,7 +292,7 @@ You can **retrieve values from an Object** using `.` syntax and the name of the 
 ```js
 var cat_sound = cat.sound; // => 'meow'
 ```
-You can **assign key values to an Object key** by using `.` syntax and the name of the key with an assignment with `=`. This is also the same syntax for **defining a new key and value pair** to the dictionary.
+You can **assign new key values to an Object key** by using `.` syntax and the name of the key with an assignment with `=`. This is also the same syntax for **defining a new key and value pair** to the dictionary.
 ```js
 cat.legs = 10;
 cat.name = 'Muffins';
@@ -329,6 +329,8 @@ cat.speak; // => 'I have 4 legs!'
 cat.legs = 5;
 cat.speak; // => 'I have 5 legs!'
 ```
+
+You can **use integers as **
 
 ## Classes
 
@@ -392,7 +394,7 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzI1NzcwOSw4NzQwOTcwNDEsNzgwMz
+eyJoaXN0b3J5IjpbMTg5OTYzNzEyNCw4NzQwOTcwNDEsNzgwMz
 c2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUsLTEwMzAxODUzNjcs
 LTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMTAwOTIwNjI4NiwxNT
 AwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0
