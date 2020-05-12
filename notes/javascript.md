@@ -320,6 +320,7 @@ array.shift(); // => [5]
 let i = 0;
 do {
   console.log(i);
+  i ++;
 } while (i < 5);
 // => 1 2 3 4 5
 ```
@@ -330,7 +331,7 @@ let i = 5;
 do {
   console.log(i);
 } while (i < 5);
-// => 1 2 3 4 5
+// => 5
 ```
 
 ## Functions
@@ -608,11 +609,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwMTA4MjkyLC0xNzk1MTMwNzQ3LC0xNT
-M4NTEyOTgwLC0xMTE2NTI1NTgyLC01OTkyNDA0MjIsMTE4MTYy
-MjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MDAzLDg3NDA5NzA0MS
-w3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Njg5NjI5NSwtMTAzMDE4
-NTM2NywtMTU0MDg2MDQxNywtMTcyNjcwNzM1OSwxMDA5MjA2Mj
-g2LDE1MDA2MDgzNiwtMjEzNzQzMTU4MCw2OTM1Njc5NTIsMTYw
-NjE5NTQxMl19
+eyJoaXN0b3J5IjpbLTEzMDc4MzI2MDgsLTE3OTUxMzA3NDcsLT
+E1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgx
+NjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MD
+QxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMw
+MTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMD
+YyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1Miwx
+NjA2MTk1NDEyXX0=
 -->
