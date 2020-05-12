@@ -118,9 +118,9 @@ function hoisting() {
 However **calling a `let` variable before definition results in a `ReferenceError**.
 ```js
 function hoisting() {
-  console.log(spam); // => Refer
+  console.log(spam); // => ReferenceError
   let spam = 'spam';
-  console.log(spam); // => 'spam'
+  console.log(spam); // => 'spam' (bu
 }
 ```
 
@@ -511,7 +511,7 @@ console.log(first, second);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1OTc4NjMzLC01OTkyNDA0MjIsMTE4MT
+eyJoaXN0b3J5IjpbMzc0NDAyMzUxLC01OTkyNDA0MjIsMTE4MT
 YyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MDAzLDg3NDA5NzA0
 MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Njg5NjI5NSwtMTAzMD
 E4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcwNzM1OSwxMDA5MjA2
