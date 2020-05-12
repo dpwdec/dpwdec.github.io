@@ -75,15 +75,17 @@ Parrot.prototype.speal = function() {
 use the `debugger` function to pause execution and in chrome you can use the dev tools to step through your code in the `Sources` tab of the dev tools.
 
 you can define fucntion inside classes without the function keyword
+
+
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ4NDYwODgsMTM0NDUyMjE3OCwxNj
-Y4Njc2ODQxLC0xOTI4MDgyOCwxOTQxMjg1ODUzLC02MjY3Mzgx
-NzMsLTE5ODc2MjkzNCwtMTY0NDg0NzY5MCwtNjQ5NjIwMDMzLC
-0yMDg1MDUxOTcxLC0yMDM1ODc5NDA2LC0xMTMyODQ2MTM3LDE4
-MDE1NzU3OTgsMTkxNjc5MTcyNSwtMTA5NDcyMzk1MSwtMTMzMz
-Q4NDAxOV19
+eyJoaXN0b3J5IjpbMzM1ODk1MjUyLDEzNDQ1MjIxNzgsMTY2OD
+Y3Njg0MSwtMTkyODA4MjgsMTk0MTI4NTg1MywtNjI2NzM4MTcz
+LC0xOTg3NjI5MzQsLTE2NDQ4NDc2OTAsLTY0OTYyMDAzMywtMj
+A4NTA1MTk3MSwtMjAzNTg3OTQwNiwtMTEzMjg0NjEzNywxODAx
+NTc1Nzk4LDE5MTY3OTE3MjUsLTEwOTQ3MjM5NTEsLTEzMzM0OD
+QwMTldfQ==
 -->
