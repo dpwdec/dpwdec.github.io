@@ -66,7 +66,9 @@ profile.age = "60";
 profile = { name:"Ogawa", age:"18" }; //ERROR
 ```
 
-##
+## The Global Object
+
+The **global object is an object on which all global variables for your script are defined**. The global object is **client side javascript specific**, i.e. it is not a feature in `node.js`. In browser based javascript the default global object is `window`.
 
 ## `Var` vs `Let`
 
@@ -513,11 +515,11 @@ console.log(first, second);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTEyNDM5MjIsLTExMTY1MjU1ODIsLT
-U5OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2
-ODQwMDMsODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNj
-g2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2
-NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNT
-gwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMx
-OTQzNjg2XX0=
+eyJoaXN0b3J5IjpbMTk5MTYxMDUzLC0xMTE2NTI1NTgyLC01OT
+kyNDA0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0
+MDAzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Nj
+g5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcw
+NzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQzMTU4MC
+w2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4NDcwLDkzMTk0
+MzY4Nl19
 -->
