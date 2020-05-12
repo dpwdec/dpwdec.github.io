@@ -450,11 +450,14 @@ console.log('message to the std_out');
 
 You can **submit multiple arguments to be printed** to the `log` function.
 ```js
-var first = 
+var first = 'hello';
+var second = 'there';
+console.log(first, second);
+// => 'hello there'
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTQ1OTI5MCwxMTgxNjIyMTU2LC01MD
+eyJoaXN0b3J5IjpbLTU5OTI0MDQyMiwxMTgxNjIyMTU2LC01MD
 I0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MDQxLDc4MDM3NjEy
 Nyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNT
 QwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYw
