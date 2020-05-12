@@ -419,7 +419,7 @@ function spam() {
   function eggs() { // define the eggs function
     console.log(ham);
   }
-  eggs(); // call the eggs function
+  return eggs; // call the eggs function
 }
 spam(); // => 'ham'
 ```
@@ -639,7 +639,7 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjc2OTYwMjAsLTE4ODIyNDY5NTQsLT
+eyJoaXN0b3J5IjpbLTIwNDg4NjMyOTMsLTE4ODIyNDY5NTQsLT
 E3OTUxMzA3NDcsLTE1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5
 OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2OD
 QwMDMsODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2
