@@ -86,7 +86,9 @@ if (5 !== '5') // => true
 
 You can **return the result of a conditional directly from a function** by placing the conditional statement after a `return`
 ```js
-function isNotEqual(a, b)
+function isNotEqual(a, b) {
+  return a !== b
+}
 ```
 
 ## Switch
@@ -390,11 +392,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE3OTc2NjEsODc0MDk3MDQxLDc4MD
-M3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3
-LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMT
-UwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1
-NDEyLC0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0MDU0MzQsMT
-Y2NzY5OTYwNywtNzAzMzA3MTY2LDE4MDc2NDYzMDYsLTU0Mjgx
-MzgyMV19
+eyJoaXN0b3J5IjpbLTI2NzI1NzcwOSw4NzQwOTcwNDEsNzgwMz
+c2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUsLTEwMzAxODUzNjcs
+LTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMTAwOTIwNjI4NiwxNT
+AwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0
+MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNj
+Y3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0NjMwNiwtNTQyODEz
+ODIxXX0=
 -->
