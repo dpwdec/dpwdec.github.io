@@ -330,7 +330,7 @@ cat.legs = 5;
 cat.speak; // => 'I have 5 legs!'
 ```
 
-You can **use integers or strings as object keys**. Any non-string objects will be automatically coerced into strings. These types of key properties **cannot be accessed with `.` notation**.
+You can **use integers or strings as object keys**. Any non-string objects will be automatically coerced into strings,. These types of key properties **cannot be accessed with `.` notation**.
 ```js
 var robot = {
   'a string': 10,
@@ -338,7 +338,7 @@ var robot = {
 };
 ```
 
-You can **access multiple word properties** using `[ ]` square bracket notion.
+You can **access multiple word properties** using `[ ]` square bracket notion. This also **allows you to access key names** dynamically using substitution.
 ```js
 robot['a string'] // => 10
 ```
@@ -405,7 +405,7 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjMxMDk5MjgsLTEyMjM2ODQwMDMsOD
+eyJoaXN0b3J5IjpbLTEyNjI2OTEwNTQsLTEyMjM2ODQwMDMsOD
 c0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1
 LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LD
 EwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2
