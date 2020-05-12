@@ -427,8 +427,14 @@ beans(); // => 'ham'
 
 You can **uses closures to store lexical environments** as a way of configuring functions.
 ```js
-function makeBreakfastFunction() {
+function makeBreakfastFunction(main) {
+  return function(side) {
+    return main + ' and ' side;
+  };
 }
+var spamBreakfast = makeBreakfastFunction('spam');
+var eggsBreakfast = makeBreakfastFunction('eggs');
+
 ```
 
 ## Objects
@@ -646,11 +652,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA5MTMwODI2LC0xODgyMjQ2OTU0LC0xNz
-k1MTMwNzQ3LC0xNTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01OTky
-NDA0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MD
-AzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Njg5
-NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcwNz
-M1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQzMTU4MCw2
-OTM1Njc5NTJdfQ==
+eyJoaXN0b3J5IjpbLTYyNTg2NzYwMSwtMTg4MjI0Njk1NCwtMT
+c5NTEzMDc0NywtMTUzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5
+MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4ND
+AwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4
+OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MD
+czNTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAs
+NjkzNTY3OTUyXX0=
 -->
