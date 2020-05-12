@@ -398,7 +398,7 @@ myUndefined(); // => undefined
 
 ### Lexical Scoping
 
-A **function define within another function has access to the variables of that function**. In the example below the `eggs` function has access to the `ham` variable because it is defined within the function scope. This is called **lexical scoping**.
+A **function define within another function has access to the variables of that function**. In the example below the `eggs` function has access to the `ham` variable because it is defined within the function scope. This is called **lexical scoping** and describes how the function `eggs` resolves the variable name `ham` as referring to the context in which it was define. This context is called the **lexical environment** of a function.
 ```js
 function spam() {
   var ham = 'ham';
@@ -412,7 +412,7 @@ spam(); // => 'ham'
 
 ### Closures
 
-
+A **closure** refers to a situation in which the 
 
 
 ## Objects
@@ -630,11 +630,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk1NzI5MTcsLTE4ODIyNDY5NTQsLT
-E3OTUxMzA3NDcsLTE1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5
-OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2OD
-QwMDMsODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2
-ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2Nz
-A3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgw
-LDY5MzU2Nzk1Ml19
+eyJoaXN0b3J5IjpbLTkwNzYwNzY3NiwtMTg4MjI0Njk1NCwtMT
+c5NTEzMDc0NywtMTUzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5
+MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4ND
+AwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4
+OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MD
+czNTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAs
+NjkzNTY3OTUyXX0=
 -->
