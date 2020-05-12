@@ -78,6 +78,8 @@ window.spam; // => 'spam'
 
 The `let` and `var` keywords are different ways of defining a variable in Javascript. The primary difference between them is their scoping and definition.
 
+### Scoping
+
 The `**var` defined variable are scoped to the function they are declared in** whereas **`let` defined variables are scoped to the block they are defined in and any blocks contained within that block**.
 
 If you try to **use a `let` variable** in a block with a scope outside of the one it was defined in you will get a `ReferenceError`.
@@ -114,6 +116,8 @@ function spamFunction() {
 console.log(spam) // => ReferenceError
 ```
 
+### Hoisting
+
 **Variables define with `var` are hoisted**. This means that even before they are ever defined in the flow of execution of the code they are initialized with an `undefined` type meaning that they won't throw an error if used before their definition.
 ```js
 function hoisting() {
@@ -131,6 +135,11 @@ function hoisting() {
   console.log(spam); // => 'spam' (but never gets executed due to error above)
 }
 ```
+
+### Global Object
+
+At the top level scope **`var` defined variables are added as properties of the global object**, whereas **`let` define variables are not**.
+```js
 
 
 
@@ -521,11 +530,11 @@ console.log(first, second);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2MDkzNjA1LC0xMTE2NTI1NTgyLC01OT
-kyNDA0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0
-MDAzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Nj
-g5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcw
-NzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQzMTU4MC
-w2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4NDcwLDkzMTk0
-MzY4Nl19
+eyJoaXN0b3J5IjpbLTIwNjAyMzI4ODUsLTExMTY1MjU1ODIsLT
+U5OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2
+ODQwMDMsODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNj
+g2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2
+NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNT
+gwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMx
+OTQzNjg2XX0=
 -->
