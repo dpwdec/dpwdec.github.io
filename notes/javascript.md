@@ -106,7 +106,7 @@ function spamFunction() {
 console.log(spam) // => ReferenceError
 ```
 
-
+**Variables define with `var` are hoisted**. This means that even before they are ever defined in the flow of execution of the code they are initialized with an undefined type meaning that they won't through an error if used out
 
 ## Conditionals
 
@@ -495,7 +495,7 @@ console.log(first, second);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTQ2NTg4MSwtNTk5MjQwNDIyLDExOD
+eyJoaXN0b3J5IjpbLTg3OTYzNTEwMSwtNTk5MjQwNDIyLDExOD
 E2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcw
 NDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUsLTEwMz
 AxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMTAwOTIw
