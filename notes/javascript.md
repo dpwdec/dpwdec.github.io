@@ -359,7 +359,13 @@ cat.hasOwnProperty('sound'); // => true
 cat.hasOwnProperty('age'); // => false
 ```
 
-You can **store objects as values of keys** 
+You can **store objects as values of keys *inside* another object**. You can **access these "nested objects"** using double dot notation.
+```js
+var computer = {
+  motherBoard: {
+  }
+}
+```
 
 ## Classes
 
@@ -423,7 +429,7 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwOTU1MzUyLC0xMjIzNjg0MDAzLDg3ND
+eyJoaXN0b3J5IjpbNjgwNDgxNjgyLC0xMjIzNjg0MDAzLDg3ND
 A5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Njg5NjI5NSwt
 MTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcwNzM1OSwxMD
 A5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQzMTU4MCw2OTM1Njc5
