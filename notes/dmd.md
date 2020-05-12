@@ -76,16 +76,16 @@ use the `debugger` function to pause execution and in chrome you can use the dev
 
 you can define fucntion inside classes without the function keyword
 
-
+javascript hoisting
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1ODk1MjUyLDEzNDQ1MjIxNzgsMTY2OD
-Y3Njg0MSwtMTkyODA4MjgsMTk0MTI4NTg1MywtNjI2NzM4MTcz
-LC0xOTg3NjI5MzQsLTE2NDQ4NDc2OTAsLTY0OTYyMDAzMywtMj
-A4NTA1MTk3MSwtMjAzNTg3OTQwNiwtMTEzMjg0NjEzNywxODAx
-NTc1Nzk4LDE5MTY3OTE3MjUsLTEwOTQ3MjM5NTEsLTEzMzM0OD
-QwMTldfQ==
+eyJoaXN0b3J5IjpbLTE4NTEyMjg4MiwxMzQ0NTIyMTc4LDE2Nj
+g2NzY4NDEsLTE5MjgwODI4LDE5NDEyODU4NTMsLTYyNjczODE3
+MywtMTk4NzYyOTM0LC0xNjQ0ODQ3NjkwLC02NDk2MjAwMzMsLT
+IwODUwNTE5NzEsLTIwMzU4Nzk0MDYsLTExMzI4NDYxMzcsMTgw
+MTU3NTc5OCwxOTE2NzkxNzI1LC0xMDk0NzIzOTUxLC0xMzMzND
+g0MDE5XX0=
 -->
