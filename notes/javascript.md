@@ -317,8 +317,11 @@ array.shift(); // => [5]
 
 `do ... while` loops follow the structure of having a piece of code placed in a `do` block followed by a condition for executing that code multiple time in  a `while` statement. Uniquely **`do ... while` loops always execute once before their conditions is evaluated**, because the condition is placed after the execution block. The basic definition syntax is:
 ```js
+let i = 0;
 do {
-}
+  console.log(i);
+} while (i < 5);
+
 ```
 
 ## Functions
@@ -596,11 +599,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzk5MjYxNCwtMTc5NTEzMDc0NywtMT
-UzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwNDIyLDExODE2
-MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcwND
-EsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUsLTEwMzAx
-ODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMTAwOTIwNj
-I4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3OTUyLDE2
-MDYxOTU0MTJdfQ==
+eyJoaXN0b3J5IjpbMjU1NDAzMTMsLTE3OTUxMzA3NDcsLTE1Mz
+g1MTI5ODAsLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgxNjIy
+MTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MDQxLD
+c4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1
+MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyOD
+YsMTUwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2
+MTk1NDEyXX0=
 -->
