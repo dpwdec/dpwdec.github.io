@@ -363,7 +363,7 @@ You can **store objects as values of keys *inside* another object**. You can **a
 ```js
 var computer = {
   motherBoard: {
-    
+    cpu
   }
 }
 ```
@@ -430,11 +430,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4Nz
-QwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUs
-LTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMT
-AwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3
-OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMT
-E3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0
-NjMwNl19
+eyJoaXN0b3J5IjpbMTY0NzM0NTk0OCwtNTAyNDk4NDk2LC0xMj
+IzNjg0MDAzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUx
+LDY4Njg5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMT
+cyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQz
+MTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4NDcwLD
+kzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLTcwMzMw
+NzE2Nl19
 -->
