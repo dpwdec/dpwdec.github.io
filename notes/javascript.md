@@ -313,6 +313,10 @@ array.pop(); // => [4, 5]
 array.shift(); // => [5]
 ```
 
+## `do ... while` loops
+
+`do ... while` loops foll
+
 ## Functions
 
 You can **define a function** using the `function` keyword.
@@ -588,11 +592,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODk4MzI0MDQsLTE3OTUxMzA3NDcsLT
-E1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgx
-NjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MD
-QxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMw
-MTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMD
-YyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1Miwx
-NjA2MTk1NDEyXX0=
+eyJoaXN0b3J5IjpbLTk5MjEzOTYzNywtMTc5NTEzMDc0NywtMT
+UzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwNDIyLDExODE2
+MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcwND
+EsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUsLTEwMzAx
+ODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMTAwOTIwNj
+I4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3OTUyLDE2
+MDYxOTU0MTJdfQ==
 -->
