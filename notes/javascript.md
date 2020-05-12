@@ -220,6 +220,8 @@ array.pop(); // => [4, 5]
 array.shift(); // => [5]
 ```
 
+## While
+
 ## Functions
 
 You can **define a function** using the `function` keyword.
@@ -369,7 +371,7 @@ var computer = {
 };
 
 computer.motherboard.cooling // => '5xx'
-computer.mothe
+computer['motherBoard'].cpu // => 'G-Series'
 ```
 
 ## Classes
@@ -434,11 +436,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzI5OTc2MywtNTAyNDk4NDk2LC0xMj
-IzNjg0MDAzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUx
-LDY4Njg5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMT
-cyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQz
-MTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4NDcwLD
-kzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLTcwMzMw
-NzE2Nl19
+eyJoaXN0b3J5IjpbMTA1NjU5NjI0LC01MDI0OTg0OTYsLTEyMj
+M2ODQwMDMsODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEs
+Njg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNz
+I2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMx
+NTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOT
+MxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3
+MTY2XX0=
 -->
