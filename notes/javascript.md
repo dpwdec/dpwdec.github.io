@@ -295,7 +295,7 @@ var cat_sound = cat.sound; // => 'meow'
 You can **assign new key values to an Object key** by using `.` syntax and the name of the key with an assignment with `=`. This is also the same syntax for **defining a new key and value pair** to the dictionary.
 ```js
 cat.legs = 10;
-cat.name = 'Muffins';
+cat.sound = 'Prrrr';
 ```
 
 You can **assign functions to object keys**. When that key is called on the dictionary the function will be executed.
@@ -407,11 +407,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTMyNjIxOCwtMTIyMzY4NDAwMyw4Nz
-QwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUs
-LTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMT
-AwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3
-OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMT
-E3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0
-NjMwNl19
+eyJoaXN0b3J5IjpbLTEyNjExODk0ODIsLTEyMjM2ODQwMDMsOD
+c0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1
+LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LD
+EwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2
+Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQzNjg2LD
+ExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3MTY2LDE4MDc2
+NDYzMDZdfQ==
 -->
