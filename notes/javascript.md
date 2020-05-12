@@ -90,7 +90,7 @@ console.log(spam) // => 'spam'
 
 You can still **access `let` variables from nested blocks**.
 ```js
-{
+function spamFunction() {
   let spam = 'spam'
   {
 	console.log(spam); // => spam
@@ -485,11 +485,11 @@ console.log(first, second);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDM2NDIyNDQsLTU5OTI0MDQyMiwxMT
-gxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3
-MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMD
-MwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDky
-MDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1Mi
-wxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0
-MDU0MzRdfQ==
+eyJoaXN0b3J5IjpbMTQ3NzEzOTQ3NCwtNTk5MjQwNDIyLDExOD
+E2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcw
+NDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUsLTEwMz
+AxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMTAwOTIw
+NjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3OTUyLD
+E2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMTE3MjQw
+NTQzNF19
 -->
