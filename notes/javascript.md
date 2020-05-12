@@ -80,6 +80,16 @@ If you try to **use a `let` variable** in a block with a scope outside of the on
 console.log(spam); // => ReferenceError
 ```
 
+However if you **define a `var` variable inside a block** it will still be available outside of that block.
+```js
+{
+  var spam = 'spam'
+}
+console.log(spam) // => 'spam'
+```
+
+You can still **a**
+
 ## Conditionals
 
 Javascript **automatically coerces string and integer types when running a comparison**, such that writing out one number an an integer `5` and writing string containing just the character `'5'` will be evaluated as `true` when compared.
@@ -467,7 +477,7 @@ console.log(first, second);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Mjk1NjcyOSwtNTk5MjQwNDIyLDExOD
+eyJoaXN0b3J5IjpbLTM1NTI5NTk3MSwtNTk5MjQwNDIyLDExOD
 E2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcw
 NDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUsLTEwMz
 AxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMTAwOTIw
