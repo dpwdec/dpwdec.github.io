@@ -549,9 +549,18 @@ console.log(first, second);
 
 `'strict mode'` allows you to write safer Javascript by removing some of the more idiosyncratic tendencies of the language. You can use `strict mode`:
 - globally for an entire script
-- in a function sp
+- in a function specific context
+
+To ** use `strict mode` globally** place it at the beginning of your script at the top level before any other code.
+```js
+'strict mode';
+// other code
+```
+
+To **use `strict mode` wih**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTkxMTc5NSwtMTExNjUyNTU4MiwtNT
+eyJoaXN0b3J5IjpbMTU2NTk5MjcyNywtMTExNjUyNTU4MiwtNT
 k5MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4
 NDAwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2OD
 Y4OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3
