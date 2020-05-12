@@ -421,7 +421,8 @@ function spam() {
   }
   return eggs; // call the eggs function
 }
-spam(); // => 'ham'
+var beans = spam();
+beans();
 ```
 
 ## Objects
@@ -639,7 +640,7 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDg4NjMyOTMsLTE4ODIyNDY5NTQsLT
+eyJoaXN0b3J5IjpbLTE0NDQ5Mjk1NTQsLTE4ODIyNDY5NTQsLT
 E3OTUxMzA3NDcsLTE1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5
 OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2OD
 QwMDMsODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2
