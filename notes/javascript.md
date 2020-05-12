@@ -140,8 +140,16 @@ function hoisting() {
 
 At the top level scope **`var` defined variables are added as properties of the global object**, whereas **`let` define variables are not**.
 ```js
+var spam = 'spam';
+let ham = 'ham';
 
+console.log(window.spam); // => 'spam'
+console.log(window.ham); // => undefined
+```
 
+### Redeclaration
+
+In `strict mode` 
 
 ## Conditionals
 
@@ -530,11 +538,11 @@ console.log(first, second);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjAyMzI4ODUsLTExMTY1MjU1ODIsLT
-U5OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2
-ODQwMDMsODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNj
-g2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2
-NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNT
-gwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMx
-OTQzNjg2XX0=
+eyJoaXN0b3J5IjpbLTk1MDQ4Nzg2MCwtMTExNjUyNTU4MiwtNT
+k5MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4
+NDAwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2OD
+Y4OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3
+MDczNTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1OD
+AsNjkzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5
+NDM2ODZdfQ==
 -->
