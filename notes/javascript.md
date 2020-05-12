@@ -435,6 +435,8 @@ function makeBreakfastFunction(main) {
 var spamBreakfast = makeBreakfastFunction('spam');
 var eggsBreakfast = makeBreakfastFunction('eggs');
 
+console.log(spamBreakfast('beans');
+console.log(spameBreakfast('beans');
 ```
 
 ## Objects
@@ -652,7 +654,7 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTg2NzYwMSwtMTg4MjI0Njk1NCwtMT
+eyJoaXN0b3J5IjpbMTUxNDIzMzUwMiwtMTg4MjI0Njk1NCwtMT
 c5NTEzMDc0NywtMTUzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5
 MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4ND
 AwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4
