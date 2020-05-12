@@ -359,13 +359,15 @@ cat.hasOwnProperty('sound'); // => true
 cat.hasOwnProperty('age'); // => false
 ```
 
-You can **store objects as values of keys *inside* another object**. You can **access these "nested objects"** using double dot notation.
+You can **store objects as values of keys *inside* another object**. You can **access these "nested objects"** using double dot notation. You can also **use **
 ```js
 var computer = {
   motherBoard: {
-    cpu
+    cpu: 'G-Series',
+    cooling: '5xx'
   }
-}
+  
+};
 ```
 
 ## Classes
@@ -430,11 +432,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzM0NTk0OCwtNTAyNDk4NDk2LC0xMj
-IzNjg0MDAzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUx
-LDY4Njg5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMT
-cyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQz
-MTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4NDcwLD
-kzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLTcwMzMw
-NzE2Nl19
+eyJoaXN0b3J5IjpbLTE5MzAzNjczNjMsLTUwMjQ5ODQ5NiwtMT
+IyMzY4NDAwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1
+MSw2ODY4OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLT
+E3MjY3MDczNTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0
+MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MC
+w5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMz
+MDcxNjZdfQ==
 -->
