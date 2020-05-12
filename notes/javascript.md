@@ -120,7 +120,7 @@ However **calling a `let` variable before definition results in a `ReferenceErro
 function hoisting() {
   console.log(spam); // => ReferenceError
   let spam = 'spam';
-  console.log(spam); // => 'spam' (bu
+  console.log(spam); // => 'spam' (but never gets executed due to error above)
 }
 ```
 
@@ -511,11 +511,11 @@ console.log(first, second);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0NDAyMzUxLC01OTkyNDA0MjIsMTE4MT
-YyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MDAzLDg3NDA5NzA0
-MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Njg5NjI5NSwtMTAzMD
-E4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcwNzM1OSwxMDA5MjA2
-Mjg2LDE1MDA2MDgzNiwtMjEzNzQzMTU4MCw2OTM1Njc5NTIsMT
-YwNjE5NTQxMiwtMTQxOTc4NDcwLDkzMTk0MzY4NiwxMTcyNDA1
-NDM0XX0=
+eyJoaXN0b3J5IjpbLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMT
+gxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3
+MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMD
+MwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDky
+MDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1Mi
+wxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0
+MDU0MzRdfQ==
 -->
