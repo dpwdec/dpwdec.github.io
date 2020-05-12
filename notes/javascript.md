@@ -320,7 +320,7 @@ array.shift(); // => [5]
 let i = 0;
 do {
   console.log(i);
-  i ++;
+  i++;
 } while (i < 5);
 // => 1 2 3 4 5
 ```
@@ -330,6 +330,7 @@ If you set `i = 5` with the same code `i` will still be printed once because **t
 let i = 5;
 do {
   console.log(i);
+  i++;
 } while (i < 5);
 // => 5
 ```
@@ -609,7 +610,7 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc4MzI2MDgsLTE3OTUxMzA3NDcsLT
+eyJoaXN0b3J5IjpbLTE4ODIyNDY5NTQsLTE3OTUxMzA3NDcsLT
 E1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgx
 NjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MD
 QxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMw
