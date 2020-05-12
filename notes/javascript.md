@@ -425,7 +425,7 @@ var beans = spam();
 beans(); // => 'ham'
 ```
 
-You can **uses closures to store lexical environments** as a way of configuring functions. In the example below, the `makeBreakfastFunction` returns a function that simple concatenates its initial argument with an argument that is placed into the returned function. By assigning this return to a `var` we created a **closure** that remembers the state of `main` when it was created. Essentially we store the environment 
+You can **uses closures to store lexical environments** as a way of configuring functions. In the example below, the `makeBreakfastFunction` returns a function that simple concatenates its initial argument with an argument that is placed into the returned function. By assigning this return to a `var` we created a **closure** that remembers the state of `main` when it was created. Essentially we store the environment at the definition of the returned function without having to reference outside variables.
 ```js
 function makeBreakfastFunction(main) {
   return function(side) {
@@ -438,6 +438,9 @@ var eggsBreakfast = makeBreakfastFunction('eggs');
 console.log(spamBreakfast('beans'); // => 'spam and beans'
 console.log(eegsBreakfast('beans'); // => 'eggs and beans'
 ```
+
+Because **closures allow to associate data with a function** similarly to how you might associate data with functions in a class. They can be useful any time you have a class that would have some data and only a single function.
+
 
 ## Objects
 
@@ -654,11 +657,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA0MjY0NzM4LC0xODgyMjQ2OTU0LC0xNz
-k1MTMwNzQ3LC0xNTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01OTky
-NDA0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MD
-AzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Njg5
-NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcwNz
-M1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQzMTU4MCw2
-OTM1Njc5NTJdfQ==
+eyJoaXN0b3J5IjpbLTE0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLT
+E3OTUxMzA3NDcsLTE1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5
+OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2OD
+QwMDMsODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2
+ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2Nz
+A3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgw
+LDY5MzU2Nzk1Ml19
 -->
