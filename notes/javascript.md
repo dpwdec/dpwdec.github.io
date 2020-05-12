@@ -292,11 +292,16 @@ You can **retrieve values from an Object** using `.` syntax and the name of the 
 ```js
 var cat_sound = cat.sound; // => 'meow'
 ```
-You can **assign new key values to an Object key** by using `.` syntax and the name of the key with an assignment with `=`. This is also the same syntax for **defining a new key and value pair** to the dictionary.
+You can **re-assign new key values to an Object key** by using `.` syntax and the name of the key with an assignment with `=`. This is also the same syntax for **defining a new key and value pair** to the dictionary.
 ```js
+// redefine existing properties
 cat.legs = 10;
 cat.sound = 'Prrrr';
+// add a new property
+cat.name = 'Muffins';
 ```
+
+You can **delete a property from**
 
 You can **assign functions to object keys**. When that key is called on the dictionary the function will be executed.
 ```js
@@ -407,7 +412,7 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjExODk0ODIsLTEyMjM2ODQwMDMsOD
+eyJoaXN0b3J5IjpbLTE1ODg4ODA0NjYsLTEyMjM2ODQwMDMsOD
 c0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1
 LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LD
 EwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2
