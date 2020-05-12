@@ -582,14 +582,21 @@ delete spam; // => SyntaxError
 delete ham; // => SyntaxError
 ```
 
-You **cannot duplicate a parameter name** in `s
+You **cannot duplicate a parameter name** in `strict mode`.
+```js
+function spam(ham, ham) {
+};
+// => SyntaxError
+```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MjIxNzgyNCwtMTUzODUxMjk4MCwtMT
-ExNjUyNTU4MiwtNTk5MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5
-ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LD
-QzMDk3ODU1MSw2ODY4OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4
-NjA0MTcsLTE3MjY3MDczNTksMTAwOTIwNjI4NiwxNTAwNjA4Mz
-YsLTIxMzc0MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0MTIsLTE0
-MTk3ODQ3MF19
+eyJoaXN0b3J5IjpbLTE3OTUxMzA3NDcsLTE1Mzg1MTI5ODAsLT
+ExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0
+OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MDQxLDc4MDM3NjEyNy
+w0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQw
+ODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwOD
+M2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0x
+NDE5Nzg0NzBdfQ==
 -->
