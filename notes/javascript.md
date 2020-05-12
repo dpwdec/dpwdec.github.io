@@ -547,9 +547,11 @@ console.log(first, second);
 
 ## Strict Mode
 
-`'strict mode'` allows you to write safer Javascript by removing some of the more idiosyncratic tendencies of the language.
+`'strict mode'` allows you to write safer Javascript by removing some of the more idiosyncratic tendencies of the language. You can use `strict mode`:
+- globally for an entire script
+- in a function sp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTcxOTM3NCwtMTExNjUyNTU4MiwtNT
+eyJoaXN0b3J5IjpbMTI2NTkxMTc5NSwtMTExNjUyNTU4MiwtNT
 k5MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4
 NDAwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2OD
 Y4OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3
