@@ -71,14 +71,17 @@ Parrot.prototype.speal = function() {
 };
 
 ```
+
+use the `debugger` function to pause execution and in chrome you can use the dev tools to step through your code in the `Sources` tab of the de
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDUyMjE3OCwxNjY4Njc2ODQxLC0xOT
-I4MDgyOCwxOTQxMjg1ODUzLC02MjY3MzgxNzMsLTE5ODc2Mjkz
-NCwtMTY0NDg0NzY5MCwtNjQ5NjIwMDMzLC0yMDg1MDUxOTcxLC
-0yMDM1ODc5NDA2LC0xMTMyODQ2MTM3LDE4MDE1NzU3OTgsMTkx
-Njc5MTcyNSwtMTA5NDcyMzk1MSwtMTMzMzQ4NDAxOV19
+eyJoaXN0b3J5IjpbLTc3ODIxMzc4NywxMzQ0NTIyMTc4LDE2Nj
+g2NzY4NDEsLTE5MjgwODI4LDE5NDEyODU4NTMsLTYyNjczODE3
+MywtMTk4NzYyOTM0LC0xNjQ0ODQ3NjkwLC02NDk2MjAwMzMsLT
+IwODUwNTE5NzEsLTIwMzU4Nzk0MDYsLTExMzI4NDYxMzcsMTgw
+MTU3NTc5OCwxOTE2NzkxNzI1LC0xMDk0NzIzOTUxLC0xMzMzND
+g0MDE5XX0=
 -->
