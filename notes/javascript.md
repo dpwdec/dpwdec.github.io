@@ -330,7 +330,7 @@ cat.legs = 5;
 cat.speak; // => 'I have 5 legs!'
 ```
 
-You can **use integers or strings as object keys**. Any non-string objects will be automatically coerced into strings,. These types of key properties **cannot be accessed with `.` notation**.
+You can **use integers or strings as object keys**. Any non-string objects will be automatically coerced into strings, however when using integers you can still access the keys value using a literal integer. These types of key properties **cannot be accessed with `.` notation**.
 ```js
 var robot = {
   'a string': 10,
@@ -338,9 +338,11 @@ var robot = {
 };
 ```
 
-You can **access multiple word properties** using `[ ]` square bracket notion. This also **allows you to access key names** dynamically using substitution.
+You can **access multiple word properties and integer properties** using `[ ]` square bracket notion. This also **allows you to access key names** dynamically using substitution.
 ```js
 robot['a string'] // => 10
+robot[7] // => 'number'
+robot['7'] // => 7
 ```
 
 ## Classes
@@ -405,11 +407,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjI2OTEwNTQsLTEyMjM2ODQwMDMsOD
-c0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1
-LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LD
-EwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2
-Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQzNjg2LD
-ExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3MTY2LDE4MDc2
-NDYzMDZdfQ==
+eyJoaXN0b3J5IjpbMjA4NTMyNjIxOCwtMTIyMzY4NDAwMyw4Nz
+QwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUs
+LTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMT
+AwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3
+OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMT
+E3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0
+NjMwNl19
 -->
