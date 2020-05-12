@@ -330,7 +330,7 @@ cat.legs = 5;
 cat.speak; // => 'I have 5 legs!'
 ```
 
-You can **use integers or strings as object keys**. Any non-string objects will be automatically coerced into strings.
+You can **use integers or strings as object keys**. Any non-string objects will be automatically coerced into strings. However, this doesn't seem very useful.
 ```js
 var robot = {
   'a string': 10,
@@ -400,7 +400,7 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjU2NjA3NywtMTIyMzY4NDAwMyw4Nz
+eyJoaXN0b3J5IjpbLTMxMjA1MTQxNywtMTIyMzY4NDAwMyw4Nz
 QwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUs
 LTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMT
 AwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3
