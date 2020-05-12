@@ -425,7 +425,7 @@ var beans = spam();
 beans(); // => 'ham'
 ```
 
-You can **uses closures to store lexical environments** as a way of configuring functions.
+You can **uses closures to store lexical environments** as a way of configuring functions. In the example below, the `makeBreakfastFunction` returns a function that simple concatenates its initial argument with an argument that is placed into the returned function. By assigning this return to a `var` we created a **closure** that remembers the state of `main` when it was created. Essentially we store the environment 
 ```js
 function makeBreakfastFunction(main) {
   return function(side) {
@@ -435,8 +435,8 @@ function makeBreakfastFunction(main) {
 var spamBreakfast = makeBreakfastFunction('spam');
 var eggsBreakfast = makeBreakfastFunction('eggs');
 
-console.log(spamBreakfast('beans');
-console.log(spameBreakfast('beans');
+console.log(spamBreakfast('beans'); // => 'spam and beans'
+console.log(eegsBreakfast('beans'); // => 'eggs and beans'
 ```
 
 ## Objects
@@ -654,11 +654,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDIzMzUwMiwtMTg4MjI0Njk1NCwtMT
-c5NTEzMDc0NywtMTUzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5
-MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4ND
-AwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4
-OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MD
-czNTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAs
-NjkzNTY3OTUyXX0=
+eyJoaXN0b3J5IjpbMzA0MjY0NzM4LC0xODgyMjQ2OTU0LC0xNz
+k1MTMwNzQ3LC0xNTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01OTky
+NDA0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MD
+AzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Njg5
+NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcwNz
+M1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQzMTU4MCw2
+OTM1Njc5NTJdfQ==
 -->
