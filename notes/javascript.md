@@ -301,7 +301,10 @@ cat.sound = 'Prrrr';
 cat.name = 'Muffins';
 ```
 
-You can **delete a property from**
+You can **`delete` a property from an object** using the `delete` keyword.
+```js
+delete cat.legs
+```
 
 You can **assign functions to object keys**. When that key is called on the dictionary the function will be executed.
 ```js
@@ -412,11 +415,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg4ODA0NjYsLTEyMjM2ODQwMDMsOD
-c0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1
-LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LD
-EwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2
-Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQzNjg2LD
-ExNzI0MDU0MzQsMTY2NzY5OTYwNywtNzAzMzA3MTY2LDE4MDc2
-NDYzMDZdfQ==
+eyJoaXN0b3J5IjpbLTgzNjEwMTMyMiwtMTIyMzY4NDAwMyw4Nz
+QwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUs
+LTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMT
+AwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3
+OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMT
+E3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0
+NjMwNl19
 -->
