@@ -557,14 +557,22 @@ To ** use `strict mode` globally** place it at the beginning of your script at t
 // other code
 ```
 
-To **use `strict mode` wih**
+To **use `strict mode` with a function** place at the start of the function before any other code.
+```js
+function strict() {
+  'use strict';
+  // function code
+}
+```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTk5MjcyNywtMTExNjUyNTU4MiwtNT
-k5MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4
-NDAwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2OD
-Y4OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3
-MDczNTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1OD
-AsNjkzNTY3OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5
-NDM2ODZdfQ==
+eyJoaXN0b3J5IjpbLTE1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLT
+U5OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2
+ODQwMDMsODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNj
+g2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2
+NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNT
+gwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMx
+OTQzNjg2XX0=
 -->
