@@ -573,11 +573,19 @@ x = 3.141 // => ReferenceError
 
 You **cannot `delete` a function or variable** in `strict mode`.
 ```js
-let spam = 'spam'l
+let spam = 'spam';
+
+function ham(eggs) {
+};
+
+delete spam; // => SyntaxError
+delete ham; // => SyntaxError
 ```
 
+You **cannot duplicate a parameter name** in `s
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzUwODk3MiwtMTUzODUxMjk4MCwtMT
+eyJoaXN0b3J5IjpbLTU3MjIxNzgyNCwtMTUzODUxMjk4MCwtMT
 ExNjUyNTU4MiwtNTk5MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5
 ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LD
 QzMDk3ODU1MSw2ODY4OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4
