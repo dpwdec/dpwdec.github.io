@@ -396,6 +396,20 @@ myUndefined(); // => undefined
 // => Return type is undefined.
 ```
 
+### Lexical Scoping
+
+A **function define within another function has access to the variables of that function**.
+```js
+function spam() {
+  var ham = 'ham';
+  function eggs() {
+    console.log(ham);
+  }
+}
+spam();
+```
+
+
 ## Objects
 
 A basic javascript object is **structured like a hash in ruby** or a **struct in Rust**. It stores information in key value pairs. Objects are defined using `{ }` curly brackets and `:` to indicate assignment from key to value. 
@@ -611,7 +625,7 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzODI0NTgwLC0xODgyMjQ2OTU0LC0xNz
+eyJoaXN0b3J5IjpbOTM0ODAyMzIyLC0xODgyMjQ2OTU0LC0xNz
 k1MTMwNzQ3LC0xNTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01OTky
 NDA0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MD
 AzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Njg5
