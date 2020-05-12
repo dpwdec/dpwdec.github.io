@@ -78,15 +78,16 @@ you can define fucntion inside classes without the function keyword
 
 javascript hoistin
 
+you can set a breakpoint inside chrome by clicking on a line number inside the sources tab
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyMzM1NjkzLC0xODUxMjI4ODIsMTM0ND
-UyMjE3OCwxNjY4Njc2ODQxLC0xOTI4MDgyOCwxOTQxMjg1ODUz
-LC02MjY3MzgxNzMsLTE5ODc2MjkzNCwtMTY0NDg0NzY5MCwtNj
-Q5NjIwMDMzLC0yMDg1MDUxOTcxLC0yMDM1ODc5NDA2LC0xMTMy
-ODQ2MTM3LDE4MDE1NzU3OTgsMTkxNjc5MTcyNSwtMTA5NDcyMz
-k1MSwtMTMzMzQ4NDAxOV19
+eyJoaXN0b3J5IjpbLTE3MTkxOTUyNzQsLTE4NTEyMjg4MiwxMz
+Q0NTIyMTc4LDE2Njg2NzY4NDEsLTE5MjgwODI4LDE5NDEyODU4
+NTMsLTYyNjczODE3MywtMTk4NzYyOTM0LC0xNjQ0ODQ3NjkwLC
+02NDk2MjAwMzMsLTIwODUwNTE5NzEsLTIwMzU4Nzk0MDYsLTEx
+MzI4NDYxMzcsMTgwMTU3NTc5OCwxOTE2NzkxNzI1LC0xMDk0Nz
+IzOTUxLC0xMzMzNDg0MDE5XX0=
 -->
