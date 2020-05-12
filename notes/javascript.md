@@ -412,7 +412,7 @@ spam(); // => 'ham'
 
 ### Closures
 
-A **closure** refers to a situation in which the 
+A **closure** refers to a situation in which the **lexical environment** of a function (i.e. the outer it was defined in) comes bundled with a reference to that function.
 
 
 ## Objects
@@ -630,11 +630,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzYwNzY3NiwtMTg4MjI0Njk1NCwtMT
-c5NTEzMDc0NywtMTUzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5
-MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4ND
-AwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4
-OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MD
-czNTksMTAwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAs
-NjkzNTY3OTUyXX0=
+eyJoaXN0b3J5IjpbNTI1OTIyMTgzLC0xODgyMjQ2OTU0LC0xNz
+k1MTMwNzQ3LC0xNTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01OTky
+NDA0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MD
+AzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Njg5
+NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcwNz
+M1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQzMTU4MCw2
+OTM1Njc5NTJdfQ==
 -->
