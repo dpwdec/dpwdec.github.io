@@ -565,14 +565,19 @@ function strict() {
 }
 ```
 
+`strict mode` **stops variables that have not been explicitly defined from being used**. In regular Javascript mistyping a variable name with assignment results in the creation of a new global variable.
+```js
+'use strict';
 
+x = 3.141
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLT
-U5OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2
-ODQwMDMsODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNj
-g2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2
-NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNT
-gwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMx
-OTQzNjg2XX0=
+eyJoaXN0b3J5IjpbLTE2NTMxODQwMjUsLTE1Mzg1MTI5ODAsLT
+ExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0
+OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MDQxLDc4MDM3NjEyNy
+w0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQw
+ODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwOD
+M2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0x
+NDE5Nzg0NzBdfQ==
 -->
