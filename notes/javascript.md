@@ -70,7 +70,10 @@ profile = { name:"Ogawa", age:"18" }; //ERROR
 
 The `let` and `var` keywords are different ways of defining a variable in Javascript. The primary difference between them is their scoping and definition.
 
-The `**var` defined variable are scoped to the function they are declared in** whereas `let` defined variables are scope to the block they are defined in and any blocks contained within that block.
+The `**var` defined variable are scoped to the function they are declared in** whereas **`let` defined variables are scoped to the block they are defined in and any blocks contained within that block**.
+
+If you try to **use a `let` variable** in a block with a scope outside of the one it was defined in you will get a `ReferenceError`.
+```
 
 ## Conditionals
 
@@ -459,11 +462,11 @@ console.log(first, second);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjMwODQxODgsLTU5OTI0MDQyMiwxMT
-gxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3
-MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMD
-MwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDky
-MDYyODYsMTUwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1Mi
-wxNjA2MTk1NDEyLC0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0
-MDU0MzRdfQ==
+eyJoaXN0b3J5IjpbMTUzNTQ5NTIyOSwtNTk5MjQwNDIyLDExOD
+E2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcw
+NDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUsLTEwMz
+AxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMTAwOTIw
+NjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3OTUyLD
+E2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMTE3MjQw
+NTQzNF19
 -->
