@@ -68,7 +68,11 @@ profile = { name:"Ogawa", age:"18" }; //ERROR
 
 ## The Global Object
 
-The **global object is an object on which all global variables for your script are defined**. The global object is **client side javascript specific**, i.e. it is not a feature in `node.js`. In browser based javascript the default global object is `window`.
+The **global object is an object on which all global variables for your script are defined**. The global object is **client side javascript specific**, i.e. it is not a feature in `node.js`. In browser based javascript the default global object is `window`. At the top level scope, creating a new `var` will add it to the global object.
+```js
+var spam = 'spam';
+window.spam; // => 'spam'
+```
 
 ## `Var` vs `Let`
 
@@ -127,6 +131,8 @@ function hoisting() {
   console.log(spam); // => 'spam' (but never gets executed due to error above)
 }
 ```
+
+
 
 ## Conditionals
 
@@ -515,7 +521,7 @@ console.log(first, second);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTYxMDUzLC0xMTE2NTI1NTgyLC01OT
+eyJoaXN0b3J5IjpbOTc2MDkzNjA1LC0xMTE2NTI1NTgyLC01OT
 kyNDA0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0
 MDAzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Nj
 g5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcw
