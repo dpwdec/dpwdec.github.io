@@ -442,14 +442,23 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 ## Console
 
-You can **d**
+You can **print to the `std_out`** using the `log` function on the `console` object.
+```js
+console.log('message to the std_out');
+// => 'message to the std_out'
+```
+
+You can **submit multiple arguments to be printed** to the `log` function.
+```js
+var first = 
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3MTg3NDkzLDExODE2MjIxNTYsLTUwMj
-Q5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcwNDEsNzgwMzc2MTI3
-LDQzMDk3ODU1MSw2ODY4OTYyOTUsLTEwMzAxODUzNjcsLTE1ND
-A4NjA0MTcsLTE3MjY3MDczNTksMTAwOTIwNjI4NiwxNTAwNjA4
-MzYsLTIxMzc0MzE1ODAsNjkzNTY3OTUyLDE2MDYxOTU0MTIsLT
-E0MTk3ODQ3MCw5MzE5NDM2ODYsMTE3MjQwNTQzNCwxNjY3Njk5
-NjA3XX0=
+eyJoaXN0b3J5IjpbMTY3MTQ1OTI5MCwxMTgxNjIyMTU2LC01MD
+I0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MDQxLDc4MDM3NjEy
+Nyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNT
+QwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYw
+ODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC
+0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5
+OTYwN119
 -->
