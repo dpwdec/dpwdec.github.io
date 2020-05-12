@@ -66,6 +66,10 @@ profile.age = "60";
 profile = { name:"Ogawa", age:"18" }; //ERROR
 ```
 
+## `Var` vs `Let`
+
+
+
 ## Conditionals
 
 Javascript **automatically coerces string and integer types when running a comparison**, such that writing out one number an an integer `5` and writing string containing just the character `'5'` will be evaluated as `true` when compared.
@@ -438,11 +442,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMj
-IzNjg0MDAzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUx
-LDY4Njg5NjI5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMT
-cyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2MDgzNiwtMjEzNzQz
-MTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMiwtMTQxOTc4NDcwLD
-kzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2OTk2MDcsLTcwMzMw
-NzE2Nl19
+eyJoaXN0b3J5IjpbLTE4OTkzNjU4ODMsMTE4MTYyMjE1NiwtNT
+AyNDk4NDk2LC0xMjIzNjg0MDAzLDg3NDA5NzA0MSw3ODAzNzYx
+MjcsNDMwOTc4NTUxLDY4Njg5NjI5NSwtMTAzMDE4NTM2NywtMT
+U0MDg2MDQxNywtMTcyNjcwNzM1OSwxMDA5MjA2Mjg2LDE1MDA2
+MDgzNiwtMjEzNzQzMTU4MCw2OTM1Njc5NTIsMTYwNjE5NTQxMi
+wtMTQxOTc4NDcwLDkzMTk0MzY4NiwxMTcyNDA1NDM0LDE2Njc2
+OTk2MDddfQ==
 -->
