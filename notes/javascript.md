@@ -321,7 +321,16 @@ let i = 0;
 do {
   console.log(i);
 } while (i < 5);
+// => 1 2 3 4 5
+```
 
+If you set `i = 5` with the same code `i` will still be printed once because **the `while` condition is not immediately evaluated**.
+```js
+let i = 5;
+do {
+  console.log(i);
+} while (i < 5);
+// => 1 2 3 4 5
 ```
 
 ## Functions
@@ -599,11 +608,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1NDAzMTMsLTE3OTUxMzA3NDcsLTE1Mz
-g1MTI5ODAsLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgxNjIy
-MTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MDQxLD
-c4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1
-MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyOD
-YsMTUwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2
-MTk1NDEyXX0=
+eyJoaXN0b3J5IjpbNjcwMTA4MjkyLC0xNzk1MTMwNzQ3LC0xNT
+M4NTEyOTgwLC0xMTE2NTI1NTgyLC01OTkyNDA0MjIsMTE4MTYy
+MjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MDAzLDg3NDA5NzA0MS
+w3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Njg5NjI5NSwtMTAzMDE4
+NTM2NywtMTU0MDg2MDQxNywtMTcyNjcwNzM1OSwxMDA5MjA2Mj
+g2LDE1MDA2MDgzNiwtMjEzNzQzMTU4MCw2OTM1Njc5NTIsMTYw
+NjE5NTQxMl19
 -->
