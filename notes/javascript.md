@@ -308,7 +308,7 @@ cat.scratch = catScratch; // => 'Cat scratches you!'
 
 You can also **define functions inside the object definition**. Note that the end of the `{ }` definition for the function within the dictionary does not have a `;` semi-colon appended to it.
 ```js
-var cat {
+var cat = {
   speak: function() {
     return 'Meow!';
   },
@@ -319,7 +319,7 @@ cat.speak; // => 'Meow!'
 
 You can **use the `this` keyword to use variables from inside the object**.
 ```js
-var cat {
+var cat = {
   speak: function() {
     return `I have ${legs} legs!`
   },
@@ -330,7 +330,12 @@ cat.legs = 5;
 cat.speak; // => 'I have 5 legs!'
 ```
 
-You can **use integers as object keys**.
+You can **use integers or strings as object keys**.
+```js
+var robot = {
+  
+};
+```
 
 ## Classes
 
@@ -394,11 +399,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjM2ODQwMDMsODc0MDk3MDQxLDc4MD
-M3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3
-LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMT
-UwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1
-NDEyLC0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0MDU0MzQsMT
-Y2NzY5OTYwNywtNzAzMzA3MTY2LDE4MDc2NDYzMDYsLTU0Mjgx
-MzgyMV19
+eyJoaXN0b3J5IjpbLTY0MDA5MTA4MiwtMTIyMzY4NDAwMyw4Nz
+QwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUs
+LTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTksMT
+AwOTIwNjI4NiwxNTAwNjA4MzYsLTIxMzc0MzE1ODAsNjkzNTY3
+OTUyLDE2MDYxOTU0MTIsLTE0MTk3ODQ3MCw5MzE5NDM2ODYsMT
+E3MjQwNTQzNCwxNjY3Njk5NjA3LC03MDMzMDcxNjYsMTgwNzY0
+NjMwNl19
 -->
