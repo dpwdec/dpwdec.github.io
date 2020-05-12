@@ -440,8 +440,11 @@ console.log(eegsBreakfast('beans'); // => 'eggs and beans'
 ```
 
 Because **closures allow to associate data with a function** similarly to how you might associate data with functions in a class. They can be useful any time you have a class that would have some data and only a single function.
+```js
+class breakfast {
 
-
+}
+```
 
 ## Objects
 
@@ -658,11 +661,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU3MTU3NzYsLTE0NjQxNzc4NzQsLT
-E4ODIyNDY5NTQsLTE3OTUxMzA3NDcsLTE1Mzg1MTI5ODAsLTEx
-MTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0OT
-g0OTYsLTEyMjM2ODQwMDMsODc0MDk3MDQxLDc4MDM3NjEyNyw0
-MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwOD
-YwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2
-LC0yMTM3NDMxNTgwXX0=
+eyJoaXN0b3J5IjpbMTIxNTM5NTE5MCwtMTQ2NDE3Nzg3NCwtMT
+g4MjI0Njk1NCwtMTc5NTEzMDc0NywtMTUzODUxMjk4MCwtMTEx
+NjUyNTU4MiwtNTk5MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5OD
+Q5NiwtMTIyMzY4NDAwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQz
+MDk3ODU1MSw2ODY4OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4Nj
+A0MTcsLTE3MjY3MDczNTksMTAwOTIwNjI4NiwxNTAwNjA4MzYs
+LTIxMzc0MzE1ODBdfQ==
 -->
