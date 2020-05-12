@@ -315,7 +315,11 @@ array.shift(); // => [5]
 
 ## `do ... while` loops
 
-`do ... while` loops foll
+`do ... while` loops follow the structure of having a piece of code placed in a `do` block followed by a condition for executing that code multiple time in  a `while` statement. Uniquely **`do ... while` loops always execute once before their conditions is evaluated**, because the condition is placed after the execution block. The basic definition syntax is:
+```js
+do {
+}
+```
 
 ## Functions
 
@@ -592,7 +596,7 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MjEzOTYzNywtMTc5NTEzMDc0NywtMT
+eyJoaXN0b3J5IjpbLTIxNzk5MjYxNCwtMTc5NTEzMDc0NywtMT
 UzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwNDIyLDExODE2
 MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcwND
 EsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUsLTEwMzAx
