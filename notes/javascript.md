@@ -84,6 +84,11 @@ if (5 != '5') // => false
 if (5 !== '5') // => true
 ```
 
+You can **return the result of a conditional directly from a function** by placing the conditional statement after a `return`
+```js
+function isNotEqual(a, b)
+```
+
 ## Switch
 
 To **match multiple conditions** use a `switch` statement. This allows to test a variable and match its value using a `case` block to execute a specific piece of code. 
@@ -385,11 +390,11 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nz
-g1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3
-LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMTUwMDYwODM2LC0yMT
-M3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1NDEyLC0xNDE5Nzg0
-NzAsOTMxOTQzNjg2LDExNzI0MDU0MzQsMTY2NzY5OTYwNywtNz
-AzMzA3MTY2LDE4MDc2NDYzMDYsLTU0MjgxMzgyMSwtMTkyNzI3
-MTkxMl19
+eyJoaXN0b3J5IjpbLTE3NjE3OTc2NjEsODc0MDk3MDQxLDc4MD
+M3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3
+LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5LDEwMDkyMDYyODYsMT
+UwMDYwODM2LC0yMTM3NDMxNTgwLDY5MzU2Nzk1MiwxNjA2MTk1
+NDEyLC0xNDE5Nzg0NzAsOTMxOTQzNjg2LDExNzI0MDU0MzQsMT
+Y2NzY5OTYwNywtNzAzMzA3MTY2LDE4MDc2NDYzMDYsLTU0Mjgx
+MzgyMV19
 -->
