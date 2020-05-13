@@ -480,6 +480,8 @@ function add(a) {
 add(1)(2)(3)(4); // => 10
 ```
 
+### Callbacks
+
 ## Objects
 
 A basic javascript object is **structured like a hash in ruby** or a **struct in Rust**. It stores information in key value pairs. Objects are defined using `{ }` curly brackets and `:` to indicate assignment from key to value. 
@@ -695,11 +697,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjY1NDYzMCwtOTE1MTQ1MjEwLC03MT
-gwOTA3ODQsMTIxNTM5NTE5MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0
-Njk1NCwtMTc5NTEzMDc0NywtMTUzODUxMjk4MCwtMTExNjUyNT
-U4MiwtNTk5MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5ODQ5Niwt
-MTIyMzY4NDAwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3OD
-U1MSw2ODY4OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcs
-LTE3MjY3MDczNTldfQ==
+eyJoaXN0b3J5IjpbNzg5Njc2OTQ3LDEyMTI2NTQ2MzAsLTkxNT
+E0NTIxMCwtNzE4MDkwNzg0LDEyMTUzOTUxOTAsLTE0NjQxNzc4
+NzQsLTE4ODIyNDY5NTQsLTE3OTUxMzA3NDcsLTE1Mzg1MTI5OD
+AsLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgxNjIyMTU2LC01
+MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MDQxLDc4MDM3Nj
+EyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0x
+NTQwODYwNDE3XX0=
 -->
