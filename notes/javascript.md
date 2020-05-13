@@ -439,7 +439,7 @@ console.log(spamBreakfast('beans'); // => 'spam and beans'
 console.log(eegsBreakfast('beans'); // => 'eggs and beans'
 ```
 
-The **data inside a closures lexical environment is persistent across all instances of that closure**.
+The **data inside a closures lexical environment is persistent across all instances of that closure**. In the example below we create a closure with the `count` variable set to `0` and return a function `add` that adds one to the `count`. When we create a new `increme
 ```js
 function  counter() {
   count = 0;
@@ -452,6 +452,11 @@ function  counter() {
 incrementer = counter();
 incrementer(); // => 1
 incrementer(); // => 2
+incrementer2 = counter();
+incrementer2(); // => 1
+incrementer2(); // => 2
+incrementer(); // => 3
+
 ```
 
 ## Objects
@@ -669,11 +674,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQzMzQyOTUsLTcxODA5MDc4NCwxMj
-E1Mzk1MTkwLC0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1
-MTMwNzQ3LC0xNTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01OTkyND
-A0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MDAz
-LDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Njg5Nj
-I5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcwNzM1
-OSwxMDA5MjA2Mjg2XX0=
+eyJoaXN0b3J5IjpbNTc1OTczMDQ2LC03MTgwOTA3ODQsMTIxNT
+M5NTE5MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5NTEz
+MDc0NywtMTUzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwND
+IyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4
+NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOT
+UsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTks
+MTAwOTIwNjI4Nl19
 -->
