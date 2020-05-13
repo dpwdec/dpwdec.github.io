@@ -370,6 +370,7 @@ $.get('/', function(data, status) {
 ```
 However, by using the `content_type` tag in ruby you can directly pass a `JSON` object out to Javascript requests.
 ```ruby
+# app.rb
 require 'json'
 
 get '/' do
@@ -378,7 +379,13 @@ get '/' do
   { x: x }.to_json
 end
 ```
-Then the corresponding Javascript can simply load the `data
+Then the corresponding Javascript can simply load the `data` object from its callback function and access it directly.
+```js
+$.get('/', function(data, status) {
+  console.log(data) // => { x: 5 }
+  console.log(data.x) // => 5
+}
+```
 ## Rack
 Rack is a minimal interface that facilitates the communication of web servers and ruby applications. When a request is sent to a web application it first goes to a server where the application is running, which has its own framework and conventions. This request is then passed to the application and then returned as a response which goes through the same process in reverse. 
 ![enter image description here](https://miro.medium.com/max/1134/0*GN3ldsyRjwXwqdHO.png)
@@ -464,7 +471,7 @@ And the corresponding `.erb` file:
 <h1> <%= flash[:notice] %> </h1>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Nzc3OTgyOSwxODYzMzcwOTgxLDIxND
+eyJoaXN0b3J5IjpbMTQ1ODU1ODUxOCwxODYzMzcwOTgxLDIxND
 A1NzM0ODAsLTE0NDEwNzM1OTMsLTgyMTgwMTg1NCwtMjA5OTM2
 NCw4MDQzMzI5OTQsNTI1MjAzOTU3LDM5ODQ1ODkxNSwtMTgyMj
 I5NDY3MCwtMTg4MzkxMjU5MSw4NzkzMDU1MTcsLTExNDg5NTIy
