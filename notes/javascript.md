@@ -425,7 +425,7 @@ var beans = spam();
 beans(); // => 'ham'
 ```
 
-You can **uses closures to store lexical environments** as a way of configuring functions. In the example below, the `makeBreakfastFunction` returns a function that simple concatenates its initial argument with an argument that is placed into the returned function. By assigning this return to a `var` we created a **closure** that remembers the state of `main` when it was created. Essentially we store the environment at the definition of the returned function without having to reference outside variables.
+You can **uses closures to store lexical environments** as a way of configuring functions. In the example below, the `makeBreakfastFunction` returns a function that simple concatenates its initial argument with an argument that is placed into the returned function. By assigning this return to a `var` we created a **closure** that remembers the state of `main` when it was created. Essentially we store the environment at the definition of the returned function without having to reference outside variables. Because **closures allow to associate data with a function** similarly to how you might associate data with functions in a class. They can be useful any time you have a class that would have some data and only a single function.
 ```js
 function makeBreakfastFunction(main) {
   return function(side) {
@@ -439,7 +439,7 @@ console.log(spamBreakfast('beans'); // => 'spam and beans'
 console.log(eegsBreakfast('beans'); // => 'eggs and beans'
 ```
 
-Because **closures allow to associate data with a function** similarly to how you might associate data with functions in a class. They can be useful any time you have a class that would have some data and only a single function.
+The data inside a single **closure**
 ```js
 class breakfast {
 
@@ -661,11 +661,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTM5NTE5MCwtMTQ2NDE3Nzg3NCwtMT
-g4MjI0Njk1NCwtMTc5NTEzMDc0NywtMTUzODUxMjk4MCwtMTEx
-NjUyNTU4MiwtNTk5MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5OD
-Q5NiwtMTIyMzY4NDAwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQz
-MDk3ODU1MSw2ODY4OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4Nj
-A0MTcsLTE3MjY3MDczNTksMTAwOTIwNjI4NiwxNTAwNjA4MzYs
-LTIxMzc0MzE1ODBdfQ==
+eyJoaXN0b3J5IjpbMTIwNTIzNDU5MywxMjE1Mzk1MTkwLC0xND
+Y0MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1MTMwNzQ3LC0xNTM4
+NTEyOTgwLC0xMTE2NTI1NTgyLC01OTkyNDA0MjIsMTE4MTYyMj
+E1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MDAzLDg3NDA5NzA0MSw3
+ODAzNzYxMjcsNDMwOTc4NTUxLDY4Njg5NjI5NSwtMTAzMDE4NT
+M2NywtMTU0MDg2MDQxNywtMTcyNjcwNzM1OSwxMDA5MjA2Mjg2
+LDE1MDA2MDgzNl19
 -->
