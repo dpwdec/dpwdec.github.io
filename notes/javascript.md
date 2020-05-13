@@ -439,7 +439,7 @@ console.log(spamBreakfast('beans'); // => 'spam and beans'
 console.log(eegsBreakfast('beans'); // => 'eggs and beans'
 ```
 
-The **data inside a single closure is persistent**.
+The **data inside a closures lexical environment is persistent across all instances of that closure**. For exa
 ```js
 class breakfast {
 
@@ -661,11 +661,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxODA5MDc4NCwxMjE1Mzk1MTkwLC0xND
-Y0MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1MTMwNzQ3LC0xNTM4
-NTEyOTgwLC0xMTE2NTI1NTgyLC01OTkyNDA0MjIsMTE4MTYyMj
-E1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MDAzLDg3NDA5NzA0MSw3
-ODAzNzYxMjcsNDMwOTc4NTUxLDY4Njg5NjI5NSwtMTAzMDE4NT
-M2NywtMTU0MDg2MDQxNywtMTcyNjcwNzM1OSwxMDA5MjA2Mjg2
-LDE1MDA2MDgzNl19
+eyJoaXN0b3J5IjpbLTcwMTUzOTMwLC03MTgwOTA3ODQsMTIxNT
+M5NTE5MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5NTEz
+MDc0NywtMTUzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwND
+IyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4
+NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOT
+UsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTks
+MTAwOTIwNjI4Nl19
 -->
