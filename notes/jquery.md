@@ -55,7 +55,7 @@ $('h1').on('click', function() {
 });
 ```
 
-You can use the `on` method to **add multiple events to a single object** by submitting an object to the `on` method with properties named after events that you want to execute bound to the functions you want to execute when those functions are registered.
+You can use the `on` method to **add multiple events to a single object** by submitting an object to the `on` method with properties named after events that you want to execute bound to the functions you want to execute when those functions are registered. In the code below by naming our object properties `mouseenter`, `mouseleave` and `click` we can bind functions to these events for `h1` elements.
 ```js
 $('h1').on({
   mouseenter: function() {
@@ -64,9 +64,12 @@ $('h1').on({
   mouseleave: function() {
     $(this).css('background-color', 'white');
   },
+  click: function() {
+    alert('you clicked a heading!');
+  }
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDkzNDU4MSwxOTgwNzY3NTM3LDExNT
-c3NDM0MzRdfQ==
+eyJoaXN0b3J5IjpbLTEwNjA2NDM1LDE5ODA3Njc1MzcsMTE1Nz
+c0MzQzNF19
 -->
