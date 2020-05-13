@@ -439,11 +439,18 @@ console.log(spamBreakfast('beans'); // => 'spam and beans'
 console.log(eegsBreakfast('beans'); // => 'eggs and beans'
 ```
 
-The **data inside a closures lexical environment is persistent across all instances of that closure**. For exa
+The **data inside a closures lexical environment is persistent across all instances of that closure**.
 ```js
-class breakfast {
+function  counter() {
+  count = 0;
+  function  add() {
+    count += 1;
+    console.log(count);
+  }
+  return  add;
+  }
+incrementer = counter();
 
-}
 ```
 
 ## Objects
@@ -661,11 +668,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMTUzOTMwLC03MTgwOTA3ODQsMTIxNT
-M5NTE5MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5NTEz
-MDc0NywtMTUzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwND
-IyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4
-NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOT
-UsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcsLTE3MjY3MDczNTks
-MTAwOTIwNjI4Nl19
+eyJoaXN0b3J5IjpbMTI1OTUzNTYxMiwtNzE4MDkwNzg0LDEyMT
+UzOTUxOTAsLTE0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUx
+MzA3NDcsLTE1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5OTI0MD
+QyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMs
+ODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mj
+k1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5
+LDEwMDkyMDYyODZdfQ==
 -->
