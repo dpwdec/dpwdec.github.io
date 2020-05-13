@@ -463,7 +463,9 @@ When creating **nested functions**. Each function **has access to the closure sc
 function add(a) {
   return function(b) {
     return function(c) {
+      // function scope
       return function(d) {
+	    // local scope
         return a + b + c + d;
       }
     }
@@ -687,7 +689,7 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTYxNjUyMSwtNzE4MDkwNzg0LDEyMT
+eyJoaXN0b3J5IjpbLTkxNTE0NTIxMCwtNzE4MDkwNzg0LDEyMT
 UzOTUxOTAsLTE0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUx
 MzA3NDcsLTE1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5OTI0MD
 QyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMs
