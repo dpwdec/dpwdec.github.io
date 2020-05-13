@@ -14,7 +14,7 @@ $('.test').hide(); // hide all elements with class of 'test'
 $('#test').hide(); // hide all elements with id of 'test'
 ```
 
-The **`this` selector to whatever element is currently selected**. The example below creates an alert with t
+The **`this` selector to whatever element is currently selected**. The example below creates an alert with the text of the element with `id="add"`. The `this` refers to that element because the entire code is inside a `$(#add)` at the top level.
 ```js
 $('#add').on('click', function() {
   alert($(this).text());
@@ -47,7 +47,9 @@ $('h1').click(function() {
   alert('you clicked a heading!');
 });
 ```
+
+There is a **more generalised jQuery event handler** in the form of the `on` m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzg4ODA3NiwxOTgwNzY3NTM3LDExNT
-c3NDM0MzRdfQ==
+eyJoaXN0b3J5IjpbLTE4ODUxMTIzNDAsMTk4MDc2NzUzNywxMT
+U3NzQzNDM0XX0=
 -->
