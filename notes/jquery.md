@@ -48,8 +48,8 @@ $('h1').click(function() {
 });
 ```
 
-There is a **more generalised jQuery event handler** in the form of the `on` m
+There is a **more generalised jQuery event handler** in the form of the `on` method. This allows you to specify the name of the event as the first argument of the method and the function to be executed as the second argument.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODUxMTIzNDAsMTk4MDc2NzUzNywxMT
-U3NzQzNDM0XX0=
+eyJoaXN0b3J5IjpbMjA5MjkyMzk1NSwxOTgwNzY3NTM3LDExNT
+c3NDM0MzRdfQ==
 -->
