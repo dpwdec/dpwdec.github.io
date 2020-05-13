@@ -313,10 +313,10 @@ array.pop(); // => [4, 5]
 array.shift(); // => [5]
 ```
 
-You can **remove a specific item from an array** by using the array `filter` function. This works in ES6 only.
+You can **remove a specific item from an array** by using the array `filter` function. This works in ES6 only. In the example below any `item` that is not equal to `4` is placed back into the array.
 ```js
 arr = [1, 2, 3, 4, 5];
-arr = arr.filter(item => item !== 4); 
+arr = arr.filter(item => item !== 4); // => [1, 2, 3, 5]
 ```
 
 ## `do ... while` loops
@@ -695,11 +695,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc1NzE2OTksLTkxNTE0NTIxMCwtNz
-E4MDkwNzg0LDEyMTUzOTUxOTAsLTE0NjQxNzc4NzQsLTE4ODIy
-NDY5NTQsLTE3OTUxMzA3NDcsLTE1Mzg1MTI5ODAsLTExMTY1Mj
-U1ODIsLTU5OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYs
-LTEyMjM2ODQwMDMsODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nz
-g1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3
-LC0xNzI2NzA3MzU5XX0=
+eyJoaXN0b3J5IjpbMTIxMjY1NDYzMCwtOTE1MTQ1MjEwLC03MT
+gwOTA3ODQsMTIxNTM5NTE5MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0
+Njk1NCwtMTc5NTEzMDc0NywtMTUzODUxMjk4MCwtMTExNjUyNT
+U4MiwtNTk5MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5ODQ5Niwt
+MTIyMzY4NDAwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3OD
+U1MSw2ODY4OTYyOTUsLTEwMzAxODUzNjcsLTE1NDA4NjA0MTcs
+LTE3MjY3MDczNTldfQ==
 -->
