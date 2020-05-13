@@ -13,6 +13,11 @@ $('p').hide(); // hide all <p> elements
 $('.test').hide(); // hide all elements with class of 'test'
 $('#test').hide(); // hide all elements with id of 'test'
 ```
+
+## Events
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDc2NzUzNywxMTU3NzQzNDM0XX0=
+eyJoaXN0b3J5IjpbNDQ5NjMyMjM0LDE5ODA3Njc1MzcsMTE1Nz
+c0MzQzNF19
 -->
