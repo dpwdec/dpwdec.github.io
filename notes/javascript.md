@@ -450,7 +450,8 @@ function  counter() {
   return  add;
   }
 incrementer = counter();
-incrementer(); // =
+incrementer(); // => 1
+incrementer(); // => 2
 ```
 
 ## Objects
@@ -668,7 +669,7 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjg3MzY0MDMsLTcxODA5MDc4NCwxMj
+eyJoaXN0b3J5IjpbLTIxMTQzMzQyOTUsLTcxODA5MDc4NCwxMj
 E1Mzk1MTkwLC0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1
 MTMwNzQ3LC0xNTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01OTkyND
 A0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MDAz
