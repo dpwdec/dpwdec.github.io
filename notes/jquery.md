@@ -7,7 +7,7 @@ jQuery is a javascript library used for making selecting HTML elements and trigg
 
 ## Selectors
 
-
+You can select different HTML elements using the `$(select).acton()` syntax, where the `selector` describes some sort of accessor to a page elem
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Nzc0MzQzNF19
+eyJoaXN0b3J5IjpbMjcxOTQyOTAyLDExNTc3NDM0MzRdfQ==
 -->
