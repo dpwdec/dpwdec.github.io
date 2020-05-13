@@ -16,8 +16,10 @@ $('#test').hide(); // hide all elements with id of 'test'
 
 ## Events
 
+### Document Ready
 
+You can **execute jQuery code when your user first loads a page** by placing it in the `ready` block.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5NjMyMjM0LDE5ODA3Njc1MzcsMTE1Nz
-c0MzQzNF19
+eyJoaXN0b3J5IjpbMTU0MDA1NDUyMSwxOTgwNzY3NTM3LDExNT
+c3NDM0MzRdfQ==
 -->
