@@ -49,7 +49,12 @@ $('h1').click(function() {
 ```
 
 There is a **more generalised jQuery event handler** in the form of the `on` method. This allows you to specify the name of the event as the first argument of the method and the function to be executed as the second argument.
+```js
+$('h1').on('click', function() {
+  alert('you clicked a heading!');
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjkyMzk1NSwxOTgwNzY3NTM3LDExNT
-c3NDM0MzRdfQ==
+eyJoaXN0b3J5IjpbMzE2NzA1MDAyLDE5ODA3Njc1MzcsMTE1Nz
+c0MzQzNF19
 -->
