@@ -346,6 +346,10 @@ To **link to CSS stylesheets** within your Sinatra project you should place styl
 </head>
 ```
 
+## Serving Ajax Requests with JSON
+
+When you want to return a
+
 ## Rack
 Rack is a minimal interface that facilitates the communication of web servers and ruby applications. When a request is sent to a web application it first goes to a server where the application is running, which has its own framework and conventions. This request is then passed to the application and then returned as a response which goes through the same process in reverse. 
 ![enter image description here](https://miro.medium.com/max/1134/0*GN3ldsyRjwXwqdHO.png)
@@ -431,11 +435,11 @@ And the corresponding `.erb` file:
 <h1> <%= flash[:notice] %> </h1>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjEwODk1OSwxODYzMzcwOTgxLDIxND
-A1NzM0ODAsLTE0NDEwNzM1OTMsLTgyMTgwMTg1NCwtMjA5OTM2
-NCw4MDQzMzI5OTQsNTI1MjAzOTU3LDM5ODQ1ODkxNSwtMTgyMj
-I5NDY3MCwtMTg4MzkxMjU5MSw4NzkzMDU1MTcsLTExNDg5NTIy
-NDksLTE4MTc0MTEzNTEsLTE3NzczMjY1ODIsLTE3NDk1NjA4LC
-00OTEwMzg5MjIsMTQ4ODQyOTUyMiwxOTE5NDAxMzUxLC0yMzky
-NzI3MDFdfQ==
+eyJoaXN0b3J5IjpbNjU2NjMxNTg4LDE4NjMzNzA5ODEsMjE0MD
+U3MzQ4MCwtMTQ0MTA3MzU5MywtODIxODAxODU0LC0yMDk5MzY0
+LDgwNDMzMjk5NCw1MjUyMDM5NTcsMzk4NDU4OTE1LC0xODIyMj
+k0NjcwLC0xODgzOTEyNTkxLDg3OTMwNTUxNywtMTE0ODk1MjI0
+OSwtMTgxNzQxMTM1MSwtMTc3NzMyNjU4MiwtMTc0OTU2MDgsLT
+Q5MTAzODkyMiwxNDg4NDI5NTIyLDE5MTk0MDEzNTEsLTIzOTI3
+MjcwMV19
 -->
