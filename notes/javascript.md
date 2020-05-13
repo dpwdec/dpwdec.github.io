@@ -458,7 +458,7 @@ incrementer2(); // => 2
 incrementer(); // => 3
 ```
 
-When creating **nested functions**. Each function **has access to the closure scope of all enclosing functions**.
+When creating **nested functions**. Each function **has access to the closure scope of all enclosing functions**. In the example below each anonymous function has access to all the function scope above it. the function with argument `d` has access to the function of scope of the top level `add` function and every function in between.
 ```js
 function add(a) {
   return function(b) {
@@ -687,11 +687,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzEyMDAwOTEsLTcxODA5MDc4NCwxMj
-E1Mzk1MTkwLC0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1
-MTMwNzQ3LC0xNTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01OTkyND
-A0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MDAz
-LDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4Njg5Nj
-I5NSwtMTAzMDE4NTM2NywtMTU0MDg2MDQxNywtMTcyNjcwNzM1
-OSwxMDA5MjA2Mjg2XX0=
+eyJoaXN0b3J5IjpbLTIyMTYxNjUyMSwtNzE4MDkwNzg0LDEyMT
+UzOTUxOTAsLTE0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUx
+MzA3NDcsLTE1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5OTI0MD
+QyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMs
+ODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mj
+k1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5
+LDEwMDkyMDYyODZdfQ==
 -->
