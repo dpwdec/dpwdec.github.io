@@ -14,6 +14,13 @@ $('.test').hide(); // hide all elements with class of 'test'
 $('#test').hide(); // hide all elements with id of 'test'
 ```
 
+The **`this` selector to whatever element is currently selected**. The example below creates an alert with t
+```js
+$('#add').on('click', function() {
+  alert($(this).text());
+});
+```
+
 ## Events
 
 ### Document Ready
@@ -41,6 +48,6 @@ $('h1').click(function() {
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxOTM2NywxOTgwNzY3NTM3LDExNTc3ND
-M0MzRdfQ==
+eyJoaXN0b3J5IjpbLTcyNzg4ODA3NiwxOTgwNzY3NTM3LDExNT
+c3NDM0MzRdfQ==
 -->
