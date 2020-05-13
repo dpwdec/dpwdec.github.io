@@ -55,8 +55,8 @@ $('h1').on('click', function() {
 });
 ```
 
-
+You can use the `on` method to **add multiple events to a single object**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTMzNzIyMTgsMTk4MDc2NzUzNywxMT
+eyJoaXN0b3J5IjpbLTIwMjMwMzA1MzUsMTk4MDc2NzUzNywxMT
 U3NzQzNDM0XX0=
 -->
