@@ -18,8 +18,13 @@ $('#test').hide(); // hide all elements with id of 'test'
 
 ### Document Ready
 
-You can **execute jQuery code when your user first loads a page** by placing it in the `ready` block.
+You can **execute jQuery code when your user first loads a page** by placing it in the `ready` block. Technically you can make jQuery execute at any time from when the user loads the page, however, using the `ready` block means that your jQuery code will only run once all elements on the page have successfully loaded meaning that you won't run into so many errors with your code.
+```js
+$(document).ready(function(){  
+  
+);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDA1NDUyMSwxOTgwNzY3NTM3LDExNT
-c3NDM0MzRdfQ==
+eyJoaXN0b3J5IjpbLTE4NDAzOTA4MTYsMTk4MDc2NzUzNywxMT
+U3NzQzNDM0XX0=
 -->
