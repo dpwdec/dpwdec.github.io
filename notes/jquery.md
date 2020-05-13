@@ -32,8 +32,10 @@ $(function() {
 });
 ```
 
+### User Events
 
+jQuery comes with a host of built in event functions on its selector function. These can be used to **add single events** to HTML elements that are triggered when the event happens. The second argument of these functions is a function that will be executed when the event happens. The code below 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTQwMTMxOCwxOTgwNzY3NTM3LDExNT
+eyJoaXN0b3J5IjpbLTg1MTU0NjM4MywxOTgwNzY3NTM3LDExNT
 c3NDM0MzRdfQ==
 -->
