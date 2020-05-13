@@ -313,6 +313,12 @@ array.pop(); // => [4, 5]
 array.shift(); // => [5]
 ```
 
+You can **remove a specific item from an array** by using the array `filter` function. This works in ES6 only.
+```js
+arr = [1, 2, 3, 4, 5];
+arr = arr.filter(item => item !== 4); 
+```
+
 ## `do ... while` loops
 
 `do ... while` loops follow the structure of having a piece of code placed in a `do` block followed by a condition for executing that code multiple time in  a `while` statement. Uniquely **`do ... while` loops always execute once before their conditions is evaluated**, because the condition is placed after the execution block. The basic definition syntax is:
@@ -689,11 +695,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTE0NTIxMCwtNzE4MDkwNzg0LDEyMT
-UzOTUxOTAsLTE0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUx
-MzA3NDcsLTE1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5OTI0MD
-QyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMs
-ODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nzg1NTEsNjg2ODk2Mj
-k1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3LC0xNzI2NzA3MzU5
-LDEwMDkyMDYyODZdfQ==
+eyJoaXN0b3J5IjpbLTE0NTc1NzE2OTksLTkxNTE0NTIxMCwtNz
+E4MDkwNzg0LDEyMTUzOTUxOTAsLTE0NjQxNzc4NzQsLTE4ODIy
+NDY5NTQsLTE3OTUxMzA3NDcsLTE1Mzg1MTI5ODAsLTExMTY1Mj
+U1ODIsLTU5OTI0MDQyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYs
+LTEyMjM2ODQwMDMsODc0MDk3MDQxLDc4MDM3NjEyNyw0MzA5Nz
+g1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0xNTQwODYwNDE3
+LC0xNzI2NzA3MzU5XX0=
 -->
