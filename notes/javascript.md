@@ -439,7 +439,7 @@ console.log(spamBreakfast('beans'); // => 'spam and beans'
 console.log(eegsBreakfast('beans'); // => 'eggs and beans'
 ```
 
-The data inside a single **closure**
+The **data inside a single closure is persistent**.
 ```js
 class breakfast {
 
@@ -661,7 +661,7 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTIzNDU5MywxMjE1Mzk1MTkwLC0xND
+eyJoaXN0b3J5IjpbLTcxODA5MDc4NCwxMjE1Mzk1MTkwLC0xND
 Y0MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1MTMwNzQ3LC0xNTM4
 NTEyOTgwLC0xMTE2NTI1NTgyLC01OTkyNDA0MjIsMTE4MTYyMj
 E1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MDAzLDg3NDA5NzA0MSw3
