@@ -21,10 +21,19 @@ $('#test').hide(); // hide all elements with id of 'test'
 You can **execute jQuery code when your user first loads a page** by placing it in the `ready` block. Technically you can make jQuery execute at any time from when the user loads the page, however, using the `ready` block means that your jQuery code will only run once all elements on the page have successfully loaded meaning that you won't run into so many errors with your code.
 ```js
 $(document).ready(function(){  
-  
-);
+  // jQuery code to run on start up here
+});
 ```
+
+There is also a **shorter version of the `ready` function** that you can user to make your code briefer.
+```js
+$(function() {
+  // jQuery code to run on start up here
+});
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDAzOTA4MTYsMTk4MDc2NzUzNywxMT
-U3NzQzNDM0XX0=
+eyJoaXN0b3J5IjpbMTQ3MTQwMTMxOCwxOTgwNzY3NTM3LDExNT
+c3NDM0MzRdfQ==
 -->
