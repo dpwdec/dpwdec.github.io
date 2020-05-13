@@ -34,8 +34,13 @@ $(function() {
 
 ### User Events
 
-jQuery comes with a host of built in event functions on its selector function. These can be used to **add single events** to HTML elements that are triggered when the event happens. The second argument of these functions is a function that will be executed when the event happens. The code below 
+jQuery comes with a host of built in event functions on its selector function. These can be used to **add single events** to HTML elements that are triggered when the event happens. The argument of these functions is a function that will be executed when the event happens. The code below shows an alert **when the <h1> element is clicked**.
+```js
+$('h1').click(function() {
+  alert('you clicked a heading!');
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTU0NjM4MywxOTgwNzY3NTM3LDExNT
-c3NDM0MzRdfQ==
+eyJoaXN0b3J5IjpbMzUxOTM2NywxOTgwNzY3NTM3LDExNTc3ND
+M0MzRdfQ==
 -->
