@@ -348,7 +348,19 @@ To **link to CSS stylesheets** within your Sinatra project you should place styl
 
 ## Serving Ajax Requests with JSON
 
-When you want to return a response as `JSON` that you know will be used by Javascript in an Ajax cycle using ruby's built in `to_json` in isolation is not enough. This is because the `response` object that the Ajax request receives will actually be a string representing the object so the client side Javascript will need to call `JSON.parse` on the data returned from your Sinatra server
+When you want to return a response as `JSON` that you know will be used by Javascript in an Ajax cycle using ruby's built in `to_json` in isolation is not enough. This is because the `response` object that the Ajax request receives will actually be a string representing the object so the client side Javascript will need to call `JSON.parse` on the data returned from Sinatra route before being able to use the data like an object.
+```ruby
+# app.rb
+require 'json'
+
+get '/' do
+  x = 5;
+  { x: x }.to_json
+```
+The server side Javascript might make the request as follows.
+```js
+$.get('/text', function(data, status) {
+```
 
 ## Rack
 Rack is a minimal interface that facilitates the communication of web servers and ruby applications. When a request is sent to a web application it first goes to a server where the application is running, which has its own framework and conventions. This request is then passed to the application and then returned as a response which goes through the same process in reverse. 
@@ -435,7 +447,7 @@ And the corresponding `.erb` file:
 <h1> <%= flash[:notice] %> </h1>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDY5NTU0NCwxODYzMzcwOTgxLDIxND
+eyJoaXN0b3J5IjpbMTIwMzE4MzM4NywxODYzMzcwOTgxLDIxND
 A1NzM0ODAsLTE0NDEwNzM1OTMsLTgyMTgwMTg1NCwtMjA5OTM2
 NCw4MDQzMzI5OTQsNTI1MjAzOTU3LDM5ODQ1ODkxNSwtMTgyMj
 I5NDY3MCwtMTg4MzkxMjU5MSw4NzkzMDU1MTcsLTExNDg5NTIy
