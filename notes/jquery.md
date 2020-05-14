@@ -81,7 +81,11 @@ jQuery has **support for sending dynamic AJAX based server requests** with its `
 
 ### get
 
-The `get` function **sends a `GET` request to a server extension**. It takes two arguments, a `url` and a `callback`. The `callback` itself takes two arguments, the `data` from the request and a `status` code. The `data` and `status` arguments of the callback can be called whatever you want, such as `response`, or `txt`. The `data` argument is simply filled with whatever the return is from the controller route at the `url` which the `get` request goes to.
+The `get` function **sends a `GET` request to a server extension**.  It follows the basic pattern of:
+```js
+$.get(url, callback);
+```
+It takes two arguments, a `url` and a `callback`. The `callback` itself takes two arguments, the `data` from the request and a `status` code. The `data` and `status` arguments of the callback can be called whatever you want, such as `response`, or `txt`. The `data` argument is simply filled with whatever the return is from the controller route at the `url` which the `get` request goes to.
 ```js
 $.get('/url', function(data, status) {
   // use the data here in some way
@@ -90,10 +94,13 @@ $.get('/url', function(data, status) {
 
 ### post
 
-The `post` function **sends a `POST` request to a server extension**. It is essentially the same as the `get` function except it takes an additional, second argument which is a jav
+The `post` function **sends a `POST` request to a server extension**. It is essentially the same as the `get` function except it takes an additional, second argument which is a javascript object (dictionary) that contains key value pairs that will populate whatever your server framework's object for returning parameters is.
+```js
+$.post('/url',
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzYxMjcxMSw4ODkwNzI0NDgsMTc1OD
+eyJoaXN0b3J5IjpbLTQzMTg1NzMyNCw4ODkwNzI0NDgsMTc1OD
 I1MzY5MSwtMTA2MDY0MzUsMTk4MDc2NzUzNywxMTU3NzQzNDM0
 XX0=
 -->
