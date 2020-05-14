@@ -577,7 +577,10 @@ computer['motherBoard'].cpu // => 'G-Series'
 
 JSON is a format for serializing javascript objects. You can **`parse` a JSON string into a javascript object** using the `JSON.parse` method.
 ```js
-
+const json_string = '{"result":true, "count":42}';
+const json_object = JSON.parse(json_string);
+json_object.result // => true
+json_object.count // => 42
 ```
 
 ## Classes
@@ -704,7 +707,7 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjMyODMyOSw3ODk2NzY5NDcsMTIxMj
+eyJoaXN0b3J5IjpbLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMj
 Y1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMTIxNTM5NTE5
 MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5NTEzMDc0Ny
 wtMTUzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwNDIyLDEx
