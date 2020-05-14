@@ -81,15 +81,18 @@ javascript hoistin
 you can set a breakpoint inside chrome by clicking on a line number inside the sources tab
 
 document.addEventListener('click' function() { }); --> add event listener to entire document
+
+latentflip.com
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDAyMzc0MzcsLTE3MTkxOTUyNzQsLT
-E4NTEyMjg4MiwxMzQ0NTIyMTc4LDE2Njg2NzY4NDEsLTE5Mjgw
-ODI4LDE5NDEyODU4NTMsLTYyNjczODE3MywtMTk4NzYyOTM0LC
-0xNjQ0ODQ3NjkwLC02NDk2MjAwMzMsLTIwODUwNTE5NzEsLTIw
-MzU4Nzk0MDYsLTExMzI4NDYxMzcsMTgwMTU3NTc5OCwxOTE2Nz
-kxNzI1LC0xMDk0NzIzOTUxLC0xMzMzNDg0MDE5XX0=
+eyJoaXN0b3J5IjpbLTczMjIwNjU0MSwtMTEwMDIzNzQzNywtMT
+cxOTE5NTI3NCwtMTg1MTIyODgyLDEzNDQ1MjIxNzgsMTY2ODY3
+Njg0MSwtMTkyODA4MjgsMTk0MTI4NTg1MywtNjI2NzM4MTczLC
+0xOTg3NjI5MzQsLTE2NDQ4NDc2OTAsLTY0OTYyMDAzMywtMjA4
+NTA1MTk3MSwtMjAzNTg3OTQwNiwtMTEzMjg0NjEzNywxODAxNT
+c1Nzk4LDE5MTY3OTE3MjUsLTEwOTQ3MjM5NTEsLTEzMzM0ODQw
+MTldfQ==
 -->
