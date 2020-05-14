@@ -111,8 +111,12 @@ function(data, status) {
 });
 ```
 
+### ajax
+
+You can write arbitrary ajax requests using the `ajax` method.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTQ1NzM1Miw4ODkwNzI0NDgsMTc1OD
-I1MzY5MSwtMTA2MDY0MzUsMTk4MDc2NzUzNywxMTU3NzQzNDM0
-XX0=
+eyJoaXN0b3J5IjpbMTY5OTg2OTU1MSwxNzQ5NDU3MzUyLDg4OT
+A3MjQ0OCwxNzU4MjUzNjkxLC0xMDYwNjQzNSwxOTgwNzY3NTM3
+LDExNTc3NDM0MzRdfQ==
 -->
