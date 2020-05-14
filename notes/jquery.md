@@ -74,8 +74,10 @@ $('h1').on({
 
 jQuery has **support for sending dynamic AJAX based server requests** with its `get`, `post` and `load` methods.
 
-### 
+### get
+
+The `get` function **sends a `GET` reque**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQyNzIyNjAsMTc1ODI1MzY5MSwtMT
-A2MDY0MzUsMTk4MDc2NzUzNywxMTU3NzQzNDM0XX0=
+eyJoaXN0b3J5IjpbLTE3Nzg5OTEzOSwxNzU4MjUzNjkxLC0xMD
+YwNjQzNSwxOTgwNzY3NTM3LDExNTc3NDM0MzRdfQ==
 -->
