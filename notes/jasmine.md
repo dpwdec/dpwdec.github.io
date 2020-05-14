@@ -4,7 +4,9 @@ layout: page
 exclude: true
 ---
 
+## Spies
 
+The Jasmine equivalent of a mocks are call
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDQ1MDA1MiwtNTg5OTI1OTMwXX0=
+eyJoaXN0b3J5IjpbMTQ2NzY1Nzg3NSwtNTg5OTI1OTMwXX0=
 -->
