@@ -19,7 +19,7 @@ You can **check that method on a spy object has been called** by using the `toHa
 ```js
 it('calls the greet method', function() {
   // code that calls the greet function from the tested object
-  expect(mySpy.greet).toHaveBeenCalled();
+  expect(mySpy.greet).toHaveBeenCalled()
 });
 ```
 
@@ -58,7 +58,7 @@ it('call the random method on page', function() {
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDI2MTQ4LC0xNDk3OTEzNjgyLDE0OT
-YyMDc2NDYsLTEyMTMyNTE0NzMsMTE5MjgyNjUzNCwtNTg5OTI1
-OTMwXX0=
+eyJoaXN0b3J5IjpbLTE4MDQ1NjI3NTUsLTE0OTc5MTM2ODIsMT
+Q5NjIwNzY0NiwtMTIxMzI1MTQ3MywxMTkyODI2NTM0LC01ODk5
+MjU5MzBdfQ==
 -->
