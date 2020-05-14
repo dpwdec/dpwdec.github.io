@@ -88,16 +88,18 @@ javascript always executes everything in the main body outside of the callbacks
 
 on jQuery form submission events
 event.preventDefault()
+
+chan
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTM1NDA0NDIsMTA5NDEzNDEyNCwtMT
-EwMDIzNzQzNywtMTcxOTE5NTI3NCwtMTg1MTIyODgyLDEzNDQ1
-MjIxNzgsMTY2ODY3Njg0MSwtMTkyODA4MjgsMTk0MTI4NTg1My
-wtNjI2NzM4MTczLC0xOTg3NjI5MzQsLTE2NDQ4NDc2OTAsLTY0
-OTYyMDAzMywtMjA4NTA1MTk3MSwtMjAzNTg3OTQwNiwtMTEzMj
-g0NjEzNywxODAxNTc1Nzk4LDE5MTY3OTE3MjUsLTEwOTQ3MjM5
-NTEsLTEzMzM0ODQwMTldfQ==
+eyJoaXN0b3J5IjpbLTc5NTA1MzA3MiwtMTIxMzU0MDQ0MiwxMD
+k0MTM0MTI0LC0xMTAwMjM3NDM3LC0xNzE5MTk1Mjc0LC0xODUx
+MjI4ODIsMTM0NDUyMjE3OCwxNjY4Njc2ODQxLC0xOTI4MDgyOC
+wxOTQxMjg1ODUzLC02MjY3MzgxNzMsLTE5ODc2MjkzNCwtMTY0
+NDg0NzY5MCwtNjQ5NjIwMDMzLC0yMDg1MDUxOTcxLC0yMDM1OD
+c5NDA2LC0xMTMyODQ2MTM3LDE4MDE1NzU3OTgsMTkxNjc5MTcy
+NSwtMTA5NDcyMzk1MV19
 -->
