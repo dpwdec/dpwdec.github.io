@@ -48,7 +48,9 @@ it('it makes Math random return 203', function() {
   expect(Math.random()).toEqual(203)
 });
 ```
+
+You can **check that a su**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NTEwMzM1MywxNDk2MjA3NjQ2LC0xMj
-EzMjUxNDczLDExOTI4MjY1MzQsLTU4OTkyNTkzMF19
+eyJoaXN0b3J5IjpbLTE0OTc5MTM2ODIsMTQ5NjIwNzY0NiwtMT
+IxMzI1MTQ3MywxMTkyODI2NTM0LC01ODk5MjU5MzBdfQ==
 -->
