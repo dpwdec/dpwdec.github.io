@@ -143,33 +143,25 @@ $.ajax({
   method: 'POST',
   data: { name: 'Jason', age: 41 },
 }).done(function(result) {
-    // do something with the result
+  // do something with the result
 });
 ```
 
 You can **handle fail states for your ajax requests** by appending the `fail` method to the chain of method handlers.
 ```js
 $.ajax({
-
-url:  '/asfd',
-
-method:  'POST',
-
-data: {name:  'jam', info:  'joc'},
-
+  url: '/url',
+  method: 'POST',
+  data: { name: 'Jason', age: 41 },
 }).done(function(result) {
-
-console.log(result)
-
+  // do something with the result
 }).fail(function() {
-
-alert('failure')
-
+  // do something when request fails
 });
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTQ0MTgxNTYsMTc0OTQ1NzM1Miw4OD
-kwNzI0NDgsMTc1ODI1MzY5MSwtMTA2MDY0MzUsMTk4MDc2NzUz
-NywxMTU3NzQzNDM0XX0=
+eyJoaXN0b3J5IjpbLTc3ODkwNzIyNiwxNzQ5NDU3MzUyLDg4OT
+A3MjQ0OCwxNzU4MjUzNjkxLC0xMDYwNjQzNSwxOTgwNzY3NTM3
+LDExNTc3NDM0MzRdfQ==
 -->
