@@ -85,16 +85,19 @@ document.addEventListener('click' function() { }); --> add event listener to ent
 latentflip.com
 
 javascript always executes everything in the main body outside of the callbacks
+
+on jQuery form submission events
+event.preventDefault()
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDEzNDEyNCwtMTEwMDIzNzQzNywtMT
-cxOTE5NTI3NCwtMTg1MTIyODgyLDEzNDQ1MjIxNzgsMTY2ODY3
-Njg0MSwtMTkyODA4MjgsMTk0MTI4NTg1MywtNjI2NzM4MTczLC
-0xOTg3NjI5MzQsLTE2NDQ4NDc2OTAsLTY0OTYyMDAzMywtMjA4
-NTA1MTk3MSwtMjAzNTg3OTQwNiwtMTEzMjg0NjEzNywxODAxNT
-c1Nzk4LDE5MTY3OTE3MjUsLTEwOTQ3MjM5NTEsLTEzMzM0ODQw
-MTldfQ==
+eyJoaXN0b3J5IjpbLTEyMTM1NDA0NDIsMTA5NDEzNDEyNCwtMT
+EwMDIzNzQzNywtMTcxOTE5NTI3NCwtMTg1MTIyODgyLDEzNDQ1
+MjIxNzgsMTY2ODY3Njg0MSwtMTkyODA4MjgsMTk0MTI4NTg1My
+wtNjI2NzM4MTczLC0xOTg3NjI5MzQsLTE2NDQ4NDc2OTAsLTY0
+OTYyMDAzMywtMjA4NTA1MTk3MSwtMjAzNTg3OTQwNiwtMTEzMj
+g0NjEzNywxODAxNTc1Nzk4LDE5MTY3OTE3MjUsLTEwOTQ3MjM5
+NTEsLTEzMzM0ODQwMTldfQ==
 -->
