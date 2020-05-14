@@ -13,8 +13,14 @@ You can **create a spy object** using the `creatSpyObject` method and then submi
 mySpy = jasmine.createSpyObject('spy', ['greet'])
 ```
 
-
+You can **check that method on a spy object has been called** by using the `toHaveBeenCalled` method.
+```js
+it('calls the greet method', function() {
+  // code that calls the greet function from the tested object
+  expect(mySpy.g
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTMyNTE0NzMsMTE5MjgyNjUzNCwtNT
-g5OTI1OTMwXX0=
+eyJoaXN0b3J5IjpbLTQ5NTQ1NDI3NCwtMTIxMzI1MTQ3MywxMT
+kyODI2NTM0LC01ODk5MjU5MzBdfQ==
 -->
