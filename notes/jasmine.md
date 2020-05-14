@@ -40,7 +40,15 @@ it('returns an expected value', function() {
 ```
 
 ### Stubbing
+
+You can **stub methods on a real object with a pre-defined return type** by using the `spyOn` method combined with the `.and.returnValue` function. In the example below
+```js
+it('it makes Math random return 203', function() {
+  spyOn(Math, 'random').and.returnValue(203)
+  expect(Math.random()).toEqual(203)
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzUxMTk0MSwxNDk2MjA3NjQ2LC0xMj
-EzMjUxNDczLDExOTI4MjY1MzQsLTU4OTkyNTkzMF19
+eyJoaXN0b3J5IjpbLTE3MTQwODUzOTMsMTQ5NjIwNzY0NiwtMT
+IxMzI1MTQ3MywxMTkyODI2NTM0LC01ODk5MjU5MzBdfQ==
 -->
