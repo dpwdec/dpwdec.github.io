@@ -43,15 +43,22 @@ it('returns an expected value', function() {
 
 You can **stub methods on a real object with a pre-defined return type** by using the `spyOn` method combined with the `.and.returnValue` function. In the example below the `random` method of the `Math` object is stubbed to always return `203`.
 ```js
-it('it makes Math random return 203', function() {
+it('makes Math random return 203', function() {
   spyOn(Math, 'random').and.returnValue(203)
   expect(Math.random()).toEqual(203)
 });
 ```
 
-You cannot directly use the `toHavebee **check that a su**
+You cannot directly use the `toHaveBeenCalled` function on a real object you must stub it first. To **check that a stubbed method was called** use the `spyOn` syntax in conjunction with the `toHaveBeenCalled` method.
+```js
+it('call the random method on page', function() {
+  spyOn(Math, 'random')
+  // code that calls Math.random in some capacity
+  expect(Math.random()).toEqual(203)
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2MDY0ODk0LC0xNDk3OTEzNjgyLDE0OT
-YyMDc2NDYsLTEyMTMyNTE0NzMsMTE5MjgyNjUzNCwtNTg5OTI1
-OTMwXX0=
+eyJoaXN0b3J5IjpbLTI4MDExMzk3OSwtMTQ5NzkxMzY4MiwxND
+k2MjA3NjQ2LC0xMjEzMjUxNDczLDExOTI4MjY1MzQsLTU4OTky
+NTkzMF19
 -->
