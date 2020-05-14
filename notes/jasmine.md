@@ -49,8 +49,9 @@ it('it makes Math random return 203', function() {
 });
 ```
 
-You can **check that a su**
+You cannot directly use the `toHavebee **check that a su**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTc5MTM2ODIsMTQ5NjIwNzY0NiwtMT
-IxMzI1MTQ3MywxMTkyODI2NTM0LC01ODk5MjU5MzBdfQ==
+eyJoaXN0b3J5IjpbNjA2MDY0ODk0LC0xNDk3OTEzNjgyLDE0OT
+YyMDc2NDYsLTEyMTMyNTE0NzMsMTE5MjgyNjUzNCwtNTg5OTI1
+OTMwXX0=
 -->
