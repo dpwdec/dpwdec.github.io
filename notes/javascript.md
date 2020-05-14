@@ -496,7 +496,17 @@ You can **condense arrow functions to one line** and omit curly braces and `retu
 let myFunction = () => 'hello'
 ```
 
-You can **incl**
+You can **include argument in your arrow functions** by placing it between the brackets.
+```js
+let myFunction = (arg) => arg * 2
+```
+
+You can also **use arrow functions as callbacks in other functions**.
+```js
+setTimeout(() => {
+  console.log('hello')
+}, 500)
+```
 
 ## Objects
 
@@ -723,11 +733,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTc1NzkzNjMsLTg0MzI3ODQzNyw3OD
-k2NzY5NDcsMTIxMjY1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3
-ODQsMTIxNTM5NTE5MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0Njk1NC
-wtMTc5NTEzMDc0NywtMTUzODUxMjk4MCwtMTExNjUyNTU4Miwt
-NTk5MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMz
-Y4NDAwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2
-ODY4OTYyOTVdfQ==
+eyJoaXN0b3J5IjpbLTI2NzM1MTU5MiwtODQzMjc4NDM3LDc4OT
+Y3Njk0NywxMjEyNjU0NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4
+NCwxMjE1Mzk1MTkwLC0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC
+0xNzk1MTMwNzQ3LC0xNTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01
+OTkyNDA0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNj
+g0MDAzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4
+Njg5NjI5NV19
 -->
