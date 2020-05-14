@@ -21,7 +21,7 @@ $('#add').on('click', function() {
 });
 ```
 
-You can **get the text from an <input> element** by using the `val` function with your selector.
+You can **get the text from an <input> element** by using the `val` function with your selector. The example below assumes the page has an <input> element with an `id="my-input-elemt"`. The `val` function will take whatever is currently inside that element when it is executed.
 ```js
 $('#my-input-elemt').val();
 ```
@@ -88,9 +88,12 @@ $.get('/url', function(data, status) {
 });
 ```
 
+### post
+
+The `post` function **sends a `POST` request to a server extension**. It is essentially the same as the `get` function except it takes an additional, second argument which is a jav
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyMjg2NDUwLDg4OTA3MjQ0OCwxNzU4Mj
-UzNjkxLC0xMDYwNjQzNSwxOTgwNzY3NTM3LDExNTc3NDM0MzRd
-fQ==
+eyJoaXN0b3J5IjpbMTA0NzYxMjcxMSw4ODkwNzI0NDgsMTc1OD
+I1MzY5MSwtMTA2MDY0MzUsMTk4MDc2NzUzNywxMTU3NzQzNDM0
+XX0=
 -->
