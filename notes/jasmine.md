@@ -54,11 +54,11 @@ You cannot directly use the `toHaveBeenCalled` function on a real object you mus
 it('call the random method on page', function() {
   spyOn(Math, 'random')
   // code that calls Math.random in some capacity
-  expect(Math.random()).toEqual(203)
+  expect(Math.random).toHaveBeenCalled()
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDExMzk3OSwtMTQ5NzkxMzY4MiwxND
-k2MjA3NjQ2LC0xMjEzMjUxNDczLDExOTI4MjY1MzQsLTU4OTky
-NTkzMF19
+eyJoaXN0b3J5IjpbLTg4MDI2MTQ4LC0xNDk3OTEzNjgyLDE0OT
+YyMDc2NDYsLTEyMTMyNTE0NzMsMTE5MjgyNjUzNCwtNTg5OTI1
+OTMwXX0=
 -->
