@@ -29,8 +29,13 @@ it('calls the greet method', function() {
 });
 ```
 
-
+You can **define a return type for spy object methods** using the `returnValue` function.
+```js
+it('returns an expected value', function() {
+  
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjIwNzY0NiwtMTIxMzI1MTQ3MywxMT
-kyODI2NTM0LC01ODk5MjU5MzBdfQ==
+eyJoaXN0b3J5IjpbLTM5MDM1NTExMywxNDk2MjA3NjQ2LC0xMj
+EzMjUxNDczLDExOTI4MjY1MzQsLTU4OTkyNTkzMF19
 -->
