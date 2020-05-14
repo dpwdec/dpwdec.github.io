@@ -76,8 +76,13 @@ jQuery has **support for sending dynamic AJAX based server requests** with its `
 
 ### get
 
-The `get` function **sends a `GET` request to a server extension**. It takes two arguments, a `url` and a `callback`. The `callback` itself takes two arguments, the `data` from the request and a `status` code. 
+The `get` function **sends a `GET` request to a server extension**. It takes two arguments, a `url` and a `callback`. The `callback` itself takes two arguments, the `data` from the request and a `status` code. The `data` and `status` arguments of the callback can be called whatever you want 
+```js
+$.get('/url', function(data, status) {
+  // use the data here in some way
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwMDE5NDEsMTc1ODI1MzY5MSwtMTA2MD
-Y0MzUsMTk4MDc2NzUzNywxMTU3NzQzNDM0XX0=
+eyJoaXN0b3J5IjpbLTE0MDg3MjMzODcsMTc1ODI1MzY5MSwtMT
+A2MDY0MzUsMTk4MDc2NzUzNywxMTU3NzQzNDM0XX0=
 -->
