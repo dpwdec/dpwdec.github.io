@@ -174,8 +174,10 @@ $.ajax({
   // this code always runs
 });
 ```
+
+Using arbitrary ajax requests allows you to **send RESTful HTTP requests to your server** with methods like `PATCH`, `PUT` and `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDM0NDc5NTEsMTc0OTQ1NzM1Miw4OD
-kwNzI0NDgsMTc1ODI1MzY5MSwtMTA2MDY0MzUsMTk4MDc2NzUz
-NywxMTU3NzQzNDM0XX0=
+eyJoaXN0b3J5IjpbLTI1NDAxMzk1OCwtMTU0MzQ0Nzk1MSwxNz
+Q5NDU3MzUyLDg4OTA3MjQ0OCwxNzU4MjUzNjkxLC0xMDYwNjQz
+NSwxOTgwNzY3NTM3LDExNTc3NDM0MzRdfQ==
 -->
