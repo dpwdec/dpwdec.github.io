@@ -83,12 +83,14 @@ you can set a breakpoint inside chrome by clicking on a line number inside the s
 document.addEventListener('click' function() { }); --> add event listener to entire document
 
 latentflip.com
+
+javascript alwas
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjIwNjU0MSwtMTEwMDIzNzQzNywtMT
+eyJoaXN0b3J5IjpbMTUyMzIwMjExNiwtMTEwMDIzNzQzNywtMT
 cxOTE5NTI3NCwtMTg1MTIyODgyLDEzNDQ1MjIxNzgsMTY2ODY3
 Njg0MSwtMTkyODA4MjgsMTk0MTI4NTg1MywtNjI2NzM4MTczLC
 0xOTg3NjI5MzQsLTE2NDQ4NDc2OTAsLTY0OTYyMDAzMywtMjA4
