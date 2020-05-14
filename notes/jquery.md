@@ -113,7 +113,7 @@ function(data, status) {
 
 ### ajax
 
-You can **write arbitrary ajax requests** using the `ajax` method. This method can have many different forms, but the simplest takes an object that defines different parameters for the request as key value pairs. In the example below the `success` key points to a function that will be run when the `ajax` re
+You can **write arbitrary ajax requests** using the `ajax` method. This method can have many different forms, but the simplest takes an object that defines different parameters for the request as key value pairs. In the example below the `success` key points to a function that will be run when the `ajax` server request returns successfully. This also has optional `result` argument that will contain the result from the server.
 ```js
 $.ajax({
   url: '/url',
@@ -125,7 +125,7 @@ $.ajax({
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzczNzM2NSwxNzQ5NDU3MzUyLDg4OT
+eyJoaXN0b3J5IjpbMTA3NDExODI5MiwxNzQ5NDU3MzUyLDg4OT
 A3MjQ0OCwxNzU4MjUzNjkxLC0xMDYwNjQzNSwxOTgwNzY3NTM3
 LDExNTc3NDM0MzRdfQ==
 -->
