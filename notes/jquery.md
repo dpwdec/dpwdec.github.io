@@ -136,10 +136,13 @@ $.ajax({
 });
 ```
 
-Y
+You can **extract the `success` field into a separate method call** by chaining it with the `done` method.
+```js
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNTM5NCwxNzQ5NDU3MzUyLDg4OTA3Mj
-Q0OCwxNzU4MjUzNjkxLC0xMDYwNjQzNSwxOTgwNzY3NTM3LDEx
-NTc3NDM0MzRdfQ==
+eyJoaXN0b3J5IjpbNzE3NzYwNzIyLDE3NDk0NTczNTIsODg5MD
+cyNDQ4LDE3NTgyNTM2OTEsLTEwNjA2NDM1LDE5ODA3Njc1Mzcs
+MTE1Nzc0MzQzNF19
 -->
