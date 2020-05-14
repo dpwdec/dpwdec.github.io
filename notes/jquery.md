@@ -124,10 +124,22 @@ $.ajax({
 });
 ```
 
-You can also **send data in a pos**
+You can also **send data in a `POST` request** by using the `data property with an object holding the data.
+```js
+$.ajax({
+  url: '/url',
+  method: 'POST',
+  data: { name: 'Jason', age: 41 },
+  success: function(result) {
+    // do something with the result
+  }
+});
+```
+
+Y
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0NDA2MDE2LDE3NDk0NTczNTIsODg5MD
-cyNDQ4LDE3NTgyNTM2OTEsLTEwNjA2NDM1LDE5ODA3Njc1Mzcs
-MTE1Nzc0MzQzNF19
+eyJoaXN0b3J5IjpbMTAxNTM5NCwxNzQ5NDU3MzUyLDg4OTA3Mj
+Q0OCwxNzU4MjUzNjkxLC0xMDYwNjQzNSwxOTgwNzY3NTM3LDEx
+NTc3NDM0MzRdfQ==
 -->
