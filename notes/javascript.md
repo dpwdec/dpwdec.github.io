@@ -482,6 +482,13 @@ add(1)(2)(3)(4); // => 10
 
 ### Callbacks
 
+### Arrow Functions
+
+An arrow function allows you **condense the syntax for defining anonymous functions** by omitting the function keyword and using a `=>` hash rocket arrow instead. Arrow functions are anonymous by default, so to use them you need to assign them to a variable.
+```js
+let m
+```
+
 ## Objects
 
 A basic javascript object is **structured like a hash in ruby** or a **struct in Rust**. It stores information in key value pairs. Objects are defined using `{ }` curly brackets and `:` to indicate assignment from key to value. 
@@ -707,11 +714,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMj
-Y1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMTIxNTM5NTE5
-MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5NTEzMDc0Ny
-wtMTUzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwNDIyLDEx
-ODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOT
-cwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUsLTEw
-MzAxODUzNjddfQ==
+eyJoaXN0b3J5IjpbMTYyNDI1ODU0OCwtODQzMjc4NDM3LDc4OT
+Y3Njk0NywxMjEyNjU0NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4
+NCwxMjE1Mzk1MTkwLC0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC
+0xNzk1MTMwNzQ3LC0xNTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01
+OTkyNDA0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNj
+g0MDAzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4
+Njg5NjI5NV19
 -->
