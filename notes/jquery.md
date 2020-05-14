@@ -138,11 +138,17 @@ $.ajax({
 
 You can **extract the `success` field into a separate method call** by chaining it with the `done` method.
 ```js
-
+$.ajax({
+  url: '/url',
+  method: 'POST',
+  data: { name: 'Jason', age: 41 },
+}).done(function(result) {
+    // do something with the result
+});
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3NzYwNzIyLDE3NDk0NTczNTIsODg5MD
+eyJoaXN0b3J5IjpbODcxOTUzODEwLDE3NDk0NTczNTIsODg5MD
 cyNDQ4LDE3NTgyNTM2OTEsLTEwNjA2NDM1LDE5ODA3Njc1Mzcs
 MTE1Nzc0MzQzNF19
 -->
