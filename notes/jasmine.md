@@ -21,8 +21,16 @@ it('calls the greet method', function() {
 });
 ```
 
+You can **check that a specific argument was passed in with the spy objects method called** by using the `toHaveBeenCalledWith` function and submitting an argument which describes the expected input.
+```js
+it('calls the greet method', function() {
+  // code that calls the greet function and passes in an argument from the tested object
+  expect(mySpy.greet).toHaveBeenCalledWith('Dec');
+});
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODUwMTQ5NSwtMTIxMzI1MTQ3MywxMT
+eyJoaXN0b3J5IjpbMTQ5NjIwNzY0NiwtMTIxMzI1MTQ3MywxMT
 kyODI2NTM0LC01ODk5MjU5MzBdfQ==
 -->
