@@ -175,9 +175,19 @@ $.ajax({
 });
 ```
 
-Using arbitrary ajax requests allows you to **send RESTful HTTP requests to your server** with methods like `PATCH`, `PUT` and `
+Using arbitrary ajax requests allows you to **send RESTful HTTP requests to your server** with methods like `PATCH`, `PUT` and `DELETE`. These can simply be specified in the `method` key of the ajax object.
+```js
+// send a PATCH request to the server with data
+$.ajax({
+  url: '/url',
+  method: 'PATCH',
+  data: { name: 'Jason', age: 41 },
+}).done(function(result) {
+  // do something with the result
+})
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDAxMzk1OCwtMTU0MzQ0Nzk1MSwxNz
+eyJoaXN0b3J5IjpbLTM4NDUxNTYwNSwtMTU0MzQ0Nzk1MSwxNz
 Q5NDU3MzUyLDg4OTA3MjQ0OCwxNzU4MjUzNjkxLC0xMDYwNjQz
 NSwxOTgwNzY3NTM3LDExNTc3NDM0MzRdfQ==
 -->
