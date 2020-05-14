@@ -486,8 +486,11 @@ add(1)(2)(3)(4); // => 10
 
 An arrow function allows you **condense the syntax for defining anonymous functions** by omitting the function keyword and using a `=>` hash rocket arrow instead. Arrow functions are anonymous by default, so to use them you need to assign them to a variable.
 ```js
-let m
+let myFunction = () => {
+  // function body
+}
 ```
+
 
 ## Objects
 
@@ -714,7 +717,7 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDI1ODU0OCwtODQzMjc4NDM3LDc4OT
+eyJoaXN0b3J5IjpbMTkwNjgzODgxNiwtODQzMjc4NDM3LDc4OT
 Y3Njk0NywxMjEyNjU0NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4
 NCwxMjE1Mzk1MTkwLC0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC
 0xNzk1MTMwNzQ3LC0xNTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01
