@@ -94,13 +94,25 @@ $.get('/url', function(data, status) {
 
 ### post
 
-The `post` function **sends a `POST` request to a server extension**. It is essentially the same as the `get` function except it takes an additional, second argument which is a javascript object (dictionary) that contains key value pairs that will populate whatever your server framework's object for returning parameters is.
+The `post` function **sends a `POST` request to a server extension**. It follows the basic pattern of:
+```js
+$.post(url, data, callback);
+```
+
+It is essentially the same as the `get` function except it takes an additional, second argument which is a javascript object (dictionary) that contains key value pairs that will populate whatever your server framework's object for returning parameters is.
 ```js
 $.post('/url',
+{
+  name: 'Jason',
+  age: 41
+},
+function(data, status) {
+  // use the response data from the post request in some way
+});
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTg1NzMyNCw4ODkwNzI0NDgsMTc1OD
+eyJoaXN0b3J5IjpbMTc0OTQ1NzM1Miw4ODkwNzI0NDgsMTc1OD
 I1MzY5MSwtMTA2MDY0MzUsMTk4MDc2NzUzNywxMTU3NzQzNDM0
 XX0=
 -->
