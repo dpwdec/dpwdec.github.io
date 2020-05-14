@@ -573,6 +573,13 @@ computer.motherboard.cooling // => '5xx'
 computer['motherBoard'].cpu // => 'G-Series'
 ```
 
+## JSON
+
+JSON is a format for serializing javascript objects. You can **`parse` a JSON string into a javascript object** using the `JSON.parse` method.
+```js
+
+```
+
 ## Classes
 
 There are **two ways to define classes** in Javascript. There is an **older ES5** standard that **uses the `function` keyword** and the **newer ES6** standard that **uses the new `Class` keyword**. 
@@ -697,11 +704,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5Njc2OTQ3LDEyMTI2NTQ2MzAsLTkxNT
-E0NTIxMCwtNzE4MDkwNzg0LDEyMTUzOTUxOTAsLTE0NjQxNzc4
-NzQsLTE4ODIyNDY5NTQsLTE3OTUxMzA3NDcsLTE1Mzg1MTI5OD
-AsLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgxNjIyMTU2LC01
-MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MDQxLDc4MDM3Nj
-EyNyw0MzA5Nzg1NTEsNjg2ODk2Mjk1LC0xMDMwMTg1MzY3LC0x
-NTQwODYwNDE3XX0=
+eyJoaXN0b3J5IjpbMTAyMjMyODMyOSw3ODk2NzY5NDcsMTIxMj
+Y1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMTIxNTM5NTE5
+MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5NTEzMDc0Ny
+wtMTUzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwNDIyLDEx
+ODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOT
+cwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2ODY4OTYyOTUsLTEw
+MzAxODUzNjddfQ==
 -->
