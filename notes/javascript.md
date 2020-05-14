@@ -487,10 +487,16 @@ add(1)(2)(3)(4); // => 10
 An arrow function allows you **condense the syntax for defining anonymous functions** by omitting the function keyword and using a `=>` hash rocket arrow instead. Arrow functions are anonymous by default, so to use them you need to assign them to a variable.
 ```js
 let myFunction = () => {
-  // function body
+  return 'hello'
 }
 ```
 
+You can **condense arrow functions to one line** and omit curly braces and `return` statements associated with them.
+```js
+let myFunction = () => 'hello'
+```
+
+You can **incl**
 
 ## Objects
 
@@ -717,11 +723,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjgzODgxNiwtODQzMjc4NDM3LDc4OT
-Y3Njk0NywxMjEyNjU0NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4
-NCwxMjE1Mzk1MTkwLC0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC
-0xNzk1MTMwNzQ3LC0xNTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01
-OTkyNDA0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNj
-g0MDAzLDg3NDA5NzA0MSw3ODAzNzYxMjcsNDMwOTc4NTUxLDY4
-Njg5NjI5NV19
+eyJoaXN0b3J5IjpbLTE2MTc1NzkzNjMsLTg0MzI3ODQzNyw3OD
+k2NzY5NDcsMTIxMjY1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3
+ODQsMTIxNTM5NTE5MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0Njk1NC
+wtMTc5NTEzMDc0NywtMTUzODUxMjk4MCwtMTExNjUyNTU4Miwt
+NTk5MjQwNDIyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMz
+Y4NDAwMyw4NzQwOTcwNDEsNzgwMzc2MTI3LDQzMDk3ODU1MSw2
+ODY4OTYyOTVdfQ==
 -->
