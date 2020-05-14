@@ -147,7 +147,7 @@ $.ajax({
 });
 ```
 
-You can **handle fail states for your ajax requests** by appending the `fail` method to the chain of method handlers.
+You can **handle fail states for your ajax requests** by appending the `fail` method to the chain of method handlers. There doesn't seem to be support from within the key value pair object syntax shown above that `success` has for failure states.
 ```js
 $.ajax({
   url: '/url',
@@ -161,7 +161,7 @@ $.ajax({
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODkwNzIyNiwxNzQ5NDU3MzUyLDg4OT
-A3MjQ0OCwxNzU4MjUzNjkxLC0xMDYwNjQzNSwxOTgwNzY3NTM3
-LDExNTc3NDM0MzRdfQ==
+eyJoaXN0b3J5IjpbLTE2MzAzODkxMDQsMTc0OTQ1NzM1Miw4OD
+kwNzI0NDgsMTc1ODI1MzY5MSwtMTA2MDY0MzUsMTk4MDc2NzUz
+NywxMTU3NzQzNDM0XX0=
 -->
