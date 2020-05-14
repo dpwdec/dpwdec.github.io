@@ -21,6 +21,11 @@ $('#add').on('click', function() {
 });
 ```
 
+You can **get the text from an <input> element** by using the `val` function with your selector.
+```js
+$('#my-input-elemt').val();
+```
+
 ## Events
 
 ### Document Ready
@@ -85,6 +90,7 @@ $.get('/url', function(data, status) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5MDcyNDQ4LDE3NTgyNTM2OTEsLTEwNj
-A2NDM1LDE5ODA3Njc1MzcsMTE1Nzc0MzQzNF19
+eyJoaXN0b3J5IjpbOTYyMjg2NDUwLDg4OTA3MjQ0OCwxNzU4Mj
+UzNjkxLC0xMDYwNjQzNSwxOTgwNzY3NTM3LDExNTc3NDM0MzRd
+fQ==
 -->
