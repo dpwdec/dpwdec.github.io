@@ -124,8 +124,10 @@ $.ajax({
 });
 ```
 
+You can also **send data in a pos**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDExODI5MiwxNzQ5NDU3MzUyLDg4OT
-A3MjQ0OCwxNzU4MjUzNjkxLC0xMDYwNjQzNSwxOTgwNzY3NTM3
-LDExNTc3NDM0MzRdfQ==
+eyJoaXN0b3J5IjpbNjU0NDA2MDE2LDE3NDk0NTczNTIsODg5MD
+cyNDQ4LDE3NTgyNTM2OTEsLTEwNjA2NDM1LDE5ODA3Njc1Mzcs
+MTE1Nzc0MzQzNF19
 -->
