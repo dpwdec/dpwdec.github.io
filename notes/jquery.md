@@ -160,8 +160,22 @@ $.ajax({
 });
 ```
 
+You can **write code that ALWAYS executes after an ajax request** whether it succeeded or failed by appending the `always` method to the chain of method handlers.
+```js
+$.ajax({
+  url: '/url',
+  method: 'POST',
+  data: { name: 'Jason', age: 41 },
+}).done(function(result) {
+  // do something with the result
+}).fail(function() {
+  // do something when request fails
+}).always(function() {
+  // this code always runs
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzAzODkxMDQsMTc0OTQ1NzM1Miw4OD
+eyJoaXN0b3J5IjpbLTE1NDM0NDc5NTEsMTc0OTQ1NzM1Miw4OD
 kwNzI0NDgsMTc1ODI1MzY5MSwtMTA2MDY0MzUsMTk4MDc2NzUz
 NywxMTU3NzQzNDM0XX0=
 -->
