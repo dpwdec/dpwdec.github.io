@@ -79,15 +79,17 @@ you can define fucntion inside classes without the function keyword
 javascript hoistin
 
 you can set a breakpoint inside chrome by clicking on a line number inside the sources tab
+
+document.addEventListener('click' function() { }); --> add event listener to entire document
 ## process modelling
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTkxOTUyNzQsLTE4NTEyMjg4MiwxMz
-Q0NTIyMTc4LDE2Njg2NzY4NDEsLTE5MjgwODI4LDE5NDEyODU4
-NTMsLTYyNjczODE3MywtMTk4NzYyOTM0LC0xNjQ0ODQ3NjkwLC
-02NDk2MjAwMzMsLTIwODUwNTE5NzEsLTIwMzU4Nzk0MDYsLTEx
-MzI4NDYxMzcsMTgwMTU3NTc5OCwxOTE2NzkxNzI1LC0xMDk0Nz
-IzOTUxLC0xMzMzNDg0MDE5XX0=
+eyJoaXN0b3J5IjpbLTExMDAyMzc0MzcsLTE3MTkxOTUyNzQsLT
+E4NTEyMjg4MiwxMzQ0NTIyMTc4LDE2Njg2NzY4NDEsLTE5Mjgw
+ODI4LDE5NDEyODU4NTMsLTYyNjczODE3MywtMTk4NzYyOTM0LC
+0xNjQ0ODQ3NjkwLC02NDk2MjAwMzMsLTIwODUwNTE5NzEsLTIw
+MzU4Nzk0MDYsLTExMzI4NDYxMzcsMTgwMTU3NTc5OCwxOTE2Nz
+kxNzI1LC0xMDk0NzIzOTUxLC0xMzMzNDg0MDE5XX0=
 -->
