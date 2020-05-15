@@ -63,7 +63,15 @@ You can now **check that your basic tests are working** *without the command lin
 </html>
 ```
 
+Now write a basic passing test in Jasmine and load `SpecRunner.html`. Your basic test will be something like:
+```js
+describe('Test', function() {
+  it('passes a test' function() {
+    expect(true).toBe(true);
+  });
+);
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjEzNjU4OTldfQ==
+eyJoaXN0b3J5IjpbNzkzMDQ5NjcwXX0=
 -->
