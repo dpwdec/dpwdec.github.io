@@ -58,9 +58,9 @@ it('call the random method on page', function() {
 });
 ```
 
-You can **stub a method and make it return its real return value** using the `.and.callThrough` method.
+You can **stub a method and make it return its real return value** using the `.and.callThrough` method. If yo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ3NzI2ODkxLC0xODA0NTYyNzU1LC0xND
-k3OTEzNjgyLDE0OTYyMDc2NDYsLTEyMTMyNTE0NzMsMTE5Mjgy
-NjUzNCwtNTg5OTI1OTMwXX0=
+eyJoaXN0b3J5IjpbMTI0Mzk4MzE4NiwtMTgwNDU2Mjc1NSwtMT
+Q5NzkxMzY4MiwxNDk2MjA3NjQ2LC0xMjEzMjUxNDczLDExOTI4
+MjY1MzQsLTU4OTkyNTkzMF19
 -->
