@@ -72,7 +72,7 @@ describe('Test', function() {
 );
 ```
 
-Next **set up Karma to run your Jasmine tests**. This requires you to use the `karma init` comman
+Next **set up Karma to run your Jasmine tests**. This requires you to use the `karma init` command. After the command has run you will asked a series of questions to set up Karma.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTg4MDc2Nl19
+eyJoaXN0b3J5IjpbMjQ0ODUwNTEyXX0=
 -->
