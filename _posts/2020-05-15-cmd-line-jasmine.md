@@ -40,9 +40,32 @@ You can answer them truthfully or just press `return` several times until the fi
 $ npm install
 ```
 
-You can now check that your basic tests are working *without the command line by* by setting up `SpecRunner.html` to use the Jasmine `npm` libraries. You can do this by specifying them in the `
+You can now check that your basic tests are working *without the command line by* by setting up `SpecRunner.html` to use the Jasmine `npm` libraries. You can do this by specifying the opat them in the `src` tags of the file.
+```html
+<!DOCTYPE  html>
+<html  lang="en">
+  <head>
+    <meta  charset="UTF-8"  />
+    <title>Document</title>
+    <link  rel="shortcut icon"  type="image/png"  href="../node_modules/jasmine-core/lib/jasmine-core/jasmine_favicon.png">
+    <link  rel="stylesheet"  href="../node_modules/jasmine-core/lib/jasmine-core/jasmine.css">
+    <script  src="../node_modules/jasmine-core/lib/jasmine-core/jasmine.js"></script>
+    <script  src="../node_modules/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
+    <script  src="../node_modules/jasmine-core/lib/jasmine-core/boot.js"></script>
+
+    <!-- include the library you want to test here... -->
+    <script  src="../src/roll.js"></script>
+
+    <!-- include your test files here... -->
+    <script  src="testFrameworkSpec.js"></script>
+    <script  src="rollSpec.js"></script>
+  </head>
+<body>
+</body>
+</html>
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDc5NTg3M119
+eyJoaXN0b3J5IjpbMTQ2MjIyMzg1OF19
 -->
