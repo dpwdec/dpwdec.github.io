@@ -14,12 +14,14 @@ We can set up Jasmine to run through the command line by using the Headless Chro
 
 ### Walkthrough
 
-**Create a new repository** and run `npm init` to create a new `package.json` file.
+**Create a new repository** and run `npm init` to create a new `package.json` file. You'll be greeted with a set of questions. 
 ```
 $ npm init
 ```
 
+You can answer them truthfully or just press `return` several times until the file has been created, it doesn't really matter at this stage. After the `package.json` file has been created, add the 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ2OTAzMjhdfQ==
+eyJoaXN0b3J5IjpbLTcyNDc1NDM2Nl19
 -->
