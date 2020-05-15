@@ -35,14 +35,14 @@ You can answer them truthfully or just press `return` several times until the fi
 }
 ```
 
-**Install the dependencies** using the `install` command.
+**Install the dependencies** using the `install` command. This should create a `node_module` directory and `package-lock.json` file in your repository.
 ```
 $ npm install
 ```
 
-You can now check that your tests are working without the command line by
+You can now check that your basic tests are working *without the command line by* by setting up `SpecRunner.html` to use the Jasmine `npm` libraries. You can do this by specifying them in the `
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwNTUxMjc4XX0=
+eyJoaXN0b3J5IjpbMTc2NDc5NTg3M119
 -->
