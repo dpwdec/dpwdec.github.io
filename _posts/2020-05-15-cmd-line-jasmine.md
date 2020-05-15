@@ -8,7 +8,7 @@ Jasmine allows you to use `SpecRunner.html` to view the results of Javascript te
 1. Run Jasmine tests from the command line using the `npm test` command.
 2. Upload your project to a continuous integration like Travis for testing.
 
-This is accomplished by using the Headless Chrome 
+This is accomplished by using the Headless Chrome application and the package Karma. Karma automates testing and produces CLI output for your tests as well as defining how tests should be run, it is essentially a command like replacement for the `SpecRunner.html` file. Headless Chrome is simply a version of chrome that runs without an interface so that browser based tests can be run without creating a 
 
 **Create a new repository** and run `npm init` to create a new `package.json` file.
 ```
@@ -17,5 +17,5 @@ $ npm init
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjIwNjU5OV19
+eyJoaXN0b3J5IjpbLTE3ODg1MjcyOTJdfQ==
 -->
