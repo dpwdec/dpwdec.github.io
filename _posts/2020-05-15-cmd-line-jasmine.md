@@ -73,38 +73,32 @@ describe('Test', function() {
 );
 ```
 
-Next **set up Karma to run your Jasmine tests**. This requires you to use the `karma init` command. After the command has run you will asked a series of questions to set up Karma. The questions are pretty self explanatory and the answers should be clear. Just get it to match the `karma.conf.js` file shown below.
+Next **set up Karma to run your Jasmine tests**. This requires you to use the `karma init` command. After the command has run you will asked a series of questions to set up Karma. The questions are pretty self explanatory and the answers should be clear. Just get it to match the `karma.conf.js` file shown below. I've commented the fields below in the `karma.conf.
 ```js
 module.exports = function(config) {
   config.set({
     basePath:  '',
-    frameworks: ['jasmine'],
+    frameworks: ['jasmine'], // => ANSWER
     files: [
       'spec/*Spec.js',
       'src/*.js'
       ],
-  exclude: [],
-  preprocessors: {}, 
-  reporters: ['progress'],
-  port:  9876,
-  colors:  true,
-  logLevel:  config.LOG_INFO,
-  autoWatch:  true,
-
-browsers: ['ChromeHeadless'],
-
-
-singleRun:  false,
-
-
-concurrency:  Infinity
-
-})
+    exclude: [],
+    preprocessors: {}, 
+    reporters: ['progress'],
+    port:  9876,
+    colors:  true,
+    logLevel:  config.LOG_INFO,
+    autoWatch:  true,
+    browsers: ['ChromeHeadless'], // => ANSWER 'ChromeHeadless' not just Chrome
+    singleRun:  false,
+    concurrency:  Infinity
+  })
 }
 ```
 
 
 Finally, change the
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1MDQyMjgyXX0=
+eyJoaXN0b3J5IjpbLTE0NTM1NTQwMF19
 -->
