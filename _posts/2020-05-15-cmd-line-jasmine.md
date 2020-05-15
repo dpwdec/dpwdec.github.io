@@ -1,7 +1,7 @@
 ---  
 layout:  post 
 title:  "Setting up CLI output for Jasmine Tests" 
- ---
+---
 
 Jasmine allows you to use `SpecRunner.html` to view the results of Javascript testing. While this is a nice interface for getting set up initially it can quickly break the flow of coding to have to constantly tab out to a browser and refresh while setting up the backend sections of your application. The following method allows you to:
 
@@ -44,5 +44,5 @@ You can now check that your tests are working without the command line by
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMzI2OTc1OF19
+eyJoaXN0b3J5IjpbNDQwNTUxMjc4XX0=
 -->
