@@ -99,8 +99,21 @@ module.exports = function(config) {
 }
 ```
 
-Finally, to **set up the tests to run with a single command** you need to add an `npm script` to `package.json`. Add the `scripts` property below to `package.json`
+Finally, to **set up the tests to run with a single command** you need to add an `npm script` to `package.json`. Add the `scripts` property below to `package.json` and create a script called `test` that runs `karma`.
+```js
+"scripts": {
+  "test": "karma start karma.conf.js --single-run"
+},
 ```
+
+You should be able to **run your Jasmine tests from the command line** now by using the `test` command.
+```js
+npm test
+```
+
+### Travis
+
+To integrate this approach with
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Mzc0ODAxMF19
+eyJoaXN0b3J5IjpbMTc5ODU1MDE3Ml19
 -->
