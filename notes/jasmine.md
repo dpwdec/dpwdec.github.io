@@ -57,8 +57,10 @@ it('call the random method on page', function() {
   expect(Math.random).toHaveBeenCalled()
 });
 ```
+
+You can **stub a method and make it return its real return value** using the `.and.callThrough` method,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDQ1NjI3NTUsLTE0OTc5MTM2ODIsMT
-Q5NjIwNzY0NiwtMTIxMzI1MTQ3MywxMTkyODI2NTM0LC01ODk5
-MjU5MzBdfQ==
+eyJoaXN0b3J5IjpbNjI4ODcyMTczLC0xODA0NTYyNzU1LC0xND
+k3OTEzNjgyLDE0OTYyMDc2NDYsLTEyMTMyNTE0NzMsMTE5Mjgy
+NjUzNCwtNTg5OTI1OTMwXX0=
 -->
