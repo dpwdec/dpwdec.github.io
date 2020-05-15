@@ -63,7 +63,7 @@ You can now **check that your basic tests are working** *without the command lin
 </html>
 ```
 
-Now write a basic passing test in Jasmine and load `SpecRunner.html`. Your basic test will be something like:
+Now **write a basic passing test in Jasmine** and load `SpecRunner.html`, if your Jasmine library was installed correctly and you are targeting the sources with your `SpecRunner.html` your test should pass. Your basic test will be something like the example below.
 ```js
 describe('Test', function() {
   it('passes a test' function() {
@@ -72,6 +72,7 @@ describe('Test', function() {
 );
 ```
 
+Next **set up Karma to run your Jasmine tests**. This requires you to use the `karma init` comman
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzMDQ5NjcwXX0=
+eyJoaXN0b3J5IjpbMTcwNTg4MDc2Nl19
 -->
