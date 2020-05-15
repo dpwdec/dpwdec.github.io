@@ -111,10 +111,12 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 [nm]: https://www.npmjs.com/package/nodemon
 
-> Written with [StackEdit](https://stackedit.io/).
+## Karma
+
+The Karma framework allows you to run browser based javascript test
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTcwMzg5NCwxNzE3Njk4MjEzLDkzND
-MyMjg5OSwtNTQ0MzQ2NTUzLC0xMzU4ODE2MTk4LDEzODI4NzIx
-NjUsLTcwNTAzODM1NiwtMTU0NjQzMjY3MSwtMTUzODU1ODkwXX
-0=
+eyJoaXN0b3J5IjpbNzAwNjgxMzkyLC0xODE3MDM4OTQsMTcxNz
+Y5ODIxMyw5MzQzMjI4OTksLTU0NDM0NjU1MywtMTM1ODgxNjE5
+OCwxMzgyODcyMTY1LC03MDUwMzgzNTYsLTE1NDY0MzI2NzEsLT
+E1Mzg1NTg5MF19
 -->
