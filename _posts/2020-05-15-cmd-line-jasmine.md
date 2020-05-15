@@ -19,7 +19,7 @@ We can set up Jasmine to run through the command line by using the Headless Chro
 $ npm init
 ```
 
-You can answer them truthfully or just press `return` several times until the file has been created, it doesn't really matter at this stage. After the `package.json` file has been created, add the Karma and Jasmine dependencies to the project using the `devDependencies` property. Your `package.json` should look something like the example below. Don't worry if it differs somewhat in terms of extra lines or fields. The post important thing is that the `devDependencies` property matches what is shown below by specifying `jasmine-core`, `karma`, `karma-cli`, `karma-jasmine` and `karma-chrone-launcher`.
+You can answer them truthfully or just press `return` several times until the file has been created, it doesn't really matter at this stage. After the `package.json` file has been created, add the Karma and Jasmine dependencies to the project using the `devDependencies` property. Your `package.json` should look something like the example below. Don't worry if it differs somewhat in terms of extra lines or fields. The post important thing is that the `devDependencies` property matches what is shown below by specifying `jasmine-core`, `karma`, `karma-cli`, `karma-jasmine` and `karma-chrone-launcher` as depdencies.
 ```js
 {
 "name": "bowling-challenge",
@@ -35,7 +35,14 @@ You can answer them truthfully or just press `return` several times until the fi
 }
 ```
 
+**Install the dependencies** using the `install` command.
+```
+$ npm install
+```
+
+You can now check that your tests are working without the command line by
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMzc0ODgyNF19
+eyJoaXN0b3J5IjpbMTIyMzI2OTc1OF19
 -->
