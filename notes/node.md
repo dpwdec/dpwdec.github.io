@@ -16,6 +16,15 @@ To **create a new `package.json` file** use `init` command.
 $ npm init
 ```
 
+### `package.json`
+
+The `package.json` file contains a range of dependencies and descriptors for your project.
+
+You can **add a list of development dependencies** using the `devDependencies` key.
+```js
+
+```
+
 ## Frameworks
 ### Express
 After installing express. You can **create a new instance of the express framework and start a server** using the following code:
@@ -95,8 +104,8 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMTg2MjA0MCwxNzE3Njk4MjEzLDkzND
-MyMjg5OSwtNTQ0MzQ2NTUzLC0xMzU4ODE2MTk4LDEzODI4NzIx
-NjUsLTcwNTAzODM1NiwtMTU0NjQzMjY3MSwtMTUzODU1ODkwXX
-0=
+eyJoaXN0b3J5IjpbLTEwNzk3MDQ0ODQsMTcxNzY5ODIxMyw5Mz
+QzMjI4OTksLTU0NDM0NjU1MywtMTM1ODgxNjE5OCwxMzgyODcy
+MTY1LC03MDUwMzgzNTYsLTE1NDY0MzI2NzEsLTE1Mzg1NTg5MF
+19
 -->
