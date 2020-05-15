@@ -19,9 +19,23 @@ We can set up Jasmine to run through the command line by using the Headless Chro
 $ npm init
 ```
 
-You can answer them truthfully or just press `return` several times until the file has been created, it doesn't really matter at this stage. After the `package.json` file has been created, add the 
+You can answer them truthfully or just press `return` several times until the file has been created, it doesn't really matter at this stage. After the `package.json` file has been created, add the Karma and Headerless Chrome dependencies to the project using the `devDependencies` property.
+```js
+{
+"name": "bowling-challenge",
+"version": "1.0.0",
+"main": "index.js",
+"devDependencies": {
+  "jasmine-core": "*",
+  "karma": "*",
+  "karma-cli": "*",
+  "karma-jasmine": "*",
+  "karma-chrome-launcher": "*"
+  }
+}
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDc1NDM2Nl19
+eyJoaXN0b3J5IjpbMTc2NDMyNTk5Nl19
 -->
