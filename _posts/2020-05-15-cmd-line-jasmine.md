@@ -75,7 +75,7 @@ describe('Test', function() {
 
 Next **set up Karma to run your Jasmine tests**. This requires you to use the `karma init` command. After the command has run you will asked a series of questions to set up Karma. The questions are pretty self explanatory and the answers should be clear. Just get it to match the `karma.conf.js` file shown below. I've commented the fields below in the `karma.conf.js` file that require answers.
 
-The other tricky thing is setting up the `files` property correctly. This should reflect whatever file structure you are using for your project and tests. In my project all the spec files are placed in the `spec` directory and have the naming convention of ending with `Spec.js` therefore I specify that in the `files` section of the `
+The other tricky thing is setting up the `files` property correctly. This should reflect whatever file structure you are using for your project and tests. In my project all the spec files are placed in the `spec` directory and have the naming convention of ending with `Spec.js` therefore I specify that in the `files` section of the `karma.conf.js` file with `spec/*Spec.js` line. I also keep the code that is being tested in the `src` directory, so I need to add `src/*.js` to load the files that will be tested by the spec when the tests are run.
 ```js
 module.exports = function(config) {
   config.set({
@@ -102,5 +102,5 @@ module.exports = function(config) {
 
 Finally, change the
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDU1NDk2NTBdfQ==
+eyJoaXN0b3J5IjpbLTU2NDI1MzQ3M119
 -->
