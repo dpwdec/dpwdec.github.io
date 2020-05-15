@@ -99,8 +99,8 @@ module.exports = function(config) {
 }
 ```
 
-
-Finally, change the
+Finally, to **set up the tests to run with a single command** you need to add an `npm script` to `package.json`. Add the `scripts` property below to `package.json`
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDI1MzQ3M119
+eyJoaXN0b3J5IjpbMTA4Mzc0ODAxMF19
 -->
