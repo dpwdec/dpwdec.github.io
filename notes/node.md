@@ -16,13 +16,22 @@ To **create a new `package.json` file** use `init` command.
 $ npm init
 ```
 
+You can **install dependencies** specified in `package.json` by using the `install` command.
+```
+$ npm install
+```
+
 ### `package.json`
 
 The `package.json` file contains a range of dependencies and descriptors for your project.
 
 You can **add a list of development dependencies** using the `devDependencies` key.
 ```js
-
+{
+  "devDependencies": {
+    "some-dependency": "*",
+  }
+}
 ```
 
 ## Frameworks
@@ -104,8 +113,8 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk3MDQ0ODQsMTcxNzY5ODIxMyw5Mz
-QzMjI4OTksLTU0NDM0NjU1MywtMTM1ODgxNjE5OCwxMzgyODcy
-MTY1LC03MDUwMzgzNTYsLTE1NDY0MzI2NzEsLTE1Mzg1NTg5MF
-19
+eyJoaXN0b3J5IjpbLTE4MTcwMzg5NCwxNzE3Njk4MjEzLDkzND
+MyMjg5OSwtNTQ0MzQ2NTUzLC0xMzU4ODE2MTk4LDEzODI4NzIx
+NjUsLTcwNTAzODM1NiwtMTU0NjQzMjY3MSwtMTUzODU1ODkwXX
+0=
 -->
