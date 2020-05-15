@@ -40,7 +40,7 @@ You can answer them truthfully or just press `return` several times until the fi
 $ npm install
 ```
 
-You can now check that your basic tests are working *without the command line by* by setting up `SpecRunner.html` to use the Jasmine `npm` libraries. You can do this by specifying the opat them in the `src` tags of the file.
+You can now **check that your basic tests are working** *without the command line by* by setting up `SpecRunner.html` to use the Jasmine `npm` libraries. You can do this by specifying the a path to the `node_modules` directory from the `SpecRunner.html` in the `src` tags of the file.
 ```html
 <!DOCTYPE  html>
 <html  lang="en">
@@ -54,11 +54,9 @@ You can now check that your basic tests are working *without the command line by
     <script  src="../node_modules/jasmine-core/lib/jasmine-core/boot.js"></script>
 
     <!-- include the library you want to test here... -->
-    <script  src="../src/roll.js"></script>
 
     <!-- include your test files here... -->
-    <script  src="testFrameworkSpec.js"></script>
-    <script  src="rollSpec.js"></script>
+    <script  src="mySpec.js"></script>
   </head>
 <body>
 </body>
@@ -67,5 +65,5 @@ You can now check that your basic tests are working *without the command line by
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjIyMzg1OF19
+eyJoaXN0b3J5IjpbLTE2MjEzNjU4OTldfQ==
 -->
