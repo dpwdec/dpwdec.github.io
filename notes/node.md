@@ -113,10 +113,15 @@ You can then **trigger this nodemon script** with the command `npm run dev`. You
 
 ## Karma
 
-The Karma framework allows you to run browser based javascript test
+The Karma framework allows you to run browser based javascript tests, like Jasmine, from the command line.
+
+You can **specify the type of reporting you get** by changes the `reporters` section of the `karma.conf.js` file. You will often need to add and `npm install` these reporters as dependencies as well.
+```
+reporters: ['progress', 'spec', 'super-dots']
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAwNjgxMzkyLC0xODE3MDM4OTQsMTcxNz
-Y5ODIxMyw5MzQzMjI4OTksLTU0NDM0NjU1MywtMTM1ODgxNjE5
-OCwxMzgyODcyMTY1LC03MDUwMzgzNTYsLTE1NDY0MzI2NzEsLT
-E1Mzg1NTg5MF19
+eyJoaXN0b3J5IjpbMTE1NjcwODc3MywtMTgxNzAzODk0LDE3MT
+c2OTgyMTMsOTM0MzIyODk5LC01NDQzNDY1NTMsLTEzNTg4MTYx
+OTgsMTM4Mjg3MjE2NSwtNzA1MDM4MzU2LC0xNTQ2NDMyNjcxLC
+0xNTM4NTU4OTBdfQ==
 -->
