@@ -62,6 +62,7 @@ You can now **check that your basic tests are working** *without the command lin
 </body>
 </html>
 ```
+The file paths above assume that `SpecRunner.html` is placed in a directory (usually called `spec` or `test` where your tests will also live. This is why the `src` command begins with `..` to move up and out of that directory. You'll need to alter the file
 
 Now **write a basic passing test in Jasmine** and load `SpecRunner.html`, if your Jasmine library was installed correctly and you are targeting the sources with your `SpecRunner.html` your test should pass. Your basic test will be something like the example below.
 ```js
@@ -76,5 +77,5 @@ Next **set up Karma to run your Jasmine tests**. This requires you to use the `k
 
 Finally, change the
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzAxMzc0N119
+eyJoaXN0b3J5IjpbLTQwMTc1ODc1MV19
 -->
