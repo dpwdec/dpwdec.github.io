@@ -58,9 +58,14 @@ it('call the random method on page', function() {
 });
 ```
 
-You can **stub a method and make it return its real return value** using the `.and.callThrough` method. If yo
+You can **stub a method and make it return its real return value** using the `.and.callThrough` method. If you *just* `spyOn` on an object's function it will not return anything.
+```js
+it('stubs the function while maintaining the return value', function() {
+
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0Mzk4MzE4NiwtMTgwNDU2Mjc1NSwtMT
-Q5NzkxMzY4MiwxNDk2MjA3NjQ2LC0xMjEzMjUxNDczLDExOTI4
-MjY1MzQsLTU4OTkyNTkzMF19
+eyJoaXN0b3J5IjpbLTE1ODg5NDE4MzQsLTE4MDQ1NjI3NTUsLT
+E0OTc5MTM2ODIsMTQ5NjIwNzY0NiwtMTIxMzI1MTQ3MywxMTky
+ODI2NTM0LC01ODk5MjU5MzBdfQ==
 -->
