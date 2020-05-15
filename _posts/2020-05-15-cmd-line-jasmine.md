@@ -75,98 +75,21 @@ describe('Test', function() {
 
 Next **set up Karma to run your Jasmine tests**. This requires you to use the `karma init` command. After the command has run you will asked a series of questions to set up Karma. The questions are pretty self explanatory and the answers should be clear. Just get it to match the `karma.conf.js` file shown below.
 ```js
-// Karma configuration
-
-// Generated on Fri May 15 2020 13:31:03 GMT+0100 (British Summer Time)
-
-  
-
 module.exports = function(config) {
-
-config.set({
-
-  
-
-// base path that will be used to resolve all patterns (eg. files, exclude)
-
-basePath:  '',
-
-  
-  
-
-// frameworks to use
-
-// available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-
-frameworks: ['jasmine'],
-
-  
-  
-
-// list of files / patterns to load in the browser
-
-files: [
-
-'spec/*Spec.js',
-
-'src/*.js'
-
-],
-
-  
-  
-
-// list of files / patterns to exclude
-
-exclude: [
-
-],
-
-  
-  
-
-// preprocess matching files before serving them to the browser
-
-// available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
-
-preprocessors: {
-
-},
-
-  
-  
-
-// test results reporter to use
-
-// possible values: 'dots', 'progress'
-
-// available reporters: https://npmjs.org/browse/keyword/karma-reporter
-
-reporters: ['progress'],
-
-  
-  
-
-// web server port
-
-port:  9876,
-
-  
-  
-
-// enable / disable colors in the output (reporters and logs)
-
-colors:  true,
-
-  
-  
-
-// level of logging
-
-
-logLevel:  config.LOG_INFO,
-
-autoWatch:  true,
+  config.set({
+    basePath:  '',
+    frameworks: ['jasmine'],
+    files: [
+      'spec/*Spec.js',
+      'src/*.js'
+      ],
+  exclude: [],
+  preprocessors: {}, 
+  reporters: ['progress'],
+  port:  9876,
+  colors:  true,
+  logLevel:  config.LOG_INFO,
+  autoWatch:  true,
 
 browsers: ['ChromeHeadless'],
 
@@ -177,12 +100,11 @@ singleRun:  false,
 concurrency:  Infinity
 
 })
-
 }
 ```
 
 
 Finally, change the
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDUwOTI1MV19
+eyJoaXN0b3J5IjpbODY1MDQyMjgyXX0=
 -->
