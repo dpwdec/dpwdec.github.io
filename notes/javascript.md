@@ -755,7 +755,14 @@ let talkFunction = function() {
 }
 ```
 
-Variables in the scope into which functions are extracted that have the same namespace as those defined in the context of the extracted function will overwrite those defined within the function's context.
+Variables in the scope into which functions are extracted that have the same namespace as those defined in the context of the extracted function will overwrite those defined within the function's context. In the example below, because `sound` is defined in the scope that `talkFunction` is extracted to, `this.sound` now points to `'meow'` as defined by the scope in which the function is running.
+```js
+let sound = 'meow'
+let talkFunction = dog.talk
+talkFunction() // => 'meow'
+```
+
+You can **bind a function to the **
 
 ## Console
 
@@ -820,11 +827,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTMxNDcyMjAsLTEyMjU4NjQ0NTUsND
-c5MjYwMzU2LC0xOTc1MTA1OTk2LC0yMDM3NzcxMTkzLC0yNjcz
-NTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMjY1NDYzMC
-wtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMTIxNTM5NTE5MCwtMTQ2
-NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5NTEzMDc0NywtMTUzOD
-UxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwNDIyLDExODE2MjIx
-NTYsLTUwMjQ5ODQ5Nl19
+eyJoaXN0b3J5IjpbMTkzNTg2MjA3MCwtMTIyNTg2NDQ1NSw0Nz
+kyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMzc3NzExOTMsLTI2NzM1
+MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0NywxMjEyNjU0NjMwLC
+05MTUxNDUyMTAsLTcxODA5MDc4NCwxMjE1Mzk1MTkwLC0xNDY0
+MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1MTMwNzQ3LC0xNTM4NT
+EyOTgwLC0xMTE2NTI1NTgyLC01OTkyNDA0MjIsMTE4MTYyMjE1
+NiwtNTAyNDk4NDk2XX0=
 -->
