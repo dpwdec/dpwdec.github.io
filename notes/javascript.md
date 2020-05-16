@@ -729,6 +729,11 @@ Then the associated test could create its own empty mock of `Bark`. So that ther
 fakeBark = function() {}
 fakeBark.prototype.sound = function() {}
 ```
+
+### Bind
+
+When you **extract a function from an object**
+
 ## Console
 
 You can **print to the `std_out`** using the `log` function on the `console` object.
@@ -792,11 +797,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzUxMDU5OTYsLTIwMzc3NzExOTMsLT
-I2NzM1MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0NywxMjEyNjU0
-NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4NCwxMjE1Mzk1MTkwLC
-0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1MTMwNzQ3LC0x
-NTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01OTkyNDA0MjIsMTE4MT
-YyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MDAzLDg3NDA5NzA0
-MSw3ODAzNzYxMjddfQ==
+eyJoaXN0b3J5IjpbLTE3MTMzMDQ3MzUsLTE5NzUxMDU5OTYsLT
+IwMzc3NzExOTMsLTI2NzM1MTU5MiwtODQzMjc4NDM3LDc4OTY3
+Njk0NywxMjEyNjU0NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4NC
+wxMjE1Mzk1MTkwLC0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC0x
+Nzk1MTMwNzQ3LC0xNTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01OT
+kyNDA0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0
+MDAzLDg3NDA5NzA0MV19
 -->
