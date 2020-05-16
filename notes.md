@@ -10,16 +10,16 @@ title: Notes
 
 | javascript |  |
 | --- | ---|
-| basics | [Javascript](notes/javascript.html)
+| basics | [Javascript](notes/javascript.html) |
 | testing | [Jasmine](notes/jasmine.html) |
+| frameworks | [Node](notes/node.html) |
+| | [jQuery](notes/jquery.html) |
 
 | web development |  |
 | --- | ---|
 | basics | [Web Structures](notes/www.html) |
 | testing | [Capybara](notes/capybara.html) |
-| frameworks | [Sinatra](notes/sinatra.html) |
 | | [Jekyll](notes/jekyll.html) |
-| | [Node](notes/node.html) |
 | front end | [HTML](notes/html.html) |
 | | [CSS](notes/css.html) |
 
@@ -40,6 +40,6 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTg3ODUxNDgsLTQwMzI0MTQ4LC0xOT
-kwNDM1OTcwLC0yMjYxNzUxMzhdfQ==
+eyJoaXN0b3J5IjpbLTMxNDM2MDYxNiwtNDAzMjQxNDgsLTE5OT
+A0MzU5NzAsLTIyNjE3NTEzOF19
 -->
