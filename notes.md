@@ -7,6 +7,9 @@ title: Notes
 | --- | ---|
 | basics | [Ruby](notes/ruby.html)
 | testing | [RSpec](notes/rspec.html) |
+| | [Capybara](notes/capybara.html) |
+| frameworks | [Sinatra](notes/sinatra.html) |
+| | [Jekyll](notes/jekyll.html) |
 
 | javascript |  |
 | --- | ---|
@@ -18,8 +21,6 @@ title: Notes
 | web development |  |
 | --- | ---|
 | basics | [Web Structures](notes/www.html) |
-| testing | [Capybara](notes/capybara.html) |
-| | [Jekyll](notes/jekyll.html) |
 | front end | [HTML](notes/html.html) |
 | | [CSS](notes/css.html) |
 
@@ -40,6 +41,6 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNDM2MDYxNiwtNDAzMjQxNDgsLTE5OT
+eyJoaXN0b3J5IjpbMTE4MjY4ODUwOSwtNDAzMjQxNDgsLTE5OT
 A0MzU5NzAsLTIyNjE3NTEzOF19
 -->
