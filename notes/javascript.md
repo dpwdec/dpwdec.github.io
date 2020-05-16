@@ -732,7 +732,12 @@ fakeBark.prototype.sound = function() {}
 
 ### Bind
 
-When you **extract a function from an object that uses the `this` keyword** into a variable. The thing that `this` points to will change
+One of the more "interesting" things about Javascript is that when you **extract a function from an object that uses the `this` keyword** into a variable. The thing that `this` points to will change to reflect the scope in which it was extracted into.
+```js
+let dog = {
+  
+}
+```
 
 ## Console
 
@@ -797,11 +802,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTM2ODMwNywtMTk3NTEwNTk5NiwtMj
-AzNzc3MTE5MywtMjY3MzUxNTkyLC04NDMyNzg0MzcsNzg5Njc2
-OTQ3LDEyMTI2NTQ2MzAsLTkxNTE0NTIxMCwtNzE4MDkwNzg0LD
-EyMTUzOTUxOTAsLTE0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3
-OTUxMzA3NDcsLTE1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5OT
-I0MDQyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQw
-MDMsODc0MDk3MDQxXX0=
+eyJoaXN0b3J5IjpbNDc5MjYwMzU2LC0xOTc1MTA1OTk2LC0yMD
+M3NzcxMTkzLC0yNjczNTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5
+NDcsMTIxMjY1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMT
+IxNTM5NTE5MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5
+NTEzMDc0NywtMTUzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5Mj
+QwNDIyLDExODE2MjIxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAw
+Myw4NzQwOTcwNDFdfQ==
 -->
