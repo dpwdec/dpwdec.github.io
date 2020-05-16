@@ -732,7 +732,7 @@ fakeBark.prototype.sound = function() {}
 
 ### Bind
 
-When you **extract a function from an object**
+When you **extract a function from an object that uses the `this` keyword** into a variable. The thing that `this` points to will change
 
 ## Console
 
@@ -797,11 +797,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTMzMDQ3MzUsLTE5NzUxMDU5OTYsLT
-IwMzc3NzExOTMsLTI2NzM1MTU5MiwtODQzMjc4NDM3LDc4OTY3
-Njk0NywxMjEyNjU0NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4NC
-wxMjE1Mzk1MTkwLC0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC0x
-Nzk1MTMwNzQ3LC0xNTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01OT
-kyNDA0MjIsMTE4MTYyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0
-MDAzLDg3NDA5NzA0MV19
+eyJoaXN0b3J5IjpbMTYwMTM2ODMwNywtMTk3NTEwNTk5NiwtMj
+AzNzc3MTE5MywtMjY3MzUxNTkyLC04NDMyNzg0MzcsNzg5Njc2
+OTQ3LDEyMTI2NTQ2MzAsLTkxNTE0NTIxMCwtNzE4MDkwNzg0LD
+EyMTUzOTUxOTAsLTE0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3
+OTUxMzA3NDcsLTE1Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5OT
+I0MDQyMiwxMTgxNjIyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQw
+MDMsODc0MDk3MDQxXX0=
 -->
