@@ -724,10 +724,10 @@ Dog.prototype.sound = function() {
   console.log(this.bark.sound());
 }
 ```
-Then the associated test could create its own empty mock of `Bark`
+Then the associated test could create its own empty mock of `Bark`. So that there are no errors when `bark.sound()` is called during testing and our dependency has been mocked.
 ```js
 fakeBark = function() {}
-fa
+fakeBark.prototype.sound = function() {}
 ```
 ## Console
 
@@ -792,11 +792,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDM3NjQ2MSwtMjAzNzc3MTE5MywtMj
-Y3MzUxNTkyLC04NDMyNzg0MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2
-MzAsLTkxNTE0NTIxMCwtNzE4MDkwNzg0LDEyMTUzOTUxOTAsLT
-E0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUxMzA3NDcsLTE1
-Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgxNj
-IyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MDQx
-LDc4MDM3NjEyN119
+eyJoaXN0b3J5IjpbLTE5NzUxMDU5OTYsLTIwMzc3NzExOTMsLT
+I2NzM1MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0NywxMjEyNjU0
+NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4NCwxMjE1Mzk1MTkwLC
+0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1MTMwNzQ3LC0x
+NTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01OTkyNDA0MjIsMTE4MT
+YyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MDAzLDg3NDA5NzA0
+MSw3ODAzNzYxMjddfQ==
 -->
