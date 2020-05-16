@@ -684,8 +684,18 @@ function Dog(name) {
 }
 ```
 
-However, if the `sayName` function is added to `Dog` using protot
+However, if the `sayName` function is added to `Dog` using prototype then every instance of `Dog` will share the same function.
+```js
+function Dog(name) {
+  this.name = name;
+}
 
+Dog.prototype.sayName = function() {
+  console.log(this.name);
+}
+```
+
+When **overwriting a function** defined in *both* the class definition 
 ## Console
 
 You can **print to the `std_out`** using the `log` function on the `console` object.
@@ -749,11 +759,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTUxMDU1MDUsLTIwMzc3NzExOTMsLT
-I2NzM1MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0NywxMjEyNjU0
-NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4NCwxMjE1Mzk1MTkwLC
-0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1MTMwNzQ3LC0x
-NTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01OTkyNDA0MjIsMTE4MT
-YyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MDAzLDg3NDA5NzA0
-MSw3ODAzNzYxMjddfQ==
+eyJoaXN0b3J5IjpbNDI4NDYzOTcwLC0yMDM3NzcxMTkzLC0yNj
+czNTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMjY1NDYz
+MCwtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMTIxNTM5NTE5MCwtMT
+Q2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5NTEzMDc0NywtMTUz
+ODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwNDIyLDExODE2Mj
+IxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcwNDEs
+NzgwMzc2MTI3XX0=
 -->
