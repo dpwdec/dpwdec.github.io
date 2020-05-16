@@ -713,7 +713,7 @@ let dog = new Dog('Banjo');
 dog.sayName(); // => 'Banjo'
 ```
 
-Using `prototype` is also useful for testing because it allows you to mock an entire function definition on a class rather than a function definition of a specific instance. For example, if `Dog` had an injected dependency of `Bark` and called `sound` on `Bark` this could be mocked in tests easily by simply creating a `prototype` object for `Bark` in our test suite. The `
+Using `prototype` is also useful for testing because it allows you to mock an entire function definition on a class rather than a function definition of a specific instance. For example, if `Dog` had an injected dependency of `Bark` and called `sound` on `Bark` this could be mocked in tests easily by simply creating a `prototype` object for `Bark` in our test suite. The `Dog` class would take in a new instance of `Bark`.
 ```js
 function Dog(name, bark) {
   this.name = name;
@@ -723,6 +723,11 @@ function Dog(name, bark) {
 Dog.prototype.sound = function() {
   console.log(this.bark.sound());
 }
+```
+Then the associated test could create its own empty mock of `Bark`
+```js
+fakeBark = function() {}
+fa
 ```
 ## Console
 
@@ -787,7 +792,7 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTc4Mzc5NywtMjAzNzc3MTE5MywtMj
+eyJoaXN0b3J5IjpbMTM2MDM3NjQ2MSwtMjAzNzc3MTE5MywtMj
 Y3MzUxNTkyLC04NDMyNzg0MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2
 MzAsLTkxNTE0NTIxMCwtNzE4MDkwNzg0LDEyMTUzOTUxOTAsLT
 E0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUxMzA3NDcsLTE1
