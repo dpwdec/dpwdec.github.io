@@ -732,7 +732,7 @@ fakeBark.prototype.sound = function() {}
 
 ### Bind
 
-One of the more "interesting" things about Javascript is that when you **extract a function from an object that uses the `this` keyword** into a variable. The thing that `this` points to will change to reflect the scope in which it was extracted into.  As a rule a function's `this` refers to the place in which the function is being called not where it is defined.
+One of the more "interesting" things about Javascript is that when you **extract a function from an object that uses the `this` keyword** into a variable. The thing that `this` points to will change to reflect the scope in which it was extracted into.  As a rule a **function's `this` refers to the place in which the function is being called not where it is defined**.
 
 One way to think of this is that when you assign a *method* (i.e. a function that belongs to an object) to a variable outside of that object, it is no longer a method but **becomes a function** and therefore the use of `this` to refer to an internal instance variable no longer makes sense. In the example below when the function associated with `dog.talk` is assigned in the `talkFunction` variable it loses its connection to the dog object.
 ```js
@@ -755,6 +755,7 @@ let talkFunction = function() {
 }
 ```
 
+Va
 
 ## Console
 
@@ -819,7 +820,7 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzkyNDI2MSwtMTIyNTg2NDQ1NSw0Nz
+eyJoaXN0b3J5IjpbMTIzNjQ1OTY4OCwtMTIyNTg2NDQ1NSw0Nz
 kyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMzc3NzExOTMsLTI2NzM1
 MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0NywxMjEyNjU0NjMwLC
 05MTUxNDUyMTAsLTcxODA5MDc4NCwxMjE1Mzk1MTkwLC0xNDY0
