@@ -119,7 +119,7 @@ $ npm test
 
 ### CI with Travis
 
-To **integrate this approach with Travis**. Create a `.travis.yml` file, specify that you are running a `node` project and call a script that executes your `karma` tests. When you push to github with Travis enabled your tests should run successfully. Below is an example `.travis.yml` file for the project
+To **integrate this approach with Travis**. Create a `.travis.yml` file, specify that you are running a `node` project and call a script that executes your `karma` tests. When you push to github with Travis enabled your tests should run successfully. Below is an example `.travis.yml` file for the project.
 ```yml
 language: node_js
 script: karma start karma.conf.js --single-run
@@ -127,5 +127,5 @@ node_js:
 - "node"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDU2MjUxNF19
+eyJoaXN0b3J5IjpbLTY5NDEzNjM0Nl19
 -->
