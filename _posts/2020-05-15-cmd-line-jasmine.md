@@ -8,18 +8,22 @@ Jasmine allows you to use `SpecRunner.html` to view the results of Javascript te
 1. Run Jasmine tests from the command line using the `npm test` command.
 2. Upload your project to a continuous integration like Travis for testing.
 
-### Overview
+## Overview
 
 We can set up Jasmine to run through the command line by using the Headless Chrome application and the package Karma. Karma automates testing and produces CLI output for your tests as well as defining how tests should be run, it is essentially a command line replacement for the `SpecRunner.html` file. Headless Chrome is simply a version of chrome that runs without an interface so that browser based tests can be run without the added resource requirements of displaying the testing interface. The output from these tests, when run, is then displayed by Karma in the command line.
 
-### Walkthrough
+## Walkthrough
+**Create a new repository** for your project and set up git without your project.
+
+#
+
 
 **Create a new repository** and run `npm init` to create a new `package.json` file. You'll be greeted with a set of questions. 
 ```
 $ npm init
 ```
 
-You can answer them truthfully or just press `return` several times until the file has been created, it doesn't really matter at this stage. After the `package.json` file has been created, add the Karma and Jasmine dependencies to the project using the `devDependencies` property. Your `package.json` should look something like the example below. Don't worry if it differs somewhat in terms of extra lines or fields. The post important thing is that the `devDependencies` property matches what is shown below by specifying `jasmine-core`, `karma`, `karma-cli`, `karma-jasmine` and `karma-chrone-launcher` as dependencies.
+You can answer them all properly or just press `return` several times until the file has been created, it doesn't really matter at this stage. After the `package.json` file has been created, add the Karma and Jasmine dependencies to the project using the `devDependencies` property. Your `package.json` should look something like the example below. Don't worry if it differs somewhat in terms of extra lines or fields. The post important thing is that the `devDependencies` property matches what is shown below by specifying `jasmine-core`, `karma`, `karma-cli`, `karma-jasmine` and `karma-chrone-launcher` as dependencies.
 ```js
 {
 "name": "bowling-challenge",
@@ -121,5 +125,5 @@ node_js:
 - "node"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODk1NzE0MF19
+eyJoaXN0b3J5IjpbLTM5MDk3NjQwOF19
 -->
