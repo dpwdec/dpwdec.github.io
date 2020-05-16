@@ -10,7 +10,7 @@ Jasmine allows you to use `SpecRunner.html` to view the results of Javascript te
 
 ### Overview
 
-We can set up Jasmine to run through the command line by using the Headless Chrome application and the package Karma. Karma automates testing and produces CLI output for your tests as well as defining how tests should be run, it is essentially a command like replacement for the `SpecRunner.html` file. Headless Chrome is simply a version of chrome that runs without an interface so that browser based tests can be run without the added resource requirements of displaying the testing interface.
+We can set up Jasmine to run through the command line by using the Headless Chrome application and the package Karma. Karma automates testing and produces CLI output for your tests as well as defining how tests should be run, it is essentially a command line replacement for the `SpecRunner.html` file. Headless Chrome is simply a version of chrome that runs without an interface so that browser based tests can be run without the added resource requirements of displaying the testing interface. The output from these tests, when run, is then displayed by Karma in the command line.
 
 ### Walkthrough
 
@@ -121,5 +121,5 @@ node_js:
 - "node"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDI5NTc0NTBdfQ==
+eyJoaXN0b3J5IjpbMTczODk1NzE0MF19
 -->
