@@ -732,7 +732,9 @@ fakeBark.prototype.sound = function() {}
 
 ### Bind
 
-One of the more "interesting" things about Javascript is that when you **extract a function from an object that uses the `this` keyword** into a variable. The thing that `this` points to will change to reflect the scope in which it was extracted into. One way to think of this is that when you assign a *method* (i.e. a function that belongs to an object) to a variable outside of that object, it is no longer a method but **becomes a function** and therefore the use of `this` to refer to an internal instance variable no longer makes sense. In the example below when the function associated with `dog.talk` is assigned in the `talkFunction` variable it loses its connection to the dog object.
+One of the more "interesting" things about Javascript is that when you **extract a function from an object that uses the `this` keyword** into a variable. The thing that `this` points to will change to reflect the scope in which it was extracted into.  As a rule a function's `this` refers to the place in which the function is being called not where it is defined.
+
+One way to think of this is that when you assign a *method* (i.e. a function that belongs to an object) to a variable outside of that object, it is no longer a method but **becomes a function** and therefore the use of `this` to refer to an internal instance variable no longer makes sense. In the example below when the function associated with `dog.talk` is assigned in the `talkFunction` variable it loses its connection to the dog object.
 ```js
 let dog = {
   sound: 'woof',
@@ -746,9 +748,11 @@ let talkFunction = dog.talk
 talkFunction() // => undefined
 ```
 
-A good way to understand this loss of connection is to think about what the assignment actually does. It just **adds the function definition directly to the variable in question**. Therefore, its clear that a `this` defined outside of an object will be `undefined`.
+A good way to understand this loss of connection is to think about what the assignment actually does. It just **adds the function definition directly to the variable in question**. Therefore, its clear that a `this` defined outside of an object will be `undefined` as the `talk` variable on `dog` just points to a function definition.
 ```js
-let talkFunction = 
+let talkFunction = function() {
+  return this.sound
+}
 ```
 
 
@@ -815,11 +819,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1MDM1NTYwLC0xMjI1ODY0NDU1LDQ3OT
-I2MDM1NiwtMTk3NTEwNTk5NiwtMjAzNzc3MTE5MywtMjY3MzUx
-NTkyLC04NDMyNzg0MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2MzAsLT
-kxNTE0NTIxMCwtNzE4MDkwNzg0LDEyMTUzOTUxOTAsLTE0NjQx
-Nzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUxMzA3NDcsLTE1Mzg1MT
-I5ODAsLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgxNjIyMTU2
-LC01MDI0OTg0OTZdfQ==
+eyJoaXN0b3J5IjpbMTEyNzkyNDI2MSwtMTIyNTg2NDQ1NSw0Nz
+kyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMzc3NzExOTMsLTI2NzM1
+MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0NywxMjEyNjU0NjMwLC
+05MTUxNDUyMTAsLTcxODA5MDc4NCwxMjE1Mzk1MTkwLC0xNDY0
+MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1MTMwNzQ3LC0xNTM4NT
+EyOTgwLC0xMTE2NTI1NTgyLC01OTkyNDA0MjIsMTE4MTYyMjE1
+NiwtNTAyNDk4NDk2XX0=
 -->
