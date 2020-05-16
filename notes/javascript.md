@@ -671,7 +671,7 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 ### Prototype
 
-Functions added to classes using `prototype` are separate from functions added *within* a class. If you define
+Functions added to classes using `prototype` are separate from functions added *within* a class. If you define a functional class (ES5 syntax) with methods contained within, these methods will indeed be duplicated on each `new` object that you create from that class, however, they will be separate pieces within memory. However if you create functions on the `prototype` property of a class then that method will e
 
 
 ## Console
@@ -737,7 +737,7 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzI1MjExLC0yMDM3NzcxMTkzLC0yNj
+eyJoaXN0b3J5IjpbNzIzMTIwNDU5LC0yMDM3NzcxMTkzLC0yNj
 czNTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMjY1NDYz
 MCwtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMTIxNTM5NTE5MCwtMT
 Q2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5NTEzMDc0NywtMTUz
