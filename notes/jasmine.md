@@ -66,8 +66,10 @@ it('stubs the function while maintaining the return value', function() {
   expect(obj.myFunction()).toEqual(10)
 });
 ```
+
+You can **stub and `spyOn` the class `prototype` methods** in the same manner as above. This allows you to pass in class instances to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM4OTY4NjcsLTE4MDQ1NjI3NTUsLT
-E0OTc5MTM2ODIsMTQ5NjIwNzY0NiwtMTIxMzI1MTQ3MywxMTky
-ODI2NTM0LC01ODk5MjU5MzBdfQ==
+eyJoaXN0b3J5IjpbMTY3MDU0OTUyNiwtMjE0Mzg5Njg2NywtMT
+gwNDU2Mjc1NSwtMTQ5NzkxMzY4MiwxNDk2MjA3NjQ2LC0xMjEz
+MjUxNDczLDExOTI4MjY1MzQsLTU4OTkyNTkzMF19
 -->
