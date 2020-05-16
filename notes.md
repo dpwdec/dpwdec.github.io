@@ -8,6 +8,11 @@ title: Notes
 | basics | [Ruby](notes/ruby.html)
 | testing | [RSpec](notes/rspec.html) |
 
+| javascript |  |
+| --- | ---|
+| basics | [Javascript](notes/javascript.html)
+| testing | [Jasmine](notes/jasmine.html) |
+
 | web development |  |
 | --- | ---|
 | basics | [Web Structures](notes/www.html) |
@@ -35,6 +40,6 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzI0MTQ4LC0xOTkwNDM1OTcwLC0yMj
-YxNzUxMzhdfQ==
+eyJoaXN0b3J5IjpbLTEzOTg3ODUxNDgsLTQwMzI0MTQ4LC0xOT
+kwNDM1OTcwLC0yMjYxNzUxMzhdfQ==
 -->
