@@ -712,6 +712,8 @@ Dog.prototype.sayName = function() {
 let dog = new Dog('Banjo');
 dog.sayName(); // => 'Banjo'
 ```
+
+Using `prototype` is also useful for testing because it allows you to mock an entire function definition on a class rather than a function definition of a specific instance. For example, if `Dog` has a dependency of `Bark` and called `sound` on `Bark`
 ## Console
 
 You can **print to the `std_out`** using the `log` function on the `console` object.
@@ -775,11 +777,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzg3NTE5NSwtMjAzNzc3MTE5MywtMj
-Y3MzUxNTkyLC04NDMyNzg0MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2
-MzAsLTkxNTE0NTIxMCwtNzE4MDkwNzg0LDEyMTUzOTUxOTAsLT
-E0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUxMzA3NDcsLTE1
-Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgxNj
-IyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MDQx
-LDc4MDM3NjEyN119
+eyJoaXN0b3J5IjpbMzU4ODM4MDUwLC0yMDM3NzcxMTkzLC0yNj
+czNTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMjY1NDYz
+MCwtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMTIxNTM5NTE5MCwtMT
+Q2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5NTEzMDc0NywtMTUz
+ODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwNDIyLDExODE2Mj
+IxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcwNDEs
+NzgwMzc2MTI3XX0=
 -->
