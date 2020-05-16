@@ -762,7 +762,12 @@ let talkFunction = dog.talk
 talkFunction() // => 'meow'
 ```
 
-You can **bind a function to the **
+You can **`bind` a function to the specific object context** by using the `bind` keyword and submitting as an argument the object context that you want to bind to.
+```js
+let talkFunction = dog.talk
+talkFunction.bind(dog)
+talkFunction() // => 'woof'
+```
 
 ## Console
 
@@ -827,11 +832,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTg2MjA3MCwtMTIyNTg2NDQ1NSw0Nz
-kyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMzc3NzExOTMsLTI2NzM1
-MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0NywxMjEyNjU0NjMwLC
-05MTUxNDUyMTAsLTcxODA5MDc4NCwxMjE1Mzk1MTkwLC0xNDY0
-MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1MTMwNzQ3LC0xNTM4NT
-EyOTgwLC0xMTE2NTI1NTgyLC01OTkyNDA0MjIsMTE4MTYyMjE1
-NiwtNTAyNDk4NDk2XX0=
+eyJoaXN0b3J5IjpbMTIyMzc4Mzc5LC0xMjI1ODY0NDU1LDQ3OT
+I2MDM1NiwtMTk3NTEwNTk5NiwtMjAzNzc3MTE5MywtMjY3MzUx
+NTkyLC04NDMyNzg0MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2MzAsLT
+kxNTE0NTIxMCwtNzE4MDkwNzg0LDEyMTUzOTUxOTAsLTE0NjQx
+Nzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUxMzA3NDcsLTE1Mzg1MT
+I5ODAsLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgxNjIyMTU2
+LC01MDI0OTg0OTZdfQ==
 -->
