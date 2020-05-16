@@ -13,7 +13,7 @@ Jasmine allows you to use `SpecRunner.html` to view the results of Javascript te
 We can set up Jasmine to run through the command line by using the Headless Chrome application and the package Karma. Karma automates testing and produces CLI output for your tests as well as defining how tests should be run, it is essentially a command line replacement for the `SpecRunner.html` file. Headless Chrome is simply a version of chrome that runs without an interface so that browser based tests can be run without the added resource requirements of displaying the testing interface. The output from these tests, when run, is then displayed by Karma in the command line.
 
 ## Walkthrough
-**Create a new repository** for your project and set up git without your project.
+**Create a new repository** for your project and set up `git`.
 
 ### Install Node Modules
 
@@ -113,13 +113,13 @@ Finally, to **set up the tests to run with a single command** you need to add an
 ```
 
 You should be able to **run your Jasmine tests from the command line** now by using the `test` command.
-```js
-npm test
+```
+$ npm test
 ```
 
 ### CI with Travis
 
-To **integrate this approach with Travis**. Create a `.travis.yml` file, specify that you are running a `node` project and call a script that executes your `karma` tests. When you push to github with Travis enabled your tests should run successfully.
+To **integrate this approach with Travis**. Create a `.travis.yml` file, specify that you are running a `node` project and call a script that executes your `karma` tests. When you push to github with Travis enabled your tests should run successfully. Below is an example `.travis.yml` file for the project
 ```yml
 language: node_js
 script: karma start karma.conf.js --single-run
@@ -127,5 +127,5 @@ node_js:
 - "node"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTQ3OTI2OV19
+eyJoaXN0b3J5IjpbMTgzNDU2MjUxNF19
 -->
