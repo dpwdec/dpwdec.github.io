@@ -623,7 +623,7 @@ var Antelope = function(name) {
 };
 ```
 
-You **cannot define class methods inside the class body** when using ES5, instead use the `pototype` field to add methods to the class.
+You **can define methods outside of the class body** using the `pototype` field to add methods to the class.
 ```js
 Antelope.prototype.myFunction = function() {
   return 'My name is ' + this.name
@@ -671,6 +671,7 @@ antelope.myFunction(); // => 'My name is Mark.'
 
 ### Prototype
 
+Functions added to classes using `prototype` are separate from functions added *within* a class. If you define
 
 
 ## Console
@@ -736,11 +737,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzOTE2NDg5MywtMjAzNzc3MTE5MywtMj
-Y3MzUxNTkyLC04NDMyNzg0MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2
-MzAsLTkxNTE0NTIxMCwtNzE4MDkwNzg0LDEyMTUzOTUxOTAsLT
-E0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUxMzA3NDcsLTE1
-Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgxNj
-IyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MDQx
-LDc4MDM3NjEyN119
+eyJoaXN0b3J5IjpbMjA3NzI1MjExLC0yMDM3NzcxMTkzLC0yNj
+czNTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMjY1NDYz
+MCwtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMTIxNTM5NTE5MCwtMT
+Q2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5NTEzMDc0NywtMTUz
+ODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwNDIyLDExODE2Mj
+IxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcwNDEs
+NzgwMzc2MTI3XX0=
 -->
