@@ -695,7 +695,23 @@ Dog.prototype.sayName = function() {
 }
 ```
 
-When **overwriting a function** defined in *both* the class definition 
+When **overwriting a function** defined in *both* the class definition *and* `prototype`, the **class definition version of the function takes precedence**.
+```js
+function Dog(name) {
+  this.name = name;
+  
+  this.sayName = function() {
+    console.log(this.name);
+  }
+}
+
+Dog.prototype.sayName = function() {
+  console.log('woof');
+}
+
+let dog = new Dog('Banjo');
+dog.sayName(); // => 'Banjo'
+```
 ## Console
 
 You can **print to the `std_out`** using the `log` function on the `console` object.
@@ -759,11 +775,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4NDYzOTcwLC0yMDM3NzcxMTkzLC0yNj
-czNTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMjY1NDYz
-MCwtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMTIxNTM5NTE5MCwtMT
-Q2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5NTEzMDc0NywtMTUz
-ODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwNDIyLDExODE2Mj
-IxNTYsLTUwMjQ5ODQ5NiwtMTIyMzY4NDAwMyw4NzQwOTcwNDEs
-NzgwMzc2MTI3XX0=
+eyJoaXN0b3J5IjpbMTIzMzg3NTE5NSwtMjAzNzc3MTE5MywtMj
+Y3MzUxNTkyLC04NDMyNzg0MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2
+MzAsLTkxNTE0NTIxMCwtNzE4MDkwNzg0LDEyMTUzOTUxOTAsLT
+E0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUxMzA3NDcsLTE1
+Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgxNj
+IyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MDQx
+LDc4MDM3NjEyN119
 -->
