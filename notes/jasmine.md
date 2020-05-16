@@ -69,12 +69,18 @@ it('stubs the function while maintaining the return value', function() {
 
 You can **stub and `spyOn` the class `prototype` methods** in the same manner as above. This allows you to pass in constructor (class) functions to an object.
 ```js
+class Dependent {
+  
+}
+```
+
+```js
 it('stubs a prototype function', function() {
   myDepdendentObject = new Depdendent(dependencyClass);
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjE2NDMzMTIsLTIxNDM4OTY4NjcsLT
-E4MDQ1NjI3NTUsLTE0OTc5MTM2ODIsMTQ5NjIwNzY0NiwtMTIx
-MzI1MTQ3MywxMTkyODI2NTM0LC01ODk5MjU5MzBdfQ==
+eyJoaXN0b3J5IjpbNjAzNzczNTY4LC0yMTQzODk2ODY3LC0xOD
+A0NTYyNzU1LC0xNDk3OTEzNjgyLDE0OTYyMDc2NDYsLTEyMTMy
+NTE0NzMsMTE5MjgyNjUzNCwtNTg5OTI1OTMwXX0=
 -->
