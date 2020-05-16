@@ -672,16 +672,19 @@ antelope.myFunction(); // => 'My name is Mark.'
 ### Prototype
 
 Functions added to classes using `prototype` are separate from functions added *within* a class. If you define a functional class (ES5 syntax) with methods contained within, these methods will indeed be duplicated on each `new` object that you create from that class, however, they will be separate pieces within memory. However if you create functions on the `prototype` property of a class then that method will **exist in one place**, and class instances that refer to that `prototype` function will simply **reference** it.
+
+In the example below, when creating a `new` instance of `Dog` the `sayName` function will be copied for each instance.
 ```js
 function Dog(name) {
   this.name = name;
   
   this.sayName = function() {
-    console.log(this.name)
+    console.log(this.name);
   }
 }
 ```
 
+However, if the `sayName` function is added to `Dog` using protot
 
 ## Console
 
@@ -746,11 +749,11 @@ function spam(ham, ham) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Mzg1MTA2NywtMjAzNzc3MTE5MywtMj
-Y3MzUxNTkyLC04NDMyNzg0MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2
-MzAsLTkxNTE0NTIxMCwtNzE4MDkwNzg0LDEyMTUzOTUxOTAsLT
-E0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUxMzA3NDcsLTE1
-Mzg1MTI5ODAsLTExMTY1MjU1ODIsLTU5OTI0MDQyMiwxMTgxNj
-IyMTU2LC01MDI0OTg0OTYsLTEyMjM2ODQwMDMsODc0MDk3MDQx
-LDc4MDM3NjEyN119
+eyJoaXN0b3J5IjpbLTEyOTUxMDU1MDUsLTIwMzc3NzExOTMsLT
+I2NzM1MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0NywxMjEyNjU0
+NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4NCwxMjE1Mzk1MTkwLC
+0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1MTMwNzQ3LC0x
+NTM4NTEyOTgwLC0xMTE2NTI1NTgyLC01OTkyNDA0MjIsMTE4MT
+YyMjE1NiwtNTAyNDk4NDk2LC0xMjIzNjg0MDAzLDg3NDA5NzA0
+MSw3ODAzNzYxMjddfQ==
 -->
