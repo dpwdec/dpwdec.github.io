@@ -4,7 +4,8 @@ We split our group of six people into three pairs. We split our project's featur
 
 This emerged organically because our user stories ended up with three distinct nouns. The `user` noun, describing what the user could generally do. The `host` noun describing what a user who is acting as host might want to do the `guest` noun describing a user acting as someone who wants to book a place to stay. This clarified a way in which the user stories could be fairly easily separated between our group.
 
-We followed a proce
+We followed a procedure of recording a list of things that we wanted to accomplish on a trello board.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0NzczMjMsLTQ5NDU3NjMyOF19
+eyJoaXN0b3J5IjpbLTI3NzIyMTQ3MCwtNDk0NTc2MzI4XX0=
 -->
