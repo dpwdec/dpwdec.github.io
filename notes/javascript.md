@@ -830,10 +830,10 @@ function spam(ham, ham) {
 ```
 
 ## Modules
-Modules allow you to store interpolated Javascript code into a single file. These files are named using the `.mjs` file extension. 
+Modules allow you to store interpolated Javascript code into a single file. These files can be named using the `.mjs` file extension, however, this only *HAS* to be the case when you use `node`. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwMTI4MzAsLTQwMDk5MzMxOCwxMjIzNz
+eyJoaXN0b3J5IjpbODM2MzI2NTIsLTQwMDk5MzMxOCwxMjIzNz
 gzNzksLTEyMjU4NjQ0NTUsNDc5MjYwMzU2LC0xOTc1MTA1OTk2
 LC0yMDM3NzcxMTkzLC0yNjczNTE1OTIsLTg0MzI3ODQzNyw3OD
 k2NzY5NDcsMTIxMjY1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3
