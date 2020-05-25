@@ -830,14 +830,14 @@ function spam(ham, ham) {
 ```
 
 ## Modules
-Modules allow you to store interpolate Javascript code into a single file. These files are named using the `.mjs` file extension. 
+Modules allow you to store interpolated Javascript code into a single file. These files are named using the `.mjs` file extension. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDk5MzMxOCwxMjIzNzgzNzksLTEyMj
-U4NjQ0NTUsNDc5MjYwMzU2LC0xOTc1MTA1OTk2LC0yMDM3Nzcx
-MTkzLC0yNjczNTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5NDcsMT
-IxMjY1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMTIxNTM5
-NTE5MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5NTEzMD
-c0NywtMTUzODUxMjk4MCwtMTExNjUyNTU4MiwtNTk5MjQwNDIy
-LDExODE2MjIxNTZdfQ==
+eyJoaXN0b3J5IjpbNjgwMTI4MzAsLTQwMDk5MzMxOCwxMjIzNz
+gzNzksLTEyMjU4NjQ0NTUsNDc5MjYwMzU2LC0xOTc1MTA1OTk2
+LC0yMDM3NzcxMTkzLC0yNjczNTE1OTIsLTg0MzI3ODQzNyw3OD
+k2NzY5NDcsMTIxMjY1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3
+ODQsMTIxNTM5NTE5MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0Njk1NC
+wtMTc5NTEzMDc0NywtMTUzODUxMjk4MCwtMTExNjUyNTU4Miwt
+NTk5MjQwNDIyXX0=
 -->
