@@ -20,7 +20,7 @@ class MyClass {
 
 module.exports = MyClass
 ```
-With `MyClass` added to `module.exports` it can now be loaded inside a Jasmine test using `require` and the relative file path from the test to the source file that is `require`d.
+With `MyClass` added to `module.exports` it can now be loaded inside a Jasmine test using `require` and the relative file path from the test to the source file that is `require`d. This class can be instantiated inside the `beforeEach` function as with any class that you might load into the Jasmine `SpecRunner.html`.
 ```js
 // spec/myClassSpec.js
 describe('My Class', function() {
@@ -33,7 +33,7 @@ describe('My Class', function() {
 
   describe('sayName', function() {
     it('says the hello' function() {
-      expect(myClassInstance.sayName()).toEqual(
+      expect(myClassInstance.sayName()).toEqual('hello my name is Dec')
     })
   })
 })
@@ -113,9 +113,9 @@ it('stubs a prototype function', function() {
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1MTU5MzYwLDg5ODA3MDYyNiwxMDc3MD
-M1NzM5LC0yMDAxNDQxNzgxLC0yMTAxNDgwMjU4LC0yMTQzODk2
-ODY3LC0xODA0NTYyNzU1LC0xNDk3OTEzNjgyLDE0OTYyMDc2ND
-YsLTEyMTMyNTE0NzMsMTE5MjgyNjUzNCwtNTg5OTI1OTMwXX0=
-
+eyJoaXN0b3J5IjpbLTEyODc1NjE2MDksODk4MDcwNjI2LDEwNz
+cwMzU3MzksLTIwMDE0NDE3ODEsLTIxMDE0ODAyNTgsLTIxNDM4
+OTY4NjcsLTE4MDQ1NjI3NTUsLTE0OTc5MTM2ODIsMTQ5NjIwNz
+Y0NiwtMTIxMzI1MTQ3MywxMTkyODI2NTM0LC01ODk5MjU5MzBd
+fQ==
 -->
