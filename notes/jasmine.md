@@ -26,6 +26,8 @@ With `MyClass` added to `module.exports` it can now be loaded inside a Jasmine t
 describe('My Class', function() {
   var MyClass = require('../src/myClass') // load MyClass from the myClass.js file
   var myClassInstance
+
+  beforeEach(function()
 })
 ```
 
@@ -103,8 +105,8 @@ it('stubs a prototype function', function() {
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzAzNTczOSwtMjAwMTQ0MTc4MSwtMj
-EwMTQ4MDI1OCwtMjE0Mzg5Njg2NywtMTgwNDU2Mjc1NSwtMTQ5
-NzkxMzY4MiwxNDk2MjA3NjQ2LC0xMjEzMjUxNDczLDExOTI4Mj
-Y1MzQsLTU4OTkyNTkzMF19
+eyJoaXN0b3J5IjpbODk4MDcwNjI2LDEwNzcwMzU3MzksLTIwMD
+E0NDE3ODEsLTIxMDE0ODAyNTgsLTIxNDM4OTY4NjcsLTE4MDQ1
+NjI3NTUsLTE0OTc5MTM2ODIsMTQ5NjIwNzY0NiwtMTIxMzI1MT
+Q3MywxMTkyODI2NTM0LC01ODk5MjU5MzBdfQ==
 -->
