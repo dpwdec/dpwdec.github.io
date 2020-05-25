@@ -4,6 +4,9 @@ layout: page
 exclude: true
 ---
 
+## Testing Modules
+You can test node modules and classes in Jasmin
+
 ## Spies
 
 The Jasmine equivalent of a doubles and mocks are spies. These have the same functionality of stubbing methods, receiving calls and having pre-defined returns.
@@ -78,7 +81,8 @@ it('stubs a prototype function', function() {
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDE0ODAyNTgsLTIxNDM4OTY4NjcsLT
-E4MDQ1NjI3NTUsLTE0OTc5MTM2ODIsMTQ5NjIwNzY0NiwtMTIx
-MzI1MTQ3MywxMTkyODI2NTM0LC01ODk5MjU5MzBdfQ==
+eyJoaXN0b3J5IjpbLTE1NTI4OTExNzMsLTIxMDE0ODAyNTgsLT
+IxNDM4OTY4NjcsLTE4MDQ1NjI3NTUsLTE0OTc5MTM2ODIsMTQ5
+NjIwNzY0NiwtMTIxMzI1MTQ3MywxMTkyODI2NTM0LC01ODk5Mj
+U5MzBdfQ==
 -->
