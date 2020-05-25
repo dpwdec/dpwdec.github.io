@@ -22,9 +22,10 @@ module.exports = MyClass
 ```
 With `MyClass` added to `module.exports` it can now be loaded inside a Jasmine test using `require` and the relative file path from the test to the source file that is `require`d.
 ```js
-// spec/
+// spec/myClassSpec.js
 describe('My Class', function() {
   var MyClass = require('../src/myClass') // load MyClass from the myClass.js file
+  var myClassInstance
 })
 ```
 
@@ -102,8 +103,8 @@ it('stubs a prototype function', function() {
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyOTY4NDMsLTIwMDE0NDE3ODEsLTIxMD
-E0ODAyNTgsLTIxNDM4OTY4NjcsLTE4MDQ1NjI3NTUsLTE0OTc5
-MTM2ODIsMTQ5NjIwNzY0NiwtMTIxMzI1MTQ3MywxMTkyODI2NT
-M0LC01ODk5MjU5MzBdfQ==
+eyJoaXN0b3J5IjpbMTA3NzAzNTczOSwtMjAwMTQ0MTc4MSwtMj
+EwMTQ4MDI1OCwtMjE0Mzg5Njg2NywtMTgwNDU2Mjc1NSwtMTQ5
+NzkxMzY4MiwxNDk2MjA3NjQ2LC0xMjEzMjUxNDczLDExOTI4Mj
+Y1MzQsLTU4OTkyNTkzMF19
 -->
