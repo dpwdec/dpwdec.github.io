@@ -27,7 +27,15 @@ describe('My Class', function() {
   var MyClass = require('../src/myClass') // load MyClass from the myClass.js file
   var myClassInstance
 
-  beforeEach(function()
+  beforeEach(function() {
+    myClassInstance = new MyClass('Dec')
+  })
+
+  describe('sayName', function() {
+    it('says the hello' function() {
+      expect(myClassInstance.sayName()).toEqual(
+    })
+  })
 })
 ```
 
@@ -105,8 +113,9 @@ it('stubs a prototype function', function() {
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4MDcwNjI2LDEwNzcwMzU3MzksLTIwMD
-E0NDE3ODEsLTIxMDE0ODAyNTgsLTIxNDM4OTY4NjcsLTE4MDQ1
-NjI3NTUsLTE0OTc5MTM2ODIsMTQ5NjIwNzY0NiwtMTIxMzI1MT
-Q3MywxMTkyODI2NTM0LC01ODk5MjU5MzBdfQ==
+eyJoaXN0b3J5IjpbNzU1MTU5MzYwLDg5ODA3MDYyNiwxMDc3MD
+M1NzM5LC0yMDAxNDQxNzgxLC0yMTAxNDgwMjU4LC0yMTQzODk2
+ODY3LC0xODA0NTYyNzU1LC0xNDk3OTEzNjgyLDE0OTYyMDc2ND
+YsLTEyMTMyNTE0NzMsMTE5MjgyNjUzNCwtNTg5OTI1OTMwXX0=
+
 -->
