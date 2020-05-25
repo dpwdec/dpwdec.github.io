@@ -7,7 +7,7 @@ exclude: true
 ## Testing Modules
 You can test node modules and classes in Jasmine by using the `module.exports` syntax combined with `require` inside of your jasmine tests.  In the `myClass` file below, a class called `MyClass` is defined using ES6 syntax. Then at the bottom of the class it is added to the `module.exports` path.
 ```js
-// myClass.js
+// src/myClass.js
 class MyClass {
   constructor(name) {
     this.name = name
@@ -20,7 +20,13 @@ class MyClass {
 
 module.exports = MyClass
 ```
-With `MyClass` added to `module.exports` it can now be loaded inside a Jasmine te
+With `MyClass` added to `module.exports` it can now be loaded inside a Jasmine test using `require` and the relative file path from the test to the source file that is `require`d.
+```js
+// spec/
+describe('My Class', function() {
+  var MyClass = require('../src/myClass') // load MyClass from the myClass.js file
+})
+```
 
 ## Spies
 
@@ -96,8 +102,8 @@ it('stubs a prototype function', function() {
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzgyOTUyNzMsLTIwMDE0NDE3ODEsLT
-IxMDE0ODAyNTgsLTIxNDM4OTY4NjcsLTE4MDQ1NjI3NTUsLTE0
-OTc5MTM2ODIsMTQ5NjIwNzY0NiwtMTIxMzI1MTQ3MywxMTkyOD
-I2NTM0LC01ODk5MjU5MzBdfQ==
+eyJoaXN0b3J5IjpbNzcyOTY4NDMsLTIwMDE0NDE3ODEsLTIxMD
+E0ODAyNTgsLTIxNDM4OTY4NjcsLTE4MDQ1NjI3NTUsLTE0OTc5
+MTM2ODIsMTQ5NjIwNzY0NiwtMTIxMzI1MTQ3MywxMTkyODI2NT
+M0LC01ODk5MjU5MzBdfQ==
 -->
