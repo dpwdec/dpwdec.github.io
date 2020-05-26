@@ -830,14 +830,15 @@ function spam(ham, ham) {
 ```
 
 ## Modules
-Modules allow you to store interpolated Javascript code into a single file. These files can be named using the `.mjs` file extension, however, this only *HAS* to be the case when you use `node` if you want to use module specific features like the `export` and `import` keyword. When using a module on a webpage you must use `type="module"` inside the `<script>`
+Modules allow you to store interpolated Javascript code into a single file. These files can be named using the `.mjs` file extension, however, this only *HAS* to be the case when you use `node` if you want to use module specific features like the `export` and `import` keyword. When using a module on a webpage you must use `type="module"` inside the `<script>` tags to mark your `.js` files as modules to be loaded, again, if you don't in some way indicate that the file *is* a module then you will not be able to use some of the ES6 module features.
+```html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzE4NTkzMDgsODM2MzI2NTIsLTQwMD
-k5MzMxOCwxMjIzNzgzNzksLTEyMjU4NjQ0NTUsNDc5MjYwMzU2
-LC0xOTc1MTA1OTk2LC0yMDM3NzcxMTkzLC0yNjczNTE1OTIsLT
-g0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMjY1NDYzMCwtOTE1MTQ1
-MjEwLC03MTgwOTA3ODQsMTIxNTM5NTE5MCwtMTQ2NDE3Nzg3NC
-wtMTg4MjI0Njk1NCwtMTc5NTEzMDc0NywtMTUzODUxMjk4MCwt
-MTExNjUyNTU4Ml19
+eyJoaXN0b3J5IjpbMjAzNTk4MzM4Miw4MzYzMjY1MiwtNDAwOT
+kzMzE4LDEyMjM3ODM3OSwtMTIyNTg2NDQ1NSw0NzkyNjAzNTYs
+LTE5NzUxMDU5OTYsLTIwMzc3NzExOTMsLTI2NzM1MTU5MiwtOD
+QzMjc4NDM3LDc4OTY3Njk0NywxMjEyNjU0NjMwLC05MTUxNDUy
+MTAsLTcxODA5MDc4NCwxMjE1Mzk1MTkwLC0xNDY0MTc3ODc0LC
+0xODgyMjQ2OTU0LC0xNzk1MTMwNzQ3LC0xNTM4NTEyOTgwLC0x
+MTE2NTI1NTgyXX0=
 -->
