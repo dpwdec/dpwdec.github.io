@@ -97,13 +97,15 @@ cypress can be used for end to end testing in javascript servers
 
 immediately invoked function expression.
 
+when you define a function in the top level inside the browser, defined functions are stored on the `window` object.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1NzM4MTUxLC0xNzg2NDk1MzEzLDg5Mz
-czMjQ3MCwtMTIxMzU0MDQ0MiwxMDk0MTM0MTI0LC0xMTAwMjM3
-NDM3LC0xNzE5MTk1Mjc0LC0xODUxMjI4ODIsMTM0NDUyMjE3OC
-wxNjY4Njc2ODQxLC0xOTI4MDgyOCwxOTQxMjg1ODUzLC02MjY3
-MzgxNzMsLTE5ODc2MjkzNCwtMTY0NDg0NzY5MCwtNjQ5NjIwMD
-MzLC0yMDg1MDUxOTcxLC0yMDM1ODc5NDA2LC0xMTMyODQ2MTM3
-LDE4MDE1NzU3OThdfQ==
+eyJoaXN0b3J5IjpbLTEwNjMzODA0NTQsLTE3ODY0OTUzMTMsOD
+kzNzMyNDcwLC0xMjEzNTQwNDQyLDEwOTQxMzQxMjQsLTExMDAy
+Mzc0MzcsLTE3MTkxOTUyNzQsLTE4NTEyMjg4MiwxMzQ0NTIyMT
+c4LDE2Njg2NzY4NDEsLTE5MjgwODI4LDE5NDEyODU4NTMsLTYy
+NjczODE3MywtMTk4NzYyOTM0LC0xNjQ0ODQ3NjkwLC02NDk2Mj
+AwMzMsLTIwODUwNTE5NzEsLTIwMzU4Nzk0MDYsLTExMzI4NDYx
+MzcsMTgwMTU3NTc5OF19
 -->
