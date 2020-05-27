@@ -96,6 +96,7 @@ cypress can be used for end to end testing in javascript servers
 
 
 immediately invoked function expression.
+--> if you wrap a function in two sets of brackets it becomes an expression 
 
 when you define a function in the top level inside the browser, defined functions are stored on the `window` object.
 
@@ -103,11 +104,11 @@ first class functions means being able to pass functions around as arguments.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzg5NjgwNiwtMTc4NjQ5NTMxMyw4OT
-M3MzI0NzAsLTEyMTM1NDA0NDIsMTA5NDEzNDEyNCwtMTEwMDIz
-NzQzNywtMTcxOTE5NTI3NCwtMTg1MTIyODgyLDEzNDQ1MjIxNz
-gsMTY2ODY3Njg0MSwtMTkyODA4MjgsMTk0MTI4NTg1MywtNjI2
-NzM4MTczLC0xOTg3NjI5MzQsLTE2NDQ4NDc2OTAsLTY0OTYyMD
-AzMywtMjA4NTA1MTk3MSwtMjAzNTg3OTQwNiwtMTEzMjg0NjEz
-NywxODAxNTc1Nzk4XX0=
+eyJoaXN0b3J5IjpbOTA4OTMwMDEsLTMyMzg5NjgwNiwtMTc4Nj
+Q5NTMxMyw4OTM3MzI0NzAsLTEyMTM1NDA0NDIsMTA5NDEzNDEy
+NCwtMTEwMDIzNzQzNywtMTcxOTE5NTI3NCwtMTg1MTIyODgyLD
+EzNDQ1MjIxNzgsMTY2ODY3Njg0MSwtMTkyODA4MjgsMTk0MTI4
+NTg1MywtNjI2NzM4MTczLC0xOTg3NjI5MzQsLTE2NDQ4NDc2OT
+AsLTY0OTYyMDAzMywtMjA4NTA1MTk3MSwtMjAzNTg3OTQwNiwt
+MTEzMjg0NjEzN119
 -->
