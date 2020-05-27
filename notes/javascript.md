@@ -506,7 +506,10 @@ caller(function() {
 
 ### IIFE
 
-An IIFE or **immediately invoked function expression** involves containing a function inside a set of **grouping** `( )` followed by a further set of
+An IIFE or **immediately invoked function expression** involves containing an anonymous function inside a set of **grouping operator** parentheses `( )` followed by a further set of execution parentheses `( )`. The function 
+```js
+(function() { return 'hello' })() // => 'hello'
+```
 
 ### Arrow Functions
 
@@ -874,7 +877,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM3MDIwODQ2LDE5NTc5NDM3NDYsNjg4Mj
+eyJoaXN0b3J5IjpbLTQwNTk4ODQwLDE5NTc5NDM3NDYsNjg4Mj
 MxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgsMTIyMzc4Mzc5LC0x
 MjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NTEwNTk5NiwtMjAzNz
 c3MTE5MywtMjY3MzUxNTkyLC04NDMyNzg0MzcsNzg5Njc2OTQ3
