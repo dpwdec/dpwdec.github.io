@@ -525,7 +525,12 @@ You can use IIFE to **contain variables to avoid the global scope becoming pollu
 // message => undefined
 ```
 
-
+You can **add IIFE defined function to a particular scope while maintaining their context** using closures.
+```js
+(function(context) {
+  var message = 'hello'
+})(this)
+```
 
 ### Arrow Functions
 
@@ -893,11 +898,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTM0MDkxOSwxOTU3OTQzNzQ2LDY4OD
-IzMTY0Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMjM3ODM3OSwt
-MTIyNTg2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMz
-c3NzExOTMsLTI2NzM1MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0
-NywxMjEyNjU0NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4NCwxMj
-E1Mzk1MTkwLC0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1
-MTMwNzQ3XX0=
+eyJoaXN0b3J5IjpbMTQzODEzNjU3MywxNTc1MzQwOTE5LDE5NT
+c5NDM3NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgs
+MTIyMzc4Mzc5LC0xMjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NT
+EwNTk5NiwtMjAzNzc3MTE5MywtMjY3MzUxNTkyLC04NDMyNzg0
+MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2MzAsLTkxNTE0NTIxMCwtNz
+E4MDkwNzg0LDEyMTUzOTUxOTAsLTE0NjQxNzc4NzQsLTE4ODIy
+NDY5NTRdfQ==
 -->
