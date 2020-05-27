@@ -126,14 +126,15 @@ when you define a function in the top level inside the browser, defined function
 first class functions means being able to pass functions around as arguments.
 
 agile manifesto
+SDET
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTEwODA3OTUsLTUzNTgwMTc4MSwtMT
-M1Mzg4MjYzNiwtMzIzODk2ODA2LC0xNzg2NDk1MzEzLDg5Mzcz
-MjQ3MCwtMTIxMzU0MDQ0MiwxMDk0MTM0MTI0LC0xMTAwMjM3ND
-M3LC0xNzE5MTk1Mjc0LC0xODUxMjI4ODIsMTM0NDUyMjE3OCwx
-NjY4Njc2ODQxLC0xOTI4MDgyOCwxOTQxMjg1ODUzLC02MjY3Mz
-gxNzMsLTE5ODc2MjkzNCwtMTY0NDg0NzY5MCwtNjQ5NjIwMDMz
-LC0yMDg1MDUxOTcxXX0=
+eyJoaXN0b3J5IjpbMjEwMDEwNjA2NywtMTU5MTA4MDc5NSwtNT
+M1ODAxNzgxLC0xMzUzODgyNjM2LC0zMjM4OTY4MDYsLTE3ODY0
+OTUzMTMsODkzNzMyNDcwLC0xMjEzNTQwNDQyLDEwOTQxMzQxMj
+QsLTExMDAyMzc0MzcsLTE3MTkxOTUyNzQsLTE4NTEyMjg4Miwx
+MzQ0NTIyMTc4LDE2Njg2NzY4NDEsLTE5MjgwODI4LDE5NDEyOD
+U4NTMsLTYyNjczODE3MywtMTk4NzYyOTM0LC0xNjQ0ODQ3Njkw
+LC02NDk2MjAwMzNdfQ==
 -->
