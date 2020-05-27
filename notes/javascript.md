@@ -286,6 +286,11 @@ var name = 'Dec';
 console.log(`My name is ${name}.`);
 ```
 
+You **cannot multiply strings in Javascript**. For example, `'d' * 5` is not valid syntax for outputting `'ddddd'`, instead you should **use the `repeat` method on a string** to duplicate it. This returns the duplicated string.
+```js
+var letter = 'd
+```
+
 ## Arrays
 
 You can **access the content of multi dimensional arrays** using two consecutive sets of `[ ]` square brackets.
@@ -836,11 +841,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OT
-MzMTgsMTIyMzc4Mzc5LC0xMjI1ODY0NDU1LDQ3OTI2MDM1Niwt
-MTk3NTEwNTk5NiwtMjAzNzc3MTE5MywtMjY3MzUxNTkyLC04ND
-MyNzg0MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2MzAsLTkxNTE0NTIx
-MCwtNzE4MDkwNzg0LDEyMTUzOTUxOTAsLTE0NjQxNzc4NzQsLT
-E4ODIyNDY5NTQsLTE3OTUxMzA3NDcsLTE1Mzg1MTI5ODAsLTEx
-MTY1MjU1ODJdfQ==
+eyJoaXN0b3J5IjpbMjE0MjY4MDI1Nyw2ODgyMzE2NDcsODM2Mz
+I2NTIsLTQwMDk5MzMxOCwxMjIzNzgzNzksLTEyMjU4NjQ0NTUs
+NDc5MjYwMzU2LC0xOTc1MTA1OTk2LC0yMDM3NzcxMTkzLC0yNj
+czNTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMjY1NDYz
+MCwtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMTIxNTM5NTE5MCwtMT
+Q2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5NTEzMDc0NywtMTUz
+ODUxMjk4MF19
 -->
