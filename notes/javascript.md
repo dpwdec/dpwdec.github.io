@@ -781,7 +781,7 @@ talkFunction() // => 'woof'
 You **can use `bind` inside callback arguments** to access the `this` context that the callback is called in. This requires appending `bind` to the `{ }` inside the argument.
 ```js
 var name = 'dec'
-someFunctionThatTakesACallback(function() {
+someFunction(function() {
   console.log(this.name)
 }.bind(this))
 ```
@@ -853,7 +853,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDIyNDY1OSwxOTU3OTQzNzQ2LDY4OD
+eyJoaXN0b3J5IjpbMTMzOTA0Mzk4NiwxOTU3OTQzNzQ2LDY4OD
 IzMTY0Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMjM3ODM3OSwt
 MTIyNTg2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMz
 c3NzExOTMsLTI2NzM1MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0
