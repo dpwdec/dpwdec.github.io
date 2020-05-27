@@ -530,7 +530,7 @@ You can use IIFE to **contain variables to avoid the global scope becoming pollu
 // message => undefined
 ```
 
-You can **add IIFE defined function to a particular scope while maintaining their context** using closures. In the example below, the `context` is some context or object that we want the `sayHello` method to be available in, we then add it as a variable to the context. This `sayHello` method can now retrieve the `message` variable, but the message itself is not in scope. This allows us to mediate what is accessible
+You can **add IIFE defined function to a particular scope while maintaining their context** using closures. In the example below, the `context` is some context or object that we want the `sayHello` method to be available in, we then add it as a variable to the context. This `sayHello` method can now retrieve the `message` variable, but the message itself is not in scope. This allows us to mediate what is accessible within particular scopes to particular methods.
 ```js
 (function(context) {
   var message = 'hello'
@@ -910,7 +910,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzA5NTI5OCwxNTc1MzQwOTE5LDE5NT
+eyJoaXN0b3J5IjpbMTI3MTI1NTE4OSwxNTc1MzQwOTE5LDE5NT
 c5NDM3NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgs
 MTIyMzc4Mzc5LC0xMjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NT
 EwNTk5NiwtMjAzNzc3MTE5MywtMjY3MzUxNTkyLC04NDMyNzg0
