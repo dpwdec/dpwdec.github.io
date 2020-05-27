@@ -511,6 +511,11 @@ An IIFE or **immediately invoked function expression** involves containing a fun
 (function() { return 'hello' })() // => 'hello'
 ```
 
+You can **submit an argument to the enclosing IIFE** by placing in the execution parentheses at the end of the code.
+```js
+function(arg) { return arg })(
+```
+
 You can **define IIFEs with function names**, however the name will not be stored.
 ```js
 (function sayHello() { return 'hello' })() // => 'hello'
@@ -525,7 +530,7 @@ You can use IIFE to **contain variables to avoid the global scope becoming pollu
 // message => undefined
 ```
 
-You can **add IIFE defined function to a particular scope while maintaining their context** using closures.
+You can **add IIFE defined function to a particular scope while maintaining their context** using closures. In the example below, the `context` is some
 ```js
 (function(context) {
   var message = 'hello'
@@ -534,6 +539,9 @@ You can **add IIFE defined function to a particular scope while maintaining thei
   }
   context.sayHello = sayHello
 })(this)
+
+message // => undefined
+sayHello() // => 'hello'
 ```
 
 ### Arrow Functions
@@ -902,7 +910,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTA3NTY5NiwxNTc1MzQwOTE5LDE5NT
+eyJoaXN0b3J5IjpbMTUxODQ0MDI0MiwxNTc1MzQwOTE5LDE5NT
 c5NDM3NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgs
 MTIyMzc4Mzc5LC0xMjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NT
 EwNTk5NiwtMjAzNzc3MTE5MywtMjY3MzUxNTkyLC04NDMyNzg0
