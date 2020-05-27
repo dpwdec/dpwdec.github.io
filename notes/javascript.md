@@ -780,6 +780,7 @@ talkFunction() // => 'woof'
 
 You **can use `bind` inside callback arguments** to access the `this` context that the callback is called in. This requires appending `bind` to the `{ }` inside the argument.
 ```js
+var name = 'dec'
 
 ```
 
@@ -850,11 +851,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDkwOTc4MDAsMTk1Nzk0Mzc0Niw2OD
-gyMzE2NDcsODM2MzI2NTIsLTQwMDk5MzMxOCwxMjIzNzgzNzks
-LTEyMjU4NjQ0NTUsNDc5MjYwMzU2LC0xOTc1MTA1OTk2LC0yMD
-M3NzcxMTkzLC0yNjczNTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5
-NDcsMTIxMjY1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMT
-IxNTM5NTE5MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5
-NTEzMDc0N119
+eyJoaXN0b3J5IjpbMTcwMzI5NTI3LDE5NTc5NDM3NDYsNjg4Mj
+MxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgsMTIyMzc4Mzc5LC0x
+MjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NTEwNTk5NiwtMjAzNz
+c3MTE5MywtMjY3MzUxNTkyLC04NDMyNzg0MzcsNzg5Njc2OTQ3
+LDEyMTI2NTQ2MzAsLTkxNTE0NTIxMCwtNzE4MDkwNzg0LDEyMT
+UzOTUxOTAsLTE0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUx
+MzA3NDddfQ==
 -->
