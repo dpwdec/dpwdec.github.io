@@ -99,13 +99,15 @@ immediately invoked function expression.
 
 when you define a function in the top level inside the browser, defined functions are stored on the `window` object.
 
+first class functions means being able to pass functions around as arguments.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjMzODA0NTQsLTE3ODY0OTUzMTMsOD
-kzNzMyNDcwLC0xMjEzNTQwNDQyLDEwOTQxMzQxMjQsLTExMDAy
-Mzc0MzcsLTE3MTkxOTUyNzQsLTE4NTEyMjg4MiwxMzQ0NTIyMT
-c4LDE2Njg2NzY4NDEsLTE5MjgwODI4LDE5NDEyODU4NTMsLTYy
-NjczODE3MywtMTk4NzYyOTM0LC0xNjQ0ODQ3NjkwLC02NDk2Mj
-AwMzMsLTIwODUwNTE5NzEsLTIwMzU4Nzk0MDYsLTExMzI4NDYx
-MzcsMTgwMTU3NTc5OF19
+eyJoaXN0b3J5IjpbLTMyMzg5NjgwNiwtMTc4NjQ5NTMxMyw4OT
+M3MzI0NzAsLTEyMTM1NDA0NDIsMTA5NDEzNDEyNCwtMTEwMDIz
+NzQzNywtMTcxOTE5NTI3NCwtMTg1MTIyODgyLDEzNDQ1MjIxNz
+gsMTY2ODY3Njg0MSwtMTkyODA4MjgsMTk0MTI4NTg1MywtNjI2
+NzM4MTczLC0xOTg3NjI5MzQsLTE2NDQ4NDc2OTAsLTY0OTYyMD
+AzMywtMjA4NTA1MTk3MSwtMjAzNTg3OTQwNiwtMTEzMjg0NjEz
+NywxODAxNTc1Nzk4XX0=
 -->
