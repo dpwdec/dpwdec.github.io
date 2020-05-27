@@ -118,6 +118,8 @@ function something() { return 'hello' }
 sayHello() // => 'dec'
 ```
 You can encapsulate variables inside this outer context using closures.
+Once a variable is set in this way, its set. You can't change it using a closure.
+commonly `exports` will be the nam
 
 when you define a function in the top level inside the browser, defined functions are stored on the `window` object.
 
@@ -125,7 +127,7 @@ first class functions means being able to pass functions around as arguments.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzMDc4MjkwLC0xMzUzODgyNjM2LC0zMj
+eyJoaXN0b3J5IjpbMTgyNTgzMTcwLC0xMzUzODgyNjM2LC0zMj
 M4OTY4MDYsLTE3ODY0OTUzMTMsODkzNzMyNDcwLC0xMjEzNTQw
 NDQyLDEwOTQxMzQxMjQsLTExMDAyMzc0MzcsLTE3MTkxOTUyNz
 QsLTE4NTEyMjg4MiwxMzQ0NTIyMTc4LDE2Njg2NzY4NDEsLTE5
