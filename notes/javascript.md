@@ -513,7 +513,7 @@ An IIFE or **immediately invoked function expression** involves containing a fun
 
 You can **submit an argument to the enclosing IIFE** by placing in the execution parentheses at the end of the code.
 ```js
-function(arg) { return arg })(
+(function(arg) { return arg })('hello') // => 'hello'
 ```
 
 You can **define IIFEs with function names**, however the name will not be stored.
@@ -910,7 +910,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODQ0MDI0MiwxNTc1MzQwOTE5LDE5NT
+eyJoaXN0b3J5IjpbLTQ1Nzc3NjcyNiwxNTc1MzQwOTE5LDE5NT
 c5NDM3NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgs
 MTIyMzc4Mzc5LC0xMjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NT
 EwNTk5NiwtMjAzNzc3MTE5MywtMjY3MzUxNTkyLC04NDMyNzg0
