@@ -778,7 +778,10 @@ talkFunction.bind(dog)
 talkFunction() // => 'woof'
 ```
 
-You **can use `bind` inside callback arguments** to access the `this` context that the callback is called in. This requires appending `bind` to the `{ }`
+You **can use `bind` inside callback arguments** to access the `this` context that the callback is called in. This requires appending `bind` to the `{ }` inside the argument.
+```js
+
+```
 
 ## Console
 
@@ -847,11 +850,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2Mjk5ODU1OSwxOTU3OTQzNzQ2LDY4OD
-IzMTY0Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMjM3ODM3OSwt
-MTIyNTg2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMz
-c3NzExOTMsLTI2NzM1MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0
-NywxMjEyNjU0NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4NCwxMj
-E1Mzk1MTkwLC0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1
-MTMwNzQ3XX0=
+eyJoaXN0b3J5IjpbLTE0MDkwOTc4MDAsMTk1Nzk0Mzc0Niw2OD
+gyMzE2NDcsODM2MzI2NTIsLTQwMDk5MzMxOCwxMjIzNzgzNzks
+LTEyMjU4NjQ0NTUsNDc5MjYwMzU2LC0xOTc1MTA1OTk2LC0yMD
+M3NzcxMTkzLC0yNjczNTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5
+NDcsMTIxMjY1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMT
+IxNTM5NTE5MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5
+NTEzMDc0N119
 -->
