@@ -529,6 +529,10 @@ You can **add IIFE defined function to a particular scope while maintaining thei
 ```js
 (function(context) {
   var message = 'hello'
+  function sayHello() {
+    return message
+  }
+  context.sayHello = sayHello
 })(this)
 ```
 
@@ -898,7 +902,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODEzNjU3MywxNTc1MzQwOTE5LDE5NT
+eyJoaXN0b3J5IjpbLTI5OTA3NTY5NiwxNTc1MzQwOTE5LDE5NT
 c5NDM3NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgs
 MTIyMzc4Mzc5LC0xMjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NT
 EwNTk5NiwtMjAzNzc3MTE5MywtMjY3MzUxNTkyLC04NDMyNzg0
