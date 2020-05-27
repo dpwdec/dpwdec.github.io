@@ -1,8 +1,9 @@
 ---
-title: Javas
+title: Javascript DOM
 layout: page
 exclude: true
 ---
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTU5OTg3OF19
+eyJoaXN0b3J5IjpbMzQ2MjE0Mzk2XX0=
 -->
