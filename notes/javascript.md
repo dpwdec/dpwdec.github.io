@@ -288,7 +288,11 @@ console.log(`My name is ${name}.`);
 
 You **cannot multiply strings in Javascript**. For example, `'d' * 5` is not valid syntax for outputting `'ddddd'`, instead you should **use the `repeat` method on a string** to duplicate it. This returns the duplicated string.
 ```js
-var letter = 'd
+// with var
+var letter = 'd'
+letter.repeat(5) // => 'ddddd'
+// directly in a string
+'d'.repeat(5) // => 'ddddd'
 ```
 
 ## Arrays
@@ -841,7 +845,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MjY4MDI1Nyw2ODgyMzE2NDcsODM2Mz
+eyJoaXN0b3J5IjpbMTk1Nzk0Mzc0Niw2ODgyMzE2NDcsODM2Mz
 I2NTIsLTQwMDk5MzMxOCwxMjIzNzgzNzksLTEyMjU4NjQ0NTUs
 NDc5MjYwMzU2LC0xOTc1MTA1OTk2LC0yMDM3NzcxMTkzLC0yNj
 czNTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMjY1NDYz
