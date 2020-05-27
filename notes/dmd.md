@@ -104,17 +104,25 @@ function something() { return 'hello' }
 // => hello
 ```
 
+```js
+function(context) {
+  function sayHello(name) {
+    return name
+  }
+}
+```
+
 when you define a function in the top level inside the browser, defined functions are stored on the `window` object.
 
 first class functions means being able to pass functions around as arguments.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM4ODI2MzYsLTMyMzg5NjgwNiwtMT
-c4NjQ5NTMxMyw4OTM3MzI0NzAsLTEyMTM1NDA0NDIsMTA5NDEz
-NDEyNCwtMTEwMDIzNzQzNywtMTcxOTE5NTI3NCwtMTg1MTIyOD
-gyLDEzNDQ1MjIxNzgsMTY2ODY3Njg0MSwtMTkyODA4MjgsMTk0
-MTI4NTg1MywtNjI2NzM4MTczLC0xOTg3NjI5MzQsLTE2NDQ4ND
-c2OTAsLTY0OTYyMDAzMywtMjA4NTA1MTk3MSwtMjAzNTg3OTQw
-NiwtMTEzMjg0NjEzN119
+eyJoaXN0b3J5IjpbMzU4MDkwODU5LC0xMzUzODgyNjM2LC0zMj
+M4OTY4MDYsLTE3ODY0OTUzMTMsODkzNzMyNDcwLC0xMjEzNTQw
+NDQyLDEwOTQxMzQxMjQsLTExMDAyMzc0MzcsLTE3MTkxOTUyNz
+QsLTE4NTEyMjg4MiwxMzQ0NTIyMTc4LDE2Njg2NzY4NDEsLTE5
+MjgwODI4LDE5NDEyODU4NTMsLTYyNjczODE3MywtMTk4NzYyOT
+M0LC0xNjQ0ODQ3NjkwLC02NDk2MjAwMzMsLTIwODUwNTE5NzEs
+LTIwMzU4Nzk0MDZdfQ==
 -->
