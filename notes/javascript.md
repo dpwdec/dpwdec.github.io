@@ -781,7 +781,9 @@ talkFunction() // => 'woof'
 You **can use `bind` inside callback arguments** to access the `this` context that the callback is called in. This requires appending `bind` to the `{ }` inside the argument.
 ```js
 var name = 'dec'
-
+someFunctionThatTakesACallback(function() {
+  console.log(this.name)
+}.bind(this))
 ```
 
 ## Console
@@ -851,11 +853,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzI5NTI3LDE5NTc5NDM3NDYsNjg4Mj
-MxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgsMTIyMzc4Mzc5LC0x
-MjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NTEwNTk5NiwtMjAzNz
-c3MTE5MywtMjY3MzUxNTkyLC04NDMyNzg0MzcsNzg5Njc2OTQ3
-LDEyMTI2NTQ2MzAsLTkxNTE0NTIxMCwtNzE4MDkwNzg0LDEyMT
-UzOTUxOTAsLTE0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUx
-MzA3NDddfQ==
+eyJoaXN0b3J5IjpbMTc1NDIyNDY1OSwxOTU3OTQzNzQ2LDY4OD
+IzMTY0Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMjM3ODM3OSwt
+MTIyNTg2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMz
+c3NzExOTMsLTI2NzM1MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0
+NywxMjEyNjU0NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4NCwxMj
+E1Mzk1MTkwLC0xNDY0MTc3ODc0LC0xODgyMjQ2OTU0LC0xNzk1
+MTMwNzQ3XX0=
 -->
