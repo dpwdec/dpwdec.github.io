@@ -491,7 +491,12 @@ add(1)(2)(3)(4); // => 10
 
 ### Callbacks
 
-A callback is a **function**
+A callback is a **function that is called somewhere in another function when passed as an argument** and usually executes once the calling functions body has finished executing.
+```js
+function caller(callback) {
+  callback()
+}
+```
 
 ### Arrow Functions
 
@@ -859,11 +864,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDIyMTg5NTcsMTk1Nzk0Mzc0Niw2OD
-gyMzE2NDcsODM2MzI2NTIsLTQwMDk5MzMxOCwxMjIzNzgzNzks
-LTEyMjU4NjQ0NTUsNDc5MjYwMzU2LC0xOTc1MTA1OTk2LC0yMD
-M3NzcxMTkzLC0yNjczNTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5
-NDcsMTIxMjY1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3ODQsMT
-IxNTM5NTE5MCwtMTQ2NDE3Nzg3NCwtMTg4MjI0Njk1NCwtMTc5
-NTEzMDc0N119
+eyJoaXN0b3J5IjpbMTYyODgzNDU5LDE5NTc5NDM3NDYsNjg4Mj
+MxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgsMTIyMzc4Mzc5LC0x
+MjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NTEwNTk5NiwtMjAzNz
+c3MTE5MywtMjY3MzUxNTkyLC04NDMyNzg0MzcsNzg5Njc2OTQ3
+LDEyMTI2NTQ2MzAsLTkxNTE0NTIxMCwtNzE4MDkwNzg0LDEyMT
+UzOTUxOTAsLTE0NjQxNzc4NzQsLTE4ODIyNDY5NTQsLTE3OTUx
+MzA3NDddfQ==
 -->
