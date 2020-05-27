@@ -516,7 +516,7 @@ You can **define IIFEs with function names**, however the name will not be store
 (function sayHello() { return 'hello' })() // => 'hello'
 ```
 
-You can use IIFE to **contain variables to avoid the global scope becoming polluted**. In the example below we may want to work with a `var` and have actions using the var execute immediately b
+You can use IIFE to **contain variables to avoid the global scope becoming polluted**. In the example below we may want to work with a `var` and have actions using the var execute immediately but keep the `var` names separate from the scope in which the code is executing in.
 ```js
 (function antiPollution() {
   var message = 'hello'
@@ -524,6 +524,8 @@ You can use IIFE to **contain variables to avoid the global scope becoming pollu
 })() // => 'hello'
 // message => undefined
 ```
+
+
 
 ### Arrow Functions
 
@@ -891,7 +893,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjAzODQ5MCwxOTU3OTQzNzQ2LDY4OD
+eyJoaXN0b3J5IjpbMTU3NTM0MDkxOSwxOTU3OTQzNzQ2LDY4OD
 IzMTY0Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMjM3ODM3OSwt
 MTIyNTg2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMz
 c3NzExOTMsLTI2NzM1MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0
