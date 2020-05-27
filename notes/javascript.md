@@ -493,9 +493,15 @@ add(1)(2)(3)(4); // => 10
 
 A callback is a **function that is called somewhere in another function when passed as an argument** and usually executes once the calling functions body has finished executing.
 ```js
+// caller function that takes a function as an argument and calls it
 function caller(callback) {
   callback()
 }
+
+caller(function() {
+  console.log('hello')
+})
+// => 'hello'
 ```
 
 ### Arrow Functions
@@ -864,7 +870,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODgzNDU5LDE5NTc5NDM3NDYsNjg4Mj
+eyJoaXN0b3J5IjpbNTI3ODA5MzQxLDE5NTc5NDM3NDYsNjg4Mj
 MxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgsMTIyMzc4Mzc5LC0x
 MjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NTEwNTk5NiwtMjAzNz
 c3MTE5MywtMjY3MzUxNTkyLC04NDMyNzg0MzcsNzg5Njc2OTQ3
