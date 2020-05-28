@@ -837,7 +837,20 @@ myClass.caller(function() {
 // => 'undefined' because 'this' in the callback refers to the top level object still because the function is just placed outside
 ```
 
-This becomes more confusing **when callbacks are placed inside `prototype`s.**
+This becomes more confusing **when callbacks are placed inside `prototype`s**.
+```js
+function MyClass() {
+  this.foo = 'bar'
+}
+
+function outerCaller(callback) {
+  callback()
+}
+
+MyClass.prototype.caller = function() {
+  out
+}
+```
 
 ### Bind
 
@@ -957,11 +970,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODIwODkwMzMsLTE1NDgxMzk0NDYsMT
-k5MDIzMzc0OCwxMTI2NzE0MTcyLDEyNzEyNTUxODksMTU3NTM0
-MDkxOSwxOTU3OTQzNzQ2LDY4ODIzMTY0Nyw4MzYzMjY1MiwtND
-AwOTkzMzE4LDEyMjM3ODM3OSwtMTIyNTg2NDQ1NSw0NzkyNjAz
-NTYsLTE5NzUxMDU5OTYsLTIwMzc3NzExOTMsLTI2NzM1MTU5Mi
-wtODQzMjc4NDM3LDc4OTY3Njk0NywxMjEyNjU0NjMwLC05MTUx
-NDUyMTBdfQ==
+eyJoaXN0b3J5IjpbLTQxNTAyNDg0OCwtMTU0ODEzOTQ0NiwxOT
+kwMjMzNzQ4LDExMjY3MTQxNzIsMTI3MTI1NTE4OSwxNTc1MzQw
+OTE5LDE5NTc5NDM3NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MD
+A5OTMzMTgsMTIyMzc4Mzc5LC0xMjI1ODY0NDU1LDQ3OTI2MDM1
+NiwtMTk3NTEwNTk5NiwtMjAzNzc3MTE5MywtMjY3MzUxNTkyLC
+04NDMyNzg0MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2MzAsLTkxNTE0
+NTIxMF19
 -->
