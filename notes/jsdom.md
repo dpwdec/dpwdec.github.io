@@ -15,7 +15,12 @@ function addElement() {
 }
 ```
 
-You can **add HTML attributes to Javascript created elements** using the 
+You can **add HTML attributes to Javascript created elements** using the `setAttribute` method.
+```js
+var pElement = document.createElement('p')
+pElement.setAttribute('id', 'text-0')
+pElement.setAttribute('class', 
+```
 
 ## Targeting
 
@@ -37,5 +42,6 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODU1MTQ2NDcsMzQ2MjE0Mzk2XX0=
+eyJoaXN0b3J5IjpbMTg0NDM0MjUxMSwtMTU4NTUxNDY0NywzND
+YyMTQzOTZdfQ==
 -->
