@@ -19,7 +19,8 @@ You can **add HTML attributes to Javascript created elements** using the `setAtt
 ```js
 var pElement = document.createElement('p')
 pElement.setAttribute('id', 'text-0')
-pElement.setAttribute('class', 
+pElement.setAttribute('class', 'para-class')
+
 ```
 
 ## Targeting
@@ -42,6 +43,6 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDM0MjUxMSwtMTU4NTUxNDY0NywzND
+eyJoaXN0b3J5IjpbMTcxNjE3MzYwNywtMTU4NTUxNDY0NywzND
 YyMTQzOTZdfQ==
 -->
