@@ -804,8 +804,10 @@ foo() // => 'this' refers to the window becuase it is called at the top level
 obj = { bar: foo } // assign foo to the bar property of this object
 obj.bar() // => 'this' refers to obj
 
-
+new foo() // => 'this' refers to the objec that inherits from the foo prototype
 ```
+
+
 
 ### Bind
 
@@ -925,11 +927,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjcxNDE3MiwxMjcxMjU1MTg5LDE1Nz
-UzNDA5MTksMTk1Nzk0Mzc0Niw2ODgyMzE2NDcsODM2MzI2NTIs
-LTQwMDk5MzMxOCwxMjIzNzgzNzksLTEyMjU4NjQ0NTUsNDc5Mj
-YwMzU2LC0xOTc1MTA1OTk2LC0yMDM3NzcxMTkzLC0yNjczNTE1
-OTIsLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMjY1NDYzMCwtOT
-E1MTQ1MjEwLC03MTgwOTA3ODQsMTIxNTM5NTE5MCwtMTQ2NDE3
-Nzg3NF19
+eyJoaXN0b3J5IjpbMTQzMjI1MDU0NiwxMTI2NzE0MTcyLDEyNz
+EyNTUxODksMTU3NTM0MDkxOSwxOTU3OTQzNzQ2LDY4ODIzMTY0
+Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMjM3ODM3OSwtMTIyNT
+g2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMzc3NzEx
+OTMsLTI2NzM1MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0NywxMj
+EyNjU0NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4NCwxMjE1Mzk1
+MTkwXX0=
 -->
