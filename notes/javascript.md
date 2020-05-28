@@ -808,7 +808,9 @@ new foo() // => 'this' refers to the objec that inherits from the foo prototype
 ```
 
 This also means that `callback` functions placed into another function that does have a reference to `this` will appear as undefined.
+```js
 
+```
 
 ### Bind
 
@@ -928,11 +930,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDIzMzc0OCwxMTI2NzE0MTcyLDEyNz
-EyNTUxODksMTU3NTM0MDkxOSwxOTU3OTQzNzQ2LDY4ODIzMTY0
-Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMjM3ODM3OSwtMTIyNT
-g2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMzc3NzEx
-OTMsLTI2NzM1MTU5MiwtODQzMjc4NDM3LDc4OTY3Njk0NywxMj
-EyNjU0NjMwLC05MTUxNDUyMTAsLTcxODA5MDc4NCwxMjE1Mzk1
-MTkwXX0=
+eyJoaXN0b3J5IjpbLTM2MjM5ODA3LDE5OTAyMzM3NDgsMTEyNj
+cxNDE3MiwxMjcxMjU1MTg5LDE1NzUzNDA5MTksMTk1Nzk0Mzc0
+Niw2ODgyMzE2NDcsODM2MzI2NTIsLTQwMDk5MzMxOCwxMjIzNz
+gzNzksLTEyMjU4NjQ0NTUsNDc5MjYwMzU2LC0xOTc1MTA1OTk2
+LC0yMDM3NzcxMTkzLC0yNjczNTE1OTIsLTg0MzI3ODQzNyw3OD
+k2NzY5NDcsMTIxMjY1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3
+ODRdfQ==
 -->
