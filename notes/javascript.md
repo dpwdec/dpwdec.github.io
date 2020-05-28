@@ -857,8 +857,6 @@ talkFunction.bind(dog)
 talkFunction() // => 'woof'
 ```
 
-
-
 ### This with Callbacks
 
 The problems with `this` means that `callback` functions placed into another function that have a reference to `this` will appear as undefined.
@@ -941,7 +939,7 @@ myClass = new MyClass()
 myClass.caller()
 ```
 
-Another way to solve the issue of `this` with callbacks and other scopes, is to **use a `self` variable** that is matched with the `this c
+Another way to solve the issue of `this` with callbacks and other scopes, is to **use a `self` variable** that is matched with the `this` context and pass it into the callback as an argument.
 
 ## Console
 
@@ -1010,11 +1008,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNjAxNjU3OCwxNDExMzAzMjUzLC0xNz
-g0OTI4ODY3LDE1NTE3MzY1MDksMTMwMTUzNzQ5NSwtMTU0ODEz
-OTQ0NiwxOTkwMjMzNzQ4LDExMjY3MTQxNzIsMTI3MTI1NTE4OS
-wxNTc1MzQwOTE5LDE5NTc5NDM3NDYsNjg4MjMxNjQ3LDgzNjMy
-NjUyLC00MDA5OTMzMTgsMTIyMzc4Mzc5LC0xMjI1ODY0NDU1LD
-Q3OTI2MDM1NiwtMTk3NTEwNTk5NiwtMjAzNzc3MTE5MywtMjY3
-MzUxNTkyXX0=
+eyJoaXN0b3J5IjpbOTk0NDI4NzU3LDE0MTEzMDMyNTMsLTE3OD
+Q5Mjg4NjcsMTU1MTczNjUwOSwxMzAxNTM3NDk1LC0xNTQ4MTM5
+NDQ2LDE5OTAyMzM3NDgsMTEyNjcxNDE3MiwxMjcxMjU1MTg5LD
+E1NzUzNDA5MTksMTk1Nzk0Mzc0Niw2ODgyMzE2NDcsODM2MzI2
+NTIsLTQwMDk5MzMxOCwxMjIzNzgzNzksLTEyMjU4NjQ0NTUsND
+c5MjYwMzU2LC0xOTc1MTA1OTk2LC0yMDM3NzcxMTkzLC0yNjcz
+NTE1OTJdfQ==
 -->
