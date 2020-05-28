@@ -799,7 +799,7 @@ function foo() {
   return this
 }
 
-foo() // => 'this' refers to the window becuase it is called at the top level
+foo() // => 'this' refers to the window (or other top level object) becuase it is called at the top level
 
 obj = { bar: foo } // assign foo to the bar property of this object
 obj.bar() // => 'this' refers to obj
@@ -833,7 +833,8 @@ myClass = new MyClass()
 myClass.caller(function() {
   console.log(this.foo)
 })
-// => 'bar' because first 'this' was called inside the prototype caller object and refers to the 
+// => 'bar' because first 'this' was called inside the prototype caller object and refers to the object instnace
+// => 'undefined' because 'this' in the callback refers to the top level
 ```
 
 ### Bind
@@ -954,7 +955,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzgwMDU5NDAsMTk5MDIzMzc0OCwxMT
+eyJoaXN0b3J5IjpbLTE1NDgxMzk0NDYsMTk5MDIzMzc0OCwxMT
 I2NzE0MTcyLDEyNzEyNTUxODksMTU3NTM0MDkxOSwxOTU3OTQz
 NzQ2LDY4ODIzMTY0Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMj
 M3ODM3OSwtMTIyNTg2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5
