@@ -807,7 +807,7 @@ obj.bar() // => 'this' refers to obj
 new foo() // => 'this' refers to the objec that inherits from the foo prototype
 ```
 
-
+This also means that `callback` functions placed into another function
 
 ### Bind
 
@@ -927,7 +927,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjI1MDU0NiwxMTI2NzE0MTcyLDEyNz
+eyJoaXN0b3J5IjpbMTQxMzk4NzE0MiwxMTI2NzE0MTcyLDEyNz
 EyNTUxODksMTU3NTM0MDkxOSwxOTU3OTQzNzQ2LDY4ODIzMTY0
 Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMjM3ODM3OSwtMTIyNT
 g2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMzc3NzEx
