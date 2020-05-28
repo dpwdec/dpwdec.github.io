@@ -916,6 +916,7 @@ myClass = new MyClass()
 myClass.caller(function() {
   console.log(this.foo)
 }.bind(myClass))
+// => Bar
 ```
 
 You can also **use the enclosing context of a `porotype`** with `this` to refer to a specific variable defined on an object. In the example below `bind(this)` is appended to the call back argument and because it is within a `prototype` definition the `this` will refer whatever `prototype` instance inherits from it.
@@ -937,11 +938,29 @@ MyClass.prototype.caller = function() {
 
 myClass = new MyClass()
 myClass.caller()
+// => Bar
+// => Bar
 ```
 
 Another way to solve the issue of `this` with callbacks and other scopes, is to **use a `self` variable** that is assigned as the `this` context which you want in your callback or object and then referencing that in the callback.
 ```js
+function  MyClass() {
+  this.foo = 'bar'
+}
 
+function  outerCaller(callback) {
+  callback()
+}
+
+MyClass.prototype.caller = function() {
+  console.log(this.foo)
+  var  self = this
+  outerCaller(function() {
+    console.log(self.foo)
+  })
+}
+myClass = new  MyClass()
+myClass.caller()
 ```
 
 ## Console
@@ -1011,11 +1030,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODMzNDAwNyw5OTQ0Mjg3NTcsMTQxMT
-MwMzI1MywtMTc4NDkyODg2NywxNTUxNzM2NTA5LDEzMDE1Mzc0
-OTUsLTE1NDgxMzk0NDYsMTk5MDIzMzc0OCwxMTI2NzE0MTcyLD
-EyNzEyNTUxODksMTU3NTM0MDkxOSwxOTU3OTQzNzQ2LDY4ODIz
-MTY0Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMjM3ODM3OSwtMT
-IyNTg2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMzc3
-NzExOTNdfQ==
+eyJoaXN0b3J5IjpbNDA3NDM1ODcxLDk5NDQyODc1NywxNDExMz
+AzMjUzLC0xNzg0OTI4ODY3LDE1NTE3MzY1MDksMTMwMTUzNzQ5
+NSwtMTU0ODEzOTQ0NiwxOTkwMjMzNzQ4LDExMjY3MTQxNzIsMT
+I3MTI1NTE4OSwxNTc1MzQwOTE5LDE5NTc5NDM3NDYsNjg4MjMx
+NjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgsMTIyMzc4Mzc5LC0xMj
+I1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NTEwNTk5NiwtMjAzNzc3
+MTE5M119
 -->
