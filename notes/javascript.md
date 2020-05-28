@@ -792,6 +792,9 @@ fakeBark = function() {}
 fakeBark.prototype.sound = function() {}
 ```
 
+## This
+Javascript's `this` keyword does not function in the most intuitive way i.e. it doesn't work in a traditionally object oriented way. The `this` keyword tends to refer to whatever is
+
 ### Bind
 
 One of the more "interesting" things about Javascript is that when you **extract a function from an object that uses the `this` keyword** into a variable. The thing that `this` points to will change to reflect the scope in which it was extracted into.  As a rule a **function's `this` refers to the place in which the function is being called not where it is defined**.
@@ -910,11 +913,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTI1NTE4OSwxNTc1MzQwOTE5LDE5NT
-c5NDM3NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgs
-MTIyMzc4Mzc5LC0xMjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NT
-EwNTk5NiwtMjAzNzc3MTE5MywtMjY3MzUxNTkyLC04NDMyNzg0
-MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2MzAsLTkxNTE0NTIxMCwtNz
-E4MDkwNzg0LDEyMTUzOTUxOTAsLTE0NjQxNzc4NzQsLTE4ODIy
-NDY5NTRdfQ==
+eyJoaXN0b3J5IjpbLTQxOTIwNzUxNiwxMjcxMjU1MTg5LDE1Nz
+UzNDA5MTksMTk1Nzk0Mzc0Niw2ODgyMzE2NDcsODM2MzI2NTIs
+LTQwMDk5MzMxOCwxMjIzNzgzNzksLTEyMjU4NjQ0NTUsNDc5Mj
+YwMzU2LC0xOTc1MTA1OTk2LC0yMDM3NzcxMTkzLC0yNjczNTE1
+OTIsLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMjY1NDYzMCwtOT
+E1MTQ1MjEwLC03MTgwOTA3ODQsMTIxNTM5NTE5MCwtMTQ2NDE3
+Nzg3NF19
 -->
