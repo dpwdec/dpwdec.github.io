@@ -53,7 +53,11 @@ submitInput.setAttribute('submit', 'Save Information')
 document.body.appendChild(divElement)
 ```
 
-### Load
+### Loading
+
+There are several different ways you can trigger events once a page has loaded which will depend on your needs. As mentioned above, to trigger an event once the `body` of an HTML document is loaded use the `document.body.onload` method.
+
+To **trigger events once the entirety of page is load**
 
 ## Targeting
 
@@ -75,6 +79,6 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTQyMDQzNCwtMTU4NTUxNDY0NywzND
+eyJoaXN0b3J5IjpbMTM4Mzk3NTkzOSwtMTU4NTUxNDY0NywzND
 YyMTQzOTZdfQ==
 -->
