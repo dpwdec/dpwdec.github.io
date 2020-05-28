@@ -939,7 +939,10 @@ myClass = new MyClass()
 myClass.caller()
 ```
 
-Another way to solve the issue of `this` with callbacks and other scopes, is to **use a `self` variable** that is matched with the `this` context and pass it into the callback as an argument.
+Another way to solve the issue of `this` with callbacks and other scopes, is to **use a `self` variable** that is assigned as the `this` context which you want in your callback or object and then referencing that in the callback.
+```js
+
+```
 
 ## Console
 
@@ -1008,7 +1011,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjIxMzE2Miw5OTQ0Mjg3NTcsMTQxMT
+eyJoaXN0b3J5IjpbLTQ1ODMzNDAwNyw5OTQ0Mjg3NTcsMTQxMT
 MwMzI1MywtMTc4NDkyODg2NywxNTUxNzM2NTA5LDEzMDE1Mzc0
 OTUsLTE1NDgxMzk0NDYsMTk5MDIzMzc0OCwxMTI2NzE0MTcyLD
 EyNzEyNTUxODksMTU3NTM0MDkxOSwxOTU3OTQzNzQ2LDY4ODIz
