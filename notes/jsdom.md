@@ -17,10 +17,13 @@ function addElement() {
 
 You can **add HTML attributes to Javascript created elements** using the `setAttribute` method.
 ```js
+// setting id and class for a text element
 var pElement = document.createElement('p')
 pElement.setAttribute('id', 'text-0')
 pElement.setAttribute('class', 'para-class')
 
+// setting value and type for a form input element
+var inuputElement = document.createElement(
 ```
 
 ## Targeting
@@ -43,6 +46,6 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjE3MzYwNywtMTU4NTUxNDY0NywzND
-YyMTQzOTZdfQ==
+eyJoaXN0b3J5IjpbLTIxMTM4NDI1ODgsLTE1ODU1MTQ2NDcsMz
+Q2MjE0Mzk2XX0=
 -->
