@@ -128,13 +128,15 @@ first class functions means being able to pass functions around as arguments.
 agile manifesto
 SDET
 
+consider encapsulating objects in module pattern to propogate and persist data about tests.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDEwNjA2NywtMTU5MTA4MDc5NSwtNT
-M1ODAxNzgxLC0xMzUzODgyNjM2LC0zMjM4OTY4MDYsLTE3ODY0
-OTUzMTMsODkzNzMyNDcwLC0xMjEzNTQwNDQyLDEwOTQxMzQxMj
-QsLTExMDAyMzc0MzcsLTE3MTkxOTUyNzQsLTE4NTEyMjg4Miwx
-MzQ0NTIyMTc4LDE2Njg2NzY4NDEsLTE5MjgwODI4LDE5NDEyOD
-U4NTMsLTYyNjczODE3MywtMTk4NzYyOTM0LC0xNjQ0ODQ3Njkw
-LC02NDk2MjAwMzNdfQ==
+eyJoaXN0b3J5IjpbNTc1OTc1MzIwLDIxMDAxMDYwNjcsLTE1OT
+EwODA3OTUsLTUzNTgwMTc4MSwtMTM1Mzg4MjYzNiwtMzIzODk2
+ODA2LC0xNzg2NDk1MzEzLDg5MzczMjQ3MCwtMTIxMzU0MDQ0Mi
+wxMDk0MTM0MTI0LC0xMTAwMjM3NDM3LC0xNzE5MTk1Mjc0LC0x
+ODUxMjI4ODIsMTM0NDUyMjE3OCwxNjY4Njc2ODQxLC0xOTI4MD
+gyOCwxOTQxMjg1ODUzLC02MjY3MzgxNzMsLTE5ODc2MjkzNCwt
+MTY0NDg0NzY5MF19
 -->
