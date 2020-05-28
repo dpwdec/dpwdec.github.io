@@ -859,7 +859,7 @@ talkFunction() // => 'woof'
 
 ### This with Callbacks
 
-This also means that `callback` functions placed into another function that does have a reference to `this` will appear as undefined.
+The problems with `this` means that `callback` functions placed into another function that have a reference to `this` will appear as undefined.
 ```js
 function MyClass() {
   this.foo = 'bar'
@@ -894,6 +894,8 @@ MyClass.prototype.caller = function() {
     console.log(this.foo)
   })
 }
+// => 'bar' because first 'this' was called inside the prototype caller object and refers to the object instnace
+// => 'undefined' because 'this' in the callback refers to the top level object becuase this fun
 ```
 
 You **can use `bind` inside callback arguments** to access the `this` context that the callback is called in. This requires appending `bind` to the `{ }` inside the argument.
@@ -976,11 +978,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTczNjUwOSwxMzAxNTM3NDk1LC0xNT
-Q4MTM5NDQ2LDE5OTAyMzM3NDgsMTEyNjcxNDE3MiwxMjcxMjU1
-MTg5LDE1NzUzNDA5MTksMTk1Nzk0Mzc0Niw2ODgyMzE2NDcsOD
-M2MzI2NTIsLTQwMDk5MzMxOCwxMjIzNzgzNzksLTEyMjU4NjQ0
-NTUsNDc5MjYwMzU2LC0xOTc1MTA1OTk2LC0yMDM3NzcxMTkzLC
-0yNjczNTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMjY1
-NDYzMF19
+eyJoaXN0b3J5IjpbMTgzODcyNzc3MywxNTUxNzM2NTA5LDEzMD
+E1Mzc0OTUsLTE1NDgxMzk0NDYsMTk5MDIzMzc0OCwxMTI2NzE0
+MTcyLDEyNzEyNTUxODksMTU3NTM0MDkxOSwxOTU3OTQzNzQ2LD
+Y4ODIzMTY0Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMjM3ODM3
+OSwtMTIyNTg2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5OTYsLT
+IwMzc3NzExOTMsLTI2NzM1MTU5MiwtODQzMjc4NDM3LDc4OTY3
+Njk0N119
 -->
