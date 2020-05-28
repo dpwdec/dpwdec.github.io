@@ -834,7 +834,7 @@ myClass.caller(function() {
   console.log(this.foo)
 })
 // => 'bar' because first 'this' was called inside the prototype caller object and refers to the object instnace
-// => 'undefined' because 'this' in the callback refers to the top level
+// => 'undefined' because 'this' in the callback refers to the top level object still because the function is just placed outside
 ```
 
 ### Bind
@@ -955,11 +955,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDgxMzk0NDYsMTk5MDIzMzc0OCwxMT
-I2NzE0MTcyLDEyNzEyNTUxODksMTU3NTM0MDkxOSwxOTU3OTQz
-NzQ2LDY4ODIzMTY0Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMj
-M3ODM3OSwtMTIyNTg2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5
-OTYsLTIwMzc3NzExOTMsLTI2NzM1MTU5MiwtODQzMjc4NDM3LD
-c4OTY3Njk0NywxMjEyNjU0NjMwLC05MTUxNDUyMTAsLTcxODA5
-MDc4NF19
+eyJoaXN0b3J5IjpbLTIyNzE2ODI1MiwtMTU0ODEzOTQ0NiwxOT
+kwMjMzNzQ4LDExMjY3MTQxNzIsMTI3MTI1NTE4OSwxNTc1MzQw
+OTE5LDE5NTc5NDM3NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MD
+A5OTMzMTgsMTIyMzc4Mzc5LC0xMjI1ODY0NDU1LDQ3OTI2MDM1
+NiwtMTk3NTEwNTk5NiwtMjAzNzc3MTE5MywtMjY3MzUxNTkyLC
+04NDMyNzg0MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2MzAsLTkxNTE0
+NTIxMF19
 -->
