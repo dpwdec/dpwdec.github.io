@@ -857,7 +857,7 @@ talkFunction.bind(dog)
 talkFunction() // => 'woof'
 ```
 
-### This with Callbacks
+### This with Callbacks and Objects
 
 The problems with `this` means that `callback` functions placed into another function that have a reference to `this` will appear as undefined.
 ```js
@@ -1008,11 +1008,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0NDI4NzU3LDE0MTEzMDMyNTMsLTE3OD
-Q5Mjg4NjcsMTU1MTczNjUwOSwxMzAxNTM3NDk1LC0xNTQ4MTM5
-NDQ2LDE5OTAyMzM3NDgsMTEyNjcxNDE3MiwxMjcxMjU1MTg5LD
-E1NzUzNDA5MTksMTk1Nzk0Mzc0Niw2ODgyMzE2NDcsODM2MzI2
-NTIsLTQwMDk5MzMxOCwxMjIzNzgzNzksLTEyMjU4NjQ0NTUsND
-c5MjYwMzU2LC0xOTc1MTA1OTk2LC0yMDM3NzcxMTkzLC0yNjcz
-NTE1OTJdfQ==
+eyJoaXN0b3J5IjpbMTExNjIxMzE2Miw5OTQ0Mjg3NTcsMTQxMT
+MwMzI1MywtMTc4NDkyODg2NywxNTUxNzM2NTA5LDEzMDE1Mzc0
+OTUsLTE1NDgxMzk0NDYsMTk5MDIzMzc0OCwxMTI2NzE0MTcyLD
+EyNzEyNTUxODksMTU3NTM0MDkxOSwxOTU3OTQzNzQ2LDY4ODIz
+MTY0Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMjM3ODM3OSwtMT
+IyNTg2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMzc3
+NzExOTNdfQ==
 -->
