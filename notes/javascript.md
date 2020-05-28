@@ -890,10 +890,13 @@ function outerCaller(callback) {
 
 MyClass.prototype.caller = function() {
   console.log(this.foo)
-  console.log(outerCaller(function() {
+  outerCaller(function() {
     console.log(this.foo)
   })
 }
+
+myClass = new MyClass()
+myClass.caller()
 // => 'bar' because first 'this' was called inside the prototype caller object and refers to the object instnace
 // => 'undefined' because 'this' in the callback refers to the top level object becuase this function COULD BE defined outside of the prototype object entirely and then passed in
 ```
@@ -927,7 +930,7 @@ function outerCaller(callback) {
 
 MyClass.prototype.caller = function() {
   console.log(this.foo)
-  console.log(outerCaller(function() {
+  outerCaller(function() {
     console.log(this.foo)
   }.bind(this))
 }
@@ -1001,11 +1004,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQ5Mjg4NjcsMTU1MTczNjUwOSwxMz
-AxNTM3NDk1LC0xNTQ4MTM5NDQ2LDE5OTAyMzM3NDgsMTEyNjcx
-NDE3MiwxMjcxMjU1MTg5LDE1NzUzNDA5MTksMTk1Nzk0Mzc0Ni
-w2ODgyMzE2NDcsODM2MzI2NTIsLTQwMDk5MzMxOCwxMjIzNzgz
-NzksLTEyMjU4NjQ0NTUsNDc5MjYwMzU2LC0xOTc1MTA1OTk2LC
-0yMDM3NzcxMTkzLC0yNjczNTE1OTIsLTg0MzI3ODQzNyw3ODk2
-NzY5NDddfQ==
+eyJoaXN0b3J5IjpbMTk2MTU2MTI0NSwtMTc4NDkyODg2NywxNT
+UxNzM2NTA5LDEzMDE1Mzc0OTUsLTE1NDgxMzk0NDYsMTk5MDIz
+Mzc0OCwxMTI2NzE0MTcyLDEyNzEyNTUxODksMTU3NTM0MDkxOS
+wxOTU3OTQzNzQ2LDY4ODIzMTY0Nyw4MzYzMjY1MiwtNDAwOTkz
+MzE4LDEyMjM3ODM3OSwtMTIyNTg2NDQ1NSw0NzkyNjAzNTYsLT
+E5NzUxMDU5OTYsLTIwMzc3NzExOTMsLTI2NzM1MTU5MiwtODQz
+Mjc4NDM3XX0=
 -->
