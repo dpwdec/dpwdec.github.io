@@ -793,7 +793,10 @@ fakeBark.prototype.sound = function() {}
 ```
 
 ## This
-Javascript's `this` keyword does not function in the most intuitive way i.e. it doesn't work in a traditionally object oriented way. The `this` keyword tends to refer to whatever is
+Javascript's `this` keyword does not function in the most intuitive way i.e. it doesn't work in a traditionally object oriented way. The `this` keyword tends to refers to how a function was called depending on the enclosing object.
+```js
+
+```
 
 ### Bind
 
@@ -913,11 +916,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTIwNzUxNiwxMjcxMjU1MTg5LDE1Nz
-UzNDA5MTksMTk1Nzk0Mzc0Niw2ODgyMzE2NDcsODM2MzI2NTIs
-LTQwMDk5MzMxOCwxMjIzNzgzNzksLTEyMjU4NjQ0NTUsNDc5Mj
-YwMzU2LC0xOTc1MTA1OTk2LC0yMDM3NzcxMTkzLC0yNjczNTE1
-OTIsLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMjY1NDYzMCwtOT
-E1MTQ1MjEwLC03MTgwOTA3ODQsMTIxNTM5NTE5MCwtMTQ2NDE3
-Nzg3NF19
+eyJoaXN0b3J5IjpbLTE5MjQ0OTM3MjYsMTI3MTI1NTE4OSwxNT
+c1MzQwOTE5LDE5NTc5NDM3NDYsNjg4MjMxNjQ3LDgzNjMyNjUy
+LC00MDA5OTMzMTgsMTIyMzc4Mzc5LC0xMjI1ODY0NDU1LDQ3OT
+I2MDM1NiwtMTk3NTEwNTk5NiwtMjAzNzc3MTE5MywtMjY3MzUx
+NTkyLC04NDMyNzg0MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2MzAsLT
+kxNTE0NTIxMCwtNzE4MDkwNzg0LDEyMTUzOTUxOTAsLTE0NjQx
+Nzc4NzRdfQ==
 -->
