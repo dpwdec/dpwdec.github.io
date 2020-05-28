@@ -59,7 +59,7 @@ There are several different ways you can trigger events once a page has loaded w
 
 To **trigger events once the entirety of page is loaded**, including all images, videos, other content etc. Use the `window.onload` method. This is also the most widely supported load method.
 
-To **trigger events once the DOM has loaded**, i.e. when all the page skeleton has loaded but not necessarily all the content that fills those DOM elements
+To **trigger events once the DOM has loaded**, i.e. when all the page skeleton has loaded but not necessarily all the content that fills those DOM elements, use the `document.onload` method.
 
 ## Targeting
 
@@ -81,6 +81,6 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4MDgxNjEsLTE1ODU1MTQ2NDcsMzQ2Mj
-E0Mzk2XX0=
+eyJoaXN0b3J5IjpbLTk0NDkwNjY2NCwtMTU4NTUxNDY0NywzND
+YyMTQzOTZdfQ==
 -->
