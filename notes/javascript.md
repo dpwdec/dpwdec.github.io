@@ -807,7 +807,12 @@ obj.bar() // => 'this' refers to obj
 new foo() // => 'this' refers to the objec that inherits from the foo prototype
 ```
 
-As a side note **`this` does not exist for `prototype`** objects. It seems that `this` only comes into being 
+As a side note **`this` does not exist for `prototype`** objects. It seems that `this` only comes into being once an object that inherits from the prototype has been instantiated. So **using `this` inside a `prototype` object WILL refer to that object instance**.
+```js
+function MyClass() { } 
+
+MyClass.prototype.this
+```
 
 This also means that `callback` functions placed into another function that does have a reference to `this` will appear as undefined.
 ```js
@@ -941,7 +946,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjg3OTg5OSwxOTkwMjMzNzQ4LDExMj
+eyJoaXN0b3J5IjpbMTEwMDg3OTYzMiwxOTkwMjMzNzQ4LDExMj
 Y3MTQxNzIsMTI3MTI1NTE4OSwxNTc1MzQwOTE5LDE5NTc5NDM3
 NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgsMTIyMz
 c4Mzc5LC0xMjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NTEwNTk5
