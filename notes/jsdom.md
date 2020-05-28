@@ -6,14 +6,16 @@ exclude: true
 
 ## Creating
 
-You can **create an HTML element on a page** by using the `document` method `createElement` which creates the HTML element as a javascript object and then appending it to the displayed page `body` after its creation using the `appendChild` method. This **must also be done after the page is loaded** using the `onload` method so that the `body` skeleton has been loaded and created before the Javascript which creates and adds element runs. 
+You can **create an HTML element on a page** by using the `document` method `createElement` which creates the HTML element as a javascript object and then appending it to the displayed page `body` after its creation using the `appendChild` method. This **must also be done after the <body> of the page is loaded** using the `onload` method so that the `body` skeleton has been loaded and created before the Javascript which creates and adds element runs. 
 ```js
-document.body.onload = addElement
+document.body.onload = addElement // => waits until <body> of HTML has loaded
 function addElement() {
 	var pElement = document.createElement('p')
 	document.body.appendChild(pElement)
 }
 ```
+
+You can **add HTML attributes to Javascript created elements** using the 
 
 ## Targeting
 
@@ -35,5 +37,5 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTUwNzM1LDM0NjIxNDM5Nl19
+eyJoaXN0b3J5IjpbLTE1ODU1MTQ2NDcsMzQ2MjE0Mzk2XX0=
 -->
