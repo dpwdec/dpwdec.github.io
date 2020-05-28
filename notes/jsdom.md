@@ -88,7 +88,7 @@ var someOtherChildElement = document.getElementByID('some-id')[3]
 You can **select a list of ALL elements on a page** by using the wildcard `*` operator in place of a `tag`.
 ```js
 var listOfAllPageElements = document.getElementsByTagName('*')
-// iterate through the list and dos o
+// iterate through the list and do something
 ```
 
 ## Retrieving / Setting Content
@@ -110,6 +110,6 @@ document.getElementById('some-id').value = 'hello'
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDYwNzg4MzYsNjU5MzY0MzM4LC0xNT
-g1NTE0NjQ3LDM0NjIxNDM5Nl19
+eyJoaXN0b3J5IjpbNTU5NDQyNDU4LDY1OTM2NDMzOCwtMTU4NT
+UxNDY0NywzNDYyMTQzOTZdfQ==
 -->
