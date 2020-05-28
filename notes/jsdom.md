@@ -53,6 +53,8 @@ submitInput.setAttribute('submit', 'Save Information')
 document.body.appendChild(divElement)
 ```
 
+### Load
+
 ## Targeting
 
 You can **select an element on a page by its `id`** using the `document` method `getElementById` which takes an argument that corresponds to that element's `id` HTML property and returns it as an object.
@@ -73,6 +75,6 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Mjg2NDMxMywtMTU4NTUxNDY0NywzND
+eyJoaXN0b3J5IjpbLTI3NTQyMDQzNCwtMTU4NTUxNDY0NywzND
 YyMTQzOTZdfQ==
 -->
