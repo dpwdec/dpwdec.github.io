@@ -811,7 +811,11 @@ As a side note **`this` does not exist for `prototype`** objects. It seems that 
 ```js
 function MyClass() { } 
 
-MyClass.prototype.this
+MyClass.prototype.this // undefined
+
+MyClass.prototype.foo = function() {
+  this // => refers to an instance of MyClass
+}
 ```
 
 This also means that `callback` functions placed into another function that does have a reference to `this` will appear as undefined.
@@ -946,11 +950,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDg3OTYzMiwxOTkwMjMzNzQ4LDExMj
-Y3MTQxNzIsMTI3MTI1NTE4OSwxNTc1MzQwOTE5LDE5NTc5NDM3
-NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgsMTIyMz
-c4Mzc5LC0xMjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NTEwNTk5
-NiwtMjAzNzc3MTE5MywtMjY3MzUxNTkyLC04NDMyNzg0MzcsNz
-g5Njc2OTQ3LDEyMTI2NTQ2MzAsLTkxNTE0NTIxMCwtNzE4MDkw
-Nzg0XX0=
+eyJoaXN0b3J5IjpbMzExNTg0NTQ4LDE5OTAyMzM3NDgsMTEyNj
+cxNDE3MiwxMjcxMjU1MTg5LDE1NzUzNDA5MTksMTk1Nzk0Mzc0
+Niw2ODgyMzE2NDcsODM2MzI2NTIsLTQwMDk5MzMxOCwxMjIzNz
+gzNzksLTEyMjU4NjQ0NTUsNDc5MjYwMzU2LC0xOTc1MTA1OTk2
+LC0yMDM3NzcxMTkzLC0yNjczNTE1OTIsLTg0MzI3ODQzNyw3OD
+k2NzY5NDcsMTIxMjY1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3
+ODRdfQ==
 -->
