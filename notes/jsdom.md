@@ -10,8 +10,9 @@ You can **create an HTML element on a page** by using the `document` method `cre
 ```js
 document.body.onload = addElement
 function addElement() {
-var pElement = document.createElement('p')
-document.body.appendChild(pElement)
+	var pElement = document.createElement('p')
+	document.body.appendChild(pElement)
+}
 ```
 
 ## Targeting
@@ -34,5 +35,5 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDQ2NDk0NCwzNDYyMTQzOTZdfQ==
+eyJoaXN0b3J5IjpbLTY1NTUwNzM1LDM0NjIxNDM5Nl19
 -->
