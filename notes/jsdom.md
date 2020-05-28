@@ -82,6 +82,7 @@ You can also **directly target element children** by appending square bracket `[
 // target the first (0th) child element of another element
 var someChildElement = document.getElementByID('some-id')[0]
 // target the fourth child element of another element
+var someOtherChildElement = document.getElementByID('some-id')[3]
 ```
 
 ## Retrieving / Setting Content
@@ -103,6 +104,6 @@ document.getElementById('some-id').value = 'hello'
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQzMjMzODMsLTE1ODU1MTQ2NDcsMz
-Q2MjE0Mzk2XX0=
+eyJoaXN0b3J5IjpbNjU5MzY0MzM4LC0xNTg1NTE0NjQ3LDM0Nj
+IxNDM5Nl19
 -->
