@@ -15,11 +15,6 @@ function addElement() {
 }
 ```
 
-You can use the `appendChild` on a range of HTML elements to **create composite HTML elements** before appending them to the top level page.
-```js
-
-```
-
 You can **add HTML attributes to Javascript created elements** using the `setAttribute` method. This can essential target an valid HTML attribute that a value could hold.
 ```js
 // setting id and class for a text element
@@ -35,6 +30,12 @@ inputElement.setAttribute('value', 'hello')
 // setting a links value
 var linkElement = document.createElement('a')
 linkElement.setAttribute('href' 'www.somewebsite.com')
+```
+
+You can use the `appendChild` on a range of HTML elements to **create composite HTML elements** before appending them to the top level page. In the example below a <div> is created and a <form> is added to it followed by two input elements added to the form.
+```js
+var divElement = document.createElement('div')
+var formElement 
 ```
 
 ## Targeting
@@ -57,6 +58,6 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njg1Nzk3NzMsLTE1ODU1MTQ2NDcsMz
-Q2MjE0Mzk2XX0=
+eyJoaXN0b3J5IjpbMTA2NTUxNDQwMSwtMTU4NTUxNDY0NywzND
+YyMTQzOTZdfQ==
 -->
