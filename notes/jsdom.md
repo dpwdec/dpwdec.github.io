@@ -68,6 +68,8 @@ You can **select an element on a page by its `id`** using the `document` method 
 var someDOMElement = document.getElementByID('some-id')
 ```
 
+
+
 ## Retrieving / Setting Content
 
 You can **get and set the text value normal page text elements**, such as <p>, <h1>, <h2> etc. by using the `innerHTML` property.
@@ -83,10 +85,10 @@ You can **get the text value from an <input> element in a <form>** use the `valu
 // return element's text
 var inputElementText = document.getElementById('some-id').value
 // set element's text
-
+document.getElementById('some-id').value = 'hello'
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTMyNjQ1MSwtMTU4NTUxNDY0NywzND
+eyJoaXN0b3J5IjpbLTEzMTgzOTY4NywtMTU4NTUxNDY0NywzND
 YyMTQzOTZdfQ==
 -->
