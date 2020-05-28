@@ -70,8 +70,14 @@ var someDOMElement = document.getElementByID('some-id')
 
 You can **return a list of an element's child elements** by using the `children` method on a target HTML element.
 ```js
-var someDOMElement = document.getElementByID('some-id').chil
+var listOfChildElements = document.getElementByID('some-id').children
+for(i = 0; i < listOfChildElements.length; i++) {
+  var childElement = listOfChildElements[i]
+  // do something with the targeted element here
+}
 ```
+
+You can 
 
 ## Retrieving / Setting Content
 
@@ -92,6 +98,6 @@ document.getElementById('some-id').value = 'hello'
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3Njk5NzUxLC0xNTg1NTE0NjQ3LDM0Nj
-IxNDM5Nl19
+eyJoaXN0b3J5IjpbLTE0MTkyNTg4ODgsLTE1ODU1MTQ2NDcsMz
+Q2MjE0Mzk2XX0=
 -->
