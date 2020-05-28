@@ -77,7 +77,12 @@ for(i = 0; i < listOfChildElements.length; i++) {
 }
 ```
 
-You can 
+You can also **directly target element children** by appending square bracket `[]` array accessors to the end of the targeted element.
+```js
+// target the first (0th) child element of another element
+var someChildElement = document.getElementByID('some-id')[0]
+// target the fourth child element of another element
+```
 
 ## Retrieving / Setting Content
 
@@ -98,6 +103,6 @@ document.getElementById('some-id').value = 'hello'
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTkyNTg4ODgsLTE1ODU1MTQ2NDcsMz
+eyJoaXN0b3J5IjpbLTE1NTQzMjMzODMsLTE1ODU1MTQ2NDcsMz
 Q2MjE0Mzk2XX0=
 -->
