@@ -6,7 +6,11 @@ exclude: true
 
 ## Creating
 
-You can **create an HTML element on a page** by using the `document` method `createElement` which creates the HTML element as a javascript object and then appending it to the displayed page after creation using the 
+You can **create an HTML element on a page** by using the `document` method `createElement` which creates the HTML element as a javascript object and then appending it to the displayed page `body` after creation using the `appendChild` method.
+```js
+var pElement = document.createElement('p')
+document.body.appendChild(pElement)
+```
 
 ## Targeting
 
@@ -28,5 +32,5 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDExNTc0NzMsMzQ2MjE0Mzk2XX0=
+eyJoaXN0b3J5IjpbLTE4Mjk5NzQ0OSwzNDYyMTQzOTZdfQ==
 -->
