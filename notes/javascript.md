@@ -818,43 +818,6 @@ MyClass.prototype.foo = function() {
 }
 ```
 
-This also means that `callback` functions placed into another function that does have a reference to `this` will appear as undefined.
-```js
-function MyClass() {
-  this.foo = 'bar'
-}
-
-MyClass.prototype.caller = function(callback) {
-  console.log(this.foo)
-  callback()
-}
-
-myClass = new MyClass()
-myClass.caller(function() {
-  console.log(this.foo)
-})
-// => 'bar' because first 'this' was called inside the prototype caller object and refers to the object instnace
-// => 'undefined' because 'this' in the callback refers to the top level object still because the function is just placed outside
-```
-
-This becomes more confusing **when callbacks are placed inside `prototype`s**.
-```js
-function MyClass() {
-  this.foo = 'bar'
-}
-
-function outerCaller(callback) {
-  callback()
-}
-
-MyClass.prototype.caller = function() {
-  console.log(this.foo)
-  console.log(outerCaller(function() {
-    console.log(this.foo)
-  })
-}
-```
-
 ### Bind
 
 One of the more "interesting" things about Javascript is that when you **extract a function from an object that uses the `this` keyword** into a variable. The thing that `this` points to will change to reflect the scope in which it was extracted into.  As a rule a **function's `this` refers to the place in which the function is being called not where it is defined**.
@@ -894,8 +857,48 @@ talkFunction.bind(dog)
 talkFunction() // => 'woof'
 ```
 
+### This with Callbacks
+
+This also means that `callback` functions placed into another function that does have a reference to `this` will appear as undefined.
+```js
+function MyClass() {
+  this.foo = 'bar'
+}
+
+MyClass.prototype.caller = function(callback) {
+  console.log(this.foo)
+  callback()
+}
+
+myClass = new MyClass()
+myClass.caller(function() {
+  console.log(this.foo)
+})
+// => 'bar' because first 'this' was called inside the prototype caller object and refers to the object instnace
+// => 'undefined' because 'this' in the callback refers to the top level object still because the function is just placed outside
+```
+
+This becomes more confusing **when callbacks are placed inside `prototype`s**.
+```js
+function MyClass() {
+  this.foo = 'bar'
+}
+
+function outerCaller(callback) {
+  callback()
+}
+
+MyClass.prototype.caller = function() {
+  console.log(this.foo)
+  console.log(outerCaller(function() {
+    console.log(this.foo)
+  })
+}
+```
+
 You **can use `bind` inside callback arguments** to access the `this` context that the callback is called in. This requires appending `bind` to the `{ }` inside the argument.
 ```js
+// THIS EXAMPLE IS WRONG
 var name = 'dec'
 function someFunction(callback) {
   callback()
@@ -973,11 +976,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTUzNzQ5NSwtMTU0ODEzOTQ0NiwxOT
-kwMjMzNzQ4LDExMjY3MTQxNzIsMTI3MTI1NTE4OSwxNTc1MzQw
-OTE5LDE5NTc5NDM3NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MD
-A5OTMzMTgsMTIyMzc4Mzc5LC0xMjI1ODY0NDU1LDQ3OTI2MDM1
-NiwtMTk3NTEwNTk5NiwtMjAzNzc3MTE5MywtMjY3MzUxNTkyLC
-04NDMyNzg0MzcsNzg5Njc2OTQ3LDEyMTI2NTQ2MzAsLTkxNTE0
-NTIxMF19
+eyJoaXN0b3J5IjpbMTU1MTczNjUwOSwxMzAxNTM3NDk1LC0xNT
+Q4MTM5NDQ2LDE5OTAyMzM3NDgsMTEyNjcxNDE3MiwxMjcxMjU1
+MTg5LDE1NzUzNDA5MTksMTk1Nzk0Mzc0Niw2ODgyMzE2NDcsOD
+M2MzI2NTIsLTQwMDk5MzMxOCwxMjIzNzgzNzksLTEyMjU4NjQ0
+NTUsNDc5MjYwMzU2LC0xOTc1MTA1OTk2LC0yMDM3NzcxMTkzLC
+0yNjczNTE1OTIsLTg0MzI3ODQzNyw3ODk2NzY5NDcsMTIxMjY1
+NDYzMF19
 -->
