@@ -898,9 +898,21 @@ MyClass.prototype.caller = function() {
 // => 'undefined' because 'this' in the callback refers to the top level object becuase this function COULD BE defined outside of the prototype object entirely and then passed in
 ```
 
-You **can use `bind` inside callback arguments** to access the `this` context that the callback is called in or the object that this refers to. This requires appending `bind` to the `{ }` inside the argument.
+You **can use `bind` inside callback arguments** to access the `this` context that the callback is called in or the object that this refers to. This requires appending `bind` to the `{ }` inside the argument. In the example below the callback is bound to the `myClass` instance object so that 
 ```js
+function MyClass() {
+  this.foo = 'bar'
+}
 
+MyClass.prototype.caller = function(callback) {
+  console.log(this.foo)
+  callback()
+}
+
+myClass = new MyClass()
+myClass.caller(function() {
+  console.log(this.foo)
+}.(myClass))
 ```
 
 ## Console
@@ -970,7 +982,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTk1Mzg3OSwxNTUxNzM2NTA5LDEzMD
+eyJoaXN0b3J5IjpbMTkwMDUyNTYzMiwxNTUxNzM2NTA5LDEzMD
 E1Mzc0OTUsLTE1NDgxMzk0NDYsMTk5MDIzMzc0OCwxMTI2NzE0
 MTcyLDEyNzEyNTUxODksMTU3NTM0MDkxOSwxOTU3OTQzNzQ2LD
 Y4ODIzMTY0Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMjM3ODM3
