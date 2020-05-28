@@ -40,7 +40,12 @@ formElement.setAttribute('method', 'post')
 formElement.setAttribute('action', '/user')
 divElement.appendChild(formElement)
 var textInput = document.createElement('input')
-textInput 
+textInput.setAttribute('type', 'text')
+textInput.setAttribute('placeholder', 'enter information')
+formElement.appendChild(textInput)
+var submitInput = document.createElement('input')
+submitInput.setAttribute('type', 'submit')
+submitInput.setAttribute('placeholder', 'enter information')
 ```
 
 ## Targeting
@@ -63,6 +68,6 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU0NjcxNTcsLTE1ODU1MTQ2NDcsMz
-Q2MjE0Mzk2XX0=
+eyJoaXN0b3J5IjpbLTI4OTA3MjE0MywtMTU4NTUxNDY0NywzND
+YyMTQzOTZdfQ==
 -->
