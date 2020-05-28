@@ -857,6 +857,8 @@ talkFunction.bind(dog)
 talkFunction() // => 'woof'
 ```
 
+
+
 ### This with Callbacks
 
 The problems with `this` means that `callback` functions placed into another function that have a reference to `this` will appear as undefined.
@@ -918,7 +920,7 @@ myClass.caller(function() {
 }.bind(myClass))
 ```
 
-You can also **use the enclosing context of a `porotype`** with `this` to refer to a specific variable defined on an object.
+You can also **use the enclosing context of a `porotype`** with `this` to refer to a specific variable defined on an object. In the example below `bind(this)` is appended to the call back argument and because it is within a `prototype` definition the `this` will refer whatever `prototype` instance inherits from it.
 ```js
 function MyClass() {
   this.foo = 'bar'
@@ -934,6 +936,9 @@ MyClass.prototype.caller = function() {
     console.log(this.foo)
   }.bind(this))
 }
+
+myClass = new MyClass()
+myClass.caller()
 ```
 
 
@@ -1004,7 +1009,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTU2MTI0NSwtMTc4NDkyODg2NywxNT
+eyJoaXN0b3J5IjpbMTQxMTMwMzI1MywtMTc4NDkyODg2NywxNT
 UxNzM2NTA5LDEzMDE1Mzc0OTUsLTE1NDgxMzk0NDYsMTk5MDIz
 Mzc0OCwxMTI2NzE0MTcyLDEyNzEyNTUxODksMTU3NTM0MDkxOS
 wxOTU3OTQzNzQ2LDY4ODIzMTY0Nyw4MzYzMjY1MiwtNDAwOTkz
