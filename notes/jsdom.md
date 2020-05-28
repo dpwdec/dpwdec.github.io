@@ -74,15 +74,19 @@ You can **get and set the text value normal page text elements**, such as <p>, <
 ```js
 // return element's text
 var elementText = document.getElementById('text-id').innerHTML
-
+// set element's text
+document.getElementById('text-id').innerHTML = 'hello'
 ```
 
 You can **get the text value from an <input> element in a <form>** use the `value` property after targeting the element. This method is also used for **getting the text value from an <textarea>**.
 ```js
+// return element's text
 var inputElementText = document.getElementById('some-id').value
+// set element's text
+
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODI4OTExMSwtMTU4NTUxNDY0NywzND
+eyJoaXN0b3J5IjpbLTU3NTMyNjQ1MSwtMTU4NTUxNDY0NywzND
 YyMTQzOTZdfQ==
 -->
