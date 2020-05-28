@@ -32,20 +32,25 @@ var linkElement = document.createElement('a')
 linkElement.setAttribute('href' 'www.somewebsite.com')
 ```
 
-You can use the `appendChild` on a range of HTML elements to **create composite HTML elements** before appending them to the top level page. In the example below a <div> is created and a <form> is added to it followed by two input elements added to the form.
+You can use the `appendChild` on a range of HTML elements to **create composite HTML elements** before appending them to the top level page. In the example below a <div> is created and a <form> is added to it followed by two input elements added to the form. The <div> is then added to the entire the `document.body` which also adds all the children that were appended to it.
 ```js
 var divElement = document.createElement('div')
 var formElement = document.createElement('form')
 formElement.setAttribute('method', 'post')
 formElement.setAttribute('action', '/user')
 divElement.appendChild(formElement)
+
+// create input elements
 var textInput = document.createElement('input')
 textInput.setAttribute('type', 'text')
 textInput.setAttribute('placeholder', 'enter information')
 formElement.appendChild(textInput)
 var submitInput = document.createElement('input')
 submitInput.setAttribute('type', 'submit')
-submitInput.setAttribute('placeholder', 'enter information')
+submitInput.setAttribute('submit', 'Save Information')
+
+// append div to the top level document with all the content
+document.body.appendChild(divElement)
 ```
 
 ## Targeting
@@ -68,6 +73,6 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTA3MjE0MywtMTU4NTUxNDY0NywzND
+eyJoaXN0b3J5IjpbLTY0Mjg2NDMxMywtMTU4NTUxNDY0NywzND
 YyMTQzOTZdfQ==
 -->
