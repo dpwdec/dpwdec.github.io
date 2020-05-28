@@ -825,11 +825,15 @@ function MyClass() {
 }
 
 MyClass.prototype.caller = function(callback) {
-  
+  console.log(this.foo)
+  callback()
 }
 
 myClass = new MyClass()
-
+myClass.caller(function() {
+  console.log(this.foo)
+})
+// => 'bar' because first 'this' was called inside the prototype caller object and refers to the 
 ```
 
 ### Bind
@@ -950,11 +954,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNTg0NTQ4LDE5OTAyMzM3NDgsMTEyNj
-cxNDE3MiwxMjcxMjU1MTg5LDE1NzUzNDA5MTksMTk1Nzk0Mzc0
-Niw2ODgyMzE2NDcsODM2MzI2NTIsLTQwMDk5MzMxOCwxMjIzNz
-gzNzksLTEyMjU4NjQ0NTUsNDc5MjYwMzU2LC0xOTc1MTA1OTk2
-LC0yMDM3NzcxMTkzLC0yNjczNTE1OTIsLTg0MzI3ODQzNyw3OD
-k2NzY5NDcsMTIxMjY1NDYzMCwtOTE1MTQ1MjEwLC03MTgwOTA3
-ODRdfQ==
+eyJoaXN0b3J5IjpbLTE1MzgwMDU5NDAsMTk5MDIzMzc0OCwxMT
+I2NzE0MTcyLDEyNzEyNTUxODksMTU3NTM0MDkxOSwxOTU3OTQz
+NzQ2LDY4ODIzMTY0Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMj
+M3ODM3OSwtMTIyNTg2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5
+OTYsLTIwMzc3NzExOTMsLTI2NzM1MTU5MiwtODQzMjc4NDM3LD
+c4OTY3Njk0NywxMjEyNjU0NjMwLC05MTUxNDUyMTAsLTcxODA5
+MDc4NF19
 -->
