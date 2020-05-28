@@ -59,7 +59,7 @@ There are several different ways you can trigger events once a page has loaded w
 
 To **trigger events once the entirety of page is loaded**, including all images, videos, other content etc. Use the `window.onload` method. This is also the most widely supported load method.
 
-To **trigger events once the DOM has loaded**, i.e. when all the page skeleton has loaded but not necessarily all the content that fills those DOM elements, use the `document.onload` method.
+To **trigger events once the DOM has loaded**, i.e. when all the page skeleton has loaded but not necessarily all the content that fills those DOM elements, use the `document.onload` method. However, **this method is not very stable** can often not fire at all due to its lack of support.
 
 ## Targeting
 
@@ -68,11 +68,13 @@ You can **select an element on a page by its `id`** using the `document` method 
 var someDOMElement = document.getElementByID('some-id')
 ```
 
-## Retrieving Content
+## Retrieving / Setting Content
 
-You can **get the text value normal page text elements**, such as <p>, <h1>, <h2> etc. by using the `innerHTML` property.
+You can **get and set the text value normal page text elements**, such as <p>, <h1>, <h2> etc. by using the `innerHTML` property.
 ```js
+// return element's text
 var elementText = document.getElementById('text-id').innerHTML
+
 ```
 
 You can **get the text value from an <input> element in a <form>** use the `value` property after targeting the element. This method is also used for **getting the text value from an <textarea>**.
@@ -81,6 +83,6 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDkwNjY2NCwtMTU4NTUxNDY0NywzND
+eyJoaXN0b3J5IjpbMTI2ODI4OTExMSwtMTU4NTUxNDY0NywzND
 YyMTQzOTZdfQ==
 -->
