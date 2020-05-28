@@ -15,7 +15,7 @@ function addElement() {
 }
 ```
 
-You can **add HTML attributes to Javascript created elements** using the `setAttribute` method.
+You can **add HTML attributes to Javascript created elements** using the `setAttribute` method. This can essential target an valid HTML attribute that a value could hold.
 ```js
 // setting id and class for a text element
 var pElement = document.createElement('p')
@@ -23,7 +23,13 @@ pElement.setAttribute('id', 'text-0')
 pElement.setAttribute('class', 'para-class')
 
 // setting value and type for a form input element
-var inuputElement = document.createElement(
+var inuputElement = document.createElement('input')
+inputElement.setAttribute('type', 'text')
+inputElement.setAttribute('value', 'hello')
+
+// setting a links value
+var linkElement = document.createElement('a')
+linkElement.se
 ```
 
 ## Targeting
@@ -46,6 +52,6 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTM4NDI1ODgsLTE1ODU1MTQ2NDcsMz
+eyJoaXN0b3J5IjpbLTE3NTczNTE1NDcsLTE1ODU1MTQ2NDcsMz
 Q2MjE0Mzk2XX0=
 -->
