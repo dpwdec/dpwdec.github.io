@@ -941,6 +941,7 @@ myClass = new MyClass()
 myClass.caller()
 ```
 
+Another way to solve the issue of `this` with callbacks and other scopes, is to **use a `self` variable** that is matched with the `this c
 
 ## Console
 
@@ -1009,11 +1010,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTMwMzI1MywtMTc4NDkyODg2NywxNT
-UxNzM2NTA5LDEzMDE1Mzc0OTUsLTE1NDgxMzk0NDYsMTk5MDIz
-Mzc0OCwxMTI2NzE0MTcyLDEyNzEyNTUxODksMTU3NTM0MDkxOS
-wxOTU3OTQzNzQ2LDY4ODIzMTY0Nyw4MzYzMjY1MiwtNDAwOTkz
-MzE4LDEyMjM3ODM3OSwtMTIyNTg2NDQ1NSw0NzkyNjAzNTYsLT
-E5NzUxMDU5OTYsLTIwMzc3NzExOTMsLTI2NzM1MTU5MiwtODQz
-Mjc4NDM3XX0=
+eyJoaXN0b3J5IjpbLTgxNjAxNjU3OCwxNDExMzAzMjUzLC0xNz
+g0OTI4ODY3LDE1NTE3MzY1MDksMTMwMTUzNzQ5NSwtMTU0ODEz
+OTQ0NiwxOTkwMjMzNzQ4LDExMjY3MTQxNzIsMTI3MTI1NTE4OS
+wxNTc1MzQwOTE5LDE5NTc5NDM3NDYsNjg4MjMxNjQ3LDgzNjMy
+NjUyLC00MDA5OTMzMTgsMTIyMzc4Mzc5LC0xMjI1ODY0NDU1LD
+Q3OTI2MDM1NiwtMTk3NTEwNTk5NiwtMjAzNzc3MTE5MywtMjY3
+MzUxNTkyXX0=
 -->
