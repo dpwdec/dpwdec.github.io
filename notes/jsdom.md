@@ -68,7 +68,10 @@ You can **select an element on a page by its `id`** using the `document` method 
 var someDOMElement = document.getElementByID('some-id')
 ```
 
-
+You can **return a list of an element's child elements** by using the `children` method on a target HTML element.
+```js
+var someDOMElement = document.getElementByID('some-id').chil
+```
 
 ## Retrieving / Setting Content
 
@@ -89,6 +92,6 @@ document.getElementById('some-id').value = 'hello'
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTgzOTY4NywtMTU4NTUxNDY0NywzND
-YyMTQzOTZdfQ==
+eyJoaXN0b3J5IjpbNDA3Njk5NzUxLC0xNTg1NTE0NjQ3LDM0Nj
+IxNDM5Nl19
 -->
