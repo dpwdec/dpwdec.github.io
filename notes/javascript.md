@@ -799,10 +799,12 @@ function foo() {
   return this
 }
 
-foo() // => 'this refers to the window becuase it is called at the top level
+foo() // => 'this' refers to the window becuase it is called at the top level
 
 obj = { bar: foo } // assign foo to the bar property of this object
-obj.bar() // => this refers
+obj.bar() // => 'this' refers to obj
+
+
 ```
 
 ### Bind
@@ -923,7 +925,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDQ1NDUzNywxMjcxMjU1MTg5LDE1Nz
+eyJoaXN0b3J5IjpbMTEyNjcxNDE3MiwxMjcxMjU1MTg5LDE1Nz
 UzNDA5MTksMTk1Nzk0Mzc0Niw2ODgyMzE2NDcsODM2MzI2NTIs
 LTQwMDk5MzMxOCwxMjIzNzgzNzksLTEyMjU4NjQ0NTUsNDc5Mj
 YwMzU2LC0xOTc1MTA1OTk2LC0yMDM3NzcxMTkzLC0yNjczNTE1
