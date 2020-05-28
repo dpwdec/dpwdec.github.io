@@ -16,11 +16,11 @@ You can **get the text value normal page text elements**, such as <p>, <h1>, <h2
 var elementText = document.getElementById('text-id').innerHTML
 ```
 
-You can **get the value from an <input> element in a <form>** use the `value` property after targeting the element.
+You can **get the value from an <input> element in a <form>** use the `value` property after targeting the element. This method is also used for **getting the text**
 ```js
 var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxMzY0NjUsMzQ2MjE0Mzk2XX0=
+eyJoaXN0b3J5IjpbMTUwNzA2NjM3MSwzNDYyMTQzOTZdfQ==
 -->
