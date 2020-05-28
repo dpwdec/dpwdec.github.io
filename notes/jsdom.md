@@ -57,7 +57,9 @@ document.body.appendChild(divElement)
 
 There are several different ways you can trigger events once a page has loaded which will depend on your needs. As mentioned above, to trigger an event once the `body` of an HTML document is loaded use the `document.body.onload` method.
 
-To **trigger events once the entirety of page is load**
+To **trigger events once the entirety of page is loaded**, including all images, videos, other content etc. Use the `window.onload` method. This is also the most widely supported load method.
+
+To **trigger events once the DOM has loaded**, i.e. when all the page skeleton has loaded but not necessarily all the content that fills those DOM elements
 
 ## Targeting
 
@@ -79,6 +81,6 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Mzk3NTkzOSwtMTU4NTUxNDY0NywzND
-YyMTQzOTZdfQ==
+eyJoaXN0b3J5IjpbMjU4MDgxNjEsLTE1ODU1MTQ2NDcsMzQ2Mj
+E0Mzk2XX0=
 -->
