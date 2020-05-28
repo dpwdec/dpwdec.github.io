@@ -15,6 +15,8 @@ function addElement() {
 }
 ```
 
+You can use the `appendChild`
+
 You can **add HTML attributes to Javascript created elements** using the `setAttribute` method. This can essential target an valid HTML attribute that a value could hold.
 ```js
 // setting id and class for a text element
@@ -29,7 +31,7 @@ inputElement.setAttribute('value', 'hello')
 
 // setting a links value
 var linkElement = document.createElement('a')
-linkElement.se
+linkElement.setAttribute('href' 'www.somewebsite.com')
 ```
 
 ## Targeting
@@ -52,6 +54,6 @@ var inputElementText = document.getElementById('some-id').value
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTczNTE1NDcsLTE1ODU1MTQ2NDcsMz
+eyJoaXN0b3J5IjpbLTExNjQ2OTEyNDMsLTE1ODU1MTQ2NDcsMz
 Q2MjE0Mzk2XX0=
 -->
