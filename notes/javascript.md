@@ -546,7 +546,7 @@ sayHello() // => 'hello'
 
 ### Arrow Functions
 
-An arrow function allows you **condense the syntax for defining anonymous functions** by omitting the function keyword and using a `=>` hash rocket arrow instead. Arrow functions are anonymous by default, so to use them you need to assign them to a variable.
+An arrow function allows you **condense the syntax for defining anonymous functions** by omitting the function keyword and using a `=>` hash rocket arrow instead. Arrow functions are anonymous by default, so to use them you need to assign them to a variable. Arrow functions also have the effect of preserving the `this` context that the function was defined in.
 ```js
 let myFunction = () => {
   return 'hello'
@@ -1054,11 +1054,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1NDE4OTMwLDIxMTA4OTMyOTgsMzQzMj
-A1Njc0LC0xNzE1ODk4NTAsOTk0NDI4NzU3LDE0MTEzMDMyNTMs
-LTE3ODQ5Mjg4NjcsMTU1MTczNjUwOSwxMzAxNTM3NDk1LC0xNT
-Q4MTM5NDQ2LDE5OTAyMzM3NDgsMTEyNjcxNDE3MiwxMjcxMjU1
-MTg5LDE1NzUzNDA5MTksMTk1Nzk0Mzc0Niw2ODgyMzE2NDcsOD
-M2MzI2NTIsLTQwMDk5MzMxOCwxMjIzNzgzNzksLTEyMjU4NjQ0
-NTVdfQ==
+eyJoaXN0b3J5IjpbNzE4MjE2OTY0LDc1NTQxODkzMCwyMTEwOD
+kzMjk4LDM0MzIwNTY3NCwtMTcxNTg5ODUwLDk5NDQyODc1Nywx
+NDExMzAzMjUzLC0xNzg0OTI4ODY3LDE1NTE3MzY1MDksMTMwMT
+UzNzQ5NSwtMTU0ODEzOTQ0NiwxOTkwMjMzNzQ4LDExMjY3MTQx
+NzIsMTI3MTI1NTE4OSwxNTc1MzQwOTE5LDE5NTc5NDM3NDYsNj
+g4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgsMTIyMzc4Mzc5
+XX0=
 -->
