@@ -12,7 +12,14 @@ x = 5
 print("this number is " + str(x))
 # => this number is 5
 ```
+
+You can use **string interpolation** by appending an `f` to the beginning of a string (outside the opening `"` quote marks) and using `{ }` curly brackets around the variables you want to interpolate.
+```py
+x = 7
+print(f"this number is {x}")
+# => this number is 7
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDU0NjgxNDAsODU5NzUyNyw2MjA5Nz
-IzMTddfQ==
+eyJoaXN0b3J5IjpbMjgyMTEwOTQ3LDg1OTc1MjcsNjIwOTcyMz
+E3XX0=
 -->
