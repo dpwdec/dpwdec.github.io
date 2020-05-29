@@ -993,6 +993,9 @@ myClass.caller()
 // => Bar
 ```
 
+## Privacy
+
+
 ## Console
 
 You can **print to the `std_out`** using the `log` function on the `console` object.
@@ -1060,11 +1063,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTAwMTEzOTIsNzU1NDE4OTMwLDIxMT
-A4OTMyOTgsMzQzMjA1Njc0LC0xNzE1ODk4NTAsOTk0NDI4NzU3
-LDE0MTEzMDMyNTMsLTE3ODQ5Mjg4NjcsMTU1MTczNjUwOSwxMz
-AxNTM3NDk1LC0xNTQ4MTM5NDQ2LDE5OTAyMzM3NDgsMTEyNjcx
-NDE3MiwxMjcxMjU1MTg5LDE1NzUzNDA5MTksMTk1Nzk0Mzc0Ni
-w2ODgyMzE2NDcsODM2MzI2NTIsLTQwMDk5MzMxOCwxMjIzNzgz
-NzldfQ==
+eyJoaXN0b3J5IjpbMTQ5MjgwOTgsLTEwNTAwMTEzOTIsNzU1ND
+E4OTMwLDIxMTA4OTMyOTgsMzQzMjA1Njc0LC0xNzE1ODk4NTAs
+OTk0NDI4NzU3LDE0MTEzMDMyNTMsLTE3ODQ5Mjg4NjcsMTU1MT
+czNjUwOSwxMzAxNTM3NDk1LC0xNTQ4MTM5NDQ2LDE5OTAyMzM3
+NDgsMTEyNjcxNDE3MiwxMjcxMjU1MTg5LDE1NzUzNDA5MTksMT
+k1Nzk0Mzc0Niw2ODgyMzE2NDcsODM2MzI2NTIsLTQwMDk5MzMx
+OF19
 -->
