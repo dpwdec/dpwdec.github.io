@@ -119,9 +119,12 @@ You can **specify the type of reporting you get** by changes the `reporters` sec
 ```
 reporters: ['progress', 'spec', 'super-dots']
 ```
+
+## Browserify
+[Browserify](http://browserify.org/) allows you to bundle code written in `node` with many dependencies into a single 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjcwODc3MywtMTgxNzAzODk0LDE3MT
-c2OTgyMTMsOTM0MzIyODk5LC01NDQzNDY1NTMsLTEzNTg4MTYx
-OTgsMTM4Mjg3MjE2NSwtNzA1MDM4MzU2LC0xNTQ2NDMyNjcxLC
-0xNTM4NTU4OTBdfQ==
+eyJoaXN0b3J5IjpbMzA0OTcxOTMxLDExNTY3MDg3NzMsLTE4MT
+cwMzg5NCwxNzE3Njk4MjEzLDkzNDMyMjg5OSwtNTQ0MzQ2NTUz
+LC0xMzU4ODE2MTk4LDEzODI4NzIxNjUsLTcwNTAzODM1NiwtMT
+U0NjQzMjY3MSwtMTUzODU1ODkwXX0=
 -->
