@@ -75,7 +75,13 @@ $('h1').on({
 });
 ```
 
-You **must include the code you want executed by a jQuery event as a callback** otherwise the code will execute immediately.
+You **must include the code you want executed by a jQuery event as a callback** otherwise the code will execute immediately. You cannot pass in predefined functions to execute directly, as in the example below, where the `triggerAlert` function is passed directly 
+```js
+function triggerAlert() {
+  alert('you clicked a heading!');
+}
+$('h1').on('click', triggerAler()) // This does not work. The alert will trigger IMMEDIATELY
+```
 
 ## Ajax
 
@@ -189,7 +195,7 @@ $.ajax({
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxNzI4MzU4LC0zODQ1MTU2MDUsLTE1ND
+eyJoaXN0b3J5IjpbMTY0OTMzMzIxLC0zODQ1MTU2MDUsLTE1ND
 M0NDc5NTEsMTc0OTQ1NzM1Miw4ODkwNzI0NDgsMTc1ODI1MzY5
 MSwtMTA2MDY0MzUsMTk4MDc2NzUzNywxMTU3NzQzNDM0XX0=
 -->
