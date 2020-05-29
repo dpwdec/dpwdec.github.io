@@ -130,13 +130,32 @@ SDET
 
 consider encapsulating objects in module pattern to propogate and persist data about tests.
 
+# Get the Middle Letter(s)
+
+Requirements
+
+-   The program runs in a REPL like  `irb`  or in a browser console.
+    
+-   It's fine to use Ruby or JavaScript.
+    
+-   Your job is to return the middle letter of a word. If the word's length is odd, return the middle letter. If the word's length is even, return the middle 2 letters.
+    
+
+#### [](https://github.com/makersacademy/skills-workshops/tree/master/process_review/exercises/middle_letter#acceptance-criteria)Acceptance Criteria
+
+get_middle("test") # => "es"
+get_middle("testing") # => "t"
+get_middle("middle") # => "dd"
+get_middle("A") # => "A"
+get_middle("of") # => "of"
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1OTc1MzIwLDIxMDAxMDYwNjcsLTE1OT
-EwODA3OTUsLTUzNTgwMTc4MSwtMTM1Mzg4MjYzNiwtMzIzODk2
-ODA2LC0xNzg2NDk1MzEzLDg5MzczMjQ3MCwtMTIxMzU0MDQ0Mi
-wxMDk0MTM0MTI0LC0xMTAwMjM3NDM3LC0xNzE5MTk1Mjc0LC0x
-ODUxMjI4ODIsMTM0NDUyMjE3OCwxNjY4Njc2ODQxLC0xOTI4MD
-gyOCwxOTQxMjg1ODUzLC02MjY3MzgxNzMsLTE5ODc2MjkzNCwt
-MTY0NDg0NzY5MF19
+eyJoaXN0b3J5IjpbLTM5ODc1OTU1OCw1NzU5NzUzMjAsMjEwMD
+EwNjA2NywtMTU5MTA4MDc5NSwtNTM1ODAxNzgxLC0xMzUzODgy
+NjM2LC0zMjM4OTY4MDYsLTE3ODY0OTUzMTMsODkzNzMyNDcwLC
+0xMjEzNTQwNDQyLDEwOTQxMzQxMjQsLTExMDAyMzc0MzcsLTE3
+MTkxOTUyNzQsLTE4NTEyMjg4MiwxMzQ0NTIyMTc4LDE2Njg2Nz
+Y4NDEsLTE5MjgwODI4LDE5NDEyODU4NTMsLTYyNjczODE3Mywt
+MTk4NzYyOTM0XX0=
 -->
