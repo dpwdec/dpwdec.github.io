@@ -149,9 +149,9 @@ get_middle("middle") # => "dd"
 get_middle("A") # => "A"
 get_middle("of") # => "of"
 
-> Written with [StackEdit](https://stackedit.io/).
+[https://gist.github.com/dpwdec/5a35cd93f160dcd072ce771d2c7720d1](https://gist.github.com/dpwdec/5a35cd93f160dcd072ce771d2c7720d1)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODc1OTU1OCw1NzU5NzUzMjAsMjEwMD
+eyJoaXN0b3J5IjpbMjA0NDQ5OTEyMyw1NzU5NzUzMjAsMjEwMD
 EwNjA2NywtMTU5MTA4MDc5NSwtNTM1ODAxNzgxLC0xMzUzODgy
 NjM2LC0zMjM4OTY4MDYsLTE3ODY0OTUzMTMsODkzNzMyNDcwLC
 0xMjEzNTQwNDQyLDEwOTQxMzQxMjQsLTExMDAyMzc0MzcsLTE3
