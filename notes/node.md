@@ -121,11 +121,20 @@ reporters: ['progress', 'spec', 'super-dots']
 ```
 
 ## Browserify
-[Browserify](http://browserify.org/) allows you to bundle code written in `node` with many dependencies into a single `bundle.js` file that will run in the browser. After having written your node code, with standard requires and classes etc. Create a top level script (such as `main.js`) that calls the dependencies you have created to do something. This is the file you should target with Browserify which will take this file, scope out all its dependencies, and return a single `bundle.js` file that will run all the code.
+[Browserify](http://browserify.org/) allows you to bundle code written in `node` with many dependencies into a single `bundle.js` file that will run in the browser. After having written your node code, with standard requires and classes etc. Create a top level script (such as `main.js`) that calls the dependencies you have created to do something. This is the file you should target with Browserify which will take this file, scope out all its dependencies, and return a single `bundle.js` file that will run all the code. To install Browserify use:
+```
+$ npm install uniq
+```
 
+To then bundle your javascript into a single file use:
+```
+$ browserify main.js -o bundle.js
+```
+
+After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTY4ODY2ODYsMTE1NjcwODc3MywtMT
-gxNzAzODk0LDE3MTc2OTgyMTMsOTM0MzIyODk5LC01NDQzNDY1
-NTMsLTEzNTg4MTYxOTgsMTM4Mjg3MjE2NSwtNzA1MDM4MzU2LC
-0xNTQ2NDMyNjcxLC0xNTM4NTU4OTBdfQ==
+eyJoaXN0b3J5IjpbLTQ1MTExNjM1NywxMTU2NzA4NzczLC0xOD
+E3MDM4OTQsMTcxNzY5ODIxMyw5MzQzMjI4OTksLTU0NDM0NjU1
+MywtMTM1ODgxNjE5OCwxMzgyODcyMTY1LC03MDUwMzgzNTYsLT
+E1NDY0MzI2NzEsLTE1Mzg1NTg5MF19
 -->
