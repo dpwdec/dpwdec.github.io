@@ -965,6 +965,8 @@ myClass.caller()
 // => Bar
 ```
 
+Another possibility for solving this type of
+
 ## Console
 
 You can **print to the `std_out`** using the `log` function on the `console` object.
@@ -1032,11 +1034,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU4OTg1MCw5OTQ0Mjg3NTcsMTQxMT
-MwMzI1MywtMTc4NDkyODg2NywxNTUxNzM2NTA5LDEzMDE1Mzc0
-OTUsLTE1NDgxMzk0NDYsMTk5MDIzMzc0OCwxMTI2NzE0MTcyLD
-EyNzEyNTUxODksMTU3NTM0MDkxOSwxOTU3OTQzNzQ2LDY4ODIz
-MTY0Nyw4MzYzMjY1MiwtNDAwOTkzMzE4LDEyMjM3ODM3OSwtMT
-IyNTg2NDQ1NSw0NzkyNjAzNTYsLTE5NzUxMDU5OTYsLTIwMzc3
-NzExOTNdfQ==
+eyJoaXN0b3J5IjpbLTI1MjgyNTY2MiwtMTcxNTg5ODUwLDk5ND
+QyODc1NywxNDExMzAzMjUzLC0xNzg0OTI4ODY3LDE1NTE3MzY1
+MDksMTMwMTUzNzQ5NSwtMTU0ODEzOTQ0NiwxOTkwMjMzNzQ4LD
+ExMjY3MTQxNzIsMTI3MTI1NTE4OSwxNTc1MzQwOTE5LDE5NTc5
+NDM3NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgsMT
+IyMzc4Mzc5LC0xMjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NTEw
+NTk5Nl19
 -->
