@@ -35,7 +35,7 @@ var x = 5;
 You can **print out the name of a variable** using the Javascript `Object.keys` and submitting the variable to the `keys` hash.
 ```js
 var myVar = 42
-Object.keys({myVar})[0] // => myVar
+Object.keys({myVar})[0] // => 'myVar'
 ```
 
 ### Undefined
@@ -1060,11 +1060,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzODg0NzQ0LDc1NTQxODkzMCwyMTEwOD
-kzMjk4LDM0MzIwNTY3NCwtMTcxNTg5ODUwLDk5NDQyODc1Nywx
-NDExMzAzMjUzLC0xNzg0OTI4ODY3LDE1NTE3MzY1MDksMTMwMT
-UzNzQ5NSwtMTU0ODEzOTQ0NiwxOTkwMjMzNzQ4LDExMjY3MTQx
-NzIsMTI3MTI1NTE4OSwxNTc1MzQwOTE5LDE5NTc5NDM3NDYsNj
-g4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgsMTIyMzc4Mzc5
-XX0=
+eyJoaXN0b3J5IjpbLTEwNTAwMTEzOTIsNzU1NDE4OTMwLDIxMT
+A4OTMyOTgsMzQzMjA1Njc0LC0xNzE1ODk4NTAsOTk0NDI4NzU3
+LDE0MTEzMDMyNTMsLTE3ODQ5Mjg4NjcsMTU1MTczNjUwOSwxMz
+AxNTM3NDk1LC0xNTQ4MTM5NDQ2LDE5OTAyMzM3NDgsMTEyNjcx
+NDE3MiwxMjcxMjU1MTg5LDE1NzUzNDA5MTksMTk1Nzk0Mzc0Ni
+w2ODgyMzE2NDcsODM2MzI2NTIsLTQwMDk5MzMxOCwxMjIzNzgz
+NzldfQ==
 -->
