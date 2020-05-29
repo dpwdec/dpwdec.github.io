@@ -965,8 +965,27 @@ myClass.caller()
 // => Bar
 ```
 
-Another possibility for solving this type of issue is to use an **arrow function** which means that the functions scope is looked as if were used like a variable.
+Another possibility for solving this type of issue is to use an **arrow function** which means that the functions scope is looked as if were used like a variable, this means the scope that the function is used in inherits from that `this`.
+```js
+function  MyClass() {
+  this.foo = 'bar'
+}
 
+function  outerCaller(callback) {
+  callback()
+}
+
+MyClass.prototype.caller = function() {
+  console.log(this.foo)
+  outerCaller(() => {
+    console.log(this.foo)
+  })
+}
+myClass = new  MyClass()
+myClass.caller()
+// => Bar
+// => Bar
+```
 
 ## Console
 
@@ -1035,11 +1054,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMjA1Njc0LC0xNzE1ODk4NTAsOTk0ND
-I4NzU3LDE0MTEzMDMyNTMsLTE3ODQ5Mjg4NjcsMTU1MTczNjUw
-OSwxMzAxNTM3NDk1LC0xNTQ4MTM5NDQ2LDE5OTAyMzM3NDgsMT
-EyNjcxNDE3MiwxMjcxMjU1MTg5LDE1NzUzNDA5MTksMTk1Nzk0
-Mzc0Niw2ODgyMzE2NDcsODM2MzI2NTIsLTQwMDk5MzMxOCwxMj
-IzNzgzNzksLTEyMjU4NjQ0NTUsNDc5MjYwMzU2LC0xOTc1MTA1
-OTk2XX0=
+eyJoaXN0b3J5IjpbMjExMDg5MzI5OCwzNDMyMDU2NzQsLTE3MT
+U4OTg1MCw5OTQ0Mjg3NTcsMTQxMTMwMzI1MywtMTc4NDkyODg2
+NywxNTUxNzM2NTA5LDEzMDE1Mzc0OTUsLTE1NDgxMzk0NDYsMT
+k5MDIzMzc0OCwxMTI2NzE0MTcyLDEyNzEyNTUxODksMTU3NTM0
+MDkxOSwxOTU3OTQzNzQ2LDY4ODIzMTY0Nyw4MzYzMjY1MiwtND
+AwOTkzMzE4LDEyMjM3ODM3OSwtMTIyNTg2NDQ1NSw0NzkyNjAz
+NTZdfQ==
 -->
