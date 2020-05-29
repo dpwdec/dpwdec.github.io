@@ -965,7 +965,8 @@ myClass.caller()
 // => Bar
 ```
 
-Another possibility for solving this type of
+Another possibility for solving this type of issue is to use an **arrow function** which means that the functions scope is looked as if were used like a variable.
+
 
 ## Console
 
@@ -1034,11 +1035,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjgyNTY2MiwtMTcxNTg5ODUwLDk5ND
-QyODc1NywxNDExMzAzMjUzLC0xNzg0OTI4ODY3LDE1NTE3MzY1
-MDksMTMwMTUzNzQ5NSwtMTU0ODEzOTQ0NiwxOTkwMjMzNzQ4LD
-ExMjY3MTQxNzIsMTI3MTI1NTE4OSwxNTc1MzQwOTE5LDE5NTc5
-NDM3NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OTMzMTgsMT
-IyMzc4Mzc5LC0xMjI1ODY0NDU1LDQ3OTI2MDM1NiwtMTk3NTEw
-NTk5Nl19
+eyJoaXN0b3J5IjpbMzQzMjA1Njc0LC0xNzE1ODk4NTAsOTk0ND
+I4NzU3LDE0MTEzMDMyNTMsLTE3ODQ5Mjg4NjcsMTU1MTczNjUw
+OSwxMzAxNTM3NDk1LC0xNTQ4MTM5NDQ2LDE5OTAyMzM3NDgsMT
+EyNjcxNDE3MiwxMjcxMjU1MTg5LDE1NzUzNDA5MTksMTk1Nzk0
+Mzc0Niw2ODgyMzE2NDcsODM2MzI2NTIsLTQwMDk5MzMxOCwxMj
+IzNzgzNzksLTEyMjU4NjQ0NTUsNDc5MjYwMzU2LC0xOTc1MTA1
+OTk2XX0=
 -->
