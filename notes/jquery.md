@@ -75,6 +75,8 @@ $('h1').on({
 });
 ```
 
+You **must include the code you want executed by a jQuery event as a callback** otherwise the code will execute immediately.
+
 ## Ajax
 
 jQuery has **support for sending dynamic AJAX based server requests** with its `get`, `post` and `load` methods.
@@ -187,7 +189,7 @@ $.ajax({
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDUxNTYwNSwtMTU0MzQ0Nzk1MSwxNz
-Q5NDU3MzUyLDg4OTA3MjQ0OCwxNzU4MjUzNjkxLC0xMDYwNjQz
-NSwxOTgwNzY3NTM3LDExNTc3NDM0MzRdfQ==
+eyJoaXN0b3J5IjpbMjIxNzI4MzU4LC0zODQ1MTU2MDUsLTE1ND
+M0NDc5NTEsMTc0OTQ1NzM1Miw4ODkwNzI0NDgsMTc1ODI1MzY5
+MSwtMTA2MDY0MzUsMTk4MDc2NzUzNywxMTU3NzQzNDM0XX0=
 -->
