@@ -121,10 +121,11 @@ reporters: ['progress', 'spec', 'super-dots']
 ```
 
 ## Browserify
-[Browserify](http://browserify.org/) allows you to bundle code written in `node` with many dependencies into a single 
+[Browserify](http://browserify.org/) allows you to bundle code written in `node` with many dependencies into a single `bundle.js` file that will run in the browser. After having written your node code, with standard requires and classes etc. Create a top level script (such as `main.js`) that calls the dependencies you have created to do something. This is the file you should target with Browserify which will take this file, scope out all its dependencies, and return a single `bundle.js` file that will run all the code.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA0OTcxOTMxLDExNTY3MDg3NzMsLTE4MT
-cwMzg5NCwxNzE3Njk4MjEzLDkzNDMyMjg5OSwtNTQ0MzQ2NTUz
-LC0xMzU4ODE2MTk4LDEzODI4NzIxNjUsLTcwNTAzODM1NiwtMT
-U0NjQzMjY3MSwtMTUzODU1ODkwXX0=
+eyJoaXN0b3J5IjpbLTE1NTY4ODY2ODYsMTE1NjcwODc3MywtMT
+gxNzAzODk0LDE3MTc2OTgyMTMsOTM0MzIyODk5LC01NDQzNDY1
+NTMsLTEzNTg4MTYxOTgsMTM4Mjg3MjE2NSwtNzA1MDM4MzU2LC
+0xNTQ2NDMyNjcxLC0xNTM4NTU4OTBdfQ==
 -->
