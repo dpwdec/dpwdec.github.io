@@ -1071,12 +1071,21 @@ async function myFunction() {
 }
 myFunction() // => Promise
 ```
+
+You can **resolve this `async` returned promise** by placing a `function` into the `then` of the promise.
+```js
+async function myFunction() {
+  return 'hello'
+}
+
+myFunction().then(function(resolve
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExODUzNTcyLC0xMDUwMDExMzkyLDc1NT
-QxODkzMCwyMTEwODkzMjk4LDM0MzIwNTY3NCwtMTcxNTg5ODUw
-LDk5NDQyODc1NywxNDExMzAzMjUzLC0xNzg0OTI4ODY3LDE1NT
-E3MzY1MDksMTMwMTUzNzQ5NSwtMTU0ODEzOTQ0NiwxOTkwMjMz
-NzQ4LDExMjY3MTQxNzIsMTI3MTI1NTE4OSwxNTc1MzQwOTE5LD
-E5NTc5NDM3NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OTMz
-MThdfQ==
+eyJoaXN0b3J5IjpbNjQ0NDUxOTUwLDkxMTg1MzU3MiwtMTA1MD
+AxMTM5Miw3NTU0MTg5MzAsMjExMDg5MzI5OCwzNDMyMDU2NzQs
+LTE3MTU4OTg1MCw5OTQ0Mjg3NTcsMTQxMTMwMzI1MywtMTc4ND
+kyODg2NywxNTUxNzM2NTA5LDEzMDE1Mzc0OTUsLTE1NDgxMzk0
+NDYsMTk5MDIzMzc0OCwxMTI2NzE0MTcyLDEyNzEyNTUxODksMT
+U3NTM0MDkxOSwxOTU3OTQzNzQ2LDY4ODIzMTY0Nyw4MzYzMjY1
+Ml19
 -->
