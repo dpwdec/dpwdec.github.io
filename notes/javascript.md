@@ -1064,7 +1064,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 
 ## Promises
 
-The `Promise` class allows you to handle the results of asynchronous functions by wrapping them in a `Promise` object that accepts functions that will run depending on the results of that asynchronous function. In the function below `timeOutPromise` is defined with a single possible branch called `resolve`. The number of arguments passed into the `Promise` constructor is the number of branches that a promise can resolve to. This `resolve` function is called when the `setTimeOut` function completes after `1000`ms. After this definition the promise is called with each `then` clause (in this case only one) matching the different branches defined in the `Promise` constructor. Whatever value is passed into the 
+The `Promise` class allows you to handle the results of asynchronous functions by wrapping them in a `Promise` object that accepts functions that will run depending on the results of that asynchronous function. In the function below `timeOutPromise` is defined with a single possible branch called `resolve`. The number of arguments passed into the `Promise` constructor is the number of branches that a promise can resolve to. This `resolve` function is called when the `setTimeOut` function completes after `1000`ms. After this definition the promise is called with each `then` clause (in this case only one) matching the different branches defined in the `Promise` constructor. Whatever value is passed into the matching promise resolution branch will be retrievable here.
 ```js
 let timeOutPromise = new Promise(function(resolve) {
   setTimeOut(function() {
@@ -1098,11 +1098,11 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDAyMjY2OCwtMTAxNTExMDIwOCwtMT
-QxNjY3NDExLDEzMjE5MTQxNzMsOTExODUzNTcyLC0xMDUwMDEx
-MzkyLDc1NTQxODkzMCwyMTEwODkzMjk4LDM0MzIwNTY3NCwtMT
-cxNTg5ODUwLDk5NDQyODc1NywxNDExMzAzMjUzLC0xNzg0OTI4
-ODY3LDE1NTE3MzY1MDksMTMwMTUzNzQ5NSwtMTU0ODEzOTQ0Ni
-wxOTkwMjMzNzQ4LDExMjY3MTQxNzIsMTI3MTI1NTE4OSwxNTc1
-MzQwOTE5XX0=
+eyJoaXN0b3J5IjpbNjUwNjM2NTk2LC0xMDE1MTEwMjA4LC0xND
+E2Njc0MTEsMTMyMTkxNDE3Myw5MTE4NTM1NzIsLTEwNTAwMTEz
+OTIsNzU1NDE4OTMwLDIxMTA4OTMyOTgsMzQzMjA1Njc0LC0xNz
+E1ODk4NTAsOTk0NDI4NzU3LDE0MTEzMDMyNTMsLTE3ODQ5Mjg4
+NjcsMTU1MTczNjUwOSwxMzAxNTM3NDk1LC0xNTQ4MTM5NDQ2LD
+E5OTAyMzM3NDgsMTEyNjcxNDE3MiwxMjcxMjU1MTg5LDE1NzUz
+NDA5MTldfQ==
 -->
