@@ -1064,13 +1064,19 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 
 ## Async / Await
 
-The `async` and `await` keywords allow you to define functions that use the resolve values of promise based asynchronous requests. 
+The `async` and `await` keywords allow you to define functions that use the resolve values of promise based asynchronous requests. Defining a function with the `async` keywords makes it return a promise automatically.
+```js
+async function myFunction() {
+  return 'hello'
+}
+myFunction() // => Promise
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzc3OTUzMjQsLTEwNTAwMTEzOTIsNz
-U1NDE4OTMwLDIxMTA4OTMyOTgsMzQzMjA1Njc0LC0xNzE1ODk4
-NTAsOTk0NDI4NzU3LDE0MTEzMDMyNTMsLTE3ODQ5Mjg4NjcsMT
-U1MTczNjUwOSwxMzAxNTM3NDk1LC0xNTQ4MTM5NDQ2LDE5OTAy
-MzM3NDgsMTEyNjcxNDE3MiwxMjcxMjU1MTg5LDE1NzUzNDA5MT
-ksMTk1Nzk0Mzc0Niw2ODgyMzE2NDcsODM2MzI2NTIsLTQwMDk5
-MzMxOF19
+eyJoaXN0b3J5IjpbOTExODUzNTcyLC0xMDUwMDExMzkyLDc1NT
+QxODkzMCwyMTEwODkzMjk4LDM0MzIwNTY3NCwtMTcxNTg5ODUw
+LDk5NDQyODc1NywxNDExMzAzMjUzLC0xNzg0OTI4ODY3LDE1NT
+E3MzY1MDksMTMwMTUzNzQ5NSwtMTU0ODEzOTQ0NiwxOTkwMjMz
+NzQ4LDExMjY3MTQxNzIsMTI3MTI1NTE4OSwxNTc1MzQwOTE5LD
+E5NTc5NDM3NDYsNjg4MjMxNjQ3LDgzNjMyNjUyLC00MDA5OTMz
+MThdfQ==
 -->
