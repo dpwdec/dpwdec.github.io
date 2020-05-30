@@ -1064,7 +1064,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 
 ## Promises
 
-The `Promise` class allows you to handle the results of asynchronous functions by wrapping them in a `Promise` object that accepts functions that will run depending on the results of that asynchronous function. In the function below `timeOutPromise` is defined with a single possible branch called `resolve`. The number of arguments passed into the `Promise` constructor is the number of branches that a promise can resolve to.
+The `Promise` class allows you to handle the results of asynchronous functions by wrapping them in a `Promise` object that accepts functions that will run depending on the results of that asynchronous function. In the function below `timeOutPromise` is defined with a single possible branch called `resolve`. The number of arguments passed into the `Promise` constructor is the number of branches that a promise can resolve to. This `resolve` function is called when the `setTimeOut` function completes after `1000`ms. After this definition the promise is called with each `then` clause (in this case only one) matching the different branches defined in the `Promise` constructor. Whatever value is passed into the 
 ```js
 let timeOutPromise = new Promise(function(resolve) {
   setTimeOut(function() {
@@ -1098,7 +1098,7 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDk0NjE0MiwtMTAxNTExMDIwOCwtMT
+eyJoaXN0b3J5IjpbLTM1NDAyMjY2OCwtMTAxNTExMDIwOCwtMT
 QxNjY3NDExLDEzMjE5MTQxNzMsOTExODUzNTcyLC0xMDUwMDEx
 MzkyLDc1NTQxODkzMCwyMTEwODkzMjk4LDM0MzIwNTY3NCwtMT
 cxNTg5ODUwLDk5NDQyODc1NywxNDExMzAzMjUzLC0xNzg0OTI4
