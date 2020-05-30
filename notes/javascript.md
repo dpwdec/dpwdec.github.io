@@ -1071,6 +1071,10 @@ let timeOutPromise = new Promise(function(resolve) {
     resolve('done')
   }, 1000)
 })
+
+timeOutPromise.then(function(done) {
+  console.log(done)
+}) // => 'done'
 ```
 
 ## Async / Await
@@ -1094,11 +1098,11 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxNzcyMjksLTEwMTUxMTAyMDgsLTE0MT
-Y2NzQxMSwxMzIxOTE0MTczLDkxMTg1MzU3MiwtMTA1MDAxMTM5
-Miw3NTU0MTg5MzAsMjExMDg5MzI5OCwzNDMyMDU2NzQsLTE3MT
-U4OTg1MCw5OTQ0Mjg3NTcsMTQxMTMwMzI1MywtMTc4NDkyODg2
-NywxNTUxNzM2NTA5LDEzMDE1Mzc0OTUsLTE1NDgxMzk0NDYsMT
-k5MDIzMzc0OCwxMTI2NzE0MTcyLDEyNzEyNTUxODksMTU3NTM0
-MDkxOV19
+eyJoaXN0b3J5IjpbLTIwNTQ5NjIyMDksLTEwMTUxMTAyMDgsLT
+E0MTY2NzQxMSwxMzIxOTE0MTczLDkxMTg1MzU3MiwtMTA1MDAx
+MTM5Miw3NTU0MTg5MzAsMjExMDg5MzI5OCwzNDMyMDU2NzQsLT
+E3MTU4OTg1MCw5OTQ0Mjg3NTcsMTQxMTMwMzI1MywtMTc4NDky
+ODg2NywxNTUxNzM2NTA5LDEzMDE1Mzc0OTUsLTE1NDgxMzk0ND
+YsMTk5MDIzMzc0OCwxMTI2NzE0MTcyLDEyNzEyNTUxODksMTU3
+NTM0MDkxOV19
 -->
