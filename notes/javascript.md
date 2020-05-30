@@ -1064,7 +1064,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 
 ## Promises
 
-The `Promise` class allows you to handle the results of asynchronous functions by wrapping them 
+The `Promise` class allows you to handle the results of asynchronous functions by wrapping them in a `Promise` object that accepts functions that will run depending on the results of that asynchronous function.
 
 ## Async / Await
 
@@ -1087,11 +1087,11 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTY2NzQxMSwxMzIxOTE0MTczLDkxMT
-g1MzU3MiwtMTA1MDAxMTM5Miw3NTU0MTg5MzAsMjExMDg5MzI5
-OCwzNDMyMDU2NzQsLTE3MTU4OTg1MCw5OTQ0Mjg3NTcsMTQxMT
-MwMzI1MywtMTc4NDkyODg2NywxNTUxNzM2NTA5LDEzMDE1Mzc0
-OTUsLTE1NDgxMzk0NDYsMTk5MDIzMzc0OCwxMTI2NzE0MTcyLD
-EyNzEyNTUxODksMTU3NTM0MDkxOSwxOTU3OTQzNzQ2LDY4ODIz
-MTY0N119
+eyJoaXN0b3J5IjpbLTEwMTUxMTAyMDgsLTE0MTY2NzQxMSwxMz
+IxOTE0MTczLDkxMTg1MzU3MiwtMTA1MDAxMTM5Miw3NTU0MTg5
+MzAsMjExMDg5MzI5OCwzNDMyMDU2NzQsLTE3MTU4OTg1MCw5OT
+Q0Mjg3NTcsMTQxMTMwMzI1MywtMTc4NDkyODg2NywxNTUxNzM2
+NTA5LDEzMDE1Mzc0OTUsLTE1NDgxMzk0NDYsMTk5MDIzMzc0OC
+wxMTI2NzE0MTcyLDEyNzEyNTUxODksMTU3NTM0MDkxOSwxOTU3
+OTQzNzQ2XX0=
 -->
