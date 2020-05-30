@@ -1066,7 +1066,11 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 
 The `Promise` class allows you to handle the results of asynchronous functions by wrapping them in a `Promise` object that accepts functions that will run depending on the results of that asynchronous function.
 ```js
-let timeOutPromise = new Promise
+let timeOutPromise = new Promise(function(resolve) {
+  setTimeOut(function() {
+    resolve('done')
+  }, 1000)
+})
 ```
 
 ## Async / Await
@@ -1090,11 +1094,11 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDQ2MDg4MiwtMTAxNTExMDIwOCwtMT
-QxNjY3NDExLDEzMjE5MTQxNzMsOTExODUzNTcyLC0xMDUwMDEx
-MzkyLDc1NTQxODkzMCwyMTEwODkzMjk4LDM0MzIwNTY3NCwtMT
-cxNTg5ODUwLDk5NDQyODc1NywxNDExMzAzMjUzLC0xNzg0OTI4
-ODY3LDE1NTE3MzY1MDksMTMwMTUzNzQ5NSwtMTU0ODEzOTQ0Ni
-wxOTkwMjMzNzQ4LDExMjY3MTQxNzIsMTI3MTI1NTE4OSwxNTc1
-MzQwOTE5XX0=
+eyJoaXN0b3J5IjpbNjYxNzcyMjksLTEwMTUxMTAyMDgsLTE0MT
+Y2NzQxMSwxMzIxOTE0MTczLDkxMTg1MzU3MiwtMTA1MDAxMTM5
+Miw3NTU0MTg5MzAsMjExMDg5MzI5OCwzNDMyMDU2NzQsLTE3MT
+U4OTg1MCw5OTQ0Mjg3NTcsMTQxMTMwMzI1MywtMTc4NDkyODg2
+NywxNTUxNzM2NTA5LDEzMDE1Mzc0OTUsLTE1NDgxMzk0NDYsMT
+k5MDIzMzc0OCwxMTI2NzE0MTcyLDEyNzEyNTUxODksMTU3NTM0
+MDkxOV19
 -->
