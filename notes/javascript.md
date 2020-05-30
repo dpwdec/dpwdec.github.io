@@ -1064,7 +1064,7 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 
 ## Promises
 
-
+The `Promise` class allows you to handle the results of asynchronous functions by wrapping them 
 
 ## Async / Await
 
@@ -1087,7 +1087,7 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Mjc1NzI2NSwxMzIxOTE0MTczLDkxMT
+eyJoaXN0b3J5IjpbLTE0MTY2NzQxMSwxMzIxOTE0MTczLDkxMT
 g1MzU3MiwtMTA1MDAxMTM5Miw3NTU0MTg5MzAsMjExMDg5MzI5
 OCwzNDMyMDU2NzQsLTE3MTU4OTg1MCw5OTQ0Mjg3NTcsMTQxMT
 MwMzI1MywtMTc4NDkyODg2NywxNTUxNzM2NTA5LDEzMDE1Mzc0
