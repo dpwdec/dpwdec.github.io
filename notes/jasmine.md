@@ -117,10 +117,13 @@ it('stubs a prototype function', function() {
 
 You can **test asynchronous code and requests** using the `async` and `await` keywords. You must pass an `async` method into the jasmine `it` block so that it can use `await` to coerce the result of the asynchronous request into a variable that can then be tested.
 ```js
-
+it('tests an asynchronous method', async function() {
+  const result = await someAsyncFunctionThatReturnsAPromise()
+  expect(result).toEqual(expectation)
+})
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NzY0OTMwMSwtMTI4NzU2MTYwOSw4OT
+eyJoaXN0b3J5IjpbLTMwOTgwOTA0OCwtMTI4NzU2MTYwOSw4OT
 gwNzA2MjYsMTA3NzAzNTczOSwtMjAwMTQ0MTc4MSwtMjEwMTQ4
 MDI1OCwtMjE0Mzg5Njg2NywtMTgwNDU2Mjc1NSwtMTQ5NzkxMz
 Y4MiwxNDk2MjA3NjQ2LC0xMjEzMjUxNDczLDExOTI4MjY1MzQs
