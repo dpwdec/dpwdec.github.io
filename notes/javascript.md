@@ -1096,6 +1096,8 @@ async function myFunction() {
 }
 ```
 
+It's important to note that 
+
 Defining a function with the `async` keywords makes it return a promise automatically.
 ```js
 async function myFunction() {
@@ -1115,11 +1117,11 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDg2ODQ3OSw2NTA2MzY1OTYsLTEwMT
-UxMTAyMDgsLTE0MTY2NzQxMSwxMzIxOTE0MTczLDkxMTg1MzU3
-MiwtMTA1MDAxMTM5Miw3NTU0MTg5MzAsMjExMDg5MzI5OCwzND
-MyMDU2NzQsLTE3MTU4OTg1MCw5OTQ0Mjg3NTcsMTQxMTMwMzI1
-MywtMTc4NDkyODg2NywxNTUxNzM2NTA5LDEzMDE1Mzc0OTUsLT
-E1NDgxMzk0NDYsMTk5MDIzMzc0OCwxMTI2NzE0MTcyLDEyNzEy
-NTUxODldfQ==
+eyJoaXN0b3J5IjpbLTE5MjkyMDg5MTQsLTI5MDg2ODQ3OSw2NT
+A2MzY1OTYsLTEwMTUxMTAyMDgsLTE0MTY2NzQxMSwxMzIxOTE0
+MTczLDkxMTg1MzU3MiwtMTA1MDAxMTM5Miw3NTU0MTg5MzAsMj
+ExMDg5MzI5OCwzNDMyMDU2NzQsLTE3MTU4OTg1MCw5OTQ0Mjg3
+NTcsMTQxMTMwMzI1MywtMTc4NDkyODg2NywxNTUxNzM2NTA5LD
+EzMDE1Mzc0OTUsLTE1NDgxMzk0NDYsMTk5MDIzMzc0OCwxMTI2
+NzE0MTcyXX0=
 -->
