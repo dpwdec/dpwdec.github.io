@@ -1093,6 +1093,7 @@ function timeOutFunction() {
 async function myFunction() {
   let result = await timeOutFunction()
   console.log(result) // => 'done'
+  ret
 }
 ```
 
@@ -1117,11 +1118,11 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjkyMDg5MTQsLTI5MDg2ODQ3OSw2NT
-A2MzY1OTYsLTEwMTUxMTAyMDgsLTE0MTY2NzQxMSwxMzIxOTE0
-MTczLDkxMTg1MzU3MiwtMTA1MDAxMTM5Miw3NTU0MTg5MzAsMj
-ExMDg5MzI5OCwzNDMyMDU2NzQsLTE3MTU4OTg1MCw5OTQ0Mjg3
-NTcsMTQxMTMwMzI1MywtMTc4NDkyODg2NywxNTUxNzM2NTA5LD
-EzMDE1Mzc0OTUsLTE1NDgxMzk0NDYsMTk5MDIzMzc0OCwxMTI2
-NzE0MTcyXX0=
+eyJoaXN0b3J5IjpbLTg1NDEwODg0MSwtMTkyOTIwODkxNCwtMj
+kwODY4NDc5LDY1MDYzNjU5NiwtMTAxNTExMDIwOCwtMTQxNjY3
+NDExLDEzMjE5MTQxNzMsOTExODUzNTcyLC0xMDUwMDExMzkyLD
+c1NTQxODkzMCwyMTEwODkzMjk4LDM0MzIwNTY3NCwtMTcxNTg5
+ODUwLDk5NDQyODc1NywxNDExMzAzMjUzLC0xNzg0OTI4ODY3LD
+E1NTE3MzY1MDksMTMwMTUzNzQ5NSwtMTU0ODEzOTQ0NiwxOTkw
+MjMzNzQ4XX0=
 -->
