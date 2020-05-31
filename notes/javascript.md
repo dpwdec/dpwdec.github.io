@@ -1079,7 +1079,21 @@ timeOutPromise.then(function(done) {
 
 ## Async / Await
 
-The `async` and `await` keywords allow you to define functions that use the resolve values of promise based asynchronous requests. Using the `async` keyword allows you to mark a part of your code as asynchronous and then use the `await` keyword to
+The `async` and `await` keywords allow you to define functions that use the resolve values of promise based asynchronous requests. Using the `async` keyword allows you to mark a part of your code as asynchronous and then use the `await` keyword to resolve a promise.
+```js
+function timeOutFunction() {
+  let timeOutPromise = new Promise(function(resolve) {
+  setTimeOut(function() {
+    resolve('done')
+  }, 1000)
+  })
+  return timeOutPromise
+}
+
+async function myFunction() {
+  let m
+}
+```
 
 Defining a function with the `async` keywords makes it return a promise automatically.
 ```js
@@ -1100,11 +1114,11 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxNjIyMTYwLDY1MDYzNjU5NiwtMTAxNT
-ExMDIwOCwtMTQxNjY3NDExLDEzMjE5MTQxNzMsOTExODUzNTcy
-LC0xMDUwMDExMzkyLDc1NTQxODkzMCwyMTEwODkzMjk4LDM0Mz
-IwNTY3NCwtMTcxNTg5ODUwLDk5NDQyODc1NywxNDExMzAzMjUz
-LC0xNzg0OTI4ODY3LDE1NTE3MzY1MDksMTMwMTUzNzQ5NSwtMT
-U0ODEzOTQ0NiwxOTkwMjMzNzQ4LDExMjY3MTQxNzIsMTI3MTI1
-NTE4OV19
+eyJoaXN0b3J5IjpbLTE1OTU5NDE2NDgsNjUwNjM2NTk2LC0xMD
+E1MTEwMjA4LC0xNDE2Njc0MTEsMTMyMTkxNDE3Myw5MTE4NTM1
+NzIsLTEwNTAwMTEzOTIsNzU1NDE4OTMwLDIxMTA4OTMyOTgsMz
+QzMjA1Njc0LC0xNzE1ODk4NTAsOTk0NDI4NzU3LDE0MTEzMDMy
+NTMsLTE3ODQ5Mjg4NjcsMTU1MTczNjUwOSwxMzAxNTM3NDk1LC
+0xNTQ4MTM5NDQ2LDE5OTAyMzM3NDgsMTEyNjcxNDE3MiwxMjcx
+MjU1MTg5XX0=
 -->
