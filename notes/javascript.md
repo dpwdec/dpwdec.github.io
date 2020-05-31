@@ -1093,11 +1093,11 @@ function timeOutFunction() {
 async function myFunction() {
   let result = await timeOutFunction()
   console.log(result) // => 'done'
-  ret
+  return result
 }
 ```
 
-It's important to note that 
+It's important to note that even though `myFunction` returns `result` the entire function is
 
 Defining a function with the `async` keywords makes it return a promise automatically.
 ```js
@@ -1118,7 +1118,7 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDEwODg0MSwtMTkyOTIwODkxNCwtMj
+eyJoaXN0b3J5IjpbMTUzMTE1MTE4NCwtMTkyOTIwODkxNCwtMj
 kwODY4NDc5LDY1MDYzNjU5NiwtMTAxNTExMDIwOCwtMTQxNjY3
 NDExLDEzMjE5MTQxNzMsOTExODUzNTcyLC0xMDUwMDExMzkyLD
 c1NTQxODkzMCwyMTEwODkzMjk4LDM0MzIwNTY3NCwtMTcxNTg5
