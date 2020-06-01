@@ -1079,7 +1079,7 @@ timeOutPromise.then(function(done) {
 
 ## Async / Await
 
-The `async` and `await` keywords allow you to define functions that use the resolve values of promise based asynchronous requests. Using the `async` keyword allows you to mark a part of your code as asynchronous and then use the `await` keyword to resolve a promise. In the example below, whatever is returned from the `resolve` of the `timeOutFunction` promise will be returned into the `result` variable. The body of this function will *wait* until this value has been returned before it continue executing.
+The `async` and `await` keywords allow you to define functions that use the resolve values of promise based asynchronous requests. Using the `async` keyword allows you to mark a part of your code as asynchronous and then use the `await` keyword to resolve a promise. In the example below, whatever is returned from the `resolve` of the `timeOutFunction` promise will be returned into the `result` variable. The body of this function will *wait* until this value has been returned before it continue executing. This is the only time you will get a direct value from a promise function, but its worth noting that this value is only available for the duration of the function.
 ```js
 function timeOutFunction() {
   let timeOutPromise = new Promise(function(resolve) {
@@ -1097,7 +1097,11 @@ async function myFunction() {
 }
 ```
 
-It's important to note that even though `myFunction` returns `result` 
+It's important to note that even though `myFunction` returns `result`, the `result` will not be available to synchronous code *outside* of `myFunction` that tries to use the result.
+```js
+console.log(myFunction())
+// => promise 
+```
 
 Defining a function with the `async` keywords makes it return a promise automatically.
 ```js
@@ -1118,7 +1122,7 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDMwNzIyNywtMTgwMzk4ODAzNywtMT
+eyJoaXN0b3J5IjpbLTk5ODUyNjM4OCwtMTgwMzk4ODAzNywtMT
 kyOTIwODkxNCwtMjkwODY4NDc5LDY1MDYzNjU5NiwtMTAxNTEx
 MDIwOCwtMTQxNjY3NDExLDEzMjE5MTQxNzMsOTExODUzNTcyLC
 0xMDUwMDExMzkyLDc1NTQxODkzMCwyMTEwODkzMjk4LDM0MzIw
