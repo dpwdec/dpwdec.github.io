@@ -1097,10 +1097,11 @@ async function myFunction() {
 }
 ```
 
-It's important to note that even though `myFunction` returns `result`, the `result` will not be available to synchronous code *outside* of `myFunction` that tries to use the result.
+It's important to note that even though `myFunction` returns `result`, the `result` will not be available to synchronous code *outside* of `myFunction` that tries to use the result. In the example below calling `console.log` on `myFunction` will return a pending promise (because `async` functions returns promises, se 
 ```js
 console.log(myFunction())
-// => promise 
+// => promise { pending }
+// => 'done'
 ```
 
 Defining a function with the `async` keywords makes it return a promise automatically.
@@ -1122,11 +1123,11 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODUyNjM4OCwtMTgwMzk4ODAzNywtMT
-kyOTIwODkxNCwtMjkwODY4NDc5LDY1MDYzNjU5NiwtMTAxNTEx
-MDIwOCwtMTQxNjY3NDExLDEzMjE5MTQxNzMsOTExODUzNTcyLC
-0xMDUwMDExMzkyLDc1NTQxODkzMCwyMTEwODkzMjk4LDM0MzIw
-NTY3NCwtMTcxNTg5ODUwLDk5NDQyODc1NywxNDExMzAzMjUzLC
-0xNzg0OTI4ODY3LDE1NTE3MzY1MDksMTMwMTUzNzQ5NSwtMTU0
-ODEzOTQ0Nl19
+eyJoaXN0b3J5IjpbMTQ4MzQxMzIsLTE4MDM5ODgwMzcsLTE5Mj
+kyMDg5MTQsLTI5MDg2ODQ3OSw2NTA2MzY1OTYsLTEwMTUxMTAy
+MDgsLTE0MTY2NzQxMSwxMzIxOTE0MTczLDkxMTg1MzU3MiwtMT
+A1MDAxMTM5Miw3NTU0MTg5MzAsMjExMDg5MzI5OCwzNDMyMDU2
+NzQsLTE3MTU4OTg1MCw5OTQ0Mjg3NTcsMTQxMTMwMzI1MywtMT
+c4NDkyODg2NywxNTUxNzM2NTA5LDEzMDE1Mzc0OTUsLTE1NDgx
+Mzk0NDZdfQ==
 -->
