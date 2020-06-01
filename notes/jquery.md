@@ -33,8 +33,9 @@ You can **create an html element** by placing the name of the HTML tag inside th
 let myDivElement = $('div', {}) // => creates a div element.
 ```
 
+When adding HTML attributes you should assign both val
 ```js
-let myDivElement = $('div', {"class":"
+let myDivElement = $('div', { "class":"main-div" }
 ```
 
 ## Events
@@ -217,7 +218,7 @@ $.ajax({
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMjg1MTM3NywtMTU5NzYxNTMxNCwtMT
+eyJoaXN0b3J5IjpbMTUxNDM2NzMzOSwtMTU5NzYxNTMxNCwtMT
 YxNTQwMTIzNiwtMzg0NTE1NjA1LC0xNTQzNDQ3OTUxLDE3NDk0
 NTczNTIsODg5MDcyNDQ4LDE3NTgyNTM2OTEsLTEwNjA2NDM1LD
 E5ODA3Njc1MzcsMTE1Nzc0MzQzNF19
