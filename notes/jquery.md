@@ -28,7 +28,7 @@ $('#my-input-elemt').val();
 
 ## Creation
 
-You can 
+You can **create an html element** by placing the name of the HTML tag inside the jQuery 
 
 ## Events
 
@@ -210,8 +210,8 @@ $.ajax({
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTc2MTUzMTQsLTE2MTU0MDEyMzYsLT
-M4NDUxNTYwNSwtMTU0MzQ0Nzk1MSwxNzQ5NDU3MzUyLDg4OTA3
-MjQ0OCwxNzU4MjUzNjkxLC0xMDYwNjQzNSwxOTgwNzY3NTM3LD
-ExNTc3NDM0MzRdfQ==
+eyJoaXN0b3J5IjpbMTMwNDg1MTY3MywtMTU5NzYxNTMxNCwtMT
+YxNTQwMTIzNiwtMzg0NTE1NjA1LC0xNTQzNDQ3OTUxLDE3NDk0
+NTczNTIsODg5MDcyNDQ4LDE3NTgyNTM2OTEsLTEwNjA2NDM1LD
+E5ODA3Njc1MzcsMTE1Nzc0MzQzNF19
 -->
