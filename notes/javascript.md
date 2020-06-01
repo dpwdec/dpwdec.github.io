@@ -798,6 +798,8 @@ fakeBark = function() {}
 fakeBark.prototype.sound = function() {}
 ```
 
+### Class Methods
+
 ## This
 Javascript's `this` keyword does not function in the most intuitive way i.e. it doesn't work in a traditionally object oriented way. The `this` keyword tends to refers to how a function was called depending on the enclosing object.
 ```js
@@ -1128,11 +1130,11 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjQ0MzA3MSwtMTgwMzk4ODAzNywtMT
-kyOTIwODkxNCwtMjkwODY4NDc5LDY1MDYzNjU5NiwtMTAxNTEx
-MDIwOCwtMTQxNjY3NDExLDEzMjE5MTQxNzMsOTExODUzNTcyLC
-0xMDUwMDExMzkyLDc1NTQxODkzMCwyMTEwODkzMjk4LDM0MzIw
-NTY3NCwtMTcxNTg5ODUwLDk5NDQyODc1NywxNDExMzAzMjUzLC
-0xNzg0OTI4ODY3LDE1NTE3MzY1MDksMTMwMTUzNzQ5NSwtMTU0
-ODEzOTQ0Nl19
+eyJoaXN0b3J5IjpbMTcwNTU2ODMzMiwtMTAyNDQzMDcxLC0xOD
+AzOTg4MDM3LC0xOTI5MjA4OTE0LC0yOTA4Njg0NzksNjUwNjM2
+NTk2LC0xMDE1MTEwMjA4LC0xNDE2Njc0MTEsMTMyMTkxNDE3My
+w5MTE4NTM1NzIsLTEwNTAwMTEzOTIsNzU1NDE4OTMwLDIxMTA4
+OTMyOTgsMzQzMjA1Njc0LC0xNzE1ODk4NTAsOTk0NDI4NzU3LD
+E0MTEzMDMyNTMsLTE3ODQ5Mjg4NjcsMTU1MTczNjUwOSwxMzAx
+NTM3NDk1XX0=
 -->
