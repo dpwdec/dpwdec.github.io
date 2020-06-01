@@ -26,6 +26,10 @@ You can **get the text from an <input> element** by using the `val` function wit
 $('#my-input-elemt').val();
 ```
 
+## Creation
+
+You can 
+
 ## Events
 
 ### Document Ready
@@ -206,8 +210,8 @@ $.ajax({
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTU0MDEyMzYsLTM4NDUxNTYwNSwtMT
-U0MzQ0Nzk1MSwxNzQ5NDU3MzUyLDg4OTA3MjQ0OCwxNzU4MjUz
-NjkxLC0xMDYwNjQzNSwxOTgwNzY3NTM3LDExNTc3NDM0MzRdfQ
-==
+eyJoaXN0b3J5IjpbLTE1OTc2MTUzMTQsLTE2MTU0MDEyMzYsLT
+M4NDUxNTYwNSwtMTU0MzQ0Nzk1MSwxNzQ5NDU3MzUyLDg4OTA3
+MjQ0OCwxNzU4MjUzNjkxLC0xMDYwNjQzNSwxOTgwNzY3NTM3LD
+ExNTc3NDM0MzRdfQ==
 -->
