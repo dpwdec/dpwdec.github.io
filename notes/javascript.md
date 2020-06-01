@@ -800,7 +800,13 @@ fakeBark.prototype.sound = function() {}
 
 ### Class Methods
 
-You can **create the equivalent of a class method** in javascript by adding a method as a parameter directly to the a class object
+You can **create the equivalent of a class method** in javascript by adding a method as a parameter directly to the a class object.
+```js
+class MyClass {
+  constructor() {}
+}
+
+```
 
 ## This
 Javascript's `this` keyword does not function in the most intuitive way i.e. it doesn't work in a traditionally object oriented way. The `this` keyword tends to refers to how a function was called depending on the enclosing object.
@@ -1132,7 +1138,7 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDYzMDA3NDcsLTEwMjQ0MzA3MSwtMT
+eyJoaXN0b3J5IjpbLTE5OTc1NDM2NTEsLTEwMjQ0MzA3MSwtMT
 gwMzk4ODAzNywtMTkyOTIwODkxNCwtMjkwODY4NDc5LDY1MDYz
 NjU5NiwtMTAxNTExMDIwOCwtMTQxNjY3NDExLDEzMjE5MTQxNz
 MsOTExODUzNTcyLC0xMDUwMDExMzkyLDc1NTQxODkzMCwyMTEw
