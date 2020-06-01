@@ -1097,12 +1097,14 @@ async function myFunction() {
 }
 ```
 
-It's important to note that even though `myFunction` returns `result`, the `result` will not be available to synchronous code *outside* of `myFunction` that tries to use the result. In the example below calling `console.log` on `myFunction` will return a pending promise (because `async` functions returns promises, see below) that has not yet been resolved when the `log` function is executed thus it simply returns a `pending` promise. After this the `await` resolves `timeOutFunction` and the `log` within `myFunction` executes and prints the value directly. Importantly, to the **outer scope of an `asyn` function the value of `await` is never directly exposed** and is instead passed out as a value wrapped in a promiuse
+It's important to note that even though `myFunction` returns `result`, the `result` will not be available to synchronous code *outside* of `myFunction` that tries to use the result. In the example below calling `console.log` on `myFunction` will return a pending promise (because `async` functions returns promises, see below) that has not yet been resolved when the `log` function is executed thus it simply returns a `pending` promise. After this the `await` resolves `timeOutFunction` and the `log` within `myFunction` executes and prints the value directly. Importantly, to the **outer scope of an `asyn` function the value of `await` is never directly exposed** and is instead passed out as a value wrapped in a promise.
 ```js
 console.log(myFunction())
 // => promise { pending }
 // => 'done'
 ```
+
+If you wanted to resolve the result of `myFunction`
 
 Defining a function with the `async` keywords makes it return a promise automatically.
 ```js
@@ -1123,11 +1125,11 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4MjYzMzQ5LC0xODAzOTg4MDM3LC0xOT
-I5MjA4OTE0LC0yOTA4Njg0NzksNjUwNjM2NTk2LC0xMDE1MTEw
-MjA4LC0xNDE2Njc0MTEsMTMyMTkxNDE3Myw5MTE4NTM1NzIsLT
-EwNTAwMTEzOTIsNzU1NDE4OTMwLDIxMTA4OTMyOTgsMzQzMjA1
-Njc0LC0xNzE1ODk4NTAsOTk0NDI4NzU3LDE0MTEzMDMyNTMsLT
-E3ODQ5Mjg4NjcsMTU1MTczNjUwOSwxMzAxNTM3NDk1LC0xNTQ4
-MTM5NDQ2XX0=
+eyJoaXN0b3J5IjpbLTIwNzU0MTMwODMsLTE4MDM5ODgwMzcsLT
+E5MjkyMDg5MTQsLTI5MDg2ODQ3OSw2NTA2MzY1OTYsLTEwMTUx
+MTAyMDgsLTE0MTY2NzQxMSwxMzIxOTE0MTczLDkxMTg1MzU3Mi
+wtMTA1MDAxMTM5Miw3NTU0MTg5MzAsMjExMDg5MzI5OCwzNDMy
+MDU2NzQsLTE3MTU4OTg1MCw5OTQ0Mjg3NTcsMTQxMTMwMzI1My
+wtMTc4NDkyODg2NywxNTUxNzM2NTA5LDEzMDE1Mzc0OTUsLTE1
+NDgxMzk0NDZdfQ==
 -->
