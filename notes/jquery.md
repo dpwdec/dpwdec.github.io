@@ -33,7 +33,7 @@ You can **create an html element** by placing the name of the HTML tag inside th
 let myDivElement = $('div', {}) // => creates a div element.
 ```
 
-When adding HTML attributes you should assign both val
+When adding HTML attributes you should assign both values using strings.
 ```js
 let myDivElement = $('div', { "class":"main-div" }
 ```
@@ -218,8 +218,8 @@ $.ajax({
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDM2NzMzOSwtMTU5NzYxNTMxNCwtMT
-YxNTQwMTIzNiwtMzg0NTE1NjA1LC0xNTQzNDQ3OTUxLDE3NDk0
-NTczNTIsODg5MDcyNDQ4LDE3NTgyNTM2OTEsLTEwNjA2NDM1LD
-E5ODA3Njc1MzcsMTE1Nzc0MzQzNF19
+eyJoaXN0b3J5IjpbLTk3NzgzMTk4NCwxNTE0MzY3MzM5LC0xNT
+k3NjE1MzE0LC0xNjE1NDAxMjM2LC0zODQ1MTU2MDUsLTE1NDM0
+NDc5NTEsMTc0OTQ1NzM1Miw4ODkwNzI0NDgsMTc1ODI1MzY5MS
+wtMTA2MDY0MzUsMTk4MDc2NzUzNywxMTU3NzQzNDM0XX0=
 -->
