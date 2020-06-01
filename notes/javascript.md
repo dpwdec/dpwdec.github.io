@@ -1104,7 +1104,10 @@ console.log(myFunction())
 // => 'done'
 ```
 
-If you wanted to resolve the result of `myFunction`
+If you wanted to resolve the result of `myFunction` in the outer scope you would have to use a standard `then` clause.
+```js
+myFunction().then(function(result) { console.log(result) })
+```
 
 Defining a function with the `async` keywords makes it return a promise automatically.
 ```js
@@ -1125,11 +1128,11 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzU0MTMwODMsLTE4MDM5ODgwMzcsLT
-E5MjkyMDg5MTQsLTI5MDg2ODQ3OSw2NTA2MzY1OTYsLTEwMTUx
-MTAyMDgsLTE0MTY2NzQxMSwxMzIxOTE0MTczLDkxMTg1MzU3Mi
-wtMTA1MDAxMTM5Miw3NTU0MTg5MzAsMjExMDg5MzI5OCwzNDMy
-MDU2NzQsLTE3MTU4OTg1MCw5OTQ0Mjg3NTcsMTQxMTMwMzI1My
-wtMTc4NDkyODg2NywxNTUxNzM2NTA5LDEzMDE1Mzc0OTUsLTE1
-NDgxMzk0NDZdfQ==
+eyJoaXN0b3J5IjpbLTEwMjQ0MzA3MSwtMTgwMzk4ODAzNywtMT
+kyOTIwODkxNCwtMjkwODY4NDc5LDY1MDYzNjU5NiwtMTAxNTEx
+MDIwOCwtMTQxNjY3NDExLDEzMjE5MTQxNzMsOTExODUzNTcyLC
+0xMDUwMDExMzkyLDc1NTQxODkzMCwyMTEwODkzMjk4LDM0MzIw
+NTY3NCwtMTcxNTg5ODUwLDk5NDQyODc1NywxNDExMzAzMjUzLC
+0xNzg0OTI4ODY3LDE1NTE3MzY1MDksMTMwMTUzNzQ5NSwtMTU0
+ODEzOTQ0Nl19
 -->
