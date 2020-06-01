@@ -30,7 +30,11 @@ $('#my-input-elemt').val();
 
 You can **create an html element** by placing the name of the HTML tag inside the jQuery accessor `$` followed by an object containing key-value pairs describing the elements attributes. This object can be empty.
 ```js
+let myDivElement = $('div', {}) // => creates a div element.
+```
 
+```js
+let myDivElement = $('div', {"class":"
 ```
 
 ## Events
@@ -213,8 +217,8 @@ $.ajax({
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxOTkwNzkyLC0xNTk3NjE1MzE0LC0xNj
-E1NDAxMjM2LC0zODQ1MTU2MDUsLTE1NDM0NDc5NTEsMTc0OTQ1
-NzM1Miw4ODkwNzI0NDgsMTc1ODI1MzY5MSwtMTA2MDY0MzUsMT
-k4MDc2NzUzNywxMTU3NzQzNDM0XX0=
+eyJoaXN0b3J5IjpbMTUxMjg1MTM3NywtMTU5NzYxNTMxNCwtMT
+YxNTQwMTIzNiwtMzg0NTE1NjA1LC0xNTQzNDQ3OTUxLDE3NDk0
+NTczNTIsODg5MDcyNDQ4LDE3NTgyNTM2OTEsLTEwNjA2NDM1LD
+E5ODA3Njc1MzcsMTE1Nzc0MzQzNF19
 -->
