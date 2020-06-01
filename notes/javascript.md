@@ -800,13 +800,16 @@ fakeBark.prototype.sound = function() {}
 
 ### Class Methods
 
-You can **create the equivalent of a class method** in javascript by adding a method as a parameter directly to the a class object.
+You can **create the equivalent of a class method** in javascript by adding a method as a parameter directly to the a class object. You have to define the class methods outside of the class body.
 ```js
 class MyClass {
   constructor() {}
 }
 
 MyClass.someClassMethod = function() { console.log('hello') }
+
+// call class method
+MyClass.someClassMethod() // => 'hello'
 ```
 
 ## This
@@ -1139,11 +1142,11 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTgyMDgzNiwtMTAyNDQzMDcxLC0xOD
-AzOTg4MDM3LC0xOTI5MjA4OTE0LC0yOTA4Njg0NzksNjUwNjM2
-NTk2LC0xMDE1MTEwMjA4LC0xNDE2Njc0MTEsMTMyMTkxNDE3My
-w5MTE4NTM1NzIsLTEwNTAwMTEzOTIsNzU1NDE4OTMwLDIxMTA4
-OTMyOTgsMzQzMjA1Njc0LC0xNzE1ODk4NTAsOTk0NDI4NzU3LD
-E0MTEzMDMyNTMsLTE3ODQ5Mjg4NjcsMTU1MTczNjUwOSwxMzAx
-NTM3NDk1XX0=
+eyJoaXN0b3J5IjpbOTQ4MDgyODQ3LC0xMDI0NDMwNzEsLTE4MD
+M5ODgwMzcsLTE5MjkyMDg5MTQsLTI5MDg2ODQ3OSw2NTA2MzY1
+OTYsLTEwMTUxMTAyMDgsLTE0MTY2NzQxMSwxMzIxOTE0MTczLD
+kxMTg1MzU3MiwtMTA1MDAxMTM5Miw3NTU0MTg5MzAsMjExMDg5
+MzI5OCwzNDMyMDU2NzQsLTE3MTU4OTg1MCw5OTQ0Mjg3NTcsMT
+QxMTMwMzI1MywtMTc4NDkyODg2NywxNTUxNzM2NTA5LDEzMDE1
+Mzc0OTVdfQ==
 -->
