@@ -62,7 +62,7 @@ You can **retrieve a list of objects from the database** using the `find` method
 ```js
 MyObject.find(function(err, result) {
   result.forEach(function(item) {
-    console.log(item) // => some model instance of MyObjecvt
+    console.log(item) // => some model instance of MyObject
   });
 });
 ```
@@ -70,7 +70,7 @@ MyObject.find(function(err, result) {
 You can **retrieve a single object from the database** using the `findOne` method.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzk5MjMyOCwtMTcyNTM4MTY2NSw5Nj
+eyJoaXN0b3J5IjpbLTc1OTY0MzgyMiwtMTcyNTM4MTY2NSw5Nj
 M1Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5
 MDMsMjAyNzAzMzEyOF19
 -->
