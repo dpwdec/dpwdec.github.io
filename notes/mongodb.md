@@ -25,7 +25,13 @@ To **turn the mongoose schema into a class model** so that it can have methods a
 let User = mongoose.model('User', userSchema);
 ```
 
-You can **add custom methods to your mongoose models** using the `prototype` syntax. These methods can reference 
+You can **add custom methods to your mongoose models** using the `prototype` syntax. These methods can reference attributes defined in the database schema.
+```js
+User.prototype.introduce = function() {
+
+  return 'Hello, my name is ' + this.name
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNjQyMjQwMiwyMDI3MDMzMTI4XX0=
+eyJoaXN0b3J5IjpbMTE1ODk4MDg2MCwyMDI3MDMzMTI4XX0=
 -->
