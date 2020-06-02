@@ -61,14 +61,16 @@ newUser.save(function(err) {
 You can **retrieve a list of objects from the database** using the `find` method. Using the `find` method without a
 ```js
 MyObject.find(function(err, result) {
-  result.forEach
+  result.forEach(function(item) {
+    console.log(item) // => some model instance of MyObjecvt
+  });
 });
 ```
 
 You can **retrieve a single object from the database** using the `findOne` method.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NjY1MzYxNiwtMTcyNTM4MTY2NSw5Nj
+eyJoaXN0b3J5IjpbLTQwMzk5MjMyOCwtMTcyNTM4MTY2NSw5Nj
 M1Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5
 MDMsMjAyNzAzMzEyOF19
 -->
