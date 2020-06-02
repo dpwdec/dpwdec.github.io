@@ -58,8 +58,9 @@ newUser.save(function(err) {
 
 You can **retrieve a single object from the database** using the `findOne` method.
 
+
 You can **retrieve a list of objects from the database** using the `find` method.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwMDU3NzEzLDIwMTAyNTA4NDUsLTIxMz
-Y4OTE5MDMsMjAyNzAzMzEyOF19
+eyJoaXN0b3J5IjpbOTYzNTI5NDExLDY4MDA1NzcxMywyMDEwMj
+UwODQ1LC0yMTM2ODkxOTAzLDIwMjcwMzMxMjhdfQ==
 -->
