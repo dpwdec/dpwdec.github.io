@@ -80,7 +80,7 @@ User.find({ name:'dec' }, function(err, result) {
 });
 ```
 
-You can **submit a list object fields to return** by submitting the fields you want returned as another query argument in the form of a space separated string. 
+You can **submit a list object fields to return** by submitting the fields you want returned as another query argument in the form of a space separated string. If you try retrieve a field on the object that was not retrieved it will simply be `undefined`. For example, if below the `User` model also had a `shoeSize` field that was not retrieved calling `.shoeSize` on each of the `result` objects would returns undefined even though the field might exist on the object's schema.
 ```js
 // find query that returns an object with name, age and height for all users with name = 'dec'
 User.find({name:'dec' }, 'name age height', function(err, result) {
@@ -90,9 +90,10 @@ User.find({name:'dec' }, 'name age height', function(err, result) {
 
 You can **retrieve a single object from the database** using the `findOne` method.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTg0Mzg4OTQsLTE5OTAwMjQ1MzQsLT
-kxODgwMDg0MCwtMTY1MzA4ODE5OSwtMTcyNTM4MTY2NSw5NjM1
-Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5MD
-MsMjAyNzAzMzEyOF19
+eyJoaXN0b3J5IjpbNDIxODIyNzIzLC0xOTkwMDI0NTM0LC05MT
+g4MDA4NDAsLTE2NTMwODgxOTksLTE3MjUzODE2NjUsOTYzNTI5
+NDExLDY4MDA1NzcxMywyMDEwMjUwODQ1LC0yMTM2ODkxOTAzLD
+IwMjcwMzMxMjhdfQ==
 -->
