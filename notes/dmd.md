@@ -173,13 +173,16 @@ class Article {
 instead of returning data from a fetch promise based, pass in a callback to give your interface options for working with the data.
 
 ```js
-fetchSummary(callback) {
-  fetch('some url
+function fetchSummary(callback) {
+  fetch('some url').then(callback)
 }
 
+fetchSummary(function(data) {
+  console.log(data)
+})
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1OTI4MzA2LC0yMjEyNDg3NjIsMTYxND
+eyJoaXN0b3J5IjpbNTk5NTk1NjMxLC0yMjEyNDg3NjIsMTYxND
 M1NTI3NCwtMjUzMjA2NDAyLC0xMjM4Mjg3MzU5LDIwNDQ0OTkx
 MjMsNTc1OTc1MzIwLDIxMDAxMDYwNjcsLTE1OTEwODA3OTUsLT
 UzNTgwMTc4MSwtMTM1Mzg4MjYzNiwtMzIzODk2ODA2LC0xNzg2
