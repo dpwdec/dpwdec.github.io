@@ -39,6 +39,13 @@ module.exports = User;
 // You can also export it directly if you don't want to add custom methods to yout model
 module.exports = mongoose.model('User', userSchema);
 ```
+
+You can **create a new instance of a model** by passing the constructor a javascript object that contains the key value pairs that describe the schema fields to be filled.
+```js
+let User = require('./models/user')
+
+let newUser 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2MjQ1NDQ5LDIwMjcwMzMxMjhdfQ==
+eyJoaXN0b3J5IjpbMTM1MTAwNTY0MywyMDI3MDMzMTI4XX0=
 -->
