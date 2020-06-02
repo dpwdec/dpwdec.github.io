@@ -21,6 +21,8 @@ let userSchema = new mongoose.schema({
 });
 ```
 
+You **cannot embed object types directly into a mongo schema**
+
 To **turn the mongoose schema into a class model** so that it can have methods and other static data etc. added to it use the `mongoose.model` method with parse the schema. This takes the `userSchema` created above and defines a `'User'` class like structure defined as the name of the object. Mongoose automatically pluralises the table names for these document types based on the name of the model submitted. In this case when a new `User` is saved for the first time a `Users` table will be created in the associated MongoDB database.
 ```js
 let User = mongoose.model('User', userSchema);
@@ -57,6 +59,9 @@ newUser.save(function(err) {
 })
 ```
 
+### Sub-documents
+
+
 ### Queries
 You can **retrieve a list of objects from the database** using the `find` method. The `find` method takes a call back that executes once the query to the database has returned. It returns either an error to the first `err` argument of the callback or the `result` of the `find` query to the second `result` argument of the query. 
 
@@ -92,8 +97,8 @@ You can **retrieve a single object from the database** using the `findOne` metho
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxODIyNzIzLC0xOTkwMDI0NTM0LC05MT
-g4MDA4NDAsLTE2NTMwODgxOTksLTE3MjUzODE2NjUsOTYzNTI5
-NDExLDY4MDA1NzcxMywyMDEwMjUwODQ1LC0yMTM2ODkxOTAzLD
-IwMjcwMzMxMjhdfQ==
+eyJoaXN0b3J5IjpbNjYwNTg3NzA4LDQyMTgyMjcyMywtMTk5MD
+AyNDUzNCwtOTE4ODAwODQwLC0xNjUzMDg4MTk5LC0xNzI1Mzgx
+NjY1LDk2MzUyOTQxMSw2ODAwNTc3MTMsMjAxMDI1MDg0NSwtMj
+EzNjg5MTkwMywyMDI3MDMzMTI4XX0=
 -->
