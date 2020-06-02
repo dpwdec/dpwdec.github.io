@@ -80,7 +80,7 @@ User.find({ name:'dec' }, function(err, result) {
 });
 ```
 
-You can **submit a list object fields to return** by submitting the fields you want returned as another query argument in the form of a space separated string.
+You can **submit a list object fields to return** by submitting the fields you want returned as another query argument in the form of a space separated string. 
 ```js
 // find query that returns an object with name, age and height for all users with name = 'dec'
 User.find({name:'dec' }, 'name age height', function(err, result) {
@@ -91,8 +91,8 @@ User.find({name:'dec' }, 'name age height', function(err, result) {
 You can **retrieve a single object from the database** using the `findOne` method.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTMxMjQyMiwtMTk5MDAyNDUzNCwtOT
-E4ODAwODQwLC0xNjUzMDg4MTk5LC0xNzI1MzgxNjY1LDk2MzUy
-OTQxMSw2ODAwNTc3MTMsMjAxMDI1MDg0NSwtMjEzNjg5MTkwMy
-wyMDI3MDMzMTI4XX0=
+eyJoaXN0b3J5IjpbLTE4MTg0Mzg4OTQsLTE5OTAwMjQ1MzQsLT
+kxODgwMDg0MCwtMTY1MzA4ODE5OSwtMTcyNTM4MTY2NSw5NjM1
+Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5MD
+MsMjAyNzAzMzEyOF19
 -->
