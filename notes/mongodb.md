@@ -17,13 +17,13 @@ You can **define a database schema** by creating a new `mongoose.schema` and add
 ```js
 let userSchema = new mongoose.schema({
   name: String
-})
+});
 ```
 
-To **turn the mongoose schema into a class model** so that it can have methods and other static data etc. added to it use the `mongoose.model` method with parse the schema.
+To **turn the mongoose schema into a class model** so that it can have methods and other static data etc. added to it use the `mongoose.model` method with parse the schema. This takes the `userSchema` created above and defines a `'User'` class like structure defined as the name of the object. Mongoose automatically pluralises the table names for these document types based on the name of the model submitted. I
 ```js
 let User = mongoose.model('User', userSchema);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4OTA5MTE2NywyMDI3MDMzMTI4XX0=
+eyJoaXN0b3J5IjpbLTk1NDY2MzYzLDIwMjcwMzMxMjhdfQ==
 -->
