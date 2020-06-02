@@ -162,13 +162,13 @@ endpoint refers to the route on the server that the external API call url refers
 ## method for quickly getting data out of an endpoint API call and experiment with it in the js console.
 window.data = data // => allows you to get API call data into the browser console as an object and use it
 
-would a prod
+would a production website actually make ajax calls for each headline?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjE3MTY4NCwxNjE0MzU1Mjc0LC0yNT
-MyMDY0MDIsLTEyMzgyODczNTksMjA0NDQ5OTEyMyw1NzU5NzUz
-MjAsMjEwMDEwNjA2NywtMTU5MTA4MDc5NSwtNTM1ODAxNzgxLC
-0xMzUzODgyNjM2LC0zMjM4OTY4MDYsLTE3ODY0OTUzMTMsODkz
-NzMyNDcwLC0xMjEzNTQwNDQyLDEwOTQxMzQxMjQsLTExMDAyMz
-c0MzcsLTE3MTkxOTUyNzQsLTE4NTEyMjg4MiwxMzQ0NTIyMTc4
-LDE2Njg2NzY4NDFdfQ==
+eyJoaXN0b3J5IjpbNjcwNTY4MzI2LDE2MTQzNTUyNzQsLTI1Mz
+IwNjQwMiwtMTIzODI4NzM1OSwyMDQ0NDk5MTIzLDU3NTk3NTMy
+MCwyMTAwMTA2MDY3LC0xNTkxMDgwNzk1LC01MzU4MDE3ODEsLT
+EzNTM4ODI2MzYsLTMyMzg5NjgwNiwtMTc4NjQ5NTMxMyw4OTM3
+MzI0NzAsLTEyMTM1NDA0NDIsMTA5NDEzNDEyNCwtMTEwMDIzNz
+QzNywtMTcxOTE5NTI3NCwtMTg1MTIyODgyLDEzNDQ1MjIxNzgs
+MTY2ODY3Njg0MV19
 -->
