@@ -677,6 +677,12 @@ json_object.result // => true
 json_object.count // => 42
 ```
 
+You can **convert a javascript object to JSON** to be sent via an API call or other method by using the `JSON.stringify()` method.
+```js
+let myObject = {name: 'dec', age: 28}
+let
+```
+
 ## Classes
 
 There are **two ways to define classes** in Javascript. There is an **older ES5** standard that **uses the `function` keyword** and the **newer ES6** standard that **uses the new `Class` keyword**. 
@@ -1142,11 +1148,11 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4MDgyODQ3LC0xMDI0NDMwNzEsLTE4MD
-M5ODgwMzcsLTE5MjkyMDg5MTQsLTI5MDg2ODQ3OSw2NTA2MzY1
-OTYsLTEwMTUxMTAyMDgsLTE0MTY2NzQxMSwxMzIxOTE0MTczLD
-kxMTg1MzU3MiwtMTA1MDAxMTM5Miw3NTU0MTg5MzAsMjExMDg5
-MzI5OCwzNDMyMDU2NzQsLTE3MTU4OTg1MCw5OTQ0Mjg3NTcsMT
-QxMTMwMzI1MywtMTc4NDkyODg2NywxNTUxNzM2NTA5LDEzMDE1
-Mzc0OTVdfQ==
+eyJoaXN0b3J5IjpbLTE5NTM1OTYxMDgsOTQ4MDgyODQ3LC0xMD
+I0NDMwNzEsLTE4MDM5ODgwMzcsLTE5MjkyMDg5MTQsLTI5MDg2
+ODQ3OSw2NTA2MzY1OTYsLTEwMTUxMTAyMDgsLTE0MTY2NzQxMS
+wxMzIxOTE0MTczLDkxMTg1MzU3MiwtMTA1MDAxMTM5Miw3NTU0
+MTg5MzAsMjExMDg5MzI5OCwzNDMyMDU2NzQsLTE3MTU4OTg1MC
+w5OTQ0Mjg3NTcsMTQxMTMwMzI1MywtMTc4NDkyODg2NywxNTUx
+NzM2NTA5XX0=
 -->
