@@ -20,6 +20,10 @@ let userSchema = new mongoose.schema({
 })
 ```
 
+To **turn the mongoose schema into a class model** so that it can have methods and other static data etc. added to it use the `mongoose.model` method with parse the schema.
+```js
+let User = mongoose.model('User', userSchema);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTk1MjM0MiwyMDI3MDMzMTI4XX0=
+eyJoaXN0b3J5IjpbMTk4OTA5MTE2NywyMDI3MDMzMTI4XX0=
 -->
