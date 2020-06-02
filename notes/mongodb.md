@@ -60,7 +60,7 @@ newUser.save(function(err) {
 ### Queries
 You can **retrieve a list of objects from the database** using the `find` method. The `find` method takes a call back that executes once the query to the database has returned. It returns either an error to the first `err` argument of the callback or the `result` of the `find` query to the second `result` argument of the query. 
 
-Using the `find` query without any arguments **retrieves ALL records from the database** of that database schema type.
+Using the `find` query without any arguments **retrieves ALL records from the database** of that database schema type as an array of objects.
 
 **Objects returned from `mongoose` queries are instances of the model that defines them.** This means that you don't need to coerce any of the data returned from a `mongoose` query (such as `find`) into any instance of the model object before using custom defined model methods. In the example below we can immediately call the custom `someMethodDefinedOnMyObjectModel` on `item` immediately. 
 ```js
@@ -83,7 +83,7 @@ User.find({ name:'dec' }, function(err, result) {
 You can **retrieve a single object from the database** using the `findOne` method.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTMwODgxOTksLTE3MjUzODE2NjUsOT
-YzNTI5NDExLDY4MDA1NzcxMywyMDEwMjUwODQ1LC0yMTM2ODkx
-OTAzLDIwMjcwMzMxMjhdfQ==
+eyJoaXN0b3J5IjpbLTkxODgwMDg0MCwtMTY1MzA4ODE5OSwtMT
+cyNTM4MTY2NSw5NjM1Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4
+NDUsLTIxMzY4OTE5MDMsMjAyNzAzMzEyOF19
 -->
