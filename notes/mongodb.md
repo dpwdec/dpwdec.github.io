@@ -49,7 +49,12 @@ let newUser = new User({
 })
 ```
 
-You can **save am p**
+You can **save a new record to the database** using the `.save` method on the Mongoose model instance. The `save` function takes a callback with a save error as its argument.
+```js
+newUser.save(function(err) {
+  //do something if there is an error or success
+})
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzAwMzI3NCwyMDI3MDMzMTI4XX0=
+eyJoaXN0b3J5IjpbLTIxMzY4OTE5MDMsMjAyNzAzMzEyOF19
 -->
