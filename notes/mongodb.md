@@ -58,20 +58,24 @@ newUser.save(function(err) {
 ```
 
 ### Queries
-You can **retrieve a list of objects from the database** using the `find` method. The `find` method takes a call back that executes once the query to the database has returned. It returns either an error to the first `err` argument of the callback or the `result` of the `find` query to the second `result` argument of the query.
+You can **retrieve a list of objects from the database** using the `find` method. The `find` method takes a call back that executes once the query to the database has returned. It returns either an error to the first `err` argument of the callback or the `result` of the `find` query to the second `result` argument of the query. **Objects returned from `mongoose` queries are instances of the model that defines them.** This means that you don't need to coerce any of the data returned from a `mongoose` query (such as `find`) into any instance of the model object before using custom defined model methods. In the example below we can immediately call t
 ```js
 MyObject.find(function(err, result) {
   result.forEach(function(item) {
     console.log(item) // => some model instance of MyObject
+    item.someMethodDefinedOnMyObjectModel();
   });
 });
 ```
-**Objects returned from `mongoose` queries are instances of the model that defines them.** This means that you don't need to coerce any of the data returned from a `mongoose` query (such as `find
+**Objects returned from `mongoose` queries are instances of the model that defines them.** This means that you don't need to coerce any of the data returned from a `mongoose` query (such as `find`) into any instance of the model object before using custom defined model methods.
+```js
+
+```
 
 You can **retrieve a single object from the database** using the `findOne` method.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDkyMTM4NTIsLTE3MjUzODE2NjUsOT
-YzNTI5NDExLDY4MDA1NzcxMywyMDEwMjUwODQ1LC0yMTM2ODkx
-OTAzLDIwMjcwMzMxMjhdfQ==
+eyJoaXN0b3J5IjpbMTAyODkwMDgyNywtMTcyNTM4MTY2NSw5Nj
+M1Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5
+MDMsMjAyNzAzMzEyOF19
 -->
