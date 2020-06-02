@@ -58,7 +58,7 @@ newUser.save(function(err) {
 ```
 
 ### Queries
-You can **retrieve a list of objects from the database** using the `find` method. Using the `find` method without a
+You can **retrieve a list of objects from the database** using the `find` method. The `find` method takes a call back that executes once the query to the database has returned. It returns either an error to the `err` component or the `result` of the `find` query to the 
 ```js
 MyObject.find(function(err, result) {
   result.forEach(function(item) {
@@ -70,7 +70,7 @@ MyObject.find(function(err, result) {
 You can **retrieve a single object from the database** using the `findOne` method.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTY0MzgyMiwtMTcyNTM4MTY2NSw5Nj
-M1Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5
-MDMsMjAyNzAzMzEyOF19
+eyJoaXN0b3J5IjpbMzkyODg0NDQyLC0xNzI1MzgxNjY1LDk2Mz
+UyOTQxMSw2ODAwNTc3MTMsMjAxMDI1MDg0NSwtMjEzNjg5MTkw
+MywyMDI3MDMzMTI4XX0=
 -->
