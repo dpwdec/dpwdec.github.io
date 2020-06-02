@@ -80,10 +80,13 @@ User.find({ name:'dec' }, function(err, result) {
 });
 ```
 
+You can **submit a **
+
 You can **retrieve a single object from the database** using the `findOne` method.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODgwMDg0MCwtMTY1MzA4ODE5OSwtMT
-cyNTM4MTY2NSw5NjM1Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4
-NDUsLTIxMzY4OTE5MDMsMjAyNzAzMzEyOF19
+eyJoaXN0b3J5IjpbLTE5OTAwMjQ1MzQsLTkxODgwMDg0MCwtMT
+Y1MzA4ODE5OSwtMTcyNTM4MTY2NSw5NjM1Mjk0MTEsNjgwMDU3
+NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5MDMsMjAyNzAzMzEyOF
+19
 -->
