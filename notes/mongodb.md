@@ -74,15 +74,16 @@ MyObject.find(function(err, result) {
 
 You can **submit selection parameters to `mongoose` queries** to selection criteria for what is returned from the database. This is similar to using `WHEN` in `SQL`. **Queries are submitted as JSON objects** which are matched to objects.
 ```js
+// find query that returns all users with name = 'dec'
 User.find({ name:'dec' }, function(err, result) {
-  // do something with the re
+  // do something with the result
 });
 ```
 
 You can **retrieve a single object from the database** using the `findOne` method.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQ3Njg4NzUsLTE3MjUzODE2NjUsOT
+eyJoaXN0b3J5IjpbLTE2NTMwODgxOTksLTE3MjUzODE2NjUsOT
 YzNTI5NDExLDY4MDA1NzcxMywyMDEwMjUwODQ1LC0yMTM2ODkx
 OTAzLDIwMjcwMzMxMjhdfQ==
 -->
