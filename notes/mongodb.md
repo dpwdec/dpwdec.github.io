@@ -66,11 +66,12 @@ MyObject.find(function(err, result) {
   });
 });
 ```
+**Objects returned from `mongoose` queries are instances of the model that defines them.** This means that you don't need to coerce any of the data returned from a `mongoose` query (such as `find
 
 You can **retrieve a single object from the database** using the `findOne` method.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0Mzk5MjY3OSwtMTcyNTM4MTY2NSw5Nj
-M1Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5
-MDMsMjAyNzAzMzEyOF19
+eyJoaXN0b3J5IjpbLTEzNDkyMTM4NTIsLTE3MjUzODE2NjUsOT
+YzNTI5NDExLDY4MDA1NzcxMywyMDEwMjUwODQ1LC0yMTM2ODkx
+OTAzLDIwMjcwMzMxMjhdfQ==
 -->
