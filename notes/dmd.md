@@ -153,9 +153,11 @@ get_middle("of") # => "of"
 
 use JSON lint to validate JSON and see it in a nice format.
 
-fet
+fetch
+XMLHttpRequest
+$.ajax()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjAxNTMzMCwtMTIzODI4NzM1OSwyMD
+eyJoaXN0b3J5IjpbLTI1MzIwNjQwMiwtMTIzODI4NzM1OSwyMD
 Q0NDk5MTIzLDU3NTk3NTMyMCwyMTAwMTA2MDY3LC0xNTkxMDgw
 Nzk1LC01MzU4MDE3ODEsLTEzNTM4ODI2MzYsLTMyMzg5NjgwNi
 wtMTc4NjQ5NTMxMyw4OTM3MzI0NzAsLTEyMTM1NDA0NDIsMTA5
