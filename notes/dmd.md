@@ -171,12 +171,19 @@ class Article {
 }
 ```
 instead of returning data from a fetch promise based, pass in a callback to give your interface options for working with the data.
+
+```js
+fetchSummary(callback) {
+  fetch('some url
+}
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTExMzkwMSwtMjIxMjQ4NzYyLDE2MT
-QzNTUyNzQsLTI1MzIwNjQwMiwtMTIzODI4NzM1OSwyMDQ0NDk5
-MTIzLDU3NTk3NTMyMCwyMTAwMTA2MDY3LC0xNTkxMDgwNzk1LC
-01MzU4MDE3ODEsLTEzNTM4ODI2MzYsLTMyMzg5NjgwNiwtMTc4
-NjQ5NTMxMyw4OTM3MzI0NzAsLTEyMTM1NDA0NDIsMTA5NDEzND
-EyNCwtMTEwMDIzNzQzNywtMTcxOTE5NTI3NCwtMTg1MTIyODgy
-LDEzNDQ1MjIxNzhdfQ==
+eyJoaXN0b3J5IjpbODM1OTI4MzA2LC0yMjEyNDg3NjIsMTYxND
+M1NTI3NCwtMjUzMjA2NDAyLC0xMjM4Mjg3MzU5LDIwNDQ0OTkx
+MjMsNTc1OTc1MzIwLDIxMDAxMDYwNjcsLTE1OTEwODA3OTUsLT
+UzNTgwMTc4MSwtMTM1Mzg4MjYzNiwtMzIzODk2ODA2LC0xNzg2
+NDk1MzEzLDg5MzczMjQ3MCwtMTIxMzU0MDQ0MiwxMDk0MTM0MT
+I0LC0xMTAwMjM3NDM3LC0xNzE5MTk1Mjc0LC0xODUxMjI4ODIs
+MTM0NDUyMjE3OF19
 -->
