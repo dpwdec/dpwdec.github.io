@@ -33,7 +33,12 @@ User.prototype.introduce = function() {
 }
 ```
 
-You can **export your model to the rest of the application for use** using the `module.exports` property with the mode
+You can **export your model to the rest of the application for use** using the `module.exports` property with the model class created from your schema. 
+```js
+module.exports = User;
+// You can also export it directly if you don't want to add custom methods to yout model
+module.exports = mongoose.model('User', userSchema);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzI2NjI5NiwyMDI3MDMzMTI4XX0=
+eyJoaXN0b3J5IjpbMzY2MjQ1NDQ5LDIwMjcwMzMxMjhdfQ==
 -->
