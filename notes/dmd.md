@@ -159,13 +159,14 @@ $.ajax()
 
 endpoint refers to the route on the server that the external API call url refers to.
 
-
+## method for quickly getting data out of an endpoint API call and experiment with it in the js console.
+window.data = data // => allows you to get API call data into the browser console as an object and use it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjEyNTgyMDIsMTYxNDM1NTI3NCwtMj
-UzMjA2NDAyLC0xMjM4Mjg3MzU5LDIwNDQ0OTkxMjMsNTc1OTc1
-MzIwLDIxMDAxMDYwNjcsLTE1OTEwODA3OTUsLTUzNTgwMTc4MS
-wtMTM1Mzg4MjYzNiwtMzIzODk2ODA2LC0xNzg2NDk1MzEzLDg5
-MzczMjQ3MCwtMTIxMzU0MDQ0MiwxMDk0MTM0MTI0LC0xMTAwMj
-M3NDM3LC0xNzE5MTk1Mjc0LC0xODUxMjI4ODIsMTM0NDUyMjE3
-OCwxNjY4Njc2ODQxXX0=
+eyJoaXN0b3J5IjpbMTI1NjQ0ODkwNSwxNjE0MzU1Mjc0LC0yNT
+MyMDY0MDIsLTEyMzgyODczNTksMjA0NDQ5OTEyMyw1NzU5NzUz
+MjAsMjEwMDEwNjA2NywtMTU5MTA4MDc5NSwtNTM1ODAxNzgxLC
+0xMzUzODgyNjM2LC0zMjM4OTY4MDYsLTE3ODY0OTUzMTMsODkz
+NzMyNDcwLC0xMjEzNTQwNDQyLDEwOTQxMzQxMjQsLTExMDAyMz
+c0MzcsLTE3MTkxOTUyNzQsLTE4NTEyMjg4MiwxMzQ0NTIyMTc4
+LDE2Njg2NzY4NDFdfQ==
 -->
