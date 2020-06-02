@@ -161,8 +161,10 @@ endpoint refers to the route on the server that the external API call url refers
 
 ## method for quickly getting data out of an endpoint API call and experiment with it in the js console.
 window.data = data // => allows you to get API call data into the browser console as an object and use it
+
+would a prod
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjQ0ODkwNSwxNjE0MzU1Mjc0LC0yNT
+eyJoaXN0b3J5IjpbMTY5NjE3MTY4NCwxNjE0MzU1Mjc0LC0yNT
 MyMDY0MDIsLTEyMzgyODczNTksMjA0NDQ5OTEyMyw1NzU5NzUz
 MjAsMjEwMDEwNjA2NywtMTU5MTA4MDc5NSwtNTM1ODAxNzgxLC
 0xMzUzODgyNjM2LC0zMjM4OTY4MDYsLTE3ODY0OTUzMTMsODkz
