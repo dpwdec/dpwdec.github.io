@@ -28,10 +28,12 @@ let User = mongoose.model('User', userSchema);
 You can **add custom methods to your mongoose models** using the `prototype` syntax. These methods can reference attributes defined in the database schema.
 ```js
 User.prototype.introduce = function() {
-
+  // a function using the name schema field on the user model
   return 'Hello, my name is ' + this.name
 }
 ```
+
+You can **export your model to the rest of the application for use** using the `module.exports` property with the mode
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODk4MDg2MCwyMDI3MDMzMTI4XX0=
+eyJoaXN0b3J5IjpbLTk5NzI2NjI5NiwyMDI3MDMzMTI4XX0=
 -->
