@@ -20,10 +20,12 @@ let userSchema = new mongoose.schema({
 });
 ```
 
-To **turn the mongoose schema into a class model** so that it can have methods and other static data etc. added to it use the `mongoose.model` method with parse the schema. This takes the `userSchema` created above and defines a `'User'` class like structure defined as the name of the object. Mongoose automatically pluralises the table names for these document types based on the name of the model submitted. I
+To **turn the mongoose schema into a class model** so that it can have methods and other static data etc. added to it use the `mongoose.model` method with parse the schema. This takes the `userSchema` created above and defines a `'User'` class like structure defined as the name of the object. Mongoose automatically pluralises the table names for these document types based on the name of the model submitted. In this case when a new `User` is saved for the first time a `Users` table will be created in the associated MongoDB database.
 ```js
 let User = mongoose.model('User', userSchema);
 ```
+
+You can **add custom methods to your mongoose models** using the `prototype` syntax. These methods can reference 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDY2MzYzLDIwMjcwMzMxMjhdfQ==
+eyJoaXN0b3J5IjpbMTQxNjQyMjQwMiwyMDI3MDMzMTI4XX0=
 -->
