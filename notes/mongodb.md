@@ -13,8 +13,12 @@ Mongoose is an javascript ORM used with MongoDB to define database schema and ac
 let mongoose = require('mongoose')
 ```
 
-You can **define a database schema** using the `mongoose.schema` command.
-
+You can **define a database schema** by creating a new `mongoose.schema` and adding the possible fields a document in this 
+```js
+let userSchema = new mongoose.schema({
+  
+})
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTQ3NDM4MSwyMDI3MDMzMTI4XX0=
+eyJoaXN0b3J5IjpbLTQ2MDA5NDEyNCwyMDI3MDMzMTI4XX0=
 -->
