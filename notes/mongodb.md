@@ -56,8 +56,8 @@ newUser.save(function(err) {
 })
 ```
 
-
+You can **retrieve a single object from **
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDI1MDg0NSwtMjEzNjg5MTkwMywyMD
-I3MDMzMTI4XX0=
+eyJoaXN0b3J5IjpbMTI1NzMxNjUxNCwyMDEwMjUwODQ1LC0yMT
+M2ODkxOTAzLDIwMjcwMzMxMjhdfQ==
 -->
