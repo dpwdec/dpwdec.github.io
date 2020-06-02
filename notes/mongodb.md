@@ -40,12 +40,16 @@ module.exports = User;
 module.exports = mongoose.model('User', userSchema);
 ```
 
-You can **create a new instance of a model** by passing the constructor a javascript object that contains the key value pairs that describe the schema fields to be filled.
+You can **create a new instance of a model** by passing the constructor a javascript object that contains the key value pairs that describe the schema fields to be filled. The model object will then have the corresponding fields filled with the data defined in the constructor.
 ```js
 let User = require('./models/user')
 
-let newUser 
+let newUser = new User({
+  name: 'dec'
+})
 ```
+
+You can **save am p**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MTAwNTY0MywyMDI3MDMzMTI4XX0=
+eyJoaXN0b3J5IjpbLTU1MzAwMzI3NCwyMDI3MDMzMTI4XX0=
 -->
