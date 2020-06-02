@@ -13,6 +13,7 @@ Mongoose is an javascript ORM used with MongoDB to define database schema and ac
 let mongoose = require('mongoose')
 ```
 
+### Schemas
 You can **define a database schema** by creating a new `mongoose.schema` and adding the possible fields a document in this table could take.
 ```js
 let userSchema = new mongoose.schema({
@@ -56,11 +57,13 @@ newUser.save(function(err) {
 })
 ```
 
+### Queries
+You can **retrieve a list of objects from the database** using the `find` method. Using the `find` method without a 
+
 You can **retrieve a single object from the database** using the `findOne` method.
 
-
-You can **retrieve a list of objects from the database** using the `find` method.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzNTI5NDExLDY4MDA1NzcxMywyMDEwMj
-UwODQ1LC0yMTM2ODkxOTAzLDIwMjcwMzMxMjhdfQ==
+eyJoaXN0b3J5IjpbLTE3MjUzODE2NjUsOTYzNTI5NDExLDY4MD
+A1NzcxMywyMDEwMjUwODQ1LC0yMTM2ODkxOTAzLDIwMjcwMzMx
+MjhdfQ==
 -->
