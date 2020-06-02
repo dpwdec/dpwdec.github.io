@@ -55,6 +55,9 @@ newUser.save(function(err) {
   //do something if there is an error or success
 })
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzY4OTE5MDMsMjAyNzAzMzEyOF19
+eyJoaXN0b3J5IjpbMjAxMDI1MDg0NSwtMjEzNjg5MTkwMywyMD
+I3MDMzMTI4XX0=
 -->
