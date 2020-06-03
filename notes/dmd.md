@@ -186,13 +186,16 @@ fetchSummary(function(data) {
 Look up React components.
 Use exhaustive feature tests.
 JSX react addon --> needs to be compiled on the server and sent to the client --> JSX installed on the server side to convert jsx files
-S
+Stateless and stateful componenets
+The stateless components are purely this is howto style this type of data
+Stateful components also have logic 
+COMPONENTS! <-- Think in terms of This
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg0OTU3MTMsMjIzNTQ1NDI4LC0xNj
-IyMzE3Mzk4LDU5OTU5NTYzMSwtMjIxMjQ4NzYyLDE2MTQzNTUy
-NzQsLTI1MzIwNjQwMiwtMTIzODI4NzM1OSwyMDQ0NDk5MTIzLD
-U3NTk3NTMyMCwyMTAwMTA2MDY3LC0xNTkxMDgwNzk1LC01MzU4
-MDE3ODEsLTEzNTM4ODI2MzYsLTMyMzg5NjgwNiwtMTc4NjQ5NT
-MxMyw4OTM3MzI0NzAsLTEyMTM1NDA0NDIsMTA5NDEzNDEyNCwt
-MTEwMDIzNzQzN119
+eyJoaXN0b3J5IjpbODQxODE1MDY2LDIyMzU0NTQyOCwtMTYyMj
+MxNzM5OCw1OTk1OTU2MzEsLTIyMTI0ODc2MiwxNjE0MzU1Mjc0
+LC0yNTMyMDY0MDIsLTEyMzgyODczNTksMjA0NDQ5OTEyMyw1Nz
+U5NzUzMjAsMjEwMDEwNjA2NywtMTU5MTA4MDc5NSwtNTM1ODAx
+NzgxLC0xMzUzODgyNjM2LC0zMjM4OTY4MDYsLTE3ODY0OTUzMT
+MsODkzNzMyNDcwLC0xMjEzNTQwNDQyLDEwOTQxMzQxMjQsLTEx
+MDAyMzc0MzddfQ==
 -->
