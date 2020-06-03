@@ -185,13 +185,13 @@ fetchSummary(function(data) {
 
 Look up React components.
 Use exhaustive feature tests.
-JSX react addon --> needs to be complied
+JSX react addon --> needs to be compiled on the server and sent to the client --> JSX installed on the server side to convert jsx files
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5Nzg5MCwtMTYyMjMxNzM5OCw1OTk1OT
-U2MzEsLTIyMTI0ODc2MiwxNjE0MzU1Mjc0LC0yNTMyMDY0MDIs
-LTEyMzgyODczNTksMjA0NDQ5OTEyMyw1NzU5NzUzMjAsMjEwMD
-EwNjA2NywtMTU5MTA4MDc5NSwtNTM1ODAxNzgxLC0xMzUzODgy
-NjM2LC0zMjM4OTY4MDYsLTE3ODY0OTUzMTMsODkzNzMyNDcwLC
-0xMjEzNTQwNDQyLDEwOTQxMzQxMjQsLTExMDAyMzc0MzcsLTE3
-MTkxOTUyNzRdfQ==
+eyJoaXN0b3J5IjpbMjIzNTQ1NDI4LC0xNjIyMzE3Mzk4LDU5OT
+U5NTYzMSwtMjIxMjQ4NzYyLDE2MTQzNTUyNzQsLTI1MzIwNjQw
+MiwtMTIzODI4NzM1OSwyMDQ0NDk5MTIzLDU3NTk3NTMyMCwyMT
+AwMTA2MDY3LC0xNTkxMDgwNzk1LC01MzU4MDE3ODEsLTEzNTM4
+ODI2MzYsLTMyMzg5NjgwNiwtMTc4NjQ5NTMxMyw4OTM3MzI0Nz
+AsLTEyMTM1NDA0NDIsMTA5NDEzNDEyNCwtMTEwMDIzNzQzNywt
+MTcxOTE5NTI3NF19
 -->
