@@ -818,6 +818,9 @@ MyClass.someClassMethod = function() { console.log('hello') }
 MyClass.someClassMethod() // => 'hello'
 ```
 
+### Class Type
+You can return the name of a type of object (similar to returning the 
+
 ## This
 Javascript's `this` keyword does not function in the most intuitive way i.e. it doesn't work in a traditionally object oriented way. The `this` keyword tends to refers to how a function was called depending on the enclosing object.
 ```js
@@ -1148,11 +1151,11 @@ myFunction().then(function(resolve) {
 }) // => 'hello'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzk4OTMwOSw5NDgwODI4NDcsLTEwMj
-Q0MzA3MSwtMTgwMzk4ODAzNywtMTkyOTIwODkxNCwtMjkwODY4
-NDc5LDY1MDYzNjU5NiwtMTAxNTExMDIwOCwtMTQxNjY3NDExLD
-EzMjE5MTQxNzMsOTExODUzNTcyLC0xMDUwMDExMzkyLDc1NTQx
-ODkzMCwyMTEwODkzMjk4LDM0MzIwNTY3NCwtMTcxNTg5ODUwLD
-k5NDQyODc1NywxNDExMzAzMjUzLC0xNzg0OTI4ODY3LDE1NTE3
-MzY1MDldfQ==
+eyJoaXN0b3J5IjpbLTIxMjY4NDg0NjAsOTQ4MDgyODQ3LC0xMD
+I0NDMwNzEsLTE4MDM5ODgwMzcsLTE5MjkyMDg5MTQsLTI5MDg2
+ODQ3OSw2NTA2MzY1OTYsLTEwMTUxMTAyMDgsLTE0MTY2NzQxMS
+wxMzIxOTE0MTczLDkxMTg1MzU3MiwtMTA1MDAxMTM5Miw3NTU0
+MTg5MzAsMjExMDg5MzI5OCwzNDMyMDU2NzQsLTE3MTU4OTg1MC
+w5OTQ0Mjg3NTcsMTQxMTMwMzI1MywtMTc4NDkyODg2NywxNTUx
+NzM2NTA5XX0=
 -->
