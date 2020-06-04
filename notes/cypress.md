@@ -3,11 +3,12 @@ title: Cypress
 layout: page
 exclude: true
 ---
-Cypress is an integration/feature testing framework for node based web servers. When Cypress tests are executed they create a headerless browser 
+Cypress is an integration/feature testing framework for node based web servers. When Cypress tests are executed they create a headerless browser through which Cypress contacts a test server version of the web server being tested and runs integration tests created by the developer.
 
+You can **run a single specific integration test file** by using the `run --spec` command followed by a path that points to the file which contains the Cypress in
 ```
-cypress run --spec path/to/file.spec.js
+$ npx cypress run --spec path/to/file.spec.js
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA2NTY1MTRdfQ==
+eyJoaXN0b3J5IjpbLTgzODM5OTQwNV19
 -->
