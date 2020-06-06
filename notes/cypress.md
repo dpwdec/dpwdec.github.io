@@ -10,7 +10,8 @@ You can **run a single specific integration test file** by using the `run --spec
 $ npx cypress run --spec path/to/file.spec.js
 ```
 
-
+## Tasks
+By default Cypress executes in a headless browser that does not have access to your server code.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzY0MzQzNiwyMTA3MjgwNTkyXX0=
+eyJoaXN0b3J5IjpbLTIwMzY0OTk4MTksMjEwNzI4MDU5Ml19
 -->
