@@ -118,12 +118,12 @@ describe('Task Example', function() {
 });
 ```
 
-You can **set the `timeout` limit of `task` manually when calling it** by submitting as the third argument to the `cy.task` method an object with a property `timeout` linked with the maximum wait time for a task to execute in milliseconds.
+You can **set the `timeout` limit of `task` manually when calling it** by submitting as the third argument to the `cy.task` method an object with a property `timeout` linked with the maximum wait time for a task to execute in milliseconds. The below code passes in `null` for the second argument, because there is not explicit argument for this task and sets the timeout to 20 seconds.
 ```js
 // call_task_with_custom_timeout_spec.js
 describe('Task Example', function() {
   it('Calls a task', function() {
-    cy.task('myTask', n);
+    cy.task('myTask', null, {timeout: 20000});
   });
 });
 // => This task was executed.
@@ -152,8 +152,8 @@ module.exports = function(on) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjM3MzMwOTksLTI5OTA3Njg3MywtMT
-AyODc3ODc4NywtNDE2MDM5NDYzLDIxMTA2MTc0MzIsLTMxNTM2
-MDA0LDgxNTc2NzU1MCw1MDU3MDgzNDIsLTE1NjkzODM4MzEsLT
-IwMzY0OTk4MTksMjEwNzI4MDU5Ml19
+eyJoaXN0b3J5IjpbLTk3OTY4NjE1NiwtMjk5MDc2ODczLC0xMD
+I4Nzc4Nzg3LC00MTYwMzk0NjMsMjExMDYxNzQzMiwtMzE1MzYw
+MDQsODE1NzY3NTUwLDUwNTcwODM0MiwtMTU2OTM4MzgzMSwtMj
+AzNjQ5OTgxOSwyMTA3MjgwNTkyXX0=
 -->
