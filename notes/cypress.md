@@ -25,16 +25,28 @@ module.exports = function(on) {
   });
 }
 ```
-This is the corresponding Cypress test that calls the `myTask` function when it executes.
+This is the corresponding Cypress test that calls the `myTask` function by name when it executes using the `cy.task` method.
 ```js
 // call_task_spec.js
 describe('Task Example', function() {
   it('Calls a task', function() {
-    cy.task('myTask'); // => 
+    cy.task('myTask');
   });
 });
+// => This task was executed.
+```
+You can **define multiple possible tasks that could be called by name** in the `plugins/index.js` file by comma separating them.
+```js
+module.exports = function(on) {
+  on('task', {
+    myTask() {
+      console.log('This task was executed');
+      return null;
+    }
+  },);
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODczNTgzMSw1MDU3MDgzNDIsLTE1Nj
-kzODM4MzEsLTIwMzY0OTk4MTksMjEwNzI4MDU5Ml19
+eyJoaXN0b3J5IjpbNDczMjQ2MjE3LDUwNTcwODM0MiwtMTU2OT
+M4MzgzMSwtMjAzNjQ5OTgxOSwyMTA3MjgwNTkyXX0=
 -->
