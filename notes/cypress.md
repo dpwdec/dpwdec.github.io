@@ -83,20 +83,22 @@ module.exports = function(on) {
   on('task', {
     myAsyncTask() {
       return new Promise(function(resolve) {
-        
-      });
-      connectToDatabase(function(completed) {
-        
+        mongoose.connect('mongodb://localhost/mydatabase_test', function(err) {
+          // do some database stuff
+          resolve('done');
+        });
       });
     }
   });
 }
 ```
 
+In the corresponding cypress test file where the ta
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjg3Nzg3ODcsLTQxNjAzOTQ2MywyMT
-EwNjE3NDMyLC0zMTUzNjAwNCw4MTU3Njc1NTAsNTA1NzA4MzQy
-LC0xNTY5MzgzODMxLC0yMDM2NDk5ODE5LDIxMDcyODA1OTJdfQ
-==
+eyJoaXN0b3J5IjpbMTY1MDg2OTk2NywtMTAyODc3ODc4NywtND
+E2MDM5NDYzLDIxMTA2MTc0MzIsLTMxNTM2MDA0LDgxNTc2NzU1
+MCw1MDU3MDgzNDIsLTE1NjkzODM4MzEsLTIwMzY0OTk4MTksMj
+EwNzI4MDU5Ml19
 -->
