@@ -9,6 +9,8 @@ You can **run a single specific integration test file** by using the `run --spec
 ```
 $ npx cypress run --spec path/to/file.spec.js
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzI4MDU5Ml19
+eyJoaXN0b3J5IjpbMTU3NzY0MzQzNiwyMTA3MjgwNTkyXX0=
 -->
