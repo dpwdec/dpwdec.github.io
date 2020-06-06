@@ -25,8 +25,16 @@ module.exports = function(on) {
   });
 }
 ```
-This is the corresponding Cypre
+This is the corresponding Cypress test that calls the `myTask` function when it executes.
+```js
+// call_task_spec.js
+describe('Task Example', function() {
+  it('Calls a task', function() {
+    cy.task('myTask'); // => 
+  });
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzIyNTE3NSw1MDU3MDgzNDIsLTE1Nj
+eyJoaXN0b3J5IjpbMTY5ODczNTgzMSw1MDU3MDgzNDIsLTE1Nj
 kzODM4MzEsLTIwMzY0OTk4MTksMjEwNzI4MDU5Ml19
 -->
