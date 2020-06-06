@@ -15,9 +15,12 @@ Because Cypress is an integration framework designed for testing the front end o
 
 If you want to **execute server side configuration requests** during your Cypress tests you should use the `cy.task` method. This method takes the name of a task defined in the `plugins/index.js` of your `Cypress` directory and runs it.
 ```js
-module.exports
+// Cyor
+module.exports = function(on) {
+  
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTM0NDU3NywtMTU2OTM4MzgzMSwtMj
+eyJoaXN0b3J5IjpbLTE3NjYwODUxMywtMTU2OTM4MzgzMSwtMj
 AzNjQ5OTgxOSwyMTA3MjgwNTkyXX0=
 -->
