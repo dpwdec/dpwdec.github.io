@@ -52,9 +52,19 @@ module.exports = function(on) {
 }
 ```
 
-You can **pass argument values from your cypress tests to tasks** by adding a second argument after the task 
+You can **pass argument values from your cypress tests to tasks** by adding a second argument after the task name specification and an input argument to the task definition in `plugins/index.js`.
+```js
+module.exports = function(on) {
+  on('task', {
+    myTask() {
+      console.log('This task was executed');
+      return null;
+    }
+  });
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDMxNTI3ODksNTA1NzA4MzQyLC0xNT
+eyJoaXN0b3J5IjpbLTE0ODk2OTYwOTQsNTA1NzA4MzQyLC0xNT
 Y5MzgzODMxLC0yMDM2NDk5ODE5LDIxMDcyODA1OTJdfQ==
 -->
