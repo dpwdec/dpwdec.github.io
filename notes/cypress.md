@@ -93,12 +93,22 @@ module.exports = function(on) {
 }
 ```
 
-In the corresponding cypress test file where the ta
+In the corresponding cypress test file where the `task` is called we use `then` to execute once a database connection is achieved.
+```js
+// call_task_with_async_spec.js
+describe('Task Example', function() {
+  it('Calls a task', function() {
+    cy.task('myAsyncTask').then(function(result) {
+      // do some more tests here now the async task has finished.,
+    });
+  });
+});
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDg2OTk2NywtMTAyODc3ODc4NywtND
-E2MDM5NDYzLDIxMTA2MTc0MzIsLTMxNTM2MDA0LDgxNTc2NzU1
-MCw1MDU3MDgzNDIsLTE1NjkzODM4MzEsLTIwMzY0OTk4MTksMj
-EwNzI4MDU5Ml19
+eyJoaXN0b3J5IjpbLTE4MzE0ODE2NDcsLTEwMjg3Nzg3ODcsLT
+QxNjAzOTQ2MywyMTEwNjE3NDMyLC0zMTUzNjAwNCw4MTU3Njc1
+NTAsNTA1NzA4MzQyLC0xNTY5MzgzODMxLC0yMDM2NDk5ODE5LD
+IxMDcyODA1OTJdfQ==
 -->
