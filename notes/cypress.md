@@ -11,7 +11,8 @@ $ npx cypress run --spec path/to/file.spec.js
 ```
 
 ## Tasks
-By default Cypress executes in a headless browser that does not have access to your server code.
+Because Cypress is an integration fram executes in a headless browser that does not have access to your server code.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY0OTk4MTksMjEwNzI4MDU5Ml19
+eyJoaXN0b3J5IjpbODY0NjUwMjIwLC0yMDM2NDk5ODE5LDIxMD
+cyODA1OTJdfQ==
 -->
