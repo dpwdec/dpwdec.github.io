@@ -76,11 +76,11 @@ describe('Task Example', function() {
 // => 'an argument message'
 ```
 
-Asynchronous cypress tasks should return a `Promise` that resolves when the asynchronous 
+Asynchronous cypress tasks should return a `Promise` that resolves when the asynchronous behaviour has completed. This can then be combined with the `then` keyword inside your cypress test to execute the rest of the test.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTkxNzk4OSwyMTEwNjE3NDMyLC0zMT
-UzNjAwNCw4MTU3Njc1NTAsNTA1NzA4MzQyLC0xNTY5MzgzODMx
-LC0yMDM2NDk5ODE5LDIxMDcyODA1OTJdfQ==
+eyJoaXN0b3J5IjpbNzUxMDU2MTM0LDIxMTA2MTc0MzIsLTMxNT
+M2MDA0LDgxNTc2NzU1MCw1MDU3MDgzNDIsLTE1NjkzODM4MzEs
+LTIwMzY0OTk4MTksMjEwNzI4MDU5Ml19
 -->
