@@ -82,6 +82,9 @@ describe('Task Example', function() {
 module.exports = function(on) {
   on('task', {
     myAsyncTask() {
+      return new Promise(function(resolve) {
+        
+      });
       connectToDatabase(function(completed) {
         
       });
@@ -92,7 +95,8 @@ module.exports = function(on) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxMDY1NTksLTQxNjAzOTQ2MywyMTEwNj
-E3NDMyLC0zMTUzNjAwNCw4MTU3Njc1NTAsNTA1NzA4MzQyLC0x
-NTY5MzgzODMxLC0yMDM2NDk5ODE5LDIxMDcyODA1OTJdfQ==
+eyJoaXN0b3J5IjpbLTEwMjg3Nzg3ODcsLTQxNjAzOTQ2MywyMT
+EwNjE3NDMyLC0zMTUzNjAwNCw4MTU3Njc1NTAsNTA1NzA4MzQy
+LC0xNTY5MzgzODMxLC0yMDM2NDk5ODE5LDIxMDcyODA1OTJdfQ
+==
 -->
