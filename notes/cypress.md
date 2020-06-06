@@ -105,12 +105,23 @@ describe('Task Example', function() {
 });
 ```
 
-It's important to note that **promises returned by `cy.task` MUST have a return value on their `resolve`**. You **cannot return an empty promise** back to the cypress test calling the task, otherwise it w
+It's important to note that **promises returned by `cy.task` MUST have a return value on their `resolve`**. You **cannot return an empty promise** back to the cypress test calling the task, otherwise it will give you a misleading error saying that a promise is not even being returned.
+
+You can **combine the use of task promises with `async` and `await`** behaviour within your cypress test to streamline your test calls to async functions.
+```js
+// call_task_with_async_await_spec.js
+describe('Task Example', function() {
+  it('Calls a task', async function() {
+    await cy.task('myAsyncTask');
+    // rest of cypress test
+  });
+});
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzM1Njg2OCwtMTAyODc3ODc4NywtND
-E2MDM5NDYzLDIxMTA2MTc0MzIsLTMxNTM2MDA0LDgxNTc2NzU1
-MCw1MDU3MDgzNDIsLTE1NjkzODM4MzEsLTIwMzY0OTk4MTksMj
-EwNzI4MDU5Ml19
+eyJoaXN0b3J5IjpbLTE4OTE5ODgxNTEsLTEwMjg3Nzg3ODcsLT
+QxNjAzOTQ2MywyMTEwNjE3NDMyLC0zMTUzNjAwNCw4MTU3Njc1
+NTAsNTA1NzA4MzQyLC0xNTY5MzgzODMxLC0yMDM2NDk5ODE5LD
+IxMDcyODA1OTJdfQ==
 -->
