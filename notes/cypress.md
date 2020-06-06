@@ -52,9 +52,9 @@ module.exports = function(on) {
 }
 ```
 
-
+You can **pass argument values from your cypress tests to tasks** by adding a second argument after the task 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTM3NTEyMDIsNTA1NzA4MzQyLC0xNT
+eyJoaXN0b3J5IjpbLTIxMDMxNTI3ODksNTA1NzA4MzQyLC0xNT
 Y5MzgzODMxLC0yMDM2NDk5ODE5LDIxMDcyODA1OTJdfQ==
 -->
