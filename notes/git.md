@@ -1,10 +1,13 @@
 ---
-title: Databases
+title: Git
 layout: page
 exclude: true
 ---
+If you find yourself working on a project branch having **not made a commit and wanting to delete all the changes you've made** to the that branch and revert to the last commit.
+```
+$ 
+```
 
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDYyNzQwMV19
+eyJoaXN0b3J5IjpbMTg4MjUzNzYxM119
 -->
