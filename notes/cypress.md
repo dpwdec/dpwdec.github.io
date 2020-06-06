@@ -99,16 +99,18 @@ In the corresponding cypress test file where the `task` is called we use `then` 
 describe('Task Example', function() {
   it('Calls a task', function() {
     cy.task('myAsyncTask').then(function(result) {
-      // do some more tests here now the async task has finished.,
+      // do some more tests here now the async task has finished.
     });
   });
 });
 ```
 
+It's important to note that **promises returned by `cy.task` MUST have a return value on their `resolve`**. You **cannot return an empty promise** back to the cypress test calling the task, otherwise it w
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzE0ODE2NDcsLTEwMjg3Nzg3ODcsLT
-QxNjAzOTQ2MywyMTEwNjE3NDMyLC0zMTUzNjAwNCw4MTU3Njc1
-NTAsNTA1NzA4MzQyLC0xNTY5MzgzODMxLC0yMDM2NDk5ODE5LD
-IxMDcyODA1OTJdfQ==
+eyJoaXN0b3J5IjpbMTE5NzM1Njg2OCwtMTAyODc3ODc4NywtND
+E2MDM5NDYzLDIxMTA2MTc0MzIsLTMxNTM2MDA0LDgxNTc2NzU1
+MCw1MDU3MDgzNDIsLTE1NjkzODM4MzEsLTIwMzY0OTk4MTksMj
+EwNzI4MDU5Ml19
 -->
