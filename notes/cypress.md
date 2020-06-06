@@ -13,7 +13,7 @@ $ npx cypress run --spec path/to/file.spec.js
 ## Tasks
 Because Cypress is an integration framework designed for testing the front end of your application it executes in a headless browser that does not have access to your server code. This means that any configuration code that you might want to use for tests, like database insertions, cannot be executed directly inside a Cypress test.
 
-If you want to **execute server side configuration requests** during your Cypress tests you should use the `cy.task` method. This method takes the name of a task defined in the `plugins/index.js` of your `Cypress` directory and runs it. In the `index.js` below we use the `on` callback to define a method that will executed when `task` is called with the name of the function in `task` passed to it.
+If you want to **execute server side configuration requests** during your Cypress tests you should use the `cy.task` method. This method takes the name of a task defined in the `plugins/index.js` of your `Cypress` directory and runs it. In the `index.js` below we use the `on` callback to define a method that will executed when `task` is called with the name of the function in `task` passed to it. Cypress tasks **strong text**
 ```js
 // cypress/plugins/index.js
 module.exports = function(on) {
@@ -35,18 +35,23 @@ describe('Task Example', function() {
 });
 // => This task was executed.
 ```
-You can **define multiple possible tasks that could be called by name** in the `plugins/index.js` file by comma separating them.
+You can **define multiple possible tasks that could be called by name** in the `plugins/index.js` file by comma separating them within the second argument object to the `on` method.
 ```js
 module.exports = function(on) {
   on('task', {
     myTask() {
       console.log('This task was executed');
       return null;
+    },
+    anotherTask() {
+      console.log('This is another task');
+      return null;
     }
-  },);
+  });
 }
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczMjQ2MjE3LDUwNTcwODM0MiwtMTU2OT
-M4MzgzMSwtMjAzNjQ5OTgxOSwyMTA3MjgwNTkyXX0=
+eyJoaXN0b3J5IjpbMTkyODQxOTQ2MCw1MDU3MDgzNDIsLTE1Nj
+kzODM4MzEsLTIwMzY0OTk4MTksMjEwNzI4MDU5Ml19
 -->
