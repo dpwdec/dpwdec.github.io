@@ -118,7 +118,16 @@ describe('Task Example', function() {
 });
 ```
 
-You can **set the `timeout` limit of `task` manually when calling it** by submitting the maximum wait time for a task to execute in milliseconds inside as a third argument to a `task` with the 
+You can **set the `timeout` limit of `task` manually when calling it** by submitting as the third argument to the `cy.task` method an object with a property `timeout` linked with the maximum wait time for a task to execute in milliseconds.
+```js
+// call_task_with_custom_timeout_spec.js
+describe('Task Example', function() {
+  it('Calls a task', function() {
+    cy.task('myTask', n);
+  });
+});
+// => This task was executed.
+```
 
 ### Mongoose database and Tasks
 Cypress tasks **do not maintain a direct connection to the database** even if your server code uses the database Cypress does not have access to that connection, this means that if you want to execute database seeding or dropping during a Cypress test with `cy.task` you will need to establish a new database connection. The below example demonstrates importing `mongoose` and a `User` model into the `plugins/index.js` file and then connecting to a database before creating a new mongoose model instance and saving the new object to the database and then calling `resolve` on the promise to signal that the async behaviour of the function is complete.
@@ -143,8 +152,8 @@ module.exports = function(on) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDQyOTAsLTI5OTA3Njg3MywtMTAyOD
-c3ODc4NywtNDE2MDM5NDYzLDIxMTA2MTc0MzIsLTMxNTM2MDA0
-LDgxNTc2NzU1MCw1MDU3MDgzNDIsLTE1NjkzODM4MzEsLTIwMz
-Y0OTk4MTksMjEwNzI4MDU5Ml19
+eyJoaXN0b3J5IjpbLTE2MjM3MzMwOTksLTI5OTA3Njg3MywtMT
+AyODc3ODc4NywtNDE2MDM5NDYzLDIxMTA2MTc0MzIsLTMxNTM2
+MDA0LDgxNTc2NzU1MCw1MDU3MDgzNDIsLTE1NjkzODM4MzEsLT
+IwMzY0OTk4MTksMjEwNzI4MDU5Ml19
 -->
