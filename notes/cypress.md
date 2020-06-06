@@ -64,7 +64,8 @@ module.exports = function(on) {
   });
 }
 ```
-The corresponding test can then pass in an argument value.
+
+The corresponding test can then pass in an argument value. This input argument can take many different argument forms, such as a callback, object or other class parameter to be used by your Cypress tasks.
 ```js
 // call_task_with_argument_spec.js
 describe('Task Example', function() {
@@ -77,8 +78,9 @@ describe('Task Example', function() {
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDYxNzQzMiwtMzE1MzYwMDQsODE1Nz
-Y3NTUwLDUwNTcwODM0MiwtMTU2OTM4MzgzMSwtMjAzNjQ5OTgx
-OSwyMTA3MjgwNTkyXX0=
+eyJoaXN0b3J5IjpbNTYxMjMyNzg4LDIxMTA2MTc0MzIsLTMxNT
+M2MDA0LDgxNTc2NzU1MCw1MDU3MDgzNDIsLTE1NjkzODM4MzEs
+LTIwMzY0OTk4MTksMjEwNzI4MDU5Ml19
 -->
