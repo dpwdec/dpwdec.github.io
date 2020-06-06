@@ -17,10 +17,15 @@ If you want to **execute server side configuration requests** during your Cypres
 ```js
 // cypress/plugins/index.js
 module.exports = function(on) {
-  
+  on('task', {
+    myTask() {
+      console.log('This task was executed');
+      return null;
+    }
+  });
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4Nzc4ODQxMiwtMTU2OTM4MzgzMSwtMj
+eyJoaXN0b3J5IjpbMTk2ODE3NTc5NCwtMTU2OTM4MzgzMSwtMj
 AzNjQ5OTgxOSwyMTA3MjgwNTkyXX0=
 -->
