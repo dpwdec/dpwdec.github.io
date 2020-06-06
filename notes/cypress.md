@@ -72,11 +72,11 @@ describe('Task Example', function() {
     cy.task('myTask', 'an argument message');
   });
 });
-
+// => 'an argument message'
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzE5NDg5MTIsODE1NzY3NTUwLDUwNT
-cwODM0MiwtMTU2OTM4MzgzMSwtMjAzNjQ5OTgxOSwyMTA3Mjgw
-NTkyXX0=
+eyJoaXN0b3J5IjpbLTMxNTM2MDA0LDgxNTc2NzU1MCw1MDU3MD
+gzNDIsLTE1NjkzODM4MzEsLTIwMzY0OTk4MTksMjEwNzI4MDU5
+Ml19
 -->
