@@ -119,7 +119,7 @@ describe('Task Example', function() {
 ```
 
 ### Mongoose database and Tasks
-Cypress tasks **do not maintain a direct connection to the database** even if your server code uses the database Cypress does not have access to that connection, this means that if you want to execute database seeding or dropping during a Cypress test with `cy.task` you will need to establish a new database connection. The below example demonstartes i
+Cypress tasks **do not maintain a direct connection to the database** even if your server code uses the database Cypress does not have access to that connection, this means that if you want to execute database seeding or dropping during a Cypress test with `cy.task` you will need to establish a new database connection. The below example demonstrates importing `mongoose` and a `User` model into the `plugins/index.js` file and then connecting to a database before creating a new mongoose model instance and saving the new object to the database and then calling `resolve` on the promise to signal that the async behaviour of the function is complete.
 ```js
 // cypress/plugins/index.js
 var mongoose = require('mongoose');
@@ -141,7 +141,7 @@ module.exports = function(on) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2Mzc5ODUzNCwtMTAyODc3ODc4NywtND
+eyJoaXN0b3J5IjpbLTI5OTA3Njg3MywtMTAyODc3ODc4NywtND
 E2MDM5NDYzLDIxMTA2MTc0MzIsLTMxNTM2MDA0LDgxNTc2NzU1
 MCw1MDU3MDgzNDIsLTE1NjkzODM4MzEsLTIwMzY0OTk4MTksMj
 EwNzI4MDU5Ml19
