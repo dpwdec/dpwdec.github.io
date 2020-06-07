@@ -190,12 +190,20 @@ Stateless and stateful componenets
 The stateless components are purely this is howto style this type of data
 Stateful components also have logic 
 COMPONENTS! <-- Think in terms of This
+
+
+
+
+
+
+
+macros expanded into code
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxODE1MDY2LDIyMzU0NTQyOCwtMTYyMj
-MxNzM5OCw1OTk1OTU2MzEsLTIyMTI0ODc2MiwxNjE0MzU1Mjc0
-LC0yNTMyMDY0MDIsLTEyMzgyODczNTksMjA0NDQ5OTEyMyw1Nz
-U5NzUzMjAsMjEwMDEwNjA2NywtMTU5MTA4MDc5NSwtNTM1ODAx
-NzgxLC0xMzUzODgyNjM2LC0zMjM4OTY4MDYsLTE3ODY0OTUzMT
-MsODkzNzMyNDcwLC0xMjEzNTQwNDQyLDEwOTQxMzQxMjQsLTEx
-MDAyMzc0MzddfQ==
+eyJoaXN0b3J5IjpbLTEzNjM3MzkxODksODQxODE1MDY2LDIyMz
+U0NTQyOCwtMTYyMjMxNzM5OCw1OTk1OTU2MzEsLTIyMTI0ODc2
+MiwxNjE0MzU1Mjc0LC0yNTMyMDY0MDIsLTEyMzgyODczNTksMj
+A0NDQ5OTEyMyw1NzU5NzUzMjAsMjEwMDEwNjA2NywtMTU5MTA4
+MDc5NSwtNTM1ODAxNzgxLC0xMzUzODgyNjM2LC0zMjM4OTY4MD
+YsLTE3ODY0OTUzMTMsODkzNzMyNDcwLC0xMjEzNTQwNDQyLDEw
+OTQxMzQxMjRdfQ==
 -->
