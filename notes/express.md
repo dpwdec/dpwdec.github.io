@@ -46,7 +46,7 @@ app.get('/', function(req, res) {
 });
 ```
 
-You can **send server data directly** (such as JSON) without any associated rendering by using the `send` method. The client request to the `/info` controller bel
+You can **send server data directly** (such as JSON) without any associated rendering by using the `send` method. The client request to the `/info` controller below will return a stream of JSON data that can be used on the client side.
 ```js
 app.get('/info', function(req, res) {
   var someJSON = {name: 'dec', age: 28};
@@ -79,6 +79,6 @@ app.get('/', function(req, res) {
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDM4NTMwNiw4OTQyMjczODcsLTE2MT
-M1NDAxNzRdfQ==
+eyJoaXN0b3J5IjpbOTU4NjM0Mzc3LDg5NDIyNzM4NywtMTYxMz
+U0MDE3NF19
 -->
