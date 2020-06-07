@@ -46,7 +46,15 @@ app.get('/', function(req, res) {
 });
 ```
 
-You can **retrieve parameters sent by the client** (such as by a `POST` request)
+You can **retrieve parameters sent by the client** (such as by a `POST` request) by using the `body` component of the `req` argument.
+```js
+app.post('/save-name', function(req, res) {
+  var userName = req.body.name; // retrieve username from the response body
+  // do other stuff with name data
+});
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3Nzg3MjA2XX0=
+eyJoaXN0b3J5IjpbMTU3Mjc4NDgyOV19
 -->
