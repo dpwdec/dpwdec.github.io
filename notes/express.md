@@ -16,7 +16,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 ```
 Where `__dirname` is the directory from which you main `.js` file is executing and `'public'` is another directory that contains static html web pages. These commands are essentially all you need to create a basic static website.
 
-
+## Request / Response
+Server code that executes upon express receiving a client request is routed through functions that have a `req` and `res` arguments. Information about the client request is found in the `req` argu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2MjI2NzI2XX0=
+eyJoaXN0b3J5IjpbMTM0NDMxMDk3MF19
 -->
