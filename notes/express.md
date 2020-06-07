@@ -46,7 +46,7 @@ app.get('/', function(req, res) {
 });
 ```
 
-
+You can **retrieve parameters sent by the client** (such as by a `POST` request)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDEyOTY2MjFdfQ==
+eyJoaXN0b3J5IjpbODc3Nzg3MjA2XX0=
 -->
