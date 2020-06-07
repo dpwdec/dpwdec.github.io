@@ -64,8 +64,13 @@ app.post('/some-post-url', function(req, res) {
 ```
 
 ### Status Responses
-You can **send a custom HTTP response** using the `status`
+You can **send a custom HTTP response** using the `status` method on `res` and then appending the return method of your choice. In the example below the `render` method is appended by the `status` meth
+```js
+app.get('/', function(req, res) {
+  res.status(302).render('home/changed');
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MzM2MDYyNiw4OTQyMjczODcsLTE2MT
+eyJoaXN0b3J5IjpbLTY2MDE1MDYwOSw4OTQyMjczODcsLTE2MT
 M1NDAxNzRdfQ==
 -->
