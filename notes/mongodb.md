@@ -94,11 +94,16 @@ User.find({name:'dec' }, 'name age height', function(err, result) {
 ```
 
 You can **retrieve a single object from the database** using the `findOne` method.
+```js
+User.findOne({_id: 1}, function(err, result) {
+  // do something with the single result
+});
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwNTg3NzA4LDQyMTgyMjcyMywtMTk5MD
-AyNDUzNCwtOTE4ODAwODQwLC0xNjUzMDg4MTk5LC0xNzI1Mzgx
-NjY1LDk2MzUyOTQxMSw2ODAwNTc3MTMsMjAxMDI1MDg0NSwtMj
-EzNjg5MTkwMywyMDI3MDMzMTI4XX0=
+eyJoaXN0b3J5IjpbLTI5Mjk3NzI0Niw2NjA1ODc3MDgsNDIxOD
+IyNzIzLC0xOTkwMDI0NTM0LC05MTg4MDA4NDAsLTE2NTMwODgx
+OTksLTE3MjUzODE2NjUsOTYzNTI5NDExLDY4MDA1NzcxMywyMD
+EwMjUwODQ1LC0yMTM2ODkxOTAzLDIwMjcwMzMxMjhdfQ==
 -->
