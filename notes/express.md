@@ -46,6 +46,8 @@ app.get('/', function(req, res) {
 });
 ```
 
+You can **send server data directly** (such as JSON) 
+
 You can **retrieve parameters sent by the client** (such as by a `POST` request) by using the `body` component of the `req` argument.
 ```js
 app.post('/save-name', function(req, res) {
@@ -64,13 +66,13 @@ app.post('/some-post-url', function(req, res) {
 ```
 
 ### Status Responses
-You can **send a custom HTTP response** using the `status` method on `res` and then appending the return method of your choice. In the example below the `render` method is appended by the `status` meth
+You can **send a custom HTTP response** using the `status` method on `res` and then appending the return method of your choice. In the example below the `render` method is appended by the `status` method which simply updates the associated response status code for that resource. You are not constrained by express in the status codes you send, you can send a completely incorrect status code if you wish.
 ```js
 app.get('/', function(req, res) {
   res.status(302).render('home/changed');
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDE1MDYwOSw4OTQyMjczODcsLTE2MT
-M1NDAxNzRdfQ==
+eyJoaXN0b3J5IjpbLTExNDgzNTQ3MjEsODk0MjI3Mzg3LC0xNj
+EzNTQwMTc0XX0=
 -->
