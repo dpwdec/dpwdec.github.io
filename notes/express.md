@@ -16,8 +16,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 ```
 Where `__dirname` is the directory from which you main `.js` file is executing and `'public'` is another directory that contains static html web pages. These commands are essentially all you need to create a basic static website.
 
-## Request / Response
-Server code that executes upon express receiving a client request is routed through functions that have a `req` and `res` arguments. Information about the client request is found in the `req` argument and information an object representing the skeleton response to be sent back to the client is represented by the `res` object. The code below shows an example of a basic `app` route that uses the `req` / `res` function and a controller with an associated route. However, examples here will use the `app.js` syntax for brevity.
+## Controllers
+Server controller code executes upon express receiving a client request and is routed through functions that have a `req` and `res` arguments. Information about the client request is found in the `req` argument and information an object representing the skeleton response to be sent back to the client is represented by the `res` object. The code below shows an example of a basic `app` route that uses the `req` / `res` function and a controller with an associated route. However, examples here will use the `app.js` syntax for brevity.
 ```js
 // in app.js
 app.get('/', function(req, res) {
@@ -54,6 +54,11 @@ app.post('/save-name', function(req, res) {
 });
 ```
 
+### Redirecting
+You can **redirect from one url to another** using the `redirect` method of the `res` controller argument.
+```js
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNjY3OTYwMV19
+eyJoaXN0b3J5IjpbLTEyNjQ3MTk0NzJdfQ==
 -->
