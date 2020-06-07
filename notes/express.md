@@ -57,8 +57,11 @@ app.post('/save-name', function(req, res) {
 ### Redirecting
 You can **redirect from one url to another** using the `redirect` method of the `res` controller argument.
 ```js
-
+app.post('/some-post-url', function(req, res) {
+  // post information
+  res.redirect('/url-suc
+});
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQ3MTk0NzJdfQ==
+eyJoaXN0b3J5IjpbMjE1OTY0MTAxXX0=
 -->
