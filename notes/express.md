@@ -62,6 +62,9 @@ app.post('/some-post-url', function(req, res) {
   res.redirect('/url-success');
 });
 ```
+
+### Status Responses
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTM1NDAxNzRdfQ==
+eyJoaXN0b3J5IjpbODk0MjI3Mzg3LC0xNjEzNTQwMTc0XX0=
 -->
