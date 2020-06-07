@@ -64,7 +64,8 @@ app.post('/some-post-url', function(req, res) {
 ```
 
 ### Status Responses
-
+You can **send a custom HTTP response** using 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0MjI3Mzg3LC0xNjEzNTQwMTc0XX0=
+eyJoaXN0b3J5IjpbMjA5ODc3Njk0Myw4OTQyMjczODcsLTE2MT
+M1NDAxNzRdfQ==
 -->
