@@ -55,13 +55,13 @@ app.post('/save-name', function(req, res) {
 ```
 
 ### Redirecting
-You can **redirect from one url to another** using the `redirect` method of the `res` controller argument.
+You can **redirect from one url to another** using the `redirect` method of the `res` controller argument. The code below receives a `post` request and then routes the response to a new url as a `get` request to satisfy the *post-redirect-get* pattern of controller routing.
 ```js
 app.post('/some-post-url', function(req, res) {
   // post information
-  res.redirect('/url-suc
+  res.redirect('/url-success');
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1OTY0MTAxXX0=
+eyJoaXN0b3J5IjpbLTE2MTM1NDAxNzRdfQ==
 -->
