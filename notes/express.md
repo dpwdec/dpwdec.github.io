@@ -39,12 +39,12 @@ app.get('/', function(req, res) {
 });
 ```
 
-You can **send data along with static content** by including the data in a javascript object as a second argument in the `render` function.
+You can **send data along with static content** by including the data in a javascript object as a second argument in the `render` function. In the example below the `appTitle` variable will be available to be embedded and used in the page that is served to the client. This allows you to send server based parameters to the client to be rendered on the page. This is similar to assigning instance variables in a route method in
 ```js
 app.get('/', function(req, res) {
-  res.render('home/index'), {appTitle: }'
+  res.render('home/index'), {appTitle: 'My App'}'
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODExMTczMl19
+eyJoaXN0b3J5IjpbMjQ2OTUzOTI5XX0=
 -->
