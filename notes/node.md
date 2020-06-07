@@ -35,8 +35,6 @@ You can **add a list of development dependencies** using the `devDependencies` k
 ```
 
 ## Frameworks
-### Express
-
 
 #### Handlebars
 [Handlebars][hb] is an extension for Express that allows you to pass content dynamically from your server to your web pages and set up web pages which injected reproducible code into multiple web pages.. The directory for Handlebars to work should be structured like so:
@@ -122,8 +120,8 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTQ4MTY4NCwtNDUxMTE2MzU3LDExNT
-Y3MDg3NzMsLTE4MTcwMzg5NCwxNzE3Njk4MjEzLDkzNDMyMjg5
-OSwtNTQ0MzQ2NTUzLC0xMzU4ODE2MTk4LDEzODI4NzIxNjUsLT
-cwNTAzODM1NiwtMTU0NjQzMjY3MSwtMTUzODU1ODkwXX0=
+eyJoaXN0b3J5IjpbLTE0MzA3MjY5NzMsLTQ1MTExNjM1NywxMT
+U2NzA4NzczLC0xODE3MDM4OTQsMTcxNzY5ODIxMyw5MzQzMjI4
+OTksLTU0NDM0NjU1MywtMTM1ODgxNjE5OCwxMzgyODcyMTY1LC
+03MDUwMzgzNTYsLTE1NDY0MzI2NzEsLTE1Mzg1NTg5MF19
 -->
