@@ -36,18 +36,7 @@ You can **add a list of development dependencies** using the `devDependencies` k
 
 ## Frameworks
 ### Express
-After installing express. You can **create a new instance of the express framework and start a server** using the following code:
-```javascript
-//
-const app = express();
 
-app.listen(4000, 127.160.0.1, () => console.log("Starting server));
-```
-You can **set up static paths** to web pages using with the `use` command.
-```javascript
-app.use(express.static(path.join(__dirname, 'public')));
-```
-Where `__dirname` is the directory from which you main `.js` file is executing and `'public'` is another directory that contains static html web pages. These commands are essentially all you need to create a basic static website.
 
 #### Handlebars
 [Handlebars][hb] is an extension for Express that allows you to pass content dynamically from your server to your web pages and set up web pages which injected reproducible code into multiple web pages.. The directory for Handlebars to work should be structured like so:
@@ -133,8 +122,8 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTExNjM1NywxMTU2NzA4NzczLC0xOD
-E3MDM4OTQsMTcxNzY5ODIxMyw5MzQzMjI4OTksLTU0NDM0NjU1
-MywtMTM1ODgxNjE5OCwxMzgyODcyMTY1LC03MDUwMzgzNTYsLT
-E1NDY0MzI2NzEsLTE1Mzg1NTg5MF19
+eyJoaXN0b3J5IjpbLTQ4NTQ4MTY4NCwtNDUxMTE2MzU3LDExNT
+Y3MDg3NzMsLTE4MTcwMzg5NCwxNzE3Njk4MjEzLDkzNDMyMjg5
+OSwtNTQ0MzQ2NTUzLC0xMzU4ODE2MTk4LDEzODI4NzIxNjUsLT
+cwNTAzODM1NiwtMTU0NjQzMjY3MSwtMTUzODU1ODkwXX0=
 -->
