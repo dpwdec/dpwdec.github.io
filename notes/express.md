@@ -31,12 +31,20 @@ var homeController = {
   }
 }
 ```
-You can **send back a static page as response to the client** using `res` argument with the `render` method. This method searches the from the `views` directory. In the example below the `index.html` (or `index.hb
+
+You can **send back a static page as response to the client** using `res` argument with the `render` method. This method searches the from the `views` directory. In the example below the `index` file that is getting rendered will be inside the `views/home/` folder.
 ```js
 app.get('/', function(req, res) {
   res.render('home/index')'
 });
 ```
+
+You can **send data along with static content** by including the data in a javascript object as a second argument in the `render` function.
+```js
+app.get('/', function(req, res) {
+  res.render('home/index'), {appTitle: }'
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODQxMTM0Nl19
+eyJoaXN0b3J5IjpbMTg5ODExMTczMl19
 -->
