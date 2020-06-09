@@ -1195,7 +1195,7 @@ updateUserInformation(users);
 // { name: 'phil', age: 23 }
 ```
 
-You can **use the `.map` method correctly process an array each element of which triggers an asynchronous request** by mapping the array to an array of promises that is then resolved with the `Promise.all` function. In the `updateUserInformation` information below we use `map` to map each `user` in the array to a new `Promise` that makes a mock server request and resolves with the updated user information. Then the asynchronous `Promise.all` function is used with `await` to resolve all the promises we returned from `map` before iteratively `log`ging them. Structuring async in this manner produces the behaviour in the correct order.
+You can **use the `.map` method correctly process an array each element of which triggers an asynchronous request** by mapping the array to an array of promises that is then resolved with the `Promise.all` function. In the `updateUserInformation` information below we use `map` to map each `user` in the array to a new `Promise` that makes a mock server request and resolves with the updated user information. Then the asynchronous `Promise.all` function is used with `await` to resolve all the promises we returned from `map` before `log`ging them. Structuring async in this manner produces the behaviour in the correct order.
 ```js
 // async map example
 // ... variable declarations removed for brevity
@@ -1274,11 +1274,11 @@ console.log('end');
 updateUserInformation(users);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzk5NTYwOTcsLTkzMDgwNjMzNCwtMj
-EwMTU2Mjc3MCwyMDY0NjIwMTE5LDEzNjg0NDQ2MDksLTYwNDc1
-MTcwNiwxNDI3MzY5MzQ2LDk0ODA4Mjg0NywtMTAyNDQzMDcxLC
-0xODAzOTg4MDM3LC0xOTI5MjA4OTE0LC0yOTA4Njg0NzksNjUw
-NjM2NTk2LC0xMDE1MTEwMjA4LC0xNDE2Njc0MTEsMTMyMTkxND
-E3Myw5MTE4NTM1NzIsLTEwNTAwMTEzOTIsNzU1NDE4OTMwLDIx
-MTA4OTMyOThdfQ==
+eyJoaXN0b3J5IjpbMTk5NDY4MDYxMywtOTMwODA2MzM0LC0yMT
+AxNTYyNzcwLDIwNjQ2MjAxMTksMTM2ODQ0NDYwOSwtNjA0NzUx
+NzA2LDE0MjczNjkzNDYsOTQ4MDgyODQ3LC0xMDI0NDMwNzEsLT
+E4MDM5ODgwMzcsLTE5MjkyMDg5MTQsLTI5MDg2ODQ3OSw2NTA2
+MzY1OTYsLTEwMTUxMTAyMDgsLTE0MTY2NzQxMSwxMzIxOTE0MT
+czLDkxMTg1MzU3MiwtMTA1MDAxMTM5Miw3NTU0MTg5MzAsMjEx
+MDg5MzI5OF19
 -->
