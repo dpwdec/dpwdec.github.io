@@ -1230,7 +1230,7 @@ updateUserInformation(users);
 // => End
 ```
 
-You can also use **recursive async statements to model a loop WITHOUT relying on a traditional looping method** by passing down information through an `async` that calls itself.
+You can also use **recursive async statements to model a loop WITHOUT relying on a traditional looping method** by passing down information through an `async` that calls itself. In the example below the `userInformationServerRequest` calls itself for each successive request mutating the input array on each execution before returning the mutated array through the `resolve` callback function when it reaches the end of the list.
 
 ```js
 async  function  updateUserInformation(usersArray) {
@@ -1247,23 +1247,28 @@ async  function  userInformationServerRequest(usersArray, index) {
       if(index === usersArray.length) {
         resolve(usersArray);
       } else {
-        usersArray[index].age  = userInfo[usersArray[index].name];
+        usersArray[index].age  = userInfo[usersArray[index].name]; //mutate array
         index++;
         var outputArray =  await  userInformationServerRequest(usersArray, index);
         resolve(outputArray);
       }
-   }, 1000);
-});
+    }, 1000);
+  });
 }
 
 updateUserInformation(users);
+// => Start
+// { name: 'dec', age: 10 }
+// { name: 'marc', age: 1 }
+// { name: 'phil', age: 23 }
+// => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzE4MDg3MywtOTMwODA2MzM0LC0yMT
-AxNTYyNzcwLDIwNjQ2MjAxMTksMTM2ODQ0NDYwOSwtNjA0NzUx
-NzA2LDE0MjczNjkzNDYsOTQ4MDgyODQ3LC0xMDI0NDMwNzEsLT
-E4MDM5ODgwMzcsLTE5MjkyMDg5MTQsLTI5MDg2ODQ3OSw2NTA2
-MzY1OTYsLTEwMTUxMTAyMDgsLTE0MTY2NzQxMSwxMzIxOTE0MT
-czLDkxMTg1MzU3MiwtMTA1MDAxMTM5Miw3NTU0MTg5MzAsMjEx
-MDg5MzI5OF19
+eyJoaXN0b3J5IjpbLTE4OTM2MDYzODIsLTkzMDgwNjMzNCwtMj
+EwMTU2Mjc3MCwyMDY0NjIwMTE5LDEzNjg0NDQ2MDksLTYwNDc1
+MTcwNiwxNDI3MzY5MzQ2LDk0ODA4Mjg0NywtMTAyNDQzMDcxLC
+0xODAzOTg4MDM3LC0xOTI5MjA4OTE0LC0yOTA4Njg0NzksNjUw
+NjM2NTk2LC0xMDE1MTEwMjA4LC0xNDE2Njc0MTEsMTMyMTkxND
+E3Myw5MTE4NTM1NzIsLTEwNTAwMTEzOTIsNzU1NDE4OTMwLDIx
+MTA4OTMyOThdfQ==
 -->
