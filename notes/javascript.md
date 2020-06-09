@@ -1195,7 +1195,7 @@ updateUserInformation(users);
 // { name: 'phil', age: 23 }
 ```
 
-You can **use the `.map` method correctly process an array each element of which triggers an asynchronous request** by mapping the array to an array of promises that is then resolved with the `Promise.all` function. In the function below
+You can **use the `.map` method correctly process an array each element of which triggers an asynchronous request** by mapping the array to an array of promises that is then resolved with the `Promise.all` function. In the `updateUserInformation` information below we use `map` to map each `user` in the array to a new `Promise` that makes a mock server request and resolves with the update
 ```js
 
 async  function  updateUserInformation(usersArray) {
@@ -1224,11 +1224,11 @@ updateUserInformation(users);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQyNzE5MzQsLTIxMDE1NjI3NzAsMj
-A2NDYyMDExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2
-OTM0Niw5NDgwODI4NDcsLTEwMjQ0MzA3MSwtMTgwMzk4ODAzNy
-wtMTkyOTIwODkxNCwtMjkwODY4NDc5LDY1MDYzNjU5NiwtMTAx
-NTExMDIwOCwtMTQxNjY3NDExLDEzMjE5MTQxNzMsOTExODUzNT
-cyLC0xMDUwMDExMzkyLDc1NTQxODkzMCwyMTEwODkzMjk4LDM0
-MzIwNTY3NF19
+eyJoaXN0b3J5IjpbLTc5NzYwMjE4MSwtMjEwMTU2Mjc3MCwyMD
+Y0NjIwMTE5LDEzNjg0NDQ2MDksLTYwNDc1MTcwNiwxNDI3MzY5
+MzQ2LDk0ODA4Mjg0NywtMTAyNDQzMDcxLC0xODAzOTg4MDM3LC
+0xOTI5MjA4OTE0LC0yOTA4Njg0NzksNjUwNjM2NTk2LC0xMDE1
+MTEwMjA4LC0xNDE2Njc0MTEsMTMyMTkxNDE3Myw5MTE4NTM1Nz
+IsLTEwNTAwMTEzOTIsNzU1NDE4OTMwLDIxMTA4OTMyOTgsMzQz
+MjA1Njc0XX0=
 -->
