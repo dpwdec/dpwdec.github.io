@@ -1156,9 +1156,9 @@ myFunction().then(function(resolve) {
 ```
 
 ### Async Loops
-At times you made to **loop through a set of data and make an async request for each piece of data** and THEN execute some other code. For example, imagine you have a page that makes a server API request for some corresponding information about a list of users, on the server side you need to loop through the information of each user and fire off an asynchronous database request to gather information on each user.
+At times you made to **loop through a set of data and make an async request for each piece of data** and THEN execute some other code. For example, imagine you have a page that makes a server API request for some corresponding information about a list of users, on the server side you need to loop through the information of each user and fire off an asynchronous database request to gather information on each user. In the examples below the server request is mocked by the asynchronous `userInformationServerRequest` function that uses `setTimeout` to return information about the user after `1000` milliseconds.
 
-A **forEach based async loop DOES NOT WORK**. Looking at the code below you would expect the output to be 
+A **forEach based async loop DOES NOT WORK with async**, it can never support  . Looking at the code below you would expect the output to be `start` then looping with an `await` for each server request mocked by the `setTimeout` function
 ```js
 var users = [{name:  'dec'}, {name:  'marc'}, {name:  'phil'}];
 
@@ -1189,11 +1189,11 @@ function  userInformationServerRequest(user) {
 updateUserInformation(users);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5NDI3MTQxLDIwNjQ2MjAxMTksMTM2OD
-Q0NDYwOSwtNjA0NzUxNzA2LDE0MjczNjkzNDYsOTQ4MDgyODQ3
-LC0xMDI0NDMwNzEsLTE4MDM5ODgwMzcsLTE5MjkyMDg5MTQsLT
-I5MDg2ODQ3OSw2NTA2MzY1OTYsLTEwMTUxMTAyMDgsLTE0MTY2
-NzQxMSwxMzIxOTE0MTczLDkxMTg1MzU3MiwtMTA1MDAxMTM5Mi
-w3NTU0MTg5MzAsMjExMDg5MzI5OCwzNDMyMDU2NzQsLTE3MTU4
-OTg1MF19
+eyJoaXN0b3J5IjpbLTE2OTY1OTA1MTMsMjA2NDYyMDExOSwxMz
+Y4NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Niw5NDgwODI4
+NDcsLTEwMjQ0MzA3MSwtMTgwMzk4ODAzNywtMTkyOTIwODkxNC
+wtMjkwODY4NDc5LDY1MDYzNjU5NiwtMTAxNTExMDIwOCwtMTQx
+NjY3NDExLDEzMjE5MTQxNzMsOTExODUzNTcyLC0xMDUwMDExMz
+kyLDc1NTQxODkzMCwyMTEwODkzMjk4LDM0MzIwNTY3NCwtMTcx
+NTg5ODUwXX0=
 -->
