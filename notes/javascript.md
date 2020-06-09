@@ -1157,38 +1157,24 @@ myFunction().then(function(resolve) {
 
 ### Async Loops
 At times you made to **loop through a set of data and make an async request for each piece of data** and THEN execute some other code. For example, imagine you have a page that makes a server API request for some corresponding information about a list of users, on the server side you need to loop through the information of each user and fire off an asynchronous database request to gather information on each user.
+
+A **forEach based async loop DOES NOT WORK**. Looking at the code below you would expect the output to be 
 ```js
 var users = [{name:  'dec'}, {name:  'marc'}, {name:  'phil'}];
 
-  
-
 var userInfo = {
-
 dec:  10,
-
 marc:  1,
-
 phil:  23
-
 }
 
-  
-
 async  function  updateUserInformation(usersArray) {
-
-console.log('Start');
-
-usersArray.forEach(async  function(user) {
-
-await  userInformationServerRequest(user);
-
-});
-
-console.log('end');
-
+  console.log('Start');
+  usersArray.forEach(async  function(user) {
+    await  userInformationServerRequest(user);
+  });
+  console.log('end');
 };
-
-  
 
 function  userInformationServerRequest(user) {
   return  new  Promise(function(resolve) {
@@ -1203,7 +1189,7 @@ function  userInformationServerRequest(user) {
 updateUserInformation(users);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2NjM4NzA0LDIwNjQ2MjAxMTksMTM2OD
+eyJoaXN0b3J5IjpbMzA5NDI3MTQxLDIwNjQ2MjAxMTksMTM2OD
 Q0NDYwOSwtNjA0NzUxNzA2LDE0MjczNjkzNDYsOTQ4MDgyODQ3
 LC0xMDI0NDMwNzEsLTE4MDM5ODgwMzcsLTE5MjkyMDg5MTQsLT
 I5MDg2ODQ3OSw2NTA2MzY1OTYsLTEwMTUxMTAyMDgsLTE0MTY2
