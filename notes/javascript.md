@@ -1223,6 +1223,7 @@ function  userInformationServerRequest(user) {
     }, 1000);
   });
 }
+
 updateUserInformation(users);
 // => Start
 // { name: 'dec', age: 10 }
@@ -1232,7 +1233,7 @@ updateUserInformation(users);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTA3NTE1NjYsLTIxMDE1NjI3NzAsMj
+eyJoaXN0b3J5IjpbLTIwMjI5MDQzNTIsLTIxMDE1NjI3NzAsMj
 A2NDYyMDExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2
 OTM0Niw5NDgwODI4NDcsLTEwMjQ0MzA3MSwtMTgwMzk4ODAzNy
 wtMTkyOTIwODkxNCwtMjkwODY4NDc5LDY1MDYzNjU5NiwtMTAx
