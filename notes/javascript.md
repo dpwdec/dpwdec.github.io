@@ -1195,14 +1195,50 @@ updateUserInformation(users);
 // { name: 'phil', age: 23 }
 ```
 
+You can **use the `.map` method correctly process an array each element of which triggers an asynchronous request** by mapping the array to an array of promises that is then resolved with the `Promise.all` function.
+```js
 
+async  function  updateUserInformation(usersArray) {
+
+console.log('start');
+
+var userInformationPromises =  await usersArray.map(function(user) {
+
+return  userInformationServerRequest(user);
+
+})
+
+var updatedUserInformation =  await  Promise.all(userInformationPromises);
+
+updatedUserInformation.forEach(function(user) {
+
+console.log(user);
+
+})
+
+console.log('end');
+
+}
+
+  
+
+function  userInformationServerRequest(user) {
+return  new  Promise(function(resolve) {
+setTimeout(function() {
+user.age  = userInfo[user.name];
+resolve(user);
+}, 1000);
+});
+}
+updateUserInformation(users);
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDE1NjI3NzAsMjA2NDYyMDExOSwxMz
-Y4NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Niw5NDgwODI4
-NDcsLTEwMjQ0MzA3MSwtMTgwMzk4ODAzNywtMTkyOTIwODkxNC
-wtMjkwODY4NDc5LDY1MDYzNjU5NiwtMTAxNTExMDIwOCwtMTQx
-NjY3NDExLDEzMjE5MTQxNzMsOTExODUzNTcyLC0xMDUwMDExMz
-kyLDc1NTQxODkzMCwyMTEwODkzMjk4LDM0MzIwNTY3NCwtMTcx
-NTg5ODUwXX0=
+eyJoaXN0b3J5IjpbLTE4Nzk3ODMyNjUsLTIxMDE1NjI3NzAsMj
+A2NDYyMDExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2
+OTM0Niw5NDgwODI4NDcsLTEwMjQ0MzA3MSwtMTgwMzk4ODAzNy
+wtMTkyOTIwODkxNCwtMjkwODY4NDc5LDY1MDYzNjU5NiwtMTAx
+NTExMDIwOCwtMTQxNjY3NDExLDEzMjE5MTQxNzMsOTExODUzNT
+cyLC0xMDUwMDExMzkyLDc1NTQxODkzMCwyMTEwODkzMjk4LDM0
+MzIwNTY3NF19
 -->
