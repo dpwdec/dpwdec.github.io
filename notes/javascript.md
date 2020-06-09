@@ -1158,14 +1158,14 @@ myFunction().then(function(resolve) {
 ### Async Loops
 At times you made to **loop through a set of data and make an async request for each piece of data** and THEN execute some other code. For example, imagine you have a page that makes a server API request for some corresponding information about a list of users, on the server side you need to loop through the information of each user and fire off an asynchronous database request to gather information on each user.
 ```js
-
+var users = []
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODQ0NDYwOSwtNjA0NzUxNzA2LDE0Mj
-czNjkzNDYsOTQ4MDgyODQ3LC0xMDI0NDMwNzEsLTE4MDM5ODgw
-MzcsLTE5MjkyMDg5MTQsLTI5MDg2ODQ3OSw2NTA2MzY1OTYsLT
-EwMTUxMTAyMDgsLTE0MTY2NzQxMSwxMzIxOTE0MTczLDkxMTg1
-MzU3MiwtMTA1MDAxMTM5Miw3NTU0MTg5MzAsMjExMDg5MzI5OC
-wzNDMyMDU2NzQsLTE3MTU4OTg1MCw5OTQ0Mjg3NTcsMTQxMTMw
-MzI1M119
+eyJoaXN0b3J5IjpbMjA2NDYyMDExOSwxMzY4NDQ0NjA5LC02MD
+Q3NTE3MDYsMTQyNzM2OTM0Niw5NDgwODI4NDcsLTEwMjQ0MzA3
+MSwtMTgwMzk4ODAzNywtMTkyOTIwODkxNCwtMjkwODY4NDc5LD
+Y1MDYzNjU5NiwtMTAxNTExMDIwOCwtMTQxNjY3NDExLDEzMjE5
+MTQxNzMsOTExODUzNTcyLC0xMDUwMDExMzkyLDc1NTQxODkzMC
+wyMTEwODkzMjk4LDM0MzIwNTY3NCwtMTcxNTg5ODUwLDk5NDQy
+ODc1N119
 -->
