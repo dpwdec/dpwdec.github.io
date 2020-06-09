@@ -1211,8 +1211,6 @@ async  function  updateUserInformation(usersArray) {
   console.log('end');
 }
 
-  
-
 function  userInformationServerRequest(user) {
   return  new  Promise(function(resolve) {
     setTimeout(function() {
@@ -1264,11 +1262,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTM2MDYzODIsLTkzMDgwNjMzNCwtMj
-EwMTU2Mjc3MCwyMDY0NjIwMTE5LDEzNjg0NDQ2MDksLTYwNDc1
-MTcwNiwxNDI3MzY5MzQ2LDk0ODA4Mjg0NywtMTAyNDQzMDcxLC
-0xODAzOTg4MDM3LC0xOTI5MjA4OTE0LC0yOTA4Njg0NzksNjUw
-NjM2NTk2LC0xMDE1MTEwMjA4LC0xNDE2Njc0MTEsMTMyMTkxND
-E3Myw5MTE4NTM1NzIsLTEwNTAwMTEzOTIsNzU1NDE4OTMwLDIx
-MTA4OTMyOThdfQ==
+eyJoaXN0b3J5IjpbMTU2MTQ1MTMxOCwtOTMwODA2MzM0LC0yMT
+AxNTYyNzcwLDIwNjQ2MjAxMTksMTM2ODQ0NDYwOSwtNjA0NzUx
+NzA2LDE0MjczNjkzNDYsOTQ4MDgyODQ3LC0xMDI0NDMwNzEsLT
+E4MDM5ODgwMzcsLTE5MjkyMDg5MTQsLTI5MDg2ODQ3OSw2NTA2
+MzY1OTYsLTEwMTUxMTAyMDgsLTE0MTY2NzQxMSwxMzIxOTE0MT
+czLDkxMTg1MzU3MiwtMTA1MDAxMTM5Miw3NTU0MTg5MzAsMjEx
+MDg5MzI5OF19
 -->
