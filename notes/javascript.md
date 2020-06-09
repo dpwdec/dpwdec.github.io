@@ -1156,9 +1156,9 @@ myFunction().then(function(resolve) {
 ```
 
 ### Async Loops
-At times you made to **loop through a set of data and make an async request for each piece of data** and THEN execute some other code. For example, imagine you have a page that makes a server API request for some corresponding information about a list of users, on the server side you need to loop through the information of each user and fire off an asynchronous database request to gather information on each user. In the examples below the server request is mocked by the asynchronous `userInformationServerRequest` function that uses `setTimeout` to return information about the user after `1000` milliseconds.
+At times you made to **loop through a set of data and make an async request for each piece of data** and THEN execute some other code. For example, imagine you have a page that makes a server API request for some corresponding information about a list of users, on the server side you need to loop through the information of each user and fire off an asynchronous database request to gather information on each user and the once ALL those requests are finished finally send data back to the client, or execute some other procedure. In the examples below the server request is mocked by the asynchronous `userInformationServerRequest` function that uses `setTimeout` to return information about the user after `1000` milliseconds.
 
-A **forEach based async loop DOES NOT WORK with async**, it can never support  . Looking at the code below you would expect the output to be `start` then looping with an `await` for each server request mocked by the `setTimeout` function
+A **forEach based async loop DOES NOT WORK with async**, it can never support `async` behaviour and does not recognise it . Looking at the code below you would expect the output to be `start` then looping with an `await` for each server request mocked by the `setTimeout` function that prints the transformed user information followed by `end`. However, in practice `start` and then `end` are printed followed by the information.
 ```js
 var users = [{name:  'dec'}, {name:  'marc'}, {name:  'phil'}];
 
@@ -1187,13 +1187,18 @@ function  userInformationServerRequest(user) {
 }
 
 updateUserInformation(users);
+// => Start
+// => End
+
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTY1OTA1MTMsMjA2NDYyMDExOSwxMz
-Y4NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Niw5NDgwODI4
-NDcsLTEwMjQ0MzA3MSwtMTgwMzk4ODAzNywtMTkyOTIwODkxNC
-wtMjkwODY4NDc5LDY1MDYzNjU5NiwtMTAxNTExMDIwOCwtMTQx
-NjY3NDExLDEzMjE5MTQxNzMsOTExODUzNTcyLC0xMDUwMDExMz
-kyLDc1NTQxODkzMCwyMTEwODkzMjk4LDM0MzIwNTY3NCwtMTcx
-NTg5ODUwXX0=
+eyJoaXN0b3J5IjpbMTQ0ODA3MDc3OCwyMDY0NjIwMTE5LDEzNj
+g0NDQ2MDksLTYwNDc1MTcwNiwxNDI3MzY5MzQ2LDk0ODA4Mjg0
+NywtMTAyNDQzMDcxLC0xODAzOTg4MDM3LC0xOTI5MjA4OTE0LC
+0yOTA4Njg0NzksNjUwNjM2NTk2LC0xMDE1MTEwMjA4LC0xNDE2
+Njc0MTEsMTMyMTkxNDE3Myw5MTE4NTM1NzIsLTEwNTAwMTEzOT
+IsNzU1NDE4OTMwLDIxMTA4OTMyOTgsMzQzMjA1Njc0LC0xNzE1
+ODk4NTBdfQ==
 -->
