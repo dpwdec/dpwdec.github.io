@@ -1207,9 +1207,7 @@ async  function  updateUserInformation(usersArray) {
     return  userInformationServerRequest(user);
   });
   var updatedUserInformation =  await  Promise.all(userInformationPromises);
-  updatedUserInformation.forEach(function(user) {
-    console.log(user);
-  });
+  console.log(updatedUserInformation);
   console.log('end');
 }
 
@@ -1233,12 +1231,54 @@ updateUserInformation(users);
 ```
 
 You can also use **recursive async statements to model a loop WITHOUT relying on a traditional looping method** by passing down information through an `async` that calls itself.
+
+```js
+async  function  userInformationServerRequest(usersArray, index) {
+
+return  new  Promise(function(resolve) {
+
+setTimeout(async  function() {
+
+if(index === usersArray.length) {
+
+resolve(usersArray);
+
+} else {
+
+usersArray[index].age  = userInfo[usersArray[index].name];
+
+index++;
+
+var outputArray =  await  userInformationServerRequest(usersArray, index);
+
+resolve(outputArray);
+
+}
+
+}, 1000);
+
+});
+
+}
+
+  
+
+async  function  updateUserInformation(usersArray) {
+console.log('start');
+var startIndex =  0;
+var outputArray =  await  userInformationServerRequest(usersArray, startIndex);
+console.log(outputArray);
+console.log('end');
+}
+
+updateUserInformation(users);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDgwNjMzNCwtMjEwMTU2Mjc3MCwyMD
-Y0NjIwMTE5LDEzNjg0NDQ2MDksLTYwNDc1MTcwNiwxNDI3MzY5
-MzQ2LDk0ODA4Mjg0NywtMTAyNDQzMDcxLC0xODAzOTg4MDM3LC
-0xOTI5MjA4OTE0LC0yOTA4Njg0NzksNjUwNjM2NTk2LC0xMDE1
-MTEwMjA4LC0xNDE2Njc0MTEsMTMyMTkxNDE3Myw5MTE4NTM1Nz
-IsLTEwNTAwMTEzOTIsNzU1NDE4OTMwLDIxMTA4OTMyOTgsMzQz
-MjA1Njc0XX0=
+eyJoaXN0b3J5IjpbLTE0Mzk5NTYwOTcsLTkzMDgwNjMzNCwtMj
+EwMTU2Mjc3MCwyMDY0NjIwMTE5LDEzNjg0NDQ2MDksLTYwNDc1
+MTcwNiwxNDI3MzY5MzQ2LDk0ODA4Mjg0NywtMTAyNDQzMDcxLC
+0xODAzOTg4MDM3LC0xOTI5MjA4OTE0LC0yOTA4Njg0NzksNjUw
+NjM2NTk2LC0xMDE1MTEwMjA4LC0xNDE2Njc0MTEsMTMyMTkxND
+E3Myw5MTE4NTM1NzIsLTEwNTAwMTEzOTIsNzU1NDE4OTMwLDIx
+MTA4OTMyOThdfQ==
 -->
