@@ -1232,13 +1232,13 @@ updateUserInformation(users);
 // => End
 ```
 
-You can also use **recursive async statements to model a loop WITHOUT relying on a traditional looping method** by passing down information through an `async` that calls 
+You can also use **recursive async statements to model a loop WITHOUT relying on a traditional looping method** by passing down information through an `async` that calls itself.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyMTAxOSwtMjEwMTU2Mjc3MCwyMDY0Nj
-IwMTE5LDEzNjg0NDQ2MDksLTYwNDc1MTcwNiwxNDI3MzY5MzQ2
-LDk0ODA4Mjg0NywtMTAyNDQzMDcxLC0xODAzOTg4MDM3LC0xOT
-I5MjA4OTE0LC0yOTA4Njg0NzksNjUwNjM2NTk2LC0xMDE1MTEw
-MjA4LC0xNDE2Njc0MTEsMTMyMTkxNDE3Myw5MTE4NTM1NzIsLT
-EwNTAwMTEzOTIsNzU1NDE4OTMwLDIxMTA4OTMyOTgsMzQzMjA1
-Njc0XX0=
+eyJoaXN0b3J5IjpbLTkzMDgwNjMzNCwtMjEwMTU2Mjc3MCwyMD
+Y0NjIwMTE5LDEzNjg0NDQ2MDksLTYwNDc1MTcwNiwxNDI3MzY5
+MzQ2LDk0ODA4Mjg0NywtMTAyNDQzMDcxLC0xODAzOTg4MDM3LC
+0xOTI5MjA4OTE0LC0yOTA4Njg0NzksNjUwNjM2NTk2LC0xMDE1
+MTEwMjA4LC0xNDE2Njc0MTEsMTMyMTkxNDE3Myw5MTE4NTM1Nz
+IsLTEwNTAwMTEzOTIsNzU1NDE4OTMwLDIxMTA4OTMyOTgsMzQz
+MjA1Njc0XX0=
 -->
