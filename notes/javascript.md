@@ -1233,48 +1233,33 @@ updateUserInformation(users);
 You can also use **recursive async statements to model a loop WITHOUT relying on a traditional looping method** by passing down information through an `async` that calls itself.
 
 ```js
-async  function  userInformationServerRequest(usersArray, index) {
-
-return  new  Promise(function(resolve) {
-
-setTimeout(async  function() {
-
-if(index === usersArray.length) {
-
-resolve(usersArray);
-
-} else {
-
-usersArray[index].age  = userInfo[usersArray[index].name];
-
-index++;
-
-var outputArray =  await  userInformationServerRequest(usersArray, index);
-
-resolve(outputArray);
-
-}
-
-}, 1000);
-
-});
-
-}
-
-  
-
 async  function  updateUserInformation(usersArray) {
-console.log('start');
-var startIndex =  0;
-var outputArray =  await  userInformationServerRequest(usersArray, startIndex);
-console.log(outputArray);
-console.log('end');
+  console.log('start');
+  var startIndex =  0;
+  var outputArray =  await  userInformationServerRequest(usersArray, startIndex);
+  console.log(outputArray);
+  console.log('end');
+}
+
+async  function  userInformationServerRequest(usersArray, index) {
+  return  new  Promise(function(resolve) {
+    setTimeout(async  function() {
+      if(index === usersArray.length) {
+        resolve(usersArray);
+      } else {
+        usersArray[index].age  = userInfo[usersArray[index].name];
+        index++;
+        var outputArray =  await  userInformationServerRequest(usersArray, index);
+        resolve(outputArray);
+      }
+   }, 1000);
+});
 }
 
 updateUserInformation(users);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDY4MDYxMywtOTMwODA2MzM0LC0yMT
+eyJoaXN0b3J5IjpbMTgxMzE4MDg3MywtOTMwODA2MzM0LC0yMT
 AxNTYyNzcwLDIwNjQ2MjAxMTksMTM2ODQ0NDYwOSwtNjA0NzUx
 NzA2LDE0MjczNjkzNDYsOTQ4MDgyODQ3LC0xMDI0NDMwNzEsLT
 E4MDM5ODgwMzcsLTE5MjkyMDg5MTQsLTI5MDg2ODQ3OSw2NTA2
