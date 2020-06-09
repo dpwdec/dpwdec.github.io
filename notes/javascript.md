@@ -1200,7 +1200,7 @@ You can **use the `.map` method correctly process an array each element of which
 
 async  function  updateUserInformation(usersArray) {
   console.log('start');
-  var userInformationPromises =  await usersArray.map(function(user) {
+  var userInformationPromises = usersArray.map(function(user) {
     return  userInformationServerRequest(user);
   });
   var updatedUserInformation =  await  Promise.all(userInformationPromises);
@@ -1224,11 +1224,11 @@ updateUserInformation(users);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDAzNzU4LC0yMTAxNTYyNzcwLDIwNj
-Q2MjAxMTksMTM2ODQ0NDYwOSwtNjA0NzUxNzA2LDE0MjczNjkz
-NDYsOTQ4MDgyODQ3LC0xMDI0NDMwNzEsLTE4MDM5ODgwMzcsLT
-E5MjkyMDg5MTQsLTI5MDg2ODQ3OSw2NTA2MzY1OTYsLTEwMTUx
-MTAyMDgsLTE0MTY2NzQxMSwxMzIxOTE0MTczLDkxMTg1MzU3Mi
-wtMTA1MDAxMTM5Miw3NTU0MTg5MzAsMjExMDg5MzI5OCwzNDMy
-MDU2NzRdfQ==
+eyJoaXN0b3J5IjpbLTIwMjQyNzE5MzQsLTIxMDE1NjI3NzAsMj
+A2NDYyMDExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2
+OTM0Niw5NDgwODI4NDcsLTEwMjQ0MzA3MSwtMTgwMzk4ODAzNy
+wtMTkyOTIwODkxNCwtMjkwODY4NDc5LDY1MDYzNjU5NiwtMTAx
+NTExMDIwOCwtMTQxNjY3NDExLDEzMjE5MTQxNzMsOTExODUzNT
+cyLC0xMDUwMDExMzkyLDc1NTQxODkzMCwyMTEwODkzMjk4LDM0
+MzIwNTY3NF19
 -->
