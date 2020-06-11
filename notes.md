@@ -16,6 +16,7 @@ title: Notes
 | basics | [Javascript](notes/javascript.html) |
 | testing | [Jasmine](notes/jasmine.html) |
 | frameworks | [Node](notes/node.html) |
+| | [npm](/notes/node.html#npm)
 | | [jQuery](notes/jquery.html) |
 
 | web development |  |
@@ -41,6 +42,6 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjY4ODUwOSwtNDAzMjQxNDgsLTE5OT
-A0MzU5NzAsLTIyNjE3NTEzOF19
+eyJoaXN0b3J5IjpbMTcyMTY4MDI1NywxMTgyNjg4NTA5LC00MD
+MyNDE0OCwtMTk5MDQzNTk3MCwtMjI2MTc1MTM4XX0=
 -->
