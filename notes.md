@@ -25,6 +25,7 @@ title: Notes
 | | [ES6 Classes](https://dpwdec.github.io/notes/javascript.html#es6) |
 | | [Prototype Property](https://dpwdec.github.io/notes/javascript.html#prototype) |
 | | [Class Methods](https://dpwdec.github.io/notes/javascript.html#class-methods) |
+| | 
 
 <table>
   <tr>
@@ -79,7 +80,7 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzg2OTQ5MDIsNzExOTQ5MDM0LC0xOD
+eyJoaXN0b3J5IjpbLTIxMjU4NzI3ODQsNzExOTQ5MDM0LC0xOD
 c1MjA2ODAxLDE0NDAwNzA2NTgsLTM5MTYyMTU0OSwxOTkxODQw
 ODYxLDExMzg3NTMwNjAsLTE0MTU3NjA3OTUsMTE4MjY4ODUwOS
 wtNDAzMjQxNDgsLTE5OTA0MzU5NzAsLTIyNjE3NTEzOF19
