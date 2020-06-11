@@ -82,13 +82,14 @@ app.get('/', function(req, res) {
 ### Queries
 You can **retrieve a `GET` request query** inside a controller using the `.query` property of `req` and then access the query's property that you want to use by name to retrieve the value.
 ```js
-//route in response 
+//route in response to a query:
+//[http://mywebsite.com/query?name=foo
 
 app.get('/query', function(req, res) {
-  req.query.
+  var name = req.query.name; // => foo
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNTA1NDY3OSw5NTg2MzQzNzcsODk0Mj
-I3Mzg3LC0xNjEzNTQwMTc0XX0=
+eyJoaXN0b3J5IjpbLTE0ODY4MzAyMjYsOTU4NjM0Mzc3LDg5ND
+IyNzM4NywtMTYxMzU0MDE3NF19
 -->
