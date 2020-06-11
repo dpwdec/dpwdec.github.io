@@ -24,7 +24,10 @@ title: Notes
 
 
 | javascript  |
-| --- | ---|
+| ---|
+
+| |
+| --- | --- |
 | basics | [Javascript](notes/javascript.html) |
 | testing | [Jasmine](notes/jasmine.html) |
 | frameworks | [Node](notes/node.html) |
@@ -54,7 +57,8 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTYyMTU0OSwxOTkxODQwODYxLDExMz
-g3NTMwNjAsLTE0MTU3NjA3OTUsMTE4MjY4ODUwOSwtNDAzMjQx
-NDgsLTE5OTA0MzU5NzAsLTIyNjE3NTEzOF19
+eyJoaXN0b3J5IjpbMTQ0MDA3MDY1OCwtMzkxNjIxNTQ5LDE5OT
+E4NDA4NjEsMTEzODc1MzA2MCwtMTQxNTc2MDc5NSwxMTgyNjg4
+NTA5LC00MDMyNDE0OCwtMTk5MDQzNTk3MCwtMjI2MTc1MTM4XX
+0=
 -->
