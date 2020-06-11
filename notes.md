@@ -11,6 +11,18 @@ title: Notes
 | frameworks | [Sinatra](notes/sinatra.html) |
 | | [Jekyll](notes/jekyll.html) |
 
+
+<table>
+  <tr>
+    <td>One</td>
+    <td>Two</td>
+  </tr>
+  <tr>
+    <td colspan="2">Three</td>
+  </tr>
+</table>
+
+
 | javascript  |
 | --- | ---|
 | basics | [Javascript](notes/javascript.html) |
@@ -42,6 +54,7 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTU3NjA3OTUsMTE4MjY4ODUwOSwtND
-AzMjQxNDgsLTE5OTA0MzU5NzAsLTIyNjE3NTEzOF19
+eyJoaXN0b3J5IjpbMTEzODc1MzA2MCwtMTQxNTc2MDc5NSwxMT
+gyNjg4NTA5LC00MDMyNDE0OCwtMTk5MDQzNTk3MCwtMjI2MTc1
+MTM4XX0=
 -->
