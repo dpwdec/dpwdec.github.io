@@ -18,8 +18,15 @@ $ npm init
 
 You can **install dependencies** specified in `package.json` by using the `install` command.
 ```
-$ npm install
+$ npm install some-package-name
 ```
+
+You can **install multiple dependencies with a single install command** by separating each dependency name with a space.
+```
+$ npm install some-package-name another-package and-another-one
+```
+
+You can **abbreviate the `install` command**
 
 ### `package.json`
 
@@ -120,8 +127,8 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzA3MjY5NzMsLTQ1MTExNjM1NywxMT
-U2NzA4NzczLC0xODE3MDM4OTQsMTcxNzY5ODIxMyw5MzQzMjI4
-OTksLTU0NDM0NjU1MywtMTM1ODgxNjE5OCwxMzgyODcyMTY1LC
-03MDUwMzgzNTYsLTE1NDY0MzI2NzEsLTE1Mzg1NTg5MF19
+eyJoaXN0b3J5IjpbMTY3MzUzMTE3NSwtNDUxMTE2MzU3LDExNT
+Y3MDg3NzMsLTE4MTcwMzg5NCwxNzE3Njk4MjEzLDkzNDMyMjg5
+OSwtNTQ0MzQ2NTUzLC0xMzU4ODE2MTk4LDEzODI4NzIxNjUsLT
+cwNTAzODM1NiwtMTU0NjQzMjY3MSwtMTUzODU1ODkwXX0=
 -->
