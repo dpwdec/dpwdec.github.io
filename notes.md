@@ -14,8 +14,7 @@ title: Notes
 
 <table>
   <tr>
-    <td>One</td>
-    <td>Two</td>
+    | one | two |
   </tr>
   <tr>
     <td colspan="2">Three</td>
@@ -54,7 +53,7 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODc1MzA2MCwtMTQxNTc2MDc5NSwxMT
-gyNjg4NTA5LC00MDMyNDE0OCwtMTk5MDQzNTk3MCwtMjI2MTc1
-MTM4XX0=
+eyJoaXN0b3J5IjpbLTE4MDQ2Mzc4OTIsMTEzODc1MzA2MCwtMT
+QxNTc2MDc5NSwxMTgyNjg4NTA5LC00MDMyNDE0OCwtMTk5MDQz
+NTk3MCwtMjI2MTc1MTM4XX0=
 -->
