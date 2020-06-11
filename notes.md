@@ -11,7 +11,7 @@ title: Notes
 | frameworks | [Sinatra](notes/sinatra.html) |
 | | [Jekyll](notes/jekyll.html) |
 
-| javascript |  |
+| javascript  |
 | --- | ---|
 | basics | [Javascript](notes/javascript.html) |
 | testing | [Jasmine](notes/jasmine.html) |
@@ -42,6 +42,6 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTY4MDI1NywxMTgyNjg4NTA5LC00MD
-MyNDE0OCwtMTk5MDQzNTk3MCwtMjI2MTc1MTM4XX0=
+eyJoaXN0b3J5IjpbLTE0MTU3NjA3OTUsMTE4MjY4ODUwOSwtND
+AzMjQxNDgsLTE5OTA0MzU5NzAsLTIyNjE3NTEzOF19
 -->
