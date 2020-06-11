@@ -14,17 +14,19 @@ title: Notes
 
 # Javascript
 
-| |
+| Javascript |
 | --- | --- |
 | [Functions](https://dpwdec.github.io/notes/javascript.html#functions) | [Lexical Scoping](https://dpwdec.github.io/notes/javascript.html#lexical-scoping) |
 | | [Closures](https://dpwdec.github.io/notes/javascript.html#closures) |
 | | [Callbacks](https://dpwdec.github.io/notes/javascript.html#callbacks) |
 | | [Immediately Invoked Function Expressions](https://dpwdec.github.io/notes/javascript.html#iife) |
 | | [Arrow Functions](https://dpwdec.github.io/notes/javascript.html#arrow-functions) |
+| | |
 | [Classes](https://dpwdec.github.io/notes/javascript.html#classes) | [ES5 Classes](https://dpwdec.github.io/notes/javascript.html#es5) |
 | | [ES6 Classes](https://dpwdec.github.io/notes/javascript.html#es6) |
 | | [Prototype Property](https://dpwdec.github.io/notes/javascript.html#prototype) |
 | | [Class Methods](https://dpwdec.github.io/notes/javascript.html#class-methods) |
+| | |
 | [Scope](https://dpwdec.github.io/notes/javascript.html#scope) | [This](https://dpwdec.github.io/notes/javascript.html#this) |
 | | [Bind](https://dpwdec.github.io/notes/javascript.html#bind) |
 | | [Scope of 'This' in callbacks and Objects](https://dpwdec.github.io/notes/javascript.html#this-with-callbacks-and-objects) |
@@ -84,9 +86,10 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTg3NDI2OCwxOTY5Njk0MTYsLTI2Nz
-Q5OTYwNCwtMTE1MjEyMjQ4NCw3MTE5NDkwMzQsLTE4NzUyMDY4
-MDEsMTQ0MDA3MDY1OCwtMzkxNjIxNTQ5LDE5OTE4NDA4NjEsMT
-EzODc1MzA2MCwtMTQxNTc2MDc5NSwxMTgyNjg4NTA5LC00MDMy
-NDE0OCwtMTk5MDQzNTk3MCwtMjI2MTc1MTM4XX0=
+eyJoaXN0b3J5IjpbLTkyMzQ1Nzg5NSwtMzI5ODc0MjY4LDE5Nj
+k2OTQxNiwtMjY3NDk5NjA0LC0xMTUyMTIyNDg0LDcxMTk0OTAz
+NCwtMTg3NTIwNjgwMSwxNDQwMDcwNjU4LC0zOTE2MjE1NDksMT
+k5MTg0MDg2MSwxMTM4NzUzMDYwLC0xNDE1NzYwNzk1LDExODI2
+ODg1MDksLTQwMzI0MTQ4LC0xOTkwNDM1OTcwLC0yMjYxNzUxMz
+hdfQ==
 -->
