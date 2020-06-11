@@ -16,8 +16,7 @@ title: Notes
 
 | |
 | --- | --- |
-| [Javascript](notes/javascript.html) | [Functions](https://dpwdec.github.io/notes/javascript.html#functions) |
-| | [Lexical Scoping](https://dpwdec.github.io/notes/javascript.html#lexical-scoping) |
+| [Functions](https://dpwdec.github.io/notes/javascript.html#functions) | [Lexical Scoping](https://dpwdec.github.io/notes/javascript.html#lexical-scoping) |
 | | [Closures](https://dpwdec.github.io/notes/javascript.html#closures) |
 | | [Callbacks](https://dpwdec.github.io/notes/javascript.html#callbacks) |
 | | [Immediately Invoked Function Expressions](https://dpwdec.github.io/notes/javascript.html#iife) |
@@ -77,8 +76,8 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzExOTQ5MDM0LC0xODc1MjA2ODAxLDE0ND
-AwNzA2NTgsLTM5MTYyMTU0OSwxOTkxODQwODYxLDExMzg3NTMw
-NjAsLTE0MTU3NjA3OTUsMTE4MjY4ODUwOSwtNDAzMjQxNDgsLT
-E5OTA0MzU5NzAsLTIyNjE3NTEzOF19
+eyJoaXN0b3J5IjpbLTE5NzQyNzM1OTQsNzExOTQ5MDM0LC0xOD
+c1MjA2ODAxLDE0NDAwNzA2NTgsLTM5MTYyMTU0OSwxOTkxODQw
+ODYxLDExMzg3NTMwNjAsLTE0MTU3NjA3OTUsMTE4MjY4ODUwOS
+wtNDAzMjQxNDgsLTE5OTA0MzU5NzAsLTIyNjE3NTEzOF19
 -->
