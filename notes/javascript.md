@@ -1156,7 +1156,7 @@ myFunction().then(function(resolve) {
 ```
 
 ### Async Loops
-At times you made to **loop through a set of data and make an async request for each piece of data** and THEN execute some other code. Much of the information on this is drawn from [this](https://zellwk.com/blog/async-await-in-loops/) article about looping with async. For example, imagine you have a page that makes a server API request for some corresponding information about a list of users, on the server side you need to loop through the information of each user and fire off an asynchronous database request to gather information on each user and the once ALL those requests are finished finally send data back to the client, or execute some other procedure. In the examples below the server request is mocked by the asynchronous `userInformationServerRequest` function that uses `setTimeout` to return information about the user after `1000` milliseconds.
+At times you made to **loop through a set of data and make an async request for each piece of data** and THEN execute some other code. Much of the information on this is drawn from [this][(https://zellwk.com/blog/async-await-in-loops/) article about looping with async. For example, imagine you have a page that makes a server API request for some corresponding information about a list of users, on the server side you need to loop through the information of each user and fire off an asynchronous database request to gather information on each user and the once ALL those requests are finished finally send data back to the client, or execute some other procedure. In the examples below the server request is mocked by the asynchronous `userInformationServerRequest` function that uses `setTimeout` to return information about the user after `1000` milliseconds.
 
 A **forEach based async loop DOES NOT WORK with async**, it can never support `async` behaviour and does not recognise it . Looking at the code below you would expect the output to be `start` then looping with an `await` for each server request mocked by the `setTimeout` function that prints the transformed user information followed by `end`. However, in practice `start` and then `end` are printed followed by the information.
 ```js
@@ -1262,11 +1262,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQyOTc5MSwxNTYxNDUxMzE4LC05Mz
-A4MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYyMDExOSwxMzY4NDQ0
-NjA5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Niw5NDgwODI4NDcsLT
-EwMjQ0MzA3MSwtMTgwMzk4ODAzNywtMTkyOTIwODkxNCwtMjkw
-ODY4NDc5LDY1MDYzNjU5NiwtMTAxNTExMDIwOCwtMTQxNjY3ND
-ExLDEzMjE5MTQxNzMsOTExODUzNTcyLC0xMDUwMDExMzkyLDc1
-NTQxODkzMF19
+eyJoaXN0b3J5IjpbLTE3NDMwMDA2NTAsMTU2MTQ1MTMxOCwtOT
+MwODA2MzM0LC0yMTAxNTYyNzcwLDIwNjQ2MjAxMTksMTM2ODQ0
+NDYwOSwtNjA0NzUxNzA2LDE0MjczNjkzNDYsOTQ4MDgyODQ3LC
+0xMDI0NDMwNzEsLTE4MDM5ODgwMzcsLTE5MjkyMDg5MTQsLTI5
+MDg2ODQ3OSw2NTA2MzY1OTYsLTEwMTUxMTAyMDgsLTE0MTY2Nz
+QxMSwxMzIxOTE0MTczLDkxMTg1MzU3MiwtMTA1MDAxMTM5Miw3
+NTU0MTg5MzBdfQ==
 -->
