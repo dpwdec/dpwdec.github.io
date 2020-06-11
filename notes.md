@@ -13,7 +13,10 @@ title: Notes
 
 
 # Javascript
-| 
+
+| |
+| --- | --- |
+| [Javascript](notes/javascript.html) | [Javascript](notes/javascript.html) |
 
 <table>
   <tr>
@@ -68,8 +71,8 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ2NTU1NTA0LC0xODc1MjA2ODAxLDE0ND
-AwNzA2NTgsLTM5MTYyMTU0OSwxOTkxODQwODYxLDExMzg3NTMw
-NjAsLTE0MTU3NjA3OTUsMTE4MjY4ODUwOSwtNDAzMjQxNDgsLT
-E5OTA0MzU5NzAsLTIyNjE3NTEzOF19
+eyJoaXN0b3J5IjpbLTMwMjE5NDYzMiwtMTg3NTIwNjgwMSwxND
+QwMDcwNjU4LC0zOTE2MjE1NDksMTk5MTg0MDg2MSwxMTM4NzUz
+MDYwLC0xNDE1NzYwNzk1LDExODI2ODg1MDksLTQwMzI0MTQ4LC
+0xOTkwNDM1OTcwLC0yMjYxNzUxMzhdfQ==
 -->
