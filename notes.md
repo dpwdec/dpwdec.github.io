@@ -29,6 +29,8 @@ title: Notes
 | | [Bind](https://dpwdec.github.io/notes/javascript.html#bind) |
 | | [Scope of 'This' in callbacks and Objects](https://dpwdec.github.io/notes/javascript.html#this-with-callbacks-and-objects) |
 
+
+
 <table>
   <tr>
     <td colspan="2">Javascript</td>
@@ -82,9 +84,9 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2OTY5NDE2LC0yNjc0OTk2MDQsLTExNT
-IxMjI0ODQsNzExOTQ5MDM0LC0xODc1MjA2ODAxLDE0NDAwNzA2
-NTgsLTM5MTYyMTU0OSwxOTkxODQwODYxLDExMzg3NTMwNjAsLT
-E0MTU3NjA3OTUsMTE4MjY4ODUwOSwtNDAzMjQxNDgsLTE5OTA0
-MzU5NzAsLTIyNjE3NTEzOF19
+eyJoaXN0b3J5IjpbLTMyOTg3NDI2OCwxOTY5Njk0MTYsLTI2Nz
+Q5OTYwNCwtMTE1MjEyMjQ4NCw3MTE5NDkwMzQsLTE4NzUyMDY4
+MDEsMTQ0MDA3MDY1OCwtMzkxNjIxNTQ5LDE5OTE4NDA4NjEsMT
+EzODc1MzA2MCwtMTQxNTc2MDc5NSwxMTgyNjg4NTA5LC00MDMy
+NDE0OCwtMTk5MDQzNTk3MCwtMjI2MTc1MTM4XX0=
 -->
