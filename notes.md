@@ -11,10 +11,7 @@ title: Notes
 | frameworks | [Sinatra](notes/sinatra.html) |
 | | [Jekyll](notes/jekyll.html) |
 
-
-# Javascript
-
-| Javascript |
+| Javascript[...](/notes/javascript.html) |
 | --- | --- |
 | [Functions](https://dpwdec.github.io/notes/javascript.html#functions) | [Lexical Scoping](https://dpwdec.github.io/notes/javascript.html#lexical-scoping) |
 | | [Closures](https://dpwdec.github.io/notes/javascript.html#closures) |
@@ -86,10 +83,10 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzQ1Nzg5NSwtMzI5ODc0MjY4LDE5Nj
-k2OTQxNiwtMjY3NDk5NjA0LC0xMTUyMTIyNDg0LDcxMTk0OTAz
-NCwtMTg3NTIwNjgwMSwxNDQwMDcwNjU4LC0zOTE2MjE1NDksMT
-k5MTg0MDg2MSwxMTM4NzUzMDYwLC0xNDE1NzYwNzk1LDExODI2
-ODg1MDksLTQwMzI0MTQ4LC0xOTkwNDM1OTcwLC0yMjYxNzUxMz
-hdfQ==
+eyJoaXN0b3J5IjpbLTExODI1NTM5ODEsLTMyOTg3NDI2OCwxOT
+Y5Njk0MTYsLTI2NzQ5OTYwNCwtMTE1MjEyMjQ4NCw3MTE5NDkw
+MzQsLTE4NzUyMDY4MDEsMTQ0MDA3MDY1OCwtMzkxNjIxNTQ5LD
+E5OTE4NDA4NjEsMTEzODc1MzA2MCwtMTQxNTc2MDc5NSwxMTgy
+Njg4NTA5LC00MDMyNDE0OCwtMTk5MDQzNTk3MCwtMjI2MTc1MT
+M4XX0=
 -->
