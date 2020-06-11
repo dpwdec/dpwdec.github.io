@@ -21,7 +21,10 @@ title: Notes
 | | [Callbacks](https://dpwdec.github.io/notes/javascript.html#callbacks) |
 | | [Immediately Invoked Function Expressions](https://dpwdec.github.io/notes/javascript.html#iife) |
 | | [Arrow Functions](https://dpwdec.github.io/notes/javascript.html#arrow-functions) |
-| [Classes](https://dpwdec.github.io/notes/javascript.html#classes) | 
+| [Classes](https://dpwdec.github.io/notes/javascript.html#classes) | [ES5 Classes](https://dpwdec.github.io/notes/javascript.html#es5) |
+| | [ES6 Classes](https://dpwdec.github.io/notes/javascript.html#es6) |
+| | [Prototype Property](https://dpwdec.github.io/notes/javascript.html#prototype) |
+| | 
 
 <table>
   <tr>
@@ -76,8 +79,8 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQzMzYzMjIsNzExOTQ5MDM0LC0xOD
-c1MjA2ODAxLDE0NDAwNzA2NTgsLTM5MTYyMTU0OSwxOTkxODQw
-ODYxLDExMzg3NTMwNjAsLTE0MTU3NjA3OTUsMTE4MjY4ODUwOS
-wtNDAzMjQxNDgsLTE5OTA0MzU5NzAsLTIyNjE3NTEzOF19
+eyJoaXN0b3J5IjpbLTY0MDU1NDc5OSw3MTE5NDkwMzQsLTE4Nz
+UyMDY4MDEsMTQ0MDA3MDY1OCwtMzkxNjIxNTQ5LDE5OTE4NDA4
+NjEsMTEzODc1MzA2MCwtMTQxNTc2MDc5NSwxMTgyNjg4NTA5LC
+00MDMyNDE0OCwtMTk5MDQzNTk3MCwtMjI2MTc1MTM4XX0=
 -->
