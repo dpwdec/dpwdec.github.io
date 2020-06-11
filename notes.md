@@ -32,7 +32,8 @@ title: Notes
 | | [Async and Await](/notes/javascript.html#async-and-await) |
 | | [Async Loops](/notes/javascript.html#async-loops) |
 | | |
-| [Node](notes/node.html) | 
+| [Node](notes/node.html) | [npm](/notes/node.html#npm) |
+| | [Nodemon](notes/node.html#nodemon) |
 
 | |
 | --- | --- |
@@ -65,10 +66,10 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4MDU3MDY3LC0zMjk4NzQyNjgsMTk2OT
-Y5NDE2LC0yNjc0OTk2MDQsLTExNTIxMjI0ODQsNzExOTQ5MDM0
-LC0xODc1MjA2ODAxLDE0NDAwNzA2NTgsLTM5MTYyMTU0OSwxOT
-kxODQwODYxLDExMzg3NTMwNjAsLTE0MTU3NjA3OTUsMTE4MjY4
-ODUwOSwtNDAzMjQxNDgsLTE5OTA0MzU5NzAsLTIyNjE3NTEzOF
-19
+eyJoaXN0b3J5IjpbMTIwNTQxMDM5NiwtMzI5ODc0MjY4LDE5Nj
+k2OTQxNiwtMjY3NDk5NjA0LC0xMTUyMTIyNDg0LDcxMTk0OTAz
+NCwtMTg3NTIwNjgwMSwxNDQwMDcwNjU4LC0zOTE2MjE1NDksMT
+k5MTg0MDg2MSwxMTM4NzUzMDYwLC0xNDE1NzYwNzk1LDExODI2
+ODg1MDksLTQwMzI0MTQ4LC0xOTkwNDM1OTcwLC0yMjYxNzUxMz
+hdfQ==
 -->
