@@ -32,7 +32,7 @@ title: Notes
 | | [Async and Await](/notes/javascript.html#async-and-await) |
 | | [Async Loops](/notes/javascript.html#async-loops) |
 | | |
-| Frame
+| [Node](notes/node.html) | 
 
 | |
 | --- | --- |
@@ -65,7 +65,7 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Njk2MTI0LC0zMjk4NzQyNjgsMTk2OT
+eyJoaXN0b3J5IjpbNTY4MDU3MDY3LC0zMjk4NzQyNjgsMTk2OT
 Y5NDE2LC0yNjc0OTk2MDQsLTExNTIxMjI0ODQsNzExOTQ5MDM0
 LC0xODc1MjA2ODAxLDE0NDAwNzA2NTgsLTM5MTYyMTU0OSwxOT
 kxODQwODYxLDExMzg3NTMwNjAsLTE0MTU3NjA3OTUsMTE4MjY4
