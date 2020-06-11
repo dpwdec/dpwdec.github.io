@@ -80,11 +80,15 @@ app.get('/', function(req, res) {
 ```
 
 ### Queries
-You can **retrieve a `GET` request query** inside a controller using the `.query` property of `res` with the name of the query parameter
+You can **retrieve a `GET` request query** inside a controller using the `.query` property of `req` and then access the query's property that you want to use by name to retrieve the value.
 ```js
+//route in response 
 
+app.get('/query', function(req, res) {
+  req.query.
+});
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQ4Mjk0MjUsOTU4NjM0Mzc3LDg5ND
-IyNzM4NywtMTYxMzU0MDE3NF19
+eyJoaXN0b3J5IjpbLTIzNTA1NDY3OSw5NTg2MzQzNzcsODk0Mj
+I3Mzg3LC0xNjEzNTQwMTc0XX0=
 -->
