@@ -10,6 +10,8 @@ The simplest way to **embed a p5 sketch file in another web page** is it simply 
 ```html
 
 ```
+
+You can also embed some html page with a sketch in via iFrame
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMDA3MTE1Nl19
+eyJoaXN0b3J5IjpbMTUyNDE5NzM5MSwtNjAwMDcxMTU2XX0=
 -->
