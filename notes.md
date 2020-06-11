@@ -25,7 +25,8 @@ title: Notes
 | | [ES6 Classes](https://dpwdec.github.io/notes/javascript.html#es6) |
 | | [Prototype Property](https://dpwdec.github.io/notes/javascript.html#prototype) |
 | | [Class Methods](https://dpwdec.github.io/notes/javascript.html#class-methods) |
-| [Scope](https://dpwdec.github.io/notes/javascript.html#scope) | 
+| [Scope](https://dpwdec.github.io/notes/javascript.html#scope) | [This](https://dpwdec.github.io/notes/javascript.html#this) |
+| | [Bind](https://dpwdec.github.io/notes/javascript.html#bind) |
 
 <table>
   <tr>
@@ -80,8 +81,9 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTIxMjI0ODQsNzExOTQ5MDM0LC0xOD
-c1MjA2ODAxLDE0NDAwNzA2NTgsLTM5MTYyMTU0OSwxOTkxODQw
-ODYxLDExMzg3NTMwNjAsLTE0MTU3NjA3OTUsMTE4MjY4ODUwOS
-wtNDAzMjQxNDgsLTE5OTA0MzU5NzAsLTIyNjE3NTEzOF19
+eyJoaXN0b3J5IjpbMjEwNzgwMjE4MiwtMTE1MjEyMjQ4NCw3MT
+E5NDkwMzQsLTE4NzUyMDY4MDEsMTQ0MDA3MDY1OCwtMzkxNjIx
+NTQ5LDE5OTE4NDA4NjEsMTEzODc1MzA2MCwtMTQxNTc2MDc5NS
+wxMTgyNjg4NTA5LC00MDMyNDE0OCwtMTk5MDQzNTk3MCwtMjI2
+MTc1MTM4XX0=
 -->
