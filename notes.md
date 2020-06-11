@@ -17,7 +17,8 @@ title: Notes
     <td colspan="2">Javascript</td>
   </tr>
   <tr>
-    <td>Three</td>
+    <td>basics</td>
+     <td>[Javascript](notes/javascript.html)</td>
   </tr>
 </table>
 
@@ -53,7 +54,7 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDI1ODg4NDYsMTEzODc1MzA2MCwtMT
+eyJoaXN0b3J5IjpbLTE5MzQ0MzczNjgsMTEzODc1MzA2MCwtMT
 QxNTc2MDc5NSwxMTgyNjg4NTA5LC00MDMyNDE0OCwtMTk5MDQz
 NTk3MCwtMjI2MTc1MTM4XX0=
 -->
