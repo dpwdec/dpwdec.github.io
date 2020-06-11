@@ -27,6 +27,7 @@ title: Notes
 | | [Class Methods](https://dpwdec.github.io/notes/javascript.html#class-methods) |
 | [Scope](https://dpwdec.github.io/notes/javascript.html#scope) | [This](https://dpwdec.github.io/notes/javascript.html#this) |
 | | [Bind](https://dpwdec.github.io/notes/javascript.html#bind) |
+| | 
 
 <table>
   <tr>
@@ -81,7 +82,7 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzgwMjE4MiwtMTE1MjEyMjQ4NCw3MT
+eyJoaXN0b3J5IjpbLTI2NzQ5OTYwNCwtMTE1MjEyMjQ4NCw3MT
 E5NDkwMzQsLTE4NzUyMDY4MDEsMTQ0MDA3MDY1OCwtMzkxNjIx
 NTQ5LDE5OTE4NDA4NjEsMTEzODc1MzA2MCwtMTQxNTc2MDc5NS
 wxMTgyNjg4NTA5LC00MDMyNDE0OCwtMTk5MDQzNTk3MCwtMjI2
