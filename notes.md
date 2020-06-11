@@ -21,7 +21,8 @@ title: Notes
 | | [Closures](https://dpwdec.github.io/notes/javascript.html#closures) |
 | | [Callbacks](https://dpwdec.github.io/notes/javascript.html#callbacks) |
 | | [Immediately Invoked Function Expressions](https://dpwdec.github.io/notes/javascript.html#iife) |
-| |
+| | [Arrow Functions](https://dpwdec.github.io/notes/javascript.html#arrow-functions) |
+| | 
 
 <table>
   <tr>
@@ -76,7 +77,7 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4MTgyMTg1LC0xODc1MjA2ODAxLDE0ND
+eyJoaXN0b3J5IjpbNzExOTQ5MDM0LC0xODc1MjA2ODAxLDE0ND
 AwNzA2NTgsLTM5MTYyMTU0OSwxOTkxODQwODYxLDExMzg3NTMw
 NjAsLTE0MTU3NjA3OTUsMTE4MjY4ODUwOSwtNDAzMjQxNDgsLT
 E5OTA0MzU5NzAsLTIyNjE3NTEzOF19
