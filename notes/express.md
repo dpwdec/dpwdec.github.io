@@ -78,7 +78,10 @@ app.get('/', function(req, res) {
   res.status(302).render('home/changed');
 });
 ```
+
+### Queries
+You can **retrieve a `GET` request query** inside a controller using the `.query` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4NjM0Mzc3LDg5NDIyNzM4NywtMTYxMz
-U0MDE3NF19
+eyJoaXN0b3J5IjpbMjA5MTk1ODE5OSw5NTg2MzQzNzcsODk0Mj
+I3Mzg3LC0xNjEzNTQwMTc0XX0=
 -->
