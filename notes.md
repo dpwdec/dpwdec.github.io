@@ -31,31 +31,8 @@ title: Notes
 | [Asynchronous Javascript](/notes/javascript.html#asynchronous-javascript) | [Promises](/notes/javascript.html#promises) |
 | | [Async and Await](/notes/javascript.html#async-and-await) |
 | | [Async Loops](/notes/javascript.html#async-loops) |
-
-
-
-
-<table>
-  <tr>
-    <td colspan="2">Javascript</td>
-  </tr>
-  <tr>
-     <td>
-     <a href="notes/javascript.html">
-       javascript
-      </a>
-     </td>
-      <td>
-     <a href="notes/javascript.html">
-       javascript
-      </a>
-     </td>
-  </tr>
-</table>
-
-
-| javascript  |
-| ---|
+| | |
+| Frame
 
 | |
 | --- | --- |
@@ -88,10 +65,10 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTM3MDQ0OSwtMzI5ODc0MjY4LDE5Nj
-k2OTQxNiwtMjY3NDk5NjA0LC0xMTUyMTIyNDg0LDcxMTk0OTAz
-NCwtMTg3NTIwNjgwMSwxNDQwMDcwNjU4LC0zOTE2MjE1NDksMT
-k5MTg0MDg2MSwxMTM4NzUzMDYwLC0xNDE1NzYwNzk1LDExODI2
-ODg1MDksLTQwMzI0MTQ4LC0xOTkwNDM1OTcwLC0yMjYxNzUxMz
-hdfQ==
+eyJoaXN0b3J5IjpbLTg3Njk2MTI0LC0zMjk4NzQyNjgsMTk2OT
+Y5NDE2LC0yNjc0OTk2MDQsLTExNTIxMjI0ODQsNzExOTQ5MDM0
+LC0xODc1MjA2ODAxLDE0NDAwNzA2NTgsLTM5MTYyMTU0OSwxOT
+kxODQwODYxLDExMzg3NTMwNjAsLTE0MTU3NjA3OTUsMTE4MjY4
+ODUwOSwtNDAzMjQxNDgsLTE5OTA0MzU5NzAsLTIyNjE3NTEzOF
+19
 -->
