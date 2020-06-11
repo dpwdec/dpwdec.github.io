@@ -825,7 +825,9 @@ myString = 'hello';
 myString.constructor.name // => name
 ```
 
-## This
+## Scope
+
+### This
 Javascript's `this` keyword does not function in the most intuitive way i.e. it doesn't work in a traditionally object oriented way. The `this` keyword tends to refers to how a function was called depending on the enclosing object.
 ```js
 function foo() {
@@ -1264,11 +1266,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDk1OTg3OSwxNTYxNDUxMzE4LC05Mz
-A4MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYyMDExOSwxMzY4NDQ0
-NjA5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Niw5NDgwODI4NDcsLT
-EwMjQ0MzA3MSwtMTgwMzk4ODAzNywtMTkyOTIwODkxNCwtMjkw
-ODY4NDc5LDY1MDYzNjU5NiwtMTAxNTExMDIwOCwtMTQxNjY3ND
-ExLDEzMjE5MTQxNzMsOTExODUzNTcyLC0xMDUwMDExMzkyLDc1
-NTQxODkzMF19
+eyJoaXN0b3J5IjpbLTE3ODQ2MTE5MjYsMTAwMDk1OTg3OSwxNT
+YxNDUxMzE4LC05MzA4MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYy
+MDExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Ni
+w5NDgwODI4NDcsLTEwMjQ0MzA3MSwtMTgwMzk4ODAzNywtMTky
+OTIwODkxNCwtMjkwODY4NDc5LDY1MDYzNjU5NiwtMTAxNTExMD
+IwOCwtMTQxNjY3NDExLDEzMjE5MTQxNzMsOTExODUzNTcyLC0x
+MDUwMDExMzkyXX0=
 -->
