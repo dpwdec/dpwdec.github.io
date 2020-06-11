@@ -1091,7 +1091,9 @@ Modules allow you to store interpolated Javascript code into a single file. Thes
 <script type="module" src="./myModule.js"></script>
 ```
 
-## Promises
+## Asynchronous Javascript
+
+### Promises
 
 The `Promise` class allows you to handle the results of asynchronous functions by wrapping them in a `Promise` object that accepts functions that will run depending on the results of that asynchronous function. In the function below `timeOutPromise` is defined with a single possible branch called `resolve`. The number of arguments passed into the `Promise` constructor is the number of branches that a promise can resolve to. This `resolve` function is called when the `setTimeOut` function completes after `1000`ms. After this definition the promise is called with each `then` clause (in this case only one) matching the different branches defined in the `Promise` constructor. Whatever value is passed into the matching promise resolution branch will be retrievable here.
 ```js
@@ -1106,7 +1108,7 @@ timeOutPromise.then(function(done) {
 }) // => 'done'
 ```
 
-## Async / Await
+### Async & Await
 
 The `async` and `await` keywords allow you to define functions that use the resolve values of promise based asynchronous requests. Using the `async` keyword allows you to mark a part of your code as asynchronous and then use the `await` keyword to resolve a promise. In the example below, whatever is returned from the `resolve` of the `timeOutFunction` promise will be returned into the `result` variable. The body of this function will *wait* until this value has been returned before it continue executing. This is the only time you will get a direct value from a promise function, but its worth noting that this value is only available for the duration of the function.
 ```js
@@ -1266,7 +1268,7 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQ2MTE5MjYsMTAwMDk1OTg3OSwxNT
+eyJoaXN0b3J5IjpbLTE1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNT
 YxNDUxMzE4LC05MzA4MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYy
 MDExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Ni
 w5NDgwODI4NDcsLTEwMjQ0MzA3MSwtMTgwMzk4ODAzNywtMTky
