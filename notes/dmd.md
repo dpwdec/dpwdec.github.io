@@ -208,12 +208,16 @@ So I can see my friends' responses to my posts
 I would like to be able to see comments on posts.
 
 
+
+engage with write ups
+expand to use sub topics and maybe linking to repos maybe
+SMART goals --> links
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2NTUyMjMxLDQ3Mzk0MTU3OCwxMjcyOD
-gyMTY3LC0xMzYzNzM5MTg5LDg0MTgxNTA2NiwyMjM1NDU0Mjgs
-LTE2MjIzMTczOTgsNTk5NTk1NjMxLC0yMjEyNDg3NjIsMTYxND
-M1NTI3NCwtMjUzMjA2NDAyLC0xMjM4Mjg3MzU5LDIwNDQ0OTkx
-MjMsNTc1OTc1MzIwLDIxMDAxMDYwNjcsLTE1OTEwODA3OTUsLT
-UzNTgwMTc4MSwtMTM1Mzg4MjYzNiwtMzIzODk2ODA2LC0xNzg2
-NDk1MzEzXX0=
+eyJoaXN0b3J5IjpbMzU1MjY0NTQsODU2NTUyMjMxLDQ3Mzk0MT
+U3OCwxMjcyODgyMTY3LC0xMzYzNzM5MTg5LDg0MTgxNTA2Niwy
+MjM1NDU0MjgsLTE2MjIzMTczOTgsNTk5NTk1NjMxLC0yMjEyND
+g3NjIsMTYxNDM1NTI3NCwtMjUzMjA2NDAyLC0xMjM4Mjg3MzU5
+LDIwNDQ0OTkxMjMsNTc1OTc1MzIwLDIxMDAxMDYwNjcsLTE1OT
+EwODA3OTUsLTUzNTgwMTc4MSwtMTM1Mzg4MjYzNiwtMzIzODk2
+ODA2XX0=
 -->
