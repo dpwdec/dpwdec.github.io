@@ -26,7 +26,15 @@ You can **install multiple dependencies with a single install command** by separ
 $ npm install some-package-name another-package and-another-one
 ```
 
-You can **abbreviate the `install` command**
+You can **abbreviate the `install` command** to `i`. You can use this in place of `install` on any command.
+```
+$ npm i some-package-name
+```
+
+To **install a dependency as a development dependency only** use the `--save-dev` flag.
+```
+$ npm install --save-dev some-dev-dependency-name
+```
 
 ### `package.json`
 
@@ -127,7 +135,7 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzUzMTE3NSwtNDUxMTE2MzU3LDExNT
+eyJoaXN0b3J5IjpbMTI1MjYwNzE0MSwtNDUxMTE2MzU3LDExNT
 Y3MDg3NzMsLTE4MTcwMzg5NCwxNzE3Njk4MjEzLDkzNDMyMjg5
 OSwtNTQ0MzQ2NTUzLC0xMzU4ODE2MTk4LDEzODI4NzIxNjUsLT
 cwNTAzODM1NiwtMTU0NjQzMjY3MSwtMTUzODU1ODkwXX0=
