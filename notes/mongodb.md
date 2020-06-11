@@ -6,14 +6,14 @@ exclude: true
 
 **MongoDB** is a **noSQL** (not only sql) database system. Instead of using lots of tables to model relationships between data types Mongo instead encodes data more like a traditional object (or JSON) file as key-value pairs in records called **documents**.
 
-## Mongoose
+# Mongoose
 
 Mongoose is an javascript ORM used with MongoDB to define database schema and access data. You can start using Mongoose by installing using `npm` and then `require` it in the files where you are going to use the Mongoose library. 
 ```js
 let mongoose = require('mongoose')
 ```
 
-### Schemas
+## Schemas
 You can **define a database schema** by creating a new `mongoose.schema` and adding the possible fields a document in this table could take.
 ```js
 let userSchema = new mongoose.schema({
@@ -59,10 +59,10 @@ newUser.save(function(err) {
 })
 ```
 
-### Sub-documents
+## Sub-documents
 
 
-### Queries
+## Queries
 You can **retrieve a list of objects from the database** using the `find` method. The `find` method takes a call back that executes once the query to the database has returned. It returns either an error to the first `err` argument of the callback or the `result` of the `find` query to the second `result` argument of the query. 
 
 Using the `find` query without any arguments **retrieves ALL records from the database** of that database schema type as an array of objects.
@@ -100,10 +100,14 @@ User.findOne({_id: 1}, function(err, result) {
 });
 ```
 
+## Relations
+
+You can **insert the database ID from another **
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5Mjk3NzI0Niw2NjA1ODc3MDgsNDIxOD
-IyNzIzLC0xOTkwMDI0NTM0LC05MTg4MDA4NDAsLTE2NTMwODgx
-OTksLTE3MjUzODE2NjUsOTYzNTI5NDExLDY4MDA1NzcxMywyMD
-EwMjUwODQ1LC0yMTM2ODkxOTAzLDIwMjcwMzMxMjhdfQ==
+eyJoaXN0b3J5IjpbLTE2Mzc1ODEyOTcsLTI5Mjk3NzI0Niw2Nj
+A1ODc3MDgsNDIxODIyNzIzLC0xOTkwMDI0NTM0LC05MTg4MDA4
+NDAsLTE2NTMwODgxOTksLTE3MjUzODE2NjUsOTYzNTI5NDExLD
+Y4MDA1NzcxMywyMDEwMjUwODQ1LC0yMTM2ODkxOTAzLDIwMjcw
+MzMxMjhdfQ==
 -->
