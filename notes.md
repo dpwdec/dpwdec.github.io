@@ -27,6 +27,8 @@ title: Notes
 | [**Node**](notes/node.html) | [npm](/notes/node.html#npm) |
 | | [Nodemon](notes/node.html#nodemon) |
 | | |
+| [**Express**](/notes/express) | [Controllers](/notes/express#contro
+| | |
 | [**Jasmine**](/notes/jasmine.html) | [Testing Modules](/notes/jasmine.html#testing-modules) |
 | | [Spies](/notes/jasmine.html#spies) |
 | | [Stubbing](/notes/jasmine.html#stubbing) |
@@ -75,10 +77,10 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxMzIzNjYyLDEyMDU0MTAzOTYsLTMyOT
-g3NDI2OCwxOTY5Njk0MTYsLTI2NzQ5OTYwNCwtMTE1MjEyMjQ4
-NCw3MTE5NDkwMzQsLTE4NzUyMDY4MDEsMTQ0MDA3MDY1OCwtMz
-kxNjIxNTQ5LDE5OTE4NDA4NjEsMTEzODc1MzA2MCwtMTQxNTc2
-MDc5NSwxMTgyNjg4NTA5LC00MDMyNDE0OCwtMTk5MDQzNTk3MC
-wtMjI2MTc1MTM4XX0=
+eyJoaXN0b3J5IjpbMjA5OTA1ODE3NiwxMjA1NDEwMzk2LC0zMj
+k4NzQyNjgsMTk2OTY5NDE2LC0yNjc0OTk2MDQsLTExNTIxMjI0
+ODQsNzExOTQ5MDM0LC0xODc1MjA2ODAxLDE0NDAwNzA2NTgsLT
+M5MTYyMTU0OSwxOTkxODQwODYxLDExMzg3NTMwNjAsLTE0MTU3
+NjA3OTUsMTE4MjY4ODUwOSwtNDAzMjQxNDgsLTE5OTA0MzU5Nz
+AsLTIyNjE3NTEzOF19
 -->
