@@ -5,7 +5,7 @@ title: Notes
 
 | Javascript[...](/notes/javascript.html) |
 | --- | --- |
-| [Functions](/notes/javascript.html#functions) | [Lexical Scoping](/notes/javascript.html#lexical-scoping) |
+| [*Functions**](/notes/javascript.html#functions) | [Lexical Scoping](/notes/javascript.html#lexical-scoping) |
 | | [Closures](/notes/javascript.html#closures) |
 | | [Callbacks](/notes/javascript.html#callbacks) |
 | | [Immediately Invoked Function Expressions](/notes/javascript.html#iife) |
@@ -75,10 +75,10 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDYwMjEyOTgsMTIwNTQxMDM5NiwtMz
-I5ODc0MjY4LDE5Njk2OTQxNiwtMjY3NDk5NjA0LC0xMTUyMTIy
-NDg0LDcxMTk0OTAzNCwtMTg3NTIwNjgwMSwxNDQwMDcwNjU4LC
-0zOTE2MjE1NDksMTk5MTg0MDg2MSwxMTM4NzUzMDYwLC0xNDE1
-NzYwNzk1LDExODI2ODg1MDksLTQwMzI0MTQ4LC0xOTkwNDM1OT
-cwLC0yMjYxNzUxMzhdfQ==
+eyJoaXN0b3J5IjpbMTk0Nzk2MTk2OCwxMjA1NDEwMzk2LC0zMj
+k4NzQyNjgsMTk2OTY5NDE2LC0yNjc0OTk2MDQsLTExNTIxMjI0
+ODQsNzExOTQ5MDM0LC0xODc1MjA2ODAxLDE0NDAwNzA2NTgsLT
+M5MTYyMTU0OSwxOTkxODQwODYxLDExMzg3NTMwNjAsLTE0MTU3
+NjA3OTUsMTE4MjY4ODUwOSwtNDAzMjQxNDgsLTE5OTA0MzU5Nz
+AsLTIyNjE3NTEzOF19
 -->
