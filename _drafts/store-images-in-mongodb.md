@@ -31,8 +31,8 @@ The basic flow of retrieving the image from our database is slightly simpler:
 
 ## App Set Up
 
-Create a new folder for your project and run `npm init` to set up the project's `package.
+Create a new folder for your project and run `npm init` to set up the project's `package.json` file. Make 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjUwMzIxMCwxNTIxMzM4ODU1LDE1Nj
-cxMjM3OTMsLTE3ODgxMDgwNDNdfQ==
+eyJoaXN0b3J5IjpbLTEzNTEyOTM1MjIsMTUyMTMzODg1NSwxNT
+Y3MTIzNzkzLC0xNzg4MTA4MDQzXX0=
 -->
