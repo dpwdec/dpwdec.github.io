@@ -8,7 +8,9 @@ This post will guide you through how to set up your express website to upload im
 ## Overview
 There are several dependencies we will need to successfully upload images, these are:
 
-- 
+- `express` => a node web framework to serve our website and process uploads / interface with the database
+- `mongoDB` => a noSQL database for storing image data
+- `mongoose` => an ORM 
 
 The basics flow of uploading an image to our mongoDB database using express has a few steps:
 
@@ -25,5 +27,5 @@ The basic flow of retrieving the image from our database is slightly simpler:
 3. Convert the `buffer` property that contains the image data string into a `base64` string.
 4. Send the string to the client's web page and render it on the page using the `src` component of an `<img>` HTML element.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwNzg0OTk1XX0=
+eyJoaXN0b3J5IjpbMjEzMTM2MTA2M119
 -->
