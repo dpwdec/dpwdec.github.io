@@ -8,7 +8,8 @@ This post will guide you through how to set up your express website to upload im
 ## Overview
 There are a few steps that we will have to take in order to successfully upload images.
 
-1. Create
+1. Create an upload form that posts to a route on our server with the image file data.
+2. Use the `multer` express middleware to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTAxNjY0Ml19
+eyJoaXN0b3J5IjpbMTUyODQ1OTkxXX0=
 -->
