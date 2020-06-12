@@ -31,11 +31,13 @@ The basic flow of retrieving the image from our database is slightly simpler:
 
 ## App Set Up
 
-1Create a new folder for your project and run `npm init` to set up the project's `package.json` file. Set the `entry point` to `app.js` during set up. Then create a new `app.js` file to act as your projects main file.
+Create a new folder for your project and run `npm init` to set up the project's `package.json` file. Set the `entry point` to `app.js` during set up. Then create a new `app.js` file to act as your projects main file.
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTQxODQzNDQsMTUyMTMzODg1NSwxNT
-Y3MTIzNzkzLC0xNzg4MTA4MDQzXX0=
+eyJoaXN0b3J5IjpbMTc3NzIxNDg5NSwxNTIxMzM4ODU1LDE1Nj
+cxMjM3OTMsLTE3ODgxMDgwNDNdfQ==
 -->
