@@ -14,8 +14,8 @@ before_script:
   - db:migrate
 ```
 
-You can also **trigger background processes** from the z
+You can also **trigger background processes** from the `before_script` tag by appending an `&` ampersand to the end of the command. This allows you to do things like start test servers running which is useful for integration testing platforms that need to visit a local hosted version of your application. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1MzczMzIyXX0=
+eyJoaXN0b3J5IjpbMTQ2MTgwNDcyOF19
 -->
