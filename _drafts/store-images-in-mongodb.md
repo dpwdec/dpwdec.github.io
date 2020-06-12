@@ -29,20 +29,31 @@ The basic flow of retrieving the image from our database is slightly simpler:
 3. Convert the `buffer` property that contains the image data string into a `base64` string.
 4. Send the string to the client's web page and render it on the page using the `src` component of an `<img>` HTML element.
 
-## App Set Up
+## Basic app set up
 
 Create a new folder for your project and run `npm init` to set up the project's `package.json` file. Set the `entry point` to `app.js` during set up.
 
 Create a new `app.js` file to act as your projects main file.
 
 Set up a basic express `get` route in your `app.js` file by `require`ing `express`, creating a new `app` and listening on port `3000`.
+```js
+// app.js
+// basic app code
+const  express  =  require('express');
+const  app  =  express();
+const  port  =  3000;
+
+app.get('/', (req, res) => res.send('This is an image upload app!'));
+app.listen(port);
 ```
 
 
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk1ODE3MjUsMTc3NzIxNDg5NSwxNTIxMz
-M4ODU1LDE1NjcxMjM3OTMsLTE3ODgxMDgwNDNdfQ==
+eyJoaXN0b3J5IjpbMTE5Nzc1NDczMCwxNzc3MjE0ODk1LDE1Mj
+EzMzg4NTUsMTU2NzEyMzc5MywtMTc4ODEwODA0M119
 -->
