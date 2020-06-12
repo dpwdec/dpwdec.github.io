@@ -8,8 +8,8 @@ Travis is a continuous integration platform which can be used to run test builds
 ## Scripts
 
 ### Before Script
-You can use the `before_script` tag to **trigger**
+You can use the `before_script` tag to **trigger set up events before your main scripts run**. These would typically be commands that occur before the main test
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzODIzMTY5XX0=
+eyJoaXN0b3J5IjpbLTIzNDEzMDc1N119
 -->
