@@ -29,7 +29,9 @@ The basic flow of retrieving the image from our database is slightly simpler:
 3. Convert the `buffer` property that contains the image data string into a `base64` string.
 4. Send the string to the client's web page and render it on the page using the `src` component of an `<img>` HTML element.
 
+## Tutorial
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NzEyMzc5MywtMTc4ODEwODA0M119
+eyJoaXN0b3J5IjpbODc2Nzc3NTU1LDE1NjcxMjM3OTMsLTE3OD
+gxMDgwNDNdfQ==
 -->
