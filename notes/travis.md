@@ -14,8 +14,11 @@ before_script:
   - db:migrate
 ```
 
-You can also **trigger background processes** from the `before_script` tag by appending an `&` ampersand to the end of the command. This allows you to do things like start test servers running which is useful for integration testing platforms that need to visit a local hosted version of your application. 
+You can also **trigger background processes** from the `before_script` tag by appending an `&` ampersand to the end of the command. This allows you to do things like start test servers running in the background while the rest of the script continues to execute which is useful for integration testing platforms that need to visit a local hosted version of your application. 
+```before_script
+  - npm run start:test_server &
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTgwNDcyOF19
+eyJoaXN0b3J5IjpbLTExMTUzMjc1OTVdfQ==
 -->
