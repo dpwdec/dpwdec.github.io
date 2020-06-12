@@ -10,15 +10,16 @@ The basics flow of uploading an image to our mongoDB database using express has 
 
 1. Create an upload form that posts to a route on our server with the image file data.
 2. Use the `multer` express middleware to *temporarily* store the uploaded image on our server in an `uploads` folder.
-3. Read the uploaded image data from the `uploads` folder using the node `fs` library as a string of binary byte data.
-4. Store the strin image binary byte data that was read in by `fs` inside a `buffer` type property of a `mongoose` `image` model.
+3. Read the uploaded image data from the `uploads` folder using the node `fs` library as a string of binary byte data (image data string).
+4. Store the image data string that was read in by `fs` inside a `buffer` type property of a `mongoose` `image` model.
 5. Save the `image` model to the database.
 
 The basic flow of retrieving the image from our database is slightly simpler:
 
 1. Make a request for the image data with a query string identifying the image you want from the server.
 2. Retrieve the `image` database record based on the query in the request.
-3. Convert the binary byte data of the image into a `base64` 
+3. Convert the `buffer` property that contains the image data string into a `base64` string.
+4. Send the string to the client's web page.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjEzNjYyOF19
+eyJoaXN0b3J5IjpbOTMyMzgwOTkwXX0=
 -->
