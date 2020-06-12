@@ -35,7 +35,7 @@ Create a new folder for your project and run `npm init` to set up the project's 
 
 Create a new `app.js` file to act as your projects main file.
 
-Set up a basic express `get` route in your `app.js` file by `require`ing `express`, creating a new `app` and listening on port `3000`.
+Set up a basic express `get` route in your `app.js` file by `require`ing `express`, creating a new `app` and listening on port `3000` and check that if you load `http://localhost/300` you see a string with the message inside `send`.
 ```js
 // app.js
 // basic app code
@@ -54,6 +54,6 @@ app.listen(port);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5Nzc1NDczMCwxNzc3MjE0ODk1LDE1Mj
+eyJoaXN0b3J5IjpbLTk1ODc0NTEwNSwxNzc3MjE0ODk1LDE1Mj
 EzMzg4NTUsMTU2NzEyMzc5MywtMTc4ODEwODA0M119
 -->
