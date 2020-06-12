@@ -3,7 +3,13 @@ title: Travis CI
 layout: page
 exclude: true
 ---
-Travis is a continuous integration platform which can be used to run test builds of your application an
+Travis is a continuous integration platform which can be used to run test builds of your application and then automatically trigger jobs such as merging or deployment based on the results of those tests.
+
+## Scripts
+
+### Before Script
+You can use the `before_script` tag to **trigger**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc1ODg1MDFdfQ==
+eyJoaXN0b3J5IjpbMzMzODIzMTY5XX0=
 -->
