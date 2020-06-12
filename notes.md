@@ -3,14 +3,6 @@ layout: page
 title: Notes
 ---
 
-| ruby |  |
-| --- | ---|
-| basics | [Ruby](notes/ruby.html)
-| testing | [RSpec](notes/rspec.html) |
-| | [Capybara](notes/capybara.html) |
-| frameworks | [Sinatra](notes/sinatra.html) |
-| | [Jekyll](notes/jekyll.html) |
-
 | Javascript[...](/notes/javascript.html) |
 | --- | --- |
 | [Functions](https://dpwdec.github.io/notes/javascript.html#functions) | [Lexical Scoping](https://dpwdec.github.io/notes/javascript.html#lexical-scoping) |
@@ -34,6 +26,18 @@ title: Notes
 | | |
 | [Node](notes/node.html) | [npm](/notes/node.html#npm) |
 | | [Nodemon](notes/node.html#nodemon) |
+| | |
+| Frontend | [jQuery](notes/jquery.html) |
+| | |
+| Testing | 
+
+| ruby |  |
+| --- | ---|
+| basics | [Ruby](notes/ruby.html)
+| testing | [RSpec](notes/rspec.html) |
+| | [Capybara](notes/capybara.html) |
+| frameworks | [Sinatra](notes/sinatra.html) |
+| | [Jekyll](notes/jekyll.html) |
 
 | |
 | --- | --- |
@@ -66,10 +70,10 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTQxMDM5NiwtMzI5ODc0MjY4LDE5Nj
-k2OTQxNiwtMjY3NDk5NjA0LC0xMTUyMTIyNDg0LDcxMTk0OTAz
-NCwtMTg3NTIwNjgwMSwxNDQwMDcwNjU4LC0zOTE2MjE1NDksMT
-k5MTg0MDg2MSwxMTM4NzUzMDYwLC0xNDE1NzYwNzk1LDExODI2
-ODg1MDksLTQwMzI0MTQ4LC0xOTkwNDM1OTcwLC0yMjYxNzUxMz
-hdfQ==
+eyJoaXN0b3J5IjpbNTk1NzE3Mjk4LDEyMDU0MTAzOTYsLTMyOT
+g3NDI2OCwxOTY5Njk0MTYsLTI2NzQ5OTYwNCwtMTE1MjEyMjQ4
+NCw3MTE5NDkwMzQsLTE4NzUyMDY4MDEsMTQ0MDA3MDY1OCwtMz
+kxNjIxNTQ5LDE5OTE4NDA4NjEsMTEzODc1MzA2MCwtMTQxNTc2
+MDc5NSwxMTgyNjg4NTA5LC00MDMyNDE0OCwtMTk5MDQzNTk3MC
+wtMjI2MTc1MTM4XX0=
 -->
