@@ -27,7 +27,10 @@ title: Notes
 | [**Node**](notes/node.html) | [npm](/notes/node.html#npm) |
 | | [Nodemon](notes/node.html#nodemon) |
 | | |
-| [**Express**](/notes/express) | [Controllers](/notes/express#contro
+| [**Express**](/notes/express) | [Controllers](/notes/express#controllers) |
+| | [Redirecting](/notes/express#redirecting) |
+| | [Status Responses](/notes/express#status-responses) |
+| | [Queries](/notes/express#queries) |
 | | |
 | [**Jasmine**](/notes/jasmine.html) | [Testing Modules](/notes/jasmine.html#testing-modules) |
 | | [Spies](/notes/jasmine.html#spies) |
@@ -77,7 +80,7 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTA1ODE3NiwxMjA1NDEwMzk2LC0zMj
+eyJoaXN0b3J5IjpbMTE0MzY5MzkyNywxMjA1NDEwMzk2LC0zMj
 k4NzQyNjgsMTk2OTY5NDE2LC0yNjc0OTk2MDQsLTExNTIxMjI0
 ODQsNzExOTQ5MDM0LC0xODc1MjA2ODAxLDE0NDAwNzA2NTgsLT
 M5MTYyMTU0OSwxOTkxODQwODYxLDExMzg3NTMwNjAsLTE0MTU3
