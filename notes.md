@@ -5,34 +5,34 @@ title: Notes
 
 | Javascript[...](/notes/javascript.html) |
 | --- | --- |
-| [*Functions**](/notes/javascript.html#functions) | [Lexical Scoping](/notes/javascript.html#lexical-scoping) |
+| [**Functions**](/notes/javascript.html#functions) | [Lexical Scoping](/notes/javascript.html#lexical-scoping) |
 | | [Closures](/notes/javascript.html#closures) |
 | | [Callbacks](/notes/javascript.html#callbacks) |
 | | [Immediately Invoked Function Expressions](/notes/javascript.html#iife) |
 | | [Arrow Functions](/notes/javascript.html#arrow-functions) |
 | | |
-| [Classes](/notes/javascript.html#classes) | [ES5 Classes](/notes/javascript.html#es5) |
+| [**Classes**](/notes/javascript.html#classes) | [ES5 Classes](/notes/javascript.html#es5) |
 | | [ES6 Classes](/notes/javascript.html#es6) |
 | | [Prototype Property](/notes/javascript.html#prototype) |
 | | [Class Methods](/notes/javascript.html#class-methods) |
 | | |
-| [Scope](/notes/javascript.html#scope) | [This](/notes/javascript.html#this) |
+| [**Scope**](/notes/javascript.html#scope) | [This](/notes/javascript.html#this) |
 | | [Bind](/notes/javascript.html#bind) |
 | | [Scope of 'This' in callbacks and Objects](/notes/javascript.html#this-with-callbacks-and-objects) |
 | | |
-| [Asynchronous Javascript](/notes/javascript.html#asynchronous-javascript) | [Promises](/notes/javascript.html#promises) |
+| [**Asynchronous Javascript**](/notes/javascript.html#asynchronous-javascript) | [Promises](/notes/javascript.html#promises) |
 | | [Async and Await](/notes/javascript.html#async-and-await) |
 | | [Async Loops](/notes/javascript.html#async-loops) |
 | | |
-| [Node](notes/node.html) | [npm](/notes/node.html#npm) |
+| [**Node**](notes/node.html) | [npm](/notes/node.html#npm) |
 | | [Nodemon](notes/node.html#nodemon) |
 | | |
-| [Jasmine](/notes/jasmine.html) | [Testing Modules](/notes/jasmine.html#testing-modules) |
+| [**Jasmine**](/notes/jasmine.html) | [Testing Modules](/notes/jasmine.html#testing-modules) |
 | | [Spies](/notes/jasmine.html#spies) |
 | | [Stubbing](/notes/jasmine.html#stubbing) |
 | | [Testing Async Code](/notes/jasmine.html#testing-async-code) |
 | | |
-| [jQuery](notes/jquery.html) | [Selectors](/notes/jquery#selectors) |
+| [**jQuery**](notes/jquery.html) | [Selectors](/notes/jquery#selectors) |
 | | [Events](/notes/jquery#events) |
 | | [Ajax](/notes/jquery#ajax) |
 
@@ -75,10 +75,10 @@ title: Notes
 | Interface | [Command Line](notes/cmd_line.html) |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Nzk2MTk2OCwxMjA1NDEwMzk2LC0zMj
-k4NzQyNjgsMTk2OTY5NDE2LC0yNjc0OTk2MDQsLTExNTIxMjI0
-ODQsNzExOTQ5MDM0LC0xODc1MjA2ODAxLDE0NDAwNzA2NTgsLT
-M5MTYyMTU0OSwxOTkxODQwODYxLDExMzg3NTMwNjAsLTE0MTU3
-NjA3OTUsMTE4MjY4ODUwOSwtNDAzMjQxNDgsLTE5OTA0MzU5Nz
-AsLTIyNjE3NTEzOF19
+eyJoaXN0b3J5IjpbOTgxMzIzNjYyLDEyMDU0MTAzOTYsLTMyOT
+g3NDI2OCwxOTY5Njk0MTYsLTI2NzQ5OTYwNCwtMTE1MjEyMjQ4
+NCw3MTE5NDkwMzQsLTE4NzUyMDY4MDEsMTQ0MDA3MDY1OCwtMz
+kxNjIxNTQ5LDE5OTE4NDA4NjEsMTEzODc1MzA2MCwtMTQxNTc2
+MDc5NSwxMTgyNjg4NTA5LC00MDMyNDE0OCwtMTk5MDQzNTk3MC
+wtMjI2MTc1MTM4XX0=
 -->
