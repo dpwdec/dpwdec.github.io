@@ -115,12 +115,12 @@ app.listen(port);
 
 Next, we'll use the `multer` middleware to convert the data from the form into a file on our server, we'll use a temporary folder called `uploads`.
 
-Create the `uploads` folder in your project's root directory.
+Create the `uploads` folder in your project's root directory. It's worth also adding the contents of this folder to `.gitignore` file and also creating a `.gitkeep` file inside it and adding this as an exception to the `.gitignore` command. The result of this is that the uploads folder will be added to git if you commit the project but the contents of the folder (
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3OTAyNjkwLDUwNTY1NTE2NiwtMTg3Nz
-IxMjkzNCwtMTUwMTUwNjM3NSwyMzgyNzc1OTIsLTk1ODc0NTEw
-NSwxNzc3MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMzc5MywtMT
-c4ODEwODA0M119
+eyJoaXN0b3J5IjpbLTE3MjQyMzY3LDM4NzkwMjY5MCw1MDU2NT
+UxNjYsLTE4NzcyMTI5MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTky
+LC05NTg3NDUxMDUsMTc3NzIxNDg5NSwxNTIxMzM4ODU1LDE1Nj
+cxMjM3OTMsLTE3ODgxMDgwNDNdfQ==
 -->
