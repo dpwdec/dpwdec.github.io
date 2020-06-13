@@ -23,13 +23,11 @@ The associated file structure would look something like the example below.
 ```
 .
 ├── .gitignore
-└── views
-    ├── index.hbs
-    └── layouts
-        └── main.hbs
+└── some_folder
+    └── .gitkeep
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNjY0ODc2OSwtMjA2MzU5ODY2Nl19
+eyJoaXN0b3J5IjpbLTMwNzE2MzYzNywtMjA2MzU5ODY2Nl19
 -->
