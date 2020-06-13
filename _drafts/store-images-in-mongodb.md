@@ -138,15 +138,17 @@ If you now run your server, load up the form and submit an image you should see 
 
 ## Set up Mongoose database connection
 
-Now that we have our images on our server we need to begin setting up our database so that we can save our images into it. First, we need to make sure we have a connection our database.
+Now that we have our images on our server we need to begin setting up our database so that we can save our images into it. 
+
+Start b install `mongoose` with the `npm install mongoose` command.
+
+To this `require('mongoose`)
 
 ## Create Mongoose model
 
 **`This section of the guide assumes you have set up and launched a local version of mongoDB on your system`**
 
 Next we need to create the ORM model schema in mongoose which will define the blueprint of the object that will added to our Mongo database. In this case we'll use a server simple `Image` model that contains only two fields, an implicit, unique `_id` and an `img` field that itself contains two fields: a `data` field of type `Buffer` that stores the actually image data as a string of binary values and a `type` field that records the type of file the `data` field represents.
-
-First, install `mongoose` with the `npm install mongoose` command.
 
 Create a `models` directory in your route directory and create an `image.js` file inside this will which will contain the database `schema` for our image model.
 ```js
@@ -169,7 +171,7 @@ module.exports = new mongoose.model('Image', imageSchema);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzI1NDcxMywxNzM3MDU1MTM3LC0xNT
+eyJoaXN0b3J5IjpbMjEyMzcxMzc0NCwxNzM3MDU1MTM3LC0xNT
 gzMDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEz
 NTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC
 0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3Nzcy
