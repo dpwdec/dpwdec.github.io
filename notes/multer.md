@@ -17,7 +17,7 @@ app.post('/', upload.single('file'), (req, res) => {
 ```
 
 ## Uploads
-To **upload a single file to your server** use the `.single` method and set a `dest`ination where the file will be uploaded in the `options` object. This is probably the simplest upload pattern you can use. In the example below we use the `multer` method with an options object that sets the `dest` of the file to `'./uploads'`. This folder will need to have been already created on your server. The `upload.single` method is used to upload a single file from the form, and the argument to this method is whatever the `name` of the HTML element is. Multer seems to automatically create a long form unique random
+To **upload a single file to your server** use the `.single` method and set a `dest`ination where the file will be uploaded in the `options` object. This is probably the simplest upload pattern you can use. In the example below we use the `multer` method with an options object that sets the `dest` of the file to `'./uploads'`. This folder will need to have been already created on your server. The `upload.single` method is used to upload a single file from the form, and the argument to this method is whatever the `name` of the HTML element is. Multer seems to automatically create a long form unique random file name for the uploaded image on the server.
 ```js
 var multer = require('multer');
 // set server destination folder for uploaded files
@@ -42,5 +42,5 @@ You can **retrieve information about the uploaded file** from the `req.file` pro
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODMyOTU5NSwtMjA2MzU0MTM3XX0=
+eyJoaXN0b3J5IjpbLTE0NjcyNDYzNTAsLTIwNjM1NDEzN119
 -->
