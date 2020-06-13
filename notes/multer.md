@@ -17,8 +17,15 @@ app.post('/', upload.single('file'), (req, res) => {
 ```
 
 ## Uploads
-To **upload a single file to your server** use the `.single` method and set a `dest`ination where 
+To **upload a single file to your server** use the `.single` method and set a `dest`ination where the file will be uploaded in the `options` object. This is probably the simplest upload pattern you can use. In the example below we use the `multer` method with an options object t
+```js
+var multer = require('multer');
+// set server destination folder for uploaded files
+var upload = multer({dest: './uploads'});
+app.post('/', upload.single('file'), (req, res) => {
+});
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTk1NjQwMywtMjA2MzU0MTM3XX0=
+eyJoaXN0b3J5IjpbLTEzNzAyNjg0OSwtMjA2MzU0MTM3XX0=
 -->
