@@ -104,10 +104,18 @@ User.findOne({_id: 1}, function(err, result) {
 
 You can **insert the database ID from another **
 
+## Gotchas
+You **cannot use the word `type` as a key inside a mongoose model**. This will be interpreted incorrectly by mongoose as a schema type leading to database errors.
+```js
+var myFailedSchema = new mongoose.Schema({
+  
+});
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzc1ODEyOTcsLTI5Mjk3NzI0Niw2Nj
-A1ODc3MDgsNDIxODIyNzIzLC0xOTkwMDI0NTM0LC05MTg4MDA4
-NDAsLTE2NTMwODgxOTksLTE3MjUzODE2NjUsOTYzNTI5NDExLD
-Y4MDA1NzcxMywyMDEwMjUwODQ1LC0yMTM2ODkxOTAzLDIwMjcw
-MzMxMjhdfQ==
+eyJoaXN0b3J5IjpbMTY2NzE0NzI3MCwtMTYzNzU4MTI5NywtMj
+kyOTc3MjQ2LDY2MDU4NzcwOCw0MjE4MjI3MjMsLTE5OTAwMjQ1
+MzQsLTkxODgwMDg0MCwtMTY1MzA4ODE5OSwtMTcyNTM4MTY2NS
+w5NjM1Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4NDUsLTIxMzY4
+OTE5MDMsMjAyNzAzMzEyOF19
 -->
