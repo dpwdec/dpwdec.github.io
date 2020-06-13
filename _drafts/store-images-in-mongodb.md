@@ -183,16 +183,17 @@ module.exports = new mongoose.model('Image', imageSchema);
 
 Now that we have our database connection and our `Image` mongoose model set up we push the data from our server's `/uploads` folder into a new instance of the `Image` model and save it to the database.
 
-To do this, first add the `Image` model to `app.js` by `require`ing it. We also need to `require('fs')`, node's built in file-stream utility for reading the file data from the `/uploads` folder  into our 
+To do this, first add the `Image` model to `app.js` by `require`ing it. We also need to `require('fs')`, node's built in file-stream utility for reading the file data from the `/uploads` folder  into the `data` field of our model.
 ```js
 // app.js
 const Image = require('./models/image.js');
+const fs = require('fs');
 ```
 
 Then, inside our `post` route we can create a new 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDk3MTMyMCwxNzM3MDU1MTM3LC0xNT
+eyJoaXN0b3J5IjpbMTMyMjkyNDkxMCwxNzM3MDU1MTM3LC0xNT
 gzMDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEz
 NTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC
 0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3Nzcy
