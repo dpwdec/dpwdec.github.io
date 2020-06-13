@@ -97,14 +97,28 @@ Create a basic HTML upload form inside `index.hbs`.  The form's submission `meth
 
 After this your `app.js` file should look something like the example below and you should be able to start your server and load up the page with your submission form.
 ```js
+//app.js
+const  express  =  require('express');
+const  app  =  express();
+const  port  =  3000;
 
+const  exphbs  =  require('express-handlebars');
+app.engine('.hbs', exphbs({extname:  '.hbs'}));
+app.set('view engine', 'handlebars');
+
+app.get('/', (req, res) => res.render('index.hbs'));
+
+app.listen(port);
 ```
+
+## Uploading the image to temp folder
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTI5MTU5LDUwNTY1NTE2NiwtMTg3Nz
-IxMjkzNCwtMTUwMTUwNjM3NSwyMzgyNzc1OTIsLTk1ODc0NTEw
-NSwxNzc3MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMzc5MywtMT
-c4ODEwODA0M119
+eyJoaXN0b3J5IjpbLTQwNDk4MTA2OSw1MDU2NTUxNjYsLTE4Nz
+cyMTI5MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3NDUx
+MDUsMTc3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLT
+E3ODgxMDgwNDNdfQ==
 -->
