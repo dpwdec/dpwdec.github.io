@@ -104,7 +104,7 @@ const  port  =  3000;
 
 const  exphbs  =  require('express-handlebars');
 app.engine('.hbs', exphbs({extname:  '.hbs'}));
-app.set('view engine', 'handlebars');
+app.set('view engine', '.hbs');
 
 app.get('/', (req, res) => res.render('index.hbs'));
 
@@ -117,8 +117,8 @@ app.listen(port);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNDk4MTA2OSw1MDU2NTUxNjYsLTE4Nz
-cyMTI5MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3NDUx
-MDUsMTc3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLT
-E3ODgxMDgwNDNdfQ==
+eyJoaXN0b3J5IjpbLTE1Njc0NzU3OTIsNTA1NjU1MTY2LC0xOD
+c3MjEyOTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1
+MTA1LDE3NzcyMTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC
+0xNzg4MTA4MDQzXX0=
 -->
