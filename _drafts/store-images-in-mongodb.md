@@ -161,11 +161,11 @@ const imageSchema = new mongoose.Schema({
 module.exports = new mongoose.model('Image', imageSchema);
 ```
 
-Set up a `datbas
+Set up a `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDEyMjM4MzYsLTE1ODMwNjYwNTYsLT
-c5OTUxOTUzOSwxNzQzNzIzNTc1LC0yMDc2MTM1OTU4LDM4Nzkw
-MjY5MCw1MDU2NTUxNjYsLTE4NzcyMTI5MzQsLTE1MDE1MDYzNz
-UsMjM4Mjc3NTkyLC05NTg3NDUxMDUsMTc3NzIxNDg5NSwxNTIx
-MzM4ODU1LDE1NjcxMjM3OTMsLTE3ODgxMDgwNDNdfQ==
+eyJoaXN0b3J5IjpbMTczNzA1NTEzNywtMTU4MzA2NjA1NiwtNz
+k5NTE5NTM5LDE3NDM3MjM1NzUsLTIwNzYxMzU5NTgsMzg3OTAy
+NjkwLDUwNTY1NTE2NiwtMTg3NzIxMjkzNCwtMTUwMTUwNjM3NS
+wyMzgyNzc1OTIsLTk1ODc0NTEwNSwxNzc3MjE0ODk1LDE1MjEz
+Mzg4NTUsMTU2NzEyMzc5MywtMTc4ODEwODA0M119
 -->
