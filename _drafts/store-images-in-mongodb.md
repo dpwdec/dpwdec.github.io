@@ -129,15 +129,16 @@ const multer = require('multer');
 const upload = multer({dest: './uploads'});
 ```
 
-Create a new `app.post` route and insert the `upload.single` method into the route. The argument of the `.single` function should be a string which matches the `name` of the HTML form input that the file was added to. In this case we called it `"image"`.
+Create a new `app.post` route and insert the `upload.single` method into the route. The argument of the `.single` function should be a string which matches the `name` of the HTML form input that the file was added to. In this case we called it `"image"`. We use the `.single` method because we are only uploading one image.
 ```js
-app.post('/', u
+app.post('/', upload.single('image'), (req, res) => { });
 ```
 
+If you now run your server, load up the form and submit an image you should see it appear in the `/uploads` folder on you
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODM4MTM2NTIsMTc0MzcyMzU3NSwtMj
-A3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEy
-OTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LD
-E3NzcyMTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4
-MTA4MDQzXX0=
+eyJoaXN0b3J5IjpbMTcxNDQwMjYyNywxNzQzNzIzNTc1LC0yMD
+c2MTM1OTU4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4NzcyMTI5
+MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3NDUxMDUsMT
+c3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLTE3ODgx
+MDgwNDNdfQ==
 -->
