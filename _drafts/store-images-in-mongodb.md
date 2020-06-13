@@ -161,11 +161,13 @@ const imageSchema = new mongoose.Schema({
 module.exports = new mongoose.model('Image', imageSchema);
 ```
 
-Set up a `
+## Save Image data to your model
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzA1NTEzNywtMTU4MzA2NjA1NiwtNz
-k5NTE5NTM5LDE3NDM3MjM1NzUsLTIwNzYxMzU5NTgsMzg3OTAy
-NjkwLDUwNTY1NTE2NiwtMTg3NzIxMjkzNCwtMTUwMTUwNjM3NS
-wyMzgyNzc1OTIsLTk1ODc0NTEwNSwxNzc3MjE0ODk1LDE1MjEz
-Mzg4NTUsMTU2NzEyMzc5MywtMTc4ODEwODA0M119
+eyJoaXN0b3J5IjpbLTI4ODA1ODUwNiwxNzM3MDU1MTM3LC0xNT
+gzMDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEz
+NTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC
+0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3Nzcy
+MTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MD
+QzXX0=
 -->
