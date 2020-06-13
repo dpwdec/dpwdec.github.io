@@ -99,8 +99,11 @@ var handlebars = require('express-handlebars');
 app.engine('.hbs', handlebars({extename: '.hbs'}));
 ```
 
-You can **set the created engine as the app's dedicated view engine** using the `.set` method and specifying the `'view engine'` as the 
+You can **set the created engine as the app's dedicated view engine** using the `.set` method and specifying the `'view engine'` as the result of `app.engine`.
+```js
+app.set('view engine', '.hbs');
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU5ODI0OTg2LC0xNDg2ODMwMjI2LDk1OD
-YzNDM3Nyw4OTQyMjczODcsLTE2MTM1NDAxNzRdfQ==
+eyJoaXN0b3J5IjpbLTIwMTI5MjMxMTcsLTE0ODY4MzAyMjYsOT
+U4NjM0Mzc3LDg5NDIyNzM4NywtMTYxMzU0MDE3NF19
 -->
