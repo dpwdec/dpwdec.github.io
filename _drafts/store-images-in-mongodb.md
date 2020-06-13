@@ -124,14 +124,18 @@ uploads/*
 
 Install `multer` with the `npm install multer` command. Then `require('multer')` inside your `app.js` file. Next, use the result of the `require` to create an `upload` object (this is what will be used as the middleware inserted into our express route to grab the file data and upload it to the server). Submit an object as an argument to this function with `dest: './uploads'` which essentially tells multer where to save the data it gets from the form.
 ```js
-// app.js - only multer additions
+// app.js - only multer additions / changes
+const multer = require('multer');
+const upload = multer({dest: './uploads'});
 ```
+
+Create a new `app.post` route and insert the `upload` object with the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDA2MzU2NiwxNzQzNzIzNTc1LC0yMD
-c2MTM1OTU4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4NzcyMTI5
-MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3NDUxMDUsMT
-c3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLTE3ODgx
-MDgwNDNdfQ==
+eyJoaXN0b3J5IjpbLTE3NDc1NzI1MjcsMTc0MzcyMzU3NSwtMj
+A3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEy
+OTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LD
+E3NzcyMTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4
+MTA4MDQzXX0=
 -->
