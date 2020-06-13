@@ -70,14 +70,12 @@ app.set('view engine', 'handlebars');
 Create a `views` folder inside your project's root directory and an `index.hbs` file inside the `views` directory. Express matches the `render` command against this directory pattern so that when you call the `render` method it searches for the files to render relative to the `views` folder.
 
 ```
-```
 .
 ├── app.js
 └── views
-    ├── home.handlebars
+    ├── index.hbs
     └── layouts
-        └── main.handlebars
-```
+        └── main.hbs
 ```
 
 Create a basic HTML upload form inside `index.hbs`.
@@ -87,7 +85,7 @@ Create a basic HTML upload form inside `index.hbs`.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDU2OTY2NiwtMTg3NzIxMjkzNCwtMT
+eyJoaXN0b3J5IjpbMTQ3NDAxMzY5NywtMTg3NzIxMjkzNCwtMT
 UwMTUwNjM3NSwyMzgyNzc1OTIsLTk1ODc0NTEwNSwxNzc3MjE0
 ODk1LDE1MjEzMzg4NTUsMTU2NzEyMzc5MywtMTc4ODEwODA0M1
 19
