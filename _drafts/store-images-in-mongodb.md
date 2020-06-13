@@ -122,12 +122,12 @@ uploads/*
 !uploads/.gitkeep
 ```
 
-Install `multer` with 
+Install `multer` with the `npm install multer` command.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzYxMzU5NTgsMzg3OTAyNjkwLDUwNT
-Y1NTE2NiwtMTg3NzIxMjkzNCwtMTUwMTUwNjM3NSwyMzgyNzc1
-OTIsLTk1ODc0NTEwNSwxNzc3MjE0ODk1LDE1MjEzMzg4NTUsMT
-U2NzEyMzc5MywtMTc4ODEwODA0M119
+eyJoaXN0b3J5IjpbMTc0MzcyMzU3NSwtMjA3NjEzNTk1OCwzOD
+c5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC0xNTAxNTA2
+Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3NzcyMTQ4OTUsMT
+UyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MDQzXX0=
 -->
