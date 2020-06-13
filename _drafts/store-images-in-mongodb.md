@@ -136,11 +136,13 @@ app.post('/', upload.single('image'), (req, res) => { });
 
 If you now run your server, load up the form and submit an image you should see it appear in the `/uploads` folder in your project directory.
 
+## Create Mongoose model
 
+Next we need to create the ORM model in mongoose that will added to our Mongo database. In this case we'll use a server simple `Image` model that contains only two fields, an implicit, uni `_id` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTUxOTUzOSwxNzQzNzIzNTc1LC0yMD
-c2MTM1OTU4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4NzcyMTI5
-MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3NDUxMDUsMT
-c3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLTE3ODgx
-MDgwNDNdfQ==
+eyJoaXN0b3J5IjpbMTE0NjM0Njc4LC03OTk1MTk1MzksMTc0Mz
+cyMzU3NSwtMjA3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2
+LC0xODc3MjEyOTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOT
+U4NzQ1MTA1LDE3NzcyMTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIz
+NzkzLC0xNzg4MTA4MDQzXX0=
 -->
