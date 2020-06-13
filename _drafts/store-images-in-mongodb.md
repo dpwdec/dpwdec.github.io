@@ -10,10 +10,10 @@ There are several dependencies we will need to successfully upload images, these
 
 - `express` => a node web framework to serve our website and process uploads / interface with the database
 - `handlebars` => a templating language for serving custom static HTML with server data
-- `mongoDB` => a noSQL database for storing image data
-- `mongoose` => an ORM that wraps the creation of mongoDB schema and requests to the database in an easy to use API
 - `multer` => an express middleware that allows us to upload image data to our sever
 - `fs` => a node file streaming utility for converting our images to string of binary byte data for storage
+- `mongoDB` => a noSQL database for storing image data
+- `mongoose` => an ORM that wraps the creation of mongoDB schema and requests to the database in an easy to use API
 
 The basics flow of uploading an image to our mongoDB database using express has a few steps:
 
@@ -138,7 +138,7 @@ If you now run your server, load up the form and submit an image you should see 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDU2ODkyNSwxNzQzNzIzNTc1LC0yMD
+eyJoaXN0b3J5IjpbLTc5OTUxOTUzOSwxNzQzNzIzNTc1LC0yMD
 c2MTM1OTU4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4NzcyMTI5
 MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3NDUxMDUsMT
 c3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLTE3ODgx
