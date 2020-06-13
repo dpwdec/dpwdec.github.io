@@ -51,6 +51,9 @@ app.listen(port);
 ## Upload Form
 
 Next, we need to install `handlebars` into our project using `npm install express-handlebars` then `require` the `handlebars` module inside our `app.js` file.
+```bash
+$ npm install express-handlebars
+```
 
 Create a new express render engine for handlebars using the `app.engine` command and then set the `'view engine'` as the engine that was just created, this allows express to use the `render` command with the `handlebars` code to display these templating source files (`.hbs`) correctly.
 
@@ -80,7 +83,7 @@ Create a basic HTML upload form inside `index.hbs`.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NT
-g3NDUxMDUsMTc3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3
-OTMsLTE3ODgxMDgwNDNdfQ==
+eyJoaXN0b3J5IjpbLTE4NzcyMTI5MzQsLTE1MDE1MDYzNzUsMj
+M4Mjc3NTkyLC05NTg3NDUxMDUsMTc3NzIxNDg5NSwxNTIxMzM4
+ODU1LDE1NjcxMjM3OTMsLTE3ODgxMDgwNDNdfQ==
 -->
