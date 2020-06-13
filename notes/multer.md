@@ -26,6 +26,8 @@ app.post('/', upload.single('file'), (req, res) => {
 });
 ```
 
+You can **retrieve information about the uploaded file** from the `req.file` property. This will contain information like the file's `originalname` or the `
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzI5NjM5OCwtMjA2MzU0MTM3XX0=
+eyJoaXN0b3J5IjpbNzYyMTM5NTMsLTIwNjM1NDEzN119
 -->
