@@ -107,13 +107,14 @@ You can **insert the database ID from another **
 ## Gotchas
 You **cannot use the word `type` as a key inside a mongoose model**. This will be interpreted incorrectly by mongoose as a schema type leading to database errors.
 ```js
+// DO NOT DO THIS
 var myFailedSchema = new mongoose.Schema({
-  
+  type: String // causes errors in the database
 });
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NzE0NzI3MCwtMTYzNzU4MTI5NywtMj
+eyJoaXN0b3J5IjpbLTc0NDk0NDE1OCwtMTYzNzU4MTI5NywtMj
 kyOTc3MjQ2LDY2MDU4NzcwOCw0MjE4MjI3MjMsLTE5OTAwMjQ1
 MzQsLTkxODgwMDg0MCwtMTY1MzA4ODE5OSwtMTcyNTM4MTY2NS
 w5NjM1Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4NDUsLTIxMzY4
