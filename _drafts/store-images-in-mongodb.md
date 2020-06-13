@@ -72,7 +72,6 @@ app.set('view engine', 'handlebars');
 Create a `views` folder inside your project's root directory add an `index.hbs` file inside the `views` directory. Express matches the `render` command against this directory pattern so that when you call the `render` method it searches for the files to render relative to the `views` folder.
 
 Add another folder inside `views` called `layouts` with a `main.hbs` file inside.
-
 ```
 .
 ├── app.js
@@ -88,14 +87,20 @@ Inside `main.hbs` add a single line that says `{{{render}}}`. This is where expr
 {{{render}}}
 ```
 
-Create a basic HTML upload form inside `index.hbs`.  The form's submission `method` is set to `POST` because we are "posting" data to the server to be added to our database when it is submitted. 
+Create a basic HTML upload form inside `index.hbs`.  The form's submission `method` is set to `POST` because we are "posting" data to the server to be added to our database when it is submitted. The `enctype` is also set to `multipart/form-data` so that file encoding is correct when it arrives at our server.
+```html
+<form  action="/"  method="POST"  enctype="multipart/form-data">
+<input  type="file"  id="img-upload-input">
+<input  type="submit"  value="upload">
+</form>
+```
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzY2Nzg2Miw1MDU2NTUxNjYsLTE4Nz
+eyJoaXN0b3J5IjpbLTE0MTYyMDk4Niw1MDU2NTUxNjYsLTE4Nz
 cyMTI5MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3NDUx
 MDUsMTc3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLT
 E3ODgxMDgwNDNdfQ==
