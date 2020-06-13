@@ -89,7 +89,10 @@ app.get('/query', function(req, res) {
   var name = req.query.name; // => foo
 });
 ```
+
+## Views
+Express views are mediated through You can **create a new **
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODY4MzAyMjYsOTU4NjM0Mzc3LDg5ND
-IyNzM4NywtMTYxMzU0MDE3NF19
+eyJoaXN0b3J5IjpbLTE4NzQ0NTg0MTAsLTE0ODY4MzAyMjYsOT
+U4NjM0Mzc3LDg5NDIyNzM4NywtMTYxMzU0MDE3NF19
 -->
