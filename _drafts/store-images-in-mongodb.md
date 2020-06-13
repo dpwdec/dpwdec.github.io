@@ -190,10 +190,15 @@ const Image = require('./models/image.js');
 const fs = require('fs');
 ```
 
-Then, inside our `post` route we can create a new 
+Then, inside our `post` route we can create a new instance of `Image` and use `fs.readFileSync` to read the uploaded image's data (based on the filename contained in `req.file.filename`) into the object's `data` field.
+
+Finally we use the mongoose `.save` method to save the model and
+```js
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjkyNDkxMCwxNzM3MDU1MTM3LC0xNT
+eyJoaXN0b3J5IjpbLTg2ODM4NTU0MCwxNzM3MDU1MTM3LC0xNT
 gzMDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEz
 NTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC
 0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3Nzcy
