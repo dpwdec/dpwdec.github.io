@@ -90,7 +90,7 @@ Inside `main.hbs` add a single line that says `{{{render}}}`. This is where expr
 Create a basic HTML upload form inside `index.hbs`.  The form's submission `method` is set to `POST` because we are "posting" data to the server to be added to our database when it is submitted. The `enctype` is also set to `multipart/form-data` so that file encoding is correct when it arrives at our server.
 ```html
 <form  action="/"  method="POST"  enctype="multipart/form-data">
-  <input  type="file"  id="img-upload-input">
+  <input  type="file"  id="img-upload-input" name="image">
   <input  type="submit"  value="upload">
 </form>
 ```
@@ -129,11 +129,13 @@ const multer = require('multer');
 const upload = multer({dest: './uploads'});
 ```
 
-Create a new `app.post` route and insert the `upload` object with the 
-
+Create a new `app.post` route and insert the `upload.single` method into the route. The argument of the `.single` function should be a string which matches the `name` of the HTML form input that the file was added to. In this case we called it `"image"`.
+```js
+app.post('/', u
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDc1NzI1MjcsMTc0MzcyMzU3NSwtMj
+eyJoaXN0b3J5IjpbLTE0ODM4MTM2NTIsMTc0MzcyMzU3NSwtMj
 A3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEy
 OTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LD
 E3NzcyMTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4
