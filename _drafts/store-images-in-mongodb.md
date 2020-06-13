@@ -55,7 +55,13 @@ Next, we need to install `handlebars` into our project using `npm install expres
 Create a new express render engine for handlebars using the `app.engine` command and then set the `'view engine'` as the engine that was just created, this allows express to use the `render` command with the `handlebars` code to display these templating source files (`.hbs`) correctly.
 
 ```js
-const exphbs =
+// app.js
+const exphbs = require('express-handlebars');
+
+//add the express-handlebars view engine to express
+app.engine('handlebars', exphbs());
+// set the view engine for your app
+app.set('view engine', 'handlebars');
 ```
 
 Create a `views` folder inside your project's root directory and an `index.hbs` file inside the `views` directory. Express matches the `render` command against this directory pattern so that when you call the `render` method it searches for the files to render relative to the `views` folder.
@@ -67,7 +73,7 @@ Create a `views` folder inside your project's root directory and an `index.hbs` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcxNTk4ODI0LDIzODI3NzU5MiwtOTU4Nz
-Q1MTA1LDE3NzcyMTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkz
-LC0xNzg4MTA4MDQzXX0=
+eyJoaXN0b3J5IjpbMTA0MTI2NTQ4OCwyMzgyNzc1OTIsLTk1OD
+c0NTEwNSwxNzc3MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMzc5
+MywtMTc4ODEwODA0M119
 -->
