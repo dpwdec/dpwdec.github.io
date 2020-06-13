@@ -26,8 +26,21 @@ app.post('/', upload.single('file'), (req, res) => {
 });
 ```
 
-You can **retrieve information about the uploaded file** from the `req.file` property. This will contain information like the file's `originalname` or the `
+You can **retrieve information about the uploaded file** from the `req.file` property. This will contain information like the file's `originalname` or the `destination` of the file. This information can then be used to retrieve the image later or as a way to initiate a file stream.
+```js
+// result of .log for req.file
+{
+  fieldname: 'image', // HTML form field
+  originalname: 'image.png', // user image name
+  encoding: '7bit',
+  mimetype: 'image/png',
+  destination: './uploads',
+  filename: '421f3fc1e2c026c69d41ee37fb6176b2', // name of image saved on server
+  path: 'uploads/421f3fc1e2c026c69d41ee37fb6176b2',
+  size: 260515 // number of bytes in image
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYyMTM5NTMsLTIwNjM1NDEzN119
+eyJoaXN0b3J5IjpbLTU0OTk0NjYwNiwtMjA2MzU0MTM3XX0=
 -->
