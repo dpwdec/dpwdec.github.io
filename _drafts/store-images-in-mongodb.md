@@ -55,14 +55,14 @@ Next, we need to install `handlebars` into our project using `npm install expres
 $ npm install express-handlebars
 ```
 
-Create a new express render engine for handlebars using the `app.engine` command and then set the `'view engine'` as the engine that was just created, this allows express to use the `render` command with the `handlebars` code to display these templating source files (`.hbs`) correctly.
+Create a new express render engine for handlebars using the `app.engine` command. Here we call the engine `.hbs` and then submit an object to the `exphbs` and then set the `'view engine'` as the engine that was just created, this allows express to use the `render` command with the `handlebars` code to display these templating source files (`.hbs`) correctly.
 
 ```js
 // app.js
 const exphbs = require('express-handlebars');
 
 //add the express-handlebars view engine to express
-app.engine('handlebars', exphbs());
+app.engine('.hbs', exphbs({extname: '.hbs'}));
 // set the view engine for your app
 app.set('view engine', 'handlebars');
 ```
@@ -85,8 +85,8 @@ Create a basic HTML upload form inside `index.hbs`.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDAxMzY5NywtMTg3NzIxMjkzNCwtMT
-UwMTUwNjM3NSwyMzgyNzc1OTIsLTk1ODc0NTEwNSwxNzc3MjE0
-ODk1LDE1MjEzMzg4NTUsMTU2NzEyMzc5MywtMTc4ODEwODA0M1
-19
+eyJoaXN0b3J5IjpbMzM5MjQ5NDAxLC0xODc3MjEyOTM0LC0xNT
+AxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3NzcyMTQ4
+OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MDQzXX
+0=
 -->
