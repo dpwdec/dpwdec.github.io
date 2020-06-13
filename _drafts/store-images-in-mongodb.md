@@ -136,6 +136,10 @@ app.post('/', upload.single('image'), (req, res) => { });
 
 If you now run your server, load up the form and submit an image you should see it appear in the `/uploads` folder in your project directory.
 
+## Set up Mongoose database connection
+
+Now that we have our images on our server we need to begin setting up our database so that we can save our images into it. First, we need to make sure we have a connection our database.
+
 ## Create Mongoose model
 
 **`This section of the guide assumes you have set up and launched a local version of mongoDB on your system`**
@@ -163,8 +167,9 @@ module.exports = new mongoose.model('Image', imageSchema);
 
 ## Save Image data to your model
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4ODA1ODUwNiwxNzM3MDU1MTM3LC0xNT
+eyJoaXN0b3J5IjpbMTkxMzI1NDcxMywxNzM3MDU1MTM3LC0xNT
 gzMDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEz
 NTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC
 0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3Nzcy
