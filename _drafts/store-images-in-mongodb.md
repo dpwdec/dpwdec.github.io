@@ -9,6 +9,7 @@ This post will guide you through how to set up your express website to upload im
 There are several dependencies we will need to successfully upload images, these are:
 
 - `express` => a node web framework to serve our website and process uploads / interface with the database
+- `handlebars` => a 
 - `mongoDB` => a noSQL database for storing image data
 - `mongoose` => an ORM that wraps the creation of mongoDB schema and requests to the database in an easy to use API
 - `multer` => an express middleware that allows us to upload image data to our sever
@@ -54,6 +55,7 @@ app.listen(port);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODc0NTEwNSwxNzc3MjE0ODk1LDE1Mj
-EzMzg4NTUsMTU2NzEyMzc5MywtMTc4ODEwODA0M119
+eyJoaXN0b3J5IjpbLTE4NzIzOTQ4NzAsLTk1ODc0NTEwNSwxNz
+c3MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMzc5MywtMTc4ODEw
+ODA0M119
 -->
