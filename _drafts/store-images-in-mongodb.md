@@ -134,9 +134,11 @@ Create a new `app.post` route and insert the `upload.single` method into the rou
 app.post('/', upload.single('image'), (req, res) => { });
 ```
 
-If you now run your server, load up the form and submit an image you should see it appear in the `/uploads` folder on you
+If you now run your server, load up the form and submit an image you should see it appear in the `/uploads` folder in your project directory.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDQwMjYyNywxNzQzNzIzNTc1LC0yMD
+eyJoaXN0b3J5IjpbLTgxMDU2ODkyNSwxNzQzNzIzNTc1LC0yMD
 c2MTM1OTU4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4NzcyMTI5
 MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3NDUxMDUsMT
 c3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLTE3ODgx
