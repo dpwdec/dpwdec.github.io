@@ -197,6 +197,7 @@ Finally we use the mongoose `.save` method to save the new instance of the `Imag
 // app.js - new post route
 app.post('/', upload.single('image'), (req, res) => {
 
+  // create new instance of the Image model
   var uploadedImage = new Image({
     img: {
       data: fs.readFileSync('./uploads/' + req.file.filename), // read in data from /uploads using fs
@@ -204,6 +205,7 @@ app.post('/', upload.single('image'), (req, res) => {
     }
   });
 
+  // save the image to the database
   uploadedImage.save(err => {
     if(err) { console.log(err); return; }
     console.log('image saved');
@@ -211,11 +213,13 @@ app.post('/', upload.single('image'), (req, res) => {
 });
 ```
 
+Again, we're `log`ging the `err` output of the `.save` method. As long as this returns as `null` or prints the `image save` message you should now have the image in your mongo database. This is probably a good time toi use a database application
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDg4ODk4MTgsMTczNzA1NTEzNywtMT
-U4MzA2NjA1NiwtNzk5NTE5NTM5LDE3NDM3MjM1NzUsLTIwNzYx
-MzU5NTgsMzg3OTAyNjkwLDUwNTY1NTE2NiwtMTg3NzIxMjkzNC
-wtMTUwMTUwNjM3NSwyMzgyNzc1OTIsLTk1ODc0NTEwNSwxNzc3
-MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMzc5MywtMTc4ODEwOD
-A0M119
+eyJoaXN0b3J5IjpbMTE5NDc4OTE0NCwxNzM3MDU1MTM3LC0xNT
+gzMDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEz
+NTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC
+0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3Nzcy
+MTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MD
+QzXX0=
 -->
