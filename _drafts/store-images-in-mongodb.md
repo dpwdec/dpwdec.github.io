@@ -138,11 +138,13 @@ If you now run your server, load up the form and submit an image you should see 
 
 ## Set up Mongoose database connection
 
+
+
 Now that we have our images on our server we need to begin setting up our database so that we can save our images into it. 
 
 Start by installing `mongoose` with the `npm install mongoose` command.
 
-Now `require('mongoose)` in `app.js` and use the `.connect` method to with the database URL as the argument, an object containing the database options and a callback function that logs when the connection has been made. I've used the name `upload_image` for the database, but you can use whatever name you liked. Try `log`ging the `err` callback argument to see if the database is connecting correctly when you run your app, if tis
+Now `require('mongoose)` in `app.js` and use the `.connect` method to with the database URL as the argument, an object containing the database options and a callback function that logs when the connection has been made. I've used the name `upload_image` for the database, but you can use whatever name you liked. Try `log`ging the `err` callback argument to see if the database is connecting correctly when you run your app, if this is `null` then everything went ok and you've got an active connection to the database!
 ```js
 // app.js - only mongoose additions / changes
 const mongoose = require('mongoose');
@@ -157,8 +159,6 @@ mongoose.connect('mongodb://localhost/upload_image', {
 ```
 
 ## Create Mongoose model
-
-**`This section of the guide assumes you have set up and launched a local version of mongoDB on your system`**
 
 Next we need to create the ORM model schema in mongoose which will define the blueprint of the object that will added to our Mongo database. In this case we'll use a server simple `Image` model that contains only two fields, an implicit, unique `_id` and an `img` field that itself contains two fields: a `data` field of type `Buffer` that stores the actually image data as a string of binary values and a `type` field that records the type of file the `data` field represents.
 
@@ -183,10 +183,10 @@ module.exports = new mongoose.model('Image', imageSchema);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDY4MDc2MywxNzM3MDU1MTM3LC0xNT
-gzMDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEz
-NTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC
-0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3Nzcy
-MTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MD
-QzXX0=
+eyJoaXN0b3J5IjpbLTE0NDg5NTkzNDIsMTczNzA1NTEzNywtMT
+U4MzA2NjA1NiwtNzk5NTE5NTM5LDE3NDM3MjM1NzUsLTIwNzYx
+MzU5NTgsMzg3OTAyNjkwLDUwNTY1NTE2NiwtMTg3NzIxMjkzNC
+wtMTUwMTUwNjM3NSwyMzgyNzc1OTIsLTk1ODc0NTEwNSwxNzc3
+MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMzc5MywtMTc4ODEwOD
+A0M119
 -->
