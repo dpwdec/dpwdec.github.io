@@ -95,9 +95,12 @@ Express views are mediated through `view engine` that is set in the project's ma
 
 You can **create a new express view engine** using the `.engine` method. This method takes an engine name and a set up method, usually from some external templating language. The example below uses handlebars.
 ```js
-
+var handlebars = require('express-handlebars');
+app.engine('.hbs', handlebars({extename: '.hbs'}));
 ```
+
+You can **set the created engine as the app's dedicated view engine** using the `.set` method and specifying the `'view engine'` as the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzUzNDk1NCwtMTQ4NjgzMDIyNiw5NT
-g2MzQzNzcsODk0MjI3Mzg3LC0xNjEzNTQwMTc0XX0=
+eyJoaXN0b3J5IjpbODU5ODI0OTg2LC0xNDg2ODMwMjI2LDk1OD
+YzNDM3Nyw4OTQyMjczODcsLTE2MTM1NDAxNzRdfQ==
 -->
