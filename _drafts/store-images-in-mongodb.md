@@ -71,7 +71,7 @@ app.set('view engine', 'handlebars');
 
 Create a `views` folder inside your project's root directory add an `index.hbs` file inside the `views` directory. Express matches the `render` command against this directory pattern so that when you call the `render` method it searches for the files to render relative to the `views` folder.
 
-Add another folder inside `views` called `layouts` with a `main.hbs` file inside. All this file needs is a single line saying 
+Add another folder inside `views` called `layouts` with a `main.hbs` file inside.
 
 ```
 .
@@ -82,6 +82,12 @@ Add another folder inside `views` called `layouts` with a `main.hbs` file inside
         └── main.hbs
 ```
 
+Inside `main.hbs` add a single line that says `{{{render}}}`. This is where express will insert content from `index.hbs` when it loads your web pages.
+```html
+<!-- main.hbs -->
+{{{render}}}
+```
+
 Create a basic HTML upload form inside `index.hbs`.
 
 
@@ -89,7 +95,7 @@ Create a basic HTML upload form inside `index.hbs`.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxMDQ4Nzg2LC0xODc3MjEyOTM0LC0xNT
+eyJoaXN0b3J5IjpbNTA1NjU1MTY2LC0xODc3MjEyOTM0LC0xNT
 AxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3NzcyMTQ4
 OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MDQzXX
 0=
