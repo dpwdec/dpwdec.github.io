@@ -113,12 +113,14 @@ app.listen(port);
 
 ## Uploading the image to temp folder
 
+Next, we'll use the `multer` middleware to convert the data from the form into a file on our server, we'll use a temporary folder called `uploads`.
 
+Create the `uploads` folder in your project's root directory.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njc0NzU3OTIsNTA1NjU1MTY2LC0xOD
-c3MjEyOTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1
-MTA1LDE3NzcyMTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC
-0xNzg4MTA4MDQzXX0=
+eyJoaXN0b3J5IjpbMzg3OTAyNjkwLDUwNTY1NTE2NiwtMTg3Nz
+IxMjkzNCwtMTUwMTUwNjM3NSwyMzgyNzc1OTIsLTk1ODc0NTEw
+NSwxNzc3MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMzc5MywtMT
+c4ODEwODA0M119
 -->
