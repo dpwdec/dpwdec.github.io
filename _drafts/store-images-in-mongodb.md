@@ -122,12 +122,13 @@ uploads/*
 !uploads/.gitkeep
 ```
 
-Install `multer` with the `npm install multer` command.
+Install `multer` with the `npm install multer` command. Then `require('multer')` inside your `app.js` file. Next, use the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzcyMzU3NSwtMjA3NjEzNTk1OCwzOD
-c5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC0xNTAxNTA2
-Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3NzcyMTQ4OTUsMT
-UyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MDQzXX0=
+eyJoaXN0b3J5IjpbLTEzNDA4MzA3NjcsMTc0MzcyMzU3NSwtMj
+A3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEy
+OTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LD
+E3NzcyMTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4
+MTA4MDQzXX0=
 -->
