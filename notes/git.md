@@ -10,6 +10,9 @@ $ git reset --hard origin/master
 $ git clean -f
 ```
 
+
+If you want to specify in your `.gitignore` that you want to **commit a folder to git but NOT the contents of that folder**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjM1OTg2NjZdfQ==
+eyJoaXN0b3J5IjpbLTE3NzM0NDU2MywtMjA2MzU5ODY2Nl19
 -->
