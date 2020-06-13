@@ -11,12 +11,14 @@ var multer = require('multer');
 // expand options into upload requirement
 var upload = multer({options});
 // specify form upload stream inside the upload method
-app.post('/', upload.single('file'), (req, res) => {});
+app.post('/', upload.single('file'), (req, res) => {
+  // req.file will have information about the uploaded file.
+});
 ```
 
 ## Uploads
-
+To **upload a single file to your server** use the `.single` method and set a `dest`ination where 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzMTUyMzczLC0yMDYzNTQxMzddfQ==
+eyJoaXN0b3J5IjpbLTYxMTk1NjQwMywtMjA2MzU0MTM3XX0=
 -->
