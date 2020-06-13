@@ -55,7 +55,9 @@ Next, we need to install `handlebars` into our project using `npm install expres
 $ npm install express-handlebars
 ```
 
-Create a new express render engine for handlebars using the `app.engine` command. Here we call the engine `.hbs` and then submit an object to the `exphbs` and then set the `'view engine'` as the engine that was just created, this allows express to use the `render` command with the `handlebars` code to display these templating source files (`.hbs`) correctly.
+Create a new express render engine for handlebars using the `app.engine` command. Here we call the engine `.hbs` and then submit an object to the `exphbs` function with configuration parameters, in this case setting the extension name to `.hbs`. 
+
+Set the `'view engine'` as the engine that was just created, this allows express to use the `render` command with the `handlebars` code to display these templating source files (`.hbs`) correctly.
 
 ```js
 // app.js
@@ -67,7 +69,9 @@ app.engine('.hbs', exphbs({extname: '.hbs'}));
 app.set('view engine', 'handlebars');
 ```
 
-Create a `views` folder inside your project's root directory and an `index.hbs` file inside the `views` directory. Express matches the `render` command against this directory pattern so that when you call the `render` method it searches for the files to render relative to the `views` folder.
+Create a `views` folder inside your project's root directory add an `index.hbs` file inside the `views` directory. Express matches the `render` command against this directory pattern so that when you call the `render` method it searches for the files to render relative to the `views` folder.
+
+Add another folder inside `views` called `layouts` with a `main.hbs` file inside. All this file needs is a single line saying 
 
 ```
 .
@@ -85,7 +89,7 @@ Create a basic HTML upload form inside `index.hbs`.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5MjQ5NDAxLC0xODc3MjEyOTM0LC0xNT
+eyJoaXN0b3J5IjpbODgxMDQ4Nzg2LC0xODc3MjEyOTM0LC0xNT
 AxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3NzcyMTQ4
 OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MDQzXX
 0=
