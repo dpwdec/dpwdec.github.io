@@ -9,7 +9,7 @@ This post will guide you through how to set up your express website to upload im
 There are several dependencies we will need to successfully upload images, these are:
 
 - `express` => a node web framework to serve our website and process uploads / interface with the database
-- `handlebars` => a 
+- `handlebars` => a templating language for serving custom static HTML with server data
 - `mongoDB` => a noSQL database for storing image data
 - `mongoose` => an ORM that wraps the creation of mongoDB schema and requests to the database in an easy to use API
 - `multer` => an express middleware that allows us to upload image data to our sever
@@ -32,7 +32,7 @@ The basic flow of retrieving the image from our database is slightly simpler:
 
 ## Basic app set up
 
-Create a new folder for your project and run `npm init` to set up the project's `package.json` file. Set the `entry point` to `app.js` during set up.
+First, let's create the basic express app that will act as the server for our image upload system. Create a new folder for your project and run `npm init` to set up the project's `package.json` file. Set the `entry point` to `app.js` during set up.
 
 Create a new `app.js` file to act as your projects main file.
 
@@ -48,6 +48,8 @@ app.get('/', (req, res) => res.send('This is an image upload app!'));
 app.listen(port);
 ```
 
+## Upload Form
+
 
 
 
@@ -55,7 +57,7 @@ app.listen(port);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzIzOTQ4NzAsLTk1ODc0NTEwNSwxNz
-c3MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMzc5MywtMTc4ODEw
-ODA0M119
+eyJoaXN0b3J5IjpbMjM4Mjc3NTkyLC05NTg3NDUxMDUsMTc3Nz
+IxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLTE3ODgxMDgw
+NDNdfQ==
 -->
