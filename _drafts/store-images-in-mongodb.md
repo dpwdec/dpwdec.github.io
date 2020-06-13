@@ -50,6 +50,8 @@ app.listen(port);
 
 ## Upload Form
 
+Next we need to install `handlebars` into our project using `npm install express-handlebars` then `require` the `handlebars` module inside our `app.js` file.
+
 
 
 
@@ -57,7 +59,7 @@ app.listen(port);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4Mjc3NTkyLC05NTg3NDUxMDUsMTc3Nz
-IxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLTE3ODgxMDgw
-NDNdfQ==
+eyJoaXN0b3J5IjpbLTk0OTQzMzk3NiwyMzgyNzc1OTIsLTk1OD
+c0NTEwNSwxNzc3MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMzc5
+MywtMTc4ODEwODA0M119
 -->
