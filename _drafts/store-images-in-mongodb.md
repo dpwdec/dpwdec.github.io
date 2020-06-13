@@ -50,16 +50,16 @@ app.listen(port);
 
 ## Upload Form
 
-Next we need to install `handlebars` into our project using `npm install express-handlebars` then `require` the `handlebars` module inside our `app.js` file.
+Next, we need to install `handlebars` into our project using `npm install express-handlebars` then `require` the `handlebars` module inside our `app.js` file.
 
-
+Create a new express render engine for handlebars using the `app.engine` command and then set the `'view engine'` as the engine that was just created, this allows express to use the `render` command with 
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0OTQzMzk3NiwyMzgyNzc1OTIsLTk1OD
+eyJoaXN0b3J5IjpbMjA1ODU3MjkwMCwyMzgyNzc1OTIsLTk1OD
 c0NTEwNSwxNzc3MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMzc5
 MywtMTc4ODEwODA0M119
 -->
