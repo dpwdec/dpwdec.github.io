@@ -88,15 +88,15 @@ Inside `main.hbs` add a single line that says `{{{render}}}`. This is where expr
 {{{render}}}
 ```
 
-Create a basic HTML upload form inside `index.hbs`.
+Create a basic HTML upload form inside `index.hbs`.  The form's submission `method` is set to `POST` because we are "posting" data to the server to be added to our database when it is submitted. 
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1NjU1MTY2LC0xODc3MjEyOTM0LC0xNT
-AxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3NzcyMTQ4
-OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MDQzXX
-0=
+eyJoaXN0b3J5IjpbMTQ3MzY2Nzg2Miw1MDU2NTUxNjYsLTE4Nz
+cyMTI5MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3NDUx
+MDUsMTc3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLT
+E3ODgxMDgwNDNdfQ==
 -->
