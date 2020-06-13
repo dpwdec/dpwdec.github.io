@@ -138,13 +138,17 @@ If you now run your server, load up the form and submit an image you should see 
 
 ## Create Mongoose model
 
-Next we need to create the ORM model in mongoose that will added to our Mongo database. In this case we'll use a server simple `Image` model that contains only two fields, an implicit, unique `_id` and an `img` field that itself contains two fields: a `data` field of type `Buffer` that stores the actually image data as a string of binary values and a `type` field that records the type of file the `data` field represents.
+Next we need to create the ORM model schema in mongoose which will define the blueprint of the object that will added to our Mongo database. In this case we'll use a server simple `Image` model that contains only two fields, an implicit, unique `_id` and an `img` field that itself contains two fields: a `data` field of type `Buffer` that stores the actually image data as a string of binary values and a `type` field that records the type of file the `data` field represents.
 
 First, install `mongoose` with the `npm install mongoose` command.
 
-Create a `models` directory in your route directory and create an `image.js` file inside this will which will contain the database`schema` 
+Create a `models` directory in your route directory and create an `image.js` file inside this will which will contain the database `schema` for our image model.
+```js
+// image.js
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzMzNDI0NjYsLTc5OTUxOTUzOSwxNz
+eyJoaXN0b3J5IjpbLTE1ODMwNjYwNTYsLTc5OTUxOTUzOSwxNz
 QzNzIzNTc1LC0yMDc2MTM1OTU4LDM4NzkwMjY5MCw1MDU2NTUx
 NjYsLTE4NzcyMTI5MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC
 05NTg3NDUxMDUsMTc3NzIxNDg5NSwxNTIxMzM4ODU1LDE1Njcx
