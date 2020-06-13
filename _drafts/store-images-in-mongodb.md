@@ -140,9 +140,12 @@ If you now run your server, load up the form and submit an image you should see 
 
 Now that we have our images on our server we need to begin setting up our database so that we can save our images into it. 
 
-Start b install `mongoose` with the `npm install mongoose` command.
+Start by installing `mongoose` with the `npm install mongoose` command.
 
-To this `require('mongoose`)
+Now `require('mongoose)` in `app.js` and use the `.connect` method to with the database URL as the argument, an object containing the database options and a callback function that logs when the connection has been made.
+```js
+// app.js - only mongoose additions / changes
+```
 
 ## Create Mongoose model
 
@@ -171,10 +174,10 @@ module.exports = new mongoose.model('Image', imageSchema);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzcxMzc0NCwxNzM3MDU1MTM3LC0xNT
-gzMDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEz
-NTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC
-0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3Nzcy
-MTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MD
-QzXX0=
+eyJoaXN0b3J5IjpbLTIxMzY3NzczNDgsMTczNzA1NTEzNywtMT
+U4MzA2NjA1NiwtNzk5NTE5NTM5LDE3NDM3MjM1NzUsLTIwNzYx
+MzU5NTgsMzg3OTAyNjkwLDUwNTY1NTE2NiwtMTg3NzIxMjkzNC
+wtMTUwMTUwNjM3NSwyMzgyNzc1OTIsLTk1ODc0NTEwNSwxNzc3
+MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMzc5MywtMTc4ODEwOD
+A0M119
 -->
