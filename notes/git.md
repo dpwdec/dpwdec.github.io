@@ -11,10 +11,13 @@ $ git clean -f
 ```
 
 ## gitignore
-If you want to specify in your `.gitignore` that you want to **commit a folder to git but NOT the contents of that folder** you should use the `*` all and `!` exception flags. You **cannot commit empty folders to git** so you need to add at least one file to the folder, its recommended that this is a `.gitkeep` file which will allow you to commit the folder but won't effect your project.
+If you want to specify in your `.gitignore` that you want to **commit a folder to git but NOT the contents of that folder** you should use the `*` all and `!` exception flags. You **cannot commit empty folders to git** so you need to add at least one file to the folder, its recommended that this is a `.gitkeep` file which will allow you to commit the folder but won't effect your project. You then need to set up your `.gitignore` so that the contents of folder is ignored, using the `*` all matcher and then create an exception to that rule using the `!` exception flag that specifies that you *CAN* upload the `.gitkeep` file.
+```git
+# .gitignore
+
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjUwODQwMzIsLTIwNjM1OTg2NjZdfQ
-==
+eyJoaXN0b3J5IjpbNDkyMTE4NzE3LC0yMDYzNTk4NjY2XX0=
 -->
