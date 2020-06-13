@@ -91,8 +91,13 @@ app.get('/query', function(req, res) {
 ```
 
 ## Views
-Express views are mediated through You can **create a new **
+Express views are mediated through `view engine` that is set in the project's main file. 
+
+You can **create a new express view engine** using the `.engine` method. This method takes an engine name and a set up method, usually from some external templating language. The example below uses handlebars.
+```js
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQ0NTg0MTAsLTE0ODY4MzAyMjYsOT
-U4NjM0Mzc3LDg5NDIyNzM4NywtMTYxMzU0MDE3NF19
+eyJoaXN0b3J5IjpbLTQ0NzUzNDk1NCwtMTQ4NjgzMDIyNiw5NT
+g2MzQzNzcsODk0MjI3Mzg3LC0xNjEzNTQwMTc0XX0=
 -->
