@@ -142,9 +142,18 @@ Now that we have our images on our server we need to begin setting up our databa
 
 Start by installing `mongoose` with the `npm install mongoose` command.
 
-Now `require('mongoose)` in `app.js` and use the `.connect` method to with the database URL as the argument, an object containing the database options and a callback function that logs when the connection has been made.
+Now `require('mongoose)` in `app.js` and use the `.connect` method to with the database URL as the argument, an object containing the database options and a callback function that logs when the connection has been made. I've used the name `upload_image` for the database, but you can use whatever name you liked. Try `log`ging the `err` callback argument to see if the database is connecting correctly when you run your app, if tis
 ```js
 // app.js - only mongoose additions / changes
+const mongoose = require('mongoose');
+// connect to your database
+mongoose.connect('mongodb://localhost/upload_image', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}, err => { 
+  console.log(err);
+  console.log('connected')  
+});
 ```
 
 ## Create Mongoose model
@@ -174,10 +183,10 @@ module.exports = new mongoose.model('Image', imageSchema);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzY3NzczNDgsMTczNzA1NTEzNywtMT
-U4MzA2NjA1NiwtNzk5NTE5NTM5LDE3NDM3MjM1NzUsLTIwNzYx
-MzU5NTgsMzg3OTAyNjkwLDUwNTY1NTE2NiwtMTg3NzIxMjkzNC
-wtMTUwMTUwNjM3NSwyMzgyNzc1OTIsLTk1ODc0NTEwNSwxNzc3
-MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMzc5MywtMTc4ODEwOD
-A0M119
+eyJoaXN0b3J5IjpbMTA1MDY4MDc2MywxNzM3MDU1MTM3LC0xNT
+gzMDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEz
+NTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC
+0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3Nzcy
+MTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MD
+QzXX0=
 -->
