@@ -49,6 +49,8 @@ You can **add a list of development dependencies** using the `devDependencies` k
 }
 ```
 
+## 
+
 ## Frameworks
 
 #### Handlebars
@@ -135,8 +137,9 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjYwNzE0MSwtNDUxMTE2MzU3LDExNT
-Y3MDg3NzMsLTE4MTcwMzg5NCwxNzE3Njk4MjEzLDkzNDMyMjg5
-OSwtNTQ0MzQ2NTUzLC0xMzU4ODE2MTk4LDEzODI4NzIxNjUsLT
-cwNTAzODM1NiwtMTU0NjQzMjY3MSwtMTUzODU1ODkwXX0=
+eyJoaXN0b3J5IjpbMTYxMjY2NDgyOSwxMjUyNjA3MTQxLC00NT
+ExMTYzNTcsMTE1NjcwODc3MywtMTgxNzAzODk0LDE3MTc2OTgy
+MTMsOTM0MzIyODk5LC01NDQzNDY1NTMsLTEzNTg4MTYxOTgsMT
+M4Mjg3MjE2NSwtNzA1MDM4MzU2LC0xNTQ2NDMyNjcxLC0xNTM4
+NTU4OTBdfQ==
 -->
