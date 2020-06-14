@@ -231,9 +231,10 @@ uploadedImage.save(err => {
 
 As we're re-using the line `'./uploads/' + req.file.filename` here and also in the `fs.readFileSync` call above where we create our new model it's probably worth refactoring this name into a `filePath` variable to keep our code dry.
 ```js
+//app.js - save function and filePath variable addition
 filePath = './uploads/' + req.file.filename
 
-// ... filePath used replace argument to fs.file
+// ... filePath used replace argument to fs.readFileSync
 
 uploadedImage.save(err => {
   if(err) { console.log(err); return; }
@@ -241,11 +242,13 @@ uploadedImage.save(err => {
   fs.unlinkSync(path);
 });
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1NjI0MjE2LC0xMjA0OTY4MTk1LDE3Mz
-cwNTUxMzcsLTE1ODMwNjYwNTYsLTc5OTUxOTUzOSwxNzQzNzIz
-NTc1LC0yMDc2MTM1OTU4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLT
-E4NzcyMTI5MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3
-NDUxMDUsMTc3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OT
-MsLTE3ODgxMDgwNDNdfQ==
+eyJoaXN0b3J5IjpbLTE4NjgwMzMwNzMsLTEyMDQ5NjgxOTUsMT
+czNzA1NTEzNywtMTU4MzA2NjA1NiwtNzk5NTE5NTM5LDE3NDM3
+MjM1NzUsLTIwNzYxMzU5NTgsMzg3OTAyNjkwLDUwNTY1NTE2Ni
+wtMTg3NzIxMjkzNCwtMTUwMTUwNjM3NSwyMzgyNzc1OTIsLTk1
+ODc0NTEwNSwxNzc3MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMz
+c5MywtMTc4ODEwODA0M119
 -->
