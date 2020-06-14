@@ -249,6 +249,8 @@ Finally, we need to retrieve the image data we saved in the database and display
 
 Create a `res.redirect` command at the end of the `app.post` route inside the `.save` method that returns to the root `app.get` route.
 ```js
+//app.js - save function only /with redirect
+
 uploadedImage.save(err => {
   if(err) { console.log(err); return; }
   console.log('image saved');
@@ -257,8 +259,9 @@ uploadedImage.save(err => {
 });
 ```
 
+Inside the `app.get('/')` route execute a `find` query on the `Image` model to retrieve.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjQ1NzM0NiwtMTU5MjQ3NjMzNSwtMT
+eyJoaXN0b3J5IjpbMTkzMTUxNTAzMiwtMTU5MjQ3NjMzNSwtMT
 IwNDk2ODE5NSwxNzM3MDU1MTM3LC0xNTgzMDY2MDU2LC03OTk1
 MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEzNTk1OCwzODc5MDI2OT
 AsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC0xNTAxNTA2Mzc1LDIz
