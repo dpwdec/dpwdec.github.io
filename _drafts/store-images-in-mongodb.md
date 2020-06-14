@@ -243,10 +243,12 @@ uploadedImage.save(err => {
 });
 ```
 
+## Retrieving image data
 
+Finally, we need to retrieve the image data we saved in the database and display it on our page. For the ourp
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDMyNjM5MywtMTIwNDk2ODE5NSwxNz
+eyJoaXN0b3J5IjpbLTUwNzk3MjgxOSwtMTIwNDk2ODE5NSwxNz
 M3MDU1MTM3LC0xNTgzMDY2MDU2LC03OTk1MTk1MzksMTc0Mzcy
 MzU3NSwtMjA3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC
 0xODc3MjEyOTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4
