@@ -215,10 +215,12 @@ app.post('/', upload.single('image'), (req, res) => {
 
 Again, we're `log`ging the `err` output of the `.save` method. As long as this returns as `null` or prints the `image save` message you should now have the image in your mongo database. This is probably a good time to use a database application service to check the status of your database and confirm the image data has definitely gone into the database before proceeding.
 
+## Deleting the temporary images
 
+Now that our uploaded images are being saved in our database we no longer need them to be stored on our server in the `/uploads` folder after they have been saved and so we should delete them. WE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTAzMzI1OCwtMTIwNDk2ODE5NSwxNz
+eyJoaXN0b3J5IjpbLTQ2MzY1MzY0NywtMTIwNDk2ODE5NSwxNz
 M3MDU1MTM3LC0xNTgzMDY2MDU2LC03OTk1MTk1MzksMTc0Mzcy
 MzU3NSwtMjA3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC
 0xODc3MjEyOTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4
