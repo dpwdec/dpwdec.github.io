@@ -31,23 +31,26 @@ def test_my_method(self):
   self.assertEqual(expectation, result)
 ```
 
-You can **run a test** by call `unittest` from Python as the main module and passing in the test file you want to run.
-```bash
-$ python3 -m unittest test_my_class.py
-```
-
 You can **run all test files in you project** (i.e. file beginning with `_test`) by using the `python3 -m unittest` command and not passing in any file arguments.
 ```py
 $ python3 -m unittest
 ```
 
-You can **set up a test to **
+You can **run a test** by call `unittest` from Python as the main module and passing in the test file you want to run.
+```bash
+$ python3 -m unittest test_my_class.py
+```
+
+You cannot call testing files directly, such as `python3 test_my_class.py`, however, you can **set up a test file to run through the unittest framework automatically when called** use the `__name__ == '__main__'` pattern.
+```py
+
+```
 
 ## Assertions
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI3NDM3OTgsNjE3MTQzOTg4LDE5OD
-Q4MjA5MTMsNzE4OTk5ODldfQ==
+eyJoaXN0b3J5IjpbMTY1NjE5NjM3NCw2MTcxNDM5ODgsMTk4ND
+gyMDkxMyw3MTg5OTk4OV19
 -->
