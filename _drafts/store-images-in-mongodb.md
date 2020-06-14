@@ -271,13 +271,18 @@ Image.find((err, images) => { // find all images in the database
 });
 ```
 
-The new `ima
+Now send the newly transformed `images` array to our client in the `res.render` function where it can be accessed and iterated through by our `handlebars` templating engine for display.
+```js
+res.render('index.hbs', {images: images});
+```
+
+Create 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc3MDQ1MiwxOTMxNTE1MDMyLC0xNT
-kyNDc2MzM1LC0xMjA0OTY4MTk1LDE3MzcwNTUxMzcsLTE1ODMw
-NjYwNTYsLTc5OTUxOTUzOSwxNzQzNzIzNTc1LC0yMDc2MTM1OT
-U4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4NzcyMTI5MzQsLTE1
-MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3NDUxMDUsMTc3NzIxND
-g5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLTE3ODgxMDgwNDNd
-fQ==
+eyJoaXN0b3J5IjpbLTExNDA0MzAyODMsMTkzMTUxNTAzMiwtMT
+U5MjQ3NjMzNSwtMTIwNDk2ODE5NSwxNzM3MDU1MTM3LC0xNTgz
+MDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEzNT
+k1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC0x
+NTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3NzcyMT
+Q4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MDQz
+XX0=
 -->
