@@ -259,13 +259,16 @@ uploadedImage.save(err => {
 });
 ```
 
-Inside the `app.get('/')` route execute a `find` query on the `Image` model to retrieve the `Image` objects stored in the database. Because we want to `render` our page using `.hbs` files we have to convert the `model` objects that `mongoose` returns to us into plain javascript objects which we can do with a `.map` function. We also need
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc2Njk2NDEsMTkzMTUxNTAzMiwtMTU5Mj
-Q3NjMzNSwtMTIwNDk2ODE5NSwxNzM3MDU1MTM3LC0xNTgzMDY2
-MDU2LC03OTk1MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEzNTk1OC
-wzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC0xNTAx
-NTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3NzcyMTQ4OT
-UsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MDQzXX0=
+Inside the `app.get('/')` route execute a `find` query on the `Image` model to retrieve the `Image` objects stored in the database. Because we want to `render` our page using `.hbs` files we have to convert the `model` objects that `mongoose` returns to us into plain javascript objects which we can do with a `.map` function. We also need to convert the binary data stored in our database into `base64` data so that it can converted into an image by our display elements `img` tag later on.
+```js
 
+```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQyMzIzNTMzOCwxOTMxNTE1MDMyLC0xNT
+kyNDc2MzM1LC0xMjA0OTY4MTk1LDE3MzcwNTUxMzcsLTE1ODMw
+NjYwNTYsLTc5OTUxOTUzOSwxNzQzNzIzNTc1LC0yMDc2MTM1OT
+U4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4NzcyMTI5MzQsLTE1
+MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3NDUxMDUsMTc3NzIxND
+g5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLTE3ODgxMDgwNDNd
+fQ==
 -->
