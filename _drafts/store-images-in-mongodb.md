@@ -259,12 +259,13 @@ uploadedImage.save(err => {
 });
 ```
 
-Inside the `app.get('/')` route execute a `find` query on the `Image` model to retrieve.
+Inside the `app.get('/')` route execute a `find` query on the `Image` model to retrieve
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTUxNTAzMiwtMTU5MjQ3NjMzNSwtMT
-IwNDk2ODE5NSwxNzM3MDU1MTM3LC0xNTgzMDY2MDU2LC03OTk1
-MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEzNTk1OCwzODc5MDI2OT
-AsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC0xNTAxNTA2Mzc1LDIz
-ODI3NzU5MiwtOTU4NzQ1MTA1LDE3NzcyMTQ4OTUsMTUyMTMzOD
-g1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MDQzXX0=
+eyJoaXN0b3J5IjpbMTU5NzEwMzExOCwxOTMxNTE1MDMyLC0xNT
+kyNDc2MzM1LC0xMjA0OTY4MTk1LDE3MzcwNTUxMzcsLTE1ODMw
+NjYwNTYsLTc5OTUxOTUzOSwxNzQzNzIzNTc1LC0yMDc2MTM1OT
+U4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4NzcyMTI5MzQsLTE1
+MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3NDUxMDUsMTc3NzIxND
+g5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLTE3ODgxMDgwNDNd
+fQ==
 -->
