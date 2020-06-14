@@ -245,13 +245,15 @@ uploadedImage.save(err => {
 
 ## Retrieving image data
 
-Finally, we need to retrieve the image data we saved in the database and display it on our page. For the ourp
+Finally, we need to retrieve the image data we saved in the database and display it on our page. For the purposes of this guide we'll simply refresh the upload page and display the images in the database.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNzk3MjgxOSwtMTIwNDk2ODE5NSwxNz
-M3MDU1MTM3LC0xNTgzMDY2MDU2LC03OTk1MTk1MzksMTc0Mzcy
-MzU3NSwtMjA3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC
-0xODc3MjEyOTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4
-NzQ1MTA1LDE3NzcyMTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNz
-kzLC0xNzg4MTA4MDQzXX0=
+eyJoaXN0b3J5IjpbLTE1OTI0NzYzMzUsLTEyMDQ5NjgxOTUsMT
+czNzA1NTEzNywtMTU4MzA2NjA1NiwtNzk5NTE5NTM5LDE3NDM3
+MjM1NzUsLTIwNzYxMzU5NTgsMzg3OTAyNjkwLDUwNTY1NTE2Ni
+wtMTg3NzIxMjkzNCwtMTUwMTUwNjM3NSwyMzgyNzc1OTIsLTk1
+ODc0NTEwNSwxNzc3MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMz
+c5MywtMTc4ODEwODA0M119
 -->
