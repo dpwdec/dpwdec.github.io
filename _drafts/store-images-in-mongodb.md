@@ -217,10 +217,15 @@ Again, we're `log`ging the `err` output of the `.save` method. As long as this r
 
 ## Deleting the temporary images
 
-Now that our uploaded images are being saved in our database we no longer need them to be stored on our server in the `/uploads` folder after they have been saved and so we should delete them. WE
+Now that our uploaded images are being saved in our database we no longer need them to be stored on our server in the `/uploads` folder after they have been saved and so we should delete them. We'll use the `fs.unlinkSync` method for this task.
+
+Inside the `uploadedImage.save` callback function add the `fs.unlinkSync` method with the argument being the original file path that we used to read in the file as binary data to the `Image` model object.
+```js
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MzY1MzY0NywtMTIwNDk2ODE5NSwxNz
+eyJoaXN0b3J5IjpbLTU2ODM2NDMyMCwtMTIwNDk2ODE5NSwxNz
 M3MDU1MTM3LC0xNTgzMDY2MDU2LC03OTk1MTk1MzksMTc0Mzcy
 MzU3NSwtMjA3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC
 0xODc3MjEyOTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4
