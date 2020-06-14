@@ -51,7 +51,15 @@ You can **add a list of development dependencies** using the `devDependencies` k
 
 ## fs
 
-You can **delete a file from a directory** using the `unlink` method (an asynchronous deletion method) or the `unlinkSync` method (the synchronous version of the same functionality), simply pass the file of the path you want to delete as an argument. The async version **also takes a call**
+You can **delete a file from a directory** using the `unlink` method (an asynchronous deletion method) or the `unlinkSync` method (the synchronous version of the same functionality), simply pass the file of the path you want to delete as an argument. The **async version also takes a callback** that runs when the deletion finishes.
+```js
+var path = './path/to/file.txt'
+fs.unlinkSync(path); // delete file synchronously
+
+fs.unlink(path, (err) => { // delete file as
+  // do something when file is deleted
+});
+```
 
 ## Frameworks
 
@@ -139,9 +147,9 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTA3OTI1MywxMjUyNjA3MTQxLC00NT
-ExMTYzNTcsMTE1NjcwODc3MywtMTgxNzAzODk0LDE3MTc2OTgy
-MTMsOTM0MzIyODk5LC01NDQzNDY1NTMsLTEzNTg4MTYxOTgsMT
-M4Mjg3MjE2NSwtNzA1MDM4MzU2LC0xNTQ2NDMyNjcxLC0xNTM4
-NTU4OTBdfQ==
+eyJoaXN0b3J5IjpbNTU0NjEwODk0LDEyNTI2MDcxNDEsLTQ1MT
+ExNjM1NywxMTU2NzA4NzczLC0xODE3MDM4OTQsMTcxNzY5ODIx
+Myw5MzQzMjI4OTksLTU0NDM0NjU1MywtMTM1ODgxNjE5OCwxMz
+gyODcyMTY1LC03MDUwMzgzNTYsLTE1NDY0MzI2NzEsLTE1Mzg1
+NTg5MF19
 -->
