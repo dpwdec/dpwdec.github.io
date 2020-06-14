@@ -41,7 +41,7 @@ You can **run a test** by call `unittest` from Python as the main module and pas
 $ python3 -m unittest test_my_class.py
 ```
 
-You cannot call testing files directly, such as `python3 test_my_class.py`, however, you can **set up a test file to run through the unittest framework automatically when called** use the `__name__ == '__main__'` pattern by appending the code below to the body of your test file. This will **only run the test that was called** with the `python` run command and won't trigger 
+You cannot call testing files directly, such as `python3 test_my_class.py`, however, you can **set up a test file to run through the unittest framework automatically when called** use the `__name__ == '__main__'` pattern by appending the code below to the body of your test file. This will conveniently **only run the test that was called** with the `python` run command and won't trigger the `unittest.main` method for ALL tests.
 ```py
 if __name__ == '__main__':
   unittest.name()
@@ -52,6 +52,6 @@ if __name__ == '__main__':
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzA3OTk1NjcsNjE3MTQzOTg4LDE5OD
-Q4MjA5MTMsNzE4OTk5ODldfQ==
+eyJoaXN0b3J5IjpbLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4ND
+gyMDkxMyw3MTg5OTk4OV19
 -->
