@@ -6,7 +6,7 @@ exclude: true
 
 ## Arithmetic Operators
 
-You can **execute floor division**, division that removes any fractional remainder by using a `//` double forward slash in your division code. Essentially 
+You can **execute floor division**, division that removes any fractional remainder by using a `//` double forward slash in your division code. Essentially this is just the same as ensuring integer division where python defaults to returning floats.
 ```py
 # fractional removal to 0
 3 / 4 # => 0.75
@@ -42,6 +42,6 @@ if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzY1MjIyMiwtMTQzMzQ3MzQ3MywyOD
+eyJoaXN0b3J5IjpbLTg2NjAyODUyNCwtMTQzMzQ3MzQ3MywyOD
 IxMTA5NDcsODU5NzUyNyw2MjA5NzIzMTddfQ==
 -->
