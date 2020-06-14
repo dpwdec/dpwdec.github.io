@@ -20,6 +20,11 @@ To **declare a new set of tests for a particular file** create a new class that 
 class TestMyClass(unittest.TestCase):
 ```
 
+To **define a new test** create a new method the name of which should start with `test_`. This is again a requirement for writing tests, with this naming convention telling the test runner which methods are tests.
+```py
+def test_
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTUxOTg1MF19
+eyJoaXN0b3J5IjpbLTMzMTA1MjU0OV19
 -->
