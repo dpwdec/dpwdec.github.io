@@ -31,6 +31,13 @@ def test_my_method(self):
   self.assertEqual(assertion, expectation)
 ```
 
+You can **add multiple assertions into a single test**. These will appear as a single test pass on 
+```py
+def test_my_method(self):
+  self.assertEqual(assertion, expectation)
+  self.assertEqual(another_assertion, another_expectation)
+```
+
 You can **run all test files in you project** (i.e. file beginning with `_test`) by using the `python3 -m unittest` command and not passing in any file arguments.
 ```py
 $ python3 -m unittest
@@ -52,6 +59,7 @@ if __name__ == '__main__':
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjY1ODI1MiwtMjIwNzAxMzk3LDYxNz
-E0Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5XX0=
+eyJoaXN0b3J5IjpbLTIyNDU4OTA0NSwtODQ2NjU4MjUyLC0yMj
+A3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNzE4OTk5ODld
+fQ==
 -->
