@@ -28,7 +28,7 @@ def test_my_method(self):
 The **basic structure of a single test** follows a pattern of using an *assertion method* on the `self` object with two arguments: the expected output and the actual output.
 ```py
 def test_my_method(self):
-  self.assertEqual(expectation, result)
+  self.assertEqual(assertion, expectation)
 ```
 
 You can **run all test files in you project** (i.e. file beginning with `_test`) by using the `python3 -m unittest` command and not passing in any file arguments.
@@ -52,6 +52,6 @@ if __name__ == '__main__':
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4ND
-gyMDkxMyw3MTg5OTk4OV19
+eyJoaXN0b3J5IjpbLTg0NjY1ODI1MiwtMjIwNzAxMzk3LDYxNz
+E0Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5XX0=
 -->
