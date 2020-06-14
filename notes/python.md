@@ -4,6 +4,13 @@ layout: page
 exclude: true
 ---
 
+## Arithmetic Operators
+
+You can **execute floor division** - division that removes remainder by using a `//` double forward slash in your division code.
+```py
+
+```
+
 ## Strings
 
 You can **convert an int to a string** using the `str` method.
@@ -29,6 +36,6 @@ if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzM0NzM0NzMsMjgyMTEwOTQ3LDg1OT
-c1MjcsNjIwOTcyMzE3XX0=
+eyJoaXN0b3J5IjpbMTI2NTc0ODkwLC0xNDMzNDczNDczLDI4Mj
+ExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
 -->
