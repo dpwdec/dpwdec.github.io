@@ -31,7 +31,7 @@ def test_my_method(self):
   self.assertEqual(assertion, expectation)
 ```
 
-You can **add multiple assertions into a single test**. These will appear as a single test pass on 
+You can **add multiple assertions into a single test**. These will appear as a single test pass on your test summaries, however if one of the assertions within a single test breaks the test then the resulting error will direct you to the specific assert that failed the test.
 ```py
 def test_my_method(self):
   self.assertEqual(assertion, expectation)
@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDU4OTA0NSwtODQ2NjU4MjUyLC0yMj
+eyJoaXN0b3J5IjpbLTcyMjgyMDUzMywtODQ2NjU4MjUyLC0yMj
 A3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNzE4OTk5ODld
 fQ==
 -->
