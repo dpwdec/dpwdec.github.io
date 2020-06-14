@@ -22,8 +22,13 @@ print(f"this number is {x}")
 
 ## Main
 
-When calling a file by name, such as `python3 my_file` that is not the `main` (or root) executable of your project, you can **create a conditional that will call the `main` file when that non-root file is called** using the `'__main__'` c
+When calling a file by name, such as `python3 my_file` that is not the `main` (or root) executable of your project, you can **create a conditional that will call the `main` file when that non-root file is called** using the `'__main__'` matcher. In the code below when `not_main.py` is called to execute it will instead call the correct main file.
+```py
+# not_main.py
+if __name__ == '__main__':
+  my_main_file.my_main_method()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDc3OTQ3MSwyODIxMTA5NDcsODU5Nz
-UyNyw2MjA5NzIzMTddfQ==
+eyJoaXN0b3J5IjpbLTE0MzM0NzM0NzMsMjgyMTEwOTQ3LDg1OT
+c1MjcsNjIwOTcyMzE3XX0=
 -->
