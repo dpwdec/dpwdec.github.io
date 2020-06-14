@@ -36,11 +36,18 @@ You can **run a test** by call `unittest` from Python as the main module and pas
 $ python3 -m unittest test_my_class.py
 ```
 
+You can **run all test files in you project** (i.e. file beginning with `_test`) by using the `python3 -m unittest` command and not passing in any file arguments.
+```py
+$ python3 -m unittest
+```
+
+You can **set up a test to **
+
 ## Assertions
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNzE4OT
-k5ODldfQ==
+eyJoaXN0b3J5IjpbLTE2NjI3NDM3OTgsNjE3MTQzOTg4LDE5OD
+Q4MjA5MTMsNzE4OTk5ODldfQ==
 -->
