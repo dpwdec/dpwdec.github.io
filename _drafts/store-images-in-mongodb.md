@@ -221,11 +221,18 @@ Now that our uploaded images are being saved in our database we no longer need t
 
 Inside the `uploadedImage.save` callback function add the `fs.unlinkSync` method with the argument being the original file path that we used to read in the file as binary data to the `Image` model object.
 ```js
-
+//app.js - save function only
+uploadedImage.save(err => {
+  if(err) { console.log(err); return; }
+  console.log('image saved');
+  fs.unlinkSync('./uploads/' + req.file.filename);
+});
 ```
 
+As we're re-using the line `'./uploads/' + req.file.filename` here and also in the `fs.readFileSync` call above where we create our 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODM2NDMyMCwtMTIwNDk2ODE5NSwxNz
+eyJoaXN0b3J5IjpbLTU1NTQ3MjkzMSwtMTIwNDk2ODE5NSwxNz
 M3MDU1MTM3LC0xNTgzMDY2MDU2LC03OTk1MTk1MzksMTc0Mzcy
 MzU3NSwtMjA3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC
 0xODc3MjEyOTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4
