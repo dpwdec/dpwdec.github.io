@@ -229,7 +229,7 @@ uploadedImage.save(err => {
 });
 ```
 
-As we're re-using the line `'./uploads/' + req.file.filename` here and also in the `fs.readFileSync` call above where we create our new model it's probably worth refactoring this name into a `filePath` variable to keep our code dry.
+As we're re-using the line `'./uploads/' + req.file.filename` here and also in the `fs.readFileSync` call above where we create our new model it's probably worth refactoring this name into a `filePath` variable defined at the top of our `post` route to keep our code dry.
 ```js
 //app.js - save function and filePath variable addition
 filePath = './uploads/' + req.file.filename
@@ -244,11 +244,12 @@ uploadedImage.save(err => {
 ```
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjgwMzMwNzMsLTEyMDQ5NjgxOTUsMT
-czNzA1NTEzNywtMTU4MzA2NjA1NiwtNzk5NTE5NTM5LDE3NDM3
-MjM1NzUsLTIwNzYxMzU5NTgsMzg3OTAyNjkwLDUwNTY1NTE2Ni
-wtMTg3NzIxMjkzNCwtMTUwMTUwNjM3NSwyMzgyNzc1OTIsLTk1
-ODc0NTEwNSwxNzc3MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMz
-c5MywtMTc4ODEwODA0M119
+eyJoaXN0b3J5IjpbMjAyNDMyNjM5MywtMTIwNDk2ODE5NSwxNz
+M3MDU1MTM3LC0xNTgzMDY2MDU2LC03OTk1MTk1MzksMTc0Mzcy
+MzU3NSwtMjA3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC
+0xODc3MjEyOTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4
+NzQ1MTA1LDE3NzcyMTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNz
+kzLC0xNzg4MTA4MDQzXX0=
 -->
