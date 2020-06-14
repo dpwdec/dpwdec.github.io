@@ -247,13 +247,21 @@ uploadedImage.save(err => {
 
 Finally, we need to retrieve the image data we saved in the database and display it on our page. For the purposes of this guide we'll simply refresh the upload page and display the images in the database.
 
-
+Create a `res.redirect` command at the end of the `app.post` route inside the `.save` method that returns to the root `app.get` route.
+```js
+uploadedImage.save(err => {
+  if(err) { console.log(err); return; }
+  console.log('image saved');
+  fs.unlinkSync(path);
+  res.redirect('/');
+});
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTI0NzYzMzUsLTEyMDQ5NjgxOTUsMT
-czNzA1NTEzNywtMTU4MzA2NjA1NiwtNzk5NTE5NTM5LDE3NDM3
-MjM1NzUsLTIwNzYxMzU5NTgsMzg3OTAyNjkwLDUwNTY1NTE2Ni
-wtMTg3NzIxMjkzNCwtMTUwMTUwNjM3NSwyMzgyNzc1OTIsLTk1
-ODc0NTEwNSwxNzc3MjE0ODk1LDE1MjEzMzg4NTUsMTU2NzEyMz
-c5MywtMTc4ODEwODA0M119
+eyJoaXN0b3J5IjpbMTIwNjQ1NzM0NiwtMTU5MjQ3NjMzNSwtMT
+IwNDk2ODE5NSwxNzM3MDU1MTM3LC0xNTgzMDY2MDU2LC03OTk1
+MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEzNTk1OCwzODc5MDI2OT
+AsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC0xNTAxNTA2Mzc1LDIz
+ODI3NzU5MiwtOTU4NzQ1MTA1LDE3NzcyMTQ4OTUsMTUyMTMzOD
+g1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MDQzXX0=
 -->
