@@ -209,7 +209,7 @@ app.post('/', upload.single('image'), (req, res) => {
   uploadedImage.save(err => {
     if(err) { console.log(err); return; }
     console.log('image saved');
-  })
+  });
 });
 ```
 
@@ -218,7 +218,7 @@ Again, we're `log`ging the `err` output of the `.save` method. As long as this r
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTkzOTUzNSwtMTIwNDk2ODE5NSwxNz
+eyJoaXN0b3J5IjpbLTkyMTAzMzI1OCwtMTIwNDk2ODE5NSwxNz
 M3MDU1MTM3LC0xNTgzMDY2MDU2LC03OTk1MTk1MzksMTc0Mzcy
 MzU3NSwtMjA3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC
 0xODc3MjEyOTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4
