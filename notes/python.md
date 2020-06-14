@@ -22,8 +22,8 @@ print(f"this number is {x}")
 
 ## Main
 
-You can **call **
+When calling a file by name, such as `python3 my_file` that is not the `main` (or root) executable of your project, you can **create a conditional that will call the `main` file when that non-root file is called** using the `'__main__'` c
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQzNjM3NjUsMjgyMTEwOTQ3LDg1OT
-c1MjcsNjIwOTcyMzE3XX0=
+eyJoaXN0b3J5IjpbMTM4MDc3OTQ3MSwyODIxMTA5NDcsODU5Nz
+UyNyw2MjA5NzIzMTddfQ==
 -->
