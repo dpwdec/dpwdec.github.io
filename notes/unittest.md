@@ -28,7 +28,7 @@ def test_my_method(self):
 The **basic structure of a single test** follows a pattern of using an *assertion method* on the `self` object with two arguments: the expected output and the actual output.
 ```py
 def test_my_method(self):
-  self.assertEqual
+  self.assertEqual(expectation, result)
 ```
 
 ## Assertions
@@ -36,5 +36,5 @@ def test_my_method(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE4OTk5ODldfQ==
+eyJoaXN0b3J5IjpbMTk4NDgyMDkxMyw3MTg5OTk4OV19
 -->
