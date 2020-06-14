@@ -25,12 +25,16 @@ To **define a new test** create a new method the name of which should start with
 def test_my_method(self):
 ```
 
-The **basic structure of a single test** follows a pattern of using an *assertion method* on the `self` object with two arguments: what
+The **basic structure of a single test** follows a pattern of using an *assertion method* on the `self` object with two arguments: the expected output and the actual output.
+```py
+def test_my_method(self):
+  self.assertEqual
+```
 
 ## Assertions
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NDE0MDYwMl19
+eyJoaXN0b3J5IjpbNzE4OTk5ODldfQ==
 -->
