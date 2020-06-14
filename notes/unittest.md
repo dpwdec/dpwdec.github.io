@@ -31,10 +31,16 @@ def test_my_method(self):
   self.assertEqual(expectation, result)
 ```
 
+You can **run a test** by call `unittest` from Python as the main module and passing in the test file you want to run.
+```bash
+$ python3 -m unittest test_my_class.py
+```
+
 ## Assertions
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDgyMDkxMyw3MTg5OTk4OV19
+eyJoaXN0b3J5IjpbNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNzE4OT
+k5ODldfQ==
 -->
