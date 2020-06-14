@@ -6,9 +6,15 @@ exclude: true
 
 ## Arithmetic Operators
 
-You can **execute floor division** - division that removes remainder by using a `//` double forward slash in your division code.
+You can **execute floor division**, division that removes any fractional remainder by using a `//` double forward slash in your division code. Essentially 
 ```py
+# fractional removal to 0
+3 / 4 # => 0.75
+3 // 4 # => 0
 
+# fractical removal for integers
+6 / 3 # => 2.0
+6 // 3 # => 2
 ```
 
 ## Strings
@@ -36,6 +42,6 @@ if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTc0ODkwLC0xNDMzNDczNDczLDI4Mj
-ExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
+eyJoaXN0b3J5IjpbMTI2MzY1MjIyMiwtMTQzMzQ3MzQ3MywyOD
+IxMTA5NDcsODU5NzUyNyw2MjA5NzIzMTddfQ==
 -->
