@@ -276,13 +276,24 @@ Now send the newly transformed `images` array to our client in the `res.render` 
 res.render('index.hbs', {images: images});
 ```
 
-Create 
+Create a corresponding `handlebars` template block inside the `index.hbs` file that renders this data. In the code below `images` will only try to render if the `images` array
+```html
+{{#if images}}
+  {{#each images as | image |}}
+    {{#with image}}
+      {{#with img}}
+        <img src="data:{{imgType}};base64,{{data}}">
+      {{/with}}
+    {{/with}}
+  {{/each}}
+{{/if}}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDA0MzAyODMsMTkzMTUxNTAzMiwtMT
-U5MjQ3NjMzNSwtMTIwNDk2ODE5NSwxNzM3MDU1MTM3LC0xNTgz
-MDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEzNT
-k1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC0x
-NTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3NzcyMT
-Q4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MDQz
-XX0=
+eyJoaXN0b3J5IjpbMTI3MTQ5Mjk5MiwxOTMxNTE1MDMyLC0xNT
+kyNDc2MzM1LC0xMjA0OTY4MTk1LDE3MzcwNTUxMzcsLTE1ODMw
+NjYwNTYsLTc5OTUxOTUzOSwxNzQzNzIzNTc1LC0yMDc2MTM1OT
+U4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4NzcyMTI5MzQsLTE1
+MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3NDUxMDUsMTc3NzIxND
+g5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMsLTE3ODgxMDgwNDNd
+fQ==
 -->
