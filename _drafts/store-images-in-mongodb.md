@@ -278,7 +278,7 @@ res.render('index.hbs', {images: images});
 
 Create a corresponding `handlebars` template block inside the `index.hbs` file that renders this data. In the code below `images` will only try to render if the `images` array (i.e. the data returned from the database) is NOT empty. It will then iterate through images and plug the data from the model's `img` property into the `src` component of the `img` html tag to render the image.
 ```html
-{{#if images}} 
+{{#if images}}
   {{#each images as | image |}}
     {{#with image}}
       {{#with img}}
@@ -289,11 +289,11 @@ Create a corresponding `handlebars` template block inside the `index.hbs` file t
 {{/if}}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0NTAwODI3LDE5MzE1MTUwMzIsLTE1OT
-I0NzYzMzUsLTEyMDQ5NjgxOTUsMTczNzA1NTEzNywtMTU4MzA2
-NjA1NiwtNzk5NTE5NTM5LDE3NDM3MjM1NzUsLTIwNzYxMzU5NT
-gsMzg3OTAyNjkwLDUwNTY1NTE2NiwtMTg3NzIxMjkzNCwtMTUw
-MTUwNjM3NSwyMzgyNzc1OTIsLTk1ODc0NTEwNSwxNzc3MjE0OD
-k1LDE1MjEzMzg4NTUsMTU2NzEyMzc5MywtMTc4ODEwODA0M119
-
+eyJoaXN0b3J5IjpbLTE4MTc0OTcwMDMsMTkzMTUxNTAzMiwtMT
+U5MjQ3NjMzNSwtMTIwNDk2ODE5NSwxNzM3MDU1MTM3LC0xNTgz
+MDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEzNT
+k1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC0x
+NTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3NzcyMT
+Q4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MDQz
+XX0=
 -->
