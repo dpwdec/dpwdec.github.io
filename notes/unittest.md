@@ -15,8 +15,11 @@ import unittest
 import my_code_to_be_tested
 ```
 
-To **declare a new set of tests for a particular **
+To **declare a new set of tests for a particular file** create a new class that inherits from `unitttest.TestCase` class. Your test code will be defined *within* this class.
+```py
+class TestMyClass(unittest.TestCase):
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUyMjQzMzYxXX0=
+eyJoaXN0b3J5IjpbLTkwNTUxOTg1MF19
 -->
