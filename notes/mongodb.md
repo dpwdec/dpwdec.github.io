@@ -114,7 +114,12 @@ User.find(function(err, users) {
 });
 ``` 
 
-You **can return plain javascript objects directly from a mongo database** using the `lean` query method. The `lean` method
+You **can return plain javascript objects directly from a mongo database** using the `lean` query method. The `lean` method is appended to the end of a `find` type query method and then uses the `exec` method to actually trigger the database request.
+```js
+User.find().lean().exec(function(err, users) {
+  // 
+});
+```
 
 ## Relations
 
@@ -130,10 +135,10 @@ var myFailedSchema = new mongoose.Schema({
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzU5NjY4LDc2NTQ4ODAwOSwtNzQ0OT
-Q0MTU4LC0xNjM3NTgxMjk3LC0yOTI5NzcyNDYsNjYwNTg3NzA4
-LDQyMTgyMjcyMywtMTk5MDAyNDUzNCwtOTE4ODAwODQwLC0xNj
-UzMDg4MTk5LC0xNzI1MzgxNjY1LDk2MzUyOTQxMSw2ODAwNTc3
-MTMsMjAxMDI1MDg0NSwtMjEzNjg5MTkwMywyMDI3MDMzMTI4XX
-0=
+eyJoaXN0b3J5IjpbMTM3ODE5NTc4MCw3NjU0ODgwMDksLTc0ND
+k0NDE1OCwtMTYzNzU4MTI5NywtMjkyOTc3MjQ2LDY2MDU4Nzcw
+OCw0MjE4MjI3MjMsLTE5OTAwMjQ1MzQsLTkxODgwMDg0MCwtMT
+Y1MzA4ODE5OSwtMTcyNTM4MTY2NSw5NjM1Mjk0MTEsNjgwMDU3
+NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5MDMsMjAyNzAzMzEyOF
+19
 -->
