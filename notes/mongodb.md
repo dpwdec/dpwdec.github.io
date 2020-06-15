@@ -102,7 +102,7 @@ User.findOne({_id: 1}, function(err, result) {
 
 ## Lean Queries
 
-When executing mongoose queries the object's that are returned from the database come as instances of the mongoose `model` class. This can cause problems with some frameworks that prefer plain javascript objects to work with data, like handlebars. 
+When executing mongoose queries the object's that are returned from the database come as instances of the mongoose `model` class. Generally, returning a full mongoose `model` object when you don't intend to modify it and save it back to the database is not performant because it requires a lot more overhead, therefore its often better to try return a plain javascript object from the database with 
 
 One of example of this would be storing a mongoose model property as a `Buffer`, if you return the object directly from the mongoose database as a `model` then the `Buffer` property of the object will itself be an object that needs to be de-structured leading to be more complex templating code etc. There are a couple of ways to coerce mongoose `model` objects into plain javascript objects.
 
@@ -137,10 +137,10 @@ var myFailedSchema = new mongoose.Schema({
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODE2NDkzNjQsLTU3OTUzNTI2NSw3Nj
-U0ODgwMDksLTc0NDk0NDE1OCwtMTYzNzU4MTI5NywtMjkyOTc3
-MjQ2LDY2MDU4NzcwOCw0MjE4MjI3MjMsLTE5OTAwMjQ1MzQsLT
-kxODgwMDg0MCwtMTY1MzA4ODE5OSwtMTcyNTM4MTY2NSw5NjM1
-Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5MD
-MsMjAyNzAzMzEyOF19
+eyJoaXN0b3J5IjpbMTgxNjU3MTkzMSwtNTc5NTM1MjY1LDc2NT
+Q4ODAwOSwtNzQ0OTQ0MTU4LC0xNjM3NTgxMjk3LC0yOTI5Nzcy
+NDYsNjYwNTg3NzA4LDQyMTgyMjcyMywtMTk5MDAyNDUzNCwtOT
+E4ODAwODQwLC0xNjUzMDg4MTk5LC0xNzI1MzgxNjY1LDk2MzUy
+OTQxMSw2ODAwNTc3MTMsMjAxMDI1MDg0NSwtMjEzNjg5MTkwMy
+wyMDI3MDMzMTI4XX0=
 -->
