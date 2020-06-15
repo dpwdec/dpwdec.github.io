@@ -114,10 +114,10 @@ User.find(function(err, users) {
 });
 ``` 
 
-You **can return plain javascript objects directly from a mongo database** using the `lean` query method. The `lean` method is appended to the end of a `find` type query method and then uses the `exec` method to actually trigger the database request.
+You **can return plain javascript objects directly from a mongo database** using the `lean` query method. The `lean` method is appended to the end of a `find` type query method and then uses the `exec` method to actually trigger the database request. This method is generally **more performant** than the previous as the full model objects never have to instantiated.
 ```js
 User.find().lean().exec(function(err, users) {
-  // 
+  // do something with the array of plain js objects
 });
 ```
 
@@ -135,7 +135,7 @@ var myFailedSchema = new mongoose.Schema({
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODE5NTc4MCw3NjU0ODgwMDksLTc0ND
+eyJoaXN0b3J5IjpbLTU3OTUzNTI2NSw3NjU0ODgwMDksLTc0ND
 k0NDE1OCwtMTYzNzU4MTI5NywtMjkyOTc3MjQ2LDY2MDU4Nzcw
 OCw0MjE4MjI3MjMsLTE5OTAwMjQ1MzQsLTkxODgwMDg0MCwtMT
 Y1MzA4ODE5OSwtMTcyNTM4MTY2NSw5NjM1Mjk0MTEsNjgwMDU3
