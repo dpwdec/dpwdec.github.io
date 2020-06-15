@@ -96,13 +96,13 @@ You can **test that a mock method was called with a specific set of arguments** 
 def test_mock_method_called_with_args(self):
   my_mock = Mock()
   my_mock.my_method(2, 3)
-  my_mock.my_method.assert_called_with()
+  my_mock.my_method.assert_called_with(2, 3)
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjcwOTkwNCwxMDk1MTk3NDUwLC0zMT
+eyJoaXN0b3J5IjpbMTcyNjgwNTU3MSwxMDk1MTk3NDUwLC0zMT
 cwNTM2NzgsLTcyMjgyMDUzMywtODQ2NjU4MjUyLC0yMjA3MDEz
 OTcsNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNzE4OTk5ODldfQ==
 -->
