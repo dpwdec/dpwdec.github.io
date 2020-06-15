@@ -65,9 +65,17 @@ def my_test(self):
 ## Mocks
 
 You can **start using mock and double objects** by using the python `unittest.mock` extension library.
+```py
+import unittest.mock
+```
+
+If you want to **import specifically named and frequently used mock objects from the mock library** such as the `Mock` or `MagicMock` classes, use the `from` and `import` pattern.
+```py
+from unittest.mock import 
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Mjc3NjQ0MCwtMzE3MDUzNjc4LC03Mj
-I4MjA1MzMsLTg0NjY1ODI1MiwtMjIwNzAxMzk3LDYxNzE0Mzk4
-OCwxOTg0ODIwOTEzLDcxODk5OTg5XX0=
+eyJoaXN0b3J5IjpbNzQ5OTA1MDg2LC0zMTcwNTM2NzgsLTcyMj
+gyMDUzMywtODQ2NjU4MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4
+LDE5ODQ4MjA5MTMsNzE4OTk5ODldfQ==
 -->
