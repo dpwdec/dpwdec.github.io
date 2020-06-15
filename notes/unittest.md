@@ -48,7 +48,7 @@ You can **run a test** by call `unittest` from Python as the main module and pas
 $ python3 -m unittest test_my_class.py
 ```
 
-You cannot call testing files directly, such as `python3 test_my_class.py`, however, you can **set up a test file to run through the unittest framework automatically when called** use the `__name__ == '__main__'` pattern by appending the code below to the body of your test file. This will conveniently **only run the test that was called** with the `python` run command and won't trigger the `unittest.main` method for ALL tests.
+You cannot call testing files directly, such as `python3 test_my_class.py`, however, you can **set up a test file to run through the `unittest` framework automatically when called** use the `__name__ == '__main__'` pattern by appending the code below to the body of your test file. This will conveniently **only run the test that was called** with the `python` run command and won't trigger the `unittest.main` method for ALL tests.
 ```py
 if __name__ == '__main__':
   unittest.name()
@@ -62,8 +62,12 @@ def my_test(self):
   self.assertEqual(6, 6, "it should equal 6")
 ```
 
+## Mocks
+
+You can **start using mock and double objects** by using the python `unittest.mock` extension library.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04ND
-Y2NTgyNTIsLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkx
-Myw3MTg5OTk4OV19
+eyJoaXN0b3J5IjpbLTM3Mjc3NjQ0MCwtMzE3MDUzNjc4LC03Mj
+I4MjA1MzMsLTg0NjY1ODI1MiwtMjIwNzAxMzk3LDYxNzE0Mzk4
+OCwxOTg0ODIwOTEzLDcxODk5OTg5XX0=
 -->
