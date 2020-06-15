@@ -4,6 +4,10 @@ layout: page
 exclude: true
 ---
 
+## Importing
+
+You can **import python code from one directory **
+
 ## Arithmetic Operators
 
 You can **execute floor division**, division that removes any fractional remainder by using a `//` double forward slash in your division code. Essentially this is just the same as ensuring integer division where python defaults to returning floats.
@@ -42,6 +46,7 @@ if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjAyODUyNCwtMTQzMzQ3MzQ3MywyOD
-IxMTA5NDcsODU5NzUyNyw2MjA5NzIzMTddfQ==
+eyJoaXN0b3J5IjpbLTc2NTcyNDIyMSwtODY2MDI4NTI0LC0xND
+MzNDczNDczLDI4MjExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
+
 -->
