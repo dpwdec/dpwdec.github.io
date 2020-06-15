@@ -90,7 +90,7 @@ def test_mock_method_called(self):
   my_mock.my_method.assert_called_with()
 ```
 
-You can **test that a mock method was called with a specific set of arguments** by submitting the expected arguments to the `assert_called_with` method.
+You can **test that a mock method was called with a specific set of arguments** by submitting the expected arguments to the `assert_called_with` method. Mock objects **automatically create a mock version of a method if it is called** which means you don't have to explicitly specify that 
 ```py
 # passes
 def test_mock_method_called_with_args(self):
@@ -102,7 +102,8 @@ def test_mock_method_called_with_args(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjgwNTU3MSwxMDk1MTk3NDUwLC0zMT
-cwNTM2NzgsLTcyMjgyMDUzMywtODQ2NjU4MjUyLC0yMjA3MDEz
-OTcsNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNzE4OTk5ODldfQ==
+eyJoaXN0b3J5IjpbLTk4NjU0MTMxMSwxNzI2ODA1NTcxLDEwOT
+UxOTc0NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2NTgy
+NTIsLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMyw3MT
+g5OTk4OV19
 -->
