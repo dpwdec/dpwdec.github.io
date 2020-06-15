@@ -113,7 +113,7 @@ User.find().lean().exec(function(err, users) {
 });
 ```
 
-You can also **convert mongoose `model` class objects into a plain javascript object AFTER retrieval** by using the `map` method and the `toObject` method. The example below returns an array of `User` model objects from the database and then `map`s each element in that array to a plain javascript object by calling the `model` method `toObject` on each object which replaces the previous element in the array. This doesn't have any of the performance benefits of `lean`, however it can be useful if you need to do some `model` specific processing before 
+You can also **convert mongoose `model` class objects into a plain javascript object AFTER retrieval** by using the `map` method and the `toObject` method. The example below returns an array of `User` model objects from the database and then `map`s each element in that array to a plain javascript object by calling the `model` method `toObject` on each object which replaces the previous element in the array. This doesn't have any of the performance benefits of `lean`, however it can be useful if you need to do some `model` specific processing before converting to a plain javascript object for another framework.
 ```js
 User.find(function(err, users) {
   users.map(function(user) {
@@ -137,10 +137,10 @@ var myFailedSchema = new mongoose.Schema({
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzA1MjA3OCwtNTc5NTM1MjY1LDc2NT
-Q4ODAwOSwtNzQ0OTQ0MTU4LC0xNjM3NTgxMjk3LC0yOTI5Nzcy
-NDYsNjYwNTg3NzA4LDQyMTgyMjcyMywtMTk5MDAyNDUzNCwtOT
-E4ODAwODQwLC0xNjUzMDg4MTk5LC0xNzI1MzgxNjY1LDk2MzUy
-OTQxMSw2ODAwNTc3MTMsMjAxMDI1MDg0NSwtMjEzNjg5MTkwMy
-wyMDI3MDMzMTI4XX0=
+eyJoaXN0b3J5IjpbLTE0MDQ2NDczNzksLTU3OTUzNTI2NSw3Nj
+U0ODgwMDksLTc0NDk0NDE1OCwtMTYzNzU4MTI5NywtMjkyOTc3
+MjQ2LDY2MDU4NzcwOCw0MjE4MjI3MjMsLTE5OTAwMjQ1MzQsLT
+kxODgwMDg0MCwtMTY1MzA4ODE5OSwtMTcyNTM4MTY2NSw5NjM1
+Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5MD
+MsMjAyNzAzMzEyOF19
 -->
