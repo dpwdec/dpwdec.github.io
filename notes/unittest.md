@@ -103,6 +103,7 @@ def test_mock_method_called_with_args(self):
 
 You can **set a return value for a mock's method** by setting the `return_value` property of a mock's method property. When that mock property is called as a method it will return whatever was set as its return.
 ```py
+# passes
 def test_mock_method_called_with_return(self):
   my_mock = Mock()
   my_mock.my_method.return_value = 35
@@ -113,16 +114,20 @@ def test_mock_method_called_with_return(self):
 
 You can **stub a real object's methods** by assigning the object's method property to an instance of `Mock`.
 ```py
+# passes
 def test_stub_method(self):
   real_instance = RealClass()
   real_instance.real_method = Mock()
   real_instance.real_method()
+  real_instance.real_method.assert_called_with()
 ```
+
+You can **stub the return value of a real object's method** by assigning the `return_value` property of the mock which the method i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODc2MjEyNzYsMTcyNjgwNTU3MSwxMD
-k1MTk3NDUwLC0zMTcwNTM2NzgsLTcyMjgyMDUzMywtODQ2NjU4
-MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNz
-E4OTk5ODldfQ==
+eyJoaXN0b3J5IjpbNDg2ODU5NDM3LDE3MjY4MDU1NzEsMTA5NT
+E5NzQ1MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1
+MiwtMjIwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxOD
+k5OTg5XX0=
 -->
