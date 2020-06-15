@@ -111,12 +111,17 @@ def test_mock_method_called_with_return(self):
 
 ### Mock Stubs
 
-You can stub a real object's methods by assigning 
+You can **stub a real object's methods** by assigning the object's method property to an instance of `Mock`.
+```py
+def test_stub_method(self):
+  real_instance = RealClass()
+  
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTk4NzczODUsMTcyNjgwNTU3MSwxMD
-k1MTk3NDUwLC0zMTcwNTM2NzgsLTcyMjgyMDUzMywtODQ2NjU4
-MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNz
-E4OTk5ODldfQ==
+eyJoaXN0b3J5IjpbNDc4OTM4NjU3LDE3MjY4MDU1NzEsMTA5NT
+E5NzQ1MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1
+MiwtMjIwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxOD
+k5OTg5XX0=
 -->
