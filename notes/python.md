@@ -46,6 +46,13 @@ x.append(4)
 # => [1, 2, 3, 4]
 ```
 
+## Conditionals
+
+You can **create a one line if statement** by placing the result of the conditional on the same line after the terminating `:` colon of the if.
+```py
+
+```
+
 ## Main
 
 When calling a file by name, such as `python3 my_file` that is not the `main` (or root) executable of your project, you can **create a conditional that will call the `main` file when that non-root file is called** using the `'__main__'` matcher. In the code below when `not_main.py` is called to execute it will instead call the correct main file.
@@ -55,7 +62,7 @@ if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwOTMxNTAxLDEyMDA5MDM0NDgsLTg2Nj
-AyODUyNCwtMTQzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUyNyw2
-MjA5NzIzMTddfQ==
+eyJoaXN0b3J5IjpbMTA5MDg1OTU0NSw3OTA5MzE1MDEsMTIwMD
+kwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDczNDczLDI4MjExMDk0
+Nyw4NTk3NTI3LDYyMDk3MjMxN119
 -->
