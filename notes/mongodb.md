@@ -100,11 +100,20 @@ User.findOne({_id: 1}, function(err, result) {
 });
 ```
 
-### Plain Object Retrieval
+## Lean Queries
 
-When executing mongoose queries the object's that are returned from the database come as instances of the mongoose `model` class. This can cause problems with some frameworks that prefer plain javascript objects to work with data, like handlebars. One of example of this would be storing a mongoose model property as a `Buffer`, if you return the object directly from the mongoose database as a `model` then the `Buffer` property of the object will itself be an object that needs to be de-structured leading to be more complex templating code etc. There are a couple of ways to coerce mongoose `model` objects into plain javascript objects.
+When executing mongoose queries the object's that are returned from the database come as instances of the mongoose `model` class. This can cause problems with some frameworks that prefer plain javascript objects to work with data, like handlebars. 
 
-You can **convert mongoose `model` class objects into a plain javascript object AFTER retrieval** by using the `map` method and the `toObject` method. The example below returns an array of `User` model objects from the database and then `map`s each element in that array to a plain javascript object by calling the `model` method `toObject` on each object which replaces the previous element in the array.
+One of example of this would be storing a mongoose model property as a `Buffer`, if you return the object directly from the mongoose database as a `model` then the `Buffer` property of the object will itself be an object that needs to be de-structured leading to be more complex templating code etc. There are a couple of ways to coerce mongoose `model` objects into plain javascript objects.
+
+You **can return plain javascript objects directly from a mongo database** using the `lean` query method. The `lean` method is appended to the end of a `find` type query method and then uses the `exec` method to actually trigger the database request. This method is generally **more performant** than the previous as the full model objects never have to instantiated.
+```js
+User.find().lean().exec(function(err, users) {
+  // do something with the array of plain js objects
+});
+```
+
+You can also **convert mongoose `model` class objects into a plain javascript object AFTER retrieval** by using the `map` method and the `toObject` method. The example below returns an array of `User` model objects from the database and then `map`s each element in that array to a plain javascript object by calling the `model` method `toObject` on each object which replaces the previous element in the array.
 ```js
 User.find(function(err, users) {
   users.map(function(user) {
@@ -113,13 +122,6 @@ User.find(function(err, users) {
   // do something with the new array of plain js objects
 });
 ``` 
-
-You **can return plain javascript objects directly from a mongo database** using the `lean` query method. The `lean` method is appended to the end of a `find` type query method and then uses the `exec` method to actually trigger the database request. This method is generally **more performant** than the previous as the full model objects never have to instantiated.
-```js
-User.find().lean().exec(function(err, users) {
-  // do something with the array of plain js objects
-});
-```
 
 ## Relations
 
@@ -135,10 +137,10 @@ var myFailedSchema = new mongoose.Schema({
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTUzNTI2NSw3NjU0ODgwMDksLTc0ND
-k0NDE1OCwtMTYzNzU4MTI5NywtMjkyOTc3MjQ2LDY2MDU4Nzcw
-OCw0MjE4MjI3MjMsLTE5OTAwMjQ1MzQsLTkxODgwMDg0MCwtMT
-Y1MzA4ODE5OSwtMTcyNTM4MTY2NSw5NjM1Mjk0MTEsNjgwMDU3
-NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5MDMsMjAyNzAzMzEyOF
-19
+eyJoaXN0b3J5IjpbLTEyODE2NDkzNjQsLTU3OTUzNTI2NSw3Nj
+U0ODgwMDksLTc0NDk0NDE1OCwtMTYzNzU4MTI5NywtMjkyOTc3
+MjQ2LDY2MDU4NzcwOCw0MjE4MjI3MjMsLTE5OTAwMjQ1MzQsLT
+kxODgwMDg0MCwtMTY1MzA4ODE5OSwtMTcyNTM4MTY2NSw5NjM1
+Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5MD
+MsMjAyNzAzMzEyOF19
 -->
