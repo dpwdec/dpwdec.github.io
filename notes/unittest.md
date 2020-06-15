@@ -83,16 +83,26 @@ def test_my_mock(self):
 
 You can **test that a method was called on a mock** by appending the name of the method you want to test for to the mock instance and then using the `assert_called_with` method on mock method property.
 ```py
+# passes
 def test_mock_method_called(self):
   my_mock = Mock()
   my_mock.my_method()
-  
+  my_mock.my_method.assert_called_with()
+```
+
+You can **test that a mock method was called with a specific set of arguments** by submitting the expected arguments to the `assert_called_with` method.
+```py
+# passes
+def test_mock_method_called_with_args(self):
+  my_mock = Mock()
+  my_mock.my_method(2, 3)
+  my_mock.my_method.assert_called_with()
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODkxMzE0NywxMDk1MTk3NDUwLC0zMT
+eyJoaXN0b3J5IjpbLTc5MjcwOTkwNCwxMDk1MTk3NDUwLC0zMT
 cwNTM2NzgsLTcyMjgyMDUzMywtODQ2NjU4MjUyLC0yMjA3MDEz
 OTcsNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNzE4OTk5ODldfQ==
 -->
