@@ -50,7 +50,7 @@ x.append(4)
 
 You can **create a one line if statement** by placing the result of the conditional on the same line after the terminating `:` colon of the if.
 ```py
-
+if 3 < 5: return True
 ```
 
 ## Main
@@ -62,7 +62,7 @@ if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDg1OTU0NSw3OTA5MzE1MDEsMTIwMD
+eyJoaXN0b3J5IjpbLTU1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMD
 kwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDczNDczLDI4MjExMDk0
 Nyw4NTk3NTI3LDYyMDk3MjMxN119
 -->
