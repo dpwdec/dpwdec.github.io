@@ -81,7 +81,7 @@ def test_my_mock(self):
   my_mock = Mock()
 ```
 
-You can **test that a method was called on a mock** by appending the name of the method you want to test for to the mock instance and then using the `assert_called_with` method on mock method property.
+You can **test that a method was called on a mock** by appending the name of the method you want to test for to the mock instance and then using the `assert_called_with` method on mock method property. Mock objects **automatically create a mock version of a method if it is called** which means you don't have to explicitly specify that `my_mock` accepts `my_method` and the assertion on its call will still work.
 ```py
 # passes
 def test_mock_method_called(self):
@@ -90,7 +90,7 @@ def test_mock_method_called(self):
   my_mock.my_method.assert_called_with()
 ```
 
-You can **test that a mock method was called with a specific set of arguments** by submitting the expected arguments to the `assert_called_with` method. Mock objects **automatically create a mock version of a method if it is called** which means you don't have to explicitly specify that 
+You can **test that a mock method was called with a specific set of arguments** by submitting the expected arguments to the `assert_called_with` method.
 ```py
 # passes
 def test_mock_method_called_with_args(self):
@@ -99,11 +99,12 @@ def test_mock_method_called_with_args(self):
   my_mock.my_method.assert_called_with(2, 3)
 ```
 
+You can **set a return value for a mock's method** by 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjU0MTMxMSwxNzI2ODA1NTcxLDEwOT
-UxOTc0NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2NTgy
-NTIsLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMyw3MT
-g5OTk4OV19
+eyJoaXN0b3J5IjpbLTE4OTkwNjkxMTAsMTcyNjgwNTU3MSwxMD
+k1MTk3NDUwLC0zMTcwNTM2NzgsLTcyMjgyMDUzMywtODQ2NjU4
+MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNz
+E4OTk5ODldfQ==
 -->
