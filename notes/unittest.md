@@ -56,10 +56,14 @@ if __name__ == '__main__':
 
 ## Assertions
 
-You can **add failure messages to an assertion** by adding a th
+You can **add failure messages to an assertion** by adding a third string argument to the `assert` method that contains the message to be printed on failure.
+```py
+def my_test(self):
+  self.assertEqual(6, 6, "it should equal 6")
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njc1NDY4NDYsLTcyMjgyMDUzMywtOD
-Q2NjU4MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5
-MTMsNzE4OTk5ODldfQ==
+eyJoaXN0b3J5IjpbLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04ND
+Y2NTgyNTIsLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkx
+Myw3MTg5OTk4OV19
 -->
