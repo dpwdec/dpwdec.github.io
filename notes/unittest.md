@@ -56,10 +56,10 @@ if __name__ == '__main__':
 
 ## Assertions
 
-
+You can **add failure messages to an assertion** by adding a th
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMjgyMDUzMywtODQ2NjU4MjUyLC0yMj
-A3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNzE4OTk5ODld
-fQ==
+eyJoaXN0b3J5IjpbLTE4Njc1NDY4NDYsLTcyMjgyMDUzMywtOD
+Q2NjU4MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5
+MTMsNzE4OTk5ODldfQ==
 -->
