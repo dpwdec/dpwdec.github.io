@@ -66,7 +66,9 @@ def my_test(self):
 
 You can **start using mock and double objects** by using the python `unittest.mock` extension library. These mocks give you the ability to stub methods on real classes as well as create entire mock / double objects for the purposes of testing and keeping your dependencies separate and testable.
 ```py
+# import top level mock namespace
 import unittest.mock
+# import mock n
 ```
 
 If you want to **import specifically named and frequently used mock objects from the mock library** such as the `Mock` or `MagicMock` classes, use the `from` and `import` pattern.
@@ -78,7 +80,7 @@ from unittest.mock import Mock
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTE5NzQ1MCwtMzE3MDUzNjc4LC03Mj
-I4MjA1MzMsLTg0NjY1ODI1MiwtMjIwNzAxMzk3LDYxNzE0Mzk4
-OCwxOTg0ODIwOTEzLDcxODk5OTg5XX0=
+eyJoaXN0b3J5IjpbNjcyODYwMTc2LDEwOTUxOTc0NTAsLTMxNz
+A1MzY3OCwtNzIyODIwNTMzLC04NDY2NTgyNTIsLTIyMDcwMTM5
+Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMyw3MTg5OTk4OV19
 -->
