@@ -100,9 +100,9 @@ User.findOne({_id: 1}, function(err, result) {
 });
 ```
 
-### Object Retrieval
+### Plain Object Retrieval
 
-When executing mongoose queries the object's that are returned from the database cone= 
+When executing mongoose queries the object's that are returned from the database come as instances of the mongoose `model` class. This can cause problems with some frameworks that prefer plain javascript objects to work with data, like handlebars. One of example of this would be storing a mongoose model property as a 
 
 ## Relations
 
@@ -118,7 +118,7 @@ var myFailedSchema = new mongoose.Schema({
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzAwMTE2OSwtNzQ0OTQ0MTU4LC0xNj
+eyJoaXN0b3J5IjpbMTc5MzU1MTI3MywtNzQ0OTQ0MTU4LC0xNj
 M3NTgxMjk3LC0yOTI5NzcyNDYsNjYwNTg3NzA4LDQyMTgyMjcy
 MywtMTk5MDAyNDUzNCwtOTE4ODAwODQwLC0xNjUzMDg4MTk5LC
 0xNzI1MzgxNjY1LDk2MzUyOTQxMSw2ODAwNTc3MTMsMjAxMDI1
