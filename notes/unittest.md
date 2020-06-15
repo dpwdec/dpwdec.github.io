@@ -109,12 +109,14 @@ def test_mock_method_called_with_return(self):
   self.assertEqual(my_mock.my_method(), 35)
 ```
 
+### Mock Stubs
 
+You can stub a real object's methods by assigning 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjU0MzQyOCwxNzI2ODA1NTcxLDEwOT
-UxOTc0NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2NTgy
-NTIsLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMyw3MT
-g5OTk4OV19
+eyJoaXN0b3J5IjpbLTE4MTk4NzczODUsMTcyNjgwNTU3MSwxMD
+k1MTk3NDUwLC0zMTcwNTM2NzgsLTcyMjgyMDUzMywtODQ2NjU4
+MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNz
+E4OTk5ODldfQ==
 -->
