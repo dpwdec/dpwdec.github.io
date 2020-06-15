@@ -104,9 +104,13 @@ User.findOne({_id: 1}, function(err, result) {
 
 When executing mongoose queries the object's that are returned from the database come as instances of the mongoose `model` class. This can cause problems with some frameworks that prefer plain javascript objects to work with data, like handlebars. One of example of this would be storing a mongoose model property as a `Buffer`, if you return the object directly from the mongoose database as a `model` then the `Buffer` property of the object will itself be an object that needs to be de-structured leading to be more complex templating code etc. There are a couple of ways to coerce mongoose `model` objects into plain javascript objects.
 
-You can **convert mongoose `model` class objects into a plain javascript object AFTER retrieval** by using the `map` method and the `toObject` method.
+You can **convert mongoose `model` class objects into a plain javascript object AFTER retrieval** by using the `map` method and the `toObject` method. In the example 
 ```js
-
+User.find(function(err, users) {
+  users.map(function(user) {
+    return user.toObject();
+  });
+});
 ``` 
 
 ## Relations
@@ -123,9 +127,10 @@ var myFailedSchema = new mongoose.Schema({
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1NDg4MDA5LC03NDQ5NDQxNTgsLTE2Mz
-c1ODEyOTcsLTI5Mjk3NzI0Niw2NjA1ODc3MDgsNDIxODIyNzIz
-LC0xOTkwMDI0NTM0LC05MTg4MDA4NDAsLTE2NTMwODgxOTksLT
-E3MjUzODE2NjUsOTYzNTI5NDExLDY4MDA1NzcxMywyMDEwMjUw
-ODQ1LC0yMTM2ODkxOTAzLDIwMjcwMzMxMjhdfQ==
+eyJoaXN0b3J5IjpbLTIzNjM5OTEzMiw3NjU0ODgwMDksLTc0ND
+k0NDE1OCwtMTYzNzU4MTI5NywtMjkyOTc3MjQ2LDY2MDU4Nzcw
+OCw0MjE4MjI3MjMsLTE5OTAwMjQ1MzQsLTkxODgwMDg0MCwtMT
+Y1MzA4ODE5OSwtMTcyNTM4MTY2NSw5NjM1Mjk0MTEsNjgwMDU3
+NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5MDMsMjAyNzAzMzEyOF
+19
 -->
