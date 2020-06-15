@@ -102,9 +102,9 @@ User.findOne({_id: 1}, function(err, result) {
 
 ## Lean Queries
 
-When executing mongoose queries the object's that are returned from the database come as instances of the mongoose `model` class. Generally, returning a full mongoose `model` object when you don't intend to modify it and save it back to the database is not performant because it requires a lot more overhead, therefore its often better to try return a plain javascript object from the database with 
+When executing mongoose queries the object's that are returned from the database come as instances of the mongoose `model` class. Generally, returning a full mongoose `model` object when you don't intend to modify it and save it back to the database is not performant because it requires a lot more overhead, therefore its often better to try return a plain javascript object from the database with object's information contained within it rather than complex mongoose object with all its associated database methods.
 
-One of example of this would be storing a mongoose model property as a `Buffer`, if you return the object directly from the mongoose database as a `model` then the `Buffer` property of the object will itself be an object that needs to be de-structured leading to be more complex templating code etc. There are a couple of ways to coerce mongoose `model` objects into plain javascript objects.
+Another reason to do this is that `mOne of example of this would be storing a mongoose model property as a `Buffer`, if you return the object directly from the mongoose database as a `model` then the `Buffer` property of the object will itself be an object that needs to be de-structured leading to be more complex templating code etc. There are a couple of ways to coerce mongoose `model` objects into plain javascript objects.
 
 You **can return plain javascript objects directly from a mongo database** using the `lean` query method. The `lean` method is appended to the end of a `find` type query method and then uses the `exec` method to actually trigger the database request. This method is generally **more performant** than the previous as the full model objects never have to instantiated.
 ```js
@@ -137,7 +137,7 @@ var myFailedSchema = new mongoose.Schema({
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjU3MTkzMSwtNTc5NTM1MjY1LDc2NT
+eyJoaXN0b3J5IjpbMTQxOTM0MjU0NywtNTc5NTM1MjY1LDc2NT
 Q4ODAwOSwtNzQ0OTQ0MTU4LC0xNjM3NTgxMjk3LC0yOTI5Nzcy
 NDYsNjYwNTg3NzA4LDQyMTgyMjcyMywtMTk5MDAyNDUzNCwtOT
 E4ODAwODQwLC0xNjUzMDg4MTk5LC0xNzI1MzgxNjY1LDk2MzUy
