@@ -75,6 +75,8 @@ from unittest.mock import Mock
 from unittest.mock import MagicMock
 ```
 
+### Mock Objects
+
 You can **create a mock object** by instantiating an instance of the `Mock` or class.
 ```py
 def test_my_mock(self):
@@ -99,7 +101,7 @@ def test_mock_method_called_with_args(self):
   my_mock.my_method.assert_called_with(2, 3)
 ```
 
-You can **set a return value for a mock's method** by setting the `return_value` property of a mock's method property. When t
+You can **set a return value for a mock's method** by setting the `return_value` property of a mock's method property. When that mock property is called as a method it will return whatever was set as its return.
 ```py
 def test_mock_method_called_with_return(self):
   my_mock = Mock()
@@ -108,9 +110,11 @@ def test_mock_method_called_with_return(self):
 ```
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0Mzg5MDA0LDE3MjY4MDU1NzEsMTA5NT
-E5NzQ1MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1
-MiwtMjIwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxOD
-k5OTg5XX0=
+eyJoaXN0b3J5IjpbLTY0MjU0MzQyOCwxNzI2ODA1NTcxLDEwOT
+UxOTc0NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2NTgy
+NTIsLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMyw3MT
+g5OTk4OV19
 -->
