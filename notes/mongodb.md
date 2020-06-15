@@ -114,7 +114,7 @@ User.find(function(err, users) {
 });
 ``` 
 
-You **can return plain javascript objects directly from a mongo database** using the `lean` query method.
+You **can return plain javascript objects directly from a mongo database** using the `lean` query method. The `lean` method
 
 ## Relations
 
@@ -130,7 +130,7 @@ var myFailedSchema = new mongoose.Schema({
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3ODM4NDYwLDc2NTQ4ODAwOSwtNzQ0OT
+eyJoaXN0b3J5IjpbMTg5NzU5NjY4LDc2NTQ4ODAwOSwtNzQ0OT
 Q0MTU4LC0xNjM3NTgxMjk3LC0yOTI5NzcyNDYsNjYwNTg3NzA4
 LDQyMTgyMjcyMywtMTk5MDAyNDUzNCwtOTE4ODAwODQwLC0xNj
 UzMDg4MTk5LC0xNzI1MzgxNjY1LDk2MzUyOTQxMSw2ODAwNTc3
