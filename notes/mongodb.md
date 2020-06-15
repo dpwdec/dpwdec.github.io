@@ -100,6 +100,10 @@ User.findOne({_id: 1}, function(err, result) {
 });
 ```
 
+### Object Retrieval
+
+When executing mongoose queries the object's that are returned from the database cone= 
+
 ## Relations
 
 You can **insert the database ID from another **
@@ -114,9 +118,9 @@ var myFailedSchema = new mongoose.Schema({
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDk0NDE1OCwtMTYzNzU4MTI5NywtMj
-kyOTc3MjQ2LDY2MDU4NzcwOCw0MjE4MjI3MjMsLTE5OTAwMjQ1
-MzQsLTkxODgwMDg0MCwtMTY1MzA4ODE5OSwtMTcyNTM4MTY2NS
-w5NjM1Mjk0MTEsNjgwMDU3NzEzLDIwMTAyNTA4NDUsLTIxMzY4
-OTE5MDMsMjAyNzAzMzEyOF19
+eyJoaXN0b3J5IjpbMTQwMzAwMTE2OSwtNzQ0OTQ0MTU4LC0xNj
+M3NTgxMjk3LC0yOTI5NzcyNDYsNjYwNTg3NzA4LDQyMTgyMjcy
+MywtMTk5MDAyNDUzNCwtOTE4ODAwODQwLC0xNjUzMDg4MTk5LC
+0xNzI1MzgxNjY1LDk2MzUyOTQxMSw2ODAwNTc3MTMsMjAxMDI1
+MDg0NSwtMjEzNjg5MTkwMywyMDI3MDMzMTI4XX0=
 -->
