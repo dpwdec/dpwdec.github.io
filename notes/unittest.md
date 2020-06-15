@@ -122,11 +122,19 @@ def test_stub_method(self):
   real_instance.real_method.assert_called_with()
 ```
 
-You can **stub the return value of a real object's method** by assigning the `return_value` property of the mock which the method i
+You can **stub the return value of a real object's method** by assigning the `return_value` method property of the object that you are mocking.
+```py
+# passes
+def test_stub_method(self):
+  real_instance = RealClass()
+  real_instance.real_method = Mock()
+  real_instance.real_method.return_value = 35
+  self.assertEqual(real_instance.real_method(), 35)
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2ODU5NDM3LDE3MjY4MDU1NzEsMTA5NT
+eyJoaXN0b3J5IjpbOTE4NjIyMjQ2LDE3MjY4MDU1NzEsMTA5NT
 E5NzQ1MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1
 MiwtMjIwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxOD
 k5OTg5XX0=
