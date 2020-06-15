@@ -104,14 +104,17 @@ User.findOne({_id: 1}, function(err, result) {
 
 When executing mongoose queries the object's that are returned from the database come as instances of the mongoose `model` class. This can cause problems with some frameworks that prefer plain javascript objects to work with data, like handlebars. One of example of this would be storing a mongoose model property as a `Buffer`, if you return the object directly from the mongoose database as a `model` then the `Buffer` property of the object will itself be an object that needs to be de-structured leading to be more complex templating code etc. There are a couple of ways to coerce mongoose `model` objects into plain javascript objects.
 
-You can **convert mongoose `model` class objects into a plain javascript object AFTER retrieval** by using the `map` method and the `toObject` method. The example below returns an array of `User` model objects from the database and then `map`s each element in that array to a plain javascript object by calling the `model` method `toObject` on each object which
+You can **convert mongoose `model` class objects into a plain javascript object AFTER retrieval** by using the `map` method and the `toObject` method. The example below returns an array of `User` model objects from the database and then `map`s each element in that array to a plain javascript object by calling the `model` method `toObject` on each object which replaces the previous element in the array.
 ```js
 User.find(function(err, users) {
   users.map(function(user) {
     return user.toObject();
   });
+  // do something with the new array of plain js objects
 });
 ``` 
+
+You **can return plain javascript objects directly from a mongo database** using the `lean` query method.
 
 ## Relations
 
@@ -127,10 +130,10 @@ var myFailedSchema = new mongoose.Schema({
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTkyNzE2OSw3NjU0ODgwMDksLTc0ND
-k0NDE1OCwtMTYzNzU4MTI5NywtMjkyOTc3MjQ2LDY2MDU4Nzcw
-OCw0MjE4MjI3MjMsLTE5OTAwMjQ1MzQsLTkxODgwMDg0MCwtMT
-Y1MzA4ODE5OSwtMTcyNTM4MTY2NSw5NjM1Mjk0MTEsNjgwMDU3
-NzEzLDIwMTAyNTA4NDUsLTIxMzY4OTE5MDMsMjAyNzAzMzEyOF
-19
+eyJoaXN0b3J5IjpbOTM3ODM4NDYwLDc2NTQ4ODAwOSwtNzQ0OT
+Q0MTU4LC0xNjM3NTgxMjk3LC0yOTI5NzcyNDYsNjYwNTg3NzA4
+LDQyMTgyMjcyMywtMTk5MDAyNDUzNCwtOTE4ODAwODQwLC0xNj
+UzMDg4MTk5LC0xNzI1MzgxNjY1LDk2MzUyOTQxMSw2ODAwNTc3
+MTMsMjAxMDI1MDg0NSwtMjEzNjg5MTkwMywyMDI3MDMzMTI4XX
+0=
 -->
