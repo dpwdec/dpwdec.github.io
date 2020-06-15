@@ -6,7 +6,7 @@ exclude: true
 
 ## Importing
 
-You can **import python code from one directory **
+You can **import python code from a parallel directory** by setting up each directory as a `package` using the `__init__.py` file and then importing using the `from` and `import` keywords.
 
 ## Arithmetic Operators
 
@@ -46,7 +46,7 @@ if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTcyNDIyMSwtODY2MDI4NTI0LC0xND
+eyJoaXN0b3J5IjpbMTIwMDkwMzQ0OCwtODY2MDI4NTI0LC0xND
 MzNDczNDczLDI4MjExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
 
 -->
