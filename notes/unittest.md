@@ -99,12 +99,18 @@ def test_mock_method_called_with_args(self):
   my_mock.my_method.assert_called_with(2, 3)
 ```
 
-You can **set a return value for a mock's method** by 
+You can **set a return value for a mock's method** by setting the `return_value` property of a mock's method property. When t
+```py
+def test_mock_method_called_with_return(self):
+  my_mock = Mock()
+  my_mock.my_method.return_value = 35
+  self.assertEqual(my_mock.my_method(), 35)
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTkwNjkxMTAsMTcyNjgwNTU3MSwxMD
-k1MTk3NDUwLC0zMTcwNTM2NzgsLTcyMjgyMDUzMywtODQ2NjU4
-MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNz
-E4OTk5ODldfQ==
+eyJoaXN0b3J5IjpbMzE0Mzg5MDA0LDE3MjY4MDU1NzEsMTA5NT
+E5NzQ1MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1
+MiwtMjIwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxOD
+k5OTg5XX0=
 -->
