@@ -23,6 +23,8 @@ You can **execute floor division**, division that removes any fractional remaind
 
 ## Strings
 
+In python the **name of the string class** is 
+
 You can **convert an int to a string** using the `str` method.
 ```py
 x = 5
@@ -62,7 +64,7 @@ if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMD
-kwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDczNDczLDI4MjExMDk0
-Nyw4NTk3NTI3LDYyMDk3MjMxN119
+eyJoaXN0b3J5IjpbLTEzOTU0NjQzNDAsLTU1NjQ2NDAxOCw3OT
+A5MzE1MDEsMTIwMDkwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDcz
+NDczLDI4MjExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
 -->
