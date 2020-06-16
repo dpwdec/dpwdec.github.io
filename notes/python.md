@@ -23,7 +23,11 @@ You can **execute floor division**, division that removes any fractional remaind
 
 ## Strings
 
-In python the **name of the string class** is 
+In python the **name of the string class** is `str`. For example, if you wanted to check if something is a string you would use the `str` type as your comparison target.
+```py
+x = "hello"
+isinstance(x, str) # => True
+```
 
 You can **convert an int to a string** using the `str` method.
 ```py
@@ -64,7 +68,7 @@ if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTU0NjQzNDAsLTU1NjQ2NDAxOCw3OT
+eyJoaXN0b3J5IjpbLTExOTUxMjc0MDYsLTU1NjQ2NDAxOCw3OT
 A5MzE1MDEsMTIwMDkwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDcz
 NDczLDI4MjExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
 -->
