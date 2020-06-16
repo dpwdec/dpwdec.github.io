@@ -58,8 +58,14 @@ if __name__ == '__main__':
 
 You can **add failure messages to an assertion** by adding a third string argument to the `assert` method that contains the message to be printed on failure.
 ```py
-def my_test(self):
+def test_equal(self):
   self.assertEqual(6, 6, "it should equal 6")
+```
+
+You can **test if an object is an instance of class** by using the `assertIsInstance` method.
+```py
+def test_is_instance(self):
+  
 ```
 
 ## Mocks
@@ -134,8 +140,8 @@ def test_stub_method(self):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4NjIyMjQ2LDE3MjY4MDU1NzEsMTA5NT
-E5NzQ1MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1
-MiwtMjIwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxOD
-k5OTg5XX0=
+eyJoaXN0b3J5IjpbLTE5NDc3Nzk5MDksOTE4NjIyMjQ2LDE3Mj
+Y4MDU1NzEsMTA5NTE5NzQ1MCwtMzE3MDUzNjc4LC03MjI4MjA1
+MzMsLTg0NjY1ODI1MiwtMjIwNzAxMzk3LDYxNzE0Mzk4OCwxOT
+g0ODIwOTEzLDcxODk5OTg5XX0=
 -->
