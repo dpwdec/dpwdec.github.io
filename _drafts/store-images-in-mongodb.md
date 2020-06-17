@@ -306,13 +306,13 @@ Image.find().lean().exec((err, images) => {
 
 ## Conclusion
 
-And that's it! You should now have a bas
+And that's it! You should now have a basic image upload system ready and working! If you want to see the full code and all the commits you can find it on my github [here](https://github.com/dpwdec/express-image-upload). Enjoy!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTkxMTMyNSwtMTgxNzQ5NzAwMywxOT
-MxNTE1MDMyLC0xNTkyNDc2MzM1LC0xMjA0OTY4MTk1LDE3Mzcw
-NTUxMzcsLTE1ODMwNjYwNTYsLTc5OTUxOTUzOSwxNzQzNzIzNT
-c1LC0yMDc2MTM1OTU4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4
-NzcyMTI5MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3ND
-UxMDUsMTc3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMs
-LTE3ODgxMDgwNDNdfQ==
+eyJoaXN0b3J5IjpbMTY5MDY4NDU3MCwxODk1OTExMzI1LC0xOD
+E3NDk3MDAzLDE5MzE1MTUwMzIsLTE1OTI0NzYzMzUsLTEyMDQ5
+NjgxOTUsMTczNzA1NTEzNywtMTU4MzA2NjA1NiwtNzk5NTE5NT
+M5LDE3NDM3MjM1NzUsLTIwNzYxMzU5NTgsMzg3OTAyNjkwLDUw
+NTY1NTE2NiwtMTg3NzIxMjkzNCwtMTUwMTUwNjM3NSwyMzgyNz
+c1OTIsLTk1ODc0NTEwNSwxNzc3MjE0ODk1LDE1MjEzMzg4NTUs
+MTU2NzEyMzc5M119
 -->
