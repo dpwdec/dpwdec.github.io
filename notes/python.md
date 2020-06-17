@@ -22,7 +22,12 @@ project
 from spam.spam_classes import Ham
 ```
 
-You can also **import entri**
+You can also **import entire modules** by specifying them using the same pattern, however in this from we would be `import`ing `spam_classes` from `spam`. We can then get `Ham` from classes by appending a `.` dot to the namespace in our code.
+```py
+from spam import spam_classes
+# access Ham from the spam_
+ham_instance = spam_classes.Ham()
+```
 
 ## Arithmetic Operators
 
@@ -124,7 +129,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzU5MTUxNywtNjk4MzcyOTUwLC0yOD
+eyJoaXN0b3J5IjpbMTI1MTI0NjExNSwtNjk4MzcyOTUwLC0yOD
 I3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQw
 MTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLTg2NjAyODUyNCwtMT
 QzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUyNyw2MjA5NzIzMTdd
