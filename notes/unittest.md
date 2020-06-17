@@ -38,6 +38,10 @@ def test_my_method(self):
   self.assertEqual(another_assertion, another_expectation)
 ```
 
+You can **create the equivalent of `before_each` methd**
+
+## Running tests
+
 You can **run all test files in you project** (i.e. file beginning with `_test`) by using the `python3 -m unittest` command and not passing in any file arguments.
 ```py
 $ python3 -m unittest
@@ -58,6 +62,7 @@ You cannot call testing files directly, such as `python3 test_my_class.py`, howe
 if __name__ == '__main__':
   unittest.name()
 ```
+
 
 ## Assertions
 
@@ -212,9 +217,9 @@ omit =
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTk3NjA0NTQsNDMxMjIzMTQwLC0xOT
-Q3Nzc5OTA5LDkxODYyMjI0NiwxNzI2ODA1NTcxLDEwOTUxOTc0
-NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2NTgyNTIsLT
-IyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMyw3MTg5OTk4
-OV19
+eyJoaXN0b3J5IjpbLTg4ODkwMjUxMCw0MzEyMjMxNDAsLTE5ND
+c3Nzk5MDksOTE4NjIyMjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1
+MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMj
+IwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5
+XX0=
 -->
