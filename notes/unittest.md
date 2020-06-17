@@ -170,7 +170,13 @@ pipenv run coverage run -m unittest
 pipenv run coverage report -m
 ```
 
-## Excluding
+## Configuration
+
+You can **configure your coverage settings** by creating a `.coveragerc` file.
+
+### Excluding
+
+You can **exclude a directory of file type**
 
 
 
@@ -178,8 +184,9 @@ pipenv run coverage report -m
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxMjIzMTQwLC0xOTQ3Nzc5OTA5LDkxOD
-YyMjI0NiwxNzI2ODA1NTcxLDEwOTUxOTc0NTAsLTMxNzA1MzY3
-OCwtNzIyODIwNTMzLC04NDY2NTgyNTIsLTIyMDcwMTM5Nyw2MT
-cxNDM5ODgsMTk4NDgyMDkxMyw3MTg5OTk4OV19
+eyJoaXN0b3J5IjpbLTE4NTEyMzIyMiw0MzEyMjMxNDAsLTE5ND
+c3Nzk5MDksOTE4NjIyMjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1
+MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMj
+IwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5
+XX0=
 -->
