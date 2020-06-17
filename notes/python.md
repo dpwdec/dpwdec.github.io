@@ -124,7 +124,15 @@ if __name__ == '__main__':
 
 ## Functions
 
-Python **supports Firstclass functions**. This means that functions and methods in python can be passed around as variables.
+Python **supports functions as first-class objects**. This means that functions and methods in python can be passed around as variables and submitted as arguments to other functions.
+```py
+def my_func(x):
+  print(x)
+
+my_func_var = my_func
+
+my_func_var() # => "
+```
 
 ## Classes
 
@@ -202,9 +210,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDU5NDQ3NSw0ODg0NjcyNDgsLTg5Nz
-A1OTc4MiwtNjk4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4
-LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMD
-A5MDM0NDgsLTg2NjAyODUyNCwtMTQzMzQ3MzQ3MywyODIxMTA5
-NDcsODU5NzUyNyw2MjA5NzIzMTddfQ==
+eyJoaXN0b3J5IjpbLTE5OTg4MTY0NDksLTE0NDU5NDQ3NSw0OD
+g0NjcyNDgsLTg5NzA1OTc4MiwtNjk4MzcyOTUwLC0yODI3NDY1
+NCwxMzczNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNz
+kwOTMxNTAxLDEyMDA5MDM0NDgsLTg2NjAyODUyNCwtMTQzMzQ3
+MzQ3MywyODIxMTA5NDcsODU5NzUyNyw2MjA5NzIzMTddfQ==
 -->
