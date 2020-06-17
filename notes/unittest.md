@@ -43,7 +43,12 @@ You can **run all test files in you project** (i.e. file beginning with `_test`)
 $ python3 -m unittest
 ```
 
-You can **run a test** by call `unittest` from Python as the main module and passing in the test file you want to run.
+You can **run a single test** by calling `unittest` from Python as the main module and passing in the test file you want to run.
+```bash
+$ python3 -m unittest test_my_class.py
+```
+
+You can **run tests in a specific directory** by using the `discover` command the passing in the directory name.
 ```bash
 $ python3 -m unittest test_my_class.py
 ```
@@ -207,9 +212,9 @@ omit =
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjExOTE4MCw0MzEyMjMxNDAsLTE5ND
-c3Nzk5MDksOTE4NjIyMjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1
-MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMj
-IwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5
-XX0=
+eyJoaXN0b3J5IjpbLTEyMTYyNTM1OTIsNDMxMjIzMTQwLC0xOT
+Q3Nzc5OTA5LDkxODYyMjI0NiwxNzI2ODA1NTcxLDEwOTUxOTc0
+NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2NTgyNTIsLT
+IyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMyw3MTg5OTk4
+OV19
 -->
