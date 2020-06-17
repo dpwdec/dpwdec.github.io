@@ -74,7 +74,8 @@ multi_line_string = ("This is a long string that is"
 
 You can **display a number with a set number of decimal places for a number** when you convert it to a string by using the `%` operator with a string in the form `"%.[NUMBER_OF_DECIMAL_PLACES]f"`.
 ```py
-
+"%.2f" % 5 # => 5.00
+"%.3f" % 5 # => 5.00
 ```
 
 ## Arrays
@@ -162,7 +163,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTA2NTMwMjYsLTg5NzA1OTc4MiwtNj
+eyJoaXN0b3J5IjpbLTEzNjUzNTE4NTUsLTg5NzA1OTc4MiwtNj
 k4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3
 NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLT
 g2NjAyODUyNCwtMTQzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUy
