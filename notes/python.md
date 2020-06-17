@@ -199,6 +199,11 @@ func_var = outer_func()
 func_var() # => Hello
 ```
 
+### Decorators
+
+A decorator function is a **higher order function** which **takes in a function and wraps or modifies** it in some way.
+
+
 ## Classes
 
 You can **indicate that a variable or method is private** by prepending an `_` to the front of the variable name. This doesn't *enforce* privacy but is generally accepted as a privacy naming convention and so other developers shouldn't try to directly access these methods as an interface in their code.
@@ -275,10 +280,10 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjY5MjMwMjcsMTM3MzEzMzU3MSwtMT
-Q0NTk0NDc1LDQ4ODQ2NzI0OCwtODk3MDU5NzgyLC02OTgzNzI5
-NTAsLTI4Mjc0NjU0LDEzNzM0NjU4MzgsLTExOTUxMjc0MDYsLT
-U1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMDkwMzQ0OCwtODY2MDI4
-NTI0LC0xNDMzNDczNDczLDI4MjExMDk0Nyw4NTk3NTI3LDYyMD
-k3MjMxN119
+eyJoaXN0b3J5IjpbNTEwMTUxMDE1LC0xODY2OTIzMDI3LDEzNz
+MxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0NjcyNDgsLTg5NzA1OTc4
+MiwtNjk4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMT
+k1MTI3NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0
+NDgsLTg2NjAyODUyNCwtMTQzMzQ3MzQ3MywyODIxMTA5NDcsOD
+U5NzUyNyw2MjA5NzIzMTddfQ==
 -->
