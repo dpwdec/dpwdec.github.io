@@ -99,6 +99,10 @@ if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
 
+## Classes
+
+You can **indicate that a class or instance variable is private** by prepending an `_` to the front of the variable na
+
 ## Pipenv
 
 Pipenv is a programming for managing python dependencies and project builds similar to tools like `npm` for javascript or `bundler` for ruby. The `pipenv` creates a `pipfile` which can be used to manage dependencies, project meta-data and project scripts. You can **install pipenv** using `brew`.
@@ -130,9 +134,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzA1OTc4MiwtNjk4MzcyOTUwLC0yOD
-I3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQw
-MTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLTg2NjAyODUyNCwtMT
-QzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUyNyw2MjA5NzIzMTdd
-fQ==
+eyJoaXN0b3J5IjpbOTMyMzE0OTIyLC04OTcwNTk3ODIsLTY5OD
+M3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwtMTE5NTEyNzQw
+NiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAzNDQ4LC04Nj
+YwMjg1MjQsLTE0MzM0NzM0NzMsMjgyMTEwOTQ3LDg1OTc1Mjcs
+NjIwOTcyMzE3XX0=
 -->
