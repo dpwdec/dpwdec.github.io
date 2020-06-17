@@ -247,9 +247,9 @@ uploadedImage.save(err => {
 
 Finally, we need to retrieve the image data we saved in the database and display it on our page. For the purposes of this guide we'll simply refresh the upload page and display the images in the database.
 
-Create a `res.redirect` command at the end of the `app.post` route inside the `.save` method that returns to the root `app.get` route.
+Create a `res.redirect` command at the end of the `app.post` route inside the `.save` callback method that returns to the root `app.get` route.
 ```js
-//app.js - save function only /with redirect
+//app.js - save function only /with new redirect
 
 uploadedImage.save(err => {
   if(err) { console.log(err); return; }
@@ -259,7 +259,7 @@ uploadedImage.save(err => {
 });
 ```
 
-Inside the `app.get('/')` route execute a `find` query on the `Image` model to retrieve the `Image` objects stored in the database. Because we want to `render` our page using `.hbs` files we have to convert the `model` objects that `mongoose` returns to us into plain javascript objects which we can do with a `.map` function. We also need to convert the binary data stored in our database into `base64` data so that it can converted into an image by our display elements `img` tag later on.
+Inside the `app.get('/')` route execute a `find` query on the `Image` model to retrieve the `Image` objects stored in the database. Because we want to `render` our page using `.hbs` files we have to convert the `model` objects that `mongoose` returns to us into plain javascript objects which we can do with a `.map` function. We also need to convert the binary data stored in our database into a `base64` d `img` tag later on.
 ```js
 // app.js - inside the app.get('/') route
 
@@ -289,11 +289,11 @@ Create a corresponding `handlebars` template block inside the `index.hbs` file t
 {{/if}}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTc0OTcwMDMsMTkzMTUxNTAzMiwtMT
-U5MjQ3NjMzNSwtMTIwNDk2ODE5NSwxNzM3MDU1MTM3LC0xNTgz
-MDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMzU3NSwtMjA3NjEzNT
-k1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0xODc3MjEyOTM0LC0x
-NTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4NzQ1MTA1LDE3NzcyMT
-Q4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkzLC0xNzg4MTA4MDQz
-XX0=
+eyJoaXN0b3J5IjpbLTM1MTU5NTU2MSwtMTgxNzQ5NzAwMywxOT
+MxNTE1MDMyLC0xNTkyNDc2MzM1LC0xMjA0OTY4MTk1LDE3Mzcw
+NTUxMzcsLTE1ODMwNjYwNTYsLTc5OTUxOTUzOSwxNzQzNzIzNT
+c1LC0yMDc2MTM1OTU4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4
+NzcyMTI5MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3ND
+UxMDUsMTc3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMs
+LTE3ODgxMDgwNDNdfQ==
 -->
