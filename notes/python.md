@@ -79,10 +79,15 @@ if __name__ == '__main__':
 
 ## Pipenv
 
-Pipenv is a programming for managing python dependencies and project builds similar to t
+Pipenv is a programming for managing python dependencies and project builds similar to tools like `npm` for javascript or `bundler` for ruby. The `pipenv` creates a `pipfile` which can be used to manage dependencies, project meta-data and project scripts. You can **install pipenv** using `brew`.
+```bash
+$ brew install pipenv
+```
+
+You ** can **
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDE1NTQ2MjEsLTExOTUxMjc0MDYsLT
-U1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMDkwMzQ0OCwtODY2MDI4
-NTI0LC0xNDMzNDczNDczLDI4MjExMDk0Nyw4NTk3NTI3LDYyMD
-k3MjMxN119
+eyJoaXN0b3J5IjpbOTU4NTQyMTE5LC0xMTk1MTI3NDA2LC01NT
+Y0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLTg2NjAyODUy
+NCwtMTQzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUyNyw2MjA5Nz
+IzMTddfQ==
 -->
