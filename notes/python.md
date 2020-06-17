@@ -202,7 +202,9 @@ func_var() # => Hello
 ### Decorators
 
 A decorator function is a **higher order function** which **takes in a function and wraps or modifies** it in some way.
+```py
 
+```
 
 ## Classes
 
@@ -280,10 +282,10 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwMTUxMDE1LC0xODY2OTIzMDI3LDEzNz
-MxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0NjcyNDgsLTg5NzA1OTc4
-MiwtNjk4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMT
-k1MTI3NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0
-NDgsLTg2NjAyODUyNCwtMTQzMzQ3MzQ3MywyODIxMTA5NDcsOD
-U5NzUyNyw2MjA5NzIzMTddfQ==
+eyJoaXN0b3J5IjpbMjAxNzg5NTM4MCwtMTg2NjkyMzAyNywxMz
+czMTMzNTcxLC0xNDQ1OTQ0NzUsNDg4NDY3MjQ4LC04OTcwNTk3
+ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwtMT
+E5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAz
+NDQ4LC04NjYwMjg1MjQsLTE0MzM0NzM0NzMsMjgyMTEwOTQ3LD
+g1OTc1MjcsNjIwOTcyMzE3XX0=
 -->
