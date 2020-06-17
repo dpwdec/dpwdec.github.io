@@ -82,7 +82,7 @@ You can **display a number with a set number of decimal places for a number** wh
 
 You can **display a set number of decimal places** using a shorter string interpolation syntax.
 ```py
-f'{5:.2f}" # => 5.00
+f"{5:.2f}" # => 5.00
 "%.3f" % 78 # => 78.000
 "%.4f" % 1.256932 # => 1.2569
 "%.3f" % 9.9877 # => 9.988 (rounded)
@@ -173,7 +173,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MjMzMzE4MSwtODk3MDU5NzgyLC02OT
+eyJoaXN0b3J5IjpbMjA3MDg0MzY0MCwtODk3MDU5NzgyLC02OT
 gzNzI5NTAsLTI4Mjc0NjU0LDEzNzM0NjU4MzgsLTExOTUxMjc0
 MDYsLTU1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMDkwMzQ0OCwtOD
 Y2MDI4NTI0LC0xNDMzNDczNDczLDI4MjExMDk0Nyw4NTk3NTI3
