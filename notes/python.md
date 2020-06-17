@@ -136,6 +136,8 @@ class ReallyPrivateClass():
     return "I cannot be accessed unless you know my secret name."
 ```
 
+
+
 ### Uniform Access Principle
 
 Python generally follow the [uniform access principle](https://en.wikipedia.org/wiki/Uniform_access_principle) meaning that class properties should be accessed directly and you should generally **not use getter and setter methods for properties**.
@@ -175,9 +177,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODI1NTU4OTIsLTg5NzA1OTc4MiwtNj
-k4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3
-NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLT
-g2NjAyODUyNCwtMTQzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUy
-Nyw2MjA5NzIzMTddfQ==
+eyJoaXN0b3J5IjpbNDg4NDY3MjQ4LC04OTcwNTk3ODIsLTY5OD
+M3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwtMTE5NTEyNzQw
+NiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAzNDQ4LC04Nj
+YwMjg1MjQsLTE0MzM0NzM0NzMsMjgyMTEwOTQ3LDg1OTc1Mjcs
+NjIwOTcyMzE3XX0=
 -->
