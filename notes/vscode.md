@@ -4,6 +4,11 @@ layout: page
 exclude: true
 ---
 You can **select an entire word or symbol** using the `CMD + D` shortcut. By pressing this keyboard shortcut multiple times you will switch **multi-word editing mode**, this will select each same word after the initial word you selected you can then type to replace them.
+
+You can **configure code formatting settings by language type** by going to the `Preferences: Configure Language Specific Settings`, selecting the language you want to edit from the list and then changing the displayed `.json` file to contain the desired settings.
+
+You can **strong text**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg5MTAyMDNdfQ==
+eyJoaXN0b3J5IjpbLTIxMDY4MTQ0ODEsLTEwMzg5MTAyMDNdfQ
+==
 -->
