@@ -147,6 +147,7 @@ my_high_function(my_func) # => "Goodbye"
 
 You can **define inner functions** in python by simply using the `def` keyword inside a python function.
 
+
 ## Classes
 
 You can **indicate that a variable or method is private** by prepending an `_` to the front of the variable name. This doesn't *enforce* privacy but is generally accepted as a privacy naming convention and so other developers shouldn't try to directly access these methods as an interface in their code.
@@ -223,7 +224,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzNDgxMzgzLC0xNDQ1OTQ0NzUsNDg4ND
+eyJoaXN0b3J5IjpbNTI4MzM1MTI1LC0xNDQ1OTQ0NzUsNDg4ND
 Y3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQs
 MTM3MzQ2NTgzOCwtMTE5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MD
 kzMTUwMSwxMjAwOTAzNDQ4LC04NjYwMjg1MjQsLTE0MzM0NzM0
