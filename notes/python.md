@@ -8,7 +8,13 @@ exclude: true
 
 You can **import python code from a parallel directory** by setting up each directory as a `package` using the `__init__.py` file and then importing using the `from` and `import` keywords.
 ```
-
+.
+├── eggs
+	├── __init__.py
+    └── egg_cla.py
+└── spam
+	├── __init__.py
+    └── spam_classes.py
 ```
 
 ## Arithmetic Operators
@@ -111,8 +117,8 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0MDI3OTIwLC0yODI3NDY1NCwxMzczND
-Y1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAx
-LDEyMDA5MDM0NDgsLTg2NjAyODUyNCwtMTQzMzQ3MzQ3MywyOD
-IxMTA5NDcsODU5NzUyNyw2MjA5NzIzMTddfQ==
+eyJoaXN0b3J5IjpbMTc4OTgwNzUsLTI4Mjc0NjU0LDEzNzM0Nj
+U4MzgsLTExOTUxMjc0MDYsLTU1NjQ2NDAxOCw3OTA5MzE1MDEs
+MTIwMDkwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDczNDczLDI4Mj
+ExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
 -->
