@@ -16,7 +16,7 @@ project
 	├── __init__.py
     └── spam_classes.py
 ```
- Given the directory structure below, imagine that there was a class defined
+ Given the directory structure above, imagine that there was a class defined in `spam_classes.py` called `Ham` that we wanted to import and use in a class called `Toast` defined in `egg_classes.py`. To do this you would need to specify the `package` or folder that the 
 
 ## Arithmetic Operators
 
@@ -118,8 +118,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODM3Mjk1MCwtMjgyNzQ2NTQsMTM3Mz
-Q2NTgzOCwtMTE5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MDkzMTUw
-MSwxMjAwOTAzNDQ4LC04NjYwMjg1MjQsLTE0MzM0NzM0NzMsMj
-gyMTEwOTQ3LDg1OTc1MjcsNjIwOTcyMzE3XX0=
+eyJoaXN0b3J5IjpbLTE5MTQwNjkxMCwtNjk4MzcyOTUwLC0yOD
+I3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQw
+MTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLTg2NjAyODUyNCwtMT
+QzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUyNyw2MjA5NzIzMTdd
+fQ==
 -->
