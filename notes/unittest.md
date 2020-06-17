@@ -228,16 +228,18 @@ Coveralls is a service for creating coverage badges for your repos. There is a w
 $ pipenv install python-coveralls
 ```
 
-Coveralls **does NOT currently work with `coverage.py` versions greater th**
+Coveralls **currently ONLY WORKS with `coverage.py` versions less than `5.0`**. You must set up your `pipfile` to only install `coverage="<5.0"` with semantic versioning if you want coveralls to work.
+
+After installing `python-coveralls` and adding i
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTU2NTQxMjcsLTE3MDU4MjgzODgsLT
-E5NzA0NzMyMDEsNDMxMjIzMTQwLC0xOTQ3Nzc5OTA5LDkxODYy
-MjI0NiwxNzI2ODA1NTcxLDEwOTUxOTc0NTAsLTMxNzA1MzY3OC
-wtNzIyODIwNTMzLC04NDY2NTgyNTIsLTIyMDcwMTM5Nyw2MTcx
-NDM5ODgsMTk4NDgyMDkxMyw3MTg5OTk4OV19
+eyJoaXN0b3J5IjpbMTM5NzE2NTAwNSwtMTcwNTgyODM4OCwtMT
+k3MDQ3MzIwMSw0MzEyMjMxNDAsLTE5NDc3Nzk5MDksOTE4NjIy
+MjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1MCwtMzE3MDUzNjc4LC
+03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMjIwNzAxMzk3LDYxNzE0
+Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5XX0=
 -->
