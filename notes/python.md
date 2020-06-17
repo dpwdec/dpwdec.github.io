@@ -76,8 +76,12 @@ When calling a file by name, such as `python3 my_file` that is not the `main` (o
 if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
+
+## Pipenv
+
+Pipenv is a programming for managing python dependencies and project builds similar to t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODkzNTIwNDQsLTExOTUxMjc0MDYsLT
+eyJoaXN0b3J5IjpbLTEwMDE1NTQ2MjEsLTExOTUxMjc0MDYsLT
 U1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMDkwMzQ0OCwtODY2MDI4
 NTI0LC0xNDMzNDczNDczLDI4MjExMDk0Nyw4NTk3NTI3LDYyMD
 k3MjMxN119
