@@ -184,7 +184,7 @@ my_func_var() # => Hello
 
 ### Closures
 
-You can ** create closures in python** by using variables define in the outer scope of a function in the inner scope and then calling the function. This **lexical scoping** allows the function to remember the context it was defined in.
+You can ** create closures in python** by using variables define in the outer scope of a function in the inner scope and then calling the function. This **lexical scoping** allows the function to remember the context it was defined in. In the example below `outer_func` contains a `outer_var` that is then referenced inside the `inner_func` function that it returns. Even when this function is called outside of that context having been extracted in `func_var` later in the code the value of `outer_var` is still known by the `func_var` function.
 ```py
 def outer_func():
 
@@ -275,7 +275,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTA3ODQ1NDAsMTM3MzEzMzU3MSwtMT
+eyJoaXN0b3J5IjpbLTE4NjY5MjMwMjcsMTM3MzEzMzU3MSwtMT
 Q0NTk0NDc1LDQ4ODQ2NzI0OCwtODk3MDU5NzgyLC02OTgzNzI5
 NTAsLTI4Mjc0NjU0LDEzNzM0NjU4MzgsLTExOTUxMjc0MDYsLT
 U1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMDkwMzQ0OCwtODY2MDI4
