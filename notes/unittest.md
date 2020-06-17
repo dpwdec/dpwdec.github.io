@@ -223,17 +223,21 @@ omit =
 
 ## Coveralls
 
-Coveralls is a service for creating coverage badges for your repos. There is a wrapper for coveralls for python that interfaces directly with Travis CI and the `coverage.py` module. T
+Coveralls is a service for creating coverage badges for your repos. There is a wrapper for coveralls for python that interfaces directly with Travis CI and the `coverage.py` module. To **install coveralls** simply run a `pip` command on the `python-coveralls` package.
+```bash
+$ pipenv install python-coveralls
+```
 
+Coveralls **does NOT currently work with `coverage.py` versions greater th**
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMDUzOTczMywtMTcwNTgyODM4OCwtMT
-k3MDQ3MzIwMSw0MzEyMjMxNDAsLTE5NDc3Nzk5MDksOTE4NjIy
-MjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1MCwtMzE3MDUzNjc4LC
-03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMjIwNzAxMzk3LDYxNzE0
-Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5XX0=
+eyJoaXN0b3J5IjpbLTEyNTU2NTQxMjcsLTE3MDU4MjgzODgsLT
+E5NzA0NzMyMDEsNDMxMjIzMTQwLC0xOTQ3Nzc5OTA5LDkxODYy
+MjI0NiwxNzI2ODA1NTcxLDEwOTUxOTc0NTAsLTMxNzA1MzY3OC
+wtNzIyODIwNTMzLC04NDY2NTgyNTIsLTIyMDcwMTM5Nyw2MTcx
+NDM5ODgsMTk4NDgyMDkxMyw3MTg5OTk4OV19
 -->
