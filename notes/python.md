@@ -112,9 +112,17 @@ class PrivateClass():
     return "This is a private method."
 ```
 
-You can **obfuscate a method or variable name** by using a `__` double leading underscore making acce
+You can **obfuscate a method or variable name** by using a `__` double leading underscore making access even more difficult. In this case python generates an obfuscated name, however the method or variable *can* still be called by this name.
 ```py
+class ReallyPrivateClass():
 
+  def __really_private_method():
+    return "I cannot be accessed unless you know my secret name."
+```
+
+### Uniform Access Principle
+
+Python generally follow
 
 ## Pipenv
 
@@ -147,7 +155,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg4MjkzODAsLTg5NzA1OTc4MiwtNj
+eyJoaXN0b3J5IjpbLTE0NDQxMjA2OTUsLTg5NzA1OTc4MiwtNj
 k4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3
 NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLT
 g2NjAyODUyNCwtMTQzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUy
