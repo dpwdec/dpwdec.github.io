@@ -223,7 +223,7 @@ omit =
 
 ## Coveralls
 
-
+Coveralls is a service for creating coverage badges for your repos. There is a wrapper for coveralls for python that interfaces directly with Travis CI and the `coverage.py` module. T
 
 
 
@@ -231,9 +231,9 @@ omit =
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1NTAwMDExLC0xNzA1ODI4Mzg4LC0xOT
-cwNDczMjAxLDQzMTIyMzE0MCwtMTk0Nzc3OTkwOSw5MTg2MjIy
-NDYsMTcyNjgwNTU3MSwxMDk1MTk3NDUwLC0zMTcwNTM2NzgsLT
-cyMjgyMDUzMywtODQ2NjU4MjUyLC0yMjA3MDEzOTcsNjE3MTQz
-OTg4LDE5ODQ4MjA5MTMsNzE4OTk5ODldfQ==
+eyJoaXN0b3J5IjpbLTYyMDUzOTczMywtMTcwNTgyODM4OCwtMT
+k3MDQ3MzIwMSw0MzEyMjMxNDAsLTE5NDc3Nzk5MDksOTE4NjIy
+MjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1MCwtMzE3MDUzNjc4LC
+03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMjIwNzAxMzk3LDYxNzE0
+Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5XX0=
 -->
