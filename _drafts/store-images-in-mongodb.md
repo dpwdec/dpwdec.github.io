@@ -259,7 +259,7 @@ uploadedImage.save(err => {
 });
 ```
 
-Inside the `app.get('/')` route execute a `find` query on the `Image` model to retrieve the `Image` objects stored in the database. Because we want to `render` our page using `.hbs` files we have to convert the `model` objects that `mongoose` returns to us into plain javascript objects which we can do with a `.map` function. We also need to convert the binary data stored in our database into a `base64` d `img` tag later on.
+Inside the `app.get('/')` route execute a `find` query on the `Image` model to retrieve the `Image` objects stored in the database. Because we want to `render` our page using `.hbs` files we have to convert the `model` objects that `mongoose` returns to us into plain javascript objects which we can do with a `.map` function. We also need to convert the binary data stored in our database into a `base64` that can be easily sent to our web page and displayed in the `img` tag later on.
 ```js
 // app.js - inside the app.get('/') route
 
@@ -271,7 +271,7 @@ Image.find((err, images) => { // find all images in the database
 });
 ```
 
-Now send the newly transformed `images` array to our client in the `res.render` function where it can be accessed and iterated through by our `handlebars` templating engine for display.
+Now send the newly transformed `images` array to our client through a properties object in the `res.render` function where it can be accessed and iterated through by our `handlebars` templating engine for display.
 ```js
 res.render('index.hbs', {images: images});
 ```
@@ -289,7 +289,7 @@ Create a corresponding `handlebars` template block inside the `index.hbs` file t
 {{/if}}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTU5NTU2MSwtMTgxNzQ5NzAwMywxOT
+eyJoaXN0b3J5IjpbMTM5NzU0NjQ0NiwtMTgxNzQ5NzAwMywxOT
 MxNTE1MDMyLC0xNTkyNDc2MzM1LC0xMjA0OTY4MTk1LDE3Mzcw
 NTUxMzcsLTE1ODMwNjYwNTYsLTc5OTUxOTUzOSwxNzQzNzIzNT
 c1LC0yMDc2MTM1OTU4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4
