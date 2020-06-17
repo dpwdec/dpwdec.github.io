@@ -145,6 +145,8 @@ def my_higher_function(func):
 my_high_function(my_func) # => "Goodbye"
 ```
 
+You can also construct **hi**
+
 ### Inner Functions
 
 You can **define inner functions** in python by simply using the `def` keyword inside a python function. You **can also call these functions from their outer context**.
@@ -163,7 +165,7 @@ outer_func()
 # => ...from the otherside.
 ```
 
-Inner functions are **locally scoped to the parent function** and cannot be called outside of the function they are defined in. Calling `
+Inner functions are **locally scoped to the parent function** and cannot be called outside of the function they are defined in. Calling `inner_func()` in the main scope on the code above with result in an error.
 
 
 ## Classes
@@ -242,9 +244,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5Mjg0NTE4LC0xNDQ1OTQ0NzUsNDg4ND
-Y3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQs
-MTM3MzQ2NTgzOCwtMTE5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MD
-kzMTUwMSwxMjAwOTAzNDQ4LC04NjYwMjg1MjQsLTE0MzM0NzM0
-NzMsMjgyMTEwOTQ3LDg1OTc1MjcsNjIwOTcyMzE3XX0=
+eyJoaXN0b3J5IjpbLTIxMzAxMzIxMiwtMTQ0NTk0NDc1LDQ4OD
+Q2NzI0OCwtODk3MDU5NzgyLC02OTgzNzI5NTAsLTI4Mjc0NjU0
+LDEzNzM0NjU4MzgsLTExOTUxMjc0MDYsLTU1NjQ2NDAxOCw3OT
+A5MzE1MDEsMTIwMDkwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDcz
+NDczLDI4MjExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
 -->
