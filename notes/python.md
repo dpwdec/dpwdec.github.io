@@ -122,6 +122,10 @@ if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
 
+## Functions
+
+Python **supports Firstclass functions**. This means that functions and meth
+
 ## Classes
 
 You can **indicate that a variable or method is private** by prepending an `_` to the front of the variable name. This doesn't *enforce* privacy but is generally accepted as a privacy naming convention and so other developers shouldn't try to directly access these methods as an interface in their code.
@@ -198,9 +202,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA2Mjc3MDgsNDg4NDY3MjQ4LC04OT
-cwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgz
-OCwtMTE5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMj
-AwOTAzNDQ4LC04NjYwMjg1MjQsLTE0MzM0NzM0NzMsMjgyMTEw
-OTQ3LDg1OTc1MjcsNjIwOTcyMzE3XX0=
+eyJoaXN0b3J5IjpbODU0ODMyMjEsNDg4NDY3MjQ4LC04OTcwNT
+k3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwt
+MTE5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOT
+AzNDQ4LC04NjYwMjg1MjQsLTE0MzM0NzM0NzMsMjgyMTEwOTQ3
+LDg1OTc1MjcsNjIwOTcyMzE3XX0=
 -->
