@@ -83,9 +83,11 @@ You can **display a number with a set number of decimal places for a number** wh
 You can **display a set number of decimal places** using a shorter string interpolation syntax.
 ```py
 f"{5:.2f}" # => 5.00
-"%.3f" % 78 # => 78.000
-"%.4f" % 1.256932 # => 1.2569
-"%.3f" % 9.9877 # => 9.988 (rounded)
+f"{78:.3f}" # => 78.000
+f"{1.256932:.4f}" # => 1.2569
+# with variable insertion syntax
+n = 9.9877
+f"{n:.3f}" % 9.9877 # => 9.988 (rounded)
 ```
 
 ## Arrays
@@ -173,9 +175,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDg0MzY0MCwtODk3MDU5NzgyLC02OT
-gzNzI5NTAsLTI4Mjc0NjU0LDEzNzM0NjU4MzgsLTExOTUxMjc0
-MDYsLTU1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMDkwMzQ0OCwtOD
-Y2MDI4NTI0LC0xNDMzNDczNDczLDI4MjExMDk0Nyw4NTk3NTI3
-LDYyMDk3MjMxN119
+eyJoaXN0b3J5IjpbLTEwMDY3NTk2ODMsLTg5NzA1OTc4MiwtNj
+k4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3
+NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLT
+g2NjAyODUyNCwtMTQzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUy
+Nyw2MjA5NzIzMTddfQ==
 -->
