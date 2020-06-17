@@ -163,13 +163,23 @@ To **report the coverage data** using the `report` function which will print a n
 $ pipenv run coverage report -m
 ```
 
+If you want to **run both the coverage data gathering and reporting together** you can combine both commands into a bash `.sh` script file.
+```bash
+#!/bin/bash
+pipenv run coverage run -m unittest
+pipenv run coverage report -m
+```
+
+## Excluding
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjM1ODk5NSwtMTk0Nzc3OTkwOSw5MT
-g2MjIyNDYsMTcyNjgwNTU3MSwxMDk1MTk3NDUwLC0zMTcwNTM2
-NzgsLTcyMjgyMDUzMywtODQ2NjU4MjUyLC0yMjA3MDEzOTcsNj
-E3MTQzOTg4LDE5ODQ4MjA5MTMsNzE4OTk5ODldfQ==
+eyJoaXN0b3J5IjpbNDMxMjIzMTQwLC0xOTQ3Nzc5OTA5LDkxOD
+YyMjI0NiwxNzI2ODA1NTcxLDEwOTUxOTc0NTAsLTMxNzA1MzY3
+OCwtNzIyODIwNTMzLC04NDY2NTgyNTIsLTIyMDcwMTM5Nyw2MT
+cxNDM5ODgsMTk4NDgyMDkxMyw3MTg5OTk4OV19
 -->
