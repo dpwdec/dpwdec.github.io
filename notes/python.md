@@ -124,7 +124,7 @@ if __name__ == '__main__':
 
 ## Functions
 
-Python **supports functions as first-class objects**. This means that functions and methods in python can be passed around as variables and submitted as arguments to other functions.
+Python **supports functions as first-class objects**. This means that functions and methods in python can be passed around as variables and submitted as arguments to other functions. You can **call function vari**
 ```py
 def my_func(x):
   print(x)
@@ -134,7 +134,16 @@ my_func_var = my_func
 my_func_var("Hello") # => Hello
 ```
 
-You can construct **higher order functions** using these function objec
+You can construct **higher order functions** using these function objects.  In the example below `my_func` is passed in 
+```py
+def my_func(x):
+  print(x)
+
+def my_higher_function(func):
+  func("Goodbye")
+
+my_high_function(my_func) # => "Goodbye"
+```
 
 ## Classes
 
@@ -212,7 +221,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzM0MjY3OTksLTE0NDU5NDQ3NSw0OD
+eyJoaXN0b3J5IjpbLTE3MTU4MzA3NDYsLTE0NDU5NDQ3NSw0OD
 g0NjcyNDgsLTg5NzA1OTc4MiwtNjk4MzcyOTUwLC0yODI3NDY1
 NCwxMzczNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNz
 kwOTMxNTAxLDEyMDA5MDM0NDgsLTg2NjAyODUyNCwtMTQzMzQ3
