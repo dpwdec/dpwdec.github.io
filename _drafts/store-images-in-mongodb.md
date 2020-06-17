@@ -291,13 +291,15 @@ Create a corresponding `handlebars` template block inside the `index.hbs` file t
 
 ## A note on mongoose `lean`
 
-One thing to note with this implementation is that the use 
+One thing to note with this implementation is that the retrieval of object's from the database is not very efficient because we're retrieving a whole bunch of complex `Image` model objects with the `find` method and then just converting them to plain javascript. That's a lot of functionality that is being bundled with `find` that we don't need to just read data and send it to our `.hbs` file for rendering.
+
+Mongoose has an answer to this in the form of `lean` query.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTc5NDMyMywtMTgxNzQ5NzAwMywxOT
-MxNTE1MDMyLC0xNTkyNDc2MzM1LC0xMjA0OTY4MTk1LDE3Mzcw
-NTUxMzcsLTE1ODMwNjYwNTYsLTc5OTUxOTUzOSwxNzQzNzIzNT
-c1LC0yMDc2MTM1OTU4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4
-NzcyMTI5MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3ND
-UxMDUsMTc3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMs
-LTE3ODgxMDgwNDNdfQ==
+eyJoaXN0b3J5IjpbLTE3NTg4OTY2MjMsLTE4MTc0OTcwMDMsMT
+kzMTUxNTAzMiwtMTU5MjQ3NjMzNSwtMTIwNDk2ODE5NSwxNzM3
+MDU1MTM3LC0xNTgzMDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMz
+U3NSwtMjA3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0x
+ODc3MjEyOTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4Nz
+Q1MTA1LDE3NzcyMTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkz
+LC0xNzg4MTA4MDQzXX0=
 -->
