@@ -201,7 +201,7 @@ func_var() # => Hello
 
 ### Decorators
 
-A decorator function is a **higher order function** which **takes in a function and wraps or modifies** . In the example below the `simple` function is passed into the `deocorate` function as an argument
+A decorator function is a **higher order function** which **takes in a function and wraps or modifies** using a `wrapper` function. In the example below the `simple` function is passed into the `deocorate` function as an argument, then the inner `wrapper` function calls the `func` variable and adds some extra functionality. After this definition the `simple` function is then reassigned to its decorated version and called.
 ```py
 def simple():
     print("I am simple function.")
@@ -219,6 +219,8 @@ simple()
 # => I am simple function.
 # => I've made this function much better.
 ```
+
+
 
 ## Classes
 
@@ -296,10 +298,10 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0OTI1Mjg0LDIwMTc4OTUzODAsLTE4Nj
-Y5MjMwMjcsMTM3MzEzMzU3MSwtMTQ0NTk0NDc1LDQ4ODQ2NzI0
-OCwtODk3MDU5NzgyLC02OTgzNzI5NTAsLTI4Mjc0NjU0LDEzNz
-M0NjU4MzgsLTExOTUxMjc0MDYsLTU1NjQ2NDAxOCw3OTA5MzE1
-MDEsMTIwMDkwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDczNDczLD
-I4MjExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
+eyJoaXN0b3J5IjpbMTYwMzM0MTU4NywyMDE3ODk1MzgwLC0xOD
+Y2OTIzMDI3LDEzNzMxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0Njcy
+NDgsLTg5NzA1OTc4MiwtNjk4MzcyOTUwLC0yODI3NDY1NCwxMz
+czNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNzkwOTMx
+NTAxLDEyMDA5MDM0NDgsLTg2NjAyODUyNCwtMTQzMzQ3MzQ3My
+wyODIxMTA5NDcsODU5NzUyNyw2MjA5NzIzMTddfQ==
 -->
