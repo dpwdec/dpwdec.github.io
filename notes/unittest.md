@@ -44,11 +44,17 @@ def setUp(self):
   # do set up here
 ```
 
-You can **keep your test code organised into blocks of similar functionality** by creating a single test class for a specific set of tests with a single `setUp` method and then inheriting a number of different test classes from that class to organise your test code.
+You can **keep your test code organised into blocks of similar functionality** by creating a single test class for a specific set of tests with a single `setUp` method and then inheriting a number of different test classes from that class to organise your test code. In the example below we define a `TestClass` that inherits from the `unittest.TestCase` class and then when we want to organise a specific and more localised test we subclass it with the `So
 ```py
 class TestClass(TestCase):
 
-  s
+  def setUp(self):
+    # general class set up
+
+class SomeSpecificTest(TestClas):
+
+  def test_something_specific(self):
+    # do a specific test
 ```
 
 ## Running tests
@@ -260,7 +266,7 @@ after_success:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0Mjg4MDMyMCwtNDM4OTkyNzQ1LC0xNz
+eyJoaXN0b3J5IjpbLTY1MDM5NTk4NCwtNDM4OTkyNzQ1LC0xNz
 A1ODI4Mzg4LC0xOTcwNDczMjAxLDQzMTIyMzE0MCwtMTk0Nzc3
 OTkwOSw5MTg2MjIyNDYsMTcyNjgwNTU3MSwxMDk1MTk3NDUwLC
 0zMTcwNTM2NzgsLTcyMjgyMDUzMywtODQ2NjU4MjUyLC0yMjA3
