@@ -6,16 +6,17 @@ exclude: true
 
 ## Importing
 
-You can **import python code from a parallel directory** by setting up each directory as a `package` using the `__init__.py` file and then importing using the `from` and `import` keywords. Adding the `__init__.py` file makes the enclosing directory into a package structure that python can recognise with the enclosing files acting as modules that can be extended from and have their contents imported.
+You can **import python code from a parallel directory** by setting up each directory as a `package` using the `__init__.py` file and then importing using the `from` and `import` keywords. Adding the `__init__.py` file makes the enclosing directory into a package structure that python can recognise with the enclosing files acting as modules that can be extended from and have their contents imported. Below is an example directory structure that would allow for package imports.
 ```
-.
+project
 ├── eggs
-	├── __init__.py
-    └── egg_classes.py
+|	├── __init__.py
+|   └── egg_classes.py
 └── spam
 	├── __init__.py
     └── spam_classes.py
 ```
+ Given the directory structure below, imagine that there was a class defined
 
 ## Arithmetic Operators
 
@@ -117,7 +118,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MjgzMDI1OCwtMjgyNzQ2NTQsMTM3Mz
+eyJoaXN0b3J5IjpbLTY5ODM3Mjk1MCwtMjgyNzQ2NTQsMTM3Mz
 Q2NTgzOCwtMTE5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MDkzMTUw
 MSwxMjAwOTAzNDQ4LC04NjYwMjg1MjQsLTE0MzM0NzM0NzMsMj
 gyMTEwOTQ3LDg1OTc1MjcsNjIwOTcyMzE3XX0=
