@@ -220,7 +220,7 @@ simple()
 # => I've made this function much better.
 ```
 
-
+You can **define a decorator function more easily** by using python's `@` at symbol, also known as **pie syntax** to invoke a decorator function on another function.
 
 ## Classes
 
@@ -298,10 +298,10 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzM0MTU4NywyMDE3ODk1MzgwLC0xOD
-Y2OTIzMDI3LDEzNzMxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0Njcy
-NDgsLTg5NzA1OTc4MiwtNjk4MzcyOTUwLC0yODI3NDY1NCwxMz
-czNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNzkwOTMx
-NTAxLDEyMDA5MDM0NDgsLTg2NjAyODUyNCwtMTQzMzQ3MzQ3My
-wyODIxMTA5NDcsODU5NzUyNyw2MjA5NzIzMTddfQ==
+eyJoaXN0b3J5IjpbMjU3NjI2Nzk3LDIwMTc4OTUzODAsLTE4Nj
+Y5MjMwMjcsMTM3MzEzMzU3MSwtMTQ0NTk0NDc1LDQ4ODQ2NzI0
+OCwtODk3MDU5NzgyLC02OTgzNzI5NTAsLTI4Mjc0NjU0LDEzNz
+M0NjU4MzgsLTExOTUxMjc0MDYsLTU1NjQ2NDAxOCw3OTA5MzE1
+MDEsMTIwMDkwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDczNDczLD
+I4MjExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
 -->
