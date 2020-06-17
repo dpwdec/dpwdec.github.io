@@ -145,7 +145,7 @@ def my_higher_function(func):
 my_high_function(my_func) # => "Goodbye"
 ```
 
-
+You can **define inner functions** in python by simply using the `def` keyword inside a python function.
 
 ## Classes
 
@@ -223,9 +223,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTk1MTcwMzIsLTE0NDU5NDQ3NSw0OD
-g0NjcyNDgsLTg5NzA1OTc4MiwtNjk4MzcyOTUwLC0yODI3NDY1
-NCwxMzczNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNz
-kwOTMxNTAxLDEyMDA5MDM0NDgsLTg2NjAyODUyNCwtMTQzMzQ3
-MzQ3MywyODIxMTA5NDcsODU5NzUyNyw2MjA5NzIzMTddfQ==
+eyJoaXN0b3J5IjpbNTMzNDgxMzgzLC0xNDQ1OTQ0NzUsNDg4ND
+Y3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQs
+MTM3MzQ2NTgzOCwtMTE5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MD
+kzMTUwMSwxMjAwOTAzNDQ4LC04NjYwMjg1MjQsLTE0MzM0NzM0
+NzMsMjgyMTEwOTQ3LDg1OTc1MjcsNjIwOTcyMzE3XX0=
 -->
