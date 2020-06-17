@@ -220,7 +220,22 @@ simple()
 # => I've made this function much better.
 ```
 
-You can **define a decorator function more easily** by using python's `@` at symbol, also known as **pie syntax** to invoke a decorator function on another function.
+You can **define a decorator function more easily** by using python's `@` at symbol, also known as **pie syntax** to invoke a decorator function on another function without having to actively re-assign the function definition through the decorator.
+```py
+def decorate(func):
+    
+    def wrapper():
+        func()
+        print("I've made this function much better.")
+
+    return wrapper
+
+@decorate
+def simple():
+    print("I am simple function.")
+
+simple
+```
 
 ## Classes
 
@@ -298,10 +313,11 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3NjI2Nzk3LDIwMTc4OTUzODAsLTE4Nj
-Y5MjMwMjcsMTM3MzEzMzU3MSwtMTQ0NTk0NDc1LDQ4ODQ2NzI0
-OCwtODk3MDU5NzgyLC02OTgzNzI5NTAsLTI4Mjc0NjU0LDEzNz
-M0NjU4MzgsLTExOTUxMjc0MDYsLTU1NjQ2NDAxOCw3OTA5MzE1
-MDEsMTIwMDkwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDczNDczLD
-I4MjExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
+eyJoaXN0b3J5IjpbLTU4OTk3MDAzOCwyNTc2MjY3OTcsMjAxNz
+g5NTM4MCwtMTg2NjkyMzAyNywxMzczMTMzNTcxLC0xNDQ1OTQ0
+NzUsNDg4NDY3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMj
+gyNzQ2NTQsMTM3MzQ2NTgzOCwtMTE5NTEyNzQwNiwtNTU2NDY0
+MDE4LDc5MDkzMTUwMSwxMjAwOTAzNDQ4LC04NjYwMjg1MjQsLT
+E0MzM0NzM0NzMsMjgyMTEwOTQ3LDg1OTc1MjcsNjIwOTcyMzE3
+XX0=
 -->
