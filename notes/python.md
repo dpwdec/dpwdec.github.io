@@ -87,7 +87,7 @@ f"{78:.3f}" # => 78.000
 f"{1.256932:.4f}" # => 1.2569
 # with variable insertion syntax
 n = 9.9877
-f"{n:.3f}" % 9.9877 # => 9.988 (rounded)
+f"{n:.3f}" # => 9.988 (rounded)
 ```
 
 ## Arrays
@@ -175,7 +175,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY3NTk2ODMsLTg5NzA1OTc4MiwtNj
+eyJoaXN0b3J5IjpbLTEzODI1NTU4OTIsLTg5NzA1OTc4MiwtNj
 k4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3
 NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLT
 g2NjAyODUyNCwtMTQzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUy
