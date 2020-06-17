@@ -43,6 +43,15 @@ print(f"this number is {x}")
 # => this number is 7
 ```
 
+You can **spread a python string over multiple lines** by containing the strings inside a set of `()` soft braces at assignment.
+```py
+multi_line_string = ("This is a long string that is"
+"split over multiple lines"
+"and takes upn a lot of space.")
+```
+
+
+
 ## Arrays
 
 You can **add an element to a python array** with the `append` method. Sadly `push` does not exist in python 😢.
@@ -68,7 +77,8 @@ if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTUxMjc0MDYsLTU1NjQ2NDAxOCw3OT
-A5MzE1MDEsMTIwMDkwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDcz
-NDczLDI4MjExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
+eyJoaXN0b3J5IjpbLTE3ODkzNTIwNDQsLTExOTUxMjc0MDYsLT
+U1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMDkwMzQ0OCwtODY2MDI4
+NTI0LC0xNDMzNDczNDczLDI4MjExMDk0Nyw4NTk3NTI3LDYyMD
+k3MjMxN119
 -->
