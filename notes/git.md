@@ -10,6 +10,10 @@ $ git reset --hard origin/master
 $ git clean -f
 ```
 
+## staging
+
+You can **remove a file from the git staging area**
+
 ## gitignore
 If you want to specify in your `.gitignore` that you want to **commit a folder to git but NOT the contents of that folder** you should use the `*` all and `!` exception flags. You **cannot commit empty folders to git** so you need to add at least one file to the folder, its recommended that this is a `.gitkeep` file which will allow you to commit the folder but won't effect your project. You then need to set up your `.gitignore` so that the contents of folder is ignored, using the `*` all matcher and then create an exception to that rule using the `!` exception flag that specifies that you *CAN* upload the `.gitkeep` file.
 ```git
@@ -29,5 +33,5 @@ The associated file structure would look something like the example below.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzE2MzYzNywtMjA2MzU5ODY2Nl19
+eyJoaXN0b3J5IjpbMTQzNzEyNjc1OSwtMjA2MzU5ODY2Nl19
 -->
