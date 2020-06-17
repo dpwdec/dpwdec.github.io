@@ -100,12 +100,16 @@ To **run the script** above you would call:
 $ pipenv run test
 ```
 
-You **cannot use `:` characters in a script name** like `test:unit` or `run:
+You **cannot use `:` characters in a script name** like `test:unit` or `run:main`.
+```
+[scripts]
+test:unit = "python3 -m unittest" <-- NOT ALLOWED X
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDIxMjc0MDQsMTM3MzQ2NTgzOCwtMT
-E5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAz
-NDQ4LC04NjYwMjg1MjQsLTE0MzM0NzM0NzMsMjgyMTEwOTQ3LD
-g1OTc1MjcsNjIwOTcyMzE3XX0=
+eyJoaXN0b3J5IjpbLTI4Mjc0NjU0LDEzNzM0NjU4MzgsLTExOT
+UxMjc0MDYsLTU1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMDkwMzQ0
+OCwtODY2MDI4NTI0LC0xNDMzNDczNDczLDI4MjExMDk0Nyw4NT
+k3NTI3LDYyMDk3MjMxN119
 -->
