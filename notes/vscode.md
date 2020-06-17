@@ -9,12 +9,36 @@ You can **configure code formatting settings by language type** by editing vs co
 
 1. Use the keyboard shortcut `CMD + SHIFT + P`
 2. Type into the search box `Preferences: Configure Language Specific Settings`
-3. Select the language you want to customise
-the `Preferences: Configure Language Specific Settings` using the keyboard command `CMD + SHIFT + P`  and then selecting the language you want to edit from the list and then changing the displayed `.json` file to contain the desired settings. Below, is an example of the `.json`, edited for python to set the default tab size for that language to `4`.
+3. Select the language you want to customise editor settings for. This will open the `settings.json` file with a new entry for that language.
+4. Create a new key-value pair that indicates what changes you want in the editor.
+ 
+In the below example of the `settings.json` file is edited for python to set the default tab size for that language to `4`.
 ```json
+{
 
+"editor.tabSize": 2,
+
+"window.zoomLevel": 1,
+
+"editor.renderWhitespace": "all",
+
+"workbench.colorTheme": "Atom One Dark",
+
+"[python]": {
+
+"editor.tabSize": 4
+
+},
+
+"[rust]": {
+
+"editor.tabSize": 4
+
+}
+
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTI3ODY0NSwtMTczNzkwMjU3MSwtMT
-AzODkxMDIwM119
+eyJoaXN0b3J5IjpbLTE2MjEwNzM1MzIsLTE3Mzc5MDI1NzEsLT
+EwMzg5MTAyMDNdfQ==
 -->
