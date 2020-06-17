@@ -101,7 +101,7 @@ if __name__ == '__main__':
 
 ## Classes
 
-You can **indicate that a variable or method is private** by prepending an `_` to the front of the variable name.
+You can **indicate that a variable or method is private** by prepending an `_` to the front of the variable name. This doesn't *enforce* privacy but is generally accepted as a privacy naming convention and so other developers shouldn't try to directly access these methods as an interface in their code.
 ```py
 class PrivateClass():
   
@@ -109,8 +109,12 @@ class PrivateClass():
     self._prive_var = "I am private."
 
   def _private_method():
-    return "This is a private method.
+    return "This is a private method."
 ```
+
+You can **obfuscate a method or variable name** by using a `__` double leading underscore making acce
+```py
+
 
 ## Pipenv
 
@@ -143,7 +147,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTU1NzI3NzIsLTg5NzA1OTc4MiwtNj
+eyJoaXN0b3J5IjpbLTE1Njg4MjkzODAsLTg5NzA1OTc4MiwtNj
 k4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3
 NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLT
 g2NjAyODUyNCwtMTQzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUy
