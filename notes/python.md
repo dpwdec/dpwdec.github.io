@@ -220,7 +220,7 @@ simple()
 # => I've made this function much better.
 ```
 
-You can **define a decorator function more easily** by using python's `@` at symbol, also known as **pie syntax** to invoke a decorator function on another function without having to actively re-assign the function definition through the decorator.
+You can **define a decorator function more easily** by using python's `@` at symbol, also known as **pie syntax** to invoke a decorator function on another function without having to actively re-assign the function definition through the decorator. By using `@decorate` in the example below the `simple` function is automatically assigned to use the `decorate` decorator and is altered very easily. This also means that you can **re-use and generalise decorators** for a range of different functions.
 ```py
 def decorate(func):
     
@@ -234,7 +234,9 @@ def decorate(func):
 def simple():
     print("I am simple function.")
 
-simple
+simple()
+# => I am simple function.
+# => I've made this function much better.
 ```
 
 ## Classes
@@ -313,7 +315,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTk3MDAzOCwyNTc2MjY3OTcsMjAxNz
+eyJoaXN0b3J5IjpbLTI0NTMyODc1MiwyNTc2MjY3OTcsMjAxNz
 g5NTM4MCwtMTg2NjkyMzAyNywxMzczMTMzNTcxLC0xNDQ1OTQ0
 NzUsNDg4NDY3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMj
 gyNzQ2NTQsMTM3MzQ2NTgzOCwtMTE5NTEyNzQwNiwtNTU2NDY0
