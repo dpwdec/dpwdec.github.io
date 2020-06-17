@@ -146,20 +146,27 @@ $ pip install coverage
 $ pipenv install coverage
 ```
 
+## Tracking coverage
+
 The basic flow of `coverage.py` is to
 
 1. Run your python tests using `coverage` and collect data on test coverage
 2. Report the test coverage data
 
-Unlike other test coverage frameworks these are divided into separate command line steps to execute. (The following examples show usage using `pipenv`, however they are quite similar to the standard CLI usage in the `coverage.py` docs. To **run tests with coverage data gathering** use the `run` command with `coverage`.
+Unlike other test coverage frameworks these are divided into separate command line steps to execute. (The following examples show usage using `pipenv`, however they are quite similar to the standard CLI usage in the `coverage.py` docs. To **run tests with coverage data gathering** use the `run` command with `coverage`. This will create a `.coverage` file in your repo that 
 ```bash
 $ pipenv run coverage run -m unittest
 ```
 
-T
+To **report the coverage data** using the `report` function which will print a nice table showing test coverage
+```bash
+$ pipenv run coverage report -m
+```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzODE0MDY3LC0xOTQ3Nzc5OTA5LDkxOD
+eyJoaXN0b3J5IjpbNTAxOTA1NTg3LC0xOTQ3Nzc5OTA5LDkxOD
 YyMjI0NiwxNzI2ODA1NTcxLDEwOTUxOTc0NTAsLTMxNzA1MzY3
 OCwtNzIyODIwNTMzLC04NDY2NTgyNTIsLTIyMDcwMTM5Nyw2MT
 cxNDM5ODgsMTk4NDgyMDkxMyw3MTg5OTk4OV19
