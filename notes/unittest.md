@@ -140,10 +140,14 @@ def test_stub_method(self):
 
 # Coverage
 
-You can track pyt
+You can **track python test coverage** using the `coverage.py` module. You can **install `coverage.py`** using `pip install` or `pipenv install`.
+```bash
+$ pip install coverage
+$ pipenv install coverage
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTk4NzU3MywtMTk0Nzc3OTkwOSw5MT
+eyJoaXN0b3J5IjpbLTgwNjAyNzQxNCwtMTk0Nzc3OTkwOSw5MT
 g2MjIyNDYsMTcyNjgwNTU3MSwxMDk1MTk3NDUwLC0zMTcwNTM2
 NzgsLTcyMjgyMDUzMywtODQ2NjU4MjUyLC0yMjA3MDEzOTcsNj
 E3MTQzOTg4LDE5ODQ4MjA5MTMsNzE4OTk5ODldfQ==
