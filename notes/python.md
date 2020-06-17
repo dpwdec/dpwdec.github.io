@@ -77,6 +77,7 @@ You can **display a number with a set number of decimal places for a number** wh
 "%.2f" % 5 # => 5.00
 "%.3f" % 78 # => 78.000
 "%.4f" % 1.256932 # => 1.2569
+"%.3f" % 9.9877 # => 1.2569
 ```
 
 ## Arrays
@@ -164,7 +165,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5NzE5MDM1LC04OTcwNTk3ODIsLTY5OD
+eyJoaXN0b3J5IjpbNTE1NjcxODI1LC04OTcwNTk3ODIsLTY5OD
 M3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwtMTE5NTEyNzQw
 NiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAzNDQ4LC04Nj
 YwMjg1MjQsLTE0MzM0NzM0NzMsMjgyMTEwOTQ3LDg1OTc1Mjcs
