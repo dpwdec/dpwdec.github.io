@@ -72,7 +72,7 @@ multi_line_string = ("This is a long string that is"
 "and takes upn a lot of space.")
 ```
 
-
+You can **display a number with a**
 
 ## Arrays
 
@@ -124,8 +124,8 @@ class ReallyPrivateClass():
 
 Python generally follow the [uniform access principle](https://en.wikipedia.org/wiki/Uniform_access_principle) meaning that class properties should be accessed directly and you should generally **not use getter and setter methods for properties**.
 ```py
-my_object.set_x(20) <-- NOT SO GOOD
-my_object.x = 20 <-- BETTER
+my_object.set_x(20) # <-- NOT SO GOOD
+my_object.x = 20 # <-- BETTER
 ```
 
 ## Pipenv
@@ -159,9 +159,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4Mzg4MjAyNSwtODk3MDU5NzgyLC02OT
-gzNzI5NTAsLTI4Mjc0NjU0LDEzNzM0NjU4MzgsLTExOTUxMjc0
-MDYsLTU1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMDkwMzQ0OCwtOD
-Y2MDI4NTI0LC0xNDMzNDczNDczLDI4MjExMDk0Nyw4NTk3NTI3
-LDYyMDk3MjMxN119
+eyJoaXN0b3J5IjpbMTcwOTU4MTg1LC04OTcwNTk3ODIsLTY5OD
+M3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwtMTE5NTEyNzQw
+NiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAzNDQ4LC04Nj
+YwMjg1MjQsLTE0MzM0NzM0NzMsMjgyMTEwOTQ3LDg1OTc1Mjcs
+NjIwOTcyMzE3XX0=
 -->
