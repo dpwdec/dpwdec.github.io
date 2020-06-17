@@ -291,11 +291,11 @@ Create a corresponding `handlebars` template block inside the `index.hbs` file t
 
 ## A note on mongoose `lean`
 
-One thing to note with this implementation is that the retrieval of object's from the database is not very efficient because we're retrieving a whole bunch of complex `Image` model objects with the `find` method and then just converting them to plain javascript. That's a lot of functionality that is being bundled with `find` that we don't need to just read data and send it to our `.hbs` file for rendering.
+One thing to note with this implementation is that the retrieval of object's from the database is not very efficient because we're retrieving a whole bunch of complex `Image` model objects with the `find` method and then just converting them to plain javascript. That's a lot of functionality that is being bundled with `find` that we don't need to just read data and send it to our `.hbs` file for rendering. In the name of clarity I used the clearest and slowest implementation above, but if you want to speed up retrieval you can refactor the `find` to use Mongoose's `lean` query method.
 
-Mongoose has an answer to this in the form of `lean` query.
+The `lean` method is appended to the end of a `find` method and then followed by an `exec` method that executes the query and processes the databas
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg4OTY2MjMsLTE4MTc0OTcwMDMsMT
+eyJoaXN0b3J5IjpbLTIwODQyNDk5OTIsLTE4MTc0OTcwMDMsMT
 kzMTUxNTAzMiwtMTU5MjQ3NjMzNSwtMTIwNDk2ODE5NSwxNzM3
 MDU1MTM3LC0xNTgzMDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMz
 U3NSwtMjA3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0x
