@@ -6,12 +6,12 @@ exclude: true
 
 ## Importing
 
-You can **import python code from a parallel directory** by setting up each directory as a `package` using the `__init__.py` file and then importing using the `from` and `import` keywords.
+You can **import python code from a parallel directory** by setting up each directory as a `package` using the `__init__.py` file and then importing using the `from` and `import` keywords. Adding the `__init__.py` file makes the enclosing directory into a package structure that python can recognise with the enclosing files acting as modules that can be extended from and have their contents imported.
 ```
 .
 ├── eggs
 	├── __init__.py
-    └── egg_cla.py
+    └── egg_classes.py
 └── spam
 	├── __init__.py
     └── spam_classes.py
@@ -117,8 +117,8 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTgwNzUsLTI4Mjc0NjU0LDEzNzM0Nj
-U4MzgsLTExOTUxMjc0MDYsLTU1NjQ2NDAxOCw3OTA5MzE1MDEs
-MTIwMDkwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDczNDczLDI4Mj
-ExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
+eyJoaXN0b3J5IjpbLTk4MjgzMDI1OCwtMjgyNzQ2NTQsMTM3Mz
+Q2NTgzOCwtMTE5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MDkzMTUw
+MSwxMjAwOTAzNDQ4LC04NjYwMjg1MjQsLTE0MzM0NzM0NzMsMj
+gyMTEwOTQ3LDg1OTc1MjcsNjIwOTcyMzE3XX0=
 -->
