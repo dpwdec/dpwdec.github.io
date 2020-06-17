@@ -50,7 +50,7 @@ $ python3 -m unittest test_my_class.py
 
 You can **run tests in a specific directory** by using the `discover` command the passing in the directory name.
 ```bash
-$ python3 -m unittest test_my_class.py
+$ python3 -m unittest discover my_test_folder
 ```
 
 You cannot call testing files directly, such as `python3 test_my_class.py`, however, you can **set up a test file to run through the `unittest` framework automatically when called** use the `__name__ == '__main__'` pattern by appending the code below to the body of your test file. This will conveniently **only run the test that was called** with the `python` run command and won't trigger the `unittest.main` method for ALL tests.
@@ -212,9 +212,9 @@ omit =
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTYyNTM1OTIsNDMxMjIzMTQwLC0xOT
-Q3Nzc5OTA5LDkxODYyMjI0NiwxNzI2ODA1NTcxLDEwOTUxOTc0
-NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2NTgyNTIsLT
-IyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMyw3MTg5OTk4
-OV19
+eyJoaXN0b3J5IjpbLTU0MTA2MzE4Miw0MzEyMjMxNDAsLTE5ND
+c3Nzk5MDksOTE4NjIyMjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1
+MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMj
+IwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5
+XX0=
 -->
