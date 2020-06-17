@@ -72,12 +72,12 @@ multi_line_string = ("This is a long string that is"
 "and takes upn a lot of space.")
 ```
 
-You can **display a number with a set number of decimal places for a number** when you convert it to a string by using the `%` operator with a string in the form `"%.[NUMBER_OF_DECIMAL_PLACES]f"`. This will add decimal places as `0` zeroes if the number doesn't have enough and remove decimal places if the number has too many.
+You can **display a number with a set number of decimal places for a number** when you convert it to a string by using the `%` operator with a string in the form `"%.[NUMBER_OF_DECIMAL_PLACES]f"`. This will add decimal places as `0` zeroes if the number doesn't have enough and remove decimal places if the number has too many, it will also **round the last decimal place**.
 ```py
 "%.2f" % 5 # => 5.00
 "%.3f" % 78 # => 78.000
 "%.4f" % 1.256932 # => 1.2569
-"%.3f" % 9.9877 # => 1.2569
+"%.3f" % 9.9877 # => 9.988 (rounded)
 ```
 
 ## Arrays
@@ -165,9 +165,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1NjcxODI1LC04OTcwNTk3ODIsLTY5OD
-M3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwtMTE5NTEyNzQw
-NiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAzNDQ4LC04Nj
-YwMjg1MjQsLTE0MzM0NzM0NzMsMjgyMTEwOTQ3LDg1OTc1Mjcs
-NjIwOTcyMzE3XX0=
+eyJoaXN0b3J5IjpbLTExMDA2NTAxMzUsLTg5NzA1OTc4MiwtNj
+k4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3
+NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLT
+g2NjAyODUyNCwtMTQzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUy
+Nyw2MjA5NzIzMTddfQ==
 -->
