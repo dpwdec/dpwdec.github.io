@@ -138,10 +138,13 @@ def test_stub_method(self):
   self.assertEqual(real_instance.real_method(), 35)
 ```
 
+# Coverage
+
+You can track pyt
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc3Nzk5MDksOTE4NjIyMjQ2LDE3Mj
-Y4MDU1NzEsMTA5NTE5NzQ1MCwtMzE3MDUzNjc4LC03MjI4MjA1
-MzMsLTg0NjY1ODI1MiwtMjIwNzAxMzk3LDYxNzE0Mzk4OCwxOT
-g0ODIwOTEzLDcxODk5OTg5XX0=
+eyJoaXN0b3J5IjpbLTE0OTk4NzU3MywtMTk0Nzc3OTkwOSw5MT
+g2MjIyNDYsMTcyNjgwNTU3MSwxMDk1MTk3NDUwLC0zMTcwNTM2
+NzgsLTcyMjgyMDUzMywtODQ2NjU4MjUyLC0yMjA3MDEzOTcsNj
+E3MTQzOTg4LDE5ODQ4MjA5MTMsNzE4OTk5ODldfQ==
 -->
