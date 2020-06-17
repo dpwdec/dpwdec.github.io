@@ -184,9 +184,15 @@ omit =
     */.local/*
 ```
 
-You can **omit a file by a naming pattern from being include in your coverage report** by adding to the `omit` list with the file name matched using the `*` asterisk character.
+You can **omit a file by a naming pattern from being include in your coverage report** by adding to the `omit` list with the file name matched using the `*` asterisk character. The `omit` below ignores any `__init__.py` files.
+```
+# .coveragerc
+[run]
+omit =
+    *__init__* 
 ```
 
+You can **have multiple omit lines** by simply carriage returning the different `omit`
 
 
 
@@ -194,9 +200,9 @@ You can **omit a file by a naming pattern from being include in your coverage re
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzY1MjU3Niw0MzEyMjMxNDAsLTE5ND
-c3Nzk5MDksOTE4NjIyMjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1
-MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMj
-IwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5
-XX0=
+eyJoaXN0b3J5IjpbLTEwMTYxMTMwMzQsNDMxMjIzMTQwLC0xOT
+Q3Nzc5OTA5LDkxODYyMjI0NiwxNzI2ODA1NTcxLDEwOTUxOTc0
+NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2NTgyNTIsLT
+IyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMyw3MTg5OTk4
+OV19
 -->
