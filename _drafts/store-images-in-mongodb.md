@@ -288,8 +288,12 @@ Create a corresponding `handlebars` template block inside the `index.hbs` file t
   {{/each}}
 {{/if}}
 ```
+
+## A note on mongoose `lean`
+
+One thing to note with this implementation is that the use 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NzU0NjQ0NiwtMTgxNzQ5NzAwMywxOT
+eyJoaXN0b3J5IjpbLTI0OTc5NDMyMywtMTgxNzQ5NzAwMywxOT
 MxNTE1MDMyLC0xNTkyNDc2MzM1LC0xMjA0OTY4MTk1LDE3Mzcw
 NTUxMzcsLTE1ODMwNjYwNTYsLTc5OTUxOTUzOSwxNzQzNzIzNT
 c1LC0yMDc2MTM1OTU4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4
