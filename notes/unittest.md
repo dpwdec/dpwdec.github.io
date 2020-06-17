@@ -44,7 +44,12 @@ def setUp(self):
   # do set up here
 ```
 
+You can **keep your test code organised into blocks of similar functionality** by creating a single test class for a specific set of tests with a single `setUp` method and then inheriting a number of different test classes from that class to organise your test code.
+```py
+class TestClass(TestCase):
 
+  s
+```
 
 ## Running tests
 
@@ -255,10 +260,10 @@ after_success:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjA5Mzk4NDUsLTQzODk5Mjc0NSwtMT
-cwNTgyODM4OCwtMTk3MDQ3MzIwMSw0MzEyMjMxNDAsLTE5NDc3
-Nzk5MDksOTE4NjIyMjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1MC
-wtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMjIw
-NzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5XX
-0=
+eyJoaXN0b3J5IjpbMjE0Mjg4MDMyMCwtNDM4OTkyNzQ1LC0xNz
+A1ODI4Mzg4LC0xOTcwNDczMjAxLDQzMTIyMzE0MCwtMTk0Nzc3
+OTkwOSw5MTg2MjIyNDYsMTcyNjgwNTU3MSwxMDk1MTk3NDUwLC
+0zMTcwNTM2NzgsLTcyMjgyMDUzMywtODQ2NjU4MjUyLC0yMjA3
+MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNzE4OTk5ODldfQ
+==
 -->
