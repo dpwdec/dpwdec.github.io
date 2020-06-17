@@ -85,7 +85,7 @@ def test_is_instance(self):
 You can **test if a class has a method or attribute** by using the `hasattr` method in conjunction with an `assertTrue` method.
 ```py
 def test_has_attribute(self):
-  self.assertTrue(self.object, "
+  self.assertTrue(hasattr(self.object, "some_attribute_name"))
 ```
 
 ## Mocks
@@ -227,9 +227,9 @@ omit =
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTYwNzQ2LC0xOTcwNDczMjAxLDQzMT
-IyMzE0MCwtMTk0Nzc3OTkwOSw5MTg2MjIyNDYsMTcyNjgwNTU3
-MSwxMDk1MTk3NDUwLC0zMTcwNTM2NzgsLTcyMjgyMDUzMywtOD
-Q2NjU4MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5
-MTMsNzE4OTk5ODldfQ==
+eyJoaXN0b3J5IjpbLTE3MDU4MjgzODgsLTE5NzA0NzMyMDEsND
+MxMjIzMTQwLC0xOTQ3Nzc5OTA5LDkxODYyMjI0NiwxNzI2ODA1
+NTcxLDEwOTUxOTc0NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC
+04NDY2NTgyNTIsLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgy
+MDkxMyw3MTg5OTk4OV19
 -->
