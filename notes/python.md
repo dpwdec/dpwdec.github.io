@@ -169,30 +169,17 @@ def my_higher_function(func):
 my_high_function(my_func) # => "Goodbye"
 ```
 
-You can also construct **higher order functions** by **returning functions from functions**.
+You can also construct **higher order functions** by **returning inner functions from functions**. In the example below `my_higher_function` returns an inner function as variable that can then be called.
 ```py
-def my_higher_function(
-```
-
-### Inner Functions
-
-You can **define inner functions** in python by simply using the `def` keyword inside a python function. You **can also call these functions from their outer context**.
-```py
-def outer_func():
+def my_higher_function():
   
-  print("Hello...")
-  
-  def inner_func():
-    print("..from the otherside.")
+  def my_func():
+    print("Hello")
 
-  inner_func()
+  return my_func
 
-outer_func() 
-# => Hello...
-# => ...from the otherside.
+my_func_var = my_higher_function()
 ```
-
-Inner functions are **locally scoped to the parent function** and cannot be called outside of the function they are defined in. Calling `inner_func()` in the main scope on the code above with result in an error.
 
 
 ## Classes
@@ -271,9 +258,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzg0NTAyMTYsLTE0NDU5NDQ3NSw0OD
-g0NjcyNDgsLTg5NzA1OTc4MiwtNjk4MzcyOTUwLC0yODI3NDY1
-NCwxMzczNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNz
-kwOTMxNTAxLDEyMDA5MDM0NDgsLTg2NjAyODUyNCwtMTQzMzQ3
-MzQ3MywyODIxMTA5NDcsODU5NzUyNyw2MjA5NzIzMTddfQ==
+eyJoaXN0b3J5IjpbLTU5MTkxOTEzNSwtMTQ0NTk0NDc1LDQ4OD
+Q2NzI0OCwtODk3MDU5NzgyLC02OTgzNzI5NTAsLTI4Mjc0NjU0
+LDEzNzM0NjU4MzgsLTExOTUxMjc0MDYsLTU1NjQ2NDAxOCw3OT
+A5MzE1MDEsMTIwMDkwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDcz
+NDczLDI4MjExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
 -->
