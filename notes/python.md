@@ -122,7 +122,11 @@ class ReallyPrivateClass():
 
 ### Uniform Access Principle
 
-Python generally follow
+Python generally follow the [uniform access principle](https://en.wikipedia.org/wiki/Uniform_access_principle) meaning that class properties should be accessed directly and you should generally **not use getter and setter methods for properties**.
+```py
+my_object.set_x(20) <-- NOT SO GOOD
+my_object.x = 20 <-- BETTER
+```
 
 ## Pipenv
 
@@ -155,9 +159,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQxMjA2OTUsLTg5NzA1OTc4MiwtNj
-k4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3
-NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLT
-g2NjAyODUyNCwtMTQzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUy
-Nyw2MjA5NzIzMTddfQ==
+eyJoaXN0b3J5IjpbLTc4Mzg4MjAyNSwtODk3MDU5NzgyLC02OT
+gzNzI5NTAsLTI4Mjc0NjU0LDEzNzM0NjU4MzgsLTExOTUxMjc0
+MDYsLTU1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMDkwMzQ0OCwtOD
+Y2MDI4NTI0LC0xNDMzNDczNDczLDI4MjExMDk0Nyw4NTk3NTI3
+LDYyMDk3MjMxN119
 -->
