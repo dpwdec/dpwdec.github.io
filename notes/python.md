@@ -182,6 +182,12 @@ my_func_var = my_higher_function()
 my_func_var() # => Hello
 ```
 
+### Closures
+
+You can ** create closures in python** by using variables define in the outer scope of a function in the inner scope and then calling the function. This **lexical scoping** allows the function to remember the context it was defined in.
+```py
+
+```
 
 ## Classes
 
@@ -259,9 +265,10 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzEzMzU3MSwtMTQ0NTk0NDc1LDQ4OD
-Q2NzI0OCwtODk3MDU5NzgyLC02OTgzNzI5NTAsLTI4Mjc0NjU0
-LDEzNzM0NjU4MzgsLTExOTUxMjc0MDYsLTU1NjQ2NDAxOCw3OT
-A5MzE1MDEsMTIwMDkwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDcz
-NDczLDI4MjExMDk0Nyw4NTk3NTI3LDYyMDk3MjMxN119
+eyJoaXN0b3J5IjpbMTQ0MTE2NTcyNiwxMzczMTMzNTcxLC0xND
+Q1OTQ0NzUsNDg4NDY3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1
+MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwtMTE5NTEyNzQwNiwtNT
+U2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAzNDQ4LC04NjYwMjg1
+MjQsLTE0MzM0NzM0NzMsMjgyMTEwOTQ3LDg1OTc1MjcsNjIwOT
+cyMzE3XX0=
 -->
