@@ -72,6 +72,13 @@ multi_line_string = ("This is a long string that is"
 "and takes upn a lot of space.")
 ```
 
+You can also **define long multi-line strings** using the `"""` triple quotation mark python syntax.
+```py
+multi_line_string = """This is a long string that is"
+"split over multiple lines"
+"and takes upn a lot of space."""
+```
+
 You can **display a number with a set number of decimal places for a number** when you convert it to a string by using the `%` operator with a string in the form `"%.[NUMBER_OF_DECIMAL_PLACES]f"`. This will add decimal places as `0` zeroes if the number doesn't have enough and remove decimal places if the number has too many, it will also **round the last decimal place**.
 ```py
 "%.2f" % 5 # => 5.00
@@ -191,9 +198,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5NTEzNzkzLDQ4ODQ2NzI0OCwtODk3MD
-U5NzgyLC02OTgzNzI5NTAsLTI4Mjc0NjU0LDEzNzM0NjU4Mzgs
-LTExOTUxMjc0MDYsLTU1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMD
-kwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDczNDczLDI4MjExMDk0
-Nyw4NTk3NTI3LDYyMDk3MjMxN119
+eyJoaXN0b3J5IjpbLTE0NDA2Mjc3MDgsNDg4NDY3MjQ4LC04OT
+cwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgz
+OCwtMTE5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMj
+AwOTAzNDQ4LC04NjYwMjg1MjQsLTE0MzM0NzM0NzMsMjgyMTEw
+OTQ3LDg1OTc1MjcsNjIwOTcyMzE3XX0=
 -->
