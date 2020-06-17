@@ -179,6 +179,7 @@ def my_higher_function():
   return my_func
 
 my_func_var = my_higher_function()
+my_func_var() # => Hello
 ```
 
 
@@ -258,7 +259,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MTkxOTEzNSwtMTQ0NTk0NDc1LDQ4OD
+eyJoaXN0b3J5IjpbMTM3MzEzMzU3MSwtMTQ0NTk0NDc1LDQ4OD
 Q2NzI0OCwtODk3MDU5NzgyLC02OTgzNzI5NTAsLTI4Mjc0NjU0
 LDEzNzM0NjU4MzgsLTExOTUxMjc0MDYsLTU1NjQ2NDAxOCw3OT
 A5MzE1MDEsMTIwMDkwMzQ0OCwtODY2MDI4NTI0LC0xNDMzNDcz
