@@ -176,7 +176,7 @@ You can **configure your coverage settings** by creating a `.coveragerc` file.
 
 ### Excluding
 
-You can **exclude a directory** from being include in your coverage report by adding it to the `omit` list under the `[run]` section of your `.coveragerc` file. An omission needs to be placed on a new line after the `omit` flag and indented by at least one tab. The `*` asterisk 
+You can **omit a directory from being include in your coverage report** by adding it to the `omit` list under the `[run]` section of your `.coveragerc` file. An omission needs to be placed on a new line after the `omit` flag and indented by at least one tab. The `*` asterisk indicates a match all. In the example below we `omit` anything within the `.local` directory.
 ```
 # .coveragerc
 [run]
@@ -184,13 +184,17 @@ omit =
     */.local/*
 ```
 
+You can **omit a file by a naming pattern from being include in your coverage report** by adding to the `omit` list with the file name matched using the `*` asterisk character.
+```
+
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTE1NzgyNSw0MzEyMjMxNDAsLTE5ND
+eyJoaXN0b3J5IjpbLTIzMzY1MjU3Niw0MzEyMjMxNDAsLTE5ND
 c3Nzk5MDksOTE4NjIyMjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1
 MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMj
 IwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5
