@@ -131,8 +131,10 @@ def my_func(x):
 
 my_func_var = my_func
 
-my_func_var() # => "
+my_func_var("Hello") # => Hello
 ```
+
+You can construct **higher order functions** using these function objec
 
 ## Classes
 
@@ -210,7 +212,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg4MTY0NDksLTE0NDU5NDQ3NSw0OD
+eyJoaXN0b3J5IjpbLTE2MzM0MjY3OTksLTE0NDU5NDQ3NSw0OD
 g0NjcyNDgsLTg5NzA1OTc4MiwtNjk4MzcyOTUwLC0yODI3NDY1
 NCwxMzczNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNz
 kwOTMxNTAxLDEyMDA5MDM0NDgsLTg2NjAyODUyNCwtMTQzMzQ3
