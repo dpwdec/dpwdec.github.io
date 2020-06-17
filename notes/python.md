@@ -136,12 +136,20 @@ class ReallyPrivateClass():
     return "I cannot be accessed unless you know my secret name."
 ```
 
-You can **check that an object has a method or property** by using the `hasattr` method.
+You can **check that an object has a method or attribute** by using the `hasattr` method which takes the object you are inspecting and a string representing the attribute name you are testing for
 ```py
 class Foo():
 
   def __init__():
-    self.bar = "
+    self.bar = "bar"
+
+  def baz():
+    pass
+
+foo = Foo()
+hasattr(foo, "bar") # => True
+hasattr(foo, "baz") # => True
+hasattr(foo, "Que") # => False
 ```
 
 ### Uniform Access Principle
@@ -183,9 +191,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjI1NzI3MCw0ODg0NjcyNDgsLTg5Nz
-A1OTc4MiwtNjk4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4
-LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMD
-A5MDM0NDgsLTg2NjAyODUyNCwtMTQzMzQ3MzQ3MywyODIxMTA5
-NDcsODU5NzUyNyw2MjA5NzIzMTddfQ==
+eyJoaXN0b3J5IjpbLTE3NTkyMTA5NzEsNDg4NDY3MjQ4LC04OT
+cwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgz
+OCwtMTE5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMj
+AwOTAzNDQ4LC04NjYwMjg1MjQsLTE0MzM0NzM0NzMsMjgyMTEw
+OTQ3LDg1OTc1MjcsNjIwOTcyMzE3XX0=
 -->
