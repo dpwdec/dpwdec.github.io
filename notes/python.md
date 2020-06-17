@@ -154,7 +154,9 @@ def outer_func():
   def inner_func():
     print("..from the otherside.")
 
-  in
+  inner_func()
+
+outer_func()
 ```
 
 ## Classes
@@ -233,7 +235,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5Njc1MTcwLC0xNDQ1OTQ0NzUsNDg4ND
+eyJoaXN0b3J5IjpbODQzOTU5ODY0LC0xNDQ1OTQ0NzUsNDg4ND
 Y3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQs
 MTM3MzQ2NTgzOCwtMTE5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MD
 kzMTUwMSwxMjAwOTAzNDQ4LC04NjYwMjg1MjQsLTE0MzM0NzM0
