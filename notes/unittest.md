@@ -181,7 +181,7 @@ You can **omit a directory from being include in your coverage report** by addin
 # .coveragerc
 [run]
 omit =
-    */.local/*
+  */.local/*
 ```
 
 You can **omit a file by a naming pattern from being include in your coverage report** by adding to the `omit` list with the file name matched using the `*` asterisk character. The `omit` below ignores any `__init__.py` files.
@@ -189,7 +189,7 @@ You can **omit a file by a naming pattern from being include in your coverage re
 # .coveragerc
 [run]
 omit =
-    *__init__* 
+  *__init__* 
 ```
 
 You can **have multiple omit lines** by simply carriage returning the different `omit` entries.
@@ -197,8 +197,8 @@ You can **have multiple omit lines** by simply carriage returning the different 
 # .coveragerc
 [run]
 omit =
-	*/.local/*
-    *__init__* 
+  */.local/*
+  *__init__* 
 ```
 
 
@@ -207,7 +207,7 @@ omit =
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDc0NTc4MCw0MzEyMjMxNDAsLTE5ND
+eyJoaXN0b3J5IjpbMTAyMjExOTE4MCw0MzEyMjMxNDAsLTE5ND
 c3Nzk5MDksOTE4NjIyMjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1
 MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMj
 IwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5
