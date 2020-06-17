@@ -101,7 +101,16 @@ if __name__ == '__main__':
 
 ## Classes
 
-You can **indicate that a class or instance variable is private** by prepending an `_` to the front of the variable na
+You can **indicate that a variable or method is private** by prepending an `_` to the front of the variable name.
+```py
+class PrivateClass():
+  
+  def __init__():
+    self._prive_var = "I am private."
+
+  def _private_method():
+    return "This is a private method.
+```
 
 ## Pipenv
 
@@ -134,9 +143,9 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyMzE0OTIyLC04OTcwNTk3ODIsLTY5OD
-M3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwtMTE5NTEyNzQw
-NiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAzNDQ4LC04Nj
-YwMjg1MjQsLTE0MzM0NzM0NzMsMjgyMTEwOTQ3LDg1OTc1Mjcs
-NjIwOTcyMzE3XX0=
+eyJoaXN0b3J5IjpbLTE0OTU1NzI3NzIsLTg5NzA1OTc4MiwtNj
+k4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3
+NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLT
+g2NjAyODUyNCwtMTQzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUy
+Nyw2MjA5NzIzMTddfQ==
 -->
