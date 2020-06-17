@@ -11,7 +11,7 @@ You can **create a bash script** by giving a file the `.sh` extension.
 my_script.sh
 ```
 
-To **start writing a script** you must open it with a shebang that points to the bash interpreter so that the script can run. The first line of the script will always be a path to the interpreter for bash to use. You can then use any bash command you would normally use in the console inside your script and the commands will
+To **start writing a script** you must open it with a shebang that points to the bash interpreter so that the script can run. The first line of the script will always be a path to the interpreter for bash to use. You can then use any bash command you would normally use in the console inside your script and the commands will be executed procedural with bash waiting for each command to finish before executing another.
 ```bash
 #!/bin/bash
 ```
@@ -26,5 +26,5 @@ Your script may not have execution privileges. To **make your script executable*
 $ chmod +x my_script.sh
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDg1ODMxMzZdfQ==
+eyJoaXN0b3J5IjpbMTE0NzM1OTcwM119
 -->
