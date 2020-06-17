@@ -230,14 +230,30 @@ $ pipenv install python-coveralls
 
 Coveralls **currently ONLY WORKS with `coverage.py` versions less than `5.0`**. You must set up your `pipfile` to only install `coverage="<5.0"` with semantic versioning if you want coveralls to work.
 
-After installing `python-coveralls` and adding i
+After installing `python-coveralls` and adding it to your `pipfile`. The only thing you need to do is add the `coveralls` command your `.travis.yml` file in the `after_success` script section so that it sends coverage data once completed.
+```yml
+# .travis.yml
+language: python
+python:
+- "3.7"
+- 
+install:
+- pip install pipenv
+- pipenv install
+
+script:
+- pipenv run coverage run -m unittest
+
+after_success:
+- coveralls
+```
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NzE2NTAwNSwtMTcwNTgyODM4OCwtMT
+eyJoaXN0b3J5IjpbLTQzODk5Mjc0NSwtMTcwNTgyODM4OCwtMT
 k3MDQ3MzIwMSw0MzEyMjMxNDAsLTE5NDc3Nzk5MDksOTE4NjIy
 MjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1MCwtMzE3MDUzNjc4LC
 03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMjIwNzAxMzk3LDYxNzE0
