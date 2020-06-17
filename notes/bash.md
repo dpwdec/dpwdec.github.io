@@ -21,10 +21,16 @@ You can **run a bash script** by simply typing the name of the script file (or p
 $ ./my_script.sh
 ```
 
+You can also **execute bash scripts** using the `sh` or `bash` commands.
+```bash
+$ sh my_script.sh
+$ bash my_script.sh
+```
+
 Your script may not have execution privileges. To **make your script executable** use the `chmod +x` command.
 ```bash
 $ chmod +x my_script.sh
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NzM1OTcwM119
+eyJoaXN0b3J5IjpbMTY5NTc4OTcxNF19
 -->
