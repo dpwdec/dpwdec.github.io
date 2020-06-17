@@ -82,6 +82,12 @@ def test_is_instance(self):
   self.asssertIsInstance("Hello", str)
 ```
 
+You can **test if a class has a method or attribute** by using the `hasattr` method in conjunction with an `assertTrue` method.
+```py
+def test_has_attribute(self):
+  self.assertTrue(self.object, "
+```
+
 ## Mocks
 
 You can **start using mock and double objects** by using the python `unittest.mock` extension library. These mocks give you the ability to stub methods on real classes as well as create entire mock / double objects for the purposes of testing and keeping your dependencies separate and testable. They also provide **assertion functions** for testing that a specific method was called. The example `import` statements below show several different ways you *could* `import` mocks into your tests depending on your preferences.
@@ -221,9 +227,9 @@ omit =
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzA0NzMyMDEsNDMxMjIzMTQwLC0xOT
-Q3Nzc5OTA5LDkxODYyMjI0NiwxNzI2ODA1NTcxLDEwOTUxOTc0
-NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2NTgyNTIsLT
-IyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMyw3MTg5OTk4
-OV19
+eyJoaXN0b3J5IjpbLTk3MTYwNzQ2LC0xOTcwNDczMjAxLDQzMT
+IyMzE0MCwtMTk0Nzc3OTkwOSw5MTg2MjIyNDYsMTcyNjgwNTU3
+MSwxMDk1MTk3NDUwLC0zMTcwNTM2NzgsLTcyMjgyMDUzMywtOD
+Q2NjU4MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5
+MTMsNzE4OTk5ODldfQ==
 -->
