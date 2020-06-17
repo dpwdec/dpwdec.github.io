@@ -293,13 +293,22 @@ Create a corresponding `handlebars` template block inside the `index.hbs` file t
 
 One thing to note with this implementation is that the retrieval of object's from the database is not very efficient because we're retrieving a whole bunch of complex `Image` model objects with the `find` method and then just converting them to plain javascript. That's a lot of functionality that is being bundled with `find` that we don't need to just read data and send it to our `.hbs` file for rendering. In the name of clarity I used the clearest and slowest implementation above, but if you want to speed up retrieval you can refactor the `find` to use Mongoose's `lean` query method.
 
-The `lean` method is appended to the end of a `find` method and then followed by an `exec` method that executes the query and processes the databas
+The `lean` method is appended to the end of a `find` method and then followed by an `exec` method that executes the query and processes the database result callback function. In the example below we call `find` with `lean` and then iterate through the result javascript ob
+```js
+// app.js - find only lean
+Image.find().lean().exec((err, images) => {
+  images.forEach((image) => {
+    image.img.data = image.img.data.toString('base64');
+  });
+  res.render('index.hbs', {images: images});
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQyNDk5OTIsLTE4MTc0OTcwMDMsMT
-kzMTUxNTAzMiwtMTU5MjQ3NjMzNSwtMTIwNDk2ODE5NSwxNzM3
-MDU1MTM3LC0xNTgzMDY2MDU2LC03OTk1MTk1MzksMTc0MzcyMz
-U3NSwtMjA3NjEzNTk1OCwzODc5MDI2OTAsNTA1NjU1MTY2LC0x
-ODc3MjEyOTM0LC0xNTAxNTA2Mzc1LDIzODI3NzU5MiwtOTU4Nz
-Q1MTA1LDE3NzcyMTQ4OTUsMTUyMTMzODg1NSwxNTY3MTIzNzkz
-LC0xNzg4MTA4MDQzXX0=
+eyJoaXN0b3J5IjpbMjA3ODEzOTQ4NywtMTgxNzQ5NzAwMywxOT
+MxNTE1MDMyLC0xNTkyNDc2MzM1LC0xMjA0OTY4MTk1LDE3Mzcw
+NTUxMzcsLTE1ODMwNjYwNTYsLTc5OTUxOTUzOSwxNzQzNzIzNT
+c1LC0yMDc2MTM1OTU4LDM4NzkwMjY5MCw1MDU2NTUxNjYsLTE4
+NzcyMTI5MzQsLTE1MDE1MDYzNzUsMjM4Mjc3NTkyLC05NTg3ND
+UxMDUsMTc3NzIxNDg5NSwxNTIxMzM4ODU1LDE1NjcxMjM3OTMs
+LTE3ODgxMDgwNDNdfQ==
 -->
