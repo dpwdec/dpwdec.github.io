@@ -84,10 +84,15 @@ Pipenv is a programming for managing python dependencies and project builds simi
 $ brew install pipenv
 ```
 
-You ** can **
+You ** can initialise a new pipenv project** with the `pipenv` command followed by the version of python you want to use, `--three` for python3 and `--two` for python2.
+```bash
+$ pipenv --three
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4NTQyMTE5LC0xMTk1MTI3NDA2LC01NT
-Y0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLTg2NjAyODUy
-NCwtMTQzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUyNyw2MjA5Nz
-IzMTddfQ==
+eyJoaXN0b3J5IjpbMTM3MzQ2NTgzOCwtMTE5NTEyNzQwNiwtNT
+U2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAzNDQ4LC04NjYwMjg1
+MjQsLTE0MzM0NzM0NzMsMjgyMTEwOTQ3LDg1OTc1MjcsNjIwOT
+cyMzE3XX0=
 -->
