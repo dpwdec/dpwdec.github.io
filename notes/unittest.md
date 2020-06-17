@@ -38,7 +38,11 @@ def test_my_method(self):
   self.assertEqual(another_assertion, another_expectation)
 ```
 
-You can **create the equivalent of `before_each` methd**
+You can **create the equivalent of `before_each` method** in your unit test suite that runs before each test by using the `setUp` method. This is run before each test method.
+```py
+def setUp(self):
+  # do set up here
+```
 
 ## Running tests
 
@@ -217,9 +221,9 @@ omit =
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODkwMjUxMCw0MzEyMjMxNDAsLTE5ND
-c3Nzk5MDksOTE4NjIyMjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1
-MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMj
-IwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5
-XX0=
+eyJoaXN0b3J5IjpbLTE5NzA0NzMyMDEsNDMxMjIzMTQwLC0xOT
+Q3Nzc5OTA5LDkxODYyMjI0NiwxNzI2ODA1NTcxLDEwOTUxOTc0
+NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2NTgyNTIsLT
+IyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMyw3MTg5OTk4
+OV19
 -->
