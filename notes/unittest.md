@@ -70,7 +70,7 @@ def test_equal(self):
 You can **test if an object is an instance of class** by using the `assertIsInstance` method.
 ```py
 def test_is_instance(self):
-  
+  self.
 ```
 
 ## Mocks
@@ -212,7 +212,7 @@ omit =
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTA2MzE4Miw0MzEyMjMxNDAsLTE5ND
+eyJoaXN0b3J5IjpbMTA4Nzc0NDU4Miw0MzEyMjMxNDAsLTE5ND
 c3Nzk5MDksOTE4NjIyMjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1
 MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMj
 IwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5
