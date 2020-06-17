@@ -89,10 +89,16 @@ You ** can initialise a new pipenv project** with the `pipenv` command followed 
 $ pipenv --three
 ```
 
+You can **add scripts to your pipfile** that can be run by calling `pipenv run` and the name of the script. These are defined by creating a `[scripts]` tag section in your `pipfile` and assigning a command name to a command string.
+```
+[scripts]
+test = "python3 -m unittest"
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzQ2NTgzOCwtMTE5NTEyNzQwNiwtNT
-U2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAzNDQ4LC04NjYwMjg1
-MjQsLTE0MzM0NzM0NzMsMjgyMTEwOTQ3LDg1OTc1MjcsNjIwOT
-cyMzE3XX0=
+eyJoaXN0b3J5IjpbODI0OTg4MDkyLDEzNzM0NjU4MzgsLTExOT
+UxMjc0MDYsLTU1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMDkwMzQ0
+OCwtODY2MDI4NTI0LC0xNDMzNDczNDczLDI4MjExMDk0Nyw4NT
+k3NTI3LDYyMDk3MjMxN119
 -->
