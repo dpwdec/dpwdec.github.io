@@ -16,7 +16,9 @@ project
 	├── __init__.py
     └── spam_classes.py
 ```
- Given the directory structure above, imagine that there was a class defined in `spam_classes.py` called `Ham` that we wanted to import and use in a class called `Toast` defined in `egg_classes.py`. To do this you would need to specify the `package` or folder that the 
+ Given the directory structure above, imagine that there was a class defined in `spam_classes.py` called `Ham` that we wanted to import and use in `egg_classes.py`. To do this you would need to specify the `package` or folder that the file is in, then the `module` that class is in (this is done using `.` syntax in python) and finally the name of the class you want to import. Thus the import in `egg_classes.py` would match the example below.
+```
+```
 
 ## Arithmetic Operators
 
@@ -118,7 +120,7 @@ test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQwNjkxMCwtNjk4MzcyOTUwLC0yOD
+eyJoaXN0b3J5IjpbLTIwNzMxOTEyNiwtNjk4MzcyOTUwLC0yOD
 I3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQw
 MTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLTg2NjAyODUyNCwtMT
 QzMzQ3MzQ3MywyODIxMTA5NDcsODU5NzUyNyw2MjA5NzIzMTdd
