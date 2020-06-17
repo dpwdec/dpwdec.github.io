@@ -192,7 +192,14 @@ omit =
     *__init__* 
 ```
 
-You can **have multiple omit lines** by simply carriage returning the different `omit`
+You can **have multiple omit lines** by simply carriage returning the different `omit` entries.
+```
+# .coveragerc
+[run]
+omit =
+	*/.local/*
+    *__init__* 
+```
 
 
 
@@ -200,9 +207,9 @@ You can **have multiple omit lines** by simply carriage returning the different 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTYxMTMwMzQsNDMxMjIzMTQwLC0xOT
-Q3Nzc5OTA5LDkxODYyMjI0NiwxNzI2ODA1NTcxLDEwOTUxOTc0
-NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2NTgyNTIsLT
-IyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMyw3MTg5OTk4
-OV19
+eyJoaXN0b3J5IjpbMTY0NDc0NTc4MCw0MzEyMjMxNDAsLTE5ND
+c3Nzk5MDksOTE4NjIyMjQ2LDE3MjY4MDU1NzEsMTA5NTE5NzQ1
+MCwtMzE3MDUzNjc4LC03MjI4MjA1MzMsLTg0NjY1ODI1MiwtMj
+IwNzAxMzk3LDYxNzE0Mzk4OCwxOTg0ODIwOTEzLDcxODk5OTg5
+XX0=
 -->
