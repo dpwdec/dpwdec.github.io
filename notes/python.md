@@ -288,7 +288,7 @@ my_object.x = 20 # <-- BETTER
 
 ## Magic Methods
 
-Magic Methods also known as 
+Magic Methods, such as `__init__` or `__add__`, also known as Dunder methods (because they have *double underscores* in their name) are special python methods for doing specific object related tasks in python. They also define arithmetic 
 
 ## Pipenv
 
@@ -333,11 +333,11 @@ $ pipenv install --dev
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODE4NzE4OCw1NjE4NTkwOCwtMTk5Mz
-U5MzE2NCwtMjQ1MzI4NzUyLDI1NzYyNjc5NywyMDE3ODk1Mzgw
-LC0xODY2OTIzMDI3LDEzNzMxMzM1NzEsLTE0NDU5NDQ3NSw0OD
-g0NjcyNDgsLTg5NzA1OTc4MiwtNjk4MzcyOTUwLC0yODI3NDY1
-NCwxMzczNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNz
-kwOTMxNTAxLDEyMDA5MDM0NDgsLTg2NjAyODUyNCwtMTQzMzQ3
-MzQ3M119
+eyJoaXN0b3J5IjpbMjEyNzIzNjY4LDE5OTgxODcxODgsNTYxOD
+U5MDgsLTE5OTM1OTMxNjQsLTI0NTMyODc1MiwyNTc2MjY3OTcs
+MjAxNzg5NTM4MCwtMTg2NjkyMzAyNywxMzczMTMzNTcxLC0xND
+Q1OTQ0NzUsNDg4NDY3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1
+MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwtMTE5NTEyNzQwNiwtNT
+U2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAzNDQ4LC04NjYwMjg1
+MjRdfQ==
 -->
