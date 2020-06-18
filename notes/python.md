@@ -300,6 +300,10 @@ num.__add__ = sum_func
 # => __add__ is READ ONLY
 ```
 
+### Comparative Magic Methods
+
+| M
+
 ## Pipenv
 
 Pipenv is a programming for managing python dependencies and project builds similar to tools like `npm` for javascript or `bundler` for ruby. The `pipenv` creates a `pipfile` which can be used to manage dependencies, project meta-data and project scripts. You can **install pipenv** using `brew`.
@@ -343,11 +347,11 @@ $ pipenv install --dev
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODgzOTM5NSwxOTk4MTg3MTg4LDU2MT
-g1OTA4LC0xOTkzNTkzMTY0LC0yNDUzMjg3NTIsMjU3NjI2Nzk3
-LDIwMTc4OTUzODAsLTE4NjY5MjMwMjcsMTM3MzEzMzU3MSwtMT
-Q0NTk0NDc1LDQ4ODQ2NzI0OCwtODk3MDU5NzgyLC02OTgzNzI5
-NTAsLTI4Mjc0NjU0LDEzNzM0NjU4MzgsLTExOTUxMjc0MDYsLT
-U1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMDkwMzQ0OCwtODY2MDI4
-NTI0XX0=
+eyJoaXN0b3J5IjpbNDczNjc5OTM1LC05Nzg4MzkzOTUsMTk5OD
+E4NzE4OCw1NjE4NTkwOCwtMTk5MzU5MzE2NCwtMjQ1MzI4NzUy
+LDI1NzYyNjc5NywyMDE3ODk1MzgwLC0xODY2OTIzMDI3LDEzNz
+MxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0NjcyNDgsLTg5NzA1OTc4
+MiwtNjk4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMT
+k1MTI3NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0
+NDhdfQ==
 -->
