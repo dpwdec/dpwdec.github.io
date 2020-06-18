@@ -286,6 +286,10 @@ my_object.set_x(20) # <-- NOT SO GOOD
 my_object.x = 20 # <-- BETTER
 ```
 
+## Magic Methods
+
+Magic Methods also known as 
+
 ## Pipenv
 
 Pipenv is a programming for managing python dependencies and project builds similar to tools like `npm` for javascript or `bundler` for ruby. The `pipenv` creates a `pipfile` which can be used to manage dependencies, project meta-data and project scripts. You can **install pipenv** using `brew`.
@@ -329,11 +333,11 @@ $ pipenv install --dev
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxODU5MDgsLTE5OTM1OTMxNjQsLTI0NT
-MyODc1MiwyNTc2MjY3OTcsMjAxNzg5NTM4MCwtMTg2NjkyMzAy
-NywxMzczMTMzNTcxLC0xNDQ1OTQ0NzUsNDg4NDY3MjQ4LC04OT
-cwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgz
-OCwtMTE5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMj
-AwOTAzNDQ4LC04NjYwMjg1MjQsLTE0MzM0NzM0NzMsMjgyMTEw
-OTQ3XX0=
+eyJoaXN0b3J5IjpbMTk5ODE4NzE4OCw1NjE4NTkwOCwtMTk5Mz
+U5MzE2NCwtMjQ1MzI4NzUyLDI1NzYyNjc5NywyMDE3ODk1Mzgw
+LC0xODY2OTIzMDI3LDEzNzMxMzM1NzEsLTE0NDU5NDQ3NSw0OD
+g0NjcyNDgsLTg5NzA1OTc4MiwtNjk4MzcyOTUwLC0yODI3NDY1
+NCwxMzczNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNz
+kwOTMxNTAxLDEyMDA5MDM0NDgsLTg2NjAyODUyNCwtMTQzMzQ3
+MzQ3M119
 -->
