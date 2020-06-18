@@ -290,10 +290,14 @@ my_object.x = 20 # <-- BETTER
 
 Magic Methods, such as `__init__` or `__add__`, also known as Dunder methods (because they have *double underscores* in their name) are special python methods for doing specific object related tasks in python. They also define arithmetic and comparative operator functions on objects in python.
 
-Magic methods **cannot be reassigned**, they are **read only** properties.
+Magic methods **cannot be reassigned**, they are **read only** properties. This is a hard coded property of python.
 ```py
+def sum_func():
+  pass
+
 num = 2
-n
+num.__add__ = sum_func
+# => __add__ is READ ONLY
 ```
 
 ## Pipenv
@@ -339,11 +343,11 @@ $ pipenv install --dev
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODU3MzQxNzYsMTk5ODE4NzE4OCw1Nj
-E4NTkwOCwtMTk5MzU5MzE2NCwtMjQ1MzI4NzUyLDI1NzYyNjc5
-NywyMDE3ODk1MzgwLC0xODY2OTIzMDI3LDEzNzMxMzM1NzEsLT
-E0NDU5NDQ3NSw0ODg0NjcyNDgsLTg5NzA1OTc4MiwtNjk4Mzcy
-OTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3NDA2LC
-01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0NDgsLTg2NjAy
-ODUyNF19
+eyJoaXN0b3J5IjpbLTk3ODgzOTM5NSwxOTk4MTg3MTg4LDU2MT
+g1OTA4LC0xOTkzNTkzMTY0LC0yNDUzMjg3NTIsMjU3NjI2Nzk3
+LDIwMTc4OTUzODAsLTE4NjY5MjMwMjcsMTM3MzEzMzU3MSwtMT
+Q0NTk0NDc1LDQ4ODQ2NzI0OCwtODk3MDU5NzgyLC02OTgzNzI5
+NTAsLTI4Mjc0NjU0LDEzNzM0NjU4MzgsLTExOTUxMjc0MDYsLT
+U1NjQ2NDAxOCw3OTA5MzE1MDEsMTIwMDkwMzQ0OCwtODY2MDI4
+NTI0XX0=
 -->
