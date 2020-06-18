@@ -302,7 +302,10 @@ num.__add__ = sum_func
 
 ### Comparative Magic Methods
 
-| M
+| Magic Method Symbol | Equivalent Implementation |
+| --- | --- |
+| __eq__ | == |
+| __gr__ | > |
 
 ## Pipenv
 
@@ -347,7 +350,7 @@ $ pipenv install --dev
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczNjc5OTM1LC05Nzg4MzkzOTUsMTk5OD
+eyJoaXN0b3J5IjpbMTczOTQxNTUxLC05Nzg4MzkzOTUsMTk5OD
 E4NzE4OCw1NjE4NTkwOCwtMTk5MzU5MzE2NCwtMjQ1MzI4NzUy
 LDI1NzYyNjc5NywyMDE3ODk1MzgwLC0xODY2OTIzMDI3LDEzNz
 MxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0NjcyNDgsLTg5NzA1OTc4
