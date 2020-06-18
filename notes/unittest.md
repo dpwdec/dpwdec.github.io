@@ -173,7 +173,9 @@ def test_stub_method(self):
 
 ### Magic Mock
 
-The `mock` module's `MagicMock` class 
+The `mock` module's `MagicMock` class is similar to the `Mock` class apart from that it **supports mocking for Magic Methods** (also called Dunder methods). These special functions can usually NOT be reassigned or stubbed in Python but instances of `MagicMock` has special functionality that allows them to stub these Magic Methods with predefined return types. This usu
+
+
 
 # Coverage
 
@@ -270,10 +272,10 @@ after_success:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTc0MzcyOCwtNjM4NTI2NjI2LC00Mz
-g5OTI3NDUsLTE3MDU4MjgzODgsLTE5NzA0NzMyMDEsNDMxMjIz
-MTQwLC0xOTQ3Nzc5OTA5LDkxODYyMjI0NiwxNzI2ODA1NTcxLD
-EwOTUxOTc0NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2
-NTgyNTIsLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMy
-w3MTg5OTk4OV19
+eyJoaXN0b3J5IjpbLTIwMTgzOTkyNzcsLTYzODUyNjYyNiwtND
+M4OTkyNzQ1LC0xNzA1ODI4Mzg4LC0xOTcwNDczMjAxLDQzMTIy
+MzE0MCwtMTk0Nzc3OTkwOSw5MTg2MjIyNDYsMTcyNjgwNTU3MS
+wxMDk1MTk3NDUwLC0zMTcwNTM2NzgsLTcyMjgyMDUzMywtODQ2
+NjU4MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5MT
+MsNzE4OTk5ODldfQ==
 -->
