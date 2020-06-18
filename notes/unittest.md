@@ -185,6 +185,10 @@ You can **mock an integer's comparative operations** by reassigning the associat
 ```py
 def test_int_operator_mock():
   mock_number = mock.MagicMock()
+  __mock_eq__ = mock.Mock()
+  __mock_eq__.return_value = True
+  mock_number.__eq__ = __mock_eq__
+  
 ```
 
 
@@ -284,10 +288,10 @@ after_success:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQ3Mzg1NDcsLTYzODUyNjYyNiwtND
-M4OTkyNzQ1LC0xNzA1ODI4Mzg4LC0xOTcwNDczMjAxLDQzMTIy
-MzE0MCwtMTk0Nzc3OTkwOSw5MTg2MjIyNDYsMTcyNjgwNTU3MS
-wxMDk1MTk3NDUwLC0zMTcwNTM2NzgsLTcyMjgyMDUzMywtODQ2
-NjU4MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5MT
-MsNzE4OTk5ODldfQ==
+eyJoaXN0b3J5IjpbLTQ5OTQ2NTcyOCwtNjM4NTI2NjI2LC00Mz
+g5OTI3NDUsLTE3MDU4MjgzODgsLTE5NzA0NzMyMDEsNDMxMjIz
+MTQwLC0xOTQ3Nzc5OTA5LDkxODYyMjI0NiwxNzI2ODA1NTcxLD
+EwOTUxOTc0NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2
+NTgyNTIsLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMy
+w3MTg5OTk4OV19
 -->
