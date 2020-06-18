@@ -175,10 +175,16 @@ def test_stub_method(self):
 
 The `mock` module's `MagicMock` class is similar to the `Mock` class apart from that it **supports mocking for Magic Methods** (also called Dunder methods). These special functions can usually NOT be reassigned or stubbed in Python but instances of `MagicMock` has special functionality that allows them to stub these Magic Methods with predefined return types. This useful if you want to mock things like arithmetic or comparative operators on an object and then make `assert_called_with` tests against those operators.
 
+To start using `MagicMock` simply `import` it from the `unittest.mock` module.
+```py
+from unittest import mock
+magic_mock = mock.MagicMock()
+```
+
 You can **mock an integer's comparative operations** by reassigning the associated magic methods to a `mock` with a hard coded `return_value`.
 ```py
 def test_int_operator_mock():
-  mock_number = MagicM
+  mock_number = mock.MagicMock()
 ```
 
 
@@ -278,10 +284,10 @@ after_success:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTk4NzM4NSwtNjM4NTI2NjI2LC00Mz
-g5OTI3NDUsLTE3MDU4MjgzODgsLTE5NzA0NzMyMDEsNDMxMjIz
-MTQwLC0xOTQ3Nzc5OTA5LDkxODYyMjI0NiwxNzI2ODA1NTcxLD
-EwOTUxOTc0NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2
-NTgyNTIsLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMy
-w3MTg5OTk4OV19
+eyJoaXN0b3J5IjpbLTE0OTQ3Mzg1NDcsLTYzODUyNjYyNiwtND
+M4OTkyNzQ1LC0xNzA1ODI4Mzg4LC0xOTcwNDczMjAxLDQzMTIy
+MzE0MCwtMTk0Nzc3OTkwOSw5MTg2MjIyNDYsMTcyNjgwNTU3MS
+wxMDk1MTk3NDUwLC0zMTcwNTM2NzgsLTcyMjgyMDUzMywtODQ2
+NjU4MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5MT
+MsNzE4OTk5ODldfQ==
 -->
