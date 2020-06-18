@@ -171,6 +171,10 @@ def test_stub_method(self):
   self.assertEqual(real_instance.real_method(), 35)
 ```
 
+### Magic Mock
+
+The `mock` module's `MagicMock` class 
+
 # Coverage
 
 You can **track python test coverage** using the `coverage.py` module. You can **install `coverage.py`** using `pip install` or `pipenv install`.
@@ -266,10 +270,10 @@ after_success:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODUyNjYyNiwtNDM4OTkyNzQ1LC0xNz
-A1ODI4Mzg4LC0xOTcwNDczMjAxLDQzMTIyMzE0MCwtMTk0Nzc3
-OTkwOSw5MTg2MjIyNDYsMTcyNjgwNTU3MSwxMDk1MTk3NDUwLC
-0zMTcwNTM2NzgsLTcyMjgyMDUzMywtODQ2NjU4MjUyLC0yMjA3
-MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNzE4OTk5ODldfQ
-==
+eyJoaXN0b3J5IjpbMTA5MTc0MzcyOCwtNjM4NTI2NjI2LC00Mz
+g5OTI3NDUsLTE3MDU4MjgzODgsLTE5NzA0NzMyMDEsNDMxMjIz
+MTQwLC0xOTQ3Nzc5OTA5LDkxODYyMjI0NiwxNzI2ODA1NTcxLD
+EwOTUxOTc0NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2
+NTgyNTIsLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMy
+w3MTg5OTk4OV19
 -->
