@@ -181,7 +181,7 @@ from unittest import mock
 magic_mock = mock.MagicMock()
 ```
 
-You can **mock an integer's comparative operations** by reassigning the associated magic methods to a `mock` with a hard coded `return_value`. In the code below we defined a `mock_number` as an instance of `MagicMock` we then create a mock `__eq__` method that is an instance of `Mock` and is hard coded to return true. We can then make test assertions against this mock `__eq__` method to check if it was called in our code with `assert_called_with(1)`. Furthermore the `if` statement shows that the 
+You can **mock an integer's comparative operations** by reassigning the associated magic methods to a `mock` with a hard coded `return_value`. In the code below we defined a `mock_number` as an instance of `MagicMock` we then create a mock `__eq__` method that is an instance of `Mock` and is hard coded to return true. We can then make test assertions against this mock `__eq__` method to check if it was called in our code with `assert_called_with(1)`. Furthermore the `if` statement shows that the mocked `__eq__` method still works like a regular `==` comparator.
 ```py
 def test_int_operator_mock():
   mock_number = mock.MagicMock()
@@ -291,10 +291,10 @@ after_success:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzMTgxMDM1LDkyNTIzMzgxLC02Mzg1Mj
-Y2MjYsLTQzODk5Mjc0NSwtMTcwNTgyODM4OCwtMTk3MDQ3MzIw
-MSw0MzEyMjMxNDAsLTE5NDc3Nzk5MDksOTE4NjIyMjQ2LDE3Mj
-Y4MDU1NzEsMTA5NTE5NzQ1MCwtMzE3MDUzNjc4LC03MjI4MjA1
-MzMsLTg0NjY1ODI1MiwtMjIwNzAxMzk3LDYxNzE0Mzk4OCwxOT
-g0ODIwOTEzLDcxODk5OTg5XX0=
+eyJoaXN0b3J5IjpbLTk2MDg5MDM1Myw5MjUyMzM4MSwtNjM4NT
+I2NjI2LC00Mzg5OTI3NDUsLTE3MDU4MjgzODgsLTE5NzA0NzMy
+MDEsNDMxMjIzMTQwLC0xOTQ3Nzc5OTA5LDkxODYyMjI0NiwxNz
+I2ODA1NTcxLDEwOTUxOTc0NTAsLTMxNzA1MzY3OCwtNzIyODIw
+NTMzLC04NDY2NTgyNTIsLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMT
+k4NDgyMDkxMyw3MTg5OTk4OV19
 -->
