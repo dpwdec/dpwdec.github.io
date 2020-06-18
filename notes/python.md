@@ -304,8 +304,9 @@ num.__add__ = sum_func
 
 | Magic Method Symbol | Equivalent Implementation |
 | --- | --- |
-| __eq__ | == |
-| __gr__ | > |
+| `__eq__` | `==` |
+| `__gr__` | `>` |
+| `__lt__` | `<` |
 
 ## Pipenv
 
@@ -350,11 +351,11 @@ $ pipenv install --dev
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTQxNTUxLC05Nzg4MzkzOTUsMTk5OD
-E4NzE4OCw1NjE4NTkwOCwtMTk5MzU5MzE2NCwtMjQ1MzI4NzUy
-LDI1NzYyNjc5NywyMDE3ODk1MzgwLC0xODY2OTIzMDI3LDEzNz
-MxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0NjcyNDgsLTg5NzA1OTc4
-MiwtNjk4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMT
-k1MTI3NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLDEyMDA5MDM0
-NDhdfQ==
+eyJoaXN0b3J5IjpbLTI5Mzk5OTA3MywtOTc4ODM5Mzk1LDE5OT
+gxODcxODgsNTYxODU5MDgsLTE5OTM1OTMxNjQsLTI0NTMyODc1
+MiwyNTc2MjY3OTcsMjAxNzg5NTM4MCwtMTg2NjkyMzAyNywxMz
+czMTMzNTcxLC0xNDQ1OTQ0NzUsNDg4NDY3MjQ4LC04OTcwNTk3
+ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwtMT
+E5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAz
+NDQ4XX0=
 -->
