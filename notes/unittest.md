@@ -181,14 +181,17 @@ from unittest import mock
 magic_mock = mock.MagicMock()
 ```
 
-You can **mock an integer's comparative operations** by reassigning the associated magic methods to a `mock` with a hard coded `return_value`.
+You can **mock an integer's comparative operations** by reassigning the associated magic methods to a `mock` with a hard coded `return_value`. In the code below we defined a `mock_number` as a 
 ```py
 def test_int_operator_mock():
   mock_number = mock.MagicMock()
   __mock_eq__ = mock.Mock()
   __mock_eq__.return_value = True
   mock_number.__eq__ = __mock_eq__
-  
+  if(mock_number == 1):
+    print("Mock __eq__ function returned 1.")
+
+  mock_number.__eq__.assert_called_with(1)
 ```
 
 
@@ -288,10 +291,10 @@ after_success:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5OTQ2NTcyOCwtNjM4NTI2NjI2LC00Mz
-g5OTI3NDUsLTE3MDU4MjgzODgsLTE5NzA0NzMyMDEsNDMxMjIz
-MTQwLC0xOTQ3Nzc5OTA5LDkxODYyMjI0NiwxNzI2ODA1NTcxLD
-EwOTUxOTc0NTAsLTMxNzA1MzY3OCwtNzIyODIwNTMzLC04NDY2
-NTgyNTIsLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMTk4NDgyMDkxMy
-w3MTg5OTk4OV19
+eyJoaXN0b3J5IjpbOTI1MjMzODEsLTYzODUyNjYyNiwtNDM4OT
+kyNzQ1LC0xNzA1ODI4Mzg4LC0xOTcwNDczMjAxLDQzMTIyMzE0
+MCwtMTk0Nzc3OTkwOSw5MTg2MjIyNDYsMTcyNjgwNTU3MSwxMD
+k1MTk3NDUwLC0zMTcwNTM2NzgsLTcyMjgyMDUzMywtODQ2NjU4
+MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4LDE5ODQ4MjA5MTMsNz
+E4OTk5ODldfQ==
 -->
