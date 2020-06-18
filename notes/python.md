@@ -315,16 +315,21 @@ You **cannot use `:` characters in a script name** like `test:unit` or `run:main
 test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 ```
 
+### Installation
+
 You can **install everything from you pipfile's `[package`] section** by using the `install` command. This **does not install anything from the `[dev-packages]` section** of the `pipfile`.
 ```bash
 $ pipenv install
 ```
 
-You can **install from you**
+You can **install dependencies from your pipfile's `[dev-packages]` section** by using the `--dev` flag with the `install` command.
+```bash
+$ pipenv install --dev
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTQ4NDcsLTE5OTM1OTMxNjQsLTI0NT
+eyJoaXN0b3J5IjpbNTYxODU5MDgsLTE5OTM1OTMxNjQsLTI0NT
 MyODc1MiwyNTc2MjY3OTcsMjAxNzg5NTM4MCwtMTg2NjkyMzAy
 NywxMzczMTMzNTcxLC0xNDQ1OTQ0NzUsNDg4NDY3MjQ4LC04OT
 cwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgz
