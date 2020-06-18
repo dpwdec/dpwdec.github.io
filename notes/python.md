@@ -315,13 +315,15 @@ You **cannot use `:` characters in a script name** like `test:unit` or `run:main
 test:unit = "python3 -m unittest" <-- NOT ALLOWED X
 ```
 
+You can **install everything from you pipfile**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTM1OTMxNjQsLTI0NTMyODc1MiwyNT
-c2MjY3OTcsMjAxNzg5NTM4MCwtMTg2NjkyMzAyNywxMzczMTMz
-NTcxLC0xNDQ1OTQ0NzUsNDg4NDY3MjQ4LC04OTcwNTk3ODIsLT
-Y5ODM3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwtMTE5NTEy
-NzQwNiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAzNDQ4LC
-04NjYwMjg1MjQsLTE0MzM0NzM0NzMsMjgyMTEwOTQ3LDg1OTc1
-MjddfQ==
+eyJoaXN0b3J5IjpbLTcxMjkwMDExOSwtMTk5MzU5MzE2NCwtMj
+Q1MzI4NzUyLDI1NzYyNjc5NywyMDE3ODk1MzgwLC0xODY2OTIz
+MDI3LDEzNzMxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0NjcyNDgsLT
+g5NzA1OTc4MiwtNjk4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1
+ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNzkwOTMxNTAxLD
+EyMDA5MDM0NDgsLTg2NjAyODUyNCwtMTQzMzQ3MzQ3MywyODIx
+MTA5NDddfQ==
 -->
