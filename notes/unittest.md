@@ -191,7 +191,7 @@ def test_comparator_operator_mock():
   if(mock_number == 1):
     print("Mock __eq__ function returned 1.")
 
-  mock_number.__eq__.assert_called_with(1)
+  mock_number.__eq__.assert_called_with(1) # => True
 ```
 
 The same logic applies to **mocking a values arithmetic operators** by reassignment to `mock` objects.
@@ -200,9 +200,10 @@ def test_arithmetic_operator_mock():
   mock_number = mock.MagicMock()
   __mock_add__ = mock.Mock()
   __mock_add__.return_value = 2
-  mock_number.__add__ = __
+  mock_number.__add__ = __mock_add__
   result = mock_numer + 1
-  print(result) # 
+  print(result) # => 1
+  mock_number.__add__.assert_called_with(1) # => True
 ```
 
 # Coverage
@@ -300,10 +301,10 @@ after_success:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODMxMzYxMjAsOTI1MjMzODEsLTYzOD
-UyNjYyNiwtNDM4OTkyNzQ1LC0xNzA1ODI4Mzg4LC0xOTcwNDcz
-MjAxLDQzMTIyMzE0MCwtMTk0Nzc3OTkwOSw5MTg2MjIyNDYsMT
-cyNjgwNTU3MSwxMDk1MTk3NDUwLC0zMTcwNTM2NzgsLTcyMjgy
-MDUzMywtODQ2NjU4MjUyLC0yMjA3MDEzOTcsNjE3MTQzOTg4LD
-E5ODQ4MjA5MTMsNzE4OTk5ODldfQ==
+eyJoaXN0b3J5IjpbODQ4NDY1Mjc2LDkyNTIzMzgxLC02Mzg1Mj
+Y2MjYsLTQzODk5Mjc0NSwtMTcwNTgyODM4OCwtMTk3MDQ3MzIw
+MSw0MzEyMjMxNDAsLTE5NDc3Nzk5MDksOTE4NjIyMjQ2LDE3Mj
+Y4MDU1NzEsMTA5NTE5NzQ1MCwtMzE3MDUzNjc4LC03MjI4MjA1
+MzMsLTg0NjY1ODI1MiwtMjIwNzAxMzk3LDYxNzE0Mzk4OCwxOT
+g0ODIwOTEzLDcxODk5OTg5XX0=
 -->
