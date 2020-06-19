@@ -194,7 +194,7 @@ def test_int_operator_mock():
   mock_number.__eq__.assert_called_with(1)
 ```
 
-
+The same logic applies to **mocking an**
 
 # Coverage
 
@@ -291,10 +291,10 @@ after_success:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDg5MDM1Myw5MjUyMzM4MSwtNjM4NT
-I2NjI2LC00Mzg5OTI3NDUsLTE3MDU4MjgzODgsLTE5NzA0NzMy
-MDEsNDMxMjIzMTQwLC0xOTQ3Nzc5OTA5LDkxODYyMjI0NiwxNz
-I2ODA1NTcxLDEwOTUxOTc0NTAsLTMxNzA1MzY3OCwtNzIyODIw
-NTMzLC04NDY2NTgyNTIsLTIyMDcwMTM5Nyw2MTcxNDM5ODgsMT
-k4NDgyMDkxMyw3MTg5OTk4OV19
+eyJoaXN0b3J5IjpbNjYwOTQxNzgyLDkyNTIzMzgxLC02Mzg1Mj
+Y2MjYsLTQzODk5Mjc0NSwtMTcwNTgyODM4OCwtMTk3MDQ3MzIw
+MSw0MzEyMjMxNDAsLTE5NDc3Nzk5MDksOTE4NjIyMjQ2LDE3Mj
+Y4MDU1NzEsMTA5NTE5NzQ1MCwtMzE3MDUzNjc4LC03MjI4MjA1
+MzMsLTg0NjY1ODI1MiwtMjIwNzAxMzk3LDYxNzE0Mzk4OCwxOT
+g0ODIwOTEzLDcxODk5OTg5XX0=
 -->
