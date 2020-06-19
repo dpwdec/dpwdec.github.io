@@ -5,7 +5,7 @@ exclude: true
 ---
 You can **select an entire word or symbol** using the `CMD + D` shortcut. By pressing this keyboard shortcut multiple times you will switch **multi-word editing mode**, this will select each same word after the initial word you selected you can then type to replace them.
 
-You can **configure code formatting settings by language type** by editing vs codes `settings.json` file. To do this:
+You can **configure code formatting settings by language type** by editing vs codes `settings.json` file. [To do this](https://stackoverflow.com/questions/34247939/how-to-set-per-filetype-tab-size):
 
 1. Use the keyboard shortcut `CMD + SHIFT + P`
 2. Type into the search box `Preferences: Configure Language Specific Settings`
@@ -25,6 +25,6 @@ In the below example of the `settings.json` file is edited for python to set the
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjYzMDE0MCwtMTczNzkwMjU3MSwtMT
-AzODkxMDIwM119
+eyJoaXN0b3J5IjpbMTMxNzc5NzM5NiwxMzgyNjMwMTQwLC0xNz
+M3OTAyNTcxLC0xMDM4OTEwMjAzXX0=
 -->
