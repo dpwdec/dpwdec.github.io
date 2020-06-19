@@ -323,7 +323,15 @@ num.__add__ = sum_func
 
 The `__repr__` method **allows you to change how an object is represented when it is printed**. By implementing this method inside your class when an instance of the class is passed to the `print` method it will use the `__repr__` method.
 ```py
+class MyObject():
+  def __init__(self):
+    self.name = "foo"
 
+  def __repr(self):
+    return self.name
+
+my_object = MyObject()
+# before defining repr:
 ```
 
 ### Comparative Magic Methods
@@ -377,11 +385,11 @@ $ pipenv install --dev
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjE3MDAyNjYsLTI5Mzk5OTA3MywtOT
-c4ODM5Mzk1LDE5OTgxODcxODgsNTYxODU5MDgsLTE5OTM1OTMx
-NjQsLTI0NTMyODc1MiwyNTc2MjY3OTcsMjAxNzg5NTM4MCwtMT
-g2NjkyMzAyNywxMzczMTMzNTcxLC0xNDQ1OTQ0NzUsNDg4NDY3
-MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQsMT
-M3MzQ2NTgzOCwtMTE5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MDkz
-MTUwMV19
+eyJoaXN0b3J5IjpbMjYwNTgxODg4LC0yOTM5OTkwNzMsLTk3OD
+gzOTM5NSwxOTk4MTg3MTg4LDU2MTg1OTA4LC0xOTkzNTkzMTY0
+LC0yNDUzMjg3NTIsMjU3NjI2Nzk3LDIwMTc4OTUzODAsLTE4Nj
+Y5MjMwMjcsMTM3MzEzMzU3MSwtMTQ0NTk0NDc1LDQ4ODQ2NzI0
+OCwtODk3MDU5NzgyLC02OTgzNzI5NTAsLTI4Mjc0NjU0LDEzNz
+M0NjU4MzgsLTExOTUxMjc0MDYsLTU1NjQ2NDAxOCw3OTA5MzE1
+MDFdfQ==
 -->
