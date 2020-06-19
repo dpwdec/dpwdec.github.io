@@ -278,6 +278,10 @@ hasattr(foo, "baz") # => True
 hasattr(foo, "Que") # => False
 ```
 
+### Inheritance
+
+You can **use the superclass version of a method** by using the `super()` method to return the superclass instance of your current object and then call the method you want to invoke.
+
 ### Uniform Access Principle
 
 Python generally follow the [uniform access principle](https://en.wikipedia.org/wiki/Uniform_access_principle) meaning that class properties should be accessed directly and you should generally **not use getter and setter methods for properties**.
@@ -351,11 +355,11 @@ $ pipenv install --dev
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5Mzk5OTA3MywtOTc4ODM5Mzk1LDE5OT
-gxODcxODgsNTYxODU5MDgsLTE5OTM1OTMxNjQsLTI0NTMyODc1
-MiwyNTc2MjY3OTcsMjAxNzg5NTM4MCwtMTg2NjkyMzAyNywxMz
-czMTMzNTcxLC0xNDQ1OTQ0NzUsNDg4NDY3MjQ4LC04OTcwNTk3
-ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwtMT
-E5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MDkzMTUwMSwxMjAwOTAz
-NDQ4XX0=
+eyJoaXN0b3J5IjpbMTA0MjgyMTQ3NiwtMjkzOTk5MDczLC05Nz
+g4MzkzOTUsMTk5ODE4NzE4OCw1NjE4NTkwOCwtMTk5MzU5MzE2
+NCwtMjQ1MzI4NzUyLDI1NzYyNjc5NywyMDE3ODk1MzgwLC0xOD
+Y2OTIzMDI3LDEzNzMxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0Njcy
+NDgsLTg5NzA1OTc4MiwtNjk4MzcyOTUwLC0yODI3NDY1NCwxMz
+czNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNzkwOTMx
+NTAxXX0=
 -->
