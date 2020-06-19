@@ -281,6 +281,21 @@ hasattr(foo, "Que") # => False
 ### Inheritance
 
 You can **use the superclass version of a method** by using the `super()` method to return the superclass instance of your current object and then call the method you want to invoke.
+```py
+class Foo():
+  def hello():
+    print("hello...")
+
+class Bar(Foo):
+  def hello():
+    super().hello()
+    print("..from the otherside.")
+
+bar = Bar()
+bar.hello()
+
+
+```
 
 ### Uniform Access Principle
 
@@ -355,7 +370,7 @@ $ pipenv install --dev
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjgyMTQ3NiwtMjkzOTk5MDczLC05Nz
+eyJoaXN0b3J5IjpbLTQ4NjkwMDY5NywtMjkzOTk5MDczLC05Nz
 g4MzkzOTUsMTk5ODE4NzE4OCw1NjE4NTkwOCwtMTk5MzU5MzE2
 NCwtMjQ1MzI4NzUyLDI1NzYyNjc5NywyMDE3ODk1MzgwLC0xOD
 Y2OTIzMDI3LDEzNzMxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0Njcy
