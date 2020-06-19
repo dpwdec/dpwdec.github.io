@@ -280,7 +280,7 @@ hasattr(foo, "Que") # => False
 
 ### Inheritance
 
-You can **use the superclass version of a method** by using the `super()` method to return the superclass instance of your current object and then call the method you want to invoke.
+You can **use the superclass version of a method** by using the `super()` method to return the superclass instance of your current object and then call the method you want to invoke. In the example below the `Bar` class inherits from the `Foo` class and overrides the `Foo` method `hello`. Using the `super()` method we call the `Foo`'s implementation of `hello` before `Bar` executes its own implementation.
 ```py
 class Foo():
   def hello():
@@ -293,8 +293,8 @@ class Bar(Foo):
 
 bar = Bar()
 bar.hello()
-
-
+# => hello...
+# => ...from the otherside.
 ```
 
 ### Uniform Access Principle
@@ -370,11 +370,11 @@ $ pipenv install --dev
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjkwMDY5NywtMjkzOTk5MDczLC05Nz
-g4MzkzOTUsMTk5ODE4NzE4OCw1NjE4NTkwOCwtMTk5MzU5MzE2
-NCwtMjQ1MzI4NzUyLDI1NzYyNjc5NywyMDE3ODk1MzgwLC0xOD
-Y2OTIzMDI3LDEzNzMxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0Njcy
-NDgsLTg5NzA1OTc4MiwtNjk4MzcyOTUwLC0yODI3NDY1NCwxMz
-czNDY1ODM4LC0xMTk1MTI3NDA2LC01NTY0NjQwMTgsNzkwOTMx
-NTAxXX0=
+eyJoaXN0b3J5IjpbLTE4ODE1MDI0OTcsLTI5Mzk5OTA3MywtOT
+c4ODM5Mzk1LDE5OTgxODcxODgsNTYxODU5MDgsLTE5OTM1OTMx
+NjQsLTI0NTMyODc1MiwyNTc2MjY3OTcsMjAxNzg5NTM4MCwtMT
+g2NjkyMzAyNywxMzczMTMzNTcxLC0xNDQ1OTQ0NzUsNDg4NDY3
+MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTQsMT
+M3MzQ2NTgzOCwtMTE5NTEyNzQwNiwtNTU2NDY0MDE4LDc5MDkz
+MTUwMV19
 -->
