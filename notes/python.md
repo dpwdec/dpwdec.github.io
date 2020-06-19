@@ -319,6 +319,10 @@ num.__add__ = sum_func
 # => __add__ is READ ONLY
 ```
 
+### repr
+
+The `__repr__` method **allows you to change how an object is represented when it is printed**. By implementing this method inside your class when an instance of the class is passed to the `print
+
 ### Comparative Magic Methods
 
 | Magic Method Symbol | Equivalent Implementation |
@@ -370,7 +374,7 @@ $ pipenv install --dev
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODE1MDI0OTcsLTI5Mzk5OTA3MywtOT
+eyJoaXN0b3J5IjpbLTE5NTgzOTY1MDEsLTI5Mzk5OTA3MywtOT
 c4ODM5Mzk1LDE5OTgxODcxODgsNTYxODU5MDgsLTE5OTM1OTMx
 NjQsLTI0NTMyODc1MiwyNTc2MjY3OTcsMjAxNzg5NTM4MCwtMT
 g2NjkyMzAyNywxMzczMTMzNTcxLC0xNDQ1OTQ0NzUsNDg4NDY3
