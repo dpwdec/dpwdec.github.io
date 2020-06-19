@@ -198,9 +198,11 @@ The same logic applies to **mocking a values arithmetic operators** by reassignm
 ```py
 def test_arithmetic_operator_mock():
   mock_number = mock.MagicMock()
-  __mock_add_ = mock.Mock()
-  __mock_eq__.return_value = 2
+  __mock_add__ = mock.Mock()
+  __mock_add__.return_value = 2
+  mock_number.__add__ = __
   result = mock_numer + 1
+  print(result) # 
 ```
 
 # Coverage
@@ -298,7 +300,7 @@ after_success:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQ2NjUxNzYsOTI1MjMzODEsLTYzOD
+eyJoaXN0b3J5IjpbLTEzODMxMzYxMjAsOTI1MjMzODEsLTYzOD
 UyNjYyNiwtNDM4OTkyNzQ1LC0xNzA1ODI4Mzg4LC0xOTcwNDcz
 MjAxLDQzMTIyMzE0MCwtMTk0Nzc3OTkwOSw5MTg2MjIyNDYsMT
 cyNjgwNTU3MSwxMDk1MTk3NDUwLC0zMTcwNTM2NzgsLTcyMjgy
