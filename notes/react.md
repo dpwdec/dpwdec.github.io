@@ -51,7 +51,7 @@ class App extends React.Component {
 }
 ```
 
-All React components **must return only a single `HTML` element**. This means that the `return` or `render` of the component must return (usually a single `div` element) that contains all of the different content for that component. In the example below the `render` functionally shows two elements, the `h1` and `p` information, however, by wrapping this all in
+All React components **must return only a single parent `HTML` element**. This means that the `return` or `render` of the component must return (usually a single `div` element) that contains all of the different content for that component. In the example below the `render` functionally shows two elements, the `h1` and `p` information, however, by wrapping this all in a single `div` this multiple elements can be return from a single component.
 ```jsx
 render() {
   return(
@@ -195,9 +195,9 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2NTM5OTU4LC0yMTQ0MjE4MjA3LDEzOT
-E3Njc2MzgsMTAzMTQwMTExMCw0MDczNzk4MjIsMTM0NzU1ODk3
-MywxNjIwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1NTcyMSwtOT
-UyNTk1MjQxLDgwNzIzMzk0MCwzODg1NjE3MDUsLTUzNjAwNTU4
-XX0=
+eyJoaXN0b3J5IjpbMTU3MjQ2ODg3OCwtMjE0NDIxODIwNywxMz
+kxNzY3NjM4LDEwMzE0MDExMTAsNDA3Mzc5ODIyLDEzNDc1NTg5
+NzMsMTYyMDI5MDI0MywtNjE5MDQzMzc0LC0yNzAwNTU3MjEsLT
+k1MjU5NTI0MSw4MDcyMzM5NDAsMzg4NTYxNzA1LC01MzYwMDU1
+OF19
 -->
