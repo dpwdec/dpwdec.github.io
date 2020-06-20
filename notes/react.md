@@ -36,6 +36,12 @@ project
 └── App.js
 ``` 
 
+There are **two ways to define React components**. They can be defined as **functional components** which use **React hooks** or they can be defined as **class based components** which
+
+### Functional Components
+
+### Class based Components
+
 ## JSX
 
 JSX is a syntax extension in React that allows you write `HTML`-like code in the React `return` method and compile the result as `DOM` displayed to the client.
@@ -56,6 +62,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDA1NTcyMSwtOTUyNTk1MjQxLDgwNz
-IzMzk0MCwzODg1NjE3MDUsLTUzNjAwNTU4XX0=
+eyJoaXN0b3J5IjpbLTE5MjA5MzE4MzksLTI3MDA1NTcyMSwtOT
+UyNTk1MjQxLDgwNzIzMzk0MCwzODg1NjE3MDUsLTUzNjAwNTU4
+XX0=
 -->
