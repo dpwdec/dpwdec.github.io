@@ -56,6 +56,10 @@ function MyComponent() {
 
 ### Class based Components
 
+A **class based React component extends the `React.component` class**.
+
+You **must `import` the `React.component` element or `import` the `React` library**
+
 ## JSX
 
 JSX is a syntax extension in React that allows you write `HTML`-like code in the React `return` method and compile the result as `DOM` displayed to the client.
@@ -76,7 +80,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC05NT
-I1OTUyNDEsODA3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MDA1NThd
-fQ==
+eyJoaXN0b3J5IjpbMTM5MDkwMTQxMywtNjE5MDQzMzc0LC0yNz
+AwNTU3MjEsLTk1MjU5NTI0MSw4MDcyMzM5NDAsMzg4NTYxNzA1
+LC01MzYwMDU1OF19
 -->
