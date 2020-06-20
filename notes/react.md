@@ -18,7 +18,9 @@ The **entry point for a React app** is `index.js`. This is where you **import re
 This file also **imports the application's root React component** usually called `App` and uses the `ReactDOM.render` as an initialisation point that puts the component `App` *into* the `root` `div` (above) and renders it on the page. The `App` component is the entry point for React's internal rendering and all other components in the React system can then be rendered without referencing the `DOM` or `index.js` again.
 ```js
 // index.js
-import 
+import  React  from  'react';
+import  ReactDOM  from  'react-dom';
+import  App  from  './App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
@@ -35,6 +37,6 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzM5NTU3OCw4MDcyMzM5NDAsMzg4NT
+eyJoaXN0b3J5IjpbMTE0NTUwNDgxNSw4MDcyMzM5NDAsMzg4NT
 YxNzA1LC01MzYwMDU1OF19
 -->
