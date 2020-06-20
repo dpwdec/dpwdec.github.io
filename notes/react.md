@@ -28,6 +28,10 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ## Components
 All react 
 
+## JSX
+
+JSX is a syntax extension in React that allows you write `HTML`
+
 ## Create React App
 
 Create React App is a light weight micro-framework for initialising a simple react app. CRA offers a minimal server side interface that transpiles react code into pages for clients.
@@ -37,6 +41,6 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTUwNDgxNSw4MDcyMzM5NDAsMzg4NT
+eyJoaXN0b3J5IjpbLTkxOTQyMjIyMCw4MDcyMzM5NDAsMzg4NT
 YxNzA1LC01MzYwMDU1OF19
 -->
