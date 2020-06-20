@@ -6,6 +6,10 @@ exclude: true
 
 React is a front end Javascript framework for creating dynamic web pages.
 
+## Structure
+
+React is a designed as a **single page web application framework**. All elements of react are mediated through a single `.html` file 
+
 ## Components
 All react 
 
@@ -18,5 +22,6 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4NTYxNzA1LC01MzYwMDU1OF19
+eyJoaXN0b3J5IjpbMjAzNzAzMTUsMzg4NTYxNzA1LC01MzYwMD
+U1OF19
 -->
