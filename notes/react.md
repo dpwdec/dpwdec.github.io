@@ -85,7 +85,7 @@ class MyComponent extends Component {
 }
 ```
 
-You can **access a component's `state` object** by referencing it with `this.state`. Using the example above, accessing the `name` property of the state would return the string set to
+You can **access a component's `state` object** by referencing it with `this.state`. Using the example above, accessing the `name` property of the state would return the string set to this value.
 ```js
 this.state.name
 // => My Component
@@ -121,8 +121,8 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjk4MTEwMTksNDA3Mzc5ODIyLDEzND
-c1NTg5NzMsMTYyMDI5MDI0MywtNjE5MDQzMzc0LC0yNzAwNTU3
-MjEsLTk1MjU5NTI0MSw4MDcyMzM5NDAsMzg4NTYxNzA1LC01Mz
-YwMDU1OF19
+eyJoaXN0b3J5IjpbMTAzMTQwMTExMCw0MDczNzk4MjIsMTM0Nz
+U1ODk3MywxNjIwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1NTcy
+MSwtOTUyNTk1MjQxLDgwNzIzMzk0MCwzODg1NjE3MDUsLTUzNj
+AwNTU4XX0=
 -->
