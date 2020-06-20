@@ -26,7 +26,8 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
 ## Components
-All react 
+
+Components make up the core of React. Each component represents an element on the scr
 
 ## JSX
 
@@ -48,6 +49,6 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MjU5NTI0MSw4MDcyMzM5NDAsMzg4NT
-YxNzA1LC01MzYwMDU1OF19
+eyJoaXN0b3J5IjpbLTEzOTczOTQxNTYsLTk1MjU5NTI0MSw4MD
+cyMzM5NDAsMzg4NTYxNzA1LC01MzYwMDU1OF19
 -->
