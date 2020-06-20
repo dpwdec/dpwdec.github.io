@@ -34,7 +34,14 @@ project
 |	├── SomeText.js
 |   └── SomeButton.js
 └── App.js
-``` 
+```
+
+You can **render a component** by calling it as a tag inside the `return` or `render` function of another components.
+```js
+
+```
+
+You can **pass parameters to a component** also called `props
 
 There are **two ways to define React components**. They can be defined as **functional components** which use **React hooks** or they can be defined as **class based components** which extend the `React.component` class. Both component types have similar functionality however generally if your component has a lot of **state based logic** associated with it you will want to use a class based component and if it is just a simple, possibly stateless page element that simply accepts `props` you will want to use a functional component. 
 
@@ -121,8 +128,8 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTQwMTExMCw0MDczNzk4MjIsMTM0Nz
-U1ODk3MywxNjIwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1NTcy
-MSwtOTUyNTk1MjQxLDgwNzIzMzk0MCwzODg1NjE3MDUsLTUzNj
-AwNTU4XX0=
+eyJoaXN0b3J5IjpbLTE1NDg0MDExMjYsMTAzMTQwMTExMCw0MD
+czNzk4MjIsMTM0NzU1ODk3MywxNjIwMjkwMjQzLC02MTkwNDMz
+NzQsLTI3MDA1NTcyMSwtOTUyNTk1MjQxLDgwNzIzMzk0MCwzOD
+g1NjE3MDUsLTUzNjAwNTU4XX0=
 -->
