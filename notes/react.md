@@ -36,9 +36,17 @@ project
 └── App.js
 ```
 
-You can **render a component** by calling it as a tag inside the `return` or `render` function of another components.
+You can **render a component** by calling it as a tag in the format `<ComponentName />` inside the `return` or `render` function of another components. You must also **import components that you want to render**.
 ```js
+// App.js
 
+import SomeComponent from './components/SomeComponent'
+
+render() {
+  return(
+    <SomeComponent />
+  );
+}
 ```
 
 You can **pass parameters to a component** also called `props` in React by passing them in as a key-value pair to the tag call of the component. The component will then have access to the properties passed in
@@ -131,8 +139,8 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNz
-M3OTgyMiwxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLTYxOTA0MzM3
-NCwtMjcwMDU1NzIxLC05NTI1OTUyNDEsODA3MjMzOTQwLDM4OD
-U2MTcwNSwtNTM2MDA1NThdfQ==
+eyJoaXN0b3J5IjpbNzgxODU1MDc3LDEzOTE3Njc2MzgsMTAzMT
+QwMTExMCw0MDczNzk4MjIsMTM0NzU1ODk3MywxNjIwMjkwMjQz
+LC02MTkwNDMzNzQsLTI3MDA1NTcyMSwtOTUyNTk1MjQxLDgwNz
+IzMzk0MCwzODg1NjE3MDUsLTUzNjAwNTU4XX0=
 -->
