@@ -85,8 +85,12 @@ class MyComponent extends Component {
 }
 ```
 
+You can **store instances of other classes inside a React components `state`** object.
+```js
+import SomeClass from '.
 
-
+class MyComponent extends Component {
+```
 ## JSX
 
 JSX is a syntax extension in React that allows you write `HTML`-like code in the React `return` method and compile the result as `DOM` displayed to the client.
@@ -107,7 +111,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzU1ODk3MywxNjIwMjkwMjQzLC02MT
-kwNDMzNzQsLTI3MDA1NTcyMSwtOTUyNTk1MjQxLDgwNzIzMzk0
-MCwzODg1NjE3MDUsLTUzNjAwNTU4XX0=
+eyJoaXN0b3J5IjpbMjA0NTQyMjA3MSwxMzQ3NTU4OTczLDE2Mj
+AyOTAyNDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC05NTI1OTUy
+NDEsODA3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MDA1NThdfQ==
 -->
