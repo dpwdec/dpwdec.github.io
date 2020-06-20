@@ -40,7 +40,7 @@ There are **two ways to define React components**. They can be defined as **func
 
 ### Functional Components
 
-
+A **functional React component** is simply a function that `return`s some rend
 
 ### Class based Components
 
@@ -64,7 +64,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3Mzk1MTgzLC0yNzAwNTU3MjEsLTk1Mj
-U5NTI0MSw4MDcyMzM5NDAsMzg4NTYxNzA1LC01MzYwMDU1OF19
-
+eyJoaXN0b3J5IjpbLTE0NjE1NTY4MTksLTI3MDA1NTcyMSwtOT
+UyNTk1MjQxLDgwNzIzMzk0MCwzODg1NjE3MDUsLTUzNjAwNTU4
+XX0=
 -->
