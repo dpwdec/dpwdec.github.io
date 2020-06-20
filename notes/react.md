@@ -86,7 +86,16 @@ You **must `import` the `React` library** to create functional react components
 // basic functional React component
 import React from 'react';
 
-function MyComponent() {
+function MyFunctionalComponent() {
+  return(
+    <div id="my-component"></div>
+  );
+}
+```
+
+You can **access `props` inside a functional component** by adding `props` as an argument to the component's function. This doesn't *have* to be called `props`, but *should* be, by React convention.
+```js
+function MyFunctionalComponent() {
   return(
     <div id="my-component"></div>
   );
@@ -160,7 +169,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjMwMDYxMSwtMjE0NDIxODIwNywxMz
+eyJoaXN0b3J5IjpbLTQ2NDEyNTg4NSwtMjE0NDIxODIwNywxMz
 kxNzY3NjM4LDEwMzE0MDExMTAsNDA3Mzc5ODIyLDEzNDc1NTg5
 NzMsMTYyMDI5MDI0MywtNjE5MDQzMzc0LC0yNzAwNTU3MjEsLT
 k1MjU5NTI0MSw4MDcyMzM5NDAsMzg4NTYxNzA1LC01MzYwMDU1
