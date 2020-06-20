@@ -51,7 +51,14 @@ class App extends React.Component {
 }
 ```
 
-All rea
+All React components **must return only a single `HTML` element**. This means that the `return` or `render` of the component must return (usually a single `div` element) that contains all of the different content for that component.
+```js
+render() {
+  return(
+    
+  )
+}
+```
 
 You can **pass parameters to a component**, also called `props` in React, by passing them in as a key-value pair to the tag call of the component. In the example below the name of the key is `number` and the value, contained in `{ }` curly braces is 5. You could place any property of function call here that returns a value such as using the `App` classes `state` object etc.
 ```js
@@ -185,9 +192,9 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwMzgxODQsLTIxNDQyMTgyMDcsMTM5MT
-c2NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMiwxMzQ3NTU4OTcz
-LDE2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC05NT
-I1OTUyNDEsODA3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MDA1NThd
-fQ==
+eyJoaXN0b3J5IjpbLTE5Nzk1NTQ3NDIsLTIxNDQyMTgyMDcsMT
+M5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMiwxMzQ3NTU4
+OTczLDE2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC
+05NTI1OTUyNDEsODA3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MDA1
+NThdfQ==
 -->
