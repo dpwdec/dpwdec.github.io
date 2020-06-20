@@ -13,7 +13,7 @@ React is a designed as a **single page web application framework**. All elements
 <div id="root"></div>
 ```
 
-The
+The **entry point for a React app** is `index.js`. This file uses the `ReactDOM` 
 
 ## Components
 All react 
@@ -27,6 +27,6 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4MjE5NTcxLDgwNzIzMzk0MCwzODg1Nj
-E3MDUsLTUzNjAwNTU4XX0=
+eyJoaXN0b3J5IjpbLTEyMTQzNjQ3MDAsODA3MjMzOTQwLDM4OD
+U2MTcwNSwtNTM2MDA1NThdfQ==
 -->
