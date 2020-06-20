@@ -58,7 +58,17 @@ function MyComponent() {
 
 A **class based React component extends the `React.component` class**.
 
-You **must `import` the `React.component` element or `import` the `React` library**
+You **must `import` the `React.component` element or `import` the `React` library** and call it manually to create class based components.
+```js
+// basic class based React component
+import React, { Component } from 'react';
+
+class MyComponent extends Component {
+  return(
+    <div id="my-component"></div>
+  );
+}
+```
 
 ## JSX
 
@@ -80,7 +90,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDkwMTQxMywtNjE5MDQzMzc0LC0yNz
+eyJoaXN0b3J5IjpbMTYyMDI5MDI0MywtNjE5MDQzMzc0LC0yNz
 AwNTU3MjEsLTk1MjU5NTI0MSw4MDcyMzM5NDAsMzg4NTYxNzA1
 LC01MzYwMDU1OF19
 -->
