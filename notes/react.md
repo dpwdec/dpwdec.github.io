@@ -11,7 +11,9 @@ All react
 
 ## Create React App
 
-Create React App is a light weight micro-framework for initialising a simple react app. This framework does 
+Create React App is a light weight micro-framework for initialising a simple react app. CRA offers a minimal server side interface that transpiles react code into pages for clients.
+
+You can **create a new**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwOTc3MjE5LC01MzYwMDU1OF19
+eyJoaXN0b3J5IjpbLTEyMDc3OTc1NDEsLTUzNjAwNTU4XX0=
 -->
