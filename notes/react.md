@@ -70,7 +70,20 @@ class MyComponent extends Component {
 }
 ```
 
-The **state of a class component is stored in its `state` object**. This is a javascript object with properties that represent the data that object holds. You can **define a class component's `state` object** by defining it in the bo
+The **state of a class component is stored in its `state` object**. This is a javascript object with properties that represent the data that object holds. You can **define a class component's `state` object** by defining it directly in the body of the class. In the example below `MyComponent` contains a state object that contains a high level `name` prop
+```js
+class MyComponent extends Component {
+  state = {
+    name: 'My Component',
+    subComponents: [
+      {
+        id: 1,
+        data: 'Sub Component'
+      }
+    ]
+  }
+}
+```
 
 ## JSX
 
@@ -92,7 +105,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTU3NjYzMywxNjIwMjkwMjQzLC02MT
-kwNDMzNzQsLTI3MDA1NTcyMSwtOTUyNTk1MjQxLDgwNzIzMzk0
-MCwzODg1NjE3MDUsLTUzNjAwNTU4XX0=
+eyJoaXN0b3J5IjpbLTE2NzAzOTkzNzIsMTYyMDI5MDI0MywtNj
+E5MDQzMzc0LC0yNzAwNTU3MjEsLTk1MjU5NTI0MSw4MDcyMzM5
+NDAsMzg4NTYxNzA1LC01MzYwMDU1OF19
 -->
