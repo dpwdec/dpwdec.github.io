@@ -69,6 +69,7 @@ class MyComponent extends Component {
   );
 }
 ```
+You can **define the `state` of**
 
 ## JSX
 
@@ -90,7 +91,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDI5MDI0MywtNjE5MDQzMzc0LC0yNz
-AwNTU3MjEsLTk1MjU5NTI0MSw4MDcyMzM5NDAsMzg4NTYxNzA1
-LC01MzYwMDU1OF19
+eyJoaXN0b3J5IjpbMTU4OTg3MzUwLDE2MjAyOTAyNDMsLTYxOT
+A0MzM3NCwtMjcwMDU1NzIxLC05NTI1OTUyNDEsODA3MjMzOTQw
+LDM4ODU2MTcwNSwtNTM2MDA1NThdfQ==
 -->
