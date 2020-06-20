@@ -51,6 +51,8 @@ class App extends React.Component {
 }
 ```
 
+All rea
+
 You can **pass parameters to a component**, also called `props` in React, by passing them in as a key-value pair to the tag call of the component. In the example below the name of the key is `number` and the value, contained in `{ }` curly braces is 5. You could place any property of function call here that returns a value such as using the `App` classes `state` object etc.
 ```js
 class App extends React.Component {
@@ -154,7 +156,13 @@ class MyComponent extends Component {
 
 You can **access `props` in a class based component** by using `this.props`.
 ```js
-
+class MyComponent extends Component {
+  return(
+    <div id="my-component">
+      <p>{this.props.name}</p>
+    </div>
+  );
+}
 ```
 
 ## JSX
@@ -177,9 +185,9 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODY5ODY0NTUsLTIxNDQyMTgyMDcsMT
-M5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMiwxMzQ3NTU4
-OTczLDE2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC
-05NTI1OTUyNDEsODA3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MDA1
-NThdfQ==
+eyJoaXN0b3J5IjpbMjkwMzgxODQsLTIxNDQyMTgyMDcsMTM5MT
+c2NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMiwxMzQ3NTU4OTcz
+LDE2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC05NT
+I1OTUyNDEsODA3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MDA1NThd
+fQ==
 -->
