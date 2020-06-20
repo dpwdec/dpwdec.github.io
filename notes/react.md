@@ -87,9 +87,13 @@ class App extends React.Component {
 
 To **retrieve `props` inside components** see the functional and class based react component specifics below.
 
-You can **display an array of information as a list** by using the javascript `map` method to transform the contents of the array into JSX elements. The usage of the `map` function is slightly different in react with the callback function for map using `()` soft braces instead of curly brackets to define the return type from its operation.
+You can **display an array of information as a list** by using the javascript `map` method to transform the contents of the array into JSX elements. The usage of the `map` function is slightly different in react with the callback function for map using `()` soft braces instead of curly brackets to define the return type from its operation. The code below uses `map` and immediately after the `=>` hash rocket showing the 
 ```jsx
-
+render() {
+  return props.names.map((name) => (
+    <h3>{name}<h3>
+  ));
+}
 ```
 
 There are **two ways to define React components**. They can be defined as **functional components** which use **React hooks** or they can be defined as **class based components** which extend the `React.component` class. Both component types have similar functionality however generally if your component has a lot of **state based logic** associated with it you will want to use a class based component and if it is just a simple, possibly stateless page element that simply accepts `props` you will want to use a functional component. 
@@ -200,9 +204,9 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTMwNzQzMSwxNTcyNDY4ODc4LC0yMT
-Q0MjE4MjA3LDEzOTE3Njc2MzgsMTAzMTQwMTExMCw0MDczNzk4
-MjIsMTM0NzU1ODk3MywxNjIwMjkwMjQzLC02MTkwNDMzNzQsLT
-I3MDA1NTcyMSwtOTUyNTk1MjQxLDgwNzIzMzk0MCwzODg1NjE3
-MDUsLTUzNjAwNTU4XX0=
+eyJoaXN0b3J5IjpbNDg4NTc3NTM3LDE1NzI0Njg4NzgsLTIxND
+QyMTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgy
+MiwxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMj
+cwMDU1NzIxLC05NTI1OTUyNDEsODA3MjMzOTQwLDM4ODU2MTcw
+NSwtNTM2MDA1NThdfQ==
 -->
