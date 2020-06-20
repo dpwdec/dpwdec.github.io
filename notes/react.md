@@ -85,11 +85,15 @@ class MyComponent extends Component {
 }
 ```
 
-You can **store instances of other classes inside a React components `state`** object.
+You can **store and instantiate instances of other classes inside a React components `state`** object.
 ```js
-import SomeClass from '.
+import SomeClass from './SomeClass.js'
 
 class MyComponent extends Component {
+  state = {
+    someClass = new someClass()
+  }
+}
 ```
 ## JSX
 
@@ -111,7 +115,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTQyMjA3MSwxMzQ3NTU4OTczLDE2Mj
-AyOTAyNDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC05NTI1OTUy
-NDEsODA3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MDA1NThdfQ==
+eyJoaXN0b3J5IjpbNDA3Mzc5ODIyLDEzNDc1NTg5NzMsMTYyMD
+I5MDI0MywtNjE5MDQzMzc0LC0yNzAwNTU3MjEsLTk1MjU5NTI0
+MSw4MDcyMzM5NDAsMzg4NTYxNzA1LC01MzYwMDU1OF19
 -->
