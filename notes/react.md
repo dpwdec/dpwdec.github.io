@@ -13,7 +13,10 @@ React is a designed as a **single page web application framework**. All elements
 <div id="root"></div>
 ```
 
-The **entry point for a React app** is `index.js`. This file uses the `ReactDOM.render` as an initialisation point that puts the parent component `App` *into* the `root` `div` (above) and renders it on the page. The `App` component is the entry point o 
+The **entry point for a React app** is `index.js`. This file uses the `ReactDOM.render` as an initialisation point that puts the parent component `App` *into* the `root` `div` (above) and renders it on the page. The `App` component is the entry point for React's internal rendering and all other components in the React system can then be rendered without referencing the `DOM` or `index.js` again.
+```js
+ReactDOM.render(<App />, document.get
+```
 
 ## Components
 All react 
@@ -27,6 +30,6 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzU1NTkwOSw4MDcyMzM5NDAsMzg4NT
-YxNzA1LC01MzYwMDU1OF19
+eyJoaXN0b3J5IjpbLTEzNjcyMDc1NzgsODA3MjMzOTQwLDM4OD
+U2MTcwNSwtNTM2MDA1NThdfQ==
 -->
