@@ -13,6 +13,8 @@ React is a designed as a **single page web application framework**. All elements
 <div id="root"></div>
 ```
 
+The
+
 ## Components
 All react 
 
@@ -25,6 +27,6 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MD
-A1NThdfQ==
+eyJoaXN0b3J5IjpbMjQ4MjE5NTcxLDgwNzIzMzk0MCwzODg1Nj
+E3MDUsLTUzNjAwNTU4XX0=
 -->
