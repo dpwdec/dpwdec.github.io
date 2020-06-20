@@ -42,16 +42,24 @@ You can **render a component** by calling it as a tag in the format `<ComponentN
 
 import SomeComponent from './components/SomeComponent'
 
-render() {
-  return(
-    <SomeComponent />
-  );
+class App extends React.Component {
+  render() {
+    return(
+      <SomeComponent />
+    );
+  }
 }
 ```
 
-You can **pass parameters to a component** also called `props` in React by passing them in as a key-value pair to the tag call of the component. The component will then have access to the properties passed in
+You can **pass parameters to a component**, also called `props` in React, by passing them in as a key-value pair to the tag call of the component. The component will then have access to the properties passed in
 ```js
-
+class App extends React.Component {
+  render() {
+    return(
+      <SomeComponent number={5}/>
+    );
+  }
+}
 ```
 
 There are **two ways to define React components**. They can be defined as **functional components** which use **React hooks** or they can be defined as **class based components** which extend the `React.component` class. Both component types have similar functionality however generally if your component has a lot of **state based logic** associated with it you will want to use a class based component and if it is just a simple, possibly stateless page element that simply accepts `props` you will want to use a functional component. 
@@ -139,8 +147,8 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxODU1MDc3LDEzOTE3Njc2MzgsMTAzMT
-QwMTExMCw0MDczNzk4MjIsMTM0NzU1ODk3MywxNjIwMjkwMjQz
-LC02MTkwNDMzNzQsLTI3MDA1NTcyMSwtOTUyNTk1MjQxLDgwNz
-IzMzk0MCwzODg1NjE3MDUsLTUzNjAwNTU4XX0=
+eyJoaXN0b3J5IjpbLTIxNDQyMTgyMDcsMTM5MTc2NzYzOCwxMD
+MxNDAxMTEwLDQwNzM3OTgyMiwxMzQ3NTU4OTczLDE2MjAyOTAy
+NDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC05NTI1OTUyNDEsOD
+A3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MDA1NThdfQ==
 -->
