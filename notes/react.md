@@ -36,7 +36,7 @@ project
 └── App.js
 ``` 
 
-There are **two ways to define React components**. They can be defined as **functional components** which use **React hooks** or they can be defined as **class based components** which
+There are **two ways to define React components**. They can be defined as **functional components** which use **React hooks** or they can be defined as **class based components** which extend the `React.component` class. Both component types have similar functionality however generally if your component has a lot of **state based logic** associated with it you will want to use a class based component and if it is just a simple, possible stateless 
 
 ### Functional Components
 
@@ -62,7 +62,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjA5MzE4MzksLTI3MDA1NTcyMSwtOT
-UyNTk1MjQxLDgwNzIzMzk0MCwzODg1NjE3MDUsLTUzNjAwNTU4
-XX0=
+eyJoaXN0b3J5IjpbNDQzMDMwMzkwLC0yNzAwNTU3MjEsLTk1Mj
+U5NTI0MSw4MDcyMzM5NDAsMzg4NTYxNzA1LC01MzYwMDU1OF19
+
 -->
