@@ -35,8 +35,8 @@ JSX is a syntax extension in React that allows you write `HTML`-like code in the
 You **cannot use the `HTML` `class` attribute in JSX** and instead have to use a custom `className` attribute to assign classes to `HTML` elements.
 ```js
 return(
-  <div className="MyClass">
-  </div>
+  <div className="MyClass"></div>
+);
 ```
 
 ## Create React App
@@ -48,6 +48,6 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjk1MjkyMyw4MDcyMzM5NDAsMzg4NT
+eyJoaXN0b3J5IjpbLTk1MjU5NTI0MSw4MDcyMzM5NDAsMzg4NT
 YxNzA1LC01MzYwMDU1OF19
 -->
