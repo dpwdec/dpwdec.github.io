@@ -93,11 +93,13 @@ function MyFunctionalComponent() {
 }
 ```
 
-You can **access `props` inside a functional component** by adding `props` as an argument to the component's function. This doesn't *have* to be called `props`, but *should* be, by React convention.
+You can **access `props` inside a functional component** by adding `props` as an argument to the component's function. This doesn't *have* to be called `props`, but *should* be, by React convention. The information passed in as a `props` to the object can then be retrieve from this argument. In the example below we imagine that some parent component called `MyFunctionalComponent` to render and passed in a key-value pair with `name` as the key. This key can then be r
 ```js
-function MyFunctionalComponent() {
+function MyFunctionalComponent(props) {
   return(
-    <div id="my-component"></div>
+    <div id="my-component">
+      <p>{props.name}</p>
+    </div>
   );
 }
 ```
@@ -169,7 +171,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDEyNTg4NSwtMjE0NDIxODIwNywxMz
+eyJoaXN0b3J5IjpbMjA4NDAxNzk3NSwtMjE0NDIxODIwNywxMz
 kxNzY3NjM4LDEwMzE0MDExMTAsNDA3Mzc5ODIyLDEzNDc1NTg5
 NzMsMTYyMDI5MDI0MywtNjE5MDQzMzc0LC0yNzAwNTU3MjEsLT
 k1MjU5NTI0MSw4MDcyMzM5NDAsMzg4NTYxNzA1LC01MzYwMDU1
