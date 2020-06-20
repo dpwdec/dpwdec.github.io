@@ -37,7 +37,7 @@ project
 ```
 
 You can **render a component** by calling it as a tag in the format `<ComponentName />` inside the `return` or `render` function of another components. You must also **import components that you want to render**.
-```js
+```jsx
 // App.js
 
 import SomeComponent from './components/SomeComponent'
@@ -51,11 +51,14 @@ class App extends React.Component {
 }
 ```
 
-All React components **must return only a single `HTML` element**. This means that the `return` or `render` of the component must return (usually a single `div` element) that contains all of the different content for that component.
-```js
+All React components **must return only a single `HTML` element**. This means that the `return` or `render` of the component must return (usually a single `div` element) that contains all of the different content for that component. In the example below the `render` functionally shows two elements, the `h1` and `p` information, however, by wrapping this all in
+```jsx
 render() {
   return(
-    
+    <div>
+     <h1>Title</h1>
+     <p>Some information.</p>
+    </div>
   )
 }
 ```
@@ -192,9 +195,9 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk1NTQ3NDIsLTIxNDQyMTgyMDcsMT
-M5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMiwxMzQ3NTU4
-OTczLDE2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC
-05NTI1OTUyNDEsODA3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MDA1
-NThdfQ==
+eyJoaXN0b3J5IjpbNjA2NTM5OTU4LC0yMTQ0MjE4MjA3LDEzOT
+E3Njc2MzgsMTAzMTQwMTExMCw0MDczNzk4MjIsMTM0NzU1ODk3
+MywxNjIwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1NTcyMSwtOT
+UyNTk1MjQxLDgwNzIzMzk0MCwzODg1NjE3MDUsLTUzNjAwNTU4
+XX0=
 -->
