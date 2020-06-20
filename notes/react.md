@@ -87,7 +87,7 @@ class App extends React.Component {
 
 To **retrieve `props` inside components** see the functional and class based react component specifics below.
 
-You can **display an array of information as a ** by using the javascript `map` method. This
+You can **display an array of information as a list** by using the javascript `map` method to transform the contents of the array into JSX elements. The usage of the `map` function is slightly different in react and 
 
 There are **two ways to define React components**. They can be defined as **functional components** which use **React hooks** or they can be defined as **class based components** which extend the `React.component` class. Both component types have similar functionality however generally if your component has a lot of **state based logic** associated with it you will want to use a class based component and if it is just a simple, possibly stateless page element that simply accepts `props` you will want to use a functional component. 
 
@@ -197,7 +197,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODMyOTM5NTksMTU3MjQ2ODg3OCwtMj
+eyJoaXN0b3J5IjpbLTEyNjA2ODAyNTgsMTU3MjQ2ODg3OCwtMj
 E0NDIxODIwNywxMzkxNzY3NjM4LDEwMzE0MDExMTAsNDA3Mzc5
 ODIyLDEzNDc1NTg5NzMsMTYyMDI5MDI0MywtNjE5MDQzMzc0LC
 0yNzAwNTU3MjEsLTk1MjU5NTI0MSw4MDcyMzM5NDAsMzg4NTYx
