@@ -27,9 +27,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 ## Components
 
-Components make up the core of React. Each component represents an element a logical element on the screen that will be rendered. 
-
-**Components should be placed in a `/components` directory** that is on the same directory level as your `App` file.
+Components make up the core of React. Each component represents an element a logical element on the screen that will be rendered. **Components should be placed in a `/components` directory** that is on the same directory level as your `App` file. **Components should be named with pascal case** in the format `PascalCase`. Below is an example directory structure for how components should be laid out by convention.
 ```
 project
 ├── components
@@ -58,6 +56,6 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjA4ODQ5NzgsLTk1MjU5NTI0MSw4MD
-cyMzM5NDAsMzg4NTYxNzA1LC01MzYwMDU1OF19
+eyJoaXN0b3J5IjpbLTI3MDA1NTcyMSwtOTUyNTk1MjQxLDgwNz
+IzMzk0MCwzODg1NjE3MDUsLTUzNjAwNTU4XX0=
 -->
