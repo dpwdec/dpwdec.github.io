@@ -93,7 +93,7 @@ function MyFunctionalComponent() {
 }
 ```
 
-You can **access `props` inside a functional component** by adding `props` as an argument to the component's function. This doesn't *have* to be called `props`, but *should* be, by React convention. The information passed in as a `props` to the object can then be retrieve from this argument. In the example below we imagine that some parent component called `MyFunctionalComponent` to render and passed in a key-value pair with `name` as the key. This key can then be r
+You can **access `props` inside a functional component** by adding `props` as an argument to the component's function. This doesn't *have* to be called `props`, but *should* be, by React convention. The information passed in as a `props` to the object can then be retrieve from this argument. In the example below we imagine that some parent component called `MyFunctionalComponent` to render and passed in a key-value pair with `name` as the key. This key can then be retrieved from the `props` object with `.` dot object syntax.
 ```js
 function MyFunctionalComponent(props) {
   return(
@@ -151,6 +151,12 @@ class MyComponent extends Component {
   }
 }
 ```
+
+You can **access `props` in a class based component** by using `this.props`.
+```js
+
+```
+
 ## JSX
 
 JSX is a syntax extension in React that allows you write `HTML`-like code in the React `return` method and compile the result as `DOM` displayed to the client.
@@ -171,9 +177,9 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDAxNzk3NSwtMjE0NDIxODIwNywxMz
-kxNzY3NjM4LDEwMzE0MDExMTAsNDA3Mzc5ODIyLDEzNDc1NTg5
-NzMsMTYyMDI5MDI0MywtNjE5MDQzMzc0LC0yNzAwNTU3MjEsLT
-k1MjU5NTI0MSw4MDcyMzM5NDAsMzg4NTYxNzA1LC01MzYwMDU1
-OF19
+eyJoaXN0b3J5IjpbLTEyODY5ODY0NTUsLTIxNDQyMTgyMDcsMT
+M5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMiwxMzQ3NTU4
+OTczLDE2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC
+05NTI1OTUyNDEsODA3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MDA1
+NThdfQ==
 -->
