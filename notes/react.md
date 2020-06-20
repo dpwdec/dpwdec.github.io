@@ -30,7 +30,9 @@ All react
 
 ## JSX
 
-JSX is a syntax extension in React that allows you write `HTML`
+JSX is a syntax extension in React that allows you write `HTML`-like code in the React `render` method and compile the result as `DOM` displayed to the client.
+
+You **cannot use the HTML `class` attribute in JSX**
 
 ## Create React App
 
@@ -41,6 +43,6 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxOTQyMjIyMCw4MDcyMzM5NDAsMzg4NT
+eyJoaXN0b3J5IjpbMjA5ODMzNDEzMCw4MDcyMzM5NDAsMzg4NT
 YxNzA1LC01MzYwMDU1OF19
 -->
