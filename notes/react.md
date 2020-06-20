@@ -32,7 +32,10 @@ All react
 
 JSX is a syntax extension in React that allows you write `HTML`-like code in the React `render` method and compile the result as `DOM` displayed to the client.
 
-You **cannot use the HTML `class` attribute in JSX**
+You **cannot use the `HTML` `class` attribute in JSX** and instead have to use a custom `className` attribute to assign classes to `HTML` elements.
+```js
+
+```
 
 ## Create React App
 
@@ -43,6 +46,6 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODMzNDEzMCw4MDcyMzM5NDAsMzg4NT
-YxNzA1LC01MzYwMDU1OF19
+eyJoaXN0b3J5IjpbLTEzMTM2NDczMjgsODA3MjMzOTQwLDM4OD
+U2MTcwNSwtNTM2MDA1NThdfQ==
 -->
