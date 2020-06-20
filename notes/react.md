@@ -73,6 +73,8 @@ class App extends React.Component {
 }
 ```
 
+To **retrieve `props` inside components** see the functional and class based react component specifics below.
+
 There are **two ways to define React components**. They can be defined as **functional components** which use **React hooks** or they can be defined as **class based components** which extend the `React.component` class. Both component types have similar functionality however generally if your component has a lot of **state based logic** associated with it you will want to use a class based component and if it is just a simple, possibly stateless page element that simply accepts `props` you will want to use a functional component. 
 
 ### Functional Components
@@ -158,7 +160,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDM3MjQ2OSwtMjE0NDIxODIwNywxMz
+eyJoaXN0b3J5IjpbMTc2MjMwMDYxMSwtMjE0NDIxODIwNywxMz
 kxNzY3NjM4LDEwMzE0MDExMTAsNDA3Mzc5ODIyLDEzNDc1NTg5
 NzMsMTYyMDI5MDI0MywtNjE5MDQzMzc0LC0yNzAwNTU3MjEsLT
 k1MjU5NTI0MSw4MDcyMzM5NDAsMzg4NTYxNzA1LC01MzYwMDU1
