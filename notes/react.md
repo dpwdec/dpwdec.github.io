@@ -93,7 +93,7 @@ To **retrieve `props` inside components** see the functional and class based rea
 
 React comes with **type checking functionality for components `props`** using the `PropTypes` module which comes with a set validator expressions for making sure that the values passed into a component match in type to those defined. If the type does not match a warning will be displayed in the Javascript console. This is warning is **only displayed in developer mode** for performance reasons.
 
-To use `PropTypes`, `import` them and then create a `propTypes` property on your component that is an object which contains a list of the expected property names with the value being a `PropTypes` validator. The example below defines a `propTypes` object on the `MyComponent` class with the `name` prop set to `string`. If you your code tries to pass in a value to the name prop that *isn't* a string, then a warning with be
+To use `PropTypes`, `import` them and then create a `propTypes` property on your component that is an object which contains a list of the expected property names with the value being a `PropTypes` validator. The example below defines a `propTypes` object on the `MyComponent` class with the `name` prop set to `string`. If you your code tries to pass in a value to the name prop that *isn't* a string, then a warning will be raised.
 ```js
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -106,6 +106,10 @@ MyComponent.propTypes = {
   name: PropTypes.string
 }
 ```
+
+A **full list of `PropType` values** can be found [here]([https://reactjs.org/docs/typechecking-with-proptypes.html#proptypes](https://reactjs.org/docs/typechecking-with-proptypes.html#proptypes)
+
+You can **specify the **
 
 ## Lists
 
@@ -239,10 +243,10 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1Nzk4OTQ3LC0xODQ4NTAxOTQ4LDEyOT
-MwNTQ4MjYsMTkxNjczMDM5NywxNTcyNDY4ODc4LC0yMTQ0MjE4
-MjA3LDEzOTE3Njc2MzgsMTAzMTQwMTExMCw0MDczNzk4MjIsMT
-M0NzU1ODk3MywxNjIwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1
-NTcyMSwtOTUyNTk1MjQxLDgwNzIzMzk0MCwzODg1NjE3MDUsLT
-UzNjAwNTU4XX0=
+eyJoaXN0b3J5IjpbLTE1MjY2MzA4MDAsLTE4NDg1MDE5NDgsMT
+I5MzA1NDgyNiwxOTE2NzMwMzk3LDE1NzI0Njg4NzgsLTIxNDQy
+MTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMi
+wxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcw
+MDU1NzIxLC05NTI1OTUyNDEsODA3MjMzOTQwLDM4ODU2MTcwNS
+wtNTM2MDA1NThdfQ==
 -->
