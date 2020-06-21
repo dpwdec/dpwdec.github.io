@@ -116,7 +116,12 @@ MyComponent.propTypes = {
 }
 ```
 
-If you want to **specify that a particular prop MUST be provided but NOT give it a type** then you can use the `any` property with the `isRequired` property appended to it. This
+If you want to **specify that a particular prop MUST be provided but NOT give it a type** then you can use the `any` property with the `isRequired` property appended to it. This indicates below that `name` could be *any* type but that at least some value *must* be passed in.
+```js
+MyComponent.propTypes = {
+  name: PropTypes.any.isRequired
+}
+```
 
 ## Lists
 
@@ -250,10 +255,10 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzM5MDkwOTMsLTE4NDg1MDE5NDgsMT
-I5MzA1NDgyNiwxOTE2NzMwMzk3LDE1NzI0Njg4NzgsLTIxNDQy
-MTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMi
-wxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcw
-MDU1NzIxLC05NTI1OTUyNDEsODA3MjMzOTQwLDM4ODU2MTcwNS
-wtNTM2MDA1NThdfQ==
+eyJoaXN0b3J5IjpbODk1OTc4MDE5LC0xODQ4NTAxOTQ4LDEyOT
+MwNTQ4MjYsMTkxNjczMDM5NywxNTcyNDY4ODc4LC0yMTQ0MjE4
+MjA3LDEzOTE3Njc2MzgsMTAzMTQwMTExMCw0MDczNzk4MjIsMT
+M0NzU1ODk3MywxNjIwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1
+NTcyMSwtOTUyNTk1MjQxLDgwNzIzMzk0MCwzODg1NjE3MDUsLT
+UzNjAwNTU4XX0=
 -->
