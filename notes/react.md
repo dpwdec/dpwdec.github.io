@@ -91,7 +91,7 @@ To **retrieve `props` inside components** see the functional and class based rea
 
 ## Prop types
 
-React comes with type checking functionality for components `props` using the `PropTypes` module.
+React comes with type checking functionality for components `props` using the `PropTypes` module which comes with a set validator expressions for making sure that the values passed into a component match in type to those defined. If 
 
 ## Lists
 
@@ -225,10 +225,9 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzM3Mzk4NzksMTI5MzA1NDgyNiwxOT
-E2NzMwMzk3LDE1NzI0Njg4NzgsLTIxNDQyMTgyMDcsMTM5MTc2
-NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMiwxMzQ3NTU4OTczLD
-E2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC05NTI1
-OTUyNDEsODA3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MDA1NThdfQ
-==
+eyJoaXN0b3J5IjpbLTgyMjg3MTc4NCwxMjkzMDU0ODI2LDE5MT
+Y3MzAzOTcsMTU3MjQ2ODg3OCwtMjE0NDIxODIwNywxMzkxNzY3
+NjM4LDEwMzE0MDExMTAsNDA3Mzc5ODIyLDEzNDc1NTg5NzMsMT
+YyMDI5MDI0MywtNjE5MDQzMzc0LC0yNzAwNTU3MjEsLTk1MjU5
+NTI0MSw4MDcyMzM5NDAsMzg4NTYxNzA1LC01MzYwMDU1OF19
 -->
