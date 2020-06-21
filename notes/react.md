@@ -100,7 +100,7 @@ render() {
 }
 ```
 
-It is recommended that you **assign a `key` value to each item in a React component list**. This is a reserved word that is passed in as a `props` element with the key of `key`. This **should be unique** and usually matches some sort of `id` attribute for the listed data. *Why is this important?* 
+It is recommended that you **assign a `key` value to each item in a React component list**. This is a reserved word that is passed in as a `props` element with the key of `key`. This **should be unique** and usually matches some sort of `id` attribute for the listed data. *Why is this important?* React uses these element keys to uniquely identify elements and uses it to check which elements have changed and optimise web page updating.
 
 This is also why it is recommended that **when displaying lists of information you should render the information as components not directly as `HTML` elements** so that you can pass in a `key` value. The example above does not do this and renders the information in `name` directly. The example below shows a more idiomatic React method of doing this by creating a `Name` component and pass in the `body` of the `name` and the `id` as `key`.
 ```jsx
@@ -219,9 +219,9 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjkyOTc1MDksMTkxNjczMDM5NywxNT
-cyNDY4ODc4LC0yMTQ0MjE4MjA3LDEzOTE3Njc2MzgsMTAzMTQw
-MTExMCw0MDczNzk4MjIsMTM0NzU1ODk3MywxNjIwMjkwMjQzLC
-02MTkwNDMzNzQsLTI3MDA1NTcyMSwtOTUyNTk1MjQxLDgwNzIz
-Mzk0MCwzODg1NjE3MDUsLTUzNjAwNTU4XX0=
+eyJoaXN0b3J5IjpbMTI5MzA1NDgyNiwxOTE2NzMwMzk3LDE1Nz
+I0Njg4NzgsLTIxNDQyMTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAx
+MTEwLDQwNzM3OTgyMiwxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLT
+YxOTA0MzM3NCwtMjcwMDU1NzIxLC05NTI1OTUyNDEsODA3MjMz
+OTQwLDM4ODU2MTcwNSwtNTM2MDA1NThdfQ==
 -->
