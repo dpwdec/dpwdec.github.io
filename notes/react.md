@@ -94,7 +94,11 @@ To **retrieve `props` inside components** see the functional and class based rea
 React comes with **type checking functionality for components `props`** using the `PropTypes` module which comes with a set validator expressions for making sure that the values passed into a component match in type to those defined. If the type does not match a warning will be displayed in the Javascript console. This is warning is **only displayed in developer mode** for performance reasons.
 
 To use `PropTypes`, `import` them and then create a `propTypes` property on your component that is an object which contains a list of the expected property names with the value being a `PropTypes` validator.
+```js
+import React from 'react';
+import PropTypes from 'prop-types';
 
+```
 
 ## Lists
 
@@ -228,9 +232,9 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjIwNDEzMywxMjkzMDU0ODI2LDE5MT
-Y3MzAzOTcsMTU3MjQ2ODg3OCwtMjE0NDIxODIwNywxMzkxNzY3
-NjM4LDEwMzE0MDExMTAsNDA3Mzc5ODIyLDEzNDc1NTg5NzMsMT
-YyMDI5MDI0MywtNjE5MDQzMzc0LC0yNzAwNTU3MjEsLTk1MjU5
-NTI0MSw4MDcyMzM5NDAsMzg4NTYxNzA1LC01MzYwMDU1OF19
+eyJoaXN0b3J5IjpbMzA2NzQzNDY3LDEyOTMwNTQ4MjYsMTkxNj
+czMDM5NywxNTcyNDY4ODc4LC0yMTQ0MjE4MjA3LDEzOTE3Njc2
+MzgsMTAzMTQwMTExMCw0MDczNzk4MjIsMTM0NzU1ODk3MywxNj
+IwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1NTcyMSwtOTUyNTk1
+MjQxLDgwNzIzMzk0MCwzODg1NjE3MDUsLTUzNjAwNTU4XX0=
 -->
