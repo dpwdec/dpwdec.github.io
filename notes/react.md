@@ -25,7 +25,7 @@ import  App  from  './App';
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-## Components
+# Components
 
 Components make up the core of React. Each component represents an element a logical element on the screen that will be rendered. **Components should be placed in a `/components` directory** that is on the same directory level as your `App` file. **Components should be named with pascal case** in the format `PascalCase`. Below is an example directory structure for how components should be laid out by convention.
 ```
@@ -63,7 +63,7 @@ render() {
 }
 ```
 
-### Props
+## Props
 
 You can **pass parameters to a component**, also called `props` in React, by passing them in as a key-value pair to the tag call of the component. In the example below the name of the key is `number` and the value, contained in `{ }` curly braces is 5. You could place any property of function call here that returns a value such as using the `App` classes `state` object etc.
 ```js
@@ -89,7 +89,11 @@ class App extends React.Component {
 
 To **retrieve `props` inside components** see the functional and class based react component specifics below.
 
-### Lists
+## Prop types
+
+React comes with type checking functionality for components `props` using the `PropTypes` module.
+
+## Lists
 
 You can **display an array of information as a list** by using the javascript `map` method to transform the contents of the array into `JSX` elements. The usage of the `map` function is slightly different in react with the callback function for map using `()` soft braces instead of `{ }` curly brackets to define the return type from its operation. 
 
@@ -115,7 +119,7 @@ render() {
 
 There are **two ways to define React components**. They can be defined as **functional components** which use **React hooks** or they can be defined as **class based components** which extend the `React.component` class. Both component types have similar functionality however generally if your component has a lot of **state based logic** associated with it you will want to use a class based component and if it is just a simple, possibly stateless page element that simply accepts `props` you will want to use a functional component. 
 
-### Functional Components
+## Functional Components
 
 A **functional React component is simply a function that `return`s some renderable React elements** to the component or object that called it. The **name of the component is the same as the name of the function that defines it** . 
 
@@ -142,7 +146,7 @@ function MyFunctionalComponent(props) {
 }
 ```
 
-### Class based Components
+## Class based Components
 
 A **class based React component extends the `React.component` class**.
 
@@ -201,7 +205,7 @@ class MyComponent extends Component {
 }
 ```
 
-## JSX
+# JSX
 
 JSX is a syntax extension in React that allows you write `HTML`-like code in the React `return` method and compile the result as `DOM` displayed to the client.
 
@@ -212,7 +216,7 @@ return(
 );
 ```
 
-## Create React App
+# Create React App
 
 Create React App is a light weight micro-framework for initialising a simple react app. CRA offers a minimal server side interface that transpiles react code into pages for clients.
 
@@ -221,7 +225,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTU0NTIzNDcsMTI5MzA1NDgyNiwxOT
+eyJoaXN0b3J5IjpbLTE1MzM3Mzk4NzksMTI5MzA1NDgyNiwxOT
 E2NzMwMzk3LDE1NzI0Njg4NzgsLTIxNDQyMTgyMDcsMTM5MTc2
 NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMiwxMzQ3NTU4OTczLD
 E2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC05NTI1
