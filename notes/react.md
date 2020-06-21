@@ -100,7 +100,10 @@ render() {
 }
 ```
 
-It is recommended that you **assign a `key` value to each item in a React component list**. This is a reserved word that is passed in 
+It is recommended that you **assign a `key` value to each item in a React component list**. This is a reserved word that is passed in as a `props` element with the key of `key`. This **should be unique** and usually matches some sort of `id` attribute for the listed data. This is also why it is recommended that **when displaying lists of information you should render the information as components not directly as `HTML` elements**. 
+```jsx
+render() 
+```
 
 There are **two ways to define React components**. They can be defined as **functional components** which use **React hooks** or they can be defined as **class based components** which extend the `React.component` class. Both component types have similar functionality however generally if your component has a lot of **state based logic** associated with it you will want to use a class based component and if it is just a simple, possibly stateless page element that simply accepts `props` you will want to use a functional component. 
 
@@ -210,7 +213,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDAyNzU1NSwxOTE2NzMwMzk3LDE1Nz
+eyJoaXN0b3J5IjpbLTQyNzM1MDU3MywxOTE2NzMwMzk3LDE1Nz
 I0Njg4NzgsLTIxNDQyMTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAx
 MTEwLDQwNzM3OTgyMiwxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLT
 YxOTA0MzM3NCwtMjcwMDU1NzIxLC05NTI1OTUyNDEsODA3MjMz
