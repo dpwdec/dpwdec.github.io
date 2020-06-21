@@ -107,9 +107,15 @@ MyComponent.propTypes = {
 }
 ```
 
-A **full list of `PropType` values** can be found [here]([https://reactjs.org/docs/typechecking-with-proptypes.html#proptypes](https://reactjs.org/docs/typechecking-with-proptypes.html#proptypes)
+A **full list of `PropType` values** can be found [here](https://reactjs.org/docs/typechecking-with-proptypes.html#proptypes).
 
-You can **specify the **
+You can **specify that a particular prop MUST be passed into a component** by appending the `isRequired` property to the `PropType`. The `propTypes` for the component below *must* have a `name` prop submitted to it wh
+```js
+MyComponent.propTypes = {
+  name: PropTypes.string
+}
+```
+
 
 ## Lists
 
@@ -243,7 +249,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjY2MzA4MDAsLTE4NDg1MDE5NDgsMT
+eyJoaXN0b3J5IjpbLTE5Mzc2NTU2NTYsLTE4NDg1MDE5NDgsMT
 I5MzA1NDgyNiwxOTE2NzMwMzk3LDE1NzI0Njg4NzgsLTIxNDQy
 MTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMi
 wxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcw
