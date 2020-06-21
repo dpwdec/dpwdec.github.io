@@ -93,7 +93,7 @@ To **retrieve `props` inside components** see the functional and class based rea
 
 React comes with **type checking functionality for components `props`** using the `PropTypes` module which comes with a set validator expressions for making sure that the values passed into a component match in type to those defined. If the type does not match a warning will be displayed in the Javascript console. This is warning is **only displayed in developer mode** for performance reasons.
 
-To use `PropTypes`, `import` them and then create a `propTypes` property on your component that is an object which contains a list of the expected property names with the value being a `PropTypes` validator.
+To use `PropTypes`, `import` them and then create a `propTypes` property on your component that is an object which contains a list of the expected property names with the value being a `PropTypes` validator. The example below defines a `propTypes` object on the `MyComponent` class with the `name` prop set to `string`. If you your code tries to pass in a value to the name prop that *isn't* a string, then a warning with be
 ```js
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -102,7 +102,7 @@ class MyComponent extends React.Component {
   // does something
 }
 
-App.propTypes = {
+MyComponent.propTypes = {
   name: PropTypes.string
 }
 ```
@@ -239,10 +239,10 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDg1MDE5NDgsMTI5MzA1NDgyNiwxOT
-E2NzMwMzk3LDE1NzI0Njg4NzgsLTIxNDQyMTgyMDcsMTM5MTc2
-NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMiwxMzQ3NTU4OTczLD
-E2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC05NTI1
-OTUyNDEsODA3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MDA1NThdfQ
-==
+eyJoaXN0b3J5IjpbNzc1Nzk4OTQ3LC0xODQ4NTAxOTQ4LDEyOT
+MwNTQ4MjYsMTkxNjczMDM5NywxNTcyNDY4ODc4LC0yMTQ0MjE4
+MjA3LDEzOTE3Njc2MzgsMTAzMTQwMTExMCw0MDczNzk4MjIsMT
+M0NzU1ODk3MywxNjIwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1
+NTcyMSwtOTUyNTk1MjQxLDgwNzIzMzk0MCwzODg1NjE3MDUsLT
+UzNjAwNTU4XX0=
 -->
