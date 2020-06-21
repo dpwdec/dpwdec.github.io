@@ -98,6 +98,13 @@ To use `PropTypes`, `import` them and then create a `propTypes` property on your
 import React from 'react';
 import PropTypes from 'prop-types';
 
+class MyComponent extends React.Component {
+  // does something
+}
+
+App.propTypes = {
+  name: PropTypes.string
+}
 ```
 
 ## Lists
@@ -232,9 +239,10 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2NzQzNDY3LDEyOTMwNTQ4MjYsMTkxNj
-czMDM5NywxNTcyNDY4ODc4LC0yMTQ0MjE4MjA3LDEzOTE3Njc2
-MzgsMTAzMTQwMTExMCw0MDczNzk4MjIsMTM0NzU1ODk3MywxNj
-IwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1NTcyMSwtOTUyNTk1
-MjQxLDgwNzIzMzk0MCwzODg1NjE3MDUsLTUzNjAwNTU4XX0=
+eyJoaXN0b3J5IjpbLTE4NDg1MDE5NDgsMTI5MzA1NDgyNiwxOT
+E2NzMwMzk3LDE1NzI0Njg4NzgsLTIxNDQyMTgyMDcsMTM5MTc2
+NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMiwxMzQ3NTU4OTczLD
+E2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC05NTI1
+OTUyNDEsODA3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MDA1NThdfQ
+==
 -->
