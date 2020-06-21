@@ -63,6 +63,8 @@ render() {
 }
 ```
 
+### Props
+
 You can **pass parameters to a component**, also called `props` in React, by passing them in as a key-value pair to the tag call of the component. In the example below the name of the key is `number` and the value, contained in `{ }` curly braces is 5. You could place any property of function call here that returns a value such as using the `App` classes `state` object etc.
 ```js
 class App extends React.Component {
@@ -219,9 +221,10 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzA1NDgyNiwxOTE2NzMwMzk3LDE1Nz
-I0Njg4NzgsLTIxNDQyMTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAx
-MTEwLDQwNzM3OTgyMiwxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLT
-YxOTA0MzM3NCwtMjcwMDU1NzIxLC05NTI1OTUyNDEsODA3MjMz
-OTQwLDM4ODU2MTcwNSwtNTM2MDA1NThdfQ==
+eyJoaXN0b3J5IjpbLTEyOTU0NTIzNDcsMTI5MzA1NDgyNiwxOT
+E2NzMwMzk3LDE1NzI0Njg4NzgsLTIxNDQyMTgyMDcsMTM5MTc2
+NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMiwxMzQ3NTU4OTczLD
+E2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC05NTI1
+OTUyNDEsODA3MjMzOTQwLDM4ODU2MTcwNSwtNTM2MDA1NThdfQ
+==
 -->
