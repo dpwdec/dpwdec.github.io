@@ -246,10 +246,10 @@ return(
 );
 ```
 
-You can **add inline styling to an element** by using the `style=` indicator and then using double `{{ }}` curly braces.
+You can **add inline styling to an element** by using the `style=` indicator and then using double `{{ }}` curly braces. Furthermore you **must use camel cased style names** instead of hyphenated names and place the elements 
 ```js
 return(
-  <div style={{ background-color: blue }}>
+  <div style={{ backgroundColor: 'ffffff' }}>
     <p>Foo</p>
   </div>
 );
@@ -264,7 +264,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODM0NjI0NCw4OTU5NzgwMTksLTE4ND
+eyJoaXN0b3J5IjpbMTM5MTg3Mzg2Nyw4OTU5NzgwMTksLTE4ND
 g1MDE5NDgsMTI5MzA1NDgyNiwxOTE2NzMwMzk3LDE1NzI0Njg4
 NzgsLTIxNDQyMTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAxMTEwLD
 QwNzM3OTgyMiwxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLTYxOTA0
