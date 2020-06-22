@@ -270,7 +270,9 @@ class MyComponent extends Component {
     );
   }
 
-  
+  const myStyle = {
+    backgroundColor: 'ffffff'
+  }
 }
 ```
 
@@ -283,7 +285,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5OTU2OTQxMSw0NDIyODg1ODMsODk1OT
+eyJoaXN0b3J5IjpbMTYzMjcyODU2Nyw0NDIyODg1ODMsODk1OT
 c4MDE5LC0xODQ4NTAxOTQ4LDEyOTMwNTQ4MjYsMTkxNjczMDM5
 NywxNTcyNDY4ODc4LC0yMTQ0MjE4MjA3LDEzOTE3Njc2MzgsMT
 AzMTQwMTExMCw0MDczNzk4MjIsMTM0NzU1ODk3MywxNjIwMjkw
