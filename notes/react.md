@@ -259,7 +259,7 @@ return(
 );
 ```
 
-You can **extract styling into a variable** that can be inserted into the `style=` indicator of a element arbitrarily. These style variables are defined in the class body as Javascript object's with properties linked to
+You can **extract styling into a variable** that can be inserted into the `style=` indicator of an element arbitrarily. These style variables are defined in the class body as Javascript object's with camel cased style properties linked to value.
 ```jsx
 class MyComponent extends Component {
   render() {
@@ -285,10 +285,10 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjcyODU2Nyw0NDIyODg1ODMsODk1OT
-c4MDE5LC0xODQ4NTAxOTQ4LDEyOTMwNTQ4MjYsMTkxNjczMDM5
-NywxNTcyNDY4ODc4LC0yMTQ0MjE4MjA3LDEzOTE3Njc2MzgsMT
-AzMTQwMTExMCw0MDczNzk4MjIsMTM0NzU1ODk3MywxNjIwMjkw
-MjQzLC02MTkwNDMzNzQsLTI3MDA1NTcyMSwtOTUyNTk1MjQxLD
-gwNzIzMzk0MCwzODg1NjE3MDUsLTUzNjAwNTU4XX0=
+eyJoaXN0b3J5IjpbLTEzNzMzNzkyMTksNDQyMjg4NTgzLDg5NT
+k3ODAxOSwtMTg0ODUwMTk0OCwxMjkzMDU0ODI2LDE5MTY3MzAz
+OTcsMTU3MjQ2ODg3OCwtMjE0NDIxODIwNywxMzkxNzY3NjM4LD
+EwMzE0MDExMTAsNDA3Mzc5ODIyLDEzNDc1NTg5NzMsMTYyMDI5
+MDI0MywtNjE5MDQzMzc0LC0yNzAwNTU3MjEsLTk1MjU5NTI0MS
+w4MDcyMzM5NDAsMzg4NTYxNzA1LC01MzYwMDU1OF19
 -->
