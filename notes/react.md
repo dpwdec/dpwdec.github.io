@@ -246,6 +246,15 @@ return(
 );
 ```
 
+You can **add inline styling to an element** by using the `style=` indicator and then using double `{{ }}` curly braces.
+```js
+return(
+  <div style={{ background-color: blue }}>
+    <p>Foo</p>
+  </div>
+);
+```
+
 # Create React App
 
 Create React App is a light weight micro-framework for initialising a simple react app. CRA offers a minimal server side interface that transpiles react code into pages for clients.
@@ -255,10 +264,10 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1OTc4MDE5LC0xODQ4NTAxOTQ4LDEyOT
-MwNTQ4MjYsMTkxNjczMDM5NywxNTcyNDY4ODc4LC0yMTQ0MjE4
-MjA3LDEzOTE3Njc2MzgsMTAzMTQwMTExMCw0MDczNzk4MjIsMT
-M0NzU1ODk3MywxNjIwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1
-NTcyMSwtOTUyNTk1MjQxLDgwNzIzMzk0MCwzODg1NjE3MDUsLT
-UzNjAwNTU4XX0=
+eyJoaXN0b3J5IjpbMTg4ODM0NjI0NCw4OTU5NzgwMTksLTE4ND
+g1MDE5NDgsMTI5MzA1NDgyNiwxOTE2NzMwMzk3LDE1NzI0Njg4
+NzgsLTIxNDQyMTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAxMTEwLD
+QwNzM3OTgyMiwxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLTYxOTA0
+MzM3NCwtMjcwMDU1NzIxLC05NTI1OTUyNDEsODA3MjMzOTQwLD
+M4ODU2MTcwNSwtNTM2MDA1NThdfQ==
 -->
