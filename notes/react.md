@@ -227,11 +227,13 @@ class MyComponent extends Component {
 You can **access `props` in a class based component** by using `this.props`.
 ```js
 class MyComponent extends Component {
-  return(
-    <div id="my-component">
-      <p>{this.props.name}</p>
-    </div>
-  );
+  render() {
+    return(
+      <div id="my-component">
+        <p>{this.props.name}</p>
+      </div>
+    );
+  }
 }
 ```
 
@@ -257,14 +259,18 @@ return(
 );
 ```
 
-You can **extract styling into a variable** that can be inserted into the `style=` indicator of a element arbitrarily.
+You can **extract styling into a variable** that can be inserted into the `style=` indicator of a element arbitrarily. These style variables are defined in the class body as Javascript object's with properties linked to
 ```jsx
 class MyComponent extends Component {
-  return(
-    <div style={ myStyle }>
-      <p>Foo</p>
-    </div>
-  );
+  render() {
+    return(
+      <div style={ myStyle }>
+        <p>Foo</p>
+      </div>
+    );
+  }
+
+  
 }
 ```
 
@@ -277,7 +283,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODg4MjE4Miw0NDIyODg1ODMsODk1OT
+eyJoaXN0b3J5IjpbLTQ5OTU2OTQxMSw0NDIyODg1ODMsODk1OT
 c4MDE5LC0xODQ4NTAxOTQ4LDEyOTMwNTQ4MjYsMTkxNjczMDM5
 NywxNTcyNDY4ODc4LC0yMTQ0MjE4MjA3LDEzOTE3Njc2MzgsMT
 AzMTQwMTExMCw0MDczNzk4MjIsMTM0NzU1ODk3MywxNjIwMjkw
