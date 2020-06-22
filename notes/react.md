@@ -249,7 +249,7 @@ return(
 ## Styling
 
 You can **add inline styling to an element** by using the `style=` indicator and then using double `{{ }}` curly braces. Furthermore you **must use camel cased style names** instead of hyphenated names. The example below uses `backgroundColor` instead of `background-color`. You **must submit the style element's value** as a `string` after you have defined the style element's name.
-```js
+```jsx
 return(
   <div style={{ backgroundColor: 'ffffff' }}>
     <p>Foo</p>
@@ -257,7 +257,16 @@ return(
 );
 ```
 
-You can **extract styling into a variable**
+You can **extract styling into a variable** that can be inserted into the `style=` indicator of a element arbitrarily.
+```jsx
+class MyComponent extends Component {
+  return(
+    <div style={ myStyle }>
+      <p>Foo</p>
+    </div>
+  );
+}
+```
 
 # Create React App
 
@@ -268,10 +277,10 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDA4NjQxMTYsNDQyMjg4NTgzLDg5NT
-k3ODAxOSwtMTg0ODUwMTk0OCwxMjkzMDU0ODI2LDE5MTY3MzAz
-OTcsMTU3MjQ2ODg3OCwtMjE0NDIxODIwNywxMzkxNzY3NjM4LD
-EwMzE0MDExMTAsNDA3Mzc5ODIyLDEzNDc1NTg5NzMsMTYyMDI5
-MDI0MywtNjE5MDQzMzc0LC0yNzAwNTU3MjEsLTk1MjU5NTI0MS
-w4MDcyMzM5NDAsMzg4NTYxNzA1LC01MzYwMDU1OF19
+eyJoaXN0b3J5IjpbMjA5ODg4MjE4Miw0NDIyODg1ODMsODk1OT
+c4MDE5LC0xODQ4NTAxOTQ4LDEyOTMwNTQ4MjYsMTkxNjczMDM5
+NywxNTcyNDY4ODc4LC0yMTQ0MjE4MjA3LDEzOTE3Njc2MzgsMT
+AzMTQwMTExMCw0MDczNzk4MjIsMTM0NzU1ODk3MywxNjIwMjkw
+MjQzLC02MTkwNDMzNzQsLTI3MDA1NTcyMSwtOTUyNTk1MjQxLD
+gwNzIzMzk0MCwzODg1NjE3MDUsLTUzNjAwNTU4XX0=
 -->
