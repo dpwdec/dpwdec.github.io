@@ -90,6 +90,9 @@ app.get('/query', function(req, res) {
 });
 ```
 
+### Testing
+You can **test and dependency inject express controller methods** by passing a **higher order function**
+
 ## Views
 Express views are mediated through `view engine` that is set in the project's main file. 
 
@@ -104,6 +107,7 @@ You can **set the created engine as the app's dedicated view engine** using the 
 app.set('view engine', '.hbs');
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTI5MjMxMTcsLTE0ODY4MzAyMjYsOT
-U4NjM0Mzc3LDg5NDIyNzM4NywtMTYxMzU0MDE3NF19
+eyJoaXN0b3J5IjpbLTc2NjA1MjU3MiwtMjAxMjkyMzExNywtMT
+Q4NjgzMDIyNiw5NTg2MzQzNzcsODk0MjI3Mzg3LC0xNjEzNTQw
+MTc0XX0=
 -->
