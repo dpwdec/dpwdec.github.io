@@ -244,8 +244,14 @@ class MyComponent extends Component {
 You can get the `value` (i.e. the text portion) of an element that triggered an event by using the `target.value` property of the `event` callback argument triggered by an element's event.
 ```js
 
+myEventCallback(event) {
+  
+}
+
 render() {
   return(
+    <textarea onChange={this.myEventCallback}>Click Me</textarea>
+  )
 }
 ```
 
@@ -297,7 +303,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3NjI5OTQyLC0xMjUzMDMxMjYyLC0xMz
+eyJoaXN0b3J5IjpbNzc4MDkyNTQzLC0xMjUzMDMxMjYyLC0xMz
 czMzc5MjE5LDQ0MjI4ODU4Myw4OTU5NzgwMTksLTE4NDg1MDE5
 NDgsMTI5MzA1NDgyNiwxOTE2NzMwMzk3LDE1NzI0Njg4NzgsLT
 IxNDQyMTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNzM3
