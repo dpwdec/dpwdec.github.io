@@ -241,7 +241,7 @@ class MyComponent extends Component {
 
 # Events
 
-You can get the `value` (i.e. the text portion) of an element that triggered an event by using the `target.value` property of the `event` callback argument triggered by an element's event. In the example below any time you type something in the `text area` element it will trigger the `onChange` event and call the `myEvent` method and then `log` the contents of the element.
+You can **get the `value` (i.e. the text portion) of an element that triggered an event** by using the `target.value` property of the `event` callback argument triggered by an element's event. In the example below any time you type something in the `text area` element it will trigger the `onChange` event and call the `myEvent` method and then `log` the contents of the element.
 ```js
 
 myEvent(event) {
@@ -254,6 +254,9 @@ render() {
   )
 }
 ```
+
+You can **get the entire HTML element**
+
 
 # JSX
 
@@ -303,11 +306,11 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0NzE4MjU3LC0xMjUzMDMxMjYyLC0xMz
-czMzc5MjE5LDQ0MjI4ODU4Myw4OTU5NzgwMTksLTE4NDg1MDE5
-NDgsMTI5MzA1NDgyNiwxOTE2NzMwMzk3LDE1NzI0Njg4NzgsLT
-IxNDQyMTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNzM3
-OTgyMiwxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLTYxOTA0MzM3NC
-wtMjcwMDU1NzIxLC05NTI1OTUyNDEsODA3MjMzOTQwLDM4ODU2
-MTcwNV19
+eyJoaXN0b3J5IjpbLTg4MDc0MDE2MywtMTI1MzAzMTI2MiwtMT
+M3MzM3OTIxOSw0NDIyODg1ODMsODk1OTc4MDE5LC0xODQ4NTAx
+OTQ4LDEyOTMwNTQ4MjYsMTkxNjczMDM5NywxNTcyNDY4ODc4LC
+0yMTQ0MjE4MjA3LDEzOTE3Njc2MzgsMTAzMTQwMTExMCw0MDcz
+Nzk4MjIsMTM0NzU1ODk3MywxNjIwMjkwMjQzLC02MTkwNDMzNz
+QsLTI3MDA1NTcyMSwtOTUyNTk1MjQxLDgwNzIzMzk0MCwzODg1
+NjE3MDVdfQ==
 -->
