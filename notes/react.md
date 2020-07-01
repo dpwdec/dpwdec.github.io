@@ -239,6 +239,10 @@ class MyComponent extends Component {
 }
 ```
 
+# Events
+
+You can get the `value` or
+
 # JSX
 
 JSX is a syntax extension in React that allows you write `HTML`-like code in the React `return` method and compile the result as `DOM` displayed to the client.
@@ -287,11 +291,11 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTMwMzEyNjIsLTEzNzMzNzkyMTksND
-QyMjg4NTgzLDg5NTk3ODAxOSwtMTg0ODUwMTk0OCwxMjkzMDU0
-ODI2LDE5MTY3MzAzOTcsMTU3MjQ2ODg3OCwtMjE0NDIxODIwNy
-wxMzkxNzY3NjM4LDEwMzE0MDExMTAsNDA3Mzc5ODIyLDEzNDc1
-NTg5NzMsMTYyMDI5MDI0MywtNjE5MDQzMzc0LC0yNzAwNTU3Mj
-EsLTk1MjU5NTI0MSw4MDcyMzM5NDAsMzg4NTYxNzA1LC01MzYw
-MDU1OF19
+eyJoaXN0b3J5IjpbLTgzNzk4MzE5NCwtMTI1MzAzMTI2MiwtMT
+M3MzM3OTIxOSw0NDIyODg1ODMsODk1OTc4MDE5LC0xODQ4NTAx
+OTQ4LDEyOTMwNTQ4MjYsMTkxNjczMDM5NywxNTcyNDY4ODc4LC
+0yMTQ0MjE4MjA3LDEzOTE3Njc2MzgsMTAzMTQwMTExMCw0MDcz
+Nzk4MjIsMTM0NzU1ODk3MywxNjIwMjkwMjQzLC02MTkwNDMzNz
+QsLTI3MDA1NTcyMSwtOTUyNTk1MjQxLDgwNzIzMzk0MCwzODg1
+NjE3MDVdfQ==
 -->
