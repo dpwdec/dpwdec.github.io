@@ -241,7 +241,7 @@ class MyComponent extends Component {
 
 # Events
 
-You can get the `value` (i.e. the text portion) of an element that triggered an event by using the `target.value` property of the `event` callback argument triggered by an element's event. In the example below any time you type something in the `text area` element it will trigger the `onChange` event and call the `myEvent` method and then `log` the contents of the
+You can get the `value` (i.e. the text portion) of an element that triggered an event by using the `target.value` property of the `event` callback argument triggered by an element's event. In the example below any time you type something in the `text area` element it will trigger the `onChange` event and call the `myEvent` method and then `log` the contents of the element.
 ```js
 
 myEvent(event) {
@@ -303,7 +303,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5Nzg1NTc1LC0xMjUzMDMxMjYyLC0xMz
+eyJoaXN0b3J5IjpbOTA0NzE4MjU3LC0xMjUzMDMxMjYyLC0xMz
 czMzc5MjE5LDQ0MjI4ODU4Myw4OTU5NzgwMTksLTE4NDg1MDE5
 NDgsMTI5MzA1NDgyNiwxOTE2NzMwMzk3LDE1NzI0Njg4NzgsLT
 IxNDQyMTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNzM3
