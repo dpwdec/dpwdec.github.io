@@ -258,14 +258,15 @@ render() {
 You can **get the entire HTML element that triggered an event** by using the `event.target` component of the `event` argument. This can used for triggering elementing specific methods.
 ```jsx
 formReset(event) {
-  console.log(event.target.value); // => 'Type Something'
+  event.target.reset() // reset form
+  event.preventDefault() // prevent form submission from relaoding page.
 }
 
 render() {
   return(
-    <form>
+    <form onSubmit={this.formReset}>
       <input type="text" placeholder="hello"/>
-      <input type="sub
+      <input type="submit" value="submit"/>
     </form>
   )
 }
@@ -320,11 +321,11 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzMxNzU2NzMsLTEyNTMwMzEyNjIsLT
-EzNzMzNzkyMTksNDQyMjg4NTgzLDg5NTk3ODAxOSwtMTg0ODUw
-MTk0OCwxMjkzMDU0ODI2LDE5MTY3MzAzOTcsMTU3MjQ2ODg3OC
-wtMjE0NDIxODIwNywxMzkxNzY3NjM4LDEwMzE0MDExMTAsNDA3
-Mzc5ODIyLDEzNDc1NTg5NzMsMTYyMDI5MDI0MywtNjE5MDQzMz
-c0LC0yNzAwNTU3MjEsLTk1MjU5NTI0MSw4MDcyMzM5NDAsMzg4
-NTYxNzA1XX0=
+eyJoaXN0b3J5IjpbMzM1NDIyOTk5LC0xMjUzMDMxMjYyLC0xMz
+czMzc5MjE5LDQ0MjI4ODU4Myw4OTU5NzgwMTksLTE4NDg1MDE5
+NDgsMTI5MzA1NDgyNiwxOTE2NzMwMzk3LDE1NzI0Njg4NzgsLT
+IxNDQyMTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNzM3
+OTgyMiwxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLTYxOTA0MzM3NC
+wtMjcwMDU1NzIxLC05NTI1OTUyNDEsODA3MjMzOTQwLDM4ODU2
+MTcwNV19
 -->
