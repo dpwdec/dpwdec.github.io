@@ -114,9 +114,9 @@ use rand::Rng;
 let random_number = rand::thread_rng.gen_range(1, 101)
 ```
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTM4OTE0NCwxNjczNDMwMDE3LDE0Nz
-U3NDk5MjgsLTE2MzgyMzI2NzcsMjAzODg0NDg2OSw2MTcyMjAz
-NDcsLTg1ODA4ODI0MywtMTYwODgyNTI2M119
+eyJoaXN0b3J5IjpbLTE2MjA5MDMzMzIsMTc4OTM4OTE0NCwxNj
+czNDMwMDE3LDE0NzU3NDk5MjgsLTE2MzgyMzI2NzcsMjAzODg0
+NDg2OSw2MTcyMjAzNDcsLTg1ODA4ODI0MywtMTYwODgyNTI2M1
+19
 -->
