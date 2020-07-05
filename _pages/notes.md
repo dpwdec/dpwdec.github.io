@@ -4,4 +4,4 @@ title: Stuff
 ---
 
 # Stuff here
-[linl](/notes/stuff)
+[linl](/note/stuff)
