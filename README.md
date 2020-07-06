@@ -1,5 +1,5 @@
 # Sidey
-
+Icons made by <a href="https://roundicons.com/" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
 Sidey is a simple and minimalistic jekyll blogging theme.
 
 ### Features
