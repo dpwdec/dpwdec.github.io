@@ -362,7 +362,7 @@ do {
 
 ## For ... of
 
-You can iterate through iteratable Javascript objects, such as arrays, using the `for` and `of` keywords. By defining a set of elements in the iteratable object to loop through. The va
+You can **iterate through a general iteratable Javascript object**, such as arrays, using the `for` and `of` keywords. By defining a set of elements in the iteratable object to loop through. The individual values inside the do not have to be defined as `const`, but can use any variables type if they need to be mutable.
 ```js
 let arr = [1, 2, 3, 4, 5];
 
@@ -1288,7 +1288,7 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjczMTcxMiwtOTY2NDYzNjc0LC0xNz
+eyJoaXN0b3J5IjpbMTU2MDQ1MDgxOSwtOTY2NDYzNjc0LC0xNz
 Q5OTM3Mzg4LDU4NTYwNTk5MywtMTU3OTc4MTEyOCwxMDAwOTU5
 ODc5LDE1NjE0NTEzMTgsLTkzMDgwNjMzNCwtMjEwMTU2Mjc3MC
 wyMDY0NjIwMTE5LDEzNjg0NDQ2MDksLTYwNDc1MTcwNiwxNDI3
