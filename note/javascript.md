@@ -385,7 +385,7 @@ counter[Symbol.iterator] = () => {
 }
 ```
 
-For the iterator to work the method that `Symbol.iterator` points to must return an object which implements the `next` method. The `next` method is called on each loop of the `for ... of` and represents 
+For the iterator to work the method that `Symbol.iterator` points to must return an object which implements the `next` method. The `next` method is called on each loop of the `for ... of` and represents the next item to be iterated on. In practice `next` returns a further object with the keys `done` and `value`, if this result object returns `done = true` then the loop exits
 
 ## Functions
 
@@ -1299,7 +1299,7 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5ODM0ODk5LDE0MDUxNjE3NjksLTM2NT
+eyJoaXN0b3J5IjpbNTY2MjM1ODY2LDE0MDUxNjE3NjksLTM2NT
 cxNzIxLDEyNTUwNDMzMjYsMTU2MDQ1MDgxOSwtOTY2NDYzNjc0
 LC0xNzQ5OTM3Mzg4LDU4NTYwNTk5MywtMTU3OTc4MTEyOCwxMD
 AwOTU5ODc5LDE1NjE0NTEzMTgsLTkzMDgwNjMzNCwtMjEwMTU2
