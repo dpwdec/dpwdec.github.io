@@ -380,7 +380,8 @@ for(const n in arr) {
 As a programmer you may **define a custom object which represents a list of information** for which it would be useful to iterate over with `for ... of`. To do this you have to **add a property to the object with the name `Symbol.iterator`** to your object and bind that to a function that returns an object that can be used for iteration. When calling `for ... of` on the object in question that first thing that happens is that node attempts to look for the `Symbol.iterator` property on the object, if it doesn't find it then the program will throw an `is not iterable` error.
 
 ```js
-
+let counter = {}
+counter[Symbol.iterator] =
 ```
 
 ## Functions
@@ -1295,11 +1296,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTcxNzIxLDEyNTUwNDMzMjYsMTU2MD
-Q1MDgxOSwtOTY2NDYzNjc0LC0xNzQ5OTM3Mzg4LDU4NTYwNTk5
-MywtMTU3OTc4MTEyOCwxMDAwOTU5ODc5LDE1NjE0NTEzMTgsLT
-kzMDgwNjMzNCwtMjEwMTU2Mjc3MCwyMDY0NjIwMTE5LDEzNjg0
-NDQ2MDksLTYwNDc1MTcwNiwxNDI3MzY5MzQ2LDk0ODA4Mjg0Ny
-wtMTAyNDQzMDcxLC0xODAzOTg4MDM3LC0xOTI5MjA4OTE0LC0y
-OTA4Njg0NzldfQ==
+eyJoaXN0b3J5IjpbLTU0NDkxMTAwNiwtMzY1NzE3MjEsMTI1NT
+A0MzMyNiwxNTYwNDUwODE5LC05NjY0NjM2NzQsLTE3NDk5Mzcz
+ODgsNTg1NjA1OTkzLC0xNTc5NzgxMTI4LDEwMDA5NTk4NzksMT
+U2MTQ1MTMxOCwtOTMwODA2MzM0LC0yMTAxNTYyNzcwLDIwNjQ2
+MjAxMTksMTM2ODQ0NDYwOSwtNjA0NzUxNzA2LDE0MjczNjkzND
+YsOTQ4MDgyODQ3LC0xMDI0NDMwNzEsLTE4MDM5ODgwMzcsLTE5
+MjkyMDg5MTRdfQ==
 -->
