@@ -377,7 +377,9 @@ for(const n in arr) {
 
 **Iterables** are a generalised implementation in Javascript that **allow any object to be used with the `for ... of` language** iterator. This functionality is built into many native javascript objects, like `Array` or `String`, in the former case the elements stored in the array will be iterated over and in the latter the individual letters of the string will be iterated over. 
 
-As a programmer you may **define a custom object which represents a list of information** for which it would be useful to iterate over with `for ... of`. To do this you have to add a property to the object with the name `Symbol.iterator` and bind that to a function that returns an object that can be used for iteration. 
+As a programmer you may **define a custom object which represents a list of information** for which it would be useful to iterate over with `for ... of`. To do this you have to **add a property to the object with the name `Symbol.iterator`** to your object and bind that to a function that returns an object that can be used for iteration. When calling `for ... of` on the object in question that first thing that happens is that node attempts to look for the `Symbol.iterator` property on the object, if it doesn't find it then the program will throw an `is not iterable` error.
+
+```js
 
 ## Functions
 
@@ -1291,11 +1293,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0MzA3MTk3LDEyNTUwNDMzMjYsMTU2MD
-Q1MDgxOSwtOTY2NDYzNjc0LC0xNzQ5OTM3Mzg4LDU4NTYwNTk5
-MywtMTU3OTc4MTEyOCwxMDAwOTU5ODc5LDE1NjE0NTEzMTgsLT
-kzMDgwNjMzNCwtMjEwMTU2Mjc3MCwyMDY0NjIwMTE5LDEzNjg0
-NDQ2MDksLTYwNDc1MTcwNiwxNDI3MzY5MzQ2LDk0ODA4Mjg0Ny
-wtMTAyNDQzMDcxLC0xODAzOTg4MDM3LC0xOTI5MjA4OTE0LC0y
-OTA4Njg0NzldfQ==
+eyJoaXN0b3J5IjpbLTYzODA5MTg0OSwxMjU1MDQzMzI2LDE1Nj
+A0NTA4MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OCw1ODU2MDU5
+OTMsLTE1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNTYxNDUxMzE4LC
+05MzA4MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYyMDExOSwxMzY4
+NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Niw5NDgwODI4ND
+csLTEwMjQ0MzA3MSwtMTgwMzk4ODAzNywtMTkyOTIwODkxNCwt
+MjkwODY4NDc5XX0=
 -->
