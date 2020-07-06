@@ -80,7 +80,7 @@ var spam = 'spam';
 window.spam; // => 'spam'
 ```
 
-## `Var` vs `Let`
+## Var vs Let
 
 The `let` and `var` keywords are different ways of defining a variable in Javascript. The primary difference between them is their scoping and definition.
 
@@ -164,6 +164,10 @@ var spam = 'yam'; // spam is replaced
 let ham = 'ham';
 let ham = 'eggs'; // SyntaxError
 ```
+
+## Symbols
+
+The `Symbol()` function is a primitive Javascript type that defines a unique identifier.
 
 ## Conditionals
 
@@ -1271,11 +1275,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDk5MzczODgsNTg1NjA1OTkzLC0xNT
-c5NzgxMTI4LDEwMDA5NTk4NzksMTU2MTQ1MTMxOCwtOTMwODA2
-MzM0LC0yMTAxNTYyNzcwLDIwNjQ2MjAxMTksMTM2ODQ0NDYwOS
-wtNjA0NzUxNzA2LDE0MjczNjkzNDYsOTQ4MDgyODQ3LC0xMDI0
-NDMwNzEsLTE4MDM5ODgwMzcsLTE5MjkyMDg5MTQsLTI5MDg2OD
-Q3OSw2NTA2MzY1OTYsLTEwMTUxMTAyMDgsLTE0MTY2NzQxMSwx
-MzIxOTE0MTczXX0=
+eyJoaXN0b3J5IjpbLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OCw1OD
+U2MDU5OTMsLTE1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNTYxNDUx
+MzE4LC05MzA4MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYyMDExOS
+wxMzY4NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Niw5NDgw
+ODI4NDcsLTEwMjQ0MzA3MSwtMTgwMzk4ODAzNywtMTkyOTIwOD
+kxNCwtMjkwODY4NDc5LDY1MDYzNjU5NiwtMTAxNTExMDIwOCwt
+MTQxNjY3NDExXX0=
 -->
