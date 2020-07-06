@@ -334,7 +334,7 @@ arr = [1, 2, 3, 4, 5];
 arr = arr.filter(item => item !== 4); // => [1, 2, 3, 5]
 ```
 
-## `do ... while` loops
+## do ... while loops
 
 `do ... while` loops follow the structure of having a piece of code placed in a `do` block followed by a condition for executing that code multiple time in  a `while` statement. Uniquely **`do ... while` loops always execute once before their conditions is evaluated**, because the condition is placed after the execution block. The basic definition syntax is:
 ```js
@@ -355,6 +355,9 @@ do {
 } while (i < 5);
 // => 5
 ```
+
+## Iterables
+
 
 ## Functions
 
@@ -1268,11 +1271,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1NjA1OTkzLC0xNTc5NzgxMTI4LDEwMD
-A5NTk4NzksMTU2MTQ1MTMxOCwtOTMwODA2MzM0LC0yMTAxNTYy
-NzcwLDIwNjQ2MjAxMTksMTM2ODQ0NDYwOSwtNjA0NzUxNzA2LD
-E0MjczNjkzNDYsOTQ4MDgyODQ3LC0xMDI0NDMwNzEsLTE4MDM5
-ODgwMzcsLTE5MjkyMDg5MTQsLTI5MDg2ODQ3OSw2NTA2MzY1OT
-YsLTEwMTUxMTAyMDgsLTE0MTY2NzQxMSwxMzIxOTE0MTczLDkx
-MTg1MzU3Ml19
+eyJoaXN0b3J5IjpbLTE3NDk5MzczODgsNTg1NjA1OTkzLC0xNT
+c5NzgxMTI4LDEwMDA5NTk4NzksMTU2MTQ1MTMxOCwtOTMwODA2
+MzM0LC0yMTAxNTYyNzcwLDIwNjQ2MjAxMTksMTM2ODQ0NDYwOS
+wtNjA0NzUxNzA2LDE0MjczNjkzNDYsOTQ4MDgyODQ3LC0xMDI0
+NDMwNzEsLTE4MDM5ODgwMzcsLTE5MjkyMDg5MTQsLTI5MDg2OD
+Q3OSw2NTA2MzY1OTYsLTEwMTUxMTAyMDgsLTE0MTY2NzQxMSwx
+MzIxOTE0MTczXX0=
 -->
