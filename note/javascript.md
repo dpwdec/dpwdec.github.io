@@ -385,7 +385,7 @@ counter[Symbol.iterator] = () => {
 }
 ```
 
-
+For the iterator to work the method that `Symbol.iterator` points to must return an object which implements the `next` method. The `next` method is called on each
 
 ## Functions
 
@@ -1299,11 +1299,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTE2MTc2OSwtMzY1NzE3MjEsMTI1NT
-A0MzMyNiwxNTYwNDUwODE5LC05NjY0NjM2NzQsLTE3NDk5Mzcz
-ODgsNTg1NjA1OTkzLC0xNTc5NzgxMTI4LDEwMDA5NTk4NzksMT
-U2MTQ1MTMxOCwtOTMwODA2MzM0LC0yMTAxNTYyNzcwLDIwNjQ2
-MjAxMTksMTM2ODQ0NDYwOSwtNjA0NzUxNzA2LDE0MjczNjkzND
-YsOTQ4MDgyODQ3LC0xMDI0NDMwNzEsLTE4MDM5ODgwMzcsLTE5
-MjkyMDg5MTRdfQ==
+eyJoaXN0b3J5IjpbMTE4ODI3NjM1OSwxNDA1MTYxNzY5LC0zNj
+U3MTcyMSwxMjU1MDQzMzI2LDE1NjA0NTA4MTksLTk2NjQ2MzY3
+NCwtMTc0OTkzNzM4OCw1ODU2MDU5OTMsLTE1Nzk3ODExMjgsMT
+AwMDk1OTg3OSwxNTYxNDUxMzE4LC05MzA4MDYzMzQsLTIxMDE1
+NjI3NzAsMjA2NDYyMDExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MD
+YsMTQyNzM2OTM0Niw5NDgwODI4NDcsLTEwMjQ0MzA3MSwtMTgw
+Mzk4ODAzN119
 -->
