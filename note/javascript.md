@@ -362,7 +362,7 @@ do {
 
 ## For ... of
 
-You can **iterate through a general iteratable Javascript object**, such as arrays, using the `for` and `of` keywords. By defining a set of elements in the iteratable object to loop through. The individual values inside the do not have to be defined as `const`, but can use any variables type if they need to be mutable.
+You can **iterate through a general iteratable Javascript object**, such as arrays, using the `for` and `of` keywords. By defining a set of elements in the iteratable object to loop through. The individual values inside the do not have to be defined as `const`, but can use any variable type if they need to be mutable.
 ```js
 let arr = [1, 2, 3, 4, 5];
 
@@ -1288,11 +1288,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDQ1MDgxOSwtOTY2NDYzNjc0LC0xNz
-Q5OTM3Mzg4LDU4NTYwNTk5MywtMTU3OTc4MTEyOCwxMDAwOTU5
-ODc5LDE1NjE0NTEzMTgsLTkzMDgwNjMzNCwtMjEwMTU2Mjc3MC
-wyMDY0NjIwMTE5LDEzNjg0NDQ2MDksLTYwNDc1MTcwNiwxNDI3
-MzY5MzQ2LDk0ODA4Mjg0NywtMTAyNDQzMDcxLC0xODAzOTg4MD
-M3LC0xOTI5MjA4OTE0LC0yOTA4Njg0NzksNjUwNjM2NTk2LC0x
-MDE1MTEwMjA4XX0=
+eyJoaXN0b3J5IjpbMTI1NTA0MzMyNiwxNTYwNDUwODE5LC05Nj
+Y0NjM2NzQsLTE3NDk5MzczODgsNTg1NjA1OTkzLC0xNTc5Nzgx
+MTI4LDEwMDA5NTk4NzksMTU2MTQ1MTMxOCwtOTMwODA2MzM0LC
+0yMTAxNTYyNzcwLDIwNjQ2MjAxMTksMTM2ODQ0NDYwOSwtNjA0
+NzUxNzA2LDE0MjczNjkzNDYsOTQ4MDgyODQ3LC0xMDI0NDMwNz
+EsLTE4MDM5ODgwMzcsLTE5MjkyMDg5MTQsLTI5MDg2ODQ3OSw2
+NTA2MzY1OTZdfQ==
 -->
