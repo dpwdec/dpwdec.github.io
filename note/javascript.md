@@ -385,7 +385,18 @@ counter[Symbol.iterator] = () => {
 }
 ```
 
-For the iterator to work the method that `Symbol.iterator` points to must return an object which implements the `next` method. The `next` method is called on each loop of the `for ... of` and represents the next item to be iterated on. In practice `next` returns a further object with the keys `done` and `value`, if this result object returns `done = true` then the loop exits
+For the iterator to work the method that `Symbol.iterator` points to must return an object which implements the `next` method. The `next` method is called on each loop of the `for ... of` and represents the next item to be iterated on. In practice `next` returns a further object with the keys `done` and `value`, if this result object returns `done = true` then the loop exits otherwise it outputs the `value` portion of this object.
+
+```js
+let counter = {
+  from: 1,
+  to: 5
+}
+
+counter[Symbol.iterator] = () => {
+  
+}
+```
 
 ## Functions
 
@@ -1299,11 +1310,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY2MjM1ODY2LDE0MDUxNjE3NjksLTM2NT
-cxNzIxLDEyNTUwNDMzMjYsMTU2MDQ1MDgxOSwtOTY2NDYzNjc0
-LC0xNzQ5OTM3Mzg4LDU4NTYwNTk5MywtMTU3OTc4MTEyOCwxMD
-AwOTU5ODc5LDE1NjE0NTEzMTgsLTkzMDgwNjMzNCwtMjEwMTU2
-Mjc3MCwyMDY0NjIwMTE5LDEzNjg0NDQ2MDksLTYwNDc1MTcwNi
-wxNDI3MzY5MzQ2LDk0ODA4Mjg0NywtMTAyNDQzMDcxLC0xODAz
-OTg4MDM3XX0=
+eyJoaXN0b3J5IjpbLTQ0Mjc0MTI3NSwxNDA1MTYxNzY5LC0zNj
+U3MTcyMSwxMjU1MDQzMzI2LDE1NjA0NTA4MTksLTk2NjQ2MzY3
+NCwtMTc0OTkzNzM4OCw1ODU2MDU5OTMsLTE1Nzk3ODExMjgsMT
+AwMDk1OTg3OSwxNTYxNDUxMzE4LC05MzA4MDYzMzQsLTIxMDE1
+NjI3NzAsMjA2NDYyMDExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MD
+YsMTQyNzM2OTM0Niw5NDgwODI4NDcsLTEwMjQ0MzA3MSwtMTgw
+Mzk4ODAzN119
 -->
