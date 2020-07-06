@@ -377,6 +377,8 @@ for(const n in arr) {
 
 **Iterables** are a generalised implementation in Javascript that **allow any object to be used with the `for ... of` language** iterator. This functionality is built into many native javascript objects, like `Array` or `String`, in the former case the elements stored in the array will be iterated over and in the latter the individual letters of the string will be iterated over. 
 
+As a programmer you may **define a custom object which represents a list of information** for which it would be useful to iterate over with `for ... of`. To do this you have to add a property to the object with the name `Symbol.iterator` and bind that to a function that returns an object that can be used for iterator
+
 ## Functions
 
 You can **define a function** using the `function` keyword.
@@ -1289,11 +1291,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTE5OTgxMDIsMTI1NTA0MzMyNiwxNT
-YwNDUwODE5LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNTg1NjA1
-OTkzLC0xNTc5NzgxMTI4LDEwMDA5NTk4NzksMTU2MTQ1MTMxOC
-wtOTMwODA2MzM0LC0yMTAxNTYyNzcwLDIwNjQ2MjAxMTksMTM2
-ODQ0NDYwOSwtNjA0NzUxNzA2LDE0MjczNjkzNDYsOTQ4MDgyOD
-Q3LC0xMDI0NDMwNzEsLTE4MDM5ODgwMzcsLTE5MjkyMDg5MTQs
-LTI5MDg2ODQ3OV19
+eyJoaXN0b3J5IjpbLTU5MzY3MTAyMiwxMjU1MDQzMzI2LDE1Nj
+A0NTA4MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OCw1ODU2MDU5
+OTMsLTE1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNTYxNDUxMzE4LC
+05MzA4MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYyMDExOSwxMzY4
+NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Niw5NDgwODI4ND
+csLTEwMjQ0MzA3MSwtMTgwMzk4ODAzNywtMTkyOTIwODkxNCwt
+MjkwODY4NDc5XX0=
 -->
