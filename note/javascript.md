@@ -362,9 +362,15 @@ do {
 
 ## For ... of
 
-You can iterate through iteratable Javascript objects, such as arrays, using the `for` and `of` keywords. By defining a set of elements in the iteratable objec to loop through.
+You can iterate through iteratable Javascript objects, such as arrays, using the `for` and `of` keywords. By defining a set of elements in the iteratable object to loop through. The va
 ```js
+let arr = [1, 2, 3, 4, 5];
 
+for(const n in arr) {
+  console.log(n);
+}
+// compressed for formatting
+// => 1 2 3 4 5
 ```
 
 ## Iterables
@@ -1282,11 +1288,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDc2NjkxNzIsLTk2NjQ2MzY3NCwtMT
-c0OTkzNzM4OCw1ODU2MDU5OTMsLTE1Nzk3ODExMjgsMTAwMDk1
-OTg3OSwxNTYxNDUxMzE4LC05MzA4MDYzMzQsLTIxMDE1NjI3Nz
-AsMjA2NDYyMDExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MDYsMTQy
-NzM2OTM0Niw5NDgwODI4NDcsLTEwMjQ0MzA3MSwtMTgwMzk4OD
-AzNywtMTkyOTIwODkxNCwtMjkwODY4NDc5LDY1MDYzNjU5Niwt
-MTAxNTExMDIwOF19
+eyJoaXN0b3J5IjpbLTQwNjczMTcxMiwtOTY2NDYzNjc0LC0xNz
+Q5OTM3Mzg4LDU4NTYwNTk5MywtMTU3OTc4MTEyOCwxMDAwOTU5
+ODc5LDE1NjE0NTEzMTgsLTkzMDgwNjMzNCwtMjEwMTU2Mjc3MC
+wyMDY0NjIwMTE5LDEzNjg0NDQ2MDksLTYwNDc1MTcwNiwxNDI3
+MzY5MzQ2LDk0ODA4Mjg0NywtMTAyNDQzMDcxLC0xODAzOTg4MD
+M3LC0xOTI5MjA4OTE0LC0yOTA4Njg0NzksNjUwNjM2NTk2LC0x
+MDE1MTEwMjA4XX0=
 -->
