@@ -28,8 +28,8 @@ Futhermore, a lack of a test suite meant that I was constantly stressed out when
 
 I noticed the difference that automated testing made to my development process almost immediately. Suddenly I didn't have to be constantly writing print statements into my code and running the code individually every time I could get a sense of whether my code was doing what it was supposed to do by running a single command and checking the output.
 
-This made refactoring a lot less stressful as well, for the first time in my experience I lo
+This made refactoring a lot less stressful as well, for the first time in my experience I looked forward to extending the re-writing my code because I had some assurance in the form of tests that my 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTUyMzgyNzYsMTgzMTUwNzgyNSwtMT
-U5NjU0NDkxXX0=
+eyJoaXN0b3J5IjpbMjI4MjIyOTU5LDE4MzE1MDc4MjUsLTE1OT
+Y1NDQ5MV19
 -->
