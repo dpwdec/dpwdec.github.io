@@ -38,9 +38,11 @@ Writing automated tests is just the tip of the iceberg in terms of software test
 
 One example of this, is the practice of dependency injecting functions or classes in your code with external code dependencies which enforces a transparent indication of the different dependencies that a part of your code has, making them clearer and less prone to untraceable errors due to dependencies failing. This also means you have a clear idea of what the responsibilities of an atomised part of your code has and what it relies on and more naturally allows you to respect single responsibility in your code.
 
-In addition, you can use testing to guide the entire development process with TDD (Test Driven Development) and BDD (Behaviour Driven Development). These software methodologies focus on defining an expected output for a piece of code before doing *any* implementation. The advantage of this is that it forces you to clearly plan how you expect a piece of code to function, what will be its inputs and what will be its outputs before you start actually creating it, it forces you to actually plan your codes structure before you make it. As someone who spent a significant amount of time coding as a hobbyist and would always just jump straight into coding before even really thinking about what I was making or reall
+In addition, you can use testing to guide the entire development process with TDD (Test Driven Development) and BDD (Behaviour Driven Development). These software methodologies focus on defining an expected output for a piece of code before doing *any* implementation. The advantage of this is that it forces you to clearly plan how you expect a piece of code to function, what will be its inputs and what will be its outputs before you start actually creating it, it forces you to actually plan your codes structure before you make it. As someone who spent a significant amount of time coding as a hobbyist and would always just jump straight into coding with only vaguest notion of what my code was supposed to do, this practice of explicitly defining in a test what I wanted my code to output was transformative to my productivity leading to much clearer and well defined applications.
+
+Furthermore, the fact that TDD and BDD focus only on verifying the input and output of code means that you are always 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzY1MjQ5MSwyMDU0MTA0ODE0LDM0MD
-k4NzI0LDIyODIyMjk1OSwxODMxNTA3ODI1LC0xNTk2NTQ0OTFd
-fQ==
+eyJoaXN0b3J5IjpbLTEwMzY2NzYxNzAsMjA1NDEwNDgxNCwzND
+A5ODcyNCwyMjgyMjI5NTksMTgzMTUwNzgyNSwtMTU5NjU0NDkx
+XX0=
 -->
