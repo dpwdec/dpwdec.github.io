@@ -28,9 +28,9 @@ Futhermore, a lack of a test suite meant that I was constantly stressed out when
 
 I noticed the difference that automated testing made to my development process almost immediately. Suddenly I didn't have to be constantly writing print statements into my code and running the code individually every time I could get a sense of whether my code was doing what it was supposed to do by running a single command and checking the output.
 
-The immediate effect of testing was that refactoring or extending my code became a lot less stressful. Before I started wr
+The immediate effect of testing was that refactoring or extending my code became a lot less stressful. Before I started wri
 This made refactoring a lot less stressful as well, for the first time in my experience I looked forward to extending the re-writing my code because I had some assurance in the form of tests that my 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwOTg3MjQsMjI4MjIyOTU5LDE4MzE1MD
-c4MjUsLTE1OTY1NDQ5MV19
+eyJoaXN0b3J5IjpbNDc3NzQ2MDMzLDM0MDk4NzI0LDIyODIyMj
+k1OSwxODMxNTA3ODI1LC0xNTk2NTQ0OTFdfQ==
 -->
