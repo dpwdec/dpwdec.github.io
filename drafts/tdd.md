@@ -7,14 +7,16 @@ I coded a lot before I ever wrote a test for my code, and, had I not been forced
 
 ## Before Testing
 
-All that "code" that I wrote before starting to test was a complete mess because it was almost impossible to debug and find errors. My feedback loop for finding errors in my code was something like this:
+All that "code" that I wrote before starting to test was a complete mess because it was almost impossible to debug effectively, find errors and sometimes to even know if errors had occurred. My feedback loop for finding errors in my code was something like this:
 
 - Change the input values for my code manually
 - Put a print statement somewhere in my code to get visibility on an output
 - Run the entire program
 - See if the output matches my expectation
 
+This was a really slow, manual process that
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTExODY2NDBdfQ==
+eyJoaXN0b3J5IjpbLTE3ODU1MjQ3NjZdfQ==
 -->
