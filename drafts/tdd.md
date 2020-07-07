@@ -42,11 +42,11 @@ Furthermore, the fact that TDD and BDD focus only on verifying the input and out
 
 ## Testing as an end
 
-While I am convinced that testing is an incredibly useful tool in development and has made my life as a developer much easier there is such a thing as *too many tests*. The joy I take in testing is not particularly objective, its born from experience many failed poorly written, untested projects and seeing how easy the effort put into testing makes things. There has also been evidence in the last few years that testing may be on par in terms of code quality gains as simply doing code reviews. However, I would guess that the advantages automated testing can offer solo developers or smaller projects without a robust code review system would be considerable still.
+I'm convinced that testing is an incredibly useful tool in development and has made my life as a developer much easier there is such a thing as *too many tests*. The joy I take in testing is not particularly objective, its born from experience many failed poorly written, untested projects and seeing how easy the effort put into testing makes things. There has also been evidence in the last few years that testing may be on par in terms of code quality gains as simply doing code reviews. However, if you are a solo developer or are working on a smaller project without a robust code review system automated testing is the only real option.
 
-However, its definitely important to remember to not be blinded my light of testing. If your test suite becomes larger and more difficult to maintain than your actual code base, which has happened to me in the past, you're probably experiencing too much joy!
+While I take a lot of joy in testing, its definitely important to remember to not be blinded my light of testing. If your test suite becomes larger and more difficult to maintain than your actual code base, which has happened to me in the past, you're probably experiencing too much joy! I hope if you're not testing you will consider giving it a try!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTY1MTMzOSwtMjEyODM0NTY0OSwyMD
+eyJoaXN0b3J5IjpbMTg3NTAyMzYxMywtMjEyODM0NTY0OSwyMD
 U0MTA0ODE0LDM0MDk4NzI0LDIyODIyMjk1OSwxODMxNTA3ODI1
 LC0xNTk2NTQ0OTFdfQ==
 -->
