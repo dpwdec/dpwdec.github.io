@@ -42,11 +42,11 @@ Furthermore, the fact that TDD and BDD focus only on verifying the input and out
 
 ## Testing as an end
 
-While I am convinced that testing is an incredibly useful tool in development and has made my life as a developer much easier there is such a thing as *too many tests*. The joy I take in testing is not particularly objective, its born from experience many failed poorly written, untested projects and seeing how easy the effort put into testing makes things. There has also been evidence in the last few years that testing may not be 
+While I am convinced that testing is an incredibly useful tool in development and has made my life as a developer much easier there is such a thing as *too many tests*. The joy I take in testing is not particularly objective, its born from experience many failed poorly written, untested projects and seeing how easy the effort put into testing makes things. There has also been evidence in the last few years that testing may be on par in terms of code quality gains as simply doing code reviews. However, I would guess that the advantages automated testing can offer solo developers or smaller projects without a robust code review system would be considerable still.
 
 However, its definitely important to remember to not be blinded my light of testing. If your test suite becomes larger and more difficult to maintain than your actual code base, which has happened to me in the past, you're probably experiencing too much joy!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5MTUyNzM5LC0yMTI4MzQ1NjQ5LDIwNT
-QxMDQ4MTQsMzQwOTg3MjQsMjI4MjIyOTU5LDE4MzE1MDc4MjUs
-LTE1OTY1NDQ5MV19
+eyJoaXN0b3J5IjpbMTk3NTY1MTMzOSwtMjEyODM0NTY0OSwyMD
+U0MTA0ODE0LDM0MDk4NzI0LDIyODIyMjk1OSwxODMxNTA3ODI1
+LC0xNTk2NTQ0OTFdfQ==
 -->
