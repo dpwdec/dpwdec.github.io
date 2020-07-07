@@ -26,16 +26,15 @@ Futhermore, a lack of a test suite meant that I was constantly stressed out when
 
 ## After testing
 
-I noticed the difference that automated testing made to my development process almost immediately. After the initial investment of actually learning how to write tests and writing tests the speed at which I could develop and test a large number of input possibilities and edge cases increased by an order of magnitude. I was no longer writing multiple print statements into my code when I encountered bugs as I could just go straight to the source of error, as indicated by my tests. I no longer had to rerun by entire application when I wanted to verify an output but could run different parts of my program in isolation. Furthermore I could be 
-
-
-Suddenly I didn't have to be constantly writing print statements into my code and running the code individually every time I could get a sense of whether my code was doing what it was supposed to do by running a single command and checking the output.
+I noticed the difference that automated testing made to my development process almost immediately. After the initial investment of actually learning how to write tests and writing tests the speed at which I could develop and test a large number of input possibilities and edge cases increased by an order of magnitude. I was no longer writing multiple print statements into my code when I encountered bugs as I could just go straight to the source of error, as indicated by my tests. I no longer had to rerun by entire application when I wanted to verify an output but could run different parts of my program in isolation. Furthermore I could be much more certain of the quality of my code, I could be sure that simply did what it was meant to do.
 
 Another immediate effect of testing was that refactoring or extending my code became a lot less stressful. Before I started writing tests for my code I would dread having to refactor or extend my code because I had no reliable way of knowing whether the changes I made to my code would break it unexpected ways. One of joys of testing is that you can ensure that changes to your code actually work by simply running your test suite. The peace of mind this affords you cannot be understated.
 
+Just learning the basics of testing made coding a joy for me and removed a lot of the most stressful and laborious parts of writing software, I often wonder how I ever got much done before learning to test code effectively.
+
 ## After after testing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDI2NDQxMywyMDU0MTA0ODE0LDM0MD
+eyJoaXN0b3J5IjpbMjA1MDg0OTA1OCwyMDU0MTA0ODE0LDM0MD
 k4NzI0LDIyODIyMjk1OSwxODMxNTA3ODI1LC0xNTk2NTQ0OTFd
 fQ==
 -->
