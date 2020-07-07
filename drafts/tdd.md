@@ -26,13 +26,16 @@ Futhermore, a lack of a test suite meant that I was constantly stressed out when
 
 ## After testing
 
-I noticed the difference that automated testing made to my development process almost immediately. Suddenly I didn't have to be constantly writing print statements into my code and running the code individually every time I could get a sense of whether my code was doing what it was supposed to do by running a single command and checking the output.
+I noticed the difference that automated testing made to my development process almost immediately. After the initial investment of actually learning how to write tests 
+
+
+Suddenly I didn't have to be constantly writing print statements into my code and running the code individually every time I could get a sense of whether my code was doing what it was supposed to do by running a single command and checking the output.
 
 Another immediate effect of testing was that refactoring or extending my code became a lot less stressful. Before I started writing tests for my code I would dread having to refactor or extend my code because I had no reliable way of knowing whether the changes I made to my code would break it unexpected ways. One of joys of testing is that you can ensure that changes to your code actually work by simply running your test suite. The peace of mind this affords you cannot be understated.
 
 ## After after testing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTM2NjU4MzUsMjA1NDEwNDgxNCwzND
+eyJoaXN0b3J5IjpbLTExNTYzNjA5MTgsMjA1NDEwNDgxNCwzND
 A5ODcyNCwyMjgyMjI5NTksMTgzMTUwNzgyNSwtMTU5NjU0NDkx
 XX0=
 -->
