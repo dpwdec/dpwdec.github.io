@@ -5,7 +5,7 @@ title:  "The everyday joy of testing"
 
 I coded a lot before I ever wrote an automated test for my code, and, had I not been forced to start testing (by attending a software development course that enforced code testing at every level) I may *never* have written any tests for my code and would not have known how much clarity, reliability and peace of mind I was missing. I can say that testing is one of the joys in development that I look forward to because I've experienced the hell that occurs if you *don't* test and I don't want to return to that.
 
-## Before Testing
+## Before testing
 
 All that "code" that I wrote before starting to test was a complete mess because it was almost impossible to debug effectively, find errors and sometimes to even know if errors had occurred. My feedback loop for finding errors in my code was something like this:
 
@@ -24,14 +24,14 @@ This was a really terrible process for a number of reasons:
 
 Futhermore, a lack of a test suite meant that I was constantly stressed out when writing larger code projects because I was never really sure if my code would break and if it did break where the error had occured or how I code even fix it.
 
-## After Testing
+## After testing
 
 I noticed the difference that automated testing made to my development process almost immediately. Suddenly I didn't have to be constantly writing print statements into my code and running the code individually every time I could get a sense of whether my code was doing what it was supposed to do by running a single command and checking the output.
 
-The immediate effect of testing was that refactoring or extending my code became a lot less stressful. Before I started writing tests for my code I would dread having to refactor or extend my code because I had no reliable way of knowing whether the changes I made to my code would break it unexpected ways. One of joys of testing is that changes to code that might break its functionality in some unexpected way immediately give feedback
+The immediate effect of testing was that refactoring or extending my code became a lot less stressful. Before I started writing tests for my code I would dread having to refactor or extend my code because I had no reliable way of knowing whether the changes I made to my code would break it unexpected ways. One of joys of testing is that changes to code that might break its functionality in some unexpected way immediately give feedback when you run your test suite.
 
-This made refactoring a lot less stressful as well, for the first time in my experience I looked forward to extending the re-writing my code because I had some assurance in the form of tests that my 
+## After after testing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA4Njk4MzA5LDM0MDk4NzI0LDIyODIyMj
-k1OSwxODMxNTA3ODI1LC0xNTk2NTQ0OTFdfQ==
+eyJoaXN0b3J5IjpbMjA1NDEwNDgxNCwzNDA5ODcyNCwyMjgyMj
+I5NTksMTgzMTUwNzgyNSwtMTU5NjU0NDkxXX0=
 -->
