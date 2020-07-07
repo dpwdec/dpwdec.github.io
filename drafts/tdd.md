@@ -40,10 +40,11 @@ In addition, you can use testing to guide the entire development process with TD
 
 Furthermore, the fact that TDD and BDD focus only on verifying the input and output of code means that you are always free to alter your code's implementation as long as it still produces the same output. By avoiding testing the implementation of some code I found I was free to produce creative implementations to solve problems while still maintaining the assurances offered by tests that in the end the code worked as expected.
 
-## Testing
+## Testing as an end
 
+While I am convinced that testing is an incredibly useful tool in development there is such a thing as *too many tests*. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDkxMjM4OSwyMDU0MTA0ODE0LDM0MD
-k4NzI0LDIyODIyMjk1OSwxODMxNTA3ODI1LC0xNTk2NTQ0OTFd
-fQ==
+eyJoaXN0b3J5IjpbLTIxMjgzNDU2NDksMjA1NDEwNDgxNCwzND
+A5ODcyNCwyMjgyMjI5NTksMTgzMTUwNzgyNSwtMTU5NjU0NDkx
+XX0=
 -->
