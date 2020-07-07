@@ -22,8 +22,12 @@ To **create a text box that can be resized and typed into** use the `textarea` t
 ```
 
 ## Internal Links
-You can link to 
+You can **link to internal elements in an HTML document** by using the `a` tag type in conjunction with an element's `id`.
+```html
+<a href="#a_heading">Link to Hello</
+<h1 id="a_heading">Hello</h1>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwODM5OTMwNywxNjMxOTYxOTY5LDczND
-I4MjAyMV19
+eyJoaXN0b3J5IjpbLTE3MjU2NzI5NDUsMTEwODM5OTMwNywxNj
+MxOTYxOTY5LDczNDI4MjAyMV19
 -->
