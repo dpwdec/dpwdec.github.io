@@ -20,7 +20,10 @@ To **create a text box that can be resized and typed into** use the `textarea` t
 ```html
 <textarea rows="3"></textarea>
 ```
-> Written with [StackEdit](https://stackedit.io/).
+
+## Internal Links
+You can link to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTk2MTk2OSw3MzQyODIwMjFdfQ==
+eyJoaXN0b3J5IjpbMTEwODM5OTMwNywxNjMxOTYxOTY5LDczND
+I4MjAyMV19
 -->
