@@ -42,9 +42,9 @@ Furthermore, the fact that TDD and BDD focus only on verifying the input and out
 
 ## Testing as an end
 
-While I am convinced that testing is an incredibly useful tool in development there is such a thing as *too many tests*. 
+While I am convinced that testing is an incredibly useful tool in development and has made my life as a developer much easier there is such a thing as *too many tests*. The joy I take in testing is not particularly objective, its born from experience many failed poorly written, untested projects and seeing how easy the effort put into testing makes things. However, its definitely important to remember to not be blinded my light of testing. If your test suite
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjgzNDU2NDksMjA1NDEwNDgxNCwzND
-A5ODcyNCwyMjgyMjI5NTksMTgzMTUwNzgyNSwtMTU5NjU0NDkx
-XX0=
+eyJoaXN0b3J5IjpbLTkzNDc1MTk1MiwtMjEyODM0NTY0OSwyMD
+U0MTA0ODE0LDM0MDk4NzI0LDIyODIyMjk1OSwxODMxNTA3ODI1
+LC0xNTk2NTQ0OTFdfQ==
 -->
