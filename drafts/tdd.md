@@ -17,9 +17,9 @@ All that "code" that I wrote before starting to test was a complete mess because
 This was a really terrible process for a number of reasons:
 
 - It was really slow, *especially* if I needed to test multiple inputs to my code, I had to type them in manually and run the code each time
-- It was suceptible 
-
+- It was susceptible to human error as often I would think the output of my code was correct when it was actually incorrect only to find out later my whole expectation what parts of my code did and did not work was wrong
+- It littered the code with hundreds of print statements that were impossible
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzYwMTgwNV19
+eyJoaXN0b3J5IjpbLTExMDc1MTE4NDhdfQ==
 -->
