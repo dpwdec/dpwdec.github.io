@@ -3,11 +3,11 @@ layout:  post
 title:  "The everyday joy of testing" 
 ---
 
-I coded a lot before I ever wrote an automated test for my code, and, had I not been forced to start testing (by attending a software development course that enforced code testing at every level) I may *never* have written any tests for my code and would not have known how much clarity, reliability and peace of mind I was missing. I can say that testing is one of the joys in development that I look forward to because I've experienced the hell that occurs if you *don't* test and I don't want to return to that.
+I coded a lot before I ever wrote an automated test for my code, and, had I not been forced to start testing (by attending a software development course that enforced code testing at every level) I may *never* have written any tests for my code and would not have known how much clarity, reliability and peace of mind I was missing. I can honestly say that testing is one of the joys in development that I look forward to because I've experienced the hell that occurs if you *don't* test and I don't want to return to that.
 
 ## Before testing
 
-All that "code" that I wrote before starting to test was a complete mess because it was almost impossible to debug effectively, find errors and sometimes to even know if errors had occurred. My feedback loop for finding errors in my code was something like this:
+All that code that I wrote before starting to test was a complete mess because it was almost impossible to debug effectively, find errors and sometimes to even know if errors had occurred. My feedback loop for finding errors in my code was something like this:
 
 - Change the input values for my code manually
 - Put a print statement somewhere in my code to get visibility on an output
@@ -40,9 +40,11 @@ One example of this, is the practice of dependency injecting functions or classe
 
 In addition, you can use testing to guide the entire development process with TDD (Test Driven Development) and BDD (Behaviour Driven Development). These software methodologies focus on defining an expected output for a piece of code before doing *any* implementation. The advantage of this is that it forces you to clearly plan how you expect a piece of code to function, what will be its inputs and what will be its outputs before you start actually creating it, it forces you to actually plan your codes structure before you make it. As someone who spent a significant amount of time coding as a hobbyist and would always just jump straight into coding with only vaguest notion of what my code was supposed to do, this practice of explicitly defining in a test what I wanted my code to output was transformative to my productivity leading to much clearer and well defined applications.
 
-Furthermore, the fact that TDD and BDD focus only on verifying the input and output of code means that you are always free to alter your code's implementation as long as it still produces the same output. By avoiding testing the implementation of some code I found I was free to produce creative implementations to solve problems while still maintaining the assurances offered by tests that in the mi
+Furthermore, the fact that TDD and BDD focus only on verifying the input and output of code means that you are always free to alter your code's implementation as long as it still produces the same output. By avoiding testing the implementation of some code I found I was free to produce creative implementations to solve problems while still maintaining the assurances offered by tests that in the end the code worked as expected.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODk4NTIyNSwyMDU0MTA0ODE0LDM0MD
+eyJoaXN0b3J5IjpbLTcwNDMxNzg5OCwyMDU0MTA0ODE0LDM0MD
 k4NzI0LDIyODIyMjk1OSwxODMxNTA3ODI1LC0xNTk2NTQ0OTFd
 fQ==
 -->
