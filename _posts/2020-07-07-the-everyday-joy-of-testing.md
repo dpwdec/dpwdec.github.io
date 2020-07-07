@@ -3,7 +3,7 @@ layout:  post
 title:  "The everyday joy of testing" 
 ---
 
-I coded a lot before I ever wrote an automated test for my code, and, had I not been forced to start testing (by attending a software development course that enforced code testing at every level) I may *never* have written any tests for my code and would not have known how much clarity, reliability and peace of mind I was missing. I can honestly say that testing is one of the joys in development that I look forward to because I've experienced the hell that occurs if you *don't* test and I don't want to return to that.
+I coded a lot before I ever wrote an automated test for my code, and, had I not been forced to start testing (by attending a software development [course][makers] that enforced code testing at every level) I may *never* have written any tests for my code and would not have known how much clarity, reliability and peace of mind I was missing. I can honestly say that testing is one of the joys in development that I look forward to because I've experienced the hell that occurs if you *don't* test and I don't want to return to that.
 
 ## Before testing
 
@@ -42,11 +42,12 @@ Furthermore, the fact that TDD and BDD focus only on verifying the input and out
 
 ## Testing as an end
 
-I'm convinced that testing is an incredibly useful tool in development and has made my life as a developer much easier there is such a thing as *too many tests*. The joy I take in testing is not particularly objective, its born from experience many failed poorly written, untested projects and seeing how easy the effort put into testing makes things. There has also been [evidence in the last few years that testing may be on par in terms of code quality gains as simply doing code reviews. However, if you are a solo developer or are working on a smaller project without a robust code review system automated testing is the only real option.
+I'm convinced that testing is an incredibly useful tool in development and has made my life as a developer much easier there is such a thing as *too many tests*. The joy I take in testing is not particularly objective, its born from experience many failed poorly written, untested projects and seeing how easy the effort put into testing makes things. There has also been [evidence in the last few years that testing may be on par in terms of code quality gains as simply doing code reviews][testvreview]. However, if you are a solo developer or are working on a smaller project without a robust code review system automated testing is the only real option.
 
 While I take a lot of joy in testing, its definitely important to remember to not be blinded my light of testing. If your test suite becomes larger and more difficult to maintain than your actual code base, which has happened to me in the past, you're probably experiencing too much joy! I hope if you're not testing you will consider giving it a try!
 
 [testvreview]: https://medium.com/javascript-scene/the-outrageous-cost-of-skipping-tdd-code-reviews-57887064c412
+[makers]: https://makers.tech/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyOTIzMTQyXX0=
+eyJoaXN0b3J5IjpbLTE0MDA5NDA2MjBdfQ==
 -->
