@@ -34,9 +34,11 @@ Just learning the basics of testing made coding a joy for me and removed a lot o
 
 ## After after testing
 
-Writing automated tests is just the tip of the iceberg in terms of software testing and as time has passed I have found that testing *isn't* just a convenience for verifying your code's validity, it also leads to better code by keeping you honest about  
+Writing automated tests is just the tip of the iceberg in terms of software testing and as time has passed I have found that testing *isn't* just a convenience for verifying your code's validity, it also leads to better structured application code overall.
+
+For example, dependency injection ensure 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTg3Mzg2NywyMDU0MTA0ODE0LDM0MD
+eyJoaXN0b3J5IjpbMTk0NDkzODIxNSwyMDU0MTA0ODE0LDM0MD
 k4NzI0LDIyODIyMjk1OSwxODMxNTA3ODI1LC0xNTk2NTQ0OTFd
 fQ==
 -->
