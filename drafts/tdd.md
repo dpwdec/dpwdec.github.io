@@ -18,8 +18,10 @@ This was a really terrible process for a number of reasons:
 
 - It was really slow, *especially* if I needed to test multiple inputs to my code, I had to type them in manually and run the code each time
 - It was susceptible to human error as often I would think the output of my code was correct when it was actually incorrect only to find out later my whole expectation what parts of my code did and did not work was wrong
-- It littered the code with hundreds of print statements that were impossible
+- It littered the code with hundreds of print statements that were difficult and laborious to remove, especially if you needed to retest something later down the line you could either leave the print statement littering your code or re-add every time you wanted to test
+- It gave no feedback on refactoring, when I refactored one part of my code that broke another part of my code, if I wasn't specifically thinking about testing that part of the code I would have no idea it was broken
+- It often tested implementation and not behav
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDc1MTE4NDhdfQ==
+eyJoaXN0b3J5IjpbMTU1Mzc2NjExN119
 -->
