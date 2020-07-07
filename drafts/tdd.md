@@ -26,6 +26,7 @@ Futhermore, a lack of a test suite meant that I was constantly stressed out when
 
 ## After Testing
 
+I noticed the difference that automated testing made to my development process almost immediately.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTY1NDQ5MV19
+eyJoaXN0b3J5IjpbMTgzMTUwNzgyNSwtMTU5NjU0NDkxXX0=
 -->
