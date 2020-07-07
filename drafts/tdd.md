@@ -14,9 +14,12 @@ All that "code" that I wrote before starting to test was a complete mess because
 - Run the entire program
 - See if the output matches my expectation
 
-This was a really slow, manual process that
+This was a really terrible process for a number of reasons:
+
+- It was really slow, *especially* if I needed to test multiple inputs to my code, I had to type them in manually and run the code each time
+- It was suceptible 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODU1MjQ3NjZdfQ==
+eyJoaXN0b3J5IjpbMTQ5MzYwMTgwNV19
 -->
