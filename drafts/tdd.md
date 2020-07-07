@@ -36,13 +36,13 @@ Just learning the basics of testing made coding a joy for me and removed a lot o
 
 Writing automated tests is just the tip of the iceberg in terms of software testing and as time has passed I have found that testing *isn't* just a convenience for verifying your code's validity, it also leads to better structured application code overall.
 
-One aspect of this is the
+One example of this, is the practice of dependency injecting functions or classes in your code with external code dependencies which enforces a transparent indication of the different dependencies that a part of your code has, making them clearer and less prone to untraceable errors due to dependencies failing. This also means you have a clear idea of what the responsibilities of an atomised part of your code has and what it relies on and more naturally allows you to res
 
-For example, dependency injecting the functions or classes in your code enforces a transparent indication of the different dependencies that a part of your code has, making them clearer and less prone to untraceable errors due to dependencies failing. This also means you have a clear idea of what the responsibilities of an atomised part of your code has and what it relies on.
+In addition, you can use
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzQ1NTc2MiwyMDU0MTA0ODE0LDM0MD
-k4NzI0LDIyODIyMjk1OSwxODMxNTA3ODI1LC0xNTk2NTQ0OTFd
-fQ==
+eyJoaXN0b3J5IjpbLTEyMTEwMjMzNzEsMjA1NDEwNDgxNCwzND
+A5ODcyNCwyMjgyMjI5NTksMTgzMTUwNzgyNSwtMTU5NjU0NDkx
+XX0=
 -->
