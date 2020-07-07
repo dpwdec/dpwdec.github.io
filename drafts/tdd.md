@@ -28,10 +28,10 @@ Futhermore, a lack of a test suite meant that I was constantly stressed out when
 
 I noticed the difference that automated testing made to my development process almost immediately. Suddenly I didn't have to be constantly writing print statements into my code and running the code individually every time I could get a sense of whether my code was doing what it was supposed to do by running a single command and checking the output.
 
-The immediate effect of testing was that refactoring or extending my code became a lot less stressful. Before I started writing tests for my code I would dread having to refactor or extend my code because I had no reliable way of knowing whether the changes I made to my code would break it unexpected ways. One of joys of testing is that changes to the code that might break other
+The immediate effect of testing was that refactoring or extending my code became a lot less stressful. Before I started writing tests for my code I would dread having to refactor or extend my code because I had no reliable way of knowing whether the changes I made to my code would break it unexpected ways. One of joys of testing is that changes to code that might break its functionality in some unexpected way
 
 This made refactoring a lot less stressful as well, for the first time in my experience I looked forward to extending the re-writing my code because I had some assurance in the form of tests that my 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDEyNzYsMzQwOTg3MjQsMjI4MjIyOT
-U5LDE4MzE1MDc4MjUsLTE1OTY1NDQ5MV19
+eyJoaXN0b3J5IjpbLTE4ODUyMTEyNDUsMzQwOTg3MjQsMjI4Mj
+IyOTU5LDE4MzE1MDc4MjUsLTE1OTY1NDQ5MV19
 -->
