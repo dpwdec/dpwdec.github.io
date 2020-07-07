@@ -33,8 +33,10 @@ Another immediate effect of testing was that refactoring or extending my code be
 Just learning the basics of testing made coding a joy for me and removed a lot of the most stressful and laborious parts of writing software, I often wonder how I ever got much done before learning to test code effectively.
 
 ## After after testing
+
+Writing automated tests is just the tip of the iceberg in terms of software testing and as time has passed I have found that testing *isn't* just a convenience for verifying your code's validity, it also leads to better code by keeping you honest about  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDg0OTA1OCwyMDU0MTA0ODE0LDM0MD
+eyJoaXN0b3J5IjpbLTY1OTg3Mzg2NywyMDU0MTA0ODE0LDM0MD
 k4NzI0LDIyODIyMjk1OSwxODMxNTA3ODI1LC0xNTk2NTQ0OTFd
 fQ==
 -->
