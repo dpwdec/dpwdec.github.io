@@ -16,9 +16,9 @@ All that code that I wrote before starting to test was a complete mess because i
 
 This was a really terrible process for a number of reasons. Firstly, it was really slow, *especially* if I needed to test multiple inputs to my code, I had to type them in manually and run the entire application each time. This was also susceptible to human error as often I would think the output of my code was correct when it was actually incorrect, something I would only find out later and would completely invalidate my expectation about how parts of my code functioned.
 
-This approac
-- It littered the code with hundreds of print statements that were difficult and laborious to remove, especially if you needed to retest something later down the line you could either leave the print statement littering your code or re-add every time you wanted to test
-- It gave no feedback on refactoring, when I refactored one part of my code that broke another part of my code, if I wasn't specifically thinking about testing that part of the code I would have no idea it was broken
+This approach lead to extremely unclean code. My code was littered with hundreds of random print statements that were difficult and laborious to remove, especially if you needed to retest something later down the line you could either leave the redundant print statement in your code and have it run every time you ran your application, or manually re-add it to your code every time you want to test that part of your application.
+
+This process gave little or no feedback, when I refactored one part of my code that broke another part of my code, if I wasn't specifically thinking about testing that part of the code I would have no idea it was broken
 - It often tested implementation and not behaviour. Frequently because there were no clearly defined end points for tests, only print statements in the production code I would find myself testing that a loop had run or that a particular variable had been initialised even if it was entirely irrelevant to the rest of my code base.
 
 Futhermore, a lack of a test suite meant that I was constantly stressed out when writing larger code projects because I was never really sure if my code would break and if it did break where the error had occured or how I code even fix it.
@@ -43,7 +43,7 @@ Furthermore, the fact that TDD and BDD focus only on verifying the input and out
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzUxOTk2MSwyMDU0MTA0ODE0LDM0MD
+eyJoaXN0b3J5IjpbLTMwOTYyMzk3NCwyMDU0MTA0ODE0LDM0MD
 k4NzI0LDIyODIyMjk1OSwxODMxNTA3ODI1LC0xNTk2NTQ0OTFd
 fQ==
 -->
