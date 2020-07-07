@@ -26,7 +26,7 @@ Futhermore, a lack of a test suite meant that I was constantly stressed out when
 
 ## After testing
 
-I noticed the difference that automated testing made to my development process almost immediately. After the initial investment of actually learning how to write tests 
+I noticed the difference that automated testing made to my development process almost immediately. After the initial investment of actually learning how to write tests and writing tests the speed at which I could develop and test a large number of input possibilities and test cases increased by an order of magnitude. I was no longer writing multiple print statements into my code when I encountered bugs, I could just go straight to the source of error, as indicated by my tests and debug much much faster.
 
 
 Suddenly I didn't have to be constantly writing print statements into my code and running the code individually every time I could get a sense of whether my code was doing what it was supposed to do by running a single command and checking the output.
@@ -35,7 +35,7 @@ Another immediate effect of testing was that refactoring or extending my code be
 
 ## After after testing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTYzNjA5MTgsMjA1NDEwNDgxNCwzND
-A5ODcyNCwyMjgyMjI5NTksMTgzMTUwNzgyNSwtMTU5NjU0NDkx
-XX0=
+eyJoaXN0b3J5IjpbLTU3NDc3OTYwMCwyMDU0MTA0ODE0LDM0MD
+k4NzI0LDIyODIyMjk1OSwxODMxNTA3ODI1LC0xNTk2NTQ0OTFd
+fQ==
 -->
