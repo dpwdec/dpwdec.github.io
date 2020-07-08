@@ -194,7 +194,7 @@ mod some_module {
 }
 ```
 
-The `use` keyword **only refers to the module scope in which it is defined**, it **does not extend to inner scopes**.
+The `use` keyword **only refers to the module scope in which it is defined**, it **does not extend to inner scopes**. The example below **does not work**, even though the code defines a `use` of `some_struct` at the top level that contains `another_module` the `use` does not extend inside the module and needs to be defined as a name-space *within* that specific module where it is used.
 ```rust
 // ERRORS
 mod some_module {
@@ -206,7 +206,27 @@ mod some_module {
 use self::some_module::some_struct;
 
 mod another_module {
-  fn use_some_struct() -> some_struct {
+  fn use_some_struct() -> some_struct { // -> some_struct will be undefined
+    return some_struct {
+      // struct code
+    }
+  }
+}
+```
+
+This would be the correct structure to use `some_struct` inside `another_module`.
+```rust
+
+mod some_module {
+  struct some_struct {
+    // struct code
+  }
+}
+
+use self::some_module::some_struct;
+
+mod another_module {
+  fn use_some_struct() -> some_struct { // -> some_struct will be undefined
     return some_struct {
       // struct code
     }
@@ -225,7 +245,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzEwMDc2MiwyNDU5MTA2MzUsLTEwMT
+eyJoaXN0b3J5IjpbMTMyMDEzNzg1NSwyNDU5MTA2MzUsLTEwMT
 I4MjY2OTAsMTM4MzIwODg3MCwxMTIxNzU5ODgzLDE2Njk4Mzgx
 MzYsMTc4OTM4OTE0NCwxNjczNDMwMDE3LDE0NzU3NDk5MjgsLT
 E2MzgyMzI2NzcsMjAzODg0NDg2OSw2MTcyMjAzNDcsLTg1ODA4
