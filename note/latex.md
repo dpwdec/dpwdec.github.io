@@ -5,12 +5,19 @@ exclude: true
 ---
 Latex is a type-setting engine that allows for full controlling of document formatting and content control.
 
-# Classes
+## Classes
 
 A `documentclass` defines the basic layout for a document. This is defined at the head of your document file with the class of document inside `{}` curly brackets.
 ```latex
-\documentclass{
+\documentclass{article}
+```
+
+## Document
+
+The text of your document is placed between the `begin` and `end` tags that mark the body of the document.
+```latex
+\
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDI1MDgwM119
+eyJoaXN0b3J5IjpbLTI4MzU2ODY0M119
 -->
