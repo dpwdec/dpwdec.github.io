@@ -140,13 +140,15 @@ mod some_module {
 
 You can **reference the code inside a module** using `relative` or `absolute` paths. The pattern for these references is indicate the module and object names you want to reference separated by `::` double colons.
 
-You can **use absolute module references** by using the `crate` keyword at the beginning of the reference path.
+You can **use absolute module references** by using the `crate` keyword at the beginning of the reference path. In the example below an absolute path is used to reference `some_struct`, this doesn't seem very useful right now because we are referencing this at the top level of our code, *however* if we 
 ```rust
 mod some_module {
   // ---snip---
 }
 
-crate::some_module::another_module
+let instance_of_some_struct = crate::some_module::another_module::some_struct {
+  // make a new struct here
+}
 ```
 
 ## Rand
@@ -160,8 +162,8 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjA1OTc0NjksMTM4MzIwODg3MCwxMT
-IxNzU5ODgzLDE2Njk4MzgxMzYsMTc4OTM4OTE0NCwxNjczNDMw
-MDE3LDE0NzU3NDk5MjgsLTE2MzgyMzI2NzcsMjAzODg0NDg2OS
-w2MTcyMjAzNDcsLTg1ODA4ODI0MywtMTYwODgyNTI2M119
+eyJoaXN0b3J5IjpbMTY3ODU0Mzg4LDEzODMyMDg4NzAsMTEyMT
+c1OTg4MywxNjY5ODM4MTM2LDE3ODkzODkxNDQsMTY3MzQzMDAx
+NywxNDc1NzQ5OTI4LC0xNjM4MjMyNjc3LDIwMzg4NDQ4NjksNj
+E3MjIwMzQ3LC04NTgwODgyNDMsLTE2MDg4MjUyNjNdfQ==
 -->
