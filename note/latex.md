@@ -30,7 +30,10 @@ You can **pass multiple arguments into the class specifier** by comma separating
 \documentclass[12pt, legalpaper]{article}
 ```
 
-You can **set the document type encoding** from the `\usepackage` command with an argument of the encoding type and 
+You can **set the document type encoding** from the `\usepackage` command with an argument of the encoding type and `inputenc` specifier.
+```latex
+\usepackage[utf8]{inputenc}
+```
 
 ## Document
 
@@ -41,5 +44,5 @@ Some document text
 \end{document}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzE5NTI4Nyw1Mjg2MDY0MDVdfQ==
+eyJoaXN0b3J5IjpbLTE3MDg5MjIzNDksNTI4NjA2NDA1XX0=
 -->
