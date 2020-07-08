@@ -82,7 +82,11 @@ This text will be rendered.
 % This next will NOT be rendered.
 \end{document}
 ```
+
+## Formatting
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTk3ODUzLC0xNzA4OTIyMzQ5LDUyOD
-YwNjQwNV19
+eyJoaXN0b3J5IjpbLTEyMzU4Nzg4MDQsLTE3MDg5MjIzNDksNT
+I4NjA2NDA1XX0=
 -->
