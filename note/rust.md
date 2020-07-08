@@ -194,7 +194,20 @@ mod some_module {
 }
 ```
 
-The 
+The `use` keyword **only refers to the module scope in which it is defined**, it **does not extend to inner scopes**.
+```rust
+mod some_module {
+  struct some_struct {
+    // struct code
+  }
+}
+
+mod another_module {
+  fn use_some_struct() -> some_struct {
+    return some_struct
+  }
+}
+```
 
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
@@ -207,7 +220,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDE5NzU4MDgsMjQ1OTEwNjM1LC0xMD
+eyJoaXN0b3J5IjpbLTEyMDg4MTYxMTYsMjQ1OTEwNjM1LC0xMD
 EyODI2NjkwLDEzODMyMDg4NzAsMTEyMTc1OTg4MywxNjY5ODM4
 MTM2LDE3ODkzODkxNDQsMTY3MzQzMDAxNywxNDc1NzQ5OTI4LC
 0xNjM4MjMyNjc3LDIwMzg4NDQ4NjksNjE3MjIwMzQ3LC04NTgw
