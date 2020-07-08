@@ -4,6 +4,13 @@ layout: page
 exclude: true
 ---
 
+<div markdown="1">
+
+```
+let x = 5
+```
+</div>
+
 ## Variables and Types
 ### Variables
 Variables in Rust are **immutable** by default and cannot be changed after they are assigned. The Rust team argues that immutable variables are more in general more stable and easier to debug especially in the case of multiple sections of your code accessing of changing a single mutable variable.
@@ -243,9 +250,9 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMT
-I4MjY2OTAsMTM4MzIwODg3MCwxMTIxNzU5ODgzLDE2Njk4Mzgx
-MzYsMTc4OTM4OTE0NCwxNjczNDMwMDE3LDE0NzU3NDk5MjgsLT
-E2MzgyMzI2NzcsMjAzODg0NDg2OSw2MTcyMjAzNDcsLTg1ODA4
-ODI0MywtMTYwODgyNTI2M119
+eyJoaXN0b3J5IjpbLTE3MTI5NjEyNzEsMTAxMDkzNzg3OSwyND
+U5MTA2MzUsLTEwMTI4MjY2OTAsMTM4MzIwODg3MCwxMTIxNzU5
+ODgzLDE2Njk4MzgxMzYsMTc4OTM4OTE0NCwxNjczNDMwMDE3LD
+E0NzU3NDk5MjgsLTE2MzgyMzI2NzcsMjAzODg0NDg2OSw2MTcy
+MjAzNDcsLTg1ODA4ODI0MywtMTYwODgyNTI2M119
 -->
