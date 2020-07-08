@@ -4,13 +4,6 @@ layout: page
 exclude: true
 ---
 
-<div markdown="1">
-
-```
-let x = 5
-```
-</div>
-
 ## Variables and Types
 ### Variables
 Variables in Rust are **immutable** by default and cannot be changed after they are assigned. The Rust team argues that immutable variables are more in general more stable and easier to debug especially in the case of multiple sections of your code accessing of changing a single mutable variable.
@@ -203,24 +196,23 @@ mod some_module {
 ```
 
 The `use` keyword **only refers to the module scope in which it is defined**, it **does not extend to inner scopes**. The example below **does not work**, even though the code defines a `use` of `some_struct` at the top level that contains `another_module` the `use` does not extend inside the module and needs to be defined as a name-space *within* that specific module where it is used.
-```rust
-// ERRORS
-mod some_module {
-  struct some_struct {
-    // struct code
-  }
-}
-
-use self::some_module::some_struct;
-
-mod another_module {
-  fn use_some_struct() -> some_struct { // -> some_struct will be undefined
-    return some_struct {
+<pre class="error">
+  mod some_module {
+    struct some_struct {
       // struct code
     }
   }
-}
-```
+
+  use self::some_module::some_struct;
+
+  mod another_module {
+    fn use_some_struct() -> some_struct { // -> some_struct will be undefined
+      return some_struct {
+        // struct code
+      }
+    }
+  }
+</pre>
 
 This would be the correct structure to use `some_struct` inside `another_module` in which we have moved the `use` *inside* `another_module`.
 ```rust
