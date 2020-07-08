@@ -177,7 +177,19 @@ mod instance_module {
 
 ### Use
 The `use` keyword can be used to **import entire module name spaces**. The examples above with explicit module referencing are very long and if you need to use the thing you are referencing more than once it becomes laborious to type out the entire path reference every time. The `use` keyword adds the module code name-spaced under its lowest level specifier at the scope where it is used.
+```rust
+mod some_module {
+  mod another_module {
+    struct some_struct {
+      // struct code
+    }
+  }
 
+  mod third_module {
+    // some other code here
+  }
+}
+```
 
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
@@ -190,7 +202,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDUwNDUwMCwyNDU5MTA2MzUsLTEwMT
+eyJoaXN0b3J5IjpbMjA5ODk5MjgwMywyNDU5MTA2MzUsLTEwMT
 I4MjY2OTAsMTM4MzIwODg3MCwxMTIxNzU5ODgzLDE2Njk4Mzgx
 MzYsMTc4OTM4OTE0NCwxNjczNDMwMDE3LDE0NzU3NDk5MjgsLT
 E2MzgyMzI2NzcsMjAzODg0NDg2OSw2MTcyMjAzNDcsLTg1ODA4
