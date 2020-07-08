@@ -110,7 +110,8 @@ Use `cargo build` to update and download any dependencies to your project. You c
 Rust projects are made of packages, creates and modules.
 
 - A crate is a binary or library that can be compiled to do something.
-- A package is a set of
+- A package is a set of binaries and 1 or 0 libraries.
+- 
 
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
@@ -123,8 +124,8 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc2NTEzOTI1LDE2Njk4MzgxMzYsMTc4OT
-M4OTE0NCwxNjczNDMwMDE3LDE0NzU3NDk5MjgsLTE2MzgyMzI2
-NzcsMjAzODg0NDg2OSw2MTcyMjAzNDcsLTg1ODA4ODI0MywtMT
-YwODgyNTI2M119
+eyJoaXN0b3J5IjpbMTEyMTc1OTg4MywxNjY5ODM4MTM2LDE3OD
+kzODkxNDQsMTY3MzQzMDAxNywxNDc1NzQ5OTI4LC0xNjM4MjMy
+Njc3LDIwMzg4NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgyNDMsLT
+E2MDg4MjUyNjNdfQ==
 -->
