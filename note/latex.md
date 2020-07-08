@@ -27,8 +27,10 @@ You can **define the paper size that your document uses** by submitting it as ar
 
 You can **pass multiple arguments into the class specifier** by comma separating them.
 ```latex
-\documentclass[
+\documentclass[12pt, legalpaper]{article}
 ```
+
+You can **set the document type encoding** from the `\usepackage` command with an argument of the encoding type and 
 
 ## Document
 
@@ -39,5 +41,5 @@ Some document text
 \end{document}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM3MTI2MTksNTI4NjA2NDA1XX0=
+eyJoaXN0b3J5IjpbLTIyNzE5NTI4Nyw1Mjg2MDY0MDVdfQ==
 -->
