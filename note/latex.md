@@ -15,10 +15,12 @@ You can **define a document class** by using `documentclass` tag to specify the 
 \documentclass{article}
 ```
 
-You can **define the font size of your document** by submitting it as an argument to the class. The default font size in `
+You can **define the font size of your document** by submitting it as an argument to the class. The default font size in `10pt`.
 ```latex
 \documentclass[12pt]{article}
 ```
+
+You can **define the paper size that your document uses** by submitting it as argument to the class with a paper 
 
 ## Document
 
@@ -29,5 +31,5 @@ Some document text
 \end{document}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzY4NDU4Miw1Mjg2MDY0MDVdfQ==
+eyJoaXN0b3J5IjpbLTE3MDI2NjU5NDYsNTI4NjA2NDA1XX0=
 -->
