@@ -16,8 +16,10 @@ A `documentclass` defines the basic layout for a document. This is defined at th
 
 The text of your document is placed between the `begin` and `end` tags that mark the body of the document.
 ```latex
-\
+\begin{document}
+Some document text
+\end{document}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzU2ODY0M119
+eyJoaXN0b3J5IjpbNTI4NjA2NDA1XX0=
 -->
