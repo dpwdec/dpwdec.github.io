@@ -151,7 +151,20 @@ let instance_of_some_struct = crate::some_module::another_module::some_struct {
 }
 ```
 
-You can **use relative module references** by using the `self` and `super` keywords to referencing module paths for the place in the code where you are 
+You can **use relative module references** by using the `self` and `super` keywords to referencing module paths for the place in the code where you are currently. In the example below because `some_module` is on the same level as the place where we want to use the code we can just referencing it directly.
+```rust
+mod some_module {
+  // ---snip---
+}
+
+let instance_of_some_struct = some_module::another_module::some_struct {
+  // make a new struct here
+}
+```
+
+```rust
+
+
 
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
@@ -164,7 +177,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODg4NDE2MSwtMTAxMjgyNjY5MCwxMz
+eyJoaXN0b3J5IjpbMTk3NjExOTExNSwtMTAxMjgyNjY5MCwxMz
 gzMjA4ODcwLDExMjE3NTk4ODMsMTY2OTgzODEzNiwxNzg5Mzg5
 MTQ0LDE2NzM0MzAwMTcsMTQ3NTc0OTkyOCwtMTYzODIzMjY3Ny
 wyMDM4ODQ0ODY5LDYxNzIyMDM0NywtODU4MDg4MjQzLC0xNjA4
