@@ -20,7 +20,15 @@ You can **define the font size of your document** by submitting it as an argumen
 \documentclass[12pt]{article}
 ```
 
-You can **define the paper size that your document uses** by submitting it as argument to the class with a paper 
+You can **define the paper size that your document uses** by submitting it as argument to the class with a paper size specifier. Common specifiers are `letterpaper`, `a4paper` or `legalpaper`.
+```latex
+\documentclass[a4paper]{article}
+```
+
+You can **pass multiple arguments into the class specifier** by comma separating them.
+```latex
+\documentclass[
+```
 
 ## Document
 
@@ -31,5 +39,5 @@ Some document text
 \end{document}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDI2NjU5NDYsNTI4NjA2NDA1XX0=
+eyJoaXN0b3J5IjpbLTE5NTM3MTI2MTksNTI4NjA2NDA1XX0=
 -->
