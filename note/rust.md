@@ -162,7 +162,18 @@ let instance_of_some_struct = some_module::another_module::some_struct {
 }
 ```
 
+However, in this example using a relative path we need to make use of the `super` keyword to back out of the `instance_module` to go up a level into the route of the crate and then referencing `some_module` to get the code inside.
 ```rust
+mod some_module {
+  // ---snip---
+}
+
+mod instance_module {
+  let instance_of_some_struct = super::some_module::another_module::some_struct {
+  // make a new struct here
+  }
+}
+```
 
 
 
@@ -177,9 +188,9 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjExOTExNSwtMTAxMjgyNjY5MCwxMz
-gzMjA4ODcwLDExMjE3NTk4ODMsMTY2OTgzODEzNiwxNzg5Mzg5
-MTQ0LDE2NzM0MzAwMTcsMTQ3NTc0OTkyOCwtMTYzODIzMjY3Ny
-wyMDM4ODQ0ODY5LDYxNzIyMDM0NywtODU4MDg4MjQzLC0xNjA4
-ODI1MjYzXX0=
+eyJoaXN0b3J5IjpbMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzOD
+MyMDg4NzAsMTEyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkzODkx
+NDQsMTY3MzQzMDAxNywxNDc1NzQ5OTI4LC0xNjM4MjMyNjc3LD
+IwMzg4NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2MDg4
+MjUyNjNdfQ==
 -->
