@@ -45,7 +45,17 @@ You can **set the title of your document in the preamble** using the `title` pro
 \title{My Document}
 ```
 
-You can **set the author of your document in the preamb**
+You can **set the author of your document in the preamble** using the `author` property.
+```latex
+\author{Dec}
+```
+
+You can **set the date of your document in the premable** using the `date` property.
+```latex
+\date{12 July 2020}
+```
+
+Importantly, none of these will appear by default in the actual document, if you want to render this information to display in the document with a title you will need to use the 
 
 ## Document
 
@@ -56,6 +66,6 @@ Some document text
 \end{document}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODY0ODQ1NSwtMTcwODkyMjM0OSw1Mj
-g2MDY0MDVdfQ==
+eyJoaXN0b3J5IjpbLTExNjAxMzY4OTcsLTE3MDg5MjIzNDksNT
+I4NjA2NDA1XX0=
 -->
