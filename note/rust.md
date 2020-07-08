@@ -114,11 +114,16 @@ Rust projects are made of packages, creates and modules.
 - A module is an internal code structure for grouping pieces of functionality
 
 ### Modules
-You can **define a module** by using the `mod` keyword.
+You can **define a module** by using the `mod` keyword and the name of the module. The code below defines a `struct` called `some_struct` inside a module called `some_module`.
 ```rust
-mod {
-
+mod some_module {
+  struct some_struct {
+    // struct code
+  }
+}
 ```
+
+You can **refere**
 
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
@@ -131,8 +136,8 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzIwODg3MCwxMTIxNzU5ODgzLDE2Nj
-k4MzgxMzYsMTc4OTM4OTE0NCwxNjczNDMwMDE3LDE0NzU3NDk5
-MjgsLTE2MzgyMzI2NzcsMjAzODg0NDg2OSw2MTcyMjAzNDcsLT
-g1ODA4ODI0MywtMTYwODgyNTI2M119
+eyJoaXN0b3J5IjpbLTE3NDMxNzE4ODMsMTM4MzIwODg3MCwxMT
+IxNzU5ODgzLDE2Njk4MzgxMzYsMTc4OTM4OTE0NCwxNjczNDMw
+MDE3LDE0NzU3NDk5MjgsLTE2MzgyMzI2NzcsMjAzODg0NDg2OS
+w2MTcyMjAzNDcsLTg1ODA4ODI0MywtMTYwODgyNTI2M119
 -->
