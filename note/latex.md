@@ -15,6 +15,11 @@ You can **define a document class** by using `documentclass` tag to specify the 
 \documentclass{article}
 ```
 
+You can **define the font size of your document** by submitting it as an argument to the class. The default font size in `
+```latex
+\documentclass[12pt]{article}
+```
+
 ## Document
 
 The text of your document is placed between the `begin` and `end` tags that mark the body of the document.
@@ -24,5 +29,5 @@ Some document text
 \end{document}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDQ1NTI1Nyw1Mjg2MDY0MDVdfQ==
+eyJoaXN0b3J5IjpbMjA3NzY4NDU4Miw1Mjg2MDY0MDVdfQ==
 -->
