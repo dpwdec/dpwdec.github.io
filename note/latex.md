@@ -6,6 +6,7 @@ exclude: true
 Latex is a type-setting engine that allows for full controlling of document formatting and content control.
 
 # Preamble
+
 The `preamble` section of a Latex document is any information that comes before the `begin` tag of the document. This section is not rendered to the page and defines meta information about the document such as `class`, sizing or character type.
 
 ## Classes
@@ -30,10 +31,21 @@ You can **pass multiple arguments into the class specifier** by comma separating
 \documentclass[12pt, legalpaper]{article}
 ```
 
+## Encoding
+
 You can **set the document type encoding** from the `\usepackage` command with an argument of the encoding type and `inputenc` specifier.
 ```latex
 \usepackage[utf8]{inputenc}
 ```
+
+## Document Titles
+
+You can **set the title of your document in the preamble** using the `title` property.
+```latex
+\title{My Document}
+```
+
+You can **set the author of your document in the preamb**
 
 ## Document
 
@@ -44,5 +56,6 @@ Some document text
 \end{document}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDg5MjIzNDksNTI4NjA2NDA1XX0=
+eyJoaXN0b3J5IjpbMTI2ODY0ODQ1NSwtMTcwODkyMjM0OSw1Mj
+g2MDY0MDVdfQ==
 -->
