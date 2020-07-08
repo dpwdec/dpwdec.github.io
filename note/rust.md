@@ -123,7 +123,19 @@ mod some_module {
 }
 ```
 
-You can **refere**
+You can **nest modules inside one another** as a way 
+```rust
+mod some_module {
+  mod another_module {
+    // some other code here
+  }
+
+  mod third_module {
+  }
+}
+```
+
+You can **reference the code inside a module** using `relative` or `absolute` paths. To reference 
 
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
@@ -136,7 +148,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDMxNzE4ODMsMTM4MzIwODg3MCwxMT
+eyJoaXN0b3J5IjpbLTEyNTk0MTcxNTksMTM4MzIwODg3MCwxMT
 IxNzU5ODgzLDE2Njk4MzgxMzYsMTc4OTM4OTE0NCwxNjczNDMw
 MDE3LDE0NzU3NDk5MjgsLTE2MzgyMzI2NzcsMjAzODg0NDg2OS
 w2MTcyMjAzNDcsLTg1ODA4ODI0MywtMTYwODgyNTI2M119
