@@ -106,6 +106,9 @@ crate_name = "0.5.5"
 ```
 Use `cargo build` to update and download any dependencies to your project. You can use `cargo update` to update your installed dependencies, this will also ignore your `cargo.lock` file.
 
+## Crates
+A crate is a binary or library that ca
+
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
 ```rust
@@ -117,8 +120,8 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTgzODEzNiwxNzg5Mzg5MTQ0LDE2Nz
-M0MzAwMTcsMTQ3NTc0OTkyOCwtMTYzODIzMjY3NywyMDM4ODQ0
-ODY5LDYxNzIyMDM0NywtODU4MDg4MjQzLC0xNjA4ODI1MjYzXX
-0=
+eyJoaXN0b3J5IjpbLTIzOTY1NDQ5MywxNjY5ODM4MTM2LDE3OD
+kzODkxNDQsMTY3MzQzMDAxNywxNDc1NzQ5OTI4LC0xNjM4MjMy
+Njc3LDIwMzg4NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgyNDMsLT
+E2MDg4MjUyNjNdfQ==
 -->
