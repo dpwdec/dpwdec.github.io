@@ -62,7 +62,7 @@ Importantly, none of these will appear by default in the actual document, if you
 \end{document}
 ```
 
-## Document
+# Body
 
 The text of your document is placed between the `begin` and `end` tags that mark the body of the document.
 ```latex
@@ -70,7 +70,19 @@ The text of your document is placed between the `begin` and `end` tags that mark
 Some document text
 \end{document}
 ```
+
+## Comments
+
+You can **add comments to your document** by using the `%` percent sign indicator.
+```latex
+\begin{document}
+
+This text will be rendered.
+
+% This next will NOT be rendered.
+\end{document}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDIwNjgsLTE3MDg5MjIzNDksNTI4Nj
-A2NDA1XX0=
+eyJoaXN0b3J5IjpbLTEwMTk3ODUzLC0xNzA4OTIyMzQ5LDUyOD
+YwNjQwNV19
 -->
