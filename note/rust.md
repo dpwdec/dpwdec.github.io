@@ -221,8 +221,6 @@ The `use` keyword **only refers to the module scope in which it is defined**, it
   }
 </pre>
 
-You can get around this by **using rust's re-export feature** which combines `use` with `pub` to make module uses public to all internal modules.
-
 This would be the correct structure to use `some_struct` inside `another_module` in which we have moved the `use` *inside* `another_module`.
 ```rust
 mod some_module {
@@ -286,10 +284,10 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjU3ODM1MSwtMTk1MTIxMzg0NCwtMT
-cxMjk2MTI3MSwxMDEwOTM3ODc5LDI0NTkxMDYzNSwtMTAxMjgy
-NjY5MCwxMzgzMjA4ODcwLDExMjE3NTk4ODMsMTY2OTgzODEzNi
-wxNzg5Mzg5MTQ0LDE2NzM0MzAwMTcsMTQ3NTc0OTkyOCwtMTYz
-ODIzMjY3NywyMDM4ODQ0ODY5LDYxNzIyMDM0NywtODU4MDg4Mj
-QzLC0xNjA4ODI1MjYzXX0=
+eyJoaXN0b3J5IjpbMzgzMzQ0NzExLC0zNTI1NzgzNTEsLTE5NT
+EyMTM4NDQsLTE3MTI5NjEyNzEsMTAxMDkzNzg3OSwyNDU5MTA2
+MzUsLTEwMTI4MjY2OTAsMTM4MzIwODg3MCwxMTIxNzU5ODgzLD
+E2Njk4MzgxMzYsMTc4OTM4OTE0NCwxNjczNDMwMDE3LDE0NzU3
+NDk5MjgsLTE2MzgyMzI2NzcsMjAzODg0NDg2OSw2MTcyMjAzND
+csLTg1ODA4ODI0MywtMTYwODgyNTI2M119
 -->
