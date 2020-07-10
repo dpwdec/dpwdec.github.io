@@ -227,6 +227,10 @@ mod some_module {
   struct some_struct {
     // struct code
   }
+
+  fn some_function() {
+    // function code
+  }
 }
 
 mod another_module {
@@ -262,10 +266,10 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwODE5MzQxLC0xNzEyOTYxMjcxLDEwMT
-A5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMyMDg4
-NzAsMTEyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkzODkxNDQsMT
-Y3MzQzMDAxNywxNDc1NzQ5OTI4LC0xNjM4MjMyNjc3LDIwMzg4
-NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2MDg4MjUyNj
-NdfQ==
+eyJoaXN0b3J5IjpbLTE5MjA0Mjc2NzAsLTE3MTI5NjEyNzEsMT
+AxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4MjY2OTAsMTM4MzIw
+ODg3MCwxMTIxNzU5ODgzLDE2Njk4MzgxMzYsMTc4OTM4OTE0NC
+wxNjczNDMwMDE3LDE0NzU3NDk5MjgsLTE2MzgyMzI2NzcsMjAz
+ODg0NDg2OSw2MTcyMjAzNDcsLTg1ODA4ODI0MywtMTYwODgyNT
+I2M119
 -->
