@@ -271,7 +271,11 @@ let my_struct_instance = my_struct {
 };
 ```
 
-### 
+### Nested Paths
+If you want to **bring multiple modules into scope from the same parent module** you can cut down on the number of `use` statements you write by nesting name-spaces inside `{}` curly braces.
+```rust
+use 
+```
 
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
@@ -284,11 +288,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODIyMTkwNjgsMzgzMzQ0NzExLC0zNT
-I1NzgzNTEsLTE5NTEyMTM4NDQsLTE3MTI5NjEyNzEsMTAxMDkz
-Nzg3OSwyNDU5MTA2MzUsLTEwMTI4MjY2OTAsMTM4MzIwODg3MC
-wxMTIxNzU5ODgzLDE2Njk4MzgxMzYsMTc4OTM4OTE0NCwxNjcz
-NDMwMDE3LDE0NzU3NDk5MjgsLTE2MzgyMzI2NzcsMjAzODg0ND
-g2OSw2MTcyMjAzNDcsLTg1ODA4ODI0MywtMTYwODgyNTI2M119
+eyJoaXN0b3J5IjpbNDcyNjg2MjQwLDM4MzM0NDcxMSwtMzUyNT
+c4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYxMjcxLDEwMTA5Mzc4
+NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMyMDg4NzAsMT
+EyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkzODkxNDQsMTY3MzQz
+MDAxNywxNDc1NzQ5OTI4LC0xNjM4MjMyNjc3LDIwMzg4NDQ4Nj
+ksNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2MDg4MjUyNjNdfQ==
 
 -->
