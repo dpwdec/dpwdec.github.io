@@ -239,7 +239,17 @@ mod another_module {
 }
 ```
 
-It is **idiomatic in rust to keep name-spaces at the parent level of the module you want to use**. For example if we wanted to use `some_struct` from the example above the way it has been imported in anot
+It is **idiomatic in rust to keep name-spaces at the parent level of the module you want to use**. For example if we wanted to use `some_struct` from the example above the way it has been imported in `another_module` would *NOT* be idiomatic. Instead it would be better to simply `use` the `some_module` module and then name-space everything from there.
+```rust
+use some_module
+
+fn use_some_struct() -> some_module::some_struct {
+  return some_module::some_struct {
+    // struct code
+  }
+}
+```
+
 
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
@@ -252,7 +262,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTEwMTk5NSwtMTcxMjk2MTI3MSwxMD
+eyJoaXN0b3J5IjpbMTYwNDQxNTI4MSwtMTcxMjk2MTI3MSwxMD
 EwOTM3ODc5LDI0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgzMjA4
 ODcwLDExMjE3NTk4ODMsMTY2OTgzODEzNiwxNzg5Mzg5MTQ0LD
 E2NzM0MzAwMTcsMTQ3NTc0OTkyOCwtMTYzODIzMjY3NywyMDM4
