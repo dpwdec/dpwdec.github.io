@@ -262,7 +262,14 @@ fn use_some_struct() -> some_struct {
 }
 ```
 
-Yo
+You can **use the `as` keyword to `use` a module's content with a new name**.
+```rust
+use some_module::some_struct as my_struct;
+
+let my_struct_instance = my_struct {
+  // struct code
+};
+```
 
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
@@ -275,7 +282,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzA3NTEzMDgsLTE5NTEyMTM4NDQsLT
+eyJoaXN0b3J5IjpbLTE4NTkzODI0NzAsLTE5NTEyMTM4NDQsLT
 E3MTI5NjEyNzEsMTAxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4
 MjY2OTAsMTM4MzIwODg3MCwxMTIxNzU5ODgzLDE2Njk4MzgxMz
 YsMTc4OTM4OTE0NCwxNjczNDMwMDE3LDE0NzU3NDk5MjgsLTE2
