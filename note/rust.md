@@ -239,7 +239,7 @@ mod another_module {
 }
 ```
 
-It is **idiomatic in rust to keep name-spaces at the parent level of the module you want to use**. For example if we wanted to use `some_struct` from the example above the way it has been imported in `another_module` would *NOT* be idiomatic. Instead it would be better to simply `use` the `some_module` module and then name-space everything from there.
+It is **idiomatic in rust when importing functions to keep name-spaces at the parent level of the module you want to use**. For example if we wanted to use `some_struct` from the example above the way it has been imported in `another_module` would *NOT* be idiomatic. Instead it would be better to simply `use` the `some_module` module and then name-space everything from there.
 ```rust
 use some_module
 
@@ -262,10 +262,10 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDQxNTI4MSwtMTcxMjk2MTI3MSwxMD
-EwOTM3ODc5LDI0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgzMjA4
-ODcwLDExMjE3NTk4ODMsMTY2OTgzODEzNiwxNzg5Mzg5MTQ0LD
-E2NzM0MzAwMTcsMTQ3NTc0OTkyOCwtMTYzODIzMjY3NywyMDM4
-ODQ0ODY5LDYxNzIyMDM0NywtODU4MDg4MjQzLC0xNjA4ODI1Mj
-YzXX0=
+eyJoaXN0b3J5IjpbNjEwODE5MzQxLC0xNzEyOTYxMjcxLDEwMT
+A5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMyMDg4
+NzAsMTEyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkzODkxNDQsMT
+Y3MzQzMDAxNywxNDc1NzQ5OTI4LC0xNjM4MjMyNjc3LDIwMzg4
+NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2MDg4MjUyNj
+NdfQ==
 -->
