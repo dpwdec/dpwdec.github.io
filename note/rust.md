@@ -277,10 +277,13 @@ If you want to **bring multiple modules into scope from the same parent module**
 use some_module::{some_other_module, some_struct};
 ```
 
-You can also **specify the module itself to be imported in nested paths** using the `self` keyword.
+You can also **specify the module itself to be imported in nested paths** using the `self` keyword. The code below will import the code directly in `some_module` as well as `some_struct`.
 ```rust
 use some_module::{self, some_struct};
 ```
+
+### Glob
+You can **bring all public modules from a name-space into scope** by using the `*` asterisk or glob after the name-space path.
 
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
@@ -293,11 +296,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTk0NTYzNSwzODMzNDQ3MTEsLTM1Mj
-U3ODM1MSwtMTk1MTIxMzg0NCwtMTcxMjk2MTI3MSwxMDEwOTM3
-ODc5LDI0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgzMjA4ODcwLD
-ExMjE3NTk4ODMsMTY2OTgzODEzNiwxNzg5Mzg5MTQ0LDE2NzM0
-MzAwMTcsMTQ3NTc0OTkyOCwtMTYzODIzMjY3NywyMDM4ODQ0OD
-Y5LDYxNzIyMDM0NywtODU4MDg4MjQzLC0xNjA4ODI1MjYzXX0=
+eyJoaXN0b3J5IjpbNTQzODM4Mjg4LDM4MzM0NDcxMSwtMzUyNT
+c4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYxMjcxLDEwMTA5Mzc4
+NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMyMDg4NzAsMT
+EyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkzODkxNDQsMTY3MzQz
+MDAxNywxNDc1NzQ5OTI4LC0xNjM4MjMyNjc3LDIwMzg4NDQ4Nj
+ksNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2MDg4MjUyNjNdfQ==
 
 -->
