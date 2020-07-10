@@ -262,6 +262,7 @@ fn use_some_struct() -> some_struct {
 }
 ```
 
+Yo
 
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
@@ -274,10 +275,10 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTEyMTM4NDQsLTE3MTI5NjEyNzEsMT
-AxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4MjY2OTAsMTM4MzIw
-ODg3MCwxMTIxNzU5ODgzLDE2Njk4MzgxMzYsMTc4OTM4OTE0NC
-wxNjczNDMwMDE3LDE0NzU3NDk5MjgsLTE2MzgyMzI2NzcsMjAz
-ODg0NDg2OSw2MTcyMjAzNDcsLTg1ODA4ODI0MywtMTYwODgyNT
-I2M119
+eyJoaXN0b3J5IjpbLTE4NzA3NTEzMDgsLTE5NTEyMTM4NDQsLT
+E3MTI5NjEyNzEsMTAxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4
+MjY2OTAsMTM4MzIwODg3MCwxMTIxNzU5ODgzLDE2Njk4MzgxMz
+YsMTc4OTM4OTE0NCwxNjczNDMwMDE3LDE0NzU3NDk5MjgsLTE2
+MzgyMzI2NzcsMjAzODg0NDg2OSw2MTcyMjAzNDcsLTg1ODA4OD
+I0MywtMTYwODgyNTI2M119
 -->
