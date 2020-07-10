@@ -272,9 +272,14 @@ let my_struct_instance = my_struct {
 ```
 
 ### Nested Paths
-If you want to **bring multiple modules into scope from the same parent module** you can cut down on the number of `use` statements you write by nesting name-spaces inside `{}` curly braces.
+If you want to **bring multiple modules into scope from the same parent module** you can cut down on the number of `use` statements you write by nesting name-spaces inside `{}` curly braces separated by `,` commas. The code below will import `some_other_module` *and* `some_struct` from the `some_module` name-space.
 ```rust
-use 
+use some_module::{some_other_module, some_struct};
+```
+
+You can also **specify the module itself to be imported in nested paths** using the `self` keyword.
+```rust
+use some_module::{self, some_struct};
 ```
 
 ## Rand
@@ -288,11 +293,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyNjg2MjQwLDM4MzM0NDcxMSwtMzUyNT
-c4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYxMjcxLDEwMTA5Mzc4
-NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMyMDg4NzAsMT
-EyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkzODkxNDQsMTY3MzQz
-MDAxNywxNDc1NzQ5OTI4LC0xNjM4MjMyNjc3LDIwMzg4NDQ4Nj
-ksNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2MDg4MjUyNjNdfQ==
+eyJoaXN0b3J5IjpbMTIyMTk0NTYzNSwzODMzNDQ3MTEsLTM1Mj
+U3ODM1MSwtMTk1MTIxMzg0NCwtMTcxMjk2MTI3MSwxMDEwOTM3
+ODc5LDI0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgzMjA4ODcwLD
+ExMjE3NTk4ODMsMTY2OTgzODEzNiwxNzg5Mzg5MTQ0LDE2NzM0
+MzAwMTcsMTQ3NTc0OTkyOCwtMTYzODIzMjY3NywyMDM4ODQ0OD
+Y5LDYxNzIyMDM0NywtODU4MDg4MjQzLC0xNjA4ODI1MjYzXX0=
 
 -->
