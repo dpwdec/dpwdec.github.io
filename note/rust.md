@@ -236,7 +236,7 @@ mod some_module {
 mod another_module {
   use super::some_module;
   fn use_some_struct() -> some_module::some_struct { 
-    return some_struct {
+    return some_module::some_struct {
       // struct code
     }
   }
@@ -253,10 +253,10 @@ let x = some_module::some_function();
 
 On the other hand **when importing structs, enums and other objects it's idiomatic to use the full path and directly reference what you want to `use`**. This holds true **unless the name of two things in scope would clash**. For example if we wanted to use `some_struct` from the example above the way it has been imported in `another_module` would *NOT* be idiomatic. Instead it would be better to simply `use` the `some_module` module and then name-space everything from there.
 ```rust
-use some_module;
+use some_module::some_struct;
 
-fn use_some_struct() -> some_module::some_struct {
-  return some_module::some_struct {
+fn use_some_struct() -> some_struct {
+  return some_struct {
     // struct code
   }
 }
@@ -274,10 +274,10 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0ODk3MzY5LC0xNzEyOTYxMjcxLDEwMT
-A5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMyMDg4
-NzAsMTEyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkzODkxNDQsMT
-Y3MzQzMDAxNywxNDc1NzQ5OTI4LC0xNjM4MjMyNjc3LDIwMzg4
-NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2MDg4MjUyNj
-NdfQ==
+eyJoaXN0b3J5IjpbLTE5NTEyMTM4NDQsLTE3MTI5NjEyNzEsMT
+AxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4MjY2OTAsMTM4MzIw
+ODg3MCwxMTIxNzU5ODgzLDE2Njk4MzgxMzYsMTc4OTM4OTE0NC
+wxNjczNDMwMDE3LDE0NzU3NDk5MjgsLTE2MzgyMzI2NzcsMjAz
+ODg0NDg2OSw2MTcyMjAzNDcsLTg1ODA4ODI0MywtMTYwODgyNT
+I2M119
 -->
