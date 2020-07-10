@@ -284,6 +284,9 @@ use some_module::{self, some_struct};
 
 ### Glob
 You can **bring all public modules from a name-space into scope** by using the `*` asterisk or glob after the name-space path.
+```rust
+use some_module::*;
+```
 
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
@@ -296,7 +299,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzODM4Mjg4LDM4MzM0NDcxMSwtMzUyNT
+eyJoaXN0b3J5IjpbODcwMDM5OTI1LDM4MzM0NDcxMSwtMzUyNT
 c4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYxMjcxLDEwMTA5Mzc4
 NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMyMDg4NzAsMT
 EyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkzODkxNDQsMTY3MzQz
