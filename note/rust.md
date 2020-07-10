@@ -221,6 +221,8 @@ The `use` keyword **only refers to the module scope in which it is defined**, it
   }
 </pre>
 
+You can get around this by **using rust**
+
 This would be the correct structure to use `some_struct` inside `another_module` in which we have moved the `use` *inside* `another_module`.
 ```rust
 mod some_module {
@@ -284,10 +286,10 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzMzQ0NzExLC0xOTUxMjEzODQ0LC0xNz
-EyOTYxMjcxLDEwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2
-NjkwLDEzODMyMDg4NzAsMTEyMTc1OTg4MywxNjY5ODM4MTM2LD
-E3ODkzODkxNDQsMTY3MzQzMDAxNywxNDc1NzQ5OTI4LC0xNjM4
-MjMyNjc3LDIwMzg4NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgyND
-MsLTE2MDg4MjUyNjNdfQ==
+eyJoaXN0b3J5IjpbLTE5NDg5ODkzMDIsLTE5NTEyMTM4NDQsLT
+E3MTI5NjEyNzEsMTAxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4
+MjY2OTAsMTM4MzIwODg3MCwxMTIxNzU5ODgzLDE2Njk4MzgxMz
+YsMTc4OTM4OTE0NCwxNjczNDMwMDE3LDE0NzU3NDk5MjgsLTE2
+MzgyMzI2NzcsMjAzODg0NDg2OSw2MTcyMjAzNDcsLTg1ODA4OD
+I0MywtMTYwODgyNTI2M119
 -->
