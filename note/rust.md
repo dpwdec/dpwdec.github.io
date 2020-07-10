@@ -239,6 +239,8 @@ mod another_module {
 }
 ```
 
+It is **idiomatic in rust to keep name-spaces at the parent level of the module you want to use**. For example if we wanted to use `some_struct` from the example above the way it has been imported in anot
+
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
 ```rust
@@ -250,9 +252,10 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI5NjEyNzEsMTAxMDkzNzg3OSwyND
-U5MTA2MzUsLTEwMTI4MjY2OTAsMTM4MzIwODg3MCwxMTIxNzU5
-ODgzLDE2Njk4MzgxMzYsMTc4OTM4OTE0NCwxNjczNDMwMDE3LD
-E0NzU3NDk5MjgsLTE2MzgyMzI2NzcsMjAzODg0NDg2OSw2MTcy
-MjAzNDcsLTg1ODA4ODI0MywtMTYwODgyNTI2M119
+eyJoaXN0b3J5IjpbMTUyNTEwMTk5NSwtMTcxMjk2MTI3MSwxMD
+EwOTM3ODc5LDI0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgzMjA4
+ODcwLDExMjE3NTk4ODMsMTY2OTgzODEzNiwxNzg5Mzg5MTQ0LD
+E2NzM0MzAwMTcsMTQ3NTc0OTkyOCwtMTYzODIzMjY3NywyMDM4
+ODQ0ODY5LDYxNzIyMDM0NywtODU4MDg4MjQzLC0xNjA4ODI1Mj
+YzXX0=
 -->
