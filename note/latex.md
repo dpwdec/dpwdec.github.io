@@ -112,8 +112,13 @@ You can **nest formatting styles**.
 
 ## Lists
 
-You can **create lists** by using a `begin` and `end` environment
+You can **create lists** by using a `begin` and `end` environment with the list environment indicator. You can **create an unordered list** with the `itemsize` indicator. Each element in the list should have the `\item` indicator before it.
+```latex
+\begin{itemsize}
+
+\end{itemsize}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODkzODMwOCwtMTIzNTg3ODgwNCwtMT
-cwODkyMjM0OSw1Mjg2MDY0MDVdfQ==
+eyJoaXN0b3J5IjpbLTEzNDUzMzMwNzAsLTEyMzU4Nzg4MDQsLT
+E3MDg5MjIzNDksNTI4NjA2NDA1XX0=
 -->
