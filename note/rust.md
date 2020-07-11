@@ -4,14 +4,13 @@ layout: page
 exclude: true
 ---
 
-<div markdown="1">
-
-```
-let x = 5
-```
-</div>
-
 ## Variables and Types
+### Aliasing
+You can **alias a type** or create new types using the `type` keyword.
+```rust
+type MyIntType = i32;
+```
+
 ### Variables
 Variables in Rust are **immutable** by default and cannot be changed after they are assigned. The Rust team argues that immutable variables are more in general more stable and easier to debug especially in the case of multiple sections of your code accessing of changing a single mutable variable.
 ```rust
@@ -302,11 +301,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4Mz
-M0NDcxMSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYx
-MjcxLDEwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLD
-EzODMyMDg4NzAsMTEyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkz
-ODkxNDQsMTY3MzQzMDAxNywxNDc1NzQ5OTI4LC0xNjM4MjMyNj
-c3LDIwMzg4NDQ4NjksNjE3MjIwMzQ3LC04NTgwODgyNDMsLTE2
-MDg4MjUyNjNdfQ==
+eyJoaXN0b3J5IjpbMTg5ODY4OTQ1LC0xNzQxNDkxODMwLDg3MD
+AzOTkyNSwzODMzNDQ3MTEsLTM1MjU3ODM1MSwtMTk1MTIxMzg0
+NCwtMTcxMjk2MTI3MSwxMDEwOTM3ODc5LDI0NTkxMDYzNSwtMT
+AxMjgyNjY5MCwxMzgzMjA4ODcwLDExMjE3NTk4ODMsMTY2OTgz
+ODEzNiwxNzg5Mzg5MTQ0LDE2NzM0MzAwMTcsMTQ3NTc0OTkyOC
+wtMTYzODIzMjY3NywyMDM4ODQ0ODY5LDYxNzIyMDM0NywtODU4
+MDg4MjQzXX0=
 -->
