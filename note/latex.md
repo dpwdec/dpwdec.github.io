@@ -122,6 +122,15 @@ You can **nest formatting styles**.
 \underline{\textbf{some text}}
 ```
 
+### Spacing
+
+You can **perform a line break** with `\\` double backslashes.
+```latex
+Here is some text
+\\
+And some more text after a line break
+```
+
 ## Lists
 
 You can **create lists** by using a `begin` and `end` environment with the list environment indicator. You can **create an unordered list** with the `itemsize` indicator. Each element in the list should have the `\item` indicator before it.
@@ -150,7 +159,7 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjY4NDY5NSwxNTg0MDMzNzQwLDExOT
-MxNTY1NDcsLTEyMzU4Nzg4MDQsLTE3MDg5MjIzNDksNTI4NjA2
-NDA1XX0=
+eyJoaXN0b3J5IjpbMzQ1OTk5NzgwLDE2ODY2ODQ2OTUsMTU4ND
+AzMzc0MCwxMTkzMTU2NTQ3LC0xMjM1ODc4ODA0LC0xNzA4OTIy
+MzQ5LDUyODYwNjQwNV19
 -->
