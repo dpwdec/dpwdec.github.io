@@ -75,7 +75,10 @@ Some document text
 
 You can **create section headings in your document** using the `section` indicator.
 ```latex
-\section{Introd
+\section{Introduction}
+Some introduction text.
+\section{About}
+Some about text.
 ```
 
 ## Comments
@@ -147,7 +150,7 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTk3NjYzNywxNTg0MDMzNzQwLDExOT
+eyJoaXN0b3J5IjpbMTY4NjY4NDY5NSwxNTg0MDMzNzQwLDExOT
 MxNTY1NDcsLTEyMzU4Nzg4MDQsLTE3MDg5MjIzNDksNTI4NjA2
 NDA1XX0=
 -->
