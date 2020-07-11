@@ -71,6 +71,13 @@ Some document text
 \end{document}
 ```
 
+## Structure
+
+You can **create section headings in your document** using the `section` indicator.
+```latex
+\section{Introd
+```
+
 ## Comments
 
 You can **add comments to your document** by using the `%` percent sign indicator.
@@ -84,6 +91,8 @@ This text will be rendered.
 ```
 
 ## Formatting
+
+### Emphasis
 
 You can **add bold text** with the `textbf` flag.
 ```latex
@@ -138,7 +147,7 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTQ5NzY4NiwxNTg0MDMzNzQwLDExOT
+eyJoaXN0b3J5IjpbMjAxNTk3NjYzNywxNTg0MDMzNzQwLDExOT
 MxNTY1NDcsLTEyMzU4Nzg4MDQsLTE3MDg5MjIzNDksNTI4NjA2
 NDA1XX0=
 -->
