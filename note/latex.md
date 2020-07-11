@@ -121,8 +121,15 @@ You can **create lists** by using a `begin` and `end` environment with the list 
 \end{itemsize}
 ```
 
-You can **create an ordered list** b
+You can **create an ordered list** by using the `enumerate` flag in the same manner as the unordered list flag.
+```latex
+\begin{enumerate}
+  \item A list item
+  \item Another list item
+  \item A further list item
+\end{enumerate}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTg1NDM1OCwtMTIzNTg3ODgwNCwtMT
+eyJoaXN0b3J5IjpbMTE5MzE1NjU0NywtMTIzNTg3ODgwNCwtMT
 cwODkyMjM0OSw1Mjg2MDY0MDVdfQ==
 -->
