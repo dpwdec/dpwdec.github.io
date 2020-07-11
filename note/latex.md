@@ -100,10 +100,10 @@ You can **add italics** with the `textit` flag.
 \textit{some text}
 ```
 
-You can **add these emphasis indicators contextually** with the `emph`. 
+You can **add these emphasis indicators contextually** with the `emph` flag. This will italiciz
 
 You can **nest formatting styles**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjE2OTU4MiwtMTIzNTg3ODgwNCwtMT
+eyJoaXN0b3J5IjpbMTcyMzg5NTIyMSwtMTIzNTg3ODgwNCwtMT
 cwODkyMjM0OSw1Mjg2MDY0MDVdfQ==
 -->
