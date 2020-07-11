@@ -9,6 +9,8 @@ exclude: true
 You can **alias a type** or create new types using the `type` keyword.
 ```rust
 type MyIntType = i32;
+
+let x: MyIntType = 10;
 ```
 
 ### Variables
@@ -301,11 +303,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODY4OTQ1LC0xNzQxNDkxODMwLDg3MD
-AzOTkyNSwzODMzNDQ3MTEsLTM1MjU3ODM1MSwtMTk1MTIxMzg0
-NCwtMTcxMjk2MTI3MSwxMDEwOTM3ODc5LDI0NTkxMDYzNSwtMT
-AxMjgyNjY5MCwxMzgzMjA4ODcwLDExMjE3NTk4ODMsMTY2OTgz
-ODEzNiwxNzg5Mzg5MTQ0LDE2NzM0MzAwMTcsMTQ3NTc0OTkyOC
-wtMTYzODIzMjY3NywyMDM4ODQ0ODY5LDYxNzIyMDM0NywtODU4
-MDg4MjQzXX0=
+eyJoaXN0b3J5IjpbLTE1NzQxNDA0OTYsLTE3NDE0OTE4MzAsOD
+cwMDM5OTI1LDM4MzM0NDcxMSwtMzUyNTc4MzUxLC0xOTUxMjEz
+ODQ0LC0xNzEyOTYxMjcxLDEwMTA5Mzc4NzksMjQ1OTEwNjM1LC
+0xMDEyODI2NjkwLDEzODMyMDg4NzAsMTEyMTc1OTg4MywxNjY5
+ODM4MTM2LDE3ODkzODkxNDQsMTY3MzQzMDAxNywxNDc1NzQ5OT
+I4LC0xNjM4MjMyNjc3LDIwMzg4NDQ4NjksNjE3MjIwMzQ3LC04
+NTgwODgyNDNdfQ==
 -->
