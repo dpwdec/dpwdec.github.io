@@ -134,9 +134,10 @@ You can **create an ordered list** by using the `enumerate` flag in the same man
 
 You can **insert math into a line of text** by using `$ ... $` two dollars signs, a `\( ... \)` two escape brackets or a `begin{math} ... end{math}` indicator.
 ```latex
-A famous equation was $E=mc^2$ by
+A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxODU5NjUsMTE5MzE1NjU0NywtMTIzNT
-g3ODgwNCwtMTcwODkyMjM0OSw1Mjg2MDY0MDVdfQ==
+eyJoaXN0b3J5IjpbMTU4NDAzMzc0MCwxMTkzMTU2NTQ3LC0xMj
+M1ODc4ODA0LC0xNzA4OTIyMzQ5LDUyODYwNjQwNV19
 -->
