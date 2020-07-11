@@ -85,8 +85,16 @@ This text will be rendered.
 
 ## Formatting
 
-You
+You can **add bold text** with the `textbf` flag.
+```latex
+\textbf{some text}
+```
+
+You can **add underlined text** with the `underline` glag.
+```latex
+\underline{some
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDUwNjE2NywtMTIzNTg3ODgwNCwtMT
-cwODkyMjM0OSw1Mjg2MDY0MDVdfQ==
+eyJoaXN0b3J5IjpbLTIwNjg5NzExODgsLTEyMzU4Nzg4MDQsLT
+E3MDg5MjIzNDksNTI4NjA2NDA1XX0=
 -->
