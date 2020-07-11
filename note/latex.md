@@ -114,11 +114,11 @@ You can **nest formatting styles**.
 
 You can **create lists** by using a `begin` and `end` environment with the list environment indicator. You can **create an unordered list** with the `itemsize` indicator. Each element in the list should have the `\item` indicator before it.
 ```latex
-\begin{itemsize}
+\begin{itemize}
   \item A list item
   \item Another list item
   \item A further list item
-\end{itemsize}
+\end{itemize}
 ```
 
 You can **create an ordered list** by using the `enumerate` flag in the same manner as the unordered list flag.
@@ -138,6 +138,7 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDAzMzc0MCwxMTkzMTU2NTQ3LC0xMj
-M1ODc4ODA0LC0xNzA4OTIyMzQ5LDUyODYwNjQwNV19
+eyJoaXN0b3J5IjpbMTk1MTQ5NzY4NiwxNTg0MDMzNzQwLDExOT
+MxNTY1NDcsLTEyMzU4Nzg4MDQsLTE3MDg5MjIzNDksNTI4NjA2
+NDA1XX0=
 -->
