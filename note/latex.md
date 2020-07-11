@@ -110,8 +110,10 @@ You can **nest formatting styles**.
 \underline{\textbf{some text}}
 ```
 
+## Lists
 
+You can **create lists** by using a `begin` and `end` environment
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MzMyNTk5LC0xMjM1ODc4ODA0LC0xNz
-A4OTIyMzQ5LDUyODYwNjQwNV19
+eyJoaXN0b3J5IjpbMTgzODkzODMwOCwtMTIzNTg3ODgwNCwtMT
+cwODkyMjM0OSw1Mjg2MDY0MDVdfQ==
 -->
