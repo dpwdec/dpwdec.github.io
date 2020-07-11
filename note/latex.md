@@ -90,11 +90,20 @@ You can **add bold text** with the `textbf` flag.
 \textbf{some text}
 ```
 
-You can **add underlined text** with the `underline` glag.
+You can **add underlined text** with the `underline` flag.
 ```latex
-\underline{some
+\underline{some text}
 ```
+
+You can **add italics** with the `textit` flag.
+```latex
+\textit{some text}
+```
+
+You can **add these emphasis indicators contextually** with the `emph`
+
+You can **nest formatting styles**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjg5NzExODgsLTEyMzU4Nzg4MDQsLT
-E3MDg5MjIzNDksNTI4NjA2NDA1XX0=
+eyJoaXN0b3J5IjpbLTE3Mzk4OTAyNCwtMTIzNTg3ODgwNCwtMT
+cwODkyMjM0OSw1Mjg2MDY0MDVdfQ==
 -->
