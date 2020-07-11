@@ -129,7 +129,14 @@ You can **create an ordered list** by using the `enumerate` flag in the same man
   \item A further list item
 \end{enumerate}
 ```
+
+## Math
+
+You can **insert math into a line of text** by using `$ ... $` two dollars signs, a `\( ... \)` two escape brackets or a `begin{math} ... end{math}` indicator.
+```latex
+A famous equation was $E=mc^2$ by
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzE1NjU0NywtMTIzNTg3ODgwNCwtMT
-cwODkyMjM0OSw1Mjg2MDY0MDVdfQ==
+eyJoaXN0b3J5IjpbNzkxODU5NjUsMTE5MzE1NjU0NywtMTIzNT
+g3ODgwNCwtMTcwODkyMjM0OSw1Mjg2MDY0MDVdfQ==
 -->
