@@ -5,8 +5,9 @@ exclude: true
 ---
 
 ## Variables and Types
+
 ### Aliasing
-You can **alias a type** or create new types using the `type` keyword.
+You can **alias a type** or create new types using the `type` keyword. In the example below the `i32` type is aliased under `MyIntType` so that it can be used *as if* referencing that type while adding semantic value.
 ```rust
 type MyIntType = i32;
 
@@ -303,7 +304,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQxNDA0OTYsLTE3NDE0OTE4MzAsOD
+eyJoaXN0b3J5IjpbLTE2NzA5MzkyMTMsLTE3NDE0OTE4MzAsOD
 cwMDM5OTI1LDM4MzM0NDcxMSwtMzUyNTc4MzUxLC0xOTUxMjEz
 ODQ0LC0xNzEyOTYxMjcxLDEwMTA5Mzc4NzksMjQ1OTEwNjM1LC
 0xMDEyODI2NjkwLDEzODMyMDg4NzAsMTEyMTc1OTg4MywxNjY5
