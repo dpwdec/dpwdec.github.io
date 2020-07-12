@@ -293,6 +293,7 @@ use some_module::*;
 ### External Files
 
 
+
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
 ```rust
@@ -304,11 +305,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzA5MzkyMTMsLTE3NDE0OTE4MzAsOD
-cwMDM5OTI1LDM4MzM0NDcxMSwtMzUyNTc4MzUxLC0xOTUxMjEz
-ODQ0LC0xNzEyOTYxMjcxLDEwMTA5Mzc4NzksMjQ1OTEwNjM1LC
-0xMDEyODI2NjkwLDEzODMyMDg4NzAsMTEyMTc1OTg4MywxNjY5
-ODM4MTM2LDE3ODkzODkxNDQsMTY3MzQzMDAxNywxNDc1NzQ5OT
-I4LC0xNjM4MjMyNjc3LDIwMzg4NDQ4NjksNjE3MjIwMzQ3LC04
-NTgwODgyNDNdfQ==
+eyJoaXN0b3J5IjpbOTk1Njg0OTMzLC0xNjcwOTM5MjEzLC0xNz
+QxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3MTEsLTM1MjU3ODM1
+MSwtMTk1MTIxMzg0NCwtMTcxMjk2MTI3MSwxMDEwOTM3ODc5LD
+I0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgzMjA4ODcwLDExMjE3
+NTk4ODMsMTY2OTgzODEzNiwxNzg5Mzg5MTQ0LDE2NzM0MzAwMT
+csMTQ3NTc0OTkyOCwtMTYzODIzMjY3NywyMDM4ODQ0ODY5LDYx
+NzIyMDM0N119
 -->
