@@ -303,13 +303,13 @@ let random_number = rand::thread_rng.gen_range(1, 101)
 ```
 The `gen_range()` function is inclusive at its bottom end and exclusive at its top end. In the above example it will produce a number between 1 and 100.
 
-
+`drain`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1Njg0OTMzLC0xNjcwOTM5MjEzLC0xNz
-QxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3MTEsLTM1MjU3ODM1
-MSwtMTk1MTIxMzg0NCwtMTcxMjk2MTI3MSwxMDEwOTM3ODc5LD
-I0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgzMjA4ODcwLDExMjE3
-NTk4ODMsMTY2OTgzODEzNiwxNzg5Mzg5MTQ0LDE2NzM0MzAwMT
-csMTQ3NTc0OTkyOCwtMTYzODIzMjY3NywyMDM4ODQ0ODY5LDYx
-NzIyMDM0N119
+eyJoaXN0b3J5IjpbLTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2Nz
+A5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcx
+MSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYxMjcxLD
+EwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMy
+MDg4NzAsMTEyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkzODkxND
+QsMTY3MzQzMDAxNywxNDc1NzQ5OTI4LC0xNjM4MjMyNjc3LDIw
+Mzg4NDQ4NjldfQ==
 -->
