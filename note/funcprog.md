@@ -12,8 +12,8 @@ Composition is:
 
  - Chaining function calls
  - Passing returns calls from one function into another
- - Calling two (or more
+ - Calling two (or more) methods in sequence - This final composition is more subtle. In this case the data being acted on is implicitly the data represented by the `this` or `self` d
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDMzODQyMiwtNTQwMjcyMTYzXX0=
+eyJoaXN0b3J5IjpbLTIwNjMyNTE2MiwtNTQwMjcyMTYzXX0=
 -->
