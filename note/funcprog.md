@@ -17,10 +17,13 @@ Composition is:
 let data = {
   foo: 10
 }
-
-
 ```
 
+## Pure functions
+
+If you call a function and don't use its return type you are probably using an impure function.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjY5MjIxLC01NDAyNzIxNjNdfQ==
+eyJoaXN0b3J5IjpbNTA3MDgzNzI4LDE0OTY2OTIyMSwtNTQwMj
+cyMTYzXX0=
 -->
