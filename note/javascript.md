@@ -714,7 +714,7 @@ When **adding `function`s to objects that use the data on that object you must u
 let foo = {
   bar: 5,
   qux: function() {
-    ret
+    return this.bar * 2
   }
 }
 ```
@@ -1320,11 +1320,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTUyODYwNiwtNDQyNzQxMjc1LDE0MD
-UxNjE3NjksLTM2NTcxNzIxLDEyNTUwNDMzMjYsMTU2MDQ1MDgx
-OSwtOTY2NDYzNjc0LC0xNzQ5OTM3Mzg4LDU4NTYwNTk5MywtMT
-U3OTc4MTEyOCwxMDAwOTU5ODc5LDE1NjE0NTEzMTgsLTkzMDgw
-NjMzNCwtMjEwMTU2Mjc3MCwyMDY0NjIwMTE5LDEzNjg0NDQ2MD
-ksLTYwNDc1MTcwNiwxNDI3MzY5MzQ2LDk0ODA4Mjg0NywtMTAy
-NDQzMDcxXX0=
+eyJoaXN0b3J5IjpbLTIwMzAyNTU2MDAsLTQ0Mjc0MTI3NSwxND
+A1MTYxNzY5LC0zNjU3MTcyMSwxMjU1MDQzMzI2LDE1NjA0NTA4
+MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OCw1ODU2MDU5OTMsLT
+E1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNTYxNDUxMzE4LC05MzA4
+MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYyMDExOSwxMzY4NDQ0Nj
+A5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Niw5NDgwODI4NDcsLTEw
+MjQ0MzA3MV19
 -->
