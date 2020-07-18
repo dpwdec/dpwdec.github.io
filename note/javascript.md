@@ -709,6 +709,8 @@ computer.motherboard.cooling // => '5xx'
 computer['motherBoard'].cpu // => 'G-Series'
 ```
 
+When adding `function`s to
+
 ## JSON
 
 JSON is a format for serializing javascript objects. You can **`parse` a JSON string into a javascript object** using the `JSON.parse` method.
@@ -1310,11 +1312,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0Mjc0MTI3NSwxNDA1MTYxNzY5LC0zNj
-U3MTcyMSwxMjU1MDQzMzI2LDE1NjA0NTA4MTksLTk2NjQ2MzY3
-NCwtMTc0OTkzNzM4OCw1ODU2MDU5OTMsLTE1Nzk3ODExMjgsMT
-AwMDk1OTg3OSwxNTYxNDUxMzE4LC05MzA4MDYzMzQsLTIxMDE1
-NjI3NzAsMjA2NDYyMDExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MD
-YsMTQyNzM2OTM0Niw5NDgwODI4NDcsLTEwMjQ0MzA3MSwtMTgw
-Mzk4ODAzN119
+eyJoaXN0b3J5IjpbOTg4NTkxNTc2LC00NDI3NDEyNzUsMTQwNT
+E2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMyNiwxNTYwNDUwODE5
+LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNTg1NjA1OTkzLC0xNT
+c5NzgxMTI4LDEwMDA5NTk4NzksMTU2MTQ1MTMxOCwtOTMwODA2
+MzM0LC0yMTAxNTYyNzcwLDIwNjQ2MjAxMTksMTM2ODQ0NDYwOS
+wtNjA0NzUxNzA2LDE0MjczNjkzNDYsOTQ4MDgyODQ3LC0xMDI0
+NDMwNzFdfQ==
 -->
