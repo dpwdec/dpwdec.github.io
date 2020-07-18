@@ -709,7 +709,15 @@ computer.motherboard.cooling // => '5xx'
 computer['motherBoard'].cpu // => 'G-Series'
 ```
 
-When adding `function`s to
+When **adding `function`s to objects that use the data on that object you must use the `function` keyword** otherwise the result of `this` will be undefined.
+```js
+let foo = {
+  bar: 5,
+  qux: function() {
+    ret
+  }
+}
+```
 
 ## JSON
 
@@ -1312,11 +1320,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4NTkxNTc2LC00NDI3NDEyNzUsMTQwNT
-E2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMyNiwxNTYwNDUwODE5
-LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNTg1NjA1OTkzLC0xNT
-c5NzgxMTI4LDEwMDA5NTk4NzksMTU2MTQ1MTMxOCwtOTMwODA2
-MzM0LC0yMTAxNTYyNzcwLDIwNjQ2MjAxMTksMTM2ODQ0NDYwOS
-wtNjA0NzUxNzA2LDE0MjczNjkzNDYsOTQ4MDgyODQ3LC0xMDI0
-NDMwNzFdfQ==
+eyJoaXN0b3J5IjpbLTE0NTUyODYwNiwtNDQyNzQxMjc1LDE0MD
+UxNjE3NjksLTM2NTcxNzIxLDEyNTUwNDMzMjYsMTU2MDQ1MDgx
+OSwtOTY2NDYzNjc0LC0xNzQ5OTM3Mzg4LDU4NTYwNTk5MywtMT
+U3OTc4MTEyOCwxMDAwOTU5ODc5LDE1NjE0NTEzMTgsLTkzMDgw
+NjMzNCwtMjEwMTU2Mjc3MCwyMDY0NjIwMTE5LDEzNjg0NDQ2MD
+ksLTYwNDc1MTcwNiwxNDI3MzY5MzQ2LDk0ODA4Mjg0NywtMTAy
+NDQzMDcxXX0=
 -->
