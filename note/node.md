@@ -61,6 +61,13 @@ fs.unlink(path, (err) => { // delete file asynchronously
 });
 ```
 
+## Process
+
+You can **make your node application exit** by using the `.exit` method on the process object.
+```js
+process.exit();
+```
+
 ## Frameworks
 
 #### Handlebars
@@ -147,9 +154,9 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDQ1NDcwOSwxMjUyNjA3MTQxLC00NT
-ExMTYzNTcsMTE1NjcwODc3MywtMTgxNzAzODk0LDE3MTc2OTgy
-MTMsOTM0MzIyODk5LC01NDQzNDY1NTMsLTEzNTg4MTYxOTgsMT
-M4Mjg3MjE2NSwtNzA1MDM4MzU2LC0xNTQ2NDMyNjcxLC0xNTM4
-NTU4OTBdfQ==
+eyJoaXN0b3J5IjpbMTMxOTQyNjEwOSwtMzYwNDU0NzA5LDEyNT
+I2MDcxNDEsLTQ1MTExNjM1NywxMTU2NzA4NzczLC0xODE3MDM4
+OTQsMTcxNzY5ODIxMyw5MzQzMjI4OTksLTU0NDM0NjU1MywtMT
+M1ODgxNjE5OCwxMzgyODcyMTY1LC03MDUwMzgzNTYsLTE1NDY0
+MzI2NzEsLTE1Mzg1NTg5MF19
 -->
