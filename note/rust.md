@@ -295,6 +295,8 @@ use some_module::*;
 ## Testing
 
 You can **run cargo tests with `println!` statements showing** by using the `nocapture` flag.
+```bash
+$ cargo test -- --nocapture
 ```
 
 ## Rand
@@ -310,11 +312,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDE2NTk4MywxOTM2MzExNzA4LDQxMT
-Y1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2NzA5MzkyMTMs
-LTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcxMSwtMzUyNT
-c4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYxMjcxLDEwMTA5Mzc4
-NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMyMDg4NzAsMT
-EyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkzODkxNDQsMTY3MzQz
-MDAxN119
+eyJoaXN0b3J5IjpbLTEwNjk1Njg4OTYsMTkzNjMxMTcwOCw0MT
+E2NTEwLC02OTk4MTQ4NzMsOTk1Njg0OTMzLC0xNjcwOTM5MjEz
+LC0xNzQxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3MTEsLTM1Mj
+U3ODM1MSwtMTk1MTIxMzg0NCwtMTcxMjk2MTI3MSwxMDEwOTM3
+ODc5LDI0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgzMjA4ODcwLD
+ExMjE3NTk4ODMsMTY2OTgzODEzNiwxNzg5Mzg5MTQ0LDE2NzM0
+MzAwMTddfQ==
 -->
