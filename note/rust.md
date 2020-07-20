@@ -292,7 +292,10 @@ use some_module::*;
 
 ### External Files
 
+## Testing
 
+You can **run cargo tests with `println!` statements showing** by using the `nocapture` flag.
+```
 
 ## Rand
 The `rand` crate allows you generate random numbers at run time for your program. The random number generator works by creating a `thread_rng` object that is localised to our execution thread and seeded by the operating system.
@@ -307,11 +310,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjMxMTcwOCw0MTE2NTEwLC02OTk4MT
-Q4NzMsOTk1Njg0OTMzLC0xNjcwOTM5MjEzLC0xNzQxNDkxODMw
-LDg3MDAzOTkyNSwzODMzNDQ3MTEsLTM1MjU3ODM1MSwtMTk1MT
-IxMzg0NCwtMTcxMjk2MTI3MSwxMDEwOTM3ODc5LDI0NTkxMDYz
-NSwtMTAxMjgyNjY5MCwxMzgzMjA4ODcwLDExMjE3NTk4ODMsMT
-Y2OTgzODEzNiwxNzg5Mzg5MTQ0LDE2NzM0MzAwMTcsMTQ3NTc0
-OTkyOF19
+eyJoaXN0b3J5IjpbMTg3NDE2NTk4MywxOTM2MzExNzA4LDQxMT
+Y1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2NzA5MzkyMTMs
+LTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcxMSwtMzUyNT
+c4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYxMjcxLDEwMTA5Mzc4
+NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMyMDg4NzAsMT
+EyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkzODkxNDQsMTY3MzQz
+MDAxN119
 -->
