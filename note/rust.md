@@ -291,16 +291,16 @@ use some_module::*;
 ```
 
 ### External Files
-You can **import a file from the another directory** by referencing it with `crate` keyword.
+You can **import a module from the another directory** by referencing it with `crate` keyword. 
 ```
 src
 ├── eggs
 |	├── mod.rs
 |   └── ham.rs
-├── __init__.py
-└── spam_classes.py
-    └── spam_classes.py
+├── main.rs
+└── spam.rs
 ```
+
 
 ## Testing
 
@@ -322,11 +322,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzU2NTA0NjUsLTEwNjk1Njg4OTYsMT
-kzNjMxMTcwOCw0MTE2NTEwLC02OTk4MTQ4NzMsOTk1Njg0OTMz
-LC0xNjcwOTM5MjEzLC0xNzQxNDkxODMwLDg3MDAzOTkyNSwzOD
-MzNDQ3MTEsLTM1MjU3ODM1MSwtMTk1MTIxMzg0NCwtMTcxMjk2
-MTI3MSwxMDEwOTM3ODc5LDI0NTkxMDYzNSwtMTAxMjgyNjY5MC
-wxMzgzMjA4ODcwLDExMjE3NTk4ODMsMTY2OTgzODEzNiwxNzg5
-Mzg5MTQ0XX0=
+eyJoaXN0b3J5IjpbMTQ1MjI1MDk3MCwtMTA2OTU2ODg5NiwxOT
+M2MzExNzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMs
+LTE2NzA5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4Mz
+M0NDcxMSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYx
+MjcxLDEwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLD
+EzODMyMDg4NzAsMTEyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkz
+ODkxNDRdfQ==
 -->
