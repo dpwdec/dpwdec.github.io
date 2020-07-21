@@ -23,7 +23,9 @@ let data = {
 
 If you call a function and don't use its return type you are probably using an impure function.
 
+A function is **pure** if you can replace the entire function with the 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3MDgzNzI4LDE0OTY2OTIyMSwtNTQwMj
-cyMTYzXX0=
+eyJoaXN0b3J5IjpbMzY4MzkxNjg4LDUwNzA4MzcyOCwxNDk2Nj
+kyMjEsLTU0MDI3MjE2M119
 -->
