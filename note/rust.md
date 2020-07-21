@@ -306,10 +306,15 @@ For example, if we wanted to import the `Jam` struct from the `spam` file module
 // main.rs
 use crate::spam::jam;
 ```
-To **import a module from a sub-directory**, the sub-directory must have the file names exposed in a `mod.rs` file. 
+To **import a module from a sub-directory**, the sub-directory must have the file names exposed in a `mod.rs` file. For example, the `mod.rs` file for the `eggs` directory might look like this:
 ```rust
 // eggs/mod.rs
 mod ham;
+```
+And the equivalent import code would reference this structure via the `crate`.
+```rust
+// main.rs
+use crate::eggs::ham;
 ```
 
 
@@ -333,11 +338,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDcwNTkxLC0xMDY5NTY4ODk2LDE5Mz
-YzMTE3MDgsNDExNjUxMCwtNjk5ODE0ODczLDk5NTY4NDkzMywt
-MTY3MDkzOTIxMywtMTc0MTQ5MTgzMCw4NzAwMzk5MjUsMzgzMz
-Q0NzExLC0zNTI1NzgzNTEsLTE5NTEyMTM4NDQsLTE3MTI5NjEy
-NzEsMTAxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4MjY2OTAsMT
-M4MzIwODg3MCwxMTIxNzU5ODgzLDE2Njk4MzgxMzYsMTc4OTM4
-OTE0NF19
+eyJoaXN0b3J5IjpbMTE3MDQxMjE1MiwtMTA2OTU2ODg5NiwxOT
+M2MzExNzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMs
+LTE2NzA5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4Mz
+M0NDcxMSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYx
+MjcxLDEwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLD
+EzODMyMDg4NzAsMTEyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkz
+ODkxNDRdfQ==
 -->
