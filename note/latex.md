@@ -143,6 +143,13 @@ You can **remove automatic indents from a line of text** by enclosing it in the 
 \noindent{Text that would have had an indent.}
 ```
 
+### Numbering
+
+You can **remove document page numbering** by adding the `gobble` tag to page numbers in your document's preamble.
+```latex
+\pagenumbering{gobble}
+```
+
 ## Lists
 
 You can **create lists** by using a `begin` and `end` environment with the list environment indicator. You can **create an unordered list** with the `itemsize` indicator. Each element in the list should have the `\item` indicator before it.
@@ -196,8 +203,8 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybinding for zooming. This can also be used for **making code text smaller**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjY5MTAyNSwtODY0MjQwNzEyLC0xOD
-U0MjYxNTEzLDM0NTk5OTc4MCwxNjg2Njg0Njk1LDE1ODQwMzM3
-NDAsMTE5MzE1NjU0NywtMTIzNTg3ODgwNCwtMTcwODkyMjM0OS
-w1Mjg2MDY0MDVdfQ==
+eyJoaXN0b3J5IjpbOTIxMjUxNjkzLC0zMTI2OTEwMjUsLTg2ND
+I0MDcxMiwtMTg1NDI2MTUxMywzNDU5OTk3ODAsMTY4NjY4NDY5
+NSwxNTg0MDMzNzQwLDExOTMxNTY1NDcsLTEyMzU4Nzg4MDQsLT
+E3MDg5MjIzNDksNTI4NjA2NDA1XX0=
 -->
