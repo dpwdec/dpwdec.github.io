@@ -306,7 +306,11 @@ For example, if we wanted to import the `Jam` struct from the `spam` file module
 // main.rs
 use crate::spam::jam;
 ```
-To import a mis in another directory the directory must have the file names exposed in a `mod.rs` file. 
+To **import a module from a sub-directory**, the sub-directory must have the file names exposed in a `mod.rs` file. 
+```rust
+// eggs/mod.rs
+mod ham;
+```
 
 
 ## Testing
@@ -329,7 +333,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MzQyOTM4LC0xMDY5NTY4ODk2LDE5Mz
+eyJoaXN0b3J5IjpbLTc1NDcwNTkxLC0xMDY5NTY4ODk2LDE5Mz
 YzMTE3MDgsNDExNjUxMCwtNjk5ODE0ODczLDk5NTY4NDkzMywt
 MTY3MDkzOTIxMywtMTc0MTQ5MTgzMCw4NzAwMzk5MjUsMzgzMz
 Q0NzExLC0zNTI1NzgzNTEsLTE5NTEyMTM4NDQsLTE3MTI5NjEy
