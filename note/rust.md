@@ -291,7 +291,7 @@ use some_module::*;
 ```
 
 ### External Files
-You can **import a module from the another directory** by referencing it with `crate` keyword. 
+You can **import a module from the another directory** by referencing it with `crate` keyword where **each file is treated as if it were a module**.
 ```
 src
 ├── eggs
@@ -300,6 +300,13 @@ src
 ├── main.rs
 └── spam.rs
 ```
+
+For example, if we wanted to import the `Jam` struct from the `spam` file module we could use the import statement below.
+```rust
+// main.rs
+use crate::spam::jam;
+```
+To import a mis in another directory the directory must have the file names exposed in a `mod.rs` file. 
 
 
 ## Testing
@@ -322,11 +329,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjI1MDk3MCwtMTA2OTU2ODg5NiwxOT
-M2MzExNzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMs
-LTE2NzA5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4Mz
-M0NDcxMSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYx
-MjcxLDEwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLD
-EzODMyMDg4NzAsMTEyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkz
-ODkxNDRdfQ==
+eyJoaXN0b3J5IjpbMTI5MzQyOTM4LC0xMDY5NTY4ODk2LDE5Mz
+YzMTE3MDgsNDExNjUxMCwtNjk5ODE0ODczLDk5NTY4NDkzMywt
+MTY3MDkzOTIxMywtMTc0MTQ5MTgzMCw4NzAwMzk5MjUsMzgzMz
+Q0NzExLC0zNTI1NzgzNTEsLTE5NTEyMTM4NDQsLTE3MTI5NjEy
+NzEsMTAxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4MjY2OTAsMT
+M4MzIwODg3MCwxMTIxNzU5ODgzLDE2Njk4MzgxMzYsMTc4OTM4
+OTE0NF19
 -->
