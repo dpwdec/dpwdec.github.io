@@ -317,6 +317,9 @@ And the equivalent import code would reference this structure via the `crate`.
 use crate::eggs::ham;
 ```
 
+## Traits
+
+
 ## Panic
 You can **manually trigger a program to panic** by using the `panic!` macro. This macro can take a `str` argument which describes the stack trace error.
 ```rust
@@ -343,11 +346,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODQ5MjM3NywyMDYxNTA2MTUwLC0xMD
-Y5NTY4ODk2LDE5MzYzMTE3MDgsNDExNjUxMCwtNjk5ODE0ODcz
-LDk5NTY4NDkzMywtMTY3MDkzOTIxMywtMTc0MTQ5MTgzMCw4Nz
-AwMzk5MjUsMzgzMzQ0NzExLC0zNTI1NzgzNTEsLTE5NTEyMTM4
-NDQsLTE3MTI5NjEyNzEsMTAxMDkzNzg3OSwyNDU5MTA2MzUsLT
-EwMTI4MjY2OTAsMTM4MzIwODg3MCwxMTIxNzU5ODgzLDE2Njk4
-MzgxMzZdfQ==
+eyJoaXN0b3J5IjpbMTQzMDE4NzQ1NiwyMDg4NDkyMzc3LDIwNj
+E1MDYxNTAsLTEwNjk1Njg4OTYsMTkzNjMxMTcwOCw0MTE2NTEw
+LC02OTk4MTQ4NzMsOTk1Njg0OTMzLC0xNjcwOTM5MjEzLC0xNz
+QxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3MTEsLTM1MjU3ODM1
+MSwtMTk1MTIxMzg0NCwtMTcxMjk2MTI3MSwxMDEwOTM3ODc5LD
+I0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgzMjA4ODcwLDExMjE3
+NTk4ODNdfQ==
 -->
