@@ -169,6 +169,19 @@ You can **add lines breaks to table cells** using the `makecell` package.
 ```latex
 \usepackage{makecell}
 
+\begin{document}
+
+  \begin{center}
+    \begin{tabular}{ | c | c | c |}
+      \hline
+      \thead{A Head} & \thead{A Second \\ Head} & \thead{A Third \\ Head} \\
+      \hline
+      Some text &  \makecell{Some really \\ longer text}  & Text text text  \\
+      \hline
+    \end{tabular}
+  \end{center}
+
+\end{document} 
 ```
 
 ## Math
@@ -183,7 +196,7 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybinding for zooming. This can also be used for **making code text smaller**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzg0NDQ2OSwtODY0MjQwNzEyLC0xOD
+eyJoaXN0b3J5IjpbLTMxMjY5MTAyNSwtODY0MjQwNzEyLC0xOD
 U0MjYxNTEzLDM0NTk5OTc4MCwxNjg2Njg0Njk1LDE1ODQwMzM3
 NDAsMTE5MzE1NjU0NywtMTIzNTg3ODgwNCwtMTcwODkyMjM0OS
 w1Mjg2MDY0MDVdfQ==
