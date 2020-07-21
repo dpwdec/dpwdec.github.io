@@ -317,7 +317,6 @@ And the equivalent import code would reference this structure via the `crate`.
 use crate::eggs::ham;
 ```
 
-
 ## Testing
 
 You can **run cargo tests with `println!` statements showing** by using the `nocapture` flag.
@@ -338,7 +337,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDQxMjE1MiwtMTA2OTU2ODg5NiwxOT
+eyJoaXN0b3J5IjpbMjA2MTUwNjE1MCwtMTA2OTU2ODg5NiwxOT
 M2MzExNzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMs
 LTE2NzA5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4Mz
 M0NDcxMSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYx
