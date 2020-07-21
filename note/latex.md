@@ -165,7 +165,7 @@ You can **create an ordered list** by using the `enumerate` flag in the same man
 
 ## Tables
 
-You can 
+You can **add lines breaks to table cells** using the `makecell` package.
 
 ## Math
 
@@ -179,7 +179,8 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybinding for zooming. This can also be used for **making code text smaller**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQyNjE1MTMsMzQ1OTk5NzgwLDE2OD
-Y2ODQ2OTUsMTU4NDAzMzc0MCwxMTkzMTU2NTQ3LC0xMjM1ODc4
-ODA0LC0xNzA4OTIyMzQ5LDUyODYwNjQwNV19
+eyJoaXN0b3J5IjpbLTg2NDI0MDcxMiwtMTg1NDI2MTUxMywzND
+U5OTk3ODAsMTY4NjY4NDY5NSwxNTg0MDMzNzQwLDExOTMxNTY1
+NDcsLTEyMzU4Nzg4MDQsLTE3MDg5MjIzNDksNTI4NjA2NDA1XX
+0=
 -->
