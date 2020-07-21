@@ -138,6 +138,11 @@ Some text
 More text after the break.
 ```
 
+You can **remove automatic indents from a line of text** by enclosing it in the `noindent` macro.
+```latex
+\noindent{Text that would have had an indent
+```
+
 ## Lists
 
 You can **create lists** by using a `begin` and `end` environment with the list environment indicator. You can **create an unordered list** with the `itemsize` indicator. Each element in the list should have the `\item` indicator before it.
@@ -166,7 +171,7 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTY1ODgyNCwzNDU5OTk3ODAsMTY4Nj
+eyJoaXN0b3J5IjpbMTE0OTg0Nzg5NiwzNDU5OTk3ODAsMTY4Nj
 Y4NDY5NSwxNTg0MDMzNzQwLDExOTMxNTY1NDcsLTEyMzU4Nzg4
 MDQsLTE3MDg5MjIzNDksNTI4NjA2NDA1XX0=
 -->
