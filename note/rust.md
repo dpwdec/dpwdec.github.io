@@ -317,6 +317,12 @@ And the equivalent import code would reference this structure via the `crate`.
 use crate::eggs::ham;
 ```
 
+## Panic
+You can **manually trigger a program to panic** by using the `panic!` macro. This macro can take a `str` argument which describes the stack trace error.
+```rust
+panic!("Your program failed horribly!");
+```
+
 ## Testing
 
 You can **run cargo tests with `println!` statements showing** by using the `nocapture` flag.
@@ -337,11 +343,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTUwNjE1MCwtMTA2OTU2ODg5NiwxOT
-M2MzExNzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMs
-LTE2NzA5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4Mz
-M0NDcxMSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYx
-MjcxLDEwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLD
-EzODMyMDg4NzAsMTEyMTc1OTg4MywxNjY5ODM4MTM2LDE3ODkz
-ODkxNDRdfQ==
+eyJoaXN0b3J5IjpbMjA4ODQ5MjM3NywyMDYxNTA2MTUwLC0xMD
+Y5NTY4ODk2LDE5MzYzMTE3MDgsNDExNjUxMCwtNjk5ODE0ODcz
+LDk5NTY4NDkzMywtMTY3MDkzOTIxMywtMTc0MTQ5MTgzMCw4Nz
+AwMzk5MjUsMzgzMzQ0NzExLC0zNTI1NzgzNTEsLTE5NTEyMTM4
+NDQsLTE3MTI5NjEyNzEsMTAxMDkzNzg3OSwyNDU5MTA2MzUsLT
+EwMTI4MjY2OTAsMTM4MzIwODg3MCwxMTIxNzU5ODgzLDE2Njk4
+MzgxMzZdfQ==
 -->
