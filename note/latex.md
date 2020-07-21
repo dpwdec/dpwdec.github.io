@@ -163,6 +163,10 @@ You can **create an ordered list** by using the `enumerate` flag in the same man
 \end{enumerate}
 ```
 
+## Tables
+
+You can 
+
 ## Math
 
 You can **insert math into a line of text** by using `$ ... $` two dollars signs, a `\( ... \)` two escape brackets or a `begin{math} ... end{math}` indicator.
@@ -172,10 +176,10 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 
 ## TexShop
 
-You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybi
+You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybinding for zooming. This can also be used for **making code text smaller**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2Mjg0MjU3MCwzNDU5OTk3ODAsMTY4Nj
-Y4NDY5NSwxNTg0MDMzNzQwLDExOTMxNTY1NDcsLTEyMzU4Nzg4
-MDQsLTE3MDg5MjIzNDksNTI4NjA2NDA1XX0=
+eyJoaXN0b3J5IjpbLTE4NTQyNjE1MTMsMzQ1OTk5NzgwLDE2OD
+Y2ODQ2OTUsMTU4NDAzMzc0MCwxMTkzMTU2NTQ3LC0xMjM1ODc4
+ODA0LC0xNzA4OTIyMzQ5LDUyODYwNjQwNV19
 -->
