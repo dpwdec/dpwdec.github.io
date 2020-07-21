@@ -170,8 +170,12 @@ You can **insert math into a line of text** by using `$ ... $` two dollars signs
 A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 ```
 
+## TexShop
+
+You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybi
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDk1MTI3MSwzNDU5OTk3ODAsMTY4Nj
+eyJoaXN0b3J5IjpbMTY2Mjg0MjU3MCwzNDU5OTk3ODAsMTY4Nj
 Y4NDY5NSwxNTg0MDMzNzQwLDExOTMxNTY1NDcsLTEyMzU4Nzg4
 MDQsLTE3MDg5MjIzNDksNTI4NjA2NDA1XX0=
 -->
