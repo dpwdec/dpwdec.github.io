@@ -124,11 +124,18 @@ You can **nest formatting styles**.
 
 ### Spacing
 
-You can **perform a line break** with `\\` double backslashes.
+You can **perform a line break** with `\\` double backslashes. The line break **must follow some text** otherwise it is considered invalid.
 ```latex
 Here is some text
 \\
 And some more text after a line break
+```
+
+You can **make an arbitrary break in text** using the `vskip` command followed by the distance of the break.
+```latex
+Some text
+\vskip 0.2in
+More text after the break.
 ```
 
 ## Lists
@@ -159,7 +166,7 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1OTk5NzgwLDE2ODY2ODQ2OTUsMTU4ND
-AzMzc0MCwxMTkzMTU2NTQ3LC0xMjM1ODc4ODA0LC0xNzA4OTIy
-MzQ5LDUyODYwNjQwNV19
+eyJoaXN0b3J5IjpbMTY4NTY1ODgyNCwzNDU5OTk3ODAsMTY4Nj
+Y4NDY5NSwxNTg0MDMzNzQwLDExOTMxNTY1NDcsLTEyMzU4Nzg4
+MDQsLTE3MDg5MjIzNDksNTI4NjA2NDA1XX0=
 -->
