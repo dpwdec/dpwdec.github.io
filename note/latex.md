@@ -147,7 +147,8 @@ You can **remove automatic indents from a line of text** by enclosing it in the 
 
 You can **create a column break** by using the `\vfill\null` command combined with `columnbreak`. This will push everything after this point over to the next column.
 ```latex
-
+\vfill\null
+\columnbreak
 ```
 
 ### Numbering
@@ -156,6 +157,10 @@ You can **remove document page numbering** by adding the `gobble` tag to page nu
 ```latex
 \pagenumbering{gobble}
 ```
+
+### Lines
+
+You can **create a horizontal line** using the `rule` command in the format `\rule{LENGTH}{WEIGHT}` combining it with `n
 
 ## Lists
 
@@ -210,8 +215,8 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybinding for zooming. This can also be used for **making code text smaller**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDY1NjQ3NjcsOTIxMjUxNjkzLC0zMT
-I2OTEwMjUsLTg2NDI0MDcxMiwtMTg1NDI2MTUxMywzNDU5OTk3
-ODAsMTY4NjY4NDY5NSwxNTg0MDMzNzQwLDExOTMxNTY1NDcsLT
-EyMzU4Nzg4MDQsLTE3MDg5MjIzNDksNTI4NjA2NDA1XX0=
+eyJoaXN0b3J5IjpbLTQ1NzQ2MjQ1Miw5MjEyNTE2OTMsLTMxMj
+Y5MTAyNSwtODY0MjQwNzEyLC0xODU0MjYxNTEzLDM0NTk5OTc4
+MCwxNjg2Njg0Njk1LDE1ODQwMzM3NDAsMTE5MzE1NjU0NywtMT
+IzNTg3ODgwNCwtMTcwODkyMjM0OSw1Mjg2MDY0MDVdfQ==
 -->
