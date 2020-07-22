@@ -160,7 +160,10 @@ You can **remove document page numbering** by adding the `gobble` tag to page nu
 
 ### Lines
 
-You can **create a horizontal line** using the `rule` command in the format `\rule{LENGTH}{WEIGHT}` combining it with `n
+You can **create a horizontal line** using the `rule` command in the format `\rule{LENGTH}{WEIGHT}`. Combine it with `noindent` to remove right hand rendering.
+```latex
+\noindent\rule{2cm}{0.4pt}
+```
 
 ## Lists
 
@@ -215,7 +218,7 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybinding for zooming. This can also be used for **making code text smaller**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzQ2MjQ1Miw5MjEyNTE2OTMsLTMxMj
+eyJoaXN0b3J5IjpbMjAyNzY3OTEzNSw5MjEyNTE2OTMsLTMxMj
 Y5MTAyNSwtODY0MjQwNzEyLC0xODU0MjYxNTEzLDM0NTk5OTc4
 MCwxNjg2Njg0Njk1LDE1ODQwMzM3NDAsMTE5MzE1NjU0NywtMT
 IzNTg3ODgwNCwtMTcwODkyMjM0OSw1Mjg2MDY0MDVdfQ==
