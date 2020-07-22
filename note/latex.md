@@ -143,6 +143,13 @@ You can **remove automatic indents from a line of text** by enclosing it in the 
 \noindent{Text that would have had an indent.}
 ```
 
+### Columns
+
+You can **create a column break** by using the `\vfill\null` command combined with `columnbreak`. This will push everything after this point over to the next column.
+```latex
+
+```
+
 ### Numbering
 
 You can **remove document page numbering** by adding the `gobble` tag to page numbers in your document's preamble.
@@ -203,8 +210,8 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybinding for zooming. This can also be used for **making code text smaller**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxMjUxNjkzLC0zMTI2OTEwMjUsLTg2ND
-I0MDcxMiwtMTg1NDI2MTUxMywzNDU5OTk3ODAsMTY4NjY4NDY5
-NSwxNTg0MDMzNzQwLDExOTMxNTY1NDcsLTEyMzU4Nzg4MDQsLT
-E3MDg5MjIzNDksNTI4NjA2NDA1XX0=
+eyJoaXN0b3J5IjpbLTE4MDY1NjQ3NjcsOTIxMjUxNjkzLC0zMT
+I2OTEwMjUsLTg2NDI0MDcxMiwtMTg1NDI2MTUxMywzNDU5OTk3
+ODAsMTY4NjY4NDY5NSwxNTg0MDMzNzQwLDExOTMxNTY1NDcsLT
+EyMzU4Nzg4MDQsLTE3MDg5MjIzNDksNTI4NjA2NDA1XX0=
 -->
