@@ -14,8 +14,10 @@ You can **define a class** by using the `class` keyword followed by the name of 
 ```c#
 class MyClass
 {
+
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTMwODgxNiw0MzY0NDA2NjJdfQ==
+eyJoaXN0b3J5IjpbLTEzMDkwMTUwNzUsNDM2NDQwNjYyXX0=
 -->
