@@ -28,6 +28,13 @@ public MyClass(string name, int age)
 }
 ```
 
+### Instances
+
+You can **create a new instance of a class** by using the `new` keyword with the class name and valid constructor.
+```csharp
+var myClass = new MyClass("Lonathan", 100);
+```
+
 ### Permissions
 
 **Public variables are accessible with `get` and `set` by default.** If you define a public variable on a class then it *can* be modified.
@@ -38,16 +45,20 @@ public MyClass
 }
 
 var myClass = new MyClass();
+myClass.name = "Lomothy"; // completely accessible
 ```
 
-### Instances
-
-You can **create a new instance of a class** by using the `new` keyword with the class name and valid constructor.
+You can **control permissions on public variables** using `get` and `set` syntax after the variable definition.
 ```csharp
-var myClass = new MyClass("Lonathan", 100);
+public MyClass
+{
+  public string name { get; set; }
+  pu
+}
+
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ3NzU3NTY2LDgyMTI3ODY0NSwtMTg1NT
-I5MzM5Miw0MzY0NDA2NjJdfQ==
+eyJoaXN0b3J5IjpbMTk1MDY4MDg4NCw4MjEyNzg2NDUsLTE4NT
+UyOTMzOTIsNDM2NDQwNjYyXX0=
 -->
