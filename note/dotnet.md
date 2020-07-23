@@ -19,7 +19,7 @@ string numberString = numberInt.ToString();
 
 ## List
 
-The `List` is a data structure that offers a resizable list of elements.
+The `List` is a data structure that offers a resizable list of elements. To **start using the `List` data structure** you must import `using  System.Collections.Generic`. The `List` object is defined with a generic `T` type as `List<T>` which you must supply when constructing a new list object. To **create a new list** use the `new` keyword as you would 
 ```csharp
 
 ```
@@ -91,7 +91,7 @@ public MyClass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTAxODYwNSwtNDQ1MzY5OTc1LDEyOD
-U3ODQ1NzYsODIxMjc4NjQ1LC0xODU1MjkzMzkyLDQzNjQ0MDY2
-Ml19
+eyJoaXN0b3J5IjpbLTEzNDg3OTY0MzksMTAxMTAxODYwNSwtND
+Q1MzY5OTc1LDEyODU3ODQ1NzYsODIxMjc4NjQ1LC0xODU1Mjkz
+MzkyLDQzNjQ0MDY2Ml19
 -->
