@@ -20,9 +20,13 @@ class MyClass
 
 You can **define a class constructor** by defining a method inside the class that matches the name of the class definition. The `this` keyword is used to define instance variable assignment.
 ```csharp
-public MyClass(string name, 
+public MyClass(string name, int age)
+{
+  this.name = name;
+  this.age = age;
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgzNzU3MDUxLDQzNjQ0MDY2Ml19
+eyJoaXN0b3J5IjpbLTE4NTUyOTMzOTIsNDM2NDQwNjYyXX0=
 -->
