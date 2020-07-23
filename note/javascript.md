@@ -721,7 +721,7 @@ let foo = {
 
 ### Assign
 
-You **can re-assign an object to a different object** by using the `Object.assign` method.
+You **can re-assign or copy the properties of an object to a different object** by using the `Object.assign` method.
 ```js
 let old = {
   name: 'Foo'
@@ -729,6 +729,7 @@ let old = {
 
 let updated = {
   name: 'Bar'
+  age: 10
 }
 
 Object.assign(old, updated) 
@@ -1374,11 +1375,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2OTk4ODA4LC0xNzI3NDYyMDc2LC0yMD
-MwMjU1NjAwLC00NDI3NDEyNzUsMTQwNTE2MTc2OSwtMzY1NzE3
-MjEsMTI1NTA0MzMyNiwxNTYwNDUwODE5LC05NjY0NjM2NzQsLT
-E3NDk5MzczODgsNTg1NjA1OTkzLC0xNTc5NzgxMTI4LDEwMDA5
-NTk4NzksMTU2MTQ1MTMxOCwtOTMwODA2MzM0LC0yMTAxNTYyNz
-cwLDIwNjQ2MjAxMTksMTM2ODQ0NDYwOSwtNjA0NzUxNzA2LDE0
-MjczNjkzNDZdfQ==
+eyJoaXN0b3J5IjpbLTEwNDMwNjUyMjMsLTE3Mjc0NjIwNzYsLT
+IwMzAyNTU2MDAsLTQ0Mjc0MTI3NSwxNDA1MTYxNzY5LC0zNjU3
+MTcyMSwxMjU1MDQzMzI2LDE1NjA0NTA4MTksLTk2NjQ2MzY3NC
+wtMTc0OTkzNzM4OCw1ODU2MDU5OTMsLTE1Nzk3ODExMjgsMTAw
+MDk1OTg3OSwxNTYxNDUxMzE4LC05MzA4MDYzMzQsLTIxMDE1Nj
+I3NzAsMjA2NDYyMDExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MDYs
+MTQyNzM2OTM0Nl19
 -->
