@@ -37,8 +37,10 @@ The value that an expression evaluates to can be given a name.
 ```js
 const x = [1, 2, 3]
 ```
+
+mutating an existing object is a bug
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTc5ODU0ODIsMjEzODUwNDU1NCw2NT
-AzNTI5MDcsMzY4MzkxNjg4LDUwNzA4MzcyOCwxNDk2NjkyMjEs
-LTU0MDI3MjE2M119
+eyJoaXN0b3J5IjpbODkyNDY5NTg1LC0yMDk3OTg1NDgyLDIxMz
+g1MDQ1NTQsNjUwMzUyOTA3LDM2ODM5MTY4OCw1MDcwODM3Mjgs
+MTQ5NjY5MjIxLC01NDAyNzIxNjNdfQ==
 -->
