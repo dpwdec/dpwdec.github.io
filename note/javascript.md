@@ -736,7 +736,21 @@ Object.assign(old, updated)
 console.log(old) // => { name: 'Bar' }
 ```
 
-You can **re-assign a field of an object** by submitting a variable with the new value as an argument in `{ }` curly brackets. This will mutate the
+You can **re-assign a field of an object** by submitting a variable with the new value as an argument in `{ }` curly brackets. This will mutate the target object to update only part of it and carry over new information.
+```js
+let old = {
+  name: 'Foo'
+  age: 10
+}
+
+let updated = {
+  name: 'Bar'
+}
+
+Object.assign(old, updated) 
+
+console.log(old) // => { name: 'Bar' }
+```
 
 ## JSON
 
@@ -1339,11 +1353,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjQ4MjA4LC0yMDMwMjU1NjAwLC00ND
-I3NDEyNzUsMTQwNTE2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMy
-NiwxNTYwNDUwODE5LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNT
-g1NjA1OTkzLC0xNTc5NzgxMTI4LDEwMDA5NTk4NzksMTU2MTQ1
-MTMxOCwtOTMwODA2MzM0LC0yMTAxNTYyNzcwLDIwNjQ2MjAxMT
-ksMTM2ODQ0NDYwOSwtNjA0NzUxNzA2LDE0MjczNjkzNDYsOTQ4
-MDgyODQ3XX0=
+eyJoaXN0b3J5IjpbLTExNTgzMDY0ODYsLTIwMzAyNTU2MDAsLT
+Q0Mjc0MTI3NSwxNDA1MTYxNzY5LC0zNjU3MTcyMSwxMjU1MDQz
+MzI2LDE1NjA0NTA4MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OC
+w1ODU2MDU5OTMsLTE1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNTYx
+NDUxMzE4LC05MzA4MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYyMD
+ExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Niw5
+NDgwODI4NDddfQ==
 -->
