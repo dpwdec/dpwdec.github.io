@@ -57,15 +57,15 @@ public MyClass
 }
 ```
 
-**Private variables are only accessible from within the class they are defined in**.
+**Private variables are only accessible from within the class they are defined in**. 
 ```csharp
 public MyClass
 {
-  private int SecretNumber;
+  private int SecretNumber; // not accessible outside of the class
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ0NDIwNjUsODIxMjc4NjQ1LC0xOD
-U1MjkzMzkyLDQzNjQ0MDY2Ml19
+eyJoaXN0b3J5IjpbMjgyMDA1MTMsODIxMjc4NjQ1LC0xODU1Mj
+kzMzkyLDQzNjQ0MDY2Ml19
 -->
