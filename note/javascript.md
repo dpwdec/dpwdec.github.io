@@ -764,6 +764,15 @@ Object.assign(old, { height })
 console.log(old) // => { name: 'Foo', age: 20, height: 1.96 }
 ```
 
+### Object Spread
+
+There is a **shorter version of `Object.assign`** called the **object spread syntax** which uses `...` three periods before each object to be copied into anther object.
+```js
+const a = {a: 'a'}
+const b = {b: 'b'}
+const c = {
+```
+
 ## JSON
 
 JSON is a format for serializing javascript objects. You can **`parse` a JSON string into a javascript object** using the `JSON.parse` method.
@@ -1365,11 +1374,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjc0NjIwNzYsLTIwMzAyNTU2MDAsLT
-Q0Mjc0MTI3NSwxNDA1MTYxNzY5LC0zNjU3MTcyMSwxMjU1MDQz
-MzI2LDE1NjA0NTA4MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OC
-w1ODU2MDU5OTMsLTE1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNTYx
-NDUxMzE4LC05MzA4MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYyMD
-ExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Niw5
-NDgwODI4NDddfQ==
+eyJoaXN0b3J5IjpbMjk5MzM3MjgyLC0xNzI3NDYyMDc2LC0yMD
+MwMjU1NjAwLC00NDI3NDEyNzUsMTQwNTE2MTc2OSwtMzY1NzE3
+MjEsMTI1NTA0MzMyNiwxNTYwNDUwODE5LC05NjY0NjM2NzQsLT
+E3NDk5MzczODgsNTg1NjA1OTkzLC0xNTc5NzgxMTI4LDEwMDA5
+NTk4NzksMTU2MTQ1MTMxOCwtOTMwODA2MzM0LC0yMTAxNTYyNz
+cwLDIwNjQ2MjAxMTksMTM2ODQ0NDYwOSwtNjA0NzUxNzA2LDE0
+MjczNjkzNDZdfQ==
 -->
