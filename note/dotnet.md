@@ -30,7 +30,13 @@ public MyClass(string name, int age)
 
 ### Permissions
 
-Public variables are accessible with `get` and `set` by default.
+**Public variables are accessible with `get` and `set` by default.** If you define a public variable on a class then it *can* be modified.
+```csharp
+public MyClass
+{
+  public string name;
+}
+```
 
 ### Instances
 
@@ -40,6 +46,6 @@ var myClass = new MyClass("Lonathan", 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzYxNjA1MSw4MjEyNzg2NDUsLTE4NT
-UyOTMzOTIsNDM2NDQwNjYyXX0=
+eyJoaXN0b3J5IjpbODQwODM4Mzk2LDgyMTI3ODY0NSwtMTg1NT
+I5MzM5Miw0MzY0NDA2NjJdfQ==
 -->
