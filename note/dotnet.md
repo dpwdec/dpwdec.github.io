@@ -14,10 +14,12 @@ You can **define a class** by using the `class` keyword followed by the name of 
 ```c#
 class MyClass
 {
-
+  // class stuff
 }
 ```
 
+You can **define a class constructor** by using the 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDkwMTUwNzUsNDM2NDQwNjYyXX0=
+eyJoaXN0b3J5IjpbLTE2OTg0MjA4Niw0MzY0NDA2NjJdfQ==
 -->
