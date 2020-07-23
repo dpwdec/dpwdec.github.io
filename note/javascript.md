@@ -732,8 +732,11 @@ let updated = {
 }
 
 Object.assign(old, updated) 
-// =>
+
+console.log(old) // => { name: 'Bar' }
 ```
+
+You can **re-assign a field of an object** by submitting a variable with the new value as an argument in `{ }` curly brackets. This will mutate the
 
 ## JSON
 
@@ -1336,7 +1339,7 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1Mjg5NDMzLC0yMDMwMjU1NjAwLC00ND
+eyJoaXN0b3J5IjpbMTM1MjQ4MjA4LC0yMDMwMjU1NjAwLC00ND
 I3NDEyNzUsMTQwNTE2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMy
 NiwxNTYwNDUwODE5LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNT
 g1NjA1OTkzLC0xNTc5NzgxMTI4LDEwMDA5NTk4NzksMTU2MTQ1
