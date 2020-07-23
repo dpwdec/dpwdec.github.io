@@ -31,10 +31,10 @@ public MyClass(string name, int age)
 
 You can **create a new instance of a class** by using the `new` keyword with the class name and valid constructor.
 ```csharp
-var myClass = new MyClass("Lonathan", 100
+var myClass = new MyClass("Lonathan", 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODA5MjM0OSwtMTg1NTI5MzM5Miw0Mz
-Y0NDA2NjJdfQ==
+eyJoaXN0b3J5IjpbODIxMjc4NjQ1LC0xODU1MjkzMzkyLDQzNj
+Q0MDY2Ml19
 -->
