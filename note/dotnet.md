@@ -36,7 +36,7 @@ public MyClass(string name, int age)
 }
 ```
 
-You can **define a static "class" variable** by using the `static` keyword. This is shared amongst ALL instances of the class. These can also be assigned *within* the class they are defined in.
+You can **define a static "class" variable** by using the `static` keyword. This is shared amongst ALL instances of the class, when it is mutated on the class it changes for all instances. These can also be assigned *within* the class they are defined in.
 ```csharp
 class MyClass
 {
@@ -84,6 +84,6 @@ public MyClass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczNTQ2MDgsMTI4NTc4NDU3Niw4MjEyNz
-g2NDUsLTE4NTUyOTMzOTIsNDM2NDQwNjYyXX0=
+eyJoaXN0b3J5IjpbLTQ0NTM2OTk3NSwxMjg1Nzg0NTc2LDgyMT
+I3ODY0NSwtMTg1NTI5MzM5Miw0MzY0NDA2NjJdfQ==
 -->
