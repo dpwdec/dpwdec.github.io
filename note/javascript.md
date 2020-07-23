@@ -745,9 +745,23 @@ let old = {
 
 let age = 20
 
-Object.assign(old, updated) 
+Object.assign(old, { age }) 
 
-console.log(old) // => { name: 'Bar' }
+console.log(old) // => { name: 'Foo', age: 20 }
+```
+
+You can also **add properties to an existing object** by submitting a variable name to the `{ }` argument of `Object.assign` that isn't already on the object.
+```js
+let old = {
+  name: 'Foo'
+  age: 10
+}
+
+let height = 1.96
+
+Object.assign(old, { age }) 
+
+console.log(old) // => { name: 'Foo', age: 20 }
 ```
 
 ## JSON
@@ -1351,11 +1365,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Mzk2MjM4MCwtMjAzMDI1NTYwMCwtND
-QyNzQxMjc1LDE0MDUxNjE3NjksLTM2NTcxNzIxLDEyNTUwNDMz
-MjYsMTU2MDQ1MDgxOSwtOTY2NDYzNjc0LC0xNzQ5OTM3Mzg4LD
-U4NTYwNTk5MywtMTU3OTc4MTEyOCwxMDAwOTU5ODc5LDE1NjE0
-NTEzMTgsLTkzMDgwNjMzNCwtMjEwMTU2Mjc3MCwyMDY0NjIwMT
-E5LDEzNjg0NDQ2MDksLTYwNDc1MTcwNiwxNDI3MzY5MzQ2LDk0
-ODA4Mjg0N119
+eyJoaXN0b3J5IjpbMzAwMzIzNzMsLTIwMzAyNTU2MDAsLTQ0Mj
+c0MTI3NSwxNDA1MTYxNzY5LC0zNjU3MTcyMSwxMjU1MDQzMzI2
+LDE1NjA0NTA4MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OCw1OD
+U2MDU5OTMsLTE1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNTYxNDUx
+MzE4LC05MzA4MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYyMDExOS
+wxMzY4NDQ0NjA5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Niw5NDgw
+ODI4NDddfQ==
 -->
