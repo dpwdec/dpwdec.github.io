@@ -48,17 +48,16 @@ var myClass = new MyClass();
 myClass.name = "Lomothy"; // completely accessible
 ```
 
-You can **control permissions on public variables** using `get` and `set` syntax after the variable definition.
+You can **control permissions on public variables** using `get` and `set` syntax after the variable definition. In the example below external code can still `get` and `set` name, however, if external code tries to change the value of `id` it will trigger a `readonly` error.
 ```csharp
 public MyClass
 {
   public string name { get; set; }
   public int id { get; }
 }
-
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODMzMjI2Nyw4MjEyNzg2NDUsLTE4NT
-UyOTMzOTIsNDM2NDQwNjYyXX0=
+eyJoaXN0b3J5IjpbLTEyMDA3MTk4NTksODIxMjc4NjQ1LC0xOD
+U1MjkzMzkyLDQzNjQ0MDY2Ml19
 -->
