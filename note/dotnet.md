@@ -13,8 +13,8 @@ $ dotnet new console
 
 You can **convert a number to a string** using the `ToString` method.
 ```csharp
-var number = 5;
-
+int numberInt = 5;
+string numberString = numberInt.ToString();
 ```
 
 ## Classes
@@ -84,6 +84,6 @@ public MyClass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODk0OTE5Nyw4MjEyNzg2NDUsLTE4NT
+eyJoaXN0b3J5IjpbMTI4NTc4NDU3Niw4MjEyNzg2NDUsLTE4NT
 UyOTMzOTIsNDM2NDQwNjYyXX0=
 -->
