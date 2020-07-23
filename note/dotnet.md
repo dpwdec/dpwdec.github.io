@@ -53,12 +53,12 @@ You can **control permissions on public variables** using `get` and `set` syntax
 public MyClass
 {
   public string name { get; set; }
-  public int age { get; }
+  public int id { get; }
 }
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODM4MDc5NSw4MjEyNzg2NDUsLTE4NT
+eyJoaXN0b3J5IjpbLTY2ODMzMjI2Nyw4MjEyNzg2NDUsLTE4NT
 UyOTMzOTIsNDM2NDQwNjYyXX0=
 -->
