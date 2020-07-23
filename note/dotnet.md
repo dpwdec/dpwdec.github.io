@@ -52,8 +52,8 @@ You can **control permissions on public variables** using `get` and `set` syntax
 ```csharp
 public MyClass
 {
-  public string name { get; set; }
-  public int id { get; }
+  public string Name { get; set; }
+  public int Id { get; }
 }
 ```
 
@@ -61,11 +61,11 @@ public MyClass
 ```csharp
 public MyClass
 {
-  private int secretNumber;
+  private int SecretNumber;
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTc4ODk0Myw4MjEyNzg2NDUsLTE4NT
-UyOTMzOTIsNDM2NDQwNjYyXX0=
+eyJoaXN0b3J5IjpbLTE2MjQ0NDIwNjUsODIxMjc4NjQ1LC0xOD
+U1MjkzMzkyLDQzNjQ0MDY2Ml19
 -->
