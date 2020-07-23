@@ -721,7 +721,7 @@ let foo = {
 
 ### Assign
 
-You **can re-assign or copy the properties of an object to a different object** by using the `Object.assign` method. This `assign` will overwrite any already existing properties and add any new ones.
+You **can re-assign or copy the properties of an object to a different object** by using the `Object.assign` method which provides a powerful interface for *composing* objects. This `assign` will overwrite any already existing properties and add any new ones.
 ```js
 let old = {
   name: 'Foo'
@@ -737,7 +737,7 @@ Object.assign(old, updated)
 console.log(old) // => { name: 'Bar', age: 10 }
 ```
 
-You **can use this method with multiple source objects as well**.
+You **can use this method with multiple source objects as well**. Here the `name` from `b` overwrite the `name` in `a` and the property `age` of `c` is copied over.
 ```js
 let a = {
   name: 'Foo'
@@ -1394,11 +1394,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDEzOTY3MSwtMTcyNzQ2MjA3NiwtMj
-AzMDI1NTYwMCwtNDQyNzQxMjc1LDE0MDUxNjE3NjksLTM2NTcx
-NzIxLDEyNTUwNDMzMjYsMTU2MDQ1MDgxOSwtOTY2NDYzNjc0LC
-0xNzQ5OTM3Mzg4LDU4NTYwNTk5MywtMTU3OTc4MTEyOCwxMDAw
-OTU5ODc5LDE1NjE0NTEzMTgsLTkzMDgwNjMzNCwtMjEwMTU2Mj
-c3MCwyMDY0NjIwMTE5LDEzNjg0NDQ2MDksLTYwNDc1MTcwNiwx
-NDI3MzY5MzQ2XX0=
+eyJoaXN0b3J5IjpbLTEzMTQ3NDMwMTUsLTE3Mjc0NjIwNzYsLT
+IwMzAyNTU2MDAsLTQ0Mjc0MTI3NSwxNDA1MTYxNzY5LC0zNjU3
+MTcyMSwxMjU1MDQzMzI2LDE1NjA0NTA4MTksLTk2NjQ2MzY3NC
+wtMTc0OTkzNzM4OCw1ODU2MDU5OTMsLTE1Nzk3ODExMjgsMTAw
+MDk1OTg3OSwxNTYxNDUxMzE4LC05MzA4MDYzMzQsLTIxMDE1Nj
+I3NzAsMjA2NDYyMDExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MDYs
+MTQyNzM2OTM0Nl19
 -->
