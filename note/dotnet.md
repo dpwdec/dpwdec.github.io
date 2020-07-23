@@ -19,9 +19,11 @@ string numberString = numberInt.ToString();
 
 ## List
 
-The `List` is a data structure that offers a resizable list of elements. To **start using the `List` data structure** you must import `using  System.Collections.Generic`. The `List` object is defined with a generic `T` type as `List<T>` which you must supply when constructing a new list object. To **create a new list** use the `new` keyword as you would 
+The `List` is a data structure that offers a resizable list of elements. To **start using the `List` data structure** you must import `using  System.Collections.Generic`. The `List` object is defined with a generic `T` type as `List<T>` which you must supply when constructing a new list object. To **create a new list** use the `new` keyword as you would with any new object instance with the type of the container in `< >` brackets. You **initialize the contents of a list inline** by containing the content in `{ }` curly brackets after the definition.
 ```csharp
+using  System.Collections.Generic;
 
+var names = new List<string> { "John", "James", "Jacob" };
 ```
 
 ## Classes
@@ -91,7 +93,7 @@ public MyClass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDg3OTY0MzksMTAxMTAxODYwNSwtND
+eyJoaXN0b3J5IjpbLTE0MDEzMTEyOTAsMTAxMTAxODYwNSwtND
 Q1MzY5OTc1LDEyODU3ODQ1NzYsODIxMjc4NjQ1LC0xODU1Mjkz
 MzkyLDQzNjQ0MDY2Ml19
 -->
