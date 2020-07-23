@@ -68,7 +68,7 @@ class MyClass
 }
 
 var myClass = new MyClass();
-my
+myClass.distance; // => 40
 ```
 
 ### Permissions
@@ -104,7 +104,7 @@ public MyClass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTM0Nzc3NywtMTQwMTMxMTI5MCwxMD
-ExMDE4NjA1LC00NDUzNjk5NzUsMTI4NTc4NDU3Niw4MjEyNzg2
-NDUsLTE4NTUyOTMzOTIsNDM2NDQwNjYyXX0=
+eyJoaXN0b3J5IjpbLTE5MjMxMjI1MDYsLTE0MDEzMTEyOTAsMT
+AxMTAxODYwNSwtNDQ1MzY5OTc1LDEyODU3ODQ1NzYsODIxMjc4
+NjQ1LC0xODU1MjkzMzkyLDQzNjQ0MDY2Ml19
 -->
