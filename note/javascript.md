@@ -766,11 +766,11 @@ console.log(old) // => { name: 'Foo', age: 20, height: 1.96 }
 
 ### Object Spread
 
-There is a **shorter version of `Object.assign`** called the **object spread syntax** which uses `...` three periods before each object to be copied into anther object.
+There is a **shorter version of `Object.assign`** called the **object spread syntax** which uses `...` three periods before each object to be copied into anther object. All this does it iterate through the properties of the source object and assign or overwrite properties on the target object.
 ```js
 const a = {a: 'a'}
 const b = {b: 'b'}
-const c = {
+const c = {...a, ...b} // => {a: 'a', b: 'b'}
 ```
 
 ## JSON
@@ -1374,7 +1374,7 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5MzM3MjgyLC0xNzI3NDYyMDc2LC0yMD
+eyJoaXN0b3J5IjpbODM2OTk4ODA4LC0xNzI3NDYyMDc2LC0yMD
 MwMjU1NjAwLC00NDI3NDEyNzUsMTQwNTE2MTc2OSwtMzY1NzE3
 MjEsMTI1NTA0MzMyNiwxNTYwNDUwODE5LC05NjY0NjM2NzQsLT
 E3NDk5MzczODgsNTg1NjA1OTkzLC0xNTc5NzgxMTI4LDEwMDA5
