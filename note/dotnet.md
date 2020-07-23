@@ -9,7 +9,13 @@ You can **create a new console application** by using `dotnet new` command with 
 $ dotnet new console
 ```
 
+## Classes
+You can **define a class** by using the `class` keyword followed by the name of the class written in `PascalCase`.
+```c#
+class MyClass
+{
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2NDQwNjYyXX0=
+eyJoaXN0b3J5IjpbMTk5NTMwODgxNiw0MzY0NDA2NjJdfQ==
 -->
