@@ -37,7 +37,7 @@ var myClass = new MyClass("Lonathan", 100);
 
 ### Permissions
 
-**Public variables are accessible with `get` and `set` by default.** If you define a public variable on a class then it *can* be modified.
+**Public variables are accessible and mutable by external code by default.** If you define a public variable on a class then it *can* be modified by external code.
 ```csharp
 public MyClass
 {
@@ -57,7 +57,16 @@ public MyClass
 }
 ```
 
+**Private variables are only accessible from within the class they are defined in**.
+```csharp
+public MyClass
+{
+  public string name { get; set; }
+  public int id { get; }
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDA3MTk4NTksODIxMjc4NjQ1LC0xOD
-U1MjkzMzkyLDQzNjQ0MDY2Ml19
+eyJoaXN0b3J5IjpbMTkwODI0MzA0Miw4MjEyNzg2NDUsLTE4NT
+UyOTMzOTIsNDM2NDQwNjYyXX0=
 -->
