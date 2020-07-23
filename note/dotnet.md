@@ -61,12 +61,11 @@ public MyClass
 ```csharp
 public MyClass
 {
-  public string name { get; set; }
-  public int id { get; }
+  private int secretNumber;
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODI0MzA0Miw4MjEyNzg2NDUsLTE4NT
+eyJoaXN0b3J5IjpbMTE4MTc4ODk0Myw4MjEyNzg2NDUsLTE4NT
 UyOTMzOTIsNDM2NDQwNjYyXX0=
 -->
