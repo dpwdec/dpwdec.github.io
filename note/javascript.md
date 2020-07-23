@@ -719,6 +719,10 @@ let foo = {
 }
 ```
 
+### Assign
+
+You **can assign the fields in an object without retrieving ** 
+
 ## JSON
 
 JSON is a format for serializing javascript objects. You can **`parse` a JSON string into a javascript object** using the `JSON.parse` method.
@@ -1320,11 +1324,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzAyNTU2MDAsLTQ0Mjc0MTI3NSwxND
-A1MTYxNzY5LC0zNjU3MTcyMSwxMjU1MDQzMzI2LDE1NjA0NTA4
-MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OCw1ODU2MDU5OTMsLT
-E1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNTYxNDUxMzE4LC05MzA4
-MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYyMDExOSwxMzY4NDQ0Nj
-A5LC02MDQ3NTE3MDYsMTQyNzM2OTM0Niw5NDgwODI4NDcsLTEw
-MjQ0MzA3MV19
+eyJoaXN0b3J5IjpbNTgzNzcxNTc4LC0yMDMwMjU1NjAwLC00ND
+I3NDEyNzUsMTQwNTE2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMy
+NiwxNTYwNDUwODE5LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNT
+g1NjA1OTkzLC0xNTc5NzgxMTI4LDEwMDA5NTk4NzksMTU2MTQ1
+MTMxOCwtOTMwODA2MzM0LC0yMTAxNTYyNzcwLDIwNjQ2MjAxMT
+ksMTM2ODQ0NDYwOSwtNjA0NzUxNzA2LDE0MjczNjkzNDYsOTQ4
+MDgyODQ3XX0=
 -->
