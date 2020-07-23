@@ -60,6 +60,14 @@ You can **create a new instance of a class** by using the `new` keyword with the
 var myClass = new MyClass("Lonathan", 100);
 ```
 
+You can **initialise default class member values** from within the body of the class.
+```csharp
+class MyClass
+{
+  public int distance = 40;
+}
+```
+
 ### Permissions
 
 **Public variables are accessible and mutable by external code by default.** If you define a public variable on a class then it *can* be modified by external code.
@@ -93,7 +101,7 @@ public MyClass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDEzMTEyOTAsMTAxMTAxODYwNSwtND
-Q1MzY5OTc1LDEyODU3ODQ1NzYsODIxMjc4NjQ1LC0xODU1Mjkz
-MzkyLDQzNjQ0MDY2Ml19
+eyJoaXN0b3J5IjpbLTE0MzM3NjA4OTUsLTE0MDEzMTEyOTAsMT
+AxMTAxODYwNSwtNDQ1MzY5OTc1LDEyODU3ODQ1NzYsODIxMjc4
+NjQ1LC0xODU1MjkzMzkyLDQzNjQ0MDY2Ml19
 -->
