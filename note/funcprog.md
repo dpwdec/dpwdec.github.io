@@ -32,7 +32,12 @@ Imperative programming works with statements
 Functional programming works with expressions
 
 The value that an expression evaluates to can be given a name.
+
+```js
+[1, 2, 3]
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwMzUyOTA3LDM2ODM5MTY4OCw1MDcwOD
-M3MjgsMTQ5NjY5MjIxLC01NDAyNzIxNjNdfQ==
+eyJoaXN0b3J5IjpbMjEzODUwNDU1NCw2NTAzNTI5MDcsMzY4Mz
+kxNjg4LDUwNzA4MzcyOCwxNDk2NjkyMjEsLTU0MDI3MjE2M119
+
 -->
