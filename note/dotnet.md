@@ -103,11 +103,14 @@ public MyClass
 
 ## Functions
 
-You can **define an anonymous function** using the `Func` object. When declaring a `Func` you should follow it by `< >` angle brackets with the input argu
+You can **define an anonymous function** using the `Func` object. When declaring a `Func` you should follow it by `< >` angle brackets with the input argument type and return type. You can use standard lambda calculus syntax to define anonymous functions.
+```csharp
+Func<int, int> double = x => x * 2
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0NTc0NjkyLC0xNDAxMzExMjkwLDEwMT
-EwMTg2MDUsLTQ0NTM2OTk3NSwxMjg1Nzg0NTc2LDgyMTI3ODY0
-NSwtMTg1NTI5MzM5Miw0MzY0NDA2NjJdfQ==
+eyJoaXN0b3J5IjpbLTM4MzA5MjExNCwtMTQwMTMxMTI5MCwxMD
+ExMDE4NjA1LC00NDUzNjk5NzUsMTI4NTc4NDU3Niw4MjEyNzg2
+NDUsLTE4NTUyOTMzOTIsNDM2NDQwNjYyXX0=
 -->
