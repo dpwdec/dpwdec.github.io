@@ -36,6 +36,8 @@ public MyClass
 {
   public string name;
 }
+
+var myClass = new MyClass();
 ```
 
 ### Instances
@@ -46,6 +48,6 @@ var myClass = new MyClass("Lonathan", 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwODM4Mzk2LDgyMTI3ODY0NSwtMTg1NT
+eyJoaXN0b3J5IjpbNzQ3NzU3NTY2LDgyMTI3ODY0NSwtMTg1NT
 I5MzM5Miw0MzY0NDA2NjJdfQ==
 -->
