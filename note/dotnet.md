@@ -66,6 +66,9 @@ class MyClass
 {
   public int distance = 40;
 }
+
+var myClass = new MyClass();
+my
 ```
 
 ### Permissions
@@ -101,7 +104,7 @@ public MyClass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzM3NjA4OTUsLTE0MDEzMTEyOTAsMT
-AxMTAxODYwNSwtNDQ1MzY5OTc1LDEyODU3ODQ1NzYsODIxMjc4
-NjQ1LC0xODU1MjkzMzkyLDQzNjQ0MDY2Ml19
+eyJoaXN0b3J5IjpbMTUwNTM0Nzc3NywtMTQwMTMxMTI5MCwxMD
+ExMDE4NjA1LC00NDUzNjk5NzUsMTI4NTc4NDU3Niw4MjEyNzg2
+NDUsLTE4NTUyOTMzOTIsNDM2NDQwNjYyXX0=
 -->
