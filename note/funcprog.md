@@ -30,7 +30,9 @@ A function is **pure** if you can replace the entire function with the
 Imperative programming works with statements
 
 Functional programming works with expressions
+
+The value that an expression evaluates to can be given a name.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyODIwMTc4LDM2ODM5MTY4OCw1MDcwOD
+eyJoaXN0b3J5IjpbNjUwMzUyOTA3LDM2ODM5MTY4OCw1MDcwOD
 M3MjgsMTQ5NjY5MjIxLC01NDAyNzIxNjNdfQ==
 -->
