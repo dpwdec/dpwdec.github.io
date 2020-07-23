@@ -19,7 +19,10 @@ string numberString = numberInt.ToString();
 
 ## List
 
+The `List` is a data structure that offers a resizable list of elements.
+```csharp
 
+```
 
 ## Classes
 
@@ -88,7 +91,7 @@ public MyClass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxODc2MjI2MywtNDQ1MzY5OTc1LDEyOD
+eyJoaXN0b3J5IjpbMTAxMTAxODYwNSwtNDQ1MzY5OTc1LDEyOD
 U3ODQ1NzYsODIxMjc4NjQ1LC0xODU1MjkzMzkyLDQzNjQ0MDY2
 Ml19
 -->
