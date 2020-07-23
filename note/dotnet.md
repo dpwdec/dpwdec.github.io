@@ -27,6 +27,14 @@ public MyClass(string name, int age)
 }
 ```
 
+### Instances
+
+You can **create a new instance of a class** by using the `new` keyword with the class name and valid constructor.
+```csharp
+var myClass = new MyClass("Lonathan", 100
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTUyOTMzOTIsNDM2NDQwNjYyXX0=
+eyJoaXN0b3J5IjpbLTc5ODA5MjM0OSwtMTg1NTI5MzM5Miw0Mz
+Y0NDA2NjJdfQ==
 -->
