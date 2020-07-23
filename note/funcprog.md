@@ -25,8 +25,12 @@ If you call a function and don't use its return type you are probably using an i
 
 A function is **pure** if you can replace the entire function with the 
 
-## Imperative vs Fu
+## Imperative vs Functional
+
+Imperative programming works with statements
+
+Functional programming works with expressions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTgxODQzMiwzNjgzOTE2ODgsNTA3MD
-gzNzI4LDE0OTY2OTIyMSwtNTQwMjcyMTYzXX0=
+eyJoaXN0b3J5IjpbMzQyODIwMTc4LDM2ODM5MTY4OCw1MDcwOD
+M3MjgsMTQ5NjY5MjIxLC01NDAyNzIxNjNdfQ==
 -->
