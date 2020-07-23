@@ -9,6 +9,10 @@ You can **create a new console application** by using `dotnet new` command with 
 $ dotnet new console
 ```
 
+## Strings
+
+You can **convert a number to a string** usin
+
 ## Classes
 
 You can **define a class** by using the `class` keyword followed by the name of the class written in `PascalCase`.
@@ -28,7 +32,7 @@ public MyClass(string name, int age)
 }
 ```
 
-You can **define a static "class" varaible** by using the `static` keyword. This is shared amongst ALL instances of the class.
+You can **define a static "class" varaible** by using the `static` keyword. This is shared amongst ALL instances of the class. These can also be assigned *within* the class they are defined in.
 ```csharp
 class MyClass
 {
@@ -76,6 +80,6 @@ public MyClass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjU5NDk4Nyw4MjEyNzg2NDUsLTE4NT
-UyOTMzOTIsNDM2NDQwNjYyXX0=
+eyJoaXN0b3J5IjpbLTEwMDMxMTgyMTgsODIxMjc4NjQ1LC0xOD
+U1MjkzMzkyLDQzNjQ0MDY2Ml19
 -->
