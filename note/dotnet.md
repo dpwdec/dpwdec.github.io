@@ -11,7 +11,11 @@ $ dotnet new console
 
 ## Strings
 
-You can **convert a number to a string** usin
+You can **convert a number to a string** using the `ToString` method.
+```csharp
+var number = 5;
+
+```
 
 ## Classes
 
@@ -80,6 +84,6 @@ public MyClass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDMxMTgyMTgsODIxMjc4NjQ1LC0xOD
-U1MjkzMzkyLDQzNjQ0MDY2Ml19
+eyJoaXN0b3J5IjpbMTQzODk0OTE5Nyw4MjEyNzg2NDUsLTE4NT
+UyOTMzOTIsNDM2NDQwNjYyXX0=
 -->
