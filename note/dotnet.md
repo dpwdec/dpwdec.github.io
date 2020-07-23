@@ -32,7 +32,7 @@ You can **define a static "class" varaible** by using the `static` keyword. This
 ```csharp
 class MyClass
 {
-  
+  static string ClassName = "My Class";
 }
 ```
 
@@ -76,6 +76,6 @@ public MyClass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5MzI3MzgzLDgyMTI3ODY0NSwtMTg1NT
-I5MzM5Miw0MzY0NDA2NjJdfQ==
+eyJoaXN0b3J5IjpbMTI1MjU5NDk4Nyw4MjEyNzg2NDUsLTE4NT
+UyOTMzOTIsNDM2NDQwNjYyXX0=
 -->
