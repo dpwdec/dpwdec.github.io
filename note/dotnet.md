@@ -11,15 +11,18 @@ $ dotnet new console
 
 ## Classes
 You can **define a class** by using the `class` keyword followed by the name of the class written in `PascalCase`.
-```c#
+```csharp
 class MyClass
 {
   // class stuff
 }
 ```
 
-You can **define a class constructor** by using the 
+You can **define a class constructor** by defining a method inside the class that matches the name of the class definition. The `this` keyword is used to define instance variable assignment.
+```csharp
+public MyClass(string name, 
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTg0MjA4Niw0MzY0NDA2NjJdfQ==
+eyJoaXN0b3J5IjpbNjgzNzU3MDUxLDQzNjQ0MDY2Ml19
 -->
