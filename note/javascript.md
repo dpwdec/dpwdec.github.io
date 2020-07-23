@@ -751,9 +751,9 @@ let c = {
   age: 10
 }
 
-Object.assign(old, updated) 
+Object.assign(a, b, c) 
 
-console.log(old) // => { name: 'Bar', age: 10 }
+console.log(a) // => { name: 'Bar', age: 10 }
 ```
 
 You can **re-assign a field of an object** by submitting a variable with the new value as an argument in `{ }` curly brackets. This will mutate the target object to update only part of it and carry over new information.
@@ -1394,11 +1394,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MjM4MDI5LC0xNzI3NDYyMDc2LC0yMD
-MwMjU1NjAwLC00NDI3NDEyNzUsMTQwNTE2MTc2OSwtMzY1NzE3
-MjEsMTI1NTA0MzMyNiwxNTYwNDUwODE5LC05NjY0NjM2NzQsLT
-E3NDk5MzczODgsNTg1NjA1OTkzLC0xNTc5NzgxMTI4LDEwMDA5
-NTk4NzksMTU2MTQ1MTMxOCwtOTMwODA2MzM0LC0yMTAxNTYyNz
-cwLDIwNjQ2MjAxMTksMTM2ODQ0NDYwOSwtNjA0NzUxNzA2LDE0
-MjczNjkzNDZdfQ==
+eyJoaXN0b3J5IjpbMTM1NDEzOTY3MSwtMTcyNzQ2MjA3NiwtMj
+AzMDI1NTYwMCwtNDQyNzQxMjc1LDE0MDUxNjE3NjksLTM2NTcx
+NzIxLDEyNTUwNDMzMjYsMTU2MDQ1MDgxOSwtOTY2NDYzNjc0LC
+0xNzQ5OTM3Mzg4LDU4NTYwNTk5MywtMTU3OTc4MTEyOCwxMDAw
+OTU5ODc5LDE1NjE0NTEzMTgsLTkzMDgwNjMzNCwtMjEwMTU2Mj
+c3MCwyMDY0NjIwMTE5LDEzNjg0NDQ2MDksLTYwNDc1MTcwNiwx
+NDI3MzY5MzQ2XX0=
 -->
