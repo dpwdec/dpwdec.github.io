@@ -721,7 +721,19 @@ let foo = {
 
 ### Assign
 
-You **can assign the fields in an object without retrieving ** 
+You **can re-assign an object to a different object** by using the `Object.assign` method.
+```js
+let old = {
+  name: 'Foo'
+}
+
+let updated = {
+  name: 'Bar'
+}
+
+Object.assign(old, updated) 
+// =>
+```
 
 ## JSON
 
@@ -1324,7 +1336,7 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzNzcxNTc4LC0yMDMwMjU1NjAwLC00ND
+eyJoaXN0b3J5IjpbNjE1Mjg5NDMzLC0yMDMwMjU1NjAwLC00ND
 I3NDEyNzUsMTQwNTE2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMy
 NiwxNTYwNDUwODE5LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNT
 g1NjA1OTkzLC0xNTc5NzgxMTI4LDEwMDA5NTk4NzksMTU2MTQ1
