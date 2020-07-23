@@ -25,7 +25,8 @@ If you call a function and don't use its return type you are probably using an i
 
 A function is **pure** if you can replace the entire function with the 
 
+## Imperative vs Fu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4MzkxNjg4LDUwNzA4MzcyOCwxNDk2Nj
-kyMjEsLTU0MDI3MjE2M119
+eyJoaXN0b3J5IjpbMTIxNTgxODQzMiwzNjgzOTE2ODgsNTA3MD
+gzNzI4LDE0OTY2OTIyMSwtNTQwMjcyMTYzXX0=
 -->
