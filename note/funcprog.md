@@ -33,11 +33,12 @@ Functional programming works with expressions
 
 The value that an expression evaluates to can be given a name.
 
+`[1, 2, 3]` is an expression and the "result" of this expression can be assigned to a variable.
 ```js
-[1, 2, 3]
+const x = [1, 2, 3]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODUwNDU1NCw2NTAzNTI5MDcsMzY4Mz
-kxNjg4LDUwNzA4MzcyOCwxNDk2NjkyMjEsLTU0MDI3MjE2M119
-
+eyJoaXN0b3J5IjpbLTIwOTc5ODU0ODIsMjEzODUwNDU1NCw2NT
+AzNTI5MDcsMzY4MzkxNjg4LDUwNzA4MzcyOCwxNDk2NjkyMjEs
+LTU0MDI3MjE2M119
 -->
