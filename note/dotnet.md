@@ -101,10 +101,13 @@ public MyClass
 }
 ```
 
+## Functions
+
+You can **define an anonymous function** using the `Func` object. When declaring a `Func` you should follow it by `< >` angle brackets with the input argu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjMxMjI1MDYsLTE0MDEzMTEyOTAsMT
-AxMTAxODYwNSwtNDQ1MzY5OTc1LDEyODU3ODQ1NzYsODIxMjc4
-NjQ1LC0xODU1MjkzMzkyLDQzNjQ0MDY2Ml19
+eyJoaXN0b3J5IjpbOTU0NTc0NjkyLC0xNDAxMzExMjkwLDEwMT
+EwMTg2MDUsLTQ0NTM2OTk3NSwxMjg1Nzg0NTc2LDgyMTI3ODY0
+NSwtMTg1NTI5MzM5Miw0MzY0NDA2NjJdfQ==
 -->
