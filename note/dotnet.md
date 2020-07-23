@@ -28,6 +28,14 @@ public MyClass(string name, int age)
 }
 ```
 
+You can **define a static "class" varaible** by using the `static` keyword. This is shared amongst ALL instances of the class.
+```csharp
+class MyClass
+{
+  
+}
+```
+
 ### Instances
 
 You can **create a new instance of a class** by using the `new` keyword with the class name and valid constructor.
@@ -57,7 +65,7 @@ public MyClass
 }
 ```
 
-**Private variables are only accessible from within the class they are defined in**. 
+**Private variables are only accessible from within the class they are defined in**. Some developers like to go further and prefix private variables with an `_` underscore as well.
 ```csharp
 public MyClass
 {
@@ -65,7 +73,9 @@ public MyClass
 }
 ```
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyMDA1MTMsODIxMjc4NjQ1LC0xODU1Mj
-kzMzkyLDQzNjQ0MDY2Ml19
+eyJoaXN0b3J5IjpbNzA5MzI3MzgzLDgyMTI3ODY0NSwtMTg1NT
+I5MzM5Miw0MzY0NDA2NjJdfQ==
 -->
