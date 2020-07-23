@@ -30,7 +30,7 @@ public MyClass(string name, int age)
 
 ### Permissions
 
-Public variables are 
+Public variables are accessible with `get` and `set` by default.
 
 ### Instances
 
@@ -40,6 +40,6 @@ var myClass = new MyClass("Lonathan", 100);
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTgxNzY2Niw4MjEyNzg2NDUsLTE4NT
+eyJoaXN0b3J5IjpbMTUxMzYxNjA1MSw4MjEyNzg2NDUsLTE4NT
 UyOTMzOTIsNDM2NDQwNjYyXX0=
 -->
