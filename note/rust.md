@@ -368,7 +368,14 @@ When structs **implement a trait with a default implementation** they can simply
 impl Foo for eggs { } // default implementation
 ```
 
-You can also **call other un-implemented trait methods from default implementations** that the struct 
+You can also **call other trait methods from default implementations**.
+```rust
+pub trait Foo {
+  fn bar(&self) -> String {
+    format!("Hello there...{}", )
+  }
+}
+```
 
 ## Panic
 
@@ -397,7 +404,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTY0NjA4MTAsLTE3OTQ1OTY3NiwyMD
+eyJoaXN0b3J5IjpbLTIxMDE0ODc1MTcsLTE3OTQ1OTY3NiwyMD
 g4NDkyMzc3LDIwNjE1MDYxNTAsLTEwNjk1Njg4OTYsMTkzNjMx
 MTcwOCw0MTE2NTEwLC02OTk4MTQ4NzMsOTk1Njg0OTMzLC0xNj
 cwOTM5MjEzLC0xNzQxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3
