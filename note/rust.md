@@ -374,6 +374,8 @@ pub trait Foo {
   fn bar(&self) -> String {
     format!("Hello there...{}", self.baz())
   }
+
+  fn baz(&self) -> String;
 }
 ```
 
@@ -404,7 +406,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODQwOTUwNywtMTc5NDU5Njc2LDIwOD
+eyJoaXN0b3J5IjpbMTA2MDU1NTIzMiwtMTc5NDU5Njc2LDIwOD
 g0OTIzNzcsMjA2MTUwNjE1MCwtMTA2OTU2ODg5NiwxOTM2MzEx
 NzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2Nz
 A5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcx
