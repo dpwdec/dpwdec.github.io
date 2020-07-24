@@ -131,10 +131,17 @@ You can **define an anonymous function** using the `Func` object. When declaring
 Func<int, int> double = x => x * 2
 ```
 
+## Date and Time
+
+You can **get the current date and time** using the `DateTime` class with the `Now` method.
+```csharp
+DateTime.Now;
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjMxMTkxNywtMTYwNTYyNjcxMyw1OD
-E3MjU0MjksLTM4MzA5MjExNCwtMTQwMTMxMTI5MCwxMDExMDE4
-NjA1LC00NDUzNjk5NzUsMTI4NTc4NDU3Niw4MjEyNzg2NDUsLT
-E4NTUyOTMzOTIsNDM2NDQwNjYyXX0=
+eyJoaXN0b3J5IjpbLTE1Mjk5NDYyNzUsMTU0NjMxMTkxNywtMT
+YwNTYyNjcxMyw1ODE3MjU0MjksLTM4MzA5MjExNCwtMTQwMTMx
+MTI5MCwxMDExMDE4NjA1LC00NDUzNjk5NzUsMTI4NTc4NDU3Ni
+w4MjEyNzg2NDUsLTE4NTUyOTMzOTIsNDM2NDQwNjYyXX0=
 -->
