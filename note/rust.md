@@ -357,8 +357,15 @@ You can **import traits to implement from anywhere in your project.** But you ca
 You can **provide a default implementation** for a trait.
 ```rust
 pub trait Foo {
-  fn Bar
+  fn bar(&self) -> String {
+    format!("This is a default implementation")
+  }
 }
+```
+
+When structs **implement a trait with a default implementation** they can simply leave the `impl` blank to indicate that they want to use the default implementation **or they can override the default** by redefining the trait's method.
+```rust
+
 ```
 
 ## Panic
@@ -388,7 +395,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NjExMDIwMSwtMTc5NDU5Njc2LDIwOD
+eyJoaXN0b3J5IjpbLTU1OTgwMzcxNywtMTc5NDU5Njc2LDIwOD
 g0OTIzNzcsMjA2MTUwNjE1MCwtMTA2OTU2ODg5NiwxOTM2MzEx
 NzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2Nz
 A5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcx
