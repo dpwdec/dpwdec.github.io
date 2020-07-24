@@ -822,7 +822,17 @@ o = {
 
 const { foo, baz } = o;
 foo; // => bar
-baz
+baz; // => Qux
+```
+
+You can **assign a different name to your destructuring** by using `:` colon syntax inside the `{}` curly braces.
+```js
+o = {
+  foo: 'bar'
+}
+
+const { FOO: foo } = o;
+foo; // => bar
 ```
 
 
@@ -1437,7 +1447,7 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODk0OTc5OTMsLTExMjI5MTk4ODAsOT
+eyJoaXN0b3J5IjpbLTE3NzYzOTc4MTMsLTExMjI5MTk4ODAsOT
 IyMTUxNjQ0LC00MjgxMzAzNjksLTEzMTQ3NDMwMTUsLTE3Mjc0
 NjIwNzYsLTIwMzAyNTU2MDAsLTQ0Mjc0MTI3NSwxNDA1MTYxNz
 Y5LC0zNjU3MTcyMSwxMjU1MDQzMzI2LDE1NjA0NTA4MTksLTk2
