@@ -425,7 +425,7 @@ fn use_foo<T: Foo + Qux>(foo: T) {
 
 You can **define multiple trait argument types** by comma separating them.
 ```rust
-fn use_foo<T: Foo + Qux, U: Qux + Debug>(foo: T) {
+fn use_foo<T: Foo + Qux, U: Qux + Debug>(eggs: T, spam: U) {
   // code using Foo and Qux trait methods
 }
 ```
@@ -467,11 +467,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDk3NjU3OTAsLTcxODEzNjM2MCwtMT
-c5NDU5Njc2LDIwODg0OTIzNzcsMjA2MTUwNjE1MCwtMTA2OTU2
-ODg5NiwxOTM2MzExNzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OT
-U2ODQ5MzMsLTE2NzA5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5
-OTI1LDM4MzM0NDcxMSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC
-0xNzEyOTYxMjcxLDEwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEy
-ODI2NjkwXX0=
+eyJoaXN0b3J5IjpbMTY5MzIzMjY4NCwtNzE4MTM2MzYwLC0xNz
+k0NTk2NzYsMjA4ODQ5MjM3NywyMDYxNTA2MTUwLC0xMDY5NTY4
+ODk2LDE5MzYzMTE3MDgsNDExNjUxMCwtNjk5ODE0ODczLDk5NT
+Y4NDkzMywtMTY3MDkzOTIxMywtMTc0MTQ5MTgzMCw4NzAwMzk5
+MjUsMzgzMzQ0NzExLC0zNTI1NzgzNTEsLTE5NTEyMTM4NDQsLT
+E3MTI5NjEyNzEsMTAxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4
+MjY2OTBdfQ==
 -->
