@@ -114,9 +114,9 @@ public int balance
 
 ## Exceptions
 
-You can **throw a new exception** by using the `throw` keyword and creating a `new` instance of an exception with the exception's message as its argument.
+You can **throw a new exception** by using the `throw` keyword and creating a `new` instance of an exception with the exception's message as its argument. The most basic type of exception is `System.Exception`.
 ```csharp
-
+throw new System.Exception("This triggered some exception stuff for some reasonj");
 ```
 
 ## Functions
@@ -128,8 +128,8 @@ Func<int, int> double = x => x * 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEwMjI3NzY3LC0xNjA1NjI2NzEzLDU4MT
-cyNTQyOSwtMzgzMDkyMTE0LC0xNDAxMzExMjkwLDEwMTEwMTg2
-MDUsLTQ0NTM2OTk3NSwxMjg1Nzg0NTc2LDgyMTI3ODY0NSwtMT
-g1NTI5MzM5Miw0MzY0NDA2NjJdfQ==
+eyJoaXN0b3J5IjpbMjAwMTU5MTk2NiwtMTYwNTYyNjcxMyw1OD
+E3MjU0MjksLTM4MzA5MjExNCwtMTQwMTMxMTI5MCwxMDExMDE4
+NjA1LC00NDUzNjk5NzUsMTI4NTc4NDU3Niw4MjEyNzg2NDUsLT
+E4NTUyOTMzOTIsNDM2NDQwNjYyXX0=
 -->
