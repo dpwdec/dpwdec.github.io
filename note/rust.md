@@ -319,8 +319,10 @@ use crate::eggs::ham;
 
 ## Traits
 
+Traits are used to define shared behaviour o
 
 ## Panic
+
 You can **manually trigger a program to panic** by using the `panic!` macro. This macro can take a `str` argument which describes the stack trace error.
 ```rust
 panic!("Your program failed horribly!");
@@ -346,7 +348,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDE4NzQ1NiwyMDg4NDkyMzc3LDIwNj
+eyJoaXN0b3J5IjpbLTgxNTc0NzAyMywyMDg4NDkyMzc3LDIwNj
 E1MDYxNTAsLTEwNjk1Njg4OTYsMTkzNjMxMTcwOCw0MTE2NTEw
 LC02OTk4MTQ4NzMsOTk1Njg0OTMzLC0xNjcwOTM5MjEzLC0xNz
 QxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3MTEsLTM1MjU3ODM1
