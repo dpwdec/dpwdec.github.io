@@ -319,7 +319,7 @@ use crate::eggs::ham;
 
 ## Traits
 
-Traits are used to define shared behaviour o
+Traits are used to define shared behaviour on generics by specifying that some set of generic objects in our system have a shared set things they can do. They are similar to `interfaces` in other languages.
 
 ## Panic
 
@@ -348,7 +348,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTc0NzAyMywyMDg4NDkyMzc3LDIwNj
+eyJoaXN0b3J5IjpbMTA1NTcxODk5NiwyMDg4NDkyMzc3LDIwNj
 E1MDYxNTAsLTEwNjk1Njg4OTYsMTkzNjMxMTcwOCw0MTE2NTEw
 LC02OTk4MTQ4NzMsOTk1Njg0OTMzLC0xNjcwOTM5MjEzLC0xNz
 QxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3MTEsLTM1MjU3ODM1
