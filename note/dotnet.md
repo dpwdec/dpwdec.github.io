@@ -162,6 +162,10 @@ try
 {
   functionThatProducesIOException();
 }
+catch(IOException e)
+{
+
+}
 ```
 
 ## Functions
@@ -180,7 +184,7 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDE3MzA2MTAsODg3MTAwNDkwLDg4ND
+eyJoaXN0b3J5IjpbLTE4NTk0NTQ3MTYsODg3MTAwNDkwLDg4ND
 g2NTQ2OSwtODM0MDMyNjI5LDE1NDYzMTE5MTcsLTE2MDU2MjY3
 MTMsNTgxNzI1NDI5LC0zODMwOTIxMTQsLTE0MDEzMTEyOTAsMT
 AxMTAxODYwNSwtNDQ1MzY5OTc1LDEyODU3ODQ1NzYsODIxMjc4
