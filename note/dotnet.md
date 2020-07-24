@@ -101,7 +101,7 @@ public MyClass
 }
 ```
 
-You can **define implement code for `get` and `set` procedures directly** by expanding and implementing the methods after member definition. This allows you to write more complex implementations for `get` and `set`, however, if you write an implementation for one you must also have an implementation for the other, you cannot have `get` implemented and `set` still using the `set;` syntax. Below is the most basic default implementation, but you can functionally write any code you like here to get and set a member here. The `value` keyword is a special keyword indicating the value that is being passed into the member when it is assigned.
+You can **define implement code for `get` and `set` procedures directly** by expanding and implementing the methods after member definition. This allows you to write more complex implementations for `get` and `set`, however, if you write an implementation for one you must also have an implementation for the other, you cannot have `get` implemented and `set` still using the `set;` syntax. Below is the most basic default implementation, but you can functionally write any code you like here to get and set a member here. The `value` keyword is a special keyword indicating the value that is being passed into the member when it is assigned. By implementing custom `get` and `set` methods **any code inside or outside your class will use these methods for accessing the data**.
 ```csharp
 public int balance
 {
@@ -140,8 +140,8 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjk5NDYyNzUsMTU0NjMxMTkxNywtMT
-YwNTYyNjcxMyw1ODE3MjU0MjksLTM4MzA5MjExNCwtMTQwMTMx
-MTI5MCwxMDExMDE4NjA1LC00NDUzNjk5NzUsMTI4NTc4NDU3Ni
-w4MjEyNzg2NDUsLTE4NTUyOTMzOTIsNDM2NDQwNjYyXX0=
+eyJoaXN0b3J5IjpbLTgzNDAzMjYyOSwxNTQ2MzExOTE3LC0xNj
+A1NjI2NzEzLDU4MTcyNTQyOSwtMzgzMDkyMTE0LC0xNDAxMzEx
+MjkwLDEwMTEwMTg2MDUsLTQ0NTM2OTk3NSwxMjg1Nzg0NTc2LD
+gyMTI3ODY0NSwtMTg1NTI5MzM5Miw0MzY0NDA2NjJdfQ==
 -->
