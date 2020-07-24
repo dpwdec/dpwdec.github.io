@@ -813,6 +813,20 @@ const { foo } = o;
 foo; // => bar
 ```
 
+You can **destructure multiple object fields simultaneously**.
+```js
+o = {
+  foo: 'bar'
+  baz: 'Qux'
+}
+
+const { foo, baz } = o;
+foo; // => bar
+baz
+```
+
+
+
 ### Object Spread
 
 There is a **shorter version of `Object.assign`** called the **object spread syntax** which uses `...` three periods before each object to be copied into anther object. All this does it iterate through the properties of the source object and assign or overwrite properties on the target object.
@@ -1423,11 +1437,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI5MTk4ODAsOTIyMTUxNjQ0LC00Mj
-gxMzAzNjksLTEzMTQ3NDMwMTUsLTE3Mjc0NjIwNzYsLTIwMzAy
-NTU2MDAsLTQ0Mjc0MTI3NSwxNDA1MTYxNzY5LC0zNjU3MTcyMS
-wxMjU1MDQzMzI2LDE1NjA0NTA4MTksLTk2NjQ2MzY3NCwtMTc0
-OTkzNzM4OCw1ODU2MDU5OTMsLTE1Nzk3ODExMjgsMTAwMDk1OT
-g3OSwxNTYxNDUxMzE4LC05MzA4MDYzMzQsLTIxMDE1NjI3NzAs
-MjA2NDYyMDExOV19
+eyJoaXN0b3J5IjpbLTIwODk0OTc5OTMsLTExMjI5MTk4ODAsOT
+IyMTUxNjQ0LC00MjgxMzAzNjksLTEzMTQ3NDMwMTUsLTE3Mjc0
+NjIwNzYsLTIwMzAyNTU2MDAsLTQ0Mjc0MTI3NSwxNDA1MTYxNz
+Y5LC0zNjU3MTcyMSwxMjU1MDQzMzI2LDE1NjA0NTA4MTksLTk2
+NjQ2MzY3NCwtMTc0OTkzNzM4OCw1ODU2MDU5OTMsLTE1Nzk3OD
+ExMjgsMTAwMDk1OTg3OSwxNTYxNDUxMzE4LC05MzA4MDYzMzQs
+LTIxMDE1NjI3NzBdfQ==
 -->
