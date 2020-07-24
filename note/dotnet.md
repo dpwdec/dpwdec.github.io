@@ -168,7 +168,7 @@ catch(IOException e)
 }
 ```
 
-You can **use the `where` clause with `catch` to catch specific exception types** and filter exceptions.
+You can **use the `where` clause with `catch` to catch specific variants of the same exception types** and filter exceptions intuitively. The order in which you filter exceptions matters, when `catch`ing an exception the code will look for the first handler that matches the exception it has and go with that ignoring all other handlers listed afterwards, therefore you should write exception handling from
 ```csharp
 try
 {
@@ -200,7 +200,7 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDA3NDQ1OCw4ODcxMDA0OTAsODg0OD
+eyJoaXN0b3J5IjpbMTA4ODQ5NzY4Myw4ODcxMDA0OTAsODg0OD
 Y1NDY5LC04MzQwMzI2MjksMTU0NjMxMTkxNywtMTYwNTYyNjcx
 Myw1ODE3MjU0MjksLTM4MzA5MjExNCwtMTQwMTMxMTI5MCwxMD
 ExMDE4NjA1LC00NDUzNjk5NzUsMTI4NTc4NDU3Niw4MjEyNzg2
