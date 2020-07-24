@@ -423,16 +423,16 @@ fn use_foo<T: Foo + Qux>(foo: T) {
 }
 ```
 
-You can **define multiple trait argument types** by comma separating them.
+You can **define multiple trait argument types** by comma separating them. The example below defines a function that takes a type `T` that implements `Foo`, `Qux` and `Clone` *and* a type `U` that implements `Qux` and `Debug`.
 ```rust
-fn use_foo<T: Foo + Qux, U: Qux + Debug>(eggs: T, spam: U) {
+fn use_foo<T: Foo + Qux + Clone, U: Qux + Debug>(eggs: T, spam: U) {
   // code using Foo and Qux trait methods
 }
 ```
 
 ### Where syntax
 
-Functions with many trait types and bounds can become difficult to read. You can **use the `where` syntax to define the trait bounding of arguments INSIDE the function that uses them**.
+Functions with many trait types and bounds can become difficult to read. You can **use the `where` syntax to define the trait bounding of arguments INSIDE the function that uses them**. The function below is the same as the function above but written out using the more readable `where` syntax.
 ```rust
 fn use_foo<T, U>(eggs: T, spam: U) {
   where T: Foo + Qux + Clone,
@@ -440,6 +440,8 @@ fn use_foo<T, U>(eggs: T, spam: U) {
   // code that uses trait objects and methods
 }
 ```
+
+
 ## Panic
 
 You can **manually trigger a program to panic** by using the `panic!` macro. This macro can take a `str` argument which describes the stack trace error.
@@ -467,7 +469,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzIzMjY4NCwtNzE4MTM2MzYwLC0xNz
+eyJoaXN0b3J5IjpbMTc1OTY1Mjk0MywtNzE4MTM2MzYwLC0xNz
 k0NTk2NzYsMjA4ODQ5MjM3NywyMDYxNTA2MTUwLC0xMDY5NTY4
 ODk2LDE5MzYzMTE3MDgsNDExNjUxMCwtNjk5ODE0ODczLDk5NT
 Y4NDkzMywtMTY3MDkzOTIxMywtMTc0MTQ5MTgzMCw4NzAwMzk5
