@@ -60,7 +60,7 @@ You can **create a new instance of a class** by using the `new` keyword with the
 var myClass = new MyClass("Lonathan", 100);
 ```
 
-You can **initialise default class member values** from within the body of the class.
+You can **initialise default instance class member values** from within the body of the class.
 ```csharp
 class MyClass
 {
@@ -110,7 +110,7 @@ Func<int, int> double = x => x * 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MzA5MjExNCwtMTQwMTMxMTI5MCwxMD
-ExMDE4NjA1LC00NDUzNjk5NzUsMTI4NTc4NDU3Niw4MjEyNzg2
-NDUsLTE4NTUyOTMzOTIsNDM2NDQwNjYyXX0=
+eyJoaXN0b3J5IjpbNTgxNzI1NDI5LC0zODMwOTIxMTQsLTE0MD
+EzMTEyOTAsMTAxMTAxODYwNSwtNDQ1MzY5OTc1LDEyODU3ODQ1
+NzYsODIxMjc4NjQ1LC0xODU1MjkzMzkyLDQzNjQ0MDY2Ml19
 -->
