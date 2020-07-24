@@ -803,7 +803,7 @@ k; // => c
 v; // => d
 ```
 
-You can **destructure an object** by putting the name of field you want to extact from the object in `{}` curly braces and assigning it from the object. This will take that property and assign it to the variable name.
+You can **destructure an object** by putting the name of field you want to extract from the object in `{}` curly braces and assigning it from the object. This will take that property and assign it to the variable name.
 ```js
 o = {
   foo: 'bar'
@@ -1423,11 +1423,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyMTUxNjQ0LC00MjgxMzAzNjksLTEzMT
-Q3NDMwMTUsLTE3Mjc0NjIwNzYsLTIwMzAyNTU2MDAsLTQ0Mjc0
-MTI3NSwxNDA1MTYxNzY5LC0zNjU3MTcyMSwxMjU1MDQzMzI2LD
-E1NjA0NTA4MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OCw1ODU2
-MDU5OTMsLTE1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNTYxNDUxMz
-E4LC05MzA4MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYyMDExOSwx
-MzY4NDQ0NjA5XX0=
+eyJoaXN0b3J5IjpbLTExMjI5MTk4ODAsOTIyMTUxNjQ0LC00Mj
+gxMzAzNjksLTEzMTQ3NDMwMTUsLTE3Mjc0NjIwNzYsLTIwMzAy
+NTU2MDAsLTQ0Mjc0MTI3NSwxNDA1MTYxNzY5LC0zNjU3MTcyMS
+wxMjU1MDQzMzI2LDE1NjA0NTA4MTksLTk2NjQ2MzY3NCwtMTc0
+OTkzNzM4OCw1ODU2MDU5OTMsLTE1Nzk3ODExMjgsMTAwMDk1OT
+g3OSwxNTYxNDUxMzE4LC05MzA4MDYzMzQsLTIxMDE1NjI3NzAs
+MjA2NDYyMDExOV19
 -->
