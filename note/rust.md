@@ -365,8 +365,10 @@ pub trait Foo {
 
 When structs **implement a trait with a default implementation** they can simply leave the `impl` blank to indicate that they want to use the default implementation **or they can override the default** by redefining the trait's method.
 ```rust
-
+impl Foo for eggs { } // default implementation
 ```
+
+You can also **call other un-implemented trait methods from default implementations** that the struct 
 
 ## Panic
 
@@ -395,11 +397,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1OTgwMzcxNywtMTc5NDU5Njc2LDIwOD
-g0OTIzNzcsMjA2MTUwNjE1MCwtMTA2OTU2ODg5NiwxOTM2MzEx
-NzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2Nz
-A5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcx
-MSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYxMjcxLD
-EwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMy
-MDg4NzBdfQ==
+eyJoaXN0b3J5IjpbLTEyMTY0NjA4MTAsLTE3OTQ1OTY3NiwyMD
+g4NDkyMzc3LDIwNjE1MDYxNTAsLTEwNjk1Njg4OTYsMTkzNjMx
+MTcwOCw0MTE2NTEwLC02OTk4MTQ4NzMsOTk1Njg0OTMzLC0xNj
+cwOTM5MjEzLC0xNzQxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3
+MTEsLTM1MjU3ODM1MSwtMTk1MTIxMzg0NCwtMTcxMjk2MTI3MS
+wxMDEwOTM3ODc5LDI0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgz
+MjA4ODcwXX0=
 -->
