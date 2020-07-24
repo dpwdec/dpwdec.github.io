@@ -354,6 +354,13 @@ impl Foo for Eggs {
 
 You can **import traits to implement from anywhere in your project.** But you can **only implement a new trait for a struct in the file in which that struct is defined**. This limits to altering source code for structs directly so you can't add trait implementations for libraries and external resources without modifying those resources directly.
 
+You can **provide a default implementation** for a trait.
+```rust
+pub trait Foo {
+  fn Bar
+}
+```
+
 ## Panic
 
 You can **manually trigger a program to panic** by using the `panic!` macro. This macro can take a `str` argument which describes the stack trace error.
@@ -381,7 +388,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjE0ODAxMywtMTc5NDU5Njc2LDIwOD
+eyJoaXN0b3J5IjpbLTI1NjExMDIwMSwtMTc5NDU5Njc2LDIwOD
 g0OTIzNzcsMjA2MTUwNjE1MCwtMTA2OTU2ODg5NiwxOTM2MzEx
 NzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2Nz
 A5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcx
