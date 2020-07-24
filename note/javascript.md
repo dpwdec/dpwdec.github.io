@@ -786,11 +786,17 @@ console.log(old) // => { name: 'Foo', age: 20, height: 1.96 }
 
 ### Destructuring
 
-You can **destructure both Objects and Array**. The act of destructuring means breaking down a composite object into its component parts and extracting copies of them.
+You can **destructure both Objects and Array**. The act of destructuring means breaking down a composite object into its component parts and extracting *copies* of them.
 
 You can **destructure an array** by creating a mirrored array of varaibles and assigning to them.
 ```js
+// in line syntax
 const [t, u] = ['a', 'b'];
+t; // => a
+u; // => b
+
+// after assignment syntax
+const arr = ['c', 'd']
 ```
 
 ### Object Spread
@@ -1403,11 +1409,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4NTQzMDM5LC00MjgxMzAzNjksLTEzMT
-Q3NDMwMTUsLTE3Mjc0NjIwNzYsLTIwMzAyNTU2MDAsLTQ0Mjc0
-MTI3NSwxNDA1MTYxNzY5LC0zNjU3MTcyMSwxMjU1MDQzMzI2LD
-E1NjA0NTA4MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OCw1ODU2
-MDU5OTMsLTE1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNTYxNDUxMz
-E4LC05MzA4MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYyMDExOSwx
-MzY4NDQ0NjA5XX0=
+eyJoaXN0b3J5IjpbLTYwMTk1NTIzMywtNDI4MTMwMzY5LC0xMz
+E0NzQzMDE1LC0xNzI3NDYyMDc2LC0yMDMwMjU1NjAwLC00NDI3
+NDEyNzUsMTQwNTE2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMyNi
+wxNTYwNDUwODE5LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNTg1
+NjA1OTkzLC0xNTc5NzgxMTI4LDEwMDA5NTk4NzksMTU2MTQ1MT
+MxOCwtOTMwODA2MzM0LC0yMTAxNTYyNzcwLDIwNjQ2MjAxMTks
+MTM2ODQ0NDYwOV19
 -->
