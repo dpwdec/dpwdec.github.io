@@ -26,6 +26,11 @@ using  System.Collections.Generic;
 var names = new List<string> { "John", "James", "Jacob" };
 ```
 
+You can **add to a `List`** using the List's `Add` method.
+```csharp
+names.Add("Jason");
+```
+
 ## Classes
 
 You can **define a class** by using the `class` keyword followed by the name of the class written in `PascalCase`.
@@ -157,9 +162,9 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQ2MzM0MDcsLTgzNDAzMjYyOSwxNT
-Q2MzExOTE3LC0xNjA1NjI2NzEzLDU4MTcyNTQyOSwtMzgzMDky
-MTE0LC0xNDAxMzExMjkwLDEwMTEwMTg2MDUsLTQ0NTM2OTk3NS
-wxMjg1Nzg0NTc2LDgyMTI3ODY0NSwtMTg1NTI5MzM5Miw0MzY0
-NDA2NjJdfQ==
+eyJoaXN0b3J5IjpbODg0ODY1NDY5LC04MzQwMzI2MjksMTU0Nj
+MxMTkxNywtMTYwNTYyNjcxMyw1ODE3MjU0MjksLTM4MzA5MjEx
+NCwtMTQwMTMxMTI5MCwxMDExMDE4NjA1LC00NDUzNjk5NzUsMT
+I4NTc4NDU3Niw4MjEyNzg2NDUsLTE4NTUyOTMzOTIsNDM2NDQw
+NjYyXX0=
 -->
