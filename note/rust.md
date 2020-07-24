@@ -92,7 +92,9 @@ let my_string = "48";
 let my_number: u32 = my_string.trim().parse()
   .expect("Invalid number")
 ```
-### 
+### Format
+
+The `format!` macro works like the `println!` macro but instead of displaying the output to the `stdout` it returns a `String`
 ## Control Flow
 ## Pattern Matching
 The `match` keyword can be used to match the output of a particular set of enums and execute code based on the result. In the example below `a_num` run a comparison method on `b_num` which returns an enum with three possible outputs - Less, Greater and Equal. The `match` block then executes code based on each possible return type from the enum.
@@ -375,11 +377,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDAxMjc1MTcsLTE3OTQ1OTY3NiwyMD
-g4NDkyMzc3LDIwNjE1MDYxNTAsLTEwNjk1Njg4OTYsMTkzNjMx
-MTcwOCw0MTE2NTEwLC02OTk4MTQ4NzMsOTk1Njg0OTMzLC0xNj
-cwOTM5MjEzLC0xNzQxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3
-MTEsLTM1MjU3ODM1MSwtMTk1MTIxMzg0NCwtMTcxMjk2MTI3MS
-wxMDEwOTM3ODc5LDI0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgz
-MjA4ODcwXX0=
+eyJoaXN0b3J5IjpbMTI1ODQ2ODM1NCwtMTc5NDU5Njc2LDIwOD
+g0OTIzNzcsMjA2MTUwNjE1MCwtMTA2OTU2ODg5NiwxOTM2MzEx
+NzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2Nz
+A5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcx
+MSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYxMjcxLD
+EwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMy
+MDg4NzBdfQ==
 -->
