@@ -156,7 +156,7 @@ throw new System.Exception("This triggered some exception stuff for some reasonj
 
 ## Try and Catch
 
-Code that might throw an exception **should be placed inside a `try` block** and **followed by a `catch` block** with the exception type to be handle as the argument.
+Code that might throw an exception **should be placed inside a `try` block** and **followed by a `catch` block** with the exception type to be handle as the argument. You can **assign the exception object as an argument to a value** and use it in your `catch` block. 
 ```csharp
 try
 {
@@ -164,9 +164,11 @@ try
 }
 catch(IOException e)
 {
-
+  // handle exception here
 }
 ```
+
+You can **use th**
 
 ## Functions
 
@@ -184,7 +186,7 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTk0NTQ3MTYsODg3MTAwNDkwLDg4ND
+eyJoaXN0b3J5IjpbLTExNjUzMzc4ODAsODg3MTAwNDkwLDg4ND
 g2NTQ2OSwtODM0MDMyNjI5LDE1NDYzMTE5MTcsLTE2MDU2MjY3
 MTMsNTgxNzI1NDI5LC0zODMwOTIxMTQsLTE0MDEzMTEyOTAsMT
 AxMTAxODYwNSwtNDQ1MzY5OTc1LDEyODU3ODQ1NzYsODIxMjc4
