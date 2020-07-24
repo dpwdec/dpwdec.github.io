@@ -784,6 +784,10 @@ Object.assign(old, { height })
 console.log(old) // => { name: 'Foo', age: 20, height: 1.96 }
 ```
 
+### Destructuring
+
+You can **destructure both Objects and Array**. The act of destructuring means breaking down a composite object into its component parts and extracting copies of them.
+
 ### Object Spread
 
 There is a **shorter version of `Object.assign`** called the **object spread syntax** which uses `...` three periods before each object to be copied into anther object. All this does it iterate through the properties of the source object and assign or overwrite properties on the target object.
@@ -1394,11 +1398,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTQ3NDMwMTUsLTE3Mjc0NjIwNzYsLT
-IwMzAyNTU2MDAsLTQ0Mjc0MTI3NSwxNDA1MTYxNzY5LC0zNjU3
-MTcyMSwxMjU1MDQzMzI2LDE1NjA0NTA4MTksLTk2NjQ2MzY3NC
-wtMTc0OTkzNzM4OCw1ODU2MDU5OTMsLTE1Nzk3ODExMjgsMTAw
-MDk1OTg3OSwxNTYxNDUxMzE4LC05MzA4MDYzMzQsLTIxMDE1Nj
-I3NzAsMjA2NDYyMDExOSwxMzY4NDQ0NjA5LC02MDQ3NTE3MDYs
-MTQyNzM2OTM0Nl19
+eyJoaXN0b3J5IjpbLTQyODEzMDM2OSwtMTMxNDc0MzAxNSwtMT
+cyNzQ2MjA3NiwtMjAzMDI1NTYwMCwtNDQyNzQxMjc1LDE0MDUx
+NjE3NjksLTM2NTcxNzIxLDEyNTUwNDMzMjYsMTU2MDQ1MDgxOS
+wtOTY2NDYzNjc0LC0xNzQ5OTM3Mzg4LDU4NTYwNTk5MywtMTU3
+OTc4MTEyOCwxMDAwOTU5ODc5LDE1NjE0NTEzMTgsLTkzMDgwNj
+MzNCwtMjEwMTU2Mjc3MCwyMDY0NjIwMTE5LDEzNjg0NDQ2MDks
+LTYwNDc1MTcwNl19
 -->
