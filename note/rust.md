@@ -319,10 +319,11 @@ use crate::eggs::ham;
 
 ## Traits
 
-Traits are used to define shared behaviour on generics by specifying that some set of generic objects in our system have a shared set things they can do. They are similar to `interfaces` in other languages. You can **define a new trait** by using the `trait` keyword.
+Traits are used to define shared behaviour on generics by specifying that some set of generic objects in our system have a shared set things they can do. They are similar to `interfaces` in other languages. You can **define a new trait** by using the `trait` keyword followed by the name of the trait. The trait then describes a set of method signatures (name, in
 ```rust
 pub trait Foo {
   fn Bar(&self) -> String;
+  fn Baz(&self, fac: i32) -> i32;
 }
 ```
 
@@ -353,11 +354,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTE5NjgxMiwyMDg4NDkyMzc3LDIwNj
-E1MDYxNTAsLTEwNjk1Njg4OTYsMTkzNjMxMTcwOCw0MTE2NTEw
-LC02OTk4MTQ4NzMsOTk1Njg0OTMzLC0xNjcwOTM5MjEzLC0xNz
-QxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3MTEsLTM1MjU3ODM1
-MSwtMTk1MTIxMzg0NCwtMTcxMjk2MTI3MSwxMDEwOTM3ODc5LD
-I0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgzMjA4ODcwLDExMjE3
-NTk4ODNdfQ==
+eyJoaXN0b3J5IjpbMjcyNjgzMjE3LDIwODg0OTIzNzcsMjA2MT
+UwNjE1MCwtMTA2OTU2ODg5NiwxOTM2MzExNzA4LDQxMTY1MTAs
+LTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2NzA5MzkyMTMsLTE3ND
+E0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcxMSwtMzUyNTc4MzUx
+LC0xOTUxMjEzODQ0LC0xNzEyOTYxMjcxLDEwMTA5Mzc4NzksMj
+Q1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMyMDg4NzAsMTEyMTc1
+OTg4M119
 -->
