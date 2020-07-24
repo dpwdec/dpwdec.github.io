@@ -107,7 +107,7 @@ public int balance
 {
   get
   {
-    // 
+    // code to compute and return balance
   }
 }
 ```
@@ -121,8 +121,8 @@ Func<int, int> double = x => x * 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTE3NDYzMyw1ODE3MjU0MjksLTM4Mz
-A5MjExNCwtMTQwMTMxMTI5MCwxMDExMDE4NjA1LC00NDUzNjk5
-NzUsMTI4NTc4NDU3Niw4MjEyNzg2NDUsLTE4NTUyOTMzOTIsND
-M2NDQwNjYyXX0=
+eyJoaXN0b3J5IjpbLTE2MDU2MjY3MTMsNTgxNzI1NDI5LC0zOD
+MwOTIxMTQsLTE0MDEzMTEyOTAsMTAxMTAxODYwNSwtNDQ1MzY5
+OTc1LDEyODU3ODQ1NzYsODIxMjc4NjQ1LC0xODU1MjkzMzkyLD
+QzNjQ0MDY2Ml19
 -->
