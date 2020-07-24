@@ -788,6 +788,11 @@ console.log(old) // => { name: 'Foo', age: 20, height: 1.96 }
 
 You can **destructure both Objects and Array**. The act of destructuring means breaking down a composite object into its component parts and extracting copies of them.
 
+You can **destructure an array** by creating a mirrored array of varaibles and assigning to them.
+```js
+const [t, u] = ['a', 'b'];
+```
+
 ### Object Spread
 
 There is a **shorter version of `Object.assign`** called the **object spread syntax** which uses `...` three periods before each object to be copied into anther object. All this does it iterate through the properties of the source object and assign or overwrite properties on the target object.
@@ -1398,11 +1403,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODEzMDM2OSwtMTMxNDc0MzAxNSwtMT
-cyNzQ2MjA3NiwtMjAzMDI1NTYwMCwtNDQyNzQxMjc1LDE0MDUx
-NjE3NjksLTM2NTcxNzIxLDEyNTUwNDMzMjYsMTU2MDQ1MDgxOS
-wtOTY2NDYzNjc0LC0xNzQ5OTM3Mzg4LDU4NTYwNTk5MywtMTU3
-OTc4MTEyOCwxMDAwOTU5ODc5LDE1NjE0NTEzMTgsLTkzMDgwNj
-MzNCwtMjEwMTU2Mjc3MCwyMDY0NjIwMTE5LDEzNjg0NDQ2MDks
-LTYwNDc1MTcwNl19
+eyJoaXN0b3J5IjpbODM4NTQzMDM5LC00MjgxMzAzNjksLTEzMT
+Q3NDMwMTUsLTE3Mjc0NjIwNzYsLTIwMzAyNTU2MDAsLTQ0Mjc0
+MTI3NSwxNDA1MTYxNzY5LC0zNjU3MTcyMSwxMjU1MDQzMzI2LD
+E1NjA0NTA4MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OCw1ODU2
+MDU5OTMsLTE1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNTYxNDUxMz
+E4LC05MzA4MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYyMDExOSwx
+MzY4NDQ0NjA5XX0=
 -->
