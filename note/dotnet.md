@@ -73,7 +73,7 @@ myClass.distance; // => 40
 
 ### This
 
-Unlike many other languages **the `this` keyword is optional and contextual**. If you refer to a class field within the body of a class that is non-static it is assumed by the compiler to refer to the instance of the class.
+Unlike many other languages **the `this` keyword is optional and contextual**. If you refer to a class field within the body of a class that is non-static it is assumed by the compiler to refer to the instance of the class. The `checkDistance` method below use the instance's `distance` property without prefacing it with `this`, *however*, it would also have been valid to use `this` before it to be specific as to its context.
 ```csharp
 class MyClass
 {
@@ -85,6 +85,8 @@ class MyClass
   }
 }
 ```
+
+You **must use `this` if the context of variable names is unclear** such as when assigning 
 
 ### Permissions
 
@@ -155,9 +157,9 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjU5NTcyOCwtODM0MDMyNjI5LDE1ND
-YzMTE5MTcsLTE2MDU2MjY3MTMsNTgxNzI1NDI5LC0zODMwOTIx
-MTQsLTE0MDEzMTEyOTAsMTAxMTAxODYwNSwtNDQ1MzY5OTc1LD
-EyODU3ODQ1NzYsODIxMjc4NjQ1LC0xODU1MjkzMzkyLDQzNjQ0
-MDY2Ml19
+eyJoaXN0b3J5IjpbLTQ2MDA3MDEsLTgzNDAzMjYyOSwxNTQ2Mz
+ExOTE3LC0xNjA1NjI2NzEzLDU4MTcyNTQyOSwtMzgzMDkyMTE0
+LC0xNDAxMzExMjkwLDEwMTEwMTg2MDUsLTQ0NTM2OTk3NSwxMj
+g1Nzg0NTc2LDgyMTI3ODY0NSwtMTg1NTI5MzM5Miw0MzY0NDA2
+NjJdfQ==
 -->
