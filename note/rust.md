@@ -394,7 +394,7 @@ fn use_foo(foo: &impl Foo) {
 
 ### Trait Bound Syntax
 
-
+You can also **create functions that take generic objects that implement a specific trait** by defining abstract types (such as `T`) which implement a trait. This allows for complex use c
 
 
 ## Panic
@@ -424,11 +424,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0ODU0MTEyLC03MTgxMzYzNjAsLTE3OT
-Q1OTY3NiwyMDg4NDkyMzc3LDIwNjE1MDYxNTAsLTEwNjk1Njg4
-OTYsMTkzNjMxMTcwOCw0MTE2NTEwLC02OTk4MTQ4NzMsOTk1Nj
-g0OTMzLC0xNjcwOTM5MjEzLC0xNzQxNDkxODMwLDg3MDAzOTky
-NSwzODMzNDQ3MTEsLTM1MjU3ODM1MSwtMTk1MTIxMzg0NCwtMT
-cxMjk2MTI3MSwxMDEwOTM3ODc5LDI0NTkxMDYzNSwtMTAxMjgy
-NjY5MF19
+eyJoaXN0b3J5IjpbLTE2ODc0NzkxOTMsLTcxODEzNjM2MCwtMT
+c5NDU5Njc2LDIwODg0OTIzNzcsMjA2MTUwNjE1MCwtMTA2OTU2
+ODg5NiwxOTM2MzExNzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OT
+U2ODQ5MzMsLTE2NzA5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5
+OTI1LDM4MzM0NDcxMSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC
+0xNzEyOTYxMjcxLDEwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEy
+ODI2NjkwXX0=
 -->
