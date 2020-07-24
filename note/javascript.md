@@ -835,7 +835,12 @@ const { FOO: foo } = o;
 FOO; // => bar
 ```
 
-
+You can **destructure objects in function arguments**.
+```js
+const copy = ({ name, age }) => {
+  // name and age usable here as variables
+}
+```
 
 ### Object Spread
 
@@ -1447,11 +1452,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4ODk3NDUxLC0xMTIyOTE5ODgwLDkyMj
-E1MTY0NCwtNDI4MTMwMzY5LC0xMzE0NzQzMDE1LC0xNzI3NDYy
-MDc2LC0yMDMwMjU1NjAwLC00NDI3NDEyNzUsMTQwNTE2MTc2OS
-wtMzY1NzE3MjEsMTI1NTA0MzMyNiwxNTYwNDUwODE5LC05NjY0
-NjM2NzQsLTE3NDk5MzczODgsNTg1NjA1OTkzLC0xNTc5NzgxMT
-I4LDEwMDA5NTk4NzksMTU2MTQ1MTMxOCwtOTMwODA2MzM0LC0y
-MTAxNTYyNzcwXX0=
+eyJoaXN0b3J5IjpbMTYwMTY2MTAwMyw5Nzg4OTc0NTEsLTExMj
+I5MTk4ODAsOTIyMTUxNjQ0LC00MjgxMzAzNjksLTEzMTQ3NDMw
+MTUsLTE3Mjc0NjIwNzYsLTIwMzAyNTU2MDAsLTQ0Mjc0MTI3NS
+wxNDA1MTYxNzY5LC0zNjU3MTcyMSwxMjU1MDQzMzI2LDE1NjA0
+NTA4MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OCw1ODU2MDU5OT
+MsLTE1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNTYxNDUxMzE4LC05
+MzA4MDYzMzRdfQ==
 -->
