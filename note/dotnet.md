@@ -168,7 +168,21 @@ catch(IOException e)
 }
 ```
 
-You can **use th**
+You can **use the `where` clause with `catch` to catch specific exception types** and filter exceptions.
+```csharp
+try
+{
+  functionThatProducesIOException();
+}
+catch(IOException e) where (e.Data == "Some data"
+{
+  // handle this exception here
+}
+catch(IOException e) where (e.Data == "Different data"
+{
+  // handle the other exception here
+}
+```
 
 ## Functions
 
@@ -186,9 +200,9 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjUzMzc4ODAsODg3MTAwNDkwLDg4ND
-g2NTQ2OSwtODM0MDMyNjI5LDE1NDYzMTE5MTcsLTE2MDU2MjY3
-MTMsNTgxNzI1NDI5LC0zODMwOTIxMTQsLTE0MDEzMTEyOTAsMT
-AxMTAxODYwNSwtNDQ1MzY5OTc1LDEyODU3ODQ1NzYsODIxMjc4
-NjQ1LC0xODU1MjkzMzkyLDQzNjQ0MDY2Ml19
+eyJoaXN0b3J5IjpbLTQ4NDA3NDQ1OCw4ODcxMDA0OTAsODg0OD
+Y1NDY5LC04MzQwMzI2MjksMTU0NjMxMTkxNywtMTYwNTYyNjcx
+Myw1ODE3MjU0MjksLTM4MzA5MjExNCwtMTQwMTMxMTI5MCwxMD
+ExMDE4NjA1LC00NDUzNjk5NzUsMTI4NTc4NDU3Niw4MjEyNzg2
+NDUsLTE4NTUyOTMzOTIsNDM2NDQwNjYyXX0=
 -->
