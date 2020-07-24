@@ -329,8 +329,18 @@ pub trait Foo {
 
 You can **implement a trait on a struct** by using the `impl` keyword followed by the name of the trait with `for` keyword and the name of struct implementing the trait.
 ```rust
-pub struct eggs {
+pub struct Eggs {
   name: String
+  age: i32
+}
+
+impl Foo for Eggs {
+  fn Bar(&self) -> String {
+    format!("My name is: {}", self.name);
+  }
+
+  fn Baz(&self, fac: i32) -> i32 {
+  }
 }
 ```
 
@@ -361,11 +371,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzMjc2OTM1LC0xNzk0NTk2NzYsMjA4OD
-Q5MjM3NywyMDYxNTA2MTUwLC0xMDY5NTY4ODk2LDE5MzYzMTE3
-MDgsNDExNjUxMCwtNjk5ODE0ODczLDk5NTY4NDkzMywtMTY3MD
-kzOTIxMywtMTc0MTQ5MTgzMCw4NzAwMzk5MjUsMzgzMzQ0NzEx
-LC0zNTI1NzgzNTEsLTE5NTEyMTM4NDQsLTE3MTI5NjEyNzEsMT
-AxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4MjY2OTAsMTM4MzIw
-ODg3MF19
+eyJoaXN0b3J5IjpbMTAzNjk3NTgyMCwtMTc5NDU5Njc2LDIwOD
+g0OTIzNzcsMjA2MTUwNjE1MCwtMTA2OTU2ODg5NiwxOTM2MzEx
+NzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2Nz
+A5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcx
+MSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYxMjcxLD
+EwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMy
+MDg4NzBdfQ==
 -->
