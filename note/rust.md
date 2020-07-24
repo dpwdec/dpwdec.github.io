@@ -326,7 +326,11 @@ use crate::eggs::ham;
 
 ## Traits
 
-Traits are used to define shared behaviour on generics by specifying that some set of generic objects in our system have a shared set things they can do. They are similar to `interfaces` in other languages. You can **define a new trait** by using the `trait` keyword followed by the name of the trait. The trait then describes a set of method signatures (name, input and return types) followed by a `;` semi-colon to show that the method is not yet implemented. Any structures that `implement` the trait must have a valid implementation of the methods defined by that trait.
+Traits are used to define shared behaviour on generics by specifying that some set of generic objects in our system have a shared set things they can do. They are similar to `interfaces` in other languages. 
+
+### Defining traits
+
+You can **define a new trait** by using the `trait` keyword followed by the name of the trait. The trait then describes a set of method signatures (name, input and return types) followed by a `;` semi-colon to show that the method is not yet implemented. Any structures that `implement` the trait must have a valid implementation of the methods defined by that trait.
 ```rust
 pub trait Foo {
   fn Bar(&self) -> String;
@@ -368,7 +372,7 @@ When structs **implement a trait with a default implementation** they can simply
 impl Foo for eggs { } // default implementation
 ```
 
-You can also **call other methods defined in the same trait from default trait method implementations**. In this case the struct that implements `Foo` would then need to create an implementation of `baz` which wou
+You can also **call other methods defined in the same trait from default trait method implementations**. In this case the struct that implements `Foo` would then need to create an implementation of `baz` which would then be called by the default implementation of `bar`.
 ```rust
 pub trait Foo {
   fn bar(&self) -> String {
@@ -378,6 +382,9 @@ pub trait Foo {
   fn baz(&self) -> String;
 }
 ```
+
+
+
 
 ## Panic
 
@@ -406,11 +413,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyMzc5OTY0LC0xNzk0NTk2NzYsMjA4OD
-Q5MjM3NywyMDYxNTA2MTUwLC0xMDY5NTY4ODk2LDE5MzYzMTE3
-MDgsNDExNjUxMCwtNjk5ODE0ODczLDk5NTY4NDkzMywtMTY3MD
-kzOTIxMywtMTc0MTQ5MTgzMCw4NzAwMzk5MjUsMzgzMzQ0NzEx
-LC0zNTI1NzgzNTEsLTE5NTEyMTM4NDQsLTE3MTI5NjEyNzEsMT
-AxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4MjY2OTAsMTM4MzIw
-ODg3MF19
+eyJoaXN0b3J5IjpbLTcxODEzNjM2MCwtMTc5NDU5Njc2LDIwOD
+g0OTIzNzcsMjA2MTUwNjE1MCwtMTA2OTU2ODg5NiwxOTM2MzEx
+NzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2Nz
+A5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcx
+MSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYxMjcxLD
+EwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMy
+MDg4NzBdfQ==
 -->
