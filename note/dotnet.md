@@ -154,6 +154,16 @@ You can **throw a new exception** by using the `throw` keyword and creating a `n
 throw new System.Exception("This triggered some exception stuff for some reasonj");
 ```
 
+## Try and Catch
+
+Code that might throw an exception **should be placed inside a `try` block** and **followed by a `catch` block** with the exception type to be handle as the argument.
+```csharp
+try
+{
+  functionThatProducesIOException();
+}
+```
+
 ## Functions
 
 You can **define an anonymous function** using the `Func` object. When declaring a `Func` you should follow it by `< >` angle brackets with the input argument type and return type. You can use standard lambda calculus syntax to define anonymous functions.
@@ -170,9 +180,9 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg3MTAwNDkwLDg4NDg2NTQ2OSwtODM0MD
-MyNjI5LDE1NDYzMTE5MTcsLTE2MDU2MjY3MTMsNTgxNzI1NDI5
-LC0zODMwOTIxMTQsLTE0MDEzMTEyOTAsMTAxMTAxODYwNSwtND
-Q1MzY5OTc1LDEyODU3ODQ1NzYsODIxMjc4NjQ1LC0xODU1Mjkz
-MzkyLDQzNjQ0MDY2Ml19
+eyJoaXN0b3J5IjpbLTE4MDE3MzA2MTAsODg3MTAwNDkwLDg4ND
+g2NTQ2OSwtODM0MDMyNjI5LDE1NDYzMTE5MTcsLTE2MDU2MjY3
+MTMsNTgxNzI1NDI5LC0zODMwOTIxMTQsLTE0MDEzMTEyOTAsMT
+AxMTAxODYwNSwtNDQ1MzY5OTc1LDEyODU3ODQ1NzYsODIxMjc4
+NjQ1LC0xODU1MjkzMzkyLDQzNjQ0MDY2Ml19
 -->
