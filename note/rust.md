@@ -327,7 +327,12 @@ pub trait Foo {
 }
 ```
 
-You can implement 
+You can **implement a trait on a struct** by using the `impl` keyword followed by the name of the trait with `for` keyword and the name of struct implementing the trait.
+```rust
+pub struct eggs {
+  name: String
+}
+```
 
 ## Panic
 
@@ -356,11 +361,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjU2MTY1MjIsLTE3OTQ1OTY3NiwyMD
-g4NDkyMzc3LDIwNjE1MDYxNTAsLTEwNjk1Njg4OTYsMTkzNjMx
-MTcwOCw0MTE2NTEwLC02OTk4MTQ4NzMsOTk1Njg0OTMzLC0xNj
-cwOTM5MjEzLC0xNzQxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3
-MTEsLTM1MjU3ODM1MSwtMTk1MTIxMzg0NCwtMTcxMjk2MTI3MS
-wxMDEwOTM3ODc5LDI0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgz
-MjA4ODcwXX0=
+eyJoaXN0b3J5IjpbMjUzMjc2OTM1LC0xNzk0NTk2NzYsMjA4OD
+Q5MjM3NywyMDYxNTA2MTUwLC0xMDY5NTY4ODk2LDE5MzYzMTE3
+MDgsNDExNjUxMCwtNjk5ODE0ODczLDk5NTY4NDkzMywtMTY3MD
+kzOTIxMywtMTc0MTQ5MTgzMCw4NzAwMzk5MjUsMzgzMzQ0NzEx
+LC0zNTI1NzgzNTEsLTE5NTEyMTM4NDQsLTE3MTI5NjEyNzEsMT
+AxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4MjY2OTAsMTM4MzIw
+ODg3MF19
 -->
