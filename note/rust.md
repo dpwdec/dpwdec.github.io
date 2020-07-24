@@ -345,7 +345,7 @@ impl Foo for Eggs {
 }
 ```
 
-You can **import traits to implement from anywhere in your project.** But you can **only create new trait implementations for a struct in the file in which that struct is defined**. 
+You can **import traits to implement from anywhere in your project.** But you can **only implement a new trait for a struct in the file in which that struct is defined**. This limits to altering source code for structs directly so you can't add trait implementations for libraries and external resources without modifying those resources directly.
 
 ## Panic
 
@@ -374,11 +374,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTM2MDI1OCwtMTc5NDU5Njc2LDIwOD
-g0OTIzNzcsMjA2MTUwNjE1MCwtMTA2OTU2ODg5NiwxOTM2MzEx
-NzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2Nz
-A5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcx
-MSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYxMjcxLD
-EwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMy
-MDg4NzBdfQ==
+eyJoaXN0b3J5IjpbLTIwOTE1Mjc3MjYsLTE3OTQ1OTY3NiwyMD
+g4NDkyMzc3LDIwNjE1MDYxNTAsLTEwNjk1Njg4OTYsMTkzNjMx
+MTcwOCw0MTE2NTEwLC02OTk4MTQ4NzMsOTk1Njg0OTMzLC0xNj
+cwOTM5MjEzLC0xNzQxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3
+MTEsLTM1MjU3ODM1MSwtMTk1MTIxMzg0NCwtMTcxMjk2MTI3MS
+wxMDEwOTM3ODc5LDI0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgz
+MjA4ODcwXX0=
 -->
