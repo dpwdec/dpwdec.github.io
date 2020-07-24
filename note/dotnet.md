@@ -22,7 +22,7 @@ string numberString = numberInt.ToString();
 You can **convert the type of a variable to a string** using the `nameof` operator.
 ```csharp
 var x = 5;
-
+nameof(x); // => Int
 ```
 
 ## List
@@ -170,9 +170,9 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTczODkzNCw4ODQ4NjU0NjksLTgzND
-AzMjYyOSwxNTQ2MzExOTE3LC0xNjA1NjI2NzEzLDU4MTcyNTQy
-OSwtMzgzMDkyMTE0LC0xNDAxMzExMjkwLDEwMTEwMTg2MDUsLT
-Q0NTM2OTk3NSwxMjg1Nzg0NTc2LDgyMTI3ODY0NSwtMTg1NTI5
-MzM5Miw0MzY0NDA2NjJdfQ==
+eyJoaXN0b3J5IjpbODg3MTAwNDkwLDg4NDg2NTQ2OSwtODM0MD
+MyNjI5LDE1NDYzMTE5MTcsLTE2MDU2MjY3MTMsNTgxNzI1NDI5
+LC0zODMwOTIxMTQsLTE0MDEzMTEyOTAsMTAxMTAxODYwNSwtND
+Q1MzY5OTc1LDEyODU3ODQ1NzYsODIxMjc4NjQ1LC0xODU1Mjkz
+MzkyLDQzNjQ0MDY2Ml19
 -->
