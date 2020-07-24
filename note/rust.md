@@ -425,7 +425,7 @@ fn use_foo<T: Foo + Qux>(foo: T) {
 
 ### Where syntax
 
-
+Functions with many trait types and bounds can become difficult to read. You can **use the `where` syntax to define the trait **
 ## Panic
 
 You can **manually trigger a program to panic** by using the `panic!` macro. This macro can take a `str` argument which describes the stack trace error.
@@ -453,7 +453,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDI2MTAzLC03MTgxMzYzNjAsLTE3OT
+eyJoaXN0b3J5IjpbNTY1MTg5MDQ2LC03MTgxMzYzNjAsLTE3OT
 Q1OTY3NiwyMDg4NDkyMzc3LDIwNjE1MDYxNTAsLTEwNjk1Njg4
 OTYsMTkzNjMxMTcwOCw0MTE2NTEwLC02OTk4MTQ4NzMsOTk1Nj
 g0OTMzLC0xNjcwOTM5MjEzLC0xNzQxNDkxODMwLDg3MDAzOTky
