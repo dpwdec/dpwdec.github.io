@@ -92,6 +92,7 @@ let my_string = "48";
 let my_number: u32 = my_string.trim().parse()
   .expect("Invalid number")
 ```
+### 
 ## Control Flow
 ## Pattern Matching
 The `match` keyword can be used to match the output of a particular set of enums and execute code based on the result. In the example below `a_num` run a comparison method on `b_num` which returns an enum with three possible outputs - Less, Greater and Equal. The `match` block then executes code based on each possible return type from the enum.
@@ -374,7 +375,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTE1Mjc3MjYsLTE3OTQ1OTY3NiwyMD
+eyJoaXN0b3J5IjpbLTE5NDAxMjc1MTcsLTE3OTQ1OTY3NiwyMD
 g4NDkyMzc3LDIwNjE1MDYxNTAsLTEwNjk1Njg4OTYsMTkzNjMx
 MTcwOCw0MTE2NTEwLC02OTk4MTQ4NzMsOTk1Njg0OTMzLC0xNj
 cwOTM5MjEzLC0xNzQxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3
