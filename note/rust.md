@@ -336,13 +336,16 @@ pub struct Eggs {
 
 impl Foo for Eggs {
   fn Bar(&self) -> String {
-    format!("My name is: {}", self.name);
+    format!("My name is: {}", self.name)
   }
 
   fn Baz(&self, fac: i32) -> i32 {
+    fac * self.age
   }
 }
 ```
+
+You can **import traits to implement from anywhere in your project.** But you can **only create new trait implementations for a struct in the file in which that struct is defined**. 
 
 ## Panic
 
@@ -371,7 +374,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjk3NTgyMCwtMTc5NDU5Njc2LDIwOD
+eyJoaXN0b3J5IjpbMTY1OTM2MDI1OCwtMTc5NDU5Njc2LDIwOD
 g0OTIzNzcsMjA2MTUwNjE1MCwtMTA2OTU2ODg5NiwxOTM2MzEx
 NzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2Nz
 A5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcx
