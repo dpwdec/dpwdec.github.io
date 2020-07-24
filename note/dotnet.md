@@ -17,6 +17,14 @@ int numberInt = 5;
 string numberString = numberInt.ToString();
 ```
 
+### nameof
+
+You can **convert the type of a variable to a string** using the `nameof` operator.
+```csharp
+var x = 5;
+
+```
+
 ## List
 
 The `List` is a data structure that offers a resizable list of elements. To **start using the `List` data structure** you must import `using  System.Collections.Generic`. The `List` object is defined with a generic `T` type as `List<T>` which you must supply when constructing a new list object. To **create a new list** use the `new` keyword as you would with any new object instance with the type of the container in `< >` brackets. You **initialize the contents of a list inline** by containing the content in `{ }` curly brackets after the definition.
@@ -162,9 +170,9 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0ODY1NDY5LC04MzQwMzI2MjksMTU0Nj
-MxMTkxNywtMTYwNTYyNjcxMyw1ODE3MjU0MjksLTM4MzA5MjEx
-NCwtMTQwMTMxMTI5MCwxMDExMDE4NjA1LC00NDUzNjk5NzUsMT
-I4NTc4NDU3Niw4MjEyNzg2NDUsLTE4NTUyOTMzOTIsNDM2NDQw
-NjYyXX0=
+eyJoaXN0b3J5IjpbMjA4OTczODkzNCw4ODQ4NjU0NjksLTgzND
+AzMjYyOSwxNTQ2MzExOTE3LC0xNjA1NjI2NzEzLDU4MTcyNTQy
+OSwtMzgzMDkyMTE0LC0xNDAxMzExMjkwLDEwMTEwMTg2MDUsLT
+Q0NTM2OTk3NSwxMjg1Nzg0NTc2LDgyMTI3ODY0NSwtMTg1NTI5
+MzM5Miw0MzY0NDA2NjJdfQ==
 -->
