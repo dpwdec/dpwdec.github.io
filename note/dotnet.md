@@ -101,6 +101,17 @@ public MyClass
 }
 ```
 
+You can **define more complex `get` or `set` procedures** by expanding and implementing the methods after member definition.
+```csharp
+public int balance
+{
+  get
+  {
+    // 
+  }
+}
+```
+
 ## Functions
 
 You can **define an anonymous function** using the `Func` object. When declaring a `Func` you should follow it by `< >` angle brackets with the input argument type and return type. You can use standard lambda calculus syntax to define anonymous functions.
@@ -110,7 +121,8 @@ Func<int, int> double = x => x * 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxNzI1NDI5LC0zODMwOTIxMTQsLTE0MD
-EzMTEyOTAsMTAxMTAxODYwNSwtNDQ1MzY5OTc1LDEyODU3ODQ1
-NzYsODIxMjc4NjQ1LC0xODU1MjkzMzkyLDQzNjQ0MDY2Ml19
+eyJoaXN0b3J5IjpbLTc0MTE3NDYzMyw1ODE3MjU0MjksLTM4Mz
+A5MjExNCwtMTQwMTMxMTI5MCwxMDExMDE4NjA1LC00NDUzNjk5
+NzUsMTI4NTc4NDU3Niw4MjEyNzg2NDUsLTE4NTUyOTMzOTIsND
+M2NDQwNjYyXX0=
 -->
