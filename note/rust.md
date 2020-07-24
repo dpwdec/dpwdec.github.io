@@ -321,8 +321,10 @@ use crate::eggs::ham;
 
 Traits are used to define shared behaviour on generics by specifying that some set of generic objects in our system have a shared set things they can do. They are similar to `interfaces` in other languages. You can **define a new trait** by using the `trait` keyword.
 ```rust
-
-
+pub trait Foo {
+  fn Bar(&self) -> String;
+}
+```
 
 ## Panic
 
@@ -351,7 +353,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjg0MDI0OCwyMDg4NDkyMzc3LDIwNj
+eyJoaXN0b3J5IjpbMjAzNTE5NjgxMiwyMDg4NDkyMzc3LDIwNj
 E1MDYxNTAsLTEwNjk1Njg4OTYsMTkzNjMxMTcwOCw0MTE2NTEw
 LC02OTk4MTQ4NzMsOTk1Njg0OTMzLC0xNjcwOTM5MjEzLC0xNz
 QxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3MTEsLTM1MjU3ODM1
