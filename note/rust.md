@@ -383,7 +383,14 @@ pub trait Foo {
 }
 ```
 
+### Trait Arguments
 
+You can **create functions that take generic objects that implement a specific trait** as its argument.
+```rust
+fn use_foo(foo: impl Foo) {
+  println!("{}", foo.bar());
+}
+```
 
 
 ## Panic
@@ -413,11 +420,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxODEzNjM2MCwtMTc5NDU5Njc2LDIwOD
-g0OTIzNzcsMjA2MTUwNjE1MCwtMTA2OTU2ODg5NiwxOTM2MzEx
-NzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2Nz
-A5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcx
-MSwtMzUyNTc4MzUxLC0xOTUxMjEzODQ0LC0xNzEyOTYxMjcxLD
-EwMTA5Mzc4NzksMjQ1OTEwNjM1LC0xMDEyODI2NjkwLDEzODMy
-MDg4NzBdfQ==
+eyJoaXN0b3J5IjpbLTUxNTMwNDU2NSwtNzE4MTM2MzYwLC0xNz
+k0NTk2NzYsMjA4ODQ5MjM3NywyMDYxNTA2MTUwLC0xMDY5NTY4
+ODk2LDE5MzYzMTE3MDgsNDExNjUxMCwtNjk5ODE0ODczLDk5NT
+Y4NDkzMywtMTY3MDkzOTIxMywtMTc0MTQ5MTgzMCw4NzAwMzk5
+MjUsMzgzMzQ0NzExLC0zNTI1NzgzNTEsLTE5NTEyMTM4NDQsLT
+E3MTI5NjEyNzEsMTAxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4
+MjY2OTBdfQ==
 -->
