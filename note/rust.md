@@ -94,7 +94,11 @@ let my_number: u32 = my_string.trim().parse()
 ```
 ### Format
 
-The `format!` macro works like the `println!` macro but instead of displaying the output to the `stdout` it returns a `String`
+The `format!` macro works like the `println!` macro but instead of displaying the output to the `stdout` it returns a `String`.
+```rust
+let world = "world";
+format!("Hello {}!", world) // => Hello world!
+```
 ## Control Flow
 ## Pattern Matching
 The `match` keyword can be used to match the output of a particular set of enums and execute code based on the result. In the example below `a_num` run a comparison method on `b_num` which returns an enum with three possible outputs - Less, Greater and Equal. The `match` block then executes code based on each possible return type from the enum.
@@ -377,7 +381,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1ODQ2ODM1NCwtMTc5NDU5Njc2LDIwOD
+eyJoaXN0b3J5IjpbMTYxMjE0ODAxMywtMTc5NDU5Njc2LDIwOD
 g0OTIzNzcsMjA2MTUwNjE1MCwtMTA2OTU2ODg5NiwxOTM2MzEx
 NzA4LDQxMTY1MTAsLTY5OTgxNDg3Myw5OTU2ODQ5MzMsLTE2Nz
 A5MzkyMTMsLTE3NDE0OTE4MzAsODcwMDM5OTI1LDM4MzM0NDcx
