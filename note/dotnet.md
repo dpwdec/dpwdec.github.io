@@ -101,14 +101,16 @@ public MyClass
 }
 ```
 
-You can **define implement code for `get` and `set` procedures directly** by expanding and implementing the methods after member definition. This allows you to write more complex implementations for `get` and `set`, however, if you write an implementation for one you must also have an implementation for the other, you cannot have `get` implemented and `set` still usi
+You can **define implement code for `get` and `set` procedures directly** by expanding and implementing the methods after member definition. This allows you to write more complex implementations for `get` and `set`, however, if you write an implementation for one you must also have an implementation for the other, you cannot have `get` implemented and `set` still using the `set;` syntax. Below is the most basic default implementation, but you can functionally write any code you like here to get and set a member here.
 ```csharp
 public int balance
 {
   get
   {
-    // code to compute and return balance
+    return balance;
   }
+
+
 }
 ```
 
@@ -128,7 +130,7 @@ Func<int, int> double = x => x * 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjgwNzE0NjQsLTE2MDU2MjY3MTMsNT
+eyJoaXN0b3J5IjpbLTE0NTE4NjAxNDIsLTE2MDU2MjY3MTMsNT
 gxNzI1NDI5LC0zODMwOTIxMTQsLTE0MDEzMTEyOTAsMTAxMTAx
 ODYwNSwtNDQ1MzY5OTc1LDEyODU3ODQ1NzYsODIxMjc4NjQ1LC
 0xODU1MjkzMzkyLDQzNjQ0MDY2Ml19
