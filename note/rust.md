@@ -396,7 +396,9 @@ fn use_foo(foo: &impl Foo) {
 
 You can also **create functions that take generic objects that implement a specific trait** by defining abstract types (such as `T`) which implement a trait. This allows for complex use cases such as differing type inputs and multiple trait specifications.
 ```rust
-
+fn use_foo<T: Foo>(foo: T) {
+  println!("{}", foo.bar());
+}
 ```
 
 
@@ -427,7 +429,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTkzNDMxNiwtNzE4MTM2MzYwLC0xNz
+eyJoaXN0b3J5IjpbMTA2NTMzNTQ2NywtNzE4MTM2MzYwLC0xNz
 k0NTk2NzYsMjA4ODQ5MjM3NywyMDYxNTA2MTUwLC0xMDY5NTY4
 ODk2LDE5MzYzMTE3MDgsNDExNjUxMCwtNjk5ODE0ODczLDk5NT
 Y4NDkzMywtMTY3MDkzOTIxMywtMTc0MTQ5MTgzMCw4NzAwMzk5
