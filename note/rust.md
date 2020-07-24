@@ -327,6 +327,8 @@ pub trait Foo {
 }
 ```
 
+You can implement 
+
 ## Panic
 
 You can **manually trigger a program to panic** by using the `panic!` macro. This macro can take a `str` argument which describes the stack trace error.
@@ -354,11 +356,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTQ1OTY3NiwyMDg4NDkyMzc3LDIwNj
-E1MDYxNTAsLTEwNjk1Njg4OTYsMTkzNjMxMTcwOCw0MTE2NTEw
-LC02OTk4MTQ4NzMsOTk1Njg0OTMzLC0xNjcwOTM5MjEzLC0xNz
-QxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3MTEsLTM1MjU3ODM1
-MSwtMTk1MTIxMzg0NCwtMTcxMjk2MTI3MSwxMDEwOTM3ODc5LD
-I0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgzMjA4ODcwLDExMjE3
-NTk4ODNdfQ==
+eyJoaXN0b3J5IjpbLTIwMjU2MTY1MjIsLTE3OTQ1OTY3NiwyMD
+g4NDkyMzc3LDIwNjE1MDYxNTAsLTEwNjk1Njg4OTYsMTkzNjMx
+MTcwOCw0MTE2NTEwLC02OTk4MTQ4NzMsOTk1Njg0OTMzLC0xNj
+cwOTM5MjEzLC0xNzQxNDkxODMwLDg3MDAzOTkyNSwzODMzNDQ3
+MTEsLTM1MjU3ODM1MSwtMTk1MTIxMzg0NCwtMTcxMjk2MTI3MS
+wxMDEwOTM3ODc5LDI0NTkxMDYzNSwtMTAxMjgyNjY5MCwxMzgz
+MjA4ODcwXX0=
 -->
