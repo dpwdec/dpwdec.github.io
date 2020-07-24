@@ -838,7 +838,7 @@ FOO; // => bar
 You can **destructure objects in function arguments**.
 ```js
 const copy = ({ name, age }) => {
-  // name and age usable here as variables
+  // name and age usable inside function here
 }
 ```
 
@@ -1452,11 +1452,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTY2MTAwMyw5Nzg4OTc0NTEsLTExMj
-I5MTk4ODAsOTIyMTUxNjQ0LC00MjgxMzAzNjksLTEzMTQ3NDMw
-MTUsLTE3Mjc0NjIwNzYsLTIwMzAyNTU2MDAsLTQ0Mjc0MTI3NS
-wxNDA1MTYxNzY5LC0zNjU3MTcyMSwxMjU1MDQzMzI2LDE1NjA0
-NTA4MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OCw1ODU2MDU5OT
-MsLTE1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNTYxNDUxMzE4LC05
-MzA4MDYzMzRdfQ==
+eyJoaXN0b3J5IjpbLTE1OTgzMjIxNzQsOTc4ODk3NDUxLC0xMT
+IyOTE5ODgwLDkyMjE1MTY0NCwtNDI4MTMwMzY5LC0xMzE0NzQz
+MDE1LC0xNzI3NDYyMDc2LC0yMDMwMjU1NjAwLC00NDI3NDEyNz
+UsMTQwNTE2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMyNiwxNTYw
+NDUwODE5LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNTg1NjA1OT
+kzLC0xNTc5NzgxMTI4LDEwMDA5NTk4NzksMTU2MTQ1MTMxOCwt
+OTMwODA2MzM0XX0=
 -->
