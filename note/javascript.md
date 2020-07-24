@@ -803,13 +803,14 @@ k; // => c
 v; // => d
 ```
 
-You can **destructure an object** by putting the name of field you want to extact from the object in `{}` curly braces.
+You can **destructure an object** by putting the name of field you want to extact from the object in `{}` curly braces and assigning it from the object. This will take that property and assign it to the variable name.
 ```js
 o = {
   foo: 'bar'
 }
 
 const { foo } = o;
+foo; // => bar
 ```
 
 ### Object Spread
@@ -1422,11 +1423,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjczNTUwNSwtNDI4MTMwMzY5LC0xMz
-E0NzQzMDE1LC0xNzI3NDYyMDc2LC0yMDMwMjU1NjAwLC00NDI3
-NDEyNzUsMTQwNTE2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMyNi
-wxNTYwNDUwODE5LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNTg1
-NjA1OTkzLC0xNTc5NzgxMTI4LDEwMDA5NTk4NzksMTU2MTQ1MT
-MxOCwtOTMwODA2MzM0LC0yMTAxNTYyNzcwLDIwNjQ2MjAxMTks
-MTM2ODQ0NDYwOV19
+eyJoaXN0b3J5IjpbOTIyMTUxNjQ0LC00MjgxMzAzNjksLTEzMT
+Q3NDMwMTUsLTE3Mjc0NjIwNzYsLTIwMzAyNTU2MDAsLTQ0Mjc0
+MTI3NSwxNDA1MTYxNzY5LC0zNjU3MTcyMSwxMjU1MDQzMzI2LD
+E1NjA0NTA4MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OCw1ODU2
+MDU5OTMsLTE1Nzk3ODExMjgsMTAwMDk1OTg3OSwxNTYxNDUxMz
+E4LC05MzA4MDYzMzQsLTIxMDE1NjI3NzAsMjA2NDYyMDExOSwx
+MzY4NDQ0NjA5XX0=
 -->
