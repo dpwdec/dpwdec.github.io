@@ -425,7 +425,13 @@ fn use_foo<T: Foo + Qux>(foo: T) {
 
 ### Where syntax
 
-Functions with many trait types and bounds can become difficult to read. You can **use the `where` syntax to define the trait **
+Functions with many trait types and bounds can become difficult to read. You can **use the `where` syntax to define the trait bounding of arguments INSIDE the function that uses them**.
+```rust
+fn use_foo<T, U>(eggs: T, spam: U) {
+  where T: Foo + Qux + Clone,
+        U: Qux + Debig
+}
+```
 ## Panic
 
 You can **manually trigger a program to panic** by using the `panic!` macro. This macro can take a `str` argument which describes the stack trace error.
@@ -453,11 +459,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1MTg5MDQ2LC03MTgxMzYzNjAsLTE3OT
-Q1OTY3NiwyMDg4NDkyMzc3LDIwNjE1MDYxNTAsLTEwNjk1Njg4
-OTYsMTkzNjMxMTcwOCw0MTE2NTEwLC02OTk4MTQ4NzMsOTk1Nj
-g0OTMzLC0xNjcwOTM5MjEzLC0xNzQxNDkxODMwLDg3MDAzOTky
-NSwzODMzNDQ3MTEsLTM1MjU3ODM1MSwtMTk1MTIxMzg0NCwtMT
-cxMjk2MTI3MSwxMDEwOTM3ODc5LDI0NTkxMDYzNSwtMTAxMjgy
-NjY5MF19
+eyJoaXN0b3J5IjpbMTIyODk4ODQyNCwtNzE4MTM2MzYwLC0xNz
+k0NTk2NzYsMjA4ODQ5MjM3NywyMDYxNTA2MTUwLC0xMDY5NTY4
+ODk2LDE5MzYzMTE3MDgsNDExNjUxMCwtNjk5ODE0ODczLDk5NT
+Y4NDkzMywtMTY3MDkzOTIxMywtMTc0MTQ5MTgzMCw4NzAwMzk5
+MjUsMzgzMzQ0NzExLC0zNTI1NzgzNTEsLTE5NTEyMTM4NDQsLT
+E3MTI5NjEyNzEsMTAxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4
+MjY2OTBdfQ==
 -->
