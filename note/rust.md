@@ -385,9 +385,9 @@ pub trait Foo {
 
 ### Trait Arguments
 
-You can **create functions that take generic objects that implement a specific trait** as its argument.
+You can **create functions that take generic objects that implement a specific trait** as its argument. The example below defines a `use_foo` function that accepts a *reference* to any object that implements the `Foo` trait as indicated by the `impl` keyword in the argument field. This function can then use the trait in its code.
 ```rust
-fn use_foo(foo: impl Foo) {
+fn use_foo(foo: &impl Foo) {
   println!("{}", foo.bar());
 }
 ```
@@ -420,11 +420,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNTMwNDU2NSwtNzE4MTM2MzYwLC0xNz
-k0NTk2NzYsMjA4ODQ5MjM3NywyMDYxNTA2MTUwLC0xMDY5NTY4
-ODk2LDE5MzYzMTE3MDgsNDExNjUxMCwtNjk5ODE0ODczLDk5NT
-Y4NDkzMywtMTY3MDkzOTIxMywtMTc0MTQ5MTgzMCw4NzAwMzk5
-MjUsMzgzMzQ0NzExLC0zNTI1NzgzNTEsLTE5NTEyMTM4NDQsLT
-E3MTI5NjEyNzEsMTAxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4
-MjY2OTBdfQ==
+eyJoaXN0b3J5IjpbMTM1Mzc2MDU0LC03MTgxMzYzNjAsLTE3OT
+Q1OTY3NiwyMDg4NDkyMzc3LDIwNjE1MDYxNTAsLTEwNjk1Njg4
+OTYsMTkzNjMxMTcwOCw0MTE2NTEwLC02OTk4MTQ4NzMsOTk1Nj
+g0OTMzLC0xNjcwOTM5MjEzLC0xNzQxNDkxODMwLDg3MDAzOTky
+NSwzODMzNDQ3MTEsLTM1MjU3ODM1MSwtMTk1MTIxMzg0NCwtMT
+cxMjk2MTI3MSwxMDEwOTM3ODc5LDI0NTkxMDYzNSwtMTAxMjgy
+NjY5MF19
 -->
