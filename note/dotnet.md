@@ -86,7 +86,7 @@ class MyClass
 }
 ```
 
-You **must use `this` if the context of variable names is unclear** such as when assigning 
+You **must use `this` if the context of variable names is unclear** such as when assigning variables of the same name, for example, a constructor where the input arguments match the name of the class members.
 
 ### Permissions
 
@@ -157,9 +157,9 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDA3MDEsLTgzNDAzMjYyOSwxNTQ2Mz
-ExOTE3LC0xNjA1NjI2NzEzLDU4MTcyNTQyOSwtMzgzMDkyMTE0
-LC0xNDAxMzExMjkwLDEwMTEwMTg2MDUsLTQ0NTM2OTk3NSwxMj
-g1Nzg0NTc2LDgyMTI3ODY0NSwtMTg1NTI5MzM5Miw0MzY0NDA2
-NjJdfQ==
+eyJoaXN0b3J5IjpbLTE1NzQ2MzM0MDcsLTgzNDAzMjYyOSwxNT
+Q2MzExOTE3LC0xNjA1NjI2NzEzLDU4MTcyNTQyOSwtMzgzMDky
+MTE0LC0xNDAxMzExMjkwLDEwMTEwMTg2MDUsLTQ0NTM2OTk3NS
+wxMjg1Nzg0NTc2LDgyMTI3ODY0NSwtMTg1NTI5MzM5Miw0MzY0
+NDA2NjJdfQ==
 -->
