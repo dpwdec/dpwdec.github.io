@@ -73,7 +73,18 @@ myClass.distance; // => 40
 
 ### This
 
-Unlike many other languages **the `this` keyword is optional and contextual**. If you refer to a class field within the body of a class that is non-static it is assumed by the 
+Unlike many other languages **the `this` keyword is optional and contextual**. If you refer to a class field within the body of a class that is non-static it is assumed by the compiler to refer to the instance of the class.
+```csharp
+class MyClass
+{
+  public int distance = 40;
+
+  public bool checkDistance()
+  {
+    return distance > 40;
+  }
+}
+```
 
 ### Permissions
 
@@ -144,9 +155,9 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NTg3NjEwLC04MzQwMzI2MjksMTU0Nj
-MxMTkxNywtMTYwNTYyNjcxMyw1ODE3MjU0MjksLTM4MzA5MjEx
-NCwtMTQwMTMxMTI5MCwxMDExMDE4NjA1LC00NDUzNjk5NzUsMT
-I4NTc4NDU3Niw4MjEyNzg2NDUsLTE4NTUyOTMzOTIsNDM2NDQw
-NjYyXX0=
+eyJoaXN0b3J5IjpbMTE1MjU5NTcyOCwtODM0MDMyNjI5LDE1ND
+YzMTE5MTcsLTE2MDU2MjY3MTMsNTgxNzI1NDI5LC0zODMwOTIx
+MTQsLTE0MDEzMTEyOTAsMTAxMTAxODYwNSwtNDQ1MzY5OTc1LD
+EyODU3ODQ1NzYsODIxMjc4NjQ1LC0xODU1MjkzMzkyLDQzNjQ0
+MDY2Ml19
 -->
