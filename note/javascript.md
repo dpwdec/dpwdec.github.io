@@ -842,6 +842,13 @@ const copy = ({ name, age }) => {
 }
 ```
 
+You can also **set destructured defaults for function arguments**.
+```js
+const copy = ({ name = 'Anonymous', age = 0 }) => {
+  // name and age usable inside function here
+}
+```
+
 ### Object Spread
 
 There is a **shorter version of `Object.assign`** called the **object spread syntax** which uses `...` three periods before each object to be copied into anther object. All this does it iterate through the properties of the source object and assign or overwrite properties on the target object.
@@ -1452,11 +1459,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTgzMjIxNzQsOTc4ODk3NDUxLC0xMT
-IyOTE5ODgwLDkyMjE1MTY0NCwtNDI4MTMwMzY5LC0xMzE0NzQz
-MDE1LC0xNzI3NDYyMDc2LC0yMDMwMjU1NjAwLC00NDI3NDEyNz
-UsMTQwNTE2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMyNiwxNTYw
-NDUwODE5LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNTg1NjA1OT
-kzLC0xNTc5NzgxMTI4LDEwMDA5NTk4NzksMTU2MTQ1MTMxOCwt
-OTMwODA2MzM0XX0=
+eyJoaXN0b3J5IjpbLTgyNDgzOTE5LC0xNTk4MzIyMTc0LDk3OD
+g5NzQ1MSwtMTEyMjkxOTg4MCw5MjIxNTE2NDQsLTQyODEzMDM2
+OSwtMTMxNDc0MzAxNSwtMTcyNzQ2MjA3NiwtMjAzMDI1NTYwMC
+wtNDQyNzQxMjc1LDE0MDUxNjE3NjksLTM2NTcxNzIxLDEyNTUw
+NDMzMjYsMTU2MDQ1MDgxOSwtOTY2NDYzNjc0LC0xNzQ5OTM3Mz
+g4LDU4NTYwNTk5MywtMTU3OTc4MTEyOCwxMDAwOTU5ODc5LDE1
+NjE0NTEzMThdfQ==
 -->
