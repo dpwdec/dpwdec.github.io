@@ -798,6 +798,16 @@ u; // => b
 // after assignment syntax
 const arr = ['c', 'd']
 const [k, v] = arr;
+
+k; // => c
+v; // => d
+```
+
+You can **destructure an object** by putting the name of field you want to extact from the object in `{}` curly braces.
+```js
+o = {
+  foo: 'bar'
+}
 ```
 
 ### Object Spread
@@ -1410,11 +1420,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDIyMTgzOTIsLTQyODEzMDM2OSwtMT
-MxNDc0MzAxNSwtMTcyNzQ2MjA3NiwtMjAzMDI1NTYwMCwtNDQy
-NzQxMjc1LDE0MDUxNjE3NjksLTM2NTcxNzIxLDEyNTUwNDMzMj
-YsMTU2MDQ1MDgxOSwtOTY2NDYzNjc0LC0xNzQ5OTM3Mzg4LDU4
-NTYwNTk5MywtMTU3OTc4MTEyOCwxMDAwOTU5ODc5LDE1NjE0NT
-EzMTgsLTkzMDgwNjMzNCwtMjEwMTU2Mjc3MCwyMDY0NjIwMTE5
-LDEzNjg0NDQ2MDldfQ==
+eyJoaXN0b3J5IjpbMTE4Mjc2Mjc1MSwtNDI4MTMwMzY5LC0xMz
+E0NzQzMDE1LC0xNzI3NDYyMDc2LC0yMDMwMjU1NjAwLC00NDI3
+NDEyNzUsMTQwNTE2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMyNi
+wxNTYwNDUwODE5LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNTg1
+NjA1OTkzLC0xNTc5NzgxMTI4LDEwMDA5NTk4NzksMTU2MTQ1MT
+MxOCwtOTMwODA2MzM0LC0yMTAxNTYyNzcwLDIwNjQ2MjAxMTks
+MTM2ODQ0NDYwOV19
 -->
