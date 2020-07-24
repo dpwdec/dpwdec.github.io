@@ -808,6 +808,8 @@ You can **destructure an object** by putting the name of field you want to extac
 o = {
   foo: 'bar'
 }
+
+const { foo } = o;
 ```
 
 ### Object Spread
@@ -1420,7 +1422,7 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mjc2Mjc1MSwtNDI4MTMwMzY5LC0xMz
+eyJoaXN0b3J5IjpbMTg0MjczNTUwNSwtNDI4MTMwMzY5LC0xMz
 E0NzQzMDE1LC0xNzI3NDYyMDc2LC0yMDMwMjU1NjAwLC00NDI3
 NDEyNzUsMTQwNTE2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMyNi
 wxNTYwNDUwODE5LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNTg1
