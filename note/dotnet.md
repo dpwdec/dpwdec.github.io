@@ -112,6 +112,13 @@ public int balance
 }
 ```
 
+## Exceptions
+
+You can **throw a new exception** by using the `throw` keyword and creating a `new` instance of an exception with the exception's message as its argument.
+```csharp
+
+```
+
 ## Functions
 
 You can **define an anonymous function** using the `Func` object. When declaring a `Func` you should follow it by `< >` angle brackets with the input argument type and return type. You can use standard lambda calculus syntax to define anonymous functions.
@@ -121,8 +128,8 @@ Func<int, int> double = x => x * 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDU2MjY3MTMsNTgxNzI1NDI5LC0zOD
-MwOTIxMTQsLTE0MDEzMTEyOTAsMTAxMTAxODYwNSwtNDQ1MzY5
-OTc1LDEyODU3ODQ1NzYsODIxMjc4NjQ1LC0xODU1MjkzMzkyLD
-QzNjQ0MDY2Ml19
+eyJoaXN0b3J5IjpbOTEwMjI3NzY3LC0xNjA1NjI2NzEzLDU4MT
+cyNTQyOSwtMzgzMDkyMTE0LC0xNDAxMzExMjkwLDEwMTEwMTg2
+MDUsLTQ0NTM2OTk3NSwxMjg1Nzg0NTc2LDgyMTI3ODY0NSwtMT
+g1NTI5MzM5Miw0MzY0NDA2NjJdfQ==
 -->
