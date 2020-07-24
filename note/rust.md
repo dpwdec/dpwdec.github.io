@@ -409,11 +409,10 @@ fn use_foo<T: Foo>(foo1: T, foo2: T) {
 }
 ```
 
-You can **defining MULTIPLE trait implementation parameters for arguments.**
+You can **defining MULTIPLE trait implementation parameters for arguments** by adding a `+` operator between trait names in the type definition. In the example below arguments to `use_foo` must implement the `Foo` and `Qux` trait.
 ```rust
-fn use_foo<T: Foo + Qux>(foo1: T, foo2: T) {
-  println!("{}", foo1.bar());
-  println!("{}", foo2.bar());
+fn use_foo<T: Foo + Qux>(foo: T) {
+  // code using Foo and Qux trait methods
 }
 ```
 
@@ -444,7 +443,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjE3NzE1NywtNzE4MTM2MzYwLC0xNz
+eyJoaXN0b3J5IjpbLTgzNTYyODg2MiwtNzE4MTM2MzYwLC0xNz
 k0NTk2NzYsMjA4ODQ5MjM3NywyMDYxNTA2MTUwLC0xMDY5NTY4
 ODk2LDE5MzYzMTE3MDgsNDExNjUxMCwtNjk5ODE0ODczLDk5NT
 Y4NDkzMywtMTY3MDkzOTIxMywtMTc0MTQ5MTgzMCw4NzAwMzk5
