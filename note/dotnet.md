@@ -71,6 +71,10 @@ var myClass = new MyClass();
 myClass.distance; // => 40
 ```
 
+### This
+
+Unlike many other languages **the `this` keyword is optional and contextual**. If you refer to a class field within the body of a class that is non-static it is assumed by the 
+
 ### Permissions
 
 **Public variables are accessible and mutable by external code by default.** If you define a public variable on a class then it *can* be modified by external code.
@@ -140,8 +144,9 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDAzMjYyOSwxNTQ2MzExOTE3LC0xNj
-A1NjI2NzEzLDU4MTcyNTQyOSwtMzgzMDkyMTE0LC0xNDAxMzEx
-MjkwLDEwMTEwMTg2MDUsLTQ0NTM2OTk3NSwxMjg1Nzg0NTc2LD
-gyMTI3ODY0NSwtMTg1NTI5MzM5Miw0MzY0NDA2NjJdfQ==
+eyJoaXN0b3J5IjpbMzg3NTg3NjEwLC04MzQwMzI2MjksMTU0Nj
+MxMTkxNywtMTYwNTYyNjcxMyw1ODE3MjU0MjksLTM4MzA5MjEx
+NCwtMTQwMTMxMTI5MCwxMDExMDE4NjA1LC00NDUzNjk5NzUsMT
+I4NTc4NDU3Niw4MjEyNzg2NDUsLTE4NTUyOTMzOTIsNDM2NDQw
+NjYyXX0=
 -->
