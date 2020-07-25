@@ -620,7 +620,7 @@ setTimeout(() => {
 
 ### Spread Arguments
 
-You can **define functions that take a arbitrary length list of arguments** (similar to `splat` arguments in other languages) by using the `...` triple period spread syntax in the function's argument list. The list of arguments will be converted into an iterable 
+You can **define functions that take a arbitrary length list of arguments** (similar to `splat` arguments in other languages) by using the `...` triple period spread syntax in the function's argument list. The variable designated as the list of arguments will be converted into an iterable object.
 ```js
 const doubleList = (...n) => n.map(x => x * 2)
 ```
@@ -1466,11 +1466,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDUyNDM4NywtODI0ODM5MTksLTE1OT
-gzMjIxNzQsOTc4ODk3NDUxLC0xMTIyOTE5ODgwLDkyMjE1MTY0
-NCwtNDI4MTMwMzY5LC0xMzE0NzQzMDE1LC0xNzI3NDYyMDc2LC
-0yMDMwMjU1NjAwLC00NDI3NDEyNzUsMTQwNTE2MTc2OSwtMzY1
-NzE3MjEsMTI1NTA0MzMyNiwxNTYwNDUwODE5LC05NjY0NjM2Nz
-QsLTE3NDk5MzczODgsNTg1NjA1OTkzLC0xNTc5NzgxMTI4LDEw
-MDA5NTk4NzldfQ==
+eyJoaXN0b3J5IjpbNTc0MDE5MDY5LC04MjQ4MzkxOSwtMTU5OD
+MyMjE3NCw5Nzg4OTc0NTEsLTExMjI5MTk4ODAsOTIyMTUxNjQ0
+LC00MjgxMzAzNjksLTEzMTQ3NDMwMTUsLTE3Mjc0NjIwNzYsLT
+IwMzAyNTU2MDAsLTQ0Mjc0MTI3NSwxNDA1MTYxNzY5LC0zNjU3
+MTcyMSwxMjU1MDQzMzI2LDE1NjA0NTA4MTksLTk2NjQ2MzY3NC
+wtMTc0OTkzNzM4OCw1ODU2MDU5OTMsLTE1Nzk3ODExMjgsMTAw
+MDk1OTg3OV19
 -->
