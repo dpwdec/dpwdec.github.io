@@ -618,6 +618,10 @@ setTimeout(() => {
 }, 500)
 ```
 
+### Spread Arguments
+
+You can **define functions that take a arbitrary length list of arguments** (similar to `splat` arguments in other 
+
 ## Objects
 
 A basic javascript object is **structured like a hash in ruby** or a **struct in Rust**. It stores information in key value pairs. Objects are defined using `{ }` curly brackets and `:` to indicate assignment from key to value. 
@@ -1459,11 +1463,11 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDgzOTE5LC0xNTk4MzIyMTc0LDk3OD
-g5NzQ1MSwtMTEyMjkxOTg4MCw5MjIxNTE2NDQsLTQyODEzMDM2
-OSwtMTMxNDc0MzAxNSwtMTcyNzQ2MjA3NiwtMjAzMDI1NTYwMC
-wtNDQyNzQxMjc1LDE0MDUxNjE3NjksLTM2NTcxNzIxLDEyNTUw
-NDMzMjYsMTU2MDQ1MDgxOSwtOTY2NDYzNjc0LC0xNzQ5OTM3Mz
-g4LDU4NTYwNTk5MywtMTU3OTc4MTEyOCwxMDAwOTU5ODc5LDE1
-NjE0NTEzMThdfQ==
+eyJoaXN0b3J5IjpbLTkwNDgxOTc4MywtODI0ODM5MTksLTE1OT
+gzMjIxNzQsOTc4ODk3NDUxLC0xMTIyOTE5ODgwLDkyMjE1MTY0
+NCwtNDI4MTMwMzY5LC0xMzE0NzQzMDE1LC0xNzI3NDYyMDc2LC
+0yMDMwMjU1NjAwLC00NDI3NDEyNzUsMTQwNTE2MTc2OSwtMzY1
+NzE3MjEsMTI1NTA0MzMyNiwxNTYwNDUwODE5LC05NjY0NjM2Nz
+QsLTE3NDk5MzczODgsNTg1NjA1OTkzLC0xNTc5NzgxMTI4LDEw
+MDA5NTk4NzldfQ==
 -->
