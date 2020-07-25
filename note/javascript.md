@@ -620,7 +620,10 @@ setTimeout(() => {
 
 ### Spread Arguments
 
-You can **define functions that take a arbitrary length list of arguments** (similar to `splat` arguments in other 
+You can **define functions that take a arbitrary length list of arguments** (similar to `splat` arguments in other languages) by using the `...` triple period spread syntax in the function's argument list. The list of arguments will be converted into an iterable 
+```js
+const doubleList = (...n) => n.map(x => x * 2)
+```
 
 ## Objects
 
@@ -1463,7 +1466,7 @@ updateUserInformation(users);
 // => End
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDgxOTc4MywtODI0ODM5MTksLTE1OT
+eyJoaXN0b3J5IjpbMjAwNDUyNDM4NywtODI0ODM5MTksLTE1OT
 gzMjIxNzQsOTc4ODk3NDUxLC0xMTIyOTE5ODgwLDkyMjE1MTY0
 NCwtNDI4MTMwMzY5LC0xMzE0NzQzMDE1LC0xNzI3NDYyMDc2LC
 0yMDMwMjU1NjAwLC00NDI3NDEyNzUsMTQwNTE2MTc2OSwtMzY1
