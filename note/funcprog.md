@@ -39,8 +39,10 @@ const x = [1, 2, 3]
 ```
 
 mutating an existing object is a bug
+
+> All software is automation. Given enough time, anything you do on a computer, you could do with paper, ink, and carrier pigeons. Software just takes care of all the little details that would be too time consuming to do manually.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyNDY5NTg1LC0yMDk3OTg1NDgyLDIxMz
-g1MDQ1NTQsNjUwMzUyOTA3LDM2ODM5MTY4OCw1MDcwODM3Mjgs
-MTQ5NjY5MjIxLC01NDAyNzIxNjNdfQ==
+eyJoaXN0b3J5IjpbLTE2NjI1ODI1NzMsLTIwOTc5ODU0ODIsMj
+EzODUwNDU1NCw2NTAzNTI5MDcsMzY4MzkxNjg4LDUwNzA4Mzcy
+OCwxNDk2NjkyMjEsLTU0MDI3MjE2M119
 -->
