@@ -41,8 +41,17 @@ const x = [1, 2, 3]
 mutating an existing object is a bug
 
 > All software is automation. Given enough time, anything you do on a computer, you could do with paper, ink, and carrier pigeons. Software just takes care of all the little details that would be too time consuming to do manually.
+
+>Learn to recognize characteristics of good abstractions:
+
+-   Simple
+-   Concise
+-   Reusable
+-   Independent
+-   Decomposable
+-   Recomposable
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI1ODI1NzMsLTIwOTc5ODU0ODIsMj
-EzODUwNDU1NCw2NTAzNTI5MDcsMzY4MzkxNjg4LDUwNzA4Mzcy
-OCwxNDk2NjkyMjEsLTU0MDI3MjE2M119
+eyJoaXN0b3J5IjpbLTExOTI2MTc0MzQsLTE2NjI1ODI1NzMsLT
+IwOTc5ODU0ODIsMjEzODUwNDU1NCw2NTAzNTI5MDcsMzY4Mzkx
+Njg4LDUwNzA4MzcyOCwxNDk2NjkyMjEsLTU0MDI3MjE2M119
 -->
