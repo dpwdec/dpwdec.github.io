@@ -271,7 +271,7 @@ You can **negate the `NULL` command** by inserting `NOT` into it to find records
 SELECT * FROM users WHERE phone_number IS NOT NULL
 ```
 
-### Numeric Operations with `+ - / * %`
+### Numeric Operations
 
 You can **execute numeric operations on output data** by including calculations as part of the `SELECT` query. You can use the `+`, `-`, `/`, `*` and `%` operators inside of the `SELECT` query. For example, if you were getting the areas of some countries that where thousands of kilometers square, you could rational those numbers by dividing them by `1000` within your query. This will then return the areas divided by that number.
 ```sql
@@ -397,11 +397,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTE0NjE2NSw2NjE3MTE2NDcsLTE2MD
-QwMDE4MjksMjY2OTYzMDc0LC0xNzg2NjQ0MjE1LDEwNTc4MzQy
-NjcsLTc2ODQzMDk1NiwtMTY1NTU4OTk1NSwxODU0NDY5NzgsOT
-MzODU1MzA2LC0xNDAwMzQwOSwtMTAyODM1MDYxNSwtODg1OTc5
-NDIwLC0xMzk0MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMT
-Q1MjMwOTY4NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1
-ODgyOTJdfQ==
+eyJoaXN0b3J5IjpbNzEwMzk2Mzc5LDY2MTcxMTY0NywtMTYwND
+AwMTgyOSwyNjY5NjMwNzQsLTE3ODY2NDQyMTUsMTA1NzgzNDI2
+NywtNzY4NDMwOTU2LC0xNjU1NTg5OTU1LDE4NTQ0Njk3OCw5Mz
+M4NTUzMDYsLTE0MDAzNDA5LC0xMDI4MzUwNjE1LC04ODU5Nzk0
+MjAsLTEzOTQzNjEzNzYsNTI1MzE2Nzk1LDIzNzQ5ODY4MywxND
+UyMzA5Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1MDIsMTM1ODU4
+ODI5Ml19
 -->
