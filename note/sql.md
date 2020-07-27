@@ -108,7 +108,7 @@ You can **combined the `AS` combine with the `*` selector** to get all columns *
 SELECT *, 10 AS points FROM users
 ```
 
-### Matching with `WHERE`
+### Matching with WHERE
 
 The `WHERE` command supports a variety of comparison operators combined with table output values. The full list is:
 - `=` - equality
@@ -142,7 +142,7 @@ You can **perform date based comparison operations** using `>` for dates after t
 SELECT name FROM users WHERE birth_date > '1990-01-01'
 ```
 
-### Combining with `AND` and `OR`
+### Combining with AND and OR
 
 You can **combine `WHERE` clauses** using the `AND` command between comparison clauses. The following query selects all users with the `name` 'Jake' with an age greater than `40`.
 ```sql
@@ -397,11 +397,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQwMDE4MjksMjY2OTYzMDc0LC0xNz
-g2NjQ0MjE1LDEwNTc4MzQyNjcsLTc2ODQzMDk1NiwtMTY1NTU4
-OTk1NSwxODU0NDY5NzgsOTMzODU1MzA2LC0xNDAwMzQwOSwtMT
-AyODM1MDYxNSwtODg1OTc5NDIwLC0xMzk0MzYxMzc2LDUyNTMx
-Njc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4NywtMjA0OTQyNzgzNi
-wtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMjExMDE0ODk2LDY1NzA3
-OTczNl19
+eyJoaXN0b3J5IjpbMTQ3OTY3MDAzNywtMTYwNDAwMTgyOSwyNj
+Y5NjMwNzQsLTE3ODY2NDQyMTUsMTA1NzgzNDI2NywtNzY4NDMw
+OTU2LC0xNjU1NTg5OTU1LDE4NTQ0Njk3OCw5MzM4NTUzMDYsLT
+E0MDAzNDA5LC0xMDI4MzUwNjE1LC04ODU5Nzk0MjAsLTEzOTQz
+NjEzNzYsNTI1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5Njg3LC
+0yMDQ5NDI3ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5MiwyMTEw
+MTQ4OTZdfQ==
 -->
