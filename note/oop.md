@@ -45,7 +45,7 @@ The `fly` method however *is* exposed to the rest of our code so that we have an
 
 Because our code has clearly defined channels for interacting with our `Bird` class it means we can easily change the implementation of the class without effecting the rest of our code. For example if we wanted to completely rewrite the `fly` method to changed how we calculating flying we can do that without in any way changing how the rest of our code outside of the `Bird` class works.
 
-### SRP (Single Responsibility Principle)
+### Single Responsibility Principle
 **SRP** means structuring our program so that each individual part of its functionality is encapsulated as a distinct entity (or class) capable of handling that responsibility without outside assistance. Each class should have one logical thing that is responsible for.
 
 This also means that if changes are required to your code they should only effect *one* component class in your system. If you find that writing a change into your system is propagating out to multiple classes in then you have probably violated SRP.
@@ -380,11 +380,11 @@ puts user.message
 The Pragmatic Programmer describes this way of coding as "Think[ing] declaratively not procedurally." and that it arises naturally if you design classes based on their responsibilities not their function.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTQzMDY2MiwyMTA4NzExNzQzLDE5Mj
-QyNjU4NzcsMTUwNzY4NjE3MSwxMTg1OTIyNDk1LC0xNzcwNTg0
-NjA1LDE0NTgwMjU5NjksMjU5MDM2NTkyLDMxMjAzMjc0MSwtMT
-M3NDY5MzkyNiw0MTQxMjY1NjksMjAwNzQ1NjEwMCwxOTEzMTg0
-NjcyLC0yMTc0MzAwNTEsLTEyMDk1NzY0MzcsMTAyNzkwMjQ5Ny
-wxNDU4Mzg4NTg0LC02MjkwMzczOTQsMjI0ODQ1NTA3LDIwODU2
-OTY3NzddfQ==
+eyJoaXN0b3J5IjpbLTEzODQyODYxNDAsMTAzNTQzMDY2MiwyMT
+A4NzExNzQzLDE5MjQyNjU4NzcsMTUwNzY4NjE3MSwxMTg1OTIy
+NDk1LC0xNzcwNTg0NjA1LDE0NTgwMjU5NjksMjU5MDM2NTkyLD
+MxMjAzMjc0MSwtMTM3NDY5MzkyNiw0MTQxMjY1NjksMjAwNzQ1
+NjEwMCwxOTEzMTg0NjcyLC0yMTc0MzAwNTEsLTEyMDk1NzY0Mz
+csMTAyNzkwMjQ5NywxNDU4Mzg4NTg0LC02MjkwMzczOTQsMjI0
+ODQ1NTA3XX0=
 -->
