@@ -251,7 +251,7 @@ SELECT * FROM users WHERE name LIKE '____k' OR name LIKE '%ani%'
 SELECT * FROM users WHERE name NOT LIKE '%e%'
 ```
 
-### Matching with `REGEXP`
+### Matching with REGEXP
 
 You can **use regular expressions** in SQL by invoking the `REGEXP` command. This command takes a regular expression literal as a string. It **does not need to be enclosed in `/../`** like regex in Ruby or other programming languages. The query below matches names that begin with either a `g` or a `j` followed by a number of characters and then ends in `field`.
 ```sql
@@ -259,7 +259,7 @@ You can **use regular expressions** in SQL by invoking the `REGEXP` command. Thi
 SELECT * FROM users WHERE name REGEXP '[gj]\w+field$'
 ```
 
-### Absence with `IS NULL`
+### Absence with IS NULL
 
 When a column field is empty for a record in SQL it is described as being `null`. You can **return record's which have specified empty fields** by using the `IS NULL` command to match with them. The query below matches all users whose `phone_number` is empty in the database.
 ```sql
@@ -304,7 +304,7 @@ It's useful to use `AS` to rename numeric queries based on what the calculation 
 SELECT gdp/population AS 'per capita gdp' FROM countries
 ```
 
-### Sorting with `ORDER BY`
+### Sorting with ORDER BY
 
 You can **sort data output** using the `ORDER BY` command followed by a column field. This will then sort the data output based on that field. Below, the query selects `name` and `age` from and then orders it by the name field. `ORDER BY` **sorts data in ascending order** by default.
 ```sql
@@ -397,11 +397,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxNzExNjQ3LC0xNjA0MDAxODI5LDI2Nj
-k2MzA3NCwtMTc4NjY0NDIxNSwxMDU3ODM0MjY3LC03Njg0MzA5
-NTYsLTE2NTU1ODk5NTUsMTg1NDQ2OTc4LDkzMzg1NTMwNiwtMT
-QwMDM0MDksLTEwMjgzNTA2MTUsLTg4NTk3OTQyMCwtMTM5NDM2
-MTM3Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2ODcsLT
-IwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAx
-NDg5Nl19
+eyJoaXN0b3J5IjpbMTA4MDY4OTc2MSw2NjE3MTE2NDcsLTE2MD
+QwMDE4MjksMjY2OTYzMDc0LC0xNzg2NjQ0MjE1LDEwNTc4MzQy
+NjcsLTc2ODQzMDk1NiwtMTY1NTU4OTk1NSwxODU0NDY5NzgsOT
+MzODU1MzA2LC0xNDAwMzQwOSwtMTAyODM1MDYxNSwtODg1OTc5
+NDIwLC0xMzk0MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMT
+Q1MjMwOTY4NywtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1
+ODgyOTJdfQ==
 -->
