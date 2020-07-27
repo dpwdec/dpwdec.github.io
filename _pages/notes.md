@@ -3,87 +3,143 @@ layout: page
 title: Notes index
 ---
 
-| Javascript[...](/notes/javascript.html) |
-| --- | --- |
-| [**Functions**](/notes/javascript.html#functions) | [Lexical Scoping](/notes/javascript.html#lexical-scoping) |
-| | [Closures](/notes/javascript.html#closures) |
-| | [Callbacks](/notes/javascript.html#callbacks) |
-| | [Immediately Invoked Function Expressions](/notes/javascript.html#iife) |
-| | [Arrow Functions](/notes/javascript.html#arrow-functions) |
-| | |
-| [**Classes**](/notes/javascript.html#classes) | [ES5 Classes](/notes/javascript.html#es5) |
-| | [ES6 Classes](/notes/javascript.html#es6) |
-| | [Prototype Property](/notes/javascript.html#prototype) |
-| | [Class Methods](/notes/javascript.html#class-methods) |
-| | |
-| [**Scope**](/notes/javascript.html#scope) | [This](/notes/javascript.html#this) |
-| | [Bind](/notes/javascript.html#bind) |
-| | [Scope of 'This' in callbacks and Objects](/notes/javascript.html#this-with-callbacks-and-objects) |
-| | |
-| [**Asynchronous Javascript**](/notes/javascript.html#asynchronous-javascript) | [Promises](/notes/javascript.html#promises) |
-| | [Async and Await](/notes/javascript.html#async-and-await) |
-| | [Async Loops](/notes/javascript.html#async-loops) |
-| | |
-| [**Node**](notes/node.html) | [npm](/notes/node.html#npm) |
-| | [Nodemon](notes/node.html#nodemon) |
-| | |
-| [**Express**](/notes/express) | [Controllers](/notes/express#controllers) |
-| | [Redirecting](/notes/express#redirecting) |
-| | [Status Responses](/notes/express#status-responses) |
-| | [Queries](/notes/express#queries) |
-| | |
-| [**Jasmine**](/notes/jasmine.html) | [Testing Modules](/notes/jasmine.html#testing-modules) |
-| | [Spies](/notes/jasmine.html#spies) |
-| | [Stubbing](/notes/jasmine.html#stubbing) |
-| | [Testing Async Code](/notes/jasmine.html#testing-async-code) |
-| | |
-| [**jQuery**](notes/jquery.html) | [Selectors](/notes/jquery#selectors) |
-| | [Events](/notes/jquery#events) |
-| | [Ajax](/notes/jquery#ajax) |
+## JavaScript
 
-| ruby |  |
+| -- | -- |
+| [**Functions**](/note/javascript#functions) | [Lexical Scoping](/note/javascript#lexical-scoping) |
+| | [Closures](/note/javascript#closures) |
+| | [Callbacks](/note/javascript#callbacks) |
+| | [Immediately Invoked Function Expressions](/note/javascript#iife) |
+| | [Arrow Functions](/note/javascript#arrow-functions) |
+| | [Spread Arguments](/note/javascript#spread-arguments) |
+| | |
+| [**Classes**](/note/javascript#classes) | [ES5 Classes](/note/javascript#es5) |
+| | [ES6 Classes](/note/javascript#es6) |
+| | [Prototype Property](/note/javascript#prototype) |
+| | [Class Methods](/note/javascript#class-methods) |
+| | |
+| [**Objects**](/note/javascript#objects) | [Assignment](/note/javascript#assign) |
+| | [Destructuring](/note/javascript#destructuring) |
+| | [Object Spread](/note/javascript#object-spread) |
+| | |
+| [**Scope**](/note/javascript#scope) | [This](/note/javascript#this) |
+| | [Bind](/note/javascript#bind) |
+| | [Scope of 'This' in callbacks and Objects](/note/javascript#this-with-callbacks-and-objects) |
+| | |
+| [**Async**](/note/javascript#asynchronous-javascript) | [Promises](/note/javascript#promises) |
+| | [Async and Await](/note/javascript#async-and-await) |
+| | [Async Loops](/note/javascript#async-loops) |
+| | |
+| [**Node**](note/node) | [npm](/note/node#npm) |
+| | [Nodemon](note/node#nodemon) |
+| | |
+| [**Express**](/note/express) | [Controllers](/note/express#controllers) |
+| | [Redirecting](/note/express#redirecting) |
+| | [Status Responses](/note/express#status-responses) |
+| | [Queries](/note/express#queries) |
+| | |
+| [**Jasmine**](/note/jasmine.html) | [Testing Modules](/note/jasmine.html#testing-modules) |
+| | [Spies](/note/jasmine.html#spies) |
+| | [Stubbing](/note/jasmine.html#stubbing) |
+| | [Testing Async Code](/note/jasmine.html#testing-async-code) |
+| | |
+| [**jQuery**](note/jquery.html) | [Selectors](/note/jquery#selectors) |
+| | [Events](/note/jquery#events) |
+| | [Ajax](/note/jquery#ajax) |
+
+  [](url)  
+  [](url)  
+
+## Databases
+
+| --- | --- |
+| [**Fundamentals**](note/db) | [Relational Databases](note/db#relation-databases) |
+| | [Modelling Entity Relationships](note/db#entity-relationships) |
+| | |
+| [**SQL**](note/sql) | [Creation](note/sql#creation) |
+| | [Insert](note/sql#insertion) |
+| | [Retrieval](note/sql#retrieval) |
+| | [Selecting with SELECT](note/sql#selecting-with-select) |
+| | [Aliases with AS](note/sql#aliases-with-as) |
+| | [Matching with WHERE](note/sql#matching-with-where) |
+| | [Combining with And and Or](note/sql#combining-with-and-and-or) |
+| | [Negating with NOT](note/sql#negating-with-not) |
+| | [Checking Range with IN](note/sql#checking-ranges-with-in) |
+| | [Filling in the gaps with BETWEEN](note/sql#filling-in-the-gaps-with-between) |
+| | [Finding Patterns with LIKE](note/sql#finding-patterns-with-like) |
+| | [Matching with REGEXP](note/sql#mathcing-with-regexp) |
+| | [Absence with IS NULL](note/sql#absence-with-is-null) |
+| | [Numeric Operations](note/sql#numeric-operations) |
+| | [Sorting with ORDER BY](note/sql#sorting-with-order-by) |
+| | [Putting a lid on it with LIMIT](note/sql#putting-a-lid-on-it-with-limit) |
+| | [Updating](note/sql#updating) |
+| | [RETURNING](note/sql#getting-things-back-with-returning) |
+| | |
+| [**MongoDB**](note/mongodb) | [Mongoose](note/mongodb#mongoose) |
+| | [Schemas](note/mongodb#schemas) |
+| | [Queries](note/mongodb#queries) |
+| | [Lean](note/mongodb#lean-queries) |
+| | |
+| [**PostgreSQL**](note/psql) | [Connections](note/psql#connections) |
+| | [CLI](note/psql#psql) |
+| | [PSQL with Ruby](note/psql#connecting-to-postgres-with-ruby) |
+
+  [](url)  
+  [](url)  
+
+## Ruby
+
 | --- | ---|
-| basics | [Ruby](notes/ruby.html)
-| testing | [RSpec](notes/rspec.html) |
-| | [Capybara](notes/capybara.html) |
-| frameworks | [Sinatra](notes/sinatra.html) |
-| | [Jekyll](notes/jekyll.html) |
+| [**Fundamentals**](note/ruby) | [Strings](note/ruby#strings) |
+| | [Arrays](note/ruby#arrays) |
+| | [Hashes](note/ruby#hashes) |
+| | |
+| [**RSpec**](note/rspec) | [Workflow](note/rspec#workflow) |
+| | [Spec Helper](note/rspec#spec-helper) |
+| | [Subject Scope](note/rspec#subject-scope) |
+| | [Structure](note/rspec#structure) |
+| | [Shared Context](note/rspec#shared-context) |
+| | [Expectations](note/rspec#expectations) |
+| | [Mocks](note/rspec#mocks) |
+| | |
+| [**Capybara**](note/capybara) | [Structure](note/capybara#structure) |
+| | [Helpers](note/capybara#helpers) |
+| | [Commands](note/capybara#commands) |
+| | [Matchers](note/capybara#matchers) |
+| | [Orderly](note/capybara#orderly) |
+| | |
+| [**Sintatra**](note/sinatra) | [Routes](note/sinatra#routes) |
+| | [Integrating RESTful Request Handling](note/sinatra#restful-routing) |
+| | [Modular Style](note/sinatra#modular-style) |
+| | [Parials](note/sinatra#partials) |
+| | [Flash](note/sinatra#sinatra-flash) |
 
-| |
-| --- | --- |
-| basics | [Javascript](notes/javascript.html) |
-| testing | [Jasmine](notes/jasmine.html) |
-| frameworks | [Node](notes/node.html) |
-| | [npm](/notes/node.html#npm)
-| | [jQuery](notes/jquery.html) |
+  [](url)  
+  [](url)  
 
-| web development |  |
+## Web Development
+
 | --- | ---|
-| basics | [Web Structures](notes/www.html) |
-| front end | [HTML](notes/html.html) |
-| | [CSS](notes/css.html) |
+| [Web Structures](note/www)  | [The Request Response Cycle](note/www#request-response-cycle) |
+| | [HTTP](note/www#http) |
+| | [Post Redirect Get](note/www#prg) |
+| | [DNS](note/www#dns) |
 
-| databases | |
+  [](url)  
+  [](url)  
+
+## Programming Fundamentals
+
 | --- | --- |
-| basics | [Database Fundamentals](notes/db.html) |
-| | [SQL](notes/sql.html) |
-| frameworks | [PostgreSQL](notes/psql.html) |
-
-| fundamentals | |
-| --- | --- |
-| structure | [Object Oriented Programming](notes/oop.html) |
-| | [Refactoring](notes/refactoring.html) |
-
-| tools | |
-| --- | --- |
-| IDEs | [Atom](notes/atom.html) |
-| Interface | [Command Line](notes/cmd_line.html) |
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjMyNzc2OSwxMTQzNjkzOTI3LDEyMD
-U0MTAzOTYsLTMyOTg3NDI2OCwxOTY5Njk0MTYsLTI2NzQ5OTYw
-NCwtMTE1MjEyMjQ4NCw3MTE5NDkwMzQsLTE4NzUyMDY4MDEsMT
-Q0MDA3MDY1OCwtMzkxNjIxNTQ5LDE5OTE4NDA4NjEsMTEzODc1
-MzA2MCwtMTQxNTc2MDc5NSwxMTgyNjg4NTA5LC00MDMyNDE0OC
-wtMTk5MDQzNTk3MCwtMjI2MTc1MTM4XX0=
--->
+| [**OO Programming**](note/oop) | [Data Abstraction and Unification](note/oop#data-abstraction) |
+| | [Encapsulation](note/oop#encapsulation) |
+| | [Single Responsibilty Principle](note/oop#srp) |
+| | [Cohesion](note/oop#cohesion) |
+| | [Forwarding and Delegation](note/oop#forwarding-and-delegation) |
+| | [Polymorphism](note/oop#[polymorphism]) |
+| | [Composition Over Inheritance](note/oop#composition-over-inheritance) |
+| | [Tell Don't Ask](note/oop#tell-dont-ask) |
+| | |
+| [**Refactoring**](note/refactoring) | [Variable Extraction](note/refactoring#variable-extraction) |
+| | [Method Extraction](note/refactoring#method-extraction) |
+| | [Class Extraction](note/refactoring#class-extraction) |
