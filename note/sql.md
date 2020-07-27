@@ -91,7 +91,7 @@ You can **only display unique column values** by using the `DISTINCT` keyword. T
 SELECT DISTINCT continent FROM countries
 ```
 
-### Aliases with `AS`
+### Aliases with AS
 
 You can **output a column with specified name** using the `AS` keyword. The example below will output the data from the `name` column of the `users` table but with the column name `alias` instead of `name`.
 ```sql
@@ -397,11 +397,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTk2NDA3NjUsLTE2MDQwMDE4MjksMj
-Y2OTYzMDc0LC0xNzg2NjQ0MjE1LDEwNTc4MzQyNjcsLTc2ODQz
-MDk1NiwtMTY1NTU4OTk1NSwxODU0NDY5NzgsOTMzODU1MzA2LC
-0xNDAwMzQwOSwtMTAyODM1MDYxNSwtODg1OTc5NDIwLC0xMzk0
-MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4Ny
-wtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMjEx
-MDE0ODk2XX0=
+eyJoaXN0b3J5IjpbMTQ0NDY4Nzk3NSwtMTYwNDAwMTgyOSwyNj
+Y5NjMwNzQsLTE3ODY2NDQyMTUsMTA1NzgzNDI2NywtNzY4NDMw
+OTU2LC0xNjU1NTg5OTU1LDE4NTQ0Njk3OCw5MzM4NTUzMDYsLT
+E0MDAzNDA5LC0xMDI4MzUwNjE1LC04ODU5Nzk0MjAsLTEzOTQz
+NjEzNzYsNTI1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5Njg3LC
+0yMDQ5NDI3ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5MiwyMTEw
+MTQ4OTZdfQ==
 -->
