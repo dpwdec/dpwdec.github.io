@@ -201,7 +201,7 @@ You can also **negate `IN` selection queries** using the `NOT` command:
 SELECT * FROM users WHERE state NOT IN ('VA', 'FL', 'TX')
 ```
 
-### Filling in the gaps with `BETWEEN`
+### Filling in the gaps with BETWEEN
 
 You can **match a range of numeric values** by using the `BETWEEN` command for a numeric field. The ranges are joined by the `AND` command. Range checking is **boundary inclusive**. Below, the query returns the `name` field for all records with an `age` field of value 25 - 34 inclusive. You cannot break up large numbers when submitting range queries with `,` or `_`.
 ```sql
@@ -397,11 +397,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjc2OTk1NywtMTYwNDAwMTgyOSwyNj
-Y5NjMwNzQsLTE3ODY2NDQyMTUsMTA1NzgzNDI2NywtNzY4NDMw
-OTU2LC0xNjU1NTg5OTU1LDE4NTQ0Njk3OCw5MzM4NTUzMDYsLT
-E0MDAzNDA5LC0xMDI4MzUwNjE1LC04ODU5Nzk0MjAsLTEzOTQz
-NjEzNzYsNTI1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5Njg3LC
-0yMDQ5NDI3ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5MiwyMTEw
-MTQ4OTZdfQ==
+eyJoaXN0b3J5IjpbLTIxMDg5NTY0OTEsLTE2MDQwMDE4MjksMj
+Y2OTYzMDc0LC0xNzg2NjQ0MjE1LDEwNTc4MzQyNjcsLTc2ODQz
+MDk1NiwtMTY1NTU4OTk1NSwxODU0NDY5NzgsOTMzODU1MzA2LC
+0xNDAwMzQwOSwtMTAyODM1MDYxNSwtODg1OTc5NDIwLC0xMzk0
+MzYxMzc2LDUyNTMxNjc5NSwyMzc0OTg2ODMsMTQ1MjMwOTY4Ny
+wtMjA0OTQyNzgzNiwtNTk3NjI3NTAyLDEzNTg1ODgyOTIsMjEx
+MDE0ODk2XX0=
 -->
