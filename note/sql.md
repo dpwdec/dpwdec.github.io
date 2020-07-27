@@ -57,7 +57,7 @@ VALUES (4, 'some value')
 
 The main statements for SQL retrieval queries are `SELECT`, `FROM`, `WHERE` and `SORT BY` in that order. Using these clauses out of order will results in a `syntax error`.
 
-### Selecting with `SELECT`
+### Selecting with SELECT
 
 You can use the `SELECT` command to **specify a column of data to retrieve** from a table and the `FROM` command to **specify which table you want to retrieve data from**. This can be combined with the `WHERE` command which is used **specify a value in a column to match** as a way to find a record.
 
@@ -397,11 +397,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDY4Nzk3NSwtMTYwNDAwMTgyOSwyNj
-Y5NjMwNzQsLTE3ODY2NDQyMTUsMTA1NzgzNDI2NywtNzY4NDMw
-OTU2LC0xNjU1NTg5OTU1LDE4NTQ0Njk3OCw5MzM4NTUzMDYsLT
-E0MDAzNDA5LC0xMDI4MzUwNjE1LC04ODU5Nzk0MjAsLTEzOTQz
-NjEzNzYsNTI1MzE2Nzk1LDIzNzQ5ODY4MywxNDUyMzA5Njg3LC
-0yMDQ5NDI3ODM2LC01OTc2Mjc1MDIsMTM1ODU4ODI5MiwyMTEw
-MTQ4OTZdfQ==
+eyJoaXN0b3J5IjpbNjYxNzExNjQ3LC0xNjA0MDAxODI5LDI2Nj
+k2MzA3NCwtMTc4NjY0NDIxNSwxMDU3ODM0MjY3LC03Njg0MzA5
+NTYsLTE2NTU1ODk5NTUsMTg1NDQ2OTc4LDkzMzg1NTMwNiwtMT
+QwMDM0MDksLTEwMjgzNTA2MTUsLTg4NTk3OTQyMCwtMTM5NDM2
+MTM3Niw1MjUzMTY3OTUsMjM3NDk4NjgzLDE0NTIzMDk2ODcsLT
+IwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4NTg4MjkyLDIxMTAx
+NDg5Nl19
 -->
