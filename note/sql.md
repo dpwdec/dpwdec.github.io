@@ -219,7 +219,7 @@ The `BETWEEN` command can also be used with date ranges. Dates should again be s
 SELECT * FROM users WHERE birth_date BETWEEN '1991-01-01' AND '2000-01-01'
 ```
 
-### Finding Patterns with `LIKE`
+### Finding Patterns with LIKE
 
 The SQL `LIKE` command is used for **matching string patterns** in your database. The match criteria for these queries should come as strings. These **matching patterns are case insensitive.**
 
@@ -397,7 +397,7 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDg5NTY0OTEsLTE2MDQwMDE4MjksMj
+eyJoaXN0b3J5IjpbLTEwMTk2NDA3NjUsLTE2MDQwMDE4MjksMj
 Y2OTYzMDc0LC0xNzg2NjQ0MjE1LDEwNTc4MzQyNjcsLTc2ODQz
 MDk1NiwtMTY1NTU4OTk1NSwxODU0NDY5NzgsOTMzODU1MzA2LC
 0xNDAwMzQwOSwtMTAyODM1MDYxNSwtODg1OTc5NDIwLC0xMzk0
