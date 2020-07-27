@@ -172,7 +172,7 @@ select * FROM users WHERE age > 40 OR
 (name = 'Jake' AND birth_date < '2010-01-01')
 ```
 
-### Negating with `NOT`
+### Negating with NOT
 
 You can **negate a logical query** using the `NOT` keyword:
 ```sql
@@ -184,7 +184,7 @@ Negative logical queries **can also be combined with parentheses**:
 select * FROM users WHERE NOT (name = 'Jake' OR age > 40)
 ```
 
-### Checking Ranges with `IN`
+### Checking Ranges with IN
 
 You can **match a several distinct of possibilities** with the `WHERE` command by combining it with `IN` command which checks if a records value matches a list of possibilities. In the below example, if the value of `name` is `IN` the list submitted in the parentheses then the `age` field of that record will be displayed. 
 ```sql
@@ -397,7 +397,7 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTY3MDAzNywtMTYwNDAwMTgyOSwyNj
+eyJoaXN0b3J5IjpbMTgwMjc2OTk1NywtMTYwNDAwMTgyOSwyNj
 Y5NjMwNzQsLTE3ODY2NDQyMTUsMTA1NzgzNDI2NywtNzY4NDMw
 OTU2LC0xNjU1NTg5OTU1LDE4NTQ0Njk3OCw5MzM4NTUzMDYsLT
 E0MDAzNDA5LC0xMDI4MzUwNjE1LC04ODU5Nzk0MjAsLTEzOTQz
