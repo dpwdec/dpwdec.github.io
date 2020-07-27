@@ -70,7 +70,7 @@ def home?
 end
 ```
 
-### Extract Class
+### Class Extraction
 
 If you can extract a method within a class into a separate `private` method which the class delegates responsibility to, there is a good chance that you can extract this method into its own class.
 
@@ -128,8 +128,8 @@ To offer feedback on pull request code visit the `pull request` of your repo and
 You can leave comments on single or multiple lines by using the `+` symbol next to code lines and "adding a comment". 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzg2MzMwNjQsMjEwNDM4MjI4MiwtMT
-I3NjYzMDE2MSwxODI4NzMwODY5LDE3NDg4MTg1MDQsMTE1NTEx
-OTI3LC01NTIzMjgyMzYsLTIwNTQ0NzU0MDYsMTg0NTMyNTA4My
-wtMjA1NDQ3NTQwNiwtODU2MDUxMTE3XX0=
+eyJoaXN0b3J5IjpbNzU1MzQzNDkyLC0xMzc4NjMzMDY0LDIxMD
+QzODIyODIsLTEyNzY2MzAxNjEsMTgyODczMDg2OSwxNzQ4ODE4
+NTA0LDExNTUxMTkyNywtNTUyMzI4MjM2LC0yMDU0NDc1NDA2LD
+E4NDUzMjUwODMsLTIwNTQ0NzU0MDYsLTg1NjA1MTExN119
 -->
