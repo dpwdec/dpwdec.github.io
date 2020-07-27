@@ -369,7 +369,7 @@ You can **delete a record from a table** using the `DELETE FROM` command combine
 DELETE FROM users WHERE name = 'Jim'
 ```
 
-## Getting things back with `RETURNING`
+## Getting things back with RETURNING
 
 The **`RETURNING` keyword allows you to retrieve records that were `INSERT`ed, `DELETE`d or `UPDATE`d within the same query**. Without this function you would need to run a separate `SELECT` query after doing an `INSERT`, `UPDATE` or `DELETE` to get back the data you had inserted to check its validity. To use `RETURNING` simply append it to the end of a query that changes table data followed by the columns to return. The query below inserts a new user `'Dec'` into `users` and then returns the `id` and `name` columns for the inserted record.
 ```sql
@@ -397,11 +397,11 @@ You can document your database changes by placing initialisations SQL code withi
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMzk2Mzc5LDY2MTcxMTY0NywtMTYwND
-AwMTgyOSwyNjY5NjMwNzQsLTE3ODY2NDQyMTUsMTA1NzgzNDI2
-NywtNzY4NDMwOTU2LC0xNjU1NTg5OTU1LDE4NTQ0Njk3OCw5Mz
-M4NTUzMDYsLTE0MDAzNDA5LC0xMDI4MzUwNjE1LC04ODU5Nzk0
-MjAsLTEzOTQzNjEzNzYsNTI1MzE2Nzk1LDIzNzQ5ODY4MywxND
-UyMzA5Njg3LC0yMDQ5NDI3ODM2LC01OTc2Mjc1MDIsMTM1ODU4
-ODI5Ml19
+eyJoaXN0b3J5IjpbLTE5NDg2MjYxMTMsNjYxNzExNjQ3LC0xNj
+A0MDAxODI5LDI2Njk2MzA3NCwtMTc4NjY0NDIxNSwxMDU3ODM0
+MjY3LC03Njg0MzA5NTYsLTE2NTU1ODk5NTUsMTg1NDQ2OTc4LD
+kzMzg1NTMwNiwtMTQwMDM0MDksLTEwMjgzNTA2MTUsLTg4NTk3
+OTQyMCwtMTM5NDM2MTM3Niw1MjUzMTY3OTUsMjM3NDk4NjgzLD
+E0NTIzMDk2ODcsLTIwNDk0Mjc4MzYsLTU5NzYyNzUwMiwxMzU4
+NTg4MjkyXX0=
 -->
