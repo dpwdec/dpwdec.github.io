@@ -1468,7 +1468,7 @@ updateUserInformation(users);
 
 ## Export and Import
 
-To **use ES6 classes in node** you must either name your files with the `.mjs` extension to convert them to modules, or switch your entire project over to a module based project by adding a `
+To **use ES6 classes in node** you must either name your files with the `.mjs` extension to convert them to modules, or switch your entire project over to a module based project by adding a `"type":  "module"` key-value pair to the `package.json` file.
 
 ### ES6 Import
 
@@ -1484,10 +1484,16 @@ import { Foo, Bar } from './modules/foo'
 
 ### ES6 Export
 
-You can **export functions directly** by not using the 
+You can **export multiple functions directly** by omitting the `default` keyword and containing the functions to be exported in `{}` curly braces.
+```js
+const Foo = () => {}
+const Bar = () => {}
+const Baz = () => {}
+export { Foo, Bar, Baz }
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTAwMzQ1NSwyMTM5Mzk3NDc4LDU3ND
+eyJoaXN0b3J5IjpbMTc0NzUyNDQ0OSwyMTM5Mzk3NDc4LDU3ND
 AxOTA2OSwtODI0ODM5MTksLTE1OTgzMjIxNzQsOTc4ODk3NDUx
 LC0xMTIyOTE5ODgwLDkyMjE1MTY0NCwtNDI4MTMwMzY5LC0xMz
 E0NzQzMDE1LC0xNzI3NDYyMDc2LC0yMDMwMjU1NjAwLC00NDI3
