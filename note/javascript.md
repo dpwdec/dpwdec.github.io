@@ -1477,7 +1477,7 @@ If you want to **import an entire object and its associated methods from a file*
 import Foo from './modules/foo.js'
 ```
 
-You can **import multiple objects** by using standard destructuring syntax.
+You can **import multiple objects** by using standard de-structuring syntax.
 ```js
 import { Foo, Bar } from './modules/foo'
 ```
@@ -1489,15 +1489,16 @@ You can **export multiple functions directly** by omitting the `default` keyword
 const Foo = () => {}
 const Bar = () => {}
 const Baz = () => {}
+
 export { Foo, Bar, Baz }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzUyNDQ0OSwyMTM5Mzk3NDc4LDU3ND
-AxOTA2OSwtODI0ODM5MTksLTE1OTgzMjIxNzQsOTc4ODk3NDUx
-LC0xMTIyOTE5ODgwLDkyMjE1MTY0NCwtNDI4MTMwMzY5LC0xMz
-E0NzQzMDE1LC0xNzI3NDYyMDc2LC0yMDMwMjU1NjAwLC00NDI3
-NDEyNzUsMTQwNTE2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMyNi
-wxNTYwNDUwODE5LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNTg1
-NjA1OTkzXX0=
+eyJoaXN0b3J5IjpbNDEwNjEzMzgyLDIxMzkzOTc0NzgsNTc0MD
+E5MDY5LC04MjQ4MzkxOSwtMTU5ODMyMjE3NCw5Nzg4OTc0NTEs
+LTExMjI5MTk4ODAsOTIyMTUxNjQ0LC00MjgxMzAzNjksLTEzMT
+Q3NDMwMTUsLTE3Mjc0NjIwNzYsLTIwMzAyNTU2MDAsLTQ0Mjc0
+MTI3NSwxNDA1MTYxNzY5LC0zNjU3MTcyMSwxMjU1MDQzMzI2LD
+E1NjA0NTA4MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OCw1ODU2
+MDU5OTNdfQ==
 -->
