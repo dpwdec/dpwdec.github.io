@@ -8,6 +8,13 @@ You can **create a new virtual environment** by using the `virtualenv` command f
 ```bash
 $ virtualenv env
 ```
+
+To **activate your virtual environment** use the `source` command with the path of the `ENV_NAME/bin/activate` file. This will change your console so that you are working in the virtual directory environment for your project.
+```bash
+$ source env/bin/activate
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzIxNjE0NDddfQ==
+eyJoaXN0b3J5IjpbMTM2MzcxMjY4LC0xMTMyMTYxNDQ3XX0=
 -->
