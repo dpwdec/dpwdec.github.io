@@ -115,7 +115,9 @@ if 3 < 5: return True
 
 ## Special Variables
 
-Special variables are Pytho
+Special Python variables are specially defined names for program specific or operational variables that usually come in the form `__VARNAME__` with `__` double underscores on each end of them.
+
+### Main
 
 When calling a file by name, such as `python3 my_file` that is not the `main` (or root) executable of your project, you can **create a conditional that will call the `main` file when that non-root file is called** using the `'__main__'` matcher. In the code below when `not_main.py` is called to execute it will instead call the correct main file.
 ```py
@@ -123,6 +125,10 @@ When calling a file by name, such as `python3 my_file` that is not the `main` (o
 if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
+
+### Name
+
+
 
 ## Functions
 
@@ -399,7 +405,7 @@ If you have a `.env` file in your project directory running `pipenv` commands li
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxMDA2MDI5LDE5MDUxODUzMDIsLTI5Mz
+eyJoaXN0b3J5IjpbMjgzOTg4NDc5LDE5MDUxODUzMDIsLTI5Mz
 k5OTA3MywtOTc4ODM5Mzk1LDE5OTgxODcxODgsNTYxODU5MDgs
 LTE5OTM1OTMxNjQsLTI0NTMyODc1MiwyNTc2MjY3OTcsMjAxNz
 g5NTM4MCwtMTg2NjkyMzAyNywxMzczMTMzNTcxLC0xNDQ1OTQ0
