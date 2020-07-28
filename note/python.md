@@ -119,9 +119,11 @@ Special Python variables are specially defined names for program specific or ope
 
 ### Name
 
-The `__name__` varible is set to `"__main__"` inside files that are executed directly and is otherwise set to the name of the file.
+The `__name__` variable is set to `"__main__"` inside files that are executed directly and is otherwise set to the name of the file. If `name.py` below were execute directly then it would print `"__main__"`, however if the `sayName` function were to be imported into another main file then it would 
 ```py
-# 
+# name.py
+def sayName():
+  print 'The value of __name__ is ' + __name__
 ```
 
 
@@ -409,11 +411,11 @@ If you have a `.env` file in your project directory running `pipenv` commands li
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3MDUxMjk3LDI4Mzk4ODQ3OSwxOTA1MT
-g1MzAyLC0yOTM5OTkwNzMsLTk3ODgzOTM5NSwxOTk4MTg3MTg4
-LDU2MTg1OTA4LC0xOTkzNTkzMTY0LC0yNDUzMjg3NTIsMjU3Nj
-I2Nzk3LDIwMTc4OTUzODAsLTE4NjY5MjMwMjcsMTM3MzEzMzU3
-MSwtMTQ0NTk0NDc1LDQ4ODQ2NzI0OCwtODk3MDU5NzgyLC02OT
-gzNzI5NTAsLTI4Mjc0NjU0LDEzNzM0NjU4MzgsLTExOTUxMjc0
-MDZdfQ==
+eyJoaXN0b3J5IjpbMTgzODExMTg3OCwyODM5ODg0NzksMTkwNT
+E4NTMwMiwtMjkzOTk5MDczLC05Nzg4MzkzOTUsMTk5ODE4NzE4
+OCw1NjE4NTkwOCwtMTk5MzU5MzE2NCwtMjQ1MzI4NzUyLDI1Nz
+YyNjc5NywyMDE3ODk1MzgwLC0xODY2OTIzMDI3LDEzNzMxMzM1
+NzEsLTE0NDU5NDQ3NSw0ODg0NjcyNDgsLTg5NzA1OTc4MiwtNj
+k4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3
+NDA2XX0=
 -->
