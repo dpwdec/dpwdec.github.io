@@ -20,7 +20,11 @@ You can **run the application in debug mode** so that it displays errors on the 
 ```py
 app.run(debug=True)
 ```
+
+## JSON
+
+You can **send JSON responses** by using the `jsonify` method. This accepts JSON formatted data as its argument between `{}` curl braces.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTc2MTMxMiwtMjU3NzkzNDgwLDI1OT
-YzODIwOF19
+eyJoaXN0b3J5IjpbMTM5MDc5ODQ1NCwxODM5NzYxMzEyLC0yNT
+c3OTM0ODAsMjU5NjM4MjA4XX0=
 -->
