@@ -27,17 +27,20 @@ You can **send JSON responses** by using the `jsonify` method. This accepts JSON
 ```py
 jsonify(
   {
-    "Codec": "73-ZXX14",
-    "users": [
+    "codec": "73-ZXX14", # key value pairs
+    "users": [ # arrays
       "Nelson",
       "Lauren",
       "Vlad"
     ],
-    
+    "scheme": { # nested objects
+      "platform": "spectrum",
+      "version": "1.1.2"
+    }
   }
 )
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDA1MDU2OSwxODM5NzYxMzEyLC0yNT
+eyJoaXN0b3J5IjpbLTk3OTkzMjc0NywxODM5NzYxMzEyLC0yNT
 c3OTM0ODAsMjU5NjM4MjA4XX0=
 -->
