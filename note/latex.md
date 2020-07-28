@@ -93,6 +93,15 @@ This text will be rendered.
 \end{document}
 ```
 
+You can **comment out a block of code** by using the `iffalse` with `fi` indicators.
+```latex
+\iffalse
+Everything on these
+Lines will be
+Commentted out!
+\fi
+```
+
 ## Formatting
 
 ### Emphasis
@@ -218,8 +227,9 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybinding for zooming. This can also be used for **making code text smaller**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzY3OTEzNSw5MjEyNTE2OTMsLTMxMj
-Y5MTAyNSwtODY0MjQwNzEyLC0xODU0MjYxNTEzLDM0NTk5OTc4
-MCwxNjg2Njg0Njk1LDE1ODQwMzM3NDAsMTE5MzE1NjU0NywtMT
-IzNTg3ODgwNCwtMTcwODkyMjM0OSw1Mjg2MDY0MDVdfQ==
+eyJoaXN0b3J5IjpbOTExNTc4MywyMDI3Njc5MTM1LDkyMTI1MT
+Y5MywtMzEyNjkxMDI1LC04NjQyNDA3MTIsLTE4NTQyNjE1MTMs
+MzQ1OTk5NzgwLDE2ODY2ODQ2OTUsMTU4NDAzMzc0MCwxMTkzMT
+U2NTQ3LC0xMjM1ODc4ODA0LC0xNzA4OTIyMzQ5LDUyODYwNjQw
+NV19
 -->
