@@ -23,9 +23,11 @@ app.run(debug=True)
 
 ## JSON
 
-You can **send JSON responses** by using the `jsonify` method. This accepts JSON formatted data (or a Python `dict`) as its argument between `{}` curly braces.
-`
+You can **send JSON responses** by using the `jsonify` method. This accepts JSON formatted data (or a Python `dict`) as its argument between `{}` curly braces. Keys and values must be in string format.
+```py
+jsonify({"Codec": "73-ZXX14",})
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg5MTYwOCwxODM5NzYxMzEyLC0yNT
+eyJoaXN0b3J5IjpbMTk1MTUzOTAzOCwxODM5NzYxMzEyLC0yNT
 c3OTM0ODAsMjU5NjM4MjA4XX0=
 -->
