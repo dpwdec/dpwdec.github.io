@@ -9,12 +9,12 @@ You can **create a new virtual environment** by using the `virtualenv` command f
 $ virtualenv env
 ```
 
-To **activate your virtual environment** use the `source` command with the path of the `ENV_NAME/bin/activate` file. This will change your console so that you are working in the virtual directory environment for your project. Once inside the virtual environment you can install dep
+To **activate your virtual environment** use the `source` command with the path of the `ENV_NAME/bin/activate` file. This will change your console so that you are working in the virtual directory environment for your project. Once inside the virtual environment you can install dependencies and they will remain locally scoped to the directory which the environment covers.
 ```bash
 $ source env/bin/activate
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTgzNzgzMSwtMTEzMjE2MTQ0N119
+eyJoaXN0b3J5IjpbMjM3Mzc0ODYyLC0xMTMyMTYxNDQ3XX0=
 -->
