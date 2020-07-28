@@ -117,6 +117,14 @@ if 3 < 5: return True
 
 Special Python variables are specially defined names for program specific or operational variables that usually come in the form `__VARNAME__` with `__` double underscores on each end of them.
 
+### Name
+
+The `__name__` varible is set to `"__main__"` inside files that are executed directly and is otherwise set to the name of the file.
+```py
+# 
+```
+
+
 ### Main
 
 When calling a file by name, such as `python3 my_file` that is not the `main` (or root) executable of your project, you can **create a conditional that will call the `main` file when that non-root file is called** using the `'__main__'` matcher. In the code below when `not_main.py` is called to execute it will instead call the correct main file.
@@ -125,10 +133,6 @@ When calling a file by name, such as `python3 my_file` that is not the `main` (o
 if __name__ == '__main__':
   my_main_file.my_main_method()
 ```
-
-### Name
-
-
 
 ## Functions
 
@@ -405,11 +409,11 @@ If you have a `.env` file in your project directory running `pipenv` commands li
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzOTg4NDc5LDE5MDUxODUzMDIsLTI5Mz
-k5OTA3MywtOTc4ODM5Mzk1LDE5OTgxODcxODgsNTYxODU5MDgs
-LTE5OTM1OTMxNjQsLTI0NTMyODc1MiwyNTc2MjY3OTcsMjAxNz
-g5NTM4MCwtMTg2NjkyMzAyNywxMzczMTMzNTcxLC0xNDQ1OTQ0
-NzUsNDg4NDY3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMj
-gyNzQ2NTQsMTM3MzQ2NTgzOCwtMTE5NTEyNzQwNiwtNTU2NDY0
-MDE4XX0=
+eyJoaXN0b3J5IjpbNzE3MDUxMjk3LDI4Mzk4ODQ3OSwxOTA1MT
+g1MzAyLC0yOTM5OTkwNzMsLTk3ODgzOTM5NSwxOTk4MTg3MTg4
+LDU2MTg1OTA4LC0xOTkzNTkzMTY0LC0yNDUzMjg3NTIsMjU3Nj
+I2Nzk3LDIwMTc4OTUzODAsLTE4NjY5MjMwMjcsMTM3MzEzMzU3
+MSwtMTQ0NTk0NDc1LDQ4ODQ2NzI0OCwtODk3MDU5NzgyLC02OT
+gzNzI5NTAsLTI4Mjc0NjU0LDEzNzM0NjU4MzgsLTExOTUxMjc0
+MDZdfQ==
 -->
