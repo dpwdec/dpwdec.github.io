@@ -1472,19 +1472,19 @@ updateUserInformation(users);
 
 If you want to **import an entire object and its associated methods from a file** use the `import` command with the name of the object you want to import and a path to the file.
 ```js
-import Foo from './modules/foo'
+import Foo from './modules/foo.js'
 ```
 
-You can **destructure an import object** to only import entirely methods within it by using standard destructuring syntax.
+You can **import multiple objects** to only import entirely methods within it by using standard destructuring syntax.
 ```js
 import { bar, baz } from './modules/foo'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTM5NzQ3OCw1NzQwMTkwNjksLTgyND
-gzOTE5LC0xNTk4MzIyMTc0LDk3ODg5NzQ1MSwtMTEyMjkxOTg4
-MCw5MjIxNTE2NDQsLTQyODEzMDM2OSwtMTMxNDc0MzAxNSwtMT
-cyNzQ2MjA3NiwtMjAzMDI1NTYwMCwtNDQyNzQxMjc1LDE0MDUx
-NjE3NjksLTM2NTcxNzIxLDEyNTUwNDMzMjYsMTU2MDQ1MDgxOS
-wtOTY2NDYzNjc0LC0xNzQ5OTM3Mzg4LDU4NTYwNTk5MywtMTU3
-OTc4MTEyOF19
+eyJoaXN0b3J5IjpbLTIwMzAzMDE4NDUsMjEzOTM5NzQ3OCw1Nz
+QwMTkwNjksLTgyNDgzOTE5LC0xNTk4MzIyMTc0LDk3ODg5NzQ1
+MSwtMTEyMjkxOTg4MCw5MjIxNTE2NDQsLTQyODEzMDM2OSwtMT
+MxNDc0MzAxNSwtMTcyNzQ2MjA3NiwtMjAzMDI1NTYwMCwtNDQy
+NzQxMjc1LDE0MDUxNjE3NjksLTM2NTcxNzIxLDEyNTUwNDMzMj
+YsMTU2MDQ1MDgxOSwtOTY2NDYzNjc0LC0xNzQ5OTM3Mzg4LDU4
+NTYwNTk5M119
 -->
