@@ -10,6 +10,14 @@ from flask import Flask
 
 app = Flask(__name__)
 ```
+
+You can **run your flask application** with the `.run` method.
+```py
+app.run()
+```
+
+You can **run the application in debug mode so that **
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1Nzc5MzQ4MCwyNTk2MzgyMDhdfQ==
+eyJoaXN0b3J5IjpbMTI0MTczNzEzMCwtMjU3NzkzNDgwLDI1OT
+YzODIwOF19
 -->
