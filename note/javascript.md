@@ -1468,23 +1468,30 @@ updateUserInformation(users);
 
 ## Export and Import
 
-### ES6
+To **use ES6 classes in node** you must either name your files with the `.mjs` extension to convert them to modules, or switch your entire project over to a module based project by adding a `
+
+### ES6 Import
 
 If you want to **import an entire object and its associated methods from a file** use the `import` command with the name of the object you want to import and a path to the file.
 ```js
 import Foo from './modules/foo.js'
 ```
 
-You can **import multiple objects** to only import entirely methods within it by using standard destructuring syntax.
+You can **import multiple objects** by using standard destructuring syntax.
 ```js
-import { bar, baz } from './modules/foo'
+import { Foo, Bar } from './modules/foo'
 ```
+
+### ES6 Export
+
+You can **export functions directly** by not using the 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzAzMDE4NDUsMjEzOTM5NzQ3OCw1Nz
-QwMTkwNjksLTgyNDgzOTE5LC0xNTk4MzIyMTc0LDk3ODg5NzQ1
-MSwtMTEyMjkxOTg4MCw5MjIxNTE2NDQsLTQyODEzMDM2OSwtMT
-MxNDc0MzAxNSwtMTcyNzQ2MjA3NiwtMjAzMDI1NTYwMCwtNDQy
-NzQxMjc1LDE0MDUxNjE3NjksLTM2NTcxNzIxLDEyNTUwNDMzMj
-YsMTU2MDQ1MDgxOSwtOTY2NDYzNjc0LC0xNzQ5OTM3Mzg4LDU4
-NTYwNTk5M119
+eyJoaXN0b3J5IjpbLTY2MTAwMzQ1NSwyMTM5Mzk3NDc4LDU3ND
+AxOTA2OSwtODI0ODM5MTksLTE1OTgzMjIxNzQsOTc4ODk3NDUx
+LC0xMTIyOTE5ODgwLDkyMjE1MTY0NCwtNDI4MTMwMzY5LC0xMz
+E0NzQzMDE1LC0xNzI3NDYyMDc2LC0yMDMwMjU1NjAwLC00NDI3
+NDEyNzUsMTQwNTE2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMyNi
+wxNTYwNDUwODE5LC05NjY0NjM2NzQsLTE3NDk5MzczODgsNTg1
+NjA1OTkzXX0=
 -->
