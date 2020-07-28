@@ -1468,9 +1468,16 @@ updateUserInformation(users);
 
 ## Export and Import
 
-If you want to **import an entire object and its asso**
+### ES6
+
+If you want to **import an entire object and its associated methods from a file** use the `import` command with the name of the object you want to import and a path to the file.
+```js
+import Foo from './modules/foo'
+```
+
+You can **destructure an import object to only import entirely methods within it**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDk1NzkyNyw1NzQwMTkwNjksLTgyND
+eyJoaXN0b3J5IjpbMTg2NTA0MDg5Myw1NzQwMTkwNjksLTgyND
 gzOTE5LC0xNTk4MzIyMTc0LDk3ODg5NzQ1MSwtMTEyMjkxOTg4
 MCw5MjIxNTE2NDQsLTQyODEzMDM2OSwtMTMxNDc0MzAxNSwtMT
 cyNzQ2MjA3NiwtMjAzMDI1NTYwMCwtNDQyNzQxMjc1LDE0MDUx
