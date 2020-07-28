@@ -1475,9 +1475,12 @@ If you want to **import an entire object and its associated methods from a file*
 import Foo from './modules/foo'
 ```
 
-You can **destructure an import object to only import entirely methods within it**
+You can **destructure an import object** to only import entirely methods within it by using standard destructuring syntax.
+```js
+import { bar, baz } from './modules/foo'
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTA0MDg5Myw1NzQwMTkwNjksLTgyND
+eyJoaXN0b3J5IjpbMjEzOTM5NzQ3OCw1NzQwMTkwNjksLTgyND
 gzOTE5LC0xNTk4MzIyMTc0LDk3ODg5NzQ1MSwtMTEyMjkxOTg4
 MCw5MjIxNTE2NDQsLTQyODEzMDM2OSwtMTMxNDc0MzAxNSwtMT
 cyNzQ2MjA3NiwtMjAzMDI1NTYwMCwtNDQyNzQxMjc1LDE0MDUx
