@@ -25,9 +25,19 @@ app.run(debug=True)
 
 You can **send JSON responses** by using the `jsonify` method. This accepts JSON formatted data (or a Python `dict`) as its argument between `{}` curly braces. Keys and values must be in string format.
 ```py
-jsonify({"Codec": "73-ZXX14",})
+jsonify(
+  {
+    "Codec": "73-ZXX14",
+    "users": [
+      "Nelson",
+      "Lauren",
+      "Vlad"
+    ],
+    
+  }
+)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTUzOTAzOCwxODM5NzYxMzEyLC0yNT
+eyJoaXN0b3J5IjpbMTU5NDA1MDU2OSwxODM5NzYxMzEyLC0yNT
 c3OTM0ODAsMjU5NjM4MjA4XX0=
 -->
