@@ -43,8 +43,8 @@ jsonify(
 
 ## Templating
 
-Flask uses the `jinja2` templating engine.
+Flask uses the `jinja2` templating engine. The `jinja2` engine works by inheriting from other templates by name and then use named `block`s to insert content.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTEwMjE5MDUsLTk3OTkzMjc0NywxOD
+eyJoaXN0b3J5IjpbLTExODM5NDk5NzYsLTk3OTkzMjc0NywxOD
 M5NzYxMzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
 -->
