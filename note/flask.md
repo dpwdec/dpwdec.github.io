@@ -47,7 +47,13 @@ def  show():
 To **register a blueprint in your main flask app** you must `import` the module file that contains the blue print and then use the `register_blueprint` method.
 ```py
 # app.py
-# --
+from flask import Flask
+from api import api
+
+app = Flask(__name__)
+app.register_blueprint(api.blueprint)
+
+
 ```
 
 ## JSON
@@ -137,7 +143,7 @@ You can **import static content** such as CSS and Javascript by setting their `h
 <script  src="{{ url_for('static', filename='js/index.js') }}"></script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTQ0NTAwMCwtMTQyNjM0Nzc3MCwtMT
+eyJoaXN0b3J5IjpbLTE4MzIzNjY2MiwtMTQyNjM0Nzc3MCwtMT
 c4NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MTk2MzEsLTE3NDYy
 OTkxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEyLC0yNTc3OTM0OD
 AsMjU5NjM4MjA4XX0=
