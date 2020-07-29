@@ -18,10 +18,12 @@ You can **execute arbitrary SQL statements** on your database by using the `db` 
 db.execute("CREATE TABLE users (name text, age text, height text)")
 ```
 
+## ORM
 
+You can use the SQLAlchemy ORM for a much higher level database abstraction. In this workflow you define classes that map to database tables and then connect to them using `sessions`. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ1MDUyMDgsLTE0MzU0OTkwMzVdfQ
-==
+eyJoaXN0b3J5IjpbLTExNjM0MTM2MjMsLTEwOTQ1MDUyMDgsLT
+E0MzU0OTkwMzVdfQ==
 -->
