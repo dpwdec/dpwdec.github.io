@@ -30,6 +30,8 @@ def index():
   return "Hello, world!"
 ```
 
+## Blueprints
+
 
 
 ## JSON
@@ -119,8 +121,8 @@ You can **import static content** such as CSS and Javascript by setting their `h
 <script  src="{{ url_for('static', filename='js/index.js') }}"></script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTk5OTI1NiwtMTc4NTE4NzMzMSwtMT
-U1MTIzOTYzMSwyMzI2MTk2MzEsLTE3NDYyOTkxMTUsLTk3OTkz
-Mjc0NywxODM5NzYxMzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX
-0=
+eyJoaXN0b3J5IjpbLTE5OTI4OTA4NDYsLTE3ODUxODczMzEsLT
+E1NTEyMzk2MzEsMjMyNjE5NjMxLC0xNzQ2Mjk5MTE1LC05Nzk5
+MzI3NDcsMTgzOTc2MTMxMiwtMjU3NzkzNDgwLDI1OTYzODIwOF
+19
 -->
