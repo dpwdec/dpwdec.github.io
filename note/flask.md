@@ -54,7 +54,7 @@ app = Flask(__name__)
 app.register_blueprint(api.blueprint)
 ```
 
-
+You can **prefix all o**
 
 ## JSON
 
@@ -143,8 +143,8 @@ You can **import static content** such as CSS and Javascript by setting their `h
 <script  src="{{ url_for('static', filename='js/index.js') }}"></script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwMjY0MzIyLC0xNDI2MzQ3NzcwLC0xNz
-g1MTg3MzMxLC0xNTUxMjM5NjMxLDIzMjYxOTYzMSwtMTc0NjI5
-OTExNSwtOTc5OTMyNzQ3LDE4Mzk3NjEzMTIsLTI1Nzc5MzQ4MC
-wyNTk2MzgyMDhdfQ==
+eyJoaXN0b3J5IjpbMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQyNj
+M0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MTk2
+MzEsLTE3NDYyOTkxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEyLC
+0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
 -->
