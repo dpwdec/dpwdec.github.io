@@ -43,7 +43,7 @@ jsonify(
 
 ## Templating
 
-You can **render and return a page template** by importing the `render_template` function from flask and returning it in your flask route with the path to the template you want to render as the argument. The `render_template` function will look for the
+You can **render and return a page template** by importing the `render_template` function from flask and returning it in your flask route with the path to the template you want to render as the argument. The `render_template` function will look for a directory called `templates` in the directory that the app is being run from to find a file path to the file you want to render.
 ```py
 from flask import render_template
 
@@ -83,7 +83,7 @@ You can **insert content for a templated block** by inserting regular HTML conte
 {% endblock %}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MzQyNDAzOCwtMTc0NjI5OTExNSwtOT
-c5OTMyNzQ3LDE4Mzk3NjEzMTIsLTI1Nzc5MzQ4MCwyNTk2Mzgy
-MDhdfQ==
+eyJoaXN0b3J5IjpbMjMyNjE5NjMxLC0xNzQ2Mjk5MTE1LC05Nz
+k5MzI3NDcsMTgzOTc2MTMxMiwtMjU3NzkzNDgwLDI1OTYzODIw
+OF19
 -->
