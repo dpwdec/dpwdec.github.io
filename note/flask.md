@@ -23,10 +23,14 @@ app.run(debug=True)
 
 ## Routes
 
-You can **define an application route** by using the `app.route` method as a decorator for your controller functions. The argument to the `ro
+You can **define an application route** by using the `app.route` method as a decorator for your controller functions. The argument to the `route` method is the url extension that will route to that controller function.
 ```py
 @app.route("/")
+def index():
+  return "Hello, world!"
 ```
+
+
 
 ## JSON
 
@@ -115,8 +119,8 @@ You can **import static content** such as CSS and Javascript by setting their `h
 <script  src="{{ url_for('static', filename='js/index.js') }}"></script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA0NDM5MjQxLC0xNzg1MTg3MzMxLC0xNT
-UxMjM5NjMxLDIzMjYxOTYzMSwtMTc0NjI5OTExNSwtOTc5OTMy
-NzQ3LDE4Mzk3NjEzMTIsLTI1Nzc5MzQ4MCwyNTk2MzgyMDhdfQ
-==
+eyJoaXN0b3J5IjpbLTY0OTk5OTI1NiwtMTc4NTE4NzMzMSwtMT
+U1MTIzOTYzMSwyMzI2MTk2MzEsLTE3NDYyOTkxMTUsLTk3OTkz
+Mjc0NywxODM5NzYxMzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX
+0=
 -->
