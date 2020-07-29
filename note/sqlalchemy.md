@@ -11,7 +11,10 @@ You can **connect to a database** using the `create_engine` command. If you are 
 db = create_engine("postgres://username:password@host/database_name")
 ```
 
-You can **execute arbitrary SQL **
+You can **execute arbitrary SQL statements** on your database by using the `db` object's `execute` method with an string formatted SQL as its argument.
+```py
+db.execute("CREATE TABLE user")
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxMDIzMTMxXX0=
+eyJoaXN0b3J5IjpbLTgwOTQwMjYxNF19
 -->
