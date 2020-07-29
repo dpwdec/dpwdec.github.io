@@ -43,7 +43,16 @@ jsonify(
 
 ## Templating
 
-You can **return a page template**
+You can **render and return a page template** by importing the `render_template` function from flask and returning it in your flask route.
+```py
+from flask import render_template
+
+# --snip--
+
+@app.get("/")
+def index():
+  re
+```
 
 Flask uses the `jinja2` templating engine. The `jinja2` engine works by inheriting from other templates by name and then use named `block`s to insert content. For example a very simple template might look like the `base.html` file below which defines a `block` called `body`. You can **embed `jinja` code** by using the `{% %}` curly brace, percent syntax indicators.
 
@@ -74,7 +83,7 @@ You can **insert content for a templated block** by inserting regular HTML conte
 {% endblock %}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMzc2OTc4NiwtMTc0NjI5OTExNSwtOT
-c5OTMyNzQ3LDE4Mzk3NjEzMTIsLTI1Nzc5MzQ4MCwyNTk2Mzgy
-MDhdfQ==
+eyJoaXN0b3J5IjpbODk1MDQ5NjczLC0xNzQ2Mjk5MTE1LC05Nz
+k5MzI3NDcsMTgzOTc2MTMxMiwtMjU3NzkzNDgwLDI1OTYzODIw
+OF19
 -->
