@@ -54,7 +54,7 @@ app = Flask(__name__)
 app.register_blueprint(api.blueprint)
 ```
 
-You can **prefix all o**
+You can **prefix all of the routes a blueprint with a master route** by using the 
 
 ## JSON
 
@@ -143,8 +143,8 @@ You can **import static content** such as CSS and Javascript by setting their `h
 <script  src="{{ url_for('static', filename='js/index.js') }}"></script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQyNj
-M0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MTk2
-MzEsLTE3NDYyOTkxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEyLC
-0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
+eyJoaXN0b3J5IjpbLTEzMTM1NTkwODQsMTAzMTEyNzU3LDYxMD
+I2NDMyMiwtMTQyNjM0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1MTIz
+OTYzMSwyMzI2MTk2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMjc0Ny
+wxODM5NzYxMzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
 -->
