@@ -33,11 +33,12 @@ class User(Base):
   __tablename__ = "users"
 
   firstname = Column(String)
-  lastname =
+  lastname = Column(String)
+  age = Column(Integer)
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzMwNjEwNDIsLTgxMzcxNzUxNywtMT
-A5NDUwNTIwOCwtMTQzNTQ5OTAzNV19
+eyJoaXN0b3J5IjpbMTkzMzk5ODQ0NywtODEzNzE3NTE3LC0xMD
+k0NTA1MjA4LC0xNDM1NDk5MDM1XX0=
 -->
