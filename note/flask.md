@@ -54,8 +54,15 @@ def index():
   return render_template("index.html")
 ```
 
-Flask uses the `jinja2` templating engine. The `jinja2` engine works by inheriting from other templates by name and then use named `block`s to insert content. For example a very simple template might look like the `base.html` file below which defines a `block` called `body`. You can **embed `jinja` code** by using the `{% %}` curly brace, percent syntax indicators.
+Flask uses the `jinja2` templating engine.  
 
+You can **embed `jinja` code for templating and logic** by using the `{% %}` curly brace, percent syntax indicators.
+```html
+{% block body %}
+{%
+```
+
+The `jinja2` engine works by inheriting from other templates by name and then use named `block`s to insert content. For example a very simple template might look like the `base.html` file below which defines a `block` called `body`.
 ```html
 <!-- base.html -->
 <html  lang="en">
@@ -83,7 +90,7 @@ You can **insert content for a templated block** by inserting regular HTML conte
 {% endblock %}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyNjE5NjMxLC0xNzQ2Mjk5MTE1LC05Nz
-k5MzI3NDcsMTgzOTc2MTMxMiwtMjU3NzkzNDgwLDI1OTYzODIw
-OF19
+eyJoaXN0b3J5IjpbLTE4NzU0NjQ2NzAsMjMyNjE5NjMxLC0xNz
+Q2Mjk5MTE1LC05Nzk5MzI3NDcsMTgzOTc2MTMxMiwtMjU3Nzkz
+NDgwLDI1OTYzODIwOF19
 -->
