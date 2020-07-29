@@ -139,32 +139,20 @@ if __name__ == '__main__':
 
 The `with` and `as` pattern is syntactic sugar for writing `try` and `finally` code blocks. A `with` block will assign the result of an `__enter__` method of an object and then call the `__exit__` method of the object when the `with` block finishes. The `__enter__` and `__exit__` methods represent some opening and closing of a file or data stream that needs to be sealed to avoid bugs.
 ```py
-# 1) without using with statement
-file = open("file_path", "w") 
+# without using a block -> error prone
+file = open("file_path", "w")
+file.write("hello world!")
+file.close() 
 
-`file` `=` `open``(``'file_path'``,` `'w'``)`
+# using try and finally -> too verbose
 
-`file``.write(``'hello world !'``)`
+file = open("file_path", "w")
+try:
+  file.write("hello world!")
+finally:
+  file.close() 
 
-`file``.close()`
-
-`# 2) without using with statement`
-
-`file` `=` `open``(``'file_path'``,` `'w'``)`
-
-`try``:`
-
-`file``.write(``'hello world'``)`
-
-`finally``:`
-
-`file``.close()`
-
-_filter_none_
-
-_brightness_4_
-
-`# using with statement`
+# using with -> 
 `with` `open``(``'file_path'``,` `'w'``) as` `file``:`
 
 `file``.write(``'hello world !'``)`
@@ -445,11 +433,11 @@ If you have a `.env` file in your project directory running `pipenv` commands li
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODMxNzg1OSwyODM5ODg0NzksMTkwNT
-E4NTMwMiwtMjkzOTk5MDczLC05Nzg4MzkzOTUsMTk5ODE4NzE4
-OCw1NjE4NTkwOCwtMTk5MzU5MzE2NCwtMjQ1MzI4NzUyLDI1Nz
-YyNjc5NywyMDE3ODk1MzgwLC0xODY2OTIzMDI3LDEzNzMxMzM1
-NzEsLTE0NDU5NDQ3NSw0ODg0NjcyNDgsLTg5NzA1OTc4MiwtNj
-k4MzcyOTUwLC0yODI3NDY1NCwxMzczNDY1ODM4LC0xMTk1MTI3
-NDA2XX0=
+eyJoaXN0b3J5IjpbNzQ0NTY0ODI2LDI4Mzk4ODQ3OSwxOTA1MT
+g1MzAyLC0yOTM5OTkwNzMsLTk3ODgzOTM5NSwxOTk4MTg3MTg4
+LDU2MTg1OTA4LC0xOTkzNTkzMTY0LC0yNDUzMjg3NTIsMjU3Nj
+I2Nzk3LDIwMTc4OTUzODAsLTE4NjY5MjMwMjcsMTM3MzEzMzU3
+MSwtMTQ0NTk0NDc1LDQ4ODQ2NzI0OCwtODk3MDU5NzgyLC02OT
+gzNzI5NTAsLTI4Mjc0NjU0LDEzNzM0NjU4MzgsLTExOTUxMjc0
+MDZdfQ==
 -->
