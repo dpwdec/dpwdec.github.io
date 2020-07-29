@@ -102,9 +102,9 @@ You can **insert content for a templated block** by inserting regular HTML conte
 
 ### CSS and JS
 
-Y
+You can **import static content** such as CSS and Javascript by setting their `href` and `src` respectively interpolating a file path using Jinja's `{{ }}` interpolation code and Flask's `url_for` method which takes the name of the `static` directory as its d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDA2MzExNCwtMTU1MTIzOTYzMSwyMz
+eyJoaXN0b3J5IjpbMTIwMzI5MDg5OSwtMTU1MTIzOTYzMSwyMz
 I2MTk2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMjc0NywxODM5NzYx
 MzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
 -->
