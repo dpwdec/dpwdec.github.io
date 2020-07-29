@@ -58,8 +58,17 @@ Flask uses the `jinja2` templating engine. The `jinja2` engine works by inheriti
 </html>
 ```
 
-To **inherit from a template** use the z
+To **inherit from a template** use the `extends` keyword followed by the name of the template as a string.
+```html
+<!-- index.html -->
+{% extends 'base.html' %}
+```
+
+You can **insert content for a templated block** by inserting regular HTML content between the `block` and `endblock` tags. This will then inject that content into the template when it is returned by 
+```html
+<!-- index.html -->
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjQ4MDc5LC05Nzk5MzI3NDcsMTgzOT
+eyJoaXN0b3J5IjpbMTIzMDgwNzA1LC05Nzk5MzI3NDcsMTgzOT
 c2MTMxMiwtMjU3NzkzNDgwLDI1OTYzODIwOF19
 -->
