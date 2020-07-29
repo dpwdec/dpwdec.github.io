@@ -22,15 +22,20 @@ db.execute("CREATE TABLE users (name text, age text, height text)")
 
 You can use the SQLAlchemy ORM for a much higher level database abstraction. In this workflow you define classes that map to database tables and then connect to them using `sessions`. 
 
-You can **define a new database model** by inheriting from the `declarative_base` class of SQLAlchemy. The `declarative_base` class is used for defining the model class and table in place, there are however options to define them separately. You also need to define
+You can **define a new database model** by inheriting from the `declarative_base` class of `sqlalc. The `declarative_base` class is used for defining the model class and table in place, there are however options to define them separately. You also need to define the `__tablename__` attribute.
 ```py
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
+
+class User(Base):
+  __tablename__ = "users"
 ```
+
+You can **define database columns and class properties** by importing the `Column` function from `sqlalchemy`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDI3MTE2OCwtMTA5NDUwNTIwOCwtMT
+eyJoaXN0b3J5IjpbMTM1MDgxMzE2NiwtMTA5NDUwNTIwOCwtMT
 QzNTQ5OTAzNV19
 -->
