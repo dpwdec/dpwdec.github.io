@@ -43,7 +43,7 @@ jsonify(
 
 ## Templating
 
-Flask uses the `jinja2` templating engine. The `jinja2` engine works by inheriting from other templates by name and then use named `block`s to insert content. For example a very simple template might look like the zb
+Flask uses the `jinja2` templating engine. The `jinja2` engine works by inheriting from other templates by name and then use named `block`s to insert content. For example a very simple template might look like the `base.html` file below which defines a `block` called `body`. You can **embed `jinja` code** by using the `{% %}` curly brace, percent syntax indicators.
 
 ```html
 <!-- base.html -->
@@ -57,7 +57,9 @@ Flask uses the `jinja2` templating engine. The `jinja2` engine works by inheriti
   </body>
 </html>
 ```
+
+To **inherit from a template** use the z
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDE2NjYzMCwtOTc5OTMyNzQ3LDE4Mz
-k3NjEzMTIsLTI1Nzc5MzQ4MCwyNTk2MzgyMDhdfQ==
+eyJoaXN0b3J5IjpbLTc3NjQ4MDc5LC05Nzk5MzI3NDcsMTgzOT
+c2MTMxMiwtMjU3NzkzNDgwLDI1OTYzODIwOF19
 -->
