@@ -54,6 +54,8 @@ def index():
   return render_template("index.html")
 ```
 
+### Jinja
+
 Flask uses the `jinja2` templating engine.  
 
 You can **embed `jinja` code for templating and logic** by using the `{% %}` curly brace, percent syntax indicators.
@@ -65,8 +67,10 @@ You can **embed `jinja` code for templating and logic** by using the `{% %}` cur
 
 You can **interpolate code results as a string** using `{{ }}` double curly braces.
 ```html
-<link rel="stylesheet" href="{{ # python code here }}"
+<link rel="stylesheet" href="{{ # python code here }}">
 ```
+
+### Templates
 
 The `jinja2` engine works by inheriting from other templates by name and then use named `block`s to insert content. For example a very simple template might look like the `base.html` file below which defines a `block` called `body`.
 ```html
@@ -95,8 +99,12 @@ You can **insert content for a templated block** by inserting regular HTML conte
   <h1>Hello, world!</h1>
 {% endblock %}
 ```
+
+### CSS and JS
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njg4MTY1NjYsMjMyNjE5NjMxLC0xNz
+eyJoaXN0b3J5IjpbLTE1NTEyMzk2MzEsMjMyNjE5NjMxLC0xNz
 Q2Mjk5MTE1LC05Nzk5MzI3NDcsMTgzOTc2MTMxMiwtMjU3Nzkz
 NDgwLDI1OTYzODIwOF19
 -->
