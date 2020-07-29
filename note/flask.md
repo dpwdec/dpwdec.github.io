@@ -98,7 +98,7 @@ def index():
 
 Flask uses the `jinja2` templating engine.  
 
-You can **embed `jinja` code for templating and logic** by using the `{% %}` curly brace, percent syntax indicators.
+You can **embed `jinja` code for templating and logic** by using the `{[percent] [percent]}` curly brace, percent syntax indicators.
 ```html
 {% block body %}
 	<!-- code here -->
@@ -148,8 +148,9 @@ You can **import static content** such as CSS and Javascript by setting their `h
 <script  src="{{ url_for('static', filename='js/index.js') }}"></script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTU1NDUwNTAsMTAzMTEyNzU3LDYxMD
-I2NDMyMiwtMTQyNjM0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1MTIz
-OTYzMSwyMzI2MTk2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMjc0Ny
-wxODM5NzYxMzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
+eyJoaXN0b3J5IjpbNTcwMDE4Mzc4LC0xNjk1NTQ1MDUwLDEwMz
+ExMjc1Nyw2MTAyNjQzMjIsLTE0MjYzNDc3NzAsLTE3ODUxODcz
+MzEsLTE1NTEyMzk2MzEsMjMyNjE5NjMxLC0xNzQ2Mjk5MTE1LC
+05Nzk5MzI3NDcsMTgzOTc2MTMxMiwtMjU3NzkzNDgwLDI1OTYz
+ODIwOF19
 -->
