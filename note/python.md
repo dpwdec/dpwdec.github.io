@@ -152,10 +152,11 @@ try:
 finally:
   file.close() 
 
-# using with -> 
-`with` `open``(``'file_path'``,` `'w'``) as` `file``:`
+# using with -> just right
+with open("file_path", "w") as file:
+  file.write("hello world!") 
 
-`file``.write(``'hello world !'``)`
+# automatically calls close when with block exits
 ```
 
 ## Functions
@@ -433,11 +434,11 @@ If you have a `.env` file in your project directory running `pipenv` commands li
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0NTY0ODI2LDI4Mzk4ODQ3OSwxOTA1MT
-g1MzAyLC0yOTM5OTkwNzMsLTk3ODgzOTM5NSwxOTk4MTg3MTg4
-LDU2MTg1OTA4LC0xOTkzNTkzMTY0LC0yNDUzMjg3NTIsMjU3Nj
-I2Nzk3LDIwMTc4OTUzODAsLTE4NjY5MjMwMjcsMTM3MzEzMzU3
-MSwtMTQ0NTk0NDc1LDQ4ODQ2NzI0OCwtODk3MDU5NzgyLC02OT
-gzNzI5NTAsLTI4Mjc0NjU0LDEzNzM0NjU4MzgsLTExOTUxMjc0
-MDZdfQ==
+eyJoaXN0b3J5IjpbLTIxMDU2ODQ2MzcsMjgzOTg4NDc5LDE5MD
+UxODUzMDIsLTI5Mzk5OTA3MywtOTc4ODM5Mzk1LDE5OTgxODcx
+ODgsNTYxODU5MDgsLTE5OTM1OTMxNjQsLTI0NTMyODc1MiwyNT
+c2MjY3OTcsMjAxNzg5NTM4MCwtMTg2NjkyMzAyNywxMzczMTMz
+NTcxLC0xNDQ1OTQ0NzUsNDg4NDY3MjQ4LC04OTcwNTk3ODIsLT
+Y5ODM3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwtMTE5NTEy
+NzQwNl19
 -->
