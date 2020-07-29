@@ -13,8 +13,8 @@ db = create_engine("postgres://username:password@host/database_name")
 
 You can **execute arbitrary SQL statements** on your database by using the `db` object's `execute` method with an string formatted SQL as its argument.
 ```py
-db.execute("CREATE TABLE user")
+db.execute("CREATE TABLE users (name text, age text, height text)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTQwMjYxNF19
+eyJoaXN0b3J5IjpbLTQ3MDA1NTczNF19
 -->
