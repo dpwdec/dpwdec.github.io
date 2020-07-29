@@ -64,11 +64,14 @@ To **inherit from a template** use the `extends` keyword followed by the name of
 {% extends 'base.html' %}
 ```
 
-You can **insert content for a templated block** by inserting regular HTML content between the `block` and `endblock` tags. This will then inject that content into the template when it is returned by 
+You can **insert content for a templated block** by inserting regular HTML content between the `block` and `endblock` tags. This will then inject that content into the template when it is returned by flask.
 ```html
 <!-- index.html -->
+{% block body %}
+  <h1>Hello, world!</h1>
+{% endblock %}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMDgwNzA1LC05Nzk5MzI3NDcsMTgzOT
-c2MTMxMiwtMjU3NzkzNDgwLDI1OTYzODIwOF19
+eyJoaXN0b3J5IjpbLTE3NDYyOTkxMTUsLTk3OTkzMjc0NywxOD
+M5NzYxMzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
 -->
