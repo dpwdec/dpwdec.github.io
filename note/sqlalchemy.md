@@ -33,9 +33,10 @@ class User(Base):
 ```
 
 You can **define database columns and class properties** by importing the `Column` function from `sqlalchemy`, if you want to **specify column data types** you will also need to import those datatypes from `sqlalchemy`.
+```py
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzcxNzUxNywtMTA5NDUwNTIwOCwtMT
-QzNTQ5OTAzNV19
+eyJoaXN0b3J5IjpbODU4MTE1MjAyLC04MTM3MTc1MTcsLTEwOT
+Q1MDUyMDgsLTE0MzU0OTkwMzVdfQ==
 -->
