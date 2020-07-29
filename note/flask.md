@@ -40,7 +40,11 @@ jsonify(
   }
 )
 ```
+
+## Templating
+
+Flask uses the `jinja2` templating engine.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTkzMjc0NywxODM5NzYxMzEyLC0yNT
-c3OTM0ODAsMjU5NjM4MjA4XX0=
+eyJoaXN0b3J5IjpbLTE1OTEwMjE5MDUsLTk3OTkzMjc0NywxOD
+M5NzYxMzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
 -->
