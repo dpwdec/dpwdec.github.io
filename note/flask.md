@@ -43,6 +43,8 @@ jsonify(
 
 ## Templating
 
+You can **return a page template**
+
 Flask uses the `jinja2` templating engine. The `jinja2` engine works by inheriting from other templates by name and then use named `block`s to insert content. For example a very simple template might look like the `base.html` file below which defines a `block` called `body`. You can **embed `jinja` code** by using the `{% %}` curly brace, percent syntax indicators.
 
 ```html
@@ -72,6 +74,7 @@ You can **insert content for a templated block** by inserting regular HTML conte
 {% endblock %}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDYyOTkxMTUsLTk3OTkzMjc0NywxOD
-M5NzYxMzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
+eyJoaXN0b3J5IjpbLTkzMzc2OTc4NiwtMTc0NjI5OTExNSwtOT
+c5OTMyNzQ3LDE4Mzk3NjEzMTIsLTI1Nzc5MzQ4MCwyNTk2Mzgy
+MDhdfQ==
 -->
