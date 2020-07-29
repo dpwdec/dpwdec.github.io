@@ -18,9 +18,10 @@ You can **execute arbitrary SQL statements** on your database by using the `db` 
 db.execute("CREATE TABLE users (name text, age text, height text)")
 ```
 
-## Pythonic SQL Expressions
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU0OTkwMzVdfQ==
+eyJoaXN0b3J5IjpbLTEwOTQ1MDUyMDgsLTE0MzU0OTkwMzVdfQ
+==
 -->
