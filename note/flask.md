@@ -39,7 +39,7 @@ from flask import Blueprint
 
 blueprint =  Blueprint('blueprint',  __name__)
 
-@blueprint.route('/api')
+@blueprint.route('/message')
 def  show():
  return  "Hello, world!"
 ```
@@ -54,7 +54,7 @@ app = Flask(__name__)
 app.register_blueprint(api.blueprint)
 ```
 
-You can **prefix all of the routes a blueprint with a master route** by using the `url_prefix` property when registering a blueprint.
+You can **prefix all of the routes a blueprint with a master route** by using the `url_prefix` property when registering a blueprint. In the example below this now means the `message` route define in the `api` blueprint will be available at `/api/message` to users.
 ```py
 # app.py
 
@@ -148,8 +148,8 @@ You can **import static content** such as CSS and Javascript by setting their `h
 <script  src="{{ url_for('static', filename='js/index.js') }}"></script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTEzMDYwNiwxMDMxMTI3NTcsNjEwMj
-Y0MzIyLC0xNDI2MzQ3NzcwLC0xNzg1MTg3MzMxLC0xNTUxMjM5
-NjMxLDIzMjYxOTYzMSwtMTc0NjI5OTExNSwtOTc5OTMyNzQ3LD
-E4Mzk3NjEzMTIsLTI1Nzc5MzQ4MCwyNTk2MzgyMDhdfQ==
+eyJoaXN0b3J5IjpbLTE2OTU1NDUwNTAsMTAzMTEyNzU3LDYxMD
+I2NDMyMiwtMTQyNjM0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1MTIz
+OTYzMSwyMzI2MTk2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMjc0Ny
+wxODM5NzYxMzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
 -->
