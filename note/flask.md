@@ -33,6 +33,12 @@ def index():
 ## Blueprints
 
 You can **split your flask application in a modular fashion** using flask's `Blueprint` module. This allows you to define routing in separate modules and then register them in your main app file.
+```py
+# api.py module file
+from flask import Blueprint
+
+
+```
 
 ## JSON
 
@@ -121,8 +127,8 @@ You can **import static content** such as CSS and Javascript by setting their `h
 <script  src="{{ url_for('static', filename='js/index.js') }}"></script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjYzNDc3NzAsLTE3ODUxODczMzEsLT
-E1NTEyMzk2MzEsMjMyNjE5NjMxLC0xNzQ2Mjk5MTE1LC05Nzk5
-MzI3NDcsMTgzOTc2MTMxMiwtMjU3NzkzNDgwLDI1OTYzODIwOF
-19
+eyJoaXN0b3J5IjpbLTM3NzY4ODEwOCwtMTQyNjM0Nzc3MCwtMT
+c4NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MTk2MzEsLTE3NDYy
+OTkxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEyLC0yNTc3OTM0OD
+AsMjU5NjM4MjA4XX0=
 -->
