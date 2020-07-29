@@ -21,6 +21,13 @@ You can **run the application in debug mode** so that it displays errors on the 
 app.run(debug=True)
 ```
 
+## Routes
+
+You can **define an application route** by using the `app.route` method as a decorator for your controller functions. The argument to the `ro
+```py
+@app.route("/")
+```
+
 ## JSON
 
 You can **send JSON responses** by using the `jsonify` method. This accepts JSON formatted data (or a Python `dict`) as its argument between `{}` curly braces. Keys and values must be in string format.
@@ -108,7 +115,8 @@ You can **import static content** such as CSS and Javascript by setting their `h
 <script  src="{{ url_for('static', filename='js/index.js') }}"></script>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODUxODczMzEsLTE1NTEyMzk2MzEsMj
-MyNjE5NjMxLC0xNzQ2Mjk5MTE1LC05Nzk5MzI3NDcsMTgzOTc2
-MTMxMiwtMjU3NzkzNDgwLDI1OTYzODIwOF19
+eyJoaXN0b3J5IjpbNzA0NDM5MjQxLC0xNzg1MTg3MzMxLC0xNT
+UxMjM5NjMxLDIzMjYxOTYzMSwtMTc0NjI5OTExNSwtOTc5OTMy
+NzQ3LDE4Mzk3NjEzMTIsLTI1Nzc5MzQ4MCwyNTk2MzgyMDhdfQ
+==
 -->
