@@ -42,7 +42,11 @@ You can **create a new instance of a model class** as you would with any other p
 new_user = User(firstname="Nicolas", lastname="Copernicus", age=309)
 ```
 
-## Database Connections
+You can **save a **
+
+## Database Sessions
+
+You can 
 
 ## Metadata
 
@@ -50,6 +54,7 @@ new_user = User(firstname="Nicolas", lastname="Copernicus", age=309)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDg2ODE3NCwxOTMzOTk4NDQ3LC04MT
-M3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0MzU0OTkwMzVdfQ==
+eyJoaXN0b3J5IjpbLTc0MTE1NTc5NCwtMjc0ODY4MTc0LDE5Mz
+M5OTg0NDcsLTgxMzcxNzUxNywtMTA5NDUwNTIwOCwtMTQzNTQ5
+OTAzNV19
 -->
