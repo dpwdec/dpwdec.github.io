@@ -30,6 +30,11 @@ def index():
   return "Hello, world!"
 ```
 
+You can **define a function to run before each server request** with `before_request`.
+```py
+@app.before_request
+```
+
 ## Blueprints
 
 You can **split your flask application in a modular fashion** using flask's `Blueprint` module. This allows you to define routing in separate modules and then register them in your main app file.
@@ -178,9 +183,9 @@ def save_user():
   g.session.commit()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjM0MjU5MDEsNTcwMDE4Mzc4LC0xNj
-k1NTQ1MDUwLDEwMzExMjc1Nyw2MTAyNjQzMjIsLTE0MjYzNDc3
-NzAsLTE3ODUxODczMzEsLTE1NTEyMzk2MzEsMjMyNjE5NjMxLC
-0xNzQ2Mjk5MTE1LC05Nzk5MzI3NDcsMTgzOTc2MTMxMiwtMjU3
-NzkzNDgwLDI1OTYzODIwOF19
+eyJoaXN0b3J5IjpbLTIwNTgzNDQ0NTQsLTE5NjM0MjU5MDEsNT
+cwMDE4Mzc4LC0xNjk1NTQ1MDUwLDEwMzExMjc1Nyw2MTAyNjQz
+MjIsLTE0MjYzNDc3NzAsLTE3ODUxODczMzEsLTE1NTEyMzk2Mz
+EsMjMyNjE5NjMxLC0xNzQ2Mjk5MTE1LC05Nzk5MzI3NDcsMTgz
+OTc2MTMxMiwtMjU3NzkzNDgwLDI1OTYzODIwOF19
 -->
