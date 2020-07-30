@@ -37,8 +37,13 @@ class User(Base):
   age = Column(Integer)
 ```
 
+You can **create a new instance of a model class** as you would with any other python class.
+```py
+new_user = User(firstname="C"
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMzk5ODQ0NywtODEzNzE3NTE3LC0xMD
-k0NTA1MjA4LC0xNDM1NDk5MDM1XX0=
+eyJoaXN0b3J5IjpbLTU1ODcxMDcwNSwxOTMzOTk4NDQ3LC04MT
+M3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0MzU0OTkwMzVdfQ==
 -->
