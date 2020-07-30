@@ -39,11 +39,15 @@ class User(Base):
 
 You can **create a new instance of a model class** as you would with any other python class.
 ```py
-new_user = User(firstname="C"
+new_user = User(firstname="Nicolas", lastname="Copernicus", age=309)
 ```
+
+## Database Connections
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODcxMDcwNSwxOTMzOTk4NDQ3LC04MT
+eyJoaXN0b3J5IjpbMjAwNDIyNDU1MSwxOTMzOTk4NDQ3LC04MT
 M3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0MzU0OTkwMzVdfQ==
 -->
