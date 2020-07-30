@@ -41,6 +41,11 @@ You can **open a new session** by using the `Session` object.
 session = Session()
 ```
 
+You can **close a session** by using the `close` method of the `session` object.
+```py
+session.close()
+```
+
 ### Models
 
 You can **define a new database model** by inheriting from the `declarative_base` class of `sqlalchemy`. The `declarative_base` class is used for defining the model class and table in place, there are however options to define them separately. You also need to define the `__tablename__` attribute. You can **define database columns and class properties** by importing the `Column` function from `sqlalchemy`, if you want to **specify column data types** you will also need to import those datatypes from `sqlalchemy`.
@@ -80,8 +85,8 @@ Base.metadata.create_all(db)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDYyODEzNzUsLTg1ODc1MTc0NSwtMT
-M5NTQwMzQxNSwtMTc4Nzk4NzgxMSwtMjc0ODY4MTc0LDE5MzM5
-OTg0NDcsLTgxMzcxNzUxNywtMTA5NDUwNTIwOCwtMTQzNTQ5OT
-AzNV19
+eyJoaXN0b3J5IjpbMTkxMDk4NjY1MSwtODU4NzUxNzQ1LC0xMz
+k1NDAzNDE1LC0xNzg3OTg3ODExLC0yNzQ4NjgxNzQsMTkzMzk5
+ODQ0NywtODEzNzE3NTE3LC0xMDk0NTA1MjA4LC0xNDM1NDk5MD
+M1XX0=
 -->
