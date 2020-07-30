@@ -155,15 +155,15 @@ One way to **control database sessions** for different controller routes is to o
 from database import Session # import the main Session object
 from flask import Flask, g
 
-# --snip
+# --snip--
 
 @app.before_request
 def before():
-  session
+  g.session = Session()
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDM1NjM1NCw1NzAwMTgzNzgsLTE2OT
+eyJoaXN0b3J5IjpbMTQ3MjM3NjUyNyw1NzAwMTgzNzgsLTE2OT
 U1NDUwNTAsMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQyNjM0Nzc3
 MCwtMTc4NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MTk2MzEsLT
 E3NDYyOTkxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEyLC0yNTc3
