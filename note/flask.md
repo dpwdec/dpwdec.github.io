@@ -149,14 +149,21 @@ You can **import static content** such as CSS and Javascript by setting their `h
 
 ## SQLAlchemy and Database Sessions
 
-One way to **control database sessions** for different controller routes is to open and close them in the `before_reuqest` and `after_request` functions.
+One way to **control database sessions** for different controller routes is to open and close them in the `before_reuqest` and `after_request` functions then make the scope `session` object available to the route using it via the `g`lobal scope of your flask application.
 ```py
 # app.py
-import from d
+from database import Session # import the main Session object
+from flask import Flask, g
+
+# --snip
+
+@app.before_request
+def before():
+  session
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODg4NzM1MSw1NzAwMTgzNzgsLTE2OT
+eyJoaXN0b3J5IjpbMTEwMDM1NjM1NCw1NzAwMTgzNzgsLTE2OT
 U1NDUwNTAsMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQyNjM0Nzc3
 MCwtMTc4NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MTk2MzEsLT
 E3NDYyOTkxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEyLC0yNTc3
