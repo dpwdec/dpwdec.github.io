@@ -11,6 +11,10 @@ You can **connect to a database** using the `create_engine` command. If you are 
 db = create_engine("postgres://username:password@host/database_name")
 ```
 
+## Database Sessions
+
+A database `session` represents a connection to the database on which different 
+
 ## Raw SQL
 
 You can **execute arbitrary SQL statements** on your database by using the `db` object's `execute` method with an string formatted SQL as its argument.
@@ -42,15 +46,11 @@ You can **create a new instance of a model class** as you would with any other p
 new_user = User(firstname="Nicolas", lastname="Copernicus", age=309)
 ```
 
-You can **save a model class to the database** by using the `session` object to `add` the object to a list of database execution 
+You can **save a model class to the database** by using the `session` object to `add` the object to a list of database execution procedures and then `commit` to execute those procedures. Data does not get committed to the database until `commit` is called.
 ```py
 session.add(new_user)
 session.commit()
 ```
-
-## Database Sessions
-
-You can 
 
 ## Metadata
 
@@ -58,7 +58,7 @@ You can
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzMyOTUwLC0yNzQ4NjgxNzQsMTkzMz
+eyJoaXN0b3J5IjpbMzQ3ODU2OTA0LC0yNzQ4NjgxNzQsMTkzMz
 k5ODQ0NywtODEzNzE3NTE3LC0xMDk0NTA1MjA4LC0xNDM1NDk5
 MDM1XX0=
 -->
