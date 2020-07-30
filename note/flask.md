@@ -33,6 +33,13 @@ def index():
 You can **define a function to run before each server request** with `before_request`.
 ```py
 @app.before_request
+def before():
+  # do some set up etc. here
+```
+
+You can **define a function to run after each server request** with `after_request`. This passes a `response` object through to the inner implementation that needs to be handled in the argument definitions for the function.
+```py
+
 ```
 
 ## Blueprints
@@ -183,7 +190,7 @@ def save_user():
   g.session.commit()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTgzNDQ0NTQsLTE5NjM0MjU5MDEsNT
+eyJoaXN0b3J5IjpbLTE4MzM2OTkyMTksLTE5NjM0MjU5MDEsNT
 cwMDE4Mzc4LC0xNjk1NTQ1MDUwLDEwMzExMjc1Nyw2MTAyNjQz
 MjIsLTE0MjYzNDc3NzAsLTE3ODUxODczMzEsLTE1NTEyMzk2Mz
 EsMjMyNjE5NjMxLC0xNzQ2Mjk5MTE1LC05Nzk5MzI3NDcsMTgz
