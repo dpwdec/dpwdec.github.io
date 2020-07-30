@@ -67,11 +67,14 @@ session.commit()
 
 ## Metadata
 
-T
+To **create database tables if they don't already exist** use the `create_all` method your model's base class. Importantly you **must import all the models you want to initialise into this method is executed** to ensure that all the relevant tables are added.
+```py
+Base.metadata.create_all(db)
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODg0NjY2MSwtMTc4Nzk4NzgxMSwtMj
-c0ODY4MTc0LDE5MzM5OTg0NDcsLTgxMzcxNzUxNywtMTA5NDUw
-NTIwOCwtMTQzNTQ5OTAzNV19
+eyJoaXN0b3J5IjpbLTEzOTU0MDM0MTUsLTE3ODc5ODc4MTEsLT
+I3NDg2ODE3NCwxOTMzOTk4NDQ3LC04MTM3MTc1MTcsLTEwOTQ1
+MDUyMDgsLTE0MzU0OTkwMzVdfQ==
 -->
