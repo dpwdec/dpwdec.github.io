@@ -13,7 +13,10 @@ db = create_engine("postgres://username:password@host/database_name")
 
 ## Database Sessions
 
-A database `session` represents a connection to the database on which different 
+A database `session` represents a connection to the database on which different procedures (such as querying or adding) can be executed. You should **make a session ONCE** during the configuration or set up of your application and then import that session into modules as needed. To **create a new session** use the `session_maker` function.
+```py
+
+```
 
 ## Raw SQL
 
@@ -58,7 +61,7 @@ session.commit()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ3ODU2OTA0LC0yNzQ4NjgxNzQsMTkzMz
+eyJoaXN0b3J5IjpbOTA4MTczMTg0LC0yNzQ4NjgxNzQsMTkzMz
 k5ODQ0NywtODEzNzE3NTE3LC0xMDk0NTA1MjA4LC0xNDM1NDk5
 MDM1XX0=
 -->
