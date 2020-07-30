@@ -57,7 +57,6 @@ app.register_blueprint(api.blueprint)
 You can **prefix all of the routes a blueprint with a master route** by using the `url_prefix` property when registering a blueprint. In the example below this now means the `message` route define in the `api` blueprint will be available at `/api/message` to users.
 ```py
 # app.py
-
 app.register_blueprint(api.blueprint, url_prefix="/api")
 ```
 
@@ -147,10 +146,14 @@ You can **import static content** such as CSS and Javascript by setting their `h
 <link  rel="stylesheet"  href="{{ url_for('static', filename='css/main.css') }}">
 <script  src="{{ url_for('static', filename='js/index.js') }}"></script>
 ```
+
+## SQLAlchemy and Database Sessions
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwMDE4Mzc4LC0xNjk1NTQ1MDUwLDEwMz
-ExMjc1Nyw2MTAyNjQzMjIsLTE0MjYzNDc3NzAsLTE3ODUxODcz
-MzEsLTE1NTEyMzk2MzEsMjMyNjE5NjMxLC0xNzQ2Mjk5MTE1LC
-05Nzk5MzI3NDcsMTgzOTc2MTMxMiwtMjU3NzkzNDgwLDI1OTYz
-ODIwOF19
+eyJoaXN0b3J5IjpbLTE4NzE3MTk5MjQsNTcwMDE4Mzc4LC0xNj
+k1NTQ1MDUwLDEwMzExMjc1Nyw2MTAyNjQzMjIsLTE0MjYzNDc3
+NzAsLTE3ODUxODczMzEsLTE1NTEyMzk2MzEsMjMyNjE5NjMxLC
+0xNzQ2Mjk5MTE1LC05Nzk5MzI3NDcsMTgzOTc2MTMxMiwtMjU3
+NzkzNDgwLDI1OTYzODIwOF19
 -->
