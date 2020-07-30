@@ -24,7 +24,7 @@ You can use the SQLAlchemy ORM for a much higher level database abstraction. In 
 
 ### Database Sessions
 
-A database `session` represents a connection to the database on which different ORM based procedures (such as querying or adding models) can be executed. You should **make a session ONCE** during the configuration or set up of your application and then import that session into modules as needed. To **create a new session** use the `session_maker` function.
+A database `session` represents a connection to the database on which different ORM based procedures (such as querying or adding models) can be executed. You should **make a session ONCE** during the configuration or set up of your application and then import that session into modules as needed. To **create a new session** use the `session_maker` function to create a `session` object, this will be the import that other parts of your application use.
 ```py
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -52,6 +52,8 @@ class User(Base):
   age = Column(Integer)
 ```
 
+Similar to `sessions` **in large applications its reccommen**
+
 You can **create a new instance of a model class** as you would with any other python class.
 ```py
 new_user = User(firstname="Nicolas", lastname="Copernicus", age=309)
@@ -69,7 +71,7 @@ session.commit()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTAzMzMxNywtMjc0ODY4MTc0LDE5Mz
-M5OTg0NDcsLTgxMzcxNzUxNywtMTA5NDUwNTIwOCwtMTQzNTQ5
-OTAzNV19
+eyJoaXN0b3J5IjpbLTE1MDQ2Njk2ODgsLTI3NDg2ODE3NCwxOT
+MzOTk4NDQ3LC04MTM3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0MzU0
+OTkwMzVdfQ==
 -->
