@@ -24,7 +24,9 @@ You can use the SQLAlchemy ORM for a much higher level database abstraction. In 
 
 ### Database Sessions
 
-A database `Session` represents a connection to the database on which different ORM based procedures (such as querying or adding models) can be executed. You should **make a Session ONCE** during the configuration or set up of your application and then import that session into modules as needed. To **create a new Session** use the `session_maker` function to create a `session` object, this will be the import that other parts of your application use.
+A database `Session` represents a connection to the database on which different ORM based procedures (such as querying or adding models) can be executed, from a `Session` you can create individual `session`s that are opened and closed during specific procedures.
+
+You should **make a Session ONCE** during the configuration or set up of your application and then import that session into modules as needed. To **create a new Session** use the `session_maker` function to create a `session` object, this will be the import that other parts of your application use.
 ```py
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -32,6 +34,11 @@ from sqlalchemy.orm import sessionmaker
 db = create_engine("postgres://username:password@host/database_name")
 
 Session =  sessionmaker(db)
+```
+
+You can **open a new session** by using the `Session` object.
+```py
+session = Session()
 ```
 
 ### Models
@@ -73,7 +80,8 @@ Base.metadata.create_all(db)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODc1MTc0NSwtMTM5NTQwMzQxNSwtMT
-c4Nzk4NzgxMSwtMjc0ODY4MTc0LDE5MzM5OTg0NDcsLTgxMzcx
-NzUxNywtMTA5NDUwNTIwOCwtMTQzNTQ5OTAzNV19
+eyJoaXN0b3J5IjpbLTIwMDYyODEzNzUsLTg1ODc1MTc0NSwtMT
+M5NTQwMzQxNSwtMTc4Nzk4NzgxMSwtMjc0ODY4MTc0LDE5MzM5
+OTg0NDcsLTgxMzcxNzUxNywtMTA5NDUwNTIwOCwtMTQzNTQ5OT
+AzNV19
 -->
