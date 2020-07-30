@@ -161,9 +161,23 @@ from flask import Flask, g
 def before():
   g.session = Session()
 
+@app.after_request
+def after(response):
+  g.session.close()
+
+# controller.py
+# some other controller blueprint with routes
+from flask import g
+
+# --snip--
+
+@blueprint.route("/users")
+def save_user():
+  
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MjM3NjUyNyw1NzAwMTgzNzgsLTE2OT
+eyJoaXN0b3J5IjpbLTEwMjU1OTc2OCw1NzAwMTgzNzgsLTE2OT
 U1NDUwNTAsMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQyNjM0Nzc3
 MCwtMTc4NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MTk2MzEsLT
 E3NDYyOTkxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEyLC0yNTc3
