@@ -149,11 +149,16 @@ You can **import static content** such as CSS and Javascript by setting their `h
 
 ## SQLAlchemy and Database Sessions
 
+One way to **control database sessions** for different controller routes is to open and close them in the `before_reuqest` and `after_request` functions.
+```py
+# app.py
+import from d
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzE3MTk5MjQsNTcwMDE4Mzc4LC0xNj
-k1NTQ1MDUwLDEwMzExMjc1Nyw2MTAyNjQzMjIsLTE0MjYzNDc3
-NzAsLTE3ODUxODczMzEsLTE1NTEyMzk2MzEsMjMyNjE5NjMxLC
-0xNzQ2Mjk5MTE1LC05Nzk5MzI3NDcsMTgzOTc2MTMxMiwtMjU3
-NzkzNDgwLDI1OTYzODIwOF19
+eyJoaXN0b3J5IjpbMjEzODg4NzM1MSw1NzAwMTgzNzgsLTE2OT
+U1NDUwNTAsMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQyNjM0Nzc3
+MCwtMTc4NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MTk2MzEsLT
+E3NDYyOTkxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEyLC0yNTc3
+OTM0ODAsMjU5NjM4MjA4XX0=
 -->
