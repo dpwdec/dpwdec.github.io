@@ -52,7 +52,7 @@ class User(Base):
   age = Column(Integer)
 ```
 
-Similar to `sessions` **in large applications its reccommen**
+Similar to `sessions` **in large applications with multiple models its recommended to create you `Base` class once** and then import it from a centralised set up section to modules that need to inherit from `Base`.
 
 You can **create a new instance of a model class** as you would with any other python class.
 ```py
@@ -71,7 +71,7 @@ session.commit()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ2Njk2ODgsLTI3NDg2ODE3NCwxOT
+eyJoaXN0b3J5IjpbLTE3ODc5ODc4MTEsLTI3NDg2ODE3NCwxOT
 MzOTk4NDQ3LC04MTM3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0MzU0
 OTkwMzVdfQ==
 -->
