@@ -11,13 +11,6 @@ You can **connect to a database** using the `create_engine` command. If you are 
 db = create_engine("postgres://username:password@host/database_name")
 ```
 
-## Database Sessions
-
-A database `session` represents a connection to the database on which different procedures (such as querying or adding) can be executed. You should **make a session ONCE** during the configuration or set up of your application and then import that session into modules as needed. To **create a new session** use the `session_maker` function.
-```py
-
-```
-
 ## Raw SQL
 
 You can **execute arbitrary SQL statements** on your database by using the `db` object's `execute` method with an string formatted SQL as its argument.
@@ -28,6 +21,21 @@ db.execute("CREATE TABLE users (name text, age text, height text)")
 ## ORM
 
 You can use the SQLAlchemy ORM for a much higher level database abstraction. In this workflow you define classes that map to database tables and then connect to them using `sessions`. 
+
+### Database Sessions
+
+A database `session` represents a connection to the database on which different ORM based procedures (such as querying or adding models) can be executed. You should **make a session ONCE** during the configuration or set up of your application and then import that session into modules as needed. To **create a new session** use the `session_maker` function.
+```py
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+
+db = create_engine("postgres://username:password@host/database_name")
+
+Session =  sessionmaker(db)
+session =  Session()
+```
+
+### Models
 
 You can **define a new database model** by inheriting from the `declarative_base` class of `sqlalchemy`. The `declarative_base` class is used for defining the model class and table in place, there are however options to define them separately. You also need to define the `__tablename__` attribute. You can **define database columns and class properties** by importing the `Column` function from `sqlalchemy`, if you want to **specify column data types** you will also need to import those datatypes from `sqlalchemy`.
 ```py
@@ -61,7 +69,7 @@ session.commit()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4MTczMTg0LC0yNzQ4NjgxNzQsMTkzMz
-k5ODQ0NywtODEzNzE3NTE3LC0xMDk0NTA1MjA4LC0xNDM1NDk5
-MDM1XX0=
+eyJoaXN0b3J5IjpbLTY3MTAzMzMxNywtMjc0ODY4MTc0LDE5Mz
+M5OTg0NDcsLTgxMzcxNzUxNywtMTA5NDUwNTIwOCwtMTQzNTQ5
+OTAzNV19
 -->
