@@ -39,7 +39,9 @@ def before():
 
 You can **define a function to run after each server request** with `after_request`. This passes a `response` object through to the inner implementation that needs to be handled in the argument definitions for the function.
 ```py
-
+@app.after_request
+def before(response):
+  # do some tear down etc. here
 ```
 
 ## Blueprints
@@ -190,9 +192,9 @@ def save_user():
   g.session.commit()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzM2OTkyMTksLTE5NjM0MjU5MDEsNT
-cwMDE4Mzc4LC0xNjk1NTQ1MDUwLDEwMzExMjc1Nyw2MTAyNjQz
-MjIsLTE0MjYzNDc3NzAsLTE3ODUxODczMzEsLTE1NTEyMzk2Mz
-EsMjMyNjE5NjMxLC0xNzQ2Mjk5MTE1LC05Nzk5MzI3NDcsMTgz
-OTc2MTMxMiwtMjU3NzkzNDgwLDI1OTYzODIwOF19
+eyJoaXN0b3J5IjpbMTU3Mjg4Njg2MCwtMTk2MzQyNTkwMSw1Nz
+AwMTgzNzgsLTE2OTU1NDUwNTAsMTAzMTEyNzU3LDYxMDI2NDMy
+MiwtMTQyNjM0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1MTIzOTYzMS
+wyMzI2MTk2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMjc0NywxODM5
+NzYxMzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
 -->
