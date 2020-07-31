@@ -111,11 +111,11 @@ def index():
 
 Flask uses the `jinja2` templating engine.  
 
-You can **embed `jinja` code for templating and logic** by using the `{[percent] [percent]}` curly brace, percent syntax indicators.
+You can **embed `jinja` code for templating and logic** by using the `{[[%]] [[%]]}` curly brace, percent syntax indicators.
 ```html
-{% block body %}
+{[%]  body [%]}
 	<!-- code here -->
-{% endblock %}
+{[%] endblock [%]}
 ```
 
 You can **interpolate code results as a string** using `{{ }}` double curly braces.
@@ -134,7 +134,7 @@ The `jinja2` engine works by inheriting from other templates by name and then us
     <meta  name="viewport"  content="width=device-width, initial-scale=1.0">
     </head>
   <body>
-    {% block body %}{% endblock %}
+    {[%] block body [%]}{[%] endblock [%]}
   </body>
 </html>
 ```
@@ -142,15 +142,15 @@ The `jinja2` engine works by inheriting from other templates by name and then us
 To **inherit from a template** use the `extends` keyword followed by the name of the template as a string.
 ```html
 <!-- index.html -->
-{% extends 'base.html' %}
+{[%] extends 'base.html' [%]}
 ```
 
 You can **insert content for a templated block** by inserting regular HTML content between the `block` and `endblock` tags. This will then inject that content into the template when it is returned by flask.
 ```html
 <!-- index.html -->
-{% block body %}
+{[%] block body [%]}
   <h1>Hello, world!</h1>
-{% endblock %}
+{[%] endblock [%]}
 ```
 
 ### CSS and JS
