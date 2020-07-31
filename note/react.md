@@ -314,7 +314,12 @@ class MyComponent extends Component {
 
 # React Router
 
-You can use the `react-router-dom` library to create top level **app components like traditional web pages based on the page url**. You can 
+You can use the `react-router-dom` library to create top level **app components like traditional web pages based on the page url**. You can **install `react-router-dom` library** using `npm`.
+```bash
+$ npm i react-router-dom
+```
+
+To **set up page based routing** you must first **add a `BrowserRouter` component** to your `
 
 # Create React App
 
@@ -325,7 +330,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjI3NzI0NjcsNDI4OTcxMjgxLDMzNT
+eyJoaXN0b3J5IjpbLTEyNjk4MjI3OTIsNDI4OTcxMjgxLDMzNT
 QyMjk5OSwtMTI1MzAzMTI2MiwtMTM3MzM3OTIxOSw0NDIyODg1
 ODMsODk1OTc4MDE5LC0xODQ4NTAxOTQ4LDEyOTMwNTQ4MjYsMT
 kxNjczMDM5NywxNTcyNDY4ODc4LC0yMTQ0MjE4MjA3LDEzOTE3
