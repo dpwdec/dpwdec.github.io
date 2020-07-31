@@ -362,6 +362,16 @@ You can **add multiple routes** by including them inside the switch and importin
 </Switch>
 ```
 
+You can **create an error / 404 route** by adding a route without a path to the end of the routing stack. The router follows a fall through style where each page is matched until there are no more clauses to match against.
+```js
+<Switch>
+  <Route path="/" component={Home} exact />
+  <Route path="/about" component={About} />
+  // many other routers ...
+  <Route component={Error} /> // displays a 404
+</Switch>
+```
+
 # Create React App
 
 Create React App is a light weight micro-framework for initialising a simple react app. CRA offers a minimal server side interface that transpiles react code into pages for clients.
@@ -371,11 +381,11 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTIyNzcwLC02Mzk4MzM5MzQsNDI4OT
-cxMjgxLDMzNTQyMjk5OSwtMTI1MzAzMTI2MiwtMTM3MzM3OTIx
-OSw0NDIyODg1ODMsODk1OTc4MDE5LC0xODQ4NTAxOTQ4LDEyOT
-MwNTQ4MjYsMTkxNjczMDM5NywxNTcyNDY4ODc4LC0yMTQ0MjE4
-MjA3LDEzOTE3Njc2MzgsMTAzMTQwMTExMCw0MDczNzk4MjIsMT
-M0NzU1ODk3MywxNjIwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1
-NTcyMV19
+eyJoaXN0b3J5IjpbMTE0MTg3ODExMCwtNTgxMjI3NzAsLTYzOT
+gzMzkzNCw0Mjg5NzEyODEsMzM1NDIyOTk5LC0xMjUzMDMxMjYy
+LC0xMzczMzc5MjE5LDQ0MjI4ODU4Myw4OTU5NzgwMTksLTE4ND
+g1MDE5NDgsMTI5MzA1NDgyNiwxOTE2NzMwMzk3LDE1NzI0Njg4
+NzgsLTIxNDQyMTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAxMTEwLD
+QwNzM3OTgyMiwxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLTYxOTA0
+MzM3NF19
 -->
