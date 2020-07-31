@@ -366,8 +366,11 @@ You can **add route components inside a route element without the use of props**
 ```js
 <Switch>
   <Route path="/">
-  
-  <Route path="/about" component={About} />
+    <Home />
+  <Route />
+  <Route path="/about">
+    <About />
+  <Route />
 </Switch>
 ```
 
@@ -402,7 +405,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjAyMjA1MCwxMTQxODc4MTEwLC01OD
+eyJoaXN0b3J5IjpbLTQ2NDQ4NjA1NCwxMTQxODc4MTEwLC01OD
 EyMjc3MCwtNjM5ODMzOTM0LDQyODk3MTI4MSwzMzU0MjI5OTks
 LTEyNTMwMzEyNjIsLTEzNzMzNzkyMTksNDQyMjg4NTgzLDg5NT
 k3ODAxOSwtMTg0ODUwMTk0OCwxMjkzMDU0ODI2LDE5MTY3MzAz
