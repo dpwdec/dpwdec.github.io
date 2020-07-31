@@ -312,6 +312,10 @@ class MyComponent extends Component {
 }
 ```
 
+# React Router
+
+
+
 # Create React App
 
 Create React App is a light weight micro-framework for initialising a simple react app. CRA offers a minimal server side interface that transpiles react code into pages for clients.
@@ -321,11 +325,11 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1NDIyOTk5LC0xMjUzMDMxMjYyLC0xMz
-czMzc5MjE5LDQ0MjI4ODU4Myw4OTU5NzgwMTksLTE4NDg1MDE5
-NDgsMTI5MzA1NDgyNiwxOTE2NzMwMzk3LDE1NzI0Njg4NzgsLT
-IxNDQyMTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNzM3
-OTgyMiwxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLTYxOTA0MzM3NC
-wtMjcwMDU1NzIxLC05NTI1OTUyNDEsODA3MjMzOTQwLDM4ODU2
-MTcwNV19
+eyJoaXN0b3J5IjpbLTcxNzA0NTc1NCwzMzU0MjI5OTksLTEyNT
+MwMzEyNjIsLTEzNzMzNzkyMTksNDQyMjg4NTgzLDg5NTk3ODAx
+OSwtMTg0ODUwMTk0OCwxMjkzMDU0ODI2LDE5MTY3MzAzOTcsMT
+U3MjQ2ODg3OCwtMjE0NDIxODIwNywxMzkxNzY3NjM4LDEwMzE0
+MDExMTAsNDA3Mzc5ODIyLDEzNDc1NTg5NzMsMTYyMDI5MDI0My
+wtNjE5MDQzMzc0LC0yNzAwNTU3MjEsLTk1MjU5NTI0MSw4MDcy
+MzM5NDBdfQ==
 -->
