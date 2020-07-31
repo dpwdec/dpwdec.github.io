@@ -24,7 +24,7 @@ You can use the SQLAlchemy ORM for a much higher level database abstraction. In 
 
 ### Database Sessions
 
-A database `Session` represents a factory for making connections to the database. From this you can make individual `session`s on which different ORM based procedures (such as querying or committing data) can be executed. SQLAlchemy uses the **unit of work** model which means that a `session` that are opened and closed whenever there is a need to transact the database. A `session` remains open until it is closed, committed or rolled back.
+A database `Session` represents a factory for making connections to the database. From this you can make individual `session`s on which different ORM based procedures (such as querying or committing data) can be executed. SQLAlchemy uses the **unit of work** model which means that a `session` should be opened and closed whenever there is a need to transact the database. A `session` remains open until it is closed, committed or rolled back.
 
 You should **make a Session ONCE** during the configuration or set up of your application and then import that session into modules as needed. To **create a new Session** use the `session_maker` function to create a `Session` object, this will be the import that other parts of your application use.
 ```py
@@ -85,8 +85,8 @@ Base.metadata.create_all(db)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MjA1NzQxNSwtMTQwMzEyMDI1MywxNz
-EyNTM5MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0MTUsLTE3ODc5
-ODc4MTEsLTI3NDg2ODE3NCwxOTMzOTk4NDQ3LC04MTM3MTc1MT
-csLTEwOTQ1MDUyMDgsLTE0MzU0OTkwMzVdfQ==
+eyJoaXN0b3J5IjpbNzcxNzAyNzEyLC0xNDAzMTIwMjUzLDE3MT
+I1MzkyOTEsLTg1ODc1MTc0NSwtMTM5NTQwMzQxNSwtMTc4Nzk4
+NzgxMSwtMjc0ODY4MTc0LDE5MzM5OTg0NDcsLTgxMzcxNzUxNy
+wtMTA5NDUwNTIwOCwtMTQzNTQ5OTAzNV19
 -->
