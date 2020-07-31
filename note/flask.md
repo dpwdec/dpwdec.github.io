@@ -163,7 +163,7 @@ You can **import static content** such as CSS and Javascript by setting their `h
 
 ## SQLAlchemy and Database Sessions
 
-One way to **control database sessions** for different controller routes is to open and close them in the `before_reuqest` and `after_request` functions then make the scope `session` object available to the route using it via the `g`lobal scope of your flask application. In the code below `app.py` sets up opening and closing `session`s before each request to the server, the individual blueprint routes can then use the `session` as required by importing the `g` variable from flask.
+One way to **control database sessions** for different controller routes is to open and close them in the `before_reuqest` and `after_request` functions then make the scope `session` object available to the route using it via the `g`lobal scope of your flask application. In the code below `app.py` sets up opening and closing `session`s before each request to the server, the individual blueprint routes can then use the `session` as required by importing the `g` variable from flask. Flask `g` isn't really global in the traditional sense, while it encompasses the application context, each new request wipes the old `g` scope and keeps it just for that request.
 ```py
 # app.py
 from database import Session # import the main Session object
@@ -192,9 +192,10 @@ def save_user():
   g.session.commit()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3Mjg4Njg2MCwtMTk2MzQyNTkwMSw1Nz
-AwMTgzNzgsLTE2OTU1NDUwNTAsMTAzMTEyNzU3LDYxMDI2NDMy
-MiwtMTQyNjM0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1MTIzOTYzMS
-wyMzI2MTk2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMjc0NywxODM5
-NzYxMzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
+eyJoaXN0b3J5IjpbMjAyNzkxMjc2MywxNTcyODg2ODYwLC0xOT
+YzNDI1OTAxLDU3MDAxODM3OCwtMTY5NTU0NTA1MCwxMDMxMTI3
+NTcsNjEwMjY0MzIyLC0xNDI2MzQ3NzcwLC0xNzg1MTg3MzMxLC
+0xNTUxMjM5NjMxLDIzMjYxOTYzMSwtMTc0NjI5OTExNSwtOTc5
+OTMyNzQ3LDE4Mzk3NjEzMTIsLTI1Nzc5MzQ4MCwyNTk2MzgyMD
+hdfQ==
 -->
