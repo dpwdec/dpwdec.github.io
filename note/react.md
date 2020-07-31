@@ -345,8 +345,13 @@ function  App()  {
 ```
 
 To **set up an individual page** you must use a `Route` component which takes a `path` which corresponds to the  domain extension and a `component` that points to the react component that will be rendered on the page.
-```
-
+```js
+import { Switch, Route } from 'react-router-dom'
+import { Home } from './components/Home'
+// --snip--
+<Switch>
+  <Route path="/" component={Home} 
+</Switch>
 ```
 
 # Create React App
@@ -358,11 +363,11 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1Mzg1MTkzLC02Mzk4MzM5MzQsNDI4OT
-cxMjgxLDMzNTQyMjk5OSwtMTI1MzAzMTI2MiwtMTM3MzM3OTIx
-OSw0NDIyODg1ODMsODk1OTc4MDE5LC0xODQ4NTAxOTQ4LDEyOT
-MwNTQ4MjYsMTkxNjczMDM5NywxNTcyNDY4ODc4LC0yMTQ0MjE4
-MjA3LDEzOTE3Njc2MzgsMTAzMTQwMTExMCw0MDczNzk4MjIsMT
-M0NzU1ODk3MywxNjIwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1
-NTcyMV19
+eyJoaXN0b3J5IjpbMjEwNTgwNTc2NywtNjM5ODMzOTM0LDQyOD
+k3MTI4MSwzMzU0MjI5OTksLTEyNTMwMzEyNjIsLTEzNzMzNzky
+MTksNDQyMjg4NTgzLDg5NTk3ODAxOSwtMTg0ODUwMTk0OCwxMj
+kzMDU0ODI2LDE5MTY3MzAzOTcsMTU3MjQ2ODg3OCwtMjE0NDIx
+ODIwNywxMzkxNzY3NjM4LDEwMzE0MDExMTAsNDA3Mzc5ODIyLD
+EzNDc1NTg5NzMsMTYyMDI5MDI0MywtNjE5MDQzMzc0LC0yNzAw
+NTU3MjFdfQ==
 -->
