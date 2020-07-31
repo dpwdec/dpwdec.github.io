@@ -362,7 +362,14 @@ You can **add multiple routes** by including them inside the switch and importin
 </Switch>
 ```
 
-You can **strong text**
+You can **add route components inside a route element without the use of props** by nesting them as you would with other tags.
+```js
+<Switch>
+  <Route path="/">
+  
+  <Route path="/about" component={About} />
+</Switch>
+```
 
 You can **create an error / 404 route** by adding a route without a path to the end of the routing stack. The router follows a fall through style where each page is matched until there are no more clauses to match against.
 ```js
@@ -395,7 +402,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4OTEyMDA2OCwxMTQxODc4MTEwLC01OD
+eyJoaXN0b3J5IjpbMTQ3NjAyMjA1MCwxMTQxODc4MTEwLC01OD
 EyMjc3MCwtNjM5ODMzOTM0LDQyODk3MTI4MSwzMzU0MjI5OTks
 LTEyNTMwMzEyNjIsLTEzNzMzNzkyMTksNDQyMjg4NTgzLDg5NT
 k3ODAxOSwtMTg0ODUwMTk0OCwxMjkzMDU0ODI2LDE5MTY3MzAz
