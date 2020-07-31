@@ -354,13 +354,15 @@ import { Home } from './components/Home'
 </Switch>
 ```
 
-You can **add multiple routes** by including them inside the switch and importing their corresponding component. The React router uses **lazy matching** so it will load the first page that matches a route. In the case of an index route like `/`, all routes begin with this so it will essentially lock out other routes from being displayed. You can **force an exact match to route from the url extension** by appending the `exact` keyword to the `Route` tag that you want to match exactly. In the example below the `Route` can now match with both `/` and `/about`.
+You can **add multiple routes** by including them inside the switch and importing their corresponding component. The React router uses **lazy matching** so it will load the first page that matches a route. In the case of an index route like `/`, all routes begin with this so it will essentially lock out other routes from being displayed. You can **force an exact match to route from the url extension** by appending the `exact` keyword to the `Route` tag that you want to match exactly. In the example below the `Route` can now match with both `/` and `/about`. You could also accomplish this by **placing the most general route at the end of the route stack**.
 ```js
 <Switch>
   <Route path="/" component={Home} exact />
   <Route path="/about" component={About} />
 </Switch>
 ```
+
+You can **strong text**
 
 You can **create an error / 404 route** by adding a route without a path to the end of the routing stack. The router follows a fall through style where each page is matched until there are no more clauses to match against.
 ```js
@@ -393,7 +395,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDQxMzExMSwxMTQxODc4MTEwLC01OD
+eyJoaXN0b3J5IjpbMTg4OTEyMDA2OCwxMTQxODc4MTEwLC01OD
 EyMjc3MCwtNjM5ODMzOTM0LDQyODk3MTI4MSwzMzU0MjI5OTks
 LTEyNTMwMzEyNjIsLTEzNzMzNzkyMTksNDQyMjg4NTgzLDg5NT
 k3ODAxOSwtMTg0ODUwMTk0OCwxMjkzMDU0ODI2LDE5MTY3MzAz
