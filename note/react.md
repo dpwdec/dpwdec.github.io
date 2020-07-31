@@ -331,7 +331,7 @@ ReactDOM.render(
 );
 ```
 
-To 
+To **initialise a set of pages and their extensions** you must return a `Switch` component inside the `App` components return and then `Route` component for each page. To **set up a route**`Route` takes a `path` which corresponds 
 
 # Create React App
 
@@ -342,11 +342,11 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzc0MzYsNDI4OTcxMjgxLDMzNTQyMj
-k5OSwtMTI1MzAzMTI2MiwtMTM3MzM3OTIxOSw0NDIyODg1ODMs
-ODk1OTc4MDE5LC0xODQ4NTAxOTQ4LDEyOTMwNTQ4MjYsMTkxNj
-czMDM5NywxNTcyNDY4ODc4LC0yMTQ0MjE4MjA3LDEzOTE3Njc2
-MzgsMTAzMTQwMTExMCw0MDczNzk4MjIsMTM0NzU1ODk3MywxNj
-IwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1NTcyMSwtOTUyNTk1
-MjQxXX0=
+eyJoaXN0b3J5IjpbMjgyMTQ4ODc3LDQyODk3MTI4MSwzMzU0Mj
+I5OTksLTEyNTMwMzEyNjIsLTEzNzMzNzkyMTksNDQyMjg4NTgz
+LDg5NTk3ODAxOSwtMTg0ODUwMTk0OCwxMjkzMDU0ODI2LDE5MT
+Y3MzAzOTcsMTU3MjQ2ODg3OCwtMjE0NDIxODIwNywxMzkxNzY3
+NjM4LDEwMzE0MDExMTAsNDA3Mzc5ODIyLDEzNDc1NTg5NzMsMT
+YyMDI5MDI0MywtNjE5MDQzMzc0LC0yNzAwNTU3MjEsLTk1MjU5
+NTI0MV19
 -->
