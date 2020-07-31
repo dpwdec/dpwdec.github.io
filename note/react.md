@@ -372,6 +372,11 @@ You can **create an error / 404 route** by adding a route without a path to the 
 </Switch>
 ```
 
+You can **create links between pages** by using the `Link` component from `react-router-dom`. The `Link` component should take a `to`  This allows you to add links between page extension in a traditionally structure manner.
+```js
+import { Link } from '
+```
+
 # Create React App
 
 Create React App is a light weight micro-framework for initialising a simple react app. CRA offers a minimal server side interface that transpiles react code into pages for clients.
@@ -381,11 +386,11 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTg3ODExMCwtNTgxMjI3NzAsLTYzOT
-gzMzkzNCw0Mjg5NzEyODEsMzM1NDIyOTk5LC0xMjUzMDMxMjYy
-LC0xMzczMzc5MjE5LDQ0MjI4ODU4Myw4OTU5NzgwMTksLTE4ND
-g1MDE5NDgsMTI5MzA1NDgyNiwxOTE2NzMwMzk3LDE1NzI0Njg4
-NzgsLTIxNDQyMTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAxMTEwLD
-QwNzM3OTgyMiwxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLTYxOTA0
-MzM3NF19
+eyJoaXN0b3J5IjpbMTc0OTkwMzQzNiwxMTQxODc4MTEwLC01OD
+EyMjc3MCwtNjM5ODMzOTM0LDQyODk3MTI4MSwzMzU0MjI5OTks
+LTEyNTMwMzEyNjIsLTEzNzMzNzkyMTksNDQyMjg4NTgzLDg5NT
+k3ODAxOSwtMTg0ODUwMTk0OCwxMjkzMDU0ODI2LDE5MTY3MzAz
+OTcsMTU3MjQ2ODg3OCwtMjE0NDIxODIwNywxMzkxNzY3NjM4LD
+EwMzE0MDExMTAsNDA3Mzc5ODIyLDEzNDc1NTg5NzMsMTYyMDI5
+MDI0M119
 -->
