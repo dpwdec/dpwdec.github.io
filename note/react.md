@@ -319,7 +319,17 @@ You can use the `react-router-dom` library to create top level **app components 
 $ npm i react-router-dom
 ```
 
-To **set up page based routing** you must first **add a `BrowserRouter` component** to your `
+To **set up page based routing** you must first **add a `BrowserRouter` component** to your `ReactDOM.render` method to enclose the rest of the application.
+```js
+import { BrowserRouter } from 'react-router-dom'
+
+ReactDOM.render(
+  <BrowserRouter>
+    <App  />
+  </BrowserRouter>,
+  document.getElementById('root')
+);
+```
 
 # Create React App
 
@@ -330,11 +340,11 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk4MjI3OTIsNDI4OTcxMjgxLDMzNT
-QyMjk5OSwtMTI1MzAzMTI2MiwtMTM3MzM3OTIxOSw0NDIyODg1
-ODMsODk1OTc4MDE5LC0xODQ4NTAxOTQ4LDEyOTMwNTQ4MjYsMT
-kxNjczMDM5NywxNTcyNDY4ODc4LC0yMTQ0MjE4MjA3LDEzOTE3
-Njc2MzgsMTAzMTQwMTExMCw0MDczNzk4MjIsMTM0NzU1ODk3My
-wxNjIwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1NTcyMSwtOTUy
-NTk1MjQxXX0=
+eyJoaXN0b3J5IjpbMTE2MDc4MzQyMiw0Mjg5NzEyODEsMzM1ND
+IyOTk5LC0xMjUzMDMxMjYyLC0xMzczMzc5MjE5LDQ0MjI4ODU4
+Myw4OTU5NzgwMTksLTE4NDg1MDE5NDgsMTI5MzA1NDgyNiwxOT
+E2NzMwMzk3LDE1NzI0Njg4NzgsLTIxNDQyMTgyMDcsMTM5MTc2
+NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMiwxMzQ3NTU4OTczLD
+E2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcwMDU1NzIxLC05NTI1
+OTUyNDFdfQ==
 -->
