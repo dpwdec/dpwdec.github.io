@@ -350,9 +350,11 @@ import { Switch, Route } from 'react-router-dom'
 import { Home } from './components/Home'
 // --snip--
 <Switch>
-  <Route path="/" component={Home} 
+  <Route path="/" component={Home} />
 </Switch>
 ```
+
+The React router uses **lazy matching** so it will load the first page
 
 # Create React App
 
@@ -363,7 +365,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTgwNTc2NywtNjM5ODMzOTM0LDQyOD
+eyJoaXN0b3J5IjpbLTQ1NTAwNzkyNywtNjM5ODMzOTM0LDQyOD
 k3MTI4MSwzMzU0MjI5OTksLTEyNTMwMzEyNjIsLTEzNzMzNzky
 MTksNDQyMjg4NTgzLDg5NTk3ODAxOSwtMTg0ODUwMTk0OCwxMj
 kzMDU0ODI2LDE5MTY3MzAzOTcsMTU3MjQ2ODg3OCwtMjE0NDIx
