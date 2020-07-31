@@ -111,7 +111,7 @@ def index():
 
 Flask uses the `jinja2` templating engine.  
 
-You can **embed `jinja` code for templating and logic** by using the `{[[%]] [[%]]}` curly brace, percent syntax indicators.
+You can **embed `jinja` code for templating and logic** by using the `{[%] [%]}` curly brace, percent syntax indicators.
 ```html
 {[%]  body [%]}
 	<!-- code here -->
@@ -192,10 +192,10 @@ def save_user():
   g.session.commit()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzkxMjc2MywxNTcyODg2ODYwLC0xOT
-YzNDI1OTAxLDU3MDAxODM3OCwtMTY5NTU0NTA1MCwxMDMxMTI3
-NTcsNjEwMjY0MzIyLC0xNDI2MzQ3NzcwLC0xNzg1MTg3MzMxLC
-0xNTUxMjM5NjMxLDIzMjYxOTYzMSwtMTc0NjI5OTExNSwtOTc5
-OTMyNzQ3LDE4Mzk3NjEzMTIsLTI1Nzc5MzQ4MCwyNTk2MzgyMD
-hdfQ==
+eyJoaXN0b3J5IjpbLTE2Njc5OTg3OTAsMjAyNzkxMjc2MywxNT
+cyODg2ODYwLC0xOTYzNDI1OTAxLDU3MDAxODM3OCwtMTY5NTU0
+NTA1MCwxMDMxMTI3NTcsNjEwMjY0MzIyLC0xNDI2MzQ3NzcwLC
+0xNzg1MTg3MzMxLC0xNTUxMjM5NjMxLDIzMjYxOTYzMSwtMTc0
+NjI5OTExNSwtOTc5OTMyNzQ3LDE4Mzk3NjEzMTIsLTI1Nzc5Mz
+Q4MCwyNTk2MzgyMDhdfQ==
 -->
