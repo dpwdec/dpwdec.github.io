@@ -314,7 +314,7 @@ class MyComponent extends Component {
 
 # React Router
 
-You can use the `react-router-dom` library to create top level app components like traditional web pages.
+You can use the `react-router-dom` library to create top level **app components like traditional web pages based on the page url**. You can 
 
 # Create React App
 
@@ -325,11 +325,11 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4OTcxMjgxLDMzNTQyMjk5OSwtMTI1Mz
-AzMTI2MiwtMTM3MzM3OTIxOSw0NDIyODg1ODMsODk1OTc4MDE5
-LC0xODQ4NTAxOTQ4LDEyOTMwNTQ4MjYsMTkxNjczMDM5NywxNT
-cyNDY4ODc4LC0yMTQ0MjE4MjA3LDEzOTE3Njc2MzgsMTAzMTQw
-MTExMCw0MDczNzk4MjIsMTM0NzU1ODk3MywxNjIwMjkwMjQzLC
-02MTkwNDMzNzQsLTI3MDA1NTcyMSwtOTUyNTk1MjQxLDgwNzIz
-Mzk0MF19
+eyJoaXN0b3J5IjpbLTE4NjI3NzI0NjcsNDI4OTcxMjgxLDMzNT
+QyMjk5OSwtMTI1MzAzMTI2MiwtMTM3MzM3OTIxOSw0NDIyODg1
+ODMsODk1OTc4MDE5LC0xODQ4NTAxOTQ4LDEyOTMwNTQ4MjYsMT
+kxNjczMDM5NywxNTcyNDY4ODc4LC0yMTQ0MjE4MjA3LDEzOTE3
+Njc2MzgsMTAzMTQwMTExMCw0MDczNzk4MjIsMTM0NzU1ODk3My
+wxNjIwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1NTcyMSwtOTUy
+NTk1MjQxXX0=
 -->
