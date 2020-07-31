@@ -372,9 +372,14 @@ You can **create an error / 404 route** by adding a route without a path to the 
 </Switch>
 ```
 
-You can **create links between pages** by using the `Link` component from `react-router-dom`. The `Link` component should take a `to`  This allows you to add links between page extension in a traditionally structure manner.
+You can **create links between pages** by using the `Link` component from `react-router-dom`. The `Link` component should take a `to` element as a `prop` that is assigned to the page extension you want the link to go to. This allows you to add links between page extension in a traditionally structure manner.
 ```js
-import { Link } from '
+import { Link } from 'react-router-dom'
+function Nav() {
+  return(
+    <Link to="/" />
+  )
+}
 ```
 
 # Create React App
@@ -386,7 +391,7 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTkwMzQzNiwxMTQxODc4MTEwLC01OD
+eyJoaXN0b3J5IjpbMTU5OTEzNjY3NSwxMTQxODc4MTEwLC01OD
 EyMjc3MCwtNjM5ODMzOTM0LDQyODk3MTI4MSwzMzU0MjI5OTks
 LTEyNTMwMzEyNjIsLTEzNzMzNzkyMTksNDQyMjg4NTgzLDg5NT
 k3ODAxOSwtMTg0ODUwMTk0OCwxMjkzMDU0ODI2LDE5MTY3MzAz
