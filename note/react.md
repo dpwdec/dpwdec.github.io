@@ -354,7 +354,7 @@ import { Home } from './components/Home'
 </Switch>
 ```
 
-The React router uses **lazy matching** so it will load the first page that matches a route. In the case of an index route like `/`, all routes begin with this so it will essentially lock out other routes from being displayed. You can **force an exact match to route from the url extension** by appending the `exact` keyword to the `Route` tag that you want to match exactly.
+You can **add multiple routes** by including them inside the switch and importing their corresponding component. The React router uses **lazy matching** so it will load the first page that matches a route. In the case of an index route like `/`, all routes begin with this so it will essentially lock out other routes from being displayed. You can **force an exact match to route from the url extension** by appending the `exact` keyword to the `Route` tag that you want to match exactly. In the example below the `Route` can now match with both `/` and `/about`.
 ```js
 <Switch>
   <Route path="/" component={Home} exact />
@@ -371,11 +371,11 @@ You can **create a new react app** in an existing folder, **without installing i
 $ npx create-react-app .
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODAxNDQwMTgsLTYzOTgzMzkzNCw0Mj
-g5NzEyODEsMzM1NDIyOTk5LC0xMjUzMDMxMjYyLC0xMzczMzc5
-MjE5LDQ0MjI4ODU4Myw4OTU5NzgwMTksLTE4NDg1MDE5NDgsMT
-I5MzA1NDgyNiwxOTE2NzMwMzk3LDE1NzI0Njg4NzgsLTIxNDQy
-MTgyMDcsMTM5MTc2NzYzOCwxMDMxNDAxMTEwLDQwNzM3OTgyMi
-wxMzQ3NTU4OTczLDE2MjAyOTAyNDMsLTYxOTA0MzM3NCwtMjcw
-MDU1NzIxXX0=
+eyJoaXN0b3J5IjpbLTU4MTIyNzcwLC02Mzk4MzM5MzQsNDI4OT
+cxMjgxLDMzNTQyMjk5OSwtMTI1MzAzMTI2MiwtMTM3MzM3OTIx
+OSw0NDIyODg1ODMsODk1OTc4MDE5LC0xODQ4NTAxOTQ4LDEyOT
+MwNTQ4MjYsMTkxNjczMDM5NywxNTcyNDY4ODc4LC0yMTQ0MjE4
+MjA3LDEzOTE3Njc2MzgsMTAzMTQwMTExMCw0MDczNzk4MjIsMT
+M0NzU1ODk3MywxNjIwMjkwMjQzLC02MTkwNDMzNzQsLTI3MDA1
+NTcyMV19
 -->
