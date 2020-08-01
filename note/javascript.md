@@ -338,6 +338,10 @@ arr = [1, 2, 3, 4, 5];
 arr = arr.filter(item => item !== 4); // => [1, 2, 3, 5]
 ```
 
+### Map
+
+The **array `map` function actually takes 3 arguments** 
+
 ## do ... while loops
 
 `do ... while` loops follow the structure of having a piece of code placed in a `do` block followed by a condition for executing that code multiple time in  a `while` statement. Uniquely **`do ... while` loops always execute once before their conditions is evaluated**, because the condition is placed after the execution block. The basic definition syntax is:
@@ -1494,11 +1498,11 @@ export { Foo, Bar, Baz }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwNjEzMzgyLDIxMzkzOTc0NzgsNTc0MD
-E5MDY5LC04MjQ4MzkxOSwtMTU5ODMyMjE3NCw5Nzg4OTc0NTEs
-LTExMjI5MTk4ODAsOTIyMTUxNjQ0LC00MjgxMzAzNjksLTEzMT
-Q3NDMwMTUsLTE3Mjc0NjIwNzYsLTIwMzAyNTU2MDAsLTQ0Mjc0
-MTI3NSwxNDA1MTYxNzY5LC0zNjU3MTcyMSwxMjU1MDQzMzI2LD
-E1NjA0NTA4MTksLTk2NjQ2MzY3NCwtMTc0OTkzNzM4OCw1ODU2
-MDU5OTNdfQ==
+eyJoaXN0b3J5IjpbLTczODc5ODk1Nyw0MTA2MTMzODIsMjEzOT
+M5NzQ3OCw1NzQwMTkwNjksLTgyNDgzOTE5LC0xNTk4MzIyMTc0
+LDk3ODg5NzQ1MSwtMTEyMjkxOTg4MCw5MjIxNTE2NDQsLTQyOD
+EzMDM2OSwtMTMxNDc0MzAxNSwtMTcyNzQ2MjA3NiwtMjAzMDI1
+NTYwMCwtNDQyNzQxMjc1LDE0MDUxNjE3NjksLTM2NTcxNzIxLD
+EyNTUwNDMzMjYsMTU2MDQ1MDgxOSwtOTY2NDYzNjc0LC0xNzQ5
+OTM3Mzg4XX0=
 -->
