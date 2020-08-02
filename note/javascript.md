@@ -358,7 +358,7 @@ The **array `map` function actually passes 3 arguments to its function argument*
 2. the `current index` of a positional member of the array
 3. the entire array
 
-*And*
+*And*, they are passed to the function argument in this order.
 
 ```js
 const write = x => console.log(x)
@@ -1525,11 +1525,11 @@ export { Foo, Bar, Baz }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDg2ODMzMzIsLTEwMzQ4NDkzNzQsLT
-czODc5ODk1Nyw0MTA2MTMzODIsMjEzOTM5NzQ3OCw1NzQwMTkw
-NjksLTgyNDgzOTE5LC0xNTk4MzIyMTc0LDk3ODg5NzQ1MSwtMT
-EyMjkxOTg4MCw5MjIxNTE2NDQsLTQyODEzMDM2OSwtMTMxNDc0
-MzAxNSwtMTcyNzQ2MjA3NiwtMjAzMDI1NTYwMCwtNDQyNzQxMj
-c1LDE0MDUxNjE3NjksLTM2NTcxNzIxLDEyNTUwNDMzMjYsMTU2
-MDQ1MDgxOV19
+eyJoaXN0b3J5IjpbMTU2NDEyNTczNiwtMTAzNDg0OTM3NCwtNz
+M4Nzk4OTU3LDQxMDYxMzM4MiwyMTM5Mzk3NDc4LDU3NDAxOTA2
+OSwtODI0ODM5MTksLTE1OTgzMjIxNzQsOTc4ODk3NDUxLC0xMT
+IyOTE5ODgwLDkyMjE1MTY0NCwtNDI4MTMwMzY5LC0xMzE0NzQz
+MDE1LC0xNzI3NDYyMDc2LC0yMDMwMjU1NjAwLC00NDI3NDEyNz
+UsMTQwNTE2MTc2OSwtMzY1NzE3MjEsMTI1NTA0MzMyNiwxNTYw
+NDUwODE5XX0=
 -->
