@@ -15,8 +15,8 @@ title:  "Mutants we eat everyday"
 
 🥦  Everyday, if you are good and eat your fruit and veggies, you consume mutants of mutants of mutants, living beings that are far removed from their ancestors and essentially non functional as individuals in a context separate from humans. 
 
-> All quotes are from Jared Diamond's Guns, Germs and Steel
+> All quotes are from Jared Diamond's "Guns, Germs and Steel"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzNzk5OTkyLDEzMjM3NzMzMjgsMTg1MD
-Q1NjA4LC0xNjU2MTQ1NDhdfQ==
+eyJoaXN0b3J5IjpbLTEzMDI2OTcwMzIsMTMyMzc3MzMyOCwxOD
+UwNDU2MDgsLTE2NTYxNDU0OF19
 -->
