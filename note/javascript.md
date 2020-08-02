@@ -338,6 +338,11 @@ arr = [1, 2, 3, 4, 5];
 arr = arr.filter(item => item !== 4); // => [1, 2, 3, 5]
 ```
 
+You can **easily push elements to and clone an array simultaneously** by using spread syntax on a destructured array.
+```js
+
+```
+
 ### Map
 
 The **array `map` function actually takes 3 arguments** 
@@ -1498,11 +1503,11 @@ export { Foo, Bar, Baz }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODc5ODk1Nyw0MTA2MTMzODIsMjEzOT
-M5NzQ3OCw1NzQwMTkwNjksLTgyNDgzOTE5LC0xNTk4MzIyMTc0
-LDk3ODg5NzQ1MSwtMTEyMjkxOTg4MCw5MjIxNTE2NDQsLTQyOD
-EzMDM2OSwtMTMxNDc0MzAxNSwtMTcyNzQ2MjA3NiwtMjAzMDI1
-NTYwMCwtNDQyNzQxMjc1LDE0MDUxNjE3NjksLTM2NTcxNzIxLD
-EyNTUwNDMzMjYsMTU2MDQ1MDgxOSwtOTY2NDYzNjc0LC0xNzQ5
-OTM3Mzg4XX0=
+eyJoaXN0b3J5IjpbNjc5NzIxNzMwLC03Mzg3OTg5NTcsNDEwNj
+EzMzgyLDIxMzkzOTc0NzgsNTc0MDE5MDY5LC04MjQ4MzkxOSwt
+MTU5ODMyMjE3NCw5Nzg4OTc0NTEsLTExMjI5MTk4ODAsOTIyMT
+UxNjQ0LC00MjgxMzAzNjksLTEzMTQ3NDMwMTUsLTE3Mjc0NjIw
+NzYsLTIwMzAyNTU2MDAsLTQ0Mjc0MTI3NSwxNDA1MTYxNzY5LC
+0zNjU3MTcyMSwxMjU1MDQzMzI2LDE1NjA0NTA4MTksLTk2NjQ2
+MzY3NF19
 -->
