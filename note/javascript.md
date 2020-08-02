@@ -318,6 +318,8 @@ var array = [
 array[1][0] // => 4
 ```
 
+### Manipulating elements
+
 You can **add an element to the end of an array** using the `push` function. You can **add an element to the start of an array** using the `unshift` function.
 ```js
 var array = [4, 5, 6];
@@ -345,7 +347,7 @@ const push = (item, array) => [...array, item]
 
 You can **easily unshift elements to and clone an array simultaneously** by using the same syntax but swap the order in array construction.
 ```js
-const unshift = (item, array) => [...array, item]
+const unshift = (item, array) => [item, ...array]
 ```
 
 ### Map
@@ -1508,11 +1510,11 @@ export { Foo, Bar, Baz }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjI3NDM2NSwtNzM4Nzk4OTU3LDQxMD
-YxMzM4MiwyMTM5Mzk3NDc4LDU3NDAxOTA2OSwtODI0ODM5MTks
-LTE1OTgzMjIxNzQsOTc4ODk3NDUxLC0xMTIyOTE5ODgwLDkyMj
-E1MTY0NCwtNDI4MTMwMzY5LC0xMzE0NzQzMDE1LC0xNzI3NDYy
-MDc2LC0yMDMwMjU1NjAwLC00NDI3NDEyNzUsMTQwNTE2MTc2OS
-wtMzY1NzE3MjEsMTI1NTA0MzMyNiwxNTYwNDUwODE5LC05NjY0
-NjM2NzRdfQ==
+eyJoaXN0b3J5IjpbLTEwMzQ4NDkzNzQsLTczODc5ODk1Nyw0MT
+A2MTMzODIsMjEzOTM5NzQ3OCw1NzQwMTkwNjksLTgyNDgzOTE5
+LC0xNTk4MzIyMTc0LDk3ODg5NzQ1MSwtMTEyMjkxOTg4MCw5Mj
+IxNTE2NDQsLTQyODEzMDM2OSwtMTMxNDc0MzAxNSwtMTcyNzQ2
+MjA3NiwtMjAzMDI1NTYwMCwtNDQyNzQxMjc1LDE0MDUxNjE3Nj
+ksLTM2NTcxNzIxLDEyNTUwNDMzMjYsMTU2MDQ1MDgxOSwtOTY2
+NDYzNjc0XX0=
 -->
