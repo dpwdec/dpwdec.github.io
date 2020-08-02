@@ -352,7 +352,16 @@ const unshift = (item, array) => [item, ...array]
 
 ### Map
 
-The **array `map` function actually passes 3 arguments to its function argument** these are the `current value` of a positional member of the array, the 
+The **array `map` function actually passes 3 arguments to its function argument** these are: 
+
+1. the `current value` of a positional member of the array
+2. the `current index` of a positional member of the array
+3. the entire array
+
+```js
+const write = x => console.log(x)
+
+```
 
 ## do ... while loops
 
@@ -1510,11 +1519,11 @@ export { Foo, Bar, Baz }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyNjA0MjksLTEwMzQ4NDkzNzQsLTczOD
-c5ODk1Nyw0MTA2MTMzODIsMjEzOTM5NzQ3OCw1NzQwMTkwNjks
-LTgyNDgzOTE5LC0xNTk4MzIyMTc0LDk3ODg5NzQ1MSwtMTEyMj
-kxOTg4MCw5MjIxNTE2NDQsLTQyODEzMDM2OSwtMTMxNDc0MzAx
-NSwtMTcyNzQ2MjA3NiwtMjAzMDI1NTYwMCwtNDQyNzQxMjc1LD
-E0MDUxNjE3NjksLTM2NTcxNzIxLDEyNTUwNDMzMjYsMTU2MDQ1
-MDgxOV19
+eyJoaXN0b3J5IjpbLTEwMzkxMzAzODcsLTEwMzQ4NDkzNzQsLT
+czODc5ODk1Nyw0MTA2MTMzODIsMjEzOTM5NzQ3OCw1NzQwMTkw
+NjksLTgyNDgzOTE5LC0xNTk4MzIyMTc0LDk3ODg5NzQ1MSwtMT
+EyMjkxOTg4MCw5MjIxNTE2NDQsLTQyODEzMDM2OSwtMTMxNDc0
+MzAxNSwtMTcyNzQ2MjA3NiwtMjAzMDI1NTYwMCwtNDQyNzQxMj
+c1LDE0MDUxNjE3NjksLTM2NTcxNzIxLDEyNTUwNDMzMjYsMTU2
+MDQ1MDgxOV19
 -->
