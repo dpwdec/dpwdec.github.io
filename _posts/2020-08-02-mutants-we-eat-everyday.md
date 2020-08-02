@@ -2,7 +2,7 @@
 layout:  post 
 title:  "Mutants We Eat Everyday" 
 ---
-
+> 🌶
 The wild counterparts of the plants we eat everyday are substantially different from their farm-bred siblings. The most obvious divergence is the difference in the size and sweetness of domesticated fruits and vegetables, however, this is not a particularly interesting change from an ecological stand point but simply the result of farmers over many generations selecting the largest and sweetest members of the population to sow their fields with. There is a set of much more subtle and strange mutations that human farming has selected for that has completely changed (or even reversed) the direction of these plant's life cycles.
 
 > 🍆
@@ -27,5 +27,5 @@ Everyday, if you are good and eat your fruit and veggies, you consume mutants of
 
 > All quotes are from Jared Diamond's book Guns, Germs and Steel
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTYxNDU0OF19
+eyJoaXN0b3J5IjpbMzc0NTQ4NjI0LC0xNjU2MTQ1NDhdfQ==
 -->
