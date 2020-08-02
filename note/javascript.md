@@ -358,13 +358,15 @@ The **array `map` function actually passes 3 arguments to its function argument*
 2. the `current index` of a positional member of the array
 3. the entire array
 
+*And*
+
 ```js
 const write = x => console.log(x)
 
 ['a', 'b', 'c'].map(write)
-// => a 0 [1, 2, 3]
-// => b 1 [1, 2, 3]
-// => c 2 [1, 2, 3]
+// => a 0 ['a', 'b', 'c']
+// => b 1 ['a', 'b', 'c']
+// => c 2 ['a', 'b', 'c']
 ```
 
 ## do ... while loops
@@ -1523,7 +1525,7 @@ export { Foo, Bar, Baz }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDYyNjMyMTUsLTEwMzQ4NDkzNzQsLT
+eyJoaXN0b3J5IjpbLTExMDg2ODMzMzIsLTEwMzQ4NDkzNzQsLT
 czODc5ODk1Nyw0MTA2MTMzODIsMjEzOTM5NzQ3OCw1NzQwMTkw
 NjksLTgyNDgzOTE5LC0xNTk4MzIyMTc0LDk3ODg5NzQ1MSwtMT
 EyMjkxOTg4MCw5MjIxNTE2NDQsLTQyODEzMDM2OSwtMTMxNDc0
