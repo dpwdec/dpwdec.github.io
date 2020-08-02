@@ -343,6 +343,8 @@ You can **easily push elements to and clone an array simultaneously** by using s
 const push = (item, array) => [...array, item]
 ```
 
+You can **easily unshift elements to and clone an array simultaneously** by using the same syntax but swap the order in array construction.
+
 ### Map
 
 The **array `map` function actually takes 3 arguments** 
@@ -1503,7 +1505,7 @@ export { Foo, Bar, Baz }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQyNDQ3OTksLTczODc5ODk1Nyw0MT
+eyJoaXN0b3J5IjpbLTEwNTAwNzU0OTksLTczODc5ODk1Nyw0MT
 A2MTMzODIsMjEzOTM5NzQ3OCw1NzQwMTkwNjksLTgyNDgzOTE5
 LC0xNTk4MzIyMTc0LDk3ODg5NzQ1MSwtMTEyMjkxOTg4MCw5Mj
 IxNTE2NDQsLTQyODEzMDM2OSwtMTMxNDc0MzAxNSwtMTcyNzQ2
