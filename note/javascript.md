@@ -340,7 +340,7 @@ arr = arr.filter(item => item !== 4); // => [1, 2, 3, 5]
 
 You can **easily push elements to and clone an array simultaneously** by using spread syntax on a destructured array.
 ```js
-
+const push = (item, array) => 
 ```
 
 ### Map
@@ -1503,11 +1503,11 @@ export { Foo, Bar, Baz }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5NzIxNzMwLC03Mzg3OTg5NTcsNDEwNj
-EzMzgyLDIxMzkzOTc0NzgsNTc0MDE5MDY5LC04MjQ4MzkxOSwt
-MTU5ODMyMjE3NCw5Nzg4OTc0NTEsLTExMjI5MTk4ODAsOTIyMT
-UxNjQ0LC00MjgxMzAzNjksLTEzMTQ3NDMwMTUsLTE3Mjc0NjIw
-NzYsLTIwMzAyNTU2MDAsLTQ0Mjc0MTI3NSwxNDA1MTYxNzY5LC
-0zNjU3MTcyMSwxMjU1MDQzMzI2LDE1NjA0NTA4MTksLTk2NjQ2
-MzY3NF19
+eyJoaXN0b3J5IjpbLTg5ODg2NzYyOCwtNzM4Nzk4OTU3LDQxMD
+YxMzM4MiwyMTM5Mzk3NDc4LDU3NDAxOTA2OSwtODI0ODM5MTks
+LTE1OTgzMjIxNzQsOTc4ODk3NDUxLC0xMTIyOTE5ODgwLDkyMj
+E1MTY0NCwtNDI4MTMwMzY5LC0xMzE0NzQzMDE1LC0xNzI3NDYy
+MDc2LC0yMDMwMjU1NjAwLC00NDI3NDEyNzUsMTQwNTE2MTc2OS
+wtMzY1NzE3MjEsMTI1NTA0MzMyNiwxNTYwNDUwODE5LC05NjY0
+NjM2NzRdfQ==
 -->
