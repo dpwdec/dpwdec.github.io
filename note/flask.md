@@ -37,11 +37,12 @@ def before():
   # do some set up etc. here
 ```
 
-You can **define a function to run after each server request** with `after_request`. This passes a `response` object through to the inner implementation that needs to be handled in the argument definitions for the function.
+You can **define a function to run after each server request** with `after_request`. This passes a `response` object through to the inner implementation that needs to be handled in the argument definitions for the function. You **must return the `response` in `after_request`** to avoid server errors.
 ```py
 @app.after_request
 def before(response):
   # do some tear down etc. here
+  return response
 ```
 
 ## Blueprints
@@ -192,10 +193,10 @@ def save_user():
   g.session.commit()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njc5OTg3OTAsMjAyNzkxMjc2MywxNT
-cyODg2ODYwLC0xOTYzNDI1OTAxLDU3MDAxODM3OCwtMTY5NTU0
-NTA1MCwxMDMxMTI3NTcsNjEwMjY0MzIyLC0xNDI2MzQ3NzcwLC
-0xNzg1MTg3MzMxLC0xNTUxMjM5NjMxLDIzMjYxOTYzMSwtMTc0
-NjI5OTExNSwtOTc5OTMyNzQ3LDE4Mzk3NjEzMTIsLTI1Nzc5Mz
-Q4MCwyNTk2MzgyMDhdfQ==
+eyJoaXN0b3J5IjpbMTgyMzAyODUwOCwtMTY2Nzk5ODc5MCwyMD
+I3OTEyNzYzLDE1NzI4ODY4NjAsLTE5NjM0MjU5MDEsNTcwMDE4
+Mzc4LC0xNjk1NTQ1MDUwLDEwMzExMjc1Nyw2MTAyNjQzMjIsLT
+E0MjYzNDc3NzAsLTE3ODUxODczMzEsLTE1NTEyMzk2MzEsMjMy
+NjE5NjMxLC0xNzQ2Mjk5MTE1LC05Nzk5MzI3NDcsMTgzOTc2MT
+MxMiwtMjU3NzkzNDgwLDI1OTYzODIwOF19
 -->
