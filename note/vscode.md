@@ -24,7 +24,11 @@ In the below example of the `settings.json` file is edited for python to set the
   }
 }
 ```
+
+To **open the commands window** `CTRL` + `SHIFT` + `P`.
+
+You can **add the `code` CLI namespace to your machine** by using triggering the `>shell command` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzc5NzM5NiwxMzgyNjMwMTQwLC0xNz
-M3OTAyNTcxLC0xMDM4OTEwMjAzXX0=
+eyJoaXN0b3J5IjpbNzk3NDgwOTU0LDEzMTc3OTczOTYsMTM4Mj
+YzMDE0MCwtMTczNzkwMjU3MSwtMTAzODkxMDIwM119
 -->
