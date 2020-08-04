@@ -14,7 +14,13 @@ To **activate your virtual environment** use the `source` command with the path 
 $ source env/bin/activate
 ```
 
+You can **exit a virtual environment** using the `deactivate` command.
+```bash
+$ deactivate
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3Mzc0ODYyLC0xMTMyMTYxNDQ3XX0=
+eyJoaXN0b3J5IjpbLTE0MzIwNTMzNzAsLTExMzIxNjE0NDddfQ
+==
 -->
