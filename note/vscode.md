@@ -27,8 +27,8 @@ In the below example of the `settings.json` file is edited for python to set the
 
 To **open the commands window** `CTRL` + `SHIFT` + `P`.
 
-You can **add the `code` CLI namespace to your machine** by using triggering the `>shell command` 
+You can **add the `code` CLI namespace to your machine** by using triggering the `>shell command` in the vs code commands window.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3NDgwOTU0LDEzMTc3OTczOTYsMTM4Mj
+eyJoaXN0b3J5IjpbMjY0NzYyOTcwLDEzMTc3OTczOTYsMTM4Mj
 YzMDE0MCwtMTczNzkwMjU3MSwtMTAzODkxMDIwM119
 -->
