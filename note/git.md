@@ -22,6 +22,13 @@ If you want to **unstage a file** but it doesn't have previous commits *or* you 
 $ git reset <file>
 ```
 
+## Remotes
+
+You can **show current remotes on a project** by using the `show origin` command.
+```bash
+$ git remote show originhuntr
+```
+
 ## Rebasing
 You can **merge the current version of the master branch into another branch** by checking out your branch then using the `pull` command with `origin master`. This known as *rebasing* your branch with the project.
 ```bash
@@ -52,6 +59,6 @@ The associated file structure would look something like the example below.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA1MzMyNDcsLTgxODE1Mjg1MywtMj
-A2MzU5ODY2Nl19
+eyJoaXN0b3J5IjpbMTU1MTkyMDk0MSwtMTYwMDUzMzI0NywtOD
+E4MTUyODUzLC0yMDYzNTk4NjY2XX0=
 -->
