@@ -41,6 +41,8 @@ def test_msg(create_msg):
   assert create_msg == "This is a message"
 ```
 
+You can **integrate set up with tear down functionality inside a fixture** by using a `yield` inside the fixture with the argument to the yield being the 
+
 ### conftest
 
 You can **make fixtures available in multiple locations WITHOUT importing** by defining them in `conftest.py` file in your project directory. When `pytest` runs it will automatically check the `conftest.py` file for a matching fixture.
@@ -57,6 +59,7 @@ def create_msg():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzE4NTEyNiw3MDg3MDM5ODgsMTkwNj
-kzNTU2Nyw3NjI5MzMzNzAsMjYyODU3NTgxXX0=
+eyJoaXN0b3J5IjpbLTg5MzQ3NTEyMCwxNDQ3MTg1MTI2LDcwOD
+cwMzk4OCwxOTA2OTM1NTY3LDc2MjkzMzM3MCwyNjI4NTc1ODFd
+fQ==
 -->
