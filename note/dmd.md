@@ -235,13 +235,20 @@ online conferencing
 these are some gneeral notes, that I write and stuff, but thsi keyboard feels ok, but not amazing
 
 `and doing backticks is far from ideal` especi `if` i need to type several things `with` backticks in it and keep things moving
+```
+x = 5
+function(x) {
+  5 * x / 2
+}
+```
 
+oh no I've lost the ability to type / unfortunately `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2NTA3MzY4LC0xMTE2NTk0NTAyLC0zMz
-IyNjY4LC0xMjYwMDg0NjAsMTg1NDY4NTcxOCwxODc2NTE1OTQ4
-LC03NzU4MDQ1OTQsODU2NTUyMjMxLDQ3Mzk0MTU3OCwxMjcyOD
-gyMTY3LC0xMzYzNzM5MTg5LDg0MTgxNTA2NiwyMjM1NDU0Mjgs
-LTE2MjIzMTczOTgsNTk5NTk1NjMxLC0yMjEyNDg3NjIsMTYxND
-M1NTI3NCwtMjUzMjA2NDAyLC0xMjM4Mjg3MzU5LDIwNDQ0OTkx
-MjNdfQ==
+eyJoaXN0b3J5IjpbLTIwNTExMzI1NDcsLTExMTY1OTQ1MDIsLT
+MzMjI2NjgsLTEyNjAwODQ2MCwxODU0Njg1NzE4LDE4NzY1MTU5
+NDgsLTc3NTgwNDU5NCw4NTY1NTIyMzEsNDczOTQxNTc4LDEyNz
+I4ODIxNjcsLTEzNjM3MzkxODksODQxODE1MDY2LDIyMzU0NTQy
+OCwtMTYyMjMxNzM5OCw1OTk1OTU2MzEsLTIyMTI0ODc2MiwxNj
+E0MzU1Mjc0LC0yNTMyMDY0MDIsLTEyMzgyODczNTksMjA0NDQ5
+OTEyM119
 -->
