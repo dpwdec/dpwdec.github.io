@@ -11,6 +11,13 @@ You can **create a new test case** by defining a function in the format `test_*`
 def test_eq():
   assert 1 == 1
 ```
+
+You can **run Pytest** by using the `pytest` command. This will find all appropriately named pytest test cases.
+```bash
+$ pytest
+```
+
+You can **encapsulate your tests into a class** by placing your test cases inside a `class` named with the format `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyODU3NTgxXX0=
+eyJoaXN0b3J5IjpbLTMyODUwNzcyNiwyNjI4NTc1ODFdfQ==
 -->
