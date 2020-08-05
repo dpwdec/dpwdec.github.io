@@ -23,7 +23,11 @@ class TestClass():
   def test_eq(self):
     assert 1 == 1
 ```
+
+## Fixtures
+
+A **pytest fixture** is a way to encapsulate set up behaviour for test cases in module way. To **define a new fixture** use the `@pytest.fixture` decorator and make the return value the o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjkzNTU2Nyw3NjI5MzMzNzAsMjYyOD
-U3NTgxXX0=
+eyJoaXN0b3J5IjpbLTExMDg1ODE2NCwxOTA2OTM1NTY3LDc2Mj
+kzMzM3MCwyNjI4NTc1ODFdfQ==
 -->
