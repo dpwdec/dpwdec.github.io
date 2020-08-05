@@ -59,6 +59,11 @@ def db_connection():
 ```
 
 You can **require a fixture for every test function within a scope WITHOUT explicitly referencing it** by setting the `autouse` argument to `True`. This will make the fixture run by default for each test even if the test doesn't explicitly invoke that feature.
+```py
+@pytest.fixture(autouse=True)
+def some_essential_setup():
+  # do essential set up here
+```
 
 ### conftest
 
@@ -76,8 +81,8 @@ def create_msg():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODI4Mjg5NzQsLTIwMDk2NDYwOTMsLT
-E2MjI1OTAyODcsMTkwMTE4Nzc0NSwtODkzNDc1MTIwLDE0NDcx
-ODUxMjYsNzA4NzAzOTg4LDE5MDY5MzU1NjcsNzYyOTMzMzcwLD
-I2Mjg1NzU4MV19
+eyJoaXN0b3J5IjpbMTAzMzA1NzU4NywtMTY4MjgyODk3NCwtMj
+AwOTY0NjA5MywtMTYyMjU5MDI4NywxOTAxMTg3NzQ1LC04OTM0
+NzUxMjAsMTQ0NzE4NTEyNiw3MDg3MDM5ODgsMTkwNjkzNTU2Ny
+w3NjI5MzMzNzAsMjYyODU3NTgxXX0=
 -->
