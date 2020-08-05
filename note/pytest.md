@@ -50,6 +50,8 @@ def db():
   db_connection.close() # runs after the test has finished and closes the connection
 ```
 
+
+
 ### conftest
 
 You can **make fixtures available in multiple locations WITHOUT importing** by defining them in `conftest.py` file in your project directory. When `pytest` runs it will automatically check the `conftest.py` file for a matching fixture.
@@ -66,7 +68,7 @@ def create_msg():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjI1OTAyODcsMTkwMTE4Nzc0NSwtOD
-kzNDc1MTIwLDE0NDcxODUxMjYsNzA4NzAzOTg4LDE5MDY5MzU1
-NjcsNzYyOTMzMzcwLDI2Mjg1NzU4MV19
+eyJoaXN0b3J5IjpbLTkxMDgwNTIzNSwtMTYyMjU5MDI4NywxOT
+AxMTg3NzQ1LC04OTM0NzUxMjAsMTQ0NzE4NTEyNiw3MDg3MDM5
+ODgsMTkwNjkzNTU2Nyw3NjI5MzMzNzAsMjYyODU3NTgxXX0=
 -->
