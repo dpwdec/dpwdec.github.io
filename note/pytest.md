@@ -46,7 +46,8 @@ You can **integrate set up with tear down functionality inside a fixture** by us
 @pytest.fixture():
 def db():
   db_connection = create_database()
-  yield db_connection # send the db connection ob
+  yield db_connection # send the db connection object to the test
+  db_connection.close() # runs after the test has finished and closes the connection
 ```
 
 ### conftest
@@ -65,7 +66,7 @@ def create_msg():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjU2MzM2NiwtODkzNDc1MTIwLDE0ND
+eyJoaXN0b3J5IjpbMTkwMTE4Nzc0NSwtODkzNDc1MTIwLDE0ND
 cxODUxMjYsNzA4NzAzOTg4LDE5MDY5MzU1NjcsNzYyOTMzMzcw
 LDI2Mjg1NzU4MV19
 -->
