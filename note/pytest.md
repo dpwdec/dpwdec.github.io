@@ -50,7 +50,11 @@ def db():
   db_connection.close() # runs after the test has finished and closes the connection
 ```
 
-
+You can **share the objects create in fixtures across multiple scopes** by using the `scope` flag as an argument in the fixture definition. By default a fixture is re-created every time each test function runs, this may not be feasible if the fixture does some computationally expensive set up.
+```py
+@pytest.fixture(scope="module")
+def db_con
+```
 
 ### conftest
 
@@ -68,7 +72,7 @@ def create_msg():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDgwNTIzNSwtMTYyMjU5MDI4NywxOT
-AxMTg3NzQ1LC04OTM0NzUxMjAsMTQ0NzE4NTEyNiw3MDg3MDM5
-ODgsMTkwNjkzNTU2Nyw3NjI5MzMzNzAsMjYyODU3NTgxXX0=
+eyJoaXN0b3J5IjpbNDY2NzE0ODQyLC0xNjIyNTkwMjg3LDE5MD
+ExODc3NDUsLTg5MzQ3NTEyMCwxNDQ3MTg1MTI2LDcwODcwMzk4
+OCwxOTA2OTM1NTY3LDc2MjkzMzM3MCwyNjI4NTc1ODFdfQ==
 -->
