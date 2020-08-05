@@ -28,6 +28,8 @@ class TestClass():
 
 A **pytest fixture** is a way to encapsulate set up behaviour for test cases in module way. To **define a new fixture** use the `@pytest.fixture` decorator and make the return value the result that will be used by your test.
 ```py
+import pytest
+
 @pytest.fixture
 def create_msg():
   return "This is a message"
@@ -41,13 +43,20 @@ def test_msg(create_msg):
 
 ### conftest
 
-You can **make fixtures available in multiple locations WITHOUT importing** by defining them in `conftest.py` file in your project directory.
+You can **make fixtures available in multiple locations WITHOUT importing** by defining them in `conftest.py` file in your project directory. When `pytest` runs it will automatically check the `conftest.py` file for a matching fixture.
 ```py
+# conftest.py
+import pytest
 
+@pytest.fixture
+def create_msg():
+  return "This is a message" 
 ```
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjE3NTMwNTEsNzA4NzAzOTg4LDE5MD
-Y5MzU1NjcsNzYyOTMzMzcwLDI2Mjg1NzU4MV19
+eyJoaXN0b3J5IjpbMTQ0NzE4NTEyNiw3MDg3MDM5ODgsMTkwNj
+kzNTU2Nyw3NjI5MzMzNzAsMjYyODU3NTgxXX0=
 -->
