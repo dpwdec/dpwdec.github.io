@@ -41,7 +41,13 @@ def test_msg(create_msg):
   assert create_msg == "This is a message"
 ```
 
-You can **integrate set up with tear down functionality inside a fixture** by using a `yield` inside the fixture with the argument to the yield being the 
+You can **integrate set up with tear down functionality inside a fixture** by using a `yield` inside the fixture with the argument to the yield being the object that you want to be pass to your test.
+```py
+@pytest.fixture():
+def db():
+  db_connection = create_database()
+  yield db_connection # send the db connection ob
+```
 
 ### conftest
 
@@ -59,7 +65,7 @@ def create_msg():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MzQ3NTEyMCwxNDQ3MTg1MTI2LDcwOD
-cwMzk4OCwxOTA2OTM1NTY3LDc2MjkzMzM3MCwyNjI4NTc1ODFd
-fQ==
+eyJoaXN0b3J5IjpbMTIyMjU2MzM2NiwtODkzNDc1MTIwLDE0ND
+cxODUxMjYsNzA4NzAzOTg4LDE5MDY5MzU1NjcsNzYyOTMzMzcw
+LDI2Mjg1NzU4MV19
 -->
