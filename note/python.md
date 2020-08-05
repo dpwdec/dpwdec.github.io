@@ -432,13 +432,15 @@ $ pipenv install --dev
 
 If you have a `.env` file in your project directory running `pipenv` commands like `run` and `shell` should automatically load environmental variables defined in that file.
 
+## Pylint
 
+The Python linter will often give incorrect linting results in vscode when checking imports because it does not check the specific virtual environment where the dependencies are actually installed. To solve this create a `.pylintrc` file in your `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDU2ODQ2MzcsMjgzOTg4NDc5LDE5MD
-UxODUzMDIsLTI5Mzk5OTA3MywtOTc4ODM5Mzk1LDE5OTgxODcx
-ODgsNTYxODU5MDgsLTE5OTM1OTMxNjQsLTI0NTMyODc1MiwyNT
-c2MjY3OTcsMjAxNzg5NTM4MCwtMTg2NjkyMzAyNywxMzczMTMz
-NTcxLC0xNDQ1OTQ0NzUsNDg4NDY3MjQ4LC04OTcwNTk3ODIsLT
-Y5ODM3Mjk1MCwtMjgyNzQ2NTQsMTM3MzQ2NTgzOCwtMTE5NTEy
-NzQwNl19
+eyJoaXN0b3J5IjpbODY1MDUxODcwLC0yMTA1Njg0NjM3LDI4Mz
+k4ODQ3OSwxOTA1MTg1MzAyLC0yOTM5OTkwNzMsLTk3ODgzOTM5
+NSwxOTk4MTg3MTg4LDU2MTg1OTA4LC0xOTkzNTkzMTY0LC0yND
+UzMjg3NTIsMjU3NjI2Nzk3LDIwMTc4OTUzODAsLTE4NjY5MjMw
+MjcsMTM3MzEzMzU3MSwtMTQ0NTk0NDc1LDQ4ODQ2NzI0OCwtOD
+k3MDU5NzgyLC02OTgzNzI5NTAsLTI4Mjc0NjU0LDEzNzM0NjU4
+MzhdfQ==
 -->
