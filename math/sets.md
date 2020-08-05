@@ -14,7 +14,7 @@ You can **abbreviate sets that proceed is a predictable pattern** by using an `.
 
 ### Set Builder Notation
 
-Sets can also be notated as a **selection from a larger set according to a condition**. In the example below the `|` pipe character is read as "such that" (a **colon is also used here sometimes**) and reads `"F is a set of all numbers n, such that n 
+Sets can also be notated as a **selection from a larger set according to a condition**. In the example below the `|` pipe character is read as "such that" (a **colon is also used here sometimes**) and reads `"F is a set of all numbers n, such that n is an integer in the range from 0 to 19 exclusive"`.
 ```
 F = { n | n is an integer, and 0 < n < 19 }
 ```
@@ -23,7 +23,9 @@ Sets are usually **named** with capital letters, such as `A` and `B`.
 
 Sets are **equal** if all their elements are the same. This called the **extensionality of sets**.
 
+A set **with only a single element** is called a **singleton set**. `{ 🍊 }` is an example of a  singleton set.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxMDQ2MzJdfQ==
+eyJoaXN0b3J5IjpbMTE0NTc0MDk0OF19
 -->
