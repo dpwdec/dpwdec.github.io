@@ -76,6 +76,13 @@ session.add(new_user)
 session.commit()
 ```
 
+## Dropping
+
+You can **drop a specific table** by using the `__table__` property of a class with the `drop` method.
+```py
+MyModel.__table__.dri
+```
+
 ## Metadata
 
 To **create database tables if they don't already exist** use the `create_all` method your model's base class. Importantly you **must import all the models you want to initialise into this method is executed** to ensure that all the relevant tables are added.
@@ -90,7 +97,7 @@ Base.metadata.drop_all(db)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDU5MjgxNywtOTA5MTUyMzM1LC0xND
+eyJoaXN0b3J5IjpbMTY1ODE4NTE4MCwtOTA5MTUyMzM1LC0xND
 AzMTIwMjUzLDE3MTI1MzkyOTEsLTg1ODc1MTc0NSwtMTM5NTQw
 MzQxNSwtMTc4Nzk4NzgxMSwtMjc0ODY4MTc0LDE5MzM5OTg0ND
 csLTgxMzcxNzUxNywtMTA5NDUwNTIwOCwtMTQzNTQ5OTAzNV19
