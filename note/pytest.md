@@ -17,12 +17,13 @@ You can **run Pytest** by using the `pytest` command. This will find all appropr
 $ pytest
 ```
 
-You can **encapsulate your tests into a class** by placing your test cases inside a `class` named with the format `Test*` and adding `self` as a parameter to the test cases.
+You can **encapsulate your tests into a class** by placing your test cases inside a `class` named with the format `Test*` and adding `self` as a parameter to the test cases. It's important to note that each test case within a test class represents its own instance of that class when `pytest` runs.
 ```py
 class TestClass():
   def test_eq(self):
     assert 1 == 1
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYyOTMzMzcwLDI2Mjg1NzU4MV19
+eyJoaXN0b3J5IjpbMTkwNjkzNTU2Nyw3NjI5MzMzNzAsMjYyOD
+U3NTgxXX0=
 -->
