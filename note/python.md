@@ -434,14 +434,14 @@ If you have a `.env` file in your project directory running `pipenv` commands li
 
 ## Pylint
 
-The Python linter will often give incorrect linting results in vscode when checking imports because it does not check the specific virtual environment where the dependencies are actually installed. To solve this create a `.pylintrc` file in your home user directory and add the following code inside it.
+The Python linter will often give incorrect linting results in vscode when checking imports because it does not check the specific virtual environment where the dependencies are actually installed. To solve this create a `.pylintrc` file in your home user directory and add the following code inside.
 ```bash
 [MASTER]
 init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc5MDA2Mjc5LC0yMTA1Njg0NjM3LDI4Mz
+eyJoaXN0b3J5IjpbODM0ODk5MDk0LC0yMTA1Njg0NjM3LDI4Mz
 k4ODQ3OSwxOTA1MTg1MzAyLC0yOTM5OTkwNzMsLTk3ODgzOTM5
 NSwxOTk4MTg3MTg4LDU2MTg1OTA4LC0xOTkzNTkzMTY0LC0yND
 UzMjg3NTIsMjU3NjI2Nzk3LDIwMTc4OTUzODAsLTE4NjY5MjMw
