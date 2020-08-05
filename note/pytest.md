@@ -39,8 +39,15 @@ def test_msg(create_msg):
   assert create_msg == "This is a message"
 ```
 
+### conftest
+
+You can **make fixtures available in multiple locations WITHOUT importing** by defining them in `conftest.py` file in your project directory.
+```py
+
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4NzAzOTg4LDE5MDY5MzU1NjcsNzYyOT
-MzMzcwLDI2Mjg1NzU4MV19
+eyJoaXN0b3J5IjpbLTExMjE3NTMwNTEsNzA4NzAzOTg4LDE5MD
+Y5MzU1NjcsNzYyOTMzMzcwLDI2Mjg1NzU4MV19
 -->
