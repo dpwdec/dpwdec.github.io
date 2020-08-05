@@ -29,12 +29,18 @@ class TestClass():
 A **pytest fixture** is a way to encapsulate set up behaviour for test cases in module way. To **define a new fixture** use the `@pytest.fixture` decorator and make the return value the result that will be used by your test.
 ```py
 @pytest.fixture
-def creat_msg():
+def create_msg():
   return "This is a message"
 ```
 
-You can **call a fixture in a test** by adding it as an argument that **matches the name of the fixture** to the test function, this will **pass the result of the test fixture into the test functi**
+You can **call a fixture in a test** by adding it as an argument that **matches the name of the fixture** to the test function, this will **pass the result of the test fixture into the test function** to be used.
+```py
+def test_msg(create_msg):
+  assert create_msg == "This is a message"
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxNzg3NzYwLDE5MDY5MzU1NjcsNzYyOT
+eyJoaXN0b3J5IjpbNzA4NzAzOTg4LDE5MDY5MzU1NjcsNzYyOT
 MzMzcwLDI2Mjg1NzU4MV19
 -->
