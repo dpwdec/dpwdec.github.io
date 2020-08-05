@@ -92,14 +92,14 @@ Base.metadata.create_all(your_engine)
 
 You can **drop all tables** by using `metadata` with the `drop_all` method.
 ```py
-Base.metadata.drop_all(db)
+Base.metadata.drop_all(your_engine)
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDE2NTg0MywtOTA5MTUyMzM1LC0xND
-AzMTIwMjUzLDE3MTI1MzkyOTEsLTg1ODc1MTc0NSwtMTM5NTQw
-MzQxNSwtMTc4Nzk4NzgxMSwtMjc0ODY4MTc0LDE5MzM5OTg0ND
-csLTgxMzcxNzUxNywtMTA5NDUwNTIwOCwtMTQzNTQ5OTAzNV19
+eyJoaXN0b3J5IjpbNTkyODYxNjY3LC05MDkxNTIzMzUsLTE0MD
+MxMjAyNTMsMTcxMjUzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAz
+NDE1LC0xNzg3OTg3ODExLC0yNzQ4NjgxNzQsMTkzMzk5ODQ0Ny
+wtODEzNzE3NTE3LC0xMDk0NTA1MjA4LC0xNDM1NDk5MDM1XX0=
 
 -->
