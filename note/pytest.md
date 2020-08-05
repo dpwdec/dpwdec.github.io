@@ -58,6 +58,9 @@ def db_connection():
   return db
 ```
 
+There are **multiple possible scopes for fixtures** these can be:
+- 
+
 You can **require a fixture for every test function within a scope WITHOUT explicitly referencing it** by setting the `autouse` argument to `True`. This will make the fixture run by default for each test even if the test doesn't explicitly invoke that feature.
 ```py
 @pytest.fixture(autouse=True)
@@ -81,8 +84,8 @@ def create_msg():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzA1NzU4NywtMTY4MjgyODk3NCwtMj
-AwOTY0NjA5MywtMTYyMjU5MDI4NywxOTAxMTg3NzQ1LC04OTM0
-NzUxMjAsMTQ0NzE4NTEyNiw3MDg3MDM5ODgsMTkwNjkzNTU2Ny
-w3NjI5MzMzNzAsMjYyODU3NTgxXX0=
+eyJoaXN0b3J5IjpbNDMxNTU2MzUsMTAzMzA1NzU4NywtMTY4Mj
+gyODk3NCwtMjAwOTY0NjA5MywtMTYyMjU5MDI4NywxOTAxMTg3
+NzQ1LC04OTM0NzUxMjAsMTQ0NzE4NTEyNiw3MDg3MDM5ODgsMT
+kwNjkzNTU2Nyw3NjI5MzMzNzAsMjYyODU3NTgxXX0=
 -->
