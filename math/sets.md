@@ -14,9 +14,9 @@ You can **abbreviate sets that proceed is a predictable pattern** by using an `.
 
 ### Set Builder Notation
 
-Sets can also be notated as a **selection from a larger set according to a condition**.
+Sets can also be notated as a **selection from a larger set according to a condition**. In the example below the `|` pipe character is read as "such that" (a **colon is also used here sometimes**) and reads `"F is a set of all numbers n, such that n 
 ```
-F = { n | n is an 
+F = { n | n is an integer, and 0 < n < 19 }
 ```
 
 Sets are usually **named** with capital letters, such as `A` and `B`. 
@@ -25,5 +25,5 @@ Sets are **equal** if all their elements are the same. This called the **extensi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzEwMTMzMTddfQ==
+eyJoaXN0b3J5IjpbOTkxMDQ2MzJdfQ==
 -->
