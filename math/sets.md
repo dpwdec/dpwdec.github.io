@@ -9,6 +9,8 @@ A **mathematical set** is a collection of, unordered, unique objects. For exampl
 Sets are usually **notated** with `{ }` curly braces, this is also known as **roster notation**.
 
 Sets are usually **named** with capital letters, such as `A` and `B`. 
+
+Sets are **equal** if all their elements are the same.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0MTc3NjIxXX0=
+eyJoaXN0b3J5IjpbLTExMDc2OTIxNDhdfQ==
 -->
