@@ -95,9 +95,14 @@ You can **drop all tables** by using `metadata` with the `drop_all` method.
 Base.metadata.drop_all(your_engine)
 ```
 
+You can **drop a specific table** using `metadata` by specifying the table in the `tables` argument to the `drop_all` method.
+```py
+Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyODYxNjY3LC05MDkxNTIzMzUsLTE0MD
+eyJoaXN0b3J5IjpbMTkyMzg1MDk0LC05MDkxNTIzMzUsLTE0MD
 MxMjAyNTMsMTcxMjUzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAz
 NDE1LC0xNzg3OTg3ODExLC0yNzQ4NjgxNzQsMTkzMzk5ODQ0Ny
 wtODEzNzE3NTE3LC0xMDk0NTA1MjA4LC0xNDM1NDk5MDM1XX0=
