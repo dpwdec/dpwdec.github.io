@@ -58,6 +58,8 @@ def db_connection():
   return db
 ```
 
+You can **require a fixture for every test function within a scope WITHOUT explicitly referencing it** by setting the `autouse` argument to `True`. This will make the fixture run by default for each test even if the test doesn't explicitly invoke that feature.
+
 ### conftest
 
 You can **make fixtures available in multiple locations WITHOUT importing** by defining them in `conftest.py` file in your project directory. When `pytest` runs it will automatically check the `conftest.py` file for a matching fixture.
@@ -74,7 +76,8 @@ def create_msg():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk2NDYwOTMsLTE2MjI1OTAyODcsMT
-kwMTE4Nzc0NSwtODkzNDc1MTIwLDE0NDcxODUxMjYsNzA4NzAz
-OTg4LDE5MDY5MzU1NjcsNzYyOTMzMzcwLDI2Mjg1NzU4MV19
+eyJoaXN0b3J5IjpbLTE2ODI4Mjg5NzQsLTIwMDk2NDYwOTMsLT
+E2MjI1OTAyODcsMTkwMTE4Nzc0NSwtODkzNDc1MTIwLDE0NDcx
+ODUxMjYsNzA4NzAzOTg4LDE5MDY5MzU1NjcsNzYyOTMzMzcwLD
+I2Mjg1NzU4MV19
 -->
