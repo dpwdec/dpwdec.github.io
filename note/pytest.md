@@ -58,8 +58,12 @@ def db_connection():
   return db
 ```
 
-There are **multiple possible scopes for fixtures** these can be:
-- 
+There are **multiple possible scopes for fixtures** which can be at the level of the:
+- `function` (the default)
+- `class`
+- `module`
+- `package`
+- `session` (the entire session of running your tests)
 
 You can **require a fixture for every test function within a scope WITHOUT explicitly referencing it** by setting the `autouse` argument to `True`. This will make the fixture run by default for each test even if the test doesn't explicitly invoke that feature.
 ```py
@@ -84,8 +88,8 @@ def create_msg():
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxNTU2MzUsMTAzMzA1NzU4NywtMTY4Mj
-gyODk3NCwtMjAwOTY0NjA5MywtMTYyMjU5MDI4NywxOTAxMTg3
-NzQ1LC04OTM0NzUxMjAsMTQ0NzE4NTEyNiw3MDg3MDM5ODgsMT
-kwNjkzNTU2Nyw3NjI5MzMzNzAsMjYyODU3NTgxXX0=
+eyJoaXN0b3J5IjpbMjA4MDY0MzAyNSwxMDMzMDU3NTg3LC0xNj
+gyODI4OTc0LC0yMDA5NjQ2MDkzLC0xNjIyNTkwMjg3LDE5MDEx
+ODc3NDUsLTg5MzQ3NTEyMCwxNDQ3MTg1MTI2LDcwODcwMzk4OC
+wxOTA2OTM1NTY3LDc2MjkzMzM3MCwyNjI4NTc1ODFdfQ==
 -->
