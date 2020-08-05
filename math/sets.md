@@ -23,9 +23,9 @@ Sets are usually **named** with capital letters, such as `A` and `B`.
 
 Sets are **equal** if all their elements are the same. This called the **extensionality of sets**.
 
-A set **with only a single element** is called a **singleton set**. `{ 🍊 }` is an example of a  singleton set.
+A set **with only a single element** is called a **singleton set**. `{ 🍊 }` is an example of a singleton set.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTc0MDk0OF19
+eyJoaXN0b3J5IjpbNTA4NjMzODQ2XX0=
 -->
