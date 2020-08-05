@@ -83,10 +83,16 @@ To **create database tables if they don't already exist** use the `create_all` m
 Base.metadata.create_all(db)
 ```
 
+You can **drop all tables** by using `metadata` with the `drop_all` method.
+```py
+Base.metadata.drop_all(db)
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTE1MjMzNSwtMTQwMzEyMDI1MywxNz
-EyNTM5MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0MTUsLTE3ODc5
-ODc4MTEsLTI3NDg2ODE3NCwxOTMzOTk4NDQ3LC04MTM3MTc1MT
-csLTEwOTQ1MDUyMDgsLTE0MzU0OTkwMzVdfQ==
+eyJoaXN0b3J5IjpbMjA2MDU5MjgxNywtOTA5MTUyMzM1LC0xND
+AzMTIwMjUzLDE3MTI1MzkyOTEsLTg1ODc1MTc0NSwtMTM5NTQw
+MzQxNSwtMTc4Nzk4NzgxMSwtMjc0ODY4MTc0LDE5MzM5OTg0ND
+csLTgxMzcxNzUxNywtMTA5NDUwNTIwOCwtMTQzNTQ5OTAzNV19
+
 -->
