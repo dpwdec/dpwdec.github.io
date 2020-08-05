@@ -230,12 +230,18 @@ story driven CVs
 give yourself a personality
 be weird
 online conferencing
+
+
+these are some gneeral notes, that I write and stuff, but thsi keyboard feels ok, but not amazing
+
+`and doing backticks is far from ideal` especi `if` i need to type several things `with` backticks in it and keep things moving
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY1OTQ1MDIsLTMzMjI2NjgsLTEyNj
-AwODQ2MCwxODU0Njg1NzE4LDE4NzY1MTU5NDgsLTc3NTgwNDU5
-NCw4NTY1NTIyMzEsNDczOTQxNTc4LDEyNzI4ODIxNjcsLTEzNj
-M3MzkxODksODQxODE1MDY2LDIyMzU0NTQyOCwtMTYyMjMxNzM5
-OCw1OTk1OTU2MzEsLTIyMTI0ODc2MiwxNjE0MzU1Mjc0LC0yNT
-MyMDY0MDIsLTEyMzgyODczNTksMjA0NDQ5OTEyMyw1NzU5NzUz
-MjBdfQ==
+eyJoaXN0b3J5IjpbMjg2NTA3MzY4LC0xMTE2NTk0NTAyLC0zMz
+IyNjY4LC0xMjYwMDg0NjAsMTg1NDY4NTcxOCwxODc2NTE1OTQ4
+LC03NzU4MDQ1OTQsODU2NTUyMjMxLDQ3Mzk0MTU3OCwxMjcyOD
+gyMTY3LC0xMzYzNzM5MTg5LDg0MTgxNTA2NiwyMjM1NDU0Mjgs
+LTE2MjIzMTczOTgsNTk5NTk1NjMxLC0yMjEyNDg3NjIsMTYxND
+M1NTI3NCwtMjUzMjA2NDAyLC0xMjM4Mjg3MzU5LDIwNDQ0OTkx
+MjNdfQ==
 -->
