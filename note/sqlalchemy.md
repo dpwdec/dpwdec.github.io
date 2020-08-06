@@ -63,6 +63,8 @@ class User(Base):
   age = Column(Integer)
 ```
 
+
+
 Similar to `sessions` **in large applications with multiple models its recommended to create you `Base` class once** and then import it from a centralised set up section to modules that need to inherit from `Base`.
 
 You can **create a new instance of a model class** as you would with any other python class.
@@ -142,9 +144,10 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxMjQ3NTc0LDg3MjU0NTQzOCwtNzU3MT
-YxNDgyLC0xNzUxNDIzOTU5LC05MDkxNTIzMzUsLTE0MDMxMjAy
-NTMsMTcxMjUzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAzNDE1LC
-0xNzg3OTg3ODExLC0yNzQ4NjgxNzQsMTkzMzk5ODQ0NywtODEz
-NzE3NTE3LC0xMDk0NTA1MjA4LC0xNDM1NDk5MDM1XX0=
+eyJoaXN0b3J5IjpbNjMwOTY4NTcwLDM0MTI0NzU3NCw4NzI1ND
+U0MzgsLTc1NzE2MTQ4MiwtMTc1MTQyMzk1OSwtOTA5MTUyMzM1
+LC0xNDAzMTIwMjUzLDE3MTI1MzkyOTEsLTg1ODc1MTc0NSwtMT
+M5NTQwMzQxNSwtMTc4Nzk4NzgxMSwtMjc0ODY4MTc0LDE5MzM5
+OTg0NDcsLTgxMzcxNzUxNywtMTA5NDUwNTIwOCwtMTQzNTQ5OT
+AzNV19
 -->
