@@ -78,9 +78,14 @@ session.commit()
 
 ### Queries
 
-You can **query a table for all records** by suing the `query` method on the `session` object with the table model that you want to query as the argument. This returns an iterable, the values of which can be accessed through iteration or by normal array access.
+You can **query a table for all records** by using the `query` method on the `session` object with the table model that you want to query as the argument. A query returns an iterable, the values of which can be accessed through iteration or by normal array access.
 ```py
 result = session.query(MyModel)
+result[0].name # access the first element in result
+
+# use for in iteration on results
+for model in session.query(MyModel):
+  # do something with model
 ```
 
 ## Dropping
@@ -109,9 +114,9 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0Njc0NjQ2LC05MDkxNTIzMzUsLTE0MD
-MxMjAyNTMsMTcxMjUzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAz
-NDE1LC0xNzg3OTg3ODExLC0yNzQ4NjgxNzQsMTkzMzk5ODQ0Ny
-wtODEzNzE3NTE3LC0xMDk0NTA1MjA4LC0xNDM1NDk5MDM1XX0=
-
+eyJoaXN0b3J5IjpbLTE3NTE0MjM5NTksLTkwOTE1MjMzNSwtMT
+QwMzEyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDUsLTEzOTU0
+MDM0MTUsLTE3ODc5ODc4MTEsLTI3NDg2ODE3NCwxOTMzOTk4ND
+Q3LC04MTM3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0MzU0OTkwMzVd
+fQ==
 -->
