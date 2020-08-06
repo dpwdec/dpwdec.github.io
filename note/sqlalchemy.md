@@ -123,17 +123,23 @@ for user in session.query(User).order_by(User.name):
   # returns users sorted by name
 ```
 
+### filter_by
+
 You can **add filters to a query to match specific elements in your database** by appending the `filter_by` method to your query.
 ```py
 # returns a list of all users called Jimothy who's age is 30
 result = session.query(User).filter_by(name="Jimothy").filter_by(age=30)
 ```
 
-You can **use a more general `filter` method** to create database queries with a more general structure. The `filter` method takes 
+### filter
+
+You can **use a more general `filter` method** to create database queries with a more general structure. The `filter` method takes model properties as its parameters. The example below shows the `filter_by` example re-written to use *just* `filter`.
 ```py
 # returns a list of all users called Jimothy who's age is 30
-result = session.query(User).filter_by(User.name="Jimothy").filter_by(User.age=30)
+result = session.query(User).filter(User.name="Jimothy").filter(User.age=30)
 ```
+
+
 
 ## Dropping
 
@@ -161,11 +167,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDE0NjEzNyw2NDY3MzUyMjMsMzU3Mz
-E2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcyNTQ1NDM4LC03
-NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1MjMzNSwtMTQwMz
-EyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0
-MTUsLTE3ODc5ODc4MTEsLTI3NDg2ODE3NCwxOTMzOTk4NDQ3LC
-04MTM3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0MzU0OTkwMzVdfQ==
+eyJoaXN0b3J5IjpbLTE5MzI4NTA1MjcsNjQ2NzM1MjIzLDM1Nz
+MxNjA5Nyw2MzA5Njg1NzAsMzQxMjQ3NTc0LDg3MjU0NTQzOCwt
+NzU3MTYxNDgyLC0xNzUxNDIzOTU5LC05MDkxNTIzMzUsLTE0MD
+MxMjAyNTMsMTcxMjUzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAz
+NDE1LC0xNzg3OTg3ODExLC0yNzQ4NjgxNzQsMTkzMzk5ODQ0Ny
+wtODEzNzE3NTE3LC0xMDk0NTA1MjA4LC0xNDM1NDk5MDM1XX0=
 
 -->
