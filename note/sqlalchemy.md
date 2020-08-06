@@ -183,10 +183,13 @@ session.commit() # save the changes the database
 You can **update records using `setattr` syntax**, this is [somewhat recommended][up] because it results in changes at a database level with verification.
 ```py
 user = session.query(User).filter(User.name == "Jimothy").first()
-setattr(user, 
+setattr(user, 'age', user.age + 2)
+session.commit()
 ```
 [up]: https://stackoverflow.com/questions/9667138/how-to-update-sqlalchemy-row-entry
-	
+
+You can also **update records in place** by chaining the `filter` function with an `update` function that takes a `di
+
 ## Dropping
 
 You can **drop a specific table** by using the `__table__` property of a class with the `drop` method.
@@ -213,7 +216,7 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDUzNDkyNSwtMjA0MTU5OTMzMSw1NT
+eyJoaXN0b3J5IjpbMjA5ODk3MjU1NywtMjA0MTU5OTMzMSw1NT
 AyODcyMTgsNzQzNjk4MzgsMTMzNzU4ODQwOCw2NDY3MzUyMjMs
 MzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcyNTQ1ND
 M4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1MjMzNSwt
