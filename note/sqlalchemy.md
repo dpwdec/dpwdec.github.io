@@ -85,12 +85,17 @@ result = session.query(MyModel)
 
 You can **access the values contained in a result** through `for ... in` iteration or accessing values by index.
 ```py
-# acess resulfor ... in iteration on results
+# acess results using for ... in iteration
 for model in session.query(MyModel):
   print(model.property)
 
 # access results by index
 result[0].property
+```
+
+You can **return tuples of database data instead of objects** by submitting class property names as the arguments to the `query` method.
+```py
+
 ```
 
 ## Dropping
@@ -119,7 +124,7 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTc4MjU5OSwtMTc1MTQyMzk1OSwtOT
+eyJoaXN0b3J5IjpbLTI5MjM1NjE1NSwtMTc1MTQyMzk1OSwtOT
 A5MTUyMzM1LC0xNDAzMTIwMjUzLDE3MTI1MzkyOTEsLTg1ODc1
 MTc0NSwtMTM5NTQwMzQxNSwtMTc4Nzk4NzgxMSwtMjc0ODY4MT
 c0LDE5MzM5OTg0NDcsLTgxMzcxNzUxNywtMTA5NDUwNTIwOCwt
