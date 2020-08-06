@@ -179,6 +179,10 @@ result = session.query(User).filter(User.name == "Jimothy")
 result[0].age += 2 # update Jimothy's age by 2 years
 session.commit() # save the changes the database
 ```
+
+You can **update records using `setattr` syntax**, this is [somewhat recommended][up]
+
+[up]: (https://stackoverflow.com/questions/9667138/how-to-update-sqlalchemy-row-entry)
 	
 ## Dropping
 
@@ -206,11 +210,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDE1OTkzMzEsNTUwMjg3MjE4LDc0Mz
-Y5ODM4LDEzMzc1ODg0MDgsNjQ2NzM1MjIzLDM1NzMxNjA5Nyw2
-MzA5Njg1NzAsMzQxMjQ3NTc0LDg3MjU0NTQzOCwtNzU3MTYxND
-gyLC0xNzUxNDIzOTU5LC05MDkxNTIzMzUsLTE0MDMxMjAyNTMs
-MTcxMjUzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAzNDE1LC0xNz
-g3OTg3ODExLC0yNzQ4NjgxNzQsMTkzMzk5ODQ0NywtODEzNzE3
-NTE3XX0=
+eyJoaXN0b3J5IjpbLTEwNDU2NjAyMDEsLTIwNDE1OTkzMzEsNT
+UwMjg3MjE4LDc0MzY5ODM4LDEzMzc1ODg0MDgsNjQ2NzM1MjIz
+LDM1NzMxNjA5Nyw2MzA5Njg1NzAsMzQxMjQ3NTc0LDg3MjU0NT
+QzOCwtNzU3MTYxNDgyLC0xNzUxNDIzOTU5LC05MDkxNTIzMzUs
+LTE0MDMxMjAyNTMsMTcxMjUzOTI5MSwtODU4NzUxNzQ1LC0xMz
+k1NDAzNDE1LC0xNzg3OTg3ODExLC0yNzQ4NjgxNzQsMTkzMzk5
+ODQ0N119
 -->
