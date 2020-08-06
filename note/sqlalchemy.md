@@ -71,6 +71,11 @@ class User(Base):
   firstname = Column(String)
 ```
 
+You can **set field parameters** on model properties such `String` length etc. by submitting them as arguments to the parameter type.
+```py
+firstname = Column(String(50))
+```
+
 Similar to `sessions` **in large applications with multiple models its recommended to create you `Base` class once** and then import it from a centralised set up section to modules that need to inherit from `Base`.
 
 You can **create a new instance of a model class** as you would with any other python class.
@@ -150,10 +155,10 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODA4NDM4NzIsNjMwOTY4NTcwLDM0MT
-I0NzU3NCw4NzI1NDU0MzgsLTc1NzE2MTQ4MiwtMTc1MTQyMzk1
-OSwtOTA5MTUyMzM1LC0xNDAzMTIwMjUzLDE3MTI1MzkyOTEsLT
-g1ODc1MTc0NSwtMTM5NTQwMzQxNSwtMTc4Nzk4NzgxMSwtMjc0
-ODY4MTc0LDE5MzM5OTg0NDcsLTgxMzcxNzUxNywtMTA5NDUwNT
-IwOCwtMTQzNTQ5OTAzNV19
+eyJoaXN0b3J5IjpbMzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyND
+c1NzQsODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTks
+LTkwOTE1MjMzNSwtMTQwMzEyMDI1MywxNzEyNTM5MjkxLC04NT
+g3NTE3NDUsLTEzOTU0MDM0MTUsLTE3ODc5ODc4MTEsLTI3NDg2
+ODE3NCwxOTMzOTk4NDQ3LC04MTM3MTc1MTcsLTEwOTQ1MDUyMD
+gsLTE0MzU0OTkwMzVdfQ==
 -->
