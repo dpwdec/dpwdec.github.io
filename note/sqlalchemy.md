@@ -175,14 +175,17 @@ result = session.query(User).filter(User.name.ilike("%im%"))
 
 You can **update a record** by retrieving it from the database, changing its contents and then committing using a session.
 ```py
-result = session.query(User).filter(User.name == "Jimothy")
-result[0].age += 2 # update Jimothy's age by 2 years
+user = session.query(User).filter(User.name == "Jimothy").first()
+user.age += 2 # update Jimothy's age by 2 years
 session.commit() # save the changes the database
 ```
 
-You can **update records using `setattr` syntax**, this is [somewhat recommended][up]
-
-[up]: (https://stackoverflow.com/questions/9667138/how-to-update-sqlalchemy-row-entry)
+You can **update records using `setattr` syntax**, this is [somewhat recommended][up] because it results in changes at a database level with verification.
+```py
+user = session.query(User).filter(User.name == "Jimothy").first()
+setattr(user, 
+```
+[up]: https://stackoverflow.com/questions/9667138/how-to-update-sqlalchemy-row-entry
 	
 ## Dropping
 
@@ -210,11 +213,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDU2NjAyMDEsLTIwNDE1OTkzMzEsNT
-UwMjg3MjE4LDc0MzY5ODM4LDEzMzc1ODg0MDgsNjQ2NzM1MjIz
-LDM1NzMxNjA5Nyw2MzA5Njg1NzAsMzQxMjQ3NTc0LDg3MjU0NT
-QzOCwtNzU3MTYxNDgyLC0xNzUxNDIzOTU5LC05MDkxNTIzMzUs
-LTE0MDMxMjAyNTMsMTcxMjUzOTI5MSwtODU4NzUxNzQ1LC0xMz
-k1NDAzNDE1LC0xNzg3OTg3ODExLC0yNzQ4NjgxNzQsMTkzMzk5
-ODQ0N119
+eyJoaXN0b3J5IjpbLTI1MDUzNDkyNSwtMjA0MTU5OTMzMSw1NT
+AyODcyMTgsNzQzNjk4MzgsMTMzNzU4ODQwOCw2NDY3MzUyMjMs
+MzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcyNTQ1ND
+M4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1MjMzNSwt
+MTQwMzEyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDUsLTEzOT
+U0MDM0MTUsLTE3ODc5ODc4MTEsLTI3NDg2ODE3NCwxOTMzOTk4
+NDQ3XX0=
 -->
