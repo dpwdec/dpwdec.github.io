@@ -188,7 +188,10 @@ session.commit()
 ```
 [up]: https://stackoverflow.com/questions/9667138/how-to-update-sqlalchemy-row-entry
 
-You can also **update records in place** by chaining the `filter` function with an `update` function that takes a `dict` as an argument with the target property as a key and
+You can also **update records in place** by chaining the `filter` function with an `update` function that takes a `dict` as an argument with the target property as a key and the new property as the value of that key. If you want to **use existing record information during the update** you can access this from the class name. In the example below, the `User.age` property refers to the current record instance.
+```py
+session.query(User).filter(User.name == "Jimothy").update({age:}
+```
 
 ## Dropping
 
@@ -216,7 +219,7 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTI5NzM2MiwtMjA0MTU5OTMzMSw1NT
+eyJoaXN0b3J5IjpbMTg0NzIxMDU2NiwtMjA0MTU5OTMzMSw1NT
 AyODcyMTgsNzQzNjk4MzgsMTMzNzU4ODQwOCw2NDY3MzUyMjMs
 MzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcyNTQ1ND
 M4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1MjMzNSwt
