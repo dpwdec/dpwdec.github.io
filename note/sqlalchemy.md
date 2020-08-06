@@ -110,6 +110,8 @@ for user in session.query(User).order_by(User.name):
   # returns users sorted by name
 ```
 
+You can **add filters to a query to match specific elements in your database**
+
 ## Dropping
 
 You can **drop a specific table** by using the `__table__` property of a class with the `drop` method.
@@ -136,9 +138,9 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3NT
-E0MjM5NTksLTkwOTE1MjMzNSwtMTQwMzEyMDI1MywxNzEyNTM5
-MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0MTUsLTE3ODc5ODc4MT
-EsLTI3NDg2ODE3NCwxOTMzOTk4NDQ3LC04MTM3MTc1MTcsLTEw
-OTQ1MDUyMDgsLTE0MzU0OTkwMzVdfQ==
+eyJoaXN0b3J5IjpbLTY5MDEyOTMwOSw4NzI1NDU0MzgsLTc1Nz
+E2MTQ4MiwtMTc1MTQyMzk1OSwtOTA5MTUyMzM1LC0xNDAzMTIw
+MjUzLDE3MTI1MzkyOTEsLTg1ODc1MTc0NSwtMTM5NTQwMzQxNS
+wtMTc4Nzk4NzgxMSwtMjc0ODY4MTc0LDE5MzM5OTg0NDcsLTgx
+MzcxNzUxNywtMTA5NDUwNTIwOCwtMTQzNTQ5OTAzNV19
 -->
