@@ -165,6 +165,13 @@ The `like` operator is not consistent with case insensitivity across multiple sy
 # always case sensitive
 result = session.query(User).filter(User.name.ilike("%im%"))
 ```
+
+### update
+
+You can **update a record** by retrieving it from the database, changing its contents and then committing using a session.
+```py
+se
+```
 	
 ## Dropping
 
@@ -192,11 +199,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQzNjk4MzgsMTMzNzU4ODQwOCw2NDY3Mz
-UyMjMsMzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcy
-NTQ1NDM4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1Mj
-MzNSwtMTQwMzEyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDUs
-LTEzOTU0MDM0MTUsLTE3ODc5ODc4MTEsLTI3NDg2ODE3NCwxOT
-MzOTk4NDQ3LC04MTM3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0MzU0
-OTkwMzVdfQ==
+eyJoaXN0b3J5IjpbLTI0NzMxMDY3LDc0MzY5ODM4LDEzMzc1OD
+g0MDgsNjQ2NzM1MjIzLDM1NzMxNjA5Nyw2MzA5Njg1NzAsMzQx
+MjQ3NTc0LDg3MjU0NTQzOCwtNzU3MTYxNDgyLC0xNzUxNDIzOT
+U5LC05MDkxNTIzMzUsLTE0MDMxMjAyNTMsMTcxMjUzOTI5MSwt
+ODU4NzUxNzQ1LC0xMzk1NDAzNDE1LC0xNzg3OTg3ODExLC0yNz
+Q4NjgxNzQsMTkzMzk5ODQ0NywtODEzNzE3NTE3LC0xMDk0NTA1
+MjA4XX0=
 -->
