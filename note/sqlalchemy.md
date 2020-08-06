@@ -76,6 +76,8 @@ You can **set field parameters** on model properties such `String` length etc. b
 firstname = Column(String(50))
 ```
 
+
+
 Similar to `sessions` **in large applications with multiple models its recommended to create you `Base` class once** and then import it from a centralised set up section to modules that need to inherit from `Base`.
 
 You can **create a new instance of a model class** as you would with any other python class.
@@ -185,7 +187,7 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQ5MTMyMDAsMTMzNzU4ODQwOCw2ND
+eyJoaXN0b3J5IjpbLTE1NTUzMDEwNzYsMTMzNzU4ODQwOCw2ND
 Y3MzUyMjMsMzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQs
 ODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOT
 E1MjMzNSwtMTQwMzEyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3
