@@ -158,7 +158,7 @@ The `like` operator is not consistent with case insensitivity across multiple sy
 # always case sensitive
 result = session.query(User).filter(User.name.ilike("%im%"))
 ```
-
+	
 ## Dropping
 
 You can **drop a specific table** by using the `__table__` property of a class with the `drop` method.
@@ -185,11 +185,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzU4ODQwOCw2NDY3MzUyMjMsMzU3Mz
-E2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcyNTQ1NDM4LC03
-NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1MjMzNSwtMTQwMz
-EyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0
-MTUsLTE3ODc5ODc4MTEsLTI3NDg2ODE3NCwxOTMzOTk4NDQ3LC
-04MTM3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0MzU0OTkwMzVdfQ==
-
+eyJoaXN0b3J5IjpbLTIwODQ5MTMyMDAsMTMzNzU4ODQwOCw2ND
+Y3MzUyMjMsMzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQs
+ODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOT
+E1MjMzNSwtMTQwMzEyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3
+NDUsLTEzOTU0MDM0MTUsLTE3ODc5ODc4MTEsLTI3NDg2ODE3NC
+wxOTMzOTk4NDQ3LC04MTM3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0
+MzU0OTkwMzVdfQ==
 -->
