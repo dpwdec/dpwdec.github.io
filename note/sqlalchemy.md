@@ -112,7 +112,7 @@ for user in session.query(User).order_by(User.name):
 
 You can **add filters to a query to match specific elements in your database** by appending the `filter_by` method to your query.
 ```py
-for user in session.query(User).filter_by()
+result = session.query(User).filter_by(name="Jimothy").filter_by(age=30)
 ```
 
 ## Dropping
@@ -141,9 +141,9 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1OTAyNDAxLDg3MjU0NTQzOCwtNzU3MT
-YxNDgyLC0xNzUxNDIzOTU5LC05MDkxNTIzMzUsLTE0MDMxMjAy
-NTMsMTcxMjUzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAzNDE1LC
-0xNzg3OTg3ODExLC0yNzQ4NjgxNzQsMTkzMzk5ODQ0NywtODEz
-NzE3NTE3LC0xMDk0NTA1MjA4LC0xNDM1NDk5MDM1XX0=
+eyJoaXN0b3J5IjpbLTE3ODYxMjE0NDQsODcyNTQ1NDM4LC03NT
+cxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1MjMzNSwtMTQwMzEy
+MDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0MT
+UsLTE3ODc5ODc4MTEsLTI3NDg2ODE3NCwxOTMzOTk4NDQ3LC04
+MTM3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0MzU0OTkwMzVdfQ==
 -->
