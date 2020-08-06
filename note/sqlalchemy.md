@@ -129,6 +129,12 @@ You can **add filters to a query to match specific elements in your database** b
 result = session.query(User).filter_by(name="Jimothy").filter_by(age=30)
 ```
 
+It is **also valid to write filters with the class property as the specifier**.
+```py
+# returns a list of all users called Jimothy who's age is 30
+result = session.query(User).filter_by(User.name="Jimothy").filter_by(User.age=30)
+```
+
 ## Dropping
 
 You can **drop a specific table** by using the `__table__` property of a class with the `drop` method.
@@ -155,10 +161,10 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyND
-c1NzQsODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTks
-LTkwOTE1MjMzNSwtMTQwMzEyMDI1MywxNzEyNTM5MjkxLC04NT
-g3NTE3NDUsLTEzOTU0MDM0MTUsLTE3ODc5ODc4MTEsLTI3NDg2
-ODE3NCwxOTMzOTk4NDQ3LC04MTM3MTc1MTcsLTEwOTQ1MDUyMD
-gsLTE0MzU0OTkwMzVdfQ==
+eyJoaXN0b3J5IjpbNjQ2NzM1MjIzLDM1NzMxNjA5Nyw2MzA5Nj
+g1NzAsMzQxMjQ3NTc0LDg3MjU0NTQzOCwtNzU3MTYxNDgyLC0x
+NzUxNDIzOTU5LC05MDkxNTIzMzUsLTE0MDMxMjAyNTMsMTcxMj
+UzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAzNDE1LC0xNzg3OTg3
+ODExLC0yNzQ4NjgxNzQsMTkzMzk5ODQ0NywtODEzNzE3NTE3LC
+0xMDk0NTA1MjA4LC0xNDM1NDk5MDM1XX0=
 -->
