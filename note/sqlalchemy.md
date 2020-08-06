@@ -78,10 +78,10 @@ You can **set field parameters** on model properties such `String` length etc. b
 firstname = Column(String(50))
 ```
 
-You can **set fields to be unique within your database** by using the `uniqe` argument when creating a database property.
+You can **set fields to be unique within your database** by using the `uniqe` argument and setting it to `True` when defining a table property.
 ```py
-
-``
+username = Column(String, unique=True)
+```
 
 Similar to `sessions` **in large applications with multiple models its recommended to create you `Base` class once** and then import it from a centralised set up section to modules that need to inherit from `Base`.
 
@@ -192,11 +192,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODkxNDE2MDAsMTMzNzU4ODQwOCw2ND
-Y3MzUyMjMsMzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQs
-ODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOT
-E1MjMzNSwtMTQwMzEyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3
-NDUsLTEzOTU0MDM0MTUsLTE3ODc5ODc4MTEsLTI3NDg2ODE3NC
-wxOTMzOTk4NDQ3LC04MTM3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0
-MzU0OTkwMzVdfQ==
+eyJoaXN0b3J5IjpbNzQzNjk4MzgsMTMzNzU4ODQwOCw2NDY3Mz
+UyMjMsMzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcy
+NTQ1NDM4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1Mj
+MzNSwtMTQwMzEyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDUs
+LTEzOTU0MDM0MTUsLTE3ODc5ODc4MTEsLTI3NDg2ODE3NCwxOT
+MzOTk4NDQ3LC04MTM3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0MzU0
+OTkwMzVdfQ==
 -->
