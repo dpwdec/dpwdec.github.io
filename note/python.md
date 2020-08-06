@@ -34,7 +34,11 @@ ham_instance = spam_classes.Ham()
 
 You can **split python statements over multiple lines** by escape line breaks with a `\` backslash.
 ```py
-arr.map(f)
+arr.map(f)\
+  .fliter(pred)\
+  .split(".")\
+  .reverse()\
+  .join("")
 ```
 
 ## Arithmetic Operators
@@ -448,11 +452,11 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODE4MTkwMSw4MzQ4OTkwOTQsLTIxMD
-U2ODQ2MzcsMjgzOTg4NDc5LDE5MDUxODUzMDIsLTI5Mzk5OTA3
-MywtOTc4ODM5Mzk1LDE5OTgxODcxODgsNTYxODU5MDgsLTE5OT
-M1OTMxNjQsLTI0NTMyODc1MiwyNTc2MjY3OTcsMjAxNzg5NTM4
-MCwtMTg2NjkyMzAyNywxMzczMTMzNTcxLC0xNDQ1OTQ0NzUsND
-g4NDY3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2
-NTRdfQ==
+eyJoaXN0b3J5IjpbNTUyODU4NCw4MzQ4OTkwOTQsLTIxMDU2OD
+Q2MzcsMjgzOTg4NDc5LDE5MDUxODUzMDIsLTI5Mzk5OTA3Mywt
+OTc4ODM5Mzk1LDE5OTgxODcxODgsNTYxODU5MDgsLTE5OTM1OT
+MxNjQsLTI0NTMyODc1MiwyNTc2MjY3OTcsMjAxNzg5NTM4MCwt
+MTg2NjkyMzAyNywxMzczMTMzNTcxLC0xNDQ1OTQ0NzUsNDg4ND
+Y3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTRd
+fQ==
 -->
