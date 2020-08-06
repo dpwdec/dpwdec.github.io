@@ -190,7 +190,8 @@ session.commit()
 
 You can also **update records in place** by chaining the `filter` function with an `update` function that takes a `dict` as an argument with the target property as a key and the new property as the value of that key. If you want to **use existing record information during the update** you can access this from the class name. In the example below, the `User.age` property refers to the current record instance.
 ```py
-session.query(User).filter(User.name == "Jimothy").update({age:}
+session.query(User).filter(User.name == "Jimothy").update({"age": (User.age + 2)})
+session.commit()
 ```
 
 ## Dropping
@@ -219,11 +220,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzIxMDU2NiwtMjA0MTU5OTMzMSw1NT
-AyODcyMTgsNzQzNjk4MzgsMTMzNzU4ODQwOCw2NDY3MzUyMjMs
-MzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcyNTQ1ND
-M4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1MjMzNSwt
-MTQwMzEyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDUsLTEzOT
-U0MDM0MTUsLTE3ODc5ODc4MTEsLTI3NDg2ODE3NCwxOTMzOTk4
-NDQ3XX0=
+eyJoaXN0b3J5IjpbODA4MTgyNjY5LC0yMDQxNTk5MzMxLDU1MD
+I4NzIxOCw3NDM2OTgzOCwxMzM3NTg4NDA4LDY0NjczNTIyMywz
+NTczMTYwOTcsNjMwOTY4NTcwLDM0MTI0NzU3NCw4NzI1NDU0Mz
+gsLTc1NzE2MTQ4MiwtMTc1MTQyMzk1OSwtOTA5MTUyMzM1LC0x
+NDAzMTIwMjUzLDE3MTI1MzkyOTEsLTg1ODc1MTc0NSwtMTM5NT
+QwMzQxNSwtMTc4Nzk4NzgxMSwtMjc0ODY4MTc0LDE5MzM5OTg0
+NDddfQ==
 -->
