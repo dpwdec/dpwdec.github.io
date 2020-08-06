@@ -76,6 +76,13 @@ session.add(new_user)
 session.commit()
 ```
 
+### Queries
+
+You can **query a table for all records** by suing the `query` method on the `session` object with the table model that you want to query as the argument. This returns an iterable which
+```py
+session.query(MyModel)
+```
+
 ## Dropping
 
 You can **drop a specific table** by using the `__table__` property of a class with the `drop` method.
@@ -102,9 +109,9 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzg1MDk0LC05MDkxNTIzMzUsLTE0MD
-MxMjAyNTMsMTcxMjUzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAz
-NDE1LC0xNzg3OTg3ODExLC0yNzQ4NjgxNzQsMTkzMzk5ODQ0Ny
-wtODEzNzE3NTE3LC0xMDk0NTA1MjA4LC0xNDM1NDk5MDM1XX0=
-
+eyJoaXN0b3J5IjpbLTE4NTY2MjAyNzIsLTkwOTE1MjMzNSwtMT
+QwMzEyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDUsLTEzOTU0
+MDM0MTUsLTE3ODc5ODc4MTEsLTI3NDg2ODE3NCwxOTMzOTk4ND
+Q3LC04MTM3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0MzU0OTkwMzVd
+fQ==
 -->
