@@ -110,7 +110,10 @@ for user in session.query(User).order_by(User.name):
   # returns users sorted by name
 ```
 
-You can **add filters to a query to match specific elements in your database**
+You can **add filters to a query to match specific elements in your database** by appending the `filter_by` method to your query.
+```py
+for user in session.query(User).filter_by()
+```
 
 ## Dropping
 
@@ -138,9 +141,9 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MDEyOTMwOSw4NzI1NDU0MzgsLTc1Nz
-E2MTQ4MiwtMTc1MTQyMzk1OSwtOTA5MTUyMzM1LC0xNDAzMTIw
-MjUzLDE3MTI1MzkyOTEsLTg1ODc1MTc0NSwtMTM5NTQwMzQxNS
-wtMTc4Nzk4NzgxMSwtMjc0ODY4MTc0LDE5MzM5OTg0NDcsLTgx
-MzcxNzUxNywtMTA5NDUwNTIwOCwtMTQzNTQ5OTAzNV19
+eyJoaXN0b3J5IjpbNDI1OTAyNDAxLDg3MjU0NTQzOCwtNzU3MT
+YxNDgyLC0xNzUxNDIzOTU5LC05MDkxNTIzMzUsLTE0MDMxMjAy
+NTMsMTcxMjUzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAzNDE1LC
+0xNzg3OTg3ODExLC0yNzQ4NjgxNzQsMTkzMzk5ODQ0NywtODEz
+NzE3NTE3LC0xMDk0NTA1MjA4LC0xNDM1NDk5MDM1XX0=
 -->
