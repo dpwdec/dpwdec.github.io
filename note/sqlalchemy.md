@@ -78,18 +78,19 @@ session.commit()
 
 ### Queries
 
-You can **query a table for all records** and **return them as instances of the model class** by using the `query` method on the `session` object with the table model that you want to query as the argument. 
+You can **query a table for all records** and **return them as instances of the model class** by using the `query` method on the `session` object with the table model that you want to query as the argument. The `result` below is an iterable that contains instances of the `MyModel` class.
 ```py
 result = session.query(MyModel)
 ```
 
-A query result is an iterable. You can **access the values contained in a result** through `for ... in` iteration or accessing values by index.
-```
-result[0].name # access the first element in result
-
-# use for in iteration on results
+You can **access the values contained in a result** through `for ... in` iteration or accessing values by index.
+```py
+# acess resulfor ... in iteration on results
 for model in session.query(MyModel):
-  # do something with model
+  print(model.property)
+
+# access results by index
+result[0].property
 ```
 
 ## Dropping
@@ -118,7 +119,7 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTMwMDE0MiwtMTc1MTQyMzk1OSwtOT
+eyJoaXN0b3J5IjpbLTU0NTc4MjU5OSwtMTc1MTQyMzk1OSwtOT
 A5MTUyMzM1LC0xNDAzMTIwMjUzLDE3MTI1MzkyOTEsLTg1ODc1
 MTc0NSwtMTM5NTQwMzQxNSwtMTc4Nzk4NzgxMSwtMjc0ODY4MT
 c0LDE5MzM5OTg0NDcsLTgxMzcxNzUxNywtMTA5NDUwNTIwOCwt
