@@ -93,9 +93,9 @@ for model in session.query(MyModel):
 result[0].property
 ```
 
-You can **return tuples of database data instead of objects** by submitting class property names as the arguments to the `query` method.
+You can **return an iterable of tuples ofdatabase data instead of objects** by submitting class property names as the arguments to the `query` method.
 ```py
-
+result = session.query(User.name, User.age)
 ```
 
 ## Dropping
@@ -124,7 +124,7 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjM1NjE1NSwtMTc1MTQyMzk1OSwtOT
+eyJoaXN0b3J5IjpbMTgxNDc1NzczNiwtMTc1MTQyMzk1OSwtOT
 A5MTUyMzM1LC0xNDAzMTIwMjUzLDE3MTI1MzkyOTEsLTg1ODc1
 MTc0NSwtMTM5NTQwMzQxNSwtMTc4Nzk4NzgxMSwtMjc0ODY4MT
 c0LDE5MzM5OTg0NDcsLTgxMzcxNzUxNywtMTA5NDUwNTIwOCwt
