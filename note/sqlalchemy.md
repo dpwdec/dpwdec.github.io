@@ -170,7 +170,9 @@ result = session.query(User).filter(User.name.ilike("%im%"))
 
 You can **update a record** by retrieving it from the database, changing its contents and then committing using a session.
 ```py
-se
+result = session.query(User).filter(User.name == "Jimothy")
+result[0].age += 2 # updat
+
 ```
 	
 ## Dropping
@@ -199,11 +201,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NzMxMDY3LDc0MzY5ODM4LDEzMzc1OD
-g0MDgsNjQ2NzM1MjIzLDM1NzMxNjA5Nyw2MzA5Njg1NzAsMzQx
-MjQ3NTc0LDg3MjU0NTQzOCwtNzU3MTYxNDgyLC0xNzUxNDIzOT
-U5LC05MDkxNTIzMzUsLTE0MDMxMjAyNTMsMTcxMjUzOTI5MSwt
-ODU4NzUxNzQ1LC0xMzk1NDAzNDE1LC0xNzg3OTg3ODExLC0yNz
-Q4NjgxNzQsMTkzMzk5ODQ0NywtODEzNzE3NTE3LC0xMDk0NTA1
-MjA4XX0=
+eyJoaXN0b3J5IjpbLTE0MjUyMjM3MDMsNzQzNjk4MzgsMTMzNz
+U4ODQwOCw2NDY3MzUyMjMsMzU3MzE2MDk3LDYzMDk2ODU3MCwz
+NDEyNDc1NzQsODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3NTE0Mj
+M5NTksLTkwOTE1MjMzNSwtMTQwMzEyMDI1MywxNzEyNTM5Mjkx
+LC04NTg3NTE3NDUsLTEzOTU0MDM0MTUsLTE3ODc5ODc4MTEsLT
+I3NDg2ODE3NCwxOTMzOTk4NDQ3LC04MTM3MTc1MTcsLTEwOTQ1
+MDUyMDhdfQ==
 -->
