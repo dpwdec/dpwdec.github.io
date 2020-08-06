@@ -139,7 +139,10 @@ You can **use a more general `filter` method** to create database queries with a
 result = session.query(User).filter(User.name == "Jimothy").filter(User.age == 30)
 ```
 
-You can **match filter strings by substring** using the 
+You can **match filter strings by substring** using the `like` method on model properties. The example below will match `user`s who's `name` property contains the sub
+```py
+result = session.query(User).filter(User.name.like("%im%")
+```
 
 ## Dropping
 
@@ -167,7 +170,7 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTM2NDU1Niw2NDY3MzUyMjMsMzU3Mz
+eyJoaXN0b3J5IjpbLTk4MDY1MjM3Nyw2NDY3MzUyMjMsMzU3Mz
 E2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcyNTQ1NDM4LC03
 NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1MjMzNSwtMTQwMz
 EyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0
