@@ -129,7 +129,7 @@ You can **add filters to a query to match specific elements in your database** b
 result = session.query(User).filter_by(name="Jimothy").filter_by(age=30)
 ```
 
-It is **also valid to write filters with the class property as the specifier**.
+You can **use a more general `filter` method** to create database queries with a more general structure. The `filter` method takes 
 ```py
 # returns a list of all users called Jimothy who's age is 30
 result = session.query(User).filter_by(User.name="Jimothy").filter_by(User.age=30)
@@ -161,10 +161,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2NzM1MjIzLDM1NzMxNjA5Nyw2MzA5Nj
-g1NzAsMzQxMjQ3NTc0LDg3MjU0NTQzOCwtNzU3MTYxNDgyLC0x
-NzUxNDIzOTU5LC05MDkxNTIzMzUsLTE0MDMxMjAyNTMsMTcxMj
-UzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAzNDE1LC0xNzg3OTg3
-ODExLC0yNzQ4NjgxNzQsMTkzMzk5ODQ0NywtODEzNzE3NTE3LC
-0xMDk0NTA1MjA4LC0xNDM1NDk5MDM1XX0=
+eyJoaXN0b3J5IjpbMTk2MDE0NjEzNyw2NDY3MzUyMjMsMzU3Mz
+E2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcyNTQ1NDM4LC03
+NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1MjMzNSwtMTQwMz
+EyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0
+MTUsLTE3ODc5ODc4MTEsLTI3NDg2ODE3NCwxOTMzOTk4NDQ3LC
+04MTM3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0MzU0OTkwMzVdfQ==
+
 -->
