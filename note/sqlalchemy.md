@@ -188,7 +188,7 @@ session.commit()
 ```
 [up]: https://stackoverflow.com/questions/9667138/how-to-update-sqlalchemy-row-entry
 
-You can also **update records in place** by chaining the `filter` function with an `update` function that takes a `di
+You can also **update records in place** by chaining the `filter` function with an `update` function that takes a `dict` as an argument with the target property to change and the target value.
 
 ## Dropping
 
@@ -216,7 +216,7 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODk3MjU1NywtMjA0MTU5OTMzMSw1NT
+eyJoaXN0b3J5IjpbMTc3MjY0Mzc5NiwtMjA0MTU5OTMzMSw1NT
 AyODcyMTgsNzQzNjk4MzgsMTMzNzU4ODQwOCw2NDY3MzUyMjMs
 MzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcyNTQ1ND
 M4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1MjMzNSwt
