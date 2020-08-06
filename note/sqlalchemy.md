@@ -144,6 +144,8 @@ You can **match filter strings by substring** using the `like` method on model p
 result = session.query(User).filter(User.name.like("%im%")
 ```
 
+You can **arbitrary equality**
+
 ## Dropping
 
 You can **drop a specific table** by using the `__table__` property of a class with the `drop` method.
@@ -170,7 +172,7 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzM3MzUyMjEsNjQ2NzM1MjIzLDM1Nz
+eyJoaXN0b3J5IjpbLTEzMjg3OTY4ODgsNjQ2NzM1MjIzLDM1Nz
 MxNjA5Nyw2MzA5Njg1NzAsMzQxMjQ3NTc0LDg3MjU0NTQzOCwt
 NzU3MTYxNDgyLC0xNzUxNDIzOTU5LC05MDkxNTIzMzUsLTE0MD
 MxMjAyNTMsMTcxMjUzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAz
