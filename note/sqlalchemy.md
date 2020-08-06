@@ -153,7 +153,11 @@ You can **match filter strings by substring** using the `like` method on model p
 result = session.query(User).filter(User.name.like("%im%"))
 ```
 
-The `like` operator is not consistently cas
+The `like` operator is not consistent with case insensitivity across multiple systems. If you want to **ensure case insensitivity across systems** use the `ilike` method instead.
+```py
+# always case sensitive
+result = session.query(User).filter(User.name.ilike("%im%"))
+```
 
 ## Dropping
 
@@ -181,11 +185,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY3NzE5NTksNjQ2NzM1MjIzLDM1Nz
-MxNjA5Nyw2MzA5Njg1NzAsMzQxMjQ3NTc0LDg3MjU0NTQzOCwt
-NzU3MTYxNDgyLC0xNzUxNDIzOTU5LC05MDkxNTIzMzUsLTE0MD
-MxMjAyNTMsMTcxMjUzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAz
-NDE1LC0xNzg3OTg3ODExLC0yNzQ4NjgxNzQsMTkzMzk5ODQ0Ny
-wtODEzNzE3NTE3LC0xMDk0NTA1MjA4LC0xNDM1NDk5MDM1XX0=
+eyJoaXN0b3J5IjpbMTMzNzU4ODQwOCw2NDY3MzUyMjMsMzU3Mz
+E2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcyNTQ1NDM4LC03
+NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1MjMzNSwtMTQwMz
+EyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0
+MTUsLTE3ODc5ODc4MTEsLTI3NDg2ODE3NCwxOTMzOTk4NDQ3LC
+04MTM3MTc1MTcsLTEwOTQ1MDUyMDgsLTE0MzU0OTkwMzVdfQ==
 
 -->
