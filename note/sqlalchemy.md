@@ -63,6 +63,8 @@ class User(Base):
   age = Column(Integer)
 ```
 
+### Schema
+
 You can **create a primary key field** by setting the `primary_key` property to `True` when creating a database field. If this is an integer called `id` then SQLAlchemy will also manage auto-incrementing it when new records are added.
 ```py
 class User(Base):
@@ -76,7 +78,10 @@ You can **set field parameters** on model properties such `String` length etc. b
 firstname = Column(String(50))
 ```
 
+You can **set fields to be unique within your database** by using the `uniqe` argument when creating a database property.
+```py
 
+``
 
 Similar to `sessions` **in large applications with multiple models its recommended to create you `Base` class once** and then import it from a centralised set up section to modules that need to inherit from `Base`.
 
@@ -187,7 +192,7 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTUzMDEwNzYsMTMzNzU4ODQwOCw2ND
+eyJoaXN0b3J5IjpbLTE0ODkxNDE2MDAsMTMzNzU4ODQwOCw2ND
 Y3MzUyMjMsMzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQs
 ODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOT
 E1MjMzNSwtMTQwMzEyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3
