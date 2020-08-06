@@ -30,6 +30,13 @@ from spam import spam_classes
 ham_instance = spam_classes.Ham()
 ```
 
+## Syntax Structures
+
+You can **split python statements over multiple lines** by escape line breaks with a `\` backslash.
+```py
+arr.map(f)
+```
+
 ## Arithmetic Operators
 
 You can **execute floor division**, division that removes any fractional remainder by using a `//` double forward slash in your division code. Essentially this is just the same as ensuring integer division where python defaults to returning floats.
@@ -441,11 +448,11 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0ODk5MDk0LC0yMTA1Njg0NjM3LDI4Mz
-k4ODQ3OSwxOTA1MTg1MzAyLC0yOTM5OTkwNzMsLTk3ODgzOTM5
-NSwxOTk4MTg3MTg4LDU2MTg1OTA4LC0xOTkzNTkzMTY0LC0yND
-UzMjg3NTIsMjU3NjI2Nzk3LDIwMTc4OTUzODAsLTE4NjY5MjMw
-MjcsMTM3MzEzMzU3MSwtMTQ0NTk0NDc1LDQ4ODQ2NzI0OCwtOD
-k3MDU5NzgyLC02OTgzNzI5NTAsLTI4Mjc0NjU0LDEzNzM0NjU4
-MzhdfQ==
+eyJoaXN0b3J5IjpbMTgyODE4MTkwMSw4MzQ4OTkwOTQsLTIxMD
+U2ODQ2MzcsMjgzOTg4NDc5LDE5MDUxODUzMDIsLTI5Mzk5OTA3
+MywtOTc4ODM5Mzk1LDE5OTgxODcxODgsNTYxODU5MDgsLTE5OT
+M1OTMxNjQsLTI0NTMyODc1MiwyNTc2MjY3OTcsMjAxNzg5NTM4
+MCwtMTg2NjkyMzAyNywxMzczMTMzNTcxLC0xNDQ1OTQ0NzUsND
+g4NDY3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2
+NTRdfQ==
 -->
