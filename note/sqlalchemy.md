@@ -130,6 +130,11 @@ for user in session.query(User).order_by(User.name):
   # returns users sorted by name
 ```
 
+You can **get the first element from a query result** by using the `first` method.
+```py
+user = session.query(User).first()
+```
+
 ### filter_by
 
 You can **add filters to a query to match specific elements in your database** by appending the `filter_by` method to your query.
@@ -201,11 +206,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwMjg3MjE4LDc0MzY5ODM4LDEzMzc1OD
-g0MDgsNjQ2NzM1MjIzLDM1NzMxNjA5Nyw2MzA5Njg1NzAsMzQx
-MjQ3NTc0LDg3MjU0NTQzOCwtNzU3MTYxNDgyLC0xNzUxNDIzOT
-U5LC05MDkxNTIzMzUsLTE0MDMxMjAyNTMsMTcxMjUzOTI5MSwt
-ODU4NzUxNzQ1LC0xMzk1NDAzNDE1LC0xNzg3OTg3ODExLC0yNz
-Q4NjgxNzQsMTkzMzk5ODQ0NywtODEzNzE3NTE3LC0xMDk0NTA1
-MjA4XX0=
+eyJoaXN0b3J5IjpbLTIwNDE1OTkzMzEsNTUwMjg3MjE4LDc0Mz
+Y5ODM4LDEzMzc1ODg0MDgsNjQ2NzM1MjIzLDM1NzMxNjA5Nyw2
+MzA5Njg1NzAsMzQxMjQ3NTc0LDg3MjU0NTQzOCwtNzU3MTYxND
+gyLC0xNzUxNDIzOTU5LC05MDkxNTIzMzUsLTE0MDMxMjAyNTMs
+MTcxMjUzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAzNDE1LC0xNz
+g3OTg3ODExLC0yNzQ4NjgxNzQsMTkzMzk5ODQ0NywtODEzNzE3
+NTE3XX0=
 -->
