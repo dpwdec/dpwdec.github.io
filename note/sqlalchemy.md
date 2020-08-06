@@ -107,7 +107,7 @@ for name, age in result:
 You can **sort query results** by appending the `order_by` method to the end of `query` method and adding the name of an instance property to sort by.
 ```py
 for user in session.query(User).order_by(User.name):
-  # returns 
+  # returns users sorted by name
 ```
 
 ## Dropping
@@ -136,9 +136,9 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDM0ODM1NDUsLTc1NzE2MTQ4MiwtMT
-c1MTQyMzk1OSwtOTA5MTUyMzM1LC0xNDAzMTIwMjUzLDE3MTI1
-MzkyOTEsLTg1ODc1MTc0NSwtMTM5NTQwMzQxNSwtMTc4Nzk4Nz
-gxMSwtMjc0ODY4MTc0LDE5MzM5OTg0NDcsLTgxMzcxNzUxNywt
-MTA5NDUwNTIwOCwtMTQzNTQ5OTAzNV19
+eyJoaXN0b3J5IjpbODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3NT
+E0MjM5NTksLTkwOTE1MjMzNSwtMTQwMzEyMDI1MywxNzEyNTM5
+MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0MTUsLTE3ODc5ODc4MT
+EsLTI3NDg2ODE3NCwxOTMzOTk4NDQ3LC04MTM3MTc1MTcsLTEw
+OTQ1MDUyMDgsLTE0MzU0OTkwMzVdfQ==
 -->
