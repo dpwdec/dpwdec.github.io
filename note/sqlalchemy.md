@@ -219,8 +219,9 @@ You can **define a basic one to many relationship between tables** by setting up
 from sqlalchemy import Column, String, Integer, ForeignKey
 from sqlalchemy.orm import relationship
 
-class  User(Base):
+# --snip-- set up declaritive base
 
+class  User(Base):
   __tablename__ =  'users'  
 
   id  =  Column(Integer,  primary_key=True)
@@ -228,6 +229,11 @@ class  User(Base):
   age =  Column(Integer)
 
   addresses =  relationship("Address",  back_populates="user")
+
+class Address(Base):
+  __tablename__ = 'addresses'
+
+  id = Column(Integer, primary_key=True)
   
 ```
 
@@ -257,7 +263,7 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzUyMjE1NTYsMTY0MTc0NjMxMSw4MD
+eyJoaXN0b3J5IjpbLTE0Mzc2NDI1NjUsMTY0MTc0NjMxMSw4MD
 gxODI2NjksLTIwNDE1OTkzMzEsNTUwMjg3MjE4LDc0MzY5ODM4
 LDEzMzc1ODg0MDgsNjQ2NzM1MjIzLDM1NzMxNjA5Nyw2MzA5Nj
 g1NzAsMzQxMjQ3NTc0LDg3MjU0NTQzOCwtNzU3MTYxNDgyLC0x
