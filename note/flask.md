@@ -208,13 +208,19 @@ def client():
     yield client # send the test client to test methods
 ```
 
-You can **test a flask route** by calling the `get` method on a client route. This **also works**
+You can **test a flask route** by calling the `get` method on a client route. This **also works with blueprint define routes**, you just need to include the absolute url extension to that route. You can access the `st
+```py
+def test_index(client):
+  response = client.get("/")
+  assert response.status == '200 OK'
+  assert response.data == b'This is a message'
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODc3OTgwNSwxODIzMDI4NTA4LC0xNj
-Y3OTk4NzkwLDIwMjc5MTI3NjMsMTU3Mjg4Njg2MCwtMTk2MzQy
-NTkwMSw1NzAwMTgzNzgsLTE2OTU1NDUwNTAsMTAzMTEyNzU3LD
-YxMDI2NDMyMiwtMTQyNjM0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1
-MTIzOTYzMSwyMzI2MTk2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMj
-c0NywxODM5NzYxMzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
+eyJoaXN0b3J5IjpbODc0Mzk4NjIxLDE4MjMwMjg1MDgsLTE2Nj
+c5OTg3OTAsMjAyNzkxMjc2MywxNTcyODg2ODYwLC0xOTYzNDI1
+OTAxLDU3MDAxODM3OCwtMTY5NTU0NTA1MCwxMDMxMTI3NTcsNj
+EwMjY0MzIyLC0xNDI2MzQ3NzcwLC0xNzg1MTg3MzMxLC0xNTUx
+MjM5NjMxLDIzMjYxOTYzMSwtMTc0NjI5OTExNSwtOTc5OTMyNz
+Q3LDE4Mzk3NjEzMTIsLTI1Nzc5MzQ4MCwyNTk2MzgyMDhdfQ==
 
 -->
