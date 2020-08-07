@@ -99,8 +99,11 @@ session.commit()
 You can **save multiple instances of a model class to the database** by using the `add_all` method on the `session` object with an array of instance objects.
 ```py
 session.add_all([
-  User(
+  User(firstname="Leonardo", lastname="Davinci", age=412),
+  User(firstname="Vincent", lastname="Vangogh", age=102)
+  User(firstname="Marcus", lastname="Aurelius", age=944)
 ])
+session.commit()
 ```
 
 ### Queries
@@ -141,6 +144,8 @@ You can **get the first element from a query result** by using the `first` metho
 ```py
 user = session.query(User).first()
 ```
+
+You can **get the length of a query result** by using the `count` method on the result object. `L
 
 ### filter_by
 
@@ -227,11 +232,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODk4OTMzOCw4MDgxODI2NjksLTIwND
-E1OTkzMzEsNTUwMjg3MjE4LDc0MzY5ODM4LDEzMzc1ODg0MDgs
-NjQ2NzM1MjIzLDM1NzMxNjA5Nyw2MzA5Njg1NzAsMzQxMjQ3NT
-c0LDg3MjU0NTQzOCwtNzU3MTYxNDgyLC0xNzUxNDIzOTU5LC05
-MDkxNTIzMzUsLTE0MDMxMjAyNTMsMTcxMjUzOTI5MSwtODU4Nz
-UxNzQ1LC0xMzk1NDAzNDE1LC0xNzg3OTg3ODExLC0yNzQ4Njgx
-NzRdfQ==
+eyJoaXN0b3J5IjpbNzAyNjk1Mjk5LDgwODE4MjY2OSwtMjA0MT
+U5OTMzMSw1NTAyODcyMTgsNzQzNjk4MzgsMTMzNzU4ODQwOCw2
+NDY3MzUyMjMsMzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyNDc1Nz
+QsODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkw
+OTE1MjMzNSwtMTQwMzEyMDI1MywxNzEyNTM5MjkxLC04NTg3NT
+E3NDUsLTEzOTU0MDM0MTUsLTE3ODc5ODc4MTEsLTI3NDg2ODE3
+NF19
 -->
