@@ -234,6 +234,11 @@ class Address(Base):
   __tablename__ = 'addresses'
 
   id = Column(Integer, primary_key=True)
+  email = Column(String)
+  # foreign key link 
+  user_id = Column(Integer, ForeignKey('users.id')
+
+  user = relationship("User", back_populates="addresses")
   
 ```
 
@@ -263,11 +268,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzc2NDI1NjUsMTY0MTc0NjMxMSw4MD
-gxODI2NjksLTIwNDE1OTkzMzEsNTUwMjg3MjE4LDc0MzY5ODM4
-LDEzMzc1ODg0MDgsNjQ2NzM1MjIzLDM1NzMxNjA5Nyw2MzA5Nj
-g1NzAsMzQxMjQ3NTc0LDg3MjU0NTQzOCwtNzU3MTYxNDgyLC0x
-NzUxNDIzOTU5LC05MDkxNTIzMzUsLTE0MDMxMjAyNTMsMTcxMj
-UzOTI5MSwtODU4NzUxNzQ1LC0xMzk1NDAzNDE1LC0xNzg3OTg3
-ODExXX0=
+eyJoaXN0b3J5IjpbMTQ5NjkxODM4MSwxNjQxNzQ2MzExLDgwOD
+E4MjY2OSwtMjA0MTU5OTMzMSw1NTAyODcyMTgsNzQzNjk4Mzgs
+MTMzNzU4ODQwOCw2NDY3MzUyMjMsMzU3MzE2MDk3LDYzMDk2OD
+U3MCwzNDEyNDc1NzQsODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3
+NTE0MjM5NTksLTkwOTE1MjMzNSwtMTQwMzEyMDI1MywxNzEyNT
+M5MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0MTUsLTE3ODc5ODc4
+MTFdfQ==
 -->
