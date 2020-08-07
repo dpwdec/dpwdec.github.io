@@ -9,9 +9,9 @@ Combine this with our access to a huge range of fruits: you could quite easily c
 
 Fructose malabsorption occurs when our digestive system cannot process and absorb all of the fruit sugars we are consuming. The result of this is the body excretes that fructose rather than absorbing it. By itself this isn't much of a problem, however, the malabsorption of fructose has a much more insidious effect on our health.  
 
-Tryptophan is a chemical used by our brains to synthesise serotonin, which you may know as a key substance in regulating our moods and making us feel happy. We absorb tryptophan in our gut and use it to synthesise serotonin in our brains keeping us feeling happier, more positive and helping us control our mood. However, Tryptophan binds to fructose in the gut, and, if we are excreting rather than absorbing much of the fructose in our diet, then the tryptophan vital for maintaining our levels of serotonin also gets excreted which can be a cause of depression.
+Tryptophan is a chemical used by our brains to synthesise serotonin, which you may know as a key substance in regulating our moods and making us feel happy. We absorb tryptophan in our gut and use it to synthesise serotonin in our brains keeping us feeling happier, more positive and helping us control our mood. However, Tryptophan binds to fructose in the gut, and, if we are excreting rather than absorbing much of the fructose in our diet, then the tryptophan vital for maintaining our levels of serotonin also gets excreted which can be a cause of depression. 🍅
 
 > Many of ideas in this post are summarised from Guila Ender's "Gut"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDMzMzE5OF19
+eyJoaXN0b3J5IjpbLTE3ODk4MTQ0NDUsMTQ3NDMzMzE5OF19
 -->
