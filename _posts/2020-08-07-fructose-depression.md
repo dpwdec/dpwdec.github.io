@@ -5,7 +5,7 @@ title:  "Fructose depression"
 
 There is way more fructose in our diets today than our ancestors had access to. Fructose is the sugar that occurs naturally in many fruits and is distinct from (but not dissimilar to) sucrose which makes up ordinary table sugar. We have engineered modern fruits to be much sweeter than they would be naturally. Tomatoes, particularly, have been changed beyond recognition, cultivated by humans to be exceptionally sweet compared to their wild counterparts. Furthermore products containing tomato often contain added fructose.
 
-Combine this with our access to a huge range of fruits: you could quite easily consume apples from Asia for breakfast, chow down on fructose rich tomato soup for lunch, enjoy tropical mango from India as an afternoon snack, dine on food cooked with coconut from Malaysia in the evening and finish it off with South American Pineapple for dessert. This exposes us to more fructose than our systems are naturally equipped to cope with and this leads to a problem called fructose malabsorption.
+Combine this with our access to a huge range of fruits: you could quite easily consume apples from Asia for breakfast, chow down on fructose rich tomato soup for lunch, enjoy tropical mango from India as an afternoon snack, dine on food cooked with coconut from Malaysia in the evening and finish it off with South American Pineapple for dessert. This exposes us to more fructose than our systems are naturally equipped to cope with and this leads to a problem called [fructose malabsorption](https://link.springer.com/chapter/10.1007/978-1-4615-4709-9_9).
 
 Fructose malabsorption occurs when our digestive system cannot process and absorb all of the fruit sugars we are consuming. The result of this is the body excretes that fructose rather than absorbing it. By itself this isn't much of a problem, however, the malabsorption of fructose has a much more insidious effect on our health.  
 
@@ -13,5 +13,5 @@ Tryptophan is a chemical used by our brains to synthesise serotonin, which you m
 
 > Many of ideas in this post are summarised from Guila Ender's "Gut"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk4MTQ0NDUsMTQ3NDMzMzE5OF19
+eyJoaXN0b3J5IjpbLTIwNjA3MjUyNjksMTQ3NDMzMzE5OF19
 -->
