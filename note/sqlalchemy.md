@@ -210,6 +210,10 @@ session.query(User).filter(User.name == "Jimothy").update({"age": (User.age + 2)
 session.commit()
 ```
 
+## Relationships
+
+
+
 ## Dropping
 
 You can **drop a specific table** by using the `__table__` property of a class with the `drop` method.
@@ -236,11 +240,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTc0NjMxMSw4MDgxODI2NjksLTIwND
-E1OTkzMzEsNTUwMjg3MjE4LDc0MzY5ODM4LDEzMzc1ODg0MDgs
-NjQ2NzM1MjIzLDM1NzMxNjA5Nyw2MzA5Njg1NzAsMzQxMjQ3NT
-c0LDg3MjU0NTQzOCwtNzU3MTYxNDgyLC0xNzUxNDIzOTU5LC05
-MDkxNTIzMzUsLTE0MDMxMjAyNTMsMTcxMjUzOTI5MSwtODU4Nz
-UxNzQ1LC0xMzk1NDAzNDE1LC0xNzg3OTg3ODExLC0yNzQ4Njgx
-NzRdfQ==
+eyJoaXN0b3J5IjpbLTEzODUxNzk3NCwxNjQxNzQ2MzExLDgwOD
+E4MjY2OSwtMjA0MTU5OTMzMSw1NTAyODcyMTgsNzQzNjk4Mzgs
+MTMzNzU4ODQwOCw2NDY3MzUyMjMsMzU3MzE2MDk3LDYzMDk2OD
+U3MCwzNDEyNDc1NzQsODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3
+NTE0MjM5NTksLTkwOTE1MjMzNSwtMTQwMzEyMDI1MywxNzEyNT
+M5MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0MTUsLTE3ODc5ODc4
+MTFdfQ==
 -->
