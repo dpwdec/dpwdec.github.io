@@ -214,7 +214,9 @@ session.commit()
 
 ### One to Many
 
-You can **define a basic one to many relationship between tables** by setting up a `Column` in your child class that uses the `ForeignKey` field with the argument being the parent table and the `id` of that table. You also **must define a `relationship`** which describes the link between the two tables. The `relationship` defines a field on the classes that are created by submitting the name of the linked class and then using the `back_populates` ar
+You can **define a basic one to many relationship between tables** by setting up a `Column` in your child class that uses the `ForeignKey` field with the argument being the parent table and the `id` of that table. You also **must define a `relationship`** which describes the link between the two tables. The `relationship` defines a field on the classes that are created by submitting the name of the linked class as a string and then using the `back_populates` argument to link with the field in the linked class.
+
+The example below defines an `Address` class, a user can have many addresses. 
 ```py
 from sqlalchemy import Column, String, Integer, ForeignKey
 from sqlalchemy.orm import relationship
@@ -270,7 +272,7 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Njk4NzgzNywxNjQxNzQ2MzExLDgwOD
+eyJoaXN0b3J5IjpbLTQyMDgyNDQ3NiwxNjQxNzQ2MzExLDgwOD
 E4MjY2OSwtMjA0MTU5OTMzMSw1NTAyODcyMTgsNzQzNjk4Mzgs
 MTMzNzU4ODQwOCw2NDY3MzUyMjMsMzU3MzE2MDk3LDYzMDk2OD
 U3MCwzNDEyNDc1NzQsODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3
