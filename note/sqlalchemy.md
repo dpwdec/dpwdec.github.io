@@ -247,7 +247,7 @@ class Address(Base):
   user = relationship("User", back_populates="addresses")
 ```
 
-You can **add related child schemas to a model** by accessing them as a property on the model and adding the associated model into that field. The example below defines a new `User` and adds two 
+You can **add related child schemas to a model** by accessing them as a property on the model and adding the associated model into that field. The example below defines a new `User` and adds two `Address` objects which are automatically added to the corresponding table.
 ```py
 lomothy = User(name="Lomothy", age=25)
 lomothy.addresses = [
@@ -257,6 +257,9 @@ lomothy.addresses = [
 session.add(lomothy)
 session.commit()
 ```
+
+You can **retrieve related child records** by retrieving the parent model that has a relationship with those records and then accessing them as a property on that object.
+```py
 
 ## Dropping
 
@@ -284,7 +287,7 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODc5MjcxNywtNDk0MzUyODIwLDE2ND
+eyJoaXN0b3J5IjpbLTMwNjkwMjQyNywtNDk0MzUyODIwLDE2ND
 E3NDYzMTEsODA4MTgyNjY5LC0yMDQxNTk5MzMxLDU1MDI4NzIx
 OCw3NDM2OTgzOCwxMzM3NTg4NDA4LDY0NjczNTIyMywzNTczMT
 YwOTcsNjMwOTY4NTcwLDM0MTI0NzU3NCw4NzI1NDU0MzgsLTc1
