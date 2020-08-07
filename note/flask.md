@@ -208,21 +208,33 @@ def client():
     yield client # send the test client to test methods
 ```
 
-You can **test a flask route** by calling the `get` method on a client route. This **also works with blueprint define routes**, you just need to include the absolute url extension to that route. You can **access the `status` of a `response` object**, this comes in the form of a string. 
+You can **test a flask route** by calling the `get` method on a client route. This **also works with blueprint define routes**, you just need to include the absolute url extension to that route. You can **access and test against the `status` of a `response` object**, this comes in the form of a string. 
 ```py
 def test_index(client):
   response = client.get("/")
   assert response.status == '200 OK'
+```
+
+You can **access the `data` of a `response`** by using the `data` property.
+```py
+def test_index(client):
+  response = client.get("/")
+  assert response.data != None
+```
+
+You can **test the string data of that `response`**, this comes in the form of byte data and so needs to be prepended by the `b` character when testing strings to indicate it is a byte string.
+```py
+def test_index(client):
+  response = client.get("/")
   assert response.data == b'This is a message'
 ```
 
-You can also **access the data of that `response`**, this comes in the form of byte data and so needs to be prepended by the `b` character when testing strings to indicate it is a byte string.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzM2Mjg5LDE4MjMwMjg1MDgsLTE2Nj
-c5OTg3OTAsMjAyNzkxMjc2MywxNTcyODg2ODYwLC0xOTYzNDI1
-OTAxLDU3MDAxODM3OCwtMTY5NTU0NTA1MCwxMDMxMTI3NTcsNj
-EwMjY0MzIyLC0xNDI2MzQ3NzcwLC0xNzg1MTg3MzMxLC0xNTUx
-MjM5NjMxLDIzMjYxOTYzMSwtMTc0NjI5OTExNSwtOTc5OTMyNz
-Q3LDE4Mzk3NjEzMTIsLTI1Nzc5MzQ4MCwyNTk2MzgyMDhdfQ==
+eyJoaXN0b3J5IjpbLTIwNjkxMzgxODgsMTgyMzAyODUwOCwtMT
+Y2Nzk5ODc5MCwyMDI3OTEyNzYzLDE1NzI4ODY4NjAsLTE5NjM0
+MjU5MDEsNTcwMDE4Mzc4LC0xNjk1NTQ1MDUwLDEwMzExMjc1Ny
+w2MTAyNjQzMjIsLTE0MjYzNDc3NzAsLTE3ODUxODczMzEsLTE1
+NTEyMzk2MzEsMjMyNjE5NjMxLC0xNzQ2Mjk5MTE1LC05Nzk5Mz
+I3NDcsMTgzOTc2MTMxMiwtMjU3NzkzNDgwLDI1OTYzODIwOF19
 
 -->
