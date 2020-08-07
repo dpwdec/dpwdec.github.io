@@ -258,7 +258,7 @@ session.add(lomothy)
 session.commit()
 ```
 
-You can **retrieve related child records** by retrieving the parent model that has a relationship with those records and then accessing them as a property on that object. Under 
+You can **retrieve related child records** by retrieving the parent model that has a relationship with those records and then accessing them as a property on that object. Under the hood a SQL query is issued when you access the `addresses` on an instance of the `User` class.
 ```py
 lomothy = session.query(User).filter(User.name == "Lomothy").first()
 lomothy.addresses # => ["lomothy@lom-world.net", "lomothy_lommington@googlemail.co.uk"]
@@ -305,11 +305,11 @@ You can also **set the scope of the fixture** so that the fixture `yield`s to al
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI0ODk2MDQsLTExNTcwOTA3MDQsLTQ5ND
-M1MjgyMCwxNjQxNzQ2MzExLDgwODE4MjY2OSwtMjA0MTU5OTMz
-MSw1NTAyODcyMTgsNzQzNjk4MzgsMTMzNzU4ODQwOCw2NDY3Mz
-UyMjMsMzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcy
-NTQ1NDM4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1Mj
-MzNSwtMTQwMzEyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDVd
-fQ==
+eyJoaXN0b3J5IjpbLTEzMDY4NDE3ODksLTExNTcwOTA3MDQsLT
+Q5NDM1MjgyMCwxNjQxNzQ2MzExLDgwODE4MjY2OSwtMjA0MTU5
+OTMzMSw1NTAyODcyMTgsNzQzNjk4MzgsMTMzNzU4ODQwOCw2ND
+Y3MzUyMjMsMzU3MzE2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQs
+ODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOT
+E1MjMzNSwtMTQwMzEyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3
+NDVdfQ==
 -->
