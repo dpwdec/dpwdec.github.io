@@ -214,7 +214,7 @@ session.commit()
 
 ### One to Many
 
-You can **define a basic one to many relationship between tables** by setting up a `Column` in your child class that uses the `ForeignKey` field with the argument being the parent table and the `id` of that table. You also **must define a `relationship` which describes the link between the two tables**
+You can **define a basic one to many relationship between tables** by setting up a `Column` in your child class that uses the `ForeignKey` field with the argument being the parent table and the `id` of that table. You also **must define a `relationship`** which describes the link between the two tables. The `relationship` defines a field on the classes that are created by submitting the name of the linked class and then using the `back_populates` ar
 ```py
 from sqlalchemy import Column, String, Integer, ForeignKey
 from sqlalchemy.orm import relationship
@@ -270,11 +270,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1ODQ3MTE5LDE2NDE3NDYzMTEsODA4MT
-gyNjY5LC0yMDQxNTk5MzMxLDU1MDI4NzIxOCw3NDM2OTgzOCwx
-MzM3NTg4NDA4LDY0NjczNTIyMywzNTczMTYwOTcsNjMwOTY4NT
-cwLDM0MTI0NzU3NCw4NzI1NDU0MzgsLTc1NzE2MTQ4MiwtMTc1
-MTQyMzk1OSwtOTA5MTUyMzM1LC0xNDAzMTIwMjUzLDE3MTI1Mz
-kyOTEsLTg1ODc1MTc0NSwtMTM5NTQwMzQxNSwtMTc4Nzk4Nzgx
-MV19
+eyJoaXN0b3J5IjpbMTg3Njk4NzgzNywxNjQxNzQ2MzExLDgwOD
+E4MjY2OSwtMjA0MTU5OTMzMSw1NTAyODcyMTgsNzQzNjk4Mzgs
+MTMzNzU4ODQwOCw2NDY3MzUyMjMsMzU3MzE2MDk3LDYzMDk2OD
+U3MCwzNDEyNDc1NzQsODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3
+NTE0MjM5NTksLTkwOTE1MjMzNSwtMTQwMzEyMDI1MywxNzEyNT
+M5MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0MTUsLTE3ODc5ODc4
+MTFdfQ==
 -->
