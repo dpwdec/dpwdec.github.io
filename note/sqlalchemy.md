@@ -290,10 +290,10 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 ## Testing
 
-When 
+When testing your SQLAlchemy database across a module scope you **must close database sessions after testing** otherwise tests will hang forever. In `Pytest` this can be done with a `fixture` that `yield`s to the database tests with a session connection and then closes the `session
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTM0MTQ0NywtNDk0MzUyODIwLDE2ND
+eyJoaXN0b3J5IjpbLTU1NDQ4NjE0MywtNDk0MzUyODIwLDE2ND
 E3NDYzMTEsODA4MTgyNjY5LC0yMDQxNTk5MzMxLDU1MDI4NzIx
 OCw3NDM2OTgzOCwxMzM3NTg4NDA4LDY0NjczNTIyMywzNTczMT
 YwOTcsNjMwOTY4NTcwLDM0MTI0NzU3NCw4NzI1NDU0MzgsLTc1
