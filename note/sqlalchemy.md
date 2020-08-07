@@ -214,7 +214,7 @@ session.commit()
 
 ### One to Many
 
-You can **define a one to many relationship between tables** by setting up a foreign key field 
+You can **define a one to many relationship between tables** by setting up a `Column` in your child class that uses the `ForeignKey` field with the argument being the parent table and the `id` of that table
 
 ## Dropping
 
@@ -242,7 +242,7 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjYyODIwODUsMTY0MTc0NjMxMSw4MD
+eyJoaXN0b3J5IjpbLTEzODg2NjQ1OTQsMTY0MTc0NjMxMSw4MD
 gxODI2NjksLTIwNDE1OTkzMzEsNTUwMjg3MjE4LDc0MzY5ODM4
 LDEzMzc1ODg0MDgsNjQ2NzM1MjIzLDM1NzMxNjA5Nyw2MzA5Nj
 g1NzAsMzQxMjQ3NTc0LDg3MjU0NTQzOCwtNzU3MTYxNDgyLC0x
