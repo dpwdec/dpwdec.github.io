@@ -195,21 +195,26 @@ def save_user():
 
 ## Testing
 
-You can **test your flask application** by creating a `pytest.fixture` that initialises the `app` in `"TESTING"` mode (this suppresses exception handling so that the test environment can more easily manage errors with meaningful messages) and then `yield` or `return` a `test_client()` to your test functions.
+You can **test your flask application** by creating a `pytest.fixture` that initialises the `app` in `"TESTING"` mode (this suppresses exception handling so that the test environment can more easily manage errors with meaningful messages) and then `yield` or `return` a `test_client()` to your test functions. Below is the simplest example of a test set up for a flask application. This would usually be longer with database integration etc.
 ```py
 import pytest
 from app import app # import a flask app that has been initialised in your main file
 
 @pytest.fixture
 def client():
-  app.con
+  app.config["TESTING"] = True
+
+  with app.test_client() as client:
+    yield client # send the test client to test methods
 ```
+
+You can **test a flask route** by calling the `get` method on a client route. This **also works**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTQxMzA3LDE4MjMwMjg1MDgsLTE2Nj
-c5OTg3OTAsMjAyNzkxMjc2MywxNTcyODg2ODYwLC0xOTYzNDI1
-OTAxLDU3MDAxODM3OCwtMTY5NTU0NTA1MCwxMDMxMTI3NTcsNj
-EwMjY0MzIyLC0xNDI2MzQ3NzcwLC0xNzg1MTg3MzMxLC0xNTUx
-MjM5NjMxLDIzMjYxOTYzMSwtMTc0NjI5OTExNSwtOTc5OTMyNz
-Q3LDE4Mzk3NjEzMTIsLTI1Nzc5MzQ4MCwyNTk2MzgyMDhdfQ==
+eyJoaXN0b3J5IjpbLTg1ODc3OTgwNSwxODIzMDI4NTA4LC0xNj
+Y3OTk4NzkwLDIwMjc5MTI3NjMsMTU3Mjg4Njg2MCwtMTk2MzQy
+NTkwMSw1NzAwMTgzNzgsLTE2OTU1NDUwNTAsMTAzMTEyNzU3LD
+YxMDI2NDMyMiwtMTQyNjM0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1
+MTIzOTYzMSwyMzI2MTk2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMj
+c0NywxODM5NzYxMzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
 
 -->
