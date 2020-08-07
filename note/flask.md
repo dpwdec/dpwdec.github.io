@@ -222,7 +222,7 @@ def test_index(client):
   assert response.data != None
 ```
 
-You can **test the string data of that `response`**, this comes in the form of byte data and so needs to be prepended by the `b` character when testing strings to indicate it is a byte string.
+You can **test the string `data` of that `response`** which comes in the form of byte data and so needs to be prepended by the `b` character when testing strings to indicate it is a byte string literal.
 ```py
 def test_index(client):
   response = client.get("/")
@@ -230,7 +230,7 @@ def test_index(client):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjkxMzgxODgsMTgyMzAyODUwOCwtMT
+eyJoaXN0b3J5IjpbLTEwMDA2ODc3MDYsMTgyMzAyODUwOCwtMT
 Y2Nzk5ODc5MCwyMDI3OTEyNzYzLDE1NzI4ODY4NjAsLTE5NjM0
 MjU5MDEsNTcwMDE4Mzc4LC0xNjk1NTQ1MDUwLDEwMzExMjc1Ny
 w2MTAyNjQzMjIsLTE0MjYzNDc3NzAsLTE3ODUxODczMzEsLTE1
