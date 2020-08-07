@@ -7,7 +7,7 @@ title:  "Mutants we eat everyday"
 
 🍆  A prime example in peas. The seeds of these plants are stored in pods and to spread out and germinate the pods must spontaneously burst to spread the peas onto the ground so that they can grow. However, there is a a genetic mutation in pea plants that causes their pods to not explode and instead for the peas to stay in the pod above the ground. In the wild this mutation is heavily selected against, it is a deadly gene: a plant with this genetic mutation cannot spread its seeds out and therefore cannot pass on its genes resulting in its removal from the gene pool. However, when ancient farmers came across pea plants in the wild, the individuals that would most accessible and desirable are those with exactly this genetic mutation. These mutant plants that should have died out almost as soon as they appeared have been heavily selected for by human agriculture and now substantially outnumber their wild brethren. Almost overnight (by evolutionary time scales) "human farmers reversed the direction of natural selection" on these plants, making a deadly gene suddenly confer a significant survival advantage.
 
-🍅  A similar selected process occurred with the "nonpopping mutants" of "lentils, flax and poppies", as well as "wheat and barely" who have stalks that shatter in the wild, but with the advent of human agriculture were selected for nonshattering stalks that would have again spelled genetic death were it not for human agriculture changing the course of evolutionary history.
+🍠  A similar selected process occurred with the "nonpopping mutants" of "lentils, flax and poppies", as well as "wheat and barely" who have stalks that shatter in the wild, but with the advent of human agriculture were selected for nonshattering stalks that would have again spelled genetic death were it not for human agriculture changing the course of evolutionary history.
 
 🥕 Another intriguing example is the germination period of certain plants. "For plants growing in an area with a very unpredictable climate, it could be lethal if all the seeds sprouted quickly and simultaneously. Were that to happen, the seedlings might all be killed by a single drought or frost, leaving no seeds to propagate the species." Thus, plants evolved certain "germination inhibitors" which stop all their seeds sprouting at once. However, again, there are certain mutants that produce seeds that lack these germination inhibitors leading to seeds that all sprout and grow quickly, something that would confer a significant disadvantage in the wild. However, due to the human agricultural practice of "sow / grow / harvest / sow", we selected (largely unintentionally) for seeds that sprouted and grew as quickly as possible, again rerouting ecological history.
 
@@ -17,6 +17,6 @@ title:  "Mutants we eat everyday"
 
 > All quotes are from Jared Diamond's "Guns, Germs and Steel"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI2OTcwMzIsMTMyMzc3MzMyOCwxOD
-UwNDU2MDgsLTE2NTYxNDU0OF19
+eyJoaXN0b3J5IjpbNTQzMzc4Mzg3LC0xMzAyNjk3MDMyLDEzMj
+M3NzMzMjgsMTg1MDQ1NjA4LC0xNjU2MTQ1NDhdfQ==
 -->
