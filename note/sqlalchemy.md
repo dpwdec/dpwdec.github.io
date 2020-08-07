@@ -247,9 +247,15 @@ class Address(Base):
   user = relationship("User", back_populates="addresses")
 ```
 
-You can **add related child schemas to a model** by accessing them as a property on the model and adding the associated model into that field.
+You can **add related child schemas to a model** by accessing them as a property on the model and adding the associated model into that field. The example below defines a new `User` and adds two 
 ```py
 lomothy = User(name="Lomothy", age=25)
+lomothy.addresses = [
+  Address(email="lomothy@lom-world.net"),
+  Address(email="lomothy_lommington@googlemail.co.uk")
+]
+session.add(lomothy)
+session.commit()
 ```
 
 ## Dropping
@@ -278,11 +284,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjAwODYzNTgsLTQ5NDM1MjgyMCwxNj
-QxNzQ2MzExLDgwODE4MjY2OSwtMjA0MTU5OTMzMSw1NTAyODcy
-MTgsNzQzNjk4MzgsMTMzNzU4ODQwOCw2NDY3MzUyMjMsMzU3Mz
-E2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcyNTQ1NDM4LC03
-NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1MjMzNSwtMTQwMz
-EyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0
-MTVdfQ==
+eyJoaXN0b3J5IjpbMTY1ODc5MjcxNywtNDk0MzUyODIwLDE2ND
+E3NDYzMTEsODA4MTgyNjY5LC0yMDQxNTk5MzMxLDU1MDI4NzIx
+OCw3NDM2OTgzOCwxMzM3NTg4NDA4LDY0NjczNTIyMywzNTczMT
+YwOTcsNjMwOTY4NTcwLDM0MTI0NzU3NCw4NzI1NDU0MzgsLTc1
+NzE2MTQ4MiwtMTc1MTQyMzk1OSwtOTA5MTUyMzM1LC0xNDAzMT
+IwMjUzLDE3MTI1MzkyOTEsLTg1ODc1MTc0NSwtMTM5NTQwMzQx
+NV19
 -->
