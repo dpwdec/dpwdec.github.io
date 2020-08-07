@@ -260,6 +260,9 @@ session.commit()
 
 You can **retrieve related child records** by retrieving the parent model that has a relationship with those records and then accessing them as a property on that object.
 ```py
+lomothy = session.query(User).filter(User.name == "Lomothy").first()
+lomothy.addresses # => ["lomothy@lom-world.net", "lomothy_lommington@googlemail.co.uk"]
+```
 
 ## Dropping
 
@@ -287,11 +290,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjkwMjQyNywtNDk0MzUyODIwLDE2ND
-E3NDYzMTEsODA4MTgyNjY5LC0yMDQxNTk5MzMxLDU1MDI4NzIx
-OCw3NDM2OTgzOCwxMzM3NTg4NDA4LDY0NjczNTIyMywzNTczMT
-YwOTcsNjMwOTY4NTcwLDM0MTI0NzU3NCw4NzI1NDU0MzgsLTc1
-NzE2MTQ4MiwtMTc1MTQyMzk1OSwtOTA5MTUyMzM1LC0xNDAzMT
-IwMjUzLDE3MTI1MzkyOTEsLTg1ODc1MTc0NSwtMTM5NTQwMzQx
-NV19
+eyJoaXN0b3J5IjpbLTEwNTAxOTI4NTUsLTQ5NDM1MjgyMCwxNj
+QxNzQ2MzExLDgwODE4MjY2OSwtMjA0MTU5OTMzMSw1NTAyODcy
+MTgsNzQzNjk4MzgsMTMzNzU4ODQwOCw2NDY3MzUyMjMsMzU3Mz
+E2MDk3LDYzMDk2ODU3MCwzNDEyNDc1NzQsODcyNTQ1NDM4LC03
+NTcxNjE0ODIsLTE3NTE0MjM5NTksLTkwOTE1MjMzNSwtMTQwMz
+EyMDI1MywxNzEyNTM5MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0
+MTVdfQ==
 -->
