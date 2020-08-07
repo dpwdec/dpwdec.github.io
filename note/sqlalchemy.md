@@ -216,7 +216,7 @@ session.commit()
 
 You can **define a basic one to many relationship between tables** by setting up a `Column` in your child class that uses the `ForeignKey` field with the argument being the parent table and the `id` of that table. 
 
-You also **can also define a `relationship`** which describes the link between the two tables. The `relationship` defines a field on the classes that are created by submitting the name of the linked class as a string and then using the `back_populates` argument to link with the field in the linked class. The adc
+You also **can also define a `relationship`** which describes the link between the two tables. The `relationship` defines a field on the classes that are created by submitting the name of the linked class as a string and then using the `back_populates` argument to link with the field in the linked class. The advantage of describing a `relationship` allows the `SQLAlchemy` ORM to track relationships explicitly so that you can load connected objects as part of queries on the parent class and also adds some protection against dropping tables that are dependent on one another.
 
 The example below defines an `Address` class, a user can have many addresses. To define this relationship we create a `user_id` field in the `Address` class and set its `ForeignKey` to be equal to `TABLE_NAME.id` in this case `users.id`. Then we define a `user` field with a relationship to the `User` class (the first argument) and then a `back_populates` link to the `addresses` property in the `User` class which needs to be defined at the same time.
 ```py
@@ -274,11 +274,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTYwNjA0MiwxNjQxNzQ2MzExLDgwOD
-E4MjY2OSwtMjA0MTU5OTMzMSw1NTAyODcyMTgsNzQzNjk4Mzgs
-MTMzNzU4ODQwOCw2NDY3MzUyMjMsMzU3MzE2MDk3LDYzMDk2OD
-U3MCwzNDEyNDc1NzQsODcyNTQ1NDM4LC03NTcxNjE0ODIsLTE3
-NTE0MjM5NTksLTkwOTE1MjMzNSwtMTQwMzEyMDI1MywxNzEyNT
-M5MjkxLC04NTg3NTE3NDUsLTEzOTU0MDM0MTUsLTE3ODc5ODc4
-MTFdfQ==
+eyJoaXN0b3J5IjpbMjIyMTczMTk4LDE2NDE3NDYzMTEsODA4MT
+gyNjY5LC0yMDQxNTk5MzMxLDU1MDI4NzIxOCw3NDM2OTgzOCwx
+MzM3NTg4NDA4LDY0NjczNTIyMywzNTczMTYwOTcsNjMwOTY4NT
+cwLDM0MTI0NzU3NCw4NzI1NDU0MzgsLTc1NzE2MTQ4MiwtMTc1
+MTQyMzk1OSwtOTA5MTUyMzM1LC0xNDAzMTIwMjUzLDE3MTI1Mz
+kyOTEsLTg1ODc1MTc0NSwtMTM5NTQwMzQxNSwtMTc4Nzk4Nzgx
+MV19
 -->
