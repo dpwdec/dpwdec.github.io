@@ -192,11 +192,16 @@ def save_user():
   g.session.add(user)
   g.session.commit()
 ```
+
+## Testing
+
+You can **test your flask application** by creating a `pytest.fixture` that initialises the `app` in `"TESTING"` mode (this suppresses exception handling so that the test environment can more easily manage errors with meaningufl
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzAyODUwOCwtMTY2Nzk5ODc5MCwyMD
-I3OTEyNzYzLDE1NzI4ODY4NjAsLTE5NjM0MjU5MDEsNTcwMDE4
-Mzc4LC0xNjk1NTQ1MDUwLDEwMzExMjc1Nyw2MTAyNjQzMjIsLT
-E0MjYzNDc3NzAsLTE3ODUxODczMzEsLTE1NTEyMzk2MzEsMjMy
-NjE5NjMxLC0xNzQ2Mjk5MTE1LC05Nzk5MzI3NDcsMTgzOTc2MT
-MxMiwtMjU3NzkzNDgwLDI1OTYzODIwOF19
+eyJoaXN0b3J5IjpbMTkwOTU4NTIyNSwxODIzMDI4NTA4LC0xNj
+Y3OTk4NzkwLDIwMjc5MTI3NjMsMTU3Mjg4Njg2MCwtMTk2MzQy
+NTkwMSw1NzAwMTgzNzgsLTE2OTU1NDUwNTAsMTAzMTEyNzU3LD
+YxMDI2NDMyMiwtMTQyNjM0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1
+MTIzOTYzMSwyMzI2MTk2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMj
+c0NywxODM5NzYxMzEyLC0yNTc3OTM0ODAsMjU5NjM4MjA4XX0=
+
 -->
