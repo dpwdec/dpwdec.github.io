@@ -90,10 +90,17 @@ You can **create a new instance of a model class** as you would with any other p
 new_user = User(firstname="Nicolas", lastname="Copernicus", age=309)
 ```
 
-You can **save a model class to the database** by using the `session` object to `add` the object to a list of database execution procedures and then `commit` to execute those procedures. Data does not get committed to the database until `commit` is called.
+You can **save a new instance of model class to the database** by using the `session` object to `add` the object to a list of database execution procedures and then `commit` to execute those procedures. Data does not get committed to the database until `commit` is called.
 ```py
 session.add(new_user)
 session.commit()
+```
+
+You can **save multiple instances of a model class to the database** by using the `add_all` method on the `session` object with an array of instance objects.
+```py
+session.add_all([
+  User(
+])
 ```
 
 ### Queries
@@ -220,11 +227,11 @@ Base.metadata.drop_all(bind=your_engine, tables=[MyModel.__table__])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA4MTgyNjY5LC0yMDQxNTk5MzMxLDU1MD
-I4NzIxOCw3NDM2OTgzOCwxMzM3NTg4NDA4LDY0NjczNTIyMywz
-NTczMTYwOTcsNjMwOTY4NTcwLDM0MTI0NzU3NCw4NzI1NDU0Mz
-gsLTc1NzE2MTQ4MiwtMTc1MTQyMzk1OSwtOTA5MTUyMzM1LC0x
-NDAzMTIwMjUzLDE3MTI1MzkyOTEsLTg1ODc1MTc0NSwtMTM5NT
-QwMzQxNSwtMTc4Nzk4NzgxMSwtMjc0ODY4MTc0LDE5MzM5OTg0
-NDddfQ==
+eyJoaXN0b3J5IjpbMjAyODk4OTMzOCw4MDgxODI2NjksLTIwND
+E1OTkzMzEsNTUwMjg3MjE4LDc0MzY5ODM4LDEzMzc1ODg0MDgs
+NjQ2NzM1MjIzLDM1NzMxNjA5Nyw2MzA5Njg1NzAsMzQxMjQ3NT
+c0LDg3MjU0NTQzOCwtNzU3MTYxNDgyLC0xNzUxNDIzOTU5LC05
+MDkxNTIzMzUsLTE0MDMxMjAyNTMsMTcxMjUzOTI5MSwtODU4Nz
+UxNzQ1LC0xMzk1NDAzNDE1LC0xNzg3OTg3ODExLC0yNzQ4Njgx
+NzRdfQ==
 -->
