@@ -19,6 +19,13 @@ You can **form a `div` onto a new line** using the `clear` indicator. `Div`s wit
   clear: left
 }
 ```
+
+You can **horizontally centre a div** by setting `margin` to `auto`.
+```css
+div {
+  margin: auto
+}
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTQ3MDI3NTU5OF19
