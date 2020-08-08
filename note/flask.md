@@ -67,7 +67,10 @@ You can **can handle requests to a route with a single name but multiple methods
 ```py
 @app.route("/multi", methods=["GET", "POST"])
 def multi():
-
+  if request.method == "POST":
+    # do something with POST data
+  else:
+    # send response to GET request
 ```
 
 ## Blueprints
@@ -273,11 +276,11 @@ def test_post_json(client):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzQwMjkyMCw2OTcwNzMwMzUsMTQ4MD
-QyOTY3OSwtMTAwMDY4NzcwNiwxODIzMDI4NTA4LC0xNjY3OTk4
-NzkwLDIwMjc5MTI3NjMsMTU3Mjg4Njg2MCwtMTk2MzQyNTkwMS
-w1NzAwMTgzNzgsLTE2OTU1NDUwNTAsMTAzMTEyNzU3LDYxMDI2
-NDMyMiwtMTQyNjM0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1MTIzOT
-YzMSwyMzI2MTk2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMjc0Nywx
-ODM5NzYxMzEyXX0=
+eyJoaXN0b3J5IjpbLTE3MDM3NDE3MTYsNjk3MDczMDM1LDE0OD
+A0Mjk2NzksLTEwMDA2ODc3MDYsMTgyMzAyODUwOCwtMTY2Nzk5
+ODc5MCwyMDI3OTEyNzYzLDE1NzI4ODY4NjAsLTE5NjM0MjU5MD
+EsNTcwMDE4Mzc4LC0xNjk1NTQ1MDUwLDEwMzExMjc1Nyw2MTAy
+NjQzMjIsLTE0MjYzNDc3NzAsLTE3ODUxODczMzEsLTE1NTEyMz
+k2MzEsMjMyNjE5NjMxLC0xNzQ2Mjk5MTE1LC05Nzk5MzI3NDcs
+MTgzOTc2MTMxMl19
 -->
