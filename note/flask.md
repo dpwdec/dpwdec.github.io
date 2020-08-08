@@ -238,16 +238,18 @@ def test_post_data(client):
 
 You can **test JSON routes** by adding a `json.dump`ed `dict` with `content-type` set to `application/json`.
 ```py
-def test_post_json(client):
+import json
 
+def test_post_json(client):
+  response = client.post("/echo", data="Mandelbrot")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDkzMTUyMiwxNDgwNDI5Njc5LC0xMD
-AwNjg3NzA2LDE4MjMwMjg1MDgsLTE2Njc5OTg3OTAsMjAyNzkx
-Mjc2MywxNTcyODg2ODYwLC0xOTYzNDI1OTAxLDU3MDAxODM3OC
-wtMTY5NTU0NTA1MCwxMDMxMTI3NTcsNjEwMjY0MzIyLC0xNDI2
-MzQ3NzcwLC0xNzg1MTg3MzMxLC0xNTUxMjM5NjMxLDIzMjYxOT
-YzMSwtMTc0NjI5OTExNSwtOTc5OTMyNzQ3LDE4Mzk3NjEzMTIs
-LTI1Nzc5MzQ4MF19
+eyJoaXN0b3J5IjpbLTE5OTI5MjMzMDYsMTQ4MDQyOTY3OSwtMT
+AwMDY4NzcwNiwxODIzMDI4NTA4LC0xNjY3OTk4NzkwLDIwMjc5
+MTI3NjMsMTU3Mjg4Njg2MCwtMTk2MzQyNTkwMSw1NzAwMTgzNz
+gsLTE2OTU1NDUwNTAsMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQy
+NjM0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MT
+k2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEy
+LC0yNTc3OTM0ODBdfQ==
 -->
