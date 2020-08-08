@@ -31,7 +31,7 @@ This calculation is trivial when your graph is just a straight line. The formula
 
 <p>
 $$
-\frac{\Delta y}{\Delta x}
+slope = \frac{\Delta y}{\Delta x}
 $$
 </p>
 
@@ -253,5 +253,5 @@ $$
 $$
 </p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4NjEwODkwXX0=
+eyJoaXN0b3J5IjpbLTYyNjM0NDEyLDQ5ODYxMDg5MF19
 -->
