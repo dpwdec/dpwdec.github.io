@@ -55,12 +55,12 @@ def add():
   # do something with the data here
 ```
 
-You can **handle JSON data from a POST request** by using the `json` property of the `request` object.
+You can **handle JSON data from a POST request** by using the `json` property of the `request` object. JSON is parsed from the `request` object into python code as a `dict`.
 ```py
 @app.route("/echo", methods=["POST"])
 def echo():
   json_data = request.json
-  
+  # do something with json_data dict here
 ```
 
 ## Blueprints
@@ -266,11 +266,11 @@ def test_post_json(client):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc2NzM5MTQsMTQ4MDQyOTY3OSwtMT
-AwMDY4NzcwNiwxODIzMDI4NTA4LC0xNjY3OTk4NzkwLDIwMjc5
-MTI3NjMsMTU3Mjg4Njg2MCwtMTk2MzQyNTkwMSw1NzAwMTgzNz
-gsLTE2OTU1NDUwNTAsMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQy
-NjM0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MT
-k2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEy
-LC0yNTc3OTM0ODBdfQ==
+eyJoaXN0b3J5IjpbNjk3MDczMDM1LDE0ODA0Mjk2NzksLTEwMD
+A2ODc3MDYsMTgyMzAyODUwOCwtMTY2Nzk5ODc5MCwyMDI3OTEy
+NzYzLDE1NzI4ODY4NjAsLTE5NjM0MjU5MDEsNTcwMDE4Mzc4LC
+0xNjk1NTQ1MDUwLDEwMzExMjc1Nyw2MTAyNjQzMjIsLTE0MjYz
+NDc3NzAsLTE3ODUxODczMzEsLTE1NTEyMzk2MzEsMjMyNjE5Nj
+MxLC0xNzQ2Mjk5MTE1LC05Nzk5MzI3NDcsMTgzOTc2MTMxMiwt
+MjU3NzkzNDgwXX0=
 -->
