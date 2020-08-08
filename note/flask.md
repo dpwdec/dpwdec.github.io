@@ -236,20 +236,23 @@ def test_post_data(client):
   assert response.data == b'torblednaM'
 ```
 
-You can **test JSON routes** by adding a `json.dump`ed `dict` with `content-type` set to `application/json`.
+You can **test JSON routes** by adding a `json.dump`ed `dict` with `content_type` set to `application/json`.
 ```py
 import json
 
 def test_post_json(client):
-  response = client.post("/echo", data="Mandelbrot")
+  response = client.post("/echo", 
+    json.dumps(dict(foo='bar'), 
+    content_type='application/json')
+  response.json == b'foo'
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI5MjMzMDYsMTQ4MDQyOTY3OSwtMT
-AwMDY4NzcwNiwxODIzMDI4NTA4LC0xNjY3OTk4NzkwLDIwMjc5
-MTI3NjMsMTU3Mjg4Njg2MCwtMTk2MzQyNTkwMSw1NzAwMTgzNz
-gsLTE2OTU1NDUwNTAsMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQy
-NjM0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MT
-k2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEy
-LC0yNTc3OTM0ODBdfQ==
+eyJoaXN0b3J5IjpbLTQ4Njk0ODA2LDE0ODA0Mjk2NzksLTEwMD
+A2ODc3MDYsMTgyMzAyODUwOCwtMTY2Nzk5ODc5MCwyMDI3OTEy
+NzYzLDE1NzI4ODY4NjAsLTE5NjM0MjU5MDEsNTcwMDE4Mzc4LC
+0xNjk1NTQ1MDUwLDEwMzExMjc1Nyw2MTAyNjQzMjIsLTE0MjYz
+NDc3NzAsLTE3ODUxODczMzEsLTE1NTEyMzk2MzEsMjMyNjE5Nj
+MxLC0xNzQ2Mjk5MTE1LC05Nzk5MzI3NDcsMTgzOTc2MTMxMiwt
+MjU3NzkzNDgwXX0=
 -->
