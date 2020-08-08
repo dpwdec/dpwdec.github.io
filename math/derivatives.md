@@ -176,7 +176,7 @@ $$
 $$
 </p>
 
-And, **this is the most important part about the intuition here** because `dx` is so small as to be almost, or shrinking towards zero, it can be ignored. We can just remove it from the equation! 🤯  
+And, **this is the most important part about the intuition here** because `dx` is so small as to be almost, or shrinking towards, zero, it can be ignored. We can just remove it from the equation! 🤯  
 
 So the derivative of the graph `f(x) = x^2` is just `2x`. At point `x = 2` the slope of the graph is `4` at point `x = 5` the slope of the graph is `10`. 
 
@@ -249,3 +249,6 @@ $$
 (x^5 - x^6)' = 5x^4 + 6x^5
 $$
 </p>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTYwMjQxMTA1XX0=
+-->
