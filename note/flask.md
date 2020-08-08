@@ -45,7 +45,7 @@ def before(response):
   return response
 ```
 
-You can **define a POST route** by using the `methods` property of routes. You can **get standard data from a post** by using the `request` object's `data` field. This needs to be imported from `flask` to be usable.
+You can **define a POST route** by using the `methods` property of routes. You can **get standard data (such as a String) from a POST request** by using the `request` object's `data` field. This needs to be imported from `flask` to be usable.
 ```py
 from flask import request
 
@@ -54,6 +54,14 @@ def add():
   data = request.data
   # do something with the data here
 ```
+
+You can **handle JSON data from a POST request** by using the `json` property of the `request` object.
+```py
+@app.route("/echo", methods=["POST"])
+def echo():
+
+```
+
 ## Blueprints
 
 You can **split your flask application in a modular fashion** using flask's `Blueprint` module. This allows you to define routing in separate modules and then register them in your main app file.
@@ -257,11 +265,11 @@ def test_post_json(client):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDUxMTM1MCwxNDgwNDI5Njc5LC0xMD
-AwNjg3NzA2LDE4MjMwMjg1MDgsLTE2Njc5OTg3OTAsMjAyNzkx
-Mjc2MywxNTcyODg2ODYwLC0xOTYzNDI1OTAxLDU3MDAxODM3OC
-wtMTY5NTU0NTA1MCwxMDMxMTI3NTcsNjEwMjY0MzIyLC0xNDI2
-MzQ3NzcwLC0xNzg1MTg3MzMxLC0xNTUxMjM5NjMxLDIzMjYxOT
-YzMSwtMTc0NjI5OTExNSwtOTc5OTMyNzQ3LDE4Mzk3NjEzMTIs
-LTI1Nzc5MzQ4MF19
+eyJoaXN0b3J5IjpbLTIwMzUyMDQwNTMsMTQ4MDQyOTY3OSwtMT
+AwMDY4NzcwNiwxODIzMDI4NTA4LC0xNjY3OTk4NzkwLDIwMjc5
+MTI3NjMsMTU3Mjg4Njg2MCwtMTk2MzQyNTkwMSw1NzAwMTgzNz
+gsLTE2OTU1NDUwNTAsMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQy
+NjM0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MT
+k2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEy
+LC0yNTc3OTM0ODBdfQ==
 -->
