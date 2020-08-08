@@ -59,7 +59,8 @@ You can **handle JSON data from a POST request** by using the `json` property of
 ```py
 @app.route("/echo", methods=["POST"])
 def echo():
-
+  json_data = request.json
+  
 ```
 
 ## Blueprints
@@ -265,7 +266,7 @@ def test_post_json(client):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzUyMDQwNTMsMTQ4MDQyOTY3OSwtMT
+eyJoaXN0b3J5IjpbLTIwNjc2NzM5MTQsMTQ4MDQyOTY3OSwtMT
 AwMDY4NzcwNiwxODIzMDI4NTA4LC0xNjY3OTk4NzkwLDIwMjc5
 MTI3NjMsMTU3Mjg4Njg2MCwtMTk2MzQyNTkwMSw1NzAwMTgzNz
 gsLTE2OTU1NDUwNTAsMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQy
