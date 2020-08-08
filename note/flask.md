@@ -63,6 +63,11 @@ def echo():
   # do something with json_data dict here
 ```
 
+You can **can handle requests to a route with a single name but multiple methods** by using the `request.method` property with a conditional.
+```py
+@app.route("/multi", methods=["GET", "POST"])
+```
+
 ## Blueprints
 
 You can **split your flask application in a modular fashion** using flask's `Blueprint` module. This allows you to define routing in separate modules and then register them in your main app file.
@@ -266,11 +271,11 @@ def test_post_json(client):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3MDczMDM1LDE0ODA0Mjk2NzksLTEwMD
-A2ODc3MDYsMTgyMzAyODUwOCwtMTY2Nzk5ODc5MCwyMDI3OTEy
-NzYzLDE1NzI4ODY4NjAsLTE5NjM0MjU5MDEsNTcwMDE4Mzc4LC
-0xNjk1NTQ1MDUwLDEwMzExMjc1Nyw2MTAyNjQzMjIsLTE0MjYz
-NDc3NzAsLTE3ODUxODczMzEsLTE1NTEyMzk2MzEsMjMyNjE5Nj
-MxLC0xNzQ2Mjk5MTE1LC05Nzk5MzI3NDcsMTgzOTc2MTMxMiwt
-MjU3NzkzNDgwXX0=
+eyJoaXN0b3J5IjpbLTE1MDAwMDY3OTEsNjk3MDczMDM1LDE0OD
+A0Mjk2NzksLTEwMDA2ODc3MDYsMTgyMzAyODUwOCwtMTY2Nzk5
+ODc5MCwyMDI3OTEyNzYzLDE1NzI4ODY4NjAsLTE5NjM0MjU5MD
+EsNTcwMDE4Mzc4LC0xNjk1NTQ1MDUwLDEwMzExMjc1Nyw2MTAy
+NjQzMjIsLTE0MjYzNDc3NzAsLTE3ODUxODczMzEsLTE1NTEyMz
+k2MzEsMjMyNjE5NjMxLC0xNzQ2Mjk5MTE1LC05Nzk5MzI3NDcs
+MTgzOTc2MTMxMl19
 -->
