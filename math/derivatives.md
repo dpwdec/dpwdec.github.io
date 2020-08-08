@@ -130,7 +130,7 @@ However, there's a problem. With this method of testing smaller and smaller real
 
 ## Algebraic Approach
 
-You can **derive this intuition about the derivative** algebraically from the *change in x over change in y* formula by thinking about in terms of this very small difference between two points, a difference which shrinks towards (but never actually reaches) zero. The name for this is often `dx`. For a function:
+You can **derive this intuition about the derivative** algebraically from the *change in x over change in y* formula by thinking about in terms of this very small difference between two points, a difference which shrinks towards (but never actually reaches) zero. The name for this is sometimes also called `dx`. For a function:
 
 
 <p>
@@ -143,11 +143,11 @@ This means that:
 
 <p>
 $$
-\frac{dx}{dy} = \frac{f(x + dx) - f(x)}{dx}
+\frac{\Delta x}{\Delta y} = \frac{f(x + \Delta x) - f(x)}{\Delta x}
 $$
 </p>
 
-Because we need to calculate the two positions of `y` at both `x` and `x` plus that very small difference `dx`. The difference between these two `y`s is `dy`.
+Because we need to calculate the two positions of `y` at both `x` and `x` plus that very small difference `Δx`. The difference between these two `y`s is `Δy`.
 
 Let's use this with the example the graph above for the function:
 <p>
@@ -159,27 +159,27 @@ $$
 This means that we subsitute the function for `x^2`.
 <p>
 $$
-\frac{(x + dx)^2 - x^2}{dx} \\[5pt]
+\frac{(x + \Delta x)^2 - x^2}{\Delta x} \\[5pt]
 
 =
 
-\frac{x^2 + 2xdx + dx^2 - x^2}{dx} \\[5pt]
+\frac{x^2 + 2x\Delta x + \Delta x^2 - x^2}{\Delta x} \\[5pt]
 
 =
 
-\frac{2xdx + dx^2}{dx}
+\frac{2x\Delta x + \Delta x^2}{\Delta x}
 $$
 </p>
 
-We then cancel the `dx` in the demoninator with each of the clauses in the numerator to get:
+We then cancel the `Δx` in the demoninator with each of the clauses in the numerator to get:
 
 <p>
 $$
-2x + dx
+2x + \Delta x
 $$
 </p>
 
-And, **this is the most important part about the intuition here** because `dx` is so small as to be almost, or shrinking towards, zero, it can be ignored. We can just remove it from the equation! 🤯  
+And, **this is the most important part about the intuition here** because `Δx` is so small as to be almost, or shrinking towards, zero, it can be ignored. We can just remove it from the equation! 🤯  
 
 So the derivative of the graph `f(x) = x^2` is just `2x`. At point `x = 2` the slope of the graph is `4` at point `x = 5` the slope of the graph is `10`. 
 
