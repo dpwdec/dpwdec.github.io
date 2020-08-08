@@ -229,17 +229,19 @@ def test_index(client):
   assert response.data == b'This is a message'
 ```
 
-You **test a `POST` route** by using `post` method on the flask `test_client` object and passing `data` and `content-type` as arguments.
+You **test a `POST` route** by using `post` method on the flask `test_client` object and passing `data`.
 ```py
-
+def test_post(client):
+  response = client.post("/reverse", data="Mandelbrot")
+  assert response.data == b'torblednaM'
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDQyOTY3OSwtMTAwMDY4NzcwNiwxOD
-IzMDI4NTA4LC0xNjY3OTk4NzkwLDIwMjc5MTI3NjMsMTU3Mjg4
-Njg2MCwtMTk2MzQyNTkwMSw1NzAwMTgzNzgsLTE2OTU1NDUwNT
-AsMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQyNjM0Nzc3MCwtMTc4
-NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MTk2MzEsLTE3NDYyOT
-kxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEyLC0yNTc3OTM0ODAs
-MjU5NjM4MjA4XX0=
+eyJoaXN0b3J5IjpbLTEyMTIyMTI3NjcsMTQ4MDQyOTY3OSwtMT
+AwMDY4NzcwNiwxODIzMDI4NTA4LC0xNjY3OTk4NzkwLDIwMjc5
+MTI3NjMsMTU3Mjg4Njg2MCwtMTk2MzQyNTkwMSw1NzAwMTgzNz
+gsLTE2OTU1NDUwNTAsMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQy
+NjM0Nzc3MCwtMTc4NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MT
+k2MzEsLTE3NDYyOTkxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEy
+LC0yNTc3OTM0ODBdfQ==
 -->
