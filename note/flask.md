@@ -229,12 +229,14 @@ def test_index(client):
   assert response.data == b'This is a message'
 ```
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDA2ODc3MDYsMTgyMzAyODUwOCwtMT
-Y2Nzk5ODc5MCwyMDI3OTEyNzYzLDE1NzI4ODY4NjAsLTE5NjM0
-MjU5MDEsNTcwMDE4Mzc4LC0xNjk1NTQ1MDUwLDEwMzExMjc1Ny
-w2MTAyNjQzMjIsLTE0MjYzNDc3NzAsLTE3ODUxODczMzEsLTE1
-NTEyMzk2MzEsMjMyNjE5NjMxLC0xNzQ2Mjk5MTE1LC05Nzk5Mz
-I3NDcsMTgzOTc2MTMxMiwtMjU3NzkzNDgwLDI1OTYzODIwOF19
+You **test a `POST` route** by using `post` method on the flask `test_client` object and passing d
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTA2NDA0MzYxMSwtMTAwMDY4NzcwNiwxOD
+IzMDI4NTA4LC0xNjY3OTk4NzkwLDIwMjc5MTI3NjMsMTU3Mjg4
+Njg2MCwtMTk2MzQyNTkwMSw1NzAwMTgzNzgsLTE2OTU1NDUwNT
+AsMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQyNjM0Nzc3MCwtMTc4
+NTE4NzMzMSwtMTU1MTIzOTYzMSwyMzI2MTk2MzEsLTE3NDYyOT
+kxMTUsLTk3OTkzMjc0NywxODM5NzYxMzEyLC0yNTc3OTM0ODAs
+MjU5NjM4MjA4XX0=
 -->
