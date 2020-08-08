@@ -229,10 +229,13 @@ def test_index(client):
   assert response.data == b'This is a message'
 ```
 
-You **test a `POST` route** by using `post` method on the flask `test_client` object and passing d
+You **test a `POST` route** by using `post` method on the flask `test_client` object and passing `data` and `content-type` as arguments.
+```py
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDA0MzYxMSwtMTAwMDY4NzcwNiwxOD
+eyJoaXN0b3J5IjpbMTQ4MDQyOTY3OSwtMTAwMDY4NzcwNiwxOD
 IzMDI4NTA4LC0xNjY3OTk4NzkwLDIwMjc5MTI3NjMsMTU3Mjg4
 Njg2MCwtMTk2MzQyNTkwMSw1NzAwMTgzNzgsLTE2OTU1NDUwNT
 AsMTAzMTEyNzU3LDYxMDI2NDMyMiwtMTQyNjM0Nzc3MCwtMTc4
