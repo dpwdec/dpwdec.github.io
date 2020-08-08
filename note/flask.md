@@ -45,9 +45,14 @@ def before(response):
   return response
 ```
 
-You can **define a POST route** by using the `methods` property of routes.
+You can **define a POST route** by using the `methods` property of routes. You can **get standard data from a post** by using the `request` object's `data` field. This needs to be imported from `flask` to be usable.
 ```py
-@app.route("
+from flask import request
+
+@app.route("/add", methods=["POST"])
+def add():
+  data = request.data
+  # do something with the data here
 ```
 ## Blueprints
 
@@ -252,7 +257,7 @@ def test_post_json(client):
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDQ2NDc4MCwxNDgwNDI5Njc5LC0xMD
+eyJoaXN0b3J5IjpbMjEyMDUxMTM1MCwxNDgwNDI5Njc5LC0xMD
 AwNjg3NzA2LDE4MjMwMjg1MDgsLTE2Njc5OTg3OTAsMjAyNzkx
 Mjc2MywxNTcyODg2ODYwLC0xOTYzNDI1OTAxLDU3MDAxODM3OC
 wtMTY5NTU0NTA1MCwxMDMxMTI3NTcsNjEwMjY0MzIyLC0xNDI2
