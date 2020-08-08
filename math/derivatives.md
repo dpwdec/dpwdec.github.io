@@ -125,7 +125,7 @@ functionPlot({
 
 At this point the line we are calculating begins to look like a **tangent** to a point on the curve where we want to know the rate of change, and in fact, this is exactly what the derivate of a point is! 
 
-However, there's a problem, with this method of testing smaller and smaller real points on the graph we can only ever reach an approximation of the gradient at any specific point but we would like a pure, beautiful and general way to describe the gradient at an arbitrary point on the graph.
+However, there's a problem. With this method of testing smaller and smaller real points on the graph we can only ever reach an approximation of the gradient at any specific point but we would like a pure, beautiful and general way to describe the gradient at an arbitrary point on the graph.
 
 ## Algebraic Approach
 
@@ -252,5 +252,5 @@ $$
 $$
 </p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzYxNjYwM119
+eyJoaXN0b3J5IjpbMzA4MTAxNDMzXX0=
 -->
