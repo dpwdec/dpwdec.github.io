@@ -94,6 +94,7 @@ We can however approximate the rate of change in a local area of the graph by dr
 <script>
 functionPlot({
   target: "#average",
+  disableZoom: true,
   yAxis: { domain: [-0.6, 1] },
   xAxis: { domain: [-2, 2] },
   data: [
@@ -252,5 +253,5 @@ $$
 $$
 </p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4MTAxNDMzXX0=
+eyJoaXN0b3J5IjpbNDk4NjEwODkwXX0=
 -->
