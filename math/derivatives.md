@@ -25,6 +25,8 @@ A better definition of a derivate might be: **the rate of change between two poi
 
 This is often rephrased as a difference between two points that **shrinks towards zero**.
 
+## Finding the derivative visually
+
 This calculation is trivial when your graph is just a straight line. The formula for which is:
 
 <p>
@@ -250,5 +252,5 @@ $$
 $$
 </p>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjQxMTA1XX0=
+eyJoaXN0b3J5IjpbLTcxNDI4OTIyOV19
 -->
