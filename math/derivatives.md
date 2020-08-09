@@ -88,7 +88,7 @@ It's not clear how we can solve the problem of finding the gradient or rate of c
 })
 </script>
 
-We can however approximate the rate of change in a local area of the graph by drawing a straight line between two points on the graph and calculating the gradient for that straight line with the simple *change in x over change in y* formula above. The graph below shows a zoomed in section of the `y = x^2` curve with a line that intersects two points on the curve. Calculating the gradient of this line can approximate the rate of change at that point.
+We can however approximate the rate of change in a local area of the graph by drawing a straight line between two points on the graph and calculating the gradient for that straight line with the simple *change in y over change in x* formula above. The graph below shows a zoomed in section of the `y = x^2` curve with a line that intersects two points on the curve. Calculating the gradient of this line can approximate the rate of change at that point.
 
 <div id="average"></div>
 <script>
@@ -130,7 +130,7 @@ However, there's a problem. With this method of testing smaller and smaller real
 
 ## Algebraic Approach
 
-You can **derive this intuition about the derivative** algebraically from the *change in x over change in y* formula by thinking about in terms of this very small difference between two points, a difference which shrinks towards (but never actually reaches) zero. The name for this is sometimes also called `dx`. For a function:
+You can **derive this intuition about the derivative** algebraically from the *change in y over change in x* formula by thinking about in terms of this very small difference between two points, a difference which shrinks towards (but never actually reaches) zero. The name for this is sometimes also called `dx`. For a function:
 
 
 <p>
