@@ -212,7 +212,7 @@ The **power rule** states that you can **calculate the derivative for function w
 
 <p>
 $$
-(x^n)' = nx^n-1
+{x^n}' = nx^{n-1}
 $$
 </p>
 
@@ -229,7 +229,7 @@ This **also works for fractional and negative powers**:
 
 <p>
 $$
-(\frac{1}{x})' = (x^-1)' = -x^-2 = \frac{1}{x^2} \\[5pt]
+(\frac{1}{x})' = (x^{-1})' = -x^-2 = \frac{1}{x^2} \\[5pt]
 $$
 </p>
 
