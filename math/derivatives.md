@@ -220,8 +220,8 @@ Examples:
 
 <p>
 $$
-(x^3)' = 3x^2 \\[5pt]
-(5x^4)' = 20x^3
+{x^3}' = 3x^2 \\[5pt]
+{5x^4}' = 20x^3
 $$
 </p>
 
@@ -229,7 +229,7 @@ This **also works for fractional and negative powers**:
 
 <p>
 $$
-(\frac{1}{x})' = (x^{-1})' = -x^-2 = \frac{1}{x^2} \\[5pt]
+{\frac{1}{x}}' = {x^{-1}}' = -x^-2 = \frac{1}{x^2} \\[5pt]
 $$
 </p>
 
