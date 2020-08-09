@@ -233,6 +233,80 @@ $$
 $$
 </p>
 
+**Why does the power rule work?** Why does this method of manipulating the powers generalise? One way to think about this generalisation is based on the rules for expanding expressions that are raised to a power. Taking the example of `f(x) = x^3`. This means that the `Δx` component of this equation will be:
+
+<p>
+$$
+(x + \Delta x)^3 \\[5pt]
+$$
+</p>
+
+Which if we expand it will be:
+
+<p>
+$$
+x^3 + 3x^2\Delta x + 3x\Delta x^2 + \Delta x^3 \\[5pt]
+$$
+</p>
+
+`Δx`, as ever, is a small amount, approaching zero, so any term which raises `Δx` to a power will be even more tiny and insignificant. This means that all terms apart from `3x^2Δx` term can be ignored. And, when we calculate the slope we divide by `Δx` removing the `Δx` from the `3x^2` term and leaving us with just `3x^2`. The `x^3` is also removed when we take the difference between the starting and ending amounts for `Δy`.
+
+This **generalises for a function with `x` raised to the `nth` power.
+
+<p>
+$$
+f(x) = x^n \\[5pt]
+slope = frac{(x + \Delta x)^n}{\Delta x}
+$$
+</p>
+
+If we expand the numerator of the `slope` function. The first term we get is:
+
+<p>
+$$
+x^n
+$$
+</p>
+
+We then an `n` number of terms where we multiply together all the `x` terms `-1` with *one* `Δx` term.
+
+<p>
+$$
+\Delta x \times x \times x ... \times x = x^{n-1}\Delta x \\[5pt]
+x \times \Delta x \times x ... \times x = x^{n-1}\Delta x \\[5pt]
+x \times x \times \Delta x ... \times x = x^{n-1}\Delta x \\[5pt]
+\vdots\\
+x \times x \times x ... \times \Delta x = x^{n-1}\Delta x \\[5pt]
+$$
+</p>
+
+Then all those terms in `x` raised to the `n - 1` power are added together. So, at this point the expanded equation will look like:
+
+<p>
+$$
+x^n + nx^{n-1} \Delta x
+$$
+</p>
+
+The next terms will involve a similar to expansive to this second term in a form like:
+
+<p>
+$$
+\Delta x \times \Delta x \times x ... \times x = x^{n-2} \Delta x^2 \\[5pt]
+x \times \Delta x \times \Delta x ... \times x = x^{n-2} \Delta x^2 \\[5pt]
+\vdots\\
+x \times x \times \Delta x ... \times \Delta x = x^{n-2} \Delta x^2 \\[5pt]
+$$
+</p>
+
+This time with more than one `Δx` term being. This results in `Δx` being raised to a power. And as we know **raising a tiny amount to power makes it even more tiny and negligable**, and since every term after this will feature `Δx` raised to some power we can just ignore it. As usual the `x^n` and the `Δx` on our second term is cancelled and we left with just.
+
+<p>
+$$
+nx^{n-1}
+$$
+</p>
+
 ### Sum and Difference Rules
 
 The **sum rule** states that the derviate is **composable** from the individual derivates of the function terms. The same **difference rules** applies for the difference between function terms.
