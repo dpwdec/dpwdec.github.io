@@ -398,6 +398,16 @@ If  `__repr__` had not been defined in `MyObject` when we printed an instance of
 | `__gr__` | `>` |
 | `__lt__` | `<` |
 
+## time
+
+You can **make a thread sleep or block** for a period of time using the `sleep` module in the `time` library.
+```py
+from time import sleep
+
+
+sleep(5)
+```
+
 ## Pipenv
 
 Pipenv is a programming for managing python dependencies and project builds similar to tools like `npm` for javascript or `bundler` for ruby. The `pipenv` creates a `pipfile` which can be used to manage dependencies, project meta-data and project scripts. You can **install pipenv** using `brew`.
@@ -452,11 +462,11 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyODU4NCw4MzQ4OTkwOTQsLTIxMDU2OD
-Q2MzcsMjgzOTg4NDc5LDE5MDUxODUzMDIsLTI5Mzk5OTA3Mywt
-OTc4ODM5Mzk1LDE5OTgxODcxODgsNTYxODU5MDgsLTE5OTM1OT
-MxNjQsLTI0NTMyODc1MiwyNTc2MjY3OTcsMjAxNzg5NTM4MCwt
-MTg2NjkyMzAyNywxMzczMTMzNTcxLC0xNDQ1OTQ0NzUsNDg4ND
-Y3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2NTRd
-fQ==
+eyJoaXN0b3J5IjpbLTEzNDIxNDM3MjYsODM0ODk5MDk0LC0yMT
+A1Njg0NjM3LDI4Mzk4ODQ3OSwxOTA1MTg1MzAyLC0yOTM5OTkw
+NzMsLTk3ODgzOTM5NSwxOTk4MTg3MTg4LDU2MTg1OTA4LC0xOT
+kzNTkzMTY0LC0yNDUzMjg3NTIsMjU3NjI2Nzk3LDIwMTc4OTUz
+ODAsLTE4NjY5MjMwMjcsMTM3MzEzMzU3MSwtMTQ0NTk0NDc1LD
+Q4ODQ2NzI0OCwtODk3MDU5NzgyLC02OTgzNzI5NTAsLTI4Mjc0
+NjU0XX0=
 -->
