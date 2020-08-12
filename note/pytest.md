@@ -92,7 +92,7 @@ def some_test(mocker):
   # use mocker here to mock things
 ```
 
-You can **mock methods and function returns** using the `patch` method on `mocker`. This takes the name of the method that is being mocked as a string, and a named argument `return_value` set equal to mocked return. In the example below the `expensive_user` function
+You can **mock methods and function returns** using the `patch` method on `mocker`. This takes the name of the method that is being mocked as a string, and a named argument `return_value` set equal to mocked return. In the example below the `expensive_user` function calls the `expensive_function` when it returns, which is computationally intensive. To mock this function, which also inside the `expf` file, it is referenced with `expf.expensive_function`.
 ```py
 from expf import expensive_user
 
@@ -104,7 +104,7 @@ def some_test(mocker):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDk1OTcxNDcsLTE1OTg5MTM1MDEsMj
+eyJoaXN0b3J5IjpbLTE4ODg5Nzc3NDgsLTE1OTg5MTM1MDEsMj
 A4MDY0MzAyNSwxMDMzMDU3NTg3LC0xNjgyODI4OTc0LC0yMDA5
 NjQ2MDkzLC0xNjIyNTkwMjg3LDE5MDExODc3NDUsLTg5MzQ3NT
 EyMCwxNDQ3MTg1MTI2LDcwODcwMzk4OCwxOTA2OTM1NTY3LDc2
