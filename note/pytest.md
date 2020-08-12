@@ -101,12 +101,15 @@ def some_test(mocker):
   assert expensive_user() == True
 ```
 
+If you want to **patch a method or function imported from a different file** to the function that you are testing, you should still reference it *as if* it were defined in the file which you are testing.
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1NDAxNDEzLC0xNTk4OTEzNTAxLDIwOD
-A2NDMwMjUsMTAzMzA1NzU4NywtMTY4MjgyODk3NCwtMjAwOTY0
-NjA5MywtMTYyMjU5MDI4NywxOTAxMTg3NzQ1LC04OTM0NzUxMj
-AsMTQ0NzE4NTEyNiw3MDg3MDM5ODgsMTkwNjkzNTU2Nyw3NjI5
-MzMzNzAsMjYyODU3NTgxXX0=
+eyJoaXN0b3J5IjpbNTgzNTAyNDkzLDQ3NTQwMTQxMywtMTU5OD
+kxMzUwMSwyMDgwNjQzMDI1LDEwMzMwNTc1ODcsLTE2ODI4Mjg5
+NzQsLTIwMDk2NDYwOTMsLTE2MjI1OTAyODcsMTkwMTE4Nzc0NS
+wtODkzNDc1MTIwLDE0NDcxODUxMjYsNzA4NzAzOTg4LDE5MDY5
+MzU1NjcsNzYyOTMzMzcwLDI2Mjg1NzU4MV19
 -->
