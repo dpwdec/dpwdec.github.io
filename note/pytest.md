@@ -86,6 +86,11 @@ def create_msg():
 
 ## Mocking
 
+To start using Pytest's mocking functionality you must install the `pytest-mock` module.
+```bash
+pip3 install pytest-mock
+```
+
 **Mocking can be accomplished in Pytest using the `mocker` fixture**. This is passed into test functions that need to use mocking as an argument. **It does not need to be imported as a dependency for the tests**.
 ```py
 def some_test(mocker):
@@ -107,9 +112,10 @@ If you want to **patch a method or function imported from a different file** to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzNTAyNDkzLDQ3NTQwMTQxMywtMTU5OD
-kxMzUwMSwyMDgwNjQzMDI1LDEwMzMwNTc1ODcsLTE2ODI4Mjg5
-NzQsLTIwMDk2NDYwOTMsLTE2MjI1OTAyODcsMTkwMTE4Nzc0NS
-wtODkzNDc1MTIwLDE0NDcxODUxMjYsNzA4NzAzOTg4LDE5MDY5
-MzU1NjcsNzYyOTMzMzcwLDI2Mjg1NzU4MV19
+eyJoaXN0b3J5IjpbOTYyNDUyODMxLDU4MzUwMjQ5Myw0NzU0MD
+E0MTMsLTE1OTg5MTM1MDEsMjA4MDY0MzAyNSwxMDMzMDU3NTg3
+LC0xNjgyODI4OTc0LC0yMDA5NjQ2MDkzLC0xNjIyNTkwMjg3LD
+E5MDExODc3NDUsLTg5MzQ3NTEyMCwxNDQ3MTg1MTI2LDcwODcw
+Mzk4OCwxOTA2OTM1NTY3LDc2MjkzMzM3MCwyNjI4NTc1ODFdfQ
+==
 -->
