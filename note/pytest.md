@@ -92,20 +92,21 @@ def some_test(mocker):
   # use mocker here to mock things
 ```
 
-You can **mock methods and function returns** using the `patch` method on `mocker`. This takes the name of the method that is being mocked as a string, and a named argument `return_value` set equal to mocked return.
+You can **mock methods and function returns** using the `patch` method on `mocker`. This takes the name of the method that is being mocked as a string, and a named argument `return_value` set equal to mocked return. In the example below the `expensive_user` function
 ```py
-from import expensive_function
+from expf import expensive_user
 
 def some_test(mocker):
-  
+  mocker.patch("expf.expensive_function", return_value=True)
+  assert expensive_user() == True
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTU0MzM5MiwtMTU5ODkxMzUwMSwyMD
-gwNjQzMDI1LDEwMzMwNTc1ODcsLTE2ODI4Mjg5NzQsLTIwMDk2
-NDYwOTMsLTE2MjI1OTAyODcsMTkwMTE4Nzc0NSwtODkzNDc1MT
-IwLDE0NDcxODUxMjYsNzA4NzAzOTg4LDE5MDY5MzU1NjcsNzYy
-OTMzMzcwLDI2Mjg1NzU4MV19
+eyJoaXN0b3J5IjpbLTE0MDk1OTcxNDcsLTE1OTg5MTM1MDEsMj
+A4MDY0MzAyNSwxMDMzMDU3NTg3LC0xNjgyODI4OTc0LC0yMDA5
+NjQ2MDkzLC0xNjIyNTkwMjg3LDE5MDExODc3NDUsLTg5MzQ3NT
+EyMCwxNDQ3MTg1MTI2LDcwODcwMzk4OCwxOTA2OTM1NTY3LDc2
+MjkzMzM3MCwyNjI4NTc1ODFdfQ==
 -->
