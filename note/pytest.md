@@ -86,14 +86,18 @@ def create_msg():
 
 ## Mocking
 
-Mocking can be accomplished in Pytest using the `mocker` fixture. This is passed into test functions that need to use mocking as an argument, It does not need to be 
+**Mocking can be accomplished in Pytest using the `mocker` fixture**. This is passed into test functions that need to use mocking as an argument. **It does not need to be imported as a dependency for the tests**.
+```py
+def some_test(mocker):
+  # use mocker here to mock things
+```
 
-You can **mock methods and function returns by patching usi**
+You can **mock methods and function returns by patching **
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODAxMzE3NSwtMTU5ODkxMzUwMSwyMD
+eyJoaXN0b3J5IjpbMTQ3NDE1MDM0MywtMTU5ODkxMzUwMSwyMD
 gwNjQzMDI1LDEwMzMwNTc1ODcsLTE2ODI4Mjg5NzQsLTIwMDk2
 NDYwOTMsLTE2MjI1OTAyODcsMTkwMTE4Nzc0NSwtODkzNDc1MT
 IwLDE0NDcxODUxMjYsNzA4NzAzOTg4LDE5MDY5MzU1NjcsNzYy
