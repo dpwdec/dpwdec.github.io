@@ -92,14 +92,14 @@ def some_test(mocker):
   # use mocker here to mock things
 ```
 
-You can **mock methods and function returns** using the `patch` method on `mocker`. 
+You can **mock methods and function returns** using the `patch` method on `mocker`. This takes a
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NzEzNTQwNCwtMTU5ODkxMzUwMSwyMD
-gwNjQzMDI1LDEwMzMwNTc1ODcsLTE2ODI4Mjg5NzQsLTIwMDk2
-NDYwOTMsLTE2MjI1OTAyODcsMTkwMTE4Nzc0NSwtODkzNDc1MT
-IwLDE0NDcxODUxMjYsNzA4NzAzOTg4LDE5MDY5MzU1NjcsNzYy
-OTMzMzcwLDI2Mjg1NzU4MV19
+eyJoaXN0b3J5IjpbNDQ2OTI4OTY5LC0xNTk4OTEzNTAxLDIwOD
+A2NDMwMjUsMTAzMzA1NzU4NywtMTY4MjgyODk3NCwtMjAwOTY0
+NjA5MywtMTYyMjU5MDI4NywxOTAxMTg3NzQ1LC04OTM0NzUxMj
+AsMTQ0NzE4NTEyNiw3MDg3MDM5ODgsMTkwNjkzNTU2Nyw3NjI5
+MzMzNzAsMjYyODU3NTgxXX0=
 -->
