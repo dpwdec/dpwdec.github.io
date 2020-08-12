@@ -404,7 +404,7 @@ You can **make a thread sleep or block** for a period of time using the `sleep` 
 ```py
 from time import sleep
 
-
+# sleep thread for 5 seconds
 sleep(5)
 ```
 
@@ -462,11 +462,11 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDIxNDM3MjYsODM0ODk5MDk0LC0yMT
-A1Njg0NjM3LDI4Mzk4ODQ3OSwxOTA1MTg1MzAyLC0yOTM5OTkw
-NzMsLTk3ODgzOTM5NSwxOTk4MTg3MTg4LDU2MTg1OTA4LC0xOT
-kzNTkzMTY0LC0yNDUzMjg3NTIsMjU3NjI2Nzk3LDIwMTc4OTUz
-ODAsLTE4NjY5MjMwMjcsMTM3MzEzMzU3MSwtMTQ0NTk0NDc1LD
-Q4ODQ2NzI0OCwtODk3MDU5NzgyLC02OTgzNzI5NTAsLTI4Mjc0
-NjU0XX0=
+eyJoaXN0b3J5IjpbMTMxMjc1MjkwMSw4MzQ4OTkwOTQsLTIxMD
+U2ODQ2MzcsMjgzOTg4NDc5LDE5MDUxODUzMDIsLTI5Mzk5OTA3
+MywtOTc4ODM5Mzk1LDE5OTgxODcxODgsNTYxODU5MDgsLTE5OT
+M1OTMxNjQsLTI0NTMyODc1MiwyNTc2MjY3OTcsMjAxNzg5NTM4
+MCwtMTg2NjkyMzAyNywxMzczMTMzNTcxLC0xNDQ1OTQ0NzUsND
+g4NDY3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2
+NTRdfQ==
 -->
