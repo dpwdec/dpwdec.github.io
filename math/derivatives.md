@@ -229,11 +229,29 @@ This **also works for fractional and negative powers**:
 
 <p>
 $$
-{\frac{1}{x}}' = {x^{-1}}' = -x^-2 = \frac{1}{x^2} \\[5pt]
+{\frac{1}{x}}' = {x^{-1}}' = -x^{-2} = \frac{-1}{x^2} \\[5pt]
 $$
 </p>
 
-**Why does the power rule work?** Why does this method of manipulating the powers generalise? One way to think about this generalisation is based on the rules for expanding expressions that are raised to a power. Taking the example of `f(x) = x^3`. This means that the `Δx` component of this equation will be:
+*And* for **functions that use some root of `x`**:
+
+<p>
+$$
+\sqrt{x}' = x^{\frac{1}{2}}{'} = \frac{1}{2}x^{- \frac{1}{2}} \\[5pt]
+$$
+</p>
+
+Examples:
+
+<p>
+$$
+\sqrt[3]{x}' = \frac{1}{3}x^{- \frac{1}{3}} \\[5pt]
+$$
+</p>
+
+### Why does the power rule work?
+
+Why does this method of manipulating the powers generalise? One way to think about this generalisation is based on the rules for expanding expressions that are raised to a power. Taking the example of `f(x) = x^3`. This means that the `Δx` component of this equation will be:
 
 <p>
 $$
