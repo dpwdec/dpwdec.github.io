@@ -344,6 +344,31 @@ $$
 (x^5 - x^6)' = 5x^4 + 6x^5
 $$
 </p>
+
+### Product Rule
+
+The **product rule** states that the derivative of two functions that are multiplied together is the **first function multipled by the derivative of the second function, plus the derivative of the first function multiple by the second function**. This can be remembered with the nemonic:
+
+> right d left plus left d right
+
+The derivative is therefore given by:
+
+<p>
+$$
+g(x)h(x)' = g(x)\frac{dh}{dx} + h(x)\frac{dg}{dx}
+$$
+</p>
+
+Examples:
+
+<p>
+$$
+(4t^{2} - t)(t^3 - 8t^2 + 12)' = \\[5pt]
+(4t^{2} - t)(3t^2 - 16t) + (t^3 - 8t^2 + 12)(8t - 1) = \\[5pt]
+20t^4 - 132t^3 + 24t^2 + 96t - 12
+$$
+</p>
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTYyNjM0NDEyLDQ5ODYxMDg5MF19
 -->
