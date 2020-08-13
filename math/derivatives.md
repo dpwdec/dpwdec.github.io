@@ -369,6 +369,46 @@ $$
 $$
 </p>
 
+### Chain Rule
+
+The **chain rule** is used for taking the derivative of functions *inside* other functions i.e. derivatives in the domain of **function composition**. For example, the function:
+
+<p>
+$$
+sin(x^2)
+$$
+</p>
+
+Is a **composition** of the two functions (lets call them `g` and `h`):
+
+<p>
+$$
+g(x) = sin(x) \\[5pt]
+h(x) = x^2
+$$
+</p>
+
+With the function `h` plugged into the `x` input on function `g`.
+
+The **chain rule** states that **the derivative of two composed functions is the derivative of the outer function multiplied by the derivative of the inner function**. So in the example of above this would mean that:
+
+
+<p>
+$$
+sin(x^2)' = \\[5pt]
+cos(x^2)2x
+$$
+</p>
+
+More generally:
+
+<p>
+$$
+\frac{d/dx}g(h(x)) = \\[5pt]
+g'(h(x))h(x)'
+$$
+</p>
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTYyNjM0NDEyLDQ5ODYxMDg5MF19
 -->
