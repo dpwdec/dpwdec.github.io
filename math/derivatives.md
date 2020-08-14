@@ -377,6 +377,8 @@ g(x)h(x)f(x)' = g(x)'h(x)f(x) + g(x)h(x)'f(x) + g(x)'h(x)f(x)'
 $$
 </p>
 
+### Visualising the Product Rule
+
 You can **visualise the product rule** using simple geometric shapes. For example, in the case of two functions being multiplied together you can imagine this as a rectangle who's length is given by the first function and who's width is given by the second function. The example below shows a box, the length of which is given by the function `sin(x)` and the height of which is given by `x^2`.
 
 ```
@@ -460,6 +462,8 @@ g(h(x))' = \\[5pt]
 g'(h(x))h(x)'
 $$
 </p>
+
+Intuitively this makes sense because **the derivative of a function that takes another funtion** will be **that function's derivative adjusted proportionally by the derivative of the input function**. This is why the input to the derivative of the outer function remains constant, that change is reflected by multiplying the outer function's derivative by that of the inner function, while the input has to remain static for this propertional change of *just* the derivative to take effect.
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTYyNjM0NDEyLDQ5ODYxMDg5MF19
