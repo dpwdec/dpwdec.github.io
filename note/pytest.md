@@ -104,6 +104,8 @@ def mock_functionality(mocker):
   my_mock = mocker.Mock()
 ```
 
+
+
 You can **mock methods and function returns** using the `patch` method on `mocker`. This takes the name of the method that is being mocked as a string, and a named argument `return_value` set equal to mocked return. In the example below the `expensive_user` function calls the `expensive_function` when it returns, which is computationally intensive. To mock this function, which also inside the `expf` file, it is referenced with `expf.expensive_function`. The `patch` method is **function scoped**, if you mock a value differently in different test functions these will not conflict.
 ```py
 from expf import expensive_user
@@ -119,7 +121,7 @@ If you want to **patch a method or function imported from a different file** to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDAyMDM1ODIsOTYyNDUyODMxLDU4Mz
+eyJoaXN0b3J5IjpbLTE4Njk0Njg1MTQsOTYyNDUyODMxLDU4Mz
 UwMjQ5Myw0NzU0MDE0MTMsLTE1OTg5MTM1MDEsMjA4MDY0MzAy
 NSwxMDMzMDU3NTg3LC0xNjgyODI4OTc0LC0yMDA5NjQ2MDkzLC
 0xNjIyNTkwMjg3LDE5MDExODc3NDUsLTg5MzQ3NTEyMCwxNDQ3
