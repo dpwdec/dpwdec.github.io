@@ -106,6 +106,10 @@ def mock_functionality(mocker):
 
 You can make **assertions about methods called** using the standard mock interface. You **don't need to pytests `assert` function**.
 ```py
+def check_method_call(mocker):
+  my_mock = mocker.Mock()
+  my
+```
 
 You can **mock methods and function returns** using the `patch` method on `mocker`. This takes the name of the method that is being mocked as a string, and a named argument `return_value` set equal to mocked return. In the example below the `expensive_user` function calls the `expensive_function` when it returns, which is computationally intensive. To mock this function, which also inside the `expf` file, it is referenced with `expf.expensive_function`. The `patch` method is **function scoped**, if you mock a value differently in different test functions these will not conflict.
 ```py
@@ -122,10 +126,10 @@ If you want to **patch a method or function imported from a different file** to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzY5NjIzMiw5NjI0NTI4MzEsNTgzNT
-AyNDkzLDQ3NTQwMTQxMywtMTU5ODkxMzUwMSwyMDgwNjQzMDI1
-LDEwMzMwNTc1ODcsLTE2ODI4Mjg5NzQsLTIwMDk2NDYwOTMsLT
-E2MjI1OTAyODcsMTkwMTE4Nzc0NSwtODkzNDc1MTIwLDE0NDcx
-ODUxMjYsNzA4NzAzOTg4LDE5MDY5MzU1NjcsNzYyOTMzMzcwLD
-I2Mjg1NzU4MV19
+eyJoaXN0b3J5IjpbLTE2NDA4NDc5OTAsOTYyNDUyODMxLDU4Mz
+UwMjQ5Myw0NzU0MDE0MTMsLTE1OTg5MTM1MDEsMjA4MDY0MzAy
+NSwxMDMzMDU3NTg3LC0xNjgyODI4OTc0LC0yMDA5NjQ2MDkzLC
+0xNjIyNTkwMjg3LDE5MDExODc3NDUsLTg5MzQ3NTEyMCwxNDQ3
+MTg1MTI2LDcwODcwMzk4OCwxOTA2OTM1NTY3LDc2MjkzMzM3MC
+wyNjI4NTc1ODFdfQ==
 -->
