@@ -88,7 +88,7 @@ It's not clear how we can solve the problem of finding the gradient or rate of c
 })
 </script>
 
-We can however approximate the rate of change in a local area of the graph by drawing a straight line between two points on the graph and calculating the gradient for that straight line with the simple *change in y over change in x* formula above. The graph below shows a zoomed in section of the `y = x^2` curve with a line that intersects two points on the curve. Calculating the gradient of this line can approximate the rate of change at that point.
+We can however approximate the rate of change in a local area of the graph by drawing a straight line between two points on the graph and calculating the gradient for that straight line with the simple *change in  over change in * formula above. The graph below shows a zoomed in section of the `y = x^2` curve with a line that intersects two points on the curve. Calculating the gradient of this line can approximate the rate of change at that point.
 
 <div id="average"></div>
 <script>
@@ -130,7 +130,7 @@ However, there's a problem. With this method of testing smaller and smaller real
 
 ## Algebraic Approach
 
-You can **derive this intuition about the derivative** algebraically from the *change in y over change in x* formula by thinking about in terms of this very small difference between two points, a difference which shrinks towards (but never actually reaches) zero. The name for this is sometimes also called `dx`. For a function:
+You can **derive this intuition about the derivative** algebraically from the *change in  over change in * formula by thinking about in terms of this very small difference between two points, a difference which shrinks towards (but never actually reaches) zero. The name for this is sometimes also called `dx`. For a function:
 
 
 <p>
@@ -212,7 +212,7 @@ The **power rule** states that you can **calculate the derivative for function w
 
 <p>
 $$
-{x^n}' = nx^{n-1}
+x^n' = nx^{n-1}
 $$
 </p>
 
@@ -220,8 +220,8 @@ Examples:
 
 <p>
 $$
-{x^3}' = 3x^2 \\[5pt]
-{5x^4}' = 20x^3
+x^3' = 3x^2 \\[5pt]
+5x^4' = 20x^3
 $$
 </p>
 
@@ -229,7 +229,7 @@ This **also works for fractional and negative powers**:
 
 <p>
 $$
-{\frac{1}{x}}' = {x^{-1}}' = -x^{-2} = \frac{-1}{x^2} \\[5pt]
+\frac{1}{x}' = x^{-1}' = -x^{-2} = \frac{-1}{x^2} \\[5pt]
 $$
 </p>
 
@@ -249,9 +249,9 @@ $$
 $$
 </p>
 
-### Why does the power rule work?
+### *Why does the power rule work?
 
-Why does this method of manipulating the powers generalise? One way to think about this generalisation is based on the rules for expanding expressions that are raised to a power. Taking the example of `f(x) = x^3`. This means that the `Δx` component of this equation will be:
+** Why does this method of manipulating the powers generalise? One way to think about this generalisation is based on the rules for expanding expressions that are raised to a power. Taking the example of `f(x) = x^3`. This means that the `Δx` component of this equation will be:
 
 <p>
 $$
@@ -466,5 +466,6 @@ $$
 Intuitively this makes sense because **the derivative of a function that takes another funtion** will be **that function's derivative adjusted proportionally by the derivative of the input function**. This is why the input to the derivative of the outer function remains constant, that change is reflected by multiplying the outer function's derivative by that of the inner function, while the input has to remain static for this propertional change of *just* the derivative to take effect.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjM0NDEyLDQ5ODYxMDg5MF19
+eyJoaXN0b3J5IjpbMjE0Mjk0MTA3OCwtNjI2MzQ0MTIsNDk4Nj
+EwODkwXX0=
 -->
