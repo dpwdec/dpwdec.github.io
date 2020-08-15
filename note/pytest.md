@@ -100,6 +100,7 @@ def some_test(mocker):
 The **`pytest-mock` module is simply a wrapper around standard `mock` library** that allows it work as a fixture. Everything that you can do with python's `unittest.mock` library you can do with pytest's `mocker` fixture.
 ```py
 def mock_functionality(mocker):
+  # create a mock class
   my_mock = mocker.Mock()
 ```
 
@@ -118,10 +119,10 @@ If you want to **patch a method or function imported from a different file** to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTI2MDg5Niw5NjI0NTI4MzEsNTgzNT
-AyNDkzLDQ3NTQwMTQxMywtMTU5ODkxMzUwMSwyMDgwNjQzMDI1
-LDEwMzMwNTc1ODcsLTE2ODI4Mjg5NzQsLTIwMDk2NDYwOTMsLT
-E2MjI1OTAyODcsMTkwMTE4Nzc0NSwtODkzNDc1MTIwLDE0NDcx
-ODUxMjYsNzA4NzAzOTg4LDE5MDY5MzU1NjcsNzYyOTMzMzcwLD
-I2Mjg1NzU4MV19
+eyJoaXN0b3J5IjpbLTEwMDAyMDM1ODIsOTYyNDUyODMxLDU4Mz
+UwMjQ5Myw0NzU0MDE0MTMsLTE1OTg5MTM1MDEsMjA4MDY0MzAy
+NSwxMDMzMDU3NTg3LC0xNjgyODI4OTc0LC0yMDA5NjQ2MDkzLC
+0xNjIyNTkwMjg3LDE5MDExODc3NDUsLTg5MzQ3NTEyMCwxNDQ3
+MTg1MTI2LDcwODcwMzk4OCwxOTA2OTM1NTY3LDc2MjkzMzM3MC
+wyNjI4NTc1ODFdfQ==
 -->
