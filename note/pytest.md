@@ -97,6 +97,8 @@ def some_test(mocker):
   # use mocker here to mock things
 ```
 
+The **`pytest-mock` module is simply a wrapper around standard `mock` library** that allows it work as a fixture. Everything that you can do with python's `unittest.mock` library you can do with pytest's `mocker`
+
 You can **mock methods and function returns** using the `patch` method on `mocker`. This takes the name of the method that is being mocked as a string, and a named argument `return_value` set equal to mocked return. In the example below the `expensive_user` function calls the `expensive_function` when it returns, which is computationally intensive. To mock this function, which also inside the `expf` file, it is referenced with `expf.expensive_function`. The `patch` method is **function scoped**, if you mock a value differently in different test functions these will not conflict.
 ```py
 from expf import expensive_user
@@ -112,10 +114,10 @@ If you want to **patch a method or function imported from a different file** to 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyNDUyODMxLDU4MzUwMjQ5Myw0NzU0MD
-E0MTMsLTE1OTg5MTM1MDEsMjA4MDY0MzAyNSwxMDMzMDU3NTg3
-LC0xNjgyODI4OTc0LC0yMDA5NjQ2MDkzLC0xNjIyNTkwMjg3LD
-E5MDExODc3NDUsLTg5MzQ3NTEyMCwxNDQ3MTg1MTI2LDcwODcw
-Mzk4OCwxOTA2OTM1NTY3LDc2MjkzMzM3MCwyNjI4NTc1ODFdfQ
-==
+eyJoaXN0b3J5IjpbNDE0MTYxOTIxLDk2MjQ1MjgzMSw1ODM1MD
+I0OTMsNDc1NDAxNDEzLC0xNTk4OTEzNTAxLDIwODA2NDMwMjUs
+MTAzMzA1NzU4NywtMTY4MjgyODk3NCwtMjAwOTY0NjA5MywtMT
+YyMjU5MDI4NywxOTAxMTg3NzQ1LC04OTM0NzUxMjAsMTQ0NzE4
+NTEyNiw3MDg3MDM5ODgsMTkwNjkzNTU2Nyw3NjI5MzMzNzAsMj
+YyODU3NTgxXX0=
 -->
