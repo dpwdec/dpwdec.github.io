@@ -355,7 +355,7 @@ my_object.x = 20 # <-- BETTER
 
 ## Abstract Classes
 
-You can **create an abstract class** by making a class inherit from the `abc` modules `ABC` class, which stands `Abstract Base Class`.
+You can **create an abstract class** by making a class inherit from the `abc` modules `ABC` class, which stands `Abstract Base Class`. An abstract class **can only be instantiated by inheritance and all of its methods being implemented** in that inheriting sub class.
 ```py
 from abc import ABC
 
@@ -363,7 +363,10 @@ MyAbstractClass(ABC):
   pass
 ```
 
+You can **create abstract methods** using the `@abstractmethod` decorator. This also needs to be imported.
+```py
 
+```
 
 ## Magic Methods
 
@@ -474,11 +477,11 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTMxMzUxOTYsMTMxMjc1MjkwMSw4Mz
-Q4OTkwOTQsLTIxMDU2ODQ2MzcsMjgzOTg4NDc5LDE5MDUxODUz
-MDIsLTI5Mzk5OTA3MywtOTc4ODM5Mzk1LDE5OTgxODcxODgsNT
-YxODU5MDgsLTE5OTM1OTMxNjQsLTI0NTMyODc1MiwyNTc2MjY3
-OTcsMjAxNzg5NTM4MCwtMTg2NjkyMzAyNywxMzczMTMzNTcxLC
-0xNDQ1OTQ0NzUsNDg4NDY3MjQ4LC04OTcwNTk3ODIsLTY5ODM3
-Mjk1MF19
+eyJoaXN0b3J5IjpbLTE4MTUwMzAwMSwtMjAxMzEzNTE5NiwxMz
+EyNzUyOTAxLDgzNDg5OTA5NCwtMjEwNTY4NDYzNywyODM5ODg0
+NzksMTkwNTE4NTMwMiwtMjkzOTk5MDczLC05Nzg4MzkzOTUsMT
+k5ODE4NzE4OCw1NjE4NTkwOCwtMTk5MzU5MzE2NCwtMjQ1MzI4
+NzUyLDI1NzYyNjc5NywyMDE3ODk1MzgwLC0xODY2OTIzMDI3LD
+EzNzMxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0NjcyNDgsLTg5NzA1
+OTc4Ml19
 -->
