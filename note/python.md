@@ -441,7 +441,8 @@ You can **alias types to names** by simply assigning them with `=` equals.
 ```py
 from typing import List
 
-
+Vertex = int
+Vector = List
 ```
 
 ## time
@@ -508,7 +509,7 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MzkwMTg2MSwxMDA1MzU0MTcyLC02Mz
+eyJoaXN0b3J5IjpbMjA1OTQ5NjM4OSwxMDA1MzU0MTcyLC02Mz
 M3MDYwMTcsLTIwMTMxMzUxOTYsMTMxMjc1MjkwMSw4MzQ4OTkw
 OTQsLTIxMDU2ODQ2MzcsMjgzOTg4NDc5LDE5MDUxODUzMDIsLT
 I5Mzk5OTA3MywtOTc4ODM5Mzk1LDE5OTgxODcxODgsNTYxODU5
