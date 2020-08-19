@@ -287,7 +287,9 @@ simple()
 # => I've made this function much better.
 ```
 
+### Type Hints
 
+You can **add type hints to for **
 
 ## Classes
 
@@ -483,11 +485,11 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzcwNjAxNywtMjAxMzEzNTE5NiwxMz
-EyNzUyOTAxLDgzNDg5OTA5NCwtMjEwNTY4NDYzNywyODM5ODg0
-NzksMTkwNTE4NTMwMiwtMjkzOTk5MDczLC05Nzg4MzkzOTUsMT
-k5ODE4NzE4OCw1NjE4NTkwOCwtMTk5MzU5MzE2NCwtMjQ1MzI4
-NzUyLDI1NzYyNjc5NywyMDE3ODk1MzgwLC0xODY2OTIzMDI3LD
-EzNzMxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0NjcyNDgsLTg5NzA1
-OTc4Ml19
+eyJoaXN0b3J5IjpbMTAxNjQxMDk1MCwtNjMzNzA2MDE3LC0yMD
+EzMTM1MTk2LDEzMTI3NTI5MDEsODM0ODk5MDk0LC0yMTA1Njg0
+NjM3LDI4Mzk4ODQ3OSwxOTA1MTg1MzAyLC0yOTM5OTkwNzMsLT
+k3ODgzOTM5NSwxOTk4MTg3MTg4LDU2MTg1OTA4LC0xOTkzNTkz
+MTY0LC0yNDUzMjg3NTIsMjU3NjI2Nzk3LDIwMTc4OTUzODAsLT
+E4NjY5MjMwMjcsMTM3MzEzMzU3MSwtMTQ0NTk0NDc1LDQ4ODQ2
+NzI0OF19
 -->
