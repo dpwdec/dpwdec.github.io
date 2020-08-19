@@ -182,7 +182,7 @@ You can **set the color of text or page elements** using the `xcolor` package. T
 
 {
 \color{red}
-
+\rule{\linewidth}{0.5mm}
 }
 ```
 
@@ -239,9 +239,9 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybinding for zooming. This can also be used for **making code text smaller**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDU5OTYsOTExNTc4MywyMDI3Njc5MT
-M1LDkyMTI1MTY5MywtMzEyNjkxMDI1LC04NjQyNDA3MTIsLTE4
-NTQyNjE1MTMsMzQ1OTk5NzgwLDE2ODY2ODQ2OTUsMTU4NDAzMz
-c0MCwxMTkzMTU2NTQ3LC0xMjM1ODc4ODA0LC0xNzA4OTIyMzQ5
-LDUyODYwNjQwNV19
+eyJoaXN0b3J5IjpbLTQyNDY5NjAyOSw5MTE1NzgzLDIwMjc2Nz
+kxMzUsOTIxMjUxNjkzLC0zMTI2OTEwMjUsLTg2NDI0MDcxMiwt
+MTg1NDI2MTUxMywzNDU5OTk3ODAsMTY4NjY4NDY5NSwxNTg0MD
+MzNzQwLDExOTMxNTY1NDcsLTEyMzU4Nzg4MDQsLTE3MDg5MjIz
+NDksNTI4NjA2NDA1XX0=
 -->
