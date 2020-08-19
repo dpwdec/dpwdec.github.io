@@ -176,7 +176,15 @@ You can **create a horizontal line** using the `rule` command in the format `\ru
 
 ### Color
 
-You can **set the color of text or page elements** using the `xcolor` package.
+You can **set the color of text or page elements** using the `xcolor` package. To do this simply include the `color` tag inside `{ }` curly brackets with the content you want to color.
+```latex
+\usepackage{xcolor}
+
+{
+\color{red}
+
+}
+```
 
 ## Lists
 
@@ -231,7 +239,7 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybinding for zooming. This can also be used for **making code text smaller**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjYzNzEsOTExNTc4MywyMDI3Njc5MT
+eyJoaXN0b3J5IjpbMTgzNDU5OTYsOTExNTc4MywyMDI3Njc5MT
 M1LDkyMTI1MTY5MywtMzEyNjkxMDI1LC04NjQyNDA3MTIsLTE4
 NTQyNjE1MTMsMzQ1OTk5NzgwLDE2ODY2ODQ2OTUsMTU4NDAzMz
 c0MCwxMTkzMTU2NTQ3LC0xMjM1ODc4ODA0LC0xNzA4OTIyMzQ5
