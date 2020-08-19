@@ -174,6 +174,10 @@ You can **create a horizontal line** using the `rule` command in the format `\ru
 \noindent\rule{2cm}{0.4pt}
 ```
 
+### Color
+
+You can **set the color of text or page elements** using the `xcolor` package.
+
 ## Lists
 
 You can **create lists** by using a `begin` and `end` environment with the list environment indicator. You can **create an unordered list** with the `itemsize` indicator. Each element in the list should have the `\item` indicator before it.
@@ -227,9 +231,9 @@ A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybinding for zooming. This can also be used for **making code text smaller**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExNTc4MywyMDI3Njc5MTM1LDkyMTI1MT
-Y5MywtMzEyNjkxMDI1LC04NjQyNDA3MTIsLTE4NTQyNjE1MTMs
-MzQ1OTk5NzgwLDE2ODY2ODQ2OTUsMTU4NDAzMzc0MCwxMTkzMT
-U2NTQ3LC0xMjM1ODc4ODA0LC0xNzA4OTIyMzQ5LDUyODYwNjQw
-NV19
+eyJoaXN0b3J5IjpbLTYzMjYzNzEsOTExNTc4MywyMDI3Njc5MT
+M1LDkyMTI1MTY5MywtMzEyNjkxMDI1LC04NjQyNDA3MTIsLTE4
+NTQyNjE1MTMsMzQ1OTk5NzgwLDE2ODY2ODQ2OTUsMTU4NDAzMz
+c0MCwxMTkzMTU2NTQ3LC0xMjM1ODc4ODA0LC0xNzA4OTIyMzQ5
+LDUyODYwNjQwNV19
 -->
