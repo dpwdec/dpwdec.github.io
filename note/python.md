@@ -353,6 +353,10 @@ my_object.set_x(20) # <-- NOT SO GOOD
 my_object.x = 20 # <-- BETTER
 ```
 
+## Abstract Classes
+
+
+
 ## Magic Methods
 
 Magic Methods, such as `__init__` or `__add__`, also known as Dunder methods (because they have *double underscores* in their name) are special python methods for doing specific object related tasks in python. They also define arithmetic and comparative operator functions on objects in python.
@@ -462,11 +466,11 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMjc1MjkwMSw4MzQ4OTkwOTQsLTIxMD
-U2ODQ2MzcsMjgzOTg4NDc5LDE5MDUxODUzMDIsLTI5Mzk5OTA3
-MywtOTc4ODM5Mzk1LDE5OTgxODcxODgsNTYxODU5MDgsLTE5OT
-M1OTMxNjQsLTI0NTMyODc1MiwyNTc2MjY3OTcsMjAxNzg5NTM4
-MCwtMTg2NjkyMzAyNywxMzczMTMzNTcxLC0xNDQ1OTQ0NzUsND
-g4NDY3MjQ4LC04OTcwNTk3ODIsLTY5ODM3Mjk1MCwtMjgyNzQ2
-NTRdfQ==
+eyJoaXN0b3J5IjpbLTgzMzU0NTc4NSwxMzEyNzUyOTAxLDgzND
+g5OTA5NCwtMjEwNTY4NDYzNywyODM5ODg0NzksMTkwNTE4NTMw
+MiwtMjkzOTk5MDczLC05Nzg4MzkzOTUsMTk5ODE4NzE4OCw1Nj
+E4NTkwOCwtMTk5MzU5MzE2NCwtMjQ1MzI4NzUyLDI1NzYyNjc5
+NywyMDE3ODk1MzgwLC0xODY2OTIzMDI3LDEzNzMxMzM1NzEsLT
+E0NDU5NDQ3NSw0ODg0NjcyNDgsLTg5NzA1OTc4MiwtNjk4Mzcy
+OTUwXX0=
 -->
