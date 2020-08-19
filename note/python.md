@@ -287,10 +287,6 @@ simple()
 # => I've made this function much better.
 ```
 
-### Type Hints
-
-You can **add type hints to for **
-
 ## Classes
 
 You can **indicate that a variable or method is private** by prepending an `_` to the front of the variable name. This doesn't *enforce* privacy but is generally accepted as a privacy naming convention and so other developers shouldn't try to directly access these methods as an interface in their code.
@@ -421,6 +417,10 @@ If  `__repr__` had not been defined in `MyObject` when we printed an instance of
 | `__gr__` | `>` |
 | `__lt__` | `<` |
 
+## Type Hints
+
+You can **add type hints to for the inputs and outs of functions and classes** using `:` colon synta
+
 ## time
 
 You can **make a thread sleep or block** for a period of time using the `sleep` module in the `time` library.
@@ -485,7 +485,7 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjQxMDk1MCwtNjMzNzA2MDE3LC0yMD
+eyJoaXN0b3J5IjpbMTAzODA3ODQxMiwtNjMzNzA2MDE3LC0yMD
 EzMTM1MTk2LDEzMTI3NTI5MDEsODM0ODk5MDk0LC0yMTA1Njg0
 NjM3LDI4Mzk4ODQ3OSwxOTA1MTg1MzAyLC0yOTM5OTkwNzMsLT
 k3ODgzOTM5NSwxOTk4MTg3MTg4LDU2MTg1OTA4LC0xOTkzNTkz
