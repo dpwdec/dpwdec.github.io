@@ -437,7 +437,7 @@ def scores() -> Dict[str, int]:
   }
 ```
 
-You can **alias types to names** by simply assigning them with `=` equals. In the example below, the `int` type is aliased to `Vertex`
+You can **alias types to names** by simply assigning them with `=` equals. In the example below, the `int` type is aliased to `Vertex` and a list of "`Vertex`es" is aliased as a `Vector`.
 ```py
 from typing import List
 
@@ -509,11 +509,11 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODkxMTA3NiwxMDA1MzU0MTcyLC02Mz
-M3MDYwMTcsLTIwMTMxMzUxOTYsMTMxMjc1MjkwMSw4MzQ4OTkw
-OTQsLTIxMDU2ODQ2MzcsMjgzOTg4NDc5LDE5MDUxODUzMDIsLT
-I5Mzk5OTA3MywtOTc4ODM5Mzk1LDE5OTgxODcxODgsNTYxODU5
-MDgsLTE5OTM1OTMxNjQsLTI0NTMyODc1MiwyNTc2MjY3OTcsMj
-AxNzg5NTM4MCwtMTg2NjkyMzAyNywxMzczMTMzNTcxLC0xNDQ1
-OTQ0NzVdfQ==
+eyJoaXN0b3J5IjpbLTE4MTExNTcyNTgsMTAwNTM1NDE3MiwtNj
+MzNzA2MDE3LC0yMDEzMTM1MTk2LDEzMTI3NTI5MDEsODM0ODk5
+MDk0LC0yMTA1Njg0NjM3LDI4Mzk4ODQ3OSwxOTA1MTg1MzAyLC
+0yOTM5OTkwNzMsLTk3ODgzOTM5NSwxOTk4MTg3MTg4LDU2MTg1
+OTA4LC0xOTkzNTkzMTY0LC0yNDUzMjg3NTIsMjU3NjI2Nzk3LD
+IwMTc4OTUzODAsLTE4NjY5MjMwMjcsMTM3MzEzMzU3MSwtMTQ0
+NTk0NDc1XX0=
 -->
