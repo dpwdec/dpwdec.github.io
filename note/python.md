@@ -425,7 +425,7 @@ def greeting(name: str) -> str:
   return f"Hello {name}"
 ```
 
-
+You can **add type hints for the inputs of **
 
 ## time
 
@@ -491,7 +491,7 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzE4MDE3NCwtNjMzNzA2MDE3LC0yMD
+eyJoaXN0b3J5IjpbMTcwMjU4MzkyNCwtNjMzNzA2MDE3LC0yMD
 EzMTM1MTk2LDEzMTI3NTI5MDEsODM0ODk5MDk0LC0yMTA1Njg0
 NjM3LDI4Mzk4ODQ3OSwxOTA1MTg1MzAyLC0yOTM5OTkwNzMsLT
 k3ODgzOTM5NSwxOTk4MTg3MTg4LDU2MTg1OTA4LC0xOTkzNTkz
