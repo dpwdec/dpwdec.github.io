@@ -425,10 +425,14 @@ def greeting(name: str) -> str:
   return f"Hello {name}"
 ```
 
-You can **add type hints for the inputs of collections**.
+You can **add type hints for the inputs of collections**. The `scores` function below has a type hint indicating it returns a `Dict` with `str` type keys and `int` type values.
 ```py
 def scores() -> Dict[str, int]:
-  
+  return {
+    "Jason": 20,
+	"Gertrude": 19,
+	"Mildred": 331
+  }
 ```
 
 ## time
@@ -495,11 +499,11 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTAzNjAyNjQsLTYzMzcwNjAxNywtMj
-AxMzEzNTE5NiwxMzEyNzUyOTAxLDgzNDg5OTA5NCwtMjEwNTY4
-NDYzNywyODM5ODg0NzksMTkwNTE4NTMwMiwtMjkzOTk5MDczLC
-05Nzg4MzkzOTUsMTk5ODE4NzE4OCw1NjE4NTkwOCwtMTk5MzU5
-MzE2NCwtMjQ1MzI4NzUyLDI1NzYyNjc5NywyMDE3ODk1MzgwLC
-0xODY2OTIzMDI3LDEzNzMxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0
-NjcyNDhdfQ==
+eyJoaXN0b3J5IjpbMTAwNTM1NDE3MiwtNjMzNzA2MDE3LC0yMD
+EzMTM1MTk2LDEzMTI3NTI5MDEsODM0ODk5MDk0LC0yMTA1Njg0
+NjM3LDI4Mzk4ODQ3OSwxOTA1MTg1MzAyLC0yOTM5OTkwNzMsLT
+k3ODgzOTM5NSwxOTk4MTg3MTg4LDU2MTg1OTA4LC0xOTkzNTkz
+MTY0LC0yNDUzMjg3NTIsMjU3NjI2Nzk3LDIwMTc4OTUzODAsLT
+E4NjY5MjMwMjcsMTM3MzEzMzU3MSwtMTQ0NTk0NDc1LDQ4ODQ2
+NzI0OF19
 -->
