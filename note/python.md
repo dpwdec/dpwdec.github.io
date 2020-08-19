@@ -370,7 +370,8 @@ from abc import ABC, abstractmethod
 MyAbstractClass(ABC):
   
   @abstrectmethod
-  def MyAbs
+  def MyAbstractMethod():
+    pass
 ```
 
 ## Magic Methods
@@ -482,11 +483,11 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTIzODM1NDYsLTIwMTMxMzUxOTYsMT
-MxMjc1MjkwMSw4MzQ4OTkwOTQsLTIxMDU2ODQ2MzcsMjgzOTg4
-NDc5LDE5MDUxODUzMDIsLTI5Mzk5OTA3MywtOTc4ODM5Mzk1LD
-E5OTgxODcxODgsNTYxODU5MDgsLTE5OTM1OTMxNjQsLTI0NTMy
-ODc1MiwyNTc2MjY3OTcsMjAxNzg5NTM4MCwtMTg2NjkyMzAyNy
-wxMzczMTMzNTcxLC0xNDQ1OTQ0NzUsNDg4NDY3MjQ4LC04OTcw
-NTk3ODJdfQ==
+eyJoaXN0b3J5IjpbLTYzMzcwNjAxNywtMjAxMzEzNTE5NiwxMz
+EyNzUyOTAxLDgzNDg5OTA5NCwtMjEwNTY4NDYzNywyODM5ODg0
+NzksMTkwNTE4NTMwMiwtMjkzOTk5MDczLC05Nzg4MzkzOTUsMT
+k5ODE4NzE4OCw1NjE4NTkwOCwtMTk5MzU5MzE2NCwtMjQ1MzI4
+NzUyLDI1NzYyNjc5NywyMDE3ODk1MzgwLC0xODY2OTIzMDI3LD
+EzNzMxMzM1NzEsLTE0NDU5NDQ3NSw0ODg0NjcyNDgsLTg5NzA1
+OTc4Ml19
 -->
