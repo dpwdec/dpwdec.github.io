@@ -11,6 +11,7 @@ $ pip3 install injector
 
 To **define a dependency injected constructor** use the `@inject` decorator on a class constructor. The **dependencies must also be typed** with hints so `Injector` knows which classes to inject. In the example below the `Container` class' constructor is marked with the `@inject` decorator and then the type hinter `Dependency` class is indicated as its dependency.
 ```py
+# class_examples.py
 from injector import inject
 
 class Dependency:
@@ -25,8 +26,12 @@ class Container:
 
 You can **instantiate a dependency injected class** by creating a new instance of `Injector` and using the `get` method with the class you want to instantiate as its argument.
 ```py
+from injector import Injector
 
+# make a new injector instance
+injector = Injector()
+container = injector.get(Container)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0NTE3MTExLDE3ODI5MjM1ODddfQ==
+eyJoaXN0b3J5IjpbLTE4MTM4MjIyNzcsMTc4MjkyMzU4N119
 -->
