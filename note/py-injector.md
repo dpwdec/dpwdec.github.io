@@ -24,14 +24,17 @@ class Container:
     self.dependency = dependency
 ```
 
-You can **instantiate a dependency injected class** by creating a new instance of `Injector` and using the `get` method with the class you want to instantiate as its argument.
+You can **instantiate a dependency injected class** by creating a new instance of `Injector` and using the `get` method with the class you want to instantiate as its argument. You **only need to import the highest level class** to the place where it is instantiated with all dependencies to be found.
 ```py
 from injector import Injector
 
 # make a new injector instance
 injector = Injector()
+# create a new container instance with dependencies automatically injected
 container = injector.get(Container)
+container.dependency.data # => 6744
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM4MjIyNzcsMTc4MjkyMzU4N119
+eyJoaXN0b3J5IjpbMTIyODA4MzIxOSwtMTgxMzgyMjI3NywxNz
+gyOTIzNTg3XX0=
 -->
