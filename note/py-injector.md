@@ -34,7 +34,9 @@ injector = Injector()
 container = injector.get(Container)
 container.dependency.data # => 6744
 ```
+
+You can **nest injected classes** by placing the `@inject` decorator on injected sub classes. You **still only need to create the outer class** for all nested dependencies to be found.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODA4MzIxOSwtMTgxMzgyMjI3NywxNz
-gyOTIzNTg3XX0=
+eyJoaXN0b3J5IjpbLTIxMzkwNDQzNDEsMTIyODA4MzIxOSwtMT
+gxMzgyMjI3NywxNzgyOTIzNTg3XX0=
 -->
