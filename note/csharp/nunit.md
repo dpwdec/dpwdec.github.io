@@ -32,14 +32,17 @@ Test methods should **follow an Arrange, Act, Assert** test pattern. First you a
 public void IsAdult_AgeGreaterThan18_ReturnsTrue
 {
   // Arrange
-  var 
+  var User
 }
 ```
 
 ## Assertions
 
-Y
+You can **make assertions using the `Assert`** object followed by a matcher object.
+```csharp
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzY5NDA1NCwtMTczMjA3MjU3NCwxMj
+eyJoaXN0b3J5IjpbLTU3MTA1NjI5NiwtMTczMjA3MjU3NCwxMj
 M0NDU4ODQ2LC0yMDIwNTU3NDIzLC0xNzg5NzUxOTk5XX0=
 -->
