@@ -51,10 +51,11 @@ You can **assert that something is true** in several ways:
 - Using the `That` method of `Assert` with a boolean evaluating expression. 
 - Using the `That` method of `Assert` with a boolean method on the `Is` object as an argument.
 ```csharp
-Assert.IsTrue(true);
+Assert.IsTrue(result);
 Assert.That(result == true);
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDM0NTk2MSwtMTczMjA3MjU3NCwxMj
+eyJoaXN0b3J5IjpbMTk5NDA4Mzk3OCwtMTczMjA3MjU3NCwxMj
 M0NDU4ODQ2LC0yMDIwNTU3NDIzLC0xNzg5NzUxOTk5XX0=
 -->
