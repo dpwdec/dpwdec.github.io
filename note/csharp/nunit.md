@@ -32,7 +32,11 @@ Test methods should **follow an Arrange, Act, Assert** test pattern. First you a
 public void IsAdult_AgeGreaterThan18_ReturnsTrue
 {
   // Arrange
-  var User
+  var user = new User();
+
+  // Act
+  result = user.IsRegistered();
+
 }
 ```
 
@@ -40,9 +44,9 @@ public void IsAdult_AgeGreaterThan18_ReturnsTrue
 
 You can **make assertions using the `Assert`** object followed by a matcher object. You can **assert that something is true** by using the `IsTrue` method on `Assert`.
 ```csharp
-Assert.IsTrue(true); 
+Assert.IsTrue(true); // => passes
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzMxNzg0NCwtMTczMjA3MjU3NCwxMj
+eyJoaXN0b3J5IjpbLTgxNTEwMTQ3OSwtMTczMjA3MjU3NCwxMj
 M0NDU4ODQ2LC0yMDIwNTU3NDIzLC0xNzg5NzUxOTk5XX0=
 -->
