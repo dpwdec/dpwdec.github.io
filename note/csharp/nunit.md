@@ -24,8 +24,12 @@ public void MyMethod_IsTrue_ReturnsName
 }
 ```
 
-Tetsts
+Test methods should **follow an Arrange, Act, Assert** test pattern. First you arrange any test set up, then you run your code, then you make an assertion against the result.
+```csharp
+[Test Method]
+public void IsAdult_AgeGreaterThan18_ReturnsTrue
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTY4NzAyMywtMTczMjA3MjU3NCwxMj
+eyJoaXN0b3J5IjpbLTYxNzA2NTE1OSwtMTczMjA3MjU3NCwxMj
 M0NDU4ODQ2LC0yMDIwNTU3NDIzLC0xNzg5NzUxOTk5XX0=
 -->
