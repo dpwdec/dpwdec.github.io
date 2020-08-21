@@ -154,6 +154,10 @@ public int balance
 }
 ```
 
+## References
+
+What does `Add Reference` actually do?
+
 ## Exceptions
 
 You can **throw a new exception** by using the `throw` keyword and creating a `new` instance of an exception with the exception's message as its argument. The most basic type of exception is `System.Exception`.
@@ -207,5 +211,6 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTE3NzMzMSwxNTAyMDI5ODEwXX0=
+eyJoaXN0b3J5IjpbLTEzNjI3Mjg4MDEsLTkwOTE3NzMzMSwxNT
+AyMDI5ODEwXX0=
 -->
