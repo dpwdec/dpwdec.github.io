@@ -37,6 +37,8 @@ public void IsAdult_AgeGreaterThan18_ReturnsTrue
   // Act
   result = user.IsRegistered();
 
+  // Assert
+  Assert.IsTrue(result);
 }
 ```
 
@@ -47,6 +49,6 @@ You can **make assertions using the `Assert`** object followed by a matcher obje
 Assert.IsTrue(true); // => passes
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTEwMTQ3OSwtMTczMjA3MjU3NCwxMj
+eyJoaXN0b3J5IjpbMjA0MTk3MTcxMiwtMTczMjA3MjU3NCwxMj
 M0NDU4ODQ2LC0yMDIwNTU3NDIzLC0xNzg5NzUxOTk5XX0=
 -->
