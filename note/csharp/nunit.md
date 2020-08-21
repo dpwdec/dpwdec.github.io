@@ -28,8 +28,12 @@ Test methods should **follow an Arrange, Act, Assert** test pattern. First you a
 ```csharp
 [Test Method]
 public void IsAdult_AgeGreaterThan18_ReturnsTrue
+{
+  // Arrange
+  var 
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzA2NTE1OSwtMTczMjA3MjU3NCwxMj
-M0NDU4ODQ2LC0yMDIwNTU3NDIzLC0xNzg5NzUxOTk5XX0=
+eyJoaXN0b3J5IjpbLTEwNTQyNzE5NTAsLTE3MzIwNzI1NzQsMT
+IzNDQ1ODg0NiwtMjAyMDU1NzQyMywtMTc4OTc1MTk5OV19
 -->
