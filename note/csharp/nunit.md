@@ -44,11 +44,13 @@ public void IsAdult_AgeGreaterThan18_ReturnsTrue
 
 ## Assertions
 
-You can **make assertions using the `Assert`** object followed by a matcher object. You can **assert that something is true** by using the `IsTrue` method on `Assert`.
+You can **make assertions using the `Assert`** object followed by a matcher object. 
+
+You can **assert that something is true** in several ways: By using the `IsTrue` method on `Assert`. By using the 
 ```csharp
 Assert.IsTrue(true); // => passes
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTk3MTcxMiwtMTczMjA3MjU3NCwxMj
+eyJoaXN0b3J5IjpbLTM5Nzg4MTY2MywtMTczMjA3MjU3NCwxMj
 M0NDU4ODQ2LC0yMDIwNTU3NDIzLC0xNzg5NzUxOTk5XX0=
 -->
