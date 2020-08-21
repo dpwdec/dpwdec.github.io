@@ -8,7 +8,7 @@ You can **add a new testing project** by `RMB` clicking on the project file and 
 
 You can **indicate test classes** by using the `[TestFixture]` decorator. The **convention for test class naming** is `NAME_OF_CLASSTests` so if we were testing a class called `User` the associated test class would be `UserTests`. 
 ```csharp
-
+using NUnit.Framework;
 
 [TestFixture]
 public class MyClassTests
@@ -36,6 +36,6 @@ public void IsAdult_AgeGreaterThan18_ReturnsTrue
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTgyNDIyMDAsLTE3MzIwNzI1NzQsMT
+eyJoaXN0b3J5IjpbLTE5MjI2ODI0MTMsLTE3MzIwNzI1NzQsMT
 IzNDQ1ODg0NiwtMjAyMDU1NzQyMywtMTc4OTc1MTk5OV19
 -->
