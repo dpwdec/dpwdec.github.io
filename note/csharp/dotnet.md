@@ -11,7 +11,7 @@ $ dotnet new console
 
 ## Var
 
-You can **use the `var` keyword** when the type of a variable is inferred or when you are working with an anonymous type. It's recommended to generally avoid using `var` unless you need to.
+You can **use the `var` keyword** when the type of a variable is inferred or when you are working with an anonymous type. It's recommended to generally avoid using `var` unless you need to or unless type inference is *very* clear to readers.
 ```csharp
 var age = 5;
 ```
@@ -207,5 +207,5 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzg0MDAzOSwxNTAyMDI5ODEwXX0=
+eyJoaXN0b3J5IjpbLTkwOTE3NzMzMSwxNTAyMDI5ODEwXX0=
 -->
