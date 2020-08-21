@@ -5,6 +5,8 @@ exclude: true
 ---
 
 To **install NUnit** you need to use `Nuget` to install 	`NUnit`.
+```powershell
+```
 
 To **make NUnit tests runnable in visual studio** you also need to install the `NUnit3TestAdapter`. This allows visual studio's test runner to recognise the NUnit tests.
 
@@ -62,6 +64,6 @@ Assert.That(result == true);
 Assert.That(result, Is.True);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDg5MjM3NywtMTczMjA3MjU3NCwxMj
-M0NDU4ODQ2LC0yMDIwNTU3NDIzLC0xNzg5NzUxOTk5XX0=
+eyJoaXN0b3J5IjpbLTE0MDUxMDEwNjAsLTE3MzIwNzI1NzQsMT
+IzNDQ1ODg0NiwtMjAyMDU1NzQyMywtMTc4OTc1MTk5OV19
 -->
