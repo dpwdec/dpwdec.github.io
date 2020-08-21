@@ -52,6 +52,15 @@ public void IsAdult_AgeGreaterThan18_ReturnsTrue
 
 You can **make assertions using the `Assert`** object followed by a matcher object. 
 
+You can **add hardcoded passing test skips** by using the `pass` method on the `Assert` object.
+```csharp
+[Test]
+public TestWillAlwaysPass()
+{
+  Assert.pass();
+}
+```
+
 You can **assert that something is true** in several ways: 
 - Using the `IsTrue` method on `Assert`. 
 - Using the `That` method of `Assert` with a boolean evaluating expression. 
@@ -64,6 +73,7 @@ Assert.That(result == true);
 Assert.That(result, Is.True);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDUxMDEwNjAsLTE3MzIwNzI1NzQsMT
-IzNDQ1ODg0NiwtMjAyMDU1NzQyMywtMTc4OTc1MTk5OV19
+eyJoaXN0b3J5IjpbMTQ1NjkzMDczNCwtMTQwNTEwMTA2MCwtMT
+czMjA3MjU3NCwxMjM0NDU4ODQ2LC0yMDIwNTU3NDIzLC0xNzg5
+NzUxOTk5XX0=
 -->
