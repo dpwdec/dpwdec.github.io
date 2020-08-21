@@ -17,9 +17,9 @@ public class MyClassTests
 }
 ```
 
-You can **indicate test methods** with the `[Test Method]` decorator. The **convention for naming test methods** is the form `TestName_Scenario_ExpectedResult`.
+You can **indicate test methods** with the `[Test]` decorator. The **convention for naming test methods** is the form `TestName_Scenario_ExpectedResult`.
 ```csharp
-[Test Method]
+[Test]
 public void MyMethod_IsTrue_ReturnsName
 {
   // test method code here
@@ -28,14 +28,18 @@ public void MyMethod_IsTrue_ReturnsName
 
 Test methods should **follow an Arrange, Act, Assert** test pattern. First you arrange any test set up, then you run your code, then you make an assertion against the result.
 ```csharp
-[Test Method]
+[Test]
 public void IsAdult_AgeGreaterThan18_ReturnsTrue
 {
   // Arrange
   var 
 }
 ```
+
+## Assertions
+
+Y
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjI2ODI0MTMsLTE3MzIwNzI1NzQsMT
-IzNDQ1ODg0NiwtMjAyMDU1NzQyMywtMTc4OTc1MTk5OV19
+eyJoaXN0b3J5IjpbMTE3NzY5NDA1NCwtMTczMjA3MjU3NCwxMj
+M0NDU4ODQ2LC0yMDIwNTU3NDIzLC0xNzg5NzUxOTk5XX0=
 -->
