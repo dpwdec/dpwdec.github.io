@@ -53,9 +53,9 @@ You can **assert that something is true** in several ways:
 ```csharp
 Assert.IsTrue(result);
 Assert.That(result == true);
-
+Assert.That(result, Is.True);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDA4Mzk3OCwtMTczMjA3MjU3NCwxMj
+eyJoaXN0b3J5IjpbMTE0Mzg1NDQ0MCwtMTczMjA3MjU3NCwxMj
 M0NDU4ODQ2LC0yMDIwNTU3NDIzLC0xNzg5NzUxOTk5XX0=
 -->
