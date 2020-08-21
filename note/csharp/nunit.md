@@ -11,15 +11,19 @@ You can **indicate test classes** by using the `[Test Class]` decorator. The **c
 [Test Class]
 public class MyClassTests
 {
-  // test code here
+  // test methods here
 }
 ```
 
 You can **indicate test methods** with the `[Test Method]` decorator. The **convention for naming test methods** is the form `TestName_Scenario_ExpectedResult`.
 ```csharp
-
+[Test Method]
+public void MyMethod_IsTrue_ReturnsName
+{
+  // test method code here
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDQ1ODg0NiwtMjAyMDU1NzQyMywtMT
-c4OTc1MTk5OV19
+eyJoaXN0b3J5IjpbLTE3MzIwNzI1NzQsMTIzNDQ1ODg0NiwtMj
+AyMDU1NzQyMywtMTc4OTc1MTk5OV19
 -->
