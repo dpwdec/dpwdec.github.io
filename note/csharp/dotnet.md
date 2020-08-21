@@ -9,6 +9,13 @@ You can **create a new console application** by using `dotnet new` command with 
 $ dotnet new console
 ```
 
+## Var
+
+You can **use the `var` keyword** when the type of a variable is inferred.
+```csharp
+var age = 5;
+```
+
 ## Strings
 
 You can **convert a number to a string** using the `ToString` method.
@@ -200,5 +207,5 @@ DateTime.Now;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMjAyOTgxMF19
+eyJoaXN0b3J5IjpbLTE5NjU0MTQ0MiwxNTAyMDI5ODEwXX0=
 -->
