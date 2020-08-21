@@ -15,8 +15,11 @@ public class MyClassTests
 }
 ```
 
-You can **indicate test methods** with the `[Test Method]` decorator. The **convention for**
+You can **indicate test methods** with the `[Test Method]` decorator. The **convention for naming test methods** is the form `TestName_Scenario_ExpectedResult`.
+```csharp
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzk5NjM0NiwtMjAyMDU1NzQyMywtMT
+eyJoaXN0b3J5IjpbMTIzNDQ1ODg0NiwtMjAyMDU1NzQyMywtMT
 c4OTc1MTk5OV19
 -->
