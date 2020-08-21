@@ -4,6 +4,10 @@ layout: page
 exclude: true
 ---
 
+To **install NUnit** you need to use `Nuget` to install 	`NUnit`.
+
+To **make NUnit**
+
 You can **add a new testing project** by `RMB` clicking on the project file and going to `Add -> New Project` and then selecting the `C# -> Tests` section and choosing a test project. The **accepted naming convention for these projects** is `NameOfProject.UnitTests`, or some other test descriptor separate by a `.` period.
 
 You can **indicate test classes** by using the `[TestFixture]` decorator. The **convention for test class naming** is `NAME_OF_CLASSTests` so if we were testing a class called `User` the associated test class would be `UserTests`. 
@@ -58,6 +62,6 @@ Assert.That(result == true);
 Assert.That(result, Is.True);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTEwNTExMCwtMTczMjA3MjU3NCwxMj
-M0NDU4ODQ2LC0yMDIwNTU3NDIzLC0xNzg5NzUxOTk5XX0=
+eyJoaXN0b3J5IjpbNjU1MTc0NzE3LC0xNzMyMDcyNTc0LDEyMz
+Q0NTg4NDYsLTIwMjA1NTc0MjMsLTE3ODk3NTE5OTldfQ==
 -->
