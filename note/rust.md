@@ -324,6 +324,10 @@ And the equivalent import code would reference this structure via the `crate`.
 use crate::eggs::ham;
 ```
 
+## Vec
+
+
+
 ## Traits
 
 Traits are used to define shared behaviour on generics by specifying that some set of generic objects in our system have a shared set things they can do. They are similar to `interfaces` in other languages. 
@@ -469,11 +473,11 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTY1Mjk0MywtNzE4MTM2MzYwLC0xNz
-k0NTk2NzYsMjA4ODQ5MjM3NywyMDYxNTA2MTUwLC0xMDY5NTY4
-ODk2LDE5MzYzMTE3MDgsNDExNjUxMCwtNjk5ODE0ODczLDk5NT
-Y4NDkzMywtMTY3MDkzOTIxMywtMTc0MTQ5MTgzMCw4NzAwMzk5
-MjUsMzgzMzQ0NzExLC0zNTI1NzgzNTEsLTE5NTEyMTM4NDQsLT
-E3MTI5NjEyNzEsMTAxMDkzNzg3OSwyNDU5MTA2MzUsLTEwMTI4
-MjY2OTBdfQ==
+eyJoaXN0b3J5IjpbMTMyMjkyMDQ1OSwxNzU5NjUyOTQzLC03MT
+gxMzYzNjAsLTE3OTQ1OTY3NiwyMDg4NDkyMzc3LDIwNjE1MDYx
+NTAsLTEwNjk1Njg4OTYsMTkzNjMxMTcwOCw0MTE2NTEwLC02OT
+k4MTQ4NzMsOTk1Njg0OTMzLC0xNjcwOTM5MjEzLC0xNzQxNDkx
+ODMwLDg3MDAzOTkyNSwzODMzNDQ3MTEsLTM1MjU3ODM1MSwtMT
+k1MTIxMzg0NCwtMTcxMjk2MTI3MSwxMDEwOTM3ODc5LDI0NTkx
+MDYzNV19
 -->
