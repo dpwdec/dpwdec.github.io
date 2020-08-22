@@ -326,7 +326,11 @@ use crate::eggs::ham;
 
 ## Vec
 
-You can
+You can **split a vec up into an a vec of slices** by using the `chunks` method.
+```rust
+let list = vec![1, 2, 3, 4, 5, 6];
+let 
+```
 
 ## Traits
 
@@ -473,7 +477,7 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTc1MjMwOCwxNzU5NjUyOTQzLC03MT
+eyJoaXN0b3J5IjpbLTMyMDk4NTY4OSwxNzU5NjUyOTQzLC03MT
 gxMzYzNjAsLTE3OTQ1OTY3NiwyMDg4NDkyMzc3LDIwNjE1MDYx
 NTAsLTEwNjk1Njg4OTYsMTkzNjMxMTcwOCw0MTE2NTEwLC02OT
 k4MTQ4NzMsOTk1Njg0OTMzLC0xNjcwOTM5MjEzLC0xNzQxNDkx
