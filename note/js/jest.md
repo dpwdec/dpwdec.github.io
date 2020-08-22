@@ -8,6 +8,11 @@ You can **run a specific test file** by using the `jest` command followed by the
 ```bash
 $ jest myTestFile.spec.js
 ```
+
+
+```js
+genMocksFromModule()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4NjM5MTE1XX0=
+eyJoaXN0b3J5IjpbLTE1MDA5NTQ2NzAsNzQ4NjM5MTE1XX0=
 -->
