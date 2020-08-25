@@ -32,8 +32,12 @@ it("has mocked the greet method", () => {
 	expect(Dependency.greet).toHaveBeenCalled();
 });
 ```
+You can **extend automocks locally to a test suite** as you would with any mock.
+```js
 
-You can **extend automocks in a persistent manner across multiple test suites** with a **manual mock** by creating a `__mocks__` folder in the same directory as the module that is automocked and then generating an automocked version of the module, extending it, and then exporting it. When you can `jest.mock` on that module from a test file, the extended mock from the `__mocks__` folder will be used.
+```
+
+You can **extend automocks in a persistent manner across multiple test suites** with a **manual mock** by creating a `__mocks__` folder in the same directory as the module that is automocked and then generating an automocked version of the module, extending it, and then exporting it. When you can `jest.mock` on that module from a test file, the extended mock from the `__mocks__` folder will be used. In the example below the `greet` method is extended with a mock return value. This return value will be available in any test suite automocks this module.
 ```js
 // __mocks__/dependency.js
 let Dependency = genMockFromModule("../dependency.js");
@@ -69,7 +73,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTg2OTQ5MiwxNzQzNTQzMTE0LC0xOD
+eyJoaXN0b3J5IjpbLTIyMDAzMDAwOSwxNzQzNTQzMTE0LC0xOD
 A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
 NDY3MCw3NDg2MzkxMTVdfQ==
 -->
