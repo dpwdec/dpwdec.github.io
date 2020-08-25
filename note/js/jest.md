@@ -16,10 +16,13 @@ genMocksFromModule()
 
 You can **mock the resolve value of a successful promise** by assigning a `Promise.resolve` as the `mockReturnValue` of a mock function.
 ```js
+const returnValue = { message: "OK" };
 let mockFunction = jest.fn();
-m
+mockFunction.mockReturnValue(Promise.resolve(returnValue));
 ```
+
+You can **mock the reject error of a failing promise** by assigning a `Promise.reject` as the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTY3MTE2NDgsLTE1MDE4NTg3NDYsLT
+eyJoaXN0b3J5IjpbLTExOTc3OTI5MzYsLTE1MDE4NTg3NDYsLT
 E1MDA5NTQ2NzAsNzQ4NjM5MTE1XX0=
 -->
