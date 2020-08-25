@@ -26,7 +26,8 @@ module.exports = Dependency;
 
 // dependency.spec.js
 jest.mock("./dependency.js");
-const dependency
+const Dependency = require("./dependency.js");
+
 ```
 
 ### Testing Async Functions
@@ -56,7 +57,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyODU4MTAwLDE3NDM1NDMxMTQsLTE4MD
-gyNzM4MzIsNDQ4Nzg5MzI3LC0xNTAxODU4NzQ2LC0xNTAwOTU0
-NjcwLDc0ODYzOTExNV19
+eyJoaXN0b3J5IjpbLTE2NTA4Mzc3NjMsMTc0MzU0MzExNCwtMT
+gwODI3MzgzMiw0NDg3ODkzMjcsLTE1MDE4NTg3NDYsLTE1MDA5
+NTQ2NzAsNzQ4NjM5MTE1XX0=
 -->
