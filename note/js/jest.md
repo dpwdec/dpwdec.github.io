@@ -33,7 +33,7 @@ it("has mocked the greet method", () => {
 });
 ```
 
-You can **extend automocks in a persistent manner** by using a **manual mocks**
+You can **extend automocks in a persistent manner** with a **manual mock** by creating a `__mocks__` folder in the same directory as the module that is automocked and then generating an automocked version of the module, extending it, and then exporting it. When 
 
 
 ### Testing Async Functions
@@ -63,7 +63,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4OTI1MjQyLDE3NDM1NDMxMTQsLTE4MD
-gyNzM4MzIsNDQ4Nzg5MzI3LC0xNTAxODU4NzQ2LC0xNTAwOTU0
-NjcwLDc0ODYzOTExNV19
+eyJoaXN0b3J5IjpbMTE1NDE3OTY2MiwxNzQzNTQzMTE0LC0xOD
+A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
+NDY3MCw3NDg2MzkxMTVdfQ==
 -->
