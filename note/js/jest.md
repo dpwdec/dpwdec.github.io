@@ -53,7 +53,20 @@ Dependency.greet.mockReturnValue("Hello");
 module.exports = Dependency;
 ```
 
-Another potential problem is that  **automocks persist changes to their data between tests** within a single test suite. This means that if you want to temporarily make your mock functions throw an error within a test and then change reset back to their original value as defined in your `__mocks__` file, you can't just import them directly inside your test file. To **scope your automock and manual mock objects** use the `resetModules` and `require` functions *inside* your tests `beforeEach` function. The `resetModules` removes all
+Another potential problem is that  **automocks persist changes to their data between tests** within a single test suite. This means that if you want to temporarily make your mock functions throw an error within a test and then change reset back to their original value as defined in your `__mocks__` file, you can't just import them directly inside your test file. To **scope your automock and manual mock objects** use the `resetModules` and `require` functions *inside* your tests `beforeEach` function. The `resetModules` removes all test specific changes made to the mock and the `require` within test set up reloads the original implementation leading to a cleaner separation of mock functionality.
+```js
+// dependency.spec.js
+describe("Dependency Test", () => {
+  let Dependency;
+  beforeEach(() => 
+});
+jest.mock("./dependency.js");
+const Dependency = require("./dependency.js");
+it("has mocked the greet method", () => {
+	Dependency.greet.mockReturnValue("Hello");
+	expect(Dependency.greet()).toEqual("Hello");
+});
+```
 
 
 ### Testing Async Functions
@@ -83,7 +96,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDc1NDUxNiwxNzQzNTQzMTE0LC0xOD
-A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
-NDY3MCw3NDg2MzkxMTVdfQ==
+eyJoaXN0b3J5IjpbLTIxMjkzODcwNjgsMTc0MzU0MzExNCwtMT
+gwODI3MzgzMiw0NDg3ODkzMjcsLTE1MDE4NTg3NDYsLTE1MDA5
+NTQ2NzAsNzQ4NjM5MTE1XX0=
 -->
