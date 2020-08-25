@@ -14,8 +14,8 @@ $ jest myTestFile.spec.js
 genMocksFromModule()
 ```
 
-You can **mock the resolve value of a successful promise** by assigning a `Promise.resolve
+You can **mock the resolve value of a successful promise** by assigning a `Promise.resolve` as the `mockReturnValue` of a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzAzMTgyNzgsLTE1MDA5NTQ2NzAsNz
+eyJoaXN0b3J5IjpbLTE1MDE4NTg3NDYsLTE1MDA5NTQ2NzAsNz
 Q4NjM5MTE1XX0=
 -->
