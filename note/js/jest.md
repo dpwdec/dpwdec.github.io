@@ -53,7 +53,7 @@ Dependency.greet.mockReturnValue("Hello");
 module.exports = Dependency;
 ```
 
-Another potential problem is that  **automocks persist changes to their data between tests** within a single test suite. This means that if you want to temporarily make your mock functions throw an error within a test and then change reset back to their original value as defined in your `__mocks__` file, you can't just import them 
+Another potential problem is that  **automocks persist changes to their data between tests** within a single test suite. This means that if you want to temporarily make your mock functions throw an error within a test and then change reset back to their original value as defined in your `__mocks__` file, you can't just import them directly inside your test file. To **scope your automock and manual mock objects** use the `resetModules` and `require` functions *inside* your tests `beforeEach` function. The `resetModules` removes all
 
 
 ### Testing Async Functions
@@ -83,7 +83,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzUyMTU1OSwxNzQzNTQzMTE0LC0xOD
+eyJoaXN0b3J5IjpbMTgzNDc1NDUxNiwxNzQzNTQzMTE0LC0xOD
 A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
 NDY3MCw3NDg2MzkxMTVdfQ==
 -->
