@@ -33,7 +33,12 @@ it("has mocked the greet method", () => {
 });
 ```
 
-You can **extend automocks in a persistent manner** with a **manual mock** by creating a `__mocks__` folder in the same directory as the module that is automocked and then generating an automocked version of the module, extending it, and then exporting it. When 
+You can **extend automocks in a persistent manner across multiple test suites** with a **manual mock** by creating a `__mocks__` folder in the same directory as the module that is automocked and then generating an automocked version of the module, extending it, and then exporting it. When you can `jest.mock` on that module from a test file, the extended mock from the `__mocks__` folder will be used.
+```js
+// __mocks__/dependency.js
+let Dependency = genMockFromModule("../dependency.js");
+
+```
 
 
 ### Testing Async Functions
@@ -63,7 +68,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NDE3OTY2MiwxNzQzNTQzMTE0LC0xOD
+eyJoaXN0b3J5IjpbLTI5MjE3ODI5OSwxNzQzNTQzMTE0LC0xOD
 A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
 NDY3MCw3NDg2MzkxMTVdfQ==
 -->
