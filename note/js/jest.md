@@ -97,13 +97,16 @@ describe("Dependency Test", () => {
 });
 ```
 
-You can **make these mock instances extensible and modifiable within tests** by creating a "private" mock method on the original mock object, assigning that to a property of the `mockImplementation` return object and then changing the outer method on a per test basis.
+You can **make instance of automocks  extensible and modifiable within tests** by creating a "private" mock method on the original mock object, assigning that to a property of the `mockImplementation` return object and then changing the outer method on a per test basis.
 ```js
+// __mocks__/mockClass
+let mockClass = genMockFromModule("../mockClass.js");
 mockClass = jest.fn();
 mockClass._greet = jest.fn();
 mockClass.mockImplementation(() => {
   return { greet: mockClass._greet }
 });
+module.exports = mockClass;
 ```
 
 
@@ -134,7 +137,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDUzMDc4NDksMTAxNjc3OTI2NCwxNz
-QzNTQzMTE0LC0xODA4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1
-ODc0NiwtMTUwMDk1NDY3MCw3NDg2MzkxMTVdfQ==
+eyJoaXN0b3J5IjpbMTgzMTI4MzE5MywxMDE2Nzc5MjY0LDE3ND
+M1NDMxMTQsLTE4MDgyNzM4MzIsNDQ4Nzg5MzI3LC0xNTAxODU4
+NzQ2LC0xNTAwOTU0NjcwLDc0ODYzOTExNV19
 -->
