@@ -34,6 +34,12 @@ mockInstance = new mockClass();
 mockInstace.name // => Belinda
 ```
 
+You can **mock global objects** (such as the `Date`) module by patching them directly from the global object.
+```js
+global.Date.now = jest.fn()
+global.Date.now.mock"01/09/2018"
+```
+
 
 ## Automocks
 
@@ -147,7 +153,8 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxMDE3MTQ3LDEwMTY3NzkyNjQsMTc0Mz
-U0MzExNCwtMTgwODI3MzgzMiw0NDg3ODkzMjcsLTE1MDE4NTg3
-NDYsLTE1MDA5NTQ2NzAsNzQ4NjM5MTE1XX0=
+eyJoaXN0b3J5IjpbLTU2MDA5NTk0MCw0OTEwMTcxNDcsMTAxNj
+c3OTI2NCwxNzQzNTQzMTE0LC0xODA4MjczODMyLDQ0ODc4OTMy
+NywtMTUwMTg1ODc0NiwtMTUwMDk1NDY3MCw3NDg2MzkxMTVdfQ
+==
 -->
