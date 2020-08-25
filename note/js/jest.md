@@ -38,7 +38,7 @@ You can **make these mock instances extensible and modifiable within tests** by 
 ```js
 mockClass = jest.fn();
 mockClass.mockImplementation(() => {
-  return { greet: "Belinda" }
+  return { greet: mockClass. }
 });
 ```
 
@@ -133,7 +133,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzQzMDUwMSwxNzQzNTQzMTE0LC0xOD
+eyJoaXN0b3J5IjpbMTAxNjc3OTI2NCwxNzQzNTQzMTE0LC0xOD
 A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
 NDY3MCw3NDg2MzkxMTVdfQ==
 -->
