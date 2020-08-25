@@ -21,12 +21,13 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.resolve(returnValue));
 ```
 
-You can **mock the reject error of a failing promise** by assigning a `Promise.reject` as the `mockReturnValue` of a mock function containing the error that you want the promise to fail to.
+You can **mock the reject error of a failing promise** by assigning a `Promise.reject` as the `mockReturnValue` of a mock function containing the error that you want the promise to fail to. *IMPORTANT:* If you add a `Promise.reject` to a
 ```js
 const error = new Error("Promise failed.");
-\
+let mockFunction = jest.fn();
+mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQyMjk0NDEsLTE1MDE4NTg3NDYsLT
-E1MDA5NTQ2NzAsNzQ4NjM5MTE1XX0=
+eyJoaXN0b3J5IjpbNDQ4Nzg5MzI3LC0xNTAxODU4NzQ2LC0xNT
+AwOTU0NjcwLDc0ODYzOTExNV19
 -->
