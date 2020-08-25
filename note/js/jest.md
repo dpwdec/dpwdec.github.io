@@ -53,22 +53,26 @@ Dependency.greet.mockReturnValue("Hello");
 module.exports = Dependency;
 ```
 
-Another potential problem is that  **automocks persist changes to their data between tests** within a single test suite. This means that if you want to temporarily make your mock functions throw an error within a test and then change reset back to their original value as defined in your `__mocks__` file, you can't just import them directly inside your test file. To **scope your automock and manual mock objects** use the `resetModules` and `require` functions *inside* your tests `beforeEach` function. The `resetModules` removes all test specific changes made to the mock and the `require` within test set up reloads the original implementation leading to a cleaner separation of mock functionality.
+Another potential problem is that  **automocks persist changes to their data between tests** within a single test suite. This means that if you want to temporarily make your mock functions throw an error within a test and then change reset back to their original value as defined in your `__mocks__` file, you can't just import them directly inside your test file. To **scope your automock and manual mock objects** use the `resetModules` and `require` functions *inside* your tests `beforeEach` function. The `resetModules` removes all test specific changes made to the mock and the `require` within test set up reloads the original implementation leading to a cleaner separation of mock functionality. You **should still include your call for jest to mock** at the head of the file.
 ```js
 // dependency.spec.js
+jest.mock("./dependency.js");
+
 describe("Dependency Test", () => {
   let Dependency;
   beforeEach(() => {
     jest.resetModules();
-    req
+    Dependecy = require("./dependency.js");
   });
-});
-jest.mock("./dependency.js");
-const Dependency = require("./dependency.js");
-it("has mocked the greet method", () => {
+  
+  it("has a", () => {
 	Dependency.greet.mockReturnValue("Hello");
 	expect(Dependency.greet()).toEqual("Hello");
+  });
+
+  
 });
+
 ```
 
 
@@ -99,7 +103,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTI0MTU3MiwxNzQzNTQzMTE0LC0xOD
+eyJoaXN0b3J5IjpbLTEwNDUxNDM2MSwxNzQzNTQzMTE0LC0xOD
 A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
 NDY3MCw3NDg2MzkxMTVdfQ==
 -->
