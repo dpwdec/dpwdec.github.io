@@ -34,7 +34,13 @@ mockInstance = new mockClass();
 mockInstace.name // => Belinda
 ```
 
-Y
+You can **make these mock instances extensible and modifiable within tests** by creating a "private" mock method on the original mock object, assigning that to a property of the `mockImplementation` return object and then changing the outer method on a per test basis.
+```js
+mockClass = jest.fn();
+mockClass.mockImplementation(() => {
+  return { greet: "Belinda" }
+});
+```
 
 ## Automocks
 
@@ -127,7 +133,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4MjI4OTYwLDE3NDM1NDMxMTQsLTE4MD
-gyNzM4MzIsNDQ4Nzg5MzI3LC0xNTAxODU4NzQ2LC0xNTAwOTU0
-NjcwLDc0ODYzOTExNV19
+eyJoaXN0b3J5IjpbLTYwMzQzMDUwMSwxNzQzNTQzMTE0LC0xOD
+A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
+NDY3MCw3NDg2MzkxMTVdfQ==
 -->
