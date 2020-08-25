@@ -23,10 +23,12 @@ outerMock.mockReturnValue({ innerMock: jest.fn() });
 outerMock().innerMock.mockReturnValue("OK");
 ```
 
-You can **mock the way classes and prototypes interact with the `new` keyword** by setting the return type of a `mockImplementation`.
+You can **mock the way classes and prototypes interact with the `new` keyword** by setting the mock object's `mockImplementation` to be a function that returns the result of the `new`.
 ```js
 mockClass = jest.fn();
-mock
+mockClass.mockImplementation(() => {
+  return { greet: () => "Hell
+});
 ```
 
 ## Automocks
@@ -120,7 +122,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc1MTI4NTYzLDE3NDM1NDMxMTQsLTE4MD
-gyNzM4MzIsNDQ4Nzg5MzI3LC0xNTAxODU4NzQ2LC0xNTAwOTU0
-NjcwLDc0ODYzOTExNV19
+eyJoaXN0b3J5IjpbLTExOTU2MzA1MTAsMTc0MzU0MzExNCwtMT
+gwODI3MzgzMiw0NDg3ODkzMjcsLTE1MDE4NTg3NDYsLTE1MDA5
+NTQ2NzAsNzQ4NjM5MTE1XX0=
 -->
