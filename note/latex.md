@@ -234,14 +234,17 @@ You can **insert math into a line of text** by using `$ ... $` two dollars signs
 A famous equation was $E=mc^2$ coined by Monsieur Einstein.
 ```
 
-You can **set the power of a root**
+You can **set the power of a root** by enclosing the power in `[]` square brackets before the value being rooted. The code below will display the cube root of nine.
+```latex
+\sqrt[3]{9}
+```
 
 ## TexShop
 
 You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybinding for zooming. This can also be used for **making code text smaller**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODMwNDk4OCwtNDI0Njk2MDI5LDkxMT
+eyJoaXN0b3J5IjpbMTQ2MTIyNTIxNSwtNDI0Njk2MDI5LDkxMT
 U3ODMsMjAyNzY3OTEzNSw5MjEyNTE2OTMsLTMxMjY5MTAyNSwt
 ODY0MjQwNzEyLC0xODU0MjYxNTEzLDM0NTk5OTc4MCwxNjg2Nj
 g0Njk1LDE1ODQwMzM3NDAsMTE5MzE1NjU0NywtMTIzNTg3ODgw
