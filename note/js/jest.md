@@ -39,7 +39,7 @@ jest.mock("./dependency.js");
 const Dependency = require("./dependency.js");
 it("has mocked the greet method", () => {
 	Dependency.greet.mockReturnValue("Hello");
-	expect(Dependency.greet).toHaveBeenCalled();
+	expect(Dependency.greet()).toHaveBeenCalled();
 });
 ```
 
@@ -79,7 +79,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTM2MjE2ODIsMTc0MzU0MzExNCwtMT
+eyJoaXN0b3J5IjpbLTIxNDQwOTQ2NDEsMTc0MzU0MzExNCwtMT
 gwODI3MzgzMiw0NDg3ODkzMjcsLTE1MDE4NTg3NDYsLTE1MDA5
 NTQ2NzAsNzQ4NjM5MTE1XX0=
 -->
