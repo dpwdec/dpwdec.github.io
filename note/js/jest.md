@@ -16,7 +16,7 @@ genMocksFromModule()
 
 ## Automocks
 
-Jest automocks allow you to generate a mock object automatically from a module. This feature will analyse the module that needs to be nm
+Jest automocks allow you to generate a mock object automatically from a module. This feature will analyse the module that needs to be mocked and automatically return a mock object which contains mock methods that match the names of the original object. To **automock a dependency** use the `J
 
 ### Testing Async Functions
 
@@ -45,7 +45,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzODYzMzQ5LDE3NDM1NDMxMTQsLTE4MD
+eyJoaXN0b3J5IjpbMjYxNDQ5MTY2LDE3NDM1NDMxMTQsLTE4MD
 gyNzM4MzIsNDQ4Nzg5MzI3LC0xNTAxODU4NzQ2LC0xNTAwOTU0
 NjcwLDc0ODYzOTExNV19
 -->
