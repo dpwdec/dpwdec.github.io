@@ -14,7 +14,14 @@ $ jest myTestFile.spec.js
 genMocksFromModule()
 ```
 
+## Mocks
 
+You can **chain mock return values** by calling a jest mock function and assigning the return property.
+```js
+outerMock = jest.fn();
+outerMock.mockReturnValue({ innerMock: jest.fn() });
+outerMock().innerMock.mockReturnValue(
+```
 
 ## Automocks
 
@@ -107,7 +114,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDI0ODAwNiwxNzQzNTQzMTE0LC0xOD
+eyJoaXN0b3J5IjpbLTIwMjE5NDE2MiwxNzQzNTQzMTE0LC0xOD
 A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
 NDY3MCw3NDg2MzkxMTVdfQ==
 -->
