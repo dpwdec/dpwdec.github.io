@@ -14,6 +14,10 @@ $ jest myTestFile.spec.js
 genMocksFromModule()
 ```
 
+## Automocks
+
+Jest automocks allow you to generate a set of mock functions automatically
+
 ### Testing Async Functions
 
 You can **test an `async` function** by prefacing the asynchronous code with the `await` keyword and defining the test function as `async` as well.
@@ -41,6 +45,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDgyNzM4MzIsNDQ4Nzg5MzI3LC0xNT
-AxODU4NzQ2LC0xNTAwOTU0NjcwLDc0ODYzOTExNV19
+eyJoaXN0b3J5IjpbMTc0MzU0MzExNCwtMTgwODI3MzgzMiw0ND
+g3ODkzMjcsLTE1MDE4NTg3NDYsLTE1MDA5NTQ2NzAsNzQ4NjM5
+MTE1XX0=
 -->
