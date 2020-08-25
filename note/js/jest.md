@@ -20,7 +20,12 @@ You can **chain mock return values** by calling a jest mock function and assigni
 ```js
 outerMock = jest.fn();
 outerMock.mockReturnValue({ innerMock: jest.fn() });
-outerMock().innerMock.mockReturnValue(
+outerMock().innerMock.mockReturnValue("OK");
+```
+
+You can **mock the way classes and prototypes interact with the `new` keyword** by setting the return type of a `mockImplementation`.
+```js
+mockClass = 
 ```
 
 ## Automocks
@@ -114,7 +119,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjE5NDE2MiwxNzQzNTQzMTE0LC0xOD
-A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
-NDY3MCw3NDg2MzkxMTVdfQ==
+eyJoaXN0b3J5IjpbLTE3ODM0NDI1NDUsMTc0MzU0MzExNCwtMT
+gwODI3MzgzMiw0NDg3ODkzMjcsLTE1MDE4NTg3NDYsLTE1MDA5
+NTQ2NzAsNzQ4NjM5MTE1XX0=
 -->
