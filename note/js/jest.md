@@ -16,7 +16,7 @@ genMocksFromModule()
 
 ## Automocks
 
-Jest automocks allow you to generate a mock object automatically from a module. This feature will analyse the module that needs to be mocked and automatically return a mock object which contains mock methods that match the names of the original object. To **automock a dependency** use the `jest.mock` function and then import the dependency.
+Jest automocks allow you to generate a mock object automatically from a module. This feature will analyse the module that needs to be mocked and automatically return a mock object which contains mock methods that match the names of the original object. To **automock a dependency** use the `jest.mock` function and then import the dependency. In the example below the `Dependency` object is automocked turning the `greet` method into a `jest.fn` automatically which allows for assertions to made against its state, whether it was called, what arguments it received etc.
 ```js
 // dependency.js
 const Dependency = {
@@ -32,6 +32,8 @@ it("has mocked the greet method", () => {
 	expect(Dependency.greet).toHaveBeenCalled();
 });
 ```
+
+
 
 ### Testing Async Functions
 
@@ -60,7 +62,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDAwMzk0MTYsMTc0MzU0MzExNCwtMT
-gwODI3MzgzMiw0NDg3ODkzMjcsLTE1MDE4NTg3NDYsLTE1MDA5
-NTQ2NzAsNzQ4NjM5MTE1XX0=
+eyJoaXN0b3J5IjpbLTc4NjU3NDQ0NywxNzQzNTQzMTE0LC0xOD
+A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
+NDY3MCw3NDg2MzkxMTVdfQ==
 -->
