@@ -16,7 +16,9 @@ genMocksFromModule()
 
 ## Automocks
 
-Jest automocks allow you to generate a mock object automatically from a module. This feature will analyse the module that needs to be mocked and automatically return a mock object which contains mock methods that match the names of the original object. To **automock a dependency** use the `jest.mock` function and then import the dependency. In the example below the `Dependency` object is automocked turning the `greet` method into a `jest.fn` automatically which allows for assertions to made against its state, whether it was called, what arguments it received etc. Automocks are **useful for large objects** as mocking does not need to be done manually and the mock structure will change automatically.
+Jest automocks allow you to generate a mock object automatically from a module. This feature will analyse the module that needs to be mocked and automatically return a mock object which contains mock methods that match the names of the original object. To **automock a dependency** use the `jest.mock` function and then import the dependency. It's important to note that **automocks DO NOT define any mock function return types** based on the current implementation. This has to be done manually. 
+
+In the example below the `Dependency` object is automocked turning the `greet` method into a `jest.fn` automatically which allows for assertions to made against its state, whether it was called, what arguments it received etc. Automocks are **useful for large objects** as mocking does not need to be done manually and the mock structure will change automatically.
 ```js
 // dependency.js
 const Dependency = {
@@ -51,6 +53,8 @@ Dependency.greet.mockReturnValue("Hello");
 module.exports = Dependency;
 ```
 
+Another potential problem with automocks is that they **persist changes**
+
 
 ### Testing Async Functions
 
@@ -79,7 +83,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5ODIwNTI4OCwxNzQzNTQzMTE0LC0xOD
+eyJoaXN0b3J5IjpbMTk2Mjg0MjMzNiwxNzQzNTQzMTE0LC0xOD
 A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
 NDY3MCw3NDg2MzkxMTVdfQ==
 -->
