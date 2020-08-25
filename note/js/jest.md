@@ -27,7 +27,10 @@ module.exports = Dependency;
 // dependency.spec.js
 jest.mock("./dependency.js");
 const Dependency = require("./dependency.js");
-
+it("has mocked the greet method", () => {
+	Dependency.greet();
+	expect(Dependency.greet).toHaveBeenCalled();
+});
 ```
 
 ### Testing Async Functions
@@ -57,7 +60,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTA4Mzc3NjMsMTc0MzU0MzExNCwtMT
+eyJoaXN0b3J5IjpbLTE4MDAwMzk0MTYsMTc0MzU0MzExNCwtMT
 gwODI3MzgzMiw0NDg3ODkzMjcsLTE1MDE4NTg3NDYsLTE1MDA5
 NTQ2NzAsNzQ4NjM5MTE1XX0=
 -->
