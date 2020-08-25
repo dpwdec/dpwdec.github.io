@@ -18,7 +18,11 @@ genMocksFromModule()
 
 You can **test an `async` function** by prefacing the asynchronous code with the `await` keyword and defining the test function as `async` as well.
 ```js
-
+it("tests an async function"), async () => {
+  let result = await asyncFunctionUnderTest();
+  
+  expect(result).toBe(true);
+});
 ```
 
 ### Mocking Promises
@@ -37,6 +41,6 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjg0NzY0NTAsNDQ4Nzg5MzI3LC0xNT
+eyJoaXN0b3J5IjpbLTE4MDgyNzM4MzIsNDQ4Nzg5MzI3LC0xNT
 AxODU4NzQ2LC0xNTAwOTU0NjcwLDc0ODYzOTExNV19
 -->
