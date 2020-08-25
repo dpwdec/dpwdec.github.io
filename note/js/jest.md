@@ -27,11 +27,14 @@ You can **mock the way classes and prototypes interact with the `new` keyword** 
 ```js
 mockClass = jest.fn();
 mockClass.mockImplementation(() => {
-  return { greet: () => "Hello";
+  return { name: "Belinda" }
 });
+
 mockInstance = new mockClass();
-mo
+mockInstace.name // => Belinda
 ```
+
+Y
 
 ## Automocks
 
@@ -124,7 +127,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4MDI0NTgyLDE3NDM1NDMxMTQsLTE4MD
+eyJoaXN0b3J5IjpbMzA4MjI4OTYwLDE3NDM1NDMxMTQsLTE4MD
 gyNzM4MzIsNDQ4Nzg5MzI3LC0xNTAxODU4NzQ2LC0xNTAwOTU0
 NjcwLDc0ODYzOTExNV19
 -->
