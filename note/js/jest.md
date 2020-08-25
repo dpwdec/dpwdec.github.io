@@ -22,6 +22,7 @@ Jest automocks allow you to generate a mock object automatically from a module. 
 let dependency = {
   greet: () => { return "Hello" }
 }
+module.exports = dependency;
 
 // dependency.spec.js
 jest.mock("./dependency.js");
@@ -55,7 +56,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwMDQyMDgwLDE3NDM1NDMxMTQsLTE4MD
-gyNzM4MzIsNDQ4Nzg5MzI3LC0xNTAxODU4NzQ2LC0xNTAwOTU0
-NjcwLDc0ODYzOTExNV19
+eyJoaXN0b3J5IjpbLTIyODYzNDU2NCwxNzQzNTQzMTE0LC0xOD
+A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
+NDY3MCw3NDg2MzkxMTVdfQ==
 -->
