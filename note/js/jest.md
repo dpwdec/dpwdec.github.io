@@ -14,6 +14,8 @@ $ jest myTestFile.spec.js
 genMocksFromModule()
 ```
 
+
+
 ## Automocks
 
 Jest automocks allow you to generate a mock object automatically from a module. This feature will analyse the module that needs to be mocked and automatically return a mock object which contains mock methods that match the names of the original object. To **automock a dependency** use the `jest.mock` function and then import the dependency. It's important to note that **automocks DO NOT define any mock function return types** based on the current implementation. This has to be done manually. 
@@ -65,12 +67,14 @@ describe("Dependency Test", () => {
     Dependecy = require("./dependency.js");
   });
   
-  it("has a", () => {
+  it("has a return value", () => {
 	Dependency.greet.mockReturnValue("Hello");
 	expect(Dependency.greet()).toEqual("Hello");
   });
 
-  
+  it("has a reset return value", () => {
+	expect(Dependency.greet()).toEqual(undefined);
+  });
 });
 
 ```
@@ -103,7 +107,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDUxNDM2MSwxNzQzNTQzMTE0LC0xOD
+eyJoaXN0b3J5IjpbMTE4NDI0ODAwNiwxNzQzNTQzMTE0LC0xOD
 A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
 NDY3MCw3NDg2MzkxMTVdfQ==
 -->
