@@ -36,8 +36,8 @@ mockInstace.name // => Belinda
 
 You can **mock global objects** (such as the `Date`) module by patching them directly from the global object.
 ```js
-global.Date.now = jest.fn()
-global.Date.now.mock"01/09/2018"
+global.Date.now = jest.fn();
+global.Date.now.mockReturnValue("01/09/2018");
 ```
 
 
@@ -153,8 +153,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDA5NTk0MCw0OTEwMTcxNDcsMTAxNj
-c3OTI2NCwxNzQzNTQzMTE0LC0xODA4MjczODMyLDQ0ODc4OTMy
-NywtMTUwMTg1ODc0NiwtMTUwMDk1NDY3MCw3NDg2MzkxMTVdfQ
-==
+eyJoaXN0b3J5IjpbLTMxODA2Mjg0LDQ5MTAxNzE0NywxMDE2Nz
+c5MjY0LDE3NDM1NDMxMTQsLTE4MDgyNzM4MzIsNDQ4Nzg5MzI3
+LC0xNTAxODU4NzQ2LC0xNTAwOTU0NjcwLDc0ODYzOTExNV19
 -->
