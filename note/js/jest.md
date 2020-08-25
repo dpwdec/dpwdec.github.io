@@ -107,6 +107,15 @@ mockClass.mockImplementation(() => {
   return { greet: mockClass._greet }
 });
 module.exports = mockClass;
+
+// mockClass.spec.js
+jest.mock("./mockClass");
+const mockClass = require("./mockClass");
+
+it("sets a greet return value of an instance for this test", () => {
+  mockClass._greet.mockReturnValue("Hello");
+  mockInstance = m
+});
 ```
 
 
@@ -137,7 +146,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTI4MzE5MywxMDE2Nzc5MjY0LDE3ND
+eyJoaXN0b3J5IjpbLTM1MTE4NDc5NSwxMDE2Nzc5MjY0LDE3ND
 M1NDMxMTQsLTE4MDgyNzM4MzIsNDQ4Nzg5MzI3LC0xNTAxODU4
 NzQ2LC0xNTAwOTU0NjcwLDc0ODYzOTExNV19
 -->
