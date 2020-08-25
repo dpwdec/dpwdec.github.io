@@ -58,7 +58,10 @@ Another potential problem is that  **automocks persist changes to their data bet
 // dependency.spec.js
 describe("Dependency Test", () => {
   let Dependency;
-  beforeEach(() => 
+  beforeEach(() => {
+    jest.resetModules();
+    req
+  });
 });
 jest.mock("./dependency.js");
 const Dependency = require("./dependency.js");
@@ -96,7 +99,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjkzODcwNjgsMTc0MzU0MzExNCwtMT
-gwODI3MzgzMiw0NDg3ODkzMjcsLTE1MDE4NTg3NDYsLTE1MDA5
-NTQ2NzAsNzQ4NjM5MTE1XX0=
+eyJoaXN0b3J5IjpbMTYzNTI0MTU3MiwxNzQzNTQzMTE0LC0xOD
+A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
+NDY3MCw3NDg2MzkxMTVdfQ==
 -->
