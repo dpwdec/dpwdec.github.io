@@ -37,7 +37,8 @@ You can **extend automocks in a persistent manner across multiple test suites** 
 ```js
 // __mocks__/dependency.js
 let Dependency = genMockFromModule("../dependency.js");
-
+Dependency.greet.mockReturnValue("Hello");
+module.exports = Dependency;
 ```
 
 
@@ -68,7 +69,7 @@ let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjE3ODI5OSwxNzQzNTQzMTE0LC0xOD
+eyJoaXN0b3J5IjpbLTg2MTg2OTQ5MiwxNzQzNTQzMTE0LC0xOD
 A4MjczODMyLDQ0ODc4OTMyNywtMTUwMTg1ODc0NiwtMTUwMDk1
 NDY3MCw3NDg2MzkxMTVdfQ==
 -->
