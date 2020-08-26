@@ -11,7 +11,9 @@ To **install injector** use the `injector` handle with `pip`.
 $ pip3 install injector
 ```
 
-## Terminology
+## Bindings
+
+A **binding** allows you to define how "typed" dependency argument is constructed and returned to the object that uses it. This is essentially just a way of generating a dictionary with the keys as a types that you want to use the values as the instantiaton of those types.
 
 
 
@@ -47,5 +49,5 @@ You can **nest injected classes** by placing the `@inject` decorator on injected
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDY1OTYwNV19
+eyJoaXN0b3J5IjpbMTM4ODA3MzcxMV19
 -->
