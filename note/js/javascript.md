@@ -1337,6 +1337,8 @@ timeOutPromise.then(function(done) {
 }) // => 'done'
 ```
 
+You can **also get the value out of a promise** by calling `Promise.resolve`.
+
 ### Async and Await
 
 The `async` and `await` keywords allow you to define functions that use the resolve values of promise based asynchronous requests. Using the `async` keyword allows you to mark a part of your code as asynchronous and then use the `await` keyword to resolve a promise. In the example below, whatever is returned from the `resolve` of the `timeOutFunction` promise will be returned into the `result` variable. The body of this function will *wait* until this value has been returned before it continue executing. This is the only time you will get a direct value from a promise function, but its worth noting that this value is only available for the duration of the function.
@@ -1525,5 +1527,5 @@ export { Foo, Bar, Baz }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NDEyNTczNl19
+eyJoaXN0b3J5IjpbLTU2MTk0Mjc0NV19
 -->
