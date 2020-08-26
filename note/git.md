@@ -32,7 +32,7 @@ $ git remote show originhuntr
 ## Rebasing
 You can **merge the current version of the master branch into another branch** by checking out your branch then using the `pull` command with `origin master`. This known as *rebasing* your branch with the project.
 ```bash
-$ git pull oirigin master
+$ git pull origin master
 ```
 
 You **exit the rebasing commit window** that appears after running a `pull origin master` by using the `vim` quit command.
@@ -59,6 +59,6 @@ The associated file structure would look something like the example below.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTkyMDk0MSwtMTYwMDUzMzI0NywtOD
-E4MTUyODUzLC0yMDYzNTk4NjY2XX0=
+eyJoaXN0b3J5IjpbMjg2ODYzNzEyLDE1NTE5MjA5NDEsLTE2MD
+A1MzMyNDcsLTgxODE1Mjg1MywtMjA2MzU5ODY2Nl19
 -->
