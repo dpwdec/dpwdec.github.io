@@ -119,7 +119,11 @@ x.append(4)
 
 ## Loops
 
-The **Pythonic way to indicate that you want do an operation `x` times** is to use an underscore as 
+Python does support `for` loops that don't yield to a specific value, so the **pythonic way to indicate that you want do an operation `x` times** is to use an `_` underscore as loop yield variable.
+```py
+for _ in range(50):
+  #
+```
 
 ## Conditionals
 
@@ -525,5 +529,6 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjE1MjM0NiwtMTgxMTE1NzI1OF19
+eyJoaXN0b3J5IjpbLTE0MTc5OTQwMjEsLTE4MTExNTcyNThdfQ
+==
 -->
