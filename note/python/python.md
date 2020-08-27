@@ -122,7 +122,7 @@ x.append(4)
 Python does support `for` loops that don't yield to a specific value, so the **pythonic way to indicate that you want do an operation `x` times** is to use an `_` underscore as loop yield variable.
 ```py
 for _ in range(50):
-  #
+  # do something 50 times
 ```
 
 ## Conditionals
@@ -529,6 +529,5 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTc5OTQwMjEsLTE4MTExNTcyNThdfQ
-==
+eyJoaXN0b3J5IjpbLTc1NjI5MjcxMywtMTgxMTE1NzI1OF19
 -->
