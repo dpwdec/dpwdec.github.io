@@ -22,7 +22,7 @@ def configure(binder):
   binder.bind(DatabaseConnection, to=DatabaseConnection)
 ```
 
-Using  a **binding** you can define nested dependencies.
+Using  also use a **binding** you can define nested dependencies.
 
 To **define a dependency injected constructor** use the `@inject` decorator on a class constructor. The **dependencies must also be typed** with hints so `Injector` knows which classes to inject. In the example below the `Container` class' constructor is marked with the `@inject` decorator and then the type hinter `Dependency` class is indicated as its dependency.
 ```py
@@ -56,5 +56,5 @@ You can **nest injected classes** by placing the `@inject` decorator on injected
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDg2MDg3MjUsMTM4ODA3MzcxMV19
+eyJoaXN0b3J5IjpbMTQ1OTY0NjcwMywxMzg4MDczNzExXX0=
 -->
