@@ -469,7 +469,8 @@ You can **type hint a function** with the `callable` type from the `typing` libr
 ```py
 from typing import callable
 
-def higher_order_funct
+def higher_order_function(func: callable) -> callable:
+  # construct another function using func
 ```
 
 ## time
@@ -536,5 +537,6 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODUxMzIyNSwtMTgxMTE1NzI1OF19
+eyJoaXN0b3J5IjpbLTEzMjg0OTU1MjIsLTE4MTExNTcyNThdfQ
+==
 -->
