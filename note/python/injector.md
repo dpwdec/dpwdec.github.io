@@ -13,7 +13,7 @@ $ pip3 install injector
 
 ## Bindings
 
-A **binding** allows you to define how "typed" dependency argument is constructed and returned to the object that uses it. This is essentially just a way of generating a dictionary with the keys as a types that you want to use the values as the instantiaton of those types. The example below shows a `user` function that has a `DatabaseConnection` as its dependency which is indicated by the type hint on `db`. To tell the `Injector` what to pass to the function when it is called we set up a `configure` function that takes a `binder` as its argument. We then use the `bind` method on the `binder` to specify a type and `to` what that type should be converted when the function is called and requ
+A **binding** allows you to define how "typed" dependency argument is constructed and returned to the object that uses it. This is essentially just a way of generating a dictionary with the keys as a types that you want to use the values as the instantiaton of those types. The example below shows a `user` function that has a `DatabaseConnection` as its dependency which is indicated by the type hint on `db`. To tell the `Injector` what to pass to the function when it is called we set up a `configure` function that takes a `binder` as its argument. We then use the `bind` method on the `binder` to specify a type and `to` what that type should be converted when the function is called and requires its dependency. By default **`Injector` creates an instance of whatever type you as `to`**.
 ```py
 def user(db: DatabaseConnection):
   # use database connection
@@ -21,6 +21,8 @@ def user(db: DatabaseConnection):
 def configure(binder):
   binder.bind(DatabaseConnection, to=DatabaseConnection)
 ```
+
+Using  a **binding** you can define nested 
 
 To **define a dependency injected constructor** use the `@inject` decorator on a class constructor. The **dependencies must also be typed** with hints so `Injector` knows which classes to inject. In the example below the `Container` class' constructor is marked with the `@inject` decorator and then the type hinter `Dependency` class is indicated as its dependency.
 ```py
@@ -54,5 +56,5 @@ You can **nest injected classes** by placing the `@inject` decorator on injected
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5ODQ3MTU2LDEzODgwNzM3MTFdfQ==
+eyJoaXN0b3J5IjpbNjE3NTYwOSwxMzg4MDczNzExXX0=
 -->
