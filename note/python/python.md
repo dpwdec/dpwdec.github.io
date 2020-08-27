@@ -465,6 +465,13 @@ Vertex = int
 Vector = List[Vertex]
 ```
 
+You can **type hint a function** with the `callable` type from the `typing` library.
+```py
+from typing import callable
+
+def higher_order_funct
+```
+
 ## time
 
 You can **make a thread sleep or block** for a period of time using the `sleep` module in the `time` library.
@@ -529,5 +536,5 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjI5MjcxMywtMTgxMTE1NzI1OF19
+eyJoaXN0b3J5IjpbLTkyODUxMzIyNSwtMTgxMTE1NzI1OF19
 -->
