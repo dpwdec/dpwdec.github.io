@@ -58,7 +58,8 @@ You can **nest injected classes** by placing the `@inject` decorator on injected
 ## Flask-Injector
 
 You can **combine flask route injection with general `@inject` syntax** for managing class dependencies.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTk5MDIwMywxNDU5NjQ2NzAzLDEzOD
-gwNzM3MTFdfQ==
+eyJoaXN0b3J5IjpbOTczMDUyNDU3LDEwNzU5OTAyMDMsMTQ1OT
+Y0NjcwMywxMzg4MDczNzExXX0=
 -->
