@@ -16,6 +16,8 @@ $ pip3 install injector
 A **binding** allows you to define how "typed" dependency argument is constructed and returned to the object that uses it. This is essentially just a way of generating a dictionary with the keys as a types that you want to use the values as the instantiaton of those types.
 ```py
 def user(db: DatabaseConnection):
+  # use database connection
+
 
 ```
 
@@ -51,5 +53,5 @@ You can **nest injected classes** by placing the `@inject` decorator on injected
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTc0MTk3NCwxMzg4MDczNzExXX0=
+eyJoaXN0b3J5IjpbLTE5MTIzMTcxNTEsMTM4ODA3MzcxMV19
 -->
