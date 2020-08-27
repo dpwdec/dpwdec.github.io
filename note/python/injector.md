@@ -13,12 +13,13 @@ $ pip3 install injector
 
 ## Bindings
 
-A **binding** allows you to define how "typed" dependency argument is constructed and returned to the object that uses it. This is essentially just a way of generating a dictionary with the keys as a types that you want to use the values as the instantiaton of those types.
+A **binding** allows you to define how "typed" dependency argument is constructed and returned to the object that uses it. This is essentially just a way of generating a dictionary with the keys as a types that you want to use the values as the instantiaton of those types. The example below shows a `user` function that has a `DatabaseConnection` as its dependency which is indic
 ```py
 def user(db: DatabaseConnection):
   # use database connection
 
-
+def configure(binder):
+  binder.bind(DatabaseConnection, to=DatabaseConnection)
 ```
 
 To **define a dependency injected constructor** use the `@inject` decorator on a class constructor. The **dependencies must also be typed** with hints so `Injector` knows which classes to inject. In the example below the `Container` class' constructor is marked with the `@inject` decorator and then the type hinter `Dependency` class is indicated as its dependency.
@@ -53,5 +54,5 @@ You can **nest injected classes** by placing the `@inject` decorator on injected
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTIzMTcxNTEsMTM4ODA3MzcxMV19
+eyJoaXN0b3J5IjpbLTE2MTU4MTYxMTksMTM4ODA3MzcxMV19
 -->
