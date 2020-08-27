@@ -287,6 +287,10 @@ simple()
 # => I've made this function much better.
 ```
 
+## Function Metadata
+
+You can **retrieve metadata about a function** u
+
 ## Classes
 
 You can **indicate that a variable or method is private** by prepending an `_` to the front of the variable name. This doesn't *enforce* privacy but is generally accepted as a privacy naming convention and so other developers shouldn't try to directly access these methods as an interface in their code.
@@ -509,5 +513,6 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTExNTcyNThdfQ==
+eyJoaXN0b3J5IjpbLTE1MjU4NTIzNTgsLTE4MTExNTcyNThdfQ
+==
 -->
