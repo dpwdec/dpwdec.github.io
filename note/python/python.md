@@ -289,7 +289,15 @@ simple()
 
 ## Function Metadata
 
-You can **retrieve metadata about a function** u
+You can **retrieve metadata about a function** using the `__code__` property on function objects.
+
+You can **get the number of arguments that a function takes** using the `.co_argcount` property of `__code__`.
+```py
+def func(x, y):
+  pass
+
+func.__code__.co_argcount
+```
 
 ## Classes
 
@@ -513,6 +521,5 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU4NTIzNTgsLTE4MTExNTcyNThdfQ
-==
+eyJoaXN0b3J5IjpbMzQ1MzQyMzg3LC0xODExMTU3MjU4XX0=
 -->
