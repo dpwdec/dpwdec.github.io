@@ -296,7 +296,7 @@ You can **get the number of arguments that a function takes** using the `.co_arg
 def func(x, y):
   pass
 
-func.__code__.co_argcount
+func.__code__.co_argcount # => 2
 ```
 
 ## Classes
@@ -521,5 +521,5 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1MzQyMzg3LC0xODExMTU3MjU4XX0=
+eyJoaXN0b3J5IjpbMTM3OTQ5OTIzNSwtMTgxMTE1NzI1OF19
 -->
