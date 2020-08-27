@@ -117,6 +117,10 @@ x.append(4)
 # => [1, 2, 3, 4]
 ```
 
+## Loops
+
+The **Pythonic way to indicate that you want do an operation `x` times** is to use an underscore as 
+
 ## Conditionals
 
 You can **create a one line if statement** by placing the result of the conditional on the same line after the terminating `:` colon of the if.
@@ -521,5 +525,5 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTQ5OTIzNSwtMTgxMTE1NzI1OF19
+eyJoaXN0b3J5IjpbLTUyNjE1MjM0NiwtMTgxMTE1NzI1OF19
 -->
