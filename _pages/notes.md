@@ -18,9 +18,9 @@ title: Notes index
 | | [Prototype Property](/note/javascript#prototype) |
 | | [Class Methods](/note/javascript#class-methods) |
 | | |
-| [**Objects**](/note/javascript#objects) | [Assignment](/note/javascript#assign) |
-| | [Destructuring](/note/javascript#destructuring) |
-| | [Object Spread](/note/javascript#object-spread) |
+| [**Objects**](/note/js-objects#objects) | [Assignment](/note/js-objects#assign) |
+| | [Destructuring](/note/js-objects#destructuring) |
+| | [Object Spread](/note/js-objects#object-spread) |
 | | |
 | [**Scope**](/note/javascript#scope) | [This](/note/javascript#this) |
 | | [Bind](/note/javascript#bind) |
@@ -143,3 +143,6 @@ title: Notes index
 | [**Refactoring**](note/refactoring) | [Variable Extraction](note/refactoring#variable-extraction) |
 | | [Method Extraction](note/refactoring#method-extraction) |
 | | [Class Extraction](note/refactoring#class-extraction) |
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTAxMTEyOTkwMl19
+-->
