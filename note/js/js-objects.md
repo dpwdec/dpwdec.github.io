@@ -246,10 +246,12 @@ const c = {...a, ...b} // => {a: 'a', b: 'b'}
 
 ## Value Of
 
-You can **create an interface for javascript objects to work with arithmetic operators** by using the `valueOf` function inside the object.
+You can **create an interface for javascript objects to work with arithmetic operators** by defining the `valueOf` function inside the object. In the example below the `makeObject` function will ret
 ```js
-
-`
+makeObject = value => ({
+  valueOf: () => value
+})
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NjU3MTI4OF19
+eyJoaXN0b3J5IjpbLTg5ODQzNzc3Nl19
 -->
