@@ -27,7 +27,14 @@ enum primary_color {
 }
 ```
 
-You can **strong text**
+You can **use differing types for the value contained in an enum**.
+```rust
+enum protocol {
+  numeric(u8),
+  functional(String),
+  iterative
+}
+```
 
 You can **assign contained values to an enum** by providing a value when assigning the enum to a variable.
 ```rust
@@ -36,5 +43,5 @@ let color = primary_color::blue(122)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU1MTU1Mjk3XX0=
+eyJoaXN0b3J5IjpbMTUwMDUzODQyOF19
 -->
