@@ -15,8 +15,10 @@ enum primary_color {
 
 You can **assign a concrete value of an enum to a variable** by referencing the contained type of the enum with a `::` double colon.
 ```rust
-let color = primary_color::red
+let color = primary_color::blue
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgwODg3OTc4XX0=
+eyJoaXN0b3J5IjpbMTQxMzc5NzNdfQ==
 -->
