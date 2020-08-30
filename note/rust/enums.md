@@ -18,7 +18,7 @@ You can **assign a concrete value of an enum to a variable** by referencing the 
 let color = primary_color::blue
 ```
 
-You can **place values INSIDE an enum**. This requires you to change the enum definition and then to provide a value when assigning the enum to a variable. The example below shows an updated `primary_color` enum that allows each variant to *hold* a `u8` value.
+You can **place values INSIDE an enum**. This requires you to change the enum definition to specify that value that each variant can hold. The example below shows an updated `primary_color` enum that allows each variant to *hold* a `u8` value.
 ```rust
 enum primary_color {
   red(u8),
@@ -27,7 +27,14 @@ enum primary_color {
 }
 ```
 
+You can **strong text**
+
+You can **assign contained values to an enum** by providing a value when assigning the enum to a variable.
+```rust
+let color = primary_color::blue(122)
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODA5OTM3MzRdfQ==
+eyJoaXN0b3J5IjpbNTU1MTU1Mjk3XX0=
 -->
