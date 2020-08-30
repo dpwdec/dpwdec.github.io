@@ -32,7 +32,7 @@ You can **use differing types for the value contained in an enum**.
 enum protocol {
   numeric(u8),
   functional(String),
-  iterative
+  iterative(vec<u32>)
 }
 ```
 
@@ -42,6 +42,8 @@ let color = primary_color::blue(122)
 ```
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDUzODQyOF19
+eyJoaXN0b3J5IjpbLTEzNzk5NjM5NTldfQ==
 -->
