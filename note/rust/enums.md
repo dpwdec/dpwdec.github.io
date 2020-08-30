@@ -18,7 +18,7 @@ You can **assign a concrete value of an enum to a variable** by referencing the 
 let color = primary_color::blue
 ```
 
-
+You can **place values INSIDE an enum**. This requires you to change the enum definition and then to provide a value when assigning the enu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzc5NzNdfQ==
+eyJoaXN0b3J5IjpbLTg2NjY4Mzg1OF19
 -->
