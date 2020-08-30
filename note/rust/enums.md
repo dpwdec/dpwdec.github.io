@@ -41,9 +41,14 @@ You can **assign contained values to an enum** by providing a value when assigni
 let color = primary_color::blue(122)
 ```
 
-One of the **advantages of using enums** is that you can **define functions that take an enum** as a way to define an input for **lots of diffe**
+One of the **advantages of using enums** is that you can **define functions that take an enum** as a way to define an input for **lots of different possible input types** to the function. In the example below, the `execute` function takes the `protocol` enum as an argument which code enclose `u8`, `string` or `vec<
+```rust
+fn execute(pr: protocol) {
+  // use protocol for different things
+}
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ0NzU5NDNdfQ==
+eyJoaXN0b3J5IjpbODE2MDk5MTQ5XX0=
 -->
