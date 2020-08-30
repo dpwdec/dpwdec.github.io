@@ -41,9 +41,9 @@ You can **assign contained values to an enum** by providing a value when assigni
 let color = primary_color::blue(122)
 ```
 
-
+One of the **advantages of using enums** is that you can **define functions that take an enum** as a way to define an input for **lots of diffe**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzk5NjM5NTldfQ==
+eyJoaXN0b3J5IjpbLTE2MDQ0NzU5NDNdfQ==
 -->
