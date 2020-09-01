@@ -11,6 +11,8 @@ exclude: true
 <!-- To automatically render math in text elements, include the auto-render extension: -->  
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+
 <style>
     div {
         margin: auto
@@ -464,6 +466,18 @@ $$
 </p>
 
 Intuitively this makes sense because **the derivative of a function that takes another funtion** will be **that function's derivative adjusted proportionally by the derivative of the input function**. This is why the input to the derivative of the outer function remains constant, that change is reflected by multiplying the outer function's derivative by that of the inner function, while the input has to remain static for this propertional change of *just* the derivative to take effect.
+
+### Exponent Derivatives
+
+The **exponent of a derivative** is the exponent term itself, multiplied by some constant specific to that function. This means that **the derivate of an exponent is proportional to itself**.
+
+Is there base where \\( b^{x}' = b^{x}\times{1} = b^{x} \\)?
+
+In fact there is, it is the special number \\( e \\). The derivative of \\( e^{x} \\) is itself \\( e^{x} \\).
+
+You can **apply the chain rule to derivatives of \\( e \\)**. For \\( e^{3x} \\) we would first derivative of the outer function (which is itself) multiplied by the derivative of the inner function \\( 3x \\) which is \\( 3 \\). So the derivative of \\( e^{3x} \\) is \\( 3e^{3x} \\).
+
+You can write any exponential function in terms of \\( e \\) by describing the base of \\( e \\) followed by the exponents. For example \\( 2^{x} \\) is the same as \\( e^{ln2x} \\). To take the derivative of this we can use the chain rule again to get \\( e^{ln2x} \\) as the derivative of the outer function, i.e. itself, multiplied by the derviative of the inner function which just uses the standard power rule \\( ln2x' = ln2 \\) because \\( ln2 \\) is just an alias for a constant that \\( e \\) should be raised to to equal 2.
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjE0Mjk0MTA3OCwtNjI2MzQ0MTIsNDk4Nj

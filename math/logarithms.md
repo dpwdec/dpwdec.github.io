@@ -22,3 +22,13 @@ We know that \\( p = log_2 16 \\) where \\( p \\) is the power we are searching 
 **2)** What is the *real* value of \\( log_4 16 \\)? This is asking for the same thing as the question above.
 
 \\[ p = log_4 16 \text{, so } 16 = 4^p \text{, so } p = 2 \\\\ \text{ therefore: } log_4 16 = 2\\]
+
+### Natural Logarithms and E
+
+A **natural logarithm** asks what the special exponential constant \\( e \\) needs to be raised by to equal the natural logs result. For example, \\( ln2 \\) is the same as \\( log_e 2 \\).
+
+You can **write a number is terms of \\( e \\)** by raising e to the natural log of that number. Such as \\( e^{ln2} = 2 \\), which just says that "raise \\( e \\) to what you need to raise \\( e \\) by to get 2."
+
+\\[ e^{ln64} = 64 \\]
+\\[ e^{ln2.334} = 2.334 \\]
+\\[ e^{ln\pi} = \pi \\]
