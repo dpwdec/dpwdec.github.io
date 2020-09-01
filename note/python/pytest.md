@@ -124,8 +124,12 @@ def some_test(mocker):
 If you want to **patch a method or function imported from a different file** to the function that you are testing, you should still reference it *as if* it were defined in the file which you are testing.
 
 
+## Configuration
 
+You can **configure pytest** using the `pytest.ini` file placed in your route directory.
+
+To **stop pytest trying to discover tests in a particular directory** use the `norecursedirs` for example in a large library directory that takes
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTU1MTYyNV19
+eyJoaXN0b3J5IjpbMjAxODc5Njg5MywtNzMxNTUxNjI1XX0=
 -->
