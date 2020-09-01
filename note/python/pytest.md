@@ -128,8 +128,12 @@ If you want to **patch a method or function imported from a different file** to 
 
 You can **configure pytest** using the `pytest.ini` file placed in your route directory.
 
-To **stop pytest trying to discover tests in a particular directory** use the `norecursedirs` for example in a large library directory that takes
+To **stop pytest trying to discover tests in a particular directory** use the `norecursedirs` flag followed by a space seperate list of directories to ignore. This is useful if there are large library directories that contain no tests but which pytest takes a long time to recurse through during the `collecting...` phase of pytest's run time.
+```ini
+[pytest]
+norecursedirs = .git .node_modules my_lib untestable
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODc5Njg5MywtNzMxNTUxNjI1XX0=
+eyJoaXN0b3J5IjpbLTE4MjY2OTQzODcsLTczMTU1MTYyNV19
 -->
