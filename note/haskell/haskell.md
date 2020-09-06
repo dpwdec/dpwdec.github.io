@@ -15,7 +15,12 @@ When **applying arithmetic operators to functions** the function outputs will ta
 succ 9 + max 10 20 --30
 (succ 9) + (max 10 20) --30
 ```
+
+When **chaining functions** the output of one function into another must be specified with `()` parentheses.
+```haskell
+succ max 10 20
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTkwOTQ3NzAsLTE3MzE2NTY0NzhdfQ
-==
+eyJoaXN0b3J5IjpbMTk5NTQ4NjQ0OCwtMTk1OTA5NDc3MCwtMT
+czMTY1NjQ3OF19
 -->
