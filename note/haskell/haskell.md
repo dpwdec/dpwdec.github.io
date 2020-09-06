@@ -16,11 +16,12 @@ succ 9 + max 10 20 --30
 (succ 9) + (max 10 20) --30
 ```
 
-When **chaining functions** the output of one function into another must be specified with `()` parentheses.
+When **chaining functions** order of nested function operations must be specified using `()` parentheses. Trying to pass the a function as an argument *directly* to another function will not automatically compute the result of the inner function ad
 ```haskell
-succ max 10 20
+succ max 10 20 --Error
+succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTQ4NjQ0OCwtMTk1OTA5NDc3MCwtMT
+eyJoaXN0b3J5IjpbMTkwMTUxOTIxMCwtMTk1OTA5NDc3MCwtMT
 czMTY1NjQ3OF19
 -->
