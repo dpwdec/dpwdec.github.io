@@ -209,8 +209,11 @@ You can **get the current date and time** using the `DateTime` class with the `N
 DateTime.Now;
 ```
 
+## Importing
+
+You can **import a reference to the classes / files into different project** (e.g. a test project) by 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjI3Mjg4MDEsLTkwOTE3NzMzMSwxNT
-AyMDI5ODEwXX0=
+eyJoaXN0b3J5IjpbMTM3OTQ3OTg1NiwtMTM2MjcyODgwMSwtOT
+A5MTc3MzMxLDE1MDIwMjk4MTBdfQ==
 -->
