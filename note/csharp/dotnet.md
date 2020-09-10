@@ -211,9 +211,9 @@ DateTime.Now;
 
 ## Importing
 
-You can **import a reference to the classes / files into different project** (e.g. a test project) by 
+You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTQ3OTg1NiwtMTM2MjcyODgwMSwtOT
-A5MTc3MzMxLDE1MDIwMjk4MTBdfQ==
+eyJoaXN0b3J5IjpbLTE3Mzk1OTU2OTksLTEzNjI3Mjg4MDEsLT
+kwOTE3NzMzMSwxNTAyMDI5ODEwXX0=
 -->
