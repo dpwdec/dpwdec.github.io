@@ -11,17 +11,17 @@ exclude: true
 
 A **proxy** is essentially a more limited **API gateway**. It can accomplish some of things that a **gateway** can in supporting a microservices architecture, such as **security**, **monitoring** and **access quotas**. *However* the key weakness of a proxy is that it **does not any functionality to APIs**. It can only **re-expose** existing APIs and cannot collate and bundle a set of disparate requests like a gateway does which is not so useful when you are dealing with a very distributed system of microservices with potentially hundreds of components.
 ```
-┏━━━━━━━━┓
+┏━━━━━━━━━━━━━━━┓
   Internal API: GET /users
-┗━━━━━━━━┛
-
+┗━━━━━━━━━━━━━━━┛
+		┇
 ┏━━━━━━━━┓
       Proxy
 ┗━━━━━━━━┛
-
-┏━━━━━━━━┓
-  Internal API
-┗━━━━━━━━┛
+		┇
+┏━━━━━━━━━━━━━━━┓
+  External API: GET /users
+┗━━━━━━━━━━━━━━━┛
 ```
 
 ### Canary Deploys
@@ -56,7 +56,7 @@ Next the system is also outfitted with a `controller`, the job of which is to ma
 
 gRPC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2MTU5MTE5LDc1NzM3MDMxNSwxODUwNz
-UwNTA4LC0xMjY1NTE0NjE4LC0xNTY2MjYzOTgwLC0xMTQ4MzAx
-MzQyLDE0MDAzODk1MzgsLTU2NzE1ODI2MV19
+eyJoaXN0b3J5IjpbMTE0NDY5NjIyNiw3NTczNzAzMTUsMTg1MD
+c1MDUwOCwtMTI2NTUxNDYxOCwtMTU2NjI2Mzk4MCwtMTE0ODMw
+MTM0MiwxNDAwMzg5NTM4LC01NjcxNTgyNjFdfQ==
 -->
