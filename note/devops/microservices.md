@@ -20,12 +20,18 @@ TLS? Security and HTTPS
 
 ## Mesh
 
-"Do not burden my code with all these infrastructure related decisions"
+The motto of a **microservice mesh** is:
+
+> "Do not burden my code with all these infrastructure related decisions"
+
+A mesh follows a `sidecar` and `controller` pattern. Each microservice in your system will be fitted with a `sidecar`, the job of which is communicate with other `sidecar`s on other microservices as needed.
+
 
 Side car and control tower
 
 gRPC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjU1MTQ2MTgsLTE1NjYyNjM5ODAsLT
-ExNDgzMDEzNDIsMTQwMDM4OTUzOCwtNTY3MTU4MjYxXX0=
+eyJoaXN0b3J5IjpbMTg1MDc1MDUwOCwtMTI2NTUxNDYxOCwtMT
+U2NjI2Mzk4MCwtMTE0ODMwMTM0MiwxNDAwMzg5NTM4LC01Njcx
+NTgyNjFdfQ==
 -->
