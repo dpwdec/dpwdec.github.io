@@ -60,6 +60,8 @@ To **display a list of columns from your table** use the `\d+` command followed 
 $ \d+ <table name>
 ```
 
+You can **create a new database user** using the `CREATE USER 
+
 ## Connecting to Postgres with Ruby
 
 Ruby requires the `PG` library to connect to a postgres database. You can do this by:
@@ -86,5 +88,5 @@ result.each do |record|
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDc2NDMzOV19
+eyJoaXN0b3J5IjpbMTAzMzU3Nzg3LDEwNzA3NjQzMzldfQ==
 -->
