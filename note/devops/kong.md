@@ -28,12 +28,15 @@ Next, **migrate your kong database** using the `migrations bootstrap` with the r
 $ kong migrations bootstrap some/folder/path/kong.conf
 ```
 
-
+Finally, **start kong** using the `kong start` command, again wtih the relative path from your current folder location to the `kong.conf` file.
+```bash
+$ kong start some/folder/path/kong.conf
+```
 
 ## Ports
 
 Kong runs **consumer ports** `8000` and **admin ports** on `8001`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NjgyNjY4OSwtMTI0MTI2OTg0MCwtNT
-I5ODAxODExXX0=
+eyJoaXN0b3J5IjpbNTE2MDg3NTEwLC0xMjQxMjY5ODQwLC01Mj
+k4MDE4MTFdfQ==
 -->
