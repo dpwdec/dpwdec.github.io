@@ -4,6 +4,8 @@ layout: page
 exclude: true
 ---
 
+##
+
 ## API Gateway
 
 ### Canary Deploys
@@ -38,7 +40,7 @@ Next the system is also outfitted with a `controller`, the job of which is to ma
 
 gRPC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA0MDg1MSw3NTczNzAzMTUsMTg1MD
-c1MDUwOCwtMTI2NTUxNDYxOCwtMTU2NjI2Mzk4MCwtMTE0ODMw
-MTM0MiwxNDAwMzg5NTM4LC01NjcxNTgyNjFdfQ==
+eyJoaXN0b3J5IjpbNzQyOTIxNjQ5LDc1NzM3MDMxNSwxODUwNz
+UwNTA4LC0xMjY1NTE0NjE4LC0xNTY2MjYzOTgwLC0xMTQ4MzAx
+MzQyLDE0MDAzODk1MzgsLTU2NzE1ODI2MV19
 -->
