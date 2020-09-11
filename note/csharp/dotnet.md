@@ -154,6 +154,10 @@ public int balance
 }
 ```
 
+## Interfaces
+
+An `interface` defines methods that an object that *implements* that interface must fulfill.
+
 ## References
 
 What does `Add Reference` actually do?
@@ -202,6 +206,8 @@ You can **define an anonymous function** using the `Func` object. When declaring
 Func<int, int> double = x => x * 2
 ```
 
+
+
 ## Date and Time
 
 You can **get the current date and time** using the `DateTime` class with the `Now` method.
@@ -214,6 +220,6 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzk1OTU2OTksLTEzNjI3Mjg4MDEsLT
-kwOTE3NzMzMSwxNTAyMDI5ODEwXX0=
+eyJoaXN0b3J5IjpbLTEzNjMyNDU4MDgsLTE3Mzk1OTU2OTksLT
+EzNjI3Mjg4MDEsLTkwOTE3NzMzMSwxNTAyMDI5ODEwXX0=
 -->
