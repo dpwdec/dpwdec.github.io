@@ -4,6 +4,8 @@ layout: page
 exclude: true
 ---
 
+## API Gateway
+
 ### Canary Deploys
 
 A **canary deploy** is a method for testing a new part of your system with a live audience before completely commiting to that version of your system. For example, if you a current `1.0` version of your service and a new `1.1` version of your service, instead of immediately deploying the `1.1` version to all customers a **canary deploy** deploys both versions simultaneously and then routes a small percentage of traffic to the new service to confirm that it is working correctly in live.
@@ -36,7 +38,7 @@ Next the system is also outfitted with a `controller`, the job of which is to ma
 
 gRPC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3MzcwMzE1LDE4NTA3NTA1MDgsLTEyNj
-U1MTQ2MTgsLTE1NjYyNjM5ODAsLTExNDgzMDEzNDIsMTQwMDM4
-OTUzOCwtNTY3MTU4MjYxXX0=
+eyJoaXN0b3J5IjpbLTE0NDA0MDg1MSw3NTczNzAzMTUsMTg1MD
+c1MDUwOCwtMTI2NTUxNDYxOCwtMTU2NjI2Mzk4MCwtMTE0ODMw
+MTM0MiwxNDAwMzg5NTM4LC01NjcxNTgyNjFdfQ==
 -->
