@@ -8,7 +8,9 @@ exclude: true
 ## API Gateway
 
 Orchestration - Stitch multiple services together
-Mediation - Convert to an appr
+Mediation - Convert to an approriate output -> REST JSON
+Message Security - ensure end to end security of the user
+Authorisation
 
 ## API Proxy
 
@@ -59,7 +61,7 @@ Next the system is also outfitted with a `controller`, the job of which is to ma
 
 gRPC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MzI5MzM1NCw3NTczNzAzMTUsMTg1MD
+eyJoaXN0b3J5IjpbMTc2MDU0MDE2Niw3NTczNzAzMTUsMTg1MD
 c1MDUwOCwtMTI2NTUxNDYxOCwtMTU2NjI2Mzk4MCwtMTE0ODMw
 MTM0MiwxNDAwMzg5NTM4LC01NjcxNTgyNjFdfQ==
 -->
