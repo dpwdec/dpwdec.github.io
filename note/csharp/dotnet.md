@@ -156,7 +156,15 @@ public int balance
 
 ## Interfaces
 
-An `interface` defines methods that an object that *implements* that interface must fulfill.
+An `interface` defines methods that an object that *implements* that interface must fulfill. Any **methods defined in an interface must be implemented in the class that uses the interface**.
+
+You can **define an interface** by using the `interface` keyword.
+```csharp
+interface display
+{
+  i
+}
+```
 
 ## References
 
@@ -220,6 +228,6 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjMyNDU4MDgsLTE3Mzk1OTU2OTksLT
-EzNjI3Mjg4MDEsLTkwOTE3NzMzMSwxNTAyMDI5ODEwXX0=
+eyJoaXN0b3J5IjpbMTczMzAwNjAzMCwtMTczOTU5NTY5OSwtMT
+M2MjcyODgwMSwtOTA5MTc3MzMxLDE1MDIwMjk4MTBdfQ==
 -->
