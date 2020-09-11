@@ -45,7 +45,10 @@ To **create a new database** use the `CREATE DATABASE` command. It is optional w
 $ CREATE DATABASE "name_of_database";
 ```
 
-You can **set the owner of a new database** at creation time using theb `OWNER`
+You can **set a user as the owner of a new database** at creation time using theb `OWNER` command after a new database is created. If no owner is set then the default postgres user will set as the owner.
+```bash
+$ CREATE DATABASE products OWNER penelope;
+```
 
 You can **connect to a database** using the `\c` command.
 ```
@@ -93,5 +96,5 @@ result.each do |record|
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3MDk5NjIxLDEwNzA3NjQzMzldfQ==
+eyJoaXN0b3J5IjpbLTExODc2NTY5MzEsMTA3MDc2NDMzOV19
 -->
