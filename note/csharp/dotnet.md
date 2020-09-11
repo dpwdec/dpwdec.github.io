@@ -160,24 +160,23 @@ An `interface` defines methods that an object that *implements* that interface m
 
 You can **define an interface** by using the `interface` keyword. It is the `C#` interface naming convention to add the capital letter `I` to interface names.
 ```csharp
-interface IDisplay { }
+interface IScreen { }
 ```
 
 You can **define parameters within an interface** with the same `get` and `set` pattern that would also be in class structures.
 ```csharp
-interface IScree
+interface IScreen
 {
   double PointData { get; set; }
 }
 ```
 
-You can **define methods to implemented by users of an interface** by adding the method signatures to the body of the interface. If a class used the interface `IDisplay` below, it would have to implement `IsDisplayed`, `DisplayData` and `LogDisplay` so that they matched the returned types described in the interface.
+You can **define methods to implemented by users of an interface** by adding the method signatures to the body of the interface. If a class used the interface `IScreen` below, it would have to implement `Display` so that it matched the returned types described in the interface. It is also generally the case that **interfaces which only implement one key method**
 ```csharp
-interface IDisplay
+interface IScreen
 {
-  bool IsDisplayed();
-  int DisplayData();
-  void LogDisplay();
+  double PointData { get; set; }
+  int Display();
 }
 ```
 
@@ -245,6 +244,6 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTcyNzM2NywtMTczOTU5NTY5OSwtMT
-M2MjcyODgwMSwtOTA5MTc3MzMxLDE1MDIwMjk4MTBdfQ==
+eyJoaXN0b3J5IjpbLTEwNjc4OTQ5NTUsLTE3Mzk1OTU2OTksLT
+EzNjI3Mjg4MDEsLTkwOTE3NzMzMSwxNTAyMDI5ODEwXX0=
 -->
