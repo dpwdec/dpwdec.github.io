@@ -45,6 +45,8 @@ To **create a new database** use the `CREATE DATABASE` command. It is optional w
 $ CREATE DATABASE "name_of_database";
 ```
 
+You can **set the owner of a new database** at creation time using theb `OWNER`
+
 You can **connect to a database** using the `\c` command.
 ```
 $ \c database_name
@@ -60,7 +62,10 @@ To **display a list of columns from your table** use the `\d+` command followed 
 $ \d+ <table name>
 ```
 
-You can **create a new database user** using the `CREATE USER 
+You can **create a new database user** using the `CREATE USER` command. The example below creates a user called `"Penelope"`.
+```bash
+$ CREATE USER penelope;
+```
 
 ## Connecting to Postgres with Ruby
 
@@ -88,5 +93,5 @@ result.each do |record|
 end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzU3Nzg3LDEwNzA3NjQzMzldfQ==
+eyJoaXN0b3J5IjpbNjQ3MDk5NjIxLDEwNzA3NjQzMzldfQ==
 -->
