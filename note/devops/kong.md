@@ -12,12 +12,18 @@ Kong can be installed on a vartiety of services.
 
 ### OSX
 
-First **create a new postgres** 
+First **create a new postgresql user and database** called `kong` and set the owner to the `kong` user.
+```bash
+$ CREATE USER kong;
+$ CREATE DATABASE kong OWNER kong;
+```
+
+Next **create a new
 
 ## Ports
 
 Kong runs **consumer ports** `8000` and **admin ports** on `8001`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTUxMzE5MiwtMTI0MTI2OTg0MCwtNT
-I5ODAxODExXX0=
+eyJoaXN0b3J5IjpbLTE4NjY1NDE5NjksLTEyNDEyNjk4NDAsLT
+UyOTgwMTgxMV19
 -->
