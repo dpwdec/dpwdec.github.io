@@ -12,7 +12,7 @@ A **canary deploy** is a method for testing a new part of your system with a liv
 
 ### Trace Ids
 
-Another potential problem of a m
+Another potential problem of a microservices architecture is debugging failing requests effectively as a request may be going through a huge number of services to produce the desired output. When way to solve this problem is using **trace ids** which assigns a unique id to each request to the system.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODczMDA3MywtNTY3MTU4MjYxXX0=
+eyJoaXN0b3J5IjpbNTc2MDE0Njk2LC01NjcxNTgyNjFdfQ==
 -->
