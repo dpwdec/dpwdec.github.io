@@ -160,10 +160,12 @@ An `interface` defines methods that an object that *implements* that interface m
 
 You can **define an interface** by using the `interface` keyword.
 ```csharp
+interface display { }
+```
+
+You can **define methods to implemented by users of an interface** by adding the method signatures to the body of the interface.
+```csharp
 interface display
-{
-  i
-}
 ```
 
 ## References
@@ -228,6 +230,6 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzAwNjAzMCwtMTczOTU5NTY5OSwtMT
+eyJoaXN0b3J5IjpbMTY0NDc2MjAwNiwtMTczOTU5NTY5OSwtMT
 M2MjcyODgwMSwtOTA5MTc3MzMxLDE1MDIwMjk4MTBdfQ==
 -->
