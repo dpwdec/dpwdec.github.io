@@ -163,7 +163,13 @@ You can **define an interface** by using the `interface` keyword. It is the `C#`
 interface IDisplay { }
 ```
 
-You can **define para**
+You can **define parameters within an interface** with the same `get` and `set` pattern that would also be in class structures.
+```csharp
+interface IScree
+{
+  double PointData { get; set; }
+}
+```
 
 You can **define methods to implemented by users of an interface** by adding the method signatures to the body of the interface. If a class used the interface `IDisplay` below, it would have to implement `IsDisplayed`, `DisplayData` and `LogDisplay` so that they matched the returned types described in the interface.
 ```csharp
@@ -239,6 +245,6 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczNDE2NzI1LC0xNzM5NTk1Njk5LC0xMz
-YyNzI4ODAxLC05MDkxNzczMzEsMTUwMjAyOTgxMF19
+eyJoaXN0b3J5IjpbLTQzMTcyNzM2NywtMTczOTU5NTY5OSwtMT
+M2MjcyODgwMSwtOTA5MTc3MzMxLDE1MDIwMjk4MTBdfQ==
 -->
