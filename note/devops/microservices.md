@@ -31,9 +31,12 @@ A mesh follows a `sidecar` and `controller` pattern. Each microservice in your s
 
 Next the system is also outfitted with a `controller`, the job of which is to manage metadata and utilities about the sidecars such as authentication, locations etc.
 
+![enter image description here](https://i.imgur.com/1AY5T70.png)
+
+
 gRPC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTAxMjU3MjQsMTg1MDc1MDUwOCwtMT
-I2NTUxNDYxOCwtMTU2NjI2Mzk4MCwtMTE0ODMwMTM0MiwxNDAw
-Mzg5NTM4LC01NjcxNTgyNjFdfQ==
+eyJoaXN0b3J5IjpbNzU3MzcwMzE1LDE4NTA3NTA1MDgsLTEyNj
+U1MTQ2MTgsLTE1NjYyNjM5ODAsLTExNDgzMDEzNDIsMTQwMDM4
+OTUzOCwtNTY3MTU4MjYxXX0=
 -->
