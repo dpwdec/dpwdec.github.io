@@ -13,9 +13,11 @@ Message Security - ensure end to end security of the user
 Authorisation
 DDOS Protection - A lot of security concerns like firewalls etc.
 
-ESB (Enterprise Service Bus) - Exists *between* individual microservices (this could be the "sidecar" concept in a service mesh pattern)
+ESB (Enterprise Service Bus) - Exists *between* individual microservices (this could be the "sidecar" concept in a service mesh pattern). Generally this service may include some orchestration and mediation but its unlike to have much sercurity as its generally designed to be behind the DMZ and not exposed publicly.
 
-EAI (Enterprise Application Integration) - This is just a name for a piece of software that manages the integration of multiple services within an organisation. *Importantly* this specifically refers to an *inter
+EAI (Enterprise Application Integration) - This is just a name for a piece of software that manages the integration of multiple services within an organisation. *Importantly* this specifically refers to an *internal* piece of software.
+
+DMZ (Demilitarised Zone) - The part of your application stack which is publicly available on the internet.
 
 ## API Proxy
 
@@ -66,7 +68,7 @@ Next the system is also outfitted with a `controller`, the job of which is to ma
 
 gRPC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTUxNzM5MjgsNzU3MzcwMzE1LDE4NT
-A3NTA1MDgsLTEyNjU1MTQ2MTgsLTE1NjYyNjM5ODAsLTExNDgz
-MDEzNDIsMTQwMDM4OTUzOCwtNTY3MTU4MjYxXX0=
+eyJoaXN0b3J5IjpbMTA4MzY4NzI0OSw3NTczNzAzMTUsMTg1MD
+c1MDUwOCwtMTI2NTUxNDYxOCwtMTU2NjI2Mzk4MCwtMTE0ODMw
+MTM0MiwxNDAwMzg5NTM4LC01NjcxNTgyNjFdfQ==
 -->
