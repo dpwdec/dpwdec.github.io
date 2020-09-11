@@ -25,13 +25,15 @@ The motto of a **microservice mesh** is:
 > "Do not burden my code with all these infrastructure related decisions"
 
 A mesh follows a `sidecar` and `controller` pattern. Each microservice in your system will be fitted with a `sidecar`, the job of which is communicate with other `sidecar`s on other microservices as needed.
- 
 
-Side car and control tower
+![enter image description here](https://i.imgur.com/0ajWAdQ.png)
+
+
+Next the system is also outfitted with a `controller`
 
 gRPC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODA0MTYzNDAsMTg1MDc1MDUwOCwtMT
+eyJoaXN0b3J5IjpbLTEwNzY5MzUyNjUsMTg1MDc1MDUwOCwtMT
 I2NTUxNDYxOCwtMTU2NjI2Mzk4MCwtMTE0ODMwMTM0MiwxNDAw
 Mzg5NTM4LC01NjcxNTgyNjFdfQ==
 -->
