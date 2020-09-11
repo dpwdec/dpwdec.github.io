@@ -7,11 +7,13 @@ exclude: true
 
 ## API Gateway
 
-Orchestration - Stitch multiple services together
+Orchestration - Stitch multiple services together, create a single API from multiple backend systems
 Mediation - Convert to an approriate output -> REST JSON
 Message Security - ensure end to end security of the user
 Authorisation
 DDOS Protection - A lot of security concerns like firewalls etc.
+
+ESB - Exists *between* individual microservices (this could be the "sidecar" concept in a service mesh pat
 
 ## API Proxy
 
@@ -62,7 +64,7 @@ Next the system is also outfitted with a `controller`, the job of which is to ma
 
 gRPC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Njg3MDkxMiw3NTczNzAzMTUsMTg1MD
+eyJoaXN0b3J5IjpbLTE4Mjg1OTEyMiw3NTczNzAzMTUsMTg1MD
 c1MDUwOCwtMTI2NTUxNDYxOCwtMTU2NjI2Mzk4MCwtMTE0ODMw
 MTM0MiwxNDAwMzg5NTM4LC01NjcxNTgyNjFdfQ==
 -->
