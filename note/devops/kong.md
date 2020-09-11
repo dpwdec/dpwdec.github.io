@@ -39,8 +39,11 @@ Kong runs **consumer ports** `8000` and **admin ports** on `8001`.
 
 ## Quitting
 
-You can **stop kong running** using 
+You can **stop kong running** using the `kong stop` command.
+```bash
+$ kong stop
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTUzMDYzODYsNTE2MDg3NTEwLC0xMj
-QxMjY5ODQwLC01Mjk4MDE4MTFdfQ==
+eyJoaXN0b3J5IjpbMjA0NDgzOTA3Niw1MTYwODc1MTAsLTEyND
+EyNjk4NDAsLTUyOTgwMTgxMV19
 -->
