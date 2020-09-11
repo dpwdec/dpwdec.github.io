@@ -18,12 +18,17 @@ $ CREATE USER kong;
 $ CREATE DATABASE kong OWNER kong;
 ```
 
-Next **create a new
+Then **create a new `kong.conf`** file. It doesn't matter where this file is created.
+```bash
+$ touch some/folder/path/kong.conf
+```
+
+Next, **migrate your kong database** use the `migrations bootstrap`
 
 ## Ports
 
 Kong runs **consumer ports** `8000` and **admin ports** on `8001`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjY1NDE5NjksLTEyNDEyNjk4NDAsLT
+eyJoaXN0b3J5IjpbLTEwNjY0NjEzMTcsLTEyNDEyNjk4NDAsLT
 UyOTgwMTgxMV19
 -->
