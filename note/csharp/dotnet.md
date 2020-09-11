@@ -171,7 +171,7 @@ interface IScreen
 }
 ```
 
-You can **define methods to implemented by users of an interface** by adding the method signatures to the body of the interface. If a class used the interface `IScreen` below, it would have to implement `Display` so that it matched the returned types described in the interface. It is also generally the case that **interfaces which only implement one key method**
+You can **define methods to implemented by users of an interface** by adding the method signatures to the body of the interface. If a class used the interface `IScreen` below, it would have to implement `Display` so that it matched the returned types described in the interface. 
 ```csharp
 interface IScreen
 {
@@ -180,6 +180,14 @@ interface IScreen
 }
 ```
 
+It is also generally the case that **interfaces which only implement one key method are renamed to named after that key method with -able appended to the end**, so in the example below the `IScreen` interface which defines the key method `Display` could be renamed to `IDisplayable`
+```csharp
+interface IDisplayable
+{
+  double PointData { get; set; }
+  int Display();
+}
+```
 
 
 ## References
@@ -244,6 +252,6 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjc4OTQ5NTUsLTE3Mzk1OTU2OTksLT
-EzNjI3Mjg4MDEsLTkwOTE3NzMzMSwxNTAyMDI5ODEwXX0=
+eyJoaXN0b3J5IjpbLTU2MTEzMDY5NCwtMTczOTU5NTY5OSwtMT
+M2MjcyODgwMSwtOTA5MTc3MzMxLDE1MDIwMjk4MTBdfQ==
 -->
