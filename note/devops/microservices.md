@@ -4,9 +4,12 @@ layout: page
 exclude: true
 ---
 
-##
 
 ## API Gateway
+
+## API Proxy
+
+A **proxy** can accomplish some of things that a **gateway** can in supporting a microservices architecture, such as **security**, **monitoring** and **a
 
 ### Canary Deploys
 
@@ -40,7 +43,7 @@ Next the system is also outfitted with a `controller`, the job of which is to ma
 
 gRPC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyOTIxNjQ5LDc1NzM3MDMxNSwxODUwNz
-UwNTA4LC0xMjY1NTE0NjE4LC0xNTY2MjYzOTgwLC0xMTQ4MzAx
-MzQyLDE0MDAzODk1MzgsLTU2NzE1ODI2MV19
+eyJoaXN0b3J5IjpbLTExODQ5OTQ2MjYsNzU3MzcwMzE1LDE4NT
+A3NTA1MDgsLTEyNjU1MTQ2MTgsLTE1NjYyNjM5ODAsLTExNDgz
+MDEzNDIsMTQwMDM4OTUzOCwtNTY3MTU4MjYxXX0=
 -->
