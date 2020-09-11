@@ -9,7 +9,7 @@ exclude: true
 
 ## API Proxy
 
-A **proxy** can accomplish some of things that a **gateway** can in supporting a microservices architecture, such as **security**, **monitoring** and **a
+A **proxy** is essentially a more limited **API gateway**. It can accomplish some of things that a **gateway** can in supporting a microservices architecture, such as **security**, **monitoring** and **access quotas**. *However* the key weakness of a proxy is that it **does not any functionality to APIs**. It can only **re-expose** existing APIs and cannot collate and bundle a set of disparate requests like a gatewa 
 
 ### Canary Deploys
 
@@ -43,7 +43,7 @@ Next the system is also outfitted with a `controller`, the job of which is to ma
 
 gRPC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ5OTQ2MjYsNzU3MzcwMzE1LDE4NT
+eyJoaXN0b3J5IjpbLTEwODU0NjMxODQsNzU3MzcwMzE1LDE4NT
 A3NTA1MDgsLTEyNjU1MTQ2MTgsLTE1NjYyNjM5ODAsLTExNDgz
 MDEzNDIsMTQwMDM4OTUzOCwtNTY3MTU4MjYxXX0=
 -->
