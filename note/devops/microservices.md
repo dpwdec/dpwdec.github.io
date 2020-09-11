@@ -20,6 +20,8 @@ EAI (Enterprise Application Integration) - This is just a name for a piece of so
 
 DMZ (Demilitarised Zone) - The part of your application stack which is publicly available on the internet.
 
+Another advantage of API gateways is that they can essentially act as a proxy when needed. For example if they are just directly exposing Rest Api they can simply add in the necessary proxy functionality without slowing things down by heaping extra unecessary infor
+
 ## API Proxy
 
 A **proxy** is essentially a more limited **API gateway**. It can accomplish some of things that a **gateway** can in supporting a microservices architecture, such as **security**, **monitoring** and **access quotas**. *However* the key weakness of a proxy is that it **does not any functionality to APIs**. It can only **re-expose** existing APIs and cannot collate and bundle a set of disparate requests like a gateway does which is not so useful when you are dealing with a very distributed system of microservices with potentially hundreds of components. Often a **proxy will be wrapped in a gateway** and not used separatel with modern microservices architectures.
@@ -69,7 +71,7 @@ Next the system is also outfitted with a `controller`, the job of which is to ma
 
 gRPC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzI4MjM0ODgsNzU3MzcwMzE1LDE4NT
-A3NTA1MDgsLTEyNjU1MTQ2MTgsLTE1NjYyNjM5ODAsLTExNDgz
-MDEzNDIsMTQwMDM4OTUzOCwtNTY3MTU4MjYxXX0=
+eyJoaXN0b3J5IjpbMTgwNjYxNzUzNyw3NTczNzAzMTUsMTg1MD
+c1MDUwOCwtMTI2NTUxNDYxOCwtMTU2NjI2Mzk4MCwtMTE0ODMw
+MTM0MiwxNDAwMzg5NTM4LC01NjcxNTgyNjFdfQ==
 -->
