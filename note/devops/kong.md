@@ -23,12 +23,17 @@ Then **create a new `kong.conf`** file. It doesn't matter where this file is cre
 $ touch some/folder/path/kong.conf
 ```
 
-Next, **migrate your kong database** use the `migrations bootstrap`
+Next, **migrate your kong database** using the `migrations bootstrap` with the relative path from your current folder location to the `kong.conf` file.
+```bash
+$ kong migrations bootstrap some/folder/path/kong.conf
+```
+
+
 
 ## Ports
 
 Kong runs **consumer ports** `8000` and **admin ports** on `8001`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjY0NjEzMTcsLTEyNDEyNjk4NDAsLT
-UyOTgwMTgxMV19
+eyJoaXN0b3J5IjpbMTQ2NjgyNjY4OSwtMTI0MTI2OTg0MCwtNT
+I5ODAxODExXX0=
 -->
