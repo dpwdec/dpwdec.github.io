@@ -21,7 +21,11 @@ TLS? Security and HTTPS
 ## Mesh
 
 "Do not burden my code with all these infrastructure related decisions"
+
+Side car and control tower
+
+gRPC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjYyNjM5ODAsLTExNDgzMDEzNDIsMT
-QwMDM4OTUzOCwtNTY3MTU4MjYxXX0=
+eyJoaXN0b3J5IjpbLTEyNjU1MTQ2MTgsLTE1NjYyNjM5ODAsLT
+ExNDgzMDEzNDIsMTQwMDM4OTUzOCwtNTY3MTU4MjYxXX0=
 -->
