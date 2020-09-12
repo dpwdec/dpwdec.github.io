@@ -129,6 +129,10 @@ name=YourNameHere --> query content submitted in the body
 ### Version
 `HTTP/1.1` allows HTTP documents to be sent in a human readable form that can be accessed and modified easily at any point along the request response cycle. `HTTP/2` on the other hand splits the document into HTTP frames that are re-assembled at either end of the communication process into a response. These are not human readable.
 
+### SSL
+
+**SSL** stands for **Secure Socket Layer** and is an HTTP security protocol. By default HTTP requests are unencrypted.
+
 ## PRG
 PRG stands for **Post/Redirect/Get** and is a web routing pattern for avoiding form re-submission errors and improving separation of concerns for HTTP verbs. If we imagine a scenario in which a user refreshes a page after making a `POST` request that places an order, the order when will then be sent again as another `POST` request that is duplicated in the server. *Very undesirable!*
 
@@ -168,5 +172,5 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4MDEzMjg4XX0=
+eyJoaXN0b3J5IjpbMTE3MDc5OTU1N119
 -->
