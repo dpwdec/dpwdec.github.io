@@ -8,7 +8,9 @@ Curl is a tool for transferring data between servers and locations.
 
 You can **separate requests over multiple lines** by escaping them with a `\` backslash.
 ```bash
-$ curl -i -X POST 
+$ curl -i -X POST \
+  --data 'name=Lomothy' \
+  --url https://website.com/post
 ```
 
 ## Fetching
@@ -40,5 +42,5 @@ You can **change the HTTP verb associate with a request** by using the `X` flag 
 $ curl -X POST https://website.com
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI0NjIzNzVdfQ==
+eyJoaXN0b3J5IjpbLTE0Mjk2OTY3NDZdfQ==
 -->
