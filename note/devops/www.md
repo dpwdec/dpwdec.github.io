@@ -133,8 +133,8 @@ name=YourNameHere --> query content submitted in the body
 
 **SSL** stands for **Secure Socket Layer** and is an HTTP security protocol. By default HTTP requests are unencrypted and any other actors listening on a network can directly view the contents of an HTTP requests sent. SSL interacts with HTTP to create **HTTPS** which brings to features to HTTP requests:
 
- 1. Encryption - the HTTP request d
- 2. Certification
+ 1. Encryption - HTTP data is encrypted over your connection between the client and server
+ 2. Certification - Servers must provide a valid SSL certificate from a certificate authority to authenticate themselves. Reputable services will have a valid certificate from reputable body that is used to track them.
 
 ## PRG
 PRG stands for **Post/Redirect/Get** and is a web routing pattern for avoiding form re-submission errors and improving separation of concerns for HTTP verbs. If we imagine a scenario in which a user refreshes a page after making a `POST` request that places an order, the order when will then be sent again as another `POST` request that is duplicated in the server. *Very undesirable!*
@@ -175,5 +175,5 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzAxMDgxMF19
+eyJoaXN0b3J5IjpbLTE3MDcxNDM4ODVdfQ==
 -->
