@@ -60,8 +60,10 @@ $ curl -i -X POST \
 --data  'name=example-service' \  
 --data  'url=https://website.com/'
 ```
+
+You can **create a route to your service** by setting a `host` that kong should root from when it receives requests with that `host` in the header.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDQ1NDg2OSwxNzUyMjMyNjksLTQwNz
+eyJoaXN0b3J5IjpbLTkwNzk0Mjg5OSwxNzUyMjMyNjksLTQwNz
 A0NzU1MywyMDQ0ODM5MDc2LDUxNjA4NzUxMCwtMTI0MTI2OTg0
 MCwtNTI5ODAxODExXX0=
 -->
