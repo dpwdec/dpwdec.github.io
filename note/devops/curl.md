@@ -20,10 +20,10 @@ $ curl -i https://website.com
 
 ## Post
 
-You can **change the HTTP verb associate with a request** by using the `X` flag followed by the verb you want to use. Despite being able to specify the verb curl will still only make a standard post request no matter what verb you put in. The example below changes a standard `GET` request to a `POST` request.
+You can **change the HTTP verb associate with a request** by using the `X` flag followed by the verb you want to use. It's important to note that **curl automatically selects the appropriate verb for a request** so even if you change the verb manually if it doesn't fit the request type it will still just send the most appropriate rThe example below changes a standard `GET` request to a `POST` request.
 ```bash
 $ curl -X POST https://website.com
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ4NDM4OTJdfQ==
+eyJoaXN0b3J5IjpbLTE4MzUxMDkzNzVdfQ==
 -->
