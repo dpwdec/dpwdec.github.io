@@ -170,10 +170,12 @@ You can **make a `POST` request** using the `-f` flag with the `POST` keyword an
 http -f POST https://some-website.com/ key=value
 ```
 
+## REST APIs
+
+A **REST** API or **Representational State Transfer** API is a
+
 ## Telnet
 You can install `telnet` to check HTTP connections using `brew install telnet`.
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDcxNDM4ODVdfQ==
+eyJoaXN0b3J5IjpbOTc4MTQ3NzE1LC0xNzA3MTQzODg1XX0=
 -->
