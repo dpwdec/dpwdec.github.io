@@ -35,7 +35,7 @@ $ kong start some/folder/path/kong.conf
 
 ## Ports
 
-Kong runs **consumer ports** `8000` and **admin ports** on `8001`.
+Kong runs **consumer ports** `8000` and `8443` and **admin ports** on `8001` and `8444`.
 
 ## Quitting
 
@@ -44,6 +44,6 @@ You can **stop kong running** using the `kong stop` command.
 $ kong stop
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDgzOTA3Niw1MTYwODc1MTAsLTEyND
-EyNjk4NDAsLTUyOTgwMTgxMV19
+eyJoaXN0b3J5IjpbMzI2OTkyNjcsMjA0NDgzOTA3Niw1MTYwOD
+c1MTAsLTEyNDEyNjk4NDAsLTUyOTgwMTgxMV19
 -->
