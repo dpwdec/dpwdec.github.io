@@ -35,15 +35,17 @@ $ kong start some/folder/path/kong.conf
 
 ## Ports
 
-Kong runs **consumer ports** `8000` and `8443` and **admin ports** on `8001` and `8444`.
+Kong runs **consumer ports** on `8000` for standard requests and `8443` for SSL requests and **admin ports** on `8001` for standard requests and `8444` for SSL requests.
 
-## Quitting
+## Commands
+
+You can **reload kong**
 
 You can **stop kong running** using the `kong stop` command.
 ```bash
 $ kong stop
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2OTkyNjcsMjA0NDgzOTA3Niw1MTYwOD
-c1MTAsLTEyNDEyNjk4NDAsLTUyOTgwMTgxMV19
+eyJoaXN0b3J5IjpbLTc0NzEwNjA4MiwyMDQ0ODM5MDc2LDUxNj
+A4NzUxMCwtMTI0MTI2OTg0MCwtNTI5ODAxODExXX0=
 -->
