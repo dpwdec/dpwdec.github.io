@@ -39,13 +39,16 @@ Kong runs **consumer ports** on `8000` for standard requests and `8443` for SSL 
 
 ## Commands
 
-You can **reload kong**
+You can **reload kong** with the `reload` command.
+```bash
+$ kong reload
+```
 
 You can **stop kong running** using the `kong stop` command.
 ```bash
 $ kong stop
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NzEwNjA4MiwyMDQ0ODM5MDc2LDUxNj
-A4NzUxMCwtMTI0MTI2OTg0MCwtNTI5ODAxODExXX0=
+eyJoaXN0b3J5IjpbODc1OTY4OTQxLDIwNDQ4MzkwNzYsNTE2MD
+g3NTEwLC0xMjQxMjY5ODQwLC01Mjk4MDE4MTFdfQ==
 -->
