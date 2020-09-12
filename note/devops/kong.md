@@ -56,14 +56,19 @@ $ kong stop
 You can **create a new kong service** by `POST`ing to the `services` extension on kong's admin port with two pieces of data: a `name` that will describe the kong extension for the service, and a `url` where the upstreasm service is located.
 ```bash
 $ curl -i -X POST \
---url http://localhost:8001/services/ \  
---data  'name=example-service' \  
---data  'url=https://website.com/'
+  --url http://localhost:8001/services/ \  
+  --data  'name=example-service' \  
+  --data  'url=https://website.com/'
 ```
 
-You can **create a route to your service** by setting a `host` that kong should root from when it receives requests with that `host` in the header.
+You can **create a route to your service** by making a `POST` request to your new service url followed by the `/routes` extension and setting a `host` that kong should route to when it receives requests with that `host` in the header.
+```bash
+$ curl -i -X POST \
+  --url http://localhost:8001/services/example-service/routes \  
+  --data  'hosts[]=example.com'
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzk0Mjg5OSwxNzUyMjMyNjksLTQwNz
-A0NzU1MywyMDQ0ODM5MDc2LDUxNjA4NzUxMCwtMTI0MTI2OTg0
-MCwtNTI5ODAxODExXX0=
+eyJoaXN0b3J5IjpbLTE1MzQ5NDQ4NjMsLTkwNzk0Mjg5OSwxNz
+UyMjMyNjksLTQwNzA0NzU1MywyMDQ0ODM5MDc2LDUxNjA4NzUx
+MCwtMTI0MTI2OTg0MCwtNTI5ODAxODExXX0=
 -->
