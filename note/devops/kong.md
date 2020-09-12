@@ -67,8 +67,10 @@ $ curl -i -X POST \
   --url http://localhost:8001/services/example-service/routes \  
   --data  'hosts[]=example.com'
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ5NDQ4NjMsLTkwNzk0Mjg5OSwxNz
+eyJoaXN0b3J5IjpbLTIwNTQ0MTE3NzksLTkwNzk0Mjg5OSwxNz
 UyMjMyNjksLTQwNzA0NzU1MywyMDQ0ODM5MDc2LDUxNjA4NzUx
 MCwtMTI0MTI2OTg0MCwtNTI5ODAxODExXX0=
 -->
