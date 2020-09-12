@@ -53,7 +53,7 @@ $ kong stop
 
 **Services** are the name given to **upstream microservice APIs** that kong acts as a gateway to. A service can contain many **routes** which specify *how* requests that reach kong are sent to upstream services.
 
-You can **create a new kong service** by `POST`ing to the `services` extension on kong's admin port with two pi
+You can **create a new kong service** by `POST`ing to the `services` extension on kong's admin port with two pieces of data: a `name` that will describe the kong extension for the service, and a `url` where the upstreasm service is located.
 ```bash
 $ curl -i -X POST \
 --url http://localhost:8001/services/ \  
@@ -61,7 +61,7 @@ $ curl -i -X POST \
 --data  'url=https://website.com/'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjQxODI3MiwxNzUyMjMyNjksLTQwNz
+eyJoaXN0b3J5IjpbMTMyNDQ1NDg2OSwxNzUyMjMyNjksLTQwNz
 A0NzU1MywyMDQ0ODM5MDc2LDUxNjA4NzUxMCwtMTI0MTI2OTg0
 MCwtNTI5ODAxODExXX0=
 -->
