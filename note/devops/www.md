@@ -172,10 +172,11 @@ http -f POST https://some-website.com/ key=value
 
 ## REST APIs
 
-A **REST** API or **Representational State Transfer** API is a
+A **REST** API or **Representational State Transfer** API is a software routing style for handling requests to a server and returning information. REST uses several different verbs to describe how requests to a server are routed and what they are intenede
 
 ## Telnet
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4MTQ3NzE1LC0xNzA3MTQzODg1XX0=
+eyJoaXN0b3J5IjpbLTE3NTk4Nzc4OTUsLTE3MDcxNDM4ODVdfQ
+==
 -->
