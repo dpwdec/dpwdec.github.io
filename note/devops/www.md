@@ -131,7 +131,7 @@ name=YourNameHere --> query content submitted in the body
 
 ### SSL
 
-**SSL** stands for **Secure Socket Layer** and is an HTTP security protocol. By default HTTP requests are unencrypted.
+**SSL** stands for **Secure Socket Layer** and is an HTTP security protocol. By default HTTP requests are unencrypted and any other actors listening on a network can directly view the contents of an HTTP requests sent. SSL interacts with HTTP to create **HTTPS** which 
 
 ## PRG
 PRG stands for **Post/Redirect/Get** and is a web routing pattern for avoiding form re-submission errors and improving separation of concerns for HTTP verbs. If we imagine a scenario in which a user refreshes a page after making a `POST` request that places an order, the order when will then be sent again as another `POST` request that is duplicated in the server. *Very undesirable!*
@@ -172,5 +172,5 @@ You can install `telnet` to check HTTP connections using `brew install telnet`.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDc5OTU1N119
+eyJoaXN0b3J5IjpbLTQzNjkxMzc3NV19
 -->
