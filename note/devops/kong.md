@@ -48,7 +48,11 @@ You can **stop kong running** using the `kong stop` command.
 ```bash
 $ kong stop
 ```
+
+## Services
+
+**Services** are the name given to **upstream microservice APIs** that kong acts as a gateway to.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1OTY4OTQxLDIwNDQ4MzkwNzYsNTE2MD
-g3NTEwLC0xMjQxMjY5ODQwLC01Mjk4MDE4MTFdfQ==
+eyJoaXN0b3J5IjpbLTQwNzA0NzU1MywyMDQ0ODM5MDc2LDUxNj
+A4NzUxMCwtMTI0MTI2OTg0MCwtNTI5ODAxODExXX0=
 -->
