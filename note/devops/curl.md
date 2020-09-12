@@ -38,12 +38,15 @@ $ curl --url https://website.com/post --data 'name=Lomothy'
 ```
 
 You can **add multiple key value pieces of data** by including them in a single string separated by `&` ampersands, or by creating multiple `data` entries.
-
+```bash
+$ curl --data 'name=Lomothy&age=10' https://website.com/post
+$ curl --data 'name=Lomothy' --data 'age=10' https://website.com/post
+```
 
 You can **change the HTTP verb associate with a request** by using the `X` flag followed by the verb you want to use. It's important to note that **curl automatically selects the appropriate verb for a request** so even if you change the verb manually if it doesn't fit the request type it will still just send the most appropriate request. The example below changes a standard `GET` request to a `POST` request (but given the caveat above, under the hood, this is still just a standard `GET` request).
 ```bash
 $ curl -X POST https://website.com
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDQxMTcyMF19
+eyJoaXN0b3J5IjpbLTE2Mzk1MTY4Nl19
 -->
