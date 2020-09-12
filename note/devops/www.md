@@ -176,10 +176,13 @@ A **REST** API or **Representational State Transfer** API is a software routing 
 
  1. `GET` - *Retrieve* a resource
  2. `POST` - *Create a new* resource
- 3. `
+ 3. `PUT` - *Replace* a resource *in its entiety*
+ 4. `PATCH` - *Update* a resource
+ 5. `DELETE` - *Delete* a resource
 
 ## Telnet
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTUxNzI5MCwtMTcwNzE0Mzg4NV19
+eyJoaXN0b3J5IjpbLTE4ODYxMzEzOTQsLTE3MDcxNDM4ODVdfQ
+==
 -->
