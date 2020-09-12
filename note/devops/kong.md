@@ -35,7 +35,7 @@ $ kong start some/folder/path/kong.conf
 
 ## Ports
 
-Kong runs **consumer ports** on `8000` for standard requests and `8443` for SSL requests and **admin ports** on `8001` for standard requests and `8444` for SSL requests.
+Kong runs **consumer ports** on `8000` for standard requests and `8443` for SSL requests and **admin ports** on `8001` for standard requests and `8444` for SSL requests. Kong is **configured by making HTTP requests to the admin ports**.
 
 ## Commands
 
@@ -51,8 +51,9 @@ $ kong stop
 
 ## Services
 
-**Services** are the name given to **upstream microservice APIs** that kong acts as a gateway to.
+**Services** are the name given to **upstream microservice APIs** that kong acts as a gateway to. A service can contain many **routes** which specify *how* requests that reach kong are sent to upstream services.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzA0NzU1MywyMDQ0ODM5MDc2LDUxNj
-A4NzUxMCwtMTI0MTI2OTg0MCwtNTI5ODAxODExXX0=
+eyJoaXN0b3J5IjpbMTc1MjIzMjY5LC00MDcwNDc1NTMsMjA0ND
+gzOTA3Niw1MTYwODc1MTAsLTEyNDEyNjk4NDAsLTUyOTgwMTgx
+MV19
 -->
