@@ -20,10 +20,15 @@ $ curl -i https://website.com
 
 ## Post
 
+You can **send data with a request** by using the `data` flag followed by data you want to send as a key value pair in `''` quotes.
+```bash
+$ curl --data
+```
+
 You can **change the HTTP verb associate with a request** by using the `X` flag followed by the verb you want to use. It's important to note that **curl automatically selects the appropriate verb for a request** so even if you change the verb manually if it doesn't fit the request type it will still just send the most appropriate request. The example below changes a standard `GET` request to a `POST` request (but given the caveat above, under the hood, this is still just a standard `GET` request).
 ```bash
 $ curl -X POST https://website.com
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTI0MDM5N119
+eyJoaXN0b3J5IjpbNTk1MTcwMzQ2XX0=
 -->
