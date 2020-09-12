@@ -52,8 +52,10 @@ $ kong stop
 ## Services
 
 **Services** are the name given to **upstream microservice APIs** that kong acts as a gateway to. A service can contain many **routes** which specify *how* requests that reach kong are sent to upstream services.
+
+You can **c**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjIzMjY5LC00MDcwNDc1NTMsMjA0ND
-gzOTA3Niw1MTYwODc1MTAsLTEyNDEyNjk4NDAsLTUyOTgwMTgx
-MV19
+eyJoaXN0b3J5IjpbLTgyODM3NDE0MywxNzUyMjMyNjksLTQwNz
+A0NzU1MywyMDQ0ODM5MDc2LDUxNjA4NzUxMCwtMTI0MTI2OTg0
+MCwtNTI5ODAxODExXX0=
 -->
