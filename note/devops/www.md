@@ -82,6 +82,8 @@ Host: some-website.com --> the host
 ```
 The request header can also contain a `Accept-Language` property that will change what language HTTP content is returned in if there is an available resource in another language.
 
+The **host header** specifies the host that the request should be directed to at the destination url.
+
 #### Response Header
 The HTTP response header contains a **status code**, a **content type**, a **content length**. The **content type** allows the server to tell the client what sort of data is incoming. For example, if an HTTP request yielded some video and image content in the body of the response then that data will need to be decoded and display differently from text code for an HTML website. The **content length** is counted in characters.
 ```
@@ -183,6 +185,6 @@ A **REST** API or **Representational State Transfer** API is a software routing 
 ## Telnet
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODYxMzEzOTQsLTE3MDcxNDM4ODVdfQ
-==
+eyJoaXN0b3J5IjpbMTkwNzExMzAyOSwtMTg4NjEzMTM5NCwtMT
+cwNzE0Mzg4NV19
 -->
