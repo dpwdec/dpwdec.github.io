@@ -18,12 +18,12 @@ You can **display `GET` request headers** by adding the `i` flag to the request,
 $ curl -i https://website.com
 ```
 
-## Requests
+## Post
 
-You can **change the HTTP verb associate with a request** by using the `X` flag.
+You can **change the HTTP verb associate with a request** by using the `X` flag followed by the verb you want to use. Despite being able to specify the verb curl will still only make a standard post request no matter what verb you put in. The example below changes a standard `GET` request to a `POST` request.
 ```bash
 $ curl -X POST https://website.com
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDI1NjU1MzddfQ==
+eyJoaXN0b3J5IjpbLTE3NjQ4NDM4OTJdfQ==
 -->
