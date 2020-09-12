@@ -17,6 +17,13 @@ You can **display `GET` request headers** by adding the `i` flag to the request,
 ```bash
 $ curl -i https://website.com
 ```
+
+## Requests
+
+You can **change the HTTP verb associate with a request** by using the `X` flag.
+```bash
+$ curl -X POST https://website.com
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzQ1MzM1Nl19
+eyJoaXN0b3J5IjpbLTIwMDI1NjU1MzddfQ==
 -->
