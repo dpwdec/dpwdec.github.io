@@ -68,9 +68,12 @@ $ curl -i -X POST \
   --data  'hosts[]=example.com'
 ```
 
+## Plugins
 
+You can **add a preinstalled plug in to a kong service** by using the `plugin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQ0MTE3NzksLTkwNzk0Mjg5OSwxNz
-UyMjMyNjksLTQwNzA0NzU1MywyMDQ0ODM5MDc2LDUxNjA4NzUx
-MCwtMTI0MTI2OTg0MCwtNTI5ODAxODExXX0=
+eyJoaXN0b3J5IjpbMTU3NTEwNTk2NywtMjA1NDQxMTc3OSwtOT
+A3OTQyODk5LDE3NTIyMzI2OSwtNDA3MDQ3NTUzLDIwNDQ4Mzkw
+NzYsNTE2MDg3NTEwLC0xMjQxMjY5ODQwLC01Mjk4MDE4MTFdfQ
+==
 -->
