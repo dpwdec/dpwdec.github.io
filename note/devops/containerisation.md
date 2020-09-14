@@ -23,6 +23,8 @@ A **container is created in a three step process**.
  3. Create a **container** that contains the run time environment that your image works with.
 
 Instead of a **hypervisor** containerisation platforms use a **runtime engine** specific to them on which the containers can be hosted.
+
+Containers **do not include a copy of the OS on which the application runs** so they are much more l
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Mjk2MjAzMV19
+eyJoaXN0b3J5IjpbMTc2MTE0MDAxNl19
 -->
