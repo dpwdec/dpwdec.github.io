@@ -25,6 +25,8 @@ A **container is created in a three step process**.
 Instead of a **hypervisor** containerisation platforms use a **runtime engine** specific to them on which the containers can be hosted.
 
 Containers **do not include a copy of the OS on which the application runs** so they are much more lightweight than virtual machines and so more of them can be deployed on a single server.
+
+Containers are also more flexible in communicating between each other, for example if you have separate Python and Node containers they can easily communicate between each other to send data, however on a VM you would have to spin up a heavy new service for each interaction or contain bother services in a a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4NDUwNjExXX0=
+eyJoaXN0b3J5IjpbMTk1Mzk0NjYxXX0=
 -->
