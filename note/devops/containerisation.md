@@ -20,9 +20,9 @@ A **container is created in a three step process**.
 
  1. Create a **manifest file** to describe the form that the container takes.
  2. Create an **application image** that contains the specific code for your application
- 3. Creat
+ 3. Create a **container** that contains the run time environment that your image works with.
 
-Containers use a **manifest file** to describe the form that the container takes.
+Instead of a **hypervisor** containerisation platforms use a **runtime engine** specific to them on which the containers can be hosted.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxMTIwMjA3XX0=
+eyJoaXN0b3J5IjpbMTI1Mjk2MjAzMV19
 -->
