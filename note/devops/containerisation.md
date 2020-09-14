@@ -10,7 +10,9 @@ Previously hosting applications was done using a **virtual machine (vm)**. These
 
 For example, the smallest node js VM is 400mbs whereas the node app and runtime itself would only be 15mb. 😱
 
-This means that creating a new VM will consume a fair number of system resources on the host server. Furthermore, **for each new instance of our application we have to spin up an entirely new VM** again with another copy of the g
+This means that creating a new VM will consume a fair number of system resources on the host server. Furthermore, **for each new instance of our application we have to spin up an entirely new VM** again with another copy of the guest operating system and associated libraries causing even more use of server real estate.
+
+There are also potential problems with the target VMs hosted on a server being different
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjE5MzQ4XX0=
+eyJoaXN0b3J5IjpbMTk4MzI5MDg3OF19
 -->
