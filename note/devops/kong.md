@@ -75,13 +75,14 @@ $ curl -i -X POST \
 
 ## Plugins
 
-You can **add a preinstalled plug in to a kong service** by using the `plugins` extension.
+You can **add a preinstalled plug in to a kong service** by using the `plugins` extension with the data set to the `name` of the plugin you want to install on that service.
 ```bash
-
+$ curl -X POST http://<admin-hostname>:8001/services/<service>/plugins \  
+  --data  "name=<plugin-name>"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDA3NTE5MCwxNTc1MTA1OTY3LC0yMD
-U0NDExNzc5LC05MDc5NDI4OTksMTc1MjIzMjY5LC00MDcwNDc1
-NTMsMjA0NDgzOTA3Niw1MTYwODc1MTAsLTEyNDEyNjk4NDAsLT
-UyOTgwMTgxMV19
+eyJoaXN0b3J5IjpbLTE5NDk0NDIxNDMsMTU3NTEwNTk2NywtMj
+A1NDQxMTc3OSwtOTA3OTQyODk5LDE3NTIyMzI2OSwtNDA3MDQ3
+NTUzLDIwNDQ4MzkwNzYsNTE2MDg3NTEwLC0xMjQxMjY5ODQwLC
+01Mjk4MDE4MTFdfQ==
 -->
