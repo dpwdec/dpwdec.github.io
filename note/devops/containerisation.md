@@ -16,7 +16,13 @@ There are also potential problems with the target VMs hosted on a server being a
 
 ## Containers
 
+A **container is created in a three step process**.
+
+ 1. Create a **manifest file** to describe the form that the container takes.
+ 2. Create an **application image** that contains the specific code for your application
+ 3. Creat
+
 Containers use a **manifest file** to describe the form that the container takes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjA0MjQ3ODddfQ==
+eyJoaXN0b3J5IjpbOTcxMTIwMjA3XX0=
 -->
