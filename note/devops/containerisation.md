@@ -12,7 +12,11 @@ For example, the smallest node js VM is 400mbs whereas the node app and runtime 
 
 This means that creating a new VM will consume a fair number of system resources on the host server. Furthermore, **for each new instance of our application we have to spin up an entirely new VM** again with another copy of the guest operating system and associated libraries causing even more use of server real estate.
 
-There are also potential problems with the target VMs hosted on a server being different
+There are also potential problems with the target VMs hosted on a server being a different OS from that which your application was developed in leading to intractable errors that slow production.
+
+## Containers
+
+Containers use a **manifest file** to describe the form that the container takes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzI5MDg3OF19
+eyJoaXN0b3J5IjpbLTE4NjA0MjQ3ODddfQ==
 -->
