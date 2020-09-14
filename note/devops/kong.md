@@ -39,6 +39,11 @@ Kong runs **consumer ports** on `8000` for standard requests and `8443` for SSL 
 
 ## Commands
 
+You can **start kong with a debug log at set up** by using the `vv` flag.
+```bash
+$ kong start --vv
+```
+
 You can **reload kong** with the `reload` command.
 ```bash
 $ kong reload
@@ -70,10 +75,13 @@ $ curl -i -X POST \
 
 ## Plugins
 
-You can **add a preinstalled plug in to a kong service** by using the `plugin
+You can **add a preinstalled plug in to a kong service** by using the `plugins` extension.
+```bash
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTEwNTk2NywtMjA1NDQxMTc3OSwtOT
-A3OTQyODk5LDE3NTIyMzI2OSwtNDA3MDQ3NTUzLDIwNDQ4Mzkw
-NzYsNTE2MDg3NTEwLC0xMjQxMjY5ODQwLC01Mjk4MDE4MTFdfQ
-==
+eyJoaXN0b3J5IjpbMTAyNDA3NTE5MCwxNTc1MTA1OTY3LC0yMD
+U0NDExNzc5LC05MDc5NDI4OTksMTc1MjIzMjY5LC00MDcwNDc1
+NTMsMjA0NDgzOTA3Niw1MTYwODc1MTAsLTEyNDEyNjk4NDAsLT
+UyOTgwMTgxMV19
 -->
