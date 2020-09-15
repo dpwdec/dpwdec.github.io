@@ -206,11 +206,17 @@ class PixelImage: IDisplayable
 class MyClass: BaseClass, MyInterface, MyOtherInterface { ... }
 ```
 
+All **properties and methods defined in an interface are public** and **do not support access modifiers** because all classes that inherit from them must use all methods and properties.
+```csharp
+
+```
+
 You **cannot set a default value for an interface property**.
 ```csharp
 // NOT VALID
 interface MyInterface
 {
+  double x = 5;
 }
 ```
 
@@ -276,7 +282,7 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDMxNjk4ODIsMTU2NDUyODQyMCwtMT
+eyJoaXN0b3J5IjpbLTEzMTc1MjI2NTEsMTU2NDUyODQyMCwtMT
 c2NTcwMTEzNywtNTYxMTMwNjk0LC0xNzM5NTk1Njk5LC0xMzYy
 NzI4ODAxLC05MDkxNzczMzEsMTUwMjAyOTgxMF19
 -->
