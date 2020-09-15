@@ -212,6 +212,7 @@ All **properties and methods defined in an interface are public** and **do not s
 interface MyInterface
 {
   private int MyMethod(); // access modifiers not supported
+  static double MyStatic(); // static methods not supported
 }
 ```
 
@@ -286,7 +287,7 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTM1NjU3NjIsMTU2NDUyODQyMCwtMT
+eyJoaXN0b3J5IjpbLTEzMTQ0NjQ4NTYsMTU2NDUyODQyMCwtMT
 c2NTcwMTEzNywtNTYxMTMwNjk0LC0xNzM5NTk1Njk5LC0xMzYy
 NzI4ODAxLC05MDkxNzczMzEsMTUwMjAyOTgxMF19
 -->
