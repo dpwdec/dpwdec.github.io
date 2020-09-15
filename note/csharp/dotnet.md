@@ -199,12 +199,20 @@ class PixelImage: IDisplayable
     // display code
   }
 }
+```
 
 **A single class can inherit from *multiple* interfaces**. If a class **inherits from another class and some interfaces** the **base class should be listed first** in the inhteritance list followed by the interfaces.
 ```csharp
 class MyClass: BaseClass, MyInterface, MyOtherInterface { ... }
 ```
 
+You **cannot set a default value for an interface property**.
+```csharp
+// NOT VALID
+interface MyInterface
+{
+}
+```
 
 ## References
 
@@ -268,7 +276,7 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjk3NjI4MjUsMTU2NDUyODQyMCwtMT
+eyJoaXN0b3J5IjpbLTE5MDMxNjk4ODIsMTU2NDUyODQyMCwtMT
 c2NTcwMTEzNywtNTYxMTMwNjk0LC0xNzM5NTk1Njk5LC0xMzYy
 NzI4ODAxLC05MDkxNzczMzEsMTUwMjAyOTgxMF19
 -->
