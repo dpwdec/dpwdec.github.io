@@ -189,7 +189,9 @@ interface IDisplayable
 }
 ```
 
-To use 
+To **use an interface** a class must **inherit from that interface** and then **implement all the methods *and* properties** of that interface. Interface inheritance is done using the **same syntax as class inheritance**.
+```
+class 
 
 **A single class can inherit from *multiple* interfaces**. If a class **inherits from another class and some interfaces** the **base class should be listed first** in the inhteritance list followed by the interfaces.
 ```csharp
@@ -259,7 +261,7 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxMjI5ODU1LC0xNzY1NzAxMTM3LC01Nj
-ExMzA2OTQsLTE3Mzk1OTU2OTksLTEzNjI3Mjg4MDEsLTkwOTE3
-NzMzMSwxNTAyMDI5ODEwXX0=
+eyJoaXN0b3J5IjpbLTY2OTM4MzAzMSwtMTc2NTcwMTEzNywtNT
+YxMTMwNjk0LC0xNzM5NTk1Njk5LC0xMzYyNzI4ODAxLC05MDkx
+NzczMzEsMTUwMjAyOTgxMF19
 -->
