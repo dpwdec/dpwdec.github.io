@@ -189,7 +189,10 @@ interface IDisplayable
 }
 ```
 
-**A single class can inherit from *multiple* interfaces**. If a class **inherits from another class and some interfaces** the **strong text**
+**A single class can inherit from *multiple* interfaces**. If a class **inherits from another class and some interfaces** the **base class should be listed first** in the inhteritance list followed by the interfaces.
+```csharp
+class MyClass: BaseClass, MyInterface, MyOtherInterface { ... }
+```
 
 
 ## References
@@ -254,7 +257,7 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQ5Nzg4OTcsLTU2MTEzMDY5NCwtMT
+eyJoaXN0b3J5IjpbLTE3NjU3MDExMzcsLTU2MTEzMDY5NCwtMT
 czOTU5NTY5OSwtMTM2MjcyODgwMSwtOTA5MTc3MzMxLDE1MDIw
 Mjk4MTBdfQ==
 -->
