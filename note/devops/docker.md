@@ -8,8 +8,9 @@ Docker is an application containerisation system.
 
 Applicatons are **deployed in three steps**:
 
- 1. Creati
-
+ 1. Creating a `Dockerfile` that describes how a docker image is built.
+ 2. Building a docker image file.
+ 3. Launching the docker i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2OTY4MDY2XX0=
+eyJoaXN0b3J5IjpbLTEzODMzNDIwMTldfQ==
 -->
