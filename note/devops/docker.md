@@ -12,7 +12,7 @@ Applicatons are **deployed in three steps**:
  2. Building a docker image file
  3. Running the docker image file in docker
 
-
+You can **find existing images to use as a base for your custom images** by using the [Docker Hub](https://hub.docker.com/) service.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzQzNzAzNF19
+eyJoaXN0b3J5IjpbNDA0Mjk2MzA1LC04NTc0MzcwMzRdfQ==
 -->
