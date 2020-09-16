@@ -154,9 +154,11 @@ public int balance
 }
 ```
 
+
+
 ### Value
 
-The `value` keyword allows you to implicitly reference the argument passed into a property's `set` method. In the example below, the code defines a `private` member called `_X` which reference via a public `X` interface proprety. The `value` keyword is then use to set `_X` as the implicit argument to the `set` method, this would be similar to writing `set(double value)` as the signature for the set method.
+The **`value` keyword allows you to implicitly reference the argument passed into a property's `set` method**. In the example below, the code defines a `private` member called `_X` which reference via a public `X` interface proprety. The `value` keyword is then use to set `_X` as the implicit argument to the `set` method, this would be similar to writing `set(double value)` as the signature for the set method.
 ```csharp
 private double _X;
 public double X
@@ -165,6 +167,8 @@ public double X
   set { _X = value; }
 }
 ```
+
+I'm unsure why this useful, or why the value can't assigned directly without a private class member.
 
 ## Interfaces
 
@@ -299,8 +303,9 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTkwNTMyNzMsMjQzNzcxMjI0LDE3MT
-Q3NTY0OTYsLTEzMTQ0NjQ4NTYsMTU2NDUyODQyMCwtMTc2NTcw
-MTEzNywtNTYxMTMwNjk0LC0xNzM5NTk1Njk5LC0xMzYyNzI4OD
-AxLC05MDkxNzczMzEsMTUwMjAyOTgxMF19
+eyJoaXN0b3J5IjpbMzAwNDM5NzE0LC0xMTU5MDUzMjczLDI0Mz
+c3MTIyNCwxNzE0NzU2NDk2LC0xMzE0NDY0ODU2LDE1NjQ1Mjg0
+MjAsLTE3NjU3MDExMzcsLTU2MTEzMDY5NCwtMTczOTU5NTY5OS
+wtMTM2MjcyODgwMSwtOTA5MTc3MzMxLDE1MDIwMjk4MTBdfQ==
+
 -->
