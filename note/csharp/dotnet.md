@@ -217,6 +217,8 @@ public class Square : Shape
 }
 ```
 
+You can also **provide concrete implementations in an abstract class** to provide functionality to all
+
 ## Interfaces
 
 An `interface` defines methods that an object that *implements* that interface must fulfill. Any **methods defined in an interface must be implemented in the class that uses the interface**.
@@ -350,9 +352,9 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC02Nz
-Y1NDAzMzAsLTExNTkwNTMyNzMsMjQzNzcxMjI0LDE3MTQ3NTY0
-OTYsLTEzMTQ0NjQ4NTYsMTU2NDUyODQyMCwtMTc2NTcwMTEzNy
-wtNTYxMTMwNjk0LC0xNzM5NTk1Njk5LC0xMzYyNzI4ODAxLC05
-MDkxNzczMzEsMTUwMjAyOTgxMF19
+eyJoaXN0b3J5IjpbLTI0ODkzNDg2NSwxMzk0Njg2Nzk3LDEyNT
+UyODcxNTcsLTY3NjU0MDMzMCwtMTE1OTA1MzI3MywyNDM3NzEy
+MjQsMTcxNDc1NjQ5NiwtMTMxNDQ2NDg1NiwxNTY0NTI4NDIwLC
+0xNzY1NzAxMTM3LC01NjExMzA2OTQsLTE3Mzk1OTU2OTksLTEz
+NjI3Mjg4MDEsLTkwOTE3NzMzMSwxNTAyMDI5ODEwXX0=
 -->
