@@ -8,7 +8,12 @@ exclude: true
 
 You can **access your project's configuration file** which is found in the corresponding project's `.csproj` file by going to the project file in the solution browser, then `RMB (on Project) -> Edit Project File`.
 
-If you **add a NuGet package or dependency** this will be reflected in the project's `.csproj` file with an `Item
+If you **add a NuGet package or dependency** this will be reflected in the project's `.csproj` file with an `ItemGroup` with a `PackageReference` specifying the project's dependencies.
+```xml
+<ItemGroup>  
+  <PackageReference  Include="SomeDependency"  Version="x.x.x"  />  
+</ItemGroup>
+```
 
 ## Razor Pages
 
@@ -30,5 +35,5 @@ public class MyModel : PageModel
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzMDg5NDUzXX0=
+eyJoaXN0b3J5IjpbLTYzODQzNTAzN119
 -->
