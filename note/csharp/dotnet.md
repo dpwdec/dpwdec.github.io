@@ -191,11 +191,13 @@ I'm unsure why this useful, or why the value can't assigned directly without a p
 
 ### Abstract
 
-The `abstract` keyword (or modifier) is used to define **incomplete or skeleton implementations** for classes and methods, as such, classes marked with the `abstract` keyword **cannot be instantiated** but are instead used as **base classes** to define the structure of classes that are actually implemented. You can **only creat `abstract` methods inside an `abstract class**.
+The `abstract` keyword (or modifier) is used to define **incomplete or skeleton implementations** for classes and methods, as such, classes marked with the `abstract` keyword **cannot be instantiated** but are instead used as **base classes** to define the structure of classes that are actually implemented. You can **only create `abstract` methods inside an `abstract class**.
+
+To **define an abstract class** use the `abstract` keyword in the class definition and then add abstract method signatures for the class. The example below defines a `Shape` class with a met
 ```csharp
 abstract class Shape
 {
-
+  public abstract double Area();
 }
 ```
 
@@ -332,9 +334,9 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1OTA4NTcyLC02NzY1NDAzMzAsLTExNT
-kwNTMyNzMsMjQzNzcxMjI0LDE3MTQ3NTY0OTYsLTEzMTQ0NjQ4
-NTYsMTU2NDUyODQyMCwtMTc2NTcwMTEzNywtNTYxMTMwNjk0LC
-0xNzM5NTk1Njk5LC0xMzYyNzI4ODAxLC05MDkxNzczMzEsMTUw
-MjAyOTgxMF19
+eyJoaXN0b3J5IjpbLTMxNTEwNTgyNywtNjc2NTQwMzMwLC0xMT
+U5MDUzMjczLDI0Mzc3MTIyNCwxNzE0NzU2NDk2LC0xMzE0NDY0
+ODU2LDE1NjQ1Mjg0MjAsLTE3NjU3MDExMzcsLTU2MTEzMDY5NC
+wtMTczOTU5NTY5OSwtMTM2MjcyODgwMSwtOTA5MTc3MzMxLDE1
+MDIwMjk4MTBdfQ==
 -->
