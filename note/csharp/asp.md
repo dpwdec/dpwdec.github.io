@@ -15,7 +15,7 @@ If you **add a NuGet package or dependency** this will be reflected in the proje
 </ItemGroup>
 ```
 
-You can **configure how your web application runs** such as 
+You can **configure how your web application runs** such as the *port* it runs on, or its *environment variables* using the `priopreties/launchSettings.json` file in your project.
 
 ## Razor Pages
 
@@ -37,5 +37,5 @@ public class MyModel : PageModel
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjUxMTI4MDAsLTYzODQzNTAzN119
+eyJoaXN0b3J5IjpbMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
 -->
