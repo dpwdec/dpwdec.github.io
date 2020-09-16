@@ -201,6 +201,8 @@ abstract class Shape
 }
 ```
 
+You can **inherit from an abstract class** by using standard inheritan
+
 ## Interfaces
 
 An `interface` defines methods that an object that *implements* that interface must fulfill. Any **methods defined in an interface must be implemented in the class that uses the interface**.
@@ -334,9 +336,9 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4NTIxNTcsLTY3NjU0MDMzMCwtMTE1OT
-A1MzI3MywyNDM3NzEyMjQsMTcxNDc1NjQ5NiwtMTMxNDQ2NDg1
-NiwxNTY0NTI4NDIwLC0xNzY1NzAxMTM3LC01NjExMzA2OTQsLT
-E3Mzk1OTU2OTksLTEzNjI3Mjg4MDEsLTkwOTE3NzMzMSwxNTAy
-MDI5ODEwXX0=
+eyJoaXN0b3J5IjpbLTE5MjkxMjY1NTgsLTY3NjU0MDMzMCwtMT
+E1OTA1MzI3MywyNDM3NzEyMjQsMTcxNDc1NjQ5NiwtMTMxNDQ2
+NDg1NiwxNTY0NTI4NDIwLC0xNzY1NzAxMTM3LC01NjExMzA2OT
+QsLTE3Mzk1OTU2OTksLTEzNjI3Mjg4MDEsLTkwOTE3NzMzMSwx
+NTAyMDI5ODEwXX0=
 -->
