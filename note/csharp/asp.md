@@ -23,7 +23,7 @@ You should **store static files for your website** in the `wwwroot` folder withi
 
 ## Razor Pages
 
-The 
+The **primary code** for a razor pages application is contained in the `Pages` directory.
 
 Razor pages contain **both a view and model** for each page. The **view is defined using a `.cshtml`file**, and the **model is defined using a standard `.cs` file**. The **naming convention for the model files** is to use `.cshtml.cs`. The example below shows the view and model files together as they appear in a razor pages file structure.
 ```
@@ -41,8 +41,12 @@ public class MyModel : PageModel
 }
 ```
 
+### Shared
+
+You can **create partials **
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQyOTI1MDMsMTM4NDA4NzIwNiwtNj
-M4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbMTM2OTcwNTE4MSwxMzg0MDg3MjA2LC02Mz
+g0MzUwMzddfQ==
 -->
