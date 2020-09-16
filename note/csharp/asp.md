@@ -17,7 +17,9 @@ If you **add a NuGet package or dependency** this will be reflected in the proje
 
 You can **configure how your web application runs** such as the *port* it runs on, or its *environment variables* using the `priopreties/launchSettings.json` file in your project.
 
-You can **define different profiles here with which to run your application** which change how the application is built . For example you may want to define a *debug* profile with specific variables to debug an application, or you may want to develop something using a *release-like* profile.
+You can **define different profiles here with which to run your application** which change how the application is built and operated when developing. For example you may want to define a *debug* profile with specific variables to debug an application, or you may want to develop something using a *release-like* profile.
+
+You shoudl **store static files for your website** in the `wwwroot` folder within your project. This contains static dependencies like JavaScript, CSS and other static libraries.
 
 ## Razor Pages
 
@@ -39,6 +41,6 @@ public class MyModel : PageModel
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTcwNjIyNSwxMzg0MDg3MjA2LC02Mz
+eyJoaXN0b3J5IjpbMTU4MTczMjUxNSwxMzg0MDg3MjA2LC02Mz
 g0MzUwMzddfQ==
 -->
