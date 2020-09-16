@@ -46,7 +46,7 @@ You can **specify the model that a page should use** by using the `@model` keywo
 <!-- Index.cshtml -->
 @model IndexModel
 
-<h1>
+<h1>Hello!</h1>
 ```
 
 ### Shared
@@ -61,6 +61,6 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzgzNDM3MiwxOTM1MjUxNzY2LDEzOD
-QwODcyMDYsLTYzODQzNTAzN119
+eyJoaXN0b3J5IjpbLTE2MjgxNjIyMTcsMTkzNTI1MTc2NiwxMz
+g0MDg3MjA2LC02Mzg0MzUwMzddfQ==
 -->
