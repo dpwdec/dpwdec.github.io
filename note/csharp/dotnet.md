@@ -217,7 +217,17 @@ public class Square : Shape
 }
 ```
 
-You can also **provide concrete implementations in an abstract class** to provide functionality to all
+You can also **provide concrete implementations in an abstract class** to provide functionality to all inheritors of a base class.
+```csharp
+public abstract class Component
+{
+  public abstract double ReportCode();
+  public string Version()
+  {
+    return "1.3.3x";
+  }
+}
+```
 
 ## Interfaces
 
@@ -352,7 +362,7 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODkzNDg2NSwxMzk0Njg2Nzk3LDEyNT
+eyJoaXN0b3J5IjpbMTI1MzM1MTI0NCwxMzk0Njg2Nzk3LDEyNT
 UyODcxNTcsLTY3NjU0MDMzMCwtMTE1OTA1MzI3MywyNDM3NzEy
 MjQsMTcxNDc1NjQ5NiwtMTMxNDQ2NDg1NiwxNTY0NTI4NDIwLC
 0xNzY1NzAxMTM3LC01NjExMzA2OTQsLTE3Mzk1OTU2OTksLTEz
