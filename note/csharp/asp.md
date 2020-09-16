@@ -45,9 +45,14 @@ public class MyModel : PageModel
 
 You can **create layout and page partials** in the the project's `Pages/Shared` folder. The **naming convention for these files** is to start with an `_` underscore, such as `_Layout.cshtml`. 
 
-You can **define the master layout for your application** by using the `_ViewStart.cshtml` file and setting the `Layout` variable equal to the name ofpartial you want to use from your `Shared`
+You can **define the master layout for your application** by using the `_ViewStart.cshtml` file and setting the `Layout` variable equal to the name of the partial you want to use from your `Shared` folder.
+```csharp
+@{
+  Layout = "_Layout";
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjQ0MzA4NiwxOTM1MjUxNzY2LDEzOD
-QwODcyMDYsLTYzODQzNTAzN119
+eyJoaXN0b3J5IjpbODYyNzEyMzc3LDE5MzUyNTE3NjYsMTM4ND
+A4NzIwNiwtNjM4NDM1MDM3XX0=
 -->
