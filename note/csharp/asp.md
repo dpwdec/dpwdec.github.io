@@ -6,7 +6,7 @@ exclude: true
 
 ## Project
 
-You can **access your project's configuration file** which is found in the corresponding project's `.csproj` file by `RMB
+You can **access your project's configuration file** which is found in the corresponding project's `.csproj` file by going to the project file in the solution browser, then `RMB (on Project) -> Edit Project File`.
 
 ## Razor Pages
 
@@ -28,5 +28,5 @@ public class MyModel : PageModel
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyMDYwNjQ3XX0=
+eyJoaXN0b3J5IjpbLTk3NzY3MDIwM119
 -->
