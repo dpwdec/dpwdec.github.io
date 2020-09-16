@@ -19,9 +19,11 @@ You can **configure how your web application runs** such as the *port* it runs o
 
 You can **define different profiles here with which to run your application** which change how the application is built and operated when developing. For example you may want to define a *debug* profile with specific variables to debug an application, or you may want to develop something using a *release-like* profile.
 
-You shoudl **store static files for your website** in the `wwwroot` folder within your project. This contains static dependencies like JavaScript, CSS and other static libraries.
+You should **store static files for your website** in the `wwwroot` folder within your project. This contains static dependencies like `JavaScript` and `CSS`.
 
 ## Razor Pages
+
+The 
 
 Razor pages contain **both a view and model** for each page. The **view is defined using a `.cshtml`file**, and the **model is defined using a standard `.cs` file**. The **naming convention for the model files** is to use `.cshtml.cs`. The example below shows the view and model files together as they appear in a razor pages file structure.
 ```
@@ -41,6 +43,6 @@ public class MyModel : PageModel
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTczMjUxNSwxMzg0MDg3MjA2LC02Mz
-g0MzUwMzddfQ==
+eyJoaXN0b3J5IjpbLTE4ODQyOTI1MDMsMTM4NDA4NzIwNiwtNj
+M4NDM1MDM3XX0=
 -->
