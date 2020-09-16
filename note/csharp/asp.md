@@ -43,10 +43,10 @@ public class MyModel : PageModel
 
 ### Shared
 
-You can **create partials **
+You can **create layout and page partials** in the the project's `Pages/Shared` folder. The **naming convention for these files** is to start with an `_` underscore, such as `_Layout.cshtml`. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTcwNTE4MSwxMzg0MDg3MjA2LC02Mz
+eyJoaXN0b3J5IjpbMTkzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mz
 g0MzUwMzddfQ==
 -->
