@@ -154,6 +154,10 @@ public int balance
 }
 ```
 
+### Value
+
+
+
 ## Interfaces
 
 An `interface` defines methods that an object that *implements* that interface must fulfill. Any **methods defined in an interface must be implemented in the class that uses the interface**.
@@ -287,7 +291,8 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTQ0NjQ4NTYsMTU2NDUyODQyMCwtMT
-c2NTcwMTEzNywtNTYxMTMwNjk0LC0xNzM5NTk1Njk5LC0xMzYy
-NzI4ODAxLC05MDkxNzczMzEsMTUwMjAyOTgxMF19
+eyJoaXN0b3J5IjpbMTcxNDc1NjQ5NiwtMTMxNDQ2NDg1NiwxNT
+Y0NTI4NDIwLC0xNzY1NzAxMTM3LC01NjExMzA2OTQsLTE3Mzk1
+OTU2OTksLTEzNjI3Mjg4MDEsLTkwOTE3NzMzMSwxNTAyMDI5OD
+EwXX0=
 -->
