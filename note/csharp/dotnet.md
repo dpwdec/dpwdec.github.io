@@ -201,7 +201,9 @@ abstract class Shape
 }
 ```
 
-You can **inherit from an abstract class** by using standard inheritance syntax. A class that inherits from an abstract class **must provide an implementation for all the base class's abstract methods**. You can **provide an implementation for an abstract method** by using the `override` keyword.
+You can **inherit from an abstract class** by using standard inheritance syntax. A class that inherits from an abstract class **must provide an implementation for all the base class's abstract methods**. 
+
+To **provide an implementation for an abstract method** use the `override` keyword.
 ```csharp
 public class Square : Shape
 {
@@ -348,9 +350,9 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTI4NzE1NywtNjc2NTQwMzMwLC0xMT
-U5MDUzMjczLDI0Mzc3MTIyNCwxNzE0NzU2NDk2LC0xMzE0NDY0
-ODU2LDE1NjQ1Mjg0MjAsLTE3NjU3MDExMzcsLTU2MTEzMDY5NC
-wtMTczOTU5NTY5OSwtMTM2MjcyODgwMSwtOTA5MTc3MzMxLDE1
-MDIwMjk4MTBdfQ==
+eyJoaXN0b3J5IjpbMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC02Nz
+Y1NDAzMzAsLTExNTkwNTMyNzMsMjQzNzcxMjI0LDE3MTQ3NTY0
+OTYsLTEzMTQ0NjQ4NTYsMTU2NDUyODQyMCwtMTc2NTcwMTEzNy
+wtNTYxMTMwNjk0LC0xNzM5NTk1Njk5LC0xMzYyNzI4ODAxLC05
+MDkxNzczMzEsMTUwMjAyOTgxMF19
 -->
