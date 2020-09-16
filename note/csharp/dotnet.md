@@ -189,6 +189,10 @@ public double X
 
 I'm unsure why this useful, or why the value can't assigned directly without a private class member.
 
+### Abstract
+
+The `abstract` keyword (or modifier) is used to define **incomplete implementations** for classes and methods.
+
 ## Interfaces
 
 An `interface` defines methods that an object that *implements* that interface must fulfill. Any **methods defined in an interface must be implemented in the class that uses the interface**.
@@ -322,9 +326,9 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NjU0MDMzMCwtMTE1OTA1MzI3MywyND
-M3NzEyMjQsMTcxNDc1NjQ5NiwtMTMxNDQ2NDg1NiwxNTY0NTI4
-NDIwLC0xNzY1NzAxMTM3LC01NjExMzA2OTQsLTE3Mzk1OTU2OT
-ksLTEzNjI3Mjg4MDEsLTkwOTE3NzMzMSwxNTAyMDI5ODEwXX0=
-
+eyJoaXN0b3J5IjpbMTAxNTU5MDM1NCwtNjc2NTQwMzMwLC0xMT
+U5MDUzMjczLDI0Mzc3MTIyNCwxNzE0NzU2NDk2LC0xMzE0NDY0
+ODU2LDE1NjQ1Mjg0MjAsLTE3NjU3MDExMzcsLTU2MTEzMDY5NC
+wtMTczOTU5NTY5OSwtMTM2MjcyODgwMSwtOTA5MTc3MzMxLDE1
+MDIwMjk4MTBdfQ==
 -->
