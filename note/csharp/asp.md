@@ -41,6 +41,14 @@ public class MyModel : PageModel
 }
 ```
 
+You can **specify the model that a page should use** by using the `@model` keyword in the corresponding `.cshtml` file.
+```html
+<!-- Index.cshtml -->
+@model IndexModel
+
+<h1>
+```
+
 ### Shared
 
 You can **create layout and page partials** in the the project's `Pages/Shared` folder. The **naming convention for these files** is to start with an `_` underscore, such as `_Layout.cshtml`. 
@@ -53,6 +61,6 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyNzEyMzc3LDE5MzUyNTE3NjYsMTM4ND
-A4NzIwNiwtNjM4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbLTg4MzgzNDM3MiwxOTM1MjUxNzY2LDEzOD
+QwODcyMDYsLTYzODQzNTAzN119
 -->
