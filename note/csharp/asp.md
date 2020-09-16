@@ -6,7 +6,7 @@ exclude: true
 
 ## Project
 
-You
+You can **access your project's configuration file** which is found in the corresponding project's `.csproj` file by `RMB
 
 ## Razor Pages
 
@@ -28,5 +28,5 @@ public class MyModel : PageModel
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0Mzk1NjYxXX0=
+eyJoaXN0b3J5IjpbOTQyMDYwNjQ3XX0=
 -->
