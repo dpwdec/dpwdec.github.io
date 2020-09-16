@@ -156,7 +156,24 @@ public int balance
 
 ### Virtual
 
-The **`virtual` keyword is used to mark methods in a class that can be `override`n** by classes that inherit from them. You **must provide a default implementation** for a `virtual` method as it is optional whether a base class ove
+The **`virtual` keyword is used to mark methods in a class that can be `override`n** by classes that inherit from them. You **must provide a default implementation** for a `virtual` method as it is optional whether a base class will `override` the method or not. Methods that are 
+```csharp
+class Base
+{
+  public virtual string SayHello()
+  {
+    return "Hello";
+  }
+}
+
+class Inheritor : Base
+{
+  public override string SayHello()
+  {
+    return "Greetings!"
+  }
+}
+```
 
 ### Value
 
@@ -305,9 +322,9 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTE4MTA0NiwtMTE1OTA1MzI3MywyND
-M3NzEyMjQsMTcxNDc1NjQ5NiwtMTMxNDQ2NDg1NiwxNTY0NTI4
-NDIwLC0xNzY1NzAxMTM3LC01NjExMzA2OTQsLTE3Mzk1OTU2OT
-ksLTEzNjI3Mjg4MDEsLTkwOTE3NzMzMSwxNTAyMDI5ODEwXX0=
+eyJoaXN0b3J5IjpbOTczMTYwMzM5LC0xMTU5MDUzMjczLDI0Mz
+c3MTIyNCwxNzE0NzU2NDk2LC0xMzE0NDY0ODU2LDE1NjQ1Mjg0
+MjAsLTE3NjU3MDExMzcsLTU2MTEzMDY5NCwtMTczOTU5NTY5OS
+wtMTM2MjcyODgwMSwtOTA5MTc3MzMxLDE1MDIwMjk4MTBdfQ==
 
 -->
