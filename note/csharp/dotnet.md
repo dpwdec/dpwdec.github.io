@@ -156,7 +156,10 @@ public int balance
 
 ### Value
 
-The `value` kehyword
+The `value` keyword allows you to implicitly reference the argument passed into a property's `set` method.
+```csharp
+
+```
 
 ## Interfaces
 
@@ -291,7 +294,7 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE5ODE2MTg3LDE3MTQ3NTY0OTYsLTEzMT
+eyJoaXN0b3J5IjpbMjQzNzcxMjI0LDE3MTQ3NTY0OTYsLTEzMT
 Q0NjQ4NTYsMTU2NDUyODQyMCwtMTc2NTcwMTEzNywtNTYxMTMw
 Njk0LC0xNzM5NTk1Njk5LC0xMzYyNzI4ODAxLC05MDkxNzczMz
 EsMTUwMjAyOTgxMF19
