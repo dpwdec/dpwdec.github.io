@@ -17,7 +17,14 @@ If you **add a NuGet package or dependency** this will be reflected in the proje
 
 You can **configure how your web application runs** such as the *port* it runs on, or its *environment variables* using the `priopreties/launchSettings.json` file in your project.
 
-You can **set the application environment as development** by assigning the `ASPNETCORE_ENVIRONMENT` variable to 
+You can **set environment variables** using the `environ
+
+You can **set the application environment as development** by assigning the `ASPNETCORE_ENVIRONMENT` variable to `Development` in the `environmentVariables` section of the `launchSettings.json` file.
+```json
+"environmentVariables": {
+  "ASPNETCORE_ENVIRONMENT": "Development"
+}
+```
 
 You can **configure other settings for your project** such as database connection strings etc. from the `appsettings.json` file, there is also an `appsetttings.Development.json` for settings specific to the development environment.
 
@@ -69,6 +76,6 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTYyMDU1OSwtMTYyODE2MjIxNywxOT
-M1MjUxNzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
+eyJoaXN0b3J5IjpbLTEwNTg0NzU1ODMsLTE2MjgxNjIyMTcsMT
+kzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ==
 -->
