@@ -20,7 +20,7 @@ You can **configure how your web application runs** such as the *port* it runs o
 You can **set environment variables** using the `environmentVariables` section of the `launchSettings.json` file for the profile that you are running your application on.
 ```json
 "environmentVariables": {
-  // 
+  // environment variables here
 }
 ```
 
@@ -81,6 +81,6 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTA1Njk5LC0xNjI4MTYyMjE3LDE5Mz
-UyNTE3NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbMTM1MjQ4NDYwNSwtMTYyODE2MjIxNywxOT
+M1MjUxNzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
 -->
