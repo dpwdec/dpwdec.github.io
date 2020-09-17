@@ -21,6 +21,10 @@ You can **define different profiles here with which to run your application** wh
 
 You should **store static files for your website** in the `wwwroot` folder within your project. This contains static dependencies like `JavaScript` and `CSS`.
 
+## Program
+
+Like other .NET applications ASP 
+
 ## Razor Pages
 
 The **primary code** for a razor pages application is contained in the `Pages` directory.
@@ -61,6 +65,6 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjgxNjIyMTcsMTkzNTI1MTc2NiwxMz
-g0MDg3MjA2LC02Mzg0MzUwMzddfQ==
+eyJoaXN0b3J5IjpbMTUwNDMzNjMxMiwtMTYyODE2MjIxNywxOT
+M1MjUxNzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
 -->
