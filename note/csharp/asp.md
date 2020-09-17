@@ -17,7 +17,12 @@ If you **add a NuGet package or dependency** this will be reflected in the proje
 
 You can **configure how your web application runs** such as the *port* it runs on, or its *environment variables* using the `priopreties/launchSettings.json` file in your project.
 
-You can **set environment variables** using the `environ
+You can **set environment variables** using the `environmentVariables` section of the `launchSettings.json` file for the profile that you are running your application on.
+```json
+"environmentVariables": {
+  // 
+}
+```
 
 You can **set the application environment as development** by assigning the `ASPNETCORE_ENVIRONMENT` variable to `Development` in the `environmentVariables` section of the `launchSettings.json` file.
 ```json
@@ -76,6 +81,6 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTg0NzU1ODMsLTE2MjgxNjIyMTcsMT
-kzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ==
+eyJoaXN0b3J5IjpbMTM4OTA1Njk5LC0xNjI4MTYyMjE3LDE5Mz
+UyNTE3NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
 -->
