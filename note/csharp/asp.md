@@ -23,8 +23,8 @@ You should **store static files for your website** in the `wwwroot` folder withi
 
 Like other .NET programs ASP applications **start running from the `Main` method** in the `Program` class. Generally this use a `Startup` class to build and then run the application.
 
-You can **configure you project's routing, middleware and service**
-
+You can **configure you project's routing pipeline, middleware and services** from the `Startup` class. 
+ 
 ## Razor Pages
 
 The **primary code** for a razor pages application is contained in the `Pages` directory.
@@ -65,6 +65,6 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjA2NDk1NywtMTYyODE2MjIxNywxOT
-M1MjUxNzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
+eyJoaXN0b3J5IjpbLTEzMDg2NzQ3ODgsLTE2MjgxNjIyMTcsMT
+kzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ==
 -->
