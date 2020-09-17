@@ -9,6 +9,11 @@ You can **create a new console application** by using `dotnet new` command with 
 $ dotnet new console
 ```
 
+You can **name a new application** using the `n` flag followed by the desired name of the application.
+```bash
+$ dotnet new console -n MyProject
+```
+
 ## Var
 
 You can **use the `var` keyword** when the type of a variable is inferred or when you are working with an anonymous type. It's recommended to generally avoid using `var` unless you need to or unless type inference is *very* clear to readers.
@@ -362,9 +367,10 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzM1MTI0NCwxMzk0Njg2Nzk3LDEyNT
-UyODcxNTcsLTY3NjU0MDMzMCwtMTE1OTA1MzI3MywyNDM3NzEy
-MjQsMTcxNDc1NjQ5NiwtMTMxNDQ2NDg1NiwxNTY0NTI4NDIwLC
-0xNzY1NzAxMTM3LC01NjExMzA2OTQsLTE3Mzk1OTU2OTksLTEz
-NjI3Mjg4MDEsLTkwOTE3NzMzMSwxNTAyMDI5ODEwXX0=
+eyJoaXN0b3J5IjpbLTEyNTU2MDA2OTIsMTI1MzM1MTI0NCwxMz
+k0Njg2Nzk3LDEyNTUyODcxNTcsLTY3NjU0MDMzMCwtMTE1OTA1
+MzI3MywyNDM3NzEyMjQsMTcxNDc1NjQ5NiwtMTMxNDQ2NDg1Ni
+wxNTY0NTI4NDIwLC0xNzY1NzAxMTM3LC01NjExMzA2OTQsLTE3
+Mzk1OTU2OTksLTEzNjI3Mjg4MDEsLTkwOTE3NzMzMSwxNTAyMD
+I5ODEwXX0=
 -->
