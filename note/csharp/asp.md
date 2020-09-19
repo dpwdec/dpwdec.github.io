@@ -75,8 +75,11 @@ You can **define a controller route** by using the `[Route]` attribute before a 
 public class UsersController : Controller { ... }
 ```
 
-You can **create controller routes with dynamically generated route names** by using `[controller]` in the route string argument and naming following the naming convention of appending the word `Controller` to the end of your controller classes. When the route is processed this will use the 
-
+You can **create controller routes with dynamically generated route names** by using `[controller]` in the route string argument and following the naming convention of appending the word `Controller` to the end of your controller classes. When the route is processed this will use the class name *before* the `Controller` keyword as a replacement for `[controller]` inside the `[Route]` attribute argument string.
+```csharp
+[Route("api/[controller]")
+public class UsersController : Controller { ... }
+```
  
 ## Razor Pages
 
@@ -118,7 +121,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzgzNDkxNSwxNDA1OTEyMjI0LDE1NT
-YxMTg1OTgsMTM1MjQ4NDYwNSwtMTYyODE2MjIxNywxOTM1MjUx
-NzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
+eyJoaXN0b3J5IjpbLTE1NzcyNjgwMjEsMTQwNTkxMjIyNCwxNT
+U2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1
+MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ==
 -->
