@@ -69,6 +69,11 @@ using using  Microsoft.AspNetCore.Mvc;
 public class MyController : Controller { ... }
 ```
 
+You can **define a controller route** by using the `[Route]` attribute before a controller class definition.
+```csharp
+public cla
+```
+
 
  
 ## Razor Pages
@@ -111,7 +116,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTkxMjIyNCwxNTU2MTE4NTk4LDEzNT
-I0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2NiwxMzg0MDg3
-MjA2LC02Mzg0MzUwMzddfQ==
+eyJoaXN0b3J5IjpbMjAwOTUwNTMzOCwxNDA1OTEyMjI0LDE1NT
+YxMTg1OTgsMTM1MjQ4NDYwNSwtMTYyODE2MjIxNywxOTM1MjUx
+NzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
 -->
