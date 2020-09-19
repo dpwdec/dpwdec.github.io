@@ -90,7 +90,10 @@ public interface IEnumerator
   public object Current; 
 }
 ```
+
+## IEnumerable\<T\>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzY5NzA1NCwxMTMzNDEwOTIyLDE4Mz
-A2NDMzNTAsMTIxODM4MDg1MCwtNjc3NjA1MTYxXX0=
+eyJoaXN0b3J5IjpbMTA0Njk1NjcwNSwtMTA3Njk3MDU0LDExMz
+M0MTA5MjIsMTgzMDY0MzM1MCwxMjE4MzgwODUwLC02Nzc2MDUx
+NjFdfQ==
 -->
