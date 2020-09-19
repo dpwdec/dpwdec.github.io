@@ -92,8 +92,10 @@ public interface IEnumerator
 ```
 
 ## IEnumerable\<T\>
+
+A g
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0Njk1NjcwNSwtMTA3Njk3MDU0LDExMz
+eyJoaXN0b3J5IjpbMTU3MzgzNjkxMSwtMTA3Njk3MDU0LDExMz
 M0MTA5MjIsMTgzMDY0MzM1MCwxMjE4MzgwODUwLC02Nzc2MDUx
 NjFdfQ==
 -->
