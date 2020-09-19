@@ -52,6 +52,8 @@ Controllers
 ├── PeopleController.cs # controller for the Person model
 └── UsersController.cs # controller for the User model
 ```
+
+You can **create a new controller** by inheriting from the `ControllerBase` class from the `Microsoft.AspNetCore.Mvc`. This class provides a minimal controller without specific assumptions about the 
  
 ## Razor Pages
 
@@ -93,7 +95,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjExODU5OCwxMzUyNDg0NjA1LC0xNj
-I4MTYyMjE3LDE5MzUyNTE3NjYsMTM4NDA4NzIwNiwtNjM4NDM1
-MDM3XX0=
+eyJoaXN0b3J5IjpbMTQ3NDQ4NDU5MywxNTU2MTE4NTk4LDEzNT
+I0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2NiwxMzg0MDg3
+MjA2LC02Mzg0MzUwMzddfQ==
 -->
