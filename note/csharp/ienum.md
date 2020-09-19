@@ -60,8 +60,10 @@ public class IsEnumerable : IEnumerable
 }
 ```
 
-Now, when you **use your class that implements `IEnumerable` with a `foreach` or other iterator procedure** it will return the enumeration for a 
+Now, when you **use your class that implements `IEnumerable` with a `foreach` or other iterator procedure** it will return the enumeration for a structure *within* the class *AND* the internal collection can remain `private`, as in the example above.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzkwOTc4LDExMzM0MTA5MjIsMTgzMD
-Y0MzM1MCwxMjE4MzgwODUwLC02Nzc2MDUxNjFdfQ==
+eyJoaXN0b3J5IjpbMTEwMDcwMjE3MiwxMTMzNDEwOTIyLDE4Mz
+A2NDMzNTAsMTIxODM4MDg1MCwtNjc3NjA1MTYxXX0=
 -->
