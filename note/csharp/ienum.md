@@ -46,16 +46,22 @@ public interface IEnumerable
 
 To **implement `IEnumerable` on a class** you can return the enumerable result of `GetEnumerator` on the enumerable structure within the class when implementing the `IEnumerable` interface.
 ```csharp
-public class IsEnumerable 
+public class IsEnumerable : IEnumerable
 {
   private int[] arr;
   public IsEnumerable()
   {
     arr = int[] {1, 2, 3, 4, 5}
   }
+  public IEnumerator GetEnumerator()
+  {
+    return arr.GetEnumerator();
+  }
 }
 ```
+
+Now, when you **use your class that implements `IEnumerable` with a `foreach` or other iterator procedure** it will return the enumeration for a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzk5MDE2MiwxMTMzNDEwOTIyLDE4Mz
-A2NDMzNTAsMTIxODM4MDg1MCwtNjc3NjA1MTYxXX0=
+eyJoaXN0b3J5IjpbLTkyMzkwOTc4LDExMzM0MTA5MjIsMTgzMD
+Y0MzM1MCwxMjE4MzgwODUwLC02Nzc2MDUxNjFdfQ==
 -->
