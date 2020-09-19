@@ -15,7 +15,7 @@ foreach(int i in arr)
 
 ## IEnumerable
 
-You can **define your own iteratble structures** in C# using the `IEnumerable` and `IEnumerator` interfaces. Sometimes you can do this by implementing an enumerator directly on your class with a custom iteration schema, but often you will just want to use `IEnumerable` as access for a private iter
+You can **define your own iteratble structures** in C# using the `IEnumerable` and `IEnumerator` interfaces. Sometimes you can do this by implementing an enumerator directly on your class with a custom iteration schema, but often you will just want to **use `IEnumerable` as access for a private iterable property of your class**.
 
 This is useful because it allows you to directly use iteration on an instance of class and define a custom interface for how that interation takes place.
 ```csharp
@@ -66,8 +66,8 @@ public class IsEnumerable : IEnumerable
 
 Now, when you **use your class that implements `IEnumerable` with a `foreach` or other iterator procedure** it will return the enumeration for a structure *within* the class *AND* the internal collection can remain `private`, as in the example above.
 
-You can 
+For classes that implement `IEnumerator` within a custom enumeration you can **use `IEnumerable` to return itself** cast to `IEnumerator` which will give the iteration procedure calling it access to the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjEzNjE1NzcsMTEzMzQxMDkyMiwxOD
-MwNjQzMzUwLDEyMTgzODA4NTAsLTY3NzYwNTE2MV19
+eyJoaXN0b3J5IjpbMTc4NDgzNTk0NywxMTMzNDEwOTIyLDE4Mz
+A2NDMzNTAsMTIxODM4MDg1MCwtNjc3NjA1MTYxXX0=
 -->
