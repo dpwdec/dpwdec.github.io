@@ -69,7 +69,7 @@ using using  Microsoft.AspNetCore.Mvc;
 public class MyController : Controller { ... }
 ```
 
-You can **define a controller route** by using the `[Route]` attribute before a controller class definition with an argument of the route name as a string.
+You can **define a ro** by using the `[Route]` attribute before a controller class definition with an argument of the route name as a string.
 ```csharp
 [Route("api/")
 public class UsersController : Controller { ... }
@@ -80,6 +80,8 @@ You can **create controller routes with dynamically generated route names** by u
 [Route("api/[controller]")
 public class UsersController : Controller { ... }
 ```
+
+
  
 ## Razor Pages
 
@@ -121,7 +123,8 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1Nj
-ExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3
-NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbLTE3MzMwODg0ODIsNDQzNDUzODEwLDE0MD
+U5MTIyMjQsMTU1NjExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYy
+MjE3LDE5MzUyNTE3NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX
+0=
 -->
