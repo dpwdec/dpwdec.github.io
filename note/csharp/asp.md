@@ -75,7 +75,7 @@ You can **define a controller route** by using the `[Route]` attribute before a 
 public class UsersController : Controller { ... }
 ```
 
-You can **create controller routes with dynamically generated route names** by using `[controller]` in the route string argument and following the naming convention of appending the word `Controller` to the end of your controller classes. When the route is processed this will use the class name *before* the `Controller` keyword as a replacement for `[controller]` inside the `[Route]` attribute argument string.
+You can **create controller routes with dynamically generated route names** by using `[controller]` in the route string argument and following the naming convention of appending the word `Controller` to the end of your controller classes. When the route is processed this will use the class name *before* the `Controller` keyword as a replacement for `[controller]` inside the `[Route]` attribute argument string. In the example below the result of the string argument to `[Route]` would be `"api/users"`. This is useful as it can dynamically update routing information based on class names.
 ```csharp
 [Route("api/[controller]")
 public class UsersController : Controller { ... }
@@ -121,7 +121,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzcyNjgwMjEsMTQwNTkxMjIyNCwxNT
-U2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1
-MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ==
+eyJoaXN0b3J5IjpbNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1Nj
+ExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3
+NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
 -->
