@@ -93,9 +93,9 @@ public interface IEnumerator
 
 ## IEnumerable\<T\>
 
-A **generic enumerable** is an object that implements that `IEnumerable` and `IEnumerate` interface while also containing a specific type.
+A **generic enumerable** is an object that implements that `IEnumerable` and `IEnumerate` interface while also containing a specific type. For example an `IEnumerable<string>` will be an enumerable structure that returns `string`s as each item during iteration.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDcxODY4NTgsLTEwNzY5NzA1NCwxMT
-MzNDEwOTIyLDE4MzA2NDMzNTAsMTIxODM4MDg1MCwtNjc3NjA1
-MTYxXX0=
+eyJoaXN0b3J5IjpbMTAxNzQ2MDUxMywtMjA0NzE4Njg1OCwtMT
+A3Njk3MDU0LDExMzM0MTA5MjIsMTgzMDY0MzM1MCwxMjE4Mzgw
+ODUwLC02Nzc2MDUxNjFdfQ==
 -->
