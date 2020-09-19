@@ -36,13 +36,16 @@ foreach(int i in ne.arr)
 }
 ```
 
-The `IEnumerable` interface is used to **define a structure that supports enumeration with `IEnumerator`.** The `IEnumerable` interface contains a single method signature `GetEnumerator` that returns an `IEnumerator` which contains the methods that actually support enumeration.
+The `IEnumerable` interface is used to **define a structure that supports enumeration with `IEnumerator`.** The `IEnumerable` interface contains a single method signature `GetEnumerator` that returns an `IEnumerator` which contains the methods that actually support enumeration. This the method that enumeration procedures like `foreach` check for, before iterating through a collection.
 ```csharp
 public interface IEnumerable
 {
   IEnumerator GetEnumerator();
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODM4MDg1MCwtNjc3NjA1MTYxXX0=
+eyJoaXN0b3J5IjpbMTgzMDY0MzM1MCwxMjE4MzgwODUwLC02Nz
+c2MDUxNjFdfQ==
 -->
