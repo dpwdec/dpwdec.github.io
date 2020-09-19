@@ -69,7 +69,7 @@ using using  Microsoft.AspNetCore.Mvc;
 public class MyController : Controller { ... }
 ```
 
-You can **define a ro** by using the `[Route]` attribute before a controller class definition with an argument of the route name as a string.
+You can **define a route for an entire controller** by using the `[Route]` attribute before a controller class definition with an argument of the route name as a string.
 ```csharp
 [Route("api/")
 public class UsersController : Controller { ... }
@@ -80,6 +80,8 @@ You can **create controller routes with dynamically generated route names** by u
 [Route("api/[controller]")
 public class UsersController : Controller { ... }
 ```
+
+You can **define response methods for a controller** by creating methods with `ActionResult` as there return type. The `ActionResult` should return type information for the expected response type from the controller method.
 
 
  
@@ -123,8 +125,8 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzMwODg0ODIsNDQzNDUzODEwLDE0MD
-U5MTIyMjQsMTU1NjExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYy
-MjE3LDE5MzUyNTE3NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX
-0=
+eyJoaXN0b3J5IjpbMTA3MDgzNTU4OSw0NDM0NTM4MTAsMTQwNT
+kxMjIyNCwxNTU2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIy
+MTcsMTkzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ
+==
 -->
