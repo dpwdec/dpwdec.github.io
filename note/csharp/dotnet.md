@@ -14,7 +14,14 @@ You can **name a new application** using the `n` flag followed by the desired na
 $ dotnet new console -n MyProject
 ```
 
-Y
+You can **structure the `namespace`s of your projects** around folder hierarchy, with the project name being the highest level `namespace` followed by subfolder names separated by a `.` period.
+```
+
+```
+
+```csharp
+namespace
+```
 
 ## Var
 
@@ -369,10 +376,10 @@ DateTime.Now;
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5Nzc2ODQ4MSwtMTI1NTYwMDY5MiwxMj
-UzMzUxMjQ0LDEzOTQ2ODY3OTcsMTI1NTI4NzE1NywtNjc2NTQw
-MzMwLC0xMTU5MDUzMjczLDI0Mzc3MTIyNCwxNzE0NzU2NDk2LC
-0xMzE0NDY0ODU2LDE1NjQ1Mjg0MjAsLTE3NjU3MDExMzcsLTU2
-MTEzMDY5NCwtMTczOTU5NTY5OSwtMTM2MjcyODgwMSwtOTA5MT
-c3MzMxLDE1MDIwMjk4MTBdfQ==
+eyJoaXN0b3J5IjpbMTMyOTI0NDk4OCwxODk3NzY4NDgxLC0xMj
+U1NjAwNjkyLDEyNTMzNTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3
+MTU3LC02NzY1NDAzMzAsLTExNTkwNTMyNzMsMjQzNzcxMjI0LD
+E3MTQ3NTY0OTYsLTEzMTQ0NjQ4NTYsMTU2NDUyODQyMCwtMTc2
+NTcwMTEzNywtNTYxMTMwNjk0LC0xNzM5NTk1Njk5LC0xMzYyNz
+I4ODAxLC05MDkxNzczMzEsMTUwMjAyOTgxMF19
 -->
