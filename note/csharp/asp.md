@@ -53,7 +53,12 @@ Controllers
 └── UsersController.cs # controller for the User model
 ```
 
-You can **create a new controller** by inheriting from the `ControllerBase` class from the `Microsoft.AspNetCore.Mvc`. This class provides a minimal controller without specific assumptions about the 
+You can **create a new minimal controller** (ideal for simple by inheriting from the `ControllerBase` class from the `Microsoft.AspNetCore.Mvc`. This class provides a minimal controller without specific assumptions about the "view" that your application might take.
+```csharp
+using using  Microsoft.AspNetCore.Mvc;
+
+public class MyController : ControllerBase { ... }
+```
  
 ## Razor Pages
 
@@ -95,7 +100,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDQ4NDU5MywxNTU2MTE4NTk4LDEzNT
-I0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2NiwxMzg0MDg3
-MjA2LC02Mzg0MzUwMzddfQ==
+eyJoaXN0b3J5IjpbLTEyODczNjM2ODEsMTU1NjExODU5OCwxMz
+UyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMTM4NDA4
+NzIwNiwtNjM4NDM1MDM3XX0=
 -->
