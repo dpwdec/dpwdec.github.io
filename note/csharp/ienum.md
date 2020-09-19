@@ -83,9 +83,14 @@ public class MyEnumerator : IEnumerable, IEnumerator
 
 You can **define your own enumerators** using the `IEnumerator` interface. The signature signature for this interface uses two methods, `MoveNext` and `Reset`, and a proprety `Current`.
 ```csharp
-
+public interface IEnumerator
+{
+  public bool MoveNext();
+  public void Reset();
+  public object Current; 
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzOTQwNTE5LDExMzM0MTA5MjIsMTgzMD
-Y0MzM1MCwxMjE4MzgwODUwLC02Nzc2MDUxNjFdfQ==
+eyJoaXN0b3J5IjpbLTE4MTMxNDgzNzEsMTEzMzQxMDkyMiwxOD
+MwNjQzMzUwLDEyMTgzODA4NTAsLTY3NzYwNTE2MV19
 -->
