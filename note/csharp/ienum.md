@@ -26,7 +26,7 @@ public class NotEnumerable
 }
 ```
 
-Otherwise you have to
+Otherwise you have to access the enumerable object *within* a class and iterate over that instead.
 ```csharp
 // Program.cs
 var ne = new NotEnumerable();
@@ -35,6 +35,8 @@ foreach(int i in ne.arr)
   // do something with contents of arr
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTA1MzY0MTcsLTY3NzYwNTE2MV19
+eyJoaXN0b3J5IjpbMjA0MzE2MTA5MSwtNjc3NjA1MTYxXX0=
 -->
