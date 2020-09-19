@@ -66,8 +66,19 @@ public class IsEnumerable : IEnumerable
 
 Now, when you **use your class that implements `IEnumerable` with a `foreach` or other iterator procedure** it will return the enumeration for a structure *within* the class *AND* the internal collection can remain `private`, as in the example above.
 
-For classes that implement `IEnumerator` within a custom enumeration you can **use `IEnumerable` to return itself** cast to `IEnumerator` which will give the iteration procedure calling it access to the 
+For classes that implement `IEnumerator` within a custom enumeration you can **use `IEnumerable` to return itself** cast to `IEnumerator` which will give the iteration procedure calling it access to the custom defined enumeration methods.
+```csharp
+public class MyEnumerator : IEnumerable, IEnumerator
+{
+  // -- implementation for custom enumerator here --
+  public IEnumerator GetEnumerator()
+  {
+    // cast this to IEnumerator and r
+    return (IEnumerator) this;
+  }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDgzNTk0NywxMTMzNDEwOTIyLDE4Mz
+eyJoaXN0b3J5IjpbMTM1MzE0NDc3NiwxMTMzNDEwOTIyLDE4Mz
 A2NDMzNTAsMTIxODM4MDg1MCwtNjc3NjA1MTYxXX0=
 -->
