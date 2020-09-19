@@ -36,7 +36,7 @@ foreach(int i in ne.arr)
 }
 ```
 
-
+The `IEnumerable` interface is used to **define a structure that supports enumeration with `IEnumerator`.** The `I
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MzE2MTA5MSwtNjc3NjA1MTYxXX0=
+eyJoaXN0b3J5IjpbLTEyMDI0OTY2MzYsLTY3NzYwNTE2MV19
 -->
