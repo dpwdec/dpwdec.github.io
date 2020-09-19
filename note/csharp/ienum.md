@@ -13,7 +13,11 @@ foreach(int i in arr)
 }
 ```
 
-You can **define your own iteratble structures** in C# using the `IEnumerable` and `IEnumerator` interfaces. This is useful because it allows you to directly use iteration on an instance of class and define a custom interface for how that interation takes place.
+## IEnumerable
+
+You can **define your own iteratble structures** in C# using the `IEnumerable` and `IEnumerator` interfaces. Sometimes you can do this by implementing an enumerator directly on your class with a custom iteration schema, but often you will just want to use `IEnumerable` as access for a private iter
+
+This is useful because it allows you to directly use iteration on an instance of class and define a custom interface for how that interation takes place.
 ```csharp
 // NotEnumerable.cs
 public class NotEnumerable
@@ -64,6 +68,6 @@ Now, when you **use your class that implements `IEnumerable` with a `foreach` or
 
 You can 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODQ4ODY2MSwxMTMzNDEwOTIyLDE4Mz
-A2NDMzNTAsMTIxODM4MDg1MCwtNjc3NjA1MTYxXX0=
+eyJoaXN0b3J5IjpbLTEwMjEzNjE1NzcsMTEzMzQxMDkyMiwxOD
+MwNjQzMzUwLDEyMTgzODA4NTAsLTY3NzYwNTE2MV19
 -->
