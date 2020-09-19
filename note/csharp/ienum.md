@@ -15,8 +15,8 @@ foreach(int i in arr)
 
 You can **define your own iteratble structures** in C# using the `IEnumerable` and `IEnumerator` interfaces. This is useful because it allows you to directly use iteration on a class and define a custom interface for how that interation takes place as opposed to exposing the iteratable object *within* a class and having to iterate over that.
 ```csharp
-
+public class NotEnumerable
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2NjQwNzYwXX0=
+eyJoaXN0b3J5IjpbLTM0NDUwNjYzNl19
 -->
