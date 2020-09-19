@@ -81,7 +81,7 @@ public class MyEnumerator : IEnumerable, IEnumerator
 
 ## IEnumerator
 
-You can **define your own enumerators** using the `IEnumerator` interface. The signature signature for this interface uses two methods, `MoveNext` and `Reset`, and a proprety `Current`.
+You can **define your own enumerators** using the `IEnumerator` interface. The signature signature for this interface uses three methods, `MoveNext`,`Reset`, and `Current`.
 ```csharp
 public interface IEnumerator
 {
@@ -91,6 +91,6 @@ public interface IEnumerator
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTMxNDgzNzEsMTEzMzQxMDkyMiwxOD
-MwNjQzMzUwLDEyMTgzODA4NTAsLTY3NzYwNTE2MV19
+eyJoaXN0b3J5IjpbLTEwNzY5NzA1NCwxMTMzNDEwOTIyLDE4Mz
+A2NDMzNTAsMTIxODM4MDg1MCwtNjc3NjA1MTYxXX0=
 -->
