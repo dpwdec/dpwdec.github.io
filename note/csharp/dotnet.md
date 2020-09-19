@@ -389,11 +389,14 @@ DateTime.Now;
 
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
+## VS Code
+
+You can **get a shortcut code snippet for the creation of a class property** by typing `prop` into your editor within a class and pressing `TAB`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyMjk5OTkwLDE4OTc3Njg0ODEsLTEyNT
-U2MDA2OTIsMTI1MzM1MTI0NCwxMzk0Njg2Nzk3LDEyNTUyODcx
-NTcsLTY3NjU0MDMzMCwtMTE1OTA1MzI3MywyNDM3NzEyMjQsMT
-cxNDc1NjQ5NiwtMTMxNDQ2NDg1NiwxNTY0NTI4NDIwLC0xNzY1
-NzAxMTM3LC01NjExMzA2OTQsLTE3Mzk1OTU2OTksLTEzNjI3Mj
-g4MDEsLTkwOTE3NzMzMSwxNTAyMDI5ODEwXX0=
+eyJoaXN0b3J5IjpbLTEyMzk2ODUwNTQsMTg5Nzc2ODQ4MSwtMT
+I1NTYwMDY5MiwxMjUzMzUxMjQ0LDEzOTQ2ODY3OTcsMTI1NTI4
+NzE1NywtNjc2NTQwMzMwLC0xMTU5MDUzMjczLDI0Mzc3MTIyNC
+wxNzE0NzU2NDk2LC0xMzE0NDY0ODU2LDE1NjQ1Mjg0MjAsLTE3
+NjU3MDExMzcsLTU2MTEzMDY5NCwtMTczOTU5NTY5OSwtMTM2Mj
+cyODgwMSwtOTA5MTc3MzMxLDE1MDIwMjk4MTBdfQ==
 -->
