@@ -4,7 +4,9 @@ layout: page
 exclude: true
 ---
 
-Att
+Attributes are a way of adding metadata to methods and classes or even entire program structures like assemblies and modules.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTk1Mjg4MSwxNjExNzMxNF19
+eyJoaXN0b3J5IjpbMTg5MzMyODU1NywxNjExNzMxNF19
 -->
