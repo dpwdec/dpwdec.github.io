@@ -46,11 +46,11 @@ You can **configure you project's routing pipeline, middleware and services** fr
 You should **make a controller for each resource type in your project**, that being, each distinct model in your database that makes up your system.
 
 You should **name your individual controllers after a pluralised form of the resource they refer to** followed by the word `Controller`. For example, if our resource was a `User` table then the associated controller would be named `UsersController.cs`.
-```
+```yaml
 Controllers
-├── AddressesController.cs
-├── PeopleController.cs
-└── UsersController.cs
+├── AddressesController.cs # controller for the Address model
+├── PeopleController.cs # controller for the Person model
+└── UsersController.cs # controller for the User model
 ```
  
 ## Razor Pages
@@ -93,7 +93,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjU5Mzc2MjMsMTM1MjQ4NDYwNSwtMT
-YyODE2MjIxNywxOTM1MjUxNzY2LDEzODQwODcyMDYsLTYzODQz
-NTAzN119
+eyJoaXN0b3J5IjpbMTU1NjExODU5OCwxMzUyNDg0NjA1LC0xNj
+I4MTYyMjE3LDE5MzUyNTE3NjYsMTM4NDA4NzIwNiwtNjM4NDM1
+MDM3XX0=
 -->
