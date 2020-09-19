@@ -73,12 +73,16 @@ public class MyEnumerator : IEnumerable, IEnumerator
   // -- implementation for custom enumerator here --
   public IEnumerator GetEnumerator()
   {
-    // cast this to IEnumerator and r
+    // cast this to IEnumerator and return it
     return (IEnumerator) this;
   }
 }
 ```
+
+## IEnumerator
+
+You can **define your own enumerators** using the `IEnumerator` interface. The signature signature for this interface uses three methods, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzE0NDc3NiwxMTMzNDEwOTIyLDE4Mz
+eyJoaXN0b3J5IjpbLTUwMDA1MjUwNCwxMTMzNDEwOTIyLDE4Mz
 A2NDMzNTAsMTIxODM4MDg1MCwtNjc3NjA1MTYxXX0=
 -->
