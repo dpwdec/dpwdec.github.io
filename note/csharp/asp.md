@@ -40,6 +40,12 @@ You should **store static files for your website** in the `wwwroot` folder withi
 Like other .NET programs ASP applications **start running from the `Main` method** in the `Program` class. Generally this use a `Startup` class to build and then run the application.
 
 You can **configure you project's routing pipeline, middleware and services** from the `Startup` class. The `Configure` method is used from controlling how middleware and requests function in your application and the `ConfigureServices` method is used for registering and configuring new services to work with the application.
+
+## Controllers
+
+You should **make a controller for each resource type in your project**, that being, each distinct model in your database that makes up your system.
+
+You should **name your individual controllers after a pluralised form of the resource they refer to** followed by the word `co
  
 ## Razor Pages
 
@@ -81,6 +87,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjQ4NDYwNSwtMTYyODE2MjIxNywxOT
-M1MjUxNzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
+eyJoaXN0b3J5IjpbMjA5NzAwMDE5MSwxMzUyNDg0NjA1LC0xNj
+I4MTYyMjE3LDE5MzUyNTE3NjYsMTM4NDA4NzIwNiwtNjM4NDM1
+MDM3XX0=
 -->
