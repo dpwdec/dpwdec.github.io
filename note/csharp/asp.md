@@ -81,13 +81,13 @@ You can **create controller routes with dynamically generated route names** by u
 public class UsersController : Controller { ... }
 ```
 
-You can **define response methods for a controller** by creating methods with `ActionResult` as there return type. The **`ActionResult` should return type information for the expected response type** from the controller method. You must also use `Http` decorators to specify which HTTP verbs that different controller methods respond to.
+You can **define response methods for a controller** by creating methods with `ActionResult` as there return type. The **`ActionResult` should return type information for the expected response type** from the controller method. You must also use `Http` decorators to specify which HTTP verbs that different controller methods respond to. The example shows that the `UsersController` will be available at the `"api/users"` route, using the `[HttpGet]` attribute no further routing information needs to be supplied (although it can be!) and the `"api/users"` route will respond to a `GET` request with an `IEnumerable` of `User` objects to return data.
 ```csharp
 [Route("api/users")
 public class UsersController : Controller 
 {
   [HttpGet]
-  public ActionResult<IEnumerable<User> Get
+  public ActionResult<IEnumerable<User>> GetUsers() { ... }
 }
 ```
 
@@ -133,7 +133,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODgzMzUyOCw0NDM0NTM4MTAsMTQwNT
+eyJoaXN0b3J5IjpbLTM0NTczMjMwMCw0NDM0NTM4MTAsMTQwNT
 kxMjIyNCwxNTU2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIy
 MTcsMTkzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ
 ==
