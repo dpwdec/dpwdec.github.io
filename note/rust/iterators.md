@@ -13,12 +13,12 @@ fn return_split(word: &str) -> Split<'_, char> {
 }
 ```
 
-You can **return an iterator from a function in a more readable way** by using the `impl Iterator` syntax. This essentially just dynamically replaces itself with the actually return type above but allows you to specify the iterator return as a generalised iterator with an item type.
+You can **return an iterator from a function in a more readable way** by using the `impl Iterator` syntax. This essentially just dynamically replaces itself with the actually return type above but allows you to specify the iterator return as a generalised iterator with an `Item` type, this means we can specify in the code below that we expect to receieve back an `Iterator` that contains a list of `&str` rather than the more obfuscated `Split` object containing `char`s.
 ```rust
 fn return_split(word: &str) -> impl Iterator<Item = &str> {
   word.split(' ')
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjMyNDk0OSwtNzE2MDU1MDYyXX0=
+eyJoaXN0b3J5IjpbLTc2ODc4OTY4MSwtNzE2MDU1MDYyXX0=
 -->
