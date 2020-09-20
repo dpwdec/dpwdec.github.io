@@ -10,6 +10,8 @@ You can **return an iterator from a function** by directly returning the structu
 ```rust
 fn return_split(word: &str) -> 
 ```
+
+You can **return an iterator from a function in a more readable way** by using the `impl Iterator` syntax. This essentially just dynamically replaces itself with the actually return type above but allows you to specify the iterator return as a generalised 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjA1NTA2Ml19
+eyJoaXN0b3J5IjpbMjA4NjcwODMwLC03MTYwNTUwNjJdfQ==
 -->
