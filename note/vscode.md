@@ -50,8 +50,12 @@ In the below example of the `settings.json` file is edited for python to set the
 To **open the commands window** `CTRL` + `SHIFT` + `P`.
 
 You can **add the `code` CLI namespace to your machine** by using triggering the `>shell command` in the vs code commands window.
+
+## Error Highlighting
+
+Often you will need to add a `.vscode` file to your to **enable error handling**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4NjYwMzYxLC0xNDE5NTIwMzMwLDI2ND
-c2Mjk3MCwxMzE3Nzk3Mzk2LDEzODI2MzAxNDAsLTE3Mzc5MDI1
-NzEsLTEwMzg5MTAyMDNdfQ==
+eyJoaXN0b3J5IjpbLTY5OTA2MDY0MiwyNzg2NjAzNjEsLTE0MT
+k1MjAzMzAsMjY0NzYyOTcwLDEzMTc3OTczOTYsMTM4MjYzMDE0
+MCwtMTczNzkwMjU3MSwtMTAzODkxMDIwM119
 -->
