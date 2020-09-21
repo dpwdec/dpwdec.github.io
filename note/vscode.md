@@ -15,7 +15,7 @@ You can **select an entire word or symbol** using the `CMD + D` shortcut. By pre
 
 ## Settings
 
-All the non-default settings for vs code are controlled from the
+All the **non-default settings for vs code are controlled using a `settings.json` file**. To open this file use `CMD + SHIFT + P` to open the vs code command window and then use the 
 
 You can **configure code formatting settings by language type** by editing vs codes `settings.json` file. [To do this](https://stackoverflow.com/questions/34247939/how-to-set-per-filetype-tab-size):
 
@@ -41,7 +41,7 @@ To **open the commands window** `CTRL` + `SHIFT` + `P`.
 
 You can **add the `code` CLI namespace to your machine** by using triggering the `>shell command` in the vs code commands window.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzA5MjIwNjgsLTE0MTk1MjAzMzAsMj
-Y0NzYyOTcwLDEzMTc3OTczOTYsMTM4MjYzMDE0MCwtMTczNzkw
-MjU3MSwtMTAzODkxMDIwM119
+eyJoaXN0b3J5IjpbMTcxNjAwMjEzMCwtMTQxOTUyMDMzMCwyNj
+Q3NjI5NzAsMTMxNzc5NzM5NiwxMzgyNjMwMTQwLC0xNzM3OTAy
+NTcxLC0xMDM4OTEwMjAzXX0=
 -->
