@@ -61,11 +61,14 @@ The associated file structure would look something like the example below.
     └── .gitkeep
 ```
 
-If you want to **ignore a file that you have already accid**
+If you want to **ignore a file or folder that you have already committed to git** you must use the `rm` function to removed cache folders before doing a commit.
+```bash
+$ git rm -r --cached <path/to/folder>
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NzYzNzIxNiwtNjgyNjU5NzgwLDE1NT
-E5MjA5NDEsLTE2MDA1MzMyNDcsLTgxODE1Mjg1MywtMjA2MzU5
-ODY2Nl19
+eyJoaXN0b3J5IjpbLTExMjAwNTM5NjcsLTY4MjY1OTc4MCwxNT
+UxOTIwOTQxLC0xNjAwNTMzMjQ3LC04MTgxNTI4NTMsLTIwNjM1
+OTg2NjZdfQ==
 -->
