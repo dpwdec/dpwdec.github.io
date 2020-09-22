@@ -81,7 +81,9 @@ You can **create controller routes with dynamically generated route names** by u
 public class UsersController : Controller { ... }
 ```
 
-You can **define response methods for a controller** by creating methods with `ActionResult` as there return type. The **`ActionResult` should return type information for the expected response type** from the controller method. You must also use `Http` decorators to specify which HTTP verbs that different controller methods respond to. The example shows that the `UsersController` will be available at the `"api/users"` route, using the `[HttpGet]` attribute no further routing information needs to be supplied (although it can be!) and the `"api/users"` route will respond to a `GET` request with an `IEnumerable` of `User` objects to return data.
+### Methods
+
+You can **define response methods for a controller** by creating methods with `ActionResult` as the return type. The **`ActionResult` should return type information for the expected response type** from the controller method. You must also use `Http` decorators to specify which HTTP verbs that different controller methods respond to. The example shows that the `UsersController` will be available at the `"api/users"` route, using the `[HttpGet]` attribute no further routing information needs to be supplied (although it can be!) and the `"api/users"` route will respond to a `GET` request with an `IEnumerable` of `User` objects to return data.
 ```csharp
 [Route("api/users")
 public class UsersController : Controller 
@@ -110,6 +112,8 @@ public class UsersController : Controller
   public ActionResult<User> GetUser(int id) { ... }
 }
 ```
+
+You can **combine the `[Route]` and `[HttpX]`**
 
 ### API endpoint returns and status codes
 
@@ -170,9 +174,9 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMD
-U1ODYzNCwtMzI2NTUyMzIsLTM0NTczMjMwMCw0NDM0NTM4MTAs
-MTQwNTkxMjIyNCwxNTU2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2Mj
-gxNjIyMTcsMTkzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUw
-MzddfQ==
+eyJoaXN0b3J5IjpbOTQ2MTYzMTgzLC01NDI0NzExMTAsOTI2Nz
+M5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zNDU3MzIzMDAs
+NDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5OCwxMzUyND
+g0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMTM4NDA4NzIw
+NiwtNjM4NDM1MDM3XX0=
 -->
