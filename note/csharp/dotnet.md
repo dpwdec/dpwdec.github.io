@@ -411,13 +411,13 @@ You can **import a reference to the classes / files into different project** (e.
 
 You can **get a shortcut code snippet for the creation of a class property** by typing `prop` into your editor within a class and pressing `TAB`.
 
-You can **get a code snippet for class constructors**
+You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjQwMzkyNTksMTA5MjI5Njg2MywzND
-E4NjM2MzUsMjAwODQ1NzM1NSwtMTIzOTY4NTA1NCwxODk3NzY4
-NDgxLC0xMjU1NjAwNjkyLDEyNTMzNTEyNDQsMTM5NDY4Njc5Ny
-wxMjU1Mjg3MTU3LC02NzY1NDAzMzAsLTExNTkwNTMyNzMsMjQz
-NzcxMjI0LDE3MTQ3NTY0OTYsLTEzMTQ0NjQ4NTYsMTU2NDUyOD
-QyMCwtMTc2NTcwMTEzNywtNTYxMTMwNjk0LC0xNzM5NTk1Njk5
-LC0xMzYyNzI4ODAxXX0=
+eyJoaXN0b3J5IjpbMzU4OTU3MjMzLDEwOTIyOTY4NjMsMzQxOD
+YzNjM1LDIwMDg0NTczNTUsLTEyMzk2ODUwNTQsMTg5Nzc2ODQ4
+MSwtMTI1NTYwMDY5MiwxMjUzMzUxMjQ0LDEzOTQ2ODY3OTcsMT
+I1NTI4NzE1NywtNjc2NTQwMzMwLC0xMTU5MDUzMjczLDI0Mzc3
+MTIyNCwxNzE0NzU2NDk2LC0xMzE0NDY0ODU2LDE1NjQ1Mjg0Mj
+AsLTE3NjU3MDExMzcsLTU2MTEzMDY5NCwtMTczOTU5NTY5OSwt
+MTM2MjcyODgwMV19
 -->
