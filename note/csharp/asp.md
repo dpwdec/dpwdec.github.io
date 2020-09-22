@@ -113,7 +113,11 @@ public class UsersController : Controller
 
 ### API endpoint returns
 
-You can **return an actiofrom an API endpoint **
+You can **return an `ActionResult` from an API endpoint with a status code** by using the status code methods that are part pf `AspNetCore`.
+```csharp
+[HttpGet]
+public ActionResult<IE
+```
 
 
  
@@ -157,8 +161,8 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Njg2Njk0MSwtMjIwNTU4NjM0LC0zMj
-Y1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1MzgxMCwxNDA1OTEyMjI0
-LDE1NTYxMTg1OTgsMTM1MjQ4NDYwNSwtMTYyODE2MjIxNywxOT
-M1MjUxNzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
+eyJoaXN0b3J5IjpbLTExMjUzOTM2LC0yMjA1NTg2MzQsLTMyNj
+U1MjMyLC0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQs
+MTU1NjExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5Mz
+UyNTE3NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
 -->
