@@ -108,7 +108,10 @@ You can **create a new instance of a class** by using the `new` keyword with the
 var myClass = new MyClass("Lonathan", 100);
 ```
 
-You can **create a new instance with named parameters assigned** by 
+You can **create a new instance with class parameters assigned during instance construction** by creating an expression block after the `new Object` definition with `{}` curly brackets and then listing out parameters you want to assign by name and assigning them to a value.
+```csharp
+new User{Id = 0, Age = 22, Name = 
+```
 
 You can **initialise default instance class member values** from within the body of the class.
 ```csharp
@@ -395,11 +398,11 @@ You can **import a reference to the classes / files into different project** (e.
 
 You can **get a shortcut code snippet for the creation of a class property** by typing `prop` into your editor within a class and pressing `TAB`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODQ1NzM1NSwtMTIzOTY4NTA1NCwxOD
-k3NzY4NDgxLC0xMjU1NjAwNjkyLDEyNTMzNTEyNDQsMTM5NDY4
-Njc5NywxMjU1Mjg3MTU3LC02NzY1NDAzMzAsLTExNTkwNTMyNz
-MsMjQzNzcxMjI0LDE3MTQ3NTY0OTYsLTEzMTQ0NjQ4NTYsMTU2
-NDUyODQyMCwtMTc2NTcwMTEzNywtNTYxMTMwNjk0LC0xNzM5NT
-k1Njk5LC0xMzYyNzI4ODAxLC05MDkxNzczMzEsMTUwMjAyOTgx
-MF19
+eyJoaXN0b3J5IjpbMTkxOTk2Mzg4OCwyMDA4NDU3MzU1LC0xMj
+M5Njg1MDU0LDE4OTc3Njg0ODEsLTEyNTU2MDA2OTIsMTI1MzM1
+MTI0NCwxMzk0Njg2Nzk3LDEyNTUyODcxNTcsLTY3NjU0MDMzMC
+wtMTE1OTA1MzI3MywyNDM3NzEyMjQsMTcxNDc1NjQ5NiwtMTMx
+NDQ2NDg1NiwxNTY0NTI4NDIwLC0xNzY1NzAxMTM3LC01NjExMz
+A2OTQsLTE3Mzk1OTU2OTksLTEzNjI3Mjg4MDEsLTkwOTE3NzMz
+MSwxNTAyMDI5ODEwXX0=
 -->
