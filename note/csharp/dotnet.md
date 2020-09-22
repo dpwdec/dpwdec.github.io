@@ -113,7 +113,10 @@ You can **create a new instance with class parameters assigned during instance c
 new User{Id = 0, Age = 22, Name = "Belinda Bigglesworth", Zip = "X3 X9Y13"};
 ```
 
-You can **combine positionakl**
+You can **combine positional arguments and block assigned parameters** by including the argument parameters inside `()` soft brackets after calling `new Object` followed by assignments that you want to take inside `{}` curly brackets.
+```csharp
+new User(0, 22){
+```
 
 You can **initialise default instance class member values** from within the body of the class.
 ```csharp
@@ -400,7 +403,7 @@ You can **import a reference to the classes / files into different project** (e.
 
 You can **get a shortcut code snippet for the creation of a class property** by typing `prop` into your editor within a class and pressing `TAB`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDkwOTYzMjYsMjAwODQ1NzM1NSwtMT
+eyJoaXN0b3J5IjpbLTE1MzM3MzA4NjksMjAwODQ1NzM1NSwtMT
 IzOTY4NTA1NCwxODk3NzY4NDgxLC0xMjU1NjAwNjkyLDEyNTMz
 NTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC02NzY1NDAzMz
 AsLTExNTkwNTMyNzMsMjQzNzcxMjI0LDE3MTQ3NTY0OTYsLTEz
