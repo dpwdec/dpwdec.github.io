@@ -103,7 +103,7 @@ public class UsersController : Controller
 }
 ```
 
-You can **combine the `[Route]` and `[HttpX]`** attributes. For example, the `"age"` controller route extension from above 
+You can **combine the `[Route]` and `[HttpX]`** attributes. For example, the `"age"` controller route extension from above is rewritten below to use a combination of the RESTful verb and a route extension.
 ```csharp
 [Route("age")]
 [HttpGet]
@@ -179,7 +179,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MTM3MDU3NiwtNTQyNDcxMTEwLDkyNj
+eyJoaXN0b3J5IjpbMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNj
 czOTUwOSwtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAw
 LDQ0MzQ1MzgxMCwxNDA1OTEyMjI0LDE1NTYxMTg1OTgsMTM1Mj
 Q4NDYwNSwtMTYyODE2MjIxNywxOTM1MjUxNzY2LDEzODQwODcy
