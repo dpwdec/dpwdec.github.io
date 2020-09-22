@@ -69,7 +69,7 @@ using using  Microsoft.AspNetCore.Mvc;
 public class MyController : Controller { ... }
 ```
 
-You can **define a route for an entire controller** by using the `[Route]` attribute before a controller class definition with an argument of the route name as a string. The `/`
+You can **define a route for an entire controller** by using the `[Route]` attribute before a controller class definition with an argument of the route name as a string. The `/` extension on the controller route is implicit.
 ```csharp
 [Route("api/")
 public class UsersController : Controller { ... }
@@ -85,7 +85,7 @@ public class UsersController : Controller { ... }
 
 You can **define response methods for a controller** by creating methods with `ActionResult` as the return type. The **`ActionResult` should return type information for the expected response type** from the controller method. You must also use `Http` decorators to specify which HTTP verbs that different controller methods respond to. The example shows that the `UsersController` will be available at the `"api/users"` route, using the `[HttpGet]` attribute no further routing information needs to be supplied (although it can be!) and the `"api/users"` route will respond to a `GET` request with an `IEnumerable` of `User` objects to return data.
 ```csharp
-[Route("api/users")
+[Route("api/users")]
 public class UsersController : Controller 
 {
   [HttpGet]
@@ -93,9 +93,9 @@ public class UsersController : Controller
 }
 ```
 
-You can **define further routing information using HTTP verb attributes** by adding the route as a string argument to the attribute.
+You can **define further routing information using HTTP verb attributes** by adding the route as a string argument to the attribute. Again, this further routing information has an implicit `/` as an extension to the route.
 ```csharp
-[Route("api/users")
+[Route("api/users")]
 public class UsersController : Controller 
 {
   [HttpGet("age")]
@@ -179,9 +179,9 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTY3MTczMTMsMTAwMTY5OTgzNywtNT
-QyNDcxMTEwLDkyNjczOTUwOSwtMjIwNTU4NjM0LC0zMjY1NTIz
-MiwtMzQ1NzMyMzAwLDQ0MzQ1MzgxMCwxNDA1OTEyMjI0LDE1NT
-YxMTg1OTgsMTM1MjQ4NDYwNSwtMTYyODE2MjIxNywxOTM1MjUx
-NzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
+eyJoaXN0b3J5IjpbNDg5MTYwMzcwLDEwMDE2OTk4MzcsLTU0Mj
+Q3MTExMCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIs
+LTM0NTczMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MT
+E4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2
+NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ==
 -->
