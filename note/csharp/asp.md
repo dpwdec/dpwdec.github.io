@@ -113,7 +113,10 @@ public class UsersController : Controller
 }
 ```
 
-You can **combine the `[Route]` and `[HttpX]`**
+You can **combine the `[Route]` and `[HttpX]`** attributes.
+```csharp
+
+```
 
 ### API endpoint returns and status codes
 
@@ -174,7 +177,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2MTYzMTgzLC01NDI0NzExMTAsOTI2Nz
+eyJoaXN0b3J5IjpbMjA3NjEyNzg1LC01NDI0NzExMTAsOTI2Nz
 M5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zNDU3MzIzMDAs
 NDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5OCwxMzUyND
 g0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMTM4NDA4NzIw
