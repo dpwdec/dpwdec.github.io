@@ -61,11 +61,11 @@ The associated file structure would look something like the example below.
     └── .gitkeep
 ```
 
-If you want to **strong text**
+If you want to **ignore a file that you have already accid**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQ5NTQ2MTUsLTY4MjY1OTc4MCwxNT
-UxOTIwOTQxLC0xNjAwNTMzMjQ3LC04MTgxNTI4NTMsLTIwNjM1
-OTg2NjZdfQ==
+eyJoaXN0b3J5IjpbMjA5NzYzNzIxNiwtNjgyNjU5NzgwLDE1NT
+E5MjA5NDEsLTE2MDA1MzMyNDcsLTgxODE1Mjg1MywtMjA2MzU5
+ODY2Nl19
 -->
