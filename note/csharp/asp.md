@@ -47,9 +47,12 @@ You can **specify the mapping of an injection of the concrete instances of inter
 
 Dependencies can be **provided using three different that change the properties of the concrete instance**, these are:
 
- 1. `AddSingleton` which always provides the same object no matter what the request is.
- 2. `AddScoped` which provides a different object for each request
- 3. Transient -> new instance every time one is requested (even within a single client request)?
+ 1. `AddSingleton` which always provides the same object no matter what the request is
+ 2. `AddScoped` which provides a different object per client request
+ 3. `Transient` which provides new instance every time one is requested
+
+You can **create a new mapping** by using the `services` object with one of the above methods and adthe from and to mappings.
+```
 
 ## Controllers
 
@@ -220,10 +223,10 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjExNDE5MzgsMTcwMjk1OTI0NSwyMz
-k4ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3LC01NDI0NzEx
-MTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zND
-U3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5
-OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMT
-M4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbLTUzMTk0ODUwOCwxNzAyOTU5MjQ1LDIzOT
+g4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4MzcsLTU0MjQ3MTEx
+MCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIsLTM0NT
+czMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MTE4NTk4
+LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2NiwxMz
+g0MDg3MjA2LC02Mzg0MzUwMzddfQ==
 -->
