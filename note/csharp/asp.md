@@ -91,6 +91,8 @@ public class UsersController : Controller
 }
 ```
 
+You can **define further routing information using HTTP verb attributes** by adding the route
+
 
  
 ## Razor Pages
@@ -133,8 +135,8 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTczMjMwMCw0NDM0NTM4MTAsMTQwNT
-kxMjIyNCwxNTU2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIy
-MTcsMTkzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ
-==
+eyJoaXN0b3J5IjpbLTMyNjU1MjMyLC0zNDU3MzIzMDAsNDQzND
+UzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5OCwxMzUyNDg0NjA1
+LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMTM4NDA4NzIwNiwtNj
+M4NDM1MDM3XX0=
 -->
