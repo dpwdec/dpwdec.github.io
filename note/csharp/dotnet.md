@@ -14,6 +14,11 @@ You can **name a new application** using the `n` flag followed by the desired na
 $ dotnet new console -n MyProject
 ```
 
+You can **update an existing .NET CLI tool** using the `tool update` command.
+```bash
+$ dotnet tool update --global <tool name>
+```
+
 You can **structure the `namespace`s of your projects** around folder hierarchy, with the project name being the highest level `namespace` followed by subfolder names separated by a `.` period. For example in the following folder structure, the `namespace` for `bar.cs`, lying in the `Project` folder would simply be `Project`.
 ```
 Project
@@ -413,11 +418,11 @@ You can **get a shortcut code snippet for the creation of a class property** by 
 
 You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4OTU3MjMzLDEwOTIyOTY4NjMsMzQxOD
-YzNjM1LDIwMDg0NTczNTUsLTEyMzk2ODUwNTQsMTg5Nzc2ODQ4
-MSwtMTI1NTYwMDY5MiwxMjUzMzUxMjQ0LDEzOTQ2ODY3OTcsMT
-I1NTI4NzE1NywtNjc2NTQwMzMwLC0xMTU5MDUzMjczLDI0Mzc3
-MTIyNCwxNzE0NzU2NDk2LC0xMzE0NDY0ODU2LDE1NjQ1Mjg0Mj
-AsLTE3NjU3MDExMzcsLTU2MTEzMDY5NCwtMTczOTU5NTY5OSwt
-MTM2MjcyODgwMV19
+eyJoaXN0b3J5IjpbNjY4NzkyNDk2LDM1ODk1NzIzMywxMDkyMj
+k2ODYzLDM0MTg2MzYzNSwyMDA4NDU3MzU1LC0xMjM5Njg1MDU0
+LDE4OTc3Njg0ODEsLTEyNTU2MDA2OTIsMTI1MzM1MTI0NCwxMz
+k0Njg2Nzk3LDEyNTUyODcxNTcsLTY3NjU0MDMzMCwtMTE1OTA1
+MzI3MywyNDM3NzEyMjQsMTcxNDc1NjQ5NiwtMTMxNDQ2NDg1Ni
+wxNTY0NTI4NDIwLC0xNzY1NzAxMTM3LC01NjExMzA2OTQsLTE3
+Mzk1OTU2OTldfQ==
 -->
