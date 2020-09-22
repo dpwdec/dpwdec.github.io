@@ -120,6 +120,12 @@ public class UsersController : Controller
 }
 ```
 
+You can **chain wildcard arguments** and they will generalise to multiple controller method input arguments.
+```csharp
+[HttpGet("{id}/{name}")]
+  public ActionResult<User> GetUser(int id) { ... }
+``` 
+
 ### API endpoint returns and status codes
 
 You can **return an `ActionResult` from an API endpoint with a status code** by using the status code methods that are part pf `AspNetCore`. In the example below the `Ok` method wraps the result of getting the list of all `User`s in an `ActionResult` and returns it with a `200` status code.
@@ -201,9 +207,10 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTY3NDI4NSwxMDAxNjk5ODM3LC01ND
-I0NzExMTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMy
-LC0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1Nj
-ExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3
-NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbMTA2NDE0MTYyMSwtNDM1Njc0Mjg1LDEwMD
+E2OTk4MzcsLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMDU1ODYz
+NCwtMzI2NTUyMzIsLTM0NTczMjMwMCw0NDM0NTM4MTAsMTQwNT
+kxMjIyNCwxNTU2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIy
+MTcsMTkzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ
+==
 -->
