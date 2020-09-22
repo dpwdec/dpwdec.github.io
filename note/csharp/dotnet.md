@@ -113,9 +113,9 @@ You can **create a new instance with class parameters assigned during instance c
 new User{Id = 0, Age = 22, Name = "Belinda Bigglesworth", Zip = "X3 X9Y13"};
 ```
 
-You can **combine positional arguments and block assigned parameters** by including the argument parameters inside `()` soft brackets after calling `new Object` followed by assignments that you want to take inside `{}` curly brackets.
+You can **combine positional arguments and block assigned parameters** by including the argument parameters inside `()` soft brackets after calling `new Object` followed by assignments that you want to take inside `{}` curly brackets. This type of instance creation **does require a constructor**. In the example below, the `User` `Id` and `Age` are passed in as positional arguments followed by `Name` and `Zip` properties assigned using expression syntax.
 ```csharp
-new User(0, 22){
+new User(0, 22){Name = "Belinda Bigglesworth", Zip = "X3 X9Y13"};
 ```
 
 You can **initialise default instance class member values** from within the body of the class.
@@ -403,11 +403,11 @@ You can **import a reference to the classes / files into different project** (e.
 
 You can **get a shortcut code snippet for the creation of a class property** by typing `prop` into your editor within a class and pressing `TAB`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzM3MzA4NjksMjAwODQ1NzM1NSwtMT
-IzOTY4NTA1NCwxODk3NzY4NDgxLC0xMjU1NjAwNjkyLDEyNTMz
-NTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC02NzY1NDAzMz
-AsLTExNTkwNTMyNzMsMjQzNzcxMjI0LDE3MTQ3NTY0OTYsLTEz
-MTQ0NjQ4NTYsMTU2NDUyODQyMCwtMTc2NTcwMTEzNywtNTYxMT
-MwNjk0LC0xNzM5NTk1Njk5LC0xMzYyNzI4ODAxLC05MDkxNzcz
-MzEsMTUwMjAyOTgxMF19
+eyJoaXN0b3J5IjpbMzQxODYzNjM1LDIwMDg0NTczNTUsLTEyMz
+k2ODUwNTQsMTg5Nzc2ODQ4MSwtMTI1NTYwMDY5MiwxMjUzMzUx
+MjQ0LDEzOTQ2ODY3OTcsMTI1NTI4NzE1NywtNjc2NTQwMzMwLC
+0xMTU5MDUzMjczLDI0Mzc3MTIyNCwxNzE0NzU2NDk2LC0xMzE0
+NDY0ODU2LDE1NjQ1Mjg0MjAsLTE3NjU3MDExMzcsLTU2MTEzMD
+Y5NCwtMTczOTU5NTY5OSwtMTM2MjcyODgwMSwtOTA5MTc3MzMx
+LDE1MDIwMjk4MTBdfQ==
 -->
