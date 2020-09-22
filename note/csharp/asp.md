@@ -146,7 +146,7 @@ You can **return messages inside with your status code responses** by submitting
 ```csharp
 public ActionResult<string> GetMessage()
 {
-  return StatusCode(200, "This is a message")
+  return StatusCode(200, "This is a message");
 }
 ```
 
@@ -201,7 +201,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNTI3MTkyNiwxMDAxNjk5ODM3LC01ND
+eyJoaXN0b3J5IjpbMTU0ODk5NTYyMywxMDAxNjk5ODM3LC01ND
 I0NzExMTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMy
 LC0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1Nj
 ExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3
