@@ -135,9 +135,10 @@ It also seems like `ActionResult` automatically formats an objects into JSON.
 
 You can **return a specific status code in isolation** by using the `StatusCode` method.
 ```csharp
+[HttpGet]
 public ActionResult<string> ReturnInternalServerError()
 {
-
+  return StatusCode(500);
 }
 ```
 
@@ -187,9 +188,9 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjUzNjU2NSwxMDAxNjk5ODM3LC01ND
-I0NzExMTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMy
-LC0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1Nj
-ExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3
-NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbNzU5ODAzMDk3LDEwMDE2OTk4MzcsLTU0Mj
+Q3MTExMCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIs
+LTM0NTczMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MT
+E4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2
+NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ==
 -->
