@@ -101,7 +101,7 @@ public class UsersController : Controller
 }
 ```
 
-You can **define dynamic URLs with the HTTP verb attributes** by enclosing the argument to the attribute in `{}` curly brackets. *This name is then passed into the method that calls it as an argument of the same name???*
+You can **define dynamic URLs with the HTTP verb attributes** by enclosing the argument to the attribute in `{}` curly brackets. *This name is then passed into the method that calls it as an argument of the same name???* The defined URL below would direct to `api/users/{id}` which would be replaced by the specific id of the user.
 ```csharp
 [Route("api/users")
 public class UsersController : Controller 
@@ -153,8 +153,8 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzU1OTY3NTUsLTMyNjU1MjMyLC0zND
-U3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5
-OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMT
-M4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbLTIyMDU1ODYzNCwtMzI2NTUyMzIsLTM0NT
+czMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MTE4NTk4
+LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2NiwxMz
+g0MDg3MjA2LC02Mzg0MzUwMzddfQ==
 -->
