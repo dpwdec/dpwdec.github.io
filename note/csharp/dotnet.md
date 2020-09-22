@@ -52,7 +52,12 @@ int numberInt = 5;
 string numberString = numberInt.ToString();
 ```
 
-You can **cr**
+You can **interpolate values into strings** by prepending the strings with a `$` dollar sign and including the interpolated
+```csharp
+var name = "Berrylin";
+var age = 51;
+var message = $"{
+```
 
 ### nameof
 
@@ -405,7 +410,7 @@ You can **import a reference to the classes / files into different project** (e.
 
 You can **get a shortcut code snippet for the creation of a class property** by typing `prop` into your editor within a class and pressing `TAB`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1Mjc3MzAzLDM0MTg2MzYzNSwyMDA4ND
+eyJoaXN0b3J5IjpbLTYxNDA2OTA1LDM0MTg2MzYzNSwyMDA4ND
 U3MzU1LC0xMjM5Njg1MDU0LDE4OTc3Njg0ODEsLTEyNTU2MDA2
 OTIsMTI1MzM1MTI0NCwxMzk0Njg2Nzk3LDEyNTUyODcxNTcsLT
 Y3NjU0MDMzMCwtMTE1OTA1MzI3MywyNDM3NzEyMjQsMTcxNDc1
