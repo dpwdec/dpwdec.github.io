@@ -142,9 +142,17 @@ public ActionResult<string> ReturnInternalServerError()
 }
 ```
 
-You can **specify the status codes argument using semantically significant predefined constants** from the `Microsoft.AspNetCore.Http` library. For example, the `500` status code above can be aliased to `Status500InternalServerError` as part of this library.
+You can **return messages inside with your status code responses** by submitting a secondary argument to the `StatusCode` function.
 ```csharp
-return StatusCode(500);
+public ActionResult<string> GetMessage()
+{
+  return StatusCode(200, "This is a message")
+}
+```
+
+You can **specify the status codes argument using semantically significant predefined constants** from the `StatusCodes` section of `Microsoft.AspNetCore.Http` library. For example, the `500` status code above can be aliased to `Status500InternalServerError` as part of this library.
+```csharp
+return StatusCode(StatusCodes.Status500InternalServerError);
 ```
 
 ## Binding Sources
@@ -193,9 +201,9 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5NjM4Njc5LDEwMDE2OTk4MzcsLTU0Mj
-Q3MTExMCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIs
-LTM0NTczMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MT
-E4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2
-NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ==
+eyJoaXN0b3J5IjpbMTQyNTI3MTkyNiwxMDAxNjk5ODM3LC01ND
+I0NzExMTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMy
+LC0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1Nj
+ExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3
+NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
 -->
