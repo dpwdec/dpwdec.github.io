@@ -108,10 +108,12 @@ You can **create a new instance of a class** by using the `new` keyword with the
 var myClass = new MyClass("Lonathan", 100);
 ```
 
-You can **create a new instance with class parameters assigned during instance construction** by creating an expression block after the `new Object` definition with `{}` curly brackets and then listing out parameters you want to assign by name and assigning them to a value.
+You can **create a new instance with class parameters assigned during instance construction** by creating an expression block after the `new Object` definition with `{}` curly brackets and then listing out parameters you want to assign by name and assigning them to a value. If you use this construction method you **do not have to define an explicit constructor on your class** that takes arguments.
 ```csharp
-new User{Id = 0, Age = 22, Name = 
+new User{Id = 0, Age = 22, Name = "Belinda Bigglesworth", Zip = "X3 X9Y13"};
 ```
+
+You can **combine positionakl**
 
 You can **initialise default instance class member values** from within the body of the class.
 ```csharp
@@ -398,11 +400,11 @@ You can **import a reference to the classes / files into different project** (e.
 
 You can **get a shortcut code snippet for the creation of a class property** by typing `prop` into your editor within a class and pressing `TAB`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxOTk2Mzg4OCwyMDA4NDU3MzU1LC0xMj
-M5Njg1MDU0LDE4OTc3Njg0ODEsLTEyNTU2MDA2OTIsMTI1MzM1
-MTI0NCwxMzk0Njg2Nzk3LDEyNTUyODcxNTcsLTY3NjU0MDMzMC
-wtMTE1OTA1MzI3MywyNDM3NzEyMjQsMTcxNDc1NjQ5NiwtMTMx
-NDQ2NDg1NiwxNTY0NTI4NDIwLC0xNzY1NzAxMTM3LC01NjExMz
-A2OTQsLTE3Mzk1OTU2OTksLTEzNjI3Mjg4MDEsLTkwOTE3NzMz
-MSwxNTAyMDI5ODEwXX0=
+eyJoaXN0b3J5IjpbLTExMDkwOTYzMjYsMjAwODQ1NzM1NSwtMT
+IzOTY4NTA1NCwxODk3NzY4NDgxLC0xMjU1NjAwNjkyLDEyNTMz
+NTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC02NzY1NDAzMz
+AsLTExNTkwNTMyNzMsMjQzNzcxMjI0LDE3MTQ3NTY0OTYsLTEz
+MTQ0NjQ4NTYsMTU2NDUyODQyMCwtMTc2NTcwMTEzNywtNTYxMT
+MwNjk0LC0xNzM5NTk1Njk5LC0xMzYyNzI4ODAxLC05MDkxNzcz
+MzEsMTUwMjAyOTgxMF19
 -->
