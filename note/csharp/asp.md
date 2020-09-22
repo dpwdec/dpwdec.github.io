@@ -111,6 +111,10 @@ public class UsersController : Controller
 }
 ```
 
+### API endpoint returns
+
+You can **return an actiofrom an API endpoint **
+
 
  
 ## Razor Pages
@@ -153,8 +157,8 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDU1ODYzNCwtMzI2NTUyMzIsLTM0NT
-czMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MTE4NTk4
-LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2NiwxMz
-g0MDg3MjA2LC02Mzg0MzUwMzddfQ==
+eyJoaXN0b3J5IjpbMTY1Njg2Njk0MSwtMjIwNTU4NjM0LC0zMj
+Y1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1MzgxMCwxNDA1OTEyMjI0
+LDE1NTYxMTg1OTgsMTM1MjQ4NDYwNSwtMTYyODE2MjIxNywxOT
+M1MjUxNzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
 -->
