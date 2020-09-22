@@ -52,11 +52,12 @@ int numberInt = 5;
 string numberString = numberInt.ToString();
 ```
 
-You can **interpolate values into strings** by prepending the strings with a `$` dollar sign and including the interpolated
+You can **interpolate values into strings** by prepending the strings with a `$` dollar sign and including the interpolated values inside `{}` curly brackets.
 ```csharp
 var name = "Berrylin";
 var age = 51;
-var message = $"{
+var message = $"My name is {name} and I am {age} years old."
+// => "My name is Berrlin and I am 51 years old."
 ```
 
 ### nameof
@@ -410,11 +411,11 @@ You can **import a reference to the classes / files into different project** (e.
 
 You can **get a shortcut code snippet for the creation of a class property** by typing `prop` into your editor within a class and pressing `TAB`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDA2OTA1LDM0MTg2MzYzNSwyMDA4ND
-U3MzU1LC0xMjM5Njg1MDU0LDE4OTc3Njg0ODEsLTEyNTU2MDA2
-OTIsMTI1MzM1MTI0NCwxMzk0Njg2Nzk3LDEyNTUyODcxNTcsLT
-Y3NjU0MDMzMCwtMTE1OTA1MzI3MywyNDM3NzEyMjQsMTcxNDc1
-NjQ5NiwtMTMxNDQ2NDg1NiwxNTY0NTI4NDIwLC0xNzY1NzAxMT
-M3LC01NjExMzA2OTQsLTE3Mzk1OTU2OTksLTEzNjI3Mjg4MDEs
-LTkwOTE3NzMzMV19
+eyJoaXN0b3J5IjpbMTA5MjI5Njg2MywzNDE4NjM2MzUsMjAwOD
+Q1NzM1NSwtMTIzOTY4NTA1NCwxODk3NzY4NDgxLC0xMjU1NjAw
+NjkyLDEyNTMzNTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC
+02NzY1NDAzMzAsLTExNTkwNTMyNzMsMjQzNzcxMjI0LDE3MTQ3
+NTY0OTYsLTEzMTQ0NjQ4NTYsMTU2NDUyODQyMCwtMTc2NTcwMT
+EzNywtNTYxMTMwNjk0LC0xNzM5NTk1Njk5LC0xMzYyNzI4ODAx
+LC05MDkxNzczMzFdfQ==
 -->
