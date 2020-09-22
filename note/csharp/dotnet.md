@@ -410,12 +410,14 @@ You can **import a reference to the classes / files into different project** (e.
 ## VS Code
 
 You can **get a shortcut code snippet for the creation of a class property** by typing `prop` into your editor within a class and pressing `TAB`.
+
+You can **get a code snippet for class constructors**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjI5Njg2MywzNDE4NjM2MzUsMjAwOD
-Q1NzM1NSwtMTIzOTY4NTA1NCwxODk3NzY4NDgxLC0xMjU1NjAw
-NjkyLDEyNTMzNTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC
-02NzY1NDAzMzAsLTExNTkwNTMyNzMsMjQzNzcxMjI0LDE3MTQ3
-NTY0OTYsLTEzMTQ0NjQ4NTYsMTU2NDUyODQyMCwtMTc2NTcwMT
-EzNywtNTYxMTMwNjk0LC0xNzM5NTk1Njk5LC0xMzYyNzI4ODAx
-LC05MDkxNzczMzFdfQ==
+eyJoaXN0b3J5IjpbLTE2NjQwMzkyNTksMTA5MjI5Njg2MywzND
+E4NjM2MzUsMjAwODQ1NzM1NSwtMTIzOTY4NTA1NCwxODk3NzY4
+NDgxLC0xMjU1NjAwNjkyLDEyNTMzNTEyNDQsMTM5NDY4Njc5Ny
+wxMjU1Mjg3MTU3LC02NzY1NDAzMzAsLTExNTkwNTMyNzMsMjQz
+NzcxMjI0LDE3MTQ3NTY0OTYsLTEzMTQ0NjQ4NTYsMTU2NDUyOD
+QyMCwtMTc2NTcwMTEzNywtNTYxMTMwNjk0LC0xNzM5NTk1Njk5
+LC0xMzYyNzI4ODAxXX0=
 -->
