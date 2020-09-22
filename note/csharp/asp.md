@@ -122,6 +122,9 @@ public ActionResult<IEnumerable<User>> GetUsers()
 }
 ```
 
+## Binding Sources
+
+
 
 
  
@@ -165,8 +168,8 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzkzNjg5MjYsLTIyMDU1ODYzNCwtMz
-I2NTUyMzIsLTM0NTczMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIy
-NCwxNTU2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMT
-kzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ==
+eyJoaXN0b3J5IjpbOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNj
+U1MjMyLC0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQs
+MTU1NjExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5Mz
+UyNTE3NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
 -->
