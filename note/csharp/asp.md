@@ -45,7 +45,7 @@ You would use the `ConfigureServices` method on the `StartUp` class for dependen
 
 There are three ways you can register services within `StartUp`.
 
- 1. List item
+ 1. Ad
 
 ## Controllers
 
@@ -216,10 +216,10 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjk1OTI0NSwyMzk4ODM5NzcsLTQzNT
-Y3NDI4NSwxMDAxNjk5ODM3LC01NDI0NzExMTAsOTI2NzM5NTA5
-LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zNDU3MzIzMDAsNDQzND
-UzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5OCwxMzUyNDg0NjA1
-LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMTM4NDA4NzIwNiwtNj
-M4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbLTE4MjkwMzQ3OTUsMTcwMjk1OTI0NSwyMz
+k4ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3LC01NDI0NzEx
+MTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zND
+U3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5
+OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMT
+M4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
 -->
