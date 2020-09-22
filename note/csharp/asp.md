@@ -133,7 +133,7 @@ public ActionResult<IEnumerable<User>> GetUsers()
 
 It also seems like `ActionResult` automatically formats an objects into JSON.
 
-You can **return a specific status code in isolation** by using the `StatusCode` method and the status code you want to return as an argument.
+You can **return a specific status code in isolation** by using the `StatusCode` method and the status code you want to return as an argument. It also s
 ```csharp
 [HttpGet]
 public ActionResult<string> ReturnInternalServerError()
@@ -142,7 +142,7 @@ public ActionResult<string> ReturnInternalServerError()
 }
 ```
 
-You can **return messages inside with your status code responses** by submitting a secondary argument to the `StatusCode` function.
+You can **return messages inside with your status code responses** by submitting a secondary argument to the `StatusCode` function. Similar to functions like `Ok`, the `StatusCode` will format objects into JSON.
 ```csharp
 public ActionResult<string> GetMessage()
 {
@@ -201,7 +201,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODk5NTYyMywxMDAxNjk5ODM3LC01ND
+eyJoaXN0b3J5IjpbMTYyMzYxNTM5OSwxMDAxNjk5ODM3LC01ND
 I0NzExMTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMy
 LC0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1Nj
 ExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3
