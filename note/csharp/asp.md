@@ -103,6 +103,13 @@ public class UsersController : Controller
 }
 ```
 
+You can **combine the `[Route]` and `[HttpX]`** attributes. For example, the `"age"` controller route extension from above 
+```csharp
+[Route("age")]
+[HttpGet]
+public ActionResult<IEnumerable<int>> GetUserAges() { ... }
+```
+
 You can **define dynamic URLs with the HTTP verb attributes** by enclosing the argument to the attribute in `{}` curly brackets. This wildcard extension to the route is then passed into the decorated method as an attribute of the same name. The defined URL below would direct to `api/users/{id}` which would be replaced by the specific id of the user, then because the actually method takes an argument called `id`, then attribute knows to pass the result of this into that method as an argument when the API is triggered.
 ```csharp
 [Route("api/users")
@@ -111,11 +118,6 @@ public class UsersController : Controller
   [HttpGet("{id}")]
   public ActionResult<User> GetUser(int id) { ... }
 }
-```
-
-You can **combine the `[Route]` and `[HttpX]`** attributes.
-```csharp
-
 ```
 
 ### API endpoint returns and status codes
@@ -177,9 +179,9 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NjEyNzg1LC01NDI0NzExMTAsOTI2Nz
-M5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zNDU3MzIzMDAs
-NDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5OCwxMzUyND
-g0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMTM4NDA4NzIw
-NiwtNjM4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbLTk3MTM3MDU3NiwtNTQyNDcxMTEwLDkyNj
+czOTUwOSwtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAw
+LDQ0MzQ1MzgxMCwxNDA1OTEyMjI0LDE1NTYxMTg1OTgsMTM1Mj
+Q4NDYwNSwtMTYyODE2MjIxNywxOTM1MjUxNzY2LDEzODQwODcy
+MDYsLTYzODQzNTAzN119
 -->
