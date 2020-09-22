@@ -133,7 +133,7 @@ public ActionResult<IEnumerable<User>> GetUsers()
 
 It also seems like `ActionResult` automatically formats an objects into JSON.
 
-You can **return a specific status code in isolation** by using the `StatusCode` method.
+You can **return a specific status code in isolation** by using the `StatusCode` method and the status code you want to return as an argument.
 ```csharp
 [HttpGet]
 public ActionResult<string> ReturnInternalServerError()
@@ -188,7 +188,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5ODAzMDk3LDEwMDE2OTk4MzcsLTU0Mj
+eyJoaXN0b3J5IjpbMjY3MTUzNTkyLDEwMDE2OTk4MzcsLTU0Mj
 Q3MTExMCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIs
 LTM0NTczMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MT
 E4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2
