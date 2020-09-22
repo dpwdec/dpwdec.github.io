@@ -45,7 +45,9 @@ You would use the `ConfigureServices` method on the `StartUp` class for dependen
 
 There are three ways you can register services within `StartUp`.
 
- 1. Ad
+ 1. AddSingleton -> same object for every request
+ 2. AddScope -> new object created once per client request
+ 3. Transient -> new instance every time one is requested (even within a single client request)? si
 
 ## Controllers
 
@@ -216,10 +218,10 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjkwMzQ3OTUsMTcwMjk1OTI0NSwyMz
-k4ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3LC01NDI0NzEx
-MTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zND
-U3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5
-OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMT
-M4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbMTIzNTI1NTE5OSwxNzAyOTU5MjQ1LDIzOT
+g4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4MzcsLTU0MjQ3MTEx
+MCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIsLTM0NT
+czMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MTE4NTk4
+LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2NiwxMz
+g0MDg3MjA2LC02Mzg0MzUwMzddfQ==
 -->
