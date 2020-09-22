@@ -69,7 +69,7 @@ using using  Microsoft.AspNetCore.Mvc;
 public class MyController : Controller { ... }
 ```
 
-You can **define a route for an entire controller** by using the `[Route]` attribute before a controller class definition with an argument of the route name as a string.
+You can **define a route for an entire controller** by using the `[Route]` attribute before a controller class definition with an argument of the route name as a string. The `/`
 ```csharp
 [Route("api/")
 public class UsersController : Controller { ... }
@@ -179,9 +179,9 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNj
-czOTUwOSwtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAw
-LDQ0MzQ1MzgxMCwxNDA1OTEyMjI0LDE1NTYxMTg1OTgsMTM1Mj
-Q4NDYwNSwtMTYyODE2MjIxNywxOTM1MjUxNzY2LDEzODQwODcy
-MDYsLTYzODQzNTAzN119
+eyJoaXN0b3J5IjpbLTE4MTY3MTczMTMsMTAwMTY5OTgzNywtNT
+QyNDcxMTEwLDkyNjczOTUwOSwtMjIwNTU4NjM0LC0zMjY1NTIz
+MiwtMzQ1NzMyMzAwLDQ0MzQ1MzgxMCwxNDA1OTEyMjI0LDE1NT
+YxMTg1OTgsMTM1MjQ4NDYwNSwtMTYyODE2MjIxNywxOTM1MjUx
+NzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
 -->
