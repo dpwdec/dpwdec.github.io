@@ -52,6 +52,8 @@ int numberInt = 5;
 string numberString = numberInt.ToString();
 ```
 
+You can **cr**
+
 ### nameof
 
 You can **convert the type of a variable to a string** using the `nameof` operator.
@@ -403,11 +405,11 @@ You can **import a reference to the classes / files into different project** (e.
 
 You can **get a shortcut code snippet for the creation of a class property** by typing `prop` into your editor within a class and pressing `TAB`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQxODYzNjM1LDIwMDg0NTczNTUsLTEyMz
-k2ODUwNTQsMTg5Nzc2ODQ4MSwtMTI1NTYwMDY5MiwxMjUzMzUx
-MjQ0LDEzOTQ2ODY3OTcsMTI1NTI4NzE1NywtNjc2NTQwMzMwLC
-0xMTU5MDUzMjczLDI0Mzc3MTIyNCwxNzE0NzU2NDk2LC0xMzE0
-NDY0ODU2LDE1NjQ1Mjg0MjAsLTE3NjU3MDExMzcsLTU2MTEzMD
-Y5NCwtMTczOTU5NTY5OSwtMTM2MjcyODgwMSwtOTA5MTc3MzMx
-LDE1MDIwMjk4MTBdfQ==
+eyJoaXN0b3J5IjpbNjA1Mjc3MzAzLDM0MTg2MzYzNSwyMDA4ND
+U3MzU1LC0xMjM5Njg1MDU0LDE4OTc3Njg0ODEsLTEyNTU2MDA2
+OTIsMTI1MzM1MTI0NCwxMzk0Njg2Nzk3LDEyNTUyODcxNTcsLT
+Y3NjU0MDMzMCwtMTE1OTA1MzI3MywyNDM3NzEyMjQsMTcxNDc1
+NjQ5NiwtMTMxNDQ2NDg1NiwxNTY0NTI4NDIwLC0xNzY1NzAxMT
+M3LC01NjExMzA2OTQsLTE3Mzk1OTU2OTksLTEzNjI3Mjg4MDEs
+LTkwOTE3NzMzMV19
 -->
