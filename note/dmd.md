@@ -250,12 +250,14 @@ oh no I've lost the ability to type / unfortunately `x` is all i am going to `be
 what is `Incapsula`?
 
 what is `Zuul`?
+
+So `strip_path` in kong controls the routing? when I request the url it strips off the front end and sends it to the service?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwMzE2NjI4LDEwMDM5ODI0NzcsMTU1ND
-Q5NTcwOCwyMTAyMTg1MTE4LC0xMTE2NTk0NTAyLC0zMzIyNjY4
-LC0xMjYwMDg0NjAsMTg1NDY4NTcxOCwxODc2NTE1OTQ4LC03Nz
-U4MDQ1OTQsODU2NTUyMjMxLDQ3Mzk0MTU3OCwxMjcyODgyMTY3
-LC0xMzYzNzM5MTg5LDg0MTgxNTA2NiwyMjM1NDU0MjgsLTE2Mj
-IzMTczOTgsNTk5NTk1NjMxLC0yMjEyNDg3NjIsMTYxNDM1NTI3
-NF19
+eyJoaXN0b3J5IjpbLTE2OTg3MDQzODMsNjcwMzE2NjI4LDEwMD
+M5ODI0NzcsMTU1NDQ5NTcwOCwyMTAyMTg1MTE4LC0xMTE2NTk0
+NTAyLC0zMzIyNjY4LC0xMjYwMDg0NjAsMTg1NDY4NTcxOCwxOD
+c2NTE1OTQ4LC03NzU4MDQ1OTQsODU2NTUyMjMxLDQ3Mzk0MTU3
+OCwxMjcyODgyMTY3LC0xMzYzNzM5MTg5LDg0MTgxNTA2NiwyMj
+M1NDU0MjgsLTE2MjIzMTczOTgsNTk5NTk1NjMxLC0yMjEyNDg3
+NjJdfQ==
 -->
