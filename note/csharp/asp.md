@@ -123,7 +123,10 @@ public class UsersController : Controller
 You can **chain wildcard arguments** and they will generalise to multiple controller method input arguments.
 ```csharp
 [HttpGet("{id}/{name}")]
-  public ActionResult<User> GetUser(int id) { ... }
+public ActionResult<User> GetUser(int id, string name)
+{
+  // both id and name will be picked up as arguments from the URL
+}
 ``` 
 
 ### API endpoint returns and status codes
@@ -207,10 +210,9 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDE0MTYyMSwtNDM1Njc0Mjg1LDEwMD
-E2OTk4MzcsLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMDU1ODYz
-NCwtMzI2NTUyMzIsLTM0NTczMjMwMCw0NDM0NTM4MTAsMTQwNT
-kxMjIyNCwxNTU2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIy
-MTcsMTkzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ
-==
+eyJoaXN0b3J5IjpbMjM5ODgzOTc3LC00MzU2NzQyODUsMTAwMT
+Y5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUwOSwtMjIwNTU4NjM0
+LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1MzgxMCwxNDA1OT
+EyMjI0LDE1NTYxMTg1OTgsMTM1MjQ4NDYwNSwtMTYyODE2MjIx
+NywxOTM1MjUxNzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
 -->
