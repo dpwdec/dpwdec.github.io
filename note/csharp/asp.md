@@ -41,6 +41,8 @@ Like other .NET programs ASP applications **start running from the `Main` method
 
 You can **configure you project's routing pipeline, middleware and services** from the `Startup` class. The `Configure` method is used from controlling how middleware and requests function in your application and the `ConfigureServices` method is used for registering and configuring new services to work with the application.
 
+You would use the `ConfigureServices` method on the `StartUp` class for dependency injections.
+
 ## Controllers
 
 You should **make a controller for each resource type in your project**, that being, each distinct model in your database that makes up your system.
@@ -210,9 +212,10 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM5ODgzOTc3LC00MzU2NzQyODUsMTAwMT
-Y5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUwOSwtMjIwNTU4NjM0
-LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1MzgxMCwxNDA1OT
-EyMjI0LDE1NTYxMTg1OTgsMTM1MjQ4NDYwNSwtMTYyODE2MjIx
-NywxOTM1MjUxNzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
+eyJoaXN0b3J5IjpbLTE1MDA3NjM5NTMsMjM5ODgzOTc3LC00Mz
+U2NzQyODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUw
+OSwtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLDQ0Mz
+Q1MzgxMCwxNDA1OTEyMjI0LDE1NTYxMTg1OTgsMTM1MjQ4NDYw
+NSwtMTYyODE2MjIxNywxOTM1MjUxNzY2LDEzODQwODcyMDYsLT
+YzODQzNTAzN119
 -->
