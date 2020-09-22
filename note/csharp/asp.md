@@ -47,7 +47,7 @@ There are three ways you can register services within `StartUp`.
 
  1. AddSingleton -> same object for every request
  2. AddScope -> new object created once per client request
- 3. Transient -> new instance every time one is requested (even within a single client request)? si
+ 3. Transient -> new instance every time one is requested (even within a single client request)?
 
 ## Controllers
 
@@ -218,7 +218,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTI1NTE5OSwxNzAyOTU5MjQ1LDIzOT
+eyJoaXN0b3J5IjpbLTQwNjMwODc2NywxNzAyOTU5MjQ1LDIzOT
 g4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4MzcsLTU0MjQ3MTEx
 MCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIsLTM0NT
 czMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MTE4NTk4
