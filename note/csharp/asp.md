@@ -43,14 +43,12 @@ You can **configure you project's routing pipeline, middleware and services** fr
 
 ### ConfigureServices
 
-You can **specify the mapping of an injection of the concrete instances of interfaces as dependencies for a class at start up** using the `ConfigureServices` method of the `StartUp` class with the `services` object. This mapping takes the interface name and the concrete implementation as type arguments, then whenever that interface
+You can **specify the mapping of an injection of the concrete instances of interfaces as dependencies for a class at start up** using the `ConfigureServices` method of the `StartUp` class with the `services` object. This mapping takes the interface name and the concrete implementation as type arguments, then whenever that interface is required as a dependency it will provide the concrete implementation.
 
-You would use the `ConfigureServices` method on the `StartUp` class for dependency injections.
+Dependencies can be **provided using three different that change the properties of the concrete instance**, these are:
 
-There are three ways you can register services within `StartUp`.
-
- 1. AddSingleton -> same object for every request
- 2. AddScope -> new object created once per client request
+ 1. `AddSingleton` which always provides the same object no matter what the request is.
+ 2. `AddScoped` which provides a different object for each request
  3. Transient -> new instance every time one is requested (even within a single client request)?
 
 ## Controllers
@@ -222,10 +220,10 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODM5MDM4MSwxNzAyOTU5MjQ1LDIzOT
-g4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4MzcsLTU0MjQ3MTEx
-MCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIsLTM0NT
-czMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MTE4NTk4
-LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2NiwxMz
-g0MDg3MjA2LC02Mzg0MzUwMzddfQ==
+eyJoaXN0b3J5IjpbLTEzNjExNDE5MzgsMTcwMjk1OTI0NSwyMz
+k4ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3LC01NDI0NzEx
+MTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zND
+U3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5
+OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMT
+M4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
 -->
