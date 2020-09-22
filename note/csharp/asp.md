@@ -51,7 +51,9 @@ Dependencies can be **provided using three different that change the properties 
  2. `AddScoped` which provides a different object per client request
  3. `Transient` which provides new instance every time one is requested
 
-You can **create a new mapping** by using the `services` object with one of the above methods and adthe from and to mappings.
+You can **create a new mapping** by using the `services` object inside the `ConfigureServices` method with one of the above methods and adding the from and to mappings as types.
+```csharp
+services.AddScoped<IMyInterface, MyInterfaceImplementation>();
 ```
 
 ## Controllers
@@ -223,7 +225,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTk0ODUwOCwxNzAyOTU5MjQ1LDIzOT
+eyJoaXN0b3J5IjpbLTg4MTUwNTE5NCwxNzAyOTU5MjQ1LDIzOT
 g4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4MzcsLTU0MjQ3MTEx
 MCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIsLTM0NT
 czMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MTE4NTk4
