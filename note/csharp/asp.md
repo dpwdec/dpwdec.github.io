@@ -43,6 +43,10 @@ You can **configure you project's routing pipeline, middleware and services** fr
 
 You would use the `ConfigureServices` method on the `StartUp` class for dependency injections.
 
+There are three ways you can register services within `StartUp`.
+
+ 1. List item
+
 ## Controllers
 
 You should **make a controller for each resource type in your project**, that being, each distinct model in your database that makes up your system.
@@ -212,10 +216,10 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDA3NjM5NTMsMjM5ODgzOTc3LC00Mz
-U2NzQyODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUw
-OSwtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLDQ0Mz
-Q1MzgxMCwxNDA1OTEyMjI0LDE1NTYxMTg1OTgsMTM1MjQ4NDYw
-NSwtMTYyODE2MjIxNywxOTM1MjUxNzY2LDEzODQwODcyMDYsLT
-YzODQzNTAzN119
+eyJoaXN0b3J5IjpbMTcwMjk1OTI0NSwyMzk4ODM5NzcsLTQzNT
+Y3NDI4NSwxMDAxNjk5ODM3LC01NDI0NzExMTAsOTI2NzM5NTA5
+LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zNDU3MzIzMDAsNDQzND
+UzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5OCwxMzUyNDg0NjA1
+LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMTM4NDA4NzIwNiwtNj
+M4NDM1MDM3XX0=
 -->
