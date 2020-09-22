@@ -111,12 +111,15 @@ public class UsersController : Controller
 }
 ```
 
-### API endpoint returns
+### API endpoint returns and status codes
 
-You can **return an `ActionResult` from an API endpoint with a status code** by using the status code methods that are part pf `AspNetCore`.
+You can **return an `ActionResult` from an API endpoint with a status code** by using the status code methods that are part pf `AspNetCore`. In the example below the `Ok` method wraps the result of getting the list of all `User`s in an `ActionResult` and returns it with a `200` status code.
 ```csharp
 [HttpGet]
-public ActionResult<IE
+public ActionResult<IEnumerable<User>> GetUsers()
+{
+  return Ok(GetAllUser());
+}
 ```
 
 
@@ -161,8 +164,8 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjUzOTM2LC0yMjA1NTg2MzQsLTMyNj
-U1MjMyLC0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQs
-MTU1NjExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5Mz
-UyNTE3NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbLTExMTg1MDg0MzcsLTIyMDU1ODYzNCwtMz
+I2NTUyMzIsLTM0NTczMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIy
+NCwxNTU2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMT
+kzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ==
 -->
