@@ -91,7 +91,17 @@ public class UsersController : Controller
 }
 ```
 
-You can **define further routing information using HTTP verb attributes** by adding the route
+You can **define further routing information using HTTP verb attributes** by adding the route as a string argument to the attribute.
+```csharp
+[Route("api/users")
+public class UsersController : Controller 
+{
+  [HttpGet("age")]
+  public ActionResult<IEnumerable<int>> GetUserAges() { ... }
+}
+```
+
+You can **define dynamic URLs with the HTTP verb attributes** by enclosing the argument in `{}`
 
 
  
@@ -135,8 +145,8 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjU1MjMyLC0zNDU3MzIzMDAsNDQzND
-UzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5OCwxMzUyNDg0NjA1
-LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMTM4NDA4NzIwNiwtNj
-M4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbLTEzODc0MDQ4NDEsLTMyNjU1MjMyLC0zND
+U3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5
+OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMT
+M4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
 -->
