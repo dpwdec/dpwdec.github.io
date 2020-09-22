@@ -43,7 +43,7 @@ You can **configure you project's routing pipeline, middleware and services** fr
 
 ### ConfigureServices
 
-You can **inject concrete instances of interfaces as dependencies for a class at start** use the `ConfigureSe
+You can **specify the mapping of an injection of the concrete instances of interfaces as dependencies for a class at start up** using the `ConfigureServices` method of the `StartUp` class with the `services` object.
 
 You would use the `ConfigureServices` method on the `StartUp` class for dependency injections.
 
@@ -222,10 +222,10 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTQxMDMwNCwxNzAyOTU5MjQ1LDIzOT
-g4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4MzcsLTU0MjQ3MTEx
-MCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIsLTM0NT
-czMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MTE4NTk4
-LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2NiwxMz
-g0MDg3MjA2LC02Mzg0MzUwMzddfQ==
+eyJoaXN0b3J5IjpbLTE3MjQzNjcxOTgsMTcwMjk1OTI0NSwyMz
+k4ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3LC01NDI0NzEx
+MTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zND
+U3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5
+OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3NjYsMT
+M4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
 -->
