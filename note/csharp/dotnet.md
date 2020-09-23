@@ -247,6 +247,11 @@ public class Base
   {
     this.Value = Value;
   }
+
+  public Base()
+  {
+    Value = 10;
+  }
 }
 
 public class Derived : Base
@@ -259,6 +264,9 @@ public class Derived : Base
 ```
 
 This also **works for overloaded constructors**. 
+```csharp
+
+```
 
 ### Virtual
 
@@ -473,11 +481,11 @@ You can **get a shortcut code snippet for the creation of a class property** by 
 
 You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDA3Mzc4MjIsLTE1Njg4ODkzMDEsLT
-kwNzYwODM3NCwxMjkyODE1NTA1LDY2ODc5MjQ5NiwzNTg5NTcy
-MzMsMTA5MjI5Njg2MywzNDE4NjM2MzUsMjAwODQ1NzM1NSwtMT
-IzOTY4NTA1NCwxODk3NzY4NDgxLC0xMjU1NjAwNjkyLDEyNTMz
-NTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC02NzY1NDAzMz
-AsLTExNTkwNTMyNzMsMjQzNzcxMjI0LDE3MTQ3NTY0OTYsLTEz
-MTQ0NjQ4NTZdfQ==
+eyJoaXN0b3J5IjpbMTMzMjM5MjgwMCwtMTU2ODg4OTMwMSwtOT
+A3NjA4Mzc0LDEyOTI4MTU1MDUsNjY4NzkyNDk2LDM1ODk1NzIz
+MywxMDkyMjk2ODYzLDM0MTg2MzYzNSwyMDA4NDU3MzU1LC0xMj
+M5Njg1MDU0LDE4OTc3Njg0ODEsLTEyNTU2MDA2OTIsMTI1MzM1
+MTI0NCwxMzk0Njg2Nzk3LDEyNTUyODcxNTcsLTY3NjU0MDMzMC
+wtMTE1OTA1MzI3MywyNDM3NzEyMjQsMTcxNDc1NjQ5NiwtMTMx
+NDQ2NDg1Nl19
 -->
