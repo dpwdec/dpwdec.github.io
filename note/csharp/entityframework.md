@@ -57,13 +57,13 @@ What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 
 ## Migrations
 
-You can **create a database migration** using the `migrations add` with the `dotnet ef` too.
+You can **create a new database migration** using the `migrations add` with the `dotnet ef` too. This will add the migration to the `Migrations` folder in your project.
 ```bash
-$ dotnet ef migrations add
+$ dotnet ef migrations add <MIGRATION_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA1MjE4MTIsLTEyNDc2MzEwNjgsMT
-kwMjIzNTIwNCwtNzM0MjAzOTYzLC05NzczOTg0MjMsLTU2MjI3
-MTU2NSwtNjcwNjc4NTA1LC00OTE0OTkzNzYsMTYxMDU4MDE4Ml
-19
+eyJoaXN0b3J5IjpbNDIxODgxMTM0LC0xMjQ3NjMxMDY4LDE5MD
+IyMzUyMDQsLTczNDIwMzk2MywtOTc3Mzk4NDIzLC01NjIyNzE1
+NjUsLTY3MDY3ODUwNSwtNDkxNDk5Mzc2LDE2MTA1ODAxODJdfQ
+==
 -->
