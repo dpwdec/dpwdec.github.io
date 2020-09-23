@@ -22,8 +22,10 @@ You can **define a connection string for your database** by adding it to your pr
 }
 ```
 
-You can **set up a connection to your database for a project** by using the `ConfigureSerivces` method in the `Startup` class. To do this, use the `services` object to `AddDbContext` with a type of your project specific class that extends `DbContext` from Entity Framework. This method then takes a lambda that passes in an `DbContextOptions` as its argument and which database type specific configuration is run on.
+You can **set up a connection to your database for a project** by using the `ConfigureSerivces` method in the `Startup` class. To do this, use the `services` object to `AddDbContext` with a type of your project specific class that extends `DbContext` from Entity Framework. This method then takes a lambda that passes in an `DbContextOptions` as its argument and which database type specific configuration is run on. As detailed above, the `Configuration` object has methods to access the `appsettings.json` file to retrieve the associated
 ```csharp
+services.AddDbContext(options => options.UseSqlServer(Configuration.GetConnectionString("DatabaseName"));
+```
 
 ## Context
 
@@ -38,7 +40,7 @@ public DbSet<User> Users { get; set; }
 
 What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDQwNTc0MywxOTAyMjM1MjA0LC03Mz
-QyMDM5NjMsLTk3NzM5ODQyMywtNTYyMjcxNTY1LC02NzA2Nzg1
-MDUsLTQ5MTQ5OTM3NiwxNjEwNTgwMTgyXX0=
+eyJoaXN0b3J5IjpbNTUwMjg0ODcxLDE5MDIyMzUyMDQsLTczND
+IwMzk2MywtOTc3Mzk4NDIzLC01NjIyNzE1NjUsLTY3MDY3ODUw
+NSwtNDkxNDk5Mzc2LDE2MTA1ODAxODJdfQ==
 -->
