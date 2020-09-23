@@ -71,13 +71,18 @@ public partial class MyMigration : Migration
   protected override void Up(MigrationBuilder migrationBuilder)
   {
     migrationBuilder.CreateTable(
+      name: "MyTable", // name taken from DbSet
+      columns: table => new
+      {
+        // ... database columns here
+      }
     );
   }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTc5NjcyNzUsLTEyNDc2MzEwNjgsMT
-kwMjIzNTIwNCwtNzM0MjAzOTYzLC05NzczOTg0MjMsLTU2MjI3
-MTU2NSwtNjcwNjc4NTA1LC00OTE0OTkzNzYsMTYxMDU4MDE4Ml
-19
+eyJoaXN0b3J5IjpbMTU3MDc3NDkyLC0xMjQ3NjMxMDY4LDE5MD
+IyMzUyMDQsLTczNDIwMzk2MywtOTc3Mzk4NDIzLC01NjIyNzE1
+NjUsLTY3MDY3ODUwNSwtNDkxNDk5Mzc2LDE2MTA1ODAxODJdfQ
+==
 -->
