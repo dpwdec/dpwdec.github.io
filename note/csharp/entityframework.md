@@ -61,8 +61,10 @@ You can **create a new database migration** using the `migrations add` with the 
 ```bash
 $ dotnet ef migrations add <MIGRATION_NAME>
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxODgxMTM0LC0xMjQ3NjMxMDY4LDE5MD
+eyJoaXN0b3J5IjpbMjI3ODI5NTE0LC0xMjQ3NjMxMDY4LDE5MD
 IyMzUyMDQsLTczNDIwMzk2MywtOTc3Mzk4NDIzLC01NjIyNzE1
 NjUsLTY3MDY3ODUwNSwtNDkxNDk5Mzc2LDE2MTA1ODAxODJdfQ
 ==
