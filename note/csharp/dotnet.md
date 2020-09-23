@@ -216,7 +216,7 @@ public int balance
 
 ### Base
 
-You can **use the `base` keyword to access methods of a base class from a derived class even when the derived class has override the method** by accessing properties on `base` as if it were an object. The example below defines a `Derived` class that uses its `Base` classes `GetInt` method in its constructor *and* its own version of `GetInt`. The `base` keyword allows you to discriminate between versions of methods overr
+You can **use the `base` keyword to access methods of a base class from a derived class even when the derived class has override the method** by accessing properties on `base` as if it were an object. The example below defines a `Derived` class that uses its `Base` classes `GetInt` method in its constructor *and* its own version of `GetInt`. The `base` keyword allows you to discriminate between versions of methods overridden in the base class and implementations from the base class.
 ```csharp
 public class Base
 {
@@ -237,6 +237,8 @@ public class Derived : Base
   public override int GetInt() => 60;
 }
 ```
+
+You can **ap the `base` keyword syntax with constructors** as piece o
 
 ### Virtual
 
@@ -451,7 +453,7 @@ You can **get a shortcut code snippet for the creation of a class property** by 
 
 You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzY0NTI0NywtOTA3NjA4Mzc0LDEyOT
+eyJoaXN0b3J5IjpbLTg4ODEwMTQ0MCwtOTA3NjA4Mzc0LDEyOT
 I4MTU1MDUsNjY4NzkyNDk2LDM1ODk1NzIzMywxMDkyMjk2ODYz
 LDM0MTg2MzYzNSwyMDA4NDU3MzU1LC0xMjM5Njg1MDU0LDE4OT
 c3Njg0ODEsLTEyNTU2MDA2OTIsMTI1MzM1MTI0NCwxMzk0Njg2
