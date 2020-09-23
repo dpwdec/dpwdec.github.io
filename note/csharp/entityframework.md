@@ -55,6 +55,12 @@ services.AddDbContext(options => options.UseNpgsql(Configuration.GetConnectionSt
 
 What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 
+## Data Annotations
+
+Data Annotations can be used to **decorate your model class definitions** to specify what format the tables and columns for the tables are in.
+
+You can **specify that a field is NOT nullable**, *
+
 ## Migrations
 
 You can **create a new database migration** using the `migrations add` with the `dotnet ef` too. This will add the migration to the `Migrations` folder in your project.
@@ -67,7 +73,7 @@ You can **remove the last migration you created**, *before actually migrating da
 $ dotnet ef migrations remove
 ```
 
-Although the section below details what migrations files mean and how to configure them, its **not recommended to configure migrations directly** to get the database structure you want. Instead you should **use `DataAnnotations` to decorate your class definitions**.
+Although the section below details what migrations files mean and how to configure them, its **not recommended to configure migrations directly** to get the database structure you want. Instead you should **use `DataAnnotations` to decorate your model class definitions**.
 
 Individual migrations files contain a class named after the migration name which inherits from the `Migration` class in `EntityFrameworkCore.Migrations`. This class implements two methods, either `Up` or `Down`, which add and delete schema from the database respectively.
 
@@ -98,8 +104,8 @@ You can **specify whether a database column within a migration is nullable** by 
 table.Column<int>(nullable: false);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTcwOTcyNiwtMjIwMTU0NjU5LDE1Nz
-A3NzQ5MiwtMTI0NzYzMTA2OCwxOTAyMjM1MjA0LC03MzQyMDM5
-NjMsLTk3NzM5ODQyMywtNTYyMjcxNTY1LC02NzA2Nzg1MDUsLT
-Q5MTQ5OTM3NiwxNjEwNTgwMTgyXX0=
+eyJoaXN0b3J5IjpbLTIzNzc2MDQ4LC0yMjAxNTQ2NTksMTU3MD
+c3NDkyLC0xMjQ3NjMxMDY4LDE5MDIyMzUyMDQsLTczNDIwMzk2
+MywtOTc3Mzk4NDIzLC01NjIyNzE1NjUsLTY3MDY3ODUwNSwtND
+kxNDk5Mzc2LDE2MTA1ODAxODJdfQ==
 -->
