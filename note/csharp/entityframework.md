@@ -62,10 +62,10 @@ You can **create a new database migration** using the `migrations add` with the 
 $ dotnet ef migrations add <MIGRATION_NAME>
 ```
 
-
+Individual migrations files contain a class named after the migration name which inherits from the `Migration` class in `EntityFrameworkCore.Migrations`. This class implements two methods, either `Up` or `Down`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3ODI5NTE0LC0xMjQ3NjMxMDY4LDE5MD
-IyMzUyMDQsLTczNDIwMzk2MywtOTc3Mzk4NDIzLC01NjIyNzE1
-NjUsLTY3MDY3ODUwNSwtNDkxNDk5Mzc2LDE2MTA1ODAxODJdfQ
-==
+eyJoaXN0b3J5IjpbLTg0OTMzODA5MCwtMTI0NzYzMTA2OCwxOT
+AyMjM1MjA0LC03MzQyMDM5NjMsLTk3NzM5ODQyMywtNTYyMjcx
+NTY1LC02NzA2Nzg1MDUsLTQ5MTQ5OTM3NiwxNjEwNTgwMTgyXX
+0=
 -->
