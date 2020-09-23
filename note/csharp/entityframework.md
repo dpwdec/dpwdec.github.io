@@ -32,7 +32,7 @@ public DbSet<User> Users { get; set; }
 
 ## Connection
 
-You can **define a connection string for your database** by adding it to your project's `appsettings.json` file. Using the key `"ConnectionStrings"` to encompass all the key-value pairs. This name is a convention (not absolutely required) but using it allows you to use the `IConfiguration` utility `GetConnectionString` which looks at the `"ConnectionStrings"` entry. The **database string keys themselves do not have a specific naming convention**, in this example the name is `"DatabaseConnection"` but it could be any descriptive name.
+You can **define a connection string for your database** by adding it to your project's `appsettings.json` file. Using the key `"ConnectionStrings"` to encompass all the key-value pairs. This name is a convention (not absolutely required) but using it allows you to use the `IConfiguration` utility `GetConnectionString` which looks at the `"ConnectionStrings"` entry. The **database string keys themselves do not have a specific naming convention**, in this example the name is `"DatabaseConnection"` but it could be any descriptive name. *Note*: the database name in the connection string is *case sensitive*.
 ```json
 {
   "ConnectionStrings": {
@@ -92,6 +92,7 @@ You can **remove the last migration you created**, *before actually migrating da
 $ dotnet ef migrations remove
 ```
 
+
 Migrations are **time stamped to allow for effective rolling back**.
 
 Although the section below details what migrations files mean and how to configure them, its **not recommended to configure migrations directly** to get the database structure you want. Instead you should **use `DataAnnotations` to decorate your model class definitions**.
@@ -127,8 +128,8 @@ table.Column<int>(nullable: false);
 
 The `Annotations` method can be used to **specify how a primary key increments**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODgxNDMwNywtMjIwMTU0NjU5LDE1Nz
-A3NzQ5MiwtMTI0NzYzMTA2OCwxOTAyMjM1MjA0LC03MzQyMDM5
-NjMsLTk3NzM5ODQyMywtNTYyMjcxNTY1LC02NzA2Nzg1MDUsLT
-Q5MTQ5OTM3NiwxNjEwNTgwMTgyXX0=
+eyJoaXN0b3J5IjpbMTMxMDMzNTQ3NSwxNjc4ODE0MzA3LC0yMj
+AxNTQ2NTksMTU3MDc3NDkyLC0xMjQ3NjMxMDY4LDE5MDIyMzUy
+MDQsLTczNDIwMzk2MywtOTc3Mzk4NDIzLC01NjIyNzE1NjUsLT
+Y3MDY3ODUwNSwtNDkxNDk5Mzc2LDE2MTA1ODAxODJdfQ==
 -->
