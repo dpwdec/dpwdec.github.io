@@ -13,7 +13,7 @@ $ dotnet tool install --global dotnet-ef
 
 ## Connection
 
-You can **define the connection string for your database** by adding it to your project's `appsettings.json` file. Using the key `"ConnectionStrings"` to encompass all the key-value pairs for your database connections is not absolutely required, *however* Entity Framework comes with default configuration for this key so its convention to use it. The **database strings within this do not have a specific naming convention**.
+You can **define the connection string for your database** by adding it to your project's `appsettings.json` file. Using the key `"ConnectionStrings"` to encompass all the key-value pairs for your database connections is not absolutely required, *however* Entity Framework comes with default configuration for this key so its convention to use it. The **database string keys within this do not have a specific naming convention**, in this example the name is `"DatabaseConnection"` but it could be any descriptive name.
 ```json
 {
   "ConnectionStrings": {
@@ -35,6 +35,6 @@ public DbSet<User> Users { get; set; }
 
 What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjI3MTU2NSwtNjcwNjc4NTA1LC00OT
-E0OTkzNzYsMTYxMDU4MDE4Ml19
+eyJoaXN0b3J5IjpbLTk3NzM5ODQyMywtNTYyMjcxNTY1LC02Nz
+A2Nzg1MDUsLTQ5MTQ5OTM3NiwxNjEwNTgwMTgyXX0=
 -->
