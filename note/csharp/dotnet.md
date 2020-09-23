@@ -238,7 +238,7 @@ public class Derived : Base
 }
 ```
 
-You can **invoke a base class's constructor on your derived class's constructor** by adding the `base` keyword at the end of the constructor separated by a `:` colon and with any constructor specific arguments passed into it.
+You can **invoke a base class's constructor on your derived class's constructor** by adding the `base` keyword at the end of the constructor separated by a `:` colon and with any constructor specific arguments passed into it. This also **works for overloaded constructors**, as in the example below where 
 ```csharp
 public class Base
 {
@@ -256,16 +256,16 @@ public class Base
 
 public class Derived : Base
 {
-  public Derived(int Value) : base(Value) // invoke base constructor with arguments here
+  public Derived(int Value) : base(Value) // invoke the first base constructor with arguments here
   {
     // custom Derived construction here
   } 
+
+  public Derive() : base() // invoke the second base constructor WITHOUT arguments here
+  {
+    // custom Derived construction here
+  }
 }
-```
-
-This also **works for overloaded constructors**. 
-```csharp
-
 ```
 
 ### Virtual
@@ -481,11 +481,11 @@ You can **get a shortcut code snippet for the creation of a class property** by 
 
 You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjM5MjgwMCwtMTU2ODg4OTMwMSwtOT
-A3NjA4Mzc0LDEyOTI4MTU1MDUsNjY4NzkyNDk2LDM1ODk1NzIz
-MywxMDkyMjk2ODYzLDM0MTg2MzYzNSwyMDA4NDU3MzU1LC0xMj
-M5Njg1MDU0LDE4OTc3Njg0ODEsLTEyNTU2MDA2OTIsMTI1MzM1
-MTI0NCwxMzk0Njg2Nzk3LDEyNTUyODcxNTcsLTY3NjU0MDMzMC
-wtMTE1OTA1MzI3MywyNDM3NzEyMjQsMTcxNDc1NjQ5NiwtMTMx
-NDQ2NDg1Nl19
+eyJoaXN0b3J5IjpbMzkxNzMyNTIyLC0xNTY4ODg5MzAxLC05MD
+c2MDgzNzQsMTI5MjgxNTUwNSw2Njg3OTI0OTYsMzU4OTU3MjMz
+LDEwOTIyOTY4NjMsMzQxODYzNjM1LDIwMDg0NTczNTUsLTEyMz
+k2ODUwNTQsMTg5Nzc2ODQ4MSwtMTI1NTYwMDY5MiwxMjUzMzUx
+MjQ0LDEzOTQ2ODY3OTcsMTI1NTI4NzE1NywtNjc2NTQwMzMwLC
+0xMTU5MDUzMjczLDI0Mzc3MTIyNCwxNzE0NzU2NDk2LC0xMzE0
+NDY0ODU2XX0=
 -->
