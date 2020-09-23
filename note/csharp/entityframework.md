@@ -92,8 +92,12 @@ You can **remove the last migration you created**, *before actually migrating da
 $ dotnet ef migrations remove
 ```
 
-
 Migrations are **time stamped to allow for effective rolling back**.
+
+You can **run a migration**, *pushing the schema changes to the actual database*, by using the `database update` command. This will also create or add to a `__EFMigrationHistory`
+```bash
+$ dotnet ef database update
+```
 
 Although the section below details what migrations files mean and how to configure them, its **not recommended to configure migrations directly** to get the database structure you want. Instead you should **use `DataAnnotations` to decorate your model class definitions**.
 
@@ -128,7 +132,7 @@ table.Column<int>(nullable: false);
 
 The `Annotations` method can be used to **specify how a primary key increments**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDMzNTQ3NSwxNjc4ODE0MzA3LC0yMj
+eyJoaXN0b3J5IjpbMjA3ODQ5NTA2MiwxNjc4ODE0MzA3LC0yMj
 AxNTQ2NTksMTU3MDc3NDkyLC0xMjQ3NjMxMDY4LDE5MDIyMzUy
 MDQsLTczNDIwMzk2MywtOTc3Mzk4NDIzLC01NjIyNzE1NjUsLT
 Y3MDY3ODUwNSwtNDkxNDk5Mzc2LDE2MTA1ODAxODJdfQ==
