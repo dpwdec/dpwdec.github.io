@@ -124,8 +124,10 @@ You can **specify whether a database column within a migration is nullable** by 
 ```csharp
 table.Column<int>(nullable: false);
 ```
+
+The `Annotations` method can be used to **specify how a primary key increments**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Nzc2NjM2MywtMjIwMTU0NjU5LDE1Nz
+eyJoaXN0b3J5IjpbMTY3ODgxNDMwNywtMjIwMTU0NjU5LDE1Nz
 A3NzQ5MiwtMTI0NzYzMTA2OCwxOTAyMjM1MjA0LC03MzQyMDM5
 NjMsLTk3NzM5ODQyMywtNTYyMjcxNTY1LC02NzA2Nzg1MDUsLT
 Q5MTQ5OTM3NiwxNjEwNTgwMTgyXX0=
