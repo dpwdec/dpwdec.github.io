@@ -11,6 +11,10 @@ You can **add a tool for Entity Framework to .NET CLI** by installing `dotnet-ef
 $ dotnet tool install --global dotnet-ef
 ```
 
+## Connection
+
+You can **define the connection string for your database** by adding it to your project;
+
 ## Context
 
 A context class is a project wide file/class that describes the tables in the database.
@@ -24,6 +28,6 @@ public DbSet<User> Users { get; set; }
 
 What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDY3ODUwNSwtNDkxNDk5Mzc2LDE2MT
-A1ODAxODJdfQ==
+eyJoaXN0b3J5IjpbLTIwMDQ2MTk4NSwtNjcwNjc4NTA1LC00OT
+E0OTkzNzYsMTYxMDU4MDE4Ml19
 -->
