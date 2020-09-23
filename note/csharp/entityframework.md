@@ -74,7 +74,7 @@ You can **specify that a field is NOT nullable**, *i.e. its required to be fille
 public string Address { get; set; }
 ```
 
-You can **specify the length of a character string field** using the `[MaxLength]` attribute with the maximum number of characters for the string passed in an argume
+You can **specify the length of a character string field** using the `[MaxLength]` attribute with the maximum number of characters for the string passed in an argument.
 ```csharp
 [MaxLength(250)]
 public string Message { get; set; }
@@ -91,6 +91,8 @@ You can **remove the last migration you created**, *before actually migrating da
 ```bash
 $ dotnet ef migrations remove
 ```
+
+Migrations are **time stamped to allow for effective rolling back**.
 
 Although the section below details what migrations files mean and how to configure them, its **not recommended to configure migrations directly** to get the database structure you want. Instead you should **use `DataAnnotations` to decorate your model class definitions**.
 
@@ -123,8 +125,8 @@ You can **specify whether a database column within a migration is nullable** by 
 table.Column<int>(nullable: false);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4ODcxNzUsLTIyMDE1NDY1OSwxNTcwNz
-c0OTIsLTEyNDc2MzEwNjgsMTkwMjIzNTIwNCwtNzM0MjAzOTYz
-LC05NzczOTg0MjMsLTU2MjI3MTU2NSwtNjcwNjc4NTA1LC00OT
-E0OTkzNzYsMTYxMDU4MDE4Ml19
+eyJoaXN0b3J5IjpbMTM5Nzc2NjM2MywtMjIwMTU0NjU5LDE1Nz
+A3NzQ5MiwtMTI0NzYzMTA2OCwxOTAyMjM1MjA0LC03MzQyMDM5
+NjMsLTk3NzM5ODQyMywtNTYyMjcxNTY1LC02NzA2Nzg1MDUsLT
+Q5MTQ5OTM3NiwxNjEwNTgwMTgyXX0=
 -->
