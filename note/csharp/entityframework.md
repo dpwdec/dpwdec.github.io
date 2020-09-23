@@ -67,6 +67,8 @@ You can **remove the last migration you created**, *before actually migrating da
 $ dotnet ef migrations remove
 ```
 
+Although the section below details what migrations files mean and how to configure them, its **not recommended to configure migrations directly** to get the database structure you want. Instead you should **use `DataAnnotations` to decorate your class definitions**.
+
 Individual migrations files contain a class named after the migration name which inherits from the `Migration` class in `EntityFrameworkCore.Migrations`. This class implements two methods, either `Up` or `Down`, which add and delete schema from the database respectively.
 
 A **new table migration is created** with the `MigrationBuilder` class's `CreateTable` method. The `name` for this table is automatically generated based on the `DbSet`s defined in the `DbContext` class.
@@ -96,8 +98,8 @@ You can **specify whether a database column within a migration is nullable** by 
 table.Column<int>(nullable: false);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDE1NDY1OSwxNTcwNzc0OTIsLTEyND
-c2MzEwNjgsMTkwMjIzNTIwNCwtNzM0MjAzOTYzLC05NzczOTg0
-MjMsLTU2MjI3MTU2NSwtNjcwNjc4NTA1LC00OTE0OTkzNzYsMT
-YxMDU4MDE4Ml19
+eyJoaXN0b3J5IjpbMTUyMTcwOTcyNiwtMjIwMTU0NjU5LDE1Nz
+A3NzQ5MiwtMTI0NzYzMTA2OCwxOTAyMjM1MjA0LC03MzQyMDM5
+NjMsLTk3NzM5ODQyMywtNTYyMjcxNTY1LC02NzA2Nzg1MDUsLT
+Q5MTQ5OTM3NiwxNjEwNTgwMTgyXX0=
 -->
