@@ -22,7 +22,7 @@ You can **define a connection string for your database** by adding it to your pr
 }
 ```
 
-You can **set up a connection to your database foir** by using the `ConfigureSerivces` method in the `StartUp` class.
+You can **set up a connection to your database for a project** by using the `ConfigureSerivces` method in the `Startup` class. To do this, use the `services` object to `AddDbContext` with a type of your project specific
 
 ## Context
 
@@ -37,7 +37,7 @@ public DbSet<User> Users { get; set; }
 
 What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzcwNTE3MjQsMTkwMjIzNTIwNCwtNz
+eyJoaXN0b3J5IjpbLTEzOTg4NDEzNzcsMTkwMjIzNTIwNCwtNz
 M0MjAzOTYzLC05NzczOTg0MjMsLTU2MjI3MTU2NSwtNjcwNjc4
 NTA1LC00OTE0OTkzNzYsMTYxMDU4MDE4Ml19
 -->
