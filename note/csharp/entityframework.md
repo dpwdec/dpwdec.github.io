@@ -15,7 +15,7 @@ $ dotnet tool install --global dotnet-ef
 
 A context class extends the `DbContext` class from `EntityFrameworkCore` and is a project wide file that is used to configure connections to the database and define tables within the database.
 
-You can **define a new database context class** by inheriting from `DbContext` and calling the `base` constructor which takes a single `options` argument.
+You can **define a new database context class** by inheriting from `DbContext` and calling the `base` constructor which takes a single `options` argument of type `DbContextOptions` which is typed with itself.
 ```csharp
 using Microsoft.EntityFrameworkCore;
 
@@ -55,7 +55,7 @@ services.AddDbContext(options => options.UseNpgsql(Configuration.GetConnectionSt
 
 What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjkxMDkzMiwxOTAyMjM1MjA0LC03Mz
-QyMDM5NjMsLTk3NzM5ODQyMywtNTYyMjcxNTY1LC02NzA2Nzg1
-MDUsLTQ5MTQ5OTM3NiwxNjEwNTgwMTgyXX0=
+eyJoaXN0b3J5IjpbLTEyNDc2MzEwNjgsMTkwMjIzNTIwNCwtNz
+M0MjAzOTYzLC05NzczOTg0MjMsLTU2MjI3MTU2NSwtNjcwNjc4
+NTA1LC00OTE0OTkzNzYsMTYxMDU4MDE4Ml19
 -->
