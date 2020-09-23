@@ -238,7 +238,7 @@ public class Derived : Base
 }
 ```
 
-You can **invoke a base class's constructor on your derived class's constructor** by adding the `base` keyword at the end of the constructor separated by a `:` colon and with any constructor specific arguments passed into it. This also **works for overloaded constructors**, as in the example below where 
+You can **invoke a base class's constructor on your derived class's constructor** by adding the `base` keyword at the end of the constructor separated by a `:` colon and with any constructor specific arguments passed into it. This also **works for overloaded constructors**, as in the example below where the derived class uses `base` to create a version of *both* the constructor method with an argument *and* without.
 ```csharp
 public class Base
 {
@@ -481,11 +481,11 @@ You can **get a shortcut code snippet for the creation of a class property** by 
 
 You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxNzMyNTIyLC0xNTY4ODg5MzAxLC05MD
-c2MDgzNzQsMTI5MjgxNTUwNSw2Njg3OTI0OTYsMzU4OTU3MjMz
-LDEwOTIyOTY4NjMsMzQxODYzNjM1LDIwMDg0NTczNTUsLTEyMz
-k2ODUwNTQsMTg5Nzc2ODQ4MSwtMTI1NTYwMDY5MiwxMjUzMzUx
-MjQ0LDEzOTQ2ODY3OTcsMTI1NTI4NzE1NywtNjc2NTQwMzMwLC
-0xMTU5MDUzMjczLDI0Mzc3MTIyNCwxNzE0NzU2NDk2LC0xMzE0
-NDY0ODU2XX0=
+eyJoaXN0b3J5IjpbMTE4MDU3MDQ0NCwzOTE3MzI1MjIsLTE1Nj
+g4ODkzMDEsLTkwNzYwODM3NCwxMjkyODE1NTA1LDY2ODc5MjQ5
+NiwzNTg5NTcyMzMsMTA5MjI5Njg2MywzNDE4NjM2MzUsMjAwOD
+Q1NzM1NSwtMTIzOTY4NTA1NCwxODk3NzY4NDgxLC0xMjU1NjAw
+NjkyLDEyNTMzNTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC
+02NzY1NDAzMzAsLTExNTkwNTMyNzMsMjQzNzcxMjI0LDE3MTQ3
+NTY0OTZdfQ==
 -->
