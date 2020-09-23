@@ -205,6 +205,10 @@ public int balance
 }
 ```
 
+### Base
+
+You can **use the `base` keyword** to access 
+
 ### Virtual
 
 The **`virtual` keyword is used to mark methods in a class that can be `override`n** by classes that inherit from them. You **must provide a default implementation** for a `virtual` method as it is optional whether a base class will `override` the method or not. Regular class methods **cannot be overriden**.
@@ -418,11 +422,11 @@ You can **get a shortcut code snippet for the creation of a class property** by 
 
 You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4NzkyNDk2LDM1ODk1NzIzMywxMDkyMj
-k2ODYzLDM0MTg2MzYzNSwyMDA4NDU3MzU1LC0xMjM5Njg1MDU0
-LDE4OTc3Njg0ODEsLTEyNTU2MDA2OTIsMTI1MzM1MTI0NCwxMz
-k0Njg2Nzk3LDEyNTUyODcxNTcsLTY3NjU0MDMzMCwtMTE1OTA1
-MzI3MywyNDM3NzEyMjQsMTcxNDc1NjQ5NiwtMTMxNDQ2NDg1Ni
-wxNTY0NTI4NDIwLC0xNzY1NzAxMTM3LC01NjExMzA2OTQsLTE3
-Mzk1OTU2OTldfQ==
+eyJoaXN0b3J5IjpbMzkyNDg3NzEyLDY2ODc5MjQ5NiwzNTg5NT
+cyMzMsMTA5MjI5Njg2MywzNDE4NjM2MzUsMjAwODQ1NzM1NSwt
+MTIzOTY4NTA1NCwxODk3NzY4NDgxLC0xMjU1NjAwNjkyLDEyNT
+MzNTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC02NzY1NDAz
+MzAsLTExNTkwNTMyNzMsMjQzNzcxMjI0LDE3MTQ3NTY0OTYsLT
+EzMTQ0NjQ4NTYsMTU2NDUyODQyMCwtMTc2NTcwMTEzNywtNTYx
+MTMwNjk0XX0=
 -->
