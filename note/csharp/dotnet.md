@@ -216,7 +216,7 @@ public int balance
 
 ### Base
 
-You can **use the `base` keyword to access methods of a base class from a derived class** by accessing properties on `base` as if it were an object.
+You can **use the `base` keyword to access methods of a base class from a derived class** by accessing properties on `base` as if it were an object. The example below defines a `Derived` class that uses its `Base` classes `GetInt` method in its constructor.
 ```csharp
 public class Base
 {
@@ -446,7 +446,7 @@ You can **get a shortcut code snippet for the creation of a class property** by 
 
 You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTUwNjk5MSwxMjkyODE1NTA1LDY2OD
+eyJoaXN0b3J5IjpbLTkwNzYwODM3NCwxMjkyODE1NTA1LDY2OD
 c5MjQ5NiwzNTg5NTcyMzMsMTA5MjI5Njg2MywzNDE4NjM2MzUs
 MjAwODQ1NzM1NSwtMTIzOTY4NTA1NCwxODk3NzY4NDgxLC0xMj
 U1NjAwNjkyLDEyNTMzNTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3
