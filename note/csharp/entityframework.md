@@ -62,6 +62,11 @@ You can **create a new database migration** using the `migrations add` with the 
 $ dotnet ef migrations add <MIGRATION_NAME>
 ```
 
+You can **remove the last migration you created**, *before actually migrating data*, by using the `migrations remove` command.
+```bash
+$ dotnet ef migrations remove
+```
+
 Individual migrations files contain a class named after the migration name which inherits from the `Migration` class in `EntityFrameworkCore.Migrations`. This class implements two methods, either `Up` or `Down`, which add and delete schema from the database respectively.
 
 A **new table migration is created** with the `MigrationBuilder` class's `CreateTable` method. The `name` for this table is automatically generated based on the `DbSet`s defined in the `DbContext` class.
@@ -81,8 +86,8 @@ public partial class MyMigration : Migration
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDc3NDkyLC0xMjQ3NjMxMDY4LDE5MD
-IyMzUyMDQsLTczNDIwMzk2MywtOTc3Mzk4NDIzLC01NjIyNzE1
-NjUsLTY3MDY3ODUwNSwtNDkxNDk5Mzc2LDE2MTA1ODAxODJdfQ
-==
+eyJoaXN0b3J5IjpbMTI0NDg1ODI1MywxNTcwNzc0OTIsLTEyND
+c2MzEwNjgsMTkwMjIzNTIwNCwtNzM0MjAzOTYzLC05NzczOTg0
+MjMsLTU2MjI3MTU2NSwtNjcwNjc4NTA1LC00OTE0OTkzNzYsMT
+YxMDU4MDE4Ml19
 -->
