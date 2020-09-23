@@ -13,9 +13,7 @@ $ dotnet tool install --global dotnet-ef
 
 ## Connection
 
-You can **define a connection string for your database** by adding it to your project's `appsettings.json` file. Using the key `"ConnectionStrings"` to encompass all the key-value pairs. This name is a convention (not absolutely required) but using it allows you to use the `IConfiguration` utility `GetConnectionString` which looks at the `"ConnectionStrings"` entry.
-
- The **database string keys themselves do not have a specific naming convention**, in this example the name is `"DatabaseConnection"` but it could be any descriptive name.
+You can **define a connection string for your database** by adding it to your project's `appsettings.json` file. Using the key `"ConnectionStrings"` to encompass all the key-value pairs. This name is a convention (not absolutely required) but using it allows you to use the `IConfiguration` utility `GetConnectionString` which looks at the `"ConnectionStrings"` entry. The **database string keys themselves do not have a specific naming convention**, in this example the name is `"DatabaseConnection"` but it could be any descriptive name.
 ```json
 {
   "ConnectionStrings": {
@@ -23,6 +21,8 @@ You can **define a connection string for your database** by adding it to your pr
   }
 }
 ```
+
+
 
 ## Context
 
@@ -37,7 +37,7 @@ public DbSet<User> Users { get; set; }
 
 What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MjIzMjQ2MCwxOTAyMjM1MjA0LC03Mz
+eyJoaXN0b3J5IjpbLTM0MzM2MTc4MCwxOTAyMjM1MjA0LC03Mz
 QyMDM5NjMsLTk3NzM5ODQyMywtNTYyMjcxNTY1LC02NzA2Nzg1
 MDUsLTQ5MTQ5OTM3NiwxNjEwNTgwMTgyXX0=
 -->
