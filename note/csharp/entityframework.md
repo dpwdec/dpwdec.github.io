@@ -57,9 +57,13 @@ What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 
 ## Data Annotations
 
-Data Annotations can be used to **decorate your model class definitions** to specify what format the tables and columns for the tables are in.
+Data Annotations can be used to **decorate your model class definitions** to specify what format the tables and columns for the tables are in. You can use Data Annotations by `using` the `ComponentM
 
-You can **specify that a field is NOT nullable**, *
+You can **specify that a field is NOT nullable**, *i.e. its required to be filled with something when inserting new entries into the database*, by using the `[Required]` attribute.
+```csharp
+[Required]
+public string Address { get; set; }
+```
 
 ## Migrations
 
@@ -104,8 +108,8 @@ You can **specify whether a database column within a migration is nullable** by 
 table.Column<int>(nullable: false);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzc2MDQ4LC0yMjAxNTQ2NTksMTU3MD
-c3NDkyLC0xMjQ3NjMxMDY4LDE5MDIyMzUyMDQsLTczNDIwMzk2
-MywtOTc3Mzk4NDIzLC01NjIyNzE1NjUsLTY3MDY3ODUwNSwtND
-kxNDk5Mzc2LDE2MTA1ODAxODJdfQ==
+eyJoaXN0b3J5IjpbLTE3NTM5OTQ5MzksLTIyMDE1NDY1OSwxNT
+cwNzc0OTIsLTEyNDc2MzEwNjgsMTkwMjIzNTIwNCwtNzM0MjAz
+OTYzLC05NzczOTg0MjMsLTU2MjI3MTU2NSwtNjcwNjc4NTA1LC
+00OTE0OTkzNzYsMTYxMDU4MDE4Ml19
 -->
