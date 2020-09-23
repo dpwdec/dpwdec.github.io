@@ -238,7 +238,7 @@ public class Derived : Base
 }
 ```
 
-You can **append the `base` keyword syntax to constructors** as piece of syntactic sugar to class a base class's constructor on a derived class by adding the `base` keyword at the end of the constructor separated by a `:` colon and with any constructor specific arguments passed into it.
+You can **append the `base` keyword syntax to constructors** as piece of syntactic sugar to invoke a base class's constructor on a derived class by adding the `base` keyword at the end of the constructor separated by a `:` colon and with any constructor specific arguments passed into it.
 ```csharp
 public class Base
 {
@@ -257,6 +257,10 @@ public class Derived : Base
   } 
 }
 ```
+
+
+
+This also **works for overloaded constructors**. 
 
 ### Virtual
 
@@ -471,11 +475,11 @@ You can **get a shortcut code snippet for the creation of a class property** by 
 
 You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTM5NDQ3NiwtMTU2ODg4OTMwMSwtOT
-A3NjA4Mzc0LDEyOTI4MTU1MDUsNjY4NzkyNDk2LDM1ODk1NzIz
-MywxMDkyMjk2ODYzLDM0MTg2MzYzNSwyMDA4NDU3MzU1LC0xMj
-M5Njg1MDU0LDE4OTc3Njg0ODEsLTEyNTU2MDA2OTIsMTI1MzM1
-MTI0NCwxMzk0Njg2Nzk3LDEyNTUyODcxNTcsLTY3NjU0MDMzMC
-wtMTE1OTA1MzI3MywyNDM3NzEyMjQsMTcxNDc1NjQ5NiwtMTMx
-NDQ2NDg1Nl19
+eyJoaXN0b3J5IjpbLTE4NDM1NDcwMDgsLTE1Njg4ODkzMDEsLT
+kwNzYwODM3NCwxMjkyODE1NTA1LDY2ODc5MjQ5NiwzNTg5NTcy
+MzMsMTA5MjI5Njg2MywzNDE4NjM2MzUsMjAwODQ1NzM1NSwtMT
+IzOTY4NTA1NCwxODk3NzY4NDgxLC0xMjU1NjAwNjkyLDEyNTMz
+NTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC02NzY1NDAzMz
+AsLTExNTkwNTMyNzMsMjQzNzcxMjI0LDE3MTQ3NTY0OTYsLTEz
+MTQ0NjQ4NTZdfQ==
 -->
