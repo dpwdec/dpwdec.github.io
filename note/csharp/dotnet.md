@@ -207,7 +207,7 @@ public int balance
 
 ### Base
 
-You can **use the `base` keyword** to access 
+You can **use the `base` keyword to access methods of a base class from a derived class**.
 
 ### Virtual
 
@@ -422,11 +422,11 @@ You can **get a shortcut code snippet for the creation of a class property** by 
 
 You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNDg3NzEyLDY2ODc5MjQ5NiwzNTg5NT
-cyMzMsMTA5MjI5Njg2MywzNDE4NjM2MzUsMjAwODQ1NzM1NSwt
-MTIzOTY4NTA1NCwxODk3NzY4NDgxLC0xMjU1NjAwNjkyLDEyNT
-MzNTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC02NzY1NDAz
-MzAsLTExNTkwNTMyNzMsMjQzNzcxMjI0LDE3MTQ3NTY0OTYsLT
-EzMTQ0NjQ4NTYsMTU2NDUyODQyMCwtMTc2NTcwMTEzNywtNTYx
-MTMwNjk0XX0=
+eyJoaXN0b3J5IjpbMTI5MjgxNTUwNSw2Njg3OTI0OTYsMzU4OT
+U3MjMzLDEwOTIyOTY4NjMsMzQxODYzNjM1LDIwMDg0NTczNTUs
+LTEyMzk2ODUwNTQsMTg5Nzc2ODQ4MSwtMTI1NTYwMDY5MiwxMj
+UzMzUxMjQ0LDEzOTQ2ODY3OTcsMTI1NTI4NzE1NywtNjc2NTQw
+MzMwLC0xMTU5MDUzMjczLDI0Mzc3MTIyNCwxNzE0NzU2NDk2LC
+0xMzE0NDY0ODU2LDE1NjQ1Mjg0MjAsLTE3NjU3MDExMzcsLTU2
+MTEzMDY5NF19
 -->
