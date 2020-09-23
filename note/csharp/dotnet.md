@@ -42,6 +42,15 @@ namespace Project.Models
 }
 ```
 
+You **cannot name your class the same as a folder namespace** as this will confuse the C# compiler in trying to resolve the difference between a `class` and `namespace` when you try to use them.
+```yaml
+# WRONG
+Project
+├── User
+|   └── U.cs
+└── bar.cs
+```
+
 ## Var
 
 You can **use the `var` keyword** when the type of a variable is inferred or when you are working with an anonymous type. It's recommended to generally avoid using `var` unless you need to or unless type inference is *very* clear to readers.
@@ -422,11 +431,11 @@ You can **get a shortcut code snippet for the creation of a class property** by 
 
 You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjgxNTUwNSw2Njg3OTI0OTYsMzU4OT
-U3MjMzLDEwOTIyOTY4NjMsMzQxODYzNjM1LDIwMDg0NTczNTUs
-LTEyMzk2ODUwNTQsMTg5Nzc2ODQ4MSwtMTI1NTYwMDY5MiwxMj
-UzMzUxMjQ0LDEzOTQ2ODY3OTcsMTI1NTI4NzE1NywtNjc2NTQw
-MzMwLC0xMTU5MDUzMjczLDI0Mzc3MTIyNCwxNzE0NzU2NDk2LC
-0xMzE0NDY0ODU2LDE1NjQ1Mjg0MjAsLTE3NjU3MDExMzcsLTU2
-MTEzMDY5NF19
+eyJoaXN0b3J5IjpbLTQ0ODY2MzM0OCwxMjkyODE1NTA1LDY2OD
+c5MjQ5NiwzNTg5NTcyMzMsMTA5MjI5Njg2MywzNDE4NjM2MzUs
+MjAwODQ1NzM1NSwtMTIzOTY4NTA1NCwxODk3NzY4NDgxLC0xMj
+U1NjAwNjkyLDEyNTMzNTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3
+MTU3LC02NzY1NDAzMzAsLTExNTkwNTMyNzMsMjQzNzcxMjI0LD
+E3MTQ3NTY0OTYsLTEzMTQ0NjQ4NTYsMTU2NDUyODQyMCwtMTc2
+NTcwMTEzN119
 -->
