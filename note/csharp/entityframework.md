@@ -74,6 +74,12 @@ You can **specify that a field is NOT nullable**, *i.e. its required to be fille
 public string Address { get; set; }
 ```
 
+You can **specify the length of a character string field** using the `[MaxLength]` attribute with the maximum number of characters for the string passed in an argume
+```csharp
+[MaxLength(250)]
+public string Message { get; set; }
+```
+
 ## Migrations
 
 You can **create a new database migration** using the `migrations add` with the `dotnet ef` too. This will add the migration to the `Migrations` folder in your project.
@@ -117,8 +123,8 @@ You can **specify whether a database column within a migration is nullable** by 
 table.Column<int>(nullable: false);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjg4NTEwNDAsLTIyMDE1NDY1OSwxNT
-cwNzc0OTIsLTEyNDc2MzEwNjgsMTkwMjIzNTIwNCwtNzM0MjAz
-OTYzLC05NzczOTg0MjMsLTU2MjI3MTU2NSwtNjcwNjc4NTA1LC
-00OTE0OTkzNzYsMTYxMDU4MDE4Ml19
+eyJoaXN0b3J5IjpbLTk4ODcxNzUsLTIyMDE1NDY1OSwxNTcwNz
+c0OTIsLTEyNDc2MzEwNjgsMTkwMjIzNTIwNCwtNzM0MjAzOTYz
+LC05NzczOTg0MjMsLTU2MjI3MTU2NSwtNjcwNjc4NTA1LC00OT
+E0OTkzNzYsMTYxMDU4MDE4Ml19
 -->
