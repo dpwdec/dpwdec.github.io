@@ -11,6 +11,15 @@ You can **add a tool for Entity Framework to .NET CLI** by installing `dotnet-ef
 $ dotnet tool install --global dotnet-ef
 ```
 
+## Context
+
+A context class extends the `DbContext` class from `EntityFrameworkCore` and is a project wide file that is used to
+
+You can **define a database table** using a `DbSet` object from `Microsoft.EntityFrameworkCore` as a property within your project's context file, with the type of argument the `DbSet` as the database model. The **name of this property should be pluralised** as the name of the model type it represents. The example below defines a `DbSet` object called `Users` for the `User` class.
+```csharp
+public DbSet<User> Users { get; set; }
+```
+
 ## Connection
 
 You can **define a connection string for your database** by adding it to your project's `appsettings.json` file. Using the key `"ConnectionStrings"` to encompass all the key-value pairs. This name is a convention (not absolutely required) but using it allows you to use the `IConfiguration` utility `GetConnectionString` which looks at the `"ConnectionStrings"` entry. The **database string keys themselves do not have a specific naming convention**, in this example the name is `"DatabaseConnection"` but it could be any descriptive name.
@@ -29,23 +38,14 @@ services.AddDbContext(options => options.UseSqlServer(Configuration.GetConnectio
 
 You can **connect to a PostgreSQL database** by installing the `Npgsql.EntityFrameworkCore.PostgreSQL` nuget package, and using the `UseNpgsql` method on `options`.
 ```csharp
-services.AddDbContext(options => options.UseSqlServer(Configuration.GetConnectionString("DatabaseName"));
-```
-
-## Context
-
-A context class is a project wide file/class that describes the tables in the database.
-
-You can **define a database table** using a `DbSet` object from `Microsoft.EntityFrameworkCore` as a property within your project's context file, with the type of argument the `DbSet` as the database model. The **name of this property should be pluralised** as the name of the model type it represents. The example below defines a `DbSet` object called `Users` for the `User` class.
-```csharp
-public DbSet<User> Users { get; set; }
+services.AddDbContext(options => options.UseNpgsql(Configuration.GetConnectionString("DatabaseName"));
 ```
 
 ## Design
 
 What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjQwNjI2MCwxOTAyMjM1MjA0LC03Mz
+eyJoaXN0b3J5IjpbLTc1Nzk2OTUwOCwxOTAyMjM1MjA0LC03Mz
 QyMDM5NjMsLTk3NzM5ODQyMywtNTYyMjcxNTY1LC02NzA2Nzg1
 MDUsLTQ5MTQ5OTM3NiwxNjEwNTgwMTgyXX0=
 -->
