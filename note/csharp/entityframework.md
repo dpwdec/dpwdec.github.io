@@ -79,15 +79,15 @@ public partial class MyMigration : Migration
       name: "MyTable", // name taken from DbSet
       columns: table => new
       {
-        // ... database columns here
+        Id = table.Column<int>(nullable: false)
       }
     );
   }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NDg1ODI1MywxNTcwNzc0OTIsLTEyND
-c2MzEwNjgsMTkwMjIzNTIwNCwtNzM0MjAzOTYzLC05NzczOTg0
-MjMsLTU2MjI3MTU2NSwtNjcwNjc4NTA1LC00OTE0OTkzNzYsMT
-YxMDU4MDE4Ml19
+eyJoaXN0b3J5IjpbLTE2ODQzNTAyNzcsMTU3MDc3NDkyLC0xMj
+Q3NjMxMDY4LDE5MDIyMzUyMDQsLTczNDIwMzk2MywtOTc3Mzk4
+NDIzLC01NjIyNzE1NjUsLTY3MDY3ODUwNSwtNDkxNDk5Mzc2LD
+E2MTA1ODAxODJdfQ==
 -->
