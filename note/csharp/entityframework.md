@@ -94,12 +94,14 @@ $ dotnet ef migrations remove
 
 Migrations are **time stamped to allow for effective rolling back**.
 
-You can **run a migration**, *pushing the schema changes to the actual database*, by using the `database update` command. This will also create or add to a `__EFMigrationHistory`
+You can **run a migration**, *pushing the schema changes to the actual database*, by using the `database update` command. This will also create or add to a `__EFMigrationHistory` table that keeps a log of the migrations on the database for version controlling database changes.
 ```bash
 $ dotnet ef database update
 ```
 
-Although the section below details what migrations files mean and how to configure them, its **not recommended to configure migrations directly** to get the database structure you want. Instead you should **use `DataAnnotations` to decorate your model class definitions**.
+### Migration Files
+
+Although the section below details what migrations files mean and how to configure them, its **not recommended to configure migrations directly** to get the database structure you want. Instead you should **use `DataAnnotations` to decorate your model class definitions**. It is useful to understand what migration files specify (which is the primary intention of this documentation), so that you can make changes to your database models and check the structure of the database before changing the real database.
 
 Individual migrations files contain a class named after the migration name which inherits from the `Migration` class in `EntityFrameworkCore.Migrations`. This class implements two methods, either `Up` or `Down`, which add and delete schema from the database respectively.
 
@@ -132,8 +134,8 @@ table.Column<int>(nullable: false);
 
 The `Annotations` method can be used to **specify how a primary key increments**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODQ5NTA2MiwxNjc4ODE0MzA3LC0yMj
-AxNTQ2NTksMTU3MDc3NDkyLC0xMjQ3NjMxMDY4LDE5MDIyMzUy
-MDQsLTczNDIwMzk2MywtOTc3Mzk4NDIzLC01NjIyNzE1NjUsLT
-Y3MDY3ODUwNSwtNDkxNDk5Mzc2LDE2MTA1ODAxODJdfQ==
+eyJoaXN0b3J5IjpbNzA1NzM2MjQyLDE2Nzg4MTQzMDcsLTIyMD
+E1NDY1OSwxNTcwNzc0OTIsLTEyNDc2MzEwNjgsMTkwMjIzNTIw
+NCwtNzM0MjAzOTYzLC05NzczOTg0MjMsLTU2MjI3MTU2NSwtNj
+cwNjc4NTA1LC00OTE0OTkzNzYsMTYxMDU4MDE4Ml19
 -->
