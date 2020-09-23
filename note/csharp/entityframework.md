@@ -17,7 +17,12 @@ A context class extends the `DbContext` class from `EntityFrameworkCore` and is 
 
 You can **define a new database context class** by inheriting from `DbContext` and calling the `base` constructor which takes a single `options` argument.
 ```csharp
+using Microsoft.EntityFrameworkCore;
 
+public class MyDbContext : DbContext
+{
+  public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { ... }
+}
 ```
 
 You can **define a database table** using a `DbSet` object from `Microsoft.EntityFrameworkCore` as a property within your project's context file, with the type of argument the `DbSet` as the database model. The **name of this property should be pluralised** as the name of the model type it represents. The example below defines a `DbSet` object called `Users` for the `User` class.
@@ -50,7 +55,7 @@ services.AddDbContext(options => options.UseNpgsql(Configuration.GetConnectionSt
 
 What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODMyNjQxNSwxOTAyMjM1MjA0LC03Mz
+eyJoaXN0b3J5IjpbLTUzNjkxMDkzMiwxOTAyMjM1MjA0LC03Mz
 QyMDM5NjMsLTk3NzM5ODQyMywtNTYyMjcxNTY1LC02NzA2Nzg1
 MDUsLTQ5MTQ5OTM3NiwxNjEwNTgwMTgyXX0=
 -->
