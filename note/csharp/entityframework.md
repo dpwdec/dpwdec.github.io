@@ -17,7 +17,7 @@ You can **define the connection string for your database** by adding it to your 
 ```json
 {
   "ConnectionStrings": {
-    "DatabaseConnection": "<connection string here>"
+    "DatabaseConnection": "<database specific connection string here>"
   }
 }
 ```
@@ -35,7 +35,7 @@ public DbSet<User> Users { get; set; }
 
 What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTQ3NDU0MiwtOTc3Mzk4NDIzLC01Nj
+eyJoaXN0b3J5IjpbLTczNDIwMzk2MywtOTc3Mzk4NDIzLC01Nj
 IyNzE1NjUsLTY3MDY3ODUwNSwtNDkxNDk5Mzc2LDE2MTA1ODAx
 ODJdfQ==
 -->
