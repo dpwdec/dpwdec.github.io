@@ -88,11 +88,16 @@ public partial class MyMigration : Migration
 
 You can **specify the type of a database column within a migration** by using the `Column` method typed with the property type it holds.
 ```csharp
-table.Column<int>;
+table.Column<int>();
+```
+
+You can **specify whether a database column within a migration is nullable** by using the `Column` method with the `nullable`argument.
+```csharp
+table.Column<int>(nullable: false);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDA5NTg4ODgsMTU3MDc3NDkyLC0xMj
-Q3NjMxMDY4LDE5MDIyMzUyMDQsLTczNDIwMzk2MywtOTc3Mzk4
-NDIzLC01NjIyNzE1NjUsLTY3MDY3ODUwNSwtNDkxNDk5Mzc2LD
-E2MTA1ODAxODJdfQ==
+eyJoaXN0b3J5IjpbLTIyMDE1NDY1OSwxNTcwNzc0OTIsLTEyND
+c2MzEwNjgsMTkwMjIzNTIwNCwtNzM0MjAzOTYzLC05NzczOTg0
+MjMsLTU2MjI3MTU2NSwtNjcwNjc4NTA1LC00OTE0OTkzNzYsMT
+YxMDU4MDE4Ml19
 -->
