@@ -216,20 +216,23 @@ public int balance
 
 ### Base
 
-You can **use the `base` keyword to access methods of a base class from a derived class** by accessing properties on `base` as if it were an object. The example below defines a `Derived` class that uses its `Base` classes `GetInt` method in its constructor.
+You can **use the `base` keyword to access methods of a base class from a derived class even when the derived class has override the method** by accessing properties on `base` as if it were an object. The example below defines a `Derived` class that uses its `Base` classes `GetInt` method in its constructor.
 ```csharp
 public class Base
 {
-  public int GetInt() => 5;
+  public virtual int GetInt() => 5;
 }
 
 public class Derived : Base
 {
   public int DerivedInt { get; set; }
+  
   public Derived()
   {
     DerivedInt = base.GetInt();
   }
+
+  public override int GetInt() => 60;
 }
 ```
 
@@ -446,11 +449,11 @@ You can **get a shortcut code snippet for the creation of a class property** by 
 
 You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzYwODM3NCwxMjkyODE1NTA1LDY2OD
-c5MjQ5NiwzNTg5NTcyMzMsMTA5MjI5Njg2MywzNDE4NjM2MzUs
-MjAwODQ1NzM1NSwtMTIzOTY4NTA1NCwxODk3NzY4NDgxLC0xMj
-U1NjAwNjkyLDEyNTMzNTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3
-MTU3LC02NzY1NDAzMzAsLTExNTkwNTMyNzMsMjQzNzcxMjI0LD
-E3MTQ3NTY0OTYsLTEzMTQ0NjQ4NTYsMTU2NDUyODQyMCwtMTc2
-NTcwMTEzN119
+eyJoaXN0b3J5IjpbMjA5OTcxODE3MywtOTA3NjA4Mzc0LDEyOT
+I4MTU1MDUsNjY4NzkyNDk2LDM1ODk1NzIzMywxMDkyMjk2ODYz
+LDM0MTg2MzYzNSwyMDA4NDU3MzU1LC0xMjM5Njg1MDU0LDE4OT
+c3Njg0ODEsLTEyNTU2MDA2OTIsMTI1MzM1MTI0NCwxMzk0Njg2
+Nzk3LDEyNTUyODcxNTcsLTY3NjU0MDMzMCwtMTE1OTA1MzI3My
+wyNDM3NzEyMjQsMTcxNDc1NjQ5NiwtMTMxNDQ2NDg1NiwxNTY0
+NTI4NDIwXX0=
 -->
