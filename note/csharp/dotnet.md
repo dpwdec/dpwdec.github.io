@@ -242,7 +242,19 @@ You can **append the `base` keyword syntax to constructors** as piece of syntact
 ```csharp
 public class Base
 {
-  
+  public int Value { get; set; }
+  public Base(int Value)
+  {
+    this.Value = Value;
+  }
+}
+
+public class Derived : Base
+{
+  public Derived(int Value) : base(Value) 
+  {
+    // custom 
+  } 
 }
 ```
 
@@ -459,11 +471,11 @@ You can **get a shortcut code snippet for the creation of a class property** by 
 
 You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njg4ODkzMDEsLTkwNzYwODM3NCwxMj
-kyODE1NTA1LDY2ODc5MjQ5NiwzNTg5NTcyMzMsMTA5MjI5Njg2
-MywzNDE4NjM2MzUsMjAwODQ1NzM1NSwtMTIzOTY4NTA1NCwxOD
-k3NzY4NDgxLC0xMjU1NjAwNjkyLDEyNTMzNTEyNDQsMTM5NDY4
-Njc5NywxMjU1Mjg3MTU3LC02NzY1NDAzMzAsLTExNTkwNTMyNz
-MsMjQzNzcxMjI0LDE3MTQ3NTY0OTYsLTEzMTQ0NjQ4NTYsMTU2
-NDUyODQyMF19
+eyJoaXN0b3J5IjpbODI3Mzk4MTUxLC0xNTY4ODg5MzAxLC05MD
+c2MDgzNzQsMTI5MjgxNTUwNSw2Njg3OTI0OTYsMzU4OTU3MjMz
+LDEwOTIyOTY4NjMsMzQxODYzNjM1LDIwMDg0NTczNTUsLTEyMz
+k2ODUwNTQsMTg5Nzc2ODQ4MSwtMTI1NTYwMDY5MiwxMjUzMzUx
+MjQ0LDEzOTQ2ODY3OTcsMTI1NTI4NzE1NywtNjc2NTQwMzMwLC
+0xMTU5MDUzMjczLDI0Mzc3MTIyNCwxNzE0NzU2NDk2LC0xMzE0
+NDY0ODU2XX0=
 -->
