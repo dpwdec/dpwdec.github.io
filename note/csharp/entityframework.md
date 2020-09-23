@@ -54,8 +54,16 @@ services.AddDbContext(options => options.UseNpgsql(Configuration.GetConnectionSt
 ## Design
 
 What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
+
+## Migrations
+
+You can **create a database migration** using the `migrations add` with the `dotnet ef` too.
+```bash
+$ dotnet ef migrations add
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDc2MzEwNjgsMTkwMjIzNTIwNCwtNz
-M0MjAzOTYzLC05NzczOTg0MjMsLTU2MjI3MTU2NSwtNjcwNjc4
-NTA1LC00OTE0OTkzNzYsMTYxMDU4MDE4Ml19
+eyJoaXN0b3J5IjpbLTE1MjA1MjE4MTIsLTEyNDc2MzEwNjgsMT
+kwMjIzNTIwNCwtNzM0MjAzOTYzLC05NzczOTg0MjMsLTU2MjI3
+MTU2NSwtNjcwNjc4NTA1LC00OTE0OTkzNzYsMTYxMDU4MDE4Ml
+19
 -->
