@@ -64,10 +64,20 @@ $ dotnet ef migrations add <MIGRATION_NAME>
 
 Individual migrations files contain a class named after the migration name which inherits from the `Migration` class in `EntityFrameworkCore.Migrations`. This class implements two methods, either `Up` or `Down`, which add and delete schema from the database respectively.
 
-A **new table migration is created** with the `MigrationBuilder` class's `CreateTable` method. The `name` for this ta
+A **new table migration is created** with the `MigrationBuilder` class's `CreateTable` method. The `name` for this table is automatically generated based on the `DbSet`s defined in the `DbContext` class.
+```csharp
+public partial class MyMigration : Migration
+{
+  protected override void Up(MigrationBuilder migrationBuilder)
+  {
+    migrationBuilder.CreateTable(
+    );
+  }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTM1NzAxMiwtMTI0NzYzMTA2OCwxOT
-AyMjM1MjA0LC03MzQyMDM5NjMsLTk3NzM5ODQyMywtNTYyMjcx
-NTY1LC02NzA2Nzg1MDUsLTQ5MTQ5OTM3NiwxNjEwNTgwMTgyXX
-0=
+eyJoaXN0b3J5IjpbLTIwMTc5NjcyNzUsLTEyNDc2MzEwNjgsMT
+kwMjIzNTIwNCwtNzM0MjAzOTYzLC05NzczOTg0MjMsLTU2MjI3
+MTU2NSwtNjcwNjc4NTA1LC00OTE0OTkzNzYsMTYxMDU4MDE4Ml
+19
 -->
