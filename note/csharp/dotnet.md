@@ -238,7 +238,7 @@ public class Derived : Base
 }
 ```
 
-You can **append the `base` keyword syntax to constructors** as piece of syntactic sugar to invoke a base class's constructor on a derived class by adding the `base` keyword at the end of the constructor separated by a `:` colon and with any constructor specific arguments passed into it.
+You can **invoke a base class's constructor on your derived class's constructor** by adding the `base` keyword at the end of the constructor separated by a `:` colon and with any constructor specific arguments passed into it.
 ```csharp
 public class Base
 {
@@ -257,8 +257,6 @@ public class Derived : Base
   } 
 }
 ```
-
-
 
 This also **works for overloaded constructors**. 
 
@@ -475,7 +473,7 @@ You can **get a shortcut code snippet for the creation of a class property** by 
 
 You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDM1NDcwMDgsLTE1Njg4ODkzMDEsLT
+eyJoaXN0b3J5IjpbLTE1NDA3Mzc4MjIsLTE1Njg4ODkzMDEsLT
 kwNzYwODM3NCwxMjkyODE1NTA1LDY2ODc5MjQ5NiwzNTg5NTcy
 MzMsMTA5MjI5Njg2MywzNDE4NjM2MzUsMjAwODQ1NzM1NSwtMT
 IzOTY4NTA1NCwxODk3NzY4NDgxLC0xMjU1NjAwNjkyLDEyNTMz
