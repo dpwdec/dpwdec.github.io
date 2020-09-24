@@ -30,6 +30,12 @@ You can **add to a `List`** using the List's `Add` method.
 ```csharp
 names.Add("Jason");
 ```
+
+## Linq
+
+You can **return the first matching element from a collection** using the `FirstOrDefault`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDI0NDM4MSwtNDk4MzkyNTk0XX0=
+eyJoaXN0b3J5IjpbMjA4MDUyNzU0LDE2ODAyNDQzODEsLTQ5OD
+M5MjU5NF19
 -->
