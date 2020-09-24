@@ -182,7 +182,9 @@ return StatusCode(StatusCodes.Status500InternalServerError);
 ## Binding Sources
 
 
+## Internal Domain Models
 
+**Sending back data directly from a class implementation** is **not recommended** because it couples the internal implementation of a class and its data with external access.
 
  
 ## Razor Pages
@@ -225,10 +227,10 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTUwNTE5NCwxNzAyOTU5MjQ1LDIzOT
-g4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4MzcsLTU0MjQ3MTEx
-MCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIsLTM0NT
-czMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MTE4NTk4
-LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2NiwxMz
-g0MDg3MjA2LC02Mzg0MzUwMzddfQ==
+eyJoaXN0b3J5IjpbOTY2Njg4NDE1LC04ODE1MDUxOTQsMTcwMj
+k1OTI0NSwyMzk4ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3
+LC01NDI0NzExMTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNj
+U1MjMyLC0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQs
+MTU1NjExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5Mz
+UyNTE3NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
 -->
