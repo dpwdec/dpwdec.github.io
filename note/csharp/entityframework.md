@@ -70,6 +70,10 @@ DbContext.MyTable.FirstOrDefault(x => x.Id == 1);
 
 What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 
+## Repo Pattern
+
+By **wrapping the `DbContext` in an interface** called repo it allows us to define a single interface for database access over many different databases
+
 ## Data Annotations
 
 Data Annotations can be used to **decorate your model class definitions** to specify what format the tables and columns for the tables are in. You can use Data Annotations by `using` the `ComponentModel.DataAnnotations` module.
@@ -149,9 +153,9 @@ table.Column<int>(nullable: false);
 
 The `Annotations` method can be used to **specify how a primary key increments**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDE3OTM3MSw3MDU3MzYyNDIsMTY3OD
-gxNDMwNywtMjIwMTU0NjU5LDE1NzA3NzQ5MiwtMTI0NzYzMTA2
-OCwxOTAyMjM1MjA0LC03MzQyMDM5NjMsLTk3NzM5ODQyMywtNT
-YyMjcxNTY1LC02NzA2Nzg1MDUsLTQ5MTQ5OTM3NiwxNjEwNTgw
-MTgyXX0=
+eyJoaXN0b3J5IjpbLTg1NDU5MzM2MywtMTM0MTc5MzcxLDcwNT
+czNjI0MiwxNjc4ODE0MzA3LC0yMjAxNTQ2NTksMTU3MDc3NDky
+LC0xMjQ3NjMxMDY4LDE5MDIyMzUyMDQsLTczNDIwMzk2MywtOT
+c3Mzk4NDIzLC01NjIyNzE1NjUsLTY3MDY3ODUwNSwtNDkxNDk5
+Mzc2LDE2MTA1ODAxODJdfQ==
 -->
