@@ -183,7 +183,10 @@ return StatusCode(StatusCodes.Status500InternalServerError);
 
 ## Action Results
 
-You can **get the value from a success**
+You can **get the value from a successful `ActionResult`** by destructuring the object into an `OkObjectResult` and then destructuring it again into the expected value.
+```csharp
+var actionResult = MyController.MyRoute();
+```
 
 ## Internal Domain Models and Data Transfer Objects
 
@@ -236,7 +239,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDc1MjA3NTksLTEzOTY0NTE1MiwtOD
+eyJoaXN0b3J5IjpbLTE4ODMyNzEyNDcsLTEzOTY0NTE1MiwtOD
 gxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQy
 ODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUwOSwtMj
 IwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1Mzgx
