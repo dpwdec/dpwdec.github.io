@@ -479,13 +479,15 @@ You can **import a reference to the classes / files into different project** (e.
 
 You can **get a shortcut code snippet for the creation of a class property** by typing `prop` into your editor within a class and pressing `TAB`.
 
-You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`
+You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`.
+
+You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Pri
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDU3MDQ0NCwzOTE3MzI1MjIsLTE1Nj
-g4ODkzMDEsLTkwNzYwODM3NCwxMjkyODE1NTA1LDY2ODc5MjQ5
-NiwzNTg5NTcyMzMsMTA5MjI5Njg2MywzNDE4NjM2MzUsMjAwOD
-Q1NzM1NSwtMTIzOTY4NTA1NCwxODk3NzY4NDgxLC0xMjU1NjAw
-NjkyLDEyNTMzNTEyNDQsMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC
-02NzY1NDAzMzAsLTExNTkwNTMyNzMsMjQzNzcxMjI0LDE3MTQ3
-NTY0OTZdfQ==
+eyJoaXN0b3J5IjpbLTIzNzU0NDE3NywxMTgwNTcwNDQ0LDM5MT
+czMjUyMiwtMTU2ODg4OTMwMSwtOTA3NjA4Mzc0LDEyOTI4MTU1
+MDUsNjY4NzkyNDk2LDM1ODk1NzIzMywxMDkyMjk2ODYzLDM0MT
+g2MzYzNSwyMDA4NDU3MzU1LC0xMjM5Njg1MDU0LDE4OTc3Njg0
+ODEsLTEyNTU2MDA2OTIsMTI1MzM1MTI0NCwxMzk0Njg2Nzk3LD
+EyNTUyODcxNTcsLTY3NjU0MDMzMCwtMTE1OTA1MzI3MywyNDM3
+NzEyMjRdfQ==
 -->
