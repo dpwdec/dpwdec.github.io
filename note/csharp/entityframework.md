@@ -72,7 +72,9 @@ What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 
 ## Repo Pattern
 
-By **wrapping the `DbContext` in an interface** called repo it allows us to define a single interface for database access over many different databases
+By **wrapping the `DbContext` in an interface** called repo it allows us to define a single interface for database access over many different databases.
+
+However, could I not just use the context directly in my controller?
 
 ## Data Annotations
 
@@ -153,7 +155,7 @@ table.Column<int>(nullable: false);
 
 The `Annotations` method can be used to **specify how a primary key increments**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDU5MzM2MywtMTM0MTc5MzcxLDcwNT
+eyJoaXN0b3J5IjpbLTg5OTcyMDg1OSwtMTM0MTc5MzcxLDcwNT
 czNjI0MiwxNjc4ODE0MzA3LC0yMjAxNTQ2NTksMTU3MDc3NDky
 LC0xMjQ3NjMxMDY4LDE5MDIyMzUyMDQsLTczNDIwMzk2MywtOT
 c3Mzk4NDIzLC01NjIyNzE1NjUsLTY3MDY3ODUwNSwtNDkxNDk5
