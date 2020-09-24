@@ -72,12 +72,10 @@ What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 
 ## Repo Pattern
 
-By **wrapping the `DbContext` in an interface** that defines semantic methods like `GetAllResource` or `GetResourceById` it separates the implementation of this database access the application's other modules, allowing them to call these methods declaratively. This is an example of **persistence ignorance** 
+By **wrapping the `DbContext` in an interface** that defines semantic methods like `GetAllResource` or `GetResourceById` it separates the implementation of this database access the application's other modules, allowing them to call these methods declaratively. This allows for the system to swap out the database type and access methods without changing the business logic classes. This is an example of **persistence ignorance**, however, it does seem like its not required for smaller projects.
 
-This also known as **persistence ignorance** because it separates business logic from infrastructure concerns, this is stated as:
+**Persistence ignorance** separates business logic from infrastructure concerns, this is stated as:
 > "...ordinary classes where you focus on the business problem at hand without adding stuff for infrastructure-related reasons..."
-
-However, could I not just use the context directly in my controller?
 
 ## Data Annotations
 
@@ -158,7 +156,7 @@ table.Column<int>(nullable: false);
 
 The `Annotations` method can be used to **specify how a primary key increments**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjAxNDE2NiwtODk5NzIwODU5LC0xMz
+eyJoaXN0b3J5IjpbLTQ5ODE1OTcwMywtODk5NzIwODU5LC0xMz
 QxNzkzNzEsNzA1NzM2MjQyLDE2Nzg4MTQzMDcsLTIyMDE1NDY1
 OSwxNTcwNzc0OTIsLTEyNDc2MzEwNjgsMTkwMjIzNTIwNCwtNz
 M0MjAzOTYzLC05NzczOTg0MjMsLTU2MjI3MTU2NSwtNjcwNjc4
