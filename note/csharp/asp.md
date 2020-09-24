@@ -181,6 +181,9 @@ return StatusCode(StatusCodes.Status500InternalServerError);
 
 ## Binding Sources
 
+## Action Results
+
+You can **get the value from a success**
 
 ## Internal Domain Models and Data Transfer Objects
 
@@ -233,10 +236,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTY0NTE1MiwtODgxNTA1MTk0LDE3MD
-I5NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQyODUsMTAwMTY5OTgz
-NywtNTQyNDcxMTEwLDkyNjczOTUwOSwtMjIwNTU4NjM0LC0zMj
-Y1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1MzgxMCwxNDA1OTEyMjI0
-LDE1NTYxMTg1OTgsMTM1MjQ4NDYwNSwtMTYyODE2MjIxNywxOT
-M1MjUxNzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
+eyJoaXN0b3J5IjpbLTE4NDc1MjA3NTksLTEzOTY0NTE1MiwtOD
+gxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQy
+ODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUwOSwtMj
+IwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1Mzgx
+MCwxNDA1OTEyMjI0LDE1NTYxMTg1OTgsMTM1MjQ4NDYwNSwtMT
+YyODE2MjIxNywxOTM1MjUxNzY2LDEzODQwODcyMDYsLTYzODQz
+NTAzN119
 -->
