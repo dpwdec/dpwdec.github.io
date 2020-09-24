@@ -61,6 +61,9 @@ DbContext.MyTable.ToList();
 ```
 
 You can **return a single specific entry in a table** by using the `FirstOrDefault` method with a lambda that matches some condition about the data.
+```csharp
+DbContext.MyTable.FirstOrDefault(x => x.Id == );
+```
 
 ## Design
 
@@ -145,9 +148,9 @@ table.Column<int>(nullable: false);
 
 The `Annotations` method can be used to **specify how a primary key increments**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTIwMzE3Myw3MDU3MzYyNDIsMTY3OD
-gxNDMwNywtMjIwMTU0NjU5LDE1NzA3NzQ5MiwtMTI0NzYzMTA2
-OCwxOTAyMjM1MjA0LC03MzQyMDM5NjMsLTk3NzM5ODQyMywtNT
-YyMjcxNTY1LC02NzA2Nzg1MDUsLTQ5MTQ5OTM3NiwxNjEwNTgw
-MTgyXX0=
+eyJoaXN0b3J5IjpbLTIwMjIxODUwODUsNzA1NzM2MjQyLDE2Nz
+g4MTQzMDcsLTIyMDE1NDY1OSwxNTcwNzc0OTIsLTEyNDc2MzEw
+NjgsMTkwMjIzNTIwNCwtNzM0MjAzOTYzLC05NzczOTg0MjMsLT
+U2MjI3MTU2NSwtNjcwNjc4NTA1LC00OTE0OTkzNzYsMTYxMDU4
+MDE4Ml19
 -->
