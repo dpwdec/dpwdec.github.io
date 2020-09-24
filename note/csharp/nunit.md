@@ -72,8 +72,13 @@ Assert.IsTrue(result);
 Assert.That(result == true);
 Assert.That(result, Is.True);
 ```
+
+You can **assert that two things are equal** by using the boolean matchers above.
+```csharp
+Assert.IsTrue(1 == 1);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjkzMDczNCwtMTQwNTEwMTA2MCwtMT
-czMjA3MjU3NCwxMjM0NDU4ODQ2LC0yMDIwNTU3NDIzLC0xNzg5
-NzUxOTk5XX0=
+eyJoaXN0b3J5IjpbMTkwMzMyNzQzNCwxNDU2OTMwNzM0LC0xND
+A1MTAxMDYwLC0xNzMyMDcyNTc0LDEyMzQ0NTg4NDYsLTIwMjA1
+NTc0MjMsLTE3ODk3NTE5OTldfQ==
 -->
