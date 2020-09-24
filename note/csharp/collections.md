@@ -33,13 +33,14 @@ names.Add("Jason");
 
 ## Linq
 
-You can **return the first matching element from a collection** using the `FirstOrDefault` method. In the example below, only the first `2` is returned.
+You can **return the first matching element from a collection** using the `FirstOrDefault` method. In the example below, only the first `2` is returned. **If no matching elements is found** the method returns `null`, this behaviour cannot be modified.
 ```csharp
 int[] arr = {1, 2, 3, 2, 5};
 arr.FirstOrDefault(x => x == 2);
 ```
 
+You can **match a collection for a specific element OR return a predefined default value**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzA1NTEwLDE2ODAyNDQzODEsLTQ5OD
-M5MjU5NF19
+eyJoaXN0b3J5IjpbMTExMTgwNDI3NywxNjgwMjQ0MzgxLC00OT
+gzOTI1OTRdfQ==
 -->
