@@ -183,9 +183,11 @@ return StatusCode(StatusCodes.Status500InternalServerError);
 
 ## Action Results
 
-You can **get the value from a successful `ActionResult`** by destructuring the object into an `OkObjectResult` and then destructuring it again into the expected value.
+You can **get the value from a successful `ActionResult`** by destructuring the object into an `OkObjectResult` and then destructuring it again into the expected value. The example below demonstrates a controller route that result
 ```csharp
-var actionResult = MyController.MyRoute();
+ActionResult<string> actionResult = MyController.MyRoute();
+OkObjectResult okObject = (OkObjectResult) actionResult.Result;
+string result = (string) okObject.Value;
 ```
 
 ## Internal Domain Models and Data Transfer Objects
@@ -239,11 +241,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODMyNzEyNDcsLTEzOTY0NTE1MiwtOD
-gxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQy
-ODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUwOSwtMj
-IwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1Mzgx
-MCwxNDA1OTEyMjI0LDE1NTYxMTg1OTgsMTM1MjQ4NDYwNSwtMT
-YyODE2MjIxNywxOTM1MjUxNzY2LDEzODQwODcyMDYsLTYzODQz
-NTAzN119
+eyJoaXN0b3J5IjpbNTYxMDY3ODkzLC0xMzk2NDUxNTIsLTg4MT
+UwNTE5NCwxNzAyOTU5MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1
+LDEwMDE2OTk4MzcsLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMD
+U1ODYzNCwtMzI2NTUyMzIsLTM0NTczMjMwMCw0NDM0NTM4MTAs
+MTQwNTkxMjIyNCwxNTU2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2Mj
+gxNjIyMTcsMTkzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUw
+MzddfQ==
 -->
