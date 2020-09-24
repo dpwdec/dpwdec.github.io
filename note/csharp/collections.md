@@ -33,6 +33,11 @@ names.Add("Jason");
 
 ## Linq
 
+You can **get the length of a collection** by using the `Count` method.
+```csharp
+
+```
+
 You can **return the first matching element from a collection** using the `FirstOrDefault` method. In the example below, only the first `2` is returned. **If no matching elements is found** the method returns `null`, this behaviour cannot be modified.
 ```csharp
 int[] arr = {1, 2, 3, 2, 5};
@@ -48,6 +53,6 @@ arr.Where(x => x == 6)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjMwNzUwMjAsMTQzOTYyNDM0NSwxNj
-gwMjQ0MzgxLC00OTgzOTI1OTRdfQ==
+eyJoaXN0b3J5IjpbLTI0OTYzMjE0NywtMTQyMzA3NTAyMCwxND
+M5NjI0MzQ1LDE2ODAyNDQzODEsLTQ5ODM5MjU5NF19
 -->
