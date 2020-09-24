@@ -19,6 +19,11 @@ You can **update an existing .NET CLI tool** using the `tool update` command.
 $ dotnet tool update --global <tool name>
 ```
 
+You can **build your project** (without running it), using the `build` command.
+```bash
+$ dotnet build
+```
+
 You can **structure the `namespace`s of your projects** around folder hierarchy, with the project name being the highest level `namespace` followed by subfolder names separated by a `.` period. For example in the following folder structure, the `namespace` for `bar.cs`, lying in the `Project` folder would simply be `Project`.
 ```
 Project
@@ -483,11 +488,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzMxNDgzMDksMTE4MDU3MDQ0NCwzOT
-E3MzI1MjIsLTE1Njg4ODkzMDEsLTkwNzYwODM3NCwxMjkyODE1
-NTA1LDY2ODc5MjQ5NiwzNTg5NTcyMzMsMTA5MjI5Njg2MywzND
-E4NjM2MzUsMjAwODQ1NzM1NSwtMTIzOTY4NTA1NCwxODk3NzY4
-NDgxLC0xMjU1NjAwNjkyLDEyNTMzNTEyNDQsMTM5NDY4Njc5Ny
-wxMjU1Mjg3MTU3LC02NzY1NDAzMzAsLTExNTkwNTMyNzMsMjQz
-NzcxMjI0XX0=
+eyJoaXN0b3J5IjpbLTE2NTA4Nzc5MDEsLTEwMzMxNDgzMDksMT
+E4MDU3MDQ0NCwzOTE3MzI1MjIsLTE1Njg4ODkzMDEsLTkwNzYw
+ODM3NCwxMjkyODE1NTA1LDY2ODc5MjQ5NiwzNTg5NTcyMzMsMT
+A5MjI5Njg2MywzNDE4NjM2MzUsMjAwODQ1NzM1NSwtMTIzOTY4
+NTA1NCwxODk3NzY4NDgxLC0xMjU1NjAwNjkyLDEyNTMzNTEyND
+QsMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC02NzY1NDAzMzAsLTEx
+NTkwNTMyNzNdfQ==
 -->
