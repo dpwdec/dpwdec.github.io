@@ -8,12 +8,14 @@ The rise of modern ORM frameworks that mapped database structures to database ta
 
 Database migration files are **granular scripted files which describe your data**, these are different depending on the tool you use. These migration files **evaluate to SQL format migrations files**. Indeed, you can write your migrations directly in SQL but this gives much more scope to introduce bugs and is more difficult.
 
-Most popular languages and frameworks will have **automated support for generating migration files** but might require a small amount of manual changing. There are also **third party migrations tools**, such as Liquidbase or Flyaway that allow you to accomplish these tasks without being locked into a
+Most popular languages and frameworks will have **automated support for generating migration files** but might require a small amount of manual changing. There are also **third party migrations tools**, such as Liquidbase or Flyaway that allow you to accomplish these tasks without being locked into a specific framework.
+
+There are s
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzM3OTg4OCwxMDk4NDQ4MjUyLC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbODcyMTczNjExLDEwOTg0NDgyNTIsLTIwOD
+g3NDY2MTJdfQ==
 -->
