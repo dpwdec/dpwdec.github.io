@@ -74,6 +74,9 @@ What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
 
 By **wrapping the `DbContext` in an interface** called repo it allows us to define a single interface for database access over many different databases.
 
+This also known as **persistence ignorance** because it separates business logic from infrastructure concerns, this is stated as:
+> "...ordinary classes where you focus on the business problem at hand without adding stuff for infrastructure-related reasons..."
+
 However, could I not just use the context directly in my controller?
 
 ## Data Annotations
@@ -155,9 +158,9 @@ table.Column<int>(nullable: false);
 
 The `Annotations` method can be used to **specify how a primary key increments**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTcyMDg1OSwtMTM0MTc5MzcxLDcwNT
-czNjI0MiwxNjc4ODE0MzA3LC0yMjAxNTQ2NTksMTU3MDc3NDky
-LC0xMjQ3NjMxMDY4LDE5MDIyMzUyMDQsLTczNDIwMzk2MywtOT
-c3Mzk4NDIzLC01NjIyNzE1NjUsLTY3MDY3ODUwNSwtNDkxNDk5
-Mzc2LDE2MTA1ODAxODJdfQ==
+eyJoaXN0b3J5IjpbMTM3NTAwMDQwMSwtODk5NzIwODU5LC0xMz
+QxNzkzNzEsNzA1NzM2MjQyLDE2Nzg4MTQzMDcsLTIyMDE1NDY1
+OSwxNTcwNzc0OTIsLTEyNDc2MzEwNjgsMTkwMjIzNTIwNCwtNz
+M0MjAzOTYzLC05NzczOTg0MjMsLTU2MjI3MTU2NSwtNjcwNjc4
+NTA1LC00OTE0OTkzNzYsMTYxMDU4MDE4Ml19
 -->
