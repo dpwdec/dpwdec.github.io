@@ -15,12 +15,12 @@ There are some **migration tasks that are hard to reverse**:
 - Renaming columns
 - Changing the datatype of columns that already contain data
 
-
+It's recommended when making changes to the features of your data to **first introduce redundancy with extra features** and then **remove the old redundant features that no one is using anymore**. 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNjQ1NDE2NCwxMDk4NDQ4MjUyLC0yMD
+eyJoaXN0b3J5IjpbMTgxMjkwMzY3MiwxMDk4NDQ4MjUyLC0yMD
 g4NzQ2NjEyXX0=
 -->
