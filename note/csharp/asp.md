@@ -188,7 +188,9 @@ return StatusCode(StatusCodes.Status500InternalServerError);
 
 This causes problems because **if you want to change the internal implementation of your codes structure** this will impact the way APIs return data to clients which will potentially cause many problems.
 
-Essentially, your **internal implementation should be decoupled from **
+Essentially, your **internal implementation should be decoupled from data that is sent and received**.
+
+A solution to this is a **Data Transfer Object** (DTO) which is a representation of your internal data structures for external use. For example, I may 
 
  
 ## Razor Pages
@@ -231,10 +233,10 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4NTU4NjY3LC04ODE1MDUxOTQsMTcwMj
-k1OTI0NSwyMzk4ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3
-LC01NDI0NzExMTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNj
-U1MjMyLC0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQs
-MTU1NjExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5Mz
-UyNTE3NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbLTIwNDAwODIyMjYsLTg4MTUwNTE5NCwxNz
+AyOTU5MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4
+MzcsLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMz
+I2NTUyMzIsLTM0NTczMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIy
+NCwxNTU2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMT
+kzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ==
 -->
