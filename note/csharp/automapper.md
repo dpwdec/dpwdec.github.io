@@ -9,7 +9,8 @@ Automapper is a system for creation of **Domain Transfer Objects** as part of yo
 $ dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
 ```
 
+You can **set up automapper with you project** using the `services` object in the `StartUp` class's `ConfigureServices` method and passing in the `AppDomain.CurrentDomain.GetAssemblies()
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzg1NDk5NjFdfQ==
+eyJoaXN0b3J5IjpbMTg4MjcwMjcyMCwtMTgzODU0OTk2MV19
 -->
