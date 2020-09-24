@@ -75,10 +75,11 @@ Assert.That(result, Is.True);
 
 You can **assert that two things are equal** by using the boolean matchers above.
 ```csharp
+int i = 1;
 Assert.IsTrue(1 == 1);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzMyNzQzNCwxNDU2OTMwNzM0LC0xND
-A1MTAxMDYwLC0xNzMyMDcyNTc0LDEyMzQ0NTg4NDYsLTIwMjA1
-NTc0MjMsLTE3ODk3NTE5OTldfQ==
+eyJoaXN0b3J5IjpbLTIxMzgxNzI3NTEsMTQ1NjkzMDczNCwtMT
+QwNTEwMTA2MCwtMTczMjA3MjU3NCwxMjM0NDU4ODQ2LC0yMDIw
+NTU3NDIzLC0xNzg5NzUxOTk5XX0=
 -->
