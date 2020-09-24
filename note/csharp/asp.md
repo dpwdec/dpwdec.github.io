@@ -186,6 +186,8 @@ return StatusCode(StatusCodes.Status500InternalServerError);
 
 **Sending back data directly from a class implementation** is **not recommended** because it couples the internal implementation of a class and its data with external access.
 
+This causes problems because **if you want to change the internal implementation of your codes structure** this will impact the the
+
  
 ## Razor Pages
 
@@ -227,10 +229,10 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY2Njg4NDE1LC04ODE1MDUxOTQsMTcwMj
-k1OTI0NSwyMzk4ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3
-LC01NDI0NzExMTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNj
-U1MjMyLC0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQs
-MTU1NjExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5Mz
-UyNTE3NjYsMTM4NDA4NzIwNiwtNjM4NDM1MDM3XX0=
+eyJoaXN0b3J5IjpbLTc2MTI2MjkyMywtODgxNTA1MTk0LDE3MD
+I5NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQyODUsMTAwMTY5OTgz
+NywtNTQyNDcxMTEwLDkyNjczOTUwOSwtMjIwNTU4NjM0LC0zMj
+Y1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1MzgxMCwxNDA1OTEyMjI0
+LDE1NTYxMTg1OTgsMTM1MjQ4NDYwNSwtMTYyODE2MjIxNywxOT
+M1MjUxNzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
 -->
