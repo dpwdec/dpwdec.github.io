@@ -183,7 +183,7 @@ return StatusCode(StatusCodes.Status500InternalServerError);
 
 ## Action Results
 
-You can **get the value from a successful `ActionResult`** by destructuring the object into an `OkObjectResult` and then destructuring it again into the expected value. The example below demonstrates a controller route that result
+You can **get the value from a successful `ActionResult`** by destructuring the object into an `OkObjectResult` and then destructuring it again into the expected value. The example below demonstrates a controller route that contains a string,  unfortunately **casting must be done between the `ActionResult` and `OkObjectResult`** to successfully destructure the object with the `Result` and `Value` properties.
 ```csharp
 ActionResult<string> actionResult = MyController.MyRoute();
 OkObjectResult okObject = (OkObjectResult) actionResult.Result;
@@ -241,7 +241,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxMDY3ODkzLC0xMzk2NDUxNTIsLTg4MT
+eyJoaXN0b3J5IjpbNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MT
 UwNTE5NCwxNzAyOTU5MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1
 LDEwMDE2OTk4MzcsLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMD
 U1ODYzNCwtMzI2NTUyMzIsLTM0NTczMjMwMCw0NDM0NTM4MTAs
