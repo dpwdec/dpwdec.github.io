@@ -51,6 +51,10 @@ You can **connect to a PostgreSQL database** by installing the `Npgsql.EntityFra
 services.AddDbContext(options => options.UseNpgsql(Configuration.GetConnectionString("DatabaseName"));
 ```
 
+## Queries
+
+You can **query data in by accessing one the `DbSet`s on the database context ob**
+
 ## Design
 
 What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
@@ -134,8 +138,9 @@ table.Column<int>(nullable: false);
 
 The `Annotations` method can be used to **specify how a primary key increments**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1NzM2MjQyLDE2Nzg4MTQzMDcsLTIyMD
-E1NDY1OSwxNTcwNzc0OTIsLTEyNDc2MzEwNjgsMTkwMjIzNTIw
-NCwtNzM0MjAzOTYzLC05NzczOTg0MjMsLTU2MjI3MTU2NSwtNj
-cwNjc4NTA1LC00OTE0OTkzNzYsMTYxMDU4MDE4Ml19
+eyJoaXN0b3J5IjpbMjA1NzMwOTM0MCw3MDU3MzYyNDIsMTY3OD
+gxNDMwNywtMjIwMTU0NjU5LDE1NzA3NzQ5MiwtMTI0NzYzMTA2
+OCwxOTAyMjM1MjA0LC03MzQyMDM5NjMsLTk3NzM5ODQyMywtNT
+YyMjcxNTY1LC02NzA2Nzg1MDUsLTQ5MTQ5OTM3NiwxNjEwNTgw
+MTgyXX0=
 -->
