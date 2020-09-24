@@ -481,13 +481,13 @@ You can **get a shortcut code snippet for the creation of a class property** by 
 
 You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`.
 
-You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Pri
+You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzU0NDE3NywxMTgwNTcwNDQ0LDM5MT
-czMjUyMiwtMTU2ODg4OTMwMSwtOTA3NjA4Mzc0LDEyOTI4MTU1
-MDUsNjY4NzkyNDk2LDM1ODk1NzIzMywxMDkyMjk2ODYzLDM0MT
-g2MzYzNSwyMDA4NDU3MzU1LC0xMjM5Njg1MDU0LDE4OTc3Njg0
-ODEsLTEyNTU2MDA2OTIsMTI1MzM1MTI0NCwxMzk0Njg2Nzk3LD
-EyNTUyODcxNTcsLTY3NjU0MDMzMCwtMTE1OTA1MzI3MywyNDM3
-NzEyMjRdfQ==
+eyJoaXN0b3J5IjpbLTEwMzMxNDgzMDksMTE4MDU3MDQ0NCwzOT
+E3MzI1MjIsLTE1Njg4ODkzMDEsLTkwNzYwODM3NCwxMjkyODE1
+NTA1LDY2ODc5MjQ5NiwzNTg5NTcyMzMsMTA5MjI5Njg2MywzND
+E4NjM2MzUsMjAwODQ1NzM1NSwtMTIzOTY4NTA1NCwxODk3NzY4
+NDgxLC0xMjU1NjAwNjkyLDEyNTMzNTEyNDQsMTM5NDY4Njc5Ny
+wxMjU1Mjg3MTU3LC02NzY1NDAzMzAsLTExNTkwNTMyNzMsMjQz
+NzcxMjI0XX0=
 -->
