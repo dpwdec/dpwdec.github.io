@@ -53,9 +53,14 @@ services.AddDbContext(options => options.UseNpgsql(Configuration.GetConnectionSt
 
 ## Queries
 
-You can **query data in a table** by accessing the associated `DbSet` on the database context object. This object essentially works like a collection which can use lambdas to process data. You will need to add the `Li
+You can **query data in a table** by accessing the associated `DbSet` on the database context object. This object essentially works like a collection which can use lambdas to process data. You will need to add the `System.Linq` library to access higher order functions that can process the data from the table collections.
 
-You can **return all data in a table** by using the 
+You can **return all data in a table** by using the `ToList` method.
+```csharp
+DbContext.MyTable.ToList();
+```
+
+You can **return a single specif**
 
 ## Design
 
@@ -140,9 +145,9 @@ table.Column<int>(nullable: false);
 
 The `Annotations` method can be used to **specify how a primary key increments**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODcwMTUxMyw3MDU3MzYyNDIsMTY3OD
-gxNDMwNywtMjIwMTU0NjU5LDE1NzA3NzQ5MiwtMTI0NzYzMTA2
-OCwxOTAyMjM1MjA0LC03MzQyMDM5NjMsLTk3NzM5ODQyMywtNT
-YyMjcxNTY1LC02NzA2Nzg1MDUsLTQ5MTQ5OTM3NiwxNjEwNTgw
-MTgyXX0=
+eyJoaXN0b3J5IjpbLTExNjk2MTI4NjksNzA1NzM2MjQyLDE2Nz
+g4MTQzMDcsLTIyMDE1NDY1OSwxNTcwNzc0OTIsLTEyNDc2MzEw
+NjgsMTkwMjIzNTIwNCwtNzM0MjAzOTYzLC05NzczOTg0MjMsLT
+U2MjI3MTU2NSwtNjcwNjc4NTA1LC00OTE0OTkzNzYsMTYxMDU4
+MDE4Ml19
 -->
