@@ -190,7 +190,7 @@ This causes problems because **if you want to change the internal implementation
 
 Essentially, your **internal implementation should be decoupled from data that is sent and received**.
 
-A solution to this is a **Data Transfer Object** (DTO) which is a representation of your internal data structures for external use. For example, I may 
+A solution to this is a **Data Transfer Object** (DTO) which is a representation of your internal data structures for external use. For example, if our system implements a class called `User` which has a number of properties, such as `Name`, `DateOfBirth`, `Height` etc. and the type formats that those are stored in and any other database specific or data processing methods
 
  
 ## Razor Pages
@@ -233,10 +233,10 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDAwODIyMjYsLTg4MTUwNTE5NCwxNz
-AyOTU5MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4
-MzcsLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMz
-I2NTUyMzIsLTM0NTczMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIy
-NCwxNTU2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMT
-kzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUwMzddfQ==
+eyJoaXN0b3J5IjpbLTQ5NTM3OTkyNywtODgxNTA1MTk0LDE3MD
+I5NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQyODUsMTAwMTY5OTgz
+NywtNTQyNDcxMTEwLDkyNjczOTUwOSwtMjIwNTU4NjM0LC0zMj
+Y1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1MzgxMCwxNDA1OTEyMjI0
+LDE1NTYxMTg1OTgsMTM1MjQ4NDYwNSwtMTYyODE2MjIxNywxOT
+M1MjUxNzY2LDEzODQwODcyMDYsLTYzODQzNTAzN119
 -->
