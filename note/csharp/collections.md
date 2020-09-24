@@ -39,8 +39,12 @@ int[] arr = {1, 2, 3, 2, 5};
 arr.FirstOrDefault(x => x == 2);
 ```
 
-You can **match a collection for a specific element OR return a predefined default value**
+You can **match a collection for a specific element OR return a predefined default value** by using the `DefaultIfEmpty` method with the default return value as its argument concatenated with the `First` method.
+```csharp
+
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTgwNDI3NywxNjgwMjQ0MzgxLC00OT
+eyJoaXN0b3J5IjpbMTQzOTYyNDM0NSwxNjgwMjQ0MzgxLC00OT
 gzOTI1OTRdfQ==
 -->
