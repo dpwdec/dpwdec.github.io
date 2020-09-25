@@ -78,6 +78,8 @@ for(var message in results) {
 }
 ```
 
+
+
 ### Delay
 
 You can **make a thread wait for a set period of time** using the `Task` object with the `Delay` and `Wait` methods. `Delay` takes the wait time in milliseconds.
@@ -88,7 +90,8 @@ Task.Delay(3000).Wait();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NzMyMzcxNCwxNTE1MjUyMTAyLC0xOT
-EzOTIzMTY2LDEzMTU2MjAyMTUsLTEyMTM5NTQ4NzQsNTQxOTk3
-NzQzLC0yNzM5NTk1MzcsLTE2Njg3NjcxM119
+eyJoaXN0b3J5IjpbLTg1NjQ2Mjg3OCwtOTg3MzIzNzE0LDE1MT
+UyNTIxMDIsLTE5MTM5MjMxNjYsMTMxNTYyMDIxNSwtMTIxMzk1
+NDg3NCw1NDE5OTc3NDMsLTI3Mzk1OTUzNywtMTY2ODc2NzEzXX
+0=
 -->
