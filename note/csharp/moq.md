@@ -16,6 +16,8 @@ You can **create a new interface mock** by creating a `Mock` class instance, typ
 var mock = new Mock<IMyInterface>();
 ```
 
+You can **create a new class mock** by creating a `Mock` class instance, typed with the class you want to mock. Unlike interfaces **classes
+
 The **`Mock` class wraps an instance of mocked structure and allows for configuration**, it **cannot directly be used AS an instance**, instead, to **access the mock instance and use it as a dependency or to make assertions against** use the `Object` property of the `Mock` object.
 ```csharp
 var mock = new Mock<IMyInterface>();
@@ -41,6 +43,6 @@ mock.Object.MyMethod("other"); // => 200
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5MjY1NDM0LC0xNTk4MjMzNzY3LC01Mj
-Y2MzcyMCwtMjAyNTI2NzQ2MV19
+eyJoaXN0b3J5IjpbLTg5NjAyNDQ4Myw2NTkyNjU0MzQsLTE1OT
+gyMzM3NjcsLTUyNjYzNzIwLC0yMDI1MjY3NDYxXX0=
 -->
