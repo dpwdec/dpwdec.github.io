@@ -39,7 +39,7 @@ public Task<string> GetMessageAsync()
 }
 ```
 
-`Task`s **begin running once the method that returns them is called**. This means you can trigger an asynchronous task before its result is needed by returning the `Task` type result of the asynchronous method and then calling `await` on it to resolve that task. This can result in faster run times in the local method because the
+`Task`s **begin running once the method that returns them is called**. This means you can trigger an asynchronous task before its result is needed by returning the `Task` type result of the asynchronous method and then calling `await` on it to resolve that task. This can result in faster run times in the local method because the asynchronous requests made for resources at the top of a method can be ready by the time method reaches the `await` clauses for the resource.
 ```csharp
 public async MyMethod()
 {
@@ -57,6 +57,6 @@ You can **make a thread wait for a set period of time** using the `Task` object 
 Task.Delay(3000).Wait();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTM4MjkwOCwtMTIxMzk1NDg3NCw1ND
+eyJoaXN0b3J5IjpbMTMxNTYyMDIxNSwtMTIxMzk1NDg3NCw1ND
 E5OTc3NDMsLTI3Mzk1OTUzNywtMTY2ODc2NzEzXX0=
 -->
