@@ -80,11 +80,17 @@ for(var message in results) {
 
 You can **pass a collection of `Task`s to the `WhenAll` method** instead of a splat list of `Task`s. This can be a `List` or any array or other collection type.
 ```csharp
-Task<string[] taskList = new Task<string>[] {
+Task<string[] tasks = new Task<string>[] {
+  GetMessageAsync(),
+  GetMessageAsync(),
+  GetMessageAsync()
 }
-Task<string> task1 = GetMessageAsync();
-Task<string> task2 = GetMessageAsync();
-Task<string> task3 = GetMessageAsync();
+
+string[] results = await Task.WhenAll(tasks);
+
+for(var message in results) {
+  // iterate through each message
+}
 ```
 
 ### Delay
@@ -97,7 +103,7 @@ Task.Delay(3000).Wait();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTk5MjE5OCwxMzA3MDYzMzM5LC05OD
+eyJoaXN0b3J5IjpbMjAyMTgyMjUxNiwxMzA3MDYzMzM5LC05OD
 czMjM3MTQsMTUxNTI1MjEwMiwtMTkxMzkyMzE2NiwxMzE1NjIw
 MjE1LC0xMjEzOTU0ODc0LDU0MTk5Nzc0MywtMjczOTU5NTM3LC
 0xNjY4NzY3MTNdfQ==
