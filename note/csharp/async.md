@@ -4,7 +4,13 @@ layout: page
 exclude: true
 ---
 
-You can **define an asynchronous block of code by** using the `async` keyword. Code marked with this keyword will expect to use the `await` keyword and send requests
+You can **define an asynchronous block of code by** using the `async` keyword. Code marked with this keyword will expect to use the `await` keyword in its body.
+```csharp
+public async MyMethod()
+{
+  var result = await AsynchronousMethod();
+}
+```
 
 ## Task
 
@@ -16,6 +22,6 @@ You can **make a thread wait for a set period of time** using the `Task` object 
 Task.Delay(3000).Wait();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODIwNDI4OCwtMjczOTU5NTM3LC0xNj
+eyJoaXN0b3J5IjpbMjA1MjA5ODg5MCwtMjczOTU5NTM3LC0xNj
 Y4NzY3MTNdfQ==
 -->
