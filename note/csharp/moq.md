@@ -16,12 +16,18 @@ You can **create a new interface mock** by creating a `Mock` class instance, typ
 var mock = new Mock<IMyInterface>();
 ```
 
-The **`Mock` class wraps an instance of mocked structure and allows for configuration**, it **cannot directly be used AS an instance**, instead, to **access the mock instance and use it as a dependency or to make assertions against** use the `
+The **`Mock` class wraps an instance of mocked structure and allows for configuration**, it **cannot directly be used AS an instance**, instead, to **access the mock instance and use it as a dependency or to make assertions against** use the `Object` property of the `Mock` object.
+```csharp
+var mock = new Mock<IMyInterface>();
+// passing in a mock instance of IMyInterface as a dependency to MyDependent
+var dependent = new MyDependent(mock.Object);
+// access method on m
+```
 
 You can **set a mock return value for a method and particular input** by using the a `Mock` instance's `Setup` method. This takes a lambda with the object under tests followed by the method and 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzA2OTI5OSwtNTI2NjM3MjAsLTIwMj
+eyJoaXN0b3J5IjpbMTY5MjM0NjM4OCwtNTI2NjM3MjAsLTIwMj
 UyNjc0NjFdfQ==
 -->
