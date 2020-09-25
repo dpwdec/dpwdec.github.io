@@ -22,6 +22,15 @@ public void MyTest_TestingFramework_Passes()
 }
 ```
 
+You can **skip a test** by adding `Skip` as an argument to the `[Fact]` attribute and setting it equal to a string detailing why the test is skipped.
+```csharp
+[Fact(Skip = "Redundant Test")]
+public void MyTest_TestingFramework_Passes()
+{
+  Assert.True(true);
+}
+```
+
 ## Assert
 
 You can **assert that something is true** by using the `True` method.
@@ -36,6 +45,6 @@ Assert.Equal(1, 1);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTc5NzQxLDIxMTg5NDg1MTEsLTIwNj
-E3MTY0ODldfQ==
+eyJoaXN0b3J5IjpbLTExNTExMDMzMDYsMjExODk0ODUxMSwtMj
+A2MTcxNjQ4OV19
 -->
