@@ -78,7 +78,10 @@ for(var message in results) {
 }
 ```
 
-You can **als**
+You can **pass a collections of `Task`s to the `WhenAll` method** instead of a splat list of `Task`s.
+```csharp
+
+```
 
 ### Delay
 
@@ -90,8 +93,8 @@ Task.Delay(3000).Wait();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNjAzNzcxLDEzMDcwNjMzMzksLTk4Nz
-MyMzcxNCwxNTE1MjUyMTAyLC0xOTEzOTIzMTY2LDEzMTU2MjAy
-MTUsLTEyMTM5NTQ4NzQsNTQxOTk3NzQzLC0yNzM5NTk1MzcsLT
-E2Njg3NjcxM119
+eyJoaXN0b3J5IjpbLTYzNDA0ODc5NywxMzA3MDYzMzM5LC05OD
+czMjM3MTQsMTUxNTI1MjEwMiwtMTkxMzkyMzE2NiwxMzE1NjIw
+MjE1LC0xMjEzOTU0ODc0LDU0MTk5Nzc0MywtMjczOTU5NTM3LC
+0xNjY4NzY3MTNdfQ==
 -->
