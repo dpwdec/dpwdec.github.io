@@ -14,7 +14,15 @@ public async MyMethod()
 }
 ```
 
-While a particular part of your code is `await`ing the result of some asynchronous method, the **thread** 
+While a particular part of your code is `await`ing the result of some asynchronous method, the **thread is NOT blocked**, this is an import distinction. Even though the execution of the local code that needs the result of the `await`ed asynchronous routing might be paused, the rest of the thread can still be used to run other resources, leading to better efficiency.
+```csharp
+public async MyMethod()
+{
+  var result = await AsynchronousMethod();
+  Console.WriteLine(result);
+  var 
+}
+``` 
 
 ## Task
 
@@ -47,6 +55,6 @@ You can **make a thread wait for a set period of time** using the `Task` object 
 Task.Delay(3000).Wait();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1OTAyMzk0MSwtMTIxMzk1NDg3NCw1ND
-E5OTc3NDMsLTI3Mzk1OTUzNywtMTY2ODc2NzEzXX0=
+eyJoaXN0b3J5IjpbLTIwNzk4ODE1MTksLTEyMTM5NTQ4NzQsNT
+QxOTk3NzQzLC0yNzM5NTk1MzcsLTE2Njg3NjcxM119
 -->
