@@ -17,8 +17,8 @@ XUnit **creates a new instance of the test class for each test that is run** the
 ```csharp
 public class MyTestClass
 {
-  // class body set up here
-  private readonly MyObject = new MyObject();
+  // class body set up here, such as mocks or other dependencies
+  private readonly _myObject = new MyObject();
 
   public MyTestClass
   {
@@ -61,6 +61,6 @@ Assert.Equal(1, 1);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxOTgxOTE0MiwyMTE4OTQ4NTExLC0yMD
-YxNzE2NDg5XX0=
+eyJoaXN0b3J5IjpbLTE1OTczMjE4NzMsMjExODk0ODUxMSwtMj
+A2MTcxNjQ4OV19
 -->
