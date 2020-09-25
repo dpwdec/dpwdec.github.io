@@ -11,6 +11,11 @@ You can **use Moq in a test suite** by using the `Moq` namespace.
 using Moq;
 ```
 
+You can **run initialisation behaviour on mock objects AFTER passing them in as dependencies during testing**.
+
+
+## Mock Objects
+
 You can **create a new interface mock** by creating a `Mock` class instance, typed with the interface you want to mock.
 ```csharp
 var mock = new Mock<IMyInterface>();
@@ -29,6 +34,8 @@ public class MyClass
 
 var mock = new Mock<MyClass>();
 ```
+
+## Mock Methods
 
 The **`Mock` class wraps an instance of mocked structure and allows for configuration**, it **cannot directly be used AS an instance**, instead, to **access the mock instance and use it as a dependency or to make assertions against** use the `Object` property of the `Mock` object.
 ```csharp
@@ -53,8 +60,8 @@ mock.Object.MyMethod("input"); // => 200
 mock.Object.MyMethod("output"); // => 300
 mock.Object.MyMethod("other"); // => 200
 ```
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzA1OTIwMCw2NTkyNjU0MzQsLTE1OT
-gyMzM3NjcsLTUyNjYzNzIwLC0yMDI1MjY3NDYxXX0=
+eyJoaXN0b3J5IjpbMjEzMDQyODM4NywxOTYzMDU5MjAwLDY1OT
+I2NTQzNCwtMTU5ODIzMzc2NywtNTI2NjM3MjAsLTIwMjUyNjc0
+NjFdfQ==
 -->
