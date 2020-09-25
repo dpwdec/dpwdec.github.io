@@ -31,7 +31,10 @@ public Task<string> GetMessageAsync()
 ```csharp
 public async MyMethod()
 {
-  
+  // start the task running
+  Task<string> messageTask = GetMessageAsync();
+  // ... do other stuff
+  string message = await mes
 }
 ```
 
@@ -41,6 +44,6 @@ You can **make a thread wait for a set period of time** using the `Task` object 
 Task.Delay(3000).Wait();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwOTI2OTY5LC0xMjEzOTU0ODc0LDU0MT
+eyJoaXN0b3J5IjpbOTc5MDMxMjI1LC0xMjEzOTU0ODc0LDU0MT
 k5Nzc0MywtMjczOTU5NTM3LC0xNjY4NzY3MTNdfQ==
 -->
