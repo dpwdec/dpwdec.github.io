@@ -4,6 +4,8 @@ layout: page
 exclude: true
 ---
 
+## Async and Await
+
 You can **define an asynchronous block of code by** using the `async` keyword. Code marked with this keyword will expect to use the `await` keyword in its body.
 ```csharp
 public async MyMethod()
@@ -12,7 +14,7 @@ public async MyMethod()
 }
 ```
 
-await allows the thread to still execute
+While a particular part of your code is `await`ing the result of some asynchronous method, the **thread** 
 
 ## Task
 
@@ -34,7 +36,8 @@ public async MyMethod()
   // start the task running
   Task<string> messageTask = GetMessageAsync();
   // ... do other stuff
-  string message = await mes
+  // get the value of the result of the task
+  string message = await messageTask;
 }
 ```
 
@@ -44,6 +47,6 @@ You can **make a thread wait for a set period of time** using the `Task` object 
 Task.Delay(3000).Wait();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5MDMxMjI1LC0xMjEzOTU0ODc0LDU0MT
-k5Nzc0MywtMjczOTU5NTM3LC0xNjY4NzY3MTNdfQ==
+eyJoaXN0b3J5IjpbMjA1OTAyMzk0MSwtMTIxMzk1NDg3NCw1ND
+E5OTc3NDMsLTI3Mzk1OTUzNywtMTY2ODc2NzEzXX0=
 -->
