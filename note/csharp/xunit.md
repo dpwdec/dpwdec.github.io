@@ -15,11 +15,14 @@ private readonly MyClass _sut;
 
 You can **create a new synchronous unit test** by creating a new `void` method and decorating it with the `[Fact]` attribute.
 ```csharp
+[Fact]
 public void MyTest_TestingFramework_Passes()
 {
+  
+}
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwMTA3MDYsLTIwNjE3MTY0ODldfQ==
+eyJoaXN0b3J5IjpbMjExODk0ODUxMSwtMjA2MTcxNjQ4OV19
 -->
