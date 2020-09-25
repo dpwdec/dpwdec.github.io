@@ -55,7 +55,7 @@ public async MyMethod()
 
 ### When
 
-You can **`await` the completion of multiple tasks simultaneously** by using the `WhenAll` method.
+You can **`await` the completion of multiple tasks simultaneously** by using the `WhenAll` method. This method accepts an arbitrary number of tasks as its
 
 ### Delay
 
@@ -67,7 +67,7 @@ Task.Delay(3000).Wait();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTkwNjQ1MTMsMTUxNTI1MjEwMiwtMT
-kxMzkyMzE2NiwxMzE1NjIwMjE1LC0xMjEzOTU0ODc0LDU0MTk5
-Nzc0MywtMjczOTU5NTM3LC0xNjY4NzY3MTNdfQ==
+eyJoaXN0b3J5IjpbLTgyOTkyMTQ5MiwxNTE1MjUyMTAyLC0xOT
+EzOTIzMTY2LDEzMTU2MjAyMTUsLTEyMTM5NTQ4NzQsNTQxOTk3
+NzQzLC0yNzM5NTk1MzcsLTE2Njg3NjcxM119
 -->
