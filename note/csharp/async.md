@@ -78,7 +78,7 @@ for(var message in results) {
 }
 ```
 
-You can **also add **
+You can **als**
 
 ### Delay
 
@@ -90,8 +90,8 @@ Task.Delay(3000).Wait();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzA2MzMzOSwtOTg3MzIzNzE0LDE1MT
-UyNTIxMDIsLTE5MTM5MjMxNjYsMTMxNTYyMDIxNSwtMTIxMzk1
-NDg3NCw1NDE5OTc3NDMsLTI3Mzk1OTUzNywtMTY2ODc2NzEzXX
-0=
+eyJoaXN0b3J5IjpbMTcyNjAzNzcxLDEzMDcwNjMzMzksLTk4Nz
+MyMzcxNCwxNTE1MjUyMTAyLC0xOTEzOTIzMTY2LDEzMTU2MjAy
+MTUsLTEyMTM5NTQ4NzQsNTQxOTk3NzQzLC0yNzM5NTk1MzcsLT
+E2Njg3NjcxM119
 -->
