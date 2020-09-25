@@ -12,7 +12,7 @@ public async MyMethod()
 }
 ```
 
-awai
+await allows the thread to still execute
 
 ## Task
 
@@ -32,6 +32,6 @@ You can **make a thread wait for a set period of time** using the `Task` object 
 Task.Delay(3000).Wait();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDIwMzM3LDU0MTk5Nzc0MywtMjczOT
-U5NTM3LC0xNjY4NzY3MTNdfQ==
+eyJoaXN0b3J5IjpbLTEyMTM5NTQ4NzQsNTQxOTk3NzQzLC0yNz
+M5NTk1MzcsLTE2Njg3NjcxM119
 -->
