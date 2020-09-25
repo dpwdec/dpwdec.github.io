@@ -54,13 +54,13 @@ You can **assert that something is true** by using the `True` method.
 Assert.True(true);
 ```
 
-You can **assert that two things are equal** with the `Equal` method.
+You can **assert that two things are equal** with the `Equal` method, the **arguments are passed in the order of `expected` and then `actual`**. 
 ```csharp
 Assert.Equal(1, 1);
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjMwNDc0NiwyMTE4OTQ4NTExLC0yMD
+eyJoaXN0b3J5IjpbMjAxOTgxOTE0MiwyMTE4OTQ4NTExLC0yMD
 YxNzE2NDg5XX0=
 -->
