@@ -18,9 +18,11 @@ While a particular part of your code is `await`ing the result of some asynchrono
 ```csharp
 public async MyMethod()
 {
-  var result = await AsynchronousMethod();
+  Console.WriteLine("Start");
+  var result = await AsynchronousMethod(); // <= Execution in this method pauses until complete
   Console.WriteLine(result);
-  var 
+  var extension = await AsynchronousAddMethod(result); // <= Execution in this method pauses until complete
+  Console.WriteLine(extension);
 }
 ``` 
 
@@ -37,7 +39,7 @@ public Task<string> GetMessageAsync()
 }
 ```
 
-`Task`s **begin running once the method that returns them is called**. This means you can trigger an asynchronous task before its result is needed by returning the `Task` type result of the asynchronous method and then calling `await` on it to resolve that task.
+`Task`s **begin running once the method that returns them is called**. This means you can trigger an asynchronous task before its result is needed by returning the `Task` type result of the asynchronous method and then calling `await` on it to resolve that task. This can result in faster run times in the local method because the
 ```csharp
 public async MyMethod()
 {
@@ -55,6 +57,6 @@ You can **make a thread wait for a set period of time** using the `Task` object 
 Task.Delay(3000).Wait();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk4ODE1MTksLTEyMTM5NTQ4NzQsNT
-QxOTk3NzQzLC0yNzM5NTk1MzcsLTE2Njg3NjcxM119
+eyJoaXN0b3J5IjpbMTc3NTM4MjkwOCwtMTIxMzk1NDg3NCw1ND
+E5OTc3NDMsLTI3Mzk1OTUzNywtMTY2ODc2NzEzXX0=
 -->
