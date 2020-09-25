@@ -29,7 +29,10 @@ public Task<string> GetMessageAsync()
 
 `Task`s **begin running once the method that returns them is called**. This means you can trigger an asynchronous task before its result is needed by returning the `Task` type result of the asynchronous method and then calling `await` on it to resolve that task.
 ```csharp
-
+public async MyMethod()
+{
+  
+}
 ```
 
 You can **make a thread wait for a set period of time** using the `Task` object with the `Delay` and `Wait` methods. `Delay` takes the wait time in milliseconds.
@@ -38,6 +41,6 @@ You can **make a thread wait for a set period of time** using the `Task` object 
 Task.Delay(3000).Wait();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTcyOTEyMTAsLTEyMTM5NTQ4NzQsNT
-QxOTk3NzQzLC0yNzM5NTk1MzcsLTE2Njg3NjcxM119
+eyJoaXN0b3J5IjpbOTUwOTI2OTY5LC0xMjEzOTU0ODc0LDU0MT
+k5Nzc0MywtMjczOTU5NTM3LC0xNjY4NzY3MTNdfQ==
 -->
