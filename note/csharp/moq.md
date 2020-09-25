@@ -69,8 +69,14 @@ mock.Object.MyMethod("input"); // => 200
 mock.Object.MyMethod("output"); // => 300
 mock.Object.MyMethod("other"); // => 200
 ```
+
+# It
+
+You can **use the `It` object to help make more semantically clear assertions** when testing different parts of your code.
+
+You can use the `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTM5NTk0NiwxOTYzMDU5MjAwLDY1OT
-I2NTQzNCwtMTU5ODIzMzc2NywtNTI2NjM3MjAsLTIwMjUyNjc0
-NjFdfQ==
+eyJoaXN0b3J5IjpbLTY1Nzc4ODcyOSwtMzE1Mzk1OTQ2LDE5Nj
+MwNTkyMDAsNjU5MjY1NDM0LC0xNTk4MjMzNzY3LC01MjY2Mzcy
+MCwtMjAyNTI2NzQ2MV19
 -->
