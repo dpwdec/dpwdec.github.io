@@ -72,11 +72,11 @@ mock.Object.MyMethod("other"); // => 200
 
 # It
 
-You can **use the `It` object to help make more semantically clear assertions** when testing different parts of your code.
+You can **use the `It` object to help make mock input and output mappings more semantically clear** when defining mock rules.
 
-You can use the `
+You can **make define output for ANY valid input** by using the `IsAny` method with the type that would be pa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Nzc4ODcyOSwtMzE1Mzk1OTQ2LDE5Nj
-MwNTkyMDAsNjU5MjY1NDM0LC0xNTk4MjMzNzY3LC01MjY2Mzcy
-MCwtMjAyNTI2NzQ2MV19
+eyJoaXN0b3J5IjpbNTYxNTQxOTA3LC0zMTUzOTU5NDYsMTk2Mz
+A1OTIwMCw2NTkyNjU0MzQsLTE1OTgyMzM3NjcsLTUyNjYzNzIw
+LC0yMDI1MjY3NDYxXX0=
 -->
