@@ -11,7 +11,7 @@ You can **use Moq in a test suite** by using the `Moq` namespace.
 using Moq;
 ```
 
-You can **run initialisation behaviour on mock objects AFTER passing them in as dependencies during testing**. In the exa
+You can **run initialisation behaviour on mock objects AFTER passing them in as dependencies during testing**. In the example below the `MyDependent` has a mock version of `IMyInterface` injected into it, but the set up that needs to be done for that specific mock is not carried out until `SomeTestMethod` is called.
 ```csharp
 var mock = new Mock<IMyInterface>();
 var dependent = new MyDependent(mock.Object);
@@ -70,7 +70,7 @@ mock.Object.MyMethod("output"); // => 300
 mock.Object.MyMethod("other"); // => 200
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2Nzg5OTY0OCwxOTYzMDU5MjAwLDY1OT
+eyJoaXN0b3J5IjpbLTMxNTM5NTk0NiwxOTYzMDU5MjAwLDY1OT
 I2NTQzNCwtMTU5ODIzMzc2NywtNTI2NjM3MjAsLTIwMjUyNjc0
 NjFdfQ==
 -->
