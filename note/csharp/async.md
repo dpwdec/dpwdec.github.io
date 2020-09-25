@@ -20,7 +20,7 @@ You can **define an asynchronous method** by returning a `Task<TResult>` from th
 ```csharp
 public Task<string> GetMessageAsync()
 {
-  
+  return "Hello"
 }
 ```
 
@@ -30,6 +30,6 @@ You can **make a thread wait for a set period of time** using the `Task` object 
 Task.Delay(3000).Wait();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjI0MjgwMSwtMjczOTU5NTM3LC0xNj
-Y4NzY3MTNdfQ==
+eyJoaXN0b3J5IjpbNTQxOTk3NzQzLC0yNzM5NTk1MzcsLTE2Nj
+g3NjcxM119
 -->
