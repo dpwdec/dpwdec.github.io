@@ -424,7 +424,7 @@ interface MyInterface
 }
 ```
 
-You can **create an interface that uses a generic type** by placing the type in `<>` angle brackets after the interface definition. In the example below `MyInterface` accepts a type `T` that 
+You can **create an interface that uses a generic type** by placing the type in `<>` angle brackets after the interface definition. In the example below `MyInterface` accepts a type `T` that is defined as the return type of `MyMethod`.
 ```csharp
 interface MyInterface<T>
 {
@@ -501,11 +501,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4ODU1NTE0NCwtMTU1ODAwMDA2MCwtND
-AzMjI5MjM3LC0xNjUwODc3OTAxLC0xMDMzMTQ4MzA5LDExODA1
-NzA0NDQsMzkxNzMyNTIyLC0xNTY4ODg5MzAxLC05MDc2MDgzNz
-QsMTI5MjgxNTUwNSw2Njg3OTI0OTYsMzU4OTU3MjMzLDEwOTIy
-OTY4NjMsMzQxODYzNjM1LDIwMDg0NTczNTUsLTEyMzk2ODUwNT
-QsMTg5Nzc2ODQ4MSwtMTI1NTYwMDY5MiwxMjUzMzUxMjQ0LDEz
-OTQ2ODY3OTddfQ==
+eyJoaXN0b3J5IjpbLTE3MjIzOTY4OTYsLTE1NTgwMDAwNjAsLT
+QwMzIyOTIzNywtMTY1MDg3NzkwMSwtMTAzMzE0ODMwOSwxMTgw
+NTcwNDQ0LDM5MTczMjUyMiwtMTU2ODg4OTMwMSwtOTA3NjA4Mz
+c0LDEyOTI4MTU1MDUsNjY4NzkyNDk2LDM1ODk1NzIzMywxMDky
+Mjk2ODYzLDM0MTg2MzYzNSwyMDA4NDU3MzU1LC0xMjM5Njg1MD
+U0LDE4OTc3Njg0ODEsLTEyNTU2MDA2OTIsMTI1MzM1MTI0NCwx
+Mzk0Njg2Nzk3XX0=
 -->
