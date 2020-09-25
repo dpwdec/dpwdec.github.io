@@ -64,7 +64,18 @@ Task<string> task3 = GetMessageAsync();
 await Task.WhenAll(task1, task2, task3);
 ```
 
-You can **get the combined results of a `WhenAll` call as a collection** by assigning the result of `await`ing 
+You can **get the combined results of a `WhenAll` call as a collection** by assigning the result of `await`ing `WhenAll` to a variable. This **only works if the tasks passed in ALL resolve to the same type**.
+```csharp
+Task<string> task1 = GetMessageAsync();
+Task<string> task2 = GetMessageAsync();
+Task<string> task3 = GetMessageAsync();
+
+var results = await Task.WhenAll(task1, task2, task3);
+
+for(var message in results) {
+  // iterate through each message
+}
+```
 
 ### Delay
 
@@ -76,7 +87,7 @@ Task.Delay(3000).Wait();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3MzI0NDk2LDE1MTUyNTIxMDIsLTE5MT
-M5MjMxNjYsMTMxNTYyMDIxNSwtMTIxMzk1NDg3NCw1NDE5OTc3
-NDMsLTI3Mzk1OTUzNywtMTY2ODc2NzEzXX0=
+eyJoaXN0b3J5IjpbLTE0Mzg2OTUzNDAsMTUxNTI1MjEwMiwtMT
+kxMzkyMzE2NiwxMzE1NjIwMjE1LC0xMjEzOTU0ODc0LDU0MTk5
+Nzc0MywtMjczOTU5NTM3LC0xNjY4NzY3MTNdfQ==
 -->
