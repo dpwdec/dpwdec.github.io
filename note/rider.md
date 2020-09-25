@@ -4,7 +4,9 @@ layout: page
 exclude: true
 ---
 
-You can **shower Rider preferences** using `AP + ,`
+You can **shower Rider preferences** using `⌘ + ,`.
+
+You can **toggle comments on a line** using `⎇ + ⌘ + /`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2OTc1OTg2XX0=
+eyJoaXN0b3J5IjpbOTMwNjIyMzA0LDk3Njk3NTk4Nl19
 -->
