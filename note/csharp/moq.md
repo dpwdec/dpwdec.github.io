@@ -11,9 +11,14 @@ You can **use Moq in a test suite** by using the `Moq` namespace.
 using Moq;
 ```
 
+You can **create a new interface mock** by creating a `Mock` class instance, typed with the interface you want to mock.
+```csharp
+var mock = new Mock<IMyInterface>();
+```
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjUyNjc0NjFdfQ==
+eyJoaXN0b3J5IjpbMTU3NDYxMTk3MSwtMjAyNTI2NzQ2MV19
 -->
