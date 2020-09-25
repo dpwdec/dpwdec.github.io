@@ -4,10 +4,6 @@ layout: page
 exclude: true
 ---
 
-To **install NUnit** you need to use `Nuget` to install 	`NUnit`.
-```powershell
-```
-
 To **make NUnit tests runnable in visual studio** you also need to install the `NUnit3TestAdapter`. This allows visual studio's test runner to recognise the NUnit tests.
 
 You can **add a new testing project** by `RMB` clicking on the project file and going to `Add -> New Project` and then selecting the `C# -> Tests` section and choosing a test project. The **accepted naming convention for these projects** is `NameOfProject.UnitTests`, or some other test descriptor separate by a `.` period.
@@ -79,7 +75,7 @@ int i = 1;
 Assert.IsTrue(i == 1);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTE5NTY1NSwxNDU2OTMwNzM0LC0xND
-A1MTAxMDYwLC0xNzMyMDcyNTc0LDEyMzQ0NTg4NDYsLTIwMjA1
-NTc0MjMsLTE3ODk3NTE5OTldfQ==
+eyJoaXN0b3J5IjpbLTMzOTY4NDQyNCwtNTQ1MTk1NjU1LDE0NT
+Y5MzA3MzQsLTE0MDUxMDEwNjAsLTE3MzIwNzI1NzQsMTIzNDQ1
+ODg0NiwtMjAyMDU1NzQyMywtMTc4OTc1MTk5OV19
 -->
