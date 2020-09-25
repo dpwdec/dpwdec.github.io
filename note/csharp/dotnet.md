@@ -24,6 +24,11 @@ You can **build your project** (without running it), using the `build` command.
 $ dotnet build
 ```
 
+You can **run tests from a test project** by using the `test` command.
+```bash
+$ dotnet test
+```
+
 You can **structure the `namespace`s of your projects** around folder hierarchy, with the project name being the highest level `namespace` followed by subfolder names separated by a `.` period. For example in the following folder structure, the `namespace` for `bar.cs`, lying in the `Project` folder would simply be `Project`.
 ```
 Project
@@ -488,11 +493,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTA4Nzc5MDEsLTEwMzMxNDgzMDksMT
-E4MDU3MDQ0NCwzOTE3MzI1MjIsLTE1Njg4ODkzMDEsLTkwNzYw
-ODM3NCwxMjkyODE1NTA1LDY2ODc5MjQ5NiwzNTg5NTcyMzMsMT
-A5MjI5Njg2MywzNDE4NjM2MzUsMjAwODQ1NzM1NSwtMTIzOTY4
-NTA1NCwxODk3NzY4NDgxLC0xMjU1NjAwNjkyLDEyNTMzNTEyND
-QsMTM5NDY4Njc5NywxMjU1Mjg3MTU3LC02NzY1NDAzMzAsLTEx
-NTkwNTMyNzNdfQ==
+eyJoaXN0b3J5IjpbLTQwMzIyOTIzNywtMTY1MDg3NzkwMSwtMT
+AzMzE0ODMwOSwxMTgwNTcwNDQ0LDM5MTczMjUyMiwtMTU2ODg4
+OTMwMSwtOTA3NjA4Mzc0LDEyOTI4MTU1MDUsNjY4NzkyNDk2LD
+M1ODk1NzIzMywxMDkyMjk2ODYzLDM0MTg2MzYzNSwyMDA4NDU3
+MzU1LC0xMjM5Njg1MDU0LDE4OTc3Njg0ODEsLTEyNTU2MDA2OT
+IsMTI1MzM1MTI0NCwxMzk0Njg2Nzk3LDEyNTUyODcxNTcsLTY3
+NjU0MDMzMF19
 -->
