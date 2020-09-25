@@ -16,9 +16,12 @@ You can **create a new interface mock** by creating a `Mock` class instance, typ
 var mock = new Mock<IMyInterface>();
 ```
 
+The `Mock` class 
+
 You can **set a mock return value for a method and particular input** by using the a `Mock` instance's `Setup` method. This takes a lambda with the object under tests followed by the method and 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjYzNzIwLC0yMDI1MjY3NDYxXX0=
+eyJoaXN0b3J5IjpbMTMyNTgxMzQ2MywtNTI2NjM3MjAsLTIwMj
+UyNjc0NjFdfQ==
 -->
