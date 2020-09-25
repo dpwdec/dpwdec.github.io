@@ -1,7 +1,10 @@
+---
+title: Rider
+layout: page
+exclude: true
+---
 
-
-
-> Written with [StackEdit](https://stackedit.io/).
+You can **shower Rider preferences** using `AP + ,`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTc2OTc1OTg2XX0=
 -->
