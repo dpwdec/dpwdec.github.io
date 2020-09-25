@@ -26,9 +26,11 @@ var myInterface = mock.Object.MyMethod();
 ```
 
 You can **set a mock return value for a method and particular input** by using the a `Mock` instance's `Setup` method. This takes a lambda with the object under tests followed by the method and input parameters, the result of this then calls a `Returns` method where the mock return type is specified.
-``
+```csharp
+mock.Setup(x => x.MyMethod("input")).Returns(200);
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyNzg2NDY0LC01MjY2MzcyMCwtMjAyNT
+eyJoaXN0b3J5IjpbNDgxODM1NDk3LC01MjY2MzcyMCwtMjAyNT
 I2NzQ2MV19
 -->
