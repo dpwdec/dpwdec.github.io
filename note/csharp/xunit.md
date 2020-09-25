@@ -13,9 +13,20 @@ There is a convention to **name the object you are testing** with a `private rea
 private readonly MyClass _sut;
 ```
 
-XUnit **creates a new instance of the test class for each test that is run** therefore, you can **place setup for the tests inside the class body or constructor**.
+XUnit **creates a new instance of the test class for each test that is run** therefore, you can **place set up for the tests inside the class body or constructor**.
 ```csharp
+public class MyTestClass
+{
+  // class body set up here
+  private readonly MyObject = new MyObject();
 
+  public MyTestClass
+  {
+    // constructor set up here
+  }
+
+  // ... individual tests ...
+}
 ```
 
 You can **create a new synchronous unit test** by creating a new `void` method and decorating it with the `[Fact]` attribute.
@@ -50,6 +61,6 @@ Assert.Equal(1, 1);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTQ0ODA2OCwyMTE4OTQ4NTExLC0yMD
+eyJoaXN0b3J5IjpbMTk2MjMwNDc0NiwyMTE4OTQ4NTExLC0yMD
 YxNzE2NDg5XX0=
 -->
