@@ -58,6 +58,8 @@ public async MyMethod()
 You can **`await` the completion of multiple tasks simultaneously** by using the `WhenAll` method. This method accepts an arbitrary number of tasks as its arguments and returns another `Task` that resolves when all the supplied tasks complete.
 ```csharp
 Task<string> task1 = GetMessageAsync();
+Task<string> task2 = GetMessageAsync();
+Task<string> task3 = GetMessageAsync();
 ```
 
 ### Delay
@@ -70,7 +72,7 @@ Task.Delay(3000).Wait();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjk1ODMxNiwxNTE1MjUyMTAyLC0xOT
+eyJoaXN0b3J5IjpbLTk5MDAwMjk1NSwxNTE1MjUyMTAyLC0xOT
 EzOTIzMTY2LDEzMTU2MjAyMTUsLTEyMTM5NTQ4NzQsNTQxOTk3
 NzQzLC0yNzM5NTk1MzcsLTE2Njg3NjcxM119
 -->
