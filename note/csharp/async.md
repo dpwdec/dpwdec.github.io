@@ -22,9 +22,12 @@ You can **define an asynchronous method** by returning a `Task<TResult>` from th
 ```csharp
 public Task<string> GetMessageAsync()
 {
+  Task.Delay(3000).Wait();
   return "Hello"
 }
 ```
+
+`Task`s **begin running once the method that returns them is called**. This means you can trigger an asynchronous task 
 
 You can **make a thread wait for a set period of time** using the `Task` object with the `Delay` and `Wait` methods. `Delay` takes the wait time in milliseconds.
 ```csharp
@@ -32,6 +35,6 @@ You can **make a thread wait for a set period of time** using the `Task` object 
 Task.Delay(3000).Wait();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTM5NTQ4NzQsNTQxOTk3NzQzLC0yNz
-M5NTk1MzcsLTE2Njg3NjcxM119
+eyJoaXN0b3J5IjpbLTMzMTM3MDA3MiwtMTIxMzk1NDg3NCw1ND
+E5OTc3NDMsLTI3Mzk1OTUzNywtMTY2ODc2NzEzXX0=
 -->
