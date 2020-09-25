@@ -485,19 +485,19 @@ DateTime.Now;
 
 You can **import a reference to the classes / files into different project** (e.g. a test project) by `RMB` clicking on the project you want to import into and selecting `Add -> Reference`.
 
-## VS Code
+## VS Code / Rider Shortcuts
 
 You can **get a shortcut code snippet for the creation of a class property** by typing `prop` into your editor within a class and pressing `TAB`.
 
-You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`. *Also works in 
+You can **get a code snippet for class constructors** by typing `ctor` followed by `TAB`.
 
-You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`.
+You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDMxMzA0OSwtNDAzMjI5MjM3LC0xNj
-UwODc3OTAxLC0xMDMzMTQ4MzA5LDExODA1NzA0NDQsMzkxNzMy
-NTIyLC0xNTY4ODg5MzAxLC05MDc2MDgzNzQsMTI5MjgxNTUwNS
-w2Njg3OTI0OTYsMzU4OTU3MjMzLDEwOTIyOTY4NjMsMzQxODYz
-NjM1LDIwMDg0NTczNTUsLTEyMzk2ODUwNTQsMTg5Nzc2ODQ4MS
-wtMTI1NTYwMDY5MiwxMjUzMzUxMjQ0LDEzOTQ2ODY3OTcsMTI1
-NTI4NzE1N119
+eyJoaXN0b3J5IjpbLTE1NTgwMDAwNjAsLTQwMzIyOTIzNywtMT
+Y1MDg3NzkwMSwtMTAzMzE0ODMwOSwxMTgwNTcwNDQ0LDM5MTcz
+MjUyMiwtMTU2ODg4OTMwMSwtOTA3NjA4Mzc0LDEyOTI4MTU1MD
+UsNjY4NzkyNDk2LDM1ODk1NzIzMywxMDkyMjk2ODYzLDM0MTg2
+MzYzNSwyMDA4NDU3MzU1LC0xMjM5Njg1MDU0LDE4OTc3Njg0OD
+EsLTEyNTU2MDA2OTIsMTI1MzM1MTI0NCwxMzk0Njg2Nzk3LDEy
+NTUyODcxNTddfQ==
 -->
