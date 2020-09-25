@@ -30,9 +30,9 @@ public async MyMethod()
 
 `Task` is the .NET **equivalent of a Promise in functional languages**. A `Task` object wraps the result of asynchronous code that can be `await`ed, allowing you to trigger multiple `Task`s running from an `async` code block.
 
-You can **define an asynchronous method** by returning a `Task<TResult>` from the method, with the type set to the thing that the task should resolve to. This resolution takes place when the `await` keyword is applied to the result of the method that returns a `Task`.
+You can **define an asynchronous method** by returning a `Task<TResult>` from the method, with the type set to the thing that the task should resolve to. This resolution takes place when the `await` keyword is applied to the result of the method that returns a `Task`. You only need to re `TResult` type contained in the `Task` is automatically
 ```csharp
-public Task<string> GetMessageAsync()
+public async Task<string> GetMessageAsync()
 {
   Task.Delay(3000).Wait();
   return "Hello"
@@ -57,6 +57,7 @@ You can **make a thread wait for a set period of time** using the `Task` object 
 Task.Delay(3000).Wait();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTYyMDIxNSwtMTIxMzk1NDg3NCw1ND
-E5OTc3NDMsLTI3Mzk1OTUzNywtMTY2ODc2NzEzXX0=
+eyJoaXN0b3J5IjpbLTE2NDMyMDk3MjAsMTMxNTYyMDIxNSwtMT
+IxMzk1NDg3NCw1NDE5OTc3NDMsLTI3Mzk1OTUzNywtMTY2ODc2
+NzEzXX0=
 -->
