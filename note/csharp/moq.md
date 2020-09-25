@@ -16,7 +16,19 @@ You can **create a new interface mock** by creating a `Mock` class instance, typ
 var mock = new Mock<IMyInterface>();
 ```
 
-You can **create a new class mock** by creating a `Mock` class instance, typed with the class you want to mock. Unlike interfaces **classes
+You can **create a new class mock** by creating a `Mock` class instance, typed with the class you want to mock. Unlike interfaces **classes must be `public` and any mocked methods must be marked as `virtual`**.
+```csharp
+// mockable class
+public class MyClass
+{
+  public virtual int DoSomething()
+  {
+    return 10;
+  }
+}
+
+var mock = new Mock<MyClass>();
+```
 
 The **`Mock` class wraps an instance of mocked structure and allows for configuration**, it **cannot directly be used AS an instance**, instead, to **access the mock instance and use it as a dependency or to make assertions against** use the `Object` property of the `Mock` object.
 ```csharp
@@ -33,8 +45,7 @@ mock.Setup(x => x.MyMethod("input")).Returns(200);
 ```
 
 You can **define multiple returns for different input values**. If you use an undefined input moq will use the first defined return type.
-```csharp
-mock.Setup(x => x.MyMethod("input")).Returns(200);
+```csharp-mock.Setup(x => x.MyMethod("input")).Returns(200);
 mock.Setup(x => x.MyMethod("output")).Returns(300);
 
 mock.Object.MyMethod("input"); // => 200
@@ -43,6 +54,6 @@ mock.Object.MyMethod("other"); // => 200
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NjAyNDQ4Myw2NTkyNjU0MzQsLTE1OT
-gyMzM3NjcsLTUyNjYzNzIwLC0yMDI1MjY3NDYxXX0=
+eyJoaXN0b3J5IjpbLTM5MzU2MjUxLDY1OTI2NTQzNCwtMTU5OD
+IzMzc2NywtNTI2NjM3MjAsLTIwMjUyNjc0NjFdfQ==
 -->
