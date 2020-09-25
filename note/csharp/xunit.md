@@ -18,12 +18,24 @@ You can **create a new synchronous unit test** by creating a new `void` method a
 [Fact]
 public void MyTest_TestingFramework_Passes()
 {
-  Assert.Tr
+  Assert.True(true);
 }
+```
+
+## Assert
+
+You can **assert that something is true** by using the `True` method.
+```csharp
+Assert.True(true);
+```
+
+You can **assert that two things are equal** with the `Equal` method.
+```csharp
+Assert.Equal(1, 1);
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNDQ4NDA5NywyMTE4OTQ4NTExLC0yMD
-YxNzE2NDg5XX0=
+eyJoaXN0b3J5IjpbMTk3NTc5NzQxLDIxMTg5NDg1MTEsLTIwNj
+E3MTY0ODldfQ==
 -->
