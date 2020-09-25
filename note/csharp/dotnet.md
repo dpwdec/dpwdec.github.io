@@ -424,6 +424,8 @@ interface MyInterface
 }
 ```
 
+You can **create an inter**
+
 ## References
 
 What does `Add Reference` actually do?
@@ -493,11 +495,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTgwMDAwNjAsLTQwMzIyOTIzNywtMT
-Y1MDg3NzkwMSwtMTAzMzE0ODMwOSwxMTgwNTcwNDQ0LDM5MTcz
-MjUyMiwtMTU2ODg4OTMwMSwtOTA3NjA4Mzc0LDEyOTI4MTU1MD
-UsNjY4NzkyNDk2LDM1ODk1NzIzMywxMDkyMjk2ODYzLDM0MTg2
-MzYzNSwyMDA4NDU3MzU1LC0xMjM5Njg1MDU0LDE4OTc3Njg0OD
-EsLTEyNTU2MDA2OTIsMTI1MzM1MTI0NCwxMzk0Njg2Nzk3LDEy
-NTUyODcxNTddfQ==
+eyJoaXN0b3J5IjpbOTI1MzE1OTQyLC0xNTU4MDAwMDYwLC00MD
+MyMjkyMzcsLTE2NTA4Nzc5MDEsLTEwMzMxNDgzMDksMTE4MDU3
+MDQ0NCwzOTE3MzI1MjIsLTE1Njg4ODkzMDEsLTkwNzYwODM3NC
+wxMjkyODE1NTA1LDY2ODc5MjQ5NiwzNTg5NTcyMzMsMTA5MjI5
+Njg2MywzNDE4NjM2MzUsMjAwODQ1NzM1NSwtMTIzOTY4NTA1NC
+wxODk3NzY4NDgxLC0xMjU1NjAwNjkyLDEyNTMzNTEyNDQsMTM5
+NDY4Njc5N119
 -->
