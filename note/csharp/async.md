@@ -71,6 +71,7 @@ Task<string> task2 = GetMessageAsync();
 Task<string> task3 = GetMessageAsync();
 
 string[] results = await Task.WhenAll(task1, task2, task3);
+// can also be written as: var results = await Task.WhenAll(task1, task2, task3);
 
 for(var message in results) {
   // iterate through each message
@@ -87,7 +88,7 @@ Task.Delay(3000).Wait();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NzgzODQ2MCwxNTE1MjUyMTAyLC0xOT
+eyJoaXN0b3J5IjpbLTk4NzMyMzcxNCwxNTE1MjUyMTAyLC0xOT
 EzOTIzMTY2LDEzMTU2MjAyMTUsLTEyMTM5NTQ4NzQsNTQxOTk3
 NzQzLC0yNzM5NTk1MzcsLTE2Njg3NjcxM119
 -->
