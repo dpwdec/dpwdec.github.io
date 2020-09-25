@@ -45,7 +45,8 @@ mock.Setup(x => x.MyMethod("input")).Returns(200);
 ```
 
 You can **define multiple returns for different input values**. If you use an undefined input moq will use the first defined return type.
-```csharp-mock.Setup(x => x.MyMethod("input")).Returns(200);
+```csharp
+mock.Setup(x => x.MyMethod("input")).Returns(200);
 mock.Setup(x => x.MyMethod("output")).Returns(300);
 
 mock.Object.MyMethod("input"); // => 200
@@ -54,6 +55,6 @@ mock.Object.MyMethod("other"); // => 200
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzU2MjUxLDY1OTI2NTQzNCwtMTU5OD
-IzMzc2NywtNTI2NjM3MjAsLTIwMjUyNjc0NjFdfQ==
+eyJoaXN0b3J5IjpbMTk2MzA1OTIwMCw2NTkyNjU0MzQsLTE1OT
+gyMzM3NjcsLTUyNjYzNzIwLC0yMDI1MjY3NDYxXX0=
 -->
