@@ -12,6 +12,8 @@ public async MyMethod()
 }
 ```
 
+awai
+
 ## Task
 
 `Task` is the .NET **equivalent of a Promise in functional languages**. A `Task` object wraps the result of asynchronous code that can be `await`ed, allowing you to trigger multiple `Task`s running from an `async` code block.
@@ -30,6 +32,6 @@ You can **make a thread wait for a set period of time** using the `Task` object 
 Task.Delay(3000).Wait();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxOTk3NzQzLC0yNzM5NTk1MzcsLTE2Nj
-g3NjcxM119
+eyJoaXN0b3J5IjpbMTMzNDIwMzM3LDU0MTk5Nzc0MywtMjczOT
+U5NTM3LC0xNjY4NzY3MTNdfQ==
 -->
