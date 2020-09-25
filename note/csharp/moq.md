@@ -72,11 +72,14 @@ mock.Object.MyMethod("other"); // => 200
 
 # It
 
-You can **use the `It` object to help make mock input and output mappings more semantically clear** when defining mock rules.
+You can **use the `It` object to help make mock input and output mappings more semantically clear** when defining mock rules for a test.
 
-You can **make define output for ANY valid input** by using the `IsAny` method with the type that would be pa
+You can **make define output for ANY valid input** by using the `IsAny` method with the type that would be passed in. The example below defines behaviour for this mock that any `string` passed into the method will return
+```csharp
+mock.SetUp(x => x.MyMethod(It.IsAny<string>)).Returns(null);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxNTQxOTA3LC0zMTUzOTU5NDYsMTk2Mz
-A1OTIwMCw2NTkyNjU0MzQsLTE1OTgyMzM3NjcsLTUyNjYzNzIw
-LC0yMDI1MjY3NDYxXX0=
+eyJoaXN0b3J5IjpbLTE5MTkwODYwMDUsLTMxNTM5NTk0NiwxOT
+YzMDU5MjAwLDY1OTI2NTQzNCwtMTU5ODIzMzc2NywtNTI2NjM3
+MjAsLTIwMjUyNjc0NjFdfQ==
 -->
