@@ -18,11 +18,12 @@ You can **create a new synchronous unit test** by creating a new `void` method a
 [Fact]
 public void MyTest_TestingFramework_Passes()
 {
-  
+  Assert.Tr
 }
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODk0ODUxMSwtMjA2MTcxNjQ4OV19
+eyJoaXN0b3J5IjpbMTgyNDQ4NDA5NywyMTE4OTQ4NTExLC0yMD
+YxNzE2NDg5XX0=
 -->
