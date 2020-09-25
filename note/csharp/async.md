@@ -60,7 +60,11 @@ You can **`await` the completion of multiple tasks simultaneously** by using the
 Task<string> task1 = GetMessageAsync();
 Task<string> task2 = GetMessageAsync();
 Task<string> task3 = GetMessageAsync();
+
+await Task.WhenAll(task1, task2, task3);
 ```
+
+You can **get the combined results of a `WhenAll` call as a collection**
 
 ### Delay
 
@@ -72,7 +76,7 @@ Task.Delay(3000).Wait();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDAwMjk1NSwxNTE1MjUyMTAyLC0xOT
-EzOTIzMTY2LDEzMTU2MjAyMTUsLTEyMTM5NTQ4NzQsNTQxOTk3
-NzQzLC0yNzM5NTk1MzcsLTE2Njg3NjcxM119
+eyJoaXN0b3J5IjpbLTEyNTg2NDk0NTMsMTUxNTI1MjEwMiwtMT
+kxMzkyMzE2NiwxMzE1NjIwMjE1LC0xMjEzOTU0ODc0LDU0MTk5
+Nzc0MywtMjczOTU5NTM3LC0xNjY4NzY3MTNdfQ==
 -->
