@@ -336,8 +336,8 @@ let chunks = list.chunks(2) // => [[1, 2], [3, 4], [5, 6]]
 You can **check if a `Vec` contains a value** by using the `any` function on a vec iterator.
 ```rust
 let list = vec![1, 2, 3, 4, 5, 6];
-list.iter().any(|&x| x == 4); // = > true
-list.iter().any(
+list.iter().any(|&x| x == 4); // => true
+list.iter().any(|&x| x == 7); // => false
 ```
 
 ## Traits
@@ -485,5 +485,5 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTkyMDY0MV19
+eyJoaXN0b3J5IjpbNjYwMTA2NzE4XX0=
 -->
