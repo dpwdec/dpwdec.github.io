@@ -32,7 +32,9 @@ https://discordapp.com/api/oauth2/authorize?scope=bot&client_id=XXX
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczMTA2NTMsLTgyNTQ5NjA4OSwyMDkxOD
-kzNjU0LC0yMDQ0NDE5NDk1XX0=
+eyJoaXN0b3J5IjpbLTE0ODYwNTMzNTEsNTczMTA2NTMsLTgyNT
+Q5NjA4OSwyMDkxODkzNjU0LC0yMDQ0NDE5NDk1XX0=
 -->
