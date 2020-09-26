@@ -12,7 +12,7 @@ It is **not recommended to interact directly with the Discord API** instead ther
 
 **Applications that you create are linked to your discord account**. You can **create a new discord application** by going to the [Developer Dashboard](https://discord.com/developers/applications/) and clicking `New Application`.
 
-Applications come with a `client id` on their hompage which can used for log in and authentication purposes.
+Applications come with a `CLIENT ID` on their hompage which can used for log in and authentication purposes.
 
 ## Bots
 
@@ -22,7 +22,10 @@ You can **create a new bot** by going to the `Bot` tab and selecting `New Bot` i
 
 Bots have a **personal login** shown at the top of the bot page. The **bot token**, displayed on the bot page is used to control the bot account so **KEEP IT PRIVATE**.
 
-You can **add a bot to a discord server that you have admin privileges on** by usi
+You can **add a bot to a discord server that you have admin privileges on** by using an access url with `client_id` value substituted for your application's `CLIENT ID`.
+```http
+https://discordapp.com/api/oauth2/authorize?scope=bot&client_id=XXX
+```
 
 
 
@@ -30,6 +33,6 @@ You can **add a bot to a discord server that you have admin privileges on** by u
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTUxOTkzNTcsLTgyNTQ5NjA4OSwyMD
-kxODkzNjU0LC0yMDQ0NDE5NDk1XX0=
+eyJoaXN0b3J5IjpbNTczMTA2NTMsLTgyNTQ5NjA4OSwyMDkxOD
+kzNjU0LC0yMDQ0NDE5NDk1XX0=
 -->
