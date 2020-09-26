@@ -1,5 +1,5 @@
 ---
-title: Rust: Lifetimes
+title: Lifetimes
 layout: page
 exclude: true
 ---
@@ -9,5 +9,5 @@ You can **match to elided rust lifetimes** by using the wildcard `'_` lifetime s
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTYxNDkzNl19
+eyJoaXN0b3J5IjpbLTg5MjM3Njg3OCwtNjA1NjE0OTM2XX0=
 -->
