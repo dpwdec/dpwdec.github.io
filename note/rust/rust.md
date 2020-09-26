@@ -333,6 +333,13 @@ let list = vec![1, 2, 3, 4, 5, 6];
 let chunks = list.chunks(2) // => [[1, 2], [3, 4], [5, 6]]
 ```
 
+You can **check if a `Vec` contains a value** by using the `any` function on a vec iterator.
+```rust
+let list = vec![1, 2, 3, 4, 5, 6];
+list.iter().any(|&x| x == 4); // = > true
+list.iter().any(
+```
+
 ## Traits
 
 Traits are used to define shared behaviour on generics by specifying that some set of generic objects in our system have a shared set things they can do. They are similar to `interfaces` in other languages. 
@@ -478,5 +485,5 @@ The `gen_range()` function is inclusive at its bottom end and exclusive at its t
 
 `life times`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwODU2OTI5XX0=
+eyJoaXN0b3J5IjpbLTkwOTkyMDY0MV19
 -->
