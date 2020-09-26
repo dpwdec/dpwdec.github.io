@@ -8,6 +8,7 @@ It is **not recommended to interact directly with the Discord API** instead ther
 
 **Applications that you create are linked to your discord account**. You can **create a new discord application** by going to the [Developer Dashboard](https://discord.com/developers/applications/) and clicking `New Application`.
 
+`Guild` is the **internal technical name used for server** in discord documentation and by developers.
 
 ## Bots
 
@@ -23,6 +24,6 @@ Bots have a **personal login** shown at the top of the bot page. The **bot token
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTk5NjQ1NjEsMjA5MTg5MzY1NCwtMj
-A0NDQxOTQ5NV19
+eyJoaXN0b3J5IjpbLTgyNTQ5NjA4OSwyMDkxODkzNjU0LC0yMD
+Q0NDE5NDk1XX0=
 -->
