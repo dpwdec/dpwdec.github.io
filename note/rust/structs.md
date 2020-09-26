@@ -1,5 +1,5 @@
 ---
-title: Rust: Structs
+title: Structs
 layout: page
 exclude: true
 ---
@@ -10,5 +10,5 @@ struct Color(u16, u16, u16);
 struct IdCode(String, String, i32);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTQ4MjQxNV19
+eyJoaXN0b3J5IjpbMTk2MDM0MTM3LDE3OTk0ODI0MTVdfQ==
 -->
