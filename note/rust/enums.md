@@ -1,5 +1,5 @@
 ---
-title: Rust: Enums
+title: Enums
 layout: page
 exclude: true
 ---
@@ -52,5 +52,5 @@ You can **implement methods on enums**.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTYyMjc3OV19
+eyJoaXN0b3J5IjpbLTE4MTUxMTUxLDE1NDk2MjI3NzldfQ==
 -->
