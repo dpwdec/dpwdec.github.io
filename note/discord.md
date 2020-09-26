@@ -8,10 +8,17 @@ It is **not recommended to interact directly with the Discord API** instead ther
 
 **Applications that you create are linked to your discord account**. You can **create a new discord application** by going to the [Developer Dashboard](https://discord.com/developers/applications/) and clicking `New Application`.
 
-**Bots** are used to **control actions that happen on your server**. You can **create a new bot** by going to the `Bot` tab and selecting `New Bot` in the Developer Dashboard.
+
+## Bots
+
+**Bots** are used to **control actions that happen on your server**. 
+
+You can **create a new bot** by going to the `Bot` tab and selecting `New Bot` in the Developer Dashboard.
+
+Bots have a **personal login** shown at the top of the bot page. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Mjk2NDczNCwyMDkxODkzNjU0LC0yMD
+eyJoaXN0b3J5IjpbMTk1Njc1MTc2NiwyMDkxODkzNjU0LC0yMD
 Q0NDE5NDk1XX0=
 -->
