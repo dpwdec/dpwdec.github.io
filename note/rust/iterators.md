@@ -1,5 +1,5 @@
 ---
-title: Rust: Iterators
+title: Iterators
 layout: page
 exclude: true
 ---
@@ -20,5 +20,6 @@ fn return_split(word: &str) -> impl Iterator<Item = &str> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODc4OTY4MSwtNzE2MDU1MDYyXX0=
+eyJoaXN0b3J5IjpbLTExMzc0NDg3MzEsLTc2ODc4OTY4MSwtNz
+E2MDU1MDYyXX0=
 -->
