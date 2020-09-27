@@ -115,7 +115,12 @@ async () => {
 }
 ```
 
-You can **get a message in a channel** by using the `fetch
+You can **get a message in a channel by id** by using the `fetch` method on the `messages` property of the channel. This is an asynchronous function that returns a `Promise`.
+```js
+async () => {
+  const message = await channel.messages.fetch(messageId);
+}
+```
 
 # User
 
@@ -131,8 +136,8 @@ if(user instanceof Discord.ClientUser) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyOTI1MTYzLC0xNzMwMjY0OTgwLC01ND
-cxMjM1MjQsLTE1Nzc5NDY5NDAsNzc0MTQ5MjQ1LDE3MTMyMDAz
-MjIsOTMxNTE5NTkyLDE3Njk5NDYwMTUsLTE5NTA3MzIzNDYsLT
-EzNjA3MTEyMThdfQ==
+eyJoaXN0b3J5IjpbLTEzODY0NDAzMiwtMTczMDI2NDk4MCwtNT
+Q3MTIzNTI0LC0xNTc3OTQ2OTQwLDc3NDE0OTI0NSwxNzEzMjAw
+MzIyLDkzMTUxOTU5MiwxNzY5OTQ2MDE1LC0xOTUwNzMyMzQ2LC
+0xMzYwNzExMjE4XX0=
 -->
