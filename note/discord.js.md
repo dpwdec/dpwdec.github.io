@@ -30,11 +30,14 @@ You can **connect your client to the server** and bring it online, by using the 
 client.login('<bot token>');
 ```
 
-### On
+### Events
 
-The client 
+The client object **comes with many event triggers** that allow it to react to different actions. Events to react to are indicated by an argument to an event handling method on `client` followed by a lambda describing the action to be taken.
+
+You can **react to an event ONCE**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDQwOTk5NCwtMTM2MDcxMTIxOF19
+eyJoaXN0b3J5IjpbLTEwMDkyMzg4MjgsLTEzNjA3MTEyMThdfQ
+==
 -->
