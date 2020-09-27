@@ -16,6 +16,11 @@ You can **start using the `Discord.js` library** by `require`ing it.
 const Discord = require('discord.js');
 ```
 
+You can **get references to other `Discord.js` modules** by using the `.` dot syntax on the `Discord` object.
+```js
+Discord.User; // => return the User class
+```
+
 ## Client
 
 The client object **represents your actor on the guild (server)** and is the main way you can control its actions.
@@ -76,6 +81,6 @@ channel.toString(); // => <#123456789012345678>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxNTE5NTkyLDE3Njk5NDYwMTUsLTE5NT
-A3MzIzNDYsLTEzNjA3MTEyMThdfQ==
+eyJoaXN0b3J5IjpbOTA4MjQzMzYxLDkzMTUxOTU5MiwxNzY5OT
+Q2MDE1LC0xOTUwNzMyMzQ2LC0xMzYwNzExMjE4XX0=
 -->
