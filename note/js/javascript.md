@@ -429,6 +429,10 @@ counter[Symbol.iterator] = () => {
 }
 ```
 
+## Map
+
+
+
 ## Functions
 
 You can **define a function** using the `function` keyword.
@@ -1287,5 +1291,5 @@ export { Foo, Bar, Baz }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2MTAwOTQwLC01NjE5NDI3NDVdfQ==
+eyJoaXN0b3J5IjpbNzUyNDY1NjcyLC01NjE5NDI3NDVdfQ==
 -->
