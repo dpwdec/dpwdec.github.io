@@ -431,7 +431,7 @@ counter[Symbol.iterator] = () => {
 
 ## Map
 
-
+You can ** construct an Array from an iterator** using the `Array.from` method.
 
 ## Functions
 
@@ -1291,5 +1291,5 @@ export { Foo, Bar, Baz }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyNDY1NjcyLC01NjE5NDI3NDVdfQ==
+eyJoaXN0b3J5IjpbLTIwMDczODcxMDQsLTU2MTk0Mjc0NV19
 -->
