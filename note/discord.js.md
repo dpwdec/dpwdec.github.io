@@ -90,15 +90,21 @@ channel.toString(); // => <#123456789012345678>
 
 # User
 
+The `User` class is the **base class of all user types**.
+
+Bot accounts have are represented by a `ClieUser`
+
 A `User` corresponds to a **describes any sort of actor on your server INCLUDING BOTS**. A `ClientUser` is a sub-class of `User` that **describes bots**.
 
 You can **check whether a user is a bot** by using JavaScript's `instanceof` function. 
 ```js
-
+if(user instanceof Discord.ClientUser) {
+  console.log("This user is a bot");
+}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzAwNzIzMCw3NzQxNDkyNDUsMTcxMz
+eyJoaXN0b3J5IjpbLTk2NzY4ODI2OSw3NzQxNDkyNDUsMTcxMz
 IwMDMyMiw5MzE1MTk1OTIsMTc2OTk0NjAxNSwtMTk1MDczMjM0
 NiwtMTM2MDcxMTIxOF19
 -->
