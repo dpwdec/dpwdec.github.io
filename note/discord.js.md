@@ -35,9 +35,11 @@ You can **connect your client to the server** and bring it online, by using the 
 client.login('<bot token>');
 ```
 
-### Events
+## Client Events
 
 The client object **comes with many event triggers** that allow it to react to different actions. Events to react to are indicated by an argument to an event handling method on `client` followed by a lambda describing the action to be taken.
+
+### Event methods
 
 You can **react to an event ONCE** by using the `once` method.
 ```js
@@ -53,6 +55,8 @@ client.on('event', () => {
 });
 ```
 
+### Ready
+
 You can **do something when the client successfully logs in** by using the `ready` event.
 ```js
 client.once('ready', () => {
@@ -60,12 +64,16 @@ client.once('ready', () => {
 });
 ```
 
+### Message Events
+
 You can **do something when a message is emitted** using the `'message'` event. This supplies a `message` object as an argument to the event lambda.
 ```js
 client.on('message', message => {
   console.log(message.content);
 });
 ```
+
+
 
 ### Gotchas
 
@@ -102,7 +110,7 @@ if(user instanceof Discord.ClientUser) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzc5NDY5NDAsNzc0MTQ5MjQ1LDE3MT
-MyMDAzMjIsOTMxNTE5NTkyLDE3Njk5NDYwMTUsLTE5NTA3MzIz
-NDYsLTEzNjA3MTEyMThdfQ==
+eyJoaXN0b3J5IjpbMTQ3MjU5OTU2NiwtMTU3Nzk0Njk0MCw3Nz
+QxNDkyNDUsMTcxMzIwMDMyMiw5MzE1MTk1OTIsMTc2OTk0NjAx
+NSwtMTk1MDczMjM0NiwtMTM2MDcxMTIxOF19
 -->
