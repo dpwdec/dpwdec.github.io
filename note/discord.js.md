@@ -11,9 +11,16 @@ You can **install `Discord.js`** with `npm`.
 $ npm install discord.js
 ```
 
-## Connection
+You can **start using the `Discord.js` library** by `require`ing it.
+```js
+const Discord = require('discord.js');
+```
+
+## Client
+
+The client object **represents your actor onnt**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODg1MDIzMSwtMTM2MDcxMTIxOF19
+eyJoaXN0b3J5IjpbMTk2Mzg2MTA1MywtMTM2MDcxMTIxOF19
 -->
