@@ -90,13 +90,15 @@ channel.toString(); // => <#123456789012345678>
 
 # User
 
-You can **check what kind of user sent a message** by using JavaScript's `instanceof` function. A `User` corresponds to a **describes any sort of actor on your server INCLUDING BOTS**. A `ClientUser` is a sub-class of `User` that **describes bots**.
+A `User` corresponds to a **describes any sort of actor on your server INCLUDING BOTS**. A `ClientUser` is a sub-class of `User` that **describes bots**.
+
+You can **check whether a user is a bot** by using JavaScript's `instanceof` function. 
 ```js
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0MTQ5MjQ1LDE3MTMyMDAzMjIsOTMxNT
-E5NTkyLDE3Njk5NDYwMTUsLTE5NTA3MzIzNDYsLTEzNjA3MTEy
-MThdfQ==
+eyJoaXN0b3J5IjpbMTAzNzAwNzIzMCw3NzQxNDkyNDUsMTcxMz
+IwMDMyMiw5MzE1MTk1OTIsMTc2OTk0NjAxNSwtMTk1MDczMjM0
+NiwtMTM2MDcxMTIxOF19
 -->
