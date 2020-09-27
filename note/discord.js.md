@@ -25,9 +25,16 @@ You can **create a new client** using the `Discord.Client()` method.
 const client = new Discord.Client();
 ```
 
-You can **connect your client to the server**
+You can **connect your client to the server** and bring it online, by using the `client`'s `login` method with your `bot token` as an argument.
+```js
+client.login('<bot token>');
+```
+
+### On
+
+The client 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzMTU1NTkyLC0xMzYwNzExMjE4XX0=
+eyJoaXN0b3J5IjpbLTY3MDQwOTk5NCwtMTM2MDcxMTIxOF19
 -->
