@@ -105,7 +105,12 @@ message.reactions.cache.forEach(reaction => {
 });
 ```
 
-You can **get the associated emoji** o
+You can **get the associated emoji** of a reaction by using the `_emoji.name` property of each `MessageReaction` object.
+```js
+message.reactions.cache.forEach(reaction => {
+  reaction._emoji.name
+});
+```
  
 ## Channel
 
@@ -147,8 +152,8 @@ if(user instanceof Discord.ClientUser) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE3ODYzMzcsLTEzODY0NDAzMiwtMT
-czMDI2NDk4MCwtNTQ3MTIzNTI0LC0xNTc3OTQ2OTQwLDc3NDE0
-OTI0NSwxNzEzMjAwMzIyLDkzMTUxOTU5MiwxNzY5OTQ2MDE1LC
-0xOTUwNzMyMzQ2LC0xMzYwNzExMjE4XX0=
+eyJoaXN0b3J5IjpbLTkwOTMzODAwNiwtMTM4NjQ0MDMyLC0xNz
+MwMjY0OTgwLC01NDcxMjM1MjQsLTE1Nzc5NDY5NDAsNzc0MTQ5
+MjQ1LDE3MTMyMDAzMjIsOTMxNTE5NTkyLDE3Njk5NDYwMTUsLT
+E5NTA3MzIzNDYsLTEzNjA3MTEyMThdfQ==
 -->
