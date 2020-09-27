@@ -112,7 +112,12 @@ message.reactions.cache.forEach(reaction => {
 });
 ```
 
-You can also  **get a list of a **
+You can also  **get a list of associated reactions** by getting the `keys` from the `cache` object (a javascript `Map`) which returns a `MapIterator`, which can be used to construct an `Array` that can be then iterated through.
+```js
+Array.from(reactions.cache.keys()).forEach(key => {
+  console.log(key); //
+});
+```
 
 ## Channel
 
@@ -154,7 +159,7 @@ if(user instanceof Discord.ClientUser) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDE3NTUyOSwtOTA5MzM4MDA2LC0xMz
+eyJoaXN0b3J5IjpbLTg3OTMyNjA2MSwtOTA5MzM4MDA2LC0xMz
 g2NDQwMzIsLTE3MzAyNjQ5ODAsLTU0NzEyMzUyNCwtMTU3Nzk0
 Njk0MCw3NzQxNDkyNDUsMTcxMzIwMDMyMiw5MzE1MTk1OTIsMT
 c2OTk0NjAxNSwtMTk1MDczMjM0NiwtMTM2MDcxMTIxOF19
