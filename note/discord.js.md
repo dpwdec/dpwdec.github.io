@@ -34,10 +34,15 @@ client.login('<bot token>');
 
 The client object **comes with many event triggers** that allow it to react to different actions. Events to react to are indicated by an argument to an event handling method on `client` followed by a lambda describing the action to be taken.
 
-You can **react to an event ONCE**
+You can **react to an event ONCE** by using the `once` method. The `ready` event is **emitted when the client successfully logs in**.
+```js
+client.once('event', () => {
+  // action
+});
+```
 
+You can **do something when the client successfully logs in** by using the `ready`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDkyMzg4MjgsLTEzNjA3MTEyMThdfQ
-==
+eyJoaXN0b3J5IjpbMTA4NTE1NTcwOCwtMTM2MDcxMTIxOF19
 -->
