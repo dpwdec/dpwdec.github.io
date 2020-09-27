@@ -55,7 +55,7 @@ client.once('ready', () => {
 });
 ```
 
-You can **do something when a message is emitted** using the `message` event.
+You can **do something when a message is emitted** using the `'message'` event. This supplies a `message` object as an argument to the event lambda.
 ```js
 client.on('message', message => {
   console.log(message.content);
@@ -64,8 +64,11 @@ client.on('message', message => {
 
 ## Message
 
-
+You can **get the channel that a message was sent in** by using the `channel` property of `message`.
+```js
+message.channel;
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTU3Mzc1MSwtMTk1MDczMjM0NiwtMT
-M2MDcxMTIxOF19
+eyJoaXN0b3J5IjpbLTE1MzE1NjIzMzIsLTE5NTA3MzIzNDYsLT
+EzNjA3MTEyMThdfQ==
 -->
