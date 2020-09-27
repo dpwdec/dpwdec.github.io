@@ -110,8 +110,12 @@ channel.send('This is my message');
 
 You can **get a sent message as an object** by assigning the result of the `send` method to a variable. This is an asynchronous function so you will **need to `await`** then result of this method.
 ```js
-async () 
+async () => {
+  const myMessage = await channel.send('This is my message');
+}
 ```
+
+You can **get a message in a channel** by using the `fetch
 
 # User
 
@@ -127,8 +131,8 @@ if(user instanceof Discord.ClientUser) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxODQ5MzMsLTE3MzAyNjQ5ODAsLTU0Nz
-EyMzUyNCwtMTU3Nzk0Njk0MCw3NzQxNDkyNDUsMTcxMzIwMDMy
-Miw5MzE1MTk1OTIsMTc2OTk0NjAxNSwtMTk1MDczMjM0NiwtMT
-M2MDcxMTIxOF19
+eyJoaXN0b3J5IjpbNzQyOTI1MTYzLC0xNzMwMjY0OTgwLC01ND
+cxMjM1MjQsLTE1Nzc5NDY5NDAsNzc0MTQ5MjQ1LDE3MTMyMDAz
+MjIsOTMxNTE5NTkyLDE3Njk5NDYwMTUsLTE5NTA3MzIzNDYsLT
+EzNjA3MTEyMThdfQ==
 -->
