@@ -65,10 +65,11 @@ client.on('message', message => {
 ## Message
 
 You can **get the channel that a message was sent in** by using the `channel` property of `message`.
-```js
-message.channel;
-```
+
+## Channel
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzE1NjIzMzIsLTE5NTA3MzIzNDYsLT
-EzNjA3MTEyMThdfQ==
+eyJoaXN0b3J5IjpbMTc2OTk0NjAxNSwtMTk1MDczMjM0NiwtMT
+M2MDcxMTIxOF19
 -->
