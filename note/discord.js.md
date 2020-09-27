@@ -74,7 +74,8 @@ channel.toString(); // => <#123456789012345678>
 ```
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTM2NTU2MiwxNzY5OTQ2MDE1LC0xOT
-UwNzMyMzQ2LC0xMzYwNzExMjE4XX0=
+eyJoaXN0b3J5IjpbOTMxNTE5NTkyLDE3Njk5NDYwMTUsLTE5NT
+A3MzIzNDYsLTEzNjA3MTEyMThdfQ==
 -->
