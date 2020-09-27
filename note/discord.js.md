@@ -69,7 +69,13 @@ client.on('message', message => {
 
 ### Gotchas
 
-It's worth noting that **discord bots have no filters about w**
+It's worth noting that **discord bots have no filters about what events they will listen to** and can cause infinite loops, for example, if you listen to messages and also send messages, the messages your bot sends will be listened to by itself thus causing it to spam a channel.
+```js
+// BAD: INFINITE LOOP
+client.on('message', message => {
+  message.channel.send('hello');
+});
+```
 
 ## Message
 
@@ -85,6 +91,6 @@ channel.toString(); // => <#123456789012345678>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEyNjcwMTk4LDkzMTUxOTU5MiwxNzY5OT
-Q2MDE1LC0xOTUwNzMyMzQ2LC0xMzYwNzExMjE4XX0=
+eyJoaXN0b3J5IjpbMTcxMzIwMDMyMiw5MzE1MTk1OTIsMTc2OT
+k0NjAxNSwtMTk1MDczMjM0NiwtMTM2MDcxMTIxOF19
 -->
