@@ -68,8 +68,13 @@ You can **get the channel that a message was sent in** by using the `channel` pr
 
 ## Channel
 
-You can **get the name of your channel** 
+You can **get a unique string name for your channel** by using the `toString` method on the `channel` object. This isn't particularly useful though as its just a string in the format `<#123456789012345678>`
+```js
+channel.toString(); // => <#123456789012345678>
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODAxMzE5MywxNzY5OTQ2MDE1LC0xOT
+eyJoaXN0b3J5IjpbMTQ1MTM2NTU2MiwxNzY5OTQ2MDE1LC0xOT
 UwNzMyMzQ2LC0xMzYwNzExMjE4XX0=
 -->
