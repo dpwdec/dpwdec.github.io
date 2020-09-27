@@ -90,10 +90,13 @@ channel.toString(); // => <#123456789012345678>
 
 # User
 
-You can **check what kind of user sent a message** by using JavaScrupt's `instanceof` function. A `User` corresponds to a **describes any sort of actor on your server INCLUDING BOTS**. A `ClientUser` is a sub-class of `User` that **dfescr**
+You can **check what kind of user sent a message** by using JavaScript's `instanceof` function. A `User` corresponds to a **describes any sort of actor on your server INCLUDING BOTS**. A `ClientUser` is a sub-class of `User` that **describes bots**.
+```js
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzE2NjAwOSwxNzEzMjAwMzIyLDkzMT
-UxOTU5MiwxNzY5OTQ2MDE1LC0xOTUwNzMyMzQ2LC0xMzYwNzEx
-MjE4XX0=
+eyJoaXN0b3J5IjpbNzc0MTQ5MjQ1LDE3MTMyMDAzMjIsOTMxNT
+E5NTkyLDE3Njk5NDYwMTUsLTE5NTA3MzIzNDYsLTEzNjA3MTEy
+MThdfQ==
 -->
