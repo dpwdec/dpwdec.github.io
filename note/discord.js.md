@@ -73,14 +73,14 @@ client.on('message', message => {
 });
 ```
 
-You can **trigger an action when a user reacts to an message** by using the `messageReactionAdd` event.
+You can **trigger an action when a user reacts to an message** by using the `messageReactionAdd` event. The arguments to this event's lambda are a `MessageReact` object and a `User` object of the user that sent the message.
 ```js
 client.on('messageReactionAdd', (reaction, user) => {
-  console.log(message.content);
+  console.log(`${user} reacted with ${reaction}`);
 });
 ```
 
-event will **only work on cached messages** - bots will automatically cache messages that come in while they are online - so if someone reacts to a message sent while your bot was offline it will not trigger.
+The `messageReactionAdd` event will **only work on cached messages** - bots will automatically cache messages that come in while they are online - so if someone reacts to a message sent while your bot was offline it will not trigger.
 
 ### Gotchas
 
@@ -117,7 +117,7 @@ if(user instanceof Discord.ClientUser) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDc0NTM2MywtMTU3Nzk0Njk0MCw3Nz
+eyJoaXN0b3J5IjpbLTU0NzEyMzUyNCwtMTU3Nzk0Njk0MCw3Nz
 QxNDkyNDUsMTcxMzIwMDMyMiw5MzE1MTk1OTIsMTc2OTk0NjAx
 NSwtMTk1MDczMjM0NiwtMTM2MDcxMTIxOF19
 -->
