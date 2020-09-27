@@ -105,13 +105,15 @@ message.reactions.cache.forEach(reaction => {
 });
 ```
 
-You can **get the associated emoji** of a reaction by using the `_emoji.name` property of each `MessageReaction` object.
+You can **get the associated emoji** of a reaction by using the `_emoji.name` property of each `MessageReaction` object. This is not reccommended though as `_emoji` is indicating itself to be a private field.
 ```js
 message.reactions.cache.forEach(reaction => {
   reaction._emoji.name
 });
 ```
- 
+
+You can also  **get a list of a **
+
 ## Channel
 
 You can **get a unique string name for your channel** by using the `toString` method on the `channel` object. This isn't particularly useful though as its just a string in the format `<#123456789012345678>`
@@ -152,8 +154,8 @@ if(user instanceof Discord.ClientUser) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTMzODAwNiwtMTM4NjQ0MDMyLC0xNz
-MwMjY0OTgwLC01NDcxMjM1MjQsLTE1Nzc5NDY5NDAsNzc0MTQ5
-MjQ1LDE3MTMyMDAzMjIsOTMxNTE5NTkyLDE3Njk5NDYwMTUsLT
-E5NTA3MzIzNDYsLTEzNjA3MTEyMThdfQ==
+eyJoaXN0b3J5IjpbMTA3MDE3NTUyOSwtOTA5MzM4MDA2LC0xMz
+g2NDQwMzIsLTE3MzAyNjQ5ODAsLTU0NzEyMzUyNCwtMTU3Nzk0
+Njk0MCw3NzQxNDkyNDUsMTcxMzIwMDMyMiw5MzE1MTk1OTIsMT
+c2OTk0NjAxNSwtMTk1MDczMjM0NiwtMTM2MDcxMTIxOF19
 -->
