@@ -96,6 +96,13 @@ client.on('message', message => {
 
 You can **get the channel that a message was sent in** by using the `channel` property of `message`. This returns a `channel` object with information about the channel.
 
+## Reactions
+
+You can **get all the reactions that were sent on a message** using the `reactions` property which returns a `ReactionsManager` and the `cache` property that holds the cache of reactions.
+```js
+message.reactions.cache;
+```
+
 ## Channel
 
 You can **get a unique string name for your channel** by using the `toString` method on the `channel` object. This isn't particularly useful though as its just a string in the format `<#123456789012345678>`
@@ -136,8 +143,8 @@ if(user instanceof Discord.ClientUser) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODY0NDAzMiwtMTczMDI2NDk4MCwtNT
-Q3MTIzNTI0LC0xNTc3OTQ2OTQwLDc3NDE0OTI0NSwxNzEzMjAw
-MzIyLDkzMTUxOTU5MiwxNzY5OTQ2MDE1LC0xOTUwNzMyMzQ2LC
-0xMzYwNzExMjE4XX0=
+eyJoaXN0b3J5IjpbLTExODU0MTEyNjEsLTEzODY0NDAzMiwtMT
+czMDI2NDk4MCwtNTQ3MTIzNTI0LC0xNTc3OTQ2OTQwLDc3NDE0
+OTI0NSwxNzEzMjAwMzIyLDkzMTUxOTU5MiwxNzY5OTQ2MDE1LC
+0xOTUwNzMyMzQ2LC0xMzYwNzExMjE4XX0=
 -->
