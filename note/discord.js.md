@@ -18,9 +18,16 @@ const Discord = require('discord.js');
 
 ## Client
 
-The client object **represents your actor onnt**
+The client object **represents your actor on the guild (server)** and is the main way you can control its actions.
+
+You can **create a new client** using the `Discord.Client()` method.
+```js
+const client = new Discord.Client();
+```
+
+You can **connect your client to the server**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Mzg2MTA1MywtMTM2MDcxMTIxOF19
+eyJoaXN0b3J5IjpbNDYzMTU1NTkyLC0xMzYwNzExMjE4XX0=
 -->
