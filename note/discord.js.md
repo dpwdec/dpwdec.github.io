@@ -79,7 +79,7 @@ client.on('message', message => {
 
 ## Message
 
-You can **get the channel that a message was sent in** by using the `channel` property of `message`.
+You can **get the channel that a message was sent in** by using the `channel` property of `message`. This returns a `channel` object with information about the channel.
 
 ## Channel
 
@@ -88,9 +88,12 @@ You can **get a unique string name for your channel** by using the `toString` me
 channel.toString(); // => <#123456789012345678>
 ```
 
+# User
 
+You can **check what kind of user sent a message** by using the `instanceof` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzIwMDMyMiw5MzE1MTk1OTIsMTc2OT
-k0NjAxNSwtMTk1MDczMjM0NiwtMTM2MDcxMTIxOF19
+eyJoaXN0b3J5IjpbMTA3Njc1MzY0NCwxNzEzMjAwMzIyLDkzMT
+UxOTU5MiwxNzY5OTQ2MDE1LC0xOTUwNzMyMzQ2LC0xMzYwNzEx
+MjE4XX0=
 -->
