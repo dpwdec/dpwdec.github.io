@@ -67,6 +67,10 @@ client.on('message', message => {
 });
 ```
 
+### Gotchas
+
+It's worth noting that **discord bots have no filters about w**
+
 ## Message
 
 You can **get the channel that a message was sent in** by using the `channel` property of `message`.
@@ -81,6 +85,6 @@ channel.toString(); // => <#123456789012345678>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4MjQzMzYxLDkzMTUxOTU5MiwxNzY5OT
+eyJoaXN0b3J5IjpbMzEyNjcwMTk4LDkzMTUxOTU5MiwxNzY5OT
 Q2MDE1LC0xOTUwNzMyMzQ2LC0xMzYwNzExMjE4XX0=
 -->
