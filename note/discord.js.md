@@ -103,6 +103,11 @@ You can **get a unique string name for your channel** by using the `toString` me
 channel.toString(); // => <#123456789012345678>
 ```
 
+You can **send a message to a text channel** using the `send` method. Text based messages are sent using the `TextBasedChannel` class.
+```js
+channel.send('This is my message');
+```
+
 # User
 
 The `User` class is the **base class of all user types**.
@@ -117,7 +122,8 @@ if(user instanceof Discord.ClientUser) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzEyMzUyNCwtMTU3Nzk0Njk0MCw3Nz
-QxNDkyNDUsMTcxMzIwMDMyMiw5MzE1MTk1OTIsMTc2OTk0NjAx
-NSwtMTk1MDczMjM0NiwtMTM2MDcxMTIxOF19
+eyJoaXN0b3J5IjpbLTE3MzAyNjQ5ODAsLTU0NzEyMzUyNCwtMT
+U3Nzk0Njk0MCw3NzQxNDkyNDUsMTcxMzIwMDMyMiw5MzE1MTk1
+OTIsMTc2OTk0NjAxNSwtMTk1MDczMjM0NiwtMTM2MDcxMTIxOF
+19
 -->
