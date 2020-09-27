@@ -68,8 +68,8 @@ You can **get the channel that a message was sent in** by using the `channel` pr
 
 ## Channel
 
-
+You can **get the name of your channel** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTk0NjAxNSwtMTk1MDczMjM0NiwtMT
-M2MDcxMTIxOF19
+eyJoaXN0b3J5IjpbMTg1ODAxMzE5MywxNzY5OTQ2MDE1LC0xOT
+UwNzMyMzQ2LC0xMzYwNzExMjE4XX0=
 -->
