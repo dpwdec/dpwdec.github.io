@@ -108,6 +108,11 @@ You can **send a message to a text channel** using the `send` method. Text based
 channel.send('This is my message');
 ```
 
+You can **get a sent message as an object** by assigning the result of the `send` method to a variable. This is an asynchronous function so you will **need to `await`** then result of this method.
+```js
+async () 
+```
+
 # User
 
 The `User` class is the **base class of all user types**.
@@ -122,8 +127,8 @@ if(user instanceof Discord.ClientUser) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzAyNjQ5ODAsLTU0NzEyMzUyNCwtMT
-U3Nzk0Njk0MCw3NzQxNDkyNDUsMTcxMzIwMDMyMiw5MzE1MTk1
-OTIsMTc2OTk0NjAxNSwtMTk1MDczMjM0NiwtMTM2MDcxMTIxOF
-19
+eyJoaXN0b3J5IjpbNzQxODQ5MzMsLTE3MzAyNjQ5ODAsLTU0Nz
+EyMzUyNCwtMTU3Nzk0Njk0MCw3NzQxNDkyNDUsMTcxMzIwMDMy
+Miw5MzE1MTk1OTIsMTc2OTk0NjAxNSwtMTk1MDczMjM0NiwtMT
+M2MDcxMTIxOF19
 -->
