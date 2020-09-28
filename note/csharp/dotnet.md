@@ -432,7 +432,13 @@ interface MyInterface<T>
 }
 ```
 
-You can **strong text**
+You can **make specific methods on an interface generic** by adding the generic inline with the method. Doing this means that **when `MyMethod` is called on the interface its type must** be supplied *rather* than it being supplied at the interface level as shown above.
+```csharp
+interface MyInterface
+{
+  public T MyMethod<T>();
+}
+```
 
 ## References
 
@@ -503,11 +509,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODIzMDIyNywtMTcyMjM5Njg5NiwtMT
-U1ODAwMDA2MCwtNDAzMjI5MjM3LC0xNjUwODc3OTAxLC0xMDMz
-MTQ4MzA5LDExODA1NzA0NDQsMzkxNzMyNTIyLC0xNTY4ODg5Mz
-AxLC05MDc2MDgzNzQsMTI5MjgxNTUwNSw2Njg3OTI0OTYsMzU4
-OTU3MjMzLDEwOTIyOTY4NjMsMzQxODYzNjM1LDIwMDg0NTczNT
-UsLTEyMzk2ODUwNTQsMTg5Nzc2ODQ4MSwtMTI1NTYwMDY5Miwx
-MjUzMzUxMjQ0XX0=
+eyJoaXN0b3J5IjpbOTA2MjQzNTgsLTE3MjIzOTY4OTYsLTE1NT
+gwMDAwNjAsLTQwMzIyOTIzNywtMTY1MDg3NzkwMSwtMTAzMzE0
+ODMwOSwxMTgwNTcwNDQ0LDM5MTczMjUyMiwtMTU2ODg4OTMwMS
+wtOTA3NjA4Mzc0LDEyOTI4MTU1MDUsNjY4NzkyNDk2LDM1ODk1
+NzIzMywxMDkyMjk2ODYzLDM0MTg2MzYzNSwyMDA4NDU3MzU1LC
+0xMjM5Njg1MDU0LDE4OTc3Njg0ODEsLTEyNTU2MDA2OTIsMTI1
+MzM1MTI0NF19
 -->
