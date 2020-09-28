@@ -84,7 +84,7 @@ var message = $"My name is {name} and I am {age} years old."
 // => "My name is Berrlin and I am 51 years old."
 ```
 
-You can **trim a single character from the end of a string** using the `TrimEnd` method. This will only trim the string if a valid set of characters are matched
+You can **trim a single character from the end of a string** using the `TrimEnd` method which takes an array of `chars` and matches a possible combination of those chars to the end  This will only trim the string if a valid set of characters are matched
 ```csharp
 
 ```
@@ -514,11 +514,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxNTkzNjQ3LDQ2OTc3NzQ2Miw5MDYyND
-M1OCwtMTcyMjM5Njg5NiwtMTU1ODAwMDA2MCwtNDAzMjI5MjM3
-LC0xNjUwODc3OTAxLC0xMDMzMTQ4MzA5LDExODA1NzA0NDQsMz
-kxNzMyNTIyLC0xNTY4ODg5MzAxLC05MDc2MDgzNzQsMTI5Mjgx
-NTUwNSw2Njg3OTI0OTYsMzU4OTU3MjMzLDEwOTIyOTY4NjMsMz
-QxODYzNjM1LDIwMDg0NTczNTUsLTEyMzk2ODUwNTQsMTg5Nzc2
-ODQ4MV19
+eyJoaXN0b3J5IjpbLTE5NzQ3NTcwNzksNzMxNTkzNjQ3LDQ2OT
+c3NzQ2Miw5MDYyNDM1OCwtMTcyMjM5Njg5NiwtMTU1ODAwMDA2
+MCwtNDAzMjI5MjM3LC0xNjUwODc3OTAxLC0xMDMzMTQ4MzA5LD
+ExODA1NzA0NDQsMzkxNzMyNTIyLC0xNTY4ODg5MzAxLC05MDc2
+MDgzNzQsMTI5MjgxNTUwNSw2Njg3OTI0OTYsMzU4OTU3MjMzLD
+EwOTIyOTY4NjMsMzQxODYzNjM1LDIwMDg0NTczNTUsLTEyMzk2
+ODUwNTRdfQ==
 -->
