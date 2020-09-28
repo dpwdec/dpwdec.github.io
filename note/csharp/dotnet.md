@@ -90,6 +90,7 @@ You can **trim a match characters from the end of a string** using the `TrimEnd`
 "XgbXgggg".TrimEnd('g'); // => "XgbX"
 "XgbXgb".TrimEnd('b', 'g'); // => "XgbX"
 "XgbXgbgbbggbgbgg".TrimEnd('b', 'g'); // => "XgbX"
+"XgbXg".TrimEnd('b'); // => "XgbXg" (Unchanged)
 ```
 
 ### nameof
@@ -517,11 +518,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMzcwODc1OCw3MzE1OTM2NDcsNDY5Nz
-c3NDYyLDkwNjI0MzU4LC0xNzIyMzk2ODk2LC0xNTU4MDAwMDYw
-LC00MDMyMjkyMzcsLTE2NTA4Nzc5MDEsLTEwMzMxNDgzMDksMT
-E4MDU3MDQ0NCwzOTE3MzI1MjIsLTE1Njg4ODkzMDEsLTkwNzYw
-ODM3NCwxMjkyODE1NTA1LDY2ODc5MjQ5NiwzNTg5NTcyMzMsMT
-A5MjI5Njg2MywzNDE4NjM2MzUsMjAwODQ1NzM1NSwtMTIzOTY4
-NTA1NF19
+eyJoaXN0b3J5IjpbLTMxNjExOTUwNCwxODMzNzA4NzU4LDczMT
+U5MzY0Nyw0Njk3Nzc0NjIsOTA2MjQzNTgsLTE3MjIzOTY4OTYs
+LTE1NTgwMDAwNjAsLTQwMzIyOTIzNywtMTY1MDg3NzkwMSwtMT
+AzMzE0ODMwOSwxMTgwNTcwNDQ0LDM5MTczMjUyMiwtMTU2ODg4
+OTMwMSwtOTA3NjA4Mzc0LDEyOTI4MTU1MDUsNjY4NzkyNDk2LD
+M1ODk1NzIzMywxMDkyMjk2ODYzLDM0MTg2MzYzNSwyMDA4NDU3
+MzU1XX0=
 -->
