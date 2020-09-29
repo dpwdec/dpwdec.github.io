@@ -19,8 +19,10 @@ if(true)
 {
   using var myObject = new MyObject();
 }
-// m
+// myObject is disposed
 ```
+
+*Can I use using with a*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTY1MDUwXX0=
+eyJoaXN0b3J5IjpbNjk4NDU5ODg4XX0=
 -->
