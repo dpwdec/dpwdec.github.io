@@ -8,7 +8,7 @@ exclude: true
 
 ## Using Blocks
 
-You can **ensure an object is limited to a particular scope** by declaring it with the `using` keyword before the block in which it is used. 
+You can **ensure an object is limited to a particular scope** by declaring it with the `using` keyword before the block in which it is used. This will cause the object's resources to be released at the end of the block and for the
 ```csharp
 using(MyObject myObject = new MyObject())
 {
@@ -59,9 +59,9 @@ using(SqlConnection con = new SqlConnect())
 
 ## IDisposable
 
-For an object to **work with a `using` block** it must **implement the `IDisposable` interface**. This interface contains a single method `Dispose` that is used for getting rid of the object.
+For an object to **work with a `using` block** it must **implement the `IDisposable` interface**. This interface contains a single method `Dispose` that is used for explicitly triggering garbage collection of an object.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5MDQ1OTQ4LDEyMDM4NDY4MDBdfQ==
+eyJoaXN0b3J5IjpbLTM3Mjg3OTY5MywxMjAzODQ2ODAwXX0=
 -->
