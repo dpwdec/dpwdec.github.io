@@ -63,7 +63,11 @@ You can **create a test with multiple inputs** by marking the test with the `[Th
 ```csharp
 [Theory]
 [InlineData(1)]
-
+[InlineData(0)]
+public void MyTheory(int value)
+{
+  Assert.Equal(1, value);
+}
 ```
 
 ## Assert
@@ -80,7 +84,7 @@ Assert.Equal(1, 1);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc2MTE2NzU2LC02MTI2OTIxOSwxMTIxMz
-k0NzAsNTY1NzgwNjIyLC0xNTk3MzIxODczLDIxMTg5NDg1MTEs
-LTIwNjE3MTY0ODldfQ==
+eyJoaXN0b3J5IjpbMTA0MzE4NjcyMSwtNjEyNjkyMTksMTEyMT
+M5NDcwLDU2NTc4MDYyMiwtMTU5NzMyMTg3MywyMTE4OTQ4NTEx
+LC0yMDYxNzE2NDg5XX0=
 -->
