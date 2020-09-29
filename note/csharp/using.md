@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 
-*When using is used with imports of namespaces at 
+*When using is used with imports of namespaces at the top of a file. How does that work?*
 
 ## Using Blocks
 
@@ -59,9 +59,9 @@ using(SqlConnection con = new SqlConnect())
 
 ## IDisposable
 
-
+For an object to **work with a `using` block** it must **implement the `IDisposable` interface**. This interface contains a single method `Dispose` that is used for getting rid of the object.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzg4MTE3MjUsMTIwMzg0NjgwMF19
+eyJoaXN0b3J5IjpbMjc5MDQ1OTQ4LDEyMDM4NDY4MDBdfQ==
 -->
