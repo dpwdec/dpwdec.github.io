@@ -29,7 +29,10 @@ public class MyTestClass
 }
 ```
 
-## Fact Tests
+## Test Types
+
+There are **two major types of test in XUnit**: `Fact` and `Theory
+### Fact Tests
 
 You can **create a new synchronous unit test** by creating a new `void` method and decorating it with the `[Fact]` attribute.
 ```csharp
@@ -49,7 +52,7 @@ public void MyTest_TestingFramework_Passes()
 }
 ```
 
-## Theory Tests
+### Theory Tests
 
 You can **create a test with multiple inputs** by marking the test with the `[Theory]` attribute.
 
@@ -67,7 +70,7 @@ Assert.Equal(1, 1);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjY5MjE5LDExMjEzOTQ3MCw1NjU3OD
-A2MjIsLTE1OTczMjE4NzMsMjExODk0ODUxMSwtMjA2MTcxNjQ4
-OV19
+eyJoaXN0b3J5IjpbNjgwNjIyMTUyLC02MTI2OTIxOSwxMTIxMz
+k0NzAsNTY1NzgwNjIyLC0xNTk3MzIxODczLDIxMTg5NDg1MTEs
+LTIwNjE3MTY0ODldfQ==
 -->
