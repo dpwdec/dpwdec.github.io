@@ -202,9 +202,13 @@ string result = (string) okObject.Value;
 
 ### ForbidResult
 
-You can **return a `ForbidResult`** from a controller by using the `Forbid()` method, this is used for `403` type responses.
+You can **return a `ForbidResult`** from a controller by using the `Forbid()` method, this is used for `403` type responses. The `ForbidResult` class inherits from `ActionResult`.
 ```csharp
-[H
+[HttpGet]
+public IActionResult ForbiddenRoute()
+{
+  return Forbid();
+}
 ```
 
 ## Internal Domain Models and Data Transfer Objects
@@ -289,11 +293,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODAzMzY1OTIsMTMxNzg4NDcwNiwxNT
-cwNjg4NzcyLC0yMDMzNjUyODE0LC0xMDY1MzA0MTcxLDY1OTAw
-NTMyMiwtMTM5NjQ1MTUyLC04ODE1MDUxOTQsMTcwMjk1OTI0NS
-wyMzk4ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3LC01NDI0
-NzExMTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC
-0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1NjEx
-ODU5OF19
+eyJoaXN0b3J5IjpbMTM3OTI4MTEzOCwxMzE3ODg0NzA2LDE1Nz
+A2ODg3NzIsLTIwMzM2NTI4MTQsLTEwNjUzMDQxNzEsNjU5MDA1
+MzIyLC0xMzk2NDUxNTIsLTg4MTUwNTE5NCwxNzAyOTU5MjQ1LD
+IzOTg4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4MzcsLTU0MjQ3
+MTExMCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIsLT
+M0NTczMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MTE4
+NTk4XX0=
 -->
