@@ -224,9 +224,12 @@ Uri.IsWellFormedString(absoluteUri, UriKind.Relative); // => false
 Uri.IsWellFormedString(relative, UriKind.Relative); // => true
 Uri.IsWellFormedString(badUri, UriKind.Relative); // => true
 Uri.IsWellFormedString(absoluteUri, UriKind.Relative); // => true
-
 ```
 
+There is also the option to **check if a URI is absolute or relative** using the `AbsoluteOrRelative` value of `UriKind`. However this might not be very useful.
+```csharp
+
+```
 
  
 ## Razor Pages
@@ -269,11 +272,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODk2NDcyODIsLTIwMzM2NTI4MTQsLT
-EwNjUzMDQxNzEsNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MTUw
-NTE5NCwxNzAyOTU5MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1LD
-EwMDE2OTk4MzcsLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMDU1
-ODYzNCwtMzI2NTUyMzIsLTM0NTczMjMwMCw0NDM0NTM4MTAsMT
-QwNTkxMjIyNCwxNTU2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2Mjgx
-NjIyMTddfQ==
+eyJoaXN0b3J5IjpbMTc1MzczMTEyMSwtMjAzMzY1MjgxNCwtMT
+A2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0NTE1MiwtODgxNTA1
+MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQyODUsMT
+AwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUwOSwtMjIwNTU4
+NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1MzgxMCwxND
+A1OTEyMjI0LDE1NTYxMTg1OTgsMTM1MjQ4NDYwNSwtMTYyODE2
+MjIxN119
 -->
