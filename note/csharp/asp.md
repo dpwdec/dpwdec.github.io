@@ -202,7 +202,7 @@ A solution to this is a **Data Transfer Object** (DTO) which is a representation
 
 ## Uri
 
-You can **use the `Uri` cl**
+You can **store URIs with predefined utilities** by using the `Uri` class. This is *not* part of `ASP` specifically, but has good applications in web development. You can **create a new `Uri`** by passing in your
  
 ## Razor Pages
 
@@ -244,7 +244,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTI2OTE5MCw2NTkwMDUzMjIsLTEzOT
+eyJoaXN0b3J5IjpbLTE0NTkzNjYwMSw2NTkwMDUzMjIsLTEzOT
 Y0NTE1MiwtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3
 LC00MzU2NzQyODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNj
 czOTUwOSwtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAw
