@@ -4,6 +4,8 @@ layout: page
 exclude: true
 ---
 
+*When using is used with imports of namespaces at 
+
 ## Using Blocks
 
 You can **ensure an object is limited to a particular scope** by declaring it with the `using` keyword before the block in which it is used. 
@@ -59,6 +61,7 @@ using(SqlConnection con = new SqlConnect())
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzg0NjgwMF19
+eyJoaXN0b3J5IjpbLTE0Nzg4MTE3MjUsMTIwMzg0NjgwMF19
 -->
