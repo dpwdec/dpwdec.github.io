@@ -8,7 +8,7 @@ exclude: true
 
 ## Using Blocks
 
-You can **ensure an object is limited to a particular scope** by declaring it with the `using` keyword before the block in which it is used. This will cause the object's resources to be released at the end of the block and for the
+You can **ensure an object is limited to a particular scope** by declaring it with the `using` keyword before the block in which it is used. This will cause the object's resources to be released at the end of the block and for the garbage collector to be triggered to remove it.
 ```csharp
 using(MyObject myObject = new MyObject())
 {
@@ -63,5 +63,5 @@ For an object to **work with a `using` block** it must **implement the `IDisposa
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Mjg3OTY5MywxMjAzODQ2ODAwXX0=
+eyJoaXN0b3J5IjpbMTA1NDU0ODE2MCwxMjAzODQ2ODAwXX0=
 -->
