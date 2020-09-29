@@ -202,7 +202,10 @@ A solution to this is a **Data Transfer Object** (DTO) which is a representation
 
 ## Uri
 
-You can **store URIs with predefined utilities** by using the `Uri` class. This is *not* part of `ASP` specifically, but has good applications in web development. You can **create a new `Uri`** by passing in your
+You can **store URIs with predefined utilities** by using the `Uri` class. This is *not* part of `ASP` specifically, but has good applications in web development. You can **create a new `Uri` object** by passing in your actual uri as a string.
+```csharp
+
+```
  
 ## Razor Pages
 
@@ -244,11 +247,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTkzNjYwMSw2NTkwMDUzMjIsLTEzOT
-Y0NTE1MiwtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3
-LC00MzU2NzQyODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNj
-czOTUwOSwtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAw
-LDQ0MzQ1MzgxMCwxNDA1OTEyMjI0LDE1NTYxMTg1OTgsMTM1Mj
-Q4NDYwNSwtMTYyODE2MjIxNywxOTM1MjUxNzY2LDEzODQwODcy
-MDZdfQ==
+eyJoaXN0b3J5IjpbLTEwNjUzMDQxNzEsNjU5MDA1MzIyLC0xMz
+k2NDUxNTIsLTg4MTUwNTE5NCwxNzAyOTU5MjQ1LDIzOTg4Mzk3
+NywtNDM1Njc0Mjg1LDEwMDE2OTk4MzcsLTU0MjQ3MTExMCw5Mj
+Y3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIsLTM0NTczMjMw
+MCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MTE4NTk4LDEzNT
+I0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1MTc2NiwxMzg0MDg3
+MjA2XX0=
 -->
