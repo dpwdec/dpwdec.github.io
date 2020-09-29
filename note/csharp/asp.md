@@ -218,17 +218,17 @@ var nonsenseUri = "93480nmfmdsmf*ur"
 Uri.IsWellFormedString(absoluteUri, UriKind.Absolute); // => true
 Uri.IsWellFormedString(relative, UriKind.Absolute); // => false
 Uri.IsWellFormedString(badUri, UriKind.Absolute); // => false
-Uri.IsWellFormedString(absoluteUri, UriKind.Absolute); // => false
+Uri.IsWellFormedString(nonsenseUri, UriKind.Absolute); // => false
 
 Uri.IsWellFormedString(absoluteUri, UriKind.Relative); // => false
 Uri.IsWellFormedString(relative, UriKind.Relative); // => true
 Uri.IsWellFormedString(badUri, UriKind.Relative); // => true
-Uri.IsWellFormedString(absoluteUri, UriKind.Relative); // => true
+Uri.IsWellFormedString(nonsenseUri, UriKind.Relative); // => true
 ```
 
 There is also the option to **check if a URI is absolute or relative** using the `AbsoluteOrRelative` value of `UriKind`. However this might not be very useful.
 ```csharp
-
+Uri.IsWellFormedString(anyUri, UriKind.AbsoluteOrRelative); // => true
 ```
 
  
@@ -272,7 +272,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MzczMTEyMSwtMjAzMzY1MjgxNCwtMT
+eyJoaXN0b3J5IjpbMTU3MDY4ODc3MiwtMjAzMzY1MjgxNCwtMT
 A2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0NTE1MiwtODgxNTA1
 MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQyODUsMT
 AwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUwOSwtMjIwNTU4
