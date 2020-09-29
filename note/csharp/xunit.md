@@ -51,7 +51,7 @@ public void MyTest_TestingFramework_Passes()
 
 ## Theory Tests
 
-You can **strong text**
+You can **create a test with multiple inputs** by marking the test with the `[Theory]` attribute.
 
 ## Assert
 
@@ -67,6 +67,7 @@ Assert.Equal(1, 1);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTM5NDcwLDU2NTc4MDYyMiwtMTU5Nz
-MyMTg3MywyMTE4OTQ4NTExLC0yMDYxNzE2NDg5XX0=
+eyJoaXN0b3J5IjpbLTYxMjY5MjE5LDExMjEzOTQ3MCw1NjU3OD
+A2MjIsLTE1OTczMjE4NzMsMjExODk0ODUxMSwtMjA2MTcxNjQ4
+OV19
 -->
