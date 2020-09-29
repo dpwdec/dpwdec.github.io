@@ -59,7 +59,7 @@ public void MyTest_TestingFramework_Passes()
 
 ### Theory Tests
 
-You can **create a test with multiple sets** by marking the test with the `[Theory]` attribute. Data is then passed in using the `[InlineData]` attribute which takes parameters to the test method as arguments. In the example below the test will pass during its first run and then fail during its second run because the value of `input` will first be set to `0` from the first `InlineData` and then to `1` from the second `InlineData`.
+You can **create a test with multiple test contexts** by marking the test with the `[Theory]` attribute. Data is then passed in using the `[InlineData]` attribute which takes parameters to the test method as arguments. In the example below the test will pass during its first run and then fail during its second run because the value of `input` will first be set to `0` from the first `InlineData` and then to `1` from the second `InlineData`.
 ```csharp
 [Theory]
 [InlineData(0)]
@@ -70,7 +70,12 @@ public void MyTheory(int input)
 }
 ```
 
-You can **strong text**
+You can **test data sets with multiple pieces of data** by comma separating arguments to `InlineData` and defining arguments to the test method in the same order.
+```csharp
+[Theory]
+[InlineData(0, true, "hello")]
+public void MyTheory(int n
+```
 
 ## Assert
 
@@ -86,7 +91,7 @@ Assert.Equal(1, 1);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjAyMDM0NTksLTYxMjY5MjE5LDExMj
-EzOTQ3MCw1NjU3ODA2MjIsLTE1OTczMjE4NzMsMjExODk0ODUx
-MSwtMjA2MTcxNjQ4OV19
+eyJoaXN0b3J5IjpbLTMyNDU0NDY5MCwtNjEyNjkyMTksMTEyMT
+M5NDcwLDU2NTc4MDYyMiwtMTU5NzMyMTg3MywyMTE4OTQ4NTEx
+LC0yMDYxNzE2NDg5XX0=
 -->
