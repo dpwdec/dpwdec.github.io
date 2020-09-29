@@ -74,7 +74,10 @@ You can **test data sets with multiple pieces of data** by comma separating argu
 ```csharp
 [Theory]
 [InlineData(0, true, "hello")]
-public void MyTheory(int n
+public void MyTheory(int n, bool b, string s)
+{
+  // use n, b and s in your test
+}
 ```
 
 ## Assert
@@ -91,7 +94,7 @@ Assert.Equal(1, 1);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDU0NDY5MCwtNjEyNjkyMTksMTEyMT
-M5NDcwLDU2NTc4MDYyMiwtMTU5NzMyMTg3MywyMTE4OTQ4NTEx
-LC0yMDYxNzE2NDg5XX0=
+eyJoaXN0b3J5IjpbLTE5MTY1MDAwMzgsLTYxMjY5MjE5LDExMj
+EzOTQ3MCw1NjU3ODA2MjIsLTE1OTczMjE4NzMsMjExODk0ODUx
+MSwtMjA2MTcxNjQ4OV19
 -->
