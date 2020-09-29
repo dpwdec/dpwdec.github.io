@@ -32,7 +32,15 @@ if(true)
 // myObject is disposed
 ```
 
+`using` blocks are actually shorthand for a `try { } finally { }` block where something is used in the `try` and then disposed of in the `finally`.
+```csharp
+var sqlConnection
+try
+{
+  
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzgyNTQ4M119
+eyJoaXN0b3J5IjpbNDAxNjE1NjA5XX0=
 -->
