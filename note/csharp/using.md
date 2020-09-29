@@ -4,6 +4,8 @@ layout: page
 exclude: true
 ---
 
+## Using Blocks
+
 You can **ensure an object is limited to a particular scope** by declaring it with the `using` keyword before the block in which it is used. 
 ```csharp
 using (MyObject myObject = new MyObject())
@@ -12,6 +14,8 @@ using (MyObject myObject = new MyObject())
 }
 // myObject is disposed
 ```
+
+You can **define multiple using scope declara**
 
 You can also **limit object scope within a block** by placing the `using` statement within an already existing scope. The object will then be disposed of when the program exits that scope.
 ```csharp
@@ -22,7 +26,11 @@ if(true)
 // myObject is disposed
 ```
 
-*Can I use using with a*
+
+
+*Can I use using with an actual library or is specifically for objects?*
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4NDU5ODg4XX0=
+eyJoaXN0b3J5IjpbLTYxMjM3MDQ4OF19
 -->
