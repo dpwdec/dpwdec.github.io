@@ -13,7 +13,13 @@ using (MyObject myObject = new MyObject())
 // myRes is disposed
 ```
 
-You can also **limit resource scope within a block** by placing the `using` statement  
+You can also **limit object scope within a block** by placing the `using` statement within an already existing scope. The object will then be disposed of when the program exits that scope.
+```csharp
+if(true)
+{
+  using var
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTAzMTM2MzNdfQ==
+eyJoaXN0b3J5IjpbMTYxODAwMDU0XX0=
 -->
