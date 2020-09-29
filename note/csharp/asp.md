@@ -202,10 +202,13 @@ A solution to this is a **Data Transfer Object** (DTO) which is a representation
 
 ## Uri
 
-You can **store URIs with predefined utilities** by using the `Uri` class. This is *not* part of `ASP` specifically, but has good applications in web development. You can **create a new `Uri` object** by passing in your actual uri as a string. You can **strong text**
+You can **store URIs with predefined utilities** by using the `Uri` class. This is *not* part of `ASP` specifically, but has good applications in web development. You can **create a new `Uri` object** by passing in your actual uri as a string. You can **pass relative and absolute URIs** into the `Uri` object, if you pass poorly formed URIs this will cause errors later.
 ```csharp
-var uri = new Uri("https://website.com/hello");
+var absoluteUri = new Uri("https://website.com/hello");
+var relativeUri = new Uri("/path/to/something");
 ```
+
+
  
 ## Razor Pages
 
@@ -247,11 +250,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4MzM1NDM2LC0xMDY1MzA0MTcxLDY1OT
-AwNTMyMiwtMTM5NjQ1MTUyLC04ODE1MDUxOTQsMTcwMjk1OTI0
-NSwyMzk4ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3LC01ND
-I0NzExMTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMy
-LC0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MDU5MTIyMjQsMTU1Nj
-ExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYyMjE3LDE5MzUyNTE3
-NjZdfQ==
+eyJoaXN0b3J5IjpbLTIwMzM2NTI4MTQsLTEwNjUzMDQxNzEsNj
+U5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MTUwNTE5NCwxNzAyOTU5
+MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4MzcsLT
+U0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUy
+MzIsLTM0NTczMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNT
+U2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2MjgxNjIyMTcsMTkzNTI1
+MTc2Nl19
 -->
