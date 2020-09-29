@@ -29,6 +29,8 @@ public class MyTestClass
 }
 ```
 
+## Fact Tests
+
 You can **create a new synchronous unit test** by creating a new `void` method and decorating it with the `[Fact]` attribute.
 ```csharp
 [Fact]
@@ -47,6 +49,10 @@ public void MyTest_TestingFramework_Passes()
 }
 ```
 
+## Theory Tests
+
+You can **strong text**
+
 ## Assert
 
 You can **assert that something is true** by using the `True` method.
@@ -61,6 +67,6 @@ Assert.Equal(1, 1);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1NzgwNjIyLC0xNTk3MzIxODczLDIxMT
-g5NDg1MTEsLTIwNjE3MTY0ODldfQ==
+eyJoaXN0b3J5IjpbMTEyMTM5NDcwLDU2NTc4MDYyMiwtMTU5Nz
+MyMTg3MywyMTE4OTQ4NTExLC0yMDYxNzE2NDg5XX0=
 -->
