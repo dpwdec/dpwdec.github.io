@@ -202,7 +202,7 @@ A solution to this is a **Data Transfer Object** (DTO) which is a representation
 
 ## Uri
 
-
+You can **use the `Uri` cl**
  
 ## Razor Pages
 
@@ -244,7 +244,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTU2ODcxNiw2NTkwMDUzMjIsLTEzOT
+eyJoaXN0b3J5IjpbLTgwNTI2OTE5MCw2NTkwMDUzMjIsLTEzOT
 Y0NTE1MiwtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3
 LC00MzU2NzQyODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNj
 czOTUwOSwtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAw
