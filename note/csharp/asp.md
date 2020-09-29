@@ -216,6 +216,15 @@ var badUri = "website.com"
 var nonsenseUri = "93480nmfmdsmf*ur"
 
 Uri.IsWellFormedString(absoluteUri, UriKind.Absolute); // => true
+Uri.IsWellFormedString(relative, UriKind.Absolute); // => false
+Uri.IsWellFormedString(badUri, UriKind.Absolute); // => false
+Uri.IsWellFormedString(absoluteUri, UriKind.Absolute); // => false
+
+Uri.IsWellFormedString(absoluteUri, UriKind.Relative); // => false
+Uri.IsWellFormedString(relative, UriKind.Relative); // => true
+Uri.IsWellFormedString(badUri, UriKind.Relative); // => true
+Uri.IsWellFormedString(absoluteUri, UriKind.Relative); // => true
+
 ```
 
 
@@ -260,11 +269,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1OTEzNjA3LC0yMDMzNjUyODE0LC0xMD
-Y1MzA0MTcxLDY1OTAwNTMyMiwtMTM5NjQ1MTUyLC04ODE1MDUx
-OTQsMTcwMjk1OTI0NSwyMzk4ODM5NzcsLTQzNTY3NDI4NSwxMD
-AxNjk5ODM3LC01NDI0NzExMTAsOTI2NzM5NTA5LC0yMjA1NTg2
-MzQsLTMyNjU1MjMyLC0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MD
-U5MTIyMjQsMTU1NjExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYy
-MjE3XX0=
+eyJoaXN0b3J5IjpbLTE5ODk2NDcyODIsLTIwMzM2NTI4MTQsLT
+EwNjUzMDQxNzEsNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MTUw
+NTE5NCwxNzAyOTU5MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1LD
+EwMDE2OTk4MzcsLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMDU1
+ODYzNCwtMzI2NTUyMzIsLTM0NTczMjMwMCw0NDM0NTM4MTAsMT
+QwNTkxMjIyNCwxNTU2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2Mjgx
+NjIyMTddfQ==
 -->
