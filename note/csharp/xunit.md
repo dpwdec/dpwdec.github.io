@@ -59,7 +59,12 @@ public void MyTest_TestingFramework_Passes()
 
 ### Theory Tests
 
-You can **create a test with multiple inputs** by marking the test with the `[Theory]` attribute. Data is then passed in using the `
+You can **create a test with multiple inputs** by marking the test with the `[Theory]` attribute. Data is then passed in using the `[InlineData]` attribute which takes parameters to the test method as arguments.
+```csharp
+[Theory]
+[InlineData(1)]
+
+```
 
 ## Assert
 
@@ -75,7 +80,7 @@ Assert.Equal(1, 1);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQ3MzY1OTQsLTYxMjY5MjE5LDExMj
-EzOTQ3MCw1NjU3ODA2MjIsLTE1OTczMjE4NzMsMjExODk0ODUx
-MSwtMjA2MTcxNjQ4OV19
+eyJoaXN0b3J5IjpbNjc2MTE2NzU2LC02MTI2OTIxOSwxMTIxMz
+k0NzAsNTY1NzgwNjIyLC0xNTk3MzIxODczLDIxMTg5NDg1MTEs
+LTIwNjE3MTY0ODldfQ==
 -->
