@@ -31,7 +31,12 @@ public class MyTestClass
 
 ## Test Types
 
-There are **two major types of test in XUnit**: `Fact` and `Theory
+There are **two major types of test in XUnit**: `Fact` and `Theory` tests. 
+
+`Fact` tests are **invariant and always true**, they do not support dynamic inputs.
+
+`Theory` tests are **true for a particular set of data** passed into them.
+
 ### Fact Tests
 
 You can **create a new synchronous unit test** by creating a new `void` method and decorating it with the `[Fact]` attribute.
@@ -54,7 +59,7 @@ public void MyTest_TestingFramework_Passes()
 
 ### Theory Tests
 
-You can **create a test with multiple inputs** by marking the test with the `[Theory]` attribute.
+You can **create a test with multiple inputs** by marking the test with the `[Theory]` attribute. Data is then passed in using the `
 
 ## Assert
 
@@ -70,7 +75,7 @@ Assert.Equal(1, 1);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwNjIyMTUyLC02MTI2OTIxOSwxMTIxMz
-k0NzAsNTY1NzgwNjIyLC0xNTk3MzIxODczLDIxMTg5NDg1MTEs
-LTIwNjE3MTY0ODldfQ==
+eyJoaXN0b3J5IjpbLTExOTQ3MzY1OTQsLTYxMjY5MjE5LDExMj
+EzOTQ3MCw1NjU3ODA2MjIsLTE1OTczMjE4NzMsMjExODk0ODUx
+MSwtMjA2MTcxNjQ4OV19
 -->
