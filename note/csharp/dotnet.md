@@ -93,6 +93,11 @@ You can **trim a match characters from the end of a string** using the `TrimEnd`
 "XgbXg".TrimEnd('b'); // => "XgbXg" (Unchanged)
 ```
 
+You can **match a pattern to the end of a string** using the `EndsWith` method.
+```csharp
+
+```
+
 ### nameof
 
 You can **convert the type of a variable to a string** using the `nameof` operator.
@@ -518,11 +523,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjExOTUwNCwxODMzNzA4NzU4LDczMT
-U5MzY0Nyw0Njk3Nzc0NjIsOTA2MjQzNTgsLTE3MjIzOTY4OTYs
-LTE1NTgwMDAwNjAsLTQwMzIyOTIzNywtMTY1MDg3NzkwMSwtMT
-AzMzE0ODMwOSwxMTgwNTcwNDQ0LDM5MTczMjUyMiwtMTU2ODg4
-OTMwMSwtOTA3NjA4Mzc0LDEyOTI4MTU1MDUsNjY4NzkyNDk2LD
-M1ODk1NzIzMywxMDkyMjk2ODYzLDM0MTg2MzYzNSwyMDA4NDU3
-MzU1XX0=
+eyJoaXN0b3J5IjpbMTEzOTI5MDcyNiwtMzE2MTE5NTA0LDE4Mz
+M3MDg3NTgsNzMxNTkzNjQ3LDQ2OTc3NzQ2Miw5MDYyNDM1OCwt
+MTcyMjM5Njg5NiwtMTU1ODAwMDA2MCwtNDAzMjI5MjM3LC0xNj
+UwODc3OTAxLC0xMDMzMTQ4MzA5LDExODA1NzA0NDQsMzkxNzMy
+NTIyLC0xNTY4ODg5MzAxLC05MDc2MDgzNzQsMTI5MjgxNTUwNS
+w2Njg3OTI0OTYsMzU4OTU3MjMzLDEwOTIyOTY4NjMsMzQxODYz
+NjM1XX0=
 -->
