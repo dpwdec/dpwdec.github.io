@@ -32,6 +32,8 @@ if(true)
 // myObject is disposed
 ```
 
+## Try / Finally Equivalents
+
 `using` blocks are actually shorthand for a `try { } finally { }` block where something is used in the `try` and then disposed of in the `finally`.  Thus, the following example:
 ```csharp
 var con = new SqlConnection();
@@ -45,7 +47,7 @@ finally
 }
 ```
 
-Is equivalent to
+Is equivalent to the example below where the `Dispose` method is called implicitly by `using`
 ```csharp
 using(SqlConnection con = new SqlConnect())
 {
@@ -53,6 +55,10 @@ using(SqlConnection con = new SqlConnect())
 }
 ```
 
+## IDisposable
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjUwOTc0N119
+eyJoaXN0b3J5IjpbMTIwMzg0NjgwMF19
 -->
