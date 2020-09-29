@@ -181,7 +181,15 @@ return StatusCode(StatusCodes.Status500InternalServerError);
 
 ## Binding Sources
 
-## Action Results
+## Controller Results
+
+Controller results are instances of `IActionResult`
+
+### IActionResult
+
+
+
+### Action Results
 
 You can **get the value from a successful `ActionResult`** by destructuring the object into an `OkObjectResult` and then destructuring it again into the expected value. The example below demonstrates a controller route that contains a string,  unfortunately **casting must be done between the `ActionResult` and `OkObjectResult`** to successfully destructure the object with the `Result` and `Value` properties.
 ```csharp
@@ -272,11 +280,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDY4ODc3MiwtMjAzMzY1MjgxNCwtMT
-A2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0NTE1MiwtODgxNTA1
-MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQyODUsMT
-AwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUwOSwtMjIwNTU4
-NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1MzgxMCwxND
-A1OTEyMjI0LDE1NTYxMTg1OTgsMTM1MjQ4NDYwNSwtMTYyODE2
-MjIxN119
+eyJoaXN0b3J5IjpbLTEzOTk5OTgwNzcsMTU3MDY4ODc3MiwtMj
+AzMzY1MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0
+NTE1MiwtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC
+00MzU2NzQyODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjcz
+OTUwOSwtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLD
+Q0MzQ1MzgxMCwxNDA1OTEyMjI0LDE1NTYxMTg1OTgsMTM1MjQ4
+NDYwNV19
 -->
