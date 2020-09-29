@@ -13,7 +13,7 @@ using (MyObject myObject = new MyObject())
 // myRes is disposed
 ```
 
-You can also **limit resource scope** 
+You can also **limit resource scope within a block** by placing the `using` statement  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjE0MjE3MDVdfQ==
+eyJoaXN0b3J5IjpbLTEwOTAzMTM2MzNdfQ==
 -->
