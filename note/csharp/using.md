@@ -32,15 +32,27 @@ if(true)
 // myObject is disposed
 ```
 
-`using` blocks are actually shorthand for a `try { } finally { }` block where something is used in the `try` and then disposed of in the `finally`.
+`using` blocks are actually shorthand for a `try { } finally { }` block where something is used in the `try` and then disposed of in the `finally`.  Thus, the following example:
 ```csharp
-var sqlConnection
+var con = new SqlConnection();
 try
 {
-  
+  con.execute();
+}
+finally
+{
+  con.Dispose();
+}
+```
+
+Is equivalent to
+```csharp
+using(SqlConnection con = new SqlConnect())
+{
+  con.execute();
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxNjE1NjA5XX0=
+eyJoaXN0b3J5IjpbMTI2NjUwOTc0N119
 -->
