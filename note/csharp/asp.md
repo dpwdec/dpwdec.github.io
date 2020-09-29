@@ -208,9 +208,10 @@ var absoluteUri = new Uri("https://website.com/hello");
 var relativeUri = new Uri("/path/to/something");
 ```
 
-You can **check what kind of URI a URI string is** by using the static `IsWellFormedString` method of the `Uri` class. This takes the URI string and an `UriKind` `enum` for the type of URI and returns a `bool`.
+You can **check what kind of URI a URI string is** by using the static `IsWellFormedString` method of the `Uri` class. This takes the URI string and an `UriKind` `enum` for the type of URI and returns a `bool`. Any string that **contains a protocol and a domain** is considered **absolute**, **everything else** is considered **relative**.
 ```csharp
-
+var absoluteUri = "https://website.com/hello";
+var relativeUri = "/path/to/sometinmg
 ```
 
 
@@ -255,11 +256,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4MDUyOTI0LC0yMDMzNjUyODE0LC0xMD
-Y1MzA0MTcxLDY1OTAwNTMyMiwtMTM5NjQ1MTUyLC04ODE1MDUx
-OTQsMTcwMjk1OTI0NSwyMzk4ODM5NzcsLTQzNTY3NDI4NSwxMD
-AxNjk5ODM3LC01NDI0NzExMTAsOTI2NzM5NTA5LC0yMjA1NTg2
-MzQsLTMyNjU1MjMyLC0zNDU3MzIzMDAsNDQzNDUzODEwLDE0MD
-U5MTIyMjQsMTU1NjExODU5OCwxMzUyNDg0NjA1LC0xNjI4MTYy
-MjE3XX0=
+eyJoaXN0b3J5IjpbMTI3NDcxNTI5MywtMjAzMzY1MjgxNCwtMT
+A2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0NTE1MiwtODgxNTA1
+MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQyODUsMT
+AwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUwOSwtMjIwNTU4
+NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1MzgxMCwxND
+A1OTEyMjI0LDE1NTYxMTg1OTgsMTM1MjQ4NDYwNSwtMTYyODE2
+MjIxN119
 -->
