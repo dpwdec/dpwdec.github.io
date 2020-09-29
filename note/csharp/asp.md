@@ -189,7 +189,7 @@ Controllers `return` concrete instances of `IActionResult` when they complete. T
 
 ### IActionResult
 
-
+`IActionResult` is the interface from which `ActionResult` inherits and other action results 
 
 ### Action Results
 
@@ -282,11 +282,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzg4NDcwNiwxNTcwNjg4NzcyLC0yMD
-MzNjUyODE0LC0xMDY1MzA0MTcxLDY1OTAwNTMyMiwtMTM5NjQ1
-MTUyLC04ODE1MDUxOTQsMTcwMjk1OTI0NSwyMzk4ODM5NzcsLT
-QzNTY3NDI4NSwxMDAxNjk5ODM3LC01NDI0NzExMTAsOTI2NzM5
-NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zNDU3MzIzMDAsND
-QzNDUzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5OCwxMzUyNDg0
-NjA1XX0=
+eyJoaXN0b3J5IjpbLTMyMTYxNzk2MSwxMzE3ODg0NzA2LDE1Nz
+A2ODg3NzIsLTIwMzM2NTI4MTQsLTEwNjUzMDQxNzEsNjU5MDA1
+MzIyLC0xMzk2NDUxNTIsLTg4MTUwNTE5NCwxNzAyOTU5MjQ1LD
+IzOTg4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4MzcsLTU0MjQ3
+MTExMCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIsLT
+M0NTczMjMwMCw0NDM0NTM4MTAsMTQwNTkxMjIyNCwxNTU2MTE4
+NTk4XX0=
 -->
