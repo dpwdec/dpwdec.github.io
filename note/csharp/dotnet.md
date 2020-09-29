@@ -95,7 +95,8 @@ You can **trim a match characters from the end of a string** using the `TrimEnd`
 
 You can **match a pattern to the end of a string** using the `EndsWith` method.
 ```csharp
-"some/path/about/".EndsWith('
+"some/path/about/".EndsWith("about/"); // => true
+"some/path/about/".EndsWith("wabout/"); // => false
 ```
 
 ### nameof
@@ -523,7 +524,7 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE2MjIzMzIsLTMxNjExOTUwNCwxOD
+eyJoaXN0b3J5IjpbLTExMzU0ODgyMDIsLTMxNjExOTUwNCwxOD
 MzNzA4NzU4LDczMTU5MzY0Nyw0Njk3Nzc0NjIsOTA2MjQzNTgs
 LTE3MjIzOTY4OTYsLTE1NTgwMDAwNjAsLTQwMzIyOTIzNywtMT
 Y1MDg3NzkwMSwtMTAzMzE0ODMwOSwxMTgwNTcwNDQ0LDM5MTcz
