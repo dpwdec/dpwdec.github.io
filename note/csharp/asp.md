@@ -200,6 +200,9 @@ Essentially, your **internal implementation should be decoupled from data that i
 
 A solution to this is a **Data Transfer Object** (DTO) which is a representation of your internal data structures for external use. For example, if our system implements a class called `User` which has a number of properties, such as `Name`, `DateOfBirth`, `Height` etc. and the type formats that those are stored in and any other database specific or data processing methods, we would not want to expose this directly to parts of your application that send and receive data, because we might want to return the User's age instead of their `DateOfBirth` directly, for this we would create a DTO that mirrors the structure of the internal `User` implementation for the purposes of this data transfer.
 
+## Uri
+
+
  
 ## Razor Pages
 
@@ -241,11 +244,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MT
-UwNTE5NCwxNzAyOTU5MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1
-LDEwMDE2OTk4MzcsLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMD
-U1ODYzNCwtMzI2NTUyMzIsLTM0NTczMjMwMCw0NDM0NTM4MTAs
-MTQwNTkxMjIyNCwxNTU2MTE4NTk4LDEzNTI0ODQ2MDUsLTE2Mj
-gxNjIyMTcsMTkzNTI1MTc2NiwxMzg0MDg3MjA2LC02Mzg0MzUw
-MzddfQ==
+eyJoaXN0b3J5IjpbMTA4NTU2ODcxNiw2NTkwMDUzMjIsLTEzOT
+Y0NTE1MiwtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3
+LC00MzU2NzQyODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNj
+czOTUwOSwtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAw
+LDQ0MzQ1MzgxMCwxNDA1OTEyMjI0LDE1NTYxMTg1OTgsMTM1Mj
+Q4NDYwNSwtMTYyODE2MjIxNywxOTM1MjUxNzY2LDEzODQwODcy
+MDZdfQ==
 -->
