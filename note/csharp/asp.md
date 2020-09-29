@@ -183,7 +183,7 @@ return StatusCode(StatusCodes.Status500InternalServerError);
 
 ## Controller Results
 
-Controller results are instances of `IActionResult`
+Controllers `return` concrete instances of `IActionResult` when they complete. These can indicate a range of actions such as `Ok` results with data or `Redirect` results to other addresses. Importantly **controller results are SEPARATE from HTTP return objects**
 
 ### IActionResult
 
@@ -280,7 +280,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk5OTgwNzcsMTU3MDY4ODc3MiwtMj
+eyJoaXN0b3J5IjpbLTEyMjQyOTI2MjcsMTU3MDY4ODc3MiwtMj
 AzMzY1MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0
 NTE1MiwtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC
 00MzU2NzQyODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjcz
