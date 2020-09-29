@@ -16,8 +16,6 @@ using(MyObject myObject = new MyObject())
 ```
 
 You can **define multiple using scope declarations in a single statement** by separating the declarations. You don't have to use nested `using` statements. 
-
-*What the point of this be defeated if I started this with using System.IO? Or is it specifically the object that is getting disposed?*
 ```csharp
 using(System.IO.StreamReader r = new System.IO.StreamReader(""), r2 = new System.IO.StreamReader(""))
 {
@@ -36,5 +34,5 @@ if(true)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQyNzExNzRdfQ==
+eyJoaXN0b3J5IjpbMTU4NzgyNTQ4M119
 -->
