@@ -183,7 +183,7 @@ return StatusCode(StatusCodes.Status500InternalServerError);
 
 ## Controller Results
 
-Controllers `return` concrete instances of `IActionResult` when they complete. These can indicate a range of actions such as `Ok` results with data or `Redirect` results to other addresses. Importantly **controller results are distinct from HTTP return objects**, they [do not contain status codes][nostatus] but are routed further through the web infrastructure before they return a specific HTTP response.
+Controllers `return` concrete instances of `IActionResult` when they complete. These can indicate a range of actions such as `Ok` results with data or `Redirect` results to other addresses. Importantly **controller results are distinct from HTTP return objects**, they [do not contain status codes][nostatus] until later when they have been processed by the request pipeline.
 
 [nostatus]: https://stackoverflow.com/a/50989283
 
@@ -282,11 +282,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDAxNDAyMjUsMTU3MDY4ODc3MiwtMj
-AzMzY1MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0
-NTE1MiwtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC
-00MzU2NzQyODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjcz
-OTUwOSwtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLD
-Q0MzQ1MzgxMCwxNDA1OTEyMjI0LDE1NTYxMTg1OTgsMTM1MjQ4
-NDYwNV19
+eyJoaXN0b3J5IjpbMTMxNzg4NDcwNiwxNTcwNjg4NzcyLC0yMD
+MzNjUyODE0LC0xMDY1MzA0MTcxLDY1OTAwNTMyMiwtMTM5NjQ1
+MTUyLC04ODE1MDUxOTQsMTcwMjk1OTI0NSwyMzk4ODM5NzcsLT
+QzNTY3NDI4NSwxMDAxNjk5ODM3LC01NDI0NzExMTAsOTI2NzM5
+NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zNDU3MzIzMDAsND
+QzNDUzODEwLDE0MDU5MTIyMjQsMTU1NjExODU5OCwxMzUyNDg0
+NjA1XX0=
 -->
