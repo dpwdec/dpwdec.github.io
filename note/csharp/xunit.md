@@ -20,7 +20,7 @@ public class MyTestClass
   // class body set up here, such as mocks or other dependencies
   private readonly _myObject = new MyObject();
 
-  public MyTestClass
+  public MyTestClass()
   {
     // constructor set up here
   }
@@ -61,6 +61,6 @@ Assert.Equal(1, 1);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTczMjE4NzMsMjExODk0ODUxMSwtMj
-A2MTcxNjQ4OV19
+eyJoaXN0b3J5IjpbNTY1NzgwNjIyLC0xNTk3MzIxODczLDIxMT
+g5NDg1MTEsLTIwNjE3MTY0ODldfQ==
 -->
