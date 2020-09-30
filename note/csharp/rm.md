@@ -96,8 +96,14 @@ public interface IDisposable
 }
 ```
 
-You can **stop the garbage collector from calling your class's `Finalize` method IF the `Dipose` was successfully triggered** by using the `SuppressFinalize` method on the `GC` object.
-
+You can **stop the garbage collector from calling your class's `Finalize` method IF the `Dipose` was successfully triggered** by using the `SuppressFinalize` method on the `GC` object. You should do this if your class's finalizer and `Dispose` method essentially accomplish the same thing, as having an unnecessary finalizer is not good due to its added overhead.
+```csharp
+public void Dipose()
+{
+  // do some disposal
+  GC.SuppressFinalize(true)
+}
+```
 
 
 
@@ -105,5 +111,5 @@ You can **stop the garbage collector from calling your class's `Finalize` method
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDgwMjkzOV19
+eyJoaXN0b3J5IjpbMTEwNjgwMDEyMl19
 -->
