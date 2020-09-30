@@ -44,7 +44,7 @@ if(true)
 
 ## Try / Finally Equivalents
 
-`using` blocks are actually shorthand for a `try { } finally { }` block where something is used in the `try` and then disposed of in the `finally`.  Thus, the following example:
+`using` blocks are similar to a `try { } finally { }` block where something is used in the `try` and then disposed of in the `finally`.  Thus, the following example:
 ```csharp
 var con = new SqlConnection();
 try
@@ -57,8 +57,8 @@ finally
 }
 ```
 
-Is equivalent to the example below where the `Dispose` method is called implicitly by `using`
-```csharp
+Is roughly equivalent to the example below where the `Dispose` method is called implicitly by `using`. The main difference being that `using` **ensures that `Dispose` is called *even* when an exception occurs**.
+```csharp.
 using(SqlConnection con = new SqlConnect())
 {
   con.execute();
@@ -77,6 +77,6 @@ If an object implements `IDisposable` this is an indication that it **holds some
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDA2OTU3MSwtNjkyNDA1ODU1LDE1Mz
+eyJoaXN0b3J5IjpbMTM5ODg5OTQ5OCwtNjkyNDA1ODU1LDE1Mz
 E2NTQyMzddfQ==
 -->
