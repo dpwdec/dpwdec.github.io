@@ -54,8 +54,13 @@ You can **add the `code` CLI namespace to your machine** by using triggering the
 ## Error Highlighting
 
 Often you will need to add a `.vscode` file to your to **enable error handling**.
+
+## Git
+
+You can **create a new branch of your current project** by opening the vscode command window and using the `git checkout` command and then selecting a new
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTA2MDY0MiwyNzg2NjAzNjEsLTE0MT
-k1MjAzMzAsMjY0NzYyOTcwLDEzMTc3OTczOTYsMTM4MjYzMDE0
-MCwtMTczNzkwMjU3MSwtMTAzODkxMDIwM119
+eyJoaXN0b3J5IjpbMjEyNzQ2NTYwOSwtNjk5MDYwNjQyLDI3OD
+Y2MDM2MSwtMTQxOTUyMDMzMCwyNjQ3NjI5NzAsMTMxNzc5NzM5
+NiwxMzgyNjMwMTQwLC0xNzM3OTAyNTcxLC0xMDM4OTEwMjAzXX
+0=
 -->
