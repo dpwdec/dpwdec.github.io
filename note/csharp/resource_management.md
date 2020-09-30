@@ -8,7 +8,7 @@ exclude: true
 
 ## Using
 
-The `using` keyword can be used as a syntax for **deterministically managing the scope of an object**. The use of `using` with a scope resource forces the r
+The `using` keyword can be used as a syntax for **deterministically managing the scope of an object**. The use of `using` with a scoped resource forces the resource to be released at the end of the scope that the resource is valid for. Normally you would have to wait for the garbage collector to decide the resource was not being used and dispose of it
 
 ### Using blocks
 
@@ -73,5 +73,5 @@ For an object to **work with a `using` block** it must **implement the `IDisposa
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYyODE0NjUsMTUzMTY1NDIzN119
+eyJoaXN0b3J5IjpbNDQ3NzU0MzcwLDE1MzE2NTQyMzddfQ==
 -->
