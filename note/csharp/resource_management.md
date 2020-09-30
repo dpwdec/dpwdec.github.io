@@ -33,7 +33,7 @@ using(System.IO.StreamReader r = new System.IO.StreamReader(""), r2 = new System
 
 ### Using variables
 
-You can also **limit object scope within a block** by placing the `using` statement within an already existing scope. The object will then be disposed of when the program exits that scope.
+You can also **limit object scope within a block** by placing the `using` statement within an already existing scope. The object will then be disposed of when the program exits that scope. This is a newer syntax version of the `using` blocks above for greater ease of resource management.
 ```csharp
 if(true)
 {
@@ -65,6 +65,8 @@ using(SqlConnection con = new SqlConnect())
 }
 ```
 
+## Finalizer
+
 ## IDisposable
 
 The `IDisposable` interface **implements a single method called `Dipose`** which is **called automatically when a resource managed object that implements it goes out of scope**. 
@@ -77,6 +79,6 @@ If an object implements `IDisposable` this is an indication that it **holds some
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODg5OTQ5OCwtNjkyNDA1ODU1LDE1Mz
-E2NTQyMzddfQ==
+eyJoaXN0b3J5IjpbLTQ2MDM5NTk1MywxMzk4ODk5NDk4LC02OT
+I0MDU4NTUsMTUzMTY1NDIzN119
 -->
