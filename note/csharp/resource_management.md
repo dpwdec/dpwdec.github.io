@@ -90,7 +90,10 @@ The `IDisposable` interface **implements a single method called `Dipose`** which
 
 If an object implements `IDisposable` this is an indication that it **holds some valuable resource** and **should be released** when possible. It's up the resource consumer to correctly release the resource with the `Dispose` method.
 ```csharp
-public in
+public interface IDisposable
+{
+  public void 
+}
 ```
 
 
@@ -99,6 +102,6 @@ public in
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODI5NjU5LDIxMTY0NDE2NjMsMTM5OD
+eyJoaXN0b3J5IjpbMjA3ODIzNTI3LDIxMTY0NDE2NjMsMTM5OD
 g5OTQ5OCwtNjkyNDA1ODU1LDE1MzE2NTQyMzddfQ==
 -->
