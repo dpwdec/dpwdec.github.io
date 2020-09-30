@@ -101,7 +101,7 @@ You can **stop the garbage collector from calling your class's `Finalize` method
 public void Dipose()
 {
   // do some disposal
-  GC.SuppressFinalize(true)
+  GC.SuppressFinalize(true);
 }
 ```
 
@@ -111,5 +111,5 @@ public void Dipose()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjgwMDEyMl19
+eyJoaXN0b3J5IjpbMTQzMzA1MjQxN119
 -->
