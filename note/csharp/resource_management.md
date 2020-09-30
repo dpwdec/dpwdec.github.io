@@ -4,8 +4,6 @@ layout: page
 exclude: true
 ---
 
-*When using is used with imports of namespaces at the top of a file. How does that work?*
-
 ## Using
 
 The `using` keyword can be used as a syntax for **deterministically managing the scope of an object**. The use of `using` with a scoped resource forces the resource to be released at the end of the scope that the resource is valid for. Normally you would have to wait for the garbage collector to decide the resource was not being used and dispose of it, but `using` gives an explicit direction that the resource is no longer needed and any reference to it can be removed from the current run time. This **does necessarily free the memory** but it does help with managing limited pools of resources (for example database connections) by marking unneeded resources allowing for the resource pool to be replenished.
@@ -16,11 +14,7 @@ The use of `using` for within methods, for resource management, is **completely 
 
 ### Using blocks
 
-`using` blocks are (just) another syntax for **deterministically managing the scope of an object**. Using blocks can **only work with objects that implement the `IDisposable` interface** which implements the `Dispose` method for releasing resources at the end 
-
-The use of `using` for blocks within methods is **completely separate from `using` for imports** at the top of a file.
-
-You can **ensure an object is limited to a particular scope** by declaring it with the `using` keyword before the block in which it is used. This will cause the object's resources to be released at the end of the block and for the garbage collector to be triggered to remove it.
+`using` blocks are one **syntax for deterministically describing the scope of an object**. You can **ensure an object is limited to a particular scope** by declaring it with the `using` keyword before the block in which it is used. This will cause the object's resources to be released at the end of the block.
 ```csharp
 using(MyObject myObject = new MyObject())
 {
@@ -77,5 +71,5 @@ For an object to **work with a `using` block** it must **implement the `IDisposa
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDcxODc4MSwxNTMxNjU0MjM3XX0=
+eyJoaXN0b3J5IjpbLTE2MDEzMDUzNTMsMTUzMTY1NDIzN119
 -->
