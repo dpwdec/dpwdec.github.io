@@ -12,7 +12,7 @@ namespace ExtensionMethods
 {
   public static class MyExtensions
   {
-    public static void PrintMe(this String str)
+    public static void Print(this String str)
     {
       Console.WriteLine(str);
     }
@@ -20,7 +20,17 @@ namespace ExtensionMethods
 }
 ```
 
+You can **call an extension method** by importing the namespace of the extension and then calling it as if it were instance method on the object.
+```csharp
+using ExtensionMethods;
+
+var str = "Message";
+str.Print() // => message
+```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTg1MjMzNCw4NDU4MDkwNl19
+eyJoaXN0b3J5IjpbMTM4MDIwOTEwNywxNjExODUyMzM0LDg0NT
+gwOTA2XX0=
 -->
