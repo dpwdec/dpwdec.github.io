@@ -57,9 +57,12 @@ Often you will need to add a `.vscode` file to your to **enable error handling**
 
 ## Git
 
-You can **create a new branch of your current project** by opening the vscode command window and using the `git checkout` command and then selecting a new
+You can **create a new branch of your current project** by opening the vscode command window and using the `git checkout` command and then selecting a `new branch` and adding the name of the branch.
+```
+>Git Checkout
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzQ2NTYwOSwtNjk5MDYwNjQyLDI3OD
+eyJoaXN0b3J5IjpbLTQ0MzMzNzkzMSwtNjk5MDYwNjQyLDI3OD
 Y2MDM2MSwtMTQxOTUyMDMzMCwyNjQ3NjI5NzAsMTMxNzc5NzM5
 NiwxMzgyNjMwMTQwLC0xNzM3OTAyNTcxLC0xMDM4OTEwMjAzXX
 0=
