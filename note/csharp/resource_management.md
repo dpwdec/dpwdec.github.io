@@ -67,12 +67,16 @@ using(SqlConnection con = new SqlConnect())
 
 ## IDisposable
 
-The `IDisposable` interface **implements a single method called `Dipose`** which is **called automatically when a resource managed object that implements it goes out of scope**. If an object implements `IDisposable` this is an indication that it **holds some valuable resource** and **should be released** when possible. It's up the resource consumer to correctly release the resource with the `Dispose` method.
+The `IDisposable` interface **implements a single method called `Dipose`** which is **called automatically when a resource managed object that implements it goes out of scope**. 
+
+If an object implements `IDisposable` this is an indication that it **holds some valuable resource** and **should be released** when possible. It's up the resource consumer to correctly release the resource with the `Dispose` method.
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzU5MzUxNjUsLTY5MjQwNTg1NSwxNT
-MxNjU0MjM3XX0=
+eyJoaXN0b3J5IjpbMTQ2NDA2OTU3MSwtNjkyNDA1ODU1LDE1Mz
+E2NTQyMzddfQ==
 -->
