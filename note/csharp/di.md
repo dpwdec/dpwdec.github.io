@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 
-You **cannot pass run time parameters into a dependency injected via an IoC**. The graph of objects that depend on each other should be static (and preferably stateless) with runtime data being passed through them with method calls after the entire object graph has been constructed. A cla
+You **cannot pass run time parameters into a dependency injected via an IoC**. The graph of objects that depend on each other should be static (and preferably stateless) with runtime data being passed through them with method calls after the entire object graph has been constructed. A class like `MyClass` below which takes a `string` name as an input parameter would *not* be appropriate for d
 ```csharp
 public class MyClass
 {
@@ -27,6 +27,6 @@ public class User
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzU0ODU0MCwtMjU3MjgzMzYsLTg2Mz
+eyJoaXN0b3J5IjpbMTcyMTk3NDkwMywtMjU3MjgzMzYsLTg2Mz
 UyOTc2XX0=
 -->
