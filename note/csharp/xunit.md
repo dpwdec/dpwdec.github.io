@@ -92,10 +92,14 @@ You can **assert that two things are equal** with the `Equal` method, the **argu
 Assert.Equal(1, 1);
 ```
 
-You can **check whe**
+You can **assert against an object's type** by using the `BeOfType` method in combination with the `typeof` keyword.
+```csharp
+var myString = "Watermelon";
+myString.Should().BeOfType(typeof(string));
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODcxODkwNTksLTE5MTY1MDAwMzgsLT
-YxMjY5MjE5LDExMjEzOTQ3MCw1NjU3ODA2MjIsLTE1OTczMjE4
-NzMsMjExODk0ODUxMSwtMjA2MTcxNjQ4OV19
+eyJoaXN0b3J5IjpbLTg3OTE3MzkzNywtMTkxNjUwMDAzOCwtNj
+EyNjkyMTksMTEyMTM5NDcwLDU2NTc4MDYyMiwtMTU5NzMyMTg3
+MywyMTE4OTQ4NTExLC0yMDYxNzE2NDg5XX0=
 -->
