@@ -96,11 +96,14 @@ public interface IDisposable
 }
 ```
 
+You can **stop the garbage collector from calling your class's `Finalize` method IF the `Dipose` was successfully triggered** by using the `SuppressFinalize` method on the `GC` object.
+
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3ODYxMjY3XX0=
+eyJoaXN0b3J5IjpbLTE0MDgwMjkzOV19
 -->
