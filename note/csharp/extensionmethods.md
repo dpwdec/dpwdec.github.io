@@ -28,10 +28,12 @@ var str = "Message";
 str.Print() // => message
 ```
 
-Extension methods **cannot access private variables**
+Extension methods **cannot access private variables** on the type that they are extending.
+
+If you are extension method
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTczMzU5MDc4LDE2MTE4NTIzMzQsODQ1OD
-A5MDZdfQ==
+eyJoaXN0b3J5IjpbLTEwODMwMjA2NzMsMTYxMTg1MjMzNCw4ND
+U4MDkwNl19
 -->
