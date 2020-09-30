@@ -71,7 +71,9 @@ using(SqlConnection con = new SqlConnect())
 
 A finalizer is an **optional method which executes when an object is garbage collected**. Adding a finalizer to an object is **optional**.
 
-If an object does have a finalizer the **finalizer method is added** to a **finalization queue** during garbage collection. This **add significant overhead to the GC** which means you should only use it as a safety net for freeing unmanaged resources, the finalizer is there in case the use
+If an object does have a finalizer the **finalizer method is added** to a **finalization queue** during garbage collection. This **adds significant overhead to the GC** which means you should **only use it as a safety net for freeing unmanaged resources**. The finalizer exists **in case the user of an `IDisposable` doesn't correctly release its resources**.
+
+
 
 ## IDisposable
 
@@ -85,6 +87,6 @@ If an object implements `IDisposable` this is an indication that it **holds some
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU4NDIwOTQsMTM5ODg5OTQ5OCwtNj
-kyNDA1ODU1LDE1MzE2NTQyMzddfQ==
+eyJoaXN0b3J5IjpbMjExNjQ0MTY2MywxMzk4ODk5NDk4LC02OT
+I0MDU4NTUsMTUzMTY1NDIzN119
 -->
