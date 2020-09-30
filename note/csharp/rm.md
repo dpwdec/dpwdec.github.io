@@ -4,6 +4,10 @@ layout: page
 exclude: true
 ---
 
+## Garbage Collector
+
+## Unmanaged Resources
+
 ## Using
 
 The `using` keyword can be used as a syntax for **deterministically managing the scope of an object**. The use of `using` with a scoped resource forces the resource to be released at the end of the scope that the resource is valid for. Normally you would have to wait for the garbage collector to decide the resource was not being used and dispose of it, but `using` gives an explicit direction that the resource is no longer needed and any reference to it can be removed from the current run time. 
@@ -111,5 +115,5 @@ public void Dipose()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzA1MjQxN119
+eyJoaXN0b3J5IjpbMTk1NDc2NjkzNCwxNDMzMDUyNDE3XX0=
 -->
