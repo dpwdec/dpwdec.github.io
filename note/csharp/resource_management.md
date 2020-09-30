@@ -8,7 +8,7 @@ exclude: true
 
 ## Using
 
-`using` blocks are (just) another syntax for **deterministically managing the scope of an object**. Using blocks can **only work with objects that implement the `IDisposable` interface** which implements that `Dispose` m
+`using` is (just) another syntax for **deterministically managing the scope of an object**. Using blocks can **only work with objects that implement the `IDisposable` interface** which implements the `Dispose` method for releasing resources at the end o
 
 The use of `using` for blocks within methods is **completely separate from `using` for imports** at the top of a file.
 
@@ -67,5 +67,5 @@ For an object to **work with a `using` block** it must **implement the `IDisposa
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzOTY3OTQ5LDE1MzE2NTQyMzddfQ==
+eyJoaXN0b3J5IjpbLTEwOTM3MTQ2NTEsMTUzMTY1NDIzN119
 -->
