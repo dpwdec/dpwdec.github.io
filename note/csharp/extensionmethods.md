@@ -30,10 +30,10 @@ str.Print() // => message
 
 Extension methods **cannot access private variables** on the type that they are extending.
 
-If you are extension method
+Extension methods **cannot override instance methods that already exist** on the type they are extending, they always have a lower priority than the instance methods.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODMwMjA2NzMsMTYxMTg1MjMzNCw4ND
+eyJoaXN0b3J5IjpbLTE4NjAyNzkyOTgsMTYxMTg1MjMzNCw4ND
 U4MDkwNl19
 -->
