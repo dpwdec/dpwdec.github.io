@@ -8,7 +8,7 @@ exclude: true
 
 ## Using Blocks
 
-Using Bl
+Using blocks are (just) another syntax for **deterministically managing the scope of an object**. Using blocks can **only work with objects that implement the `IDisposable` interface**.
 
 You can **ensure an object is limited to a particular scope** by declaring it with the `using` keyword before the block in which it is used. This will cause the object's resources to be released at the end of the block and for the garbage collector to be triggered to remove it.
 ```csharp
@@ -65,5 +65,5 @@ For an object to **work with a `using` block** it must **implement the `IDisposa
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDU4MjA1NDldfQ==
+eyJoaXN0b3J5IjpbMTUzMTY1NDIzN119
 -->
