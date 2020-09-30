@@ -20,7 +20,7 @@ using(MyObject myObject = new MyObject())
 {
   myObject.MyMethod();
 }
-// myObject is disposed
+// myObject is disposed (Dipose() called implicitly)
 ```
 
 You can **define multiple using scope declarations in a single statement** by separating the declarations. You don't have to use nested `using` statements. 
@@ -39,7 +39,7 @@ if(true)
 {
   using var myObject = new MyObject();
 }
-// myObject is disposed
+// myObject is disposed (Dipose() called implicitly)
 ```
 
 ## Try / Finally Equivalents
@@ -67,9 +67,9 @@ using(SqlConnection con = new SqlConnect())
 
 ## IDisposable
 
-This interface contains a single method `Dispose` that is used for explicitly triggering garbage collection of an object.
+The `IDisposable` interface implements a single method called `Dipose` which is called automatically when a resource managed object that implements it goes out of scope.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzM4MTkxNSwxNTMxNjU0MjM3XX0=
+eyJoaXN0b3J5IjpbLTY5MjQwNTg1NSwxNTMxNjU0MjM3XX0=
 -->
