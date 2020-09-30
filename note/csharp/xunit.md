@@ -92,9 +92,10 @@ You can **assert that two things are equal** with the `Equal` method, the **argu
 Assert.Equal(1, 1);
 ```
 
+You can **check whe**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTY1MDAwMzgsLTYxMjY5MjE5LDExMj
-EzOTQ3MCw1NjU3ODA2MjIsLTE1OTczMjE4NzMsMjExODk0ODUx
-MSwtMjA2MTcxNjQ4OV19
+eyJoaXN0b3J5IjpbLTIwODcxODkwNTksLTE5MTY1MDAwMzgsLT
+YxMjY5MjE5LDExMjEzOTQ3MCw1NjU3ODA2MjIsLTE1OTczMjE4
+NzMsMjExODk0ODUxMSwtMjA2MTcxNjQ4OV19
 -->
