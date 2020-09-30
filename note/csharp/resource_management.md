@@ -8,7 +8,7 @@ exclude: true
 
 The `using` keyword can be used as a syntax for **deterministically managing the scope of an object**. The use of `using` with a scoped resource forces the resource to be released at the end of the scope that the resource is valid for. Normally you would have to wait for the garbage collector to decide the resource was not being used and dispose of it, but `using` gives an explicit direction that the resource is no longer needed and any reference to it can be removed from the current run time. 
 
-Resource management with `using` **does not free the memory** but it does help with managing limited pools of resources (for example database connections) by marking unneeded resources allowing for the resource pool to be replenished. An object which falls out of scope and owns unma
+Resource management with `using` **does not free the memory** but it does help with managing limited pools of resources (for example database connections) by marking unneeded resources allowing for the resource pool to be replenished. An object which falls out of scope and owns resources, which is then garbage collected will never has its resources released because the **garbage collector is not responsible for resource management**. For example, in the database connections example, the database connection pool will never receive a mess
 
 Resource management with `using` only works with **only work with objects that implement the `IDisposable` interface**. This interface contains a single method `Dispose` that is **called automatically when the resource declared with `using` goes out of scope**, disposing of it.
 
@@ -81,6 +81,6 @@ If an object implements `IDisposable` this is an indication that it **holds some
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTQ3OTk2LDEzOTg4OTk0OTgsLTY5Mj
-QwNTg1NSwxNTMxNjU0MjM3XX0=
+eyJoaXN0b3J5IjpbLTE3NjYzMTY2NjMsMTM5ODg5OTQ5OCwtNj
+kyNDA1ODU1LDE1MzE2NTQyMzddfQ==
 -->
