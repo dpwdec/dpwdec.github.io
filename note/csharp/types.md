@@ -6,7 +6,17 @@ exclude: true
 
 ## Storing Types
 
-You **cannot assign object types directly to variables** in C#, such as for purposes of assertio
+You **cannot assign object types directly to variables** in C#, such as for purposes of assertion or checking.
+```csharp
+public class MyClass { ... }
+
+var myClassType = MyClass; // => Error
+```
+
+To **get a reference to a type** use the `typeof` keyword with the type as the argument.
+```csharp
+var myClass
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTYzOTQ0MTFdfQ==
+eyJoaXN0b3J5IjpbMzAwOTA5ODE2XX0=
 -->
