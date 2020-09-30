@@ -73,13 +73,25 @@ A finalizer is an **optional method which executes when an object is garbage col
 
 If an object does have a finalizer the **finalizer method is added** to a **finalization queue** during garbage collection. This **adds significant overhead to the GC** which means you should **only use it as a safety net for freeing unmanaged resources**. The finalizer exists **in case the user of an `IDisposable` doesn't correctly release its resources**.
 
-You can **create a finalizer method for a class** with the name of the class preceded by a `
+You can **create a finalizer method for a class** with the name of the class preceded by a `~` tilde with no arguments.
+```csharp
+public class MyClass
+{
+  ~MyClass()
+  {
+    // finalization logic
+  }
+}
+```
 
 ## IDisposable
 
 The `IDisposable` interface **implements a single method called `Dipose`** which is **called automatically when a resource managed object that implements it goes out of scope**. 
 
 If an object implements `IDisposable` this is an indication that it **holds some valuable resource** and **should be released** when possible. It's up the resource consumer to correctly release the resource with the `Dispose` method.
+```csharp
+public in
+```
 
 
 
@@ -87,6 +99,6 @@ If an object implements `IDisposable` this is an indication that it **holds some
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NzE5MDEyLDIxMTY0NDE2NjMsMTM5OD
+eyJoaXN0b3J5IjpbMTUyODI5NjU5LDIxMTY0NDE2NjMsMTM5OD
 g5OTQ5OCwtNjkyNDA1ODU1LDE1MzE2NTQyMzddfQ==
 -->
