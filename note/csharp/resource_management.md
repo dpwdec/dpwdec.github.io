@@ -73,7 +73,7 @@ A finalizer is an **optional method which executes when an object is garbage col
 
 If an object does have a finalizer the **finalizer method is added** to a **finalization queue** during garbage collection. This **adds significant overhead to the GC** which means you should **only use it as a safety net for freeing unmanaged resources**. The finalizer exists **in case the user of an `IDisposable` doesn't correctly release its resources**.
 
-
+You can **create a finalizer method for a class** with the name of the class preceded by a `
 
 ## IDisposable
 
@@ -87,6 +87,6 @@ If an object implements `IDisposable` this is an indication that it **holds some
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNjQ0MTY2MywxMzk4ODk5NDk4LC02OT
-I0MDU4NTUsMTUzMTY1NDIzN119
+eyJoaXN0b3J5IjpbMTY0NzE5MDEyLDIxMTY0NDE2NjMsMTM5OD
+g5OTQ5OCwtNjkyNDA1ODU1LDE1MzE2NTQyMzddfQ==
 -->
