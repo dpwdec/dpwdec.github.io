@@ -13,10 +13,10 @@ public class MyClass { ... }
 var myClassType = MyClass; // => Error
 ```
 
-To **get a reference to a type** use the `typeof` keyword with the type as the argument.
+To **get a reference to a type** use the `typeof` keyword with the type as the argument. You can then use this type for checking, assertions, casting etc.
 ```csharp
-var myClass
+var myClassType = typeof(MyClass);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAwOTA5ODE2XX0=
+eyJoaXN0b3J5IjpbMTcwODk3NDkxMl19
 -->
