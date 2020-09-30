@@ -8,7 +8,11 @@ exclude: true
 
 ## Using
 
-`using` is (just) another syntax for **deterministically managing the scope of an object**. Using blocks can **only work with objects that implement the `IDisposable` interface** which implements the `Dispose` method for releasing resources at the end o
+The `using` keyword can be used as a syntax for **deterministically managing the scope of an object**. The use of `using` with a scope resource forces the r
+
+### Using blocks
+
+`using` blocks are (just) another syntax for **deterministically managing the scope of an object**. Using blocks can **only work with objects that implement the `IDisposable` interface** which implements the `Dispose` method for releasing resources at the end 
 
 The use of `using` for blocks within methods is **completely separate from `using` for imports** at the top of a file.
 
@@ -28,6 +32,8 @@ using(System.IO.StreamReader r = new System.IO.StreamReader(""), r2 = new System
   // use stream readers
 }
 ```
+
+### Using variables
 
 You can also **limit object scope within a block** by placing the `using` statement within an already existing scope. The object will then be disposed of when the program exits that scope.
 ```csharp
@@ -67,5 +73,5 @@ For an object to **work with a `using` block** it must **implement the `IDisposa
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTM3MTQ2NTEsMTUzMTY1NDIzN119
+eyJoaXN0b3J5IjpbLTE1MzYyODE0NjUsMTUzMTY1NDIzN119
 -->
