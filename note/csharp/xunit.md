@@ -29,7 +29,7 @@ public class MyTestClass
 }
 ```
 
-## Test Types
+## Test Categories
 
 There are **two major types of test in XUnit**: `Fact` and `Theory` tests. 
 
@@ -99,7 +99,8 @@ myString.Should().BeOfType(typeof(string));
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTE3MzkzNywtMTkxNjUwMDAzOCwtNj
-EyNjkyMTksMTEyMTM5NDcwLDU2NTc4MDYyMiwtMTU5NzMyMTg3
-MywyMTE4OTQ4NTExLC0yMDYxNzE2NDg5XX0=
+eyJoaXN0b3J5IjpbLTUzNjUzMzY5OCwtODc5MTczOTM3LC0xOT
+E2NTAwMDM4LC02MTI2OTIxOSwxMTIxMzk0NzAsNTY1NzgwNjIy
+LC0xNTk3MzIxODczLDIxMTg5NDg1MTEsLTIwNjE3MTY0ODldfQ
+==
 -->
