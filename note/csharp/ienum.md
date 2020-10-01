@@ -103,14 +103,14 @@ public interface IEnumerator
 }
 ```
 
-The `MoveNext` 
+The `MoveNext` method **changes a variable that keeps track of the index of enumeration** and **indicates when enumeration is finished** by returning `false`. The `MoveNext` method runs 
 
 ## IEnumerable\<T\>
 
 A **generic enumerable** is an object that implements that `IEnumerable` and `IEnumerate` interface while also containing a specific type. For example an `IEnumerable<string>` will be an enumerable structure that returns `string`s as each item during iteration.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Mjg4MjQzNSw5NzE5NTE3MjksMTAxNz
-Q2MDUxMywtMjA0NzE4Njg1OCwtMTA3Njk3MDU0LDExMzM0MTA5
-MjIsMTgzMDY0MzM1MCwxMjE4MzgwODUwLC02Nzc2MDUxNjFdfQ
-==
+eyJoaXN0b3J5IjpbLTE1ODI4MzI3ODAsOTcxOTUxNzI5LDEwMT
+c0NjA1MTMsLTIwNDcxODY4NTgsLTEwNzY5NzA1NCwxMTMzNDEw
+OTIyLDE4MzA2NDMzNTAsMTIxODM4MDg1MCwtNjc3NjA1MTYxXX
+0=
 -->
