@@ -16,12 +16,12 @@ public void RunThis(int[] arr, Func<int, int> MyFunc)
   foreach(int i in arr)
   {
     var result = MyFunc(i);
+    Console.WriteLine(result);
   }
 }
 
-RunThis(x =>
+RunThis(x => x * 2);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTgzMDIyMTQsLTE1NzQ0Njg5MzNdfQ
-==
+eyJoaXN0b3J5IjpbMTc1MDA0OTc0MSwtMTU3NDQ2ODkzM119
 -->
