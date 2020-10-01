@@ -225,7 +225,8 @@ public MyClass
 
 You can **define implement code for `get` and `set` procedures directly** by expanding and implementing the methods after member definition. This allows you to write more complex implementations for `get` and `set`, however, if you write an implementation for one you must also have an implementation for the other, you cannot have `get` implemented and `set` still using the `set;` syntax. Below is the most basic default implementation, but you can functionally write any code you like here to get and set a member here. The `value` keyword is a special keyword indicating the value that is being passed into the member when it is assigned. By implementing custom `get` and `set` methods **any code inside or outside your class will use these methods for accessing the data**.
 ```csharp
-public int balance
+private int balance;
+public int Balance
 {
   get
   {
@@ -237,6 +238,11 @@ public int balance
     balance = value;
   }
 }
+```
+
+You can **write `get` and `set` using lambda syntax** to make accessors more concise.
+```csharp
+public int Ba
 ```
 
 ### Base
@@ -524,11 +530,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzU0ODgyMDIsLTMxNjExOTUwNCwxOD
-MzNzA4NzU4LDczMTU5MzY0Nyw0Njk3Nzc0NjIsOTA2MjQzNTgs
-LTE3MjIzOTY4OTYsLTE1NTgwMDAwNjAsLTQwMzIyOTIzNywtMT
-Y1MDg3NzkwMSwtMTAzMzE0ODMwOSwxMTgwNTcwNDQ0LDM5MTcz
-MjUyMiwtMTU2ODg4OTMwMSwtOTA3NjA4Mzc0LDEyOTI4MTU1MD
-UsNjY4NzkyNDk2LDM1ODk1NzIzMywxMDkyMjk2ODYzLDM0MTg2
-MzYzNV19
+eyJoaXN0b3J5IjpbMTY4NjI0NTYxNiwtMTEzNTQ4ODIwMiwtMz
+E2MTE5NTA0LDE4MzM3MDg3NTgsNzMxNTkzNjQ3LDQ2OTc3NzQ2
+Miw5MDYyNDM1OCwtMTcyMjM5Njg5NiwtMTU1ODAwMDA2MCwtND
+AzMjI5MjM3LC0xNjUwODc3OTAxLC0xMDMzMTQ4MzA5LDExODA1
+NzA0NDQsMzkxNzMyNTIyLC0xNTY4ODg5MzAxLC05MDc2MDgzNz
+QsMTI5MjgxNTUwNSw2Njg3OTI0OTYsMzU4OTU3MjMzLDEwOTIy
+OTY4NjNdfQ==
 -->
