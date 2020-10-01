@@ -117,16 +117,18 @@ The `Reset` method can **describe a procedure for reseting the positional index 
 ```csharp
 public void Reset()
 {
-  position = -
+  position = -1;
 }
 ```
+
+The `Current` property returns an `Object`
 
 ## IEnumerable\<T\>
 
 A **generic enumerable** is an object that implements that `IEnumerable` and `IEnumerate` interface while also containing a specific type. For example an `IEnumerable<string>` will be an enumerable structure that returns `string`s as each item during iteration.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTI1NTE1NzYsOTcxOTUxNzI5LDEwMT
-c0NjA1MTMsLTIwNDcxODY4NTgsLTEwNzY5NzA1NCwxMTMzNDEw
-OTIyLDE4MzA2NDMzNTAsMTIxODM4MDg1MCwtNjc3NjA1MTYxXX
-0=
+eyJoaXN0b3J5IjpbMTM1NzY0MDU4Miw5NzE5NTE3MjksMTAxNz
+Q2MDUxMywtMjA0NzE4Njg1OCwtMTA3Njk3MDU0LDExMzM0MTA5
+MjIsMTgzMDY0MzM1MCwxMjE4MzgwODUwLC02Nzc2MDUxNjFdfQ
+==
 -->
