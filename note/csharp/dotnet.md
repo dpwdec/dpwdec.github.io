@@ -506,13 +506,6 @@ catch(IOException e) where (e.Data == "Different data"
 }
 ```
 
-## Functions
-
-You can **define an anonymous function** using the `Func` object. When declaring a `Func` you should follow it by `< >` angle brackets with the input argument type and return type. You can use standard lambda calculus syntax to define anonymous functions.
-```csharp
-Func<int, int> double = x => x * 2
-```
-
 
 
 ## Date and Time
@@ -534,11 +527,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzY2NjY5MywtMTEzNTQ4ODIwMiwtMz
-E2MTE5NTA0LDE4MzM3MDg3NTgsNzMxNTkzNjQ3LDQ2OTc3NzQ2
-Miw5MDYyNDM1OCwtMTcyMjM5Njg5NiwtMTU1ODAwMDA2MCwtND
-AzMjI5MjM3LC0xNjUwODc3OTAxLC0xMDMzMTQ4MzA5LDExODA1
-NzA0NDQsMzkxNzMyNTIyLC0xNTY4ODg5MzAxLC05MDc2MDgzNz
-QsMTI5MjgxNTUwNSw2Njg3OTI0OTYsMzU4OTU3MjMzLDEwOTIy
-OTY4NjNdfQ==
+eyJoaXN0b3J5IjpbMzcxMjkyMDEsMTg4NzY2NjY5MywtMTEzNT
+Q4ODIwMiwtMzE2MTE5NTA0LDE4MzM3MDg3NTgsNzMxNTkzNjQ3
+LDQ2OTc3NzQ2Miw5MDYyNDM1OCwtMTcyMjM5Njg5NiwtMTU1OD
+AwMDA2MCwtNDAzMjI5MjM3LC0xNjUwODc3OTAxLC0xMDMzMTQ4
+MzA5LDExODA1NzA0NDQsMzkxNzMyNTIyLC0xNTY4ODg5MzAxLC
+05MDc2MDgzNzQsMTI5MjgxNTUwNSw2Njg3OTI0OTYsMzU4OTU3
+MjMzXX0=
 -->
