@@ -17,7 +17,10 @@ You can **create instructions a new play** by using the `name` tag. A new play c
 - name: name of my task
 ```
 
-You can **create a set of tasks for a p**
+You can **create a set of tasks for a play** by using the `tasks` tag.
+```yaml
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTE0MDA2MjldfQ==
+eyJoaXN0b3J5IjpbLTMzNjM3MjM0NF19
 -->
