@@ -32,8 +32,8 @@ Extension methods **cannot access private variables** on the type that they are 
 
 Extension methods **cannot override instance methods that already exist** on the type they are extending, they always have a lower priority than the instance methods.
 
-
+You can **extend generic interfaces** by using generic specifiers in your extension methods.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjAyNzkyOTgsMTYxMTg1MjMzNCw4ND
-U4MDkwNl19
+eyJoaXN0b3J5IjpbLTExNTc1MTg2MiwtMTg2MDI3OTI5OCwxNj
+ExODUyMzM0LDg0NTgwOTA2XX0=
 -->
