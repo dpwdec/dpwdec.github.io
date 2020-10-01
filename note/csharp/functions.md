@@ -9,7 +9,7 @@ You can **define an anonymous function** using the `Func` object. When declaring
 Func<int, int> double = x => x * 2
 ```
 
-You can **define a function that takes a function as an argument** by using the `Func` object. 
+You can **define a function that takes a function as an argument** by using the `Func` delegate object.
 ```csharp
 public void RunThis(int[] arr, Func<int> MyFunc)
 {
@@ -20,5 +20,5 @@ public void RunThis(int[] arr, Func<int> MyFunc)
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTk5MjM1OCwtMTU3NDQ2ODkzM119
+eyJoaXN0b3J5IjpbMTEyNDg5NDYzMywtMTU3NDQ2ODkzM119
 -->
