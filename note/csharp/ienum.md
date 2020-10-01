@@ -103,13 +103,21 @@ public interface IEnumerator
 }
 ```
 
-The `MoveNext` method **changes a variable that keeps track of the index of enumeration** and **indicates when enumeration is finished** by returning `false`. The `MoveNext` method runs 
+The `MoveNext` method **changes a variable that keeps track of the index of enumeration** and **indicates when enumeration is finished** by returning `false`. The `MoveNext` method **runs before a value is retrieved during iteration** therefore, whatever values `MoveNext` changes needs to be out of range before starting. In the example below the `position` variables
+```csharp
+int position = -1;
+public bool MoveNext()
+{
+  position++;
+  return (position < collection.Length);
+}
+```
 
 ## IEnumerable\<T\>
 
 A **generic enumerable** is an object that implements that `IEnumerable` and `IEnumerate` interface while also containing a specific type. For example an `IEnumerable<string>` will be an enumerable structure that returns `string`s as each item during iteration.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI4MzI3ODAsOTcxOTUxNzI5LDEwMT
+eyJoaXN0b3J5IjpbLTE0NDk1NjIyMzAsOTcxOTUxNzI5LDEwMT
 c0NjA1MTMsLTIwNDcxODY4NTgsLTEwNzY5NzA1NCwxMTMzNDEw
 OTIyLDE4MzA2NDMzNTAsMTIxODM4MDg1MCwtNjc3NjA1MTYxXX
 0=
