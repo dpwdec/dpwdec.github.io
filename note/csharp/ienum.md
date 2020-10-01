@@ -80,9 +80,15 @@ public class MyEnumerator : IEnumerable, IEnumerator
 }
 ```
 
-This is, however, **not recommended**, you should [**separate your `IEnumerable` and `IEnumerator` classes**](https://stackoverflow.com/a/3947874) and ideally **createa a new instance of the `IEnumerator` whenever enumeration is required**.
+This is, however, **not recommended**, you should [**separate your `IEnumerable` and `IEnumerator` classes**](https://stackoverflow.com/a/3947874) and ideally **createa a new instance of the `IEnumerator` whenever enumeration is required**. The example below shows an `IEnumerable` implementation that just returns a new hardcoded array of data, however, this could be dynamic using custom `IEnumerator`s, the important thing is that it creates a new instance to return to any iterators.
 ```csharp
-
+public class MyEnumerable : IEnumerable
+{
+  public IEnumerator GetEnumerator()
+  {
+    return new int[] {1, 2, 3, 4, 5};
+  }
+}
 ```
 
 ## IEnumerator
@@ -103,7 +109,7 @@ The `MoveNext`
 
 A **generic enumerable** is an object that implements that `IEnumerable` and `IEnumerate` interface while also containing a specific type. For example an `IEnumerable<string>` will be an enumerable structure that returns `string`s as each item during iteration.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTM5ODQ3Myw5NzE5NTE3MjksMTAxNz
+eyJoaXN0b3J5IjpbLTY1Mjg4MjQzNSw5NzE5NTE3MjksMTAxNz
 Q2MDUxMywtMjA0NzE4Njg1OCwtMTA3Njk3MDU0LDExMzM0MTA5
 MjIsMTgzMDY0MzM1MCwxMjE4MzgwODUwLC02Nzc2MDUxNjFdfQ
 ==
