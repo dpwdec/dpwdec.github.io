@@ -37,7 +37,16 @@ You can **specify a host for your command** by using the `hosts` tag at the top 
   hosts: myserver
 ```
 
-The `hosts` tag **interacts with the `inventory` file** to find named hosts.
+The `hosts` tag **interacts with the project's `inventory` file** which keeps a list of named managed machines in different categories.
+```yaml
+[webserver]
+mymachine1.extension.path
+mymachine2.extension.path
+mymachine3.extension.path
+
+[databaseserver]
+mydvmachine1.extension.path
+```
 
 You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can also use the `name` for each individual task within the play, these tasks then use specific bash commands followed by their arguments.
 ```yaml
@@ -49,5 +58,5 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMDA3MjQwMSwtMzM2MzcyMzQ0XX0=
+eyJoaXN0b3J5IjpbMTUzNjMwMTMzMiwtMzM2MzcyMzQ0XX0=
 -->
