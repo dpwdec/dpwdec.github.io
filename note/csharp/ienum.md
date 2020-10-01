@@ -121,14 +121,20 @@ public void Reset()
 }
 ```
 
-The `Current` property returns an `Object`. This is **only ever an `Object` type** and is **cast into the used type when the enumerator is cosumed**, for example the `int` specify in the  `forea(int i in arr)`
+The `Current` property returns an `object`. This is **only ever an `object` type** and is **cast into the used type when the enumerator is consumed**, for example the `int` specify in the `foreach(int i in arr)` makes this cast. The `Current` property then needs a `get` accessor which returns a value contained in the enumerator based on the current position.
+```csharp
+public object Current
+{
+  get
+}
+```
 
 ## IEnumerable\<T\>
 
 A **generic enumerable** is an object that implements that `IEnumerable` and `IEnumerate` interface while also containing a specific type. For example an `IEnumerable<string>` will be an enumerable structure that returns `string`s as each item during iteration.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDQzMzQwNywxMzU3NjQwNTgyLDk3MT
-k1MTcyOSwxMDE3NDYwNTEzLC0yMDQ3MTg2ODU4LC0xMDc2OTcw
-NTQsMTEzMzQxMDkyMiwxODMwNjQzMzUwLDEyMTgzODA4NTAsLT
-Y3NzYwNTE2MV19
+eyJoaXN0b3J5IjpbLTE5OTUzMjkyMTEsMTM1NzY0MDU4Miw5Nz
+E5NTE3MjksMTAxNzQ2MDUxMywtMjA0NzE4Njg1OCwtMTA3Njk3
+MDU0LDExMzM0MTA5MjIsMTgzMDY0MzM1MCwxMjE4MzgwODUwLC
+02Nzc2MDUxNjFdfQ==
 -->
