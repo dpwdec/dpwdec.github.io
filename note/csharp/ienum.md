@@ -81,7 +81,7 @@ public class MyEnumerator : IEnumerable, IEnumerator
 
 ## IEnumerator
 
-You can **define your own enumerators** using the `IEnumerator` interface. The signature signature for this interface uses three methods, `MoveNext`,`Reset`, and `Current`.
+You can **define your own enumerators** using the `IEnumerator` interface. The signature for this interface uses two methods, `MoveNext` and `Reset`, and a property called `Current`.
 ```csharp
 public interface IEnumerator
 {
@@ -95,7 +95,7 @@ public interface IEnumerator
 
 A **generic enumerable** is an object that implements that `IEnumerable` and `IEnumerate` interface while also containing a specific type. For example an `IEnumerable<string>` will be an enumerable structure that returns `string`s as each item during iteration.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzQ2MDUxMywtMjA0NzE4Njg1OCwtMT
-A3Njk3MDU0LDExMzM0MTA5MjIsMTgzMDY0MzM1MCwxMjE4Mzgw
-ODUwLC02Nzc2MDUxNjFdfQ==
+eyJoaXN0b3J5IjpbOTcxOTUxNzI5LDEwMTc0NjA1MTMsLTIwND
+cxODY4NTgsLTEwNzY5NzA1NCwxMTMzNDEwOTIyLDE4MzA2NDMz
+NTAsMTIxODM4MDg1MCwtNjc3NjA1MTYxXX0=
 -->
