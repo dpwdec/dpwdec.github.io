@@ -66,8 +66,9 @@ public class IsEnumerable : IEnumerable
 
 Now, when you **use your class that implements `IEnumerable` with a `foreach` or other iterator procedure** it will return the enumeration for a structure *within* the class *AND* the internal collection can remain `private`, as in the example above.
 
-For classes that implement `IEnumerator` within a custom enumeration you can **use `IEnumerable` to return itself** cast to `IEnumerator` which will give the iteration procedure calling it access to the custom defined enumeration methods.
+For classes that implement `IEnumerator` within a custom enumeration you can **use `IEnumerable` to return itself** cast to `IEnumerator` which will give the iteration procedure calling it access to the custom defined enumeration methods. This is, however, **not recommended**, you should **separate your `IEnumerable` and `IEnumerator` classes** and ideally be 
 ```csharp
+// NOT RECOMMENDED
 public class MyEnumerator : IEnumerable, IEnumerator
 {
   // -- implementation for custom enumerator here --
@@ -97,8 +98,8 @@ The `MoveNext`
 
 A **generic enumerable** is an object that implements that `IEnumerable` and `IEnumerate` interface while also containing a specific type. For example an `IEnumerable<string>` will be an enumerable structure that returns `string`s as each item during iteration.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjIxOTI4MTYsOTcxOTUxNzI5LDEwMT
-c0NjA1MTMsLTIwNDcxODY4NTgsLTEwNzY5NzA1NCwxMTMzNDEw
-OTIyLDE4MzA2NDMzNTAsMTIxODM4MDg1MCwtNjc3NjA1MTYxXX
-0=
+eyJoaXN0b3J5IjpbLTE2MTgwODQyNSw5NzE5NTE3MjksMTAxNz
+Q2MDUxMywtMjA0NzE4Njg1OCwtMTA3Njk3MDU0LDExMzM0MTA5
+MjIsMTgzMDY0MzM1MCwxMjE4MzgwODUwLC02Nzc2MDUxNjFdfQ
+==
 -->
