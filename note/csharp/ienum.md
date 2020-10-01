@@ -121,14 +121,14 @@ public void Reset()
 }
 ```
 
-The `Current` property returns an `Object`
+The `Current` property returns an `Object`. This is **only ever an `Object` type** and is **cast into the used type when the enumerator is cosumed**, for example the `int` specify in the  `forea(int i in arr)`
 
 ## IEnumerable\<T\>
 
 A **generic enumerable** is an object that implements that `IEnumerable` and `IEnumerate` interface while also containing a specific type. For example an `IEnumerable<string>` will be an enumerable structure that returns `string`s as each item during iteration.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NzY0MDU4Miw5NzE5NTE3MjksMTAxNz
-Q2MDUxMywtMjA0NzE4Njg1OCwtMTA3Njk3MDU0LDExMzM0MTA5
-MjIsMTgzMDY0MzM1MCwxMjE4MzgwODUwLC02Nzc2MDUxNjFdfQ
-==
+eyJoaXN0b3J5IjpbMTAyNDQzMzQwNywxMzU3NjQwNTgyLDk3MT
+k1MTcyOSwxMDE3NDYwNTEzLC0yMDQ3MTg2ODU4LC0xMDc2OTcw
+NTQsMTEzMzQxMDkyMiwxODMwNjQzMzUwLDEyMTgzODA4NTAsLT
+Y3NzYwNTE2MV19
 -->
