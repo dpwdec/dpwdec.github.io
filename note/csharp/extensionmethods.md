@@ -34,14 +34,19 @@ Extension methods **cannot override instance methods that already exist** on the
 
 You can **extend generic interfaces** by using generic specifiers before your extension methods.
 ```csharp
-public static bool EnumerableExtension<T>(this IEnumerable<T> , T comparison)
+public static bool EnumerableExtension<T>(this IEnumerable<T> enumerable, T comparison)
 {
   var result = false;
 
-  
+  foreach(var t in enumerable)
+  {
+    result = (t == comparison);
+  }
+
+  return result;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzgxODA2MSwtMTg2MDI3OTI5OCwxNj
+eyJoaXN0b3J5IjpbLTE2NDgzNTAxNywtMTg2MDI3OTI5OCwxNj
 ExODUyMzM0LDg0NTgwOTA2XX0=
 -->
