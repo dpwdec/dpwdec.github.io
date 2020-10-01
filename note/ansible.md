@@ -6,6 +6,8 @@ title: Ansible
 
 Ansible uses **playbooks** which contain the instructions used to set up nodes. Ansible is essentially just a way of converting bash commands into a nicely written `YAML` format.
 
+Ansible **uses `ssh` to connect with instances** that it manages keeping it very **secure**.
+
 ## Overview
 
 Below is an **example Ansible file** which sets out the basic structure of an Ansible play book.
@@ -63,5 +65,6 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2NDQxNzY1LC0zMzYzNzIzNDRdfQ==
+eyJoaXN0b3J5IjpbLTEyODg3MTE2NDMsMjE2NDQxNzY1LC0zMz
+YzNzIzNDRdfQ==
 -->
