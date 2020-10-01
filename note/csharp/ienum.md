@@ -113,14 +113,20 @@ public bool MoveNext()
 }
 ```
 
-The `Reset` method can **describe a procedure for reseting the positional index for iteration**, however, its **not recommended to use it** and is essential a holdover from i
+The `Reset` method can **describe a procedure for reseting the positional index for iteration**, however, its **not recommended to use it** and is essential a holdover from interoperability into other language aspects. Indeed it is [**now required in the language spec for iterator blocks to throw an exception on Reset**](https://stackoverflow.com/a/3948450) making the method essentially redundant. Below is a quick implementation for completeness sake.
+```csharp
+public void Reset()
+{
+  position = -
+}
+```
 
 ## IEnumerable\<T\>
 
 A **generic enumerable** is an object that implements that `IEnumerable` and `IEnumerate` interface while also containing a specific type. For example an `IEnumerable<string>` will be an enumerable structure that returns `string`s as each item during iteration.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDE5NTM2Nyw5NzE5NTE3MjksMTAxNz
-Q2MDUxMywtMjA0NzE4Njg1OCwtMTA3Njk3MDU0LDExMzM0MTA5
-MjIsMTgzMDY0MzM1MCwxMjE4MzgwODUwLC02Nzc2MDUxNjFdfQ
-==
+eyJoaXN0b3J5IjpbLTE3NTI1NTE1NzYsOTcxOTUxNzI5LDEwMT
+c0NjA1MTMsLTIwNDcxODY4NTgsLTEwNzY5NzA1NCwxMTMzNDEw
+OTIyLDE4MzA2NDMzNTAsMTIxODM4MDg1MCwtNjc3NjA1MTYxXX
+0=
 -->
