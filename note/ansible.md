@@ -6,6 +6,13 @@ title: Ansible
 
 Ansible uses **playbooks** which contain the instructions used to set up nodes. These are written `YAML`.
 
+```yaml
+---
+- name: my play
+  tasks:
+    - name: copy information
+```
+
 Ansible files **must start with three `---` dashes**.
 ```yaml
 ---
@@ -27,5 +34,5 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDg3MTc5OCwtMzM2MzcyMzQ0XX0=
+eyJoaXN0b3J5IjpbLTE1ODM2NzQyNTEsLTMzNjM3MjM0NF19
 -->
