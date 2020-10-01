@@ -11,8 +11,14 @@ Func<int, int> double = x => x * 2
 
 You can **define a function that takes a function as an argument** by using the `Func` object with its return type elided as an argument for the function.
 ```csharp
-public void RunThis(
+public void RunThis(int[] arr, Func<int> MyFunc)
+{
+  foreach(int i in arr)
+  {
+    MyFunc(i);
+  }
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyMzcxOTM1XX0=
+eyJoaXN0b3J5IjpbLTE1NzQ0Njg5MzNdfQ==
 -->
