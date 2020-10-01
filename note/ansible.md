@@ -15,7 +15,8 @@ Below is an **example Ansible file** which sets out the basic structure of an An
       copy: # task command -> same as the bash copy command
         src: source/data/path
         dest: /destination/path/to
-    - name: 
+    - name: move information # name of the second task
+      command: mv src/of/file /path/to/move # bash command for the second command
 ```
 
 Ansible files **must start with three `---` dashes**.
@@ -39,5 +40,5 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5NDIyODEwLC0zMzYzNzIzNDRdfQ==
+eyJoaXN0b3J5IjpbMTQ2MTAzMDE4NiwtMzM2MzcyMzQ0XX0=
 -->
