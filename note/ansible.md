@@ -10,6 +10,7 @@ Below is an **example Ansible file** which sets out the basic structure of an An
 ```yaml
 ---
 - name: my play # name of the play
+  
   tasks: # list of tasks be execute by this play
     - name: copy information # name of a the first task
       copy: # task command -> same as the bash copy command
@@ -38,7 +39,14 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
       # task here
 ```
 
+You can **specify a host for your command** by using the `hosts` tag at the top of a play.
+```yaml
+
+```
+
+The `hosts` tag **interacts with the inventory**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTk3MDc1MiwtMzM2MzcyMzQ0XX0=
+eyJoaXN0b3J5IjpbLTU1NzczMDYwNSwtMzM2MzcyMzQ0XX0=
 -->
