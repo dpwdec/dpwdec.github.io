@@ -113,11 +113,13 @@ public bool MoveNext()
 }
 ```
 
+The `Reset` method can **describe a procedure for reseting the positional index for iteration**, however, its **not recommended to use it** and is essential a holdover from i
+
 ## IEnumerable\<T\>
 
 A **generic enumerable** is an object that implements that `IEnumerable` and `IEnumerate` interface while also containing a specific type. For example an `IEnumerable<string>` will be an enumerable structure that returns `string`s as each item during iteration.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTQ0ODM4OSw5NzE5NTE3MjksMTAxNz
+eyJoaXN0b3J5IjpbMTUyMDE5NTM2Nyw5NzE5NTE3MjksMTAxNz
 Q2MDUxMywtMjA0NzE4Njg1OCwtMTA3Njk3MDU0LDExMzM0MTA5
 MjIsMTgzMDY0MzM1MCwxMjE4MzgwODUwLC02Nzc2MDUxNjFdfQ
 ==
