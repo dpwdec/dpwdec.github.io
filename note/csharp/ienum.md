@@ -126,15 +126,23 @@ The `Current` property returns an `object`. This is **only ever an `object` type
 public object Current
 {
   get
+  {
+    return _values[position]
+  }
 }
+```
+
+You can also **write the `Current` accessor as a lambda** as with any other `get` property.
+```csharp
+public object Current => _values[position]
 ```
 
 ## IEnumerable\<T\>
 
 A **generic enumerable** is an object that implements that `IEnumerable` and `IEnumerate` interface while also containing a specific type. For example an `IEnumerable<string>` will be an enumerable structure that returns `string`s as each item during iteration.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTUzMjkyMTEsMTM1NzY0MDU4Miw5Nz
-E5NTE3MjksMTAxNzQ2MDUxMywtMjA0NzE4Njg1OCwtMTA3Njk3
-MDU0LDExMzM0MTA5MjIsMTgzMDY0MzM1MCwxMjE4MzgwODUwLC
-02Nzc2MDUxNjFdfQ==
+eyJoaXN0b3J5IjpbMjAwMjA1NjIyMSwxMzU3NjQwNTgyLDk3MT
+k1MTcyOSwxMDE3NDYwNTEzLC0yMDQ3MTg2ODU4LC0xMDc2OTcw
+NTQsMTEzMzQxMDkyMiwxODMwNjQzMzUwLDEyMTgzODA4NTAsLT
+Y3NzYwNTE2MV19
 -->
