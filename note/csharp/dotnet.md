@@ -242,7 +242,11 @@ public int Balance
 
 You can **write `get` and `set` using lambda syntax** to make accessors more concise.
 ```csharp
-public int Ba
+public int Balance
+{
+  get => _balance;
+  set => _balance = value;
+}
 ```
 
 ### Base
@@ -530,7 +534,7 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjI0NTYxNiwtMTEzNTQ4ODIwMiwtMz
+eyJoaXN0b3J5IjpbMTg4NzY2NjY5MywtMTEzNTQ4ODIwMiwtMz
 E2MTE5NTA0LDE4MzM3MDg3NTgsNzMxNTkzNjQ3LDQ2OTc3NzQ2
 Miw5MDYyNDM1OCwtMTcyMjM5Njg5NiwtMTU1ODAwMDA2MCwtND
 AzMjI5MjM3LC0xNjUwODc3OTAxLC0xMDMzMTQ4MzA5LDExODA1
