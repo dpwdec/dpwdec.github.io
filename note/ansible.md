@@ -14,13 +14,15 @@ Ansible files **must start with three `---` dashes**.
 
 You can **create instructions a new play** by using the `name` tag. A new play contains a set of a tasks and actions that are indented below it.
 ```yaml
-- name: name of my task
+- name: my play
 ```
 
-You can **create a set of tasks for a play** by using the `tasks` tag.
+You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can also use the `name` for each individual task command.
 ```yaml
-
+- name: my play
+  tasks:
+    - name: do something
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjM3MjM0NF19
+eyJoaXN0b3J5IjpbLTIxMzMzMTgzNzEsLTMzNjM3MjM0NF19
 -->
