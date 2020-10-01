@@ -12,13 +12,12 @@ Ansible files **must start with three `---` dashes**.
 # rest of my ansible playbook
 ```
 
-You can **create instructions for new task or play** by using the `name` tag. The instructions contained in this task should be indented beneath it, to indicate they are part of the this task.
+You can **create instructions a new play** by using the `name` tag. A new play contains a set of a tasks and actions that are indented below it.
 ```yaml
 - name: name of my task
-  some_other_command: do something
 ```
 
-
+You can **create a set of tasks for a p**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTgzNDM5M119
+eyJoaXN0b3J5IjpbLTE0MTE0MDA2MjldfQ==
 -->
