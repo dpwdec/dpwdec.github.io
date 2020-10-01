@@ -4,7 +4,7 @@ exclude: true
 title: Ansible
 ---
 
-Ansible uses **playbooks** which contain the instructions used to set up nodes. These are written `YAML`.
+Ansible uses **playbooks** which contain the instructions used to set up nodes. Ansible is essentially just a way of converting bash commands into a nicely written `YAML` format.
 
 Below is an **example Ansible file** which sets out the basic structure of an Ansible play book.
 ```yaml
@@ -40,5 +40,5 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTAzMDE4NiwtMzM2MzcyMzQ0XX0=
+eyJoaXN0b3J5IjpbMTYxMTk3MDc1MiwtMzM2MzcyMzQ0XX0=
 -->
