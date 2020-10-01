@@ -17,13 +17,15 @@ You can **create instructions a new play** by using the `name` tag. A new play c
 - name: my play
 ```
 
-You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can also use the `name` for each individual task within the play, these tasks then use specific indicator
+You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can also use the `name` for each individual task within the play, these tasks then use specific bash commands followed by their arguments.
 ```yaml
 - name: my play
   tasks:
     - name: do something
       # task here
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzI3ODQ1NiwtMzM2MzcyMzQ0XX0=
+eyJoaXN0b3J5IjpbMTY5MDg3MTc5OCwtMzM2MzcyMzQ0XX0=
 -->
