@@ -19,7 +19,9 @@ registerHelper('myValue', 0)
 
 You can **pass the result of a templated value into a helper** by space separating the arguments to the helper.
 ```js
-registerHelper('
+Handlebars.registerHelper('foo', x => x.toUpperCase())
+let source = '{{foo name}}'
+let data = {"name": "
 ```
 
 It seems like you can nest handlebars commands.
@@ -29,6 +31,6 @@ You can **ensure that a string is safe** by using the `SafeString` function.
 new Handlebars.SafeString("<div>HTML content!</div>");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODIzNTI5NywxMTQ5Mjg5MzgsLTM5Mj
+eyJoaXN0b3J5IjpbMjA3MzE3ODI4OCwxMTQ5Mjg5MzgsLTM5Mj
 QzOTIyNSw2MDAzNDg2OTAsLTE4NTkzNjY4ODZdfQ==
 -->
