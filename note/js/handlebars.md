@@ -11,6 +11,8 @@ let template = '{{key value}}' // => NOT VALID
 
 You **can
 
+You **can only have one top level helper per template block**. Any extra helpers added into the template block will just be ignored
+
 You can **create a handlebars helper that resolves a template to a value** by using the `registerHelper` function with the first argument describing the template value to match to the second argument the value to be resolved to. When handlebars processes `{{myValue}}` in a file it will output `0`.
 ```js
 registerHelper('myValue', 0)
@@ -23,6 +25,6 @@ You can **ensure that a string is safe** by using the `SafeString` function.
 new Handlebars.SafeString("<div>HTML content!</div>");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2Njc4NDAyMSw2MDAzNDg2OTAsLTE4NT
+eyJoaXN0b3J5IjpbLTM5MjQzOTIyNSw2MDAzNDg2OTAsLTE4NT
 kzNjY4ODZdfQ==
 -->
