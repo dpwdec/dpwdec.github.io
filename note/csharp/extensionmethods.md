@@ -50,7 +50,22 @@ public static bool EnumerableExtension<T>(this IEnumerable<T> enumerable, T comp
   return result;
 }
 ```
+
+You can **generalise this extension pattern to delegates** allowing you to pass in methods that can be run by the extension method.
+```csharp
+public static bool Any<T>(this IEnumerable<T> enumerable, Func<T, bool> function)  
+{  
+  var result = false; 
+   
+  foreach (var t in enumerable)  
+  { 
+   result = function(t); 
+  }
+  
+  return result;  
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjgyOTE1OSwtMTY0ODM1MDE3LC0xOD
-YwMjc5Mjk4LDE2MTE4NTIzMzQsODQ1ODA5MDZdfQ==
+eyJoaXN0b3J5IjpbLTE1NzUwMjc0NjcsLTE2NDgzNTAxNywtMT
+g2MDI3OTI5OCwxNjExODUyMzM0LDg0NTgwOTA2XX0=
 -->
