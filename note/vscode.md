@@ -51,6 +51,12 @@ To **open the commands window** `CTRL` + `SHIFT` + `P`.
 
 You can **add the `code` CLI namespace to your machine** by using triggering the `>shell command` in the vs code commands window.
 
+## Search
+
+You can **search your entire project** using the global search function by pressing `CMD` + `SHIFT` + `F`.
+
+You can **narrow your search to a particular director**
+
 ## Error Highlighting
 
 Often you will need to add a `.vscode` file to your to **enable error handling**.
@@ -62,8 +68,8 @@ You can **create a new branch of your current project** by opening the vscode co
 >Git Checkout
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MzMzNzkzMSwtNjk5MDYwNjQyLDI3OD
-Y2MDM2MSwtMTQxOTUyMDMzMCwyNjQ3NjI5NzAsMTMxNzc5NzM5
-NiwxMzgyNjMwMTQwLC0xNzM3OTAyNTcxLC0xMDM4OTEwMjAzXX
-0=
+eyJoaXN0b3J5IjpbLTYxNzE2MTM4NSwtNDQzMzM3OTMxLC02OT
+kwNjA2NDIsMjc4NjYwMzYxLC0xNDE5NTIwMzMwLDI2NDc2Mjk3
+MCwxMzE3Nzk3Mzk2LDEzODI2MzAxNDAsLTE3Mzc5MDI1NzEsLT
+EwMzg5MTAyMDNdfQ==
 -->
