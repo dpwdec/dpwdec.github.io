@@ -40,13 +40,15 @@ public static bool EnumerableExtension<T>(this IEnumerable<T> enumerable, T comp
 
   foreach(var t in enumerable)
   {
-    result = (t == comparison);
+    result = (t.GetEnumerator() == comparison.GetEnumerator());
   }
 
   return result;
 }
 ```
+
+You can **
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDgzNTAxNywtMTg2MDI3OTI5OCwxNj
-ExODUyMzM0LDg0NTgwOTA2XX0=
+eyJoaXN0b3J5IjpbMTQ2NDAwMjM2NCwtMTY0ODM1MDE3LC0xOD
+YwMjc5Mjk4LDE2MTE4NTIzMzQsODQ1ODA5MDZdfQ==
 -->
