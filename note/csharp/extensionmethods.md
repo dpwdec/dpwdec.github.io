@@ -28,11 +28,13 @@ var str = "Message";
 str.Print() // => message
 ```
 
+## Extension Rules
+
 Extension methods **cannot access private variables** on the type that they are extending.
 
 Extension methods **cannot override instance methods that already exist** on the type they are extending, they always have a lower priority than the instance methods.
 
-## E
+## Extending Generics
 
 You can **extend generic interfaces** by using generic specifiers before your extension methods. By creating an extension for types that implement the `IEnumerable` interface this allows the extension method make use of `foreach` inside its body.
 ```csharp
@@ -48,9 +50,7 @@ public static bool EnumerableExtension<T>(this IEnumerable<T> enumerable, T comp
   return result;
 }
 ```
-
-You can **extend
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTYxNjY0NSwtMTY0ODM1MDE3LC0xOD
+eyJoaXN0b3J5IjpbMTgyMjgyOTE1OSwtMTY0ODM1MDE3LC0xOD
 YwMjc5Mjk4LDE2MTE4NTIzMzQsODQ1ODA5MDZdfQ==
 -->
