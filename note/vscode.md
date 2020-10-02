@@ -55,7 +55,10 @@ You can **add the `code` CLI namespace to your machine** by using triggering the
 
 You can **search your entire project** using the global search function by pressing `CMD` + `SHIFT` + `F`.
 
-You can **narrow your search to a particular director**
+You can **narrow your search to a particular directory** by clicking the `...` three dots on the search window and in the `files to include` section putting in a relative path from the root directory with `.` period, current directory indicator. The query below would only search in the `src` directory which is a directory contained in the root.
+```
+./src
+```
 
 ## Error Highlighting
 
@@ -68,7 +71,7 @@ You can **create a new branch of your current project** by opening the vscode co
 >Git Checkout
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzE2MTM4NSwtNDQzMzM3OTMxLC02OT
+eyJoaXN0b3J5IjpbMTcyMzQzNDE2MSwtNDQzMzM3OTMxLC02OT
 kwNjA2NDIsMjc4NjYwMzYxLC0xNDE5NTIwMzMwLDI2NDc2Mjk3
 MCwxMzE3Nzk3Mzk2LDEzODI2MzAxNDAsLTE3Mzc5MDI1NzEsLT
 EwMzg5MTAyMDNdfQ==
