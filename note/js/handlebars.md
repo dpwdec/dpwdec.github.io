@@ -9,10 +9,12 @@ You can **create a handlebars helper that resolves a template to a value** by us
 registerHelper('myValue', 0)
 ```
 
+It seems like you can nest handlebars commands.
+
 You can **ensure that a string is safe** by using the `SafeString` function.
 ```js
 new Handlebars.SafeString("<div>HTML content!</div>");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTkzNjY4ODZdfQ==
+eyJoaXN0b3J5IjpbNjAwMzQ4NjkwLC0xODU5MzY2ODg2XX0=
 -->
