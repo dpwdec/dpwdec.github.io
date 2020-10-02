@@ -51,7 +51,7 @@ public static bool EnumerableExtension<T>(this IEnumerable<T> enumerable, T comp
 }
 ```
 
-You can **generalise this extension pattern to delegates** allowing you to pass in methods that can be run by the extension method.
+You can **generalise this extension pattern to delegates** allowing you to pass in methods that can be run by the extension method. The example below extends the `IEnumerable` to take a closure which expects as its input the same `T` type that the enumerable holds.
 ```csharp
 public static bool Any<T>(this IEnumerable<T> enumerable, Func<T, bool> function)  
 {  
@@ -66,6 +66,6 @@ public static bool Any<T>(this IEnumerable<T> enumerable, Func<T, bool> function
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzUwMjc0NjcsLTE2NDgzNTAxNywtMT
-g2MDI3OTI5OCwxNjExODUyMzM0LDg0NTgwOTA2XX0=
+eyJoaXN0b3J5IjpbLTQwMDEwNjUwLC0xNjQ4MzUwMTcsLTE4Nj
+AyNzkyOTgsMTYxMTg1MjMzNCw4NDU4MDkwNl19
 -->
