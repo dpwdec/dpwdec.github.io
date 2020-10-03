@@ -6,7 +6,14 @@ title: Youtube Data
 
 You can **start using the youtube data api** by enabling the API in the [Google Developers](https://console.developers.google.com/) dashboard. Here you can find and copy your API key.
 
-You can **start using
+## Node
+
+You can **start using the youtube data api with node** by installing `googleapis` module.
+```bash
+$ npm install googleapis
+```
+
+You can then **create an object which can make youtube data api requests** by using the `youtube` function of the `google` obj
 
 ## Playlists
 
@@ -16,5 +23,5 @@ You can **find the `id` property of any playlist** from taking the `list` string
 https://www.youtube.com/playlist?list=PLMC9KNkIncKtGvr2kFRuXBVmBev6cAJ2u
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDQ4NDMyMCw1MDM1NDcyMDNdfQ==
+eyJoaXN0b3J5IjpbODIxMDI2NzQxLDUwMzU0NzIwM119
 -->
