@@ -56,8 +56,11 @@ youtube.playlistItems.list({
 })
 ```
 
-You can **turn a `videoId` **
+You can **turn a `videoId` into a link** by appending to the end of a standard youtube link.
+```
+https://www.youtube.com/watch?v=<YOUR videoId HERE>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1ODcyNTc4LC0xMTg2NTEzOTYwLDk4Nj
-kyOTE1NSw1MDM1NDcyMDNdfQ==
+eyJoaXN0b3J5IjpbLTI2NjI2MjkzMCwtMTE4NjUxMzk2MCw5OD
+Y5MjkxNTUsNTAzNTQ3MjAzXX0=
 -->
