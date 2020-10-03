@@ -30,6 +30,19 @@ You can **find the `id` property of any playlist** from taking the `list` string
 ```
 https://www.youtube.com/playlist?list=PLMC9KNkIncKtGvr2kFRuXBVmBev6cAJ2u
 ```
+
+## Playlist Items
+
+You can **get a list of items on a playlist by `id`** by using the `playlistItems` function with the `list` function. The most
+```js
+youtube.playlistItems.list({
+  "part": [
+    "contentDetails"
+  ],
+  "playlistId":"PLMC9KNkIncKtGvr2kFRuXBVmBev6cAJ2u"
+})
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2OTI5MTU1LDUwMzU0NzIwM119
+eyJoaXN0b3J5IjpbNzQ4NjIyNjkxLDk4NjkyOTE1NSw1MDM1ND
+cyMDNdfQ==
 -->
