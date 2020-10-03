@@ -33,7 +33,7 @@ https://www.youtube.com/playlist?list=PLMC9KNkIncKtGvr2kFRuXBVmBev6cAJ2u
 
 ## Playlist Items
 
-You can **get a list of items on a playlist by `id`** by using the `playlistItems` function with the `list` function. The most
+You can **get a list of items on a playlist by `id`** by using the `playlistItems` function with the `list` function and using the `playlistId` property to specify which playlist you want to list videos from.
 ```js
 youtube.playlistItems.list({
   "part": [
@@ -43,6 +43,6 @@ youtube.playlistItems.list({
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4NjIyNjkxLDk4NjkyOTE1NSw1MDM1ND
-cyMDNdfQ==
+eyJoaXN0b3J5IjpbLTExODY1MTM5NjAsOTg2OTI5MTU1LDUwMz
+U0NzIwM119
 -->
