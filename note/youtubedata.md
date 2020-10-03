@@ -13,7 +13,13 @@ You can **start using the youtube data api with node** by installing `googleapis
 $ npm install googleapis
 ```
 
-You can then **create an object which can make youtube data api requests** by using the `youtube` function of the `google` obj
+You can then **create an object which can make youtube data api requests** by using the `youtube` function of the `google` object with your api credentials.
+```js
+const  youtube  = google.youtube({
+  version:  'v3',
+  auth: '<YOUR API KEY>'
+});
+```
 
 ## Playlists
 
@@ -23,5 +29,5 @@ You can **find the `id` property of any playlist** from taking the `list` string
 https://www.youtube.com/playlist?list=PLMC9KNkIncKtGvr2kFRuXBVmBev6cAJ2u
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxMDI2NzQxLDUwMzU0NzIwM119
+eyJoaXN0b3J5IjpbLTE3MDE0Mzg1NzksNTAzNTQ3MjAzXX0=
 -->
