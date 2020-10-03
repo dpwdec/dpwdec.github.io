@@ -43,8 +43,19 @@ youtube.playlistItems.list({
 })
 ```
 
-You can **get return the global `videoId` of each video in a playlist** by using the `"snippet"` property to access data on each video. The `id` property returned in the bulk of the request is just the playlist specific `
+You can **get return the global `videoId` of each video in a playlist** by using the `"snippet"` property to access data on each video. The `id` property returned in the bulk of the request is just the playlist specific `id` and not related to youtube as a whole.
+```js
+youtube.playlistItems.list({
+  "part": [
+    "snippet"
+  ],
+  "playlistId":"PLMC9KNkIncKtGvr2kFRuXBVmBev6cAJ2u"
+})
+.then(res => {
+  res.data.items.forEach(item => item.resourceId.
+})
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODM5ODUwNDgsLTExODY1MTM5NjAsOT
-g2OTI5MTU1LDUwMzU0NzIwM119
+eyJoaXN0b3J5IjpbLTQwNzQ1OTI4MywtMTE4NjUxMzk2MCw5OD
+Y5MjkxNTUsNTAzNTQ3MjAzXX0=
 -->
