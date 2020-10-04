@@ -96,6 +96,8 @@ client.on('message', message => {
 
 You can **get the channel that a message was sent in** by using the `channel` property of `message`. This returns a `channel` object with information about the channel.
 
+
+
 ## Reactions
 
 You can **get all the reactions that were sent on a message** using the `reactions` property which returns a `ReactionsManager` and the `cache` property that holds the cache of reactions. The `cache` is map from the reaction object (usually an emoji) *to* a `MessageReaction` object.
@@ -159,8 +161,9 @@ if(user instanceof Discord.ClientUser) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTU0NjE5OCwtOTA5MzM4MDA2LC0xMz
-g2NDQwMzIsLTE3MzAyNjQ5ODAsLTU0NzEyMzUyNCwtMTU3Nzk0
-Njk0MCw3NzQxNDkyNDUsMTcxMzIwMDMyMiw5MzE1MTk1OTIsMT
-c2OTk0NjAxNSwtMTk1MDczMjM0NiwtMTM2MDcxMTIxOF19
+eyJoaXN0b3J5IjpbLTEwNjQ5OTgwMTAsLTkwOTMzODAwNiwtMT
+M4NjQ0MDMyLC0xNzMwMjY0OTgwLC01NDcxMjM1MjQsLTE1Nzc5
+NDY5NDAsNzc0MTQ5MjQ1LDE3MTMyMDAzMjIsOTMxNTE5NTkyLD
+E3Njk5NDYwMTUsLTE5NTA3MzIzNDYsLTEzNjA3MTEyMThdfQ==
+
 -->
