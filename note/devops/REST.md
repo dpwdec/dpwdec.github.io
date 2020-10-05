@@ -40,7 +40,21 @@ The API could then return a **JSON response with links to the possible actions t
 }
 ```
 
-However if the 
+However if the account is overdrawn then the state of the links returned by the API can change to only allow specific actions.
+```json
+{
+    "account": {
+        "account_number": 12345,
+        "balance": {
+            "currency": "usd",
+            "value": -25.00
+        },
+        "links": {
+            "deposit": "/accounts/12345/deposit"
+        }
+    }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTQ1MTAyOSwtMTI3MjM2Mzk4M119
+eyJoaXN0b3J5IjpbLTU2OTIxNjEwMCwtMTI3MjM2Mzk4M119
 -->
