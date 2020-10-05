@@ -16,7 +16,7 @@ A **REST** API or **Representational State Transfer** API is a software routing 
 
 ## HATEOAS
 
-**HATEOES** stands for **Hypermedia as the Engine of Application State** and describes a REST architec
+**HATEOES** stands for **Hypermedia as the Engine of Application State** and describes a REST architecture where a client requests information about a resource and then uses the response from the server to action the actions available to be taking by client on a resource change depending on the state of the resource. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTU5NTgyXX0=
+eyJoaXN0b3J5IjpbNDU4MTE3NzY2XX0=
 -->
