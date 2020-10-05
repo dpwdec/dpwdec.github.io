@@ -172,19 +172,9 @@ You can **make a `POST` request** using the `-f` flag with the `POST` keyword an
 http -f POST https://some-website.com/ key=value
 ```
 
-## REST APIs
-
-A **REST** API or **Representational State Transfer** API is a software routing style for handling requests to a server and returning information. REST uses several different verbs to describe how requests to a server are routed and what they are intended to do.
-
- 1. `GET` - *Retrieve* a resource
- 2. `POST` - *Create a new* resource
- 3. `PUT` - *Replace* a resource *in its entiety*
- 4. `PATCH` - *Update* a resource
- 5. `DELETE` - *Delete* a resource
-
 ## Telnet
 You can install `telnet` to check HTTP connections using `brew install telnet`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNzExMzAyOSwtMTg4NjEzMTM5NCwtMT
-cwNzE0Mzg4NV19
+eyJoaXN0b3J5IjpbMTI0NjcwNDAzNCwxOTA3MTEzMDI5LC0xOD
+g2MTMxMzk0LC0xNzA3MTQzODg1XX0=
 -->
