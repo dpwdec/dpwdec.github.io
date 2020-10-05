@@ -1,4 +1,8 @@
-
+---
+title: REST
+layout: page
+exclude: true
+---
 
 ## REST APIs
 
@@ -9,6 +13,10 @@ A **REST** API or **Representational State Transfer** API is a software routing 
  3. `PUT` - *Replace* a resource *in its entiety*
  4. `PATCH` - *Update* a resource
  5. `DELETE` - *Delete* a resource
+
+## HATEOAS
+
+**HATEOES** stands for **Hypermedia as the Engine of Application State** and describes a REST architec
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTIwOTQzN119
+eyJoaXN0b3J5IjpbLTIxMTU5NTgyXX0=
 -->
