@@ -232,9 +232,9 @@ public class User
 }
 ```
 
-Then a corresponding DTO might have a structure like the example below, with `Name`, `Height` and `Age` fields.
+Then a corresponding DTO might have a structure like the example below, with `Name`, `Height` and `Age` fields. It's a general **convention to name a DTO with in the format `<SOURCE CLASS><INTENDED ACTION>Dto`**. So 
 ```csharp
-public class UserDto
+public class UserReadDto
 {
   public string Name { get; set; }
   public int Height { get; set; }
@@ -319,11 +319,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTUyNDIxMjIsODc2MTUzNzczLC0yMT
-A3ODI2NTQ0LDEzNzkyODExMzgsMTMxNzg4NDcwNiwxNTcwNjg4
-NzcyLC0yMDMzNjUyODE0LC0xMDY1MzA0MTcxLDY1OTAwNTMyMi
-wtMTM5NjQ1MTUyLC04ODE1MDUxOTQsMTcwMjk1OTI0NSwyMzk4
-ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3LC01NDI0NzExMT
-AsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zNDU3
-MzIzMDBdfQ==
+eyJoaXN0b3J5IjpbLTQ1MTEyMjgzLDg3NjE1Mzc3MywtMjEwNz
+gyNjU0NCwxMzc5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4ODc3
+MiwtMjAzMzY1MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMjIsLT
+EzOTY0NTE1MiwtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgz
+OTc3LC00MzU2NzQyODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLD
+kyNjczOTUwOSwtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMy
+MzAwXX0=
 -->
