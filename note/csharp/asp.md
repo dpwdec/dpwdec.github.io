@@ -242,7 +242,10 @@ public class UserDto
 }
 ```
 
+You can **create a mapping between a DTO and a real class** by using the `AutoMapper` library and creating a class that extends `AutoMapper`'s `Profile` class to define a mapping.
+```csharp
 
+```
 
 ## Uri
 
@@ -316,11 +319,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2MTUzNzczLC0yMTA3ODI2NTQ0LDEzNz
-kyODExMzgsMTMxNzg4NDcwNiwxNTcwNjg4NzcyLC0yMDMzNjUy
-ODE0LC0xMDY1MzA0MTcxLDY1OTAwNTMyMiwtMTM5NjQ1MTUyLC
-04ODE1MDUxOTQsMTcwMjk1OTI0NSwyMzk4ODM5NzcsLTQzNTY3
-NDI4NSwxMDAxNjk5ODM3LC01NDI0NzExMTAsOTI2NzM5NTA5LC
-0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zNDU3MzIzMDAsNDQzNDUz
-ODEwXX0=
+eyJoaXN0b3J5IjpbLTE0OTUyNDIxMjIsODc2MTUzNzczLC0yMT
+A3ODI2NTQ0LDEzNzkyODExMzgsMTMxNzg4NDcwNiwxNTcwNjg4
+NzcyLC0yMDMzNjUyODE0LC0xMDY1MzA0MTcxLDY1OTAwNTMyMi
+wtMTM5NjQ1MTUyLC04ODE1MDUxOTQsMTcwMjk1OTI0NSwyMzk4
+ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3LC01NDI0NzExMT
+AsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zNDU3
+MzIzMDBdfQ==
 -->
