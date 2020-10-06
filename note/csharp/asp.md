@@ -236,9 +236,13 @@ Then a corresponding DTO might have a structure like the example below, with `Na
 ```csharp
 public class UserDto
 {
-  public
+  public string Name { get; set; }
+  public int Height { get; set; }
+  public int Age { get; set; }
 }
 ```
+
+
 
 ## Uri
 
@@ -312,11 +316,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NzQwODIyNSwtMjEwNzgyNjU0NCwxMz
-c5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4ODc3MiwtMjAzMzY1
-MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0NTE1Mi
-wtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2
-NzQyODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUwOS
-wtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1
-MzgxMF19
+eyJoaXN0b3J5IjpbODc2MTUzNzczLC0yMTA3ODI2NTQ0LDEzNz
+kyODExMzgsMTMxNzg4NDcwNiwxNTcwNjg4NzcyLC0yMDMzNjUy
+ODE0LC0xMDY1MzA0MTcxLDY1OTAwNTMyMiwtMTM5NjQ1MTUyLC
+04ODE1MDUxOTQsMTcwMjk1OTI0NSwyMzk4ODM5NzcsLTQzNTY3
+NDI4NSwxMDAxNjk5ODM3LC01NDI0NzExMTAsOTI2NzM5NTA5LC
+0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zNDU3MzIzMDAsNDQzNDUz
+ODEwXX0=
 -->
