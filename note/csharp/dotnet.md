@@ -233,7 +233,7 @@ public MyClass
 You can **define implement code for `get` and `set` procedures directly** by expanding and implementing the methods after member definition. This allows you to write more complex implementations for `get` and `set`, however, if you write an implementation for one you must also have an implementation for the other, you cannot have `get` implemented and `set` still using the `set;` syntax. Below is the most basic default implementation, but you can functionally write any code you like here to get and set a member here. The `value` keyword is a special keyword indicating the value that is being passed into the member when it is assigned. By implementing custom `get` and `set` methods **any code inside or outside your class will use these methods for accessing the data**.
 ```csharp
 private int balance;
-public int Balance
+public int alance
 {
   get
   {
@@ -534,11 +534,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNzQ3MDU5MCwxODg3NjY2NjkzLC0xMT
-M1NDg4MjAyLC0zMTYxMTk1MDQsMTgzMzcwODc1OCw3MzE1OTM2
-NDcsNDY5Nzc3NDYyLDkwNjI0MzU4LC0xNzIyMzk2ODk2LC0xNT
-U4MDAwMDYwLC00MDMyMjkyMzcsLTE2NTA4Nzc5MDEsLTEwMzMx
-NDgzMDksMTE4MDU3MDQ0NCwzOTE3MzI1MjIsLTE1Njg4ODkzMD
-EsLTkwNzYwODM3NCwxMjkyODE1NTA1LDY2ODc5MjQ5NiwzNTg5
-NTcyMzNdfQ==
+eyJoaXN0b3J5IjpbLTE5MjU0MjYwNzIsMTgzNzQ3MDU5MCwxOD
+g3NjY2NjkzLC0xMTM1NDg4MjAyLC0zMTYxMTk1MDQsMTgzMzcw
+ODc1OCw3MzE1OTM2NDcsNDY5Nzc3NDYyLDkwNjI0MzU4LC0xNz
+IyMzk2ODk2LC0xNTU4MDAwMDYwLC00MDMyMjkyMzcsLTE2NTA4
+Nzc5MDEsLTEwMzMxNDgzMDksMTE4MDU3MDQ0NCwzOTE3MzI1Mj
+IsLTE1Njg4ODkzMDEsLTkwNzYwODM3NCwxMjkyODE1NTA1LDY2
+ODc5MjQ5Nl19
 -->
