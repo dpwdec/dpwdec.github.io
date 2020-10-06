@@ -17,7 +17,15 @@ Func<int, int> Double = x => x * 2
 Func<int> Three = () => 3 // delegate that takes no arguments
 ```
 
-You can **strong text**
+You can **use lexical scopes with delegates**.
+```csharp
+var y = 20;
+
+Func<int, int> Mult = x =>
+{
+  return x;
+};
+```
 
 You can **define a function that takes another function with a return type as an argument** by using the `Func` delegate object. `Func` delegates **define inputs in the `<>` angle brackets at definition** with the **last type definition in the angle brackets being the output type**. In the example below `MyFunc` is a delegate that takes an `int` and returns an `int`.
 ```csharp
@@ -46,6 +54,6 @@ Action<int> EchoInt = i => Console.WriteLine(i);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1ODM0MjI3MywxNDk4NTgyMjg1LC0xMD
+eyJoaXN0b3J5IjpbLTExNDQ4MjQ0NCwxNDk4NTgyMjg1LC0xMD
 c0NDg4MTk3LDUzNjQxODk5OSwtMTU3NDQ2ODkzM119
 -->
