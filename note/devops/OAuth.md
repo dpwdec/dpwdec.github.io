@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 
-OAuth2.0 is used for **authorization** *NOT* authentication. The purpose of the technology is not authenticate the user as real to one service, its to authorize one service to 
+OAuth2.0 is used for **authorization** *NOT* authentication. The purpose of the technology is not authenticate the user to a service but to authorize one service to access another ser
 
 When a user **gives permission to one application to access another application on their behalf** this called **delegated access**.
 
@@ -18,5 +18,5 @@ The source service save the `auth token` and uses it every time the user wants i
 
 The access token is a JWT token
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzIwMTEyNTZdfQ==
+eyJoaXN0b3J5IjpbNTI2NjI5NTkzLC0xOTcyMDExMjU2XX0=
 -->
