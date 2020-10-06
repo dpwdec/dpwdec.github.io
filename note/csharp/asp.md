@@ -193,7 +193,9 @@ Controllers `return` concrete instances of `IActionResult` when they complete. T
 
 ### ActionResult
 
-`ActionResult` implements `IActionResulYou can **get the value from a successful `ActionResult`** by destructuring the object into an `OkObjectResult` and then destructuring it again into the expected value. The example below demonstrates a controller route that contains a string,  unfortunately **casting must be done between the `ActionResult` and `OkObjectResult`** to successfully destructure the object with the `Result` and `Value` properties.
+`ActionResult` implements `IActionResult` and is **used for content based controller return types**.
+
+You can **get the value from a successful `ActionResult`** by destructuring the object into an `OkObjectResult` and then destructuring it again into the expected value. The example below demonstrates a controller route that contains a string,  unfortunately **casting must be done between the `ActionResult` and `OkObjectResult`** to successfully destructure the object with the `Result` and `Value` properties.
 ```csharp
 ActionResult<string> actionResult = MyController.MyRoute();
 OkObjectResult okObject = (OkObjectResult) actionResult.Result;
@@ -391,7 +393,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDUwMTk2NTQsLTk2ODM5Njg4NywxMT
+eyJoaXN0b3J5IjpbLTE5NTAwNzk0NzIsLTk2ODM5Njg4NywxMT
 Y2NjA1ODYsMTQwMzg4ODA4NSwxMDIyMTAyMDU2LDc5MDU0MDg0
 MCwxMjUzMDQ2Mjc5LDg3NjE1Mzc3MywtMjEwNzgyNjU0NCwxMz
 c5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4ODc3MiwtMjAzMzY1
