@@ -23,8 +23,11 @@ var y = 20;
 
 Func<int, int> Product = x =>
 {
+  // y contained in the lexical scope of Product
   return x * y;
 };
+
+Product(10); // => 200
 ```
 
 You can **define a function that takes another function with a return type as an argument** by using the `Func` delegate object. `Func` delegates **define inputs in the `<>` angle brackets at definition** with the **last type definition in the angle brackets being the output type**. In the example below `MyFunc` is a delegate that takes an `int` and returns an `int`.
@@ -54,6 +57,6 @@ Action<int> EchoInt = i => Console.WriteLine(i);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzNzg3MzUyLDE0OTg1ODIyODUsLTEwNz
+eyJoaXN0b3J5IjpbLTQwNTgzODI3LDE0OTg1ODIyODUsLTEwNz
 Q0ODgxOTcsNTM2NDE4OTk5LC0xNTc0NDY4OTMzXX0=
 -->
