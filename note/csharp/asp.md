@@ -255,6 +255,8 @@ public class UserProfile : Profile
 }
 ```
 
+`AutoMapper` will **automatically map fields of the same name** to the target DTO.
+
 ## Uri
 
 You can **store URIs with predefined utilities** by using the `Uri` class. This is *not* part of `ASP` specifically, but has good applications in web development. You can **create a new `Uri` object** by passing in your actual uri as a string. You can **pass relative and absolute URIs** into the `Uri` object, if you pass poorly formed URIs this can cause cause errors later with other `Uri` methods.
@@ -327,11 +329,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTIzMzA5MTcsODc2MTUzNzczLC0yMT
-A3ODI2NTQ0LDEzNzkyODExMzgsMTMxNzg4NDcwNiwxNTcwNjg4
-NzcyLC0yMDMzNjUyODE0LC0xMDY1MzA0MTcxLDY1OTAwNTMyMi
-wtMTM5NjQ1MTUyLC04ODE1MDUxOTQsMTcwMjk1OTI0NSwyMzk4
-ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3LC01NDI0NzExMT
-AsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zNDU3
-MzIzMDBdfQ==
+eyJoaXN0b3J5IjpbMTIwMTUxMzgxMiw4NzYxNTM3NzMsLTIxMD
+c4MjY1NDQsMTM3OTI4MTEzOCwxMzE3ODg0NzA2LDE1NzA2ODg3
+NzIsLTIwMzM2NTI4MTQsLTEwNjUzMDQxNzEsNjU5MDA1MzIyLC
+0xMzk2NDUxNTIsLTg4MTUwNTE5NCwxNzAyOTU5MjQ1LDIzOTg4
+Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4MzcsLTU0MjQ3MTExMC
+w5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2NTUyMzIsLTM0NTcz
+MjMwMF19
 -->
