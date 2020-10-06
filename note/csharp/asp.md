@@ -309,6 +309,8 @@ public class MyController : ControllerBase
 }
 ```
 
+You can 
+
 ## Uri
 
 You can **store URIs with predefined utilities** by using the `Uri` class. This is *not* part of `ASP` specifically, but has good applications in web development. You can **create a new `Uri` object** by passing in your actual uri as a string. You can **pass relative and absolute URIs** into the `Uri` object, if you pass poorly formed URIs this can cause cause errors later with other `Uri` methods.
@@ -381,11 +383,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzg4ODA4NSwxMDIyMTAyMDU2LDc5MD
-U0MDg0MCwxMjUzMDQ2Mjc5LDg3NjE1Mzc3MywtMjEwNzgyNjU0
-NCwxMzc5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4ODc3MiwtMj
-AzMzY1MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0
-NTE1MiwtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC
-00MzU2NzQyODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjcz
-OTUwOV19
+eyJoaXN0b3J5IjpbMzE1MzgzODgyLDE0MDM4ODgwODUsMTAyMj
+EwMjA1Niw3OTA1NDA4NDAsMTI1MzA0NjI3OSw4NzYxNTM3NzMs
+LTIxMDc4MjY1NDQsMTM3OTI4MTEzOCwxMzE3ODg0NzA2LDE1Nz
+A2ODg3NzIsLTIwMzM2NTI4MTQsLTEwNjUzMDQxNzEsNjU5MDA1
+MzIyLC0xMzk2NDUxNTIsLTg4MTUwNTE5NCwxNzAyOTU5MjQ1LD
+IzOTg4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4MzcsLTU0MjQ3
+MTExMF19
 -->
