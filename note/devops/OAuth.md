@@ -10,6 +10,8 @@ When a user **gives permission to one application to access another application 
 
 ## OAuth Flow
 
+
+
 The target service returns a `authorization token` that only allows for the limited permissions that the user approved.
 
 The source service save the `auth token` and uses it every time the user wants it to access the target service.
@@ -18,5 +20,6 @@ The source service save the `auth token` and uses it every time the user wants i
 
 The access token is a JWT token.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjQzOTc4MCwtMTk3MjAxMTI1Nl19
+eyJoaXN0b3J5IjpbLTE1MzczMDEyNDAsMTA2NjQzOTc4MCwtMT
+k3MjAxMTI1Nl19
 -->
