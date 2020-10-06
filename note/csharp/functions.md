@@ -39,7 +39,9 @@ You can **define an anonymous function without a return type** by using the `Act
 ```csharp
 Action<int> EchoInt = i => Console.WriteLine(i);
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ0ODgxOTcsNTM2NDE4OTk5LC0xNT
-c0NDY4OTMzXX0=
+eyJoaXN0b3J5IjpbLTEwNzA3ODA0NTcsLTEwNzQ0ODgxOTcsNT
+M2NDE4OTk5LC0xNTc0NDY4OTMzXX0=
 -->
