@@ -242,6 +242,8 @@ Essentially, your **internal implementation should be decoupled from data that i
 
 A solution to this is a **Data Transfer Object** (DTO) which is a representation of your internal data structures for external use. For example, if our system implements a class called `User` which has a number of properties, such as `Name`, `DateOfBirth`, `Height` etc. and the type formats that those are stored in and any other database specific or data processing methods, we would not want to expose this directly to parts of your application that send and receive data, because we might want to return the User's age instead of their `DateOfBirth` directly, for this we would create a DTO that mirrors the structure of the internal `User` implementation for the purposes of this data transfer. Furthermore we may also not want to expose clients to database specific information like the `Id` of a `User` record, which could also be omitted into the DTO mapping.
 
+### DTO Classes
+
 You can **create a new DTO** by defining a class with only the fields that you want to return to a client. For example if our user model was defined as below, with the `Id`, `Name`, `Height` and `DateOfBirth` fields.
 ```csharp
 public class User
@@ -263,7 +265,9 @@ public class UserReadDto
 }
 ```
 
-You can **create a mapping between a DTO and a real class** by using the `AutoMapper` library and creating a class that extends `AutoMapper`'s `Profile` class to define a mapping. You then define the `Profile` class' constructor to use `AutoMapper`'s `CreateMap` function with types between its `<>` angle brackets with the class you're mapping from as the first type argument and the class you're mapping two as the second type argument.
+### Profiles
+
+You can **define a mapping between a DTO and a real class** by using the `AutoMapper` library and creating a class that extends `AutoMapper`'s `Profile` class to define a mapping. You then define the `Profile` class' constructor to use `AutoMapper`'s `CreateMap` function with types between its `<>` angle brackets with the class you're mapping from as the first type argument and the class you're mapping two as the second type argument.
 ```csharp
 using AutoMapper;
 
@@ -277,6 +281,10 @@ public class UserProfile : Profile
 ```
 
 `AutoMapper` will **automatically map fields of the same name and type in the source class to the target DTO** *and* **remove fields not present in the DTO**.
+
+### Mapping
+
+You can **convert an instance of a model into a **
 
 ## Uri
 
@@ -350,11 +358,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwNTQwODQwLDEyNTMwNDYyNzksODc2MT
-UzNzczLC0yMTA3ODI2NTQ0LDEzNzkyODExMzgsMTMxNzg4NDcw
-NiwxNTcwNjg4NzcyLC0yMDMzNjUyODE0LC0xMDY1MzA0MTcxLD
-Y1OTAwNTMyMiwtMTM5NjQ1MTUyLC04ODE1MDUxOTQsMTcwMjk1
-OTI0NSwyMzk4ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3LC
-01NDI0NzExMTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1
-MjMyXX0=
+eyJoaXN0b3J5IjpbLTkyMDg4NzMyNSw3OTA1NDA4NDAsMTI1Mz
+A0NjI3OSw4NzYxNTM3NzMsLTIxMDc4MjY1NDQsMTM3OTI4MTEz
+OCwxMzE3ODg0NzA2LDE1NzA2ODg3NzIsLTIwMzM2NTI4MTQsLT
+EwNjUzMDQxNzEsNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MTUw
+NTE5NCwxNzAyOTU5MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1LD
+EwMDE2OTk4MzcsLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMDU1
+ODYzNF19
 -->
