@@ -4,7 +4,9 @@ layout: page
 exclude: true
 ---
 
-There are **two ways to define anonymous functions** in `C#`.
+There are **two ways to define anonymous functions** in `C#`:
+
+- **Delegates**, which take a list of arguments greater than or equal to 0 *and* have a return tyu
 
 ## Delegates
 
@@ -28,6 +30,6 @@ int[] arr = new int[] {1, 2, 3, 4, 5};
 RunThis(arr, x => x * 2); // => 2, 4, 6, 8, 10
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjAzODIzNDgsNTM2NDE4OTk5LC0xNT
+eyJoaXN0b3J5IjpbLTE1MDg4MjA1NjYsNTM2NDE4OTk5LC0xNT
 c0NDY4OTMzXX0=
 -->
