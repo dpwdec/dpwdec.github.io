@@ -221,7 +221,7 @@ Essentially, your **internal implementation should be decoupled from data that i
 
 A solution to this is a **Data Transfer Object** (DTO) which is a representation of your internal data structures for external use. For example, if our system implements a class called `User` which has a number of properties, such as `Name`, `DateOfBirth`, `Height` etc. and the type formats that those are stored in and any other database specific or data processing methods, we would not want to expose this directly to parts of your application that send and receive data, because we might want to return the User's age instead of their `DateOfBirth` directly, for this we would create a DTO that mirrors the structure of the internal `User` implementation for the purposes of this data transfer. Furthermore we may also not want to expose clients to database specific information like the `Id` of a `User` record, which could also be omitted into the DTO mapping.
 
-You can **create a new DTO** by defining a class with only the fields that you want to return to a client.
+You can **create a new DTO** by defining a class with only the fields that you want to return to a client. For example if our user model was defined as below, with the `Id`, `Name`, `Height` and `DateOfBirth` fields.
 ```csharp
 public class User
 {
@@ -230,7 +230,14 @@ public class User
   public int Height { get; set; }
   public Date DateOfBirth { get; set; }
 }
+```
 
+Then a corresponding DTO might have a structure like the example below, with `Name`, `Height` and `Age` fields.
+```csharp
+public class UserDto
+{
+  public
+}
 ```
 
 ## Uri
@@ -305,11 +312,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3NzA1NDY0LC0yMTA3ODI2NTQ0LDEzNz
-kyODExMzgsMTMxNzg4NDcwNiwxNTcwNjg4NzcyLC0yMDMzNjUy
-ODE0LC0xMDY1MzA0MTcxLDY1OTAwNTMyMiwtMTM5NjQ1MTUyLC
-04ODE1MDUxOTQsMTcwMjk1OTI0NSwyMzk4ODM5NzcsLTQzNTY3
-NDI4NSwxMDAxNjk5ODM3LC01NDI0NzExMTAsOTI2NzM5NTA5LC
-0yMjA1NTg2MzQsLTMyNjU1MjMyLC0zNDU3MzIzMDAsNDQzNDUz
-ODEwXX0=
+eyJoaXN0b3J5IjpbLTk0NzQwODIyNSwtMjEwNzgyNjU0NCwxMz
+c5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4ODc3MiwtMjAzMzY1
+MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0NTE1Mi
+wtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2
+NzQyODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUwOS
+wtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1
+MzgxMF19
 -->
