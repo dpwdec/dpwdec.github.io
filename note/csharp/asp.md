@@ -255,7 +255,7 @@ public class UserProfile : Profile
 }
 ```
 
-`AutoMapper` will **automatically map fields of the same name** to the target DTO.
+`AutoMapper` will **automatically map fields of the same name and type in the source class to the target DTO** *and* **remove fields not present in the DTO**.
 
 ## Uri
 
@@ -329,7 +329,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTUxMzgxMiw4NzYxNTM3NzMsLTIxMD
+eyJoaXN0b3J5IjpbMTI1MzA0NjI3OSw4NzYxNTM3NzMsLTIxMD
 c4MjY1NDQsMTM3OTI4MTEzOCwxMzE3ODg0NzA2LDE1NzA2ODg3
 NzIsLTIwMzM2NTI4MTQsLTEwNjUzMDQxNzEsNjU5MDA1MzIyLC
 0xMzk2NDUxNTIsLTg4MTUwNTE5NCwxNzAyOTU5MjQ1LDIzOTg4
