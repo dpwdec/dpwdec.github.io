@@ -242,8 +242,10 @@ public class UserReadDto
 }
 ```
 
-You can **create a mapping between a DTO and a real class** by using the `AutoMapper` library and creating a class that extends `AutoMapper`'s `Profile` class to define a mapping.
+You can **create a mapping between a DTO and a real class** by using the `AutoMapper` library and creating a class that extends `AutoMapper`'s `Profile` class to define a mapping. You then define the `Profile` class' constructor 
 ```csharp
+using AutoMapper;
+
 public class UserProfile : Profile
 {
   public UserProfile()
@@ -325,7 +327,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwMzU3NDA0LDg3NjE1Mzc3MywtMjEwNz
+eyJoaXN0b3J5IjpbMzYyNzIyMTI3LDg3NjE1Mzc3MywtMjEwNz
 gyNjU0NCwxMzc5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4ODc3
 MiwtMjAzMzY1MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMjIsLT
 EzOTY0NTE1MiwtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgz
