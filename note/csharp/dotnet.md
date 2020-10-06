@@ -121,6 +121,10 @@ You can **add to a `List`** using the List's `Add` method.
 names.Add("Jason");
 ```
 
+## Conditionals
+
+You can **make conditional assertions using the `is` keyword** as of dotnet version 
+
 ## Classes
 
 You can **define a class** by using the `class` keyword followed by the name of the class written in `PascalCase`.
@@ -527,11 +531,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxMjkyMDEsMTg4NzY2NjY5MywtMTEzNT
-Q4ODIwMiwtMzE2MTE5NTA0LDE4MzM3MDg3NTgsNzMxNTkzNjQ3
-LDQ2OTc3NzQ2Miw5MDYyNDM1OCwtMTcyMjM5Njg5NiwtMTU1OD
-AwMDA2MCwtNDAzMjI5MjM3LC0xNjUwODc3OTAxLC0xMDMzMTQ4
-MzA5LDExODA1NzA0NDQsMzkxNzMyNTIyLC0xNTY4ODg5MzAxLC
-05MDc2MDgzNzQsMTI5MjgxNTUwNSw2Njg3OTI0OTYsMzU4OTU3
-MjMzXX0=
+eyJoaXN0b3J5IjpbLTg4NTUzNjQ0MywxODg3NjY2NjkzLC0xMT
+M1NDg4MjAyLC0zMTYxMTk1MDQsMTgzMzcwODc1OCw3MzE1OTM2
+NDcsNDY5Nzc3NDYyLDkwNjI0MzU4LC0xNzIyMzk2ODk2LC0xNT
+U4MDAwMDYwLC00MDMyMjkyMzcsLTE2NTA4Nzc5MDEsLTEwMzMx
+NDgzMDksMTE4MDU3MDQ0NCwzOTE3MzI1MjIsLTE1Njg4ODkzMD
+EsLTkwNzYwODM3NCwxMjkyODE1NTA1LDY2ODc5MjQ5NiwzNTg5
+NTcyMzNdfQ==
 -->
