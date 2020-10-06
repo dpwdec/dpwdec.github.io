@@ -123,7 +123,10 @@ names.Add("Jason");
 
 ## Conditionals
 
-You can **make conditional assertions using the `is` keyword** as of dotnet version 
+You can **make conditional assertions using the `is` keyword** as of `dotnet` version `>7.0` instead of using `==` double equals for equality.
+```csharp
+if(x is null)
+```
 
 ## Classes
 
@@ -531,7 +534,7 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTUzNjQ0MywxODg3NjY2NjkzLC0xMT
+eyJoaXN0b3J5IjpbMTgzNzQ3MDU5MCwxODg3NjY2NjkzLC0xMT
 M1NDg4MjAyLC0zMTYxMTk1MDQsMTgzMzcwODc1OCw3MzE1OTM2
 NDcsNDY5Nzc3NDYyLDkwNjI0MzU4LC0xNzIyMzk2ODk2LC0xNT
 U4MDAwMDYwLC00MDMyMjkyMzcsLTE2NTA4Nzc5MDEsLTEwMzMx
