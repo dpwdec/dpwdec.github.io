@@ -232,7 +232,7 @@ public class User
 }
 ```
 
-Then a corresponding DTO might have a structure like the example below, with `Name`, `Height` and `Age` fields. It's a general **convention to name a DTO with in the format `<SOURCE CLASS><INTENDED ACTION>Dto`**. So 
+Then a corresponding DTO might have a structure like the example below, with `Name`, `Height` and `Age` fields. It's a general **convention to name a DTO in the format `<SOURCE CLASS><INTENDED ACTION>Dto`**. So, the DTO defined below is for the purpose of a client `Read`ing information. However, we might define DTOs for writing information to our database etc.
 ```csharp
 public class UserReadDto
 {
@@ -244,7 +244,13 @@ public class UserReadDto
 
 You can **create a mapping between a DTO and a real class** by using the `AutoMapper` library and creating a class that extends `AutoMapper`'s `Profile` class to define a mapping.
 ```csharp
-
+public class UserProfile : Profile
+{
+  public UserProfile()
+  {
+    CreateMap<User, UserReadDto>();
+  }
+}
 ```
 
 ## Uri
@@ -319,7 +325,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTEyMjgzLDg3NjE1Mzc3MywtMjEwNz
+eyJoaXN0b3J5IjpbODQwMzU3NDA0LDg3NjE1Mzc3MywtMjEwNz
 gyNjU0NCwxMzc5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4ODc3
 MiwtMjAzMzY1MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMjIsLT
 EzOTY0NTE1MiwtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgz
