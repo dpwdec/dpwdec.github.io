@@ -36,8 +36,10 @@ RunThis(arr, x => x * 2); // => 2, 4, 6, 8, 10
 
 You can **define an anonymous function without a return type** by using the `Action`. `Action` takes some number of arguments are returns `void`. You can **define an `Action`** by using the `Action` type followed by `< >` angle brackets with the argument types in them.
 
+```csharp
+Action<int> EchoInt = i => Console.WriteLine(i);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5MDY0NDMxLDUzNjQxODk5OSwtMTU3ND
-Q2ODkzM119
+eyJoaXN0b3J5IjpbLTEwNzQ0ODgxOTcsNTM2NDE4OTk5LC0xNT
+c0NDY4OTMzXX0=
 -->
