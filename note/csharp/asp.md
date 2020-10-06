@@ -286,10 +286,13 @@ public class UserProfile : Profile
 
 You can **convert an instance of a model to an instance of a DTO in a controller route** by using an object that implements that `IMapper` interface. This interface contains a method called `Map` which takes an instance of a model class with real data its argument and the DTO to map to as its type argument.
 
-You can **insert an instance of `IMapper` using dependency injection**.
-```csharp
+You can **insert an instance of `IMapper` using dependency injection**. 
 
-public class MyController
+Controller routes will also You will also need to change the return
+```csharp
+[Route("api/route")]  
+[ApiController]
+public class MyController : ControllerBase
 {
   private readonly IMapper _mapper;
   public MyController(IMapper mapper)
@@ -297,7 +300,8 @@ public class MyController
     _mapper = mapper;
   }
 
-  
+  [HttpGet]
+  public ActionResult<UserReadDto>
 }
 ```
 
@@ -373,11 +377,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTEwNDU0MjYsNzkwNTQwODQwLDEyNT
-MwNDYyNzksODc2MTUzNzczLC0yMTA3ODI2NTQ0LDEzNzkyODEx
-MzgsMTMxNzg4NDcwNiwxNTcwNjg4NzcyLC0yMDMzNjUyODE0LC
-0xMDY1MzA0MTcxLDY1OTAwNTMyMiwtMTM5NjQ1MTUyLC04ODE1
-MDUxOTQsMTcwMjk1OTI0NSwyMzk4ODM5NzcsLTQzNTY3NDI4NS
-wxMDAxNjk5ODM3LC01NDI0NzExMTAsOTI2NzM5NTA5LC0yMjA1
-NTg2MzRdfQ==
+eyJoaXN0b3J5IjpbMTEyMzMwMTk1MCw3OTA1NDA4NDAsMTI1Mz
+A0NjI3OSw4NzYxNTM3NzMsLTIxMDc4MjY1NDQsMTM3OTI4MTEz
+OCwxMzE3ODg0NzA2LDE1NzA2ODg3NzIsLTIwMzM2NTI4MTQsLT
+EwNjUzMDQxNzEsNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MTUw
+NTE5NCwxNzAyOTU5MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1LD
+EwMDE2OTk4MzcsLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMDU1
+ODYzNF19
 -->
