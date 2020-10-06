@@ -4,6 +4,10 @@ layout: page
 exclude: true
 ---
 
+There are **two ways to define anonymous functions** in `C#`.
+
+## Delegates
+
 You can **define an anonymous function** using the `Func` object. When declaring a `Func` you should follow it by `< >` angle brackets with the input argument type and return type. You can use standard lambda calculus syntax to define anonymous functions.
 ```csharp
 Func<int, int> Double = x => x * 2
@@ -24,6 +28,6 @@ int[] arr = new int[] {1, 2, 3, 4, 5};
 RunThis(arr, x => x * 2); // => 2, 4, 6, 8, 10
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDM1OTIyOTcsNTM2NDE4OTk5LC0xNT
+eyJoaXN0b3J5IjpbLTE3MjAzODIzNDgsNTM2NDE4OTk5LC0xNT
 c0NDY4OTMzXX0=
 -->
