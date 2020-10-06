@@ -11,7 +11,7 @@ There are **two ways to define anonymous functions** in `C#`:
 
 ## Delegate
 
-You can **define an anonymous delegate function** using the `Func` object. When declaring a `Func` you should follow it by `< >` angle brackets with the input argument type and return type. You can use standard lambda calculus syntax to define anonymous functions.
+You can **define an anonymous delegate function** using the `Func` object. `Func` takes some number of arguments and returns something. When declaring a `Func` you should follow it by `< >` angle brackets with the input argument type and return type. You can use standard lambda calculus syntax to define anonymous functions.
 ```csharp
 Func<int, int> Double = x => x * 2
 Func<int> Three = () => 3 // delegate that takes no arguments
@@ -34,8 +34,8 @@ RunThis(arr, x => x * 2); // => 2, 4, 6, 8, 10
 
 ## Action
 
-
+You can **define an anonymous function without a return type** by using the `Action`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODY5NjM0NSw1MzY0MTg5OTksLTE1Nz
+eyJoaXN0b3J5IjpbMTEyNDM4MjYzMiw1MzY0MTg5OTksLTE1Nz
 Q0Njg5MzNdfQ==
 -->
