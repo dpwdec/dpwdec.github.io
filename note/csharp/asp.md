@@ -301,10 +301,10 @@ public class MyController : ControllerBase
   }
 
   [HttpGet("{id}")]
-  public ActionResult<UserReadDto> GetData()
+  public ActionResult<UserReadDto> GetData(int id)
   {
-    var userData = Database.GetUserById();
-    return Ok(_mapper.Map<UserReadDto>(userData)
+    var userData = Database.GetUserById(id);
+    return Ok(_mapper.Map<UserReadDto>(userData));
   }
 }
 ```
@@ -381,7 +381,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQyNTAyMyw3OTA1NDA4NDAsMTI1Mz
+eyJoaXN0b3J5IjpbMTAyMjEwMjA1Niw3OTA1NDA4NDAsMTI1Mz
 A0NjI3OSw4NzYxNTM3NzMsLTIxMDc4MjY1NDQsMTM3OTI4MTEz
 OCwxMzE3ODg0NzA2LDE1NzA2ODg3NzIsLTIwMzM2NTI4MTQsLT
 EwNjUzMDQxNzEsNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MTUw
