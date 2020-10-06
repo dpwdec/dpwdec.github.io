@@ -189,11 +189,11 @@ Controllers `return` concrete instances of `IActionResult` when they complete. T
 
 ### IActionResult
 
-`IActionResult` is an interface which describes the most general type of result that a controller route can return. `ActionResult` is a class that inherits from `IActionResult`.
+`IActionResult` is an **interface which describes the most general type of result that a controller route can return**. This type of result does not necessarily return any content and so it does not need a type argument to indicate what it returns.
 
 ### ActionResult
 
-You can **get the value from a successful `ActionResult`** by destructuring the object into an `OkObjectResult` and then destructuring it again into the expected value. The example below demonstrates a controller route that contains a string,  unfortunately **casting must be done between the `ActionResult` and `OkObjectResult`** to successfully destructure the object with the `Result` and `Value` properties.
+`ActionResult` implements `IActionResulYou can **get the value from a successful `ActionResult`** by destructuring the object into an `OkObjectResult` and then destructuring it again into the expected value. The example below demonstrates a controller route that contains a string,  unfortunately **casting must be done between the `ActionResult` and `OkObjectResult`** to successfully destructure the object with the `Result` and `Value` properties.
 ```csharp
 ActionResult<string> actionResult = MyController.MyRoute();
 OkObjectResult okObject = (OkObjectResult) actionResult.Result;
@@ -391,11 +391,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODM5Njg4NywxMTY2NjA1ODYsMTQwMz
-g4ODA4NSwxMDIyMTAyMDU2LDc5MDU0MDg0MCwxMjUzMDQ2Mjc5
-LDg3NjE1Mzc3MywtMjEwNzgyNjU0NCwxMzc5MjgxMTM4LDEzMT
-c4ODQ3MDYsMTU3MDY4ODc3MiwtMjAzMzY1MjgxNCwtMTA2NTMw
-NDE3MSw2NTkwMDUzMjIsLTEzOTY0NTE1MiwtODgxNTA1MTk0LD
-E3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQyODUsMTAwMTY5
-OTgzN119
+eyJoaXN0b3J5IjpbLTE0MDUwMTk2NTQsLTk2ODM5Njg4NywxMT
+Y2NjA1ODYsMTQwMzg4ODA4NSwxMDIyMTAyMDU2LDc5MDU0MDg0
+MCwxMjUzMDQ2Mjc5LDg3NjE1Mzc3MywtMjEwNzgyNjU0NCwxMz
+c5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4ODc3MiwtMjAzMzY1
+MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0NTE1Mi
+wtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2
+NzQyODVdfQ==
 -->
