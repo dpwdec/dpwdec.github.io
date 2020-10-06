@@ -284,7 +284,12 @@ public class UserProfile : Profile
 
 ### Mapping
 
-You can **convert an instance of a model to an instance of a DTO in a controller route** by using an object that implements that `IMapper` interface. This interface contains a method called `Map` which takes real
+You can **convert an instance of a model to an instance of a DTO in a controller route** by using an object that implements that `IMapper` interface. This interface contains a method called `Map` which takes an instance of a model class with real data its argument and the DTO to map to as its type argument.
+
+You
+```csharp
+
+```
 
 ## Uri
 
@@ -358,11 +363,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTMzMjA1Myw3OTA1NDA4NDAsMTI1Mz
-A0NjI3OSw4NzYxNTM3NzMsLTIxMDc4MjY1NDQsMTM3OTI4MTEz
-OCwxMzE3ODg0NzA2LDE1NzA2ODg3NzIsLTIwMzM2NTI4MTQsLT
-EwNjUzMDQxNzEsNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MTUw
-NTE5NCwxNzAyOTU5MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1LD
-EwMDE2OTk4MzcsLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMDU1
-ODYzNF19
+eyJoaXN0b3J5IjpbNjczOTYyODIxLDc5MDU0MDg0MCwxMjUzMD
+Q2Mjc5LDg3NjE1Mzc3MywtMjEwNzgyNjU0NCwxMzc5MjgxMTM4
+LDEzMTc4ODQ3MDYsMTU3MDY4ODc3MiwtMjAzMzY1MjgxNCwtMT
+A2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0NTE1MiwtODgxNTA1
+MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQyODUsMT
+AwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUwOSwtMjIwNTU4
+NjM0XX0=
 -->
