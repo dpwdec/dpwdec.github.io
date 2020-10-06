@@ -200,7 +200,9 @@ OkObjectResult okObject = (OkObjectResult) actionResult.Result;
 string result = (string) okObject.Value;
 ```
 
-By default **if a controller route d
+### Ok
+
+You can **implicitly return a `204` from a controller route** by returning an `Ok` response `ActionResult` that 
 
 ### ForbidResult
 
@@ -331,11 +333,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTkyMjQxMjgsMTI1MzA0NjI3OSw4Nz
-YxNTM3NzMsLTIxMDc4MjY1NDQsMTM3OTI4MTEzOCwxMzE3ODg0
-NzA2LDE1NzA2ODg3NzIsLTIwMzM2NTI4MTQsLTEwNjUzMDQxNz
-EsNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MTUwNTE5NCwxNzAy
-OTU5MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4Mz
-csLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2
-NTUyMzJdfQ==
+eyJoaXN0b3J5IjpbLTgxOTM4ODk0MSwxMjUzMDQ2Mjc5LDg3Nj
+E1Mzc3MywtMjEwNzgyNjU0NCwxMzc5MjgxMTM4LDEzMTc4ODQ3
+MDYsMTU3MDY4ODc3MiwtMjAzMzY1MjgxNCwtMTA2NTMwNDE3MS
+w2NTkwMDUzMjIsLTEzOTY0NTE1MiwtODgxNTA1MTk0LDE3MDI5
+NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQyODUsMTAwMTY5OTgzNy
+wtNTQyNDcxMTEwLDkyNjczOTUwOSwtMjIwNTU4NjM0LC0zMjY1
+NTIzMl19
 -->
