@@ -17,6 +17,8 @@ Func<int, int> Double = x => x * 2
 Func<int> Three = () => 3 // delegate that takes no arguments
 ```
 
+You can **strong text**
+
 You can **define a function that takes another function with a return type as an argument** by using the `Func` delegate object. `Func` delegates **define inputs in the `<>` angle brackets at definition** with the **last type definition in the angle brackets being the output type**. In the example below `MyFunc` is a delegate that takes an `int` and returns an `int`.
 ```csharp
 public void RunThis(int[] arr, Func<int, int> MyFunc)
@@ -34,7 +36,7 @@ RunThis(arr, x => x * 2); // => 2, 4, 6, 8, 10
 
 ## Action
 
-Many of the rules that govern
+**Many of the rules that apply to delegates also apply to actions**, so unless functionality is specifically stated assume that they overlap.
 
 You can **define an anonymous function without a return type** by using the `Action`. `Action` takes some number of arguments are returns `void`. You can **define an `Action`** by using the `Action` type followed by `< >` angle brackets with the argument types in them.
 
@@ -44,6 +46,6 @@ Action<int> EchoInt = i => Console.WriteLine(i);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODU4MjI4NSwtMTA3NDQ4ODE5Nyw1Mz
-Y0MTg5OTksLTE1NzQ0Njg5MzNdfQ==
+eyJoaXN0b3J5IjpbLTc1ODM0MjI3MywxNDk4NTgyMjg1LC0xMD
+c0NDg4MTk3LDUzNjQxODk5OSwtMTU3NDQ2ODkzM119
 -->
