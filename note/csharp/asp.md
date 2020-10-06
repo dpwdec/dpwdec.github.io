@@ -213,7 +213,13 @@ public ActionResult<string> NoContentRoute()
 
 ### Not Found (404)
 
-You can **return a `404` status code**
+You can **return a `404` status code** by returning a `NotFound` response `IActionResult` object.
+```csharp
+public IActionResult NotFoundRoute()
+{
+  return NotFound();
+}
+```
 
 ### ForbidResult
 
@@ -344,11 +350,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzY5MTg2NzcsMTI1MzA0NjI3OSw4Nz
-YxNTM3NzMsLTIxMDc4MjY1NDQsMTM3OTI4MTEzOCwxMzE3ODg0
-NzA2LDE1NzA2ODg3NzIsLTIwMzM2NTI4MTQsLTEwNjUzMDQxNz
-EsNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MTUwNTE5NCwxNzAy
-OTU5MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4Mz
-csLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMDU1ODYzNCwtMzI2
-NTUyMzJdfQ==
+eyJoaXN0b3J5IjpbNzkwNTQwODQwLDEyNTMwNDYyNzksODc2MT
+UzNzczLC0yMTA3ODI2NTQ0LDEzNzkyODExMzgsMTMxNzg4NDcw
+NiwxNTcwNjg4NzcyLC0yMDMzNjUyODE0LC0xMDY1MzA0MTcxLD
+Y1OTAwNTMyMiwtMTM5NjQ1MTUyLC04ODE1MDUxOTQsMTcwMjk1
+OTI0NSwyMzk4ODM5NzcsLTQzNTY3NDI4NSwxMDAxNjk5ODM3LC
+01NDI0NzExMTAsOTI2NzM5NTA5LC0yMjA1NTg2MzQsLTMyNjU1
+MjMyXX0=
 -->
