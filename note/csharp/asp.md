@@ -221,7 +221,14 @@ Essentially, your **internal implementation should be decoupled from data that i
 
 A solution to this is a **Data Transfer Object** (DTO) which is a representation of your internal data structures for external use. For example, if our system implements a class called `User` which has a number of properties, such as `Name`, `DateOfBirth`, `Height` etc. and the type formats that those are stored in and any other database specific or data processing methods, we would not want to expose this directly to parts of your application that send and receive data, because we might want to return the User's age instead of their `DateOfBirth` directly, for this we would create a DTO that mirrors the structure of the internal `User` implementation for the purposes of this data transfer.
 
-You can **create a new DTO** by defining a class that matches 
+You can **create a new DTO** by defining a class with only the fields that you want to return to a client.
+```csharp
+public class User
+{
+  public string Name { get; set; }
+  public string Name { get; set; }
+}
+```
 
 ## Uri
 
@@ -295,7 +302,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTY3NzE4NSwtMjEwNzgyNjU0NCwxMz
+eyJoaXN0b3J5IjpbLTcwOTc3MzQ0NCwtMjEwNzgyNjU0NCwxMz
 c5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4ODc3MiwtMjAzMzY1
 MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0NTE1Mi
 wtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2
