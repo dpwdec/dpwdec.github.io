@@ -34,7 +34,7 @@ RunThis(arr, x => x * 2); // => 2, 4, 6, 8, 10
 
 ## Action
 
-Many of the actions that govern 
+Many of the rules that govern
 
 You can **define an anonymous function without a return type** by using the `Action`. `Action` takes some number of arguments are returns `void`. You can **define an `Action`** by using the `Action` type followed by `< >` angle brackets with the argument types in them.
 
@@ -44,6 +44,6 @@ Action<int> EchoInt = i => Console.WriteLine(i);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTE4NTYxMTksLTEwNzQ0ODgxOTcsNT
-M2NDE4OTk5LC0xNTc0NDY4OTMzXX0=
+eyJoaXN0b3J5IjpbMTQ5ODU4MjI4NSwtMTA3NDQ4ODE5Nyw1Mz
+Y0MTg5OTksLTE1NzQ0Njg5MzNdfQ==
 -->
