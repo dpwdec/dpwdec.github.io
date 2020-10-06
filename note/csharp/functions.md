@@ -9,7 +9,7 @@ There are **two ways to define anonymous functions** in `C#`:
 - **Delegates**, which take a list of arguments greater than or equal to 0 *and* have a return type
 - **Actions**, which take a list of arguments greater than or equal to 0 *and* have no return type
 
-## Delegates
+## Delegate
 
 You can **define an anonymous delegate function** using the `Func` object. When declaring a `Func` you should follow it by `< >` angle brackets with the input argument type and return type. You can use standard lambda calculus syntax to define anonymous functions.
 ```csharp
@@ -31,7 +31,11 @@ public void RunThis(int[] arr, Func<int, int> MyFunc)
 int[] arr = new int[] {1, 2, 3, 4, 5};
 RunThis(arr, x => x * 2); // => 2, 4, 6, 8, 10
 ```
+
+## Action
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjU5OCw1MzY0MTg5OTksLTE1NzQ0Nj
-g5MzNdfQ==
+eyJoaXN0b3J5IjpbMTI4ODY5NjM0NSw1MzY0MTg5OTksLTE1Nz
+Q0Njg5MzNdfQ==
 -->
