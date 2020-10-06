@@ -300,10 +300,11 @@ public class MyController : ControllerBase
     _mapper = mapper;
   }
 
-  [HttpGet]
+  [HttpGet("{id}")]
   public ActionResult<UserReadDto> GetData()
   {
-    var ModelData = Database.GetData();
+    var userData = Database.GetUserById();
+    return Ok(_mapper.Map<UserReadDto>(userData)
   }
 }
 ```
@@ -380,11 +381,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwOTQ3MTEwLDc5MDU0MDg0MCwxMjUzMD
-Q2Mjc5LDg3NjE1Mzc3MywtMjEwNzgyNjU0NCwxMzc5MjgxMTM4
-LDEzMTc4ODQ3MDYsMTU3MDY4ODc3MiwtMjAzMzY1MjgxNCwtMT
-A2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0NTE1MiwtODgxNTA1
-MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQyODUsMT
-AwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUwOSwtMjIwNTU4
-NjM0XX0=
+eyJoaXN0b3J5IjpbLTEwNDQyNTAyMyw3OTA1NDA4NDAsMTI1Mz
+A0NjI3OSw4NzYxNTM3NzMsLTIxMDc4MjY1NDQsMTM3OTI4MTEz
+OCwxMzE3ODg0NzA2LDE1NzA2ODg3NzIsLTIwMzM2NTI4MTQsLT
+EwNjUzMDQxNzEsNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MTUw
+NTE5NCwxNzAyOTU5MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1LD
+EwMDE2OTk4MzcsLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMDU1
+ODYzNF19
 -->
