@@ -309,12 +309,12 @@ public class MyController : ControllerBase
 }
 ```
 
-`IMapper` has built in support to allow you to **`Map` an `IEnumerable` collection of model instances to a collection of DTO instances**.
+`IMapper` has built in support to allow you to **`Map` an `IEnumerable` collection of model instances to a collection of DTO instances** by typing the `Map` method with an `IEnumerable` of the target DTO and passing
 ```csharp
 [HttpGet]
 public ActionResult<IEnumerable<UserReadDto>> GetUsers()
 {
-  return Ok(
+  return Ok(_mapper.Map<
 }
 ```
 
@@ -390,7 +390,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjgwMjgyNiwxNDAzODg4MDg1LDEwMj
+eyJoaXN0b3J5IjpbLTUwMDY0Nzg3MiwxNDAzODg4MDg1LDEwMj
 IxMDIwNTYsNzkwNTQwODQwLDEyNTMwNDYyNzksODc2MTUzNzcz
 LC0yMTA3ODI2NTQ0LDEzNzkyODExMzgsMTMxNzg4NDcwNiwxNT
 cwNjg4NzcyLC0yMDMzNjUyODE0LC0xMDY1MzA0MTcxLDY1OTAw
