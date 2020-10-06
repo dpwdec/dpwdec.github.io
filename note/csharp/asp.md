@@ -221,6 +221,8 @@ Essentially, your **internal implementation should be decoupled from data that i
 
 A solution to this is a **Data Transfer Object** (DTO) which is a representation of your internal data structures for external use. For example, if our system implements a class called `User` which has a number of properties, such as `Name`, `DateOfBirth`, `Height` etc. and the type formats that those are stored in and any other database specific or data processing methods, we would not want to expose this directly to parts of your application that send and receive data, because we might want to return the User's age instead of their `DateOfBirth` directly, for this we would create a DTO that mirrors the structure of the internal `User` implementation for the purposes of this data transfer.
 
+You can **create a new DTO** by defining a class that matches 
+
 ## Uri
 
 You can **store URIs with predefined utilities** by using the `Uri` class. This is *not* part of `ASP` specifically, but has good applications in web development. You can **create a new `Uri` object** by passing in your actual uri as a string. You can **pass relative and absolute URIs** into the `Uri` object, if you pass poorly formed URIs this can cause cause errors later with other `Uri` methods.
@@ -293,11 +295,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDc4MjY1NDQsMTM3OTI4MTEzOCwxMz
-E3ODg0NzA2LDE1NzA2ODg3NzIsLTIwMzM2NTI4MTQsLTEwNjUz
-MDQxNzEsNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MTUwNTE5NC
-wxNzAyOTU5MjQ1LDIzOTg4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2
-OTk4MzcsLTU0MjQ3MTExMCw5MjY3Mzk1MDksLTIyMDU1ODYzNC
-wtMzI2NTUyMzIsLTM0NTczMjMwMCw0NDM0NTM4MTAsMTQwNTkx
-MjIyNF19
+eyJoaXN0b3J5IjpbMTkyNTY3NzE4NSwtMjEwNzgyNjU0NCwxMz
+c5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4ODc3MiwtMjAzMzY1
+MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0NTE1Mi
+wtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2
+NzQyODUsMTAwMTY5OTgzNywtNTQyNDcxMTEwLDkyNjczOTUwOS
+wtMjIwNTU4NjM0LC0zMjY1NTIzMiwtMzQ1NzMyMzAwLDQ0MzQ1
+MzgxMF19
 -->
