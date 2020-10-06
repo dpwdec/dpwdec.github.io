@@ -21,9 +21,9 @@ You can **use lexical scopes with delegates**.
 ```csharp
 var y = 20;
 
-Func<int, int> Mult = x =>
+Func<int, int> Product = x =>
 {
-  return x;
+  return x * y;
 };
 ```
 
@@ -54,6 +54,6 @@ Action<int> EchoInt = i => Console.WriteLine(i);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDQ4MjQ0NCwxNDk4NTgyMjg1LC0xMD
-c0NDg4MTk3LDUzNjQxODk5OSwtMTU3NDQ2ODkzM119
+eyJoaXN0b3J5IjpbODQzNzg3MzUyLDE0OTg1ODIyODUsLTEwNz
+Q0ODgxOTcsNTM2NDE4OTk5LC0xNTc0NDY4OTMzXX0=
 -->
