@@ -200,7 +200,7 @@ OkObjectResult okObject = (OkObjectResult) actionResult.Result;
 string result = (string) okObject.Value;
 ```
 
-### Ok
+### Ok (200)
 
 You can **implicitly return a `204` from a controller route** by returning an `Ok` response `ActionResult` that contains nothing.
 ```csharp
@@ -210,6 +210,10 @@ public ActionResult<string> NoContentRoute()
   return Ok();
 }
 ```
+
+### Not Found (404)
+
+You can **return a `404` status code**
 
 ### ForbidResult
 
@@ -340,7 +344,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA2NDU5MzYsMTI1MzA0NjI3OSw4Nz
+eyJoaXN0b3J5IjpbLTExNzY5MTg2NzcsMTI1MzA0NjI3OSw4Nz
 YxNTM3NzMsLTIxMDc4MjY1NDQsMTM3OTI4MTEzOCwxMzE3ODg0
 NzA2LDE1NzA2ODg3NzIsLTIwMzM2NTI4MTQsLTEwNjUzMDQxNz
 EsNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MTUwNTE5NCwxNzAy
