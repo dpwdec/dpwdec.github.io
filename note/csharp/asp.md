@@ -189,7 +189,7 @@ Controllers `return` concrete instances of `IActionResult` when they complete. T
 
 ### IActionResult
 
-`IActionResult` is the interface which `ActionResult` implements.
+`IActionResult` is an interface which describes the most general type of result that a controller route can return. `ActionResult` is a class that inherits from `IActionResult`.
 
 ### ActionResult
 
@@ -391,11 +391,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NjYwNTg2LDE0MDM4ODgwODUsMTAyMj
-EwMjA1Niw3OTA1NDA4NDAsMTI1MzA0NjI3OSw4NzYxNTM3NzMs
-LTIxMDc4MjY1NDQsMTM3OTI4MTEzOCwxMzE3ODg0NzA2LDE1Nz
-A2ODg3NzIsLTIwMzM2NTI4MTQsLTEwNjUzMDQxNzEsNjU5MDA1
-MzIyLC0xMzk2NDUxNTIsLTg4MTUwNTE5NCwxNzAyOTU5MjQ1LD
-IzOTg4Mzk3NywtNDM1Njc0Mjg1LDEwMDE2OTk4MzcsLTU0MjQ3
-MTExMF19
+eyJoaXN0b3J5IjpbLTk2ODM5Njg4NywxMTY2NjA1ODYsMTQwMz
+g4ODA4NSwxMDIyMTAyMDU2LDc5MDU0MDg0MCwxMjUzMDQ2Mjc5
+LDg3NjE1Mzc3MywtMjEwNzgyNjU0NCwxMzc5MjgxMTM4LDEzMT
+c4ODQ3MDYsMTU3MDY4ODc3MiwtMjAzMzY1MjgxNCwtMTA2NTMw
+NDE3MSw2NTkwMDUzMjIsLTEzOTY0NTE1MiwtODgxNTA1MTk0LD
+E3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2NzQyODUsMTAwMTY5
+OTgzN119
 -->
