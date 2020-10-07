@@ -66,6 +66,9 @@ You can **return a single specific entry in a table** by using the `FirstOrDefau
 DbContext.MyTable.FirstOrDefault(x => x.Id == 1);
 ```
 
+You can **commit changes to the database** by using the `DBContext`'s `SaveChanges` method.
+```csharp
+
 ## Design
 
 What is `dotnet add package Microsoft.EntityFrameworkCore.Design`?
@@ -156,9 +159,10 @@ table.Column<int>(nullable: false);
 
 The `Annotations` method can be used to **specify how a primary key increments**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5ODE1OTcwMywtODk5NzIwODU5LC0xMz
-QxNzkzNzEsNzA1NzM2MjQyLDE2Nzg4MTQzMDcsLTIyMDE1NDY1
-OSwxNTcwNzc0OTIsLTEyNDc2MzEwNjgsMTkwMjIzNTIwNCwtNz
-M0MjAzOTYzLC05NzczOTg0MjMsLTU2MjI3MTU2NSwtNjcwNjc4
-NTA1LC00OTE0OTkzNzYsMTYxMDU4MDE4Ml19
+eyJoaXN0b3J5IjpbLTIxMDA2MjU4LC00OTgxNTk3MDMsLTg5OT
+cyMDg1OSwtMTM0MTc5MzcxLDcwNTczNjI0MiwxNjc4ODE0MzA3
+LC0yMjAxNTQ2NTksMTU3MDc3NDkyLC0xMjQ3NjMxMDY4LDE5MD
+IyMzUyMDQsLTczNDIwMzk2MywtOTc3Mzk4NDIzLC01NjIyNzE1
+NjUsLTY3MDY3ODUwNSwtNDkxNDk5Mzc2LDE2MTA1ODAxODJdfQ
+==
 -->
