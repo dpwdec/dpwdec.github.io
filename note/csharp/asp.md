@@ -282,7 +282,7 @@ public class UserProfile : Profile
 }
 ```
 
-You **do not need to use the Profile**
+You **do not need to use the `Profile` class anywhere** as `CreateMap` defines a static mapping for the `IMapper` class used in controllers and is picked up automatically by `AutoMapper`.
 
 `AutoMapper` will **automatically map fields of the same name and type in the source class to the target DTO** *and* **remove fields not present in the DTO**.
 
@@ -395,11 +395,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODEzNzM4ODEsLTE5NTAwNzk0NzIsLT
-k2ODM5Njg4NywxMTY2NjA1ODYsMTQwMzg4ODA4NSwxMDIyMTAy
-MDU2LDc5MDU0MDg0MCwxMjUzMDQ2Mjc5LDg3NjE1Mzc3MywtMj
-EwNzgyNjU0NCwxMzc5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4
-ODc3MiwtMjAzMzY1MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMj
-IsLTEzOTY0NTE1MiwtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5
-ODgzOTc3XX0=
+eyJoaXN0b3J5IjpbMTYzNjI5NzY4NiwtMTk1MDA3OTQ3MiwtOT
+Y4Mzk2ODg3LDExNjY2MDU4NiwxNDAzODg4MDg1LDEwMjIxMDIw
+NTYsNzkwNTQwODQwLDEyNTMwNDYyNzksODc2MTUzNzczLC0yMT
+A3ODI2NTQ0LDEzNzkyODExMzgsMTMxNzg4NDcwNiwxNTcwNjg4
+NzcyLC0yMDMzNjUyODE0LC0xMDY1MzA0MTcxLDY1OTAwNTMyMi
+wtMTM5NjQ1MTUyLC04ODE1MDUxOTQsMTcwMjk1OTI0NSwyMzk4
+ODM5NzddfQ==
 -->
