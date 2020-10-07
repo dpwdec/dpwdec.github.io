@@ -66,9 +66,12 @@ You can **return a single specific entry in a table** by using the `FirstOrDefau
 DbContext.MyTable.FirstOrDefault(x => x.Id == 1);
 ```
 
-You can **create a new entry in a table** by using the `Add` 
+You can **create a new entry in a table** by using the `DbContext`'s `Add` method with an instance of the model you want to add.
+```csharp
+DbContext.MyTable.Add(tableEntry);
+```
 
-You can **commit changes to the database** by using the `DbContext`'s `SaveChanges` method. Any commands like adding and updating and updating data that are executed will not be persisted to the database until `SaveChanges` is called.
+You can **commit changes to the database** by using the `DbContext`'s `SaveChanges` method. Any commands like adding and updating and updating data that are executed will not be persisted to the database until `SaveChanges` is called. It seems like `SaveChanges` is agnostic of table.
 ```csharp
 DbContext.SaveChanges();
 ```
@@ -163,10 +166,10 @@ table.Column<int>(nullable: false);
 
 The `Annotations` method can be used to **specify how a primary key increments**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0MTk2ODc2LC0zNTI0MTI2MSwtNDk4MT
-U5NzAzLC04OTk3MjA4NTksLTEzNDE3OTM3MSw3MDU3MzYyNDIs
-MTY3ODgxNDMwNywtMjIwMTU0NjU5LDE1NzA3NzQ5MiwtMTI0Nz
-YzMTA2OCwxOTAyMjM1MjA0LC03MzQyMDM5NjMsLTk3NzM5ODQy
-MywtNTYyMjcxNTY1LC02NzA2Nzg1MDUsLTQ5MTQ5OTM3NiwxNj
-EwNTgwMTgyXX0=
+eyJoaXN0b3J5IjpbLTkyOTk2MjkyMSwtMzUyNDEyNjEsLTQ5OD
+E1OTcwMywtODk5NzIwODU5LC0xMzQxNzkzNzEsNzA1NzM2MjQy
+LDE2Nzg4MTQzMDcsLTIyMDE1NDY1OSwxNTcwNzc0OTIsLTEyND
+c2MzEwNjgsMTkwMjIzNTIwNCwtNzM0MjAzOTYzLC05NzczOTg0
+MjMsLTU2MjI3MTU2NSwtNjcwNjc4NTA1LC00OTE0OTkzNzYsMT
+YxMDU4MDE4Ml19
 -->
