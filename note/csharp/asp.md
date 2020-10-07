@@ -282,6 +282,8 @@ public class UserProfile : Profile
 }
 ```
 
+You **do not need to use the Profile**
+
 `AutoMapper` will **automatically map fields of the same name and type in the source class to the target DTO** *and* **remove fields not present in the DTO**.
 
 ### Mapping
@@ -393,11 +395,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTAwNzk0NzIsLTk2ODM5Njg4NywxMT
-Y2NjA1ODYsMTQwMzg4ODA4NSwxMDIyMTAyMDU2LDc5MDU0MDg0
-MCwxMjUzMDQ2Mjc5LDg3NjE1Mzc3MywtMjEwNzgyNjU0NCwxMz
-c5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4ODc3MiwtMjAzMzY1
-MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMjIsLTEzOTY0NTE1Mi
-wtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5ODgzOTc3LC00MzU2
-NzQyODVdfQ==
+eyJoaXN0b3J5IjpbLTEyODEzNzM4ODEsLTE5NTAwNzk0NzIsLT
+k2ODM5Njg4NywxMTY2NjA1ODYsMTQwMzg4ODA4NSwxMDIyMTAy
+MDU2LDc5MDU0MDg0MCwxMjUzMDQ2Mjc5LDg3NjE1Mzc3MywtMj
+EwNzgyNjU0NCwxMzc5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4
+ODc3MiwtMjAzMzY1MjgxNCwtMTA2NTMwNDE3MSw2NTkwMDUzMj
+IsLTEzOTY0NTE1MiwtODgxNTA1MTk0LDE3MDI5NTkyNDUsMjM5
+ODgzOTc3XX0=
 -->
