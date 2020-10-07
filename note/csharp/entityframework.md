@@ -30,7 +30,7 @@ You can **define a database table** using a `DbSet` object from `Microsoft.Entit
 public DbSet<User> Users { get; set; }
 ```
 
-## Connection
+## Database Connection
 
 You can **define a connection string for your database** by adding it to your project's `appsettings.json` file. Using the key `"ConnectionStrings"` to encompass all the key-value pairs. This name is a convention (not absolutely required) but using it allows you to use the `IConfiguration` utility `GetConnectionString` which looks at the `"ConnectionStrings"` entry. The **database string keys themselves do not have a specific naming convention**, in this example the name is `"DatabaseConnection"` but it could be any descriptive name. *Note*: the database name in the connection string is *case sensitive*.
 ```json
@@ -51,7 +51,7 @@ You can **connect to a PostgreSQL database** by installing the `Npgsql.EntityFra
 services.AddDbContext(options => options.UseNpgsql(Configuration.GetConnectionString("DatabaseName"));
 ```
 
-## Queries
+## Queries / DbContext
 
 You can **query data in a table** by accessing the associated `DbSet` on the database context object. This object essentially works like a collection which can use lambdas to process data. You will need to add the `System.Linq` library to access higher order functions that can process the data from the table collections.
 
@@ -66,8 +66,10 @@ You can **return a single specific entry in a table** by using the `FirstOrDefau
 DbContext.MyTable.FirstOrDefault(x => x.Id == 1);
 ```
 
-You can **commit changes to the database** by using the `DBContext`'s `SaveChanges` method.
+You can **commit changes to the database** by using the `DbContext`'s `SaveChanges` method. Any commands like adding and updating and updating data that are executed will not be persisted to the database until `SaveChanges` is called.
 ```csharp
+DbContext.SaveChanges();
+```
 
 ## Design
 
@@ -159,7 +161,7 @@ table.Column<int>(nullable: false);
 
 The `Annotations` method can be used to **specify how a primary key increments**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA2MjU4LC00OTgxNTk3MDMsLTg5OT
+eyJoaXN0b3J5IjpbLTM1MjQxMjYxLC00OTgxNTk3MDMsLTg5OT
 cyMDg1OSwtMTM0MTc5MzcxLDcwNTczNjI0MiwxNjc4ODE0MzA3
 LC0yMjAxNTQ2NTksMTU3MDc3NDkyLC0xMjQ3NjMxMDY4LDE5MD
 IyMzUyMDQsLTczNDIwMzk2MywtOTc3Mzk4NDIzLC01NjIyNzE1
