@@ -6,7 +6,13 @@ exclude: true
 
 ## Claims
 
-A JWT claim is **a piece of information contained in the token that is asserted about its subject**. 
+A JWT claim is **a piece of information contained in the token that is asserted about its subject** in JSON format. For example, this might be the `name` of the user or some other information about them.
+```json
+{
+  "name": "Treyane Fitzput"
+  "adm
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTI3ODk0NF19
+eyJoaXN0b3J5IjpbMTA1OTQ3Njg5N119
 -->
