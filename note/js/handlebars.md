@@ -21,7 +21,7 @@ registerHelper('myValue', 0)
 
 You can also **create a helper that resolves to a single value without arguments** by using function syntax.
 ```js
-regu
+registerHelper('myValue', () => 0)
 ```
 
 You can **pass the result of a templated value into a helper** by space separating the arguments to the helper.
@@ -33,9 +33,13 @@ let template = Handlebars.compile(source)
 template(data) // => 'TEMPESTUA'
 ```
 
-Extra helpers added into the template block that do not explicitly cause arguments will be ignored.
+You can **nest helpers** by enclosing the helper return types that are arguments for other helpers in `()` brackets. The brackets will not be rendered.
+```js
+Handlebars.registerHelper('foo', x => x.toUpperCase())
+Handlebars.registerHelper
+```
 
-It seems like you can nest handlebars commands.
+Extra helpers added into the template block that do not explicitly cause arguments will be ignored.
 
 ## Utilities
 
@@ -44,7 +48,7 @@ You can **ensure that a string is safe** by using the `SafeString` function.
 new Handlebars.SafeString("<div>HTML content!</div>");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTU1NDc1MywxODk4Mzg2NjAsMTE0OT
+eyJoaXN0b3J5IjpbMjEzOTk1Njg1MCwxODk4Mzg2NjAsMTE0OT
 I4OTM4LC0zOTI0MzkyMjUsNjAwMzQ4NjkwLC0xODU5MzY2ODg2
 XX0=
 -->
