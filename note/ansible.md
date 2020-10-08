@@ -69,13 +69,17 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
 
 The `template` command is used for **templating files that need to be generated dynamically when deploying**.
 
-The `template` command uses the `Jinja2` templating engine.
+The `template` command uses the `Jinja2` templating engine, which uses the `.j2` extension for source template files.
+
 
 ```yaml
-- name: Create
+- name: Create /etc/file.conf
+  template:
+    src: /templates/file.j2
+    dest: /etc/file.conf
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzEzNDM3LDMwNjI3MTU3MSwyMTY0ND
-E3NjUsLTMzNjM3MjM0NF19
+eyJoaXN0b3J5IjpbMTQ4NDMxODY4NiwzMDYyNzE1NzEsMjE2ND
+QxNzY1LC0zMzYzNzIzNDRdfQ==
 -->
