@@ -136,7 +136,7 @@ var data = GetData();
 var name = data.FirstOrDefault(x => x.Id == 2)?.Name;
 ```
 
-You can also **apply the `null` conditional operator to variable types**. Re-using the same scenario as the example above, instead of using `var` you can use `string?` which wi
+You can also **apply the `null` conditional operator to variable types**. Re-using the same scenario as the example above, instead of using `var` you can use `string?` which will return the `null` type if a string is not returned.
 ```csharp
 var data = GetData();
 string? name = data.FirstOrDefault(x => x.Id == 2)?.Name;
@@ -548,11 +548,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1OTM1NDc2MCwtMTkyNTQyNjA3MiwxOD
-M3NDcwNTkwLDE4ODc2NjY2OTMsLTExMzU0ODgyMDIsLTMxNjEx
-OTUwNCwxODMzNzA4NzU4LDczMTU5MzY0Nyw0Njk3Nzc0NjIsOT
-A2MjQzNTgsLTE3MjIzOTY4OTYsLTE1NTgwMDAwNjAsLTQwMzIy
-OTIzNywtMTY1MDg3NzkwMSwtMTAzMzE0ODMwOSwxMTgwNTcwND
-Q0LDM5MTczMjUyMiwtMTU2ODg4OTMwMSwtOTA3NjA4Mzc0LDEy
-OTI4MTU1MDVdfQ==
+eyJoaXN0b3J5IjpbOTA4NDU4OTI3LC0xOTI1NDI2MDcyLDE4Mz
+c0NzA1OTAsMTg4NzY2NjY5MywtMTEzNTQ4ODIwMiwtMzE2MTE5
+NTA0LDE4MzM3MDg3NTgsNzMxNTkzNjQ3LDQ2OTc3NzQ2Miw5MD
+YyNDM1OCwtMTcyMjM5Njg5NiwtMTU1ODAwMDA2MCwtNDAzMjI5
+MjM3LC0xNjUwODc3OTAxLC0xMDMzMTQ4MzA5LDExODA1NzA0ND
+QsMzkxNzMyNTIyLC0xNTY4ODg5MzAxLC05MDc2MDgzNzQsMTI5
+MjgxNTUwNV19
 -->
