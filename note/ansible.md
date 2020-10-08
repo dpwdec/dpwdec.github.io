@@ -63,8 +63,13 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
       # task here
 ```
 
+## Commands
+
+### Template
+
+The `template` command is used for templating the 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODg3MTE2NDMsMjE2NDQxNzY1LC0zMz
+eyJoaXN0b3J5IjpbLTEyMzIzMDgwOTQsMjE2NDQxNzY1LC0zMz
 YzNzIzNDRdfQ==
 -->
