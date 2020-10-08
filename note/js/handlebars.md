@@ -4,15 +4,19 @@ layout: page
 exclude: true
 ---
 
+## Values
+
 You **cannot put too templated values next to each other within the same template block**.
 ```js
 let template = '{{key value}}' // => NOT VALID
 let template = '{{key}}{{value}}' // => VALID
 ```
 
-You **can only have one helper per template block**. Any extra helpers added into the template block will just be ignored after that helper has executed.
+## Helpers
 
-You can **create a handlebars helper that resolves a template to a value** by using the `registerHelper` function with the first argument describing the template value to match to the second argument the value to be resolved to. When handlebars processes `{{myValue}}` in a file it will output `0`.
+Extra helpers added into the template block that do not explicitly cause arguments will be ignored.
+
+You can **create a handlebars helper that resolves a template to a value** by using the `registerHelper` function with the first argument describing the template value to match to the second argument the value to be resolved to. When handlebars processes `{{myValue}}` in a file it will output `0`. There are **limitations to these types of helpers**,
 ```js
 registerHelper('myValue', 0)
 ```
@@ -33,6 +37,7 @@ You can **ensure that a string is safe** by using the `SafeString` function.
 new Handlebars.SafeString("<div>HTML content!</div>");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODM4NjYwLDExNDkyODkzOCwtMzkyND
-M5MjI1LDYwMDM0ODY5MCwtMTg1OTM2Njg4Nl19
+eyJoaXN0b3J5IjpbMTUzNjQ5MDAzMSwxODk4Mzg2NjAsMTE0OT
+I4OTM4LC0zOTI0MzkyMjUsNjAwMzQ4NjkwLC0xODU5MzY2ODg2
+XX0=
 -->
