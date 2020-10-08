@@ -67,9 +67,9 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
 
 ### Template
 
-The `template` command is used for templating the 
+The `template` command is used for templating linux `.conf` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzIzMDgwOTQsMjE2NDQxNzY1LC0zMz
-YzNzIzNDRdfQ==
+eyJoaXN0b3J5IjpbMzA2MjcxNTcxLDIxNjQ0MTc2NSwtMzM2Mz
+cyMzQ0XX0=
 -->
