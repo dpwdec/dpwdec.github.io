@@ -18,6 +18,10 @@ There are two types of claims:
 
 1. **Reserved** claims that are part of the JWT standard.
 2. **Custom** claims that can be defined by you
+
+### Reserved Claims
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2ODEzNjEyLC01MjQyNDU4MjZdfQ==
+eyJoaXN0b3J5IjpbLTQ4NzI1MDUzOCwtNTI0MjQ1ODI2XX0=
 -->
