@@ -67,9 +67,13 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
 
 ### Template
 
-The `template` command is used for templating files using the `Jinja2` engine.
+The `template` command is used for **templating files that need to be generated dynamically when deploying**.
+
+The `template` command uses the `Jinja2` templating engine.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjE1OTc0MSwzMDYyNzE1NzEsMjE2ND
-QxNzY1LC0zMzYzNzIzNDRdfQ==
+eyJoaXN0b3J5IjpbNjU2ODQyODAyLDMwNjI3MTU3MSwyMTY0ND
+E3NjUsLTMzNjM3MjM0NF19
 -->
