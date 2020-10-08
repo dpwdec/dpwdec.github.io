@@ -14,7 +14,10 @@ A JWT claim is **a piece of information contained in the token that is asserted 
 }
 ```
 
+There are two types of claims:
 
+1. **Reserved** claims that are part of the JWT standard.
+2. **Custom** claims that can be defined by you
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDI0NTgyNl19
+eyJoaXN0b3J5IjpbNjE2ODEzNjEyLC01MjQyNDU4MjZdfQ==
 -->
