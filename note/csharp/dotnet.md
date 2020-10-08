@@ -128,9 +128,13 @@ You can **make conditional assertions using the `is` keyword** as of `dotnet` ve
 if(x is null)
 ```
 
-### N
+### Null conditional operator
 
-You can **do inline checks for properties that may equal `null`** using the `?` operator
+You can **do inline checks for properties that may equal `null`** using the `?` operator to cut down on code verbosity.
+```csharp
+var data = GetData();
+var name = data.FirstOrDefault(x => x.Id == 2)?.Name;
+```
 
 ## Classes
 
@@ -538,11 +542,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjYxODE3NzIsLTE5MjU0MjYwNzIsMT
-gzNzQ3MDU5MCwxODg3NjY2NjkzLC0xMTM1NDg4MjAyLC0zMTYx
-MTk1MDQsMTgzMzcwODc1OCw3MzE1OTM2NDcsNDY5Nzc3NDYyLD
-kwNjI0MzU4LC0xNzIyMzk2ODk2LC0xNTU4MDAwMDYwLC00MDMy
-MjkyMzcsLTE2NTA4Nzc5MDEsLTEwMzMxNDgzMDksMTE4MDU3MD
-Q0NCwzOTE3MzI1MjIsLTE1Njg4ODkzMDEsLTkwNzYwODM3NCwx
-MjkyODE1NTA1XX0=
+eyJoaXN0b3J5IjpbMTQ4MzEyNTE4NSwtMTkyNTQyNjA3MiwxOD
+M3NDcwNTkwLDE4ODc2NjY2OTMsLTExMzU0ODgyMDIsLTMxNjEx
+OTUwNCwxODMzNzA4NzU4LDczMTU5MzY0Nyw0Njk3Nzc0NjIsOT
+A2MjQzNTgsLTE3MjIzOTY4OTYsLTE1NTgwMDAwNjAsLTQwMzIy
+OTIzNywtMTY1MDg3NzkwMSwtMTAzMzE0ODMwOSwxMTgwNTcwND
+Q0LDM5MTczMjUyMiwtMTU2ODg4OTMwMSwtOTA3NjA4Mzc0LDEy
+OTI4MTU1MDVdfQ==
 -->
