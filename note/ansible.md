@@ -71,9 +71,11 @@ The `template` command is used for **templating files that need to be generated 
 
 The `template` command uses the `Jinja2` templating engine.
 
-
+```yaml
+- name: Create
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2ODQyODAyLDMwNjI3MTU3MSwyMTY0ND
+eyJoaXN0b3J5IjpbMTkwMzEzNDM3LDMwNjI3MTU3MSwyMTY0ND
 E3NjUsLTMzNjM3MjM0NF19
 -->
