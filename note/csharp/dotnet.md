@@ -128,6 +128,10 @@ You can **make conditional assertions using the `is` keyword** as of `dotnet` ve
 if(x is null)
 ```
 
+### N
+
+You can **do inline checks for properties that may equal `null`** using the `?` operator
+
 ## Classes
 
 You can **define a class** by using the `class` keyword followed by the name of the class written in `PascalCase`.
@@ -534,11 +538,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU0MjYwNzIsMTgzNzQ3MDU5MCwxOD
-g3NjY2NjkzLC0xMTM1NDg4MjAyLC0zMTYxMTk1MDQsMTgzMzcw
-ODc1OCw3MzE1OTM2NDcsNDY5Nzc3NDYyLDkwNjI0MzU4LC0xNz
-IyMzk2ODk2LC0xNTU4MDAwMDYwLC00MDMyMjkyMzcsLTE2NTA4
-Nzc5MDEsLTEwMzMxNDgzMDksMTE4MDU3MDQ0NCwzOTE3MzI1Mj
-IsLTE1Njg4ODkzMDEsLTkwNzYwODM3NCwxMjkyODE1NTA1LDY2
-ODc5MjQ5Nl19
+eyJoaXN0b3J5IjpbLTE1NjYxODE3NzIsLTE5MjU0MjYwNzIsMT
+gzNzQ3MDU5MCwxODg3NjY2NjkzLC0xMTM1NDg4MjAyLC0zMTYx
+MTk1MDQsMTgzMzcwODc1OCw3MzE1OTM2NDcsNDY5Nzc3NDYyLD
+kwNjI0MzU4LC0xNzIyMzk2ODk2LC0xNTU4MDAwMDYwLC00MDMy
+MjkyMzcsLTE2NTA4Nzc5MDEsLTEwMzMxNDgzMDksMTE4MDU3MD
+Q0NCwzOTE3MzI1MjIsLTE1Njg4ODkzMDEsLTkwNzYwODM3NCwx
+MjkyODE1NTA1XX0=
 -->
