@@ -71,7 +71,7 @@ The `template` command is used for **templating files that need to be generated 
 
 The `template` command uses the `Jinja2` templating engine, which uses the `.j2` extension for source template files.
 
-
+You can 
 ```yaml
 - name: Create /etc/file.conf
   template:
@@ -80,6 +80,6 @@ The `template` command uses the `Jinja2` templating engine, which uses the `.j2`
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDMxODY4NiwzMDYyNzE1NzEsMjE2ND
+eyJoaXN0b3J5IjpbLTM3MjA3OTk1MywzMDYyNzE1NzEsMjE2ND
 QxNzY1LC0zMzYzNzIzNDRdfQ==
 -->
