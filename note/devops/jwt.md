@@ -10,9 +10,11 @@ A JWT claim is **a piece of information contained in the token that is asserted 
 ```json
 {
   "name": "Treyane Fitzput"
-  "adm
+  "admin": true
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTQ3Njg5N119
+eyJoaXN0b3J5IjpbLTUyNDI0NTgyNl19
 -->
