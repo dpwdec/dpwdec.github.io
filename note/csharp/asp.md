@@ -289,7 +289,7 @@ You **do not need to use the `Profile` class anywhere** as `CreateMap` defines a
 You can **add custom mapping rules on DTO properties** by using the `AfterMap` method when defining a mapping, this takes a lambda with the source and destination objects as arguments.
 ```csharp
 CreateMap<User, UserReadDto>()
-  .AfterMap()
+  .AfterMap((src, dest) => )
 ```
 
 ### Mapping
@@ -401,7 +401,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQzNTM5MDgsMTYzNjI5NzY4NiwtMT
+eyJoaXN0b3J5IjpbLTE1Nzk5MTIwMDYsMTYzNjI5NzY4NiwtMT
 k1MDA3OTQ3MiwtOTY4Mzk2ODg3LDExNjY2MDU4NiwxNDAzODg4
 MDg1LDEwMjIxMDIwNTYsNzkwNTQwODQwLDEyNTMwNDYyNzksOD
 c2MTUzNzczLC0yMTA3ODI2NTQ0LDEzNzkyODExMzgsMTMxNzg4
