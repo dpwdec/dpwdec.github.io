@@ -286,6 +286,8 @@ You **do not need to use the `Profile` class anywhere** as `CreateMap` defines a
 
 `AutoMapper` will **automatically map fields of the same name and type in the source class to the target DTO** *and* **remove fields not present in the DTO**.
 
+You can **add custom mapping rules on DTO propert
+
 ### Mapping
 
 You can **convert an instance of a model to an instance of a DTO in a controller route** by using an object that implements that `IMapper` interface. This interface contains a method called `Map` which takes an instance of a model class with real data its argument and the DTO to map to as its type argument.
@@ -395,11 +397,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjI5NzY4NiwtMTk1MDA3OTQ3MiwtOT
-Y4Mzk2ODg3LDExNjY2MDU4NiwxNDAzODg4MDg1LDEwMjIxMDIw
-NTYsNzkwNTQwODQwLDEyNTMwNDYyNzksODc2MTUzNzczLC0yMT
-A3ODI2NTQ0LDEzNzkyODExMzgsMTMxNzg4NDcwNiwxNTcwNjg4
-NzcyLC0yMDMzNjUyODE0LC0xMDY1MzA0MTcxLDY1OTAwNTMyMi
-wtMTM5NjQ1MTUyLC04ODE1MDUxOTQsMTcwMjk1OTI0NSwyMzk4
-ODM5NzddfQ==
+eyJoaXN0b3J5IjpbOTAyMTI3Mzg0LDE2MzYyOTc2ODYsLTE5NT
+AwNzk0NzIsLTk2ODM5Njg4NywxMTY2NjA1ODYsMTQwMzg4ODA4
+NSwxMDIyMTAyMDU2LDc5MDU0MDg0MCwxMjUzMDQ2Mjc5LDg3Nj
+E1Mzc3MywtMjEwNzgyNjU0NCwxMzc5MjgxMTM4LDEzMTc4ODQ3
+MDYsMTU3MDY4ODc3MiwtMjAzMzY1MjgxNCwtMTA2NTMwNDE3MS
+w2NTkwMDUzMjIsLTEzOTY0NTE1MiwtODgxNTA1MTk0LDE3MDI5
+NTkyNDVdfQ==
 -->
