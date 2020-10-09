@@ -158,7 +158,7 @@ You can **pass serialized objects to controller routes** by including them as ar
 [HttpPost]
 public ActionResult<User> CreateUser(User newUser)
 {
-  // save new user informatio
+  // save new user information
 }
 ```
 
@@ -434,11 +434,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTYyNzIxLC00ODM4NzQ3MjYsMTQ2MD
-c5ODEzMywxMTQ4MjE1MTkxLC00MDkyOTg2ODMsLTY0NjU4NTk2
-NiwxNjM2Mjk3Njg2LC0xOTUwMDc5NDcyLC05NjgzOTY4ODcsMT
-E2NjYwNTg2LDE0MDM4ODgwODUsMTAyMjEwMjA1Niw3OTA1NDA4
-NDAsMTI1MzA0NjI3OSw4NzYxNTM3NzMsLTIxMDc4MjY1NDQsMT
-M3OTI4MTEzOCwxMzE3ODg0NzA2LDE1NzA2ODg3NzIsLTIwMzM2
-NTI4MTRdfQ==
+eyJoaXN0b3J5IjpbMTIxMzMxODIxMywtNDgzODc0NzI2LDE0Nj
+A3OTgxMzMsMTE0ODIxNTE5MSwtNDA5Mjk4NjgzLC02NDY1ODU5
+NjYsMTYzNjI5NzY4NiwtMTk1MDA3OTQ3MiwtOTY4Mzk2ODg3LD
+ExNjY2MDU4NiwxNDAzODg4MDg1LDEwMjIxMDIwNTYsNzkwNTQw
+ODQwLDEyNTMwNDYyNzksODc2MTUzNzczLC0yMTA3ODI2NTQ0LD
+EzNzkyODExMzgsMTMxNzg4NDcwNiwxNTcwNjg4NzcyLC0yMDMz
+NjUyODE0XX0=
 -->
