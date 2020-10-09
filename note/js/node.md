@@ -72,7 +72,10 @@ $ cd ../my-app
 $ npm link my_dependency_project
 ```
 
-
+You can **remove links** with the `npm unlink` command.
+```bash
+$ npm unlink
+```
 
 
 ## fs
@@ -180,5 +183,5 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczNzcyMjczLC0xMDEwOTUxNzddfQ==
+eyJoaXN0b3J5IjpbLTEzNjM0NzU3NDEsLTEwMTA5NTE3N119
 -->
