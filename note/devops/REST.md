@@ -14,6 +14,10 @@ A **REST** API or **Representational State Transfer** API is a software routing 
  4. `PATCH` - *Update* a resource
  5. `DELETE` - *Delete* a resource
 
+## POST
+
+The **REST** specification states that **when returning a `201` created** for a resource your HTTP response should **return a URI to the location of the created resource**.
+
 ## HATEOAS
 
 **HATEOES** stands for **Hypermedia as the Engine of Application State** and describes a REST architecture where a client requests information about a resource and then uses the response from the server to actions that are returned about the resource. Therefore the client needs no knowledge of the API beforehand to interact with it but can **use hypermedia links in the response** to find actions to take against the resource. The **actions available that can be taken by client on a resource change depending on the state of the resource**. For example, we could have an API that returns account information.
@@ -56,5 +60,6 @@ However if the account is overdrawn then the state of the links returned by the 
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTIxNjEwMCwtMTI3MjM2Mzk4M119
+eyJoaXN0b3J5IjpbLTE5ODExNjM4MjIsLTU2OTIxNjEwMCwtMT
+I3MjM2Mzk4M119
 -->
