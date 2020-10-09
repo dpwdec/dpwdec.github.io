@@ -64,12 +64,12 @@ projects
 └── my_dependency_project ~
 ```
 
-For this file structure you
+For the file structure above you would run the following commands.
 ```bash
 $ cd projects/my_dependency_project
 $ npm link # set up global symlink
 $ cd ../my-app
-$ npm 
+$ npm link my_dependency_project
 ```
 
 
@@ -179,5 +179,5 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NjM0MDY4MywtMTAxMDk1MTc3XX0=
+eyJoaXN0b3J5IjpbMTc2MDU2NDMxOSwtMTAxMDk1MTc3XX0=
 -->
