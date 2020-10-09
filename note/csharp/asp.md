@@ -153,10 +153,19 @@ public ActionResult<User> GetUser(int id, string name)
 }
 ```
 
-You can **pass singular serialized objects to controller routes** by including them as arguments in the controller method definition. Serialized objects (represented as JSON in the body of the request) are **automatically parsed into the associated class/model representation** but they must be the root JSON object in the requests body for this to work.
+You can **pass a singular serialized object to controller route as an argument** by including it as an argument in the controller method definition. Serialized objects (represented as JSON in the body of the request) are **automatically parsed into the associated class/model representation** but they must be the root JSON object in the requests body for this to work.
 ```csharp
 [HttpPost]
 public ActionResult<User> CreateUser(User newUser) // newUser populated from request JSON
+{
+  // save new user information
+}
+```
+
+This is a **shorthand for using the `[FromBody]` attribute** to make where data comes from.
+```csharp
+[HttpPost]
+public ActionResult<User> CreateUser([froUser newUser) // newUser populated from request JSON
 {
   // save new user information
 }
@@ -434,11 +443,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0OTQwOTkzMiwxMjEzMzE4MjEzLC00OD
-M4NzQ3MjYsMTQ2MDc5ODEzMywxMTQ4MjE1MTkxLC00MDkyOTg2
-ODMsLTY0NjU4NTk2NiwxNjM2Mjk3Njg2LC0xOTUwMDc5NDcyLC
-05NjgzOTY4ODcsMTE2NjYwNTg2LDE0MDM4ODgwODUsMTAyMjEw
-MjA1Niw3OTA1NDA4NDAsMTI1MzA0NjI3OSw4NzYxNTM3NzMsLT
-IxMDc4MjY1NDQsMTM3OTI4MTEzOCwxMzE3ODg0NzA2LDE1NzA2
-ODg3NzJdfQ==
+eyJoaXN0b3J5IjpbMzU2MzU4MzM1LDEwNDk0MDk5MzIsMTIxMz
+MxODIxMywtNDgzODc0NzI2LDE0NjA3OTgxMzMsMTE0ODIxNTE5
+MSwtNDA5Mjk4NjgzLC02NDY1ODU5NjYsMTYzNjI5NzY4NiwtMT
+k1MDA3OTQ3MiwtOTY4Mzk2ODg3LDExNjY2MDU4NiwxNDAzODg4
+MDg1LDEwMjIxMDIwNTYsNzkwNTQwODQwLDEyNTMwNDYyNzksOD
+c2MTUzNzczLC0yMTA3ODI2NTQ0LDEzNzkyODExMzgsMTMxNzg4
+NDcwNl19
 -->
