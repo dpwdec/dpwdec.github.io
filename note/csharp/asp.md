@@ -302,7 +302,7 @@ public class UserCreateDto
 }
 ```
 
-The corresponding profile would them simply map this directly to
+The corresponding `CreateMap` profile method would them simply map this directly to a `User` model.
 ```csharp
 CreateMap<UserCreateDto, User>();
 ```
@@ -416,11 +416,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NzkwMzg0LDE0NjA3OTgxMzMsMTE0OD
-IxNTE5MSwtNDA5Mjk4NjgzLC02NDY1ODU5NjYsMTYzNjI5NzY4
-NiwtMTk1MDA3OTQ3MiwtOTY4Mzk2ODg3LDExNjY2MDU4NiwxND
-AzODg4MDg1LDEwMjIxMDIwNTYsNzkwNTQwODQwLDEyNTMwNDYy
-NzksODc2MTUzNzczLC0yMTA3ODI2NTQ0LDEzNzkyODExMzgsMT
-MxNzg4NDcwNiwxNTcwNjg4NzcyLC0yMDMzNjUyODE0LC0xMDY1
-MzA0MTcxXX0=
+eyJoaXN0b3J5IjpbLTQ4Mzg3NDcyNiwxNDYwNzk4MTMzLDExND
+gyMTUxOTEsLTQwOTI5ODY4MywtNjQ2NTg1OTY2LDE2MzYyOTc2
+ODYsLTE5NTAwNzk0NzIsLTk2ODM5Njg4NywxMTY2NjA1ODYsMT
+QwMzg4ODA4NSwxMDIyMTAyMDU2LDc5MDU0MDg0MCwxMjUzMDQ2
+Mjc5LDg3NjE1Mzc3MywtMjEwNzgyNjU0NCwxMzc5MjgxMTM4LD
+EzMTc4ODQ3MDYsMTU3MDY4ODc3MiwtMjAzMzY1MjgxNCwtMTA2
+NTMwNDE3MV19
 -->
