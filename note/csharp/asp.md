@@ -286,7 +286,7 @@ You **do not need to use the `Profile` class anywhere** as `CreateMap` defines a
 
 `AutoMapper` will **automatically map fields of the same name and type in the source class to the target DTO** *and* **remove fields not present in the DTO**.
 
-You can **add custom mapping rules on DTO propert
+You can **add custom mapping rules on DTO properties** by using the `AfterMap` 
 
 ### Mapping
 
@@ -397,11 +397,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyMTI3Mzg0LDE2MzYyOTc2ODYsLTE5NT
-AwNzk0NzIsLTk2ODM5Njg4NywxMTY2NjA1ODYsMTQwMzg4ODA4
-NSwxMDIyMTAyMDU2LDc5MDU0MDg0MCwxMjUzMDQ2Mjc5LDg3Nj
-E1Mzc3MywtMjEwNzgyNjU0NCwxMzc5MjgxMTM4LDEzMTc4ODQ3
-MDYsMTU3MDY4ODc3MiwtMjAzMzY1MjgxNCwtMTA2NTMwNDE3MS
-w2NTkwMDUzMjIsLTEzOTY0NTE1MiwtODgxNTA1MTk0LDE3MDI5
-NTkyNDVdfQ==
+eyJoaXN0b3J5IjpbLTk2MjM3MzUwMSwxNjM2Mjk3Njg2LC0xOT
+UwMDc5NDcyLC05NjgzOTY4ODcsMTE2NjYwNTg2LDE0MDM4ODgw
+ODUsMTAyMjEwMjA1Niw3OTA1NDA4NDAsMTI1MzA0NjI3OSw4Nz
+YxNTM3NzMsLTIxMDc4MjY1NDQsMTM3OTI4MTEzOCwxMzE3ODg0
+NzA2LDE1NzA2ODg3NzIsLTIwMzM2NTI4MTQsLTEwNjUzMDQxNz
+EsNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MTUwNTE5NCwxNzAy
+OTU5MjQ1XX0=
 -->
