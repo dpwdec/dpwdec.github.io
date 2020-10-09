@@ -171,7 +171,7 @@ public ActionResult<User> CreateUser([FromBody] User newUser) // newUser populat
 }
 ```
 
-You **cannot easily pass multiple object parameters from JSON** to a controller route.
+You **cannot easily pass multiple object parameters from JSON** to a controller route. *It's possible that there is a new using a JObject from newtonsoft or perhaps a dynamic data input type?*
 
 ### API endpoint returns and status codes
 
@@ -445,11 +445,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDUzOTU3MjQsLTE1MTY0MjE1MTAsMT
-A0OTQwOTkzMiwxMjEzMzE4MjEzLC00ODM4NzQ3MjYsMTQ2MDc5
-ODEzMywxMTQ4MjE1MTkxLC00MDkyOTg2ODMsLTY0NjU4NTk2Ni
-wxNjM2Mjk3Njg2LC0xOTUwMDc5NDcyLC05NjgzOTY4ODcsMTE2
-NjYwNTg2LDE0MDM4ODgwODUsMTAyMjEwMjA1Niw3OTA1NDA4ND
-AsMTI1MzA0NjI3OSw4NzYxNTM3NzMsLTIxMDc4MjY1NDQsMTM3
-OTI4MTEzOF19
+eyJoaXN0b3J5IjpbMTg5NzQzMDk2OCwtMTIwNTM5NTcyNCwtMT
+UxNjQyMTUxMCwxMDQ5NDA5OTMyLDEyMTMzMTgyMTMsLTQ4Mzg3
+NDcyNiwxNDYwNzk4MTMzLDExNDgyMTUxOTEsLTQwOTI5ODY4My
+wtNjQ2NTg1OTY2LDE2MzYyOTc2ODYsLTE5NTAwNzk0NzIsLTk2
+ODM5Njg4NywxMTY2NjA1ODYsMTQwMzg4ODA4NSwxMDIyMTAyMD
+U2LDc5MDU0MDg0MCwxMjUzMDQ2Mjc5LDg3NjE1Mzc3MywtMjEw
+NzgyNjU0NF19
 -->
