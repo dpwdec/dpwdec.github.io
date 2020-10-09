@@ -151,7 +151,9 @@ public ActionResult<User> GetUser(int id, string name)
 {
   // both id and name will be picked up as arguments from the URL
 }
-``` 
+```
+
+You can **pass serialized objects to controller routes**
 
 ### API endpoint returns and status codes
 
@@ -425,7 +427,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTMzODQ5MzMsLTQ4Mzg3NDcyNiwxND
+eyJoaXN0b3J5IjpbLTExNTg2Njk5MTIsLTQ4Mzg3NDcyNiwxND
 YwNzk4MTMzLDExNDgyMTUxOTEsLTQwOTI5ODY4MywtNjQ2NTg1
 OTY2LDE2MzYyOTc2ODYsLTE5NTAwNzk0NzIsLTk2ODM5Njg4Ny
 wxMTY2NjA1ODYsMTQwMzg4ODA4NSwxMDIyMTAyMDU2LDc5MDU0
