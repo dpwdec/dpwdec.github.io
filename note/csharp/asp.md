@@ -286,7 +286,11 @@ You **do not need to use the `Profile` class anywhere** as `CreateMap` defines a
 
 `AutoMapper` will **automatically map fields of the same name and type in the source class to the target DTO** *and* **remove fields not present in the DTO**.
 
-You can **add custom mapping rules on DTO properties** by using the `AfterMap` 
+You can **add custom mapping rules on DTO properties** by using the `AfterMap` method when defining a mapping, this takes a lambda with the source and destination objects as arguments.
+```csharp
+CreateMap<User, UserReadDto>()
+  .AfterMap()
+```
 
 ### Mapping
 
@@ -397,11 +401,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjM3MzUwMSwxNjM2Mjk3Njg2LC0xOT
-UwMDc5NDcyLC05NjgzOTY4ODcsMTE2NjYwNTg2LDE0MDM4ODgw
-ODUsMTAyMjEwMjA1Niw3OTA1NDA4NDAsMTI1MzA0NjI3OSw4Nz
-YxNTM3NzMsLTIxMDc4MjY1NDQsMTM3OTI4MTEzOCwxMzE3ODg0
-NzA2LDE1NzA2ODg3NzIsLTIwMzM2NTI4MTQsLTEwNjUzMDQxNz
-EsNjU5MDA1MzIyLC0xMzk2NDUxNTIsLTg4MTUwNTE5NCwxNzAy
-OTU5MjQ1XX0=
+eyJoaXN0b3J5IjpbLTE3MzQzNTM5MDgsMTYzNjI5NzY4NiwtMT
+k1MDA3OTQ3MiwtOTY4Mzk2ODg3LDExNjY2MDU4NiwxNDAzODg4
+MDg1LDEwMjIxMDIwNTYsNzkwNTQwODQwLDEyNTMwNDYyNzksOD
+c2MTUzNzczLC0yMTA3ODI2NTQ0LDEzNzkyODExMzgsMTMxNzg4
+NDcwNiwxNTcwNjg4NzcyLC0yMDMzNjUyODE0LC0xMDY1MzA0MT
+cxLDY1OTAwNTMyMiwtMTM5NjQ1MTUyLC04ODE1MDUxOTQsMTcw
+Mjk1OTI0NV19
 -->
