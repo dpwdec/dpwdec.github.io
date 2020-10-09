@@ -292,6 +292,8 @@ CreateMap<User, UserReadDto>()
   .AfterMap((src, dest) => dest.Age = src.DateOfBirth.ToAge())
 ```
 
+You can **map from a DTO to a model**
+
 ### Mapping
 
 You can **convert an instance of a model to an instance of a DTO in a controller route** by using an object that implements that `IMapper` interface. This interface contains a method called `Map` which takes an instance of a model class with real data its argument and the DTO to map to as its type argument.
@@ -401,11 +403,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODIxNTE5MSwtNDA5Mjk4NjgzLC02ND
-Y1ODU5NjYsMTYzNjI5NzY4NiwtMTk1MDA3OTQ3MiwtOTY4Mzk2
-ODg3LDExNjY2MDU4NiwxNDAzODg4MDg1LDEwMjIxMDIwNTYsNz
-kwNTQwODQwLDEyNTMwNDYyNzksODc2MTUzNzczLC0yMTA3ODI2
-NTQ0LDEzNzkyODExMzgsMTMxNzg4NDcwNiwxNTcwNjg4NzcyLC
-0yMDMzNjUyODE0LC0xMDY1MzA0MTcxLDY1OTAwNTMyMiwtMTM5
-NjQ1MTUyXX0=
+eyJoaXN0b3J5IjpbLTIwNzk1MjYwNjcsMTE0ODIxNTE5MSwtND
+A5Mjk4NjgzLC02NDY1ODU5NjYsMTYzNjI5NzY4NiwtMTk1MDA3
+OTQ3MiwtOTY4Mzk2ODg3LDExNjY2MDU4NiwxNDAzODg4MDg1LD
+EwMjIxMDIwNTYsNzkwNTQwODQwLDEyNTMwNDYyNzksODc2MTUz
+NzczLC0yMTA3ODI2NTQ0LDEzNzkyODExMzgsMTMxNzg4NDcwNi
+wxNTcwNjg4NzcyLC0yMDMzNjUyODE0LC0xMDY1MzA0MTcxLDY1
+OTAwNTMyMl19
 -->
