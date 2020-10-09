@@ -166,7 +166,7 @@ public ActionResult<string> EchoParams(string name, int point, float version)
 
 ### Post Routes
 
-You can **pass a singular serialized object to controller `POST` route as an argument** by including it as an argument in the controller method definition. Serialized objects (represented as JSON in the body of the request) are **automatically parsed into the associated class/model representation** but they must be the root JSON object in the requests body for this to work.
+You can **pass a singular JSON representation of an object to controller `POST` route as an argument** by including it as an argument in the controller method definition. Serialized objects (represented as JSON in the body of the request) are **automatically parsed into the associated class/model representation** but they must be the root JSON object in the requests body for this to work.
 ```csharp
 [HttpPost]
 public ActionResult<User> CreateUser(User newUser) // newUser populated from request JSON
@@ -478,7 +478,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxMjIyMTQ4LC00NzU3NDM2MzUsLTIwOT
+eyJoaXN0b3J5IjpbNjExNjc3MDIzLC00NzU3NDM2MzUsLTIwOT
 I0MDQ3MTQsLTEyMjkwMDg5MCwxOTg1Njc0MDA2LC0yMDU2NDE5
 NTg5LDE4OTc0MzA5NjgsLTEyMDUzOTU3MjQsLTE1MTY0MjE1MT
 AsMTA0OTQwOTkzMiwxMjEzMzE4MjEzLC00ODM4NzQ3MjYsMTQ2
