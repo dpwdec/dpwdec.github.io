@@ -188,7 +188,7 @@ public ActionResult<User> CreateUser([FromBody] User newUser) // newUser populat
 
 You **cannot easily pass multiple object parameters from JSON** to a controller route. However, **inputting multiple objects to a single route is not recommended** for a resource based system. *It's possible that there is a new using a JObject from `newtonsoft` or perhaps a `dynamic` data input type?*
 
-You can **convert JSON request bodies** into `Dictionary` if the JSON representation is just a shallow representation of keys to values.
+You can **convert JSON request bodies** into `Dictionary` if the JSON representation is just a shallow representation of keys to values (i.e. without nested JSON objects).
 ```csharp
 [HttpPost]
 public ActionResult<string> ReturnEntry(Dictionary<string,string> data)
@@ -469,11 +469,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTc0MzYzNSwtMjA5MjQwNDcxNCwtMT
-IyOTAwODkwLDE5ODU2NzQwMDYsLTIwNTY0MTk1ODksMTg5NzQz
-MDk2OCwtMTIwNTM5NTcyNCwtMTUxNjQyMTUxMCwxMDQ5NDA5OT
-MyLDEyMTMzMTgyMTMsLTQ4Mzg3NDcyNiwxNDYwNzk4MTMzLDEx
-NDgyMTUxOTEsLTQwOTI5ODY4MywtNjQ2NTg1OTY2LDE2MzYyOT
-c2ODYsLTE5NTAwNzk0NzIsLTk2ODM5Njg4NywxMTY2NjA1ODYs
-MTQwMzg4ODA4NV19
+eyJoaXN0b3J5IjpbLTc2Mjk2NDM2NywtNDc1NzQzNjM1LC0yMD
+kyNDA0NzE0LC0xMjI5MDA4OTAsMTk4NTY3NDAwNiwtMjA1NjQx
+OTU4OSwxODk3NDMwOTY4LC0xMjA1Mzk1NzI0LC0xNTE2NDIxNT
+EwLDEwNDk0MDk5MzIsMTIxMzMxODIxMywtNDgzODc0NzI2LDE0
+NjA3OTgxMzMsMTE0ODIxNTE5MSwtNDA5Mjk4NjgzLC02NDY1OD
+U5NjYsMTYzNjI5NzY4NiwtMTk1MDA3OTQ3MiwtOTY4Mzk2ODg3
+LDExNjY2MDU4Nl19
 -->
