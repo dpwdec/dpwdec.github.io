@@ -171,6 +171,8 @@ public ActionResult<User> CreateUser([FromBody] User newUser) // newUser populat
 }
 ```
 
+You **cannot easily pass multiple object parameters from JSON** to a controller route.
+
 ### API endpoint returns and status codes
 
 You can **return an `ActionResult` from an API endpoint with a status code** by using the status code methods that are part pf `AspNetCore`. In the example below the `Ok` method wraps the result of getting the list of all `User`s in an `ActionResult` and returns it with a `200` status code.
@@ -443,11 +445,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTY0MjE1MTAsMTA0OTQwOTkzMiwxMj
-EzMzE4MjEzLC00ODM4NzQ3MjYsMTQ2MDc5ODEzMywxMTQ4MjE1
-MTkxLC00MDkyOTg2ODMsLTY0NjU4NTk2NiwxNjM2Mjk3Njg2LC
-0xOTUwMDc5NDcyLC05NjgzOTY4ODcsMTE2NjYwNTg2LDE0MDM4
-ODgwODUsMTAyMjEwMjA1Niw3OTA1NDA4NDAsMTI1MzA0NjI3OS
-w4NzYxNTM3NzMsLTIxMDc4MjY1NDQsMTM3OTI4MTEzOCwxMzE3
-ODg0NzA2XX0=
+eyJoaXN0b3J5IjpbLTEyMDUzOTU3MjQsLTE1MTY0MjE1MTAsMT
+A0OTQwOTkzMiwxMjEzMzE4MjEzLC00ODM4NzQ3MjYsMTQ2MDc5
+ODEzMywxMTQ4MjE1MTkxLC00MDkyOTg2ODMsLTY0NjU4NTk2Ni
+wxNjM2Mjk3Njg2LC0xOTUwMDc5NDcyLC05NjgzOTY4ODcsMTE2
+NjYwNTg2LDE0MDM4ODgwODUsMTAyMjEwMjA1Niw3OTA1NDA4ND
+AsMTI1MzA0NjI3OSw4NzYxNTM3NzMsLTIxMDc4MjY1NDQsMTM3
+OTI4MTEzOF19
 -->
