@@ -153,7 +153,7 @@ public ActionResult<User> GetUser(int id, string name)
 }
 ```
 
-You can **pass serialized objects to controller routes**
+You can **pass serialized objects to controller routes** by including them as arguments in the controller method definition. Serialized objects (represen
 
 ### API endpoint returns and status codes
 
@@ -427,7 +427,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTg2Njk5MTIsLTQ4Mzg3NDcyNiwxND
+eyJoaXN0b3J5IjpbLTIwNDEyOTA5MjQsLTQ4Mzg3NDcyNiwxND
 YwNzk4MTMzLDExNDgyMTUxOTEsLTQwOTI5ODY4MywtNjQ2NTg1
 OTY2LDE2MzYyOTc2ODYsLTE5NTAwNzk0NzIsLTk2ODM5Njg4Ny
 wxMTY2NjA1ODYsMTQwMzg4ODA4NSwxMDIyMTAyMDU2LDc5MDU0
