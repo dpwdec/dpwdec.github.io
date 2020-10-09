@@ -6,8 +6,10 @@ exclude: true
 
 ## Newtonsoft
 
-You can **convert a string to an object** by using the `DeserializeObject` method on `JsonConvert`.
+You can **convert a string to an object** by using the `DeserializeObject` method on `JsonConvert` typed with the object that you want to convert the JSON into.
 ```csharp
+string objectJson = "{ \"Id\": \"0\", \"Name\": \"Xan\", \"Age\": \"400\" }";
+var user = JsonConvert.DeserializeObject<User>(objectJson);
 /*
 User class structure:
 {
@@ -16,9 +18,7 @@ User class structure:
   public int Age { get; set; }
 }
 */
-string objectJson = "{ \"Id\": \"0\", \"Name\": \"Xan\", \"Age\": \"400\" }";
-var user = JsonConvert.DeserializeObject<User>(objectJson);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTcyMTE4Ml19
+eyJoaXN0b3J5IjpbNzMwMzE1MjczXX0=
 -->
