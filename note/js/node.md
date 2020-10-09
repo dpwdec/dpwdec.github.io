@@ -74,6 +74,7 @@ $ npm link my_dependency_project
 
 
 
+
 ## fs
 
 You can **delete a file from a directory** using the `unlink` method (an asynchronous deletion method) or the `unlinkSync` method (the synchronous version of the same functionality), simply pass the file of the path you want to delete as an argument. The **async version also takes a callback** that runs when the deletion finishes.
@@ -179,5 +180,5 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDU2NDMxOSwtMTAxMDk1MTc3XX0=
+eyJoaXN0b3J5IjpbNzczNzcyMjczLC0xMDEwOTUxNzddfQ==
 -->
