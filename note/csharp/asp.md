@@ -188,6 +188,11 @@ public ActionResult<User> CreateUser([FromBody] User newUser) // newUser populat
 
 You **cannot easily pass multiple object parameters from JSON** to a controller route. However, **inputting multiple objects to a single route is not recommended** for a resource based system. *It's possible that there is a new using a JObject from `newtonsoft` or perhaps a `dynamic` data input type?*
 
+You can **convert JSON request bodies** into `Dictionary` if the JSON representation is just a shallow representation of keys to values.
+```csharp
+
+```
+
 ### API endpoint returns and status codes
 
 You can **return an `ActionResult` from an API endpoint with a status code** by using the status code methods that are part pf `AspNetCore`. In the example below the `Ok` method wraps the result of getting the list of all `User`s in an `ActionResult` and returns it with a `200` status code.
@@ -460,11 +465,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTI0MDQ3MTQsLTEyMjkwMDg5MCwxOT
-g1Njc0MDA2LC0yMDU2NDE5NTg5LDE4OTc0MzA5NjgsLTEyMDUz
-OTU3MjQsLTE1MTY0MjE1MTAsMTA0OTQwOTkzMiwxMjEzMzE4Mj
-EzLC00ODM4NzQ3MjYsMTQ2MDc5ODEzMywxMTQ4MjE1MTkxLC00
-MDkyOTg2ODMsLTY0NjU4NTk2NiwxNjM2Mjk3Njg2LC0xOTUwMD
-c5NDcyLC05NjgzOTY4ODcsMTE2NjYwNTg2LDE0MDM4ODgwODUs
-MTAyMjEwMjA1Nl19
+eyJoaXN0b3J5IjpbLTE4NDE3NjEzNTEsLTIwOTI0MDQ3MTQsLT
+EyMjkwMDg5MCwxOTg1Njc0MDA2LC0yMDU2NDE5NTg5LDE4OTc0
+MzA5NjgsLTEyMDUzOTU3MjQsLTE1MTY0MjE1MTAsMTA0OTQwOT
+kzMiwxMjEzMzE4MjEzLC00ODM4NzQ3MjYsMTQ2MDc5ODEzMywx
+MTQ4MjE1MTkxLC00MDkyOTg2ODMsLTY0NjU4NTk2NiwxNjM2Mj
+k3Njg2LC0xOTUwMDc5NDcyLC05NjgzOTY4ODcsMTE2NjYwNTg2
+LDE0MDM4ODgwODVdfQ==
 -->
