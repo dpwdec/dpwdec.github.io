@@ -17,9 +17,12 @@ If you **add a NuGet package or dependency** this will be reflected in the proje
 
 ### Launch Settings
 
-You can **configure how your web application runs** such as the *port* it runs on, or its *environment variables* using the `priopreties/launchSettings.json` file in your project.
+You can **configure how your web application runs** such as the *port* it runs on, or its *environment variables* using the `properties/launchSettings.json` file in your project.
 
-
+You can **set what URL your application auto launches to** by changing the `launchUrl` proprety.
+```json
+"launchUrl": "/path/to/my/resource"
+```
 
 ### Environment Variables
 
@@ -422,11 +425,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjMyNTQwLC00ODM4NzQ3MjYsMTQ2MD
-c5ODEzMywxMTQ4MjE1MTkxLC00MDkyOTg2ODMsLTY0NjU4NTk2
-NiwxNjM2Mjk3Njg2LC0xOTUwMDc5NDcyLC05NjgzOTY4ODcsMT
-E2NjYwNTg2LDE0MDM4ODgwODUsMTAyMjEwMjA1Niw3OTA1NDA4
-NDAsMTI1MzA0NjI3OSw4NzYxNTM3NzMsLTIxMDc4MjY1NDQsMT
-M3OTI4MTEzOCwxMzE3ODg0NzA2LDE1NzA2ODg3NzIsLTIwMzM2
-NTI4MTRdfQ==
+eyJoaXN0b3J5IjpbLTExOTMzODQ5MzMsLTQ4Mzg3NDcyNiwxND
+YwNzk4MTMzLDExNDgyMTUxOTEsLTQwOTI5ODY4MywtNjQ2NTg1
+OTY2LDE2MzYyOTc2ODYsLTE5NTAwNzk0NzIsLTk2ODM5Njg4Ny
+wxMTY2NjA1ODYsMTQwMzg4ODA4NSwxMDIyMTAyMDU2LDc5MDU0
+MDg0MCwxMjUzMDQ2Mjc5LDg3NjE1Mzc3MywtMjEwNzgyNjU0NC
+wxMzc5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4ODc3MiwtMjAz
+MzY1MjgxNF19
 -->
