@@ -153,7 +153,7 @@ public ActionResult<User> GetUser(int id, string name)
 }
 ```
 
-You can **pass a singular serialized object to controller route as an argument** by including it as an argument in the controller method definition. Serialized objects (represented as JSON in the body of the request) are **automatically parsed into the associated class/model representation** but they must be the root JSON object in the requests body for this to work.
+You can **pass a singular serialized object to controller `POST` route as an argument** by including it as an argument in the controller method definition. Serialized objects (represented as JSON in the body of the request) are **automatically parsed into the associated class/model representation** but they must be the root JSON object in the requests body for this to work.
 ```csharp
 [HttpPost]
 public ActionResult<User> CreateUser(User newUser) // newUser populated from request JSON
@@ -162,7 +162,9 @@ public ActionResult<User> CreateUser(User newUser) // newUser populated from req
 }
 ```
 
-This is a **shorthand for using the `[FromBody]` attribute** to make where data comes from. This attribute **indicates that data from this method should come from the body of the request**.
+You can **specify where the data should come from** by using attributes. 
+
+You can **read data from a request body** using the `[FromBody]` attribute.
 ```csharp
 [HttpPost]
 public ActionResult<User> CreateUser([FromBody] User newUser) // newUser populated from request JSON
@@ -445,11 +447,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY0MTk1ODksMTg5NzQzMDk2OCwtMT
-IwNTM5NTcyNCwtMTUxNjQyMTUxMCwxMDQ5NDA5OTMyLDEyMTMz
-MTgyMTMsLTQ4Mzg3NDcyNiwxNDYwNzk4MTMzLDExNDgyMTUxOT
-EsLTQwOTI5ODY4MywtNjQ2NTg1OTY2LDE2MzYyOTc2ODYsLTE5
-NTAwNzk0NzIsLTk2ODM5Njg4NywxMTY2NjA1ODYsMTQwMzg4OD
-A4NSwxMDIyMTAyMDU2LDc5MDU0MDg0MCwxMjUzMDQ2Mjc5LDg3
-NjE1Mzc3M119
+eyJoaXN0b3J5IjpbMTk4NTY3NDAwNiwtMjA1NjQxOTU4OSwxOD
+k3NDMwOTY4LC0xMjA1Mzk1NzI0LC0xNTE2NDIxNTEwLDEwNDk0
+MDk5MzIsMTIxMzMxODIxMywtNDgzODc0NzI2LDE0NjA3OTgxMz
+MsMTE0ODIxNTE5MSwtNDA5Mjk4NjgzLC02NDY1ODU5NjYsMTYz
+NjI5NzY4NiwtMTk1MDA3OTQ3MiwtOTY4Mzk2ODg3LDExNjY2MD
+U4NiwxNDAzODg4MDg1LDEwMjIxMDIwNTYsNzkwNTQwODQwLDEy
+NTMwNDYyNzldfQ==
 -->
