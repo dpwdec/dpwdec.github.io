@@ -153,6 +153,12 @@ public ActionResult<User> GetUser(int id, string name)
 }
 ```
 
+### Get Routes
+
+You can **define a controller route with multiple input parameters** by creating argume
+
+### Post Routes
+
 You can **pass a singular serialized object to controller `POST` route as an argument** by including it as an argument in the controller method definition. Serialized objects (represented as JSON in the body of the request) are **automatically parsed into the associated class/model representation** but they must be the root JSON object in the requests body for this to work.
 ```csharp
 [HttpPost]
@@ -447,11 +453,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTY3NDAwNiwtMjA1NjQxOTU4OSwxOD
-k3NDMwOTY4LC0xMjA1Mzk1NzI0LC0xNTE2NDIxNTEwLDEwNDk0
-MDk5MzIsMTIxMzMxODIxMywtNDgzODc0NzI2LDE0NjA3OTgxMz
-MsMTE0ODIxNTE5MSwtNDA5Mjk4NjgzLC02NDY1ODU5NjYsMTYz
-NjI5NzY4NiwtMTk1MDA3OTQ3MiwtOTY4Mzk2ODg3LDExNjY2MD
-U4NiwxNDAzODg4MDg1LDEwMjIxMDIwNTYsNzkwNTQwODQwLDEy
-NTMwNDYyNzldfQ==
+eyJoaXN0b3J5IjpbMTMyMDQ2MTE1MywxOTg1Njc0MDA2LC0yMD
+U2NDE5NTg5LDE4OTc0MzA5NjgsLTEyMDUzOTU3MjQsLTE1MTY0
+MjE1MTAsMTA0OTQwOTkzMiwxMjEzMzE4MjEzLC00ODM4NzQ3Mj
+YsMTQ2MDc5ODEzMywxMTQ4MjE1MTkxLC00MDkyOTg2ODMsLTY0
+NjU4NTk2NiwxNjM2Mjk3Njg2LC0xOTUwMDc5NDcyLC05NjgzOT
+Y4ODcsMTE2NjYwNTg2LDE0MDM4ODgwODUsMTAyMjEwMjA1Niw3
+OTA1NDA4NDBdfQ==
 -->
