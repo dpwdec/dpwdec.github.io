@@ -53,7 +53,7 @@ You can **add a list of development dependencies** using the `devDependencies` k
 
 ### Link
 
-
+You can **link a project's dependencies to a locally developed resource** by using the `npm link` command.
 
 
 ## fs
@@ -161,5 +161,5 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwNTg5MDY2XX0=
+eyJoaXN0b3J5IjpbLTMwNDU0ODk0Ml19
 -->
