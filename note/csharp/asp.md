@@ -162,10 +162,10 @@ public ActionResult<User> CreateUser(User newUser) // newUser populated from req
 }
 ```
 
-This is a **shorthand for using the `[FromBody]` attribute** to make where data comes from.
+This is a **shorthand for using the `[FromBody]` attribute** to make where data comes from. This attribute **indicates that data from this method should come from the body of the request**.
 ```csharp
 [HttpPost]
-public ActionResult<User> CreateUser([froUser newUser) // newUser populated from request JSON
+public ActionResult<User> CreateUser([FromBody] User newUser) // newUser populated from request JSON
 {
   // save new user information
 }
@@ -443,11 +443,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2MzU4MzM1LDEwNDk0MDk5MzIsMTIxMz
-MxODIxMywtNDgzODc0NzI2LDE0NjA3OTgxMzMsMTE0ODIxNTE5
-MSwtNDA5Mjk4NjgzLC02NDY1ODU5NjYsMTYzNjI5NzY4NiwtMT
-k1MDA3OTQ3MiwtOTY4Mzk2ODg3LDExNjY2MDU4NiwxNDAzODg4
-MDg1LDEwMjIxMDIwNTYsNzkwNTQwODQwLDEyNTMwNDYyNzksOD
-c2MTUzNzczLC0yMTA3ODI2NTQ0LDEzNzkyODExMzgsMTMxNzg4
-NDcwNl19
+eyJoaXN0b3J5IjpbLTE1MTY0MjE1MTAsMTA0OTQwOTkzMiwxMj
+EzMzE4MjEzLC00ODM4NzQ3MjYsMTQ2MDc5ODEzMywxMTQ4MjE1
+MTkxLC00MDkyOTg2ODMsLTY0NjU4NTk2NiwxNjM2Mjk3Njg2LC
+0xOTUwMDc5NDcyLC05NjgzOTY4ODcsMTE2NjYwNTg2LDE0MDM4
+ODgwODUsMTAyMjEwMjA1Niw3OTA1NDA4NDAsMTI1MzA0NjI3OS
+w4NzYxNTM3NzMsLTIxMDc4MjY1NDQsMTM3OTI4MTEzOCwxMzE3
+ODg0NzA2XX0=
 -->
