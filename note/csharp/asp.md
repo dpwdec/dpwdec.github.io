@@ -197,7 +197,14 @@ public ActionResult<string> ReturnEntry(Dictionary<string,string> data)
 }
 ```
 
-You can **use different types of data as values in JSON request body** by using the `dynamic` type as the dictionary valy
+You can **use different types of data as values in JSON request body** by using the `dynamic` type as the dictionary value type. This allows you to convert the `Dictionary` values to arbitrary objects for use in the controller method.
+```csharp
+[HttpPost]
+public ActionResult<string> ReturnEntry(Dictionary<string,dynamic> data)
+{
+ // use JSON properties
+}
+```
 
 ### API endpoint returns and status codes
 
@@ -471,11 +478,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjQ4NTE3OCwtNDc1NzQzNjM1LC0yMD
-kyNDA0NzE0LC0xMjI5MDA4OTAsMTk4NTY3NDAwNiwtMjA1NjQx
-OTU4OSwxODk3NDMwOTY4LC0xMjA1Mzk1NzI0LC0xNTE2NDIxNT
-EwLDEwNDk0MDk5MzIsMTIxMzMxODIxMywtNDgzODc0NzI2LDE0
-NjA3OTgxMzMsMTE0ODIxNTE5MSwtNDA5Mjk4NjgzLC02NDY1OD
-U5NjYsMTYzNjI5NzY4NiwtMTk1MDA3OTQ3MiwtOTY4Mzk2ODg3
-LDExNjY2MDU4Nl19
+eyJoaXN0b3J5IjpbMjkxMjIyMTQ4LC00NzU3NDM2MzUsLTIwOT
+I0MDQ3MTQsLTEyMjkwMDg5MCwxOTg1Njc0MDA2LC0yMDU2NDE5
+NTg5LDE4OTc0MzA5NjgsLTEyMDUzOTU3MjQsLTE1MTY0MjE1MT
+AsMTA0OTQwOTkzMiwxMjEzMzE4MjEzLC00ODM4NzQ3MjYsMTQ2
+MDc5ODEzMywxMTQ4MjE1MTkxLC00MDkyOTg2ODMsLTY0NjU4NT
+k2NiwxNjM2Mjk3Njg2LC0xOTUwMDc5NDcyLC05NjgzOTY4ODcs
+MTE2NjYwNTg2XX0=
 -->
