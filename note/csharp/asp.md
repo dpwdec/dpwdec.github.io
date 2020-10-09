@@ -155,7 +155,14 @@ public ActionResult<User> GetUser(int id, string name)
 
 ### Get Routes
 
-You can **define a controller route with multiple input parameters** by creating argume
+You can **define a controller route with multiple input parameters** by creating arguments to the controller method that match the query paramters for the url by name,
+```csharp
+[HttpGet]
+public ActionResult<string> EchoParams(string name, int point, float version)
+{
+  return Ok($"{name} {point} {version}");
+}
+```
 
 ### Post Routes
 
@@ -453,7 +460,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDQ2MTE1MywxOTg1Njc0MDA2LC0yMD
+eyJoaXN0b3J5IjpbLTEyMjkwMDg5MCwxOTg1Njc0MDA2LC0yMD
 U2NDE5NTg5LDE4OTc0MzA5NjgsLTEyMDUzOTU3MjQsLTE1MTY0
 MjE1MTAsMTA0OTQwOTkzMiwxMjEzMzE4MjEzLC00ODM4NzQ3Mj
 YsMTQ2MDc5ODEzMywxMTQ4MjE1MTkxLC00MDkyOTg2ODMsLTY0
