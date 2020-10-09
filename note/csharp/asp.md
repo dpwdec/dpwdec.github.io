@@ -190,7 +190,11 @@ You **cannot easily pass multiple object parameters from JSON** to a controller 
 
 You can **convert JSON request bodies** into `Dictionary` if the JSON representation is just a shallow representation of keys to values.
 ```csharp
-
+[HttpPost]
+public ActionResult<string> ReturnEntry(Dictionary<string,string> data)
+{
+ // use JSON properties
+}
 ```
 
 ### API endpoint returns and status codes
@@ -465,11 +469,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDE3NjEzNTEsLTIwOTI0MDQ3MTQsLT
-EyMjkwMDg5MCwxOTg1Njc0MDA2LC0yMDU2NDE5NTg5LDE4OTc0
-MzA5NjgsLTEyMDUzOTU3MjQsLTE1MTY0MjE1MTAsMTA0OTQwOT
-kzMiwxMjEzMzE4MjEzLC00ODM4NzQ3MjYsMTQ2MDc5ODEzMywx
-MTQ4MjE1MTkxLC00MDkyOTg2ODMsLTY0NjU4NTk2NiwxNjM2Mj
-k3Njg2LC0xOTUwMDc5NDcyLC05NjgzOTY4ODcsMTE2NjYwNTg2
-LDE0MDM4ODgwODVdfQ==
+eyJoaXN0b3J5IjpbLTQ3NTc0MzYzNSwtMjA5MjQwNDcxNCwtMT
+IyOTAwODkwLDE5ODU2NzQwMDYsLTIwNTY0MTk1ODksMTg5NzQz
+MDk2OCwtMTIwNTM5NTcyNCwtMTUxNjQyMTUxMCwxMDQ5NDA5OT
+MyLDEyMTMzMTgyMTMsLTQ4Mzg3NDcyNiwxNDYwNzk4MTMzLDEx
+NDgyMTUxOTEsLTQwOTI5ODY4MywtNjQ2NTg1OTY2LDE2MzYyOT
+c2ODYsLTE5NTAwNzk0NzIsLTk2ODM5Njg4NywxMTY2NjA1ODYs
+MTQwMzg4ODA4NV19
 -->
