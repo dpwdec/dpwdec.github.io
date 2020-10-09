@@ -8,8 +8,8 @@ exclude: true
 
 You can **convert a string to an object** by using the `DeserializeObject` method on `JsonConvert`.
 ```csharp
-string o
+string objectJson = "{
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MTc4NTYxXX0=
+eyJoaXN0b3J5IjpbMTM4NDQ4NDU3N119
 -->
