@@ -106,6 +106,10 @@ var x = 5;
 nameof(x); // => Int
 ```
 
+## JSON
+
+You can **convert a string to an object** by using the `
+
 ## List
 
 The `List` is a data structure that offers a resizable list of elements. To **start using the `List` data structure** you must import `using  System.Collections.Generic`. The `List` object is defined with a generic `T` type as `List<T>` which you must supply when constructing a new list object. To **create a new list** use the `new` keyword as you would with any new object instance with the type of the container in `< >` brackets. You **initialize the contents of a list inline** by containing the content in `{ }` curly brackets after the definition.
@@ -547,7 +551,7 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1ODk1MTEwNSw5MDg0NTg5MjcsLTE5Mj
+eyJoaXN0b3J5IjpbMjAxMTgzODc0NCw5MDg0NTg5MjcsLTE5Mj
 U0MjYwNzIsMTgzNzQ3MDU5MCwxODg3NjY2NjkzLC0xMTM1NDg4
 MjAyLC0zMTYxMTk1MDQsMTgzMzcwODc1OCw3MzE1OTM2NDcsND
 Y5Nzc3NDYyLDkwNjI0MzU4LC0xNzIyMzk2ODk2LC0xNTU4MDAw
