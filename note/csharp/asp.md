@@ -197,6 +197,8 @@ public ActionResult<string> ReturnEntry(Dictionary<string,string> data)
 }
 ```
 
+You can **use different types of data as values in JSON request body** by using the `dynamic` type as the dictionary valy
+
 ### API endpoint returns and status codes
 
 You can **return an `ActionResult` from an API endpoint with a status code** by using the status code methods that are part pf `AspNetCore`. In the example below the `Ok` method wraps the result of getting the list of all `User`s in an `ActionResult` and returns it with a `200` status code.
@@ -469,7 +471,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2Mjk2NDM2NywtNDc1NzQzNjM1LC0yMD
+eyJoaXN0b3J5IjpbMTYwMjQ4NTE3OCwtNDc1NzQzNjM1LC0yMD
 kyNDA0NzE0LC0xMjI5MDA4OTAsMTk4NTY3NDAwNiwtMjA1NjQx
 OTU4OSwxODk3NDMwOTY4LC0xMjA1Mzk1NzI0LC0xNTE2NDIxNT
 EwLDEwNDk0MDk5MzIsMTIxMzMxODIxMywtNDgzODc0NzI2LDE0
