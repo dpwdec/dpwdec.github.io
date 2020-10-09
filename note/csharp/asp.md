@@ -292,7 +292,19 @@ CreateMap<User, UserReadDto>()
   .AfterMap((src, dest) => dest.Age = src.DateOfBirth.ToAge())
 ```
 
-You can **map from a DTO to a model**
+You can **map from a DTO to a model** by simply reversing the order of mapping arguments used. This is useful if you want to present clients with a DTO that *adds* data to your system.
+```csharp
+public class UserCreateDto
+{
+  public string Name { get; set; }
+  public int Height { get; set; }
+  public int Age { get; set; }
+}
+```
+
+```csharp
+CreateMap<UserCreateDto, User>();
+```
 
 ### Mapping
 
@@ -403,11 +415,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk1MjYwNjcsMTE0ODIxNTE5MSwtND
-A5Mjk4NjgzLC02NDY1ODU5NjYsMTYzNjI5NzY4NiwtMTk1MDA3
-OTQ3MiwtOTY4Mzk2ODg3LDExNjY2MDU4NiwxNDAzODg4MDg1LD
-EwMjIxMDIwNTYsNzkwNTQwODQwLDEyNTMwNDYyNzksODc2MTUz
-NzczLC0yMTA3ODI2NTQ0LDEzNzkyODExMzgsMTMxNzg4NDcwNi
-wxNTcwNjg4NzcyLC0yMDMzNjUyODE0LC0xMDY1MzA0MTcxLDY1
-OTAwNTMyMl19
+eyJoaXN0b3J5IjpbMTI1OTQzNTA1NywxMTQ4MjE1MTkxLC00MD
+kyOTg2ODMsLTY0NjU4NTk2NiwxNjM2Mjk3Njg2LC0xOTUwMDc5
+NDcyLC05NjgzOTY4ODcsMTE2NjYwNTg2LDE0MDM4ODgwODUsMT
+AyMjEwMjA1Niw3OTA1NDA4NDAsMTI1MzA0NjI3OSw4NzYxNTM3
+NzMsLTIxMDc4MjY1NDQsMTM3OTI4MTEzOCwxMzE3ODg0NzA2LD
+E1NzA2ODg3NzIsLTIwMzM2NTI4MTQsLTEwNjUzMDQxNzEsNjU5
+MDA1MzIyXX0=
 -->
