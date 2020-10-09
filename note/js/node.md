@@ -55,7 +55,7 @@ You can **add a list of development dependencies** using the `devDependencies` k
 
 You can **link a project's dependencies to a locally developed resource** by using the `npm link` command. This utility is useful if you are working on a project that has a dependency on a resource that you also develop and are modifying, by `link`ing your project's dependency to the locally developed version you can update the dependency and see those changes reflected immediately in your project.
 
-You can **activate `npm link`** by navi
+You can **activate `npm link`** by navigating to the dependency folder
 ```
 .
 ├── my-app
@@ -171,5 +171,5 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDIyMDE0NDksLTEwMTA5NTE3N119
+eyJoaXN0b3J5IjpbLTE5NjA2NTM3MiwtMTAxMDk1MTc3XX0=
 -->
