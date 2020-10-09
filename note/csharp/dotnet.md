@@ -58,7 +58,6 @@ You **cannot name your class the same as a folder namespace** as this will confu
 Project
 └── User
     └── User.cs
-
 ```
 
 ## Var
@@ -548,11 +547,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4NDU4OTI3LC0xOTI1NDI2MDcyLDE4Mz
-c0NzA1OTAsMTg4NzY2NjY5MywtMTEzNTQ4ODIwMiwtMzE2MTE5
-NTA0LDE4MzM3MDg3NTgsNzMxNTkzNjQ3LDQ2OTc3NzQ2Miw5MD
-YyNDM1OCwtMTcyMjM5Njg5NiwtMTU1ODAwMDA2MCwtNDAzMjI5
-MjM3LC0xNjUwODc3OTAxLC0xMDMzMTQ4MzA5LDExODA1NzA0ND
-QsMzkxNzMyNTIyLC0xNTY4ODg5MzAxLC05MDc2MDgzNzQsMTI5
-MjgxNTUwNV19
+eyJoaXN0b3J5IjpbMTA1ODk1MTEwNSw5MDg0NTg5MjcsLTE5Mj
+U0MjYwNzIsMTgzNzQ3MDU5MCwxODg3NjY2NjkzLC0xMTM1NDg4
+MjAyLC0zMTYxMTk1MDQsMTgzMzcwODc1OCw3MzE1OTM2NDcsND
+Y5Nzc3NDYyLDkwNjI0MzU4LC0xNzIyMzk2ODk2LC0xNTU4MDAw
+MDYwLC00MDMyMjkyMzcsLTE2NTA4Nzc5MDEsLTEwMzMxNDgzMD
+ksMTE4MDU3MDQ0NCwzOTE3MzI1MjIsLTE1Njg4ODkzMDEsLTkw
+NzYwODM3NF19
 -->
