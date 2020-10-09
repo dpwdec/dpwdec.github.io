@@ -153,7 +153,14 @@ public ActionResult<User> GetUser(int id, string name)
 }
 ```
 
-You can **pass serialized objects to controller routes** by including them as arguments in the controller method definition. Serialized objects (represen
+You can **pass serialized objects to controller routes** by including them as arguments in the controller method definition. Serialized objects (represented as JSON in the body of the request) are **automatically parsed into the associated class/model representation**.
+```csharp
+[HttpPost]
+public ActionResult<User> CreateUser(User newUser)
+{
+  // save new user informatio
+}
+```
 
 ### API endpoint returns and status codes
 
@@ -427,11 +434,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDEyOTA5MjQsLTQ4Mzg3NDcyNiwxND
-YwNzk4MTMzLDExNDgyMTUxOTEsLTQwOTI5ODY4MywtNjQ2NTg1
-OTY2LDE2MzYyOTc2ODYsLTE5NTAwNzk0NzIsLTk2ODM5Njg4Ny
-wxMTY2NjA1ODYsMTQwMzg4ODA4NSwxMDIyMTAyMDU2LDc5MDU0
-MDg0MCwxMjUzMDQ2Mjc5LDg3NjE1Mzc3MywtMjEwNzgyNjU0NC
-wxMzc5MjgxMTM4LDEzMTc4ODQ3MDYsMTU3MDY4ODc3MiwtMjAz
-MzY1MjgxNF19
+eyJoaXN0b3J5IjpbMTE2NTYyNzIxLC00ODM4NzQ3MjYsMTQ2MD
+c5ODEzMywxMTQ4MjE1MTkxLC00MDkyOTg2ODMsLTY0NjU4NTk2
+NiwxNjM2Mjk3Njg2LC0xOTUwMDc5NDcyLC05NjgzOTY4ODcsMT
+E2NjYwNTg2LDE0MDM4ODgwODUsMTAyMjEwMjA1Niw3OTA1NDA4
+NDAsMTI1MzA0NjI3OSw4NzYxNTM3NzMsLTIxMDc4MjY1NDQsMT
+M3OTI4MTEzOCwxMzE3ODg0NzA2LDE1NzA2ODg3NzIsLTIwMzM2
+NTI4MTRdfQ==
 -->
