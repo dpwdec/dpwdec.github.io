@@ -19,11 +19,16 @@ You can **move the viewport zoom centre while in camera mode** with `Hold ⇧ + 
 You can **projection extract a rectangular texture from an image** by:
 
 1. Adding the image with the element you want to map as a camera image.
-2. 
+
+
+You can **open UV mapping menu** by pressing `U` when in *Edit Mode*.
+
+You can **project from view** by going to `UV Mapping -> Project From
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTE0MDg4MywxNjE0Njk2MTA3LC0xMj
-Y1NjI3MDYzLC0yMTE5MjcyNjYzLDU3MDE5ODQ2NV19
+eyJoaXN0b3J5IjpbMzUxMzM3NzAxLC01NDUxNDA4ODMsMTYxND
+Y5NjEwNywtMTI2NTYyNzA2MywtMjExOTI3MjY2Myw1NzAxOTg0
+NjVdfQ==
 -->
