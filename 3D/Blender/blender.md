@@ -16,9 +16,11 @@ You can **toggle global wireframe** with `⇧ + Z`.
 
 You can **move the viewport zoom centre while in camera mode** with `Hold ⇧ + Pan MMB`. This only changes viewport display of the camera view, does not effect camera position of zoom, its purely for checking and aligning things in the viewport while in camera mode.
 
+You can **map a 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDY5NjEwNywtMTI2NTYyNzA2MywtMj
-ExOTI3MjY2Myw1NzAxOTg0NjVdfQ==
+eyJoaXN0b3J5IjpbLTEyNDk0MzM1MTcsMTYxNDY5NjEwNywtMT
+I2NTYyNzA2MywtMjExOTI3MjY2Myw1NzAxOTg0NjVdfQ==
 -->
