@@ -23,12 +23,14 @@ You can **projection extract a rectangular texture from an image** by:
 
 You can **open UV mapping menu** by pressing `U` when in *Edit Mode*.
 
-You can **project from view** by going to `UV Mapping -> Project From
+You can **project from view** by going to `UV Mapping -> Project From View`.
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxMzM3NzAxLC01NDUxNDA4ODMsMTYxND
-Y5NjEwNywtMTI2NTYyNzA2MywtMjExOTI3MjY2Myw1NzAxOTg0
-NjVdfQ==
+eyJoaXN0b3J5IjpbLTU1MTg2Mzc2NCwtNTQ1MTQwODgzLDE2MT
+Q2OTYxMDcsLTEyNjU2MjcwNjMsLTIxMTkyNzI2NjMsNTcwMTk4
+NDY1XX0=
 -->
