@@ -12,8 +12,11 @@ exclude: true
 
 You can **change the aspect ratio of a background image** by changing the `Output Properties -> Resolution x/y`.
 
+You can **toggle global wireframe** with `⇧ + Z`.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTkyNzI2NjMsNTcwMTk4NDY1XX0=
+eyJoaXN0b3J5IjpbLTEyNjU2MjcwNjMsLTIxMTkyNzI2NjMsNT
+cwMTk4NDY1XX0=
 -->
