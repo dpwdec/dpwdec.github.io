@@ -16,11 +16,11 @@ You can **toggle global wireframe** with `⇧ + Z`.
 
 You can **move the viewport zoom centre while in camera mode** with `Hold ⇧ + Pan MMB`. This only changes viewport display of the camera view, does not effect camera position of zoom, its purely for checking and aligning things in the viewport while in camera mode.
 
-You can **map a 
+You can **projection map a rectangular texture 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDk0MzM1MTcsMTYxNDY5NjEwNywtMT
-I2NTYyNzA2MywtMjExOTI3MjY2Myw1NzAxOTg0NjVdfQ==
+eyJoaXN0b3J5IjpbMjEyNDAxODAwNywxNjE0Njk2MTA3LC0xMj
+Y1NjI3MDYzLC0yMTE5MjcyNjYzLDU3MDE5ODQ2NV19
 -->
