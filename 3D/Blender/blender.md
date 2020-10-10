@@ -14,11 +14,11 @@ You can **change the aspect ratio of a background image** by changing the `Outpu
 
 You can **toggle global wireframe** with `⇧ + Z`.
 
-You can **move the viewport zoom centre while in camera mode** with `Hold ⇧ + MMB
+You can **move the viewport zoom centre while in camera mode** with `Hold ⇧ + Pan MMB`. This only changes viewport display of the camera view, does not effect camera position of zoom, its purely for checking and aligning things in the viewport while in camera mode.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjM1MDY4OSwtMTI2NTYyNzA2MywtMj
+eyJoaXN0b3J5IjpbMTYxNDY5NjEwNywtMTI2NTYyNzA2MywtMj
 ExOTI3MjY2Myw1NzAxOTg0NjVdfQ==
 -->
