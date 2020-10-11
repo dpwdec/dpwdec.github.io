@@ -318,6 +318,11 @@ var array = [
 array[1][0] // => 4
 ```
 
+You can **iterate through a range in a functional style** by creating an array, `fill`ing it and then iterating.
+```js
+Array(8).fill()
+```
+
 ### Manipulating elements
 
 You can **add an element to the end of an array** using the `push` function. You can **add an element to the start of an array** using the `unshift` function.
@@ -1291,5 +1296,6 @@ export { Foo, Bar, Baz }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDczODcxMDQsLTU2MTk0Mjc0NV19
+eyJoaXN0b3J5IjpbLTI3ODgyMDc1NCwtMjAwNzM4NzEwNCwtNT
+YxOTQyNzQ1XX0=
 -->
