@@ -204,7 +204,7 @@ public ActionResult<string> ReturnEntry(Dictionary<string,dynamic> data)
 {
  // use JSON properties
 }
-```
+``` 
 
 ### API endpoint returns and status codes
 
@@ -367,7 +367,7 @@ public class UserCreateDto
 The corresponding `CreateMap` profile method would them simply map this directly to a `User` model.
 ```csharp
 CreateMap<UserCreateDto, User>();
-```
+````AutoMapper` will **automatically map fields of the same name and type in the source class to the target DTO** *and* **remove fields not present in the DTO**.
 
 ### Mapping
 
@@ -478,11 +478,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjExNjc3MDIzLC00NzU3NDM2MzUsLTIwOT
-I0MDQ3MTQsLTEyMjkwMDg5MCwxOTg1Njc0MDA2LC0yMDU2NDE5
-NTg5LDE4OTc0MzA5NjgsLTEyMDUzOTU3MjQsLTE1MTY0MjE1MT
-AsMTA0OTQwOTkzMiwxMjEzMzE4MjEzLC00ODM4NzQ3MjYsMTQ2
-MDc5ODEzMywxMTQ4MjE1MTkxLC00MDkyOTg2ODMsLTY0NjU4NT
-k2NiwxNjM2Mjk3Njg2LC0xOTUwMDc5NDcyLC05NjgzOTY4ODcs
-MTE2NjYwNTg2XX0=
+eyJoaXN0b3J5IjpbODQxMTA3MjUxLDYxMTY3NzAyMywtNDc1Nz
+QzNjM1LC0yMDkyNDA0NzE0LC0xMjI5MDA4OTAsMTk4NTY3NDAw
+NiwtMjA1NjQxOTU4OSwxODk3NDMwOTY4LC0xMjA1Mzk1NzI0LC
+0xNTE2NDIxNTEwLDEwNDk0MDk5MzIsMTIxMzMxODIxMywtNDgz
+ODc0NzI2LDE0NjA3OTgxMzMsMTE0ODIxNTE5MSwtNDA5Mjk4Nj
+gzLC02NDY1ODU5NjYsMTYzNjI5NzY4NiwtMTk1MDA3OTQ3Miwt
+OTY4Mzk2ODg3XX0=
 -->
