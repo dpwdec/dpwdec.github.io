@@ -320,7 +320,7 @@ array[1][0] // => 4
 
 You can **iterate through a range in a functional style** by creating an array, `fill`ing it and then iterating.
 ```js
-Array(8).fill()
+Array(8).fill().map((_, i) => i * i)
 ```
 
 ### Manipulating elements
@@ -1296,6 +1296,6 @@ export { Foo, Bar, Baz }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODgyMDc1NCwtMjAwNzM4NzEwNCwtNT
+eyJoaXN0b3J5IjpbMTY5MTgxMTkzNywtMjAwNzM4NzEwNCwtNT
 YxOTQyNzQ1XX0=
 -->
