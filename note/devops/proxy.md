@@ -8,7 +8,13 @@ exclude: true
 
 Proxies make requests on behalf of a client so that the **destination server doesn't know the identity of the client**. Clients can **visit a proxy by specifying its location in their request headers**.
 
-A proxy can **locally cache static results for requests** and return that cached result to repeat requests from
+A proxy can **locally cache static results for requests** and return that cached result to repeat requests from different clients, cutting down costs.
+
+A proxy can also **block particular destinations for clients**.
+
+### Geofencing
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzMwMDM2MV19
+eyJoaXN0b3J5IjpbMTMyNDU0MjE3OCwtMTU3MzAwMzYxXX0=
 -->
