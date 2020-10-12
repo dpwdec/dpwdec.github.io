@@ -328,6 +328,8 @@ public ActionResult GetResource(int id)
 }
 ```
 
+You can use a string directly in the `CreateAtRoute` method instead of a `nameof` property, this string only has to match the name defined in the `Name` property defined in the `Htt
+
 
 ## Internal Domain Models and Data Transfer Objects
 
@@ -511,7 +513,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTE4MzA2OSwtMTMwMDc5NzY2NywtMT
+eyJoaXN0b3J5IjpbLTgxMjQ4NTkyNCwtMTMwMDc5NzY2NywtMT
 c1MDY1OTg2NCwtMjYyODc2NTM4LDg0MTEwNzI1MSw2MTE2Nzcw
 MjMsLTQ3NTc0MzYzNSwtMjA5MjQwNDcxNCwtMTIyOTAwODkwLD
 E5ODU2NzQwMDYsLTIwNTY0MTk1ODksMTg5NzQzMDk2OCwtMTIw
