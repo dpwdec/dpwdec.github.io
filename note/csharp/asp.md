@@ -409,7 +409,8 @@ public class UserCreateDto
 The corresponding `CreateMap` profile method would them simply map this directly to a `User` model.
 ```csharp
 CreateMap<UserCreateDto, User>();
-````AutoMapper` will **automatically map fields of the same name and type in the source class to the target DTO** *and* **remove fields not present in the DTO**.
+```
+`AutoMapper` will **automatically map fields of the same name and type in the source class to the target DTO** *and* **remove fields not present in the DTO**.
 
 ### Mapping
 
@@ -447,6 +448,8 @@ public ActionResult<IEnumerable<UserReadDto>> GetUsers()
   return Ok(_mapper.Map<IEnumerable<UserReadDto>>(usersData);
 }
 ```
+
+### 
 
 ## Uri
 
@@ -520,11 +523,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjI2ODk0MCwtMTMwMDc5NzY2NywtMT
-c1MDY1OTg2NCwtMjYyODc2NTM4LDg0MTEwNzI1MSw2MTE2Nzcw
-MjMsLTQ3NTc0MzYzNSwtMjA5MjQwNDcxNCwtMTIyOTAwODkwLD
-E5ODU2NzQwMDYsLTIwNTY0MTk1ODksMTg5NzQzMDk2OCwtMTIw
-NTM5NTcyNCwtMTUxNjQyMTUxMCwxMDQ5NDA5OTMyLDEyMTMzMT
-gyMTMsLTQ4Mzg3NDcyNiwxNDYwNzk4MTMzLDExNDgyMTUxOTEs
-LTQwOTI5ODY4M119
+eyJoaXN0b3J5IjpbLTE5NDM5Njc1NDksLTUzNjI2ODk0MCwtMT
+MwMDc5NzY2NywtMTc1MDY1OTg2NCwtMjYyODc2NTM4LDg0MTEw
+NzI1MSw2MTE2NzcwMjMsLTQ3NTc0MzYzNSwtMjA5MjQwNDcxNC
+wtMTIyOTAwODkwLDE5ODU2NzQwMDYsLTIwNTY0MTk1ODksMTg5
+NzQzMDk2OCwtMTIwNTM5NTcyNCwtMTUxNjQyMTUxMCwxMDQ5ND
+A5OTMyLDEyMTMzMTgyMTMsLTQ4Mzg3NDcyNiwxNDYwNzk4MTMz
+LDExNDgyMTUxOTFdfQ==
 -->
