@@ -20,10 +20,12 @@ A proxy can used to **block clients from accessing content** based on their loca
 
 A reverse proxy acts like a gateway so that the **client does not know the identity of the server** it is connecting to, with the reverse proxy acting as a middleman that routes requests.
 
-A reverse proxy als
+A reverse proxy also support **caching** so that it can return static content to clients quickly without making unnecessary calls to the service.
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NTY4OTcxOSwtMjAzOTgwNTgwMCwtMT
-U3MzAwMzYxXX0=
+eyJoaXN0b3J5IjpbODYxNjIwMDkzLC0yMDM5ODA1ODAwLC0xNT
+czMDAzNjFdfQ==
 -->
