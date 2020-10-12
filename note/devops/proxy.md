@@ -14,7 +14,13 @@ A proxy can also **block particular destinations for clients**.
 
 ### Geofencing
 
+A proxy can used to **block clients from accessing content** based on their location.
+
+## Reverse Proxy
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDU0MjE3OCwtMTU3MzAwMzYxXX0=
+eyJoaXN0b3J5IjpbLTY1MDY3ODkwNiwtMTU3MzAwMzYxXX0=
 -->
