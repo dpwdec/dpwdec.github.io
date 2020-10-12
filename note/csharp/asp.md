@@ -449,7 +449,9 @@ public ActionResult<IEnumerable<UserReadDto>> GetUsers()
 }
 ```
 
-### 
+### Data Annotations
+
+You 
 
 ## Uri
 
@@ -523,11 +525,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDM5Njc1NDksLTUzNjI2ODk0MCwtMT
-MwMDc5NzY2NywtMTc1MDY1OTg2NCwtMjYyODc2NTM4LDg0MTEw
-NzI1MSw2MTE2NzcwMjMsLTQ3NTc0MzYzNSwtMjA5MjQwNDcxNC
-wtMTIyOTAwODkwLDE5ODU2NzQwMDYsLTIwNTY0MTk1ODksMTg5
-NzQzMDk2OCwtMTIwNTM5NTcyNCwtMTUxNjQyMTUxMCwxMDQ5ND
-A5OTMyLDEyMTMzMTgyMTMsLTQ4Mzg3NDcyNiwxNDYwNzk4MTMz
-LDExNDgyMTUxOTFdfQ==
+eyJoaXN0b3J5IjpbMjA5MzM2MDkxOCwtMTk0Mzk2NzU0OSwtNT
+M2MjY4OTQwLC0xMzAwNzk3NjY3LC0xNzUwNjU5ODY0LC0yNjI4
+NzY1MzgsODQxMTA3MjUxLDYxMTY3NzAyMywtNDc1NzQzNjM1LC
+0yMDkyNDA0NzE0LC0xMjI5MDA4OTAsMTk4NTY3NDAwNiwtMjA1
+NjQxOTU4OSwxODk3NDMwOTY4LC0xMjA1Mzk1NzI0LC0xNTE2ND
+IxNTEwLDEwNDk0MDk5MzIsMTIxMzMxODIxMywtNDgzODc0NzI2
+LDE0NjA3OTgxMzNdfQ==
 -->
