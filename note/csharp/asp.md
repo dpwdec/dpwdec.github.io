@@ -310,6 +310,14 @@ public ActionResult MakeResource(MyResource resource)
   _database.Save(resource);
   return CreatedAtRoute(nameof(GetResource), new {Id = resource.Id}, resource)
 }
+
+// associated get route
+[HttpGet("{id}", Name = "GetResource")
+public ActionResult GetResource(int id)
+{
+  var resource = _database.Get(id);
+  return Ok(resource);
+}
 ```
 
 
@@ -495,11 +503,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTUyNDk2MywtMTc1MDY1OTg2NCwtMj
-YyODc2NTM4LDg0MTEwNzI1MSw2MTE2NzcwMjMsLTQ3NTc0MzYz
-NSwtMjA5MjQwNDcxNCwtMTIyOTAwODkwLDE5ODU2NzQwMDYsLT
-IwNTY0MTk1ODksMTg5NzQzMDk2OCwtMTIwNTM5NTcyNCwtMTUx
-NjQyMTUxMCwxMDQ5NDA5OTMyLDEyMTMzMTgyMTMsLTQ4Mzg3ND
-cyNiwxNDYwNzk4MTMzLDExNDgyMTUxOTEsLTQwOTI5ODY4Mywt
-NjQ2NTg1OTY2XX0=
+eyJoaXN0b3J5IjpbLTEzMDA3OTc2NjcsLTE3NTA2NTk4NjQsLT
+I2Mjg3NjUzOCw4NDExMDcyNTEsNjExNjc3MDIzLC00NzU3NDM2
+MzUsLTIwOTI0MDQ3MTQsLTEyMjkwMDg5MCwxOTg1Njc0MDA2LC
+0yMDU2NDE5NTg5LDE4OTc0MzA5NjgsLTEyMDUzOTU3MjQsLTE1
+MTY0MjE1MTAsMTA0OTQwOTkzMiwxMjEzMzE4MjEzLC00ODM4Nz
+Q3MjYsMTQ2MDc5ODEzMywxMTQ4MjE1MTkxLC00MDkyOTg2ODMs
+LTY0NjU4NTk2Nl19
 -->
