@@ -330,20 +330,11 @@ public ActionResult GetResource(int id)
 
 You can use a string directly in the `CreateAtRoute` method instead of a `nameof` property, this string only has to match the name defined in the `Name` property defined in the `Http` attribute.
 ```csharp
-[HttpPost]
-public ActionResult MakeResource(MyResource resource)
-{
-  _database.Save(resource);
-  return CreatedAtRoute("SomeResource", new {Id = resource.Id}, resource)
-}
+// example POST route return
+return CreatedAtRoute("SomeResource", new {Id = resource.Id}, resource)
 
-// associated get route
+// example associated GET route attribute signature
 [HttpGet("{id}", Name = "SomeResource")
-public ActionResult GetResource(int id)
-{
-  var resource = _database.Get(id);
-  return Ok(resource);
-}
 ```
 
 
@@ -529,11 +520,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODE1NDMyOSwtMTMwMDc5NzY2NywtMT
-c1MDY1OTg2NCwtMjYyODc2NTM4LDg0MTEwNzI1MSw2MTE2Nzcw
-MjMsLTQ3NTc0MzYzNSwtMjA5MjQwNDcxNCwtMTIyOTAwODkwLD
-E5ODU2NzQwMDYsLTIwNTY0MTk1ODksMTg5NzQzMDk2OCwtMTIw
-NTM5NTcyNCwtMTUxNjQyMTUxMCwxMDQ5NDA5OTMyLDEyMTMzMT
-gyMTMsLTQ4Mzg3NDcyNiwxNDYwNzk4MTMzLDExNDgyMTUxOTEs
-LTQwOTI5ODY4M119
+eyJoaXN0b3J5IjpbOTI3MjEzMzk2LC0xMzAwNzk3NjY3LC0xNz
+UwNjU5ODY0LC0yNjI4NzY1MzgsODQxMTA3MjUxLDYxMTY3NzAy
+MywtNDc1NzQzNjM1LC0yMDkyNDA0NzE0LC0xMjI5MDA4OTAsMT
+k4NTY3NDAwNiwtMjA1NjQxOTU4OSwxODk3NDMwOTY4LC0xMjA1
+Mzk1NzI0LC0xNTE2NDIxNTEwLDEwNDk0MDk5MzIsMTIxMzMxOD
+IxMywtNDgzODc0NzI2LDE0NjA3OTgxMzMsMTE0ODIxNTE5MSwt
+NDA5Mjk4NjgzXX0=
 -->
