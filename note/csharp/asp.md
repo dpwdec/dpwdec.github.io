@@ -153,7 +153,11 @@ public ActionResult<User> GetUser(int id, string name)
 }
 ```
 
-
+You can **give an HTTP route a name identifier** by using the `Name` property as an argument for the `[HttpX]` attribute (where `X` could be an arbitrary HTTP method).
+```csharp
+[HttpGet("api", Name = "MyRoute")]
+public ActionResult<U
+```
 
 ### Get Routes
 
@@ -505,7 +509,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTg2MDY1OTksLTEzMDA3OTc2NjcsLT
+eyJoaXN0b3J5IjpbLTIwODM1NzQ2NjAsLTEzMDA3OTc2NjcsLT
 E3NTA2NTk4NjQsLTI2Mjg3NjUzOCw4NDExMDcyNTEsNjExNjc3
 MDIzLC00NzU3NDM2MzUsLTIwOTI0MDQ3MTQsLTEyMjkwMDg5MC
 wxOTg1Njc0MDA2LC0yMDU2NDE5NTg5LDE4OTc0MzA5NjgsLTEy
