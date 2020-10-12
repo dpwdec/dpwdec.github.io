@@ -103,7 +103,13 @@ You can **match a pattern to the end of a string** using the `EndsWith` method.
 You can **convert the type of a variable to a string** using the `nameof` operator.
 ```csharp
 var x = 5;
-nameof(x); // => Int
+nameof(x); // => "Int"
+```
+
+You can **get the name of a method as a string** using the `nameof` operator.
+```csharp
+public static void MyMethod() { ... }
+nameof(MyMethod); // => "MyMethod"
 ```
 
 ## List
@@ -547,11 +553,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1ODk1MTEwNSw5MDg0NTg5MjcsLTE5Mj
-U0MjYwNzIsMTgzNzQ3MDU5MCwxODg3NjY2NjkzLC0xMTM1NDg4
-MjAyLC0zMTYxMTk1MDQsMTgzMzcwODc1OCw3MzE1OTM2NDcsND
-Y5Nzc3NDYyLDkwNjI0MzU4LC0xNzIyMzk2ODk2LC0xNTU4MDAw
-MDYwLC00MDMyMjkyMzcsLTE2NTA4Nzc5MDEsLTEwMzMxNDgzMD
-ksMTE4MDU3MDQ0NCwzOTE3MzI1MjIsLTE1Njg4ODkzMDEsLTkw
-NzYwODM3NF19
+eyJoaXN0b3J5IjpbODQ0NjQxNzg1LDkwODQ1ODkyNywtMTkyNT
+QyNjA3MiwxODM3NDcwNTkwLDE4ODc2NjY2OTMsLTExMzU0ODgy
+MDIsLTMxNjExOTUwNCwxODMzNzA4NzU4LDczMTU5MzY0Nyw0Nj
+k3Nzc0NjIsOTA2MjQzNTgsLTE3MjIzOTY4OTYsLTE1NTgwMDAw
+NjAsLTQwMzIyOTIzNywtMTY1MDg3NzkwMSwtMTAzMzE0ODMwOS
+wxMTgwNTcwNDQ0LDM5MTczMjUyMiwtMTU2ODg4OTMwMSwtOTA3
+NjA4Mzc0XX0=
 -->
