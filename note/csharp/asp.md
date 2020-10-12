@@ -451,7 +451,10 @@ public ActionResult<IEnumerable<UserReadDto>> GetUsers()
 
 ### Data Annotations
 
-You can **add data annotations to DTOs**, this will automatically 
+You can **add data annotations to DTOs**, this will automatically validate data submitted to controller routes and reject poorly formed data.
+```csharp
+
+```
 
 ## Uri
 
@@ -525,11 +528,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY5NjE0NjY1LC0xOTQzOTY3NTQ5LC01Mz
-YyNjg5NDAsLTEzMDA3OTc2NjcsLTE3NTA2NTk4NjQsLTI2Mjg3
-NjUzOCw4NDExMDcyNTEsNjExNjc3MDIzLC00NzU3NDM2MzUsLT
-IwOTI0MDQ3MTQsLTEyMjkwMDg5MCwxOTg1Njc0MDA2LC0yMDU2
-NDE5NTg5LDE4OTc0MzA5NjgsLTEyMDUzOTU3MjQsLTE1MTY0Mj
-E1MTAsMTA0OTQwOTkzMiwxMjEzMzE4MjEzLC00ODM4NzQ3MjYs
-MTQ2MDc5ODEzM119
+eyJoaXN0b3J5IjpbLTQ0MDA5Mjc1NCw2Njk2MTQ2NjUsLTE5ND
+M5Njc1NDksLTUzNjI2ODk0MCwtMTMwMDc5NzY2NywtMTc1MDY1
+OTg2NCwtMjYyODc2NTM4LDg0MTEwNzI1MSw2MTE2NzcwMjMsLT
+Q3NTc0MzYzNSwtMjA5MjQwNDcxNCwtMTIyOTAwODkwLDE5ODU2
+NzQwMDYsLTIwNTY0MTk1ODksMTg5NzQzMDk2OCwtMTIwNTM5NT
+cyNCwtMTUxNjQyMTUxMCwxMDQ5NDA5OTMyLDEyMTMzMTgyMTMs
+LTQ4Mzg3NDcyNl19
 -->
