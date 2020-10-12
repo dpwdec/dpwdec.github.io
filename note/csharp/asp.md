@@ -451,7 +451,7 @@ public ActionResult<IEnumerable<UserReadDto>> GetUsers()
 
 ### Data Annotations
 
-You 
+You can **add data annotations to DTOs**, this will automatically 
 
 ## Uri
 
@@ -525,11 +525,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzM2MDkxOCwtMTk0Mzk2NzU0OSwtNT
-M2MjY4OTQwLC0xMzAwNzk3NjY3LC0xNzUwNjU5ODY0LC0yNjI4
-NzY1MzgsODQxMTA3MjUxLDYxMTY3NzAyMywtNDc1NzQzNjM1LC
-0yMDkyNDA0NzE0LC0xMjI5MDA4OTAsMTk4NTY3NDAwNiwtMjA1
-NjQxOTU4OSwxODk3NDMwOTY4LC0xMjA1Mzk1NzI0LC0xNTE2ND
-IxNTEwLDEwNDk0MDk5MzIsMTIxMzMxODIxMywtNDgzODc0NzI2
-LDE0NjA3OTgxMzNdfQ==
+eyJoaXN0b3J5IjpbNjY5NjE0NjY1LC0xOTQzOTY3NTQ5LC01Mz
+YyNjg5NDAsLTEzMDA3OTc2NjcsLTE3NTA2NTk4NjQsLTI2Mjg3
+NjUzOCw4NDExMDcyNTEsNjExNjc3MDIzLC00NzU3NDM2MzUsLT
+IwOTI0MDQ3MTQsLTEyMjkwMDg5MCwxOTg1Njc0MDA2LC0yMDU2
+NDE5NTg5LDE4OTc0MzA5NjgsLTEyMDUzOTU3MjQsLTE1MTY0Mj
+E1MTAsMTA0OTQwOTkzMiwxMjEzMzE4MjEzLC00ODM4NzQ3MjYs
+MTQ2MDc5ODEzM119
 -->
