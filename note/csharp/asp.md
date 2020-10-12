@@ -298,7 +298,7 @@ public IActionResult ForbiddenRoute()
 
 ### CreatedAtRoute (201)
 
-
+You can **return a `CreateAtRouteResult`** from your controller by using the `Cre
 
 
 ## Internal Domain Models and Data Transfer Objects
@@ -483,7 +483,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTE1NjIyMjUsLTI2Mjg3NjUzOCw4ND
+eyJoaXN0b3J5IjpbLTE4ODYxODgzNjksLTI2Mjg3NjUzOCw4ND
 ExMDcyNTEsNjExNjc3MDIzLC00NzU3NDM2MzUsLTIwOTI0MDQ3
 MTQsLTEyMjkwMDg5MCwxOTg1Njc0MDA2LC0yMDU2NDE5NTg5LD
 E4OTc0MzA5NjgsLTEyMDUzOTU3MjQsLTE1MTY0MjE1MTAsMTA0
