@@ -308,7 +308,7 @@ You can **return a `CreateAtRouteResult`** from your controller by using the `Cr
 public ActionResult MakeResource(MyResource resource)
 {
   _database.Save(resource);
-  return CreatedAtRoute()
+  return CreatedAtRoute(nameof(GetResource), new {Id = resource.Id}, resource)
 }
 ```
 
@@ -495,7 +495,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjM2OTQxMywtMTc1MDY1OTg2NCwtMj
+eyJoaXN0b3J5IjpbMTI5MTUyNDk2MywtMTc1MDY1OTg2NCwtMj
 YyODc2NTM4LDg0MTEwNzI1MSw2MTE2NzcwMjMsLTQ3NTc0MzYz
 NSwtMjA5MjQwNDcxNCwtMTIyOTAwODkwLDE5ODU2NzQwMDYsLT
 IwNTY0MTk1ODksMTg5NzQzMDk2OCwtMTIwNTM5NTcyNCwtMTUx
