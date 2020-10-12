@@ -18,9 +18,9 @@ A proxy can used to **block clients from accessing content** based on their loca
 
 ## Reverse Proxy
 
-
+A reverse proxy acts like a gateway so that the **client doesn't what the identity**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDY3ODkwNiwtMTU3MzAwMzYxXX0=
+eyJoaXN0b3J5IjpbLTIwMzk4MDU4MDAsLTE1NzMwMDM2MV19
 -->
