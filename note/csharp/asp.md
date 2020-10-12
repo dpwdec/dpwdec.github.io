@@ -298,7 +298,9 @@ public IActionResult ForbiddenRoute()
 
 ### CreatedAtRoute (201)
 
-You can **return a `CreateAtRouteResult`** from your controller by using the `CreatedAtRoute()` method. This method takes a  URI to the 
+You can **return a `CreateAtRouteResult`** from your controller by using the `CreatedAtRoute()` method. This method takes:
+- a `string` URI to where the resource is located (usually a `GET` controller method)
+- a dictionary-like `object` 
 
 
 ## Internal Domain Models and Data Transfer Objects
@@ -483,11 +485,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzcxMTAwMSwtMjYyODc2NTM4LDg0MT
-EwNzI1MSw2MTE2NzcwMjMsLTQ3NTc0MzYzNSwtMjA5MjQwNDcx
-NCwtMTIyOTAwODkwLDE5ODU2NzQwMDYsLTIwNTY0MTk1ODksMT
-g5NzQzMDk2OCwtMTIwNTM5NTcyNCwtMTUxNjQyMTUxMCwxMDQ5
-NDA5OTMyLDEyMTMzMTgyMTMsLTQ4Mzg3NDcyNiwxNDYwNzk4MT
-MzLDExNDgyMTUxOTEsLTQwOTI5ODY4MywtNjQ2NTg1OTY2LDE2
-MzYyOTc2ODZdfQ==
+eyJoaXN0b3J5IjpbLTEwNzc0NzA4MzksLTI2Mjg3NjUzOCw4ND
+ExMDcyNTEsNjExNjc3MDIzLC00NzU3NDM2MzUsLTIwOTI0MDQ3
+MTQsLTEyMjkwMDg5MCwxOTg1Njc0MDA2LC0yMDU2NDE5NTg5LD
+E4OTc0MzA5NjgsLTEyMDUzOTU3MjQsLTE1MTY0MjE1MTAsMTA0
+OTQwOTkzMiwxMjEzMzE4MjEzLC00ODM4NzQ3MjYsMTQ2MDc5OD
+EzMywxMTQ4MjE1MTkxLC00MDkyOTg2ODMsLTY0NjU4NTk2Niwx
+NjM2Mjk3Njg2XX0=
 -->
