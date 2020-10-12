@@ -328,7 +328,23 @@ public ActionResult GetResource(int id)
 }
 ```
 
-You can use a string directly in the `CreateAtRoute` method instead of a `nameof` property, this string only has to match the name defined in the `Name` property defined in the `Htt
+You can use a string directly in the `CreateAtRoute` method instead of a `nameof` property, this string only has to match the name defined in the `Name` property defined in the `Http` attribute.
+```csharp
+[HttpPost]
+public ActionResult MakeResource(MyResource resource)
+{
+  _database.Save(resource);
+  return CreatedAtRoute("SomeResource", new {Id = resource.Id}, resource)
+}
+
+// associated get route
+[HttpGet("{id}", Name = "SomeResource")
+public ActionResult GetResource(int id)
+{
+  var resource = _database.Get(id);
+  return Ok(resource);
+}
+```
 
 
 ## Internal Domain Models and Data Transfer Objects
@@ -513,7 +529,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjQ4NTkyNCwtMTMwMDc5NzY2NywtMT
+eyJoaXN0b3J5IjpbMTE3ODE1NDMyOSwtMTMwMDc5NzY2NywtMT
 c1MDY1OTg2NCwtMjYyODc2NTM4LDg0MTEwNzI1MSw2MTE2Nzcw
 MjMsLTQ3NTc0MzYzNSwtMjA5MjQwNDcxNCwtMTIyOTAwODkwLD
 E5ODU2NzQwMDYsLTIwNTY0MTk1ODksMTg5NzQzMDk2OCwtMTIw
