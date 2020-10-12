@@ -285,7 +285,7 @@ public IActionResult NotFoundRoute()
 }
 ```
 
-### ForbidResult
+### Forbid (500)
 
 You can **return a `ForbidResult`** from a controller by using the `Forbid()` method, this is used for `403` type responses. The `ForbidResult` class inherits from `ActionResult`.
 ```csharp
@@ -296,7 +296,7 @@ public IActionResult ForbiddenRoute()
 }
 ```
 
-### CreatedAtRouteResult (201)
+### CreatedAtRoute (201)
 
 
 
@@ -483,11 +483,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzY1NTE0OSwtMjYyODc2NTM4LDg0MT
-EwNzI1MSw2MTE2NzcwMjMsLTQ3NTc0MzYzNSwtMjA5MjQwNDcx
-NCwtMTIyOTAwODkwLDE5ODU2NzQwMDYsLTIwNTY0MTk1ODksMT
-g5NzQzMDk2OCwtMTIwNTM5NTcyNCwtMTUxNjQyMTUxMCwxMDQ5
-NDA5OTMyLDEyMTMzMTgyMTMsLTQ4Mzg3NDcyNiwxNDYwNzk4MT
-MzLDExNDgyMTUxOTEsLTQwOTI5ODY4MywtNjQ2NTg1OTY2LDE2
-MzYyOTc2ODZdfQ==
+eyJoaXN0b3J5IjpbLTE4OTE1NjIyMjUsLTI2Mjg3NjUzOCw4ND
+ExMDcyNTEsNjExNjc3MDIzLC00NzU3NDM2MzUsLTIwOTI0MDQ3
+MTQsLTEyMjkwMDg5MCwxOTg1Njc0MDA2LC0yMDU2NDE5NTg5LD
+E4OTc0MzA5NjgsLTEyMDUzOTU3MjQsLTE1MTY0MjE1MTAsMTA0
+OTQwOTkzMiwxMjEzMzE4MjEzLC00ODM4NzQ3MjYsMTQ2MDc5OD
+EzMywxMTQ4MjE1MTkxLC00MDkyOTg2ODMsLTY0NjU4NTk2Niwx
+NjM2Mjk3Njg2XX0=
 -->
