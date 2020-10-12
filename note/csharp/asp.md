@@ -304,7 +304,8 @@ You can **return a `CreateAtRouteResult`** from your controller by using the `Cr
 - an object representing the data to be returned to the client on creation
 
 ```csharp
-
+[HttpPost]
+public ActionResult M
 ```
 
 
@@ -490,11 +491,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTA2NTk4NjQsLTI2Mjg3NjUzOCw4ND
-ExMDcyNTEsNjExNjc3MDIzLC00NzU3NDM2MzUsLTIwOTI0MDQ3
-MTQsLTEyMjkwMDg5MCwxOTg1Njc0MDA2LC0yMDU2NDE5NTg5LD
-E4OTc0MzA5NjgsLTEyMDUzOTU3MjQsLTE1MTY0MjE1MTAsMTA0
-OTQwOTkzMiwxMjEzMzE4MjEzLC00ODM4NzQ3MjYsMTQ2MDc5OD
-EzMywxMTQ4MjE1MTkxLC00MDkyOTg2ODMsLTY0NjU4NTk2Niwx
-NjM2Mjk3Njg2XX0=
+eyJoaXN0b3J5IjpbMzAwMzYwNzU5LC0xNzUwNjU5ODY0LC0yNj
+I4NzY1MzgsODQxMTA3MjUxLDYxMTY3NzAyMywtNDc1NzQzNjM1
+LC0yMDkyNDA0NzE0LC0xMjI5MDA4OTAsMTk4NTY3NDAwNiwtMj
+A1NjQxOTU4OSwxODk3NDMwOTY4LC0xMjA1Mzk1NzI0LC0xNTE2
+NDIxNTEwLDEwNDk0MDk5MzIsMTIxMzMxODIxMywtNDgzODc0Nz
+I2LDE0NjA3OTgxMzMsMTE0ODIxNTE5MSwtNDA5Mjk4NjgzLC02
+NDY1ODU5NjZdfQ==
 -->
