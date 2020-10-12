@@ -310,7 +310,7 @@ You can **return a `CreateAtRouteResult`** from your controller by using the `Cr
 - a dictionary-like `object` with keys defining the input values for the controller route
 - an object representing the data to be returned to the client on creation
 
-In the example below when a request is submitted to the `MakeResource` route and a new resource is saved, when using the `CreatedAtRoute` method the `nameof(GetResource)` resolves to a string that matches the `Name` property of the associated `HttpGet` for the resource and the object argument contains the associated 
+In the example below when a request is submitted to the `MakeResource` route and a new resource is saved, when using the `CreatedAtRoute` method the `nameof(GetResource)` resolves to a string that matches the `Name` property of the associated `HttpGet` for the resource and the object argument contains the associated data to be passed to the route.
 ```csharp
 [HttpPost]
 public ActionResult MakeResource(MyResource resource)
@@ -511,7 +511,7 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTE3OTc2MywtMTMwMDc5NzY2NywtMT
+eyJoaXN0b3J5IjpbLTc2MzYxMjY2MCwtMTMwMDc5NzY2NywtMT
 c1MDY1OTg2NCwtMjYyODc2NTM4LDg0MTEwNzI1MSw2MTE2Nzcw
 MjMsLTQ3NTc0MzYzNSwtMjA5MjQwNDcxNCwtMTIyOTAwODkwLD
 E5ODU2NzQwMDYsLTIwNTY0MTk1ODksMTg5NzQzMDk2OCwtMTIw
