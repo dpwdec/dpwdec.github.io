@@ -16,7 +16,7 @@ A **REST** API or **Representational State Transfer** API is a software routing 
 
 ## POST
 
-The **REST** specification states that **when returning a `201` created** for a resource your HTTP response should **return a URI to the location of the created resource**.
+The **REST** specification states that **when returning a `201` created status** for a resource, your HTTP response should **return a URI to the location of the created resource**.
 
 ## HATEOAS
 
@@ -60,6 +60,6 @@ However if the account is overdrawn then the state of the links returned by the 
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODExNjM4MjIsLTU2OTIxNjEwMCwtMT
-I3MjM2Mzk4M119
+eyJoaXN0b3J5IjpbLTE2MzQ2NTMwOTIsLTE5ODExNjM4MjIsLT
+U2OTIxNjEwMCwtMTI3MjM2Mzk4M119
 -->
