@@ -310,7 +310,7 @@ You can **return a `CreateAtRouteResult`** from your controller by using the `Cr
 - a dictionary-like `object` with keys defining the input values for the controller route
 - an object representing the data to be returned to the client on creation
 
-In the example below when a request is submitted to the `MakeResource` route and a new resource is saved, the `nameof(GetResource)` 
+In the example below when a request is submitted to the `MakeResource` route and a new resource is saved, when using the `CreatedAtRoute` method the `nameof(GetResource)` resolves to a string that matches the `Name` property of the associated `HttpGet` for the resource and the object argument contains the 
 ```csharp
 [HttpPost]
 public ActionResult MakeResource(MyResource resource)
@@ -511,11 +511,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDIwNzU4NzgsLTEzMDA3OTc2NjcsLT
-E3NTA2NTk4NjQsLTI2Mjg3NjUzOCw4NDExMDcyNTEsNjExNjc3
-MDIzLC00NzU3NDM2MzUsLTIwOTI0MDQ3MTQsLTEyMjkwMDg5MC
-wxOTg1Njc0MDA2LC0yMDU2NDE5NTg5LDE4OTc0MzA5NjgsLTEy
-MDUzOTU3MjQsLTE1MTY0MjE1MTAsMTA0OTQwOTkzMiwxMjEzMz
-E4MjEzLC00ODM4NzQ3MjYsMTQ2MDc5ODEzMywxMTQ4MjE1MTkx
-LC00MDkyOTg2ODNdfQ==
+eyJoaXN0b3J5IjpbOTc0NDkzOTM1LC0xMzAwNzk3NjY3LC0xNz
+UwNjU5ODY0LC0yNjI4NzY1MzgsODQxMTA3MjUxLDYxMTY3NzAy
+MywtNDc1NzQzNjM1LC0yMDkyNDA0NzE0LC0xMjI5MDA4OTAsMT
+k4NTY3NDAwNiwtMjA1NjQxOTU4OSwxODk3NDMwOTY4LC0xMjA1
+Mzk1NzI0LC0xNTE2NDIxNTEwLDEwNDk0MDk5MzIsMTIxMzMxOD
+IxMywtNDgzODc0NzI2LDE0NjA3OTgxMzMsMTE0ODIxNTE5MSwt
+NDA5Mjk4NjgzXX0=
 -->
