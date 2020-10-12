@@ -296,6 +296,10 @@ public IActionResult ForbiddenRoute()
 }
 ```
 
+### CreateAtRoute (201)
+
+
+
 ## Internal Domain Models and Data Transfer Objects
 
 **Sending back data directly from a class implementation** is **not recommended** because it couples the internal implementation of a class and its data with external access.
@@ -478,11 +482,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxMTA3MjUxLDYxMTY3NzAyMywtNDc1Nz
-QzNjM1LC0yMDkyNDA0NzE0LC0xMjI5MDA4OTAsMTk4NTY3NDAw
-NiwtMjA1NjQxOTU4OSwxODk3NDMwOTY4LC0xMjA1Mzk1NzI0LC
-0xNTE2NDIxNTEwLDEwNDk0MDk5MzIsMTIxMzMxODIxMywtNDgz
-ODc0NzI2LDE0NjA3OTgxMzMsMTE0ODIxNTE5MSwtNDA5Mjk4Nj
-gzLC02NDY1ODU5NjYsMTYzNjI5NzY4NiwtMTk1MDA3OTQ3Miwt
-OTY4Mzk2ODg3XX0=
+eyJoaXN0b3J5IjpbLTI2Mjg3NjUzOCw4NDExMDcyNTEsNjExNj
+c3MDIzLC00NzU3NDM2MzUsLTIwOTI0MDQ3MTQsLTEyMjkwMDg5
+MCwxOTg1Njc0MDA2LC0yMDU2NDE5NTg5LDE4OTc0MzA5NjgsLT
+EyMDUzOTU3MjQsLTE1MTY0MjE1MTAsMTA0OTQwOTkzMiwxMjEz
+MzE4MjEzLC00ODM4NzQ3MjYsMTQ2MDc5ODEzMywxMTQ4MjE1MT
+kxLC00MDkyOTg2ODMsLTY0NjU4NTk2NiwxNjM2Mjk3Njg2LC0x
+OTUwMDc5NDcyXX0=
 -->
