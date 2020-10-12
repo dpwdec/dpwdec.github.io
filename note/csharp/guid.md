@@ -4,7 +4,11 @@ layout: page
 exclude: true
 ---
 
-A `Guid` is a **globally unique identifier**. A `Guid` is a `128` bit integer with `5,316,911,983,139,663,491,615,228,241,121,400,000` possible unique combinations. A `Guid` **can be used to uniquely identify something in your system**, it has a very low probability of being replicated. A `Guid` can **only contain alphanumeric characters *and* the `-` hyphen character**.
+A `Guid` is a **globally unique identifier**. A `Guid` is a `128` bit integer with `5,316,911,983,139,663,491,615,228,241,121,400,000` possible unique combinations. 
+
+A `Guid` **can be used to uniquely identify something in your system**, it has a very low probability of being replicated. A `Guid` can **only contain alphanumeric characters *and* the `-` hyphen character**.
+
+Because the `Guid` has such a low chance of being replicated it is useful for systems that 
 
 You can **create a new `Guid`** by using the `static` method on the `Guid` class, `NewGuid()`. This will generate an entirely new random `Guid`. You **should not use the `new` keyword** to generate a `Guid`, doing so will result in an empty `Guid` with all characters set to `0`.
 ```csharp
@@ -14,5 +18,6 @@ var MyGuid = Guid.NewGuid();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODY3MDc1MSwxOTgyMjYyMjIzXX0=
+eyJoaXN0b3J5IjpbNTk2NTM1MzA1LDE4MTg2NzA3NTEsMTk4Mj
+I2MjIyM119
 -->
