@@ -153,10 +153,10 @@ public ActionResult<User> GetUser(int id, string name)
 }
 ```
 
-You can **give an HTTP route a name identifier** by using the `Name` property as an argument for the `[HttpX]` attribute (where `X` could be an arbitrary HTTP method).
+You can **give an HTTP route a name identifier** by using the `Name` property as an argument for the `[HttpX]` attribute (where `X` could be an arbitrary HTTP method). This name **can match exactly the name of the associated controller route method**, but it doesn't have to. This argument is useful for getting URI meta data about a route from its name, or specifying routes as part of the ASP framework.
 ```csharp
 [HttpGet("api", Name = "MyRoute")]
-public ActionResult<U
+public ActionResult<User> GetUsers() { ... }
 ```
 
 ### Get Routes
@@ -305,6 +305,7 @@ public IActionResult ForbiddenRoute()
 ### CreatedAtRoute (201)
 
 You can **return a `CreateAtRouteResult`** from your controller by using the `CreatedAtRoute()` method. This method takes:
+
 - a `string` URI to where the resource is located (usually a `GET` controller method)
 - a dictionary-like `object` with keys defining the input values for the controller route
 - an object representing the data to be returned to the client on creation
@@ -509,11 +510,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODM1NzQ2NjAsLTEzMDA3OTc2NjcsLT
-E3NTA2NTk4NjQsLTI2Mjg3NjUzOCw4NDExMDcyNTEsNjExNjc3
-MDIzLC00NzU3NDM2MzUsLTIwOTI0MDQ3MTQsLTEyMjkwMDg5MC
-wxOTg1Njc0MDA2LC0yMDU2NDE5NTg5LDE4OTc0MzA5NjgsLTEy
-MDUzOTU3MjQsLTE1MTY0MjE1MTAsMTA0OTQwOTkzMiwxMjEzMz
-E4MjEzLC00ODM4NzQ3MjYsMTQ2MDc5ODEzMywxMTQ4MjE1MTkx
-LC00MDkyOTg2ODNdfQ==
+eyJoaXN0b3J5IjpbNzgxMDA5Nzc4LC0xMzAwNzk3NjY3LC0xNz
+UwNjU5ODY0LC0yNjI4NzY1MzgsODQxMTA3MjUxLDYxMTY3NzAy
+MywtNDc1NzQzNjM1LC0yMDkyNDA0NzE0LC0xMjI5MDA4OTAsMT
+k4NTY3NDAwNiwtMjA1NjQxOTU4OSwxODk3NDMwOTY4LC0xMjA1
+Mzk1NzI0LC0xNTE2NDIxNTEwLDEwNDk0MDk5MzIsMTIxMzMxOD
+IxMywtNDgzODc0NzI2LDE0NjA3OTgxMzMsMTE0ODIxNTE5MSwt
+NDA5Mjk4NjgzXX0=
 -->
