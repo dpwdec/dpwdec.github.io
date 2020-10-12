@@ -305,7 +305,11 @@ You can **return a `CreateAtRouteResult`** from your controller by using the `Cr
 
 ```csharp
 [HttpPost]
-public ActionResult M
+public ActionResult MakeResource(MyResource resource)
+{
+  _database.Save(resource);
+  return CreatedAtRoute()
+}
 ```
 
 
@@ -491,11 +495,11 @@ You can **define the master layout for your application** by using the `_ViewSta
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAwMzYwNzU5LC0xNzUwNjU5ODY0LC0yNj
-I4NzY1MzgsODQxMTA3MjUxLDYxMTY3NzAyMywtNDc1NzQzNjM1
-LC0yMDkyNDA0NzE0LC0xMjI5MDA4OTAsMTk4NTY3NDAwNiwtMj
-A1NjQxOTU4OSwxODk3NDMwOTY4LC0xMjA1Mzk1NzI0LC0xNTE2
-NDIxNTEwLDEwNDk0MDk5MzIsMTIxMzMxODIxMywtNDgzODc0Nz
-I2LDE0NjA3OTgxMzMsMTE0ODIxNTE5MSwtNDA5Mjk4NjgzLC02
-NDY1ODU5NjZdfQ==
+eyJoaXN0b3J5IjpbMTA0MjM2OTQxMywtMTc1MDY1OTg2NCwtMj
+YyODc2NTM4LDg0MTEwNzI1MSw2MTE2NzcwMjMsLTQ3NTc0MzYz
+NSwtMjA5MjQwNDcxNCwtMTIyOTAwODkwLDE5ODU2NzQwMDYsLT
+IwNTY0MTk1ODksMTg5NzQzMDk2OCwtMTIwNTM5NTcyNCwtMTUx
+NjQyMTUxMCwxMDQ5NDA5OTMyLDEyMTMzMTgyMTMsLTQ4Mzg3ND
+cyNiwxNDYwNzk4MTMzLDExNDgyMTUxOTEsLTQwOTI5ODY4Mywt
+NjQ2NTg1OTY2XX0=
 -->
