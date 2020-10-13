@@ -1,4 +1,8 @@
-
+---
+title: Data Annotations
+layout: page
+exclude: true
+---
 
 Data Annotations can be used to **decorate your model class definitions** to specify what format the tables and columns for the tables are in. You can use Data Annotations by `using` the `ComponentModel.DataAnnotations` module.
 ```csharp
@@ -22,6 +26,8 @@ You can **specify the length of a character string field** using the `[MaxLength
 [MaxLength(250)]
 public string Message { get; set; }
 ```
+
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ5MzQxNjhdfQ==
+eyJoaXN0b3J5IjpbLTQ1NTU5NDk2M119
 -->
