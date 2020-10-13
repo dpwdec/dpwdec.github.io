@@ -109,17 +109,18 @@ It's worth not that **`[Required]` annotations for `int` validation will fail** 
 public class MyClass
 {
   [Required]
-  public string Name { get; set; }
+  public int Id { get; set; }
 }
 
 // validation code
 public bool IsValid()
 {
   var myClass = new MyClass();
-  return Validator.TryValidateObject(myClass, new ValidationContext(myClass)); // => false
+  // passes even though Id hasn't been explicitly initialised.
+  return Validator.TryValidateObject(myClass, new ValidationContext(myClass)); // => true
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1NTUxMDEsMjQzNzU4Njc1LDU1NzAzMT
-UwNF19
+eyJoaXN0b3J5IjpbLTk0NjI0MzgwOCwyNDM3NTg2NzUsNTU3MD
+MxNTA0XX0=
 -->
