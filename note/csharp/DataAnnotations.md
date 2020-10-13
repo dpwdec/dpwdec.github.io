@@ -31,7 +31,7 @@ public string Message { get; set; }
 
 You can **check that an object with data annotations was created correctly** using the `TryValidateObject` method on the `Validator` class. *This method has several overloaded forms*. 
 
-The simplest form takes the instance to be validated and a `ValidationContext` object and returns `true` or `false` depending on if all
+The simplest form takes the instance to be validated and a `ValidationContext` object and returns a `bool`.
 
 ```csharp
 // Data Annotated Class
@@ -49,8 +49,10 @@ var myClass = new MyClass();
 Validator.TryValidateObject(myClass, new ValidationContext(myClass)); // => False
 ```
 
+You can **get a list of me
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5MjMwMzk0LDI0Mzc1ODY3NSw1NTcwMz
-E1MDRdfQ==
+eyJoaXN0b3J5IjpbLTEwMjMzODY5MzcsMjQzNzU4Njc1LDU1Nz
+AzMTUwNF19
 -->
