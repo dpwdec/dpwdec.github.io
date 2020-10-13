@@ -31,17 +31,14 @@ public string Message { get; set; }
 
 You can **check that an object with data annotations was created correctly** using the `TryValidateObject` method on the `Validator` class. *This method has several overloaded forms*. 
 
-The simplest form takes the instance to be validated and a `ValidationContext` object and returns a `bool`.
-
+The simplest form takes the instance to be validated and a `ValidationContext` object and returns a `bool`. For a model like `MyClass`:
 ```csharp
-// Data Annotated Class
 public class MyClass
 {
   [Required]
   public string Name { get; set; }
 }
-
-public 
+```csharp
 // validation code
 using System.ComponentModel.DataAnnotations;
 
@@ -57,6 +54,6 @@ You can **get a list of messages detailing validation problems** by passing in a
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ5OTc0NDQsMjQzNzU4Njc1LDU1Nz
-AzMTUwNF19
+eyJoaXN0b3J5IjpbODIwNDMyODYyLDI0Mzc1ODY3NSw1NTcwMz
+E1MDRdfQ==
 -->
