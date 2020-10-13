@@ -45,7 +45,7 @@ using System.ComponentModel.DataAnnotations;
 public bool IsValid()
 {
   var myClass = new MyClass();
-  return Validator.TryValidateObject(myClass, new ValidationContext(myClass)); // => False
+  return Validator.TryValidateObject(myClass, new ValidationContext(myClass)); // => false
 }
 ```
 
@@ -61,7 +61,7 @@ foreach (var message in validationMessages)
 }
 ```
 
-By default **validation is only done on `[Required]` annotated fields**, other annotations, such as `[MaxLength]` are **not validated**.
+By default **validation is only done on `[Required]` annotated fields**, other annotations, such as `[MaxLength]` are **not validated**. In the example below, even though the `Name` field is set to greater than the max length validation still returns true and no problem is found.
 ```csharp
 public class MyClass
 {
@@ -75,12 +75,14 @@ using System.ComponentModel.DataAnnotations;
 public bool IsValid()
 {
   var myClass = new MyClass() {Name = "Pyiotr"};
-  return Validator.TryValidateObject(myClass, new ValidationContext(myClass)); // => False
+  return Validator.TryValidateObject(myClass, new ValidationContext(myClass)); // => true
 }
 ```
 
+To **check for other data annotation types** other than `[Required]` you need to set a `bool`ean flag `
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDk0ODUyNDcsMjQzNzU4Njc1LDU1Nz
+eyJoaXN0b3J5IjpbLTE4OTAwMDI1OTMsMjQzNzU4Njc1LDU1Nz
 AzMTUwNF19
 -->
