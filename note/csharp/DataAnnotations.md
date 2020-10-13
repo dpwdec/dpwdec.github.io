@@ -27,7 +27,9 @@ You can **specify the length of a character string field** using the `[MaxLength
 public string Message { get; set; }
 ```
 
-## 
+## Validation
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTU5NDk2M119
+eyJoaXN0b3J5IjpbNTU3MDMxNTA0XX0=
 -->
