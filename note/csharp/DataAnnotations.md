@@ -38,22 +38,25 @@ public class MyClass
   [Required]
   public string Name { get; set; }
 }
-```csharp
+
 // validation code
 using System.ComponentModel.DataAnnotations;
 
-var myClass = new MyClass();
-
-Validator.TryValidateObject(myClass, new ValidationContext(myClass)); // => False
+public bool IsValid()
+{
+  var myClass = new MyClass();
+  return Validator.TryValidateObject(myClass, new ValidationContext(myClass)); // => False
+}
 ```
 
 You can **get a list of messages detailing validation problems** by passing in an `IEnumerable<ValidationResult>` as an argument into `TryValidateObject`.
 ```csharp
-
+var myClass = new MyClass();
+var validationMessages = new List<ValidationResult>();
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwNDMyODYyLDI0Mzc1ODY3NSw1NTcwMz
+eyJoaXN0b3J5IjpbNDczNjEyNzgyLDI0Mzc1ODY3NSw1NTcwMz
 E1MDRdfQ==
 -->
