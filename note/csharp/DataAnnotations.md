@@ -108,8 +108,24 @@ public bool IsValid()
 
 ### Integer validation
 
-I
+It's worth not that **`[Required]` annotations for `int` validation will fail** because creating a new instance of an object that has an `int` property will initialise that property to `0`.
+```csharp
+public class MyClass
+{
+  [Required]
+  public string Name { get; set; }
+}
+
+// validation code
+using System.ComponentModel.DataAnnotations;
+
+public bool IsValid()
+{
+  var myClass = new MyClass();
+  return Validator.TryValidateObject(myClass, new ValidationContext(myClass)); // => false
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2NTEwMjQ4LDI0Mzc1ODY3NSw1NTcwMz
-E1MDRdfQ==
+eyJoaXN0b3J5IjpbLTk1OTk0MTQxNSwyNDM3NTg2NzUsNTU3MD
+MxNTA0XX0=
 -->
