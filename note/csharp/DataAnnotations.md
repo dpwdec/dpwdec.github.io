@@ -63,9 +63,24 @@ foreach (var message in validationMessages)
 
 By default **validation is only done on `[Required]` annotated fields**, other annotations, such as `[MaxLength]` are **not validated**.
 ```csharp
+public class MyClass
+{
+  [MaxLength(3)]
+  public string Name { get; set; }
+}
+
+// validation code
+using System.ComponentModel.DataAnnotations;
+
+public bool IsValid()
+{
+  var myClass = new MyClass() {Name = "Pyiotr"};
+  return Validator.TryValidateObject(myClass, new ValidationContext(myClass)); // => False
+}
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTEyNTIyNTMsMjQzNzU4Njc1LDU1Nz
+eyJoaXN0b3J5IjpbLTE1NDk0ODUyNDcsMjQzNzU4Njc1LDU1Nz
 AzMTUwNF19
 -->
