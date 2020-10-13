@@ -29,7 +29,7 @@ public string Message { get; set; }
 
 ## Validation
 
-
+You can **check that an object with data annotations was created correctly** using the `TryValidateObject` method on the `Validator` class. This method has several overloaded forms.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU3MDMxNTA0XX0=
+eyJoaXN0b3J5IjpbOTg1MDc1Mzk1LDU1NzAzMTUwNF19
 -->
