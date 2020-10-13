@@ -202,7 +202,13 @@ var myClass = new MyClass();
 myClass.distance; // => 40
 ```
 
-When an **object is created**
+When an **object is created** with an empty `int` field it automatically initialises the field to `0`.
+```csharp
+public class MyClass
+{
+  public inty
+}
+```
 
 ### This
 
@@ -555,11 +561,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyNDIwNDEzLDg0NDY0MTc4NSw5MDg0NT
-g5MjcsLTE5MjU0MjYwNzIsMTgzNzQ3MDU5MCwxODg3NjY2Njkz
-LC0xMTM1NDg4MjAyLC0zMTYxMTk1MDQsMTgzMzcwODc1OCw3Mz
-E1OTM2NDcsNDY5Nzc3NDYyLDkwNjI0MzU4LC0xNzIyMzk2ODk2
-LC0xNTU4MDAwMDYwLC00MDMyMjkyMzcsLTE2NTA4Nzc5MDEsLT
-EwMzMxNDgzMDksMTE4MDU3MDQ0NCwzOTE3MzI1MjIsLTE1Njg4
-ODkzMDFdfQ==
+eyJoaXN0b3J5IjpbLTMzMDY4Njg3OSw4MjI0MjA0MTMsODQ0Nj
+QxNzg1LDkwODQ1ODkyNywtMTkyNTQyNjA3MiwxODM3NDcwNTkw
+LDE4ODc2NjY2OTMsLTExMzU0ODgyMDIsLTMxNjExOTUwNCwxOD
+MzNzA4NzU4LDczMTU5MzY0Nyw0Njk3Nzc0NjIsOTA2MjQzNTgs
+LTE3MjIzOTY4OTYsLTE1NTgwMDAwNjAsLTQwMzIyOTIzNywtMT
+Y1MDg3NzkwMSwtMTAzMzE0ODMwOSwxMTgwNTcwNDQ0LDM5MTcz
+MjUyMl19
 -->
