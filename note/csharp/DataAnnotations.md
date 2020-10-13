@@ -49,7 +49,7 @@ public bool IsValid()
 }
 ```
 
-You can **get a list of messages detailing validation problems** by passing in an instance of `IEnumerable<ValidationResult>` as an argument into `TryValidateObject`. This will mutate the collection to add instances of `ValidationResult`. This collection can then be iterated through  that contain an `ErrorMessage` field that can iterated 
+You can **get a list of messages detailing validation problems** by passing in an instance of `IEnumerable<ValidationResult>` as an argument into `TryValidateObject`. This will mutate the collection to add instances of `ValidationResult`. This collection can then be iterated through and the `ErrorMessage` property of the `ValidationResult` printed.
 ```csharp
 var myClass = new MyClass();
 var validationMessages = new List<ValidationResult>();
@@ -61,8 +61,11 @@ foreach (var message in validationMessages)
 }
 ```
 
+By default **validation is only done on `[Required]` annotated fields**, other annotations, such as `[MaxLength]` are **not validated**.
+```csharp
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzkwMzg0NCwyNDM3NTg2NzUsNTU3MD
-MxNTA0XX0=
+eyJoaXN0b3J5IjpbLTE5NTEyNTIyNTMsMjQzNzU4Njc1LDU1Nz
+AzMTUwNF19
 -->
