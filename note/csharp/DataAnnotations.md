@@ -97,13 +97,18 @@ public bool IsValid()
 {
   var myClass = new MyClass();
   var validationMessages = new List<ValidationResult>();
-  Validator.TryValidateObject(myClass, new ValidationContext(myClass), validationMessages); // => true
+  Validator.TryValidateObject(
+    myClass, 
+    new ValidationContext(myClass), 
+    validationMessages, 
+    true
+  ); // => false
 }
 ```
 
 [1]: https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.validator.tryvalidateobject?view=netcore-3.1#System_ComponentModel_DataAnnotations_Validator_TryValidateObject_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_System_Collections_Generic_ICollection_System_ComponentModel_DataAnnotations_ValidationResult__System_Boolean_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTg1MTM0MCwyNDM3NTg2NzUsNTU3MD
+eyJoaXN0b3J5IjpbLTU4NjAxNTU5MSwyNDM3NTg2NzUsNTU3MD
 MxNTA0XX0=
 -->
