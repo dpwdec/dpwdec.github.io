@@ -80,9 +80,7 @@ public bool IsValid()
 }
 ```
 
-To **check for other data annotation types** other than `[Required]` you need to use another overloaded version of `TryValidateObject` with a `bool`ean flag [`validateAllProperties`][1] set to `true`.
-```csharp
-
+To **check for other data annotation types** other than `[Required]` you need to use another overloaded version of `TryValidateObject` with a `bool`ean flag [`validateAllProperties`][1] set to `true`. There is **no version of this overloaded method that does not *also* take an `IEnumerable`**.
 ```csharp
 public class MyClass
 {
@@ -108,7 +106,10 @@ public bool IsValid()
 
 [1]: https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.validator.tryvalidateobject?view=netcore-3.1#System_ComponentModel_DataAnnotations_Validator_TryValidateObject_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_System_Collections_Generic_ICollection_System_ComponentModel_DataAnnotations_ValidationResult__System_Boolean_
 
+### Integer validation
+
+I
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NjAxNTU5MSwyNDM3NTg2NzUsNTU3MD
-MxNTA0XX0=
+eyJoaXN0b3J5IjpbNjY2NTEwMjQ4LDI0Mzc1ODY3NSw1NTcwMz
+E1MDRdfQ==
 -->
