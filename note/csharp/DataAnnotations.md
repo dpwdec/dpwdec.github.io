@@ -102,6 +102,8 @@ public bool IsValid()
 
 [1]: https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.validator.tryvalidateobject?view=netcore-3.1#System_ComponentModel_DataAnnotations_Validator_TryValidateObject_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_System_Collections_Generic_ICollection_System_ComponentModel_DataAnnotations_ValidationResult__System_Boolean_
 
+In general
+
 ### Integer validation
 
 It's worth not that **`[Required]` annotations for `int` validation will fail** because creating a new instance of an object that has an `int` property will initialise that property to `0`.
@@ -120,7 +122,9 @@ public bool IsValid()
   return Validator.TryValidateObject(myClass, new ValidationContext(myClass)); // => true
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NjI0MzgwOCwyNDM3NTg2NzUsNTU3MD
-MxNTA0XX0=
+eyJoaXN0b3J5IjpbMTU1MjE5NjkxLC05NDYyNDM4MDgsMjQzNz
+U4Njc1LDU1NzAzMTUwNF19
 -->
