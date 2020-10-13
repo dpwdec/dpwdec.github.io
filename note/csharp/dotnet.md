@@ -202,6 +202,8 @@ var myClass = new MyClass();
 myClass.distance; // => 40
 ```
 
+When an **object is created**
+
 ### This
 
 Unlike many other languages **the `this` keyword is optional and contextual**. If you refer to a class field within the body of a class that is non-static it is assumed by the compiler to refer to the instance of the class. The `checkDistance` method below use the instance's `distance` property without prefacing it with `this`, *however*, it would also have been valid to use `this` before it to be specific as to its context.
@@ -553,11 +555,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0NjQxNzg1LDkwODQ1ODkyNywtMTkyNT
-QyNjA3MiwxODM3NDcwNTkwLDE4ODc2NjY2OTMsLTExMzU0ODgy
-MDIsLTMxNjExOTUwNCwxODMzNzA4NzU4LDczMTU5MzY0Nyw0Nj
-k3Nzc0NjIsOTA2MjQzNTgsLTE3MjIzOTY4OTYsLTE1NTgwMDAw
-NjAsLTQwMzIyOTIzNywtMTY1MDg3NzkwMSwtMTAzMzE0ODMwOS
-wxMTgwNTcwNDQ0LDM5MTczMjUyMiwtMTU2ODg4OTMwMSwtOTA3
-NjA4Mzc0XX0=
+eyJoaXN0b3J5IjpbODIyNDIwNDEzLDg0NDY0MTc4NSw5MDg0NT
+g5MjcsLTE5MjU0MjYwNzIsMTgzNzQ3MDU5MCwxODg3NjY2Njkz
+LC0xMTM1NDg4MjAyLC0zMTYxMTk1MDQsMTgzMzcwODc1OCw3Mz
+E1OTM2NDcsNDY5Nzc3NDYyLDkwNjI0MzU4LC0xNzIyMzk2ODk2
+LC0xNTU4MDAwMDYwLC00MDMyMjkyMzcsLTE2NTA4Nzc5MDEsLT
+EwMzMxNDgzMDksMTE4MDU3MDQ0NCwzOTE3MzI1MjIsLTE1Njg4
+ODkzMDFdfQ==
 -->
