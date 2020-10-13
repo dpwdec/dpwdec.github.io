@@ -53,10 +53,16 @@ You can **get a list of messages detailing validation problems** by passing in a
 ```csharp
 var myClass = new MyClass();
 var validationMessages = new List<ValidationResult>();
+Validator.TryValidateObject(myClass, new ValidationContext(myClass), validationMessages);
+
+foreach (var message in validationMessages)
+{
+  Console.WriteLine(message.ErrorMessage);
+}
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczNjEyNzgyLDI0Mzc1ODY3NSw1NTcwMz
-E1MDRdfQ==
+eyJoaXN0b3J5IjpbLTE3NDQxNTc3MTMsMjQzNzU4Njc1LDU1Nz
+AzMTUwNF19
 -->
