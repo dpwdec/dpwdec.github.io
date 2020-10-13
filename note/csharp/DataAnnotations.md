@@ -29,7 +29,18 @@ public string Message { get; set; }
 
 ## Validation
 
-You can **check that an object with data annotations was created correctly** using the `TryValidateObject` method on the `Validator` class. This method has several overloaded forms. The simplest form takes the instance to be 
+You can **check that an object with data annotations was created correctly** using the `TryValidateObject` method on the `Validator` class. This method has several overloaded forms. The simplest form takes the instance to be validated and a `ValidationContext` object.
+
+```csharp
+public class MyClass
+{
+  [Required]
+  public string Name { get; set; }
+}
+
+var myClass = new MyClass();
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDYzOTEzNyw1NTcwMzE1MDRdfQ==
+eyJoaXN0b3J5IjpbNzUzMzc0MTIwLDU1NzAzMTUwNF19
 -->
