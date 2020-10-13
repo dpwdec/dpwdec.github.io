@@ -70,8 +70,6 @@ public class MyClass
 }
 
 // validation code
-using System.ComponentModel.DataAnnotations;
-
 public bool IsValid()
 {
   var myClass = new MyClass();
@@ -89,8 +87,6 @@ public class MyClass
 }
 
 // validation code
-using System.ComponentModel.DataAnnotations;
-
 public bool IsValid()
 {
   var myClass = new MyClass();
@@ -117,8 +113,6 @@ public class MyClass
 }
 
 // validation code
-using System.ComponentModel.DataAnnotations;
-
 public bool IsValid()
 {
   var myClass = new MyClass();
@@ -126,6 +120,6 @@ public bool IsValid()
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTk0MTQxNSwyNDM3NTg2NzUsNTU3MD
-MxNTA0XX0=
+eyJoaXN0b3J5IjpbMzA1NTUxMDEsMjQzNzU4Njc1LDU1NzAzMT
+UwNF19
 -->
