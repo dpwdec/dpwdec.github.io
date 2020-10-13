@@ -79,10 +79,14 @@ public bool IsValid()
 }
 ```
 
-To **check for other data annotation types** other than `[Required]` you need to set a `bool`ean flag `
+To **check for other data annotation types** other than `[Required]` you need to set a `bool`ean flag [`validateAllProperties`][1] to `true`.
+```csharp
 
+```
+
+[1]: https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.validator.tryvalidateobject?view=netcore-3.1#System_ComponentModel_DataAnnotations_Validator_TryValidateObject_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_System_Collections_Generic_ICollection_System_ComponentModel_DataAnnotations_ValidationResult__System_Boolean_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAwMDI1OTMsMjQzNzU4Njc1LDU1Nz
-AzMTUwNF19
+eyJoaXN0b3J5IjpbMTY1MTEzMzc1MCwyNDM3NTg2NzUsNTU3MD
+MxNTA0XX0=
 -->
