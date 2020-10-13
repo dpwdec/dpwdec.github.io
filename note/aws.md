@@ -3,6 +3,13 @@ layout: page
 exclude: true
 title: aws
 ---
+
+## Instance Types
+
+### T
+
+Instances that start with a `T` are **small size instances**. The `T` unofficially stands for throttled, when too much traffic comes through then the instance will have its throughput throttled.
+
 ## Previewing Applications
 
 AWS's official local host previewing documentation can be found [here][awsPrevDocs]. Y
@@ -28,10 +35,7 @@ To set up a rails server to work on aws' `localhost` go to the `config/environme
 config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
-
-`T` instances are very small. The `T` unofficially stands for throttled.
-`T2` are being replaced by `T3`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTEzODc4MTcsLTI1MTk1NDcxNSwtNz
-cyMjE2MDc5LC0xNzE1NDYzOTI0XX0=
+eyJoaXN0b3J5IjpbLTMwNTMzNTU1NSwtMTQxMTM4NzgxNywtMj
+UxOTU0NzE1LC03NzIyMTYwNzksLTE3MTU0NjM5MjRdfQ==
 -->
