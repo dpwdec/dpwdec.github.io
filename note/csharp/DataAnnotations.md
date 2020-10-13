@@ -49,7 +49,7 @@ public bool IsValid()
 }
 ```
 
-You can **get a list of messages detailing validation problems** by passing in an `IEnumerable<ValidationResult>` as an argument into `TryValidateObject`.
+You can **get a list of messages detailing validation problems** by passing in an instance of `IEnumerable<ValidationResult>` as an argument into `TryValidateObject`. This will mutate the collection to add instances of `ValidationResult`. This collection can then be iterated through  that contain an `ErrorMessage` field that can iterated 
 ```csharp
 var myClass = new MyClass();
 var validationMessages = new List<ValidationResult>();
@@ -57,12 +57,12 @@ Validator.TryValidateObject(myClass, new ValidationContext(myClass), validationM
 
 foreach (var message in validationMessages)
 {
-  Console.WriteLine(message.ErrorMessage);
+  Console.WriteLine(message.ErrorMessage); // => "The Name field is required."
 }
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQxNTc3MTMsMjQzNzU4Njc1LDU1Nz
-AzMTUwNF19
+eyJoaXN0b3J5IjpbMTgxMzkwMzg0NCwyNDM3NTg2NzUsNTU3MD
+MxNTA0XX0=
 -->
