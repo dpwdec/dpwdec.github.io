@@ -74,19 +74,36 @@ using System.ComponentModel.DataAnnotations;
 
 public bool IsValid()
 {
-  var myClass = new MyClass() {Name = "Pyiotr"};
-  return Validator.TryValidateObject(myClass, new ValidationContext(myClass)); // => true
+  var myClass = new MyClass();
+  var validationMessages = new List<ValidationResult>();
+  Validator.TryValidateObject(myClass, new ValidationContext(myClass), validationMessages); // => true
 }
 ```
 
-To **check for other data annotation types** other than `[Required]` you need to set a `bool`ean flag [`validateAllProperties`][1] to `true`.
+To **check for other data annotation types** other than `[Required]` you need to use another overloaded version of `TryValidateObject` with a `bool`ean flag [`validateAllProperties`][1] set to `true`.
 ```csharp
 
+```csharp
+public class MyClass
+{
+  [MaxLength(3)]
+  public string Name { get; set; }
+}
+
+// validation code
+using System.ComponentModel.DataAnnotations;
+
+public bool IsValid()
+{
+  var myClass = new MyClass();
+  var validationMessages = new List<ValidationResult>();
+  Validator.TryValidateObject(myClass, new ValidationContext(myClass), validationMessages); // => true
+}
 ```
 
 [1]: https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.validator.tryvalidateobject?view=netcore-3.1#System_ComponentModel_DataAnnotations_Validator_TryValidateObject_System_Object_System_ComponentModel_DataAnnotations_ValidationContext_System_Collections_Generic_ICollection_System_ComponentModel_DataAnnotations_ValidationResult__System_Boolean_
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTEzMzc1MCwyNDM3NTg2NzUsNTU3MD
+eyJoaXN0b3J5IjpbMTgzNTg1MTM0MCwyNDM3NTg2NzUsNTU3MD
 MxNTA0XX0=
 -->
