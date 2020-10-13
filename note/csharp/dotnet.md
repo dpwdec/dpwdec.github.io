@@ -206,7 +206,7 @@ When an **object is created** with an empty `int` field it automatically initial
 ```csharp
 public class MyClass
 {
-  public inty
+  public int 
 }
 ```
 
@@ -561,11 +561,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDY4Njg3OSw4MjI0MjA0MTMsODQ0Nj
-QxNzg1LDkwODQ1ODkyNywtMTkyNTQyNjA3MiwxODM3NDcwNTkw
-LDE4ODc2NjY2OTMsLTExMzU0ODgyMDIsLTMxNjExOTUwNCwxOD
-MzNzA4NzU4LDczMTU5MzY0Nyw0Njk3Nzc0NjIsOTA2MjQzNTgs
-LTE3MjIzOTY4OTYsLTE1NTgwMDAwNjAsLTQwMzIyOTIzNywtMT
-Y1MDg3NzkwMSwtMTAzMzE0ODMwOSwxMTgwNTcwNDQ0LDM5MTcz
-MjUyMl19
+eyJoaXN0b3J5IjpbLTE3ODAzOTUzODQsLTMzMDY4Njg3OSw4Mj
+I0MjA0MTMsODQ0NjQxNzg1LDkwODQ1ODkyNywtMTkyNTQyNjA3
+MiwxODM3NDcwNTkwLDE4ODc2NjY2OTMsLTExMzU0ODgyMDIsLT
+MxNjExOTUwNCwxODMzNzA4NzU4LDczMTU5MzY0Nyw0Njk3Nzc0
+NjIsOTA2MjQzNTgsLTE3MjIzOTY4OTYsLTE1NTgwMDAwNjAsLT
+QwMzIyOTIzNywtMTY1MDg3NzkwMSwtMTAzMzE0ODMwOSwxMTgw
+NTcwNDQ0XX0=
 -->
