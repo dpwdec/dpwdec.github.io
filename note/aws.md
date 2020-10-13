@@ -28,8 +28,9 @@ To set up a rails server to work on aws' `localhost` go to the `config/environme
 config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
-> Written with [StackEdit](https://stackedit.io/).
+
+`T` instances are very small. The `T` unofficially stands for throttled.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTk1NDcxNSwtNzcyMjE2MDc5LC0xNz
-E1NDYzOTI0XX0=
+eyJoaXN0b3J5IjpbMTEzOTI4NTAxMCwtMjUxOTU0NzE1LC03Nz
+IyMTYwNzksLTE3MTU0NjM5MjRdfQ==
 -->
