@@ -41,6 +41,7 @@ public class MyClass
   public string Name { get; set; }
 }
 
+public 
 // validation code
 using System.ComponentModel.DataAnnotations;
 
@@ -49,10 +50,13 @@ var myClass = new MyClass();
 Validator.TryValidateObject(myClass, new ValidationContext(myClass)); // => False
 ```
 
-You can **get a list of me
+You can **get a list of messages detailing validation problems** by passing in an `IEnumerable<ValidationResult>` as an argument into `TryValidateObject`.
+```csharp
+
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjMzODY5MzcsMjQzNzU4Njc1LDU1Nz
+eyJoaXN0b3J5IjpbLTE3NjQ5OTc0NDQsMjQzNzU4Njc1LDU1Nz
 AzMTUwNF19
 -->
