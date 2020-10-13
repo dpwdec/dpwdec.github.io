@@ -30,7 +30,8 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
  
 
 `T` instances are very small. The `T` unofficially stands for throttled.
+`T2` are being replaced by `T3`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTI4NTAxMCwtMjUxOTU0NzE1LC03Nz
-IyMTYwNzksLTE3MTU0NjM5MjRdfQ==
+eyJoaXN0b3J5IjpbLTE0MTEzODc4MTcsLTI1MTk1NDcxNSwtNz
+cyMjE2MDc5LC0xNzE1NDYzOTI0XX0=
 -->
