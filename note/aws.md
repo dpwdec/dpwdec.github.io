@@ -4,6 +4,8 @@ exclude: true
 title: aws
 ---
 
+
+
 ## Instance Types
 
 ### T
@@ -36,6 +38,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTMzNTU1NSwtMTQxMTM4NzgxNywtMj
-UxOTU0NzE1LC03NzIyMTYwNzksLTE3MTU0NjM5MjRdfQ==
+eyJoaXN0b3J5IjpbLTY3NTI4OTk5LC0zMDUzMzU1NTUsLTE0MT
+EzODc4MTcsLTI1MTk1NDcxNSwtNzcyMjE2MDc5LC0xNzE1NDYz
+OTI0XX0=
 -->
