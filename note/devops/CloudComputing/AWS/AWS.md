@@ -6,9 +6,17 @@ title: aws
 
 You can **find exam white papers / curriculum** by going to the landing page for the "AWS Certified Cloud Practitioner" page then going to `AWS Certification -> Exam Preparation` then expanding the `+` on "Foundational-level AWS Certification" and expanding the `Read AWS whitepapers and FAQs`.
 
-## Global Infrastructure
+## Services
 
-For the **purposes of the Cloud Practitioner Exam**
+For the **purposes of the Cloud Practitioner Exam** you need to know about the following services offered by AWS:
+
+- AWS Cost Management
+- Security, Identity & Compliance
+- Databases
+- Network & Content Delivery
+- Storage
+- Migration & Transfer
+- Compute
 
 ## Instance Types
 
@@ -42,5 +50,5 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU5MjM4NDddfQ==
+eyJoaXN0b3J5IjpbLTc1MjYxNjUxXX0=
 -->
