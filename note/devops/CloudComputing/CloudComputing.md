@@ -19,7 +19,8 @@ The **advantages of cloud computing**:
 
 There are **three types of cloud computing**:
 
-1. 
+1. **Infrastructure as a Service** (IaaS): This is where the service itself has no access to your server, they simply give you the infrastructure and you manage the operating system etc. An *example of this* would be the `EC2` instance.
+2. **Plat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjYyNTUyNl19
+eyJoaXN0b3J5IjpbLTE4MDczMzU1NjNdfQ==
 -->
