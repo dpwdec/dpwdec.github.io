@@ -6,6 +6,14 @@ exclude: true
 
 Swagger is a service that allows you to generate API documentation programmatically from `YAML` or `JSON`.
 
+## Parameters
+
+You can **define a list of parameters** by using the `paramters` tag and listing each parameter with a `-` hyphen before it.
+```yaml
+parameters:
+  -
+```
+
 ## ReDoc
 
 ReDoc is a service built on top of Swagger that allows you to turn Swagger specs easily into HTML.
@@ -17,5 +25,6 @@ $ npx redoc-cli bundle <spec file>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODE1MDE2MywyMzI4MzEwNjVdfQ==
+eyJoaXN0b3J5IjpbMTg1NTA1MzY1NSwtODM4MTUwMTYzLDIzMj
+gzMTA2NV19
 -->
