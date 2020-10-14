@@ -16,7 +16,12 @@ The **advantages of cloud computing**:
 2. **Benefit from economies of scale**: because Amazon have so many server resources you would never able to find cheaper compute from your own infrastructure.
 3. **Stop guessing about capacity**: provisioning your own servers can cause problems with under-utilized or over-utilized infrastructure, by making use of granular scaling you can use exactly the capacity you need. *(Similar to 1?)*
 4. **Increase speed and agility**: Using serverless architecture you can scale infinitely and not have any servers or virtual machines running.
-5. **Stop sopending money
+5. **Stop spending money running and maintaining data centres**: You don't have to pay for maintaining any infrastructure yourself, only the configuration of that infrastructure.
+6. **Go global in minutes**: Easily deploy your application in multiple regions
+
+## Cloud Computing Types
+
+
 
 ## Instance Types
 
@@ -50,7 +55,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk5NTQ0Nzk5LC0zMDUzMzU1NTUsLTE0MT
-EzODc4MTcsLTI1MTk1NDcxNSwtNzcyMjE2MDc5LC0xNzE1NDYz
-OTI0XX0=
+eyJoaXN0b3J5IjpbLTExOTg5MTkyMjksLTMwNTMzNTU1NSwtMT
+QxMTM4NzgxNywtMjUxOTU0NzE1LC03NzIyMTYwNzksLTE3MTU0
+NjM5MjRdfQ==
 -->
