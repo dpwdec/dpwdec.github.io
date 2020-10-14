@@ -29,7 +29,9 @@ There are **three types of cloud computing deployments**:
 
 1. **Public Cloud**: AWS, Azure and GCP
 2. **Hybrid**: Mixture of public and private. *Example*: public website on the public cloud with data stored on a personal server.
-3. **Private Cloud**: You manage your cloud
+3. **Private Cloud**: You manage your cloud infrastructure in a data centre. *Example*: Openstack or Vmware.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzI5OTQ0MDNdfQ==
+eyJoaXN0b3J5IjpbLTE4NjQxMDYzNThdfQ==
 -->
