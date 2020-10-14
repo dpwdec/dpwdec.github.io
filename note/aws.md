@@ -8,7 +8,11 @@ You can **find exam white papers / curriculum** by going to the landing page for
 
 ## Cloud Computing
 
-Cloud computing is **on-de
+Cloud computing is **on-demand delivery of compute, database storage and applications via the internet**. Essentially you are **just renting someone else's computer**.
+
+The **advantages of cloud computing**:
+
+1. **Trade capital expense for variable expense**
 
 ## Instance Types
 
@@ -42,7 +46,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEzNzg2NTU3LC0zMDUzMzU1NTUsLTE0MT
-EzODc4MTcsLTI1MTk1NDcxNSwtNzcyMjE2MDc5LC0xNzE1NDYz
-OTI0XX0=
+eyJoaXN0b3J5IjpbLTIxMTYyMTY3NSwtMzA1MzM1NTU1LC0xND
+ExMzg3ODE3LC0yNTE5NTQ3MTUsLTc3MjIxNjA3OSwtMTcxNTQ2
+MzkyNF19
 -->
