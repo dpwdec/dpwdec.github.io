@@ -11,11 +11,13 @@ Swagger is a service that allows you to generate API documentation programmatica
 You can **define a list of parameters** by using the `paramters` tag and listing each parameter with a `-` hyphen before it. *It doesn't seem like there are any required fields for this list of information about a parameter*.
 ```yaml
 parameters:
-  - in: query
+  - in: query # first properties do not have to be consistent
     name: userId
     required: true
     type: integer
-  - name: 
+  - name: globalId
+    required: false
+    type: integer
 ```
 
 ## ReDoc
@@ -29,6 +31,6 @@ $ npx redoc-cli bundle <spec file>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5NTA1NjY1LC04MzgxNTAxNjMsMjMyOD
-MxMDY1XX0=
+eyJoaXN0b3J5IjpbLTE0NTQxODQ0NDUsLTgzODE1MDE2MywyMz
+I4MzEwNjVdfQ==
 -->
