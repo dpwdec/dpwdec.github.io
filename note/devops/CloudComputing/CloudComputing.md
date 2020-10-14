@@ -23,7 +23,13 @@ There are **three types of cloud computing**:
 2. **Platform as a Service** (PaaS): The service manages operating systems, hardware as well as updates and maintenance, the client just focuses on managing their applications.
 3. **Software as a Service** (SaaS): The service manages everything apart from the actual way you use the software.
 
-## Cloud Compu
+## Cloud Computing Deployments
+
+There are **three types of cloud computing deployments**:
+
+1. **Public Cloud**: AWS, Azure and GCP
+2. **Hybrid**: Mixture of public and private. *Example*: public website on the public cloud with data stored on a personal server.
+3. **Private Cloud**: You manage your cloud
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE1NDk1ODFdfQ==
+eyJoaXN0b3J5IjpbLTIwMzI5OTQ0MDNdfQ==
 -->
