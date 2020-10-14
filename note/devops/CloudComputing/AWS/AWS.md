@@ -8,7 +8,7 @@ You can **find exam white papers / curriculum** by going to the landing page for
 
 ## Global Infrastructure
 
-
+For the **purposes of the Cloud Practitioner Exam**
 
 ## Instance Types
 
@@ -42,5 +42,5 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDAxMDc4XX0=
+eyJoaXN0b3J5IjpbLTIwNDU5MjM4NDddfQ==
 -->
