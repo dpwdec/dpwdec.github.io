@@ -12,7 +12,9 @@ Cloud computing is **on-demand delivery of compute, database storage and applica
 
 The **advantages of cloud computing**:
 
-1. **Trade capital expense for variable expense**
+1. **Trade capital expense for variable expense**: don't have to invest in infrastructure, *only pay for what you use*.
+2. **Benefit from economies of scale**: because Amazon have so many server resources you would never able to find cheaper compute from your own infrastructure.
+3. 
 
 ## Instance Types
 
@@ -46,7 +48,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTYyMTY3NSwtMzA1MzM1NTU1LC0xND
-ExMzg3ODE3LC0yNTE5NTQ3MTUsLTc3MjIxNjA3OSwtMTcxNTQ2
-MzkyNF19
+eyJoaXN0b3J5IjpbLTEyMDc2NzI4NzUsLTMwNTMzNTU1NSwtMT
+QxMTM4NzgxNywtMjUxOTU0NzE1LC03NzIyMTYwNzksLTE3MTU0
+NjM5MjRdfQ==
 -->
