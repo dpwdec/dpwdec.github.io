@@ -6,6 +6,10 @@ title: aws
 
 You can **find exam white papers / curriculum** by going to the landing page for the "AWS Certified Cloud Practitioner" page then going to `AWS Certification -> Exam Preparation` then expanding the `+` on "Foundational-level AWS Certification" and expanding the `Read AWS whitepapers and FAQs`.
 
+## Cloud Computing
+
+Cloud computing is **on-de
+
 ## Instance Types
 
 ### T
@@ -38,7 +42,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxNTkwNTI2LC0zMDUzMzU1NTUsLTE0MT
+eyJoaXN0b3J5IjpbODEzNzg2NTU3LC0zMDUzMzU1NTUsLTE0MT
 EzODc4MTcsLTI1MTk1NDcxNSwtNzcyMjE2MDc5LC0xNzE1NDYz
 OTI0XX0=
 -->
