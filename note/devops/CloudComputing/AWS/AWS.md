@@ -6,20 +6,7 @@ title: aws
 
 You can **find exam white papers / curriculum** by going to the landing page for the "AWS Certified Cloud Practitioner" page then going to `AWS Certification -> Exam Preparation` then expanding the `+` on "Foundational-level AWS Certification" and expanding the `Read AWS whitepapers and FAQs`.
 
-## Cloud Computing
-
-Cloud computing is **on-demand delivery of compute, database storage and applications via the internet**. Essentially you are **just renting someone else's computer**.
-
-The **advantages of cloud computing**:
-
-1. **Trade capital expense for variable expense**: don't have to invest in infrastructure, *only pay for what you use*.
-2. **Benefit from economies of scale**: because Amazon have so many server resources you would never able to find cheaper compute from your own infrastructure.
-3. **Stop guessing about capacity**: provisioning your own servers can cause problems with under-utilized or over-utilized infrastructure, by making use of granular scaling you can use exactly the capacity you need. *(Similar to 1?)*
-4. **Increase speed and agility**: Using serverless architecture you can scale infinitely and not have any servers or virtual machines running.
-5. **Stop spending money running and maintaining data centres**: You don't have to pay for maintaining any infrastructure yourself, only the configuration of that infrastructure.
-6. **Go global in minutes**: Easily deploy your application in multiple regions
-
-## Cloud Computing Types
+## Global Infrastructure
 
 
 
@@ -55,5 +42,5 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTg5MTkyMjldfQ==
+eyJoaXN0b3J5IjpbMTQyNDAxMDc4XX0=
 -->
