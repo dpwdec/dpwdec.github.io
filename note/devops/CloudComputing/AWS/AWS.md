@@ -13,10 +13,12 @@ For the **purposes of the Cloud Practitioner Exam** you need to know about the f
 - AWS Cost Management
 - Security, Identity & Compliance
 - Databases
-- Network & Content Delivery
+- ~~Network & Content Delivery~~
 - Storage
-- Migration & Transfer
+- ~~Migration & Transfer~~
 - Compute
+
+*Crossed out services are still technically required but less important*.
 
 ## Instance Types
 
@@ -50,5 +52,5 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MjYxNjUxXX0=
+eyJoaXN0b3J5IjpbNjI0NTk0NTA5XX0=
 -->
