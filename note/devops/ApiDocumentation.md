@@ -12,10 +12,10 @@ ReDoc is a service built on top of Swagger that allows you to turn Swagger specs
 
 You can **generate a zero dependency HTML file for your spec** by using the `redoc-cli` command with the `bundle` utility.
 ```bash
-$ npx redoc-cli bundle <SPEC FILE>
+$ npx redoc-cli bundle <spec file>
 ``` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTc5OTc4OSwyMzI4MzEwNjVdfQ==
+eyJoaXN0b3J5IjpbLTgzODE1MDE2MywyMzI4MzEwNjVdfQ==
 -->
