@@ -4,7 +4,7 @@ exclude: true
 title: aws
 ---
 
-
+You can **find exam white papers** by going to the landing page for the "AWS Certified Cloud Practitioner" page then going to `AWS Certification -> Exam Preparation`
 
 ## Instance Types
 
@@ -38,7 +38,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTI4OTk5LC0zMDUzMzU1NTUsLTE0MT
-EzODc4MTcsLTI1MTk1NDcxNSwtNzcyMjE2MDc5LC0xNzE1NDYz
-OTI0XX0=
+eyJoaXN0b3J5IjpbLTU1ODIwNzA2NywtMzA1MzM1NTU1LC0xND
+ExMzg3ODE3LC0yNTE5NTQ3MTUsLTc3MjIxNjA3OSwtMTcxNTQ2
+MzkyNF19
 -->
