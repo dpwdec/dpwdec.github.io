@@ -54,6 +54,16 @@ There are three main factors to consider where choosing an AWS region for your s
 - **Latency to end users**: where are the majority of your customers located?
 - **Availability of AWS Services**: US-East-1 is the primary AWS region and is always the first to get new features, which are then released in other regions. The newest services are always available in Northern Virginia.
 
+
+## AWS Support Packages
+
+There are **four tiers of support package**:
+
+- **Basic** - Free
+- **Developer** - $29 a month (12-24 support turn around)
+- **Business** - $100/month 
+- **Enterprise** -
+
 ## Instance Types
 
 ### T
@@ -86,6 +96,6 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjIzNzUzNzIsLTQ5Mjc1ODEzNCwtMj
-IyNDI2NDc5LDYyNDU5NDUwOV19
+eyJoaXN0b3J5IjpbLTE2NzUxNjMwNSwtNDkyNzU4MTM0LC0yMj
+I0MjY0NzksNjI0NTk0NTA5XX0=
 -->
