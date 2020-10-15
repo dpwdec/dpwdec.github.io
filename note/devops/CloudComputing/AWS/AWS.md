@@ -64,7 +64,7 @@ There are **four tiers of support package**:
 - **Business** - $100/month 
 - **Enterprise** - $15,000/month (Gives access to a TAM - Technical Amount Manager)
 
-
+3
 
 ## Instance Types
 
@@ -98,6 +98,6 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDY5ODIzNjgsLTQ5Mjc1ODEzNCwtMj
-IyNDI2NDc5LDYyNDU5NDUwOV19
+eyJoaXN0b3J5IjpbLTQyNjY3MTM1NywtMTY0Njk4MjM2OCwtND
+kyNzU4MTM0LC0yMjI0MjY0NzksNjI0NTk0NTA5XX0=
 -->
