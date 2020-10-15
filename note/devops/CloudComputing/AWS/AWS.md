@@ -22,7 +22,7 @@ For the **purposes of the Cloud Practitioner Exam** you need to know about the f
 
 ## AWS Global Infrastructure
 
-AWS Infrastructure is structured using **regions** and **availability zones**.
+AWS Infrastructure is structured using **regions**, **availability zones** and **edge locations**.
 
 An **availability zone** is the equivalent of a data center. It can also be a group of data centers that are geographically co-located, but these are still counted as 1 availability zone.
 
@@ -34,7 +34,7 @@ There are `GovCloud` regions in North America that are used by the US federal go
 2. Pass a screening process
 3. Only use US citizens or green card holders to hold root access to accounts
 
-An **edge location** is an AWS endpoint used for caching content from `CloudFront`
+An **edge location** is a physical AWS endpoint used for caching content from `CloudFront` (Amazon's content delivery network). For example, if I live in London somewhere far away from an Amazon data center and then download a file from a 
 
 ## Instance Types
 
@@ -68,5 +68,5 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTU5NTkwNyw2MjQ1OTQ1MDldfQ==
+eyJoaXN0b3J5IjpbMTUyNjExNzE2Nyw2MjQ1OTQ1MDldfQ==
 -->
