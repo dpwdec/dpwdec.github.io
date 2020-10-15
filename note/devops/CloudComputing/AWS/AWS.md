@@ -64,7 +64,11 @@ There are **four tiers of support package**:
 - **Business** - $100/month 
 - **Enterprise** - $15,000/month (Gives access to a TAM - Technical Amount Manager)
 
-3
+## CloudWatch
+
+You can **find CloudWatch** in `Services -> Management and Governance -> CloudWatch`.
+
+
 
 ## Instance Types
 
@@ -98,6 +102,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNjY3MTM1NywtMTY0Njk4MjM2OCwtND
-kyNzU4MTM0LC0yMjI0MjY0NzksNjI0NTk0NTA5XX0=
+eyJoaXN0b3J5IjpbLTE0MTUxNTc0NywtNDI2NjcxMzU3LC0xNj
+Q2OTgyMzY4LC00OTI3NTgxMzQsLTIyMjQyNjQ3OSw2MjQ1OTQ1
+MDldfQ==
 -->
