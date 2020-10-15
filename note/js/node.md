@@ -79,7 +79,10 @@ $ npm unlink
 
 ## npx
 
-The `npx` command temporarily 
+The `npx` command temporarily downloads a package and runs it.
+```bash
+$ npx cowsay I AM COW
+```
 
 ## fs
 
@@ -186,6 +189,6 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5ODg3NTc5LC0xMzYzNDc1NzQxLC0xMD
-EwOTUxNzddfQ==
+eyJoaXN0b3J5IjpbLTE0MjM5MzY3NjUsLTEzNjM0NzU3NDEsLT
+EwMTA5NTE3N119
 -->
