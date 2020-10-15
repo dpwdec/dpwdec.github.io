@@ -42,10 +42,11 @@ There are **always more edge locations than regions**.
 
 ### Choosing AWS Region
 
-Choosing an AWS region can be based on a variety of factors:
+There are three main factors to consider where cho
 
 - **Data Sovereignty laws**: where does the data needs to reside legally?
-- **Latency to end users**: 
+- **Latency to end users**: where are the majority of your customers located?
+- **Availability of AWS Services**: US-East-1 is the primary AWS region and is always the first to get new features, which are then released in other regions.
 
 ## Instance Types
 
@@ -79,5 +80,5 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzU4NzQ4NDQsNjI0NTk0NTA5XX0=
+eyJoaXN0b3J5IjpbLTExODgwMDA3MTYsNjI0NTk0NTA5XX0=
 -->
