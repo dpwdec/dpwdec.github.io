@@ -40,6 +40,8 @@ There are `GovCloud` regions in North America that are used by the US federal go
 
 **Europe, Middle East and Africa** are all grouped into a **single region**.
 
+### Edge Locations
+
 An **edge location** is a physical AWS endpoint used for caching content from `CloudFront` (Amazon's content delivery network). For example, if I live somewhere far away from an Amazon data center and then download a file from the other side of the world, it can take a long time, however, for future access Amazon will cache this file at an **edge location** for easy access in the future.
 
 There are **always more edge locations than regions**.
@@ -84,6 +86,6 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDY0MzU0NCwtNDkyNzU4MTM0LC0yMj
-I0MjY0NzksNjI0NTk0NTA5XX0=
+eyJoaXN0b3J5IjpbLTIxMjIzNzUzNzIsLTQ5Mjc1ODEzNCwtMj
+IyNDI2NDc5LDYyNDU5NDUwOV19
 -->
