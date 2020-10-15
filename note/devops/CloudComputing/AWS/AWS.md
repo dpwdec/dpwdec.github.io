@@ -68,7 +68,12 @@ There are **four tiers of support package**:
 
 You can **access CloudWatch** in `Services -> Management and Governance -> CloudWatch`.
 
-You can **create a billing alarm** by going to `Alarm (Left Menu) -> Billing` on the CloudWatch landing page.
+You can **create a billing alarm** by:
+
+1. Going to `Alarm (Left Menu) -> Billing` on the CloudWatch landing page
+2. Click o *LOWER* `Create Alarm` button.
+
+
 
 
 
@@ -104,7 +109,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDQ2NjQwLC00MjY2NzEzNTcsLTE2ND
-Y5ODIzNjgsLTQ5Mjc1ODEzNCwtMjIyNDI2NDc5LDYyNDU5NDUw
-OV19
+eyJoaXN0b3J5IjpbLTIwMTczMTcyODQsLTg3MDQ2NjQwLC00Mj
+Y2NzEzNTcsLTE2NDY5ODIzNjgsLTQ5Mjc1ODEzNCwtMjIyNDI2
+NDc5LDYyNDU5NDUwOV19
 -->
