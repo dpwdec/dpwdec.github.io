@@ -24,6 +24,8 @@ For the **purposes of the Cloud Practitioner Exam** you need to know about the f
 
 AWS Infrastructure is structured using **regions** and **availability zones**.
 
+An **availability zone** is the equivalent of a data center. It can also be a 
+
 A **region** 
 
 ## Instance Types
@@ -58,5 +60,5 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1ODExNzM2LDYyNDU5NDUwOV19
+eyJoaXN0b3J5IjpbMTU5MzQ0NTY2MCw2MjQ1OTQ1MDldfQ==
 -->
