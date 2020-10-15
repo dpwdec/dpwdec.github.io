@@ -28,6 +28,13 @@ An **availability zone** is the equivalent of a data center. It can also be a gr
 
 A **region** is a **geographical area that contains two or more availability zones**.
 
+There are `GovCloud` regions in North America that are used by governments and private entities. However private entities that use these regions must:
+
+1. Be based on the in US
+2. Only use US citizens to access the data centers
+
+
+
 ## Instance Types
 
 ### T
@@ -60,5 +67,5 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQzODYwMjUsNjI0NTk0NTA5XX0=
+eyJoaXN0b3J5IjpbMTAxNzMzODk4NCw2MjQ1OTQ1MDldfQ==
 -->
