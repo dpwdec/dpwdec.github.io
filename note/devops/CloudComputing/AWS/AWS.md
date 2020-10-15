@@ -20,6 +20,10 @@ For the **purposes of the Cloud Practitioner Exam** you need to know about the f
 
 *Crossed out services are still technically required but less important*.
 
+## AWS Global Infrastructure
+
+
+
 ## Instance Types
 
 ### T
@@ -52,5 +56,5 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0NTk0NTA5XX0=
+eyJoaXN0b3J5IjpbMTEzNTg5NjA0MCw2MjQ1OTQ1MDldfQ==
 -->
