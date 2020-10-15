@@ -84,6 +84,9 @@ The `Period` property controls **how often the alarm checks to see whether it sh
 
 `SNS` - *Simple Notification Service*
 
+## Identity Access Management
+
+**Identity Access Management** allows you create acc
 
 
 
@@ -120,7 +123,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTIzNjU2OSwxMzM0OTE2NTk2LC04Nz
-A0NjY0MCwtNDI2NjcxMzU3LC0xNjQ2OTgyMzY4LC00OTI3NTgx
-MzQsLTIyMjQyNjQ3OSw2MjQ1OTQ1MDldfQ==
+eyJoaXN0b3J5IjpbMjA5ODY1MTU4NywtMzI1MjM2NTY5LDEzMz
+Q5MTY1OTYsLTg3MDQ2NjQwLC00MjY2NzEzNTcsLTE2NDY5ODIz
+NjgsLTQ5Mjc1ODEzNCwtMjIyNDI2NDc5LDYyNDU5NDUwOV19
 -->
