@@ -28,13 +28,13 @@ An **availability zone** is the equivalent of a data center. It can also be a gr
 
 A **region** is a **geographical area that contains two or more availability zones**.
 
-There are `GovCloud` regions in North America that are used by governments and private entities. However private entities that use these regions must:
+There are `GovCloud` regions in North America that are used by the US federal government and private entities. However private entities that use these regions must:
 
 1. Be based on the in US
 2. Pass a screening process
 3. Only use US citizens or green card holders to hold root access to accounts
 
-
+An **edge location** is an AWS endpoint used for caching content from `CloudFront`
 
 ## Instance Types
 
@@ -68,5 +68,5 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTE5ODA3Miw2MjQ1OTQ1MDldfQ==
+eyJoaXN0b3J5IjpbMTU2NTU5NTkwNyw2MjQ1OTQ1MDldfQ==
 -->
