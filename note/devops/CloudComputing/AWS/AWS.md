@@ -62,7 +62,9 @@ There are **four tiers of support package**:
 - **Basic** - Free
 - **Developer** - $29 a month (12-24 support turn around)
 - **Business** - $100/month 
-- **Enterprise** -
+- **Enterprise** - $15,000/month (Gives access to a TAM - Technical Amount Manager)
+
+
 
 ## Instance Types
 
@@ -96,6 +98,6 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzUxNjMwNSwtNDkyNzU4MTM0LC0yMj
-I0MjY0NzksNjI0NTk0NTA5XX0=
+eyJoaXN0b3J5IjpbLTE2NDY5ODIzNjgsLTQ5Mjc1ODEzNCwtMj
+IyNDI2NDc5LDYyNDU5NDUwOV19
 -->
