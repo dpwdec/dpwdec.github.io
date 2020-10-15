@@ -75,6 +75,8 @@ You can **create a billing alarm** by:
 
 The `Period` property controls **how often the alarm checks to see whether it should trigger**.
 
+`SNS` - *Simple Notification Service*
+
 
 
 
@@ -111,7 +113,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDkxNjU5NiwtODcwNDY2NDAsLTQyNj
-Y3MTM1NywtMTY0Njk4MjM2OCwtNDkyNzU4MTM0LC0yMjI0MjY0
-NzksNjI0NTk0NTA5XX0=
+eyJoaXN0b3J5IjpbMzM4MDEwMjAzLDEzMzQ5MTY1OTYsLTg3MD
+Q2NjQwLC00MjY2NzEzNTcsLTE2NDY5ODIzNjgsLTQ5Mjc1ODEz
+NCwtMjIyNDI2NDc5LDYyNDU5NDUwOV19
 -->
