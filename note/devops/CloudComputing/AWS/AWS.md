@@ -42,7 +42,7 @@ There are **always more edge locations than regions**.
 
 ### Choosing AWS Region
 
-There are three main factors to consider where cho
+There are three main factors to consider where choosing an AWS region for your service:
 
 - **Data Sovereignty laws**: where does the data needs to reside legally?
 - **Latency to end users**: where are the majority of your customers located?
@@ -80,5 +80,5 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODgwMDA3MTYsNjI0NTk0NTA5XX0=
+eyJoaXN0b3J5IjpbLTIyMjQyNjQ3OSw2MjQ1OTQ1MDldfQ==
 -->
