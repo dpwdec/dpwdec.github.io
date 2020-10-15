@@ -76,7 +76,9 @@ You can **create a billing alarm** by:
 4. Click next
 5. If you haven't done already, Create a new `SNS` topic
 6. Enter an email for the notification to be delivered to
-7. Clic
+7. Click next
+8. Set up a message for the alarm
+9. Click next and click `Create Alarm`
 
 The `Period` property controls **how often the alarm checks to see whether it should trigger**.
 
@@ -118,7 +120,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDQwODkyMywxMzM0OTE2NTk2LC04Nz
+eyJoaXN0b3J5IjpbLTMyNTIzNjU2OSwxMzM0OTE2NTk2LC04Nz
 A0NjY0MCwtNDI2NjcxMzU3LC0xNjQ2OTgyMzY4LC00OTI3NTgx
 MzQsLTIyMjQyNjQ3OSw2MjQ1OTQ1MDldfQ==
 -->
