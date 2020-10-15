@@ -71,7 +71,9 @@ You can **access CloudWatch** in `Services -> Management and Governance -> Cloud
 You can **create a billing alarm** by:
 
 1. Going to `Alarm (Left Menu) -> Billing` on the CloudWatch landing page
-2. Click o *LOWER* `Create Alarm` button.
+2. Click on the *LOWER* `Create Alarm` button
+
+The `Period` property controls **how often the alarm checks to see whether it should trigger**.
 
 
 
@@ -109,7 +111,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTczMTcyODQsLTg3MDQ2NjQwLC00Mj
-Y2NzEzNTcsLTE2NDY5ODIzNjgsLTQ5Mjc1ODEzNCwtMjIyNDI2
-NDc5LDYyNDU5NDUwOV19
+eyJoaXN0b3J5IjpbMTMzNDkxNjU5NiwtODcwNDY2NDAsLTQyNj
+Y3MTM1NywtMTY0Njk4MjM2OCwtNDkyNzU4MTM0LC0yMjI0MjY0
+NzksNjI0NTk0NTA5XX0=
 -->
