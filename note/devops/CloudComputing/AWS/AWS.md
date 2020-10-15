@@ -31,7 +31,8 @@ A **region** is a **geographical area that contains two or more availability zon
 There are `GovCloud` regions in North America that are used by governments and private entities. However private entities that use these regions must:
 
 1. Be based on the in US
-2. Only use US citizens to access the data centers
+2. Pass a screening process
+3. Only use US citizens or green card holders to hold root access to accounts
 
 
 
@@ -67,5 +68,5 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzMzODk4NCw2MjQ1OTQ1MDldfQ==
+eyJoaXN0b3J5IjpbMTQzMTE5ODA3Miw2MjQ1OTQ1MDldfQ==
 -->
