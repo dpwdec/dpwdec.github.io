@@ -24,7 +24,11 @@ For the **purposes of the Cloud Practitioner Exam** you need to know about the f
 
 AWS Infrastructure is structured using **regions**, **availability zones** and **edge locations**.
 
+### Availability Zones
+
 An **availability zone** is the equivalent of a data center. It can also be a group of data centers that are geographically co-located, but these are still counted as 1 availability zone.
+
+### Region
 
 A **region** is a **geographical area that contains two or more availability zones**.
 
@@ -80,6 +84,6 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Mjc1ODEzNCwtMjIyNDI2NDc5LDYyND
-U5NDUwOV19
+eyJoaXN0b3J5IjpbMTMwMDY0MzU0NCwtNDkyNzU4MTM0LC0yMj
+I0MjY0NzksNjI0NTk0NTA5XX0=
 -->
