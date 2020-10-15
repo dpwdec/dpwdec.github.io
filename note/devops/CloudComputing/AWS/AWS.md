@@ -34,7 +34,7 @@ There are `GovCloud` regions in North America that are used by the US federal go
 2. Pass a screening process
 3. Only use US citizens or green card holders to hold root access to accounts
 
-An **edge location** is a physical AWS endpoint used for caching content from `CloudFront` (Amazon's content delivery network). For example, if I live in London somewhere far away from an Amazon data center and then download a file from a 
+An **edge location** is a physical AWS endpoint used for caching content from `CloudFront` (Amazon's content delivery network). For example, if I live in London somewhere far away from an Amazon data center and then download a file from the otherside of the world, it can take a long time, however, for future access Amazon will cache this file at an **edge location** for easy access in the future.
 
 ## Instance Types
 
@@ -68,5 +68,5 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjExNzE2Nyw2MjQ1OTQ1MDldfQ==
+eyJoaXN0b3J5IjpbLTY0MDc0MjM3Miw2MjQ1OTQ1MDldfQ==
 -->
