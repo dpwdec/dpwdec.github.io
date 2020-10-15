@@ -72,6 +72,9 @@ You can **create a billing alarm** by:
 
 1. Going to `Alarm (Left Menu) -> Billing` on the CloudWatch landing page
 2. Click on the *LOWER* `Create Alarm` button
+3. Create settings for the Billing Alarm
+4. Click next
+5. If you haven't done already, Create a new `SNS` to
 
 The `Period` property controls **how often the alarm checks to see whether it should trigger**.
 
@@ -113,7 +116,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4MDEwMjAzLDEzMzQ5MTY1OTYsLTg3MD
-Q2NjQwLC00MjY2NzEzNTcsLTE2NDY5ODIzNjgsLTQ5Mjc1ODEz
-NCwtMjIyNDI2NDc5LDYyNDU5NDUwOV19
+eyJoaXN0b3J5IjpbMTg4ODY1MTgyOCwxMzM0OTE2NTk2LC04Nz
+A0NjY0MCwtNDI2NjcxMzU3LC0xNjQ2OTgyMzY4LC00OTI3NTgx
+MzQsLTIyMjQyNjQ3OSw2MjQ1OTQ1MDldfQ==
 -->
