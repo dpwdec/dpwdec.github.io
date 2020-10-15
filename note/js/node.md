@@ -77,6 +77,9 @@ You can **remove links** with the `npm unlink` command.
 $ npm unlink
 ```
 
+## npx
+
+The `npx` command temporarily 
 
 ## fs
 
@@ -183,5 +186,6 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjM0NzU3NDEsLTEwMTA5NTE3N119
+eyJoaXN0b3J5IjpbNzM5ODg3NTc5LC0xMzYzNDc1NzQxLC0xMD
+EwOTUxNzddfQ==
 -->
