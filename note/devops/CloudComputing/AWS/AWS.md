@@ -131,6 +131,10 @@ Policies are represented using `JSON`.
 }
 ```
 
+### Tags
+
+You can **add tags** as key value pairs which contain meta-data about your IAM user, things like `Employee_Id` or `Department`.
+
 
 
 ## Instance Types
@@ -165,8 +169,9 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzUwODg3NywtNzkxNTIzNDE4LC04MT
-U3MjY4OTEsNDQ0ODcwMTkwLC0zMjUyMzY1NjksMTMzNDkxNjU5
-NiwtODcwNDY2NDAsLTQyNjY3MTM1NywtMTY0Njk4MjM2OCwtND
-kyNzU4MTM0LC0yMjI0MjY0NzksNjI0NTk0NTA5XX0=
+eyJoaXN0b3J5IjpbLTIwMDg0MDA1NjcsMTczNzUwODg3NywtNz
+kxNTIzNDE4LC04MTU3MjY4OTEsNDQ0ODcwMTkwLC0zMjUyMzY1
+NjksMTMzNDkxNjU5NiwtODcwNDY2NDAsLTQyNjY3MTM1NywtMT
+Y0Njk4MjM2OCwtNDkyNzU4MTM0LC0yMjI0MjY0NzksNjI0NTk0
+NTA5XX0=
 -->
