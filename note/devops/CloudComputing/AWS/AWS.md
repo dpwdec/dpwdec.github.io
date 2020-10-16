@@ -117,6 +117,21 @@ There are a **set of pre-built access policies** managed by Amazon. These have a
 You can **filter access policies by job function** through the `Filter Policies` drop down which allows you to set policies more appropriately for creating user accounts.
 
 Policies are represented using `JSON`.
+```yaml
+# example admin policy
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "*", # match all actions
+      "Resource": "*", # match all resources
+    }
+  ]
+}
+```
+
+
 
 ## Instance Types
 
@@ -150,7 +165,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMzEwOTU1MSwtNzkxNTIzNDE4LC04MT
+eyJoaXN0b3J5IjpbMTczNzUwODg3NywtNzkxNTIzNDE4LC04MT
 U3MjY4OTEsNDQ0ODcwMTkwLC0zMjUyMzY1NjksMTMzNDkxNjU5
 NiwtODcwNDY2NDAsLTQyNjY3MTM1NywtMTY0Njk4MjM2OCwtND
 kyNzU4MTM0LC0yMjI0MjY0NzksNjI0NTk0NTA5XX0=
