@@ -104,7 +104,7 @@ There are **three ways to allow access for IAM accounts**:
 
 You can **set user permissions** in three different ways:
 
-1. **Adding 
+1. **Adding the user
 
 ## Instance Types
 
@@ -138,8 +138,8 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MTUyMzQxOCwtODE1NzI2ODkxLDQ0ND
-g3MDE5MCwtMzI1MjM2NTY5LDEzMzQ5MTY1OTYsLTg3MDQ2NjQw
-LC00MjY2NzEzNTcsLTE2NDY5ODIzNjgsLTQ5Mjc1ODEzNCwtMj
-IyNDI2NDc5LDYyNDU5NDUwOV19
+eyJoaXN0b3J5IjpbMTk3OTExODAsLTc5MTUyMzQxOCwtODE1Nz
+I2ODkxLDQ0NDg3MDE5MCwtMzI1MjM2NTY5LDEzMzQ5MTY1OTYs
+LTg3MDQ2NjQwLC00MjY2NzEzNTcsLTE2NDY5ODIzNjgsLTQ5Mj
+c1ODEzNCwtMjIyNDI2NDc5LDYyNDU5NDUwOV19
 -->
