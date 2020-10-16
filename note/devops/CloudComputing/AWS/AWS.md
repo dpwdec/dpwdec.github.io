@@ -86,7 +86,7 @@ The `Period` property controls **how often the alarm checks to see whether it sh
 
 ## Identity Access Management
 
-**Identity Access Management (IAM)** allows you create accounts with access to your AWS instances.
+**Identity Access Management (IAM)** allows you create accounts with access to your AWS instances. IAM is 
 
 You can **access IAM** from the `Services -> Security, Identity & Compliance -> IAM`.
 
@@ -171,7 +171,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTE2MDQxMSwtMjAwODQwMDU2NywxNz
+eyJoaXN0b3J5IjpbMjEyNzYxODUyMiwtMjAwODQwMDU2NywxNz
 M3NTA4ODc3LC03OTE1MjM0MTgsLTgxNTcyNjg5MSw0NDQ4NzAx
 OTAsLTMyNTIzNjU2OSwxMzM0OTE2NTk2LC04NzA0NjY0MCwtND
 I2NjcxMzU3LC0xNjQ2OTgyMzY4LC00OTI3NTgxMzQsLTIyMjQy
