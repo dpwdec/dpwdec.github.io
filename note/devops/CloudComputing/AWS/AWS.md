@@ -135,7 +135,9 @@ Policies are represented using `JSON`.
 
 You can **add tags** as key value pairs which contain meta-data about your IAM user, things like `Employee_Id` or `Department`.
 
+### Password Policy
 
+You can **set a password policy** for IAM users by clicking the `Set Password Policy` from the `Account Settings` menu item on the left.
 
 ## Instance Types
 
@@ -169,9 +171,9 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDg0MDA1NjcsMTczNzUwODg3NywtNz
-kxNTIzNDE4LC04MTU3MjY4OTEsNDQ0ODcwMTkwLC0zMjUyMzY1
-NjksMTMzNDkxNjU5NiwtODcwNDY2NDAsLTQyNjY3MTM1NywtMT
-Y0Njk4MjM2OCwtNDkyNzU4MTM0LC0yMjI0MjY0NzksNjI0NTk0
-NTA5XX0=
+eyJoaXN0b3J5IjpbLTUyNTE2MDQxMSwtMjAwODQwMDU2NywxNz
+M3NTA4ODc3LC03OTE1MjM0MTgsLTgxNTcyNjg5MSw0NDQ4NzAx
+OTAsLTMyNTIzNjU2OSwxMzM0OTE2NTk2LC04NzA0NjY0MCwtND
+I2NjcxMzU3LC0xNjQ2OTgyMzY4LC00OTI3NTgxMzQsLTIyMjQy
+NjQ3OSw2MjQ1OTQ1MDldfQ==
 -->
