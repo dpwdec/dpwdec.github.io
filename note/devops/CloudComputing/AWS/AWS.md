@@ -100,7 +100,11 @@ There are **three ways to allow access for IAM accounts**:
 
 1. **Programmatic access**
 2. **AWS Management Console access**
-3. **SDK
+3. **SDK Access**
+
+You can **set user permissions** in three different ways:
+
+1. **Adding 
 
 ## Instance Types
 
@@ -134,8 +138,8 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTM1ODgyMDYsLTgxNTcyNjg5MSw0ND
-Q4NzAxOTAsLTMyNTIzNjU2OSwxMzM0OTE2NTk2LC04NzA0NjY0
-MCwtNDI2NjcxMzU3LC0xNjQ2OTgyMzY4LC00OTI3NTgxMzQsLT
-IyMjQyNjQ3OSw2MjQ1OTQ1MDldfQ==
+eyJoaXN0b3J5IjpbLTc5MTUyMzQxOCwtODE1NzI2ODkxLDQ0ND
+g3MDE5MCwtMzI1MjM2NTY5LDEzMzQ5MTY1OTYsLTg3MDQ2NjQw
+LC00MjY2NzEzNTcsLTE2NDY5ODIzNjgsLTQ5Mjc1ODEzNCwtMj
+IyNDI2NDc5LDYyNDU5NDUwOV19
 -->
