@@ -110,7 +110,9 @@ You can **set user permissions** in three different ways:
 
 ### Group Policies
 
-There are a **set of pre-built access policies** managed by Amazon. These have an orange box (amazon logo
+There are a **set of pre-built access policies** managed by Amazon. These have an orange box logo in front of them if they are managed by Amazon.
+
+
 
 ## Instance Types
 
@@ -144,7 +146,7 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTk2OTczNzksLTc5MTUyMzQxOCwtOD
+eyJoaXN0b3J5IjpbLTE4ODQ3MjEyMTksLTc5MTUyMzQxOCwtOD
 E1NzI2ODkxLDQ0NDg3MDE5MCwtMzI1MjM2NTY5LDEzMzQ5MTY1
 OTYsLTg3MDQ2NjQwLC00MjY2NzEzNTcsLTE2NDY5ODIzNjgsLT
 Q5Mjc1ODEzNCwtMjIyNDI2NDc5LDYyNDU5NDUwOV19
