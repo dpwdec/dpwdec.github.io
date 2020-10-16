@@ -104,7 +104,13 @@ There are **three ways to allow access for IAM accounts**:
 
 You can **set user permissions** in three different ways:
 
-1. **Adding the user
+1. **Adding the user to a group**
+2. **Copying permissions from another user**
+3. **Setting permissions specific to this user**
+
+### Group Policies
+
+There are a **set of pre-built access policies** managed by Amazon. These have an orange box (amazon logo
 
 ## Instance Types
 
@@ -138,8 +144,8 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTExODAsLTc5MTUyMzQxOCwtODE1Nz
-I2ODkxLDQ0NDg3MDE5MCwtMzI1MjM2NTY5LDEzMzQ5MTY1OTYs
-LTg3MDQ2NjQwLC00MjY2NzEzNTcsLTE2NDY5ODIzNjgsLTQ5Mj
-c1ODEzNCwtMjIyNDI2NDc5LDYyNDU5NDUwOV19
+eyJoaXN0b3J5IjpbLTE2NTk2OTczNzksLTc5MTUyMzQxOCwtOD
+E1NzI2ODkxLDQ0NDg3MDE5MCwtMzI1MjM2NTY5LDEzMzQ5MTY1
+OTYsLTg3MDQ2NjQwLC00MjY2NzEzNTcsLTE2NDY5ODIzNjgsLT
+Q5Mjc1ODEzNCwtMjIyNDI2NDc5LDYyNDU5NDUwOV19
 -->
