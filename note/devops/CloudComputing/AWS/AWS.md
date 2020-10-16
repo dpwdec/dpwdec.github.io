@@ -90,7 +90,9 @@ The `Period` property controls **how often the alarm checks to see whether it sh
 
 You can **access IAM** from the `Services -> Security, Identity & Compliance -> IAM`.
 
+There is a **IAM users sign-in link** displayed here which will default to showing your AWS account number. You **should not share this number with other people**.
 
+You can **customize the IAM sign-in link** by clicking `customize` and creating a custom URL (
 
 
 ## Instance Types
@@ -125,7 +127,8 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0ODcwMTkwLC0zMjUyMzY1NjksMTMzND
-kxNjU5NiwtODcwNDY2NDAsLTQyNjY3MTM1NywtMTY0Njk4MjM2
-OCwtNDkyNzU4MTM0LC0yMjI0MjY0NzksNjI0NTk0NTA5XX0=
+eyJoaXN0b3J5IjpbMTY3MzA4MjkxMiw0NDQ4NzAxOTAsLTMyNT
+IzNjU2OSwxMzM0OTE2NTk2LC04NzA0NjY0MCwtNDI2NjcxMzU3
+LC0xNjQ2OTgyMzY4LC00OTI3NTgxMzQsLTIyMjQyNjQ3OSw2Mj
+Q1OTQ1MDldfQ==
 -->
