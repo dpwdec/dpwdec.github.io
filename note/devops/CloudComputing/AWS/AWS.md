@@ -110,7 +110,7 @@ You can **set user permissions** in three different ways:
 
 ### Group Policies
 
-To **create a new group**, select a policy to base the group on and then enter a name for the new group.
+To **create a new group**, select a policy to base the group on and then enter a name for the new group then click `Create Group`.
 
 There are a **set of pre-built access policies** managed by Amazon. These have an orange box logo in front of them if they are managed by Amazon.
 
@@ -150,8 +150,8 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQyMzg4OTcsLTc5MTUyMzQxOCwtOD
-E1NzI2ODkxLDQ0NDg3MDE5MCwtMzI1MjM2NTY5LDEzMzQ5MTY1
-OTYsLTg3MDQ2NjQwLC00MjY2NzEzNTcsLTE2NDY5ODIzNjgsLT
-Q5Mjc1ODEzNCwtMjIyNDI2NDc5LDYyNDU5NDUwOV19
+eyJoaXN0b3J5IjpbMTQyMzEwOTU1MSwtNzkxNTIzNDE4LC04MT
+U3MjY4OTEsNDQ0ODcwMTkwLC0zMjUyMzY1NjksMTMzNDkxNjU5
+NiwtODcwNDY2NDAsLTQyNjY3MTM1NywtMTY0Njk4MjM2OCwtND
+kyNzU4MTM0LC0yMjI0MjY0NzksNjI0NTk0NTA5XX0=
 -->
