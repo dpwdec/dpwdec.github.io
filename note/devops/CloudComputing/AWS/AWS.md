@@ -110,6 +110,8 @@ You can **set user permissions** in three different ways:
 
 ### Group Policies
 
+A user that is placed in a group **inherits all the permissions that that group has**. Groups are usually structured around roles, such as Sys Admins, HR or Finance.
+
 To **create a new group**, select a policy to base the group on and then enter a name for the new group then click `Create Group`.
 
 There are a **set of pre-built access policies** managed by Amazon. These have an orange box logo in front of them if they are managed by Amazon.
@@ -171,9 +173,9 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTI0MTU5NzQsLTIwMDg0MDA1NjcsMT
-czNzUwODg3NywtNzkxNTIzNDE4LC04MTU3MjY4OTEsNDQ0ODcw
-MTkwLC0zMjUyMzY1NjksMTMzNDkxNjU5NiwtODcwNDY2NDAsLT
-QyNjY3MTM1NywtMTY0Njk4MjM2OCwtNDkyNzU4MTM0LC0yMjI0
-MjY0NzksNjI0NTk0NTA5XX0=
+eyJoaXN0b3J5IjpbMjYwMDY5ODc3LC0yMDA4NDAwNTY3LDE3Mz
+c1MDg4NzcsLTc5MTUyMzQxOCwtODE1NzI2ODkxLDQ0NDg3MDE5
+MCwtMzI1MjM2NTY5LDEzMzQ5MTY1OTYsLTg3MDQ2NjQwLC00Mj
+Y2NzEzNTcsLTE2NDY5ODIzNjgsLTQ5Mjc1ODEzNCwtMjIyNDI2
+NDc5LDYyNDU5NDUwOV19
 -->
