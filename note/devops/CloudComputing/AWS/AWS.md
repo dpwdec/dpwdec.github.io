@@ -112,7 +112,7 @@ You can **set user permissions** in three different ways:
 
 There are a **set of pre-built access policies** managed by Amazon. These have an orange box logo in front of them if they are managed by Amazon.
 
-
+You can **filter access policies by job function** through the `Filter Policies` drop down which allows you to set policies more appropriately for creating user accounts.
 
 ## Instance Types
 
@@ -146,8 +146,8 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ3MjEyMTksLTc5MTUyMzQxOCwtOD
-E1NzI2ODkxLDQ0NDg3MDE5MCwtMzI1MjM2NTY5LDEzMzQ5MTY1
-OTYsLTg3MDQ2NjQwLC00MjY2NzEzNTcsLTE2NDY5ODIzNjgsLT
-Q5Mjc1ODEzNCwtMjIyNDI2NDc5LDYyNDU5NDUwOV19
+eyJoaXN0b3J5IjpbNjU1MDk3MjUyLC03OTE1MjM0MTgsLTgxNT
+cyNjg5MSw0NDQ4NzAxOTAsLTMyNTIzNjU2OSwxMzM0OTE2NTk2
+LC04NzA0NjY0MCwtNDI2NjcxMzU3LC0xNjQ2OTgyMzY4LC00OT
+I3NTgxMzQsLTIyMjQyNjQ3OSw2MjQ1OTQ1MDldfQ==
 -->
