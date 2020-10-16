@@ -12,6 +12,8 @@ There is a **IAM users sign-in link** which you can send to users to use to sign
 
 You can **customize the IAM sign-in link** by clicking `customize` and creating a custom URL (that is unique to AWS globally).
 
+## Creating IAM User Accounts
+
 You can **create a new user** by going to the `Users` menu item on the left and then selecting `Add User`.
 
 There are **three ways to allow access for IAM accounts**:
@@ -26,7 +28,7 @@ You can **set user permissions** in three different ways:
 2. **Copying permissions from another user**
 3. **Setting permissions specific to this user**
 
-### Group Policies
+## Group Policies
 
 A user that is placed in a group **inherits all the permissions that that group has**. Groups are usually structured around roles, such as Sys Admins, HR or Finance.
 
@@ -51,13 +53,13 @@ Policies are represented using `JSON`.
 }
 ```
 
-### Tags
+## Tags
 
 You can **add tags** as key value pairs which contain meta-data about your IAM user, things like `Employee_Id` or `Department`.
 
-### Password Policy
+## Password Policy
 
 You can **set a password policy** for IAM users by clicking the `Set Password Policy` from the `Account Settings` menu item on the left.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2ODAxMjI5XX0=
+eyJoaXN0b3J5IjpbMTAyOTgyNjg1M119
 -->
