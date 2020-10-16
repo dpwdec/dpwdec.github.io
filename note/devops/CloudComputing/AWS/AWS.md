@@ -86,7 +86,7 @@ The `Period` property controls **how often the alarm checks to see whether it sh
 
 ## Identity Access Management
 
-**Identity Access Management (IAM)** allows you create accounts with access to your AWS instances. IAM is 
+**Identity Access Management (IAM)** allows you create accounts with access to your AWS instances. IAM is **configured globally for your account**, the region you use does not matter.
 
 You can **access IAM** from the `Services -> Security, Identity & Compliance -> IAM`.
 
@@ -98,8 +98,8 @@ You can **create a new user** by going to the `Users` menu item on the left and 
 
 There are **three ways to allow access for IAM accounts**:
 
-1. **Programmatic access**
-2. **AWS Management Console access**
+1. **Programmatic access**: using the command line
+2. **AWS Management Console access**: through a web GUI
 3. **SDK Access**
 
 You can **set user permissions** in three different ways:
@@ -171,9 +171,9 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzYxODUyMiwtMjAwODQwMDU2NywxNz
-M3NTA4ODc3LC03OTE1MjM0MTgsLTgxNTcyNjg5MSw0NDQ4NzAx
-OTAsLTMyNTIzNjU2OSwxMzM0OTE2NTk2LC04NzA0NjY0MCwtND
-I2NjcxMzU3LC0xNjQ2OTgyMzY4LC00OTI3NTgxMzQsLTIyMjQy
-NjQ3OSw2MjQ1OTQ1MDldfQ==
+eyJoaXN0b3J5IjpbLTIwOTI0MTU5NzQsLTIwMDg0MDA1NjcsMT
+czNzUwODg3NywtNzkxNTIzNDE4LC04MTU3MjY4OTEsNDQ0ODcw
+MTkwLC0zMjUyMzY1NjksMTMzNDkxNjU5NiwtODcwNDY2NDAsLT
+QyNjY3MTM1NywtMTY0Njk4MjM2OCwtNDkyNzU4MTM0LC0yMjI0
+MjY0NzksNjI0NTk0NTA5XX0=
 -->
