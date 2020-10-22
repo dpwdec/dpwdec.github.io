@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 
-DNS (Domain Name System) 
+DNS (Domain Name System) ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTY2ODM1OF19
+eyJoaXN0b3J5IjpbLTE1OTg5MDY4ODYsLTE4MTY2ODM1OF19
 -->
