@@ -39,6 +39,8 @@ client.login('<bot token>');
 
 The client object **comes with many event triggers** that allow it to react to different actions. Events to react to are indicated by an argument to an event handling method on `client` followed by a lambda describing the action to be taken.
 
+You can find a **full cheatsheet of client events** [here](https://gist.github.com/koad/316b265a91d933fd1b62dddfcc3ff584).
+
 ### Event methods
 
 You can **react to an event ONCE** by using the `once` method.
@@ -161,9 +163,9 @@ if(user instanceof Discord.ClientUser) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQ5OTgwMTAsLTkwOTMzODAwNiwtMT
-M4NjQ0MDMyLC0xNzMwMjY0OTgwLC01NDcxMjM1MjQsLTE1Nzc5
-NDY5NDAsNzc0MTQ5MjQ1LDE3MTMyMDAzMjIsOTMxNTE5NTkyLD
-E3Njk5NDYwMTUsLTE5NTA3MzIzNDYsLTEzNjA3MTEyMThdfQ==
-
+eyJoaXN0b3J5IjpbMTY1NDM5Mjc2MSwtMTA2NDk5ODAxMCwtOT
+A5MzM4MDA2LC0xMzg2NDQwMzIsLTE3MzAyNjQ5ODAsLTU0NzEy
+MzUyNCwtMTU3Nzk0Njk0MCw3NzQxNDkyNDUsMTcxMzIwMDMyMi
+w5MzE1MTk1OTIsMTc2OTk0NjAxNSwtMTk1MDczMjM0NiwtMTM2
+MDcxMTIxOF19
 -->
