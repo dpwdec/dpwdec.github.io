@@ -31,9 +31,10 @@ $ dotnet test
 
 ## Releasing
 
-You can **execute an application from the command line on mac** by navigating to the app's `.dll` file in the project's `bin` folder and using the `dotnet` command to execute it.
+You can **execute an application from the command line on mac** by navigating to the app's `.dll` file in the project's `bin` folder and using the `dotnet` command to execute it. This allows you to run the application with its own command line flags etc.
 ```bash
-$ dotnet /bin/Debug/netcoreapp3.1/
+# example for debug
+$ dotnet /bin/Debug/netcoreapp3.1/myapp.dll
 ```
 
 ## Namespaces
@@ -573,11 +574,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMzEyNDA2OCwtMTY3MzI5NzY2NiwtNj
-UyNzAxNTM0LC0xNzgwMzk1Mzg0LC0zMzA2ODY4NzksODIyNDIw
-NDEzLDg0NDY0MTc4NSw5MDg0NTg5MjcsLTE5MjU0MjYwNzIsMT
-gzNzQ3MDU5MCwxODg3NjY2NjkzLC0xMTM1NDg4MjAyLC0zMTYx
-MTk1MDQsMTgzMzcwODc1OCw3MzE1OTM2NDcsNDY5Nzc3NDYyLD
-kwNjI0MzU4LC0xNzIyMzk2ODk2LC0xNTU4MDAwMDYwLC00MDMy
-MjkyMzddfQ==
+eyJoaXN0b3J5IjpbMTcxNTkwMDAwLC0xNjczMjk3NjY2LC02NT
+I3MDE1MzQsLTE3ODAzOTUzODQsLTMzMDY4Njg3OSw4MjI0MjA0
+MTMsODQ0NjQxNzg1LDkwODQ1ODkyNywtMTkyNTQyNjA3MiwxOD
+M3NDcwNTkwLDE4ODc2NjY2OTMsLTExMzU0ODgyMDIsLTMxNjEx
+OTUwNCwxODMzNzA4NzU4LDczMTU5MzY0Nyw0Njk3Nzc0NjIsOT
+A2MjQzNTgsLTE3MjIzOTY4OTYsLTE1NTgwMDAwNjAsLTQwMzIy
+OTIzN119
 -->
