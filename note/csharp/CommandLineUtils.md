@@ -15,40 +15,6 @@ namespace CLITest
 {  
   class Program  
   {  
-    public static void Main(string[] args)  
-     {  
-       var builder = new HostBuilder()  
-         .ConfigureServices((hostcontext, services) =>  
-         {  
-           // dependency injection configuration here  
-         });  
-       builder.RunCommandLineApplicationAsync<MyCli>(args);  
-     } 
-   }
-
-   class MyCli
-   {
-     // command line class configuration
-
-     public void OnExecute(CommandLineApplication app)
-     {
-       // do CLI execution logic
-     }
-   }
- }
-```
-
-
-```csharp
-using System.Threading.Tasks;  
-using McMaster.Extensions.CommandLineUtils;  
-using Microsoft.Extensions.DependencyInjection;  
-using Microsoft.Extensions.Hosting;  
-  
-namespace CLITest  
-{  
-  class Program  
-  {  
     public static async Task<int> Main(string[] args)  
      {  
        var builder = new HostBuilder()  
@@ -73,6 +39,6 @@ namespace CLITest
  }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTMzNzc5MjksMTM0NzA4Njc2MywtMT
-UxMjE4NzQ5MF19
+eyJoaXN0b3J5IjpbMTM0NzA4Njc2MywtMTA5MzM3NzkyOSwxMz
+Q3MDg2NzYzLC0xNTEyMTg3NDkwXX0=
 -->
