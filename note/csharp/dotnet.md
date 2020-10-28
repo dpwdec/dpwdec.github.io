@@ -72,7 +72,7 @@ Project
 
 ## Args
 
-
+The `args` property coming into the `Main` method represents the command line arguments that will be passed by an application.
 
 ## Var
 
@@ -578,11 +578,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzM4NTYwNSwxNzE1OTAwMDAsLTE2Nz
-MyOTc2NjYsLTY1MjcwMTUzNCwtMTc4MDM5NTM4NCwtMzMwNjg2
-ODc5LDgyMjQyMDQxMyw4NDQ2NDE3ODUsOTA4NDU4OTI3LC0xOT
-I1NDI2MDcyLDE4Mzc0NzA1OTAsMTg4NzY2NjY5MywtMTEzNTQ4
-ODIwMiwtMzE2MTE5NTA0LDE4MzM3MDg3NTgsNzMxNTkzNjQ3LD
-Q2OTc3NzQ2Miw5MDYyNDM1OCwtMTcyMjM5Njg5NiwtMTU1ODAw
-MDA2MF19
+eyJoaXN0b3J5IjpbLTEwOTMwODIwODUsLTk2MzM4NTYwNSwxNz
+E1OTAwMDAsLTE2NzMyOTc2NjYsLTY1MjcwMTUzNCwtMTc4MDM5
+NTM4NCwtMzMwNjg2ODc5LDgyMjQyMDQxMyw4NDQ2NDE3ODUsOT
+A4NDU4OTI3LC0xOTI1NDI2MDcyLDE4Mzc0NzA1OTAsMTg4NzY2
+NjY5MywtMTEzNTQ4ODIwMiwtMzE2MTE5NTA0LDE4MzM3MDg3NT
+gsNzMxNTkzNjQ3LDQ2OTc3NzQ2Miw5MDYyNDM1OCwtMTcyMjM5
+Njg5Nl19
 -->
