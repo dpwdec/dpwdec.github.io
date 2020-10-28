@@ -70,6 +70,10 @@ Project
     └── User.cs
 ```
 
+## Args
+
+
+
 ## Var
 
 You can **use the `var` keyword** when the type of a variable is inferred or when you are working with an anonymous type. It's recommended to generally avoid using `var` unless you need to or unless type inference is *very* clear to readers.
@@ -574,11 +578,11 @@ You can **get a code snippet for class constructors** by typing `ctor` followed 
 
 You can **generate a `private readonly` field** by creating an undefined variable starting with an `_` underscore, for example `_variable`, and then `RMB (on variable) -> Generate Private Readonly Variable`. *Not confirmed for Rider*.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTkwMDAwLC0xNjczMjk3NjY2LC02NT
-I3MDE1MzQsLTE3ODAzOTUzODQsLTMzMDY4Njg3OSw4MjI0MjA0
-MTMsODQ0NjQxNzg1LDkwODQ1ODkyNywtMTkyNTQyNjA3MiwxOD
-M3NDcwNTkwLDE4ODc2NjY2OTMsLTExMzU0ODgyMDIsLTMxNjEx
-OTUwNCwxODMzNzA4NzU4LDczMTU5MzY0Nyw0Njk3Nzc0NjIsOT
-A2MjQzNTgsLTE3MjIzOTY4OTYsLTE1NTgwMDAwNjAsLTQwMzIy
-OTIzN119
+eyJoaXN0b3J5IjpbLTk2MzM4NTYwNSwxNzE1OTAwMDAsLTE2Nz
+MyOTc2NjYsLTY1MjcwMTUzNCwtMTc4MDM5NTM4NCwtMzMwNjg2
+ODc5LDgyMjQyMDQxMyw4NDQ2NDE3ODUsOTA4NDU4OTI3LC0xOT
+I1NDI2MDcyLDE4Mzc0NzA1OTAsMTg4NzY2NjY5MywtMTEzNTQ4
+ODIwMiwtMzE2MTE5NTA0LDE4MzM3MDg3NTgsNzMxNTkzNjQ3LD
+Q2OTc3NzQ2Miw5MDYyNDM1OCwtMTcyMjM5Njg5NiwtMTU1ODAw
+MDA2MF19
 -->
