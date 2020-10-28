@@ -16,15 +16,18 @@ namespace CLITest
   class Program  
   {  
     public static async Task<int> Main(string[] args)  
-    {  
-      var builder = new HostBuilder()  
-        .ConfigureServices((hostcontext, services) =>  
-        {  
-          services.AddTransient<MyClass>();  
-        });  
-  return await builder.RunCommandLineApplicationAsync<CLI>(args);  
- } }}
+     {  
+       var builder = new HostBuilder()  
+         .ConfigureServices((hostcontext, services) =>  
+         {  
+           // dependency injection configuration here  
+         });  
+       return await builder.RunCommandLineApplicationAsync<MyCli>(args);  
+     } 
+   }
+ }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzUwMTc2NCwtMTUxMjE4NzQ5MF19
+eyJoaXN0b3J5IjpbLTIwMjgxOTY0OTksLTE1MTIxODc0OTBdfQ
+==
 -->
