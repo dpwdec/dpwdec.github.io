@@ -15,7 +15,7 @@ namespace CLITest
 {  
   class Program  
   {  
-    public static async Task<int> Main(string[] args)  
+    public static void Main(string[] args)  
      {  
        var builder = new HostBuilder()  
          .ConfigureServices((hostcontext, services) =>  
@@ -73,6 +73,6 @@ namespace CLITest
  }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTQ4MzMxMSwxMzQ3MDg2NzYzLC0xNT
-EyMTg3NDkwXX0=
+eyJoaXN0b3J5IjpbLTEwOTMzNzc5MjksMTM0NzA4Njc2MywtMT
+UxMjE4NzQ5MF19
 -->
