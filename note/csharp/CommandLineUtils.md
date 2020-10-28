@@ -30,10 +30,14 @@ namespace CLITest
    {
      // command line class configuration
 
-     public Task
+     public Task<int> OnExecute(CommandLineApplication app)
+     {
+       // do CLI execution here
+       return Task.FromResult(0);
+     }
    }
  }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3NTA0NzM4LC0xNTEyMTg3NDkwXX0=
+eyJoaXN0b3J5IjpbMTM0NzA4Njc2MywtMTUxMjE4NzQ5MF19
 -->
