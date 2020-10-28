@@ -25,9 +25,15 @@ namespace CLITest
        return await builder.RunCommandLineApplicationAsync<MyCli>(args);  
      } 
    }
+
+   class MyCli
+   {
+     // command line class configuration
+
+     public Task
+   }
  }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjgxOTY0OTksLTE1MTIxODc0OTBdfQ
-==
+eyJoaXN0b3J5IjpbNzE3NTA0NzM4LC0xNTEyMTg3NDkwXX0=
 -->
