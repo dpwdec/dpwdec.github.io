@@ -14,7 +14,7 @@ for (int x = 0, y = 0; x < 10; x++)
 }
 ```
 
-You can **define compound boolean expressions** in a `for` loop's conditional field. In the example below the loop will exit when either of the conditions are falsified.
+You can **define compound boolean expressions** in a `for` loop's conditional field. In the example below the loop will **exit when either of the condition are false**.
 ```csharp
 for (int x = 0, y = 0; (x < 10 && y < 3); x ++)
 {
@@ -22,6 +22,7 @@ for (int x = 0, y = 0; (x < 10 && y < 3); x ++)
 }
 ```
 
+In this example, the loop will **exit when both conditions are false**.
 ```csharp
 for (int x = 0, y = 0; (x < 10 || y < 3); x ++)
 {
@@ -29,5 +30,5 @@ for (int x = 0, y = 0; (x < 10 || y < 3); x ++)
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTAzNjg2NF19
+eyJoaXN0b3J5IjpbMTI2MTg1NjkwMV19
 -->
