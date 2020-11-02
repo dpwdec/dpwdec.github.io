@@ -18,6 +18,16 @@ args = parser.parse_args()
 
 print(args.message)
 ```
+
+```bash
+$ python3 cli.py
+$ hello
+```
+
+```bash
+$ python3 cli.py --message Greetings
+$ Greetings
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NTc0Mzk5MiwtNDA0Nzc5Nzc2XX0=
+eyJoaXN0b3J5IjpbLTE5MDI1NTEyNDksLTQwNDc3OTc3Nl19
 -->
