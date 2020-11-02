@@ -33,10 +33,13 @@ The `IServiceCollection` is essentially the core of the `IoC` which defines a sc
 
 You can **use Microsoft's own version of `IServiceCollection`**, simply called `ServiceCollection` by `using` the `Microsoft.Extensions.DependencyInjection` library. 
 
+You can **configure a set of services for injection** by creating a `new` instance of `ServicesCollection` and then using the scoping methods (`AddTransient`, `AddSingleton` etc.) to define instance-class relationships.
 ```csharp
 var services = new ServicesCollection();
 services.AddTransient<IMyInterface, MyClass>();
 ```
+
+You can **get an instance of a depe**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTE2MTc1NV19
+eyJoaXN0b3J5IjpbLTc5OTEzMzUzN119
 -->
