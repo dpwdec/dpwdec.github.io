@@ -35,8 +35,8 @@ You can **use Microsoft's own version of `IServiceCollection`**, simply called `
 
 ```csharp
 var services = new ServicesCollection();
-services.Add
+services.AddTransient<IMyInterface, MyClass>();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMzkyMzc5MV19
+eyJoaXN0b3J5IjpbLTI5OTE2MTc1NV19
 -->
