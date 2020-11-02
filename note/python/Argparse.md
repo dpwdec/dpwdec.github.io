@@ -12,8 +12,8 @@ exclude: true
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--message", default="hello")
+parser.add_argument("--message", default="hello", dest="message")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1MzUzMTU4LC00MDQ3Nzk3NzZdfQ==
+eyJoaXN0b3J5IjpbLTY2MTk4Nzg5OCwtNDA0Nzc5Nzc2XX0=
 -->
