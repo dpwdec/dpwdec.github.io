@@ -29,7 +29,9 @@ public class User
 
 ## IServiceCollection
 
-The `IServiceCollection` is essentially the core of the `IoC` which defines relationships between 
+The `IServiceCollection` is essentially the core of the `IoC` which defines a scoped, key-value relationship between a class or interface and the concrete instance of that class. This is one component that makes up the whole application building framework.
+
+You can
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4ODYwNTYzXX0=
+eyJoaXN0b3J5IjpbLTI5OTQwMDUyMl19
 -->
