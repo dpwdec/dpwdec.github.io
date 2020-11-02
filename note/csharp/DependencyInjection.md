@@ -39,7 +39,7 @@ var services = new ServicesCollection();
 services.AddTransient<IMyInterface, MyClass>();
 ```
 
-You can **get an instance of a depe**
+You can **get a new instance of a dependency** from the `ServicesCollection` by *building a provider o* the collection with the
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5OTEzMzUzN119
+eyJoaXN0b3J5IjpbLTEyNjUwNzc5N119
 -->
