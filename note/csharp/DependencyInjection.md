@@ -42,8 +42,8 @@ services.AddTransient<IMyInterface, MyClass>();
 You can **get a new instance of a dependency** from the `ServicesCollection` by *building a provider object* from the collection with the `BuildServiceProvider` method and then using the `GetService<T>` method to get a new instance of dependency service.
 ```csharp
 serviceProvider = services.BuildServiceProvider();
-
+var myClass = serviceProvider.GetService<IMyInterface>();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTc0NTcxN119
+eyJoaXN0b3J5IjpbLTE5MDI2OTA2MDZdfQ==
 -->
