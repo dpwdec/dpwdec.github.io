@@ -26,6 +26,10 @@ public class User
   }
 }
 ```
+
+## IServiceCollection
+
+The `IServiceCollection` is essentially the core of the `IoC` which defines relationships between 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjgzNDYxNjRdfQ==
+eyJoaXN0b3J5IjpbNTc4ODYwNTYzXX0=
 -->
