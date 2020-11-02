@@ -8,6 +8,7 @@ exclude: true
 
 `argparse` **creates an object that matches the different input fields defined for your command line interface**, these fields are populated from the data submitted by a user or are assigned as defaults, or otherwise unused.
 ```py
+#cli.py
 import argparse
 
 parser = argparse.ArgumentParser()
@@ -18,5 +19,5 @@ args = parser.parse_args()
 print(args.message)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzEzNTQ2OTEsLTQwNDc3OTc3Nl19
+eyJoaXN0b3J5IjpbODE2NTU4OTA1LC00MDQ3Nzk3NzZdfQ==
 -->
