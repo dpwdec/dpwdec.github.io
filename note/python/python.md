@@ -495,6 +495,11 @@ You ** can initialise a new pipenv project** with the `pipenv` command followed 
 $ pipenv --three
 ```
 
+You can **start a pipenv virtual environment** by using the `shell` command, from here you can then install dependencies.
+```bash
+$ pipenv shell
+```
+
 You can **add scripts to your pipfile** that can be run by calling `pipenv run` and the name of the script. These are defined by creating a `[scripts]` tag section in your `pipfile` and assigning a command name to a command string.
 ```
 [scripts]
@@ -537,6 +542,6 @@ init-hook="from pylint.config import find_pylintrc;
 import os, sys; sys.path.append(os.path.dirname(find_pylintrc()))"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjg0OTU1MjIsLTE4MTExNTcyNThdfQ
-==
+eyJoaXN0b3J5IjpbMTU0MDk5NzgxNywtMTMyODQ5NTUyMiwtMT
+gxMTE1NzI1OF19
 -->
