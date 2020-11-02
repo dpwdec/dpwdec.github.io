@@ -14,7 +14,9 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--message", default="hello", dest="message")
 
 args = parser.parse_args()
+
+print(args.message)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwNzU4NjM5LC00MDQ3Nzk3NzZdfQ==
+eyJoaXN0b3J5IjpbLTEyNzEzNTQ2OTEsLTQwNDc3OTc3Nl19
 -->
