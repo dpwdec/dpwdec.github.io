@@ -31,12 +31,15 @@ $ python3 cli.py --message Greetings
 $ Greetings
 ```
 
-You can **create optional arguments** by prefacing argument names with a 
+You can **create optional arguments** by prefacing argument names with a `-` hyphen or `--` double hyphen. You can **give an argument multiple flag names** by comma sepe
+```py
+parser.add_
+```
 
 There are a **range of different configuration arguments**:
 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2MDQ3MTY0LC0xOTAyNTUxMjQ5LC00MD
-Q3Nzk3NzZdfQ==
+eyJoaXN0b3J5IjpbLTE1MTk5ODg4NDQsLTE5MDI1NTEyNDksLT
+QwNDc3OTc3Nl19
 -->
