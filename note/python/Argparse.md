@@ -38,8 +38,10 @@ parser.add_argument("--message", "-m")
 
 ## Action
 
-Th
+The `action` argument describes what action should be taken on a particular argument.
+
+You can **set configuration flags** by using the `store_true` and `store_false` actions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjYzNDk0MywtMTQ4MDYyNDUxMCwtMT
+eyJoaXN0b3J5IjpbMTM4NDA3Mzk0NSwtMTQ4MDYyNDUxMCwtMT
 kwMjU1MTI0OSwtNDA0Nzc5Nzc2XX0=
 -->
