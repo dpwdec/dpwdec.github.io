@@ -31,8 +31,12 @@ $ python3 cli.py --message Greetings
 $ Greetings
 ```
 
+You can **create optional arguments** by prefacing argument names with a 
 
+There are a **range of different configuration arguments**:
+
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE1MzA3MiwtMTkwMjU1MTI0OSwtND
-A0Nzc5Nzc2XX0=
+eyJoaXN0b3J5IjpbNDA2MDQ3MTY0LC0xOTAyNTUxMjQ5LC00MD
+Q3Nzk3NzZdfQ==
 -->
