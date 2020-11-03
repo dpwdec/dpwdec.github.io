@@ -12,9 +12,6 @@ exclude: true
 import argparse
 
 parser = argparse.ArgumentParser()
-# 1st argument: flag name for user
-# default: default value for this property
-# dest: name of the property on the resulting object
 parser.add_argument("--message", default="hello", dest="message")
 
 args = parser.parse_args()
@@ -22,17 +19,18 @@ args = parser.parse_args()
 print(args.message)
 ```
 
-If
+If this is called with no arguments the `default` value is used:
 ```bash
 $ python3 cli.py
 $ hello
 ```
 
+If this is called with arguments then the value passed in after the flag is used:
 ```bash
 $ python3 cli.py --message Greetings
 $ Greetings
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njk4NjUxMzAsLTE5MDI1NTEyNDksLT
-QwNDc3OTc3Nl19
+eyJoaXN0b3J5IjpbLTczNjk5OTI0NCwtMTkwMjU1MTI0OSwtND
+A0Nzc5Nzc2XX0=
 -->
