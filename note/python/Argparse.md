@@ -35,11 +35,7 @@ You can **create optional arguments** by prefacing argument names with a `-` hyp
 ```py
 parser.add_argument("--message", "-m")
 ```
-
-There are a **range of different configuration arguments**:
-
-- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA2MjQ1MTAsLTE5MDI1NTEyNDksLT
-QwNDc3OTc3Nl19
+eyJoaXN0b3J5IjpbMTA0OTg4MzYzLC0xNDgwNjI0NTEwLC0xOT
+AyNTUxMjQ5LC00MDQ3Nzk3NzZdfQ==
 -->
