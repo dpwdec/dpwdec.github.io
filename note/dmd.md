@@ -261,13 +261,14 @@ So `strip_path` in kong controls the routing? when I request the url it strips o
 - Using Generic Host Builder: https://www.stevejgordon.co.uk/using-generic-host-in-dotnet-core-console-based-microservices
 - Pluralsight Hosted: https://app.pluralsight.com/library/courses/building-aspnet-core-hosted-services-net-core-worker-services/table-of-contents
 - Background Tasks: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services?view=aspnetcore-3.1&tabs=visual-studio
+- IHostedService stack overflow example: https://stackoverflow.com/questions/51480324/proper-way-to-register-hostedservice-in-asp-net-core-addhostedservice-vs-addsin
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MTg4NDY5Niw2MTg5MDkwMDMsLTE2OT
-g3MDQzODMsNjcwMzE2NjI4LDEwMDM5ODI0NzcsMTU1NDQ5NTcw
-OCwyMTAyMTg1MTE4LC0xMTE2NTk0NTAyLC0zMzIyNjY4LC0xMj
-YwMDg0NjAsMTg1NDY4NTcxOCwxODc2NTE1OTQ4LC03NzU4MDQ1
-OTQsODU2NTUyMjMxLDQ3Mzk0MTU3OCwxMjcyODgyMTY3LC0xMz
-YzNzM5MTg5LDg0MTgxNTA2NiwyMjM1NDU0MjgsLTE2MjIzMTcz
-OThdfQ==
+eyJoaXN0b3J5IjpbOTc3ODU2NjAxLDYxODkwOTAwMywtMTY5OD
+cwNDM4Myw2NzAzMTY2MjgsMTAwMzk4MjQ3NywxNTU0NDk1NzA4
+LDIxMDIxODUxMTgsLTExMTY1OTQ1MDIsLTMzMjI2NjgsLTEyNj
+AwODQ2MCwxODU0Njg1NzE4LDE4NzY1MTU5NDgsLTc3NTgwNDU5
+NCw4NTY1NTIyMzEsNDczOTQxNTc4LDEyNzI4ODIxNjcsLTEzNj
+M3MzkxODksODQxODE1MDY2LDIyMzU0NTQyOCwtMTYyMjMxNzM5
+OF19
 -->
