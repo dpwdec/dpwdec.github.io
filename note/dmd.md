@@ -259,9 +259,9 @@ So `strip_path` in kong controls the routing? when I request the url it strips o
 - Build CLI Tutorial: https://medium.com/swlh/build-a-command-line-interface-cli-program-with-net-core-428c4c85221
 - Generic Host Initial Proposal: https://github.com/aspnet/Hosting/issues/1163
 - Using Generic Host Builder: https://www.stevejgordon.co.uk/using-generic-host-in-dotnet-core-console-based-microservices
-- 
+- Pluralsight Hosted: https://app.pluralsight.com/library/courses/building-aspnet-core-hosted-services-net-core-worker-services/table-of-contents
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczODgxNzA4LDYxODkwOTAwMywtMTY5OD
+eyJoaXN0b3J5IjpbNzI0ODI0NDY3LDYxODkwOTAwMywtMTY5OD
 cwNDM4Myw2NzAzMTY2MjgsMTAwMzk4MjQ3NywxNTU0NDk1NzA4
 LDIxMDIxODUxMTgsLTExMTY1OTQ1MDIsLTMzMjI2NjgsLTEyNj
 AwODQ2MCwxODU0Njg1NzE4LDE4NzY1MTU5NDgsLTc3NTgwNDU5
