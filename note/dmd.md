@@ -252,12 +252,17 @@ what is `Incapsula`?
 what is `Zuul`?
 
 So `strip_path` in kong controls the routing? when I request the url it strips off the front end and sends it to the service?
+
+
+---
+
+- Build CLI Tutorial: https://medium.com/swlh/build-a-command-line-interface-cli-program-with-net-core-428c4c85221
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTg3MDQzODMsNjcwMzE2NjI4LDEwMD
-M5ODI0NzcsMTU1NDQ5NTcwOCwyMTAyMTg1MTE4LC0xMTE2NTk0
-NTAyLC0zMzIyNjY4LC0xMjYwMDg0NjAsMTg1NDY4NTcxOCwxOD
-c2NTE1OTQ4LC03NzU4MDQ1OTQsODU2NTUyMjMxLDQ3Mzk0MTU3
-OCwxMjcyODgyMTY3LC0xMzYzNzM5MTg5LDg0MTgxNTA2NiwyMj
-M1NDU0MjgsLTE2MjIzMTczOTgsNTk5NTk1NjMxLC0yMjEyNDg3
-NjJdfQ==
+eyJoaXN0b3J5IjpbMTYyOTQ4NDI1LC0xNjk4NzA0MzgzLDY3MD
+MxNjYyOCwxMDAzOTgyNDc3LDE1NTQ0OTU3MDgsMjEwMjE4NTEx
+OCwtMTExNjU5NDUwMiwtMzMyMjY2OCwtMTI2MDA4NDYwLDE4NT
+Q2ODU3MTgsMTg3NjUxNTk0OCwtNzc1ODA0NTk0LDg1NjU1MjIz
+MSw0NzM5NDE1NzgsMTI3Mjg4MjE2NywtMTM2MzczOTE4OSw4ND
+E4MTUwNjYsMjIzNTQ1NDI4LC0xNjIyMzE3Mzk4LDU5OTU5NTYz
+MV19
 -->
