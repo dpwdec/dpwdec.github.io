@@ -256,6 +256,8 @@ So `strip_path` in kong controls the routing? when I request the url it strips o
 
 ---
 
+##  C# Hostbuilder Services
+
 - Build CLI Tutorial: https://medium.com/swlh/build-a-command-line-interface-cli-program-with-net-core-428c4c85221
 - Generic Host Initial Proposal: https://github.com/aspnet/Hosting/issues/1163
 - Using Generic Host Builder: https://www.stevejgordon.co.uk/using-generic-host-in-dotnet-core-console-based-microservices
@@ -263,8 +265,10 @@ So `strip_path` in kong controls the routing? when I request the url it strips o
 - Background Tasks: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services?view=aspnetcore-3.1&tabs=visual-studio
 - IHostedService stack overflow example: https://stackoverflow.com/questions/51480324/proper-way-to-register-hostedservice-in-asp-net-core-addhostedservice-vs-addsin
 - https://stackoverflow.com/questions/60356396/difference-between-executeasync-and-startasync-methods-in-backgroundservice-net difference between the asyncs
+- Scoped IConfigure Options https://andrewlock.net/the-dangers-and-gotchas-of-using-scoped-services-when-configuring-options-in-asp-net-core/#:~:text=CreateScope()%20.,EF%20Core%20migrations%2C%20for%20example.
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODAwMzE5Miw5Nzc4NTY2MDEsNjE4OT
+eyJoaXN0b3J5IjpbMTI2NzY5NTg3NSw5Nzc4NTY2MDEsNjE4OT
 A5MDAzLC0xNjk4NzA0MzgzLDY3MDMxNjYyOCwxMDAzOTgyNDc3
 LDE1NTQ0OTU3MDgsMjEwMjE4NTExOCwtMTExNjU5NDUwMiwtMz
 MyMjY2OCwtMTI2MDA4NDYwLDE4NTQ2ODU3MTgsMTg3NjUxNTk0
