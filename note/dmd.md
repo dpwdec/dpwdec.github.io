@@ -258,13 +258,13 @@ So `strip_path` in kong controls the routing? when I request the url it strips o
 
 - Build CLI Tutorial: https://medium.com/swlh/build-a-command-line-interface-cli-program-with-net-core-428c4c85221
 - Generic Host Initial Proposal: https://github.com/aspnet/Hosting/issues/1163
-- 
+- Usin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4OTA5MDAzLC0xNjk4NzA0MzgzLDY3MD
-MxNjYyOCwxMDAzOTgyNDc3LDE1NTQ0OTU3MDgsMjEwMjE4NTEx
-OCwtMTExNjU5NDUwMiwtMzMyMjY2OCwtMTI2MDA4NDYwLDE4NT
-Q2ODU3MTgsMTg3NjUxNTk0OCwtNzc1ODA0NTk0LDg1NjU1MjIz
-MSw0NzM5NDE1NzgsMTI3Mjg4MjE2NywtMTM2MzczOTE4OSw4ND
-E4MTUwNjYsMjIzNTQ1NDI4LC0xNjIyMzE3Mzk4LDU5OTU5NTYz
-MV19
+eyJoaXN0b3J5IjpbLTY1OTQyNzI1Niw2MTg5MDkwMDMsLTE2OT
+g3MDQzODMsNjcwMzE2NjI4LDEwMDM5ODI0NzcsMTU1NDQ5NTcw
+OCwyMTAyMTg1MTE4LC0xMTE2NTk0NTAyLC0zMzIyNjY4LC0xMj
+YwMDg0NjAsMTg1NDY4NTcxOCwxODc2NTE1OTQ4LC03NzU4MDQ1
+OTQsODU2NTUyMjMxLDQ3Mzk0MTU3OCwxMjcyODgyMTY3LC0xMz
+YzNzM5MTg5LDg0MTgxNTA2NiwyMjM1NDU0MjgsLTE2MjIzMTcz
+OThdfQ==
 -->
