@@ -262,13 +262,13 @@ So `strip_path` in kong controls the routing? when I request the url it strips o
 - Pluralsight Hosted: https://app.pluralsight.com/library/courses/building-aspnet-core-hosted-services-net-core-worker-services/table-of-contents
 - Background Tasks: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services?view=aspnetcore-3.1&tabs=visual-studio
 - IHostedService stack overflow example: https://stackoverflow.com/questions/51480324/proper-way-to-register-hostedservice-in-asp-net-core-addhostedservice-vs-addsin
-- 
+- https://stackoverflow.com/questions/60356396/difference-between-executeasync-and-startasync-methods-in-backgroundservice-net difference between the asyncs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3ODU2NjAxLDYxODkwOTAwMywtMTY5OD
-cwNDM4Myw2NzAzMTY2MjgsMTAwMzk4MjQ3NywxNTU0NDk1NzA4
-LDIxMDIxODUxMTgsLTExMTY1OTQ1MDIsLTMzMjI2NjgsLTEyNj
-AwODQ2MCwxODU0Njg1NzE4LDE4NzY1MTU5NDgsLTc3NTgwNDU5
-NCw4NTY1NTIyMzEsNDczOTQxNTc4LDEyNzI4ODIxNjcsLTEzNj
-M3MzkxODksODQxODE1MDY2LDIyMzU0NTQyOCwtMTYyMjMxNzM5
-OF19
+eyJoaXN0b3J5IjpbMTU5ODAwMzE5Miw5Nzc4NTY2MDEsNjE4OT
+A5MDAzLC0xNjk4NzA0MzgzLDY3MDMxNjYyOCwxMDAzOTgyNDc3
+LDE1NTQ0OTU3MDgsMjEwMjE4NTExOCwtMTExNjU5NDUwMiwtMz
+MyMjY2OCwtMTI2MDA4NDYwLDE4NTQ2ODU3MTgsMTg3NjUxNTk0
+OCwtNzc1ODA0NTk0LDg1NjU1MjIzMSw0NzM5NDE1NzgsMTI3Mj
+g4MjE2NywtMTM2MzczOTE4OSw4NDE4MTUwNjYsMjIzNTQ1NDI4
+XX0=
 -->
