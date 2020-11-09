@@ -65,7 +65,7 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
 
 ## Modules
 
-Modules are Ansible dependencies that can be used to execute 
+Modules are Ansible dependencies that can be used to execute functionality.
 
 ### Template
 
@@ -83,11 +83,11 @@ You **can generate a basic output from a template** by using the `src` command t
 
 ### Command vs Shell
 
-The `shell` and `command` 
+The `shell` and `command` modules are very similar and can often be interchangeably, *however* a key difference is that the **`command` module is not run through th** 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzc1MTc4Nyw5MDI4MDc1OTcsMzA2Mj
+eyJoaXN0b3J5IjpbLTE0Mjg0MDEzOSw5MDI4MDc1OTcsMzA2Mj
 cxNTcxLDIxNjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
 -->
