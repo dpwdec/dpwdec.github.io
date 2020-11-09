@@ -34,7 +34,10 @@ $ chmod +x my_script.sh
 
 ## Tee
 
-
+You can **append to a file** by using the `tee` command with the `echo` of what you want to append piped `|` to the command. The **`-a` flag indicates that the text you should appended** to the target file.
+```bash
+$ echo "some text" | tee
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYzNjM2MjYsMTY5NTc4OTcxNF19
+eyJoaXN0b3J5IjpbLTIxNDE0MDYyMzgsMTY5NTc4OTcxNF19
 -->
