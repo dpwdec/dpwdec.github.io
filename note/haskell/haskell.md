@@ -4,7 +4,9 @@ exclude: true
 title: Haskell
 ---
 
-Haskell is composed entirely of expressions. 
+Haskell is composed entirely of expressions and declarations.
+
+A Haskell program, no matter how complicated, can be understood as one big expression *composed* from smaller expressions.
 
 ## Prelude
 
@@ -46,7 +48,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTMyNzYzNSwxNzQ2ODQ2MDYsMTYxOD
+eyJoaXN0b3J5IjpbLTk3MDc5MDYxNCwxNzQ2ODQ2MDYsMTYxOD
 AzNTI2OCwtMTA0MDcwODU2OCwxNTg3MjcwMjI3LC0xOTU5MDk0
 NzcwLC0xNzMxNjU2NDc4XX0=
 -->
