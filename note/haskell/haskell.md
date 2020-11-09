@@ -10,6 +10,10 @@ The `prelude` is Haskell's set of standard library components that are contained
 
 It is possible to load alternative `preluide`s or not have one at all.
 
+## Types
+
+You can **assign types** with the `::` double colons.
+
 ## Standard Lib
 
 You can **convert a number into a string** using the `show` function.
@@ -28,6 +32,6 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDA3MDg1NjgsMTU4NzI3MDIyNywtMT
-k1OTA5NDc3MCwtMTczMTY1NjQ3OF19
+eyJoaXN0b3J5IjpbMTYxODAzNTI2OCwtMTA0MDcwODU2OCwxNT
+g3MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
 -->
