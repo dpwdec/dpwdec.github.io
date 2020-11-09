@@ -90,11 +90,13 @@ The `shell` and `command` modules are very similar and can often be interchangea
 - name: Change file (does not work)
   command: echo "some text" | tee -a file.txt
  
+- name: Change file (works)
+  shell: echo "some text" | tee -a file.txt
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjU0MjIxLDkwMjgwNzU5NywzMDYyNz
-E1NzEsMjE2NDQxNzY1LC0zMzYzNzIzNDRdfQ==
+eyJoaXN0b3J5IjpbNTcyMjU4OTIsOTAyODA3NTk3LDMwNjI3MT
+U3MSwyMTY0NDE3NjUsLTMzNjM3MjM0NF19
 -->
