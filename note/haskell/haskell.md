@@ -4,6 +4,12 @@ exclude: true
 title: Haskell
 ---
 
+## Prelude
+
+The `prelude` is Haskell's set of standard library components that are contained in Haskell's `base` package.
+
+
+
 ## Standard Lib
 
 You can **convert a number into a string** using the `show` function.
@@ -22,6 +28,6 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzI3MDIyNywtMTk1OTA5NDc3MCwtMT
-czMTY1NjQ3OF19
+eyJoaXN0b3J5IjpbMTA2ODkzNzI2OSwxNTg3MjcwMjI3LC0xOT
+U5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
 -->
