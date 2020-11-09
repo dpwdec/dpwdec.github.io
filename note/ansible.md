@@ -85,11 +85,16 @@ You **can generate a basic output from a template** by using the `src` command t
 
 The `shell` and `command` modules are very similar and can often be interchangeably, *however* a key difference is that the **`command` module is not run through the shell** and so **does not have access to environment** and **cannot use bash operators** such as `>`, `<`, `|` and `&` and therefore is not much use for things like modifying files.
 
-`shell`, however,
+`shell`, however, is **less secure** than the `command` module because it runs through the `bin/sh` and is therefore influenced by the user's environment settings.
+```yaml
+- name: Change file (does not work)
+  command: echo "some text" | tee -a file.txt
+ 
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzA5MjA3LDkwMjgwNzU5NywzMDYyNz
+eyJoaXN0b3J5IjpbMTcxNjU0MjIxLDkwMjgwNzU5NywzMDYyNz
 E1NzEsMjE2NDQxNzY1LC0zMzYzNzIzNDRdfQ==
 -->
