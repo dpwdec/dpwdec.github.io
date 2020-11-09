@@ -14,6 +14,13 @@ It is possible to load alternative `preluide`s or not have one at all.
 
 You can **assign types** with the `::` double colons.
 
+## GHCi
+
+You can **load an external haskell file** into the REPL by using the `:load` command. This could contain things like function and type definitions that you want to use interactively.
+```bash
+prelude> load myfile.hs
+```
+
 ## Standard Lib
 
 You can **convert a number into a string** using the `show` function.
@@ -32,6 +39,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODAzNTI2OCwtMTA0MDcwODU2OCwxNT
-g3MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
+eyJoaXN0b3J5IjpbMTc0Njg0NjA2LDE2MTgwMzUyNjgsLTEwND
+A3MDg1NjgsMTU4NzI3MDIyNywtMTk1OTA5NDc3MCwtMTczMTY1
+NjQ3OF19
 -->
