@@ -31,6 +31,10 @@ Your script may not have execution privileges. To **make your script executable*
 ```bash
 $ chmod +x my_script.sh
 ```
+
+## Tee
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTc4OTcxNF19
+eyJoaXN0b3J5IjpbLTE1MzYzNjM2MjYsMTY5NTc4OTcxNF19
 -->
