@@ -21,6 +21,11 @@ You can **load an external haskell file** into the REPL by using the `:load` com
 prelude> load myfile.hs
 ```
 
+You can **unload dependencies from the REPL** by using the `:module` command and return
+```bash
+>*Main
+```
+
 ## Standard Lib
 
 You can **convert a number into a string** using the `show` function.
@@ -39,7 +44,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Njg0NjA2LDE2MTgwMzUyNjgsLTEwND
-A3MDg1NjgsMTU4NzI3MDIyNywtMTk1OTA5NDc3MCwtMTczMTY1
-NjQ3OF19
+eyJoaXN0b3J5IjpbLTk1MTU5NzMyOCwxNzQ2ODQ2MDYsMTYxOD
+AzNTI2OCwtMTA0MDcwODU2OCwxNTg3MjcwMjI3LC0xOTU5MDk0
+NzcwLC0xNzMxNjU2NDc4XX0=
 -->
