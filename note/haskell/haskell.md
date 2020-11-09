@@ -4,6 +4,8 @@ exclude: true
 title: Haskell
 ---
 
+Haskell is composed entirely of expressions. 
+
 ## Prelude
 
 The `prelude` is Haskell's set of standard library components that are contained in Haskell's `base` package.
@@ -18,12 +20,12 @@ You can **assign types** with the `::` double colons.
 
 You can **load an external haskell file** into the REPL by using the `:load` command. This could contain things like function and type definitions that you want to use interactively.
 ```bash
-prelude> load myfile.hs
+prelude> :load myfile.hs
 ```
 
-You can **unload dependencies from the REPL** by using the `:module` command and return
+You can **unload dependencies from the REPL** by using the `:module` command and return to the `prelude`.
 ```bash
->*Main
+>*Main :module
 ```
 
 ## Standard Lib
@@ -44,7 +46,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTU5NzMyOCwxNzQ2ODQ2MDYsMTYxOD
+eyJoaXN0b3J5IjpbMTYyOTMyNzYzNSwxNzQ2ODQ2MDYsMTYxOD
 AzNTI2OCwtMTA0MDcwODU2OCwxNTg3MjcwMjI3LC0xOTU5MDk0
 NzcwLC0xNzMxNjU2NDc4XX0=
 -->
