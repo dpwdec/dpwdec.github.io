@@ -8,6 +8,8 @@ Haskell is composed entirely of expressions and declarations.
 
 A Haskell program, no matter how complicated, can be understood as one big expression *composed* from smaller expressions.
 
+**Declarations** are used to **name expressions**.
+
 ## Prelude
 
 The `prelude` is Haskell's set of standard library components that are contained in Haskell's `base` package.
@@ -48,7 +50,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDc5MDYxNCwxNzQ2ODQ2MDYsMTYxOD
-AzNTI2OCwtMTA0MDcwODU2OCwxNTg3MjcwMjI3LC0xOTU5MDk0
-NzcwLC0xNzMxNjU2NDc4XX0=
+eyJoaXN0b3J5IjpbLTE1NTUzNzQ3MzMsMTc0Njg0NjA2LDE2MT
+gwMzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIyNywtMTk1OTA5
+NDc3MCwtMTczMTY1NjQ3OF19
 -->
