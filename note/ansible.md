@@ -63,7 +63,9 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
       # task here
 ```
 
-## Commands
+## Modules
+
+Modules are Ansible dependencies that can be used to execute 
 
 ### Template
 
@@ -79,9 +81,13 @@ You **can generate a basic output from a template** by using the `src` command t
     dest: /etc/file.conf
 ```
 
+### Command vs Shell
+
+The `shell` and `command` 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyODA3NTk3LDMwNjI3MTU3MSwyMTY0ND
-E3NjUsLTMzNjM3MjM0NF19
+eyJoaXN0b3J5IjpbMTkyMzc1MTc4Nyw5MDI4MDc1OTcsMzA2Mj
+cxNTcxLDIxNjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
 -->
