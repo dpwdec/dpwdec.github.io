@@ -14,8 +14,8 @@ exclude: true
 
 JQ is a bash processor for JSON.
 
-You can **access a property of a JSON object** by piping `|` JSON output to the `jq` command and using the `-r` flag f
+You can **access a property of a JSON object** by piping `|` JSON output to the `jq` command and using the `-r` flag followed by 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE1NjI3NTQ0LDEzMjc5ODQ4MDQsMTkwNj
-IwNTY1OV19
+eyJoaXN0b3J5IjpbMTY3NDMwNjM5NywxMzI3OTg0ODA0LDE5MD
+YyMDU2NTldfQ==
 -->
