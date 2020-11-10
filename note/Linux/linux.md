@@ -10,6 +10,10 @@ exclude: true
 
 `ps -ef` shows extra running process detail
 
+Your script may not have execution privileges. To **make your script executable** use the `chmod +x` command.
+```bash
+$ chmod +x my_script.sh
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzMyNzE4NTRdfQ==
+eyJoaXN0b3J5IjpbMTIxOTYzMzI4NV19
 -->
