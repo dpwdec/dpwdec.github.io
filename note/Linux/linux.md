@@ -14,6 +14,8 @@ Your script may not have execution privileges. To **make your script executable*
 ```bash
 $ chmod +x my_script.sh
 ```
+
+You can **invoke a previous command** by using the `!!` double exclamation indicator.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTYzMzI4NV19
+eyJoaXN0b3J5IjpbMTE4NzIwMDMyNiwxMjE5NjMzMjg1XX0=
 -->
