@@ -9,6 +9,13 @@ exclude: true
 `ps` shows running processes
 
 `ps -ef` shows extra running process detail
+
+## JQ
+
+JQ is a bash processor for JSON.
+
+You can **access a property of a JSON object** by piping `|` JSON output to the `jq` command and using the `-r` flag f
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzk4NDgwNCwxOTA2MjA1NjU5XX0=
+eyJoaXN0b3J5IjpbOTE1NjI3NTQ0LDEzMjc5ODQ4MDQsMTkwNj
+IwNTY1OV19
 -->
