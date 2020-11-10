@@ -26,11 +26,6 @@ You can also **execute bash scripts** using the `sh` or `bash` commands.
 $ sh my_script.sh
 $ bash my_script.sh
 ```
-
-Your script may not have execution privileges. To **make your script executable** use the `chmod +x` command.
-```bash
-$ chmod +x my_script.sh
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTc4OTcxNF19
+eyJoaXN0b3J5IjpbNzA2NjAzNDQxLDE2OTU3ODk3MTRdfQ==
 -->
