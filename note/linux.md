@@ -28,10 +28,10 @@ You can **access a property of a JSON object** by piping `|` JSON output to the 
 
 ...you would need to specify the path to property as `'.data.profile.name'` where the highest level `.` period indicates the root of the JSON object.
 ```bash
-echo 
+cat user.json | jq -r '.data.profile.name'
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDA3NTYwNTEsODYxNjc5NDA4LDE2Nz
-QzMDYzOTcsMTMyNzk4NDgwNCwxOTA2MjA1NjU5XX0=
+eyJoaXN0b3J5IjpbMTUwMjU1MDk0NSw4NjE2Nzk0MDgsMTY3ND
+MwNjM5NywxMzI3OTg0ODA0LDE5MDYyMDU2NTldfQ==
 -->
