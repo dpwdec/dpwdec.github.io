@@ -9,7 +9,9 @@ You can **get a substring in a range** using the `cut` command. This command tak
 $ echo "STRING" | cut -c2-4 # => TRI
 ```
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxNjEyNTMwLC0xOTQ3NTgzNiw3ODM2OD
-U2MDEsLTE4NzU2OTc5MDJdfQ==
+eyJoaXN0b3J5IjpbMjE0MzA2MjQ3OCwtMTk0NzU4MzYsNzgzNj
+g1NjAxLC0xODc1Njk3OTAyXX0=
 -->
