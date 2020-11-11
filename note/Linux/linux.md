@@ -10,8 +10,6 @@ exclude: true
 
 `ps -ef` shows extra running process detail
 
-`cut` to strip out
-
 ${variable:5}
 
 You can **make your script executable for all users** by using the `chmod +x` command.
@@ -25,7 +23,7 @@ $ touch mysecurefile.yml
 $ sudo !! # => evaluates to $ sudo touch mysecurefile.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5OTk5Njc3LC0zOTU2NDAzMjEsMTgyNz
-k1NTAyLC0xNjQ2NTk0NDk4LDExODcyMDAzMjYsMTIxOTYzMzI4
-NV19
+eyJoaXN0b3J5IjpbMTkwNzM3ODYyOCw0MTk5OTk2NzcsLTM5NT
+Y0MDMyMSwxODI3OTU1MDIsLTE2NDY1OTQ0OTgsMTE4NzIwMDMy
+NiwxMjE5NjMzMjg1XX0=
 -->
