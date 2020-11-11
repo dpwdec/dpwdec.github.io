@@ -14,13 +14,13 @@ exclude: true
 
 ${variable:5}
 
-Your script may not have execution privileges. To **make your script executable** use the `chmod +x` command.
+You can **make your script executable for all users** by using the `chmod +x` command.
 ```bash
 $ chmod +x my_script.sh
 ```
 
 You can **invoke a previous command** by using the `!!` double exclamation indicator.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDY1OTQ0OTgsMTE4NzIwMDMyNiwxMj
-E5NjMzMjg1XX0=
+eyJoaXN0b3J5IjpbMTgyNzk1NTAyLC0xNjQ2NTk0NDk4LDExOD
+cyMDAzMjYsMTIxOTYzMzI4NV19
 -->
