@@ -9,9 +9,12 @@ You can **get a substring in a range** using the `cut` command. This command tak
 $ echo "STRING" | cut -c2-4 # => TRI
 ```
 
-
+You can **get a substring until the end of a string** by leaving the second number (`N`) empty.
+```bash
+$ echo "STRING" | cut -c2- #
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1MzE0MzQsLTE5NDc1ODM2LDc4MzY4NT
-YwMSwtMTg3NTY5NzkwMl19
+eyJoaXN0b3J5IjpbLTIxMjUyNDc0MjksLTE5NDc1ODM2LDc4Mz
+Y4NTYwMSwtMTg3NTY5NzkwMl19
 -->
