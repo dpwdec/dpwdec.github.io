@@ -14,7 +14,9 @@ You can **get a substring until the end of a string** by leaving the second numb
 $ echo "STRING" | cut -c2- # => TRING
 ```
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0NTA2NTI2LC0xOTQ3NTgzNiw3ODM2OD
-U2MDEsLTE4NzU2OTc5MDJdfQ==
+eyJoaXN0b3J5IjpbLTE2NjIyOTgzNzQsLTE5NDc1ODM2LDc4Mz
+Y4NTYwMSwtMTg3NTY5NzkwMl19
 -->
