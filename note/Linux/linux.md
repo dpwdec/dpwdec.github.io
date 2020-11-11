@@ -21,10 +21,11 @@ $ chmod +x my_script.sh
 
 You can **invoke a previous command** by using the `!!` double exclamation indicator. This is useful for rerunning a command with `sudo`.
 ```bash
-$ touch mysecure
-$ sudo !!
+$ touch mysecurefile.yml
+$ sudo !! # => evaluates to $ sudo touch mysecurefile.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTY0MDMyMSwxODI3OTU1MDIsLTE2ND
-Y1OTQ0OTgsMTE4NzIwMDMyNiwxMjE5NjMzMjg1XX0=
+eyJoaXN0b3J5IjpbNDE5OTk5Njc3LC0zOTU2NDAzMjEsMTgyNz
+k1NTAyLC0xNjQ2NTk0NDk4LDExODcyMDAzMjYsMTIxOTYzMzI4
+NV19
 -->
