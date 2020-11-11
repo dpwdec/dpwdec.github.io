@@ -19,8 +19,12 @@ You can **make your script executable for all users** by using the `chmod +x` co
 $ chmod +x my_script.sh
 ```
 
-You can **invoke a previous command** by using the `!!` double exclamation indicator.
+You can **invoke a previous command** by using the `!!` double exclamation indicator. This is useful for rerunning a command with `sudo`.
+```bash
+$ touch mysecure
+$ sudo !!
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzk1NTAyLC0xNjQ2NTk0NDk4LDExOD
-cyMDAzMjYsMTIxOTYzMzI4NV19
+eyJoaXN0b3J5IjpbLTM5NTY0MDMyMSwxODI3OTU1MDIsLTE2ND
+Y1OTQ0OTgsMTE4NzIwMDMyNiwxMjE5NjMzMjg1XX0=
 -->
