@@ -14,13 +14,15 @@ A Haskell program, no matter how complicated, can be understood as one big expre
 
 The `prelude` is Haskell's set of standard library components that are contained in Haskell's `base` package.
 
-It is possible to load alternative `preluide`s or not have one at all.
+It is possible to load alternative `prelude`s or not have one at all.
 
 ## Types
 
 You can **assign types** with the `::` double colons.
 
 ## GHCi
+
+You can **start u**
 
 You can **load an external haskell file** into the REPL by using the `:load` command. This could contain things like function and type definitions that you want to use interactively.
 ```bash
@@ -50,7 +52,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTUzNzQ3MzMsMTc0Njg0NjA2LDE2MT
-gwMzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIyNywtMTk1OTA5
-NDc3MCwtMTczMTY1NjQ3OF19
+eyJoaXN0b3J5IjpbLTE2MzUyMzk3OTgsLTE1NTUzNzQ3MzMsMT
+c0Njg0NjA2LDE2MTgwMzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3
+MDIyNywtMTk1OTA5NDc3MCwtMTczMTY1NjQ3OF19
 -->
