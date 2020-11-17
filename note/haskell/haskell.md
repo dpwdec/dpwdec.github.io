@@ -12,6 +12,10 @@ A Haskell program, no matter how complicated, can be understood as one big expre
 
 Expressions are said to be in **normal form** if they cannot be reduced any further or no more evaluation steps can be taken. The normal form of `2 + 2` is `4` because `4` can only stand for itself and cannot be further reduced.
 
+Expressions that are reducible are sometimes called **redexes**.
+
+You can also use the term **normalizing** to refer the evaluation of an expression.
+
 ## Prelude
 
 The `prelude` is Haskell's set of standard library components that are contained in Haskell's `base` package.
@@ -57,7 +61,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTYzOTkxMSwtMTU1NTM3NDczMywxNz
+eyJoaXN0b3J5IjpbLTE4OTUyOTgyNywtMTU1NTM3NDczMywxNz
 Q2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OCwxNTg3Mjcw
 MjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
 -->
