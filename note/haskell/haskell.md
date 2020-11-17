@@ -10,6 +10,8 @@ A Haskell program, no matter how complicated, can be understood as one big expre
 
 **Declarations** are used to **name expressions**.
 
+Expressions are said to be in **normal form** 
+
 ## Prelude
 
 The `prelude` is Haskell's set of standard library components that are contained in Haskell's `base` package.
@@ -55,7 +57,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzNjQxMDg1LC0xNTU1Mzc0NzMzLDE3ND
-Y4NDYwNiwxNjE4MDM1MjY4LC0xMDQwNzA4NTY4LDE1ODcyNzAy
-MjcsLTE5NTkwOTQ3NzAsLTE3MzE2NTY0NzhdfQ==
+eyJoaXN0b3J5IjpbLTY4OTE5ODMxMSwtMTU1NTM3NDczMywxNz
+Q2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OCwxNTg3Mjcw
+MjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
 -->
