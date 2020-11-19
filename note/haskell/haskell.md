@@ -73,7 +73,7 @@ When defining **variables** they **must also start with a lowercase letter**.
 
 You can **use a function as an infix** by surrounding the function name with backticks ` if the function takes two arguments.
 ```haskell
-
+10 `div` 2 -- = 5.
 ```
 
 ## Order
@@ -90,9 +90,9 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTc1OTM1OCwtMTExMjIyODEzMCwtNT
-Q4NDEwNDAyLC03MjU4ODQ1MzQsLTE3NDk4NDEzNTEsMTIwMTQ4
-MzMwNCwtMTg5NTI5ODI3LC0xNTU1Mzc0NzMzLDE3NDY4NDYwNi
-wxNjE4MDM1MjY4LC0xMDQwNzA4NTY4LDE1ODcyNzAyMjcsLTE5
-NTkwOTQ3NzAsLTE3MzE2NTY0NzhdfQ==
+eyJoaXN0b3J5IjpbNjc4MDY5MDgyLC0xMTEyMjI4MTMwLC01ND
+g0MTA0MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwxMjAxNDgz
+MzA0LC0xODk1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Njg0NjA2LD
+E2MTgwMzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIyNywtMTk1
+OTA5NDc3MCwtMTczMTY1NjQ3OF19
 -->
