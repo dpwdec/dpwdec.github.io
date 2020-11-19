@@ -58,7 +58,7 @@ You can **unload dependencies from the REPL** by using the `:module` command and
 You can **get info about a function** by using the `:info` command followed by the function.
 ```bash
 prelude> :info (*)
-infixl 7 *
+-- infixl 7 *
 ```
 
 ## Standard Lib
@@ -111,7 +111,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDg3NzI4MTUsMTg3NTYwNDI0MCw3MD
+eyJoaXN0b3J5IjpbLTIxMzU4NjUyNTUsMTg3NTYwNDI0MCw3MD
 M3MTc0NTYsLTExMTIyMjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0
 NTM0LC0xNzQ5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNy
 wtMTU1NTM3NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0
