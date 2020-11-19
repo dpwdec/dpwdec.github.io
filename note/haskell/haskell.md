@@ -59,7 +59,7 @@ triple x = x * 3 --ok
 Triple x = x * 3 --WRONG
 ```
 
-Variabl
+When defining **variables** they **must also start with a lowercase letter**.
 
 ## Order
 
@@ -75,8 +75,8 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2NDM3NDIyLC0xNzQ5ODQxMzUxLDEyMD
-E0ODMzMDQsLTE4OTUyOTgyNywtMTU1NTM3NDczMywxNzQ2ODQ2
-MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OCwxNTg3MjcwMjI3LC
-0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
+eyJoaXN0b3J5IjpbLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwxMj
+AxNDgzMzA0LC0xODk1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Njg0
+NjA2LDE2MTgwMzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIyNy
+wtMTk1OTA5NDc3MCwtMTczMTY1NjQ3OF19
 -->
