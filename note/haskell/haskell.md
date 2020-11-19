@@ -18,6 +18,10 @@ You can also use the term **normalizing** to refer the evaluation of an expressi
 
 A **parameter** refers to the generalised input argument to a function. For example the first `x` in the function `triple x = x * 3`.
 
+An **argument** is the actual concrete value that is provided to a parameter of a function. For example the `3` when the function `triple 3` is called.
+
+
+
 ## Prelude
 
 The `prelude` is Haskell's set of standard library components that are contained in Haskell's `base` package.
@@ -63,8 +67,8 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTQ4MzMwNCwtMTg5NTI5ODI3LC0xNT
-U1Mzc0NzMzLDE3NDY4NDYwNiwxNjE4MDM1MjY4LC0xMDQwNzA4
-NTY4LDE1ODcyNzAyMjcsLTE5NTkwOTQ3NzAsLTE3MzE2NTY0Nz
-hdfQ==
+eyJoaXN0b3J5IjpbLTY0MjI5NDM2OCwxMjAxNDgzMzA0LC0xOD
+k1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Njg0NjA2LDE2MTgwMzUy
+NjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIyNywtMTk1OTA5NDc3MC
+wtMTczMTY1NjQ3OF19
 -->
