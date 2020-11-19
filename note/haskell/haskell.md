@@ -76,6 +76,8 @@ When defining **variables** they **must also start with a lowercase letter**.
 
 ### Infix Functions
 
+Infix functions use the **infixl** type.
+
 You can **use a function as an infix** by surrounding the function name with backticks ` if the function takes two arguments.
 ```haskell
 div 10 2 -- = 5
@@ -106,10 +108,10 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzk4MTg2MjQsMTg3NTYwNDI0MCw3MD
-M3MTc0NTYsLTExMTIyMjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0
-NTM0LC0xNzQ5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNy
-wtMTU1NTM3NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0
-MDcwODU2OCwxNTg3MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNj
-U2NDc4XX0=
+eyJoaXN0b3J5IjpbLTQ3MDQwMTcsMTg3NTYwNDI0MCw3MDM3MT
+c0NTYsLTExMTIyMjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0NTM0
+LC0xNzQ5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNywtMT
+U1NTM3NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcw
+ODU2OCwxNTg3MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2ND
+c4XX0=
 -->
