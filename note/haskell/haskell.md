@@ -77,6 +77,11 @@ div 10 2 -- = 5
 10 `div` 2 -- = 5
 ```
 
+You can **use infix functions like regular functions** by surrounding them with `()` soft braces.
+```haskell
+(+) 20 30 -- = 50
+```
+
 ## Order
 
 When **applying arithmetic operators to functions** the function outputs will take highest precedence and will output their results to be used by the operators. So a statement like `f 20 + g 30 10` would be equivalent to `(f 20) + (g 30 10)` because the results of the functions `f` and `g` would be output in place between arithmetic is applied.
@@ -91,9 +96,9 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzMTU4ODQsLTExMTIyMjgxMzAsLTU0OD
-QxMDQwMiwtNzI1ODg0NTM0LC0xNzQ5ODQxMzUxLDEyMDE0ODMz
-MDQsLTE4OTUyOTgyNywtMTU1NTM3NDczMywxNzQ2ODQ2MDYsMT
-YxODAzNTI2OCwtMTA0MDcwODU2OCwxNTg3MjcwMjI3LC0xOTU5
-MDk0NzcwLC0xNzMxNjU2NDc4XX0=
+eyJoaXN0b3J5IjpbNzAzNzE3NDU2LC0xMTEyMjI4MTMwLC01ND
+g0MTA0MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwxMjAxNDgz
+MzA0LC0xODk1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Njg0NjA2LD
+E2MTgwMzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIyNywtMTk1
+OTA5NDc3MCwtMTczMTY1NjQ3OF19
 -->
