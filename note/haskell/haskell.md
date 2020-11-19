@@ -65,6 +65,8 @@ prelude> :info (*)
 
 You can **convert a number into a string** using the `show` function.
 
+The `div` function can be **used for integral division**.
+
 ## Functions
 
 When defining a function it **must start with a lowercase letter**.
@@ -120,10 +122,10 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI3MzUzNjQsLTE2MTkwNDgyODQsMT
-g3NTYwNDI0MCw3MDM3MTc0NTYsLTExMTIyMjgxMzAsLTU0ODQx
-MDQwMiwtNzI1ODg0NTM0LC0xNzQ5ODQxMzUxLDEyMDE0ODMzMD
-QsLTE4OTUyOTgyNywtMTU1NTM3NDczMywxNzQ2ODQ2MDYsMTYx
-ODAzNTI2OCwtMTA0MDcwODU2OCwxNTg3MjcwMjI3LC0xOTU5MD
-k0NzcwLC0xNzMxNjU2NDc4XX0=
+eyJoaXN0b3J5IjpbLTIxMTA5ODk2OTgsLTE5OTI3MzUzNjQsLT
+E2MTkwNDgyODQsMTg3NTYwNDI0MCw3MDM3MTc0NTYsLTExMTIy
+MjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0NTM0LC0xNzQ5ODQxMz
+UxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNywtMTU1NTM3NDczMywx
+NzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OCwxNTg3Mj
+cwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
 -->
