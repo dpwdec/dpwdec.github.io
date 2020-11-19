@@ -55,6 +55,8 @@ You can **unload dependencies from the REPL** by using the `:module` command and
 >*Main :module
 ```
 
+You can **get info about a function** by using the `:info` command followed by the functio
+
 ## Standard Lib
 
 You can **convert a number into a string** using the `show` function.
@@ -101,9 +103,10 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTYwNDI0MCw3MDM3MTc0NTYsLTExMT
-IyMjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0NTM0LC0xNzQ5ODQx
-MzUxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNywtMTU1NTM3NDczMy
-wxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OCwxNTg3
-MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
+eyJoaXN0b3J5IjpbLTE4ODgwNzQyMjQsMTg3NTYwNDI0MCw3MD
+M3MTc0NTYsLTExMTIyMjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0
+NTM0LC0xNzQ5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNy
+wtMTU1NTM3NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0
+MDcwODU2OCwxNTg3MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNj
+U2NDc4XX0=
 -->
