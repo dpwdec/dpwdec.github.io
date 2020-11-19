@@ -24,6 +24,8 @@ An **argument** is the actual concrete value that is provided to a parameter of 
 
 Haskell uses **lazy evaluation** which means that **terms are only evaluated when they are needed**.
 
+**Application is evaluation**
+
 ## Prelude
 
 The `prelude` is Haskell's set of standard library components that are contained in Haskell's `base` package.
@@ -79,8 +81,9 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1OTkzMjAsLTcyNTg4NDUzNCwtMTc0OT
-g0MTM1MSwxMjAxNDgzMzA0LC0xODk1Mjk4MjcsLTE1NTUzNzQ3
-MzMsMTc0Njg0NjA2LDE2MTgwMzUyNjgsLTEwNDA3MDg1NjgsMT
-U4NzI3MDIyNywtMTk1OTA5NDc3MCwtMTczMTY1NjQ3OF19
+eyJoaXN0b3J5IjpbLTU0ODQxMDQwMiwtNzI1ODg0NTM0LC0xNz
+Q5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNywtMTU1NTM3
+NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OC
+wxNTg3MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
+
 -->
