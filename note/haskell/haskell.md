@@ -26,7 +26,7 @@ Haskell uses **lazy evaluation** which means that **terms are only evaluated whe
 
 **Application is evaluation**: applying a function to an argument means that argument needs to be evaluated.
 
-Haskell **does evaluate everything to normal form by default**, instead it evaluates to **weak head normal form** or **WHNF** which means that *not everything* is reduced to its m
+Haskell **does evaluate everything to normal form by default**, instead it evaluates to **weak head normal form** or **WHNF** which means that *not everything* is reduced to its most irreducible form immediately.
 
 ## Prelude
 
@@ -83,7 +83,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY0Mzc2NDYsLTU0ODQxMDQwMiwtNz
+eyJoaXN0b3J5IjpbLTExMTIyMjgxMzAsLTU0ODQxMDQwMiwtNz
 I1ODg0NTM0LC0xNzQ5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUy
 OTgyNywtMTU1NTM3NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OC
 wtMTA0MDcwODU2OCwxNTg3MjcwMjI3LC0xOTU5MDk0NzcwLC0x
