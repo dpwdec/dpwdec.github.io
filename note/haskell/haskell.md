@@ -82,7 +82,10 @@ You can **use infix functions like regular functions** by surrounding them with 
 (+) 20 30 -- = 50
 ```
 
+You can **define your own infix functions** by surrounding them with `()` soft braces at definition.
+```haskell
 
+```
 
 ## Order
 
@@ -98,9 +101,9 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0MjQxODM2LDcwMzcxNzQ1NiwtMTExMj
-IyODEzMCwtNTQ4NDEwNDAyLC03MjU4ODQ1MzQsLTE3NDk4NDEz
-NTEsMTIwMTQ4MzMwNCwtMTg5NTI5ODI3LC0xNTU1Mzc0NzMzLD
-E3NDY4NDYwNiwxNjE4MDM1MjY4LC0xMDQwNzA4NTY4LDE1ODcy
-NzAyMjcsLTE5NTkwOTQ3NzAsLTE3MzE2NTY0NzhdfQ==
+eyJoaXN0b3J5IjpbMTg3NTYwNDI0MCw3MDM3MTc0NTYsLTExMT
+IyMjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0NTM0LC0xNzQ5ODQx
+MzUxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNywtMTU1NTM3NDczMy
+wxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OCwxNTg3
+MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
 -->
