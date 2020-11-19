@@ -65,7 +65,7 @@ prelude> :info (*)
 
 You can **convert a number into a string** using the `show` function.
 
-The `div` function can be **used for integral division** which always rounds down.
+The `div` function can be **used for integral division** and **always rounds down**.
 
 The `quot` function can be **used for integral division** and **always rounds towards zero**, so with negative division it will round up.
 
@@ -124,7 +124,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDAxMzA3MTAsLTE5OTI3MzUzNjQsLT
+eyJoaXN0b3J5IjpbLTE0NDk1NDYyNTYsLTE5OTI3MzUzNjQsLT
 E2MTkwNDgyODQsMTg3NTYwNDI0MCw3MDM3MTc0NTYsLTExMTIy
 MjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0NTM0LC0xNzQ5ODQxMz
 UxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNywtMTU1NTM3NDczMywx
