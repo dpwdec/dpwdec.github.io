@@ -20,8 +20,6 @@ A **parameter** refers to the generalised input argument to a function. For exam
 
 An **argument** is the actual concrete value that is provided to a parameter of a function. For example the `3` when the function `triple 3` is called.
 
-
-
 ## Prelude
 
 The `prelude` is Haskell's set of standard library components that are contained in Haskell's `base` package.
@@ -53,6 +51,14 @@ You can **unload dependencies from the REPL** by using the `:module` command and
 
 You can **convert a number into a string** using the `show` function.
 
+## Functions
+
+When defining a function it **must start with a lowercase letter**.
+```haskell
+triple x = x * 3 --ok
+Triple x = x * 3 --WRONG
+```
+
 ## Order
 
 When **applying arithmetic operators to functions** the function outputs will take highest precedence and will output their results to be used by the operators. So a statement like `f 20 + g 30 10` would be equivalent to `(f 20) + (g 30 10)` because the results of the functions `f` and `g` would be output in place between arithmetic is applied.
@@ -67,8 +73,8 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjI5NDM2OCwxMjAxNDgzMzA0LC0xOD
-k1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Njg0NjA2LDE2MTgwMzUy
-NjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIyNywtMTk1OTA5NDc3MC
-wtMTczMTY1NjQ3OF19
+eyJoaXN0b3J5IjpbLTE3NDk4NDEzNTEsMTIwMTQ4MzMwNCwtMT
+g5NTI5ODI3LC0xNTU1Mzc0NzMzLDE3NDY4NDYwNiwxNjE4MDM1
+MjY4LC0xMDQwNzA4NTY4LDE1ODcyNzAyMjcsLTE5NTkwOTQ3Nz
+AsLTE3MzE2NTY0NzhdfQ==
 -->
