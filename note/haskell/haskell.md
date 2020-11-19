@@ -24,7 +24,7 @@ An **argument** is the actual concrete value that is provided to a parameter of 
 
 Haskell uses **lazy evaluation** which means that **terms are only evaluated when they are needed**.
 
-**Application is evaluation**
+**Application is evaluation**: applying a function to an argument means that argument needs to be evaluated.
 
 ## Prelude
 
@@ -81,9 +81,9 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0ODQxMDQwMiwtNzI1ODg0NTM0LC0xNz
-Q5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNywtMTU1NTM3
-NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OC
-wxNTg3MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
-
+eyJoaXN0b3J5IjpbLTI4Njg0ODM3NCwtNTQ4NDEwNDAyLC03Mj
+U4ODQ1MzQsLTE3NDk4NDEzNTEsMTIwMTQ4MzMwNCwtMTg5NTI5
+ODI3LC0xNTU1Mzc0NzMzLDE3NDY4NDYwNiwxNjE4MDM1MjY4LC
+0xMDQwNzA4NTY4LDE1ODcyNzAyMjcsLTE5NTkwOTQ3NzAsLTE3
+MzE2NTY0NzhdfQ==
 -->
