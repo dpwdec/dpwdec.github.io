@@ -69,6 +69,13 @@ Triple x = x * 3 --WRONG
 
 When defining **variables** they **must also start with a lowercase letter**.
 
+### Infix Functions
+
+You can **use a function as an infix** by surrounding the function name with backticks ` if the function takes two arguments.
+```haskell
+
+```
+
 ## Order
 
 When **applying arithmetic operators to functions** the function outputs will take highest precedence and will output their results to be used by the operators. So a statement like `f 20 + g 30 10` would be equivalent to `(f 20) + (g 30 10)` because the results of the functions `f` and `g` would be output in place between arithmetic is applied.
@@ -83,9 +90,9 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTIyMjgxMzAsLTU0ODQxMDQwMiwtNz
-I1ODg0NTM0LC0xNzQ5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUy
-OTgyNywtMTU1NTM3NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OC
-wtMTA0MDcwODU2OCwxNTg3MjcwMjI3LC0xOTU5MDk0NzcwLC0x
-NzMxNjU2NDc4XX0=
+eyJoaXN0b3J5IjpbMTIwMTc1OTM1OCwtMTExMjIyODEzMCwtNT
+Q4NDEwNDAyLC03MjU4ODQ1MzQsLTE3NDk4NDEzNTEsMTIwMTQ4
+MzMwNCwtMTg5NTI5ODI3LC0xNTU1Mzc0NzMzLDE3NDY4NDYwNi
+wxNjE4MDM1MjY4LC0xMDQwNzA4NTY4LDE1ODcyNzAyMjcsLTE5
+NTkwOTQ3NzAsLTE3MzE2NTY0NzhdfQ==
 -->
