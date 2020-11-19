@@ -12,6 +12,8 @@ A Haskell program, no matter how complicated, can be understood as one big expre
 
 Expressions are said to be in **normal form** if they cannot be reduced any further or no more evaluation steps can be taken. The normal form of `2 + 2` is `4` because `4` can only stand for itself and cannot be further reduced.
 
+Irreducible objects are also **referred to as values**.
+
 Expressions that are reducible are sometimes called **redexes**.
 
 You can also use the term **normalizing** to refer the evaluation of an expression.
@@ -19,6 +21,8 @@ You can also use the term **normalizing** to refer the evaluation of an expressi
 A **parameter** refers to the generalised input argument to a function. For example the first `x` in the function `triple x = x * 3`.
 
 An **argument** is the actual concrete value that is provided to a parameter of a function. For example the `3` when the function `triple 3` is called.
+
+Haskell uses **lazy evaluation** which means that **terms are only evaluated when they are needed**.
 
 ## Prelude
 
@@ -75,8 +79,9 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwxMj
-AxNDgzMzA0LC0xODk1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Njg0
-NjA2LDE2MTgwMzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIyNy
-wtMTk1OTA5NDc3MCwtMTczMTY1NjQ3OF19
+eyJoaXN0b3J5IjpbMTA1NjUwODI5OCwtNzI1ODg0NTM0LC0xNz
+Q5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNywtMTU1NTM3
+NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OC
+wxNTg3MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
+
 -->
