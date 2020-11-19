@@ -59,6 +59,8 @@ triple x = x * 3 --ok
 Triple x = x * 3 --WRONG
 ```
 
+Variabl
+
 ## Order
 
 When **applying arithmetic operators to functions** the function outputs will take highest precedence and will output their results to be used by the operators. So a statement like `f 20 + g 30 10` would be equivalent to `(f 20) + (g 30 10)` because the results of the functions `f` and `g` would be output in place between arithmetic is applied.
@@ -73,8 +75,8 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDk4NDEzNTEsMTIwMTQ4MzMwNCwtMT
-g5NTI5ODI3LC0xNTU1Mzc0NzMzLDE3NDY4NDYwNiwxNjE4MDM1
-MjY4LC0xMDQwNzA4NTY4LDE1ODcyNzAyMjcsLTE5NTkwOTQ3Nz
-AsLTE3MzE2NTY0NzhdfQ==
+eyJoaXN0b3J5IjpbMzc2NDM3NDIyLC0xNzQ5ODQxMzUxLDEyMD
+E0ODMzMDQsLTE4OTUyOTgyNywtMTU1NTM3NDczMywxNzQ2ODQ2
+MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OCwxNTg3MjcwMjI3LC
+0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
 -->
