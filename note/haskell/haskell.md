@@ -16,7 +16,7 @@ Expressions that are reducible are sometimes called **redexes**.
 
 You can also use the term **normalizing** to refer the evaluation of an expression.
 
-A **parameter** 
+A **parameter** refers to the generalised input argument to a function. For example the first `x` in the function `triple x = x * 3`.
 
 ## Prelude
 
@@ -63,8 +63,8 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDA3MjQ5NTcsLTE4OTUyOTgyNywtMT
-U1NTM3NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcw
-ODU2OCwxNTg3MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2ND
-c4XX0=
+eyJoaXN0b3J5IjpbMTIwMTQ4MzMwNCwtMTg5NTI5ODI3LC0xNT
+U1Mzc0NzMzLDE3NDY4NDYwNiwxNjE4MDM1MjY4LC0xMDQwNzA4
+NTY4LDE1ODcyNzAyMjcsLTE5NTkwOTQ3NzAsLTE3MzE2NTY0Nz
+hdfQ==
 -->
