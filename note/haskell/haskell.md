@@ -76,7 +76,9 @@ When defining **variables** they **must also start with a lowercase letter**.
 
 ### Infix Functions
 
-Infix functions use the **infixl** type.
+Infix functions use the **infixl** type for **left associative functions**. For example `6 * 2 * 3` will be evaluated as `(6 * 2) * 3` because `*` is a left associative infix function.
+
+Infix functions use the **infixr** type for **right associative functions**.
 
 You can **use a function as an infix** by surrounding the function name with backticks ` if the function takes two arguments.
 ```haskell
@@ -108,10 +110,10 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDQwMTcsMTg3NTYwNDI0MCw3MDM3MT
-c0NTYsLTExMTIyMjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0NTM0
-LC0xNzQ5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNywtMT
-U1NTM3NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcw
-ODU2OCwxNTg3MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2ND
-c4XX0=
+eyJoaXN0b3J5IjpbLTM0NjUxMDk4NiwxODc1NjA0MjQwLDcwMz
+cxNzQ1NiwtMTExMjIyODEzMCwtNTQ4NDEwNDAyLC03MjU4ODQ1
+MzQsLTE3NDk4NDEzNTEsMTIwMTQ4MzMwNCwtMTg5NTI5ODI3LC
+0xNTU1Mzc0NzMzLDE3NDY4NDYwNiwxNjE4MDM1MjY4LC0xMDQw
+NzA4NTY4LDE1ODcyNzAyMjcsLTE5NTkwOTQ3NzAsLTE3MzE2NT
+Y0NzhdfQ==
 -->
