@@ -16,6 +16,8 @@ Expressions that are reducible are sometimes called **redexes**.
 
 You can also use the term **normalizing** to refer the evaluation of an expression.
 
+A **parameter** 
+
 ## Prelude
 
 The `prelude` is Haskell's set of standard library components that are contained in Haskell's `base` package.
@@ -61,7 +63,8 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTUyOTgyNywtMTU1NTM3NDczMywxNz
-Q2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OCwxNTg3Mjcw
-MjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
+eyJoaXN0b3J5IjpbLTE5MDA3MjQ5NTcsLTE4OTUyOTgyNywtMT
+U1NTM3NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcw
+ODU2OCwxNTg3MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2ND
+c4XX0=
 -->
