@@ -82,6 +82,8 @@ You can **use infix functions like regular functions** by surrounding them with 
 (+) 20 30 -- = 50
 ```
 
+
+
 ## Order
 
 When **applying arithmetic operators to functions** the function outputs will take highest precedence and will output their results to be used by the operators. So a statement like `f 20 + g 30 10` would be equivalent to `(f 20) + (g 30 10)` because the results of the functions `f` and `g` would be output in place between arithmetic is applied.
@@ -96,9 +98,9 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzNzE3NDU2LC0xMTEyMjI4MTMwLC01ND
-g0MTA0MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwxMjAxNDgz
-MzA0LC0xODk1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Njg0NjA2LD
-E2MTgwMzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIyNywtMTk1
-OTA5NDc3MCwtMTczMTY1NjQ3OF19
+eyJoaXN0b3J5IjpbMjc0MjQxODM2LDcwMzcxNzQ1NiwtMTExMj
+IyODEzMCwtNTQ4NDEwNDAyLC03MjU4ODQ1MzQsLTE3NDk4NDEz
+NTEsMTIwMTQ4MzMwNCwtMTg5NTI5ODI3LC0xNTU1Mzc0NzMzLD
+E3NDY4NDYwNiwxNjE4MDM1MjY4LC0xMDQwNzA4NTY4LDE1ODcy
+NzAyMjcsLTE5NTkwOTQ3NzAsLTE3MzE2NTY0NzhdfQ==
 -->
