@@ -12,7 +12,7 @@ A Haskell program, no matter how complicated, can be understood as one big expre
 
 Expressions are said to be in **normal form** if they cannot be reduced any further or no more evaluation steps can be taken. The normal form of `2 + 2` is `4` because `4` can only stand for itself and cannot be further reduced.
 
-Irreducible objects are also **referred to as values**.
+Irreducible terms are also **referred to as values**, such as `
 
 Expressions that are reducible are sometimes called **redexes**.
 
@@ -79,7 +79,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjUwODI5OCwtNzI1ODg0NTM0LC0xNz
+eyJoaXN0b3J5IjpbLTE3MzY0Mzc3MCwtNzI1ODg0NTM0LC0xNz
 Q5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNywtMTU1NTM3
 NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OC
 wxNTg3MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
