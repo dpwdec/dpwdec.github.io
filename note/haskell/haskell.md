@@ -26,6 +26,8 @@ Haskell uses **lazy evaluation** which means that **terms are only evaluated whe
 
 **Application is evaluation**: applying a function to an argument means that argument needs to be evaluated.
 
+Haskell **does evaluate everything to normal form by default**, instead it evaluates to **weak head normal form** or **WHNF** which means that *not everything* is reduced to its m
+
 ## Prelude
 
 The `prelude` is Haskell's set of standard library components that are contained in Haskell's `base` package.
@@ -81,9 +83,9 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4Njg0ODM3NCwtNTQ4NDEwNDAyLC03Mj
-U4ODQ1MzQsLTE3NDk4NDEzNTEsMTIwMTQ4MzMwNCwtMTg5NTI5
-ODI3LC0xNTU1Mzc0NzMzLDE3NDY4NDYwNiwxNjE4MDM1MjY4LC
-0xMDQwNzA4NTY4LDE1ODcyNzAyMjcsLTE5NTkwOTQ3NzAsLTE3
-MzE2NTY0NzhdfQ==
+eyJoaXN0b3J5IjpbLTEzNDY0Mzc2NDYsLTU0ODQxMDQwMiwtNz
+I1ODg0NTM0LC0xNzQ5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUy
+OTgyNywtMTU1NTM3NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OC
+wtMTA0MDcwODU2OCwxNTg3MjcwMjI3LC0xOTU5MDk0NzcwLC0x
+NzMxNjU2NDc4XX0=
 -->
