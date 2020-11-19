@@ -99,7 +99,7 @@ You can **define your own infix functions** by surrounding them with `()` soft b
 
 ## Modules
 
-You can **define a module** by using the `module` and `where` keyword. The module name **
+You can **define a module** by using the `module` and `where` keyword. The **module name should be capitalised**.
 ```haskell
 module MyModule where
 
@@ -120,10 +120,10 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzMDAwNzEzLC0xNjE5MDQ4Mjg0LDE4Nz
-U2MDQyNDAsNzAzNzE3NDU2LC0xMTEyMjI4MTMwLC01NDg0MTA0
-MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwxMjAxNDgzMzA0LC
-0xODk1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Njg0NjA2LDE2MTgw
-MzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIyNywtMTk1OTA5ND
-c3MCwtMTczMTY1NjQ3OF19
+eyJoaXN0b3J5IjpbLTE5OTI3MzUzNjQsLTE2MTkwNDgyODQsMT
+g3NTYwNDI0MCw3MDM3MTc0NTYsLTExMTIyMjgxMzAsLTU0ODQx
+MDQwMiwtNzI1ODg0NTM0LC0xNzQ5ODQxMzUxLDEyMDE0ODMzMD
+QsLTE4OTUyOTgyNywtMTU1NTM3NDczMywxNzQ2ODQ2MDYsMTYx
+ODAzNTI2OCwtMTA0MDcwODU2OCwxNTg3MjcwMjI3LC0xOTU5MD
+k0NzcwLC0xNzMxNjU2NDc4XX0=
 -->
