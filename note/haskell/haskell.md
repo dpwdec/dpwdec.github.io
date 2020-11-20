@@ -61,7 +61,10 @@ prelude> :info (*)
 -- infixl 7 *
 ```
 
-If functions with the same precedence are applied to each other with out parentheses indicating order haskell will throw an `Precendence parsing error`
+If functions with the same precedence are applied to each other with out parentheses indicating order Haskell will throw an `Precendence parsing error`.
+```haskell
+9 + -2 -- ERROR
+```
 
 ## Standard Lib
 
@@ -152,11 +155,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0NTIyNCwtODQ3NTY5NTYzLC0xNjIyNT
-E0MDQ3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5MDQ4
-Mjg0LDE4NzU2MDQyNDAsNzAzNzE3NDU2LC0xMTEyMjI4MTMwLC
-01NDg0MTA0MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwxMjAx
-NDgzMzA0LC0xODk1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Njg0Nj
-A2LDE2MTgwMzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIyNywt
-MTk1OTA5NDc3MF19
+eyJoaXN0b3J5IjpbNDY2OTI0OTEsLTg0NzU2OTU2MywtMTYyMj
+UxNDA0NywtMTQ0OTU0NjI1NiwtMTk5MjczNTM2NCwtMTYxOTA0
+ODI4NCwxODc1NjA0MjQwLDcwMzcxNzQ1NiwtMTExMjIyODEzMC
+wtNTQ4NDEwNDAyLC03MjU4ODQ1MzQsLTE3NDk4NDEzNTEsMTIw
+MTQ4MzMwNCwtMTg5NTI5ODI3LC0xNTU1Mzc0NzMzLDE3NDY4ND
+YwNiwxNjE4MDM1MjY4LC0xMDQwNzA4NTY4LDE1ODcyNzAyMjcs
+LTE5NTkwOTQ3NzBdfQ==
 -->
