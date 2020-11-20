@@ -69,6 +69,10 @@ The `div` function can be **used for integral division** and **always rounds dow
 
 The `quot` function can be **used for integral division** and **always rounds towards zero**, so with negative division it will round up.
 
+## Mod vs Rem
+
+
+
 ## Functions
 
 When defining a function it **must start with a lowercase letter**.
@@ -124,10 +128,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDk1NDYyNTYsLTE5OTI3MzUzNjQsLT
-E2MTkwNDgyODQsMTg3NTYwNDI0MCw3MDM3MTc0NTYsLTExMTIy
-MjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0NTM0LC0xNzQ5ODQxMz
-UxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNywtMTU1NTM3NDczMywx
-NzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OCwxNTg3Mj
-cwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2NDc4XX0=
+eyJoaXN0b3J5IjpbLTE2MjI1MTQwNDcsLTE0NDk1NDYyNTYsLT
+E5OTI3MzUzNjQsLTE2MTkwNDgyODQsMTg3NTYwNDI0MCw3MDM3
+MTc0NTYsLTExMTIyMjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0NT
+M0LC0xNzQ5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNywt
+MTU1NTM3NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MD
+cwODU2OCwxNTg3MjcwMjI3LC0xOTU5MDk0NzcwLC0xNzMxNjU2
+NDc4XX0=
 -->
