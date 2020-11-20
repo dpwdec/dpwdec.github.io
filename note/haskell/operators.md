@@ -16,7 +16,13 @@ The **order in which you parenthesise non-commutative operators matters**.
 (/1) 2 -- = 2.0
 ```
 
-The **minus operator** is also a special case because the `negate` function can also be applied using the `-` minus operator. 
+The **minus operator** is also a special case because the parathensised `-` minus `negate` function can also be applied using the `-` minus operator. 
+
+```haskell
+(-1) 2 -- ERROR
+```
+
+You **can only section the `-` minus operator with the **
 
 ### $ operator
 
@@ -37,6 +43,6 @@ The **definition of the `$` operator** is:
 f $ a = f a
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyOTU3NTg3LDEyNDEwMjU4MjUsNTY3ND
-YxODI5XX0=
+eyJoaXN0b3J5IjpbMTYwODQzMjY1MSwxMjQxMDI1ODI1LDU2Nz
+Q2MTgyOV19
 -->
