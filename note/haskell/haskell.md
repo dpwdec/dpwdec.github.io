@@ -73,7 +73,7 @@ The `quot` function can be **used for integral division** and **always rounds to
 
 The `mod` and `rem` functions are similar but have some key differences.
 
-The `mod` function wraps values around a range even when those values are negative.
+The `mod` function wraps values around a range even when those values are negative. For example if use `7` to represent the days of the week (Sunday - Saturday) and wanted to find what day of the week `9` days from the `0`th day of the week
 ```haskell
 mod 2 7 -- = 2
 mod (-13) 7 -- = 1
@@ -144,11 +144,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTc5MzQ0OCwtODQ3NTY5NTYzLC0xNj
-IyNTE0MDQ3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5
-MDQ4Mjg0LDE4NzU2MDQyNDAsNzAzNzE3NDU2LC0xMTEyMjI4MT
-MwLC01NDg0MTA0MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwx
-MjAxNDgzMzA0LC0xODk1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Nj
-g0NjA2LDE2MTgwMzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIy
-NywtMTk1OTA5NDc3MF19
+eyJoaXN0b3J5IjpbNzg2ODU5MDA3LC04NDc1Njk1NjMsLTE2Mj
+I1MTQwNDcsLTE0NDk1NDYyNTYsLTE5OTI3MzUzNjQsLTE2MTkw
+NDgyODQsMTg3NTYwNDI0MCw3MDM3MTc0NTYsLTExMTIyMjgxMz
+AsLTU0ODQxMDQwMiwtNzI1ODg0NTM0LC0xNzQ5ODQxMzUxLDEy
+MDE0ODMzMDQsLTE4OTUyOTgyNywtMTU1NTM3NDczMywxNzQ2OD
+Q2MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OCwxNTg3MjcwMjI3
+LC0xOTU5MDk0NzcwXX0=
 -->
