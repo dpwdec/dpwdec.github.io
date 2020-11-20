@@ -154,6 +154,11 @@ double'x = (*2) x
 
 Lists in Haskell are **homogenous**. They can only contain one type of data.
 
+You can **concatenate two lists** using the `++` double plus operator.
+```haskell
+
+```
+
 ## Modules
 
 You can **define a module** by using the `module` and `where` keyword. The **module name should be capitalised**.
@@ -177,7 +182,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTc4MzU3MiwxOTY2ODczMDI0LDE5MT
+eyJoaXN0b3J5IjpbMTM2MDA1NTgwOSwxOTY2ODczMDI0LDE5MT
 IyNjI4OTAsLTI3MTk1NDkzMCwtMjk2NDY1OTUwLDEwNjg4NzA2
 MjQsMTE5MDAwNDI3MywxMDY4NjE0MTg4LDEyODUzMzM0MTYsLT
 E5MTQ3MzQwNzAsLTE4MDIwNTcwNzksLTExMTg1OTU3MjIsLTg0
