@@ -61,6 +61,8 @@ prelude> :info (*)
 -- infixl 7 *
 ```
 
+If functions with the same precedence are applied to each other with out parentheses indicating order haskell will throw an `Precendence parsing error`
+
 ## Standard Lib
 
 You can **convert a number into a string** using the `show` function.
@@ -92,6 +94,8 @@ rem (-13) 7 -- = -6 (differfent from mod)
 ```
 
 The result of `rem` is **negative if the dividend is negative**. The term **dividend** refers to the **thing that is being divided**.
+
+
 
 ## Functions
 
@@ -148,11 +152,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODI4MjM2OSwtODQ3NTY5NTYzLC0xNj
-IyNTE0MDQ3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5
-MDQ4Mjg0LDE4NzU2MDQyNDAsNzAzNzE3NDU2LC0xMTEyMjI4MT
-MwLC01NDg0MTA0MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwx
-MjAxNDgzMzA0LC0xODk1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Nj
-g0NjA2LDE2MTgwMzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIy
-NywtMTk1OTA5NDc3MF19
+eyJoaXN0b3J5IjpbMzg0NTIyNCwtODQ3NTY5NTYzLC0xNjIyNT
+E0MDQ3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5MDQ4
+Mjg0LDE4NzU2MDQyNDAsNzAzNzE3NDU2LC0xMTEyMjI4MTMwLC
+01NDg0MTA0MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwxMjAx
+NDgzMzA0LC0xODk1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Njg0Nj
+A2LDE2MTgwMzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIyNywt
+MTk1OTA5NDc3MF19
 -->
