@@ -79,7 +79,10 @@ mod 2 7 -- = 1
 mod (-13) 7 -- = 1
 ```
 
-The `rem` function 
+The `rem` function returns the remainder of dividing one number by another.
+```haskell
+
+```
 
 ## Functions
 
@@ -136,7 +139,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTE2NDI5MzksLTg0NzU2OTU2MywtMT
+eyJoaXN0b3J5IjpbLTIwMTgyNDkxMzgsLTg0NzU2OTU2MywtMT
 YyMjUxNDA0NywtMTQ0OTU0NjI1NiwtMTk5MjczNTM2NCwtMTYx
 OTA0ODI4NCwxODc1NjA0MjQwLDcwMzcxNzQ1NiwtMTExMjIyOD
 EzMCwtNTQ4NDEwNDAyLC03MjU4ODQ1MzQsLTE3NDk4NDEzNTEs
