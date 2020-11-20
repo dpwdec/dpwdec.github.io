@@ -109,6 +109,7 @@ For the example, the following function uses a lot of nested parentheses.
 max 10 (min 20 (max 2 5)) -- = 10
 ```
 
+This can be rewritten using the `$` operator:
 ```haskell
 max 10 $ min 20 $ max 2 5 -- = 10
 ```
@@ -183,11 +184,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzEwMzY4MDEsMTE5MDAwNDI3MywxMD
-Y4NjE0MTg4LDEyODUzMzM0MTYsLTE5MTQ3MzQwNzAsLTE4MDIw
-NTcwNzksLTExMTg1OTU3MjIsLTg0NzU2OTU2MywtMTYyMjUxND
-A0NywtMTQ0OTU0NjI1NiwtMTk5MjczNTM2NCwtMTYxOTA0ODI4
-NCwxODc1NjA0MjQwLDcwMzcxNzQ1NiwtMTExMjIyODEzMCwtNT
-Q4NDEwNDAyLC03MjU4ODQ1MzQsLTE3NDk4NDEzNTEsMTIwMTQ4
-MzMwNCwtMTg5NTI5ODI3XX0=
+eyJoaXN0b3J5IjpbLTkyNDYzOTgwOSwxMTkwMDA0MjczLDEwNj
+g2MTQxODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMTgwMjA1
+NzA3OSwtMTExODU5NTcyMiwtODQ3NTY5NTYzLC0xNjIyNTE0MD
+Q3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5MDQ4Mjg0
+LDE4NzU2MDQyNDAsNzAzNzE3NDU2LC0xMTEyMjI4MTMwLC01ND
+g0MTA0MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwxMjAxNDgz
+MzA0LC0xODk1Mjk4MjddfQ==
 -->
