@@ -119,8 +119,6 @@ The **definition of the `$` operator** is:
 f $ a = f a
 ```
 
-
-
 ## Operators
 
 Operators **behave just like functions** in Haskell and can be curried, passed around and applied.
@@ -184,7 +182,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTMxODUzNSwxMTkwMDA0MjczLDEwNj
+eyJoaXN0b3J5IjpbLTg5MjE3OTQyNywxMTkwMDA0MjczLDEwNj
 g2MTQxODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMTgwMjA1
 NzA3OSwtMTExODU5NTcyMiwtODQ3NTY5NTYzLC0xNjIyNTE0MD
 Q3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5MDQ4Mjg0
