@@ -57,6 +57,11 @@ You can **unload dependencies from the REPL** by using the `:module` command and
 >*Main :module
 ```
 
+You can **show the type of something** by using the `:type` command.
+```bash
+prelude> 
+```
+
 You can **get info about a function** by using the `:info` command followed by the function. The second number shows the **precedence of the function** which ranges from `0-9` with `9` being the highest precedence.
 ```bash
 prelude> :info (*)
@@ -155,11 +160,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODg3MDYyNCwxMTkwMDA0MjczLDEwNj
-g2MTQxODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMTgwMjA1
-NzA3OSwtMTExODU5NTcyMiwtODQ3NTY5NTYzLC0xNjIyNTE0MD
-Q3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5MDQ4Mjg0
-LDE4NzU2MDQyNDAsNzAzNzE3NDU2LC0xMTEyMjI4MTMwLC01ND
-g0MTA0MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwxMjAxNDgz
-MzA0LC0xODk1Mjk4MjddfQ==
+eyJoaXN0b3J5IjpbMTM0Mjc2OTkwNiwxMDY4ODcwNjI0LDExOT
+AwMDQyNzMsMTA2ODYxNDE4OCwxMjg1MzMzNDE2LC0xOTE0NzM0
+MDcwLC0xODAyMDU3MDc5LC0xMTE4NTk1NzIyLC04NDc1Njk1Nj
+MsLTE2MjI1MTQwNDcsLTE0NDk1NDYyNTYsLTE5OTI3MzUzNjQs
+LTE2MTkwNDgyODQsMTg3NTYwNDI0MCw3MDM3MTc0NTYsLTExMT
+IyMjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0NTM0LC0xNzQ5ODQx
+MzUxLDEyMDE0ODMzMDRdfQ==
 -->
