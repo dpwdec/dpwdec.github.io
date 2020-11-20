@@ -102,7 +102,7 @@ The result of `rem` is **negative if the dividend is negative**. The term **divi
 
 ### $ operator
 
-The `$` operator allows you to reduce the amount of brackets used in your code by applying the result of functions to one another as an `infixr` operator.
+The `$` operator allows you to reduce the amount of brackets used in your code by applying the result of functions to one another as an `infixr` operator with a low priority, thus the right most
 
 The **definition of the `$` operator** is:
 ```haskell
@@ -174,11 +174,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTQ2MTgxMywxMTkwMDA0MjczLDEwNj
-g2MTQxODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMTgwMjA1
-NzA3OSwtMTExODU5NTcyMiwtODQ3NTY5NTYzLC0xNjIyNTE0MD
-Q3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5MDQ4Mjg0
-LDE4NzU2MDQyNDAsNzAzNzE3NDU2LC0xMTEyMjI4MTMwLC01ND
-g0MTA0MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwxMjAxNDgz
-MzA0LC0xODk1Mjk4MjddfQ==
+eyJoaXN0b3J5IjpbLTE2NDI5MDgwMTQsMTE5MDAwNDI3MywxMD
+Y4NjE0MTg4LDEyODUzMzM0MTYsLTE5MTQ3MzQwNzAsLTE4MDIw
+NTcwNzksLTExMTg1OTU3MjIsLTg0NzU2OTU2MywtMTYyMjUxND
+A0NywtMTQ0OTU0NjI1NiwtMTk5MjczNTM2NCwtMTYxOTA0ODI4
+NCwxODc1NjA0MjQwLDcwMzcxNzQ1NiwtMTExMjIyODEzMCwtNT
+Q4NDEwNDAyLC03MjU4ODQ1MzQsLTE3NDk4NDEzNTEsMTIwMTQ4
+MzMwNCwtMTg5NTI5ODI3XX0=
 -->
