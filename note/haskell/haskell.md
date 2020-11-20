@@ -28,6 +28,8 @@ Haskell uses **lazy evaluation** which means that **terms are only evaluated whe
 
 Haskell **does evaluate everything to normal form by default**, instead it evaluates to **weak head normal form** or **WHNF** which means that *not everything* is reduced to its most irreducible form immediately.
 
+**Passing around partially applied functions** is known as **sectioning**.
+
 ## Prelude
 
 The `prelude` is Haskell's set of standard library components that are contained in Haskell's `base` package.
@@ -163,11 +165,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMT
-gwMjA1NzA3OSwtMTExODU5NTcyMiwtODQ3NTY5NTYzLC0xNjIy
-NTE0MDQ3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5MD
-Q4Mjg0LDE4NzU2MDQyNDAsNzAzNzE3NDU2LC0xMTEyMjI4MTMw
-LC01NDg0MTA0MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwxMj
-AxNDgzMzA0LC0xODk1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Njg0
-NjA2LDE2MTgwMzUyNjhdfQ==
+eyJoaXN0b3J5IjpbMTA2ODYxNDE4OCwxMjg1MzMzNDE2LC0xOT
+E0NzM0MDcwLC0xODAyMDU3MDc5LC0xMTE4NTk1NzIyLC04NDc1
+Njk1NjMsLTE2MjI1MTQwNDcsLTE0NDk1NDYyNTYsLTE5OTI3Mz
+UzNjQsLTE2MTkwNDgyODQsMTg3NTYwNDI0MCw3MDM3MTc0NTYs
+LTExMTIyMjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0NTM0LC0xNz
+Q5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNywtMTU1NTM3
+NDczMywxNzQ2ODQ2MDZdfQ==
 -->
