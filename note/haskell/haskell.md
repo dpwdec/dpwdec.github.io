@@ -150,6 +150,10 @@ double'x = (*2) x
 
 ## Indenting
 
+## Lists
+
+Lists in Haskell are **homogenous**. They can 
+
 ## Modules
 
 You can **define a module** by using the `module` and `where` keyword. The **module name should be capitalised**.
@@ -173,11 +177,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Njg3MzAyNCwxOTEyMjYyODkwLC0yNz
-E5NTQ5MzAsLTI5NjQ2NTk1MCwxMDY4ODcwNjI0LDExOTAwMDQy
-NzMsMTA2ODYxNDE4OCwxMjg1MzMzNDE2LC0xOTE0NzM0MDcwLC
-0xODAyMDU3MDc5LC0xMTE4NTk1NzIyLC04NDc1Njk1NjMsLTE2
-MjI1MTQwNDcsLTE0NDk1NDYyNTYsLTE5OTI3MzUzNjQsLTE2MT
-kwNDgyODQsMTg3NTYwNDI0MCw3MDM3MTc0NTYsLTExMTIyMjgx
-MzAsLTU0ODQxMDQwMl19
+eyJoaXN0b3J5IjpbLTIwOTczNjI3NDcsMTk2Njg3MzAyNCwxOT
+EyMjYyODkwLC0yNzE5NTQ5MzAsLTI5NjQ2NTk1MCwxMDY4ODcw
+NjI0LDExOTAwMDQyNzMsMTA2ODYxNDE4OCwxMjg1MzMzNDE2LC
+0xOTE0NzM0MDcwLC0xODAyMDU3MDc5LC0xMTE4NTk1NzIyLC04
+NDc1Njk1NjMsLTE2MjI1MTQwNDcsLTE0NDk1NDYyNTYsLTE5OT
+I3MzUzNjQsLTE2MTkwNDgyODQsMTg3NTYwNDI0MCw3MDM3MTc0
+NTYsLTExMTIyMjgxMzBdfQ==
 -->
