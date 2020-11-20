@@ -59,7 +59,8 @@ You can **unload dependencies from the REPL** by using the `:module` command and
 
 You can **show the type of something** by using the `:type` command.
 ```bash
-prelude> 
+prelude> :type 'a'
+'a' :: char
 ```
 
 You can **get info about a function** by using the `:info` command followed by the function. The second number shows the **precedence of the function** which ranges from `0-9` with `9` being the highest precedence.
@@ -160,7 +161,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0Mjc2OTkwNiwxMDY4ODcwNjI0LDExOT
+eyJoaXN0b3J5IjpbLTI5NjQ2NTk1MCwxMDY4ODcwNjI0LDExOT
 AwMDQyNzMsMTA2ODYxNDE4OCwxMjg1MzMzNDE2LC0xOTE0NzM0
 MDcwLC0xODAyMDU3MDc5LC0xMTE4NTk1NzIyLC04NDc1Njk1Nj
 MsLTE2MjI1MTQwNDcsLTE0NDk1NDYyNTYsLTE5OTI3MzUzNjQs
