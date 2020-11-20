@@ -79,10 +79,15 @@ mod 2 7 -- = 2
 mod (-13) 7 -- = 1
 ```
 
+The result of `mod` is **negative if the divisor is negative**.
+
 The `rem` function returns the remainder of dividing one number by another.
 ```haskell
-
+rem 2 7 -- = 2 (same as mod)
+rem (-13) 7 -- = -6 (differfent from mod)
 ```
+
+The result of `rem` is **negative if the dividend is negative**. The term **dividend** refers to the **strong text**
 
 ## Functions
 
@@ -139,7 +144,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDY5OTk3LC04NDc1Njk1NjMsLTE2Mj
+eyJoaXN0b3J5IjpbMjkzMTM0MDQ1LC04NDc1Njk1NjMsLTE2Mj
 I1MTQwNDcsLTE0NDk1NDYyNTYsLTE5OTI3MzUzNjQsLTE2MTkw
 NDgyODQsMTg3NTYwNDI0MCw3MDM3MTc0NTYsLTExMTIyMjgxMz
 AsLTU0ODQxMDQwMiwtNzI1ODg0NTM0LC0xNzQ5ODQxMzUxLDEy
