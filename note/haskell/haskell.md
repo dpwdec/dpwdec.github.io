@@ -127,6 +127,11 @@ x = (+10) -- currying the first argument of the + function
 x 20 -- = 30
 ```
 
+The **order in which you parenthesise non-commutative operators matters**.
+```haskell
+
+```
+
 ## Functions
 
 When defining a function it **must start with a lowercase letter**.
@@ -182,7 +187,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MjE3OTQyNywxMTkwMDA0MjczLDEwNj
+eyJoaXN0b3J5IjpbMTA4NDkyMTE5NSwxMTkwMDA0MjczLDEwNj
 g2MTQxODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMTgwMjA1
 NzA3OSwtMTExODU5NTcyMiwtODQ3NTY5NTYzLC0xNjIyNTE0MD
 Q3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5MDQ4Mjg0
