@@ -140,7 +140,10 @@ You can **define your own infix functions** by surrounding them with `()` soft b
 
 ### The ' apostrophe
 
-The `'` apostrophe character is a **valid character in function names**. The `'` apostrophe can be used to indicate a modified version of an existing function 
+The `'` apostrophe character is a **valid character in function names**. The `'` apostrophe can be used to indicate a modified version of an existing function.
+```haskell
+
+``` 
 
 ## Conditionals
 
@@ -169,11 +172,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDQ1NDQ3OCwtMjk2NDY1OTUwLDEwNj
-g4NzA2MjQsMTE5MDAwNDI3MywxMDY4NjE0MTg4LDEyODUzMzM0
-MTYsLTE5MTQ3MzQwNzAsLTE4MDIwNTcwNzksLTExMTg1OTU3Mj
-IsLTg0NzU2OTU2MywtMTYyMjUxNDA0NywtMTQ0OTU0NjI1Niwt
-MTk5MjczNTM2NCwtMTYxOTA0ODI4NCwxODc1NjA0MjQwLDcwMz
-cxNzQ1NiwtMTExMjIyODEzMCwtNTQ4NDEwNDAyLC03MjU4ODQ1
-MzQsLTE3NDk4NDEzNTFdfQ==
+eyJoaXN0b3J5IjpbLTEwMDM5MjE3NjYsLTI5NjQ2NTk1MCwxMD
+Y4ODcwNjI0LDExOTAwMDQyNzMsMTA2ODYxNDE4OCwxMjg1MzMz
+NDE2LC0xOTE0NzM0MDcwLC0xODAyMDU3MDc5LC0xMTE4NTk1Nz
+IyLC04NDc1Njk1NjMsLTE2MjI1MTQwNDcsLTE0NDk1NDYyNTYs
+LTE5OTI3MzUzNjQsLTE2MTkwNDgyODQsMTg3NTYwNDI0MCw3MD
+M3MTc0NTYsLTExMTIyMjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0
+NTM0LC0xNzQ5ODQxMzUxXX0=
 -->
