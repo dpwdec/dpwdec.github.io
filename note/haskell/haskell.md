@@ -76,8 +76,10 @@ The `mod` and `rem` functions are similar but have some key differences.
 The `mod` function wraps values around a range even when those values are negative.
 ```haskell
 mod 2 7 -- = 1
-mod (-13) 7 -- = -6
+mod (-13) 7 -- = 1
 ```
+
+The `rem` function 
 
 ## Functions
 
@@ -134,11 +136,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzQzMjc4MCwtODQ3NTY5NTYzLC0xNj
-IyNTE0MDQ3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5
-MDQ4Mjg0LDE4NzU2MDQyNDAsNzAzNzE3NDU2LC0xMTEyMjI4MT
-MwLC01NDg0MTA0MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwx
-MjAxNDgzMzA0LC0xODk1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Nj
-g0NjA2LDE2MTgwMzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIy
-NywtMTk1OTA5NDc3MF19
+eyJoaXN0b3J5IjpbLTE3NTE2NDI5MzksLTg0NzU2OTU2MywtMT
+YyMjUxNDA0NywtMTQ0OTU0NjI1NiwtMTk5MjczNTM2NCwtMTYx
+OTA0ODI4NCwxODc1NjA0MjQwLDcwMzcxNzQ1NiwtMTExMjIyOD
+EzMCwtNTQ4NDEwNDAyLC03MjU4ODQ1MzQsLTE3NDk4NDEzNTEs
+MTIwMTQ4MzMwNCwtMTg5NTI5ODI3LC0xNTU1Mzc0NzMzLDE3ND
+Y4NDYwNiwxNjE4MDM1MjY4LC0xMDQwNzA4NTY4LDE1ODcyNzAy
+MjcsLTE5NTkwOTQ3NzBdfQ==
 -->
