@@ -100,7 +100,12 @@ The result of `rem` is **negative if the dividend is negative**. The term **divi
 
 ### $ operator
 
+## Operators
 
+Operators **behave just like functions** in Haskell and can be curried, passed around and applied.
+```haskell
+
+```
 
 ## Functions
 
@@ -157,11 +162,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDIwNTcwNzksLTExMTg1OTU3MjIsLT
-g0NzU2OTU2MywtMTYyMjUxNDA0NywtMTQ0OTU0NjI1NiwtMTk5
-MjczNTM2NCwtMTYxOTA0ODI4NCwxODc1NjA0MjQwLDcwMzcxNz
-Q1NiwtMTExMjIyODEzMCwtNTQ4NDEwNDAyLC03MjU4ODQ1MzQs
-LTE3NDk4NDEzNTEsMTIwMTQ4MzMwNCwtMTg5NTI5ODI3LC0xNT
-U1Mzc0NzMzLDE3NDY4NDYwNiwxNjE4MDM1MjY4LC0xMDQwNzA4
-NTY4LDE1ODcyNzAyMjddfQ==
+eyJoaXN0b3J5IjpbLTE5MTQ3MzQwNzAsLTE4MDIwNTcwNzksLT
+ExMTg1OTU3MjIsLTg0NzU2OTU2MywtMTYyMjUxNDA0NywtMTQ0
+OTU0NjI1NiwtMTk5MjczNTM2NCwtMTYxOTA0ODI4NCwxODc1Nj
+A0MjQwLDcwMzcxNzQ1NiwtMTExMjIyODEzMCwtNTQ4NDEwNDAy
+LC03MjU4ODQ1MzQsLTE3NDk4NDEzNTEsMTIwMTQ4MzMwNCwtMT
+g5NTI5ODI3LC0xNTU1Mzc0NzMzLDE3NDY4NDYwNiwxNjE4MDM1
+MjY4LC0xMDQwNzA4NTY4XX0=
 -->
