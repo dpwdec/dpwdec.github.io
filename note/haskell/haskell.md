@@ -156,7 +156,7 @@ Lists in Haskell are **homogenous**. They can only contain one type of data.
 
 You can **concatenate two lists** using the `++` double plus operator.
 ```haskell
-
+[1, 2, 3] ++ [4, 5, 6] -- = [1, 2, 3, 4, 5, 6]
 ```
 
 ## Modules
@@ -182,11 +182,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDA1NTgwOSwxOTY2ODczMDI0LDE5MT
-IyNjI4OTAsLTI3MTk1NDkzMCwtMjk2NDY1OTUwLDEwNjg4NzA2
-MjQsMTE5MDAwNDI3MywxMDY4NjE0MTg4LDEyODUzMzM0MTYsLT
-E5MTQ3MzQwNzAsLTE4MDIwNTcwNzksLTExMTg1OTU3MjIsLTg0
-NzU2OTU2MywtMTYyMjUxNDA0NywtMTQ0OTU0NjI1NiwtMTk5Mj
-czNTM2NCwtMTYxOTA0ODI4NCwxODc1NjA0MjQwLDcwMzcxNzQ1
-NiwtMTExMjIyODEzMF19
+eyJoaXN0b3J5IjpbNzk3NzA4MzAsMTM2MDA1NTgwOSwxOTY2OD
+czMDI0LDE5MTIyNjI4OTAsLTI3MTk1NDkzMCwtMjk2NDY1OTUw
+LDEwNjg4NzA2MjQsMTE5MDAwNDI3MywxMDY4NjE0MTg4LDEyOD
+UzMzM0MTYsLTE5MTQ3MzQwNzAsLTE4MDIwNTcwNzksLTExMTg1
+OTU3MjIsLTg0NzU2OTU2MywtMTYyMjUxNDA0NywtMTQ0OTU0Nj
+I1NiwtMTk5MjczNTM2NCwtMTYxOTA0ODI4NCwxODc1NjA0MjQw
+LDcwMzcxNzQ1Nl19
 -->
