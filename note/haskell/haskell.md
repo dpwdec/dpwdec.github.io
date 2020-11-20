@@ -109,6 +109,10 @@ The `$` operator allows you to reduce the amount of brackets used in your code b
 max 10 (min 20 (max 2 5))
 ```
 
+```haskell
+max 10 $ min 20 $ max 2 5
+```
+
 The **definition of the `$` operator** is:
 ```haskell
 f $ a = f a
@@ -179,11 +183,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5MDgwNzAxLDExOTAwMDQyNzMsMTA2OD
-YxNDE4OCwxMjg1MzMzNDE2LC0xOTE0NzM0MDcwLC0xODAyMDU3
-MDc5LC0xMTE4NTk1NzIyLC04NDc1Njk1NjMsLTE2MjI1MTQwND
-csLTE0NDk1NDYyNTYsLTE5OTI3MzUzNjQsLTE2MTkwNDgyODQs
-MTg3NTYwNDI0MCw3MDM3MTc0NTYsLTExMTIyMjgxMzAsLTU0OD
-QxMDQwMiwtNzI1ODg0NTM0LC0xNzQ5ODQxMzUxLDEyMDE0ODMz
-MDQsLTE4OTUyOTgyN119
+eyJoaXN0b3J5IjpbMjEzNjc3MzUwNSwxMTkwMDA0MjczLDEwNj
+g2MTQxODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMTgwMjA1
+NzA3OSwtMTExODU5NTcyMiwtODQ3NTY5NTYzLC0xNjIyNTE0MD
+Q3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5MDQ4Mjg0
+LDE4NzU2MDQyNDAsNzAzNzE3NDU2LC0xMTEyMjI4MTMwLC01ND
+g0MTA0MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwxMjAxNDgz
+MzA0LC0xODk1Mjk4MjddfQ==
 -->
