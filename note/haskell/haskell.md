@@ -104,7 +104,7 @@ The result of `rem` is **negative if the dividend is negative**. The term **divi
 
 The `$` operator allows you to reduce the amount of brackets used in your code by applying the result of functions to one another as an `infixr` operator with a low priority, thus the right most part of an expression is evaluated and applied and then the next rightmost and so on.
 
-For the example, the following 
+For the example, the following function uses a lot of nested parentheses.
 ```haskell
 max 10 (min 20 (max 2 5)) -- = 10
 ```
@@ -183,7 +183,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDcyNjg5NDcsMTE5MDAwNDI3MywxMD
+eyJoaXN0b3J5IjpbLTEyMzEwMzY4MDEsMTE5MDAwNDI3MywxMD
 Y4NjE0MTg4LDEyODUzMzM0MTYsLTE5MTQ3MzQwNzAsLTE4MDIw
 NTcwNzksLTExMTg1OTU3MjIsLTg0NzU2OTU2MywtMTYyMjUxND
 A0NywtMTQ0OTU0NjI1NiwtMTk5MjczNTM2NCwtMTYxOTA0ODI4
