@@ -138,6 +138,10 @@ You can **define your own infix functions** by surrounding them with `()` soft b
 
 ```
 
+## Conditionals
+
+
+
 ## Modules
 
 You can **define a module** by using the `module` and `where` keyword. The **module name should be capitalised**.
@@ -161,11 +165,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjQ2NTk1MCwxMDY4ODcwNjI0LDExOT
-AwMDQyNzMsMTA2ODYxNDE4OCwxMjg1MzMzNDE2LC0xOTE0NzM0
-MDcwLC0xODAyMDU3MDc5LC0xMTE4NTk1NzIyLC04NDc1Njk1Nj
-MsLTE2MjI1MTQwNDcsLTE0NDk1NDYyNTYsLTE5OTI3MzUzNjQs
-LTE2MTkwNDgyODQsMTg3NTYwNDI0MCw3MDM3MTc0NTYsLTExMT
-IyMjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0NTM0LC0xNzQ5ODQx
-MzUxLDEyMDE0ODMzMDRdfQ==
+eyJoaXN0b3J5IjpbMTQ0NzAxMjYwNywtMjk2NDY1OTUwLDEwNj
+g4NzA2MjQsMTE5MDAwNDI3MywxMDY4NjE0MTg4LDEyODUzMzM0
+MTYsLTE5MTQ3MzQwNzAsLTE4MDIwNTcwNzksLTExMTg1OTU3Mj
+IsLTg0NzU2OTU2MywtMTYyMjUxNDA0NywtMTQ0OTU0NjI1Niwt
+MTk5MjczNTM2NCwtMTYxOTA0ODI4NCwxODc1NjA0MjQwLDcwMz
+cxNzQ1NiwtMTExMjIyODEzMCwtNTQ4NDEwNDAyLC03MjU4ODQ1
+MzQsLTE3NDk4NDEzNTFdfQ==
 -->
