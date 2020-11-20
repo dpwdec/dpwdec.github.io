@@ -74,7 +74,7 @@ The `div` function can be **used for integral division** and **always rounds dow
 
 The `quot` function can be **used for integral division** and **always rounds towards zero**, so with negative division it will round up.
 
-## Mod vs Rem
+### Mod vs Rem
 
 The `mod` and `rem` functions are similar but have some key differences.
 
@@ -97,7 +97,6 @@ rem (-13) 7 -- = -6 (differfent from mod)
 ```
 
 The result of `rem` is **negative if the dividend is negative**. The term **dividend** refers to the **thing that is being divided**.
-
 
 
 ## Functions
@@ -155,11 +154,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2OTI0OTEsLTg0NzU2OTU2MywtMTYyMj
-UxNDA0NywtMTQ0OTU0NjI1NiwtMTk5MjczNTM2NCwtMTYxOTA0
-ODI4NCwxODc1NjA0MjQwLDcwMzcxNzQ1NiwtMTExMjIyODEzMC
-wtNTQ4NDEwNDAyLC03MjU4ODQ1MzQsLTE3NDk4NDEzNTEsMTIw
-MTQ4MzMwNCwtMTg5NTI5ODI3LC0xNTU1Mzc0NzMzLDE3NDY4ND
-YwNiwxNjE4MDM1MjY4LC0xMDQwNzA4NTY4LDE1ODcyNzAyMjcs
-LTE5NTkwOTQ3NzBdfQ==
+eyJoaXN0b3J5IjpbLTExMTg1OTU3MjIsLTg0NzU2OTU2MywtMT
+YyMjUxNDA0NywtMTQ0OTU0NjI1NiwtMTk5MjczNTM2NCwtMTYx
+OTA0ODI4NCwxODc1NjA0MjQwLDcwMzcxNzQ1NiwtMTExMjIyOD
+EzMCwtNTQ4NDEwNDAyLC03MjU4ODQ1MzQsLTE3NDk4NDEzNTEs
+MTIwMTQ4MzMwNCwtMTg5NTI5ODI3LC0xNTU1Mzc0NzMzLDE3ND
+Y4NDYwNiwxNjE4MDM1MjY4LC0xMDQwNzA4NTY4LDE1ODcyNzAy
+MjcsLTE5NTkwOTQ3NzBdfQ==
 -->
