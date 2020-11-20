@@ -87,7 +87,7 @@ rem 2 7 -- = 2 (same as mod)
 rem (-13) 7 -- = -6 (differfent from mod)
 ```
 
-The result of `rem` is **negative if the dividend is negative**. The term **dividend** refers to the **strong text**
+The result of `rem` is **negative if the dividend is negative**. The term **dividend** refers to the **thing that is being divided**.
 
 ## Functions
 
@@ -144,11 +144,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzMTM0MDQ1LC04NDc1Njk1NjMsLTE2Mj
-I1MTQwNDcsLTE0NDk1NDYyNTYsLTE5OTI3MzUzNjQsLTE2MTkw
-NDgyODQsMTg3NTYwNDI0MCw3MDM3MTc0NTYsLTExMTIyMjgxMz
-AsLTU0ODQxMDQwMiwtNzI1ODg0NTM0LC0xNzQ5ODQxMzUxLDEy
-MDE0ODMzMDQsLTE4OTUyOTgyNywtMTU1NTM3NDczMywxNzQ2OD
-Q2MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2OCwxNTg3MjcwMjI3
-LC0xOTU5MDk0NzcwXX0=
+eyJoaXN0b3J5IjpbMTkzNTc5MzQ0OCwtODQ3NTY5NTYzLC0xNj
+IyNTE0MDQ3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5
+MDQ4Mjg0LDE4NzU2MDQyNDAsNzAzNzE3NDU2LC0xMTEyMjI4MT
+MwLC01NDg0MTA0MDIsLTcyNTg4NDUzNCwtMTc0OTg0MTM1MSwx
+MjAxNDgzMzA0LC0xODk1Mjk4MjcsLTE1NTUzNzQ3MzMsMTc0Nj
+g0NjA2LDE2MTgwMzUyNjgsLTEwNDA3MDg1NjgsMTU4NzI3MDIy
+NywtMTk1OTA5NDc3MF19
 -->
