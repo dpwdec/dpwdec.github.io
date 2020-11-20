@@ -148,8 +148,6 @@ double'x = (*2) x
 
 ## Conditionals
 
-
-
 ## Indenting
 
 ## Modules
@@ -175,7 +173,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTY4NjMwMCwxOTEyMjYyODkwLC0yNz
+eyJoaXN0b3J5IjpbMTk2Njg3MzAyNCwxOTEyMjYyODkwLC0yNz
 E5NTQ5MzAsLTI5NjQ2NTk1MCwxMDY4ODcwNjI0LDExOTAwMDQy
 NzMsMTA2ODYxNDE4OCwxMjg1MzMzNDE2LC0xOTE0NzM0MDcwLC
 0xODAyMDU3MDc5LC0xMTE4NTk1NzIyLC04NDc1Njk1NjMsLTE2
