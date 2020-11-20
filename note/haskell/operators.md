@@ -16,6 +16,8 @@ The **order in which you parenthesise non-commutative operators matters**.
 (/1) 2 -- = 2.0
 ```
 
+
+
 ### $ operator
 
 The `$` operator allows you to reduce the amount of brackets used in your code by applying the result of functions to one another as an `infixr` operator with a low priority, thus the right most part of an expression is evaluated and applied and then the next rightmost and so on.
@@ -35,5 +37,5 @@ The **definition of the `$` operator** is:
 f $ a = f a
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3NDYxODI5XX0=
+eyJoaXN0b3J5IjpbMTI0MTAyNTgyNSw1Njc0NjE4MjldfQ==
 -->
