@@ -4,7 +4,17 @@ exclude: true
 title: Operators
 ---
 
+Operators **behave just like functions** in Haskell and can be curried, passed around and applied.
+```haskell
+x = (+10) -- currying the first argument of the + function
+x 20 -- = 30
+```
 
+The **order in which you parenthesise non-commutative operators matters**.
+```haskell
+(1/) 2 -- = 0.5
+(/1) 2 -- = 2.0
+```
 
 ### $ operator
 
@@ -25,5 +35,5 @@ The **definition of the `$` operator** is:
 f $ a = f a
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODQxMzYwNl19
+eyJoaXN0b3J5IjpbNTY3NDYxODI5XX0=
 -->
