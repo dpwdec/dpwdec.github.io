@@ -16,7 +16,7 @@ The **order in which you parenthesise non-commutative operators matters**.
 (/1) 2 -- = 2.0
 ```
 
-
+The **minus operator** is also a special case because the `negate` function can also be applied using the `-` minus operator. 
 
 ### $ operator
 
@@ -37,5 +37,6 @@ The **definition of the `$` operator** is:
 f $ a = f a
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTAyNTgyNSw1Njc0NjE4MjldfQ==
+eyJoaXN0b3J5IjpbNDAyOTU3NTg3LDEyNDEwMjU4MjUsNTY3ND
+YxODI5XX0=
 -->
