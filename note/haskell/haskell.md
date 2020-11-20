@@ -129,7 +129,8 @@ x 20 -- = 30
 
 The **order in which you parenthesise non-commutative operators matters**.
 ```haskell
-
+(1/) 2 -- = 0.5
+(/1) 2 -- = 2.0
 ```
 
 ## Functions
@@ -187,7 +188,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDkyMTE5NSwxMTkwMDA0MjczLDEwNj
+eyJoaXN0b3J5IjpbMTIyMzg3MTU0OCwxMTkwMDA0MjczLDEwNj
 g2MTQxODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMTgwMjA1
 NzA3OSwtMTExODU5NTcyMiwtODQ3NTY5NTYzLC0xNjIyNTE0MD
 Q3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5MDQ4Mjg0
