@@ -106,7 +106,7 @@ The `$` operator allows you to reduce the amount of brackets used in your code b
 
 The **defining of the `$` operator** is:
 ```haskell
-
+f $ a = f a
 ```
 
 ## Operators
@@ -172,7 +172,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDcwNDM4OSwxMDY4NjE0MTg4LDEyOD
+eyJoaXN0b3J5IjpbMTAxMzA5MzAzNiwxMDY4NjE0MTg4LDEyOD
 UzMzM0MTYsLTE5MTQ3MzQwNzAsLTE4MDIwNTcwNzksLTExMTg1
 OTU3MjIsLTg0NzU2OTU2MywtMTYyMjUxNDA0NywtMTQ0OTU0Nj
 I1NiwtMTk5MjczNTM2NCwtMTYxOTA0ODI4NCwxODc1NjA0MjQw
