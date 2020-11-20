@@ -142,8 +142,8 @@ You can **define your own infix functions** by surrounding them with `()` soft b
 
 The `'` apostrophe character is a **valid character in function names**. The `'` apostrophe can be used to indicate a modified version of an existing function.
 ```haskell
-double = x * 2
-double'
+double x = x * 2
+double'x = (*2) x
 ``` 
 
 ## Conditionals
@@ -173,11 +173,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTk1NDkzMCwtMjk2NDY1OTUwLDEwNj
-g4NzA2MjQsMTE5MDAwNDI3MywxMDY4NjE0MTg4LDEyODUzMzM0
-MTYsLTE5MTQ3MzQwNzAsLTE4MDIwNTcwNzksLTExMTg1OTU3Mj
-IsLTg0NzU2OTU2MywtMTYyMjUxNDA0NywtMTQ0OTU0NjI1Niwt
-MTk5MjczNTM2NCwtMTYxOTA0ODI4NCwxODc1NjA0MjQwLDcwMz
-cxNzQ1NiwtMTExMjIyODEzMCwtNTQ4NDEwNDAyLC03MjU4ODQ1
-MzQsLTE3NDk4NDEzNTFdfQ==
+eyJoaXN0b3J5IjpbMTkxMjI2Mjg5MCwtMjcxOTU0OTMwLC0yOT
+Y0NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0MjczLDEwNjg2MTQx
+ODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMTgwMjA1NzA3OS
+wtMTExODU5NTcyMiwtODQ3NTY5NTYzLC0xNjIyNTE0MDQ3LC0x
+NDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5MDQ4Mjg0LDE4Nz
+U2MDQyNDAsNzAzNzE3NDU2LC0xMTEyMjI4MTMwLC01NDg0MTA0
+MDIsLTcyNTg4NDUzNF19
 -->
