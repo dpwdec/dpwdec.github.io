@@ -99,6 +99,7 @@ rem (-13) 7 -- = -6 (differfent from mod)
 The result of `rem` is **negative if the dividend is negative**. The term **dividend** refers to the **thing that is being divided**.
 
 
+
 ## Functions
 
 When defining a function it **must start with a lowercase letter**.
@@ -154,11 +155,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTg1OTU3MjIsLTg0NzU2OTU2MywtMT
-YyMjUxNDA0NywtMTQ0OTU0NjI1NiwtMTk5MjczNTM2NCwtMTYx
-OTA0ODI4NCwxODc1NjA0MjQwLDcwMzcxNzQ1NiwtMTExMjIyOD
-EzMCwtNTQ4NDEwNDAyLC03MjU4ODQ1MzQsLTE3NDk4NDEzNTEs
-MTIwMTQ4MzMwNCwtMTg5NTI5ODI3LC0xNTU1Mzc0NzMzLDE3ND
-Y4NDYwNiwxNjE4MDM1MjY4LC0xMDQwNzA4NTY4LDE1ODcyNzAy
-MjcsLTE5NTkwOTQ3NzBdfQ==
+eyJoaXN0b3J5IjpbNTM4NzU1MjA4LC0xMTE4NTk1NzIyLC04ND
+c1Njk1NjMsLTE2MjI1MTQwNDcsLTE0NDk1NDYyNTYsLTE5OTI3
+MzUzNjQsLTE2MTkwNDgyODQsMTg3NTYwNDI0MCw3MDM3MTc0NT
+YsLTExMTIyMjgxMzAsLTU0ODQxMDQwMiwtNzI1ODg0NTM0LC0x
+NzQ5ODQxMzUxLDEyMDE0ODMzMDQsLTE4OTUyOTgyNywtMTU1NT
+M3NDczMywxNzQ2ODQ2MDYsMTYxODAzNTI2OCwtMTA0MDcwODU2
+OCwxNTg3MjcwMjI3XX0=
 -->
