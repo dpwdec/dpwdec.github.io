@@ -282,8 +282,10 @@ You can **create a list comprehension** by using the form `[function arg | arg <
 You can **add multiple comma separated predicates** to your list comprehension expressions.
 ```haskell
 [x | x <- [10..20], x /= 13, x /= 15, x /= 19]
-
+-- [10, 11, 12, 14, 16, 17, 18, 20]
 ```
+
+
 
 ## Modules
 
@@ -311,7 +313,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjQzNTI2MjAsMTIwODcxOTQ4OSw4Nj
+eyJoaXN0b3J5IjpbLTEzNjUzMzEyNDcsMTIwODcxOTQ4OSw4Nj
 AzMTU2MzAsMTYxOTI3NTQzNSwtNDcwMTU0NDcwLC0yMzc3NDMx
 NDUsMTQ2MDQ5MTU4NiwxNzYxNzA0NjQsLTE4MDg5MzM4NTMsNT
 E0NTIxNTIxLC0yMTQ1MjQ2ODcyLDEyMjIxNzY4NTQsLTE5NTEy
