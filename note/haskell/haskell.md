@@ -172,7 +172,11 @@ You can **rewrite list creation using the colon operator** and indeed, list lite
 1:2:3:[]
 ```
 
-
+You can **retrieve an element from an list** by using the `!!` double exclamation (index) operator.
+```haskell
+[1, 2, 3, 4] !! 2 -- = 3
+"Lewis Carroll" !! 
+```
 
 ## Modules
 
@@ -197,11 +201,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA3MTYyMDEsOTA1OTU5NzYzLDE3MD
-MwNjgyNjQsNzk3NzA4MzAsMTM2MDA1NTgwOSwxOTY2ODczMDI0
-LDE5MTIyNjI4OTAsLTI3MTk1NDkzMCwtMjk2NDY1OTUwLDEwNj
-g4NzA2MjQsMTE5MDAwNDI3MywxMDY4NjE0MTg4LDEyODUzMzM0
-MTYsLTE5MTQ3MzQwNzAsLTE4MDIwNTcwNzksLTExMTg1OTU3Mj
-IsLTg0NzU2OTU2MywtMTYyMjUxNDA0NywtMTQ0OTU0NjI1Niwt
-MTk5MjczNTM2NF19
+eyJoaXN0b3J5IjpbMTQ0MTA1Njk4LDkwNTk1OTc2MywxNzAzMD
+Y4MjY0LDc5NzcwODMwLDEzNjAwNTU4MDksMTk2Njg3MzAyNCwx
+OTEyMjYyODkwLC0yNzE5NTQ5MzAsLTI5NjQ2NTk1MCwxMDY4OD
+cwNjI0LDExOTAwMDQyNzMsMTA2ODYxNDE4OCwxMjg1MzMzNDE2
+LC0xOTE0NzM0MDcwLC0xODAyMDU3MDc5LC0xMTE4NTk1NzIyLC
+04NDc1Njk1NjMsLTE2MjI1MTQwNDcsLTE0NDk1NDYyNTYsLTE5
+OTI3MzUzNjRdfQ==
 -->
