@@ -239,7 +239,13 @@ take 10 [2,4..] --unbounded range
 -- [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 ```
 
+There are also functions like `cycle` and `repeat` that will **produce infinite lists of elements** that need to be sliced to get a bounded version of them.
 
+You can produce a **bounded list of repeated elements** by using the `replicate` function.
+```haskell
+replicate 3 10
+-- [10, 10, 10
+```
 
 
 ## Modules
@@ -265,11 +271,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NDYzOTY1LDE0NjA0OTE1ODYsMTc2MT
-cwNDY0LC0xODA4OTMzODUzLDUxNDUyMTUyMSwtMjE0NTI0Njg3
-MiwxMjIyMTc2ODU0LC0xOTUxMjk5OTk2LC0xNTAxNjQ1MzE2LD
-kwNTk1OTc2MywxNzAzMDY4MjY0LDc5NzcwODMwLDEzNjAwNTU4
-MDksMTk2Njg3MzAyNCwxOTEyMjYyODkwLC0yNzE5NTQ5MzAsLT
-I5NjQ2NTk1MCwxMDY4ODcwNjI0LDExOTAwMDQyNzMsMTA2ODYx
-NDE4OF19
+eyJoaXN0b3J5IjpbLTk2Nzg5NTk3OCwxNDYwNDkxNTg2LDE3Nj
+E3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxNDUyNDY4
+NzIsMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0NTMxNi
+w5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMzYwMDU1
+ODA5LDE5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMjcxOTU0OTMwLC
+0yOTY0NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0MjczLDEwNjg2
+MTQxODhdfQ==
 -->
