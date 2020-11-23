@@ -191,8 +191,10 @@ For example if we were comparing `[1, 2, 3]` with `[1, 4, 0]` using the `>` oper
 
 The **exception** to this is **lists of different lengths** where if a definitive call cannot be made the list with the shorter length is "less than".
 ```haskell
-[1, 2, 3] > [1, 2] -- = True
-[1, 2, 3] > [1, 5] -- = False
+[1, 2, 3] > [1, 2] 
+-- True
+[1, 2, 3] > [1, 5]
+-- False
 ```
 
 If you **compare lists for equality** using the `==` operator, it will only return `True` if all elements are the same.
@@ -273,11 +275,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3NDI3MywxNDYwNDkxNTg2LDE3NjE3MD
-Q2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxNDUyNDY4NzIs
-MTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0NTMxNiw5MD
-U5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMzYwMDU1ODA5
-LDE5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMjcxOTU0OTMwLC0yOT
-Y0NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0MjczLDEwNjg2MTQx
-ODhdfQ==
+eyJoaXN0b3J5IjpbLTYyNDA1ODgyMSwxNDYwNDkxNTg2LDE3Nj
+E3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxNDUyNDY4
+NzIsMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0NTMxNi
+w5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMzYwMDU1
+ODA5LDE5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMjcxOTU0OTMwLC
+0yOTY0NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0MjczLDEwNjg2
+MTQxODhdfQ==
 -->
