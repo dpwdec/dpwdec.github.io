@@ -161,9 +161,10 @@ double'x = (*2) x
 
 ## Tuples
 
-You can **combine two lists** using the `zip` function. This pairs up each element at the same index in two lists.
+You can **combine two lists** using the `zip` function. This pairs up each element at the same index in two lists producing a list of tuples consisting of the paired elements.
 ```haskell
-zip [1, 2,
+zip [1, 2, 3, 4] [5, 6, 7, 8]
+-- [(1,5]
 ```
 
 
@@ -193,11 +194,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzMTY0NTA5LC01NTUyMTkzMSwtMjA5Mz
-M0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2LC0xOTA3MTYyMDks
-LTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcxOTQ4OSw4Nj
-AzMTU2MzAsMTYxOTI3NTQzNSwtNDcwMTU0NDcwLC0yMzc3NDMx
-NDUsMTQ2MDQ5MTU4NiwxNzYxNzA0NjQsLTE4MDg5MzM4NTMsNT
-E0NTIxNTIxLC0yMTQ1MjQ2ODcyLDEyMjIxNzY4NTQsLTE5NTEy
-OTk5OTZdfQ==
+eyJoaXN0b3J5IjpbLTQ3MjAyNjg2NCwtNTU1MjE5MzEsLTIwOT
+MzNDE5MSwtOTg5MDg2MjAwLDg4MjI5NDgxNiwtMTkwNzE2MjA5
+LC0xMDIxMzc1NTQwLC0xMzY1MzMxMjQ3LDEyMDg3MTk0ODksOD
+YwMzE1NjMwLDE2MTkyNzU0MzUsLTQ3MDE1NDQ3MCwtMjM3NzQz
+MTQ1LDE0NjA0OTE1ODYsMTc2MTcwNDY0LC0xODA4OTMzODUzLD
+UxNDUyMTUyMSwtMjE0NTI0Njg3MiwxMjIyMTc2ODU0LC0xOTUx
+Mjk5OTk2XX0=
 -->
