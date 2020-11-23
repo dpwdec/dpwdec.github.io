@@ -291,7 +291,10 @@ You can **combine multiple lists** by comma separating the ranges that the lists
 -- [(0,0),(0,1),(0,2),(0,3),(1,0),(1,1),(1,2),(1,3),(2,0),(2,1),(2,2),(2,3),(3,0),(3,1),(3,2),(3,3)]
 ```
 
-You can **used strings in list comprehension**
+You can **use strings in list comprehension** just as you would any list of data.
+```haskell
+
+```
 
 ## Modules
 
@@ -319,11 +322,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMT
-M2NTMzMTI0NywxMjA4NzE5NDg5LDg2MDMxNTYzMCwxNjE5Mjc1
-NDM1LC00NzAxNTQ0NzAsLTIzNzc0MzE0NSwxNDYwNDkxNTg2LD
-E3NjE3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxNDUy
-NDY4NzIsMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0NT
-MxNiw5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMzYw
-MDU1ODA5XX0=
+eyJoaXN0b3J5IjpbODgyMjk0ODE2LC0xOTA3MTYyMDksLTEwMj
+EzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcxOTQ4OSw4NjAzMTU2
+MzAsMTYxOTI3NTQzNSwtNDcwMTU0NDcwLC0yMzc3NDMxNDUsMT
+Q2MDQ5MTU4NiwxNzYxNzA0NjQsLTE4MDg5MzM4NTMsNTE0NTIx
+NTIxLC0yMTQ1MjQ2ODcyLDEyMjIxNzY4NTQsLTE5NTEyOTk5OT
+YsLTE1MDE2NDUzMTYsOTA1OTU5NzYzLDE3MDMwNjgyNjQsNzk3
+NzA4MzBdfQ==
 -->
