@@ -23,6 +23,8 @@ $ touch mysecurefile.yml
 $ sudo !! # => evaluates to $ sudo touch mysecurefile.yml
 ```
 
+You can **create**
+
 ## Systemd
 
 
@@ -31,7 +33,8 @@ $ sudo !! # => evaluates to $ sudo touch mysecurefile.yml
 
 Linux uses service files to define how a service should start.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM2NDQwNTcsNDQ0MjU4NjkxLDE5MD
-czNzg2MjgsNDE5OTk5Njc3LC0zOTU2NDAzMjEsMTgyNzk1NTAy
-LC0xNjQ2NTk0NDk4LDExODcyMDAzMjYsMTIxOTYzMzI4NV19
+eyJoaXN0b3J5IjpbLTE0NzA1NDQ2MTgsLTE1ODM2NDQwNTcsND
+Q0MjU4NjkxLDE5MDczNzg2MjgsNDE5OTk5Njc3LC0zOTU2NDAz
+MjEsMTgyNzk1NTAyLC0xNjQ2NTk0NDk4LDExODcyMDAzMjYsMT
+IxOTYzMzI4NV19
 -->
