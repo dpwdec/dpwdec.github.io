@@ -279,6 +279,11 @@ You can **create a list comprehension** by using the form `[function arg | arg <
 -- [12, 14, 16, 18, 20]
 ```
 
+You can **add multiple comma separated predicates** to your list comprehension expressions.
+```haskell
+[x | x <- [10..20], x /= 13, x /= 15, x /
+```
+
 ## Modules
 
 You can **define a module** by using the `module` and `where` keyword. The **module name should be capitalised**.
@@ -305,11 +310,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODcxOTQ4OSw4NjAzMTU2MzAsMTYxOT
-I3NTQzNSwtNDcwMTU0NDcwLC0yMzc3NDMxNDUsMTQ2MDQ5MTU4
-NiwxNzYxNzA0NjQsLTE4MDg5MzM4NTMsNTE0NTIxNTIxLC0yMT
-Q1MjQ2ODcyLDEyMjIxNzY4NTQsLTE5NTEyOTk5OTYsLTE1MDE2
-NDUzMTYsOTA1OTU5NzYzLDE3MDMwNjgyNjQsNzk3NzA4MzAsMT
-M2MDA1NTgwOSwxOTY2ODczMDI0LDE5MTIyNjI4OTAsLTI3MTk1
-NDkzMF19
+eyJoaXN0b3J5IjpbMTA2NjAwODc4MCwxMjA4NzE5NDg5LDg2MD
+MxNTYzMCwxNjE5Mjc1NDM1LC00NzAxNTQ0NzAsLTIzNzc0MzE0
+NSwxNDYwNDkxNTg2LDE3NjE3MDQ2NCwtMTgwODkzMzg1Myw1MT
+Q1MjE1MjEsLTIxNDUyNDY4NzIsMTIyMjE3Njg1NCwtMTk1MTI5
+OTk5NiwtMTUwMTY0NTMxNiw5MDU5NTk3NjMsMTcwMzA2ODI2NC
+w3OTc3MDgzMCwxMzYwMDU1ODA5LDE5NjY4NzMwMjQsMTkxMjI2
+Mjg5MF19
 -->
