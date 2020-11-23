@@ -88,12 +88,16 @@ The `mod` and `rem` functions are similar but have some key differences.
 
 The `mod` function wraps values around a range even when those values are negative. For example if use `7` to represent the days of the week (Sunday - Saturday) and wanted to find what day of the week `9` days from the `0`th day of the week was, then we can see that `7`th day is Sunday again, the `8`th is Monday, and the `9`th is Tuesday (or index `2`), this is what `mod` returns. This wrapping can be done negatively as well.
 ```haskell
-mod 9 7 -- = 2 (Tuesday)
-mod -1 7 -- = 6 (Saturday)
+mod 9 7 
+-- 2 (Tuesday)
+mod -1 7 
+-- 6 (Saturday)
 
 -- comparison to rem examples
-mod 2 7 -- = 2
-mod (-13) 7 -- = 1
+mod 2 7 
+-- 2
+mod (-13) 7 
+-- 1
 ```
 
 The result of `mod` is **negative if the divisor is negative**.
@@ -277,17 +281,20 @@ module MyModule where
 
 When **applying arithmetic operators to functions** the function outputs will take highest precedence and will output their results to be used by the operators. So a statement like `f 20 + g 30 10` would be equivalent to `(f 20) + (g 30 10)` because the results of the functions `f` and `g` would be output in place between arithmetic is applied.
 ```haskell
-succ 9 + max 10 20 --30
-(succ 9) + (max 10 20) --30
+succ 9 + max 10 20 
+-- 30
+(succ 9) + (max 10 20) 
+-- 30
 ```
 
 When **chaining functions** order of nested function operations must be specified using `()` parentheses. Trying to pass the a function as an argument *directly* to another function will not automatically compute the result of the inner function and plug that result into the outer function, instead the computation before passing must be indicated using parentheses.
 ```haskell
-succ max 10 20 --Error
-succ (max 10 20) --21
+succ max 10 20 -- Error
+succ (max 10 20) 
+-- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTA2NTg0MSwxNDYwNDkxNTg2LDE3Nj
+eyJoaXN0b3J5IjpbLTI5ODQ1MTk2MywxNDYwNDkxNTg2LDE3Nj
 E3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxNDUyNDY4
 NzIsMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0NTMxNi
 w5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMzYwMDU1
