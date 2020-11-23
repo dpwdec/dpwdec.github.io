@@ -180,7 +180,7 @@ You can **retrieve an element from an list** by using the `!!` double exclamatio
 
 ### Comparison
 
-You can **compare lists** by using the standard comparison operators `<`, `<=`. `>`, `>=` and `==`. This works if the elements being compared *can* be compared. Lists are **compared in lexicographical order** with the first elements being compared and then the next and so on.
+You can **compare lists** by using the standard comparison operators `<`, `<=`. `>`, `>=` and `==`. This works if the elements being compared *can* be compared. Lists are **compared in lexicographical order** with the first elements being compared and then the next and so on **until a definitive comparison can be made**. For example if we were comparing `[1, 2
 ```haskell
 
 ```
@@ -210,11 +210,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTEyOTk5OTYsLTE1MDE2NDUzMTYsOT
-A1OTU5NzYzLDE3MDMwNjgyNjQsNzk3NzA4MzAsMTM2MDA1NTgw
-OSwxOTY2ODczMDI0LDE5MTIyNjI4OTAsLTI3MTk1NDkzMCwtMj
-k2NDY1OTUwLDEwNjg4NzA2MjQsMTE5MDAwNDI3MywxMDY4NjE0
-MTg4LDEyODUzMzM0MTYsLTE5MTQ3MzQwNzAsLTE4MDIwNTcwNz
-ksLTExMTg1OTU3MjIsLTg0NzU2OTU2MywtMTYyMjUxNDA0Nywt
-MTQ0OTU0NjI1Nl19
+eyJoaXN0b3J5IjpbLTU2ODI4MTQ3MCwtMTk1MTI5OTk5NiwtMT
+UwMTY0NTMxNiw5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgz
+MCwxMzYwMDU1ODA5LDE5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMj
+cxOTU0OTMwLC0yOTY0NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0
+MjczLDEwNjg2MTQxODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MC
+wtMTgwMjA1NzA3OSwtMTExODU5NTcyMiwtODQ3NTY5NTYzLC0x
+NjIyNTE0MDQ3XX0=
 -->
