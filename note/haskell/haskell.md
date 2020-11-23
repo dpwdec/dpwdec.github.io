@@ -273,6 +273,8 @@ Ranges are useful but limited in that they can only produce very limited sequenc
 
 You can **create a list comprehension** by using the form `[function arg | arg <- range, optional predicate]`.
 ```haskell
+[x * 2 | x <- [1..10]]
+-- [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 [x * 2 | x <- [1..10], x * 2 >= 12]
 -- [12, 14, 16, 18, 20]
 ```
@@ -303,7 +305,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDAyNTM5Myw4NjAzMTU2MzAsMTYxOT
+eyJoaXN0b3J5IjpbMTIwODcxOTQ4OSw4NjAzMTU2MzAsMTYxOT
 I3NTQzNSwtNDcwMTU0NDcwLC0yMzc3NDMxNDUsMTQ2MDQ5MTU4
 NiwxNzYxNzA0NjQsLTE4MDg5MzM4NTMsNTE0NTIxNTIxLC0yMT
 Q1MjQ2ODcyLDEyMjIxNzY4NTQsLTE5NTEyOTk5OTYsLTE1MDE2
