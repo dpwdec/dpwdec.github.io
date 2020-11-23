@@ -191,6 +191,8 @@ For example if we were comparing `[1, 2, 3]` with `[1, 4, 0]` using the `>` oper
 
 
 
+
+
 ## Modules
 
 You can **define a module** by using the `module` and `where` keyword. The **module name should be capitalised**.
@@ -214,11 +216,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDUyNDY4NzIsMTIyMjE3Njg1NCwtMT
-k1MTI5OTk5NiwtMTUwMTY0NTMxNiw5MDU5NTk3NjMsMTcwMzA2
-ODI2NCw3OTc3MDgzMCwxMzYwMDU1ODA5LDE5NjY4NzMwMjQsMT
-kxMjI2Mjg5MCwtMjcxOTU0OTMwLC0yOTY0NjU5NTAsMTA2ODg3
-MDYyNCwxMTkwMDA0MjczLDEwNjg2MTQxODgsMTI4NTMzMzQxNi
-wtMTkxNDczNDA3MCwtMTgwMjA1NzA3OSwtMTExODU5NTcyMiwt
-ODQ3NTY5NTYzXX0=
+eyJoaXN0b3J5IjpbLTIxNDAxNjc0MTIsLTIxNDUyNDY4NzIsMT
+IyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0NTMxNiw5MDU5
+NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMzYwMDU1ODA5LD
+E5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMjcxOTU0OTMwLC0yOTY0
+NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0MjczLDEwNjg2MTQxOD
+gsMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMTgwMjA1NzA3OSwt
+MTExODU5NTcyMl19
 -->
