@@ -166,6 +166,14 @@ You can **concatenate a value to the front of a list** using the `:` colon opera
 5:[1, 2, 3, 4] -- = [5, 1, 2, 3, 4]
 ```
 
+You can **rewrite list creation using the colon operator** and indeed, list literals in haskell are syntactic sugar for this sort of operation.
+```haskell
+[1, 2, 3] -- Same as...
+1:2:3:[]
+```
+
+
+
 ## Modules
 
 You can **define a module** by using the `module` and `where` keyword. The **module name should be capitalised**.
@@ -189,11 +197,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA1OTU5NzYzLDE3MDMwNjgyNjQsNzk3Nz
-A4MzAsMTM2MDA1NTgwOSwxOTY2ODczMDI0LDE5MTIyNjI4OTAs
-LTI3MTk1NDkzMCwtMjk2NDY1OTUwLDEwNjg4NzA2MjQsMTE5MD
-AwNDI3MywxMDY4NjE0MTg4LDEyODUzMzM0MTYsLTE5MTQ3MzQw
-NzAsLTE4MDIwNTcwNzksLTExMTg1OTU3MjIsLTg0NzU2OTU2My
-wtMTYyMjUxNDA0NywtMTQ0OTU0NjI1NiwtMTk5MjczNTM2NCwt
-MTYxOTA0ODI4NF19
+eyJoaXN0b3J5IjpbLTE3NDA3MTYyMDEsOTA1OTU5NzYzLDE3MD
+MwNjgyNjQsNzk3NzA4MzAsMTM2MDA1NTgwOSwxOTY2ODczMDI0
+LDE5MTIyNjI4OTAsLTI3MTk1NDkzMCwtMjk2NDY1OTUwLDEwNj
+g4NzA2MjQsMTE5MDAwNDI3MywxMDY4NjE0MTg4LDEyODUzMzM0
+MTYsLTE5MTQ3MzQwNzAsLTE4MDIwNTcwNzksLTExMTg1OTU3Mj
+IsLTg0NzU2OTU2MywtMTYyMjUxNDA0NywtMTQ0OTU0NjI1Niwt
+MTk5MjczNTM2NF19
 -->
