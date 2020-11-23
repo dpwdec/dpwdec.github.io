@@ -164,7 +164,7 @@ double'x = (*2) x
 You can **combine two lists** using the `zip` function. This pairs up each element at the same index in two lists producing a list of tuples consisting of the paired elements.
 ```haskell
 zip [1, 2, 3, 4] [5, 6, 7, 8]
--- [(1,5]
+-- [(1,5), (2,6), (3,7), (4,8)]
 ```
 
 
@@ -194,7 +194,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjAyNjg2NCwtNTU1MjE5MzEsLTIwOT
+eyJoaXN0b3J5IjpbMTk2Mjc1MzczNCwtNTU1MjE5MzEsLTIwOT
 MzNDE5MSwtOTg5MDg2MjAwLDg4MjI5NDgxNiwtMTkwNzE2MjA5
 LC0xMDIxMzc1NTQwLC0xMzY1MzMxMjQ3LDEyMDg3MTk0ODksOD
 YwMzE1NjMwLDE2MTkyNzU0MzUsLTQ3MDE1NDQ3MCwtMjM3NzQz
