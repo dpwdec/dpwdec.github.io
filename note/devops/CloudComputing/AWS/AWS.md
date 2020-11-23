@@ -172,10 +172,13 @@ To set up a rails server to work on aws' `localhost` go to the `config/environme
 config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 ```
  
+## Route 53
+
+You can **find the URL addresses for services** in the `Route53` features. These are the actual addresses that point to a deployed version of a service
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwMDY5ODc3LC0yMDA4NDAwNTY3LDE3Mz
-c1MDg4NzcsLTc5MTUyMzQxOCwtODE1NzI2ODkxLDQ0NDg3MDE5
-MCwtMzI1MjM2NTY5LDEzMzQ5MTY1OTYsLTg3MDQ2NjQwLC00Mj
-Y2NzEzNTcsLTE2NDY5ODIzNjgsLTQ5Mjc1ODEzNCwtMjIyNDI2
-NDc5LDYyNDU5NDUwOV19
+eyJoaXN0b3J5IjpbLTMzNDIyMjQ0MSwyNjAwNjk4NzcsLTIwMD
+g0MDA1NjcsMTczNzUwODg3NywtNzkxNTIzNDE4LC04MTU3MjY4
+OTEsNDQ0ODcwMTkwLC0zMjUyMzY1NjksMTMzNDkxNjU5NiwtOD
+cwNDY2NDAsLTQyNjY3MTM1NywtMTY0Njk4MjM2OCwtNDkyNzU4
+MTM0LC0yMjI0MjY0NzksNjI0NTk0NTA5XX0=
 -->
