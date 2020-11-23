@@ -47,8 +47,14 @@ f $ a = f a
 
 ## Conditionals
 
-You can **express NOT EQUAL to** by using the `/=`
+You can **express NOT EQUAL to** by using the `/=` operator.  Different from the usual `!=` operator in almost all other languages.
+```haskell
+2 /= 3
+-- True
+2 /= 2
+-- False
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5ODc5NjIzMiwtMzg5MzI1MDM1LDEyND
-EwMjU4MjUsNTY3NDYxODI5XX0=
+eyJoaXN0b3J5IjpbNzYxMzk0MzMzLC0zODkzMjUwMzUsMTI0MT
+AyNTgyNSw1Njc0NjE4MjldfQ==
 -->
