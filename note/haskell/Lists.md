@@ -4,8 +4,6 @@ exclude: true
 title: Lists
 ---
 
-## Lists
-
 Lists in Haskell are **homogenous**. They can only contain one type of data.
 
 You can **concatenate one list to the end of another list** using the `++` double plus operator.
@@ -144,5 +142,5 @@ You can **use strings in list comprehension** just as you would any list of data
 
 You can **nest list comprehensions**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDM0MTY4NV19
+eyJoaXN0b3J5IjpbLTE3MTU0NjE5ODhdfQ==
 -->
