@@ -61,6 +61,7 @@ You can **show the type of something** by using the `:type` command.
 ```bash
 prelude> :type 'a'
 'a' :: char
+
 ```
 
 You can **get info about a function** by using the `:info` command followed by the function. The second number shows the **precedence of the function** which ranges from `0-9` with `9` being the highest precedence.
@@ -200,7 +201,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NjA1MTg3MywtMTM1MDIxMDIsLTU1NT
+eyJoaXN0b3J5IjpbLTYyMjY3OTgyMywtMTM1MDIxMDIsLTU1NT
 IxOTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYs
 LTE5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMj
 A4NzE5NDg5LDg2MDMxNTYzMCwxNjE5Mjc1NDM1LC00NzAxNTQ0
