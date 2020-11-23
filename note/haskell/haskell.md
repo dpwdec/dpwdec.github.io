@@ -268,6 +268,7 @@ replicate 3 10
 ```
 
 
+
 ## Modules
 
 You can **define a module** by using the `module` and `where` keyword. The **module name should be capitalised**.
@@ -294,7 +295,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODQ1MTk2MywxNDYwNDkxNTg2LDE3Nj
+eyJoaXN0b3J5IjpbLTIzNzc0MzE0NSwxNDYwNDkxNTg2LDE3Nj
 E3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxNDUyNDY4
 NzIsMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0NTMxNi
 w5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMzYwMDU1
