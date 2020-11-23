@@ -267,7 +267,7 @@ replicate 3 10
 -- [10, 10, 10]
 ```
 
-### Lists comprehension
+### List comprehension
 
 
 
@@ -297,7 +297,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTY0MjQ3OSwtMjM3NzQzMTQ1LDE0Nj
+eyJoaXN0b3J5IjpbLTQ3MDE1NDQ3MCwtMjM3NzQzMTQ1LDE0Nj
 A0OTE1ODYsMTc2MTcwNDY0LC0xODA4OTMzODUzLDUxNDUyMTUy
 MSwtMjE0NTI0Njg3MiwxMjIyMTc2ODU0LC0xOTUxMjk5OTk2LC
 0xNTAxNjQ1MzE2LDkwNTk1OTc2MywxNzAzMDY4MjY0LDc5Nzcw
