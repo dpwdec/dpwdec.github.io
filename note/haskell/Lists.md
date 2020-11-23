@@ -34,7 +34,7 @@ You can **retrieve an element from an list** by using the `!!` double exclamatio
 -- C
 ```
 
-### Comparison
+## Comparison
 
 You can **compare lists** by using the standard comparison operators `<`, `<=`. `>`, `>=` and `==`. This works if the elements being compared *can* be compared. Lists are **compared in lexicographical order** with the first elements being compared and then the next and so on **until a definitive comparison can be made**. 
 
@@ -64,7 +64,7 @@ If you **compare lists for equality** using the `==` operator, it will only retu
 -- False
 ```
 
-### Functions
+## Functions
 
 You can **get the front of a list except its last element** by using the `init` function.
 ```haskell
@@ -72,7 +72,7 @@ init [1, 2, 3, 4, 5]
 -- 5
 ```
 
-### Ranges
+## Ranges
 
 You can **create a range** that automatically generates a list by using `..` double periods between the start and end of the ranges. This only works for things that can actually be operated on sequentially.
 ```haskell
@@ -110,7 +110,7 @@ replicate 3 10
 -- [10, 10, 10]
 ```
 
-### List comprehension
+## List comprehension
 
 Ranges are useful but limited in that they can only produce very limited sequences. You can **create more complex lists** using **list comprehensions**.
 
@@ -142,5 +142,5 @@ You can **use strings in list comprehension** just as you would any list of data
 
 You can **nest list comprehensions**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU0NjE5ODhdfQ==
+eyJoaXN0b3J5IjpbLTIwNDY2MzE3ODBdfQ==
 -->
