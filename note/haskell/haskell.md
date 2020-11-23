@@ -195,7 +195,10 @@ The **exception** to this is **lists of different lengths** where if a definitiv
 [1, 2, 3] > [1, 5] -- = False
 ```
 
-If you **compare lists for equality** using the `==` operator, it will only return `True` 
+If you **compare lists for equality** using the `==` operator, it will only return `True` if all elements are the same.
+```haskell
+[1, 2, 3] == [1, 2, 3] -- = True
+```
 
 
 
@@ -222,7 +225,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTA3NDUwOCwtMTgwODkzMzg1Myw1MT
+eyJoaXN0b3J5IjpbMTAwNTcyMDUzMSwtMTgwODkzMzg1Myw1MT
 Q1MjE1MjEsLTIxNDUyNDY4NzIsMTIyMjE3Njg1NCwtMTk1MTI5
 OTk5NiwtMTUwMTY0NTMxNiw5MDU5NTk3NjMsMTcwMzA2ODI2NC
 w3OTc3MDgzMCwxMzYwMDU1ODA5LDE5NjY4NzMwMjQsMTkxMjI2
