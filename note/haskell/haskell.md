@@ -291,6 +291,8 @@ You can **combine multiple lists** by comma separating the ranges that the lists
 -- [(0,0),(0,1),(0,2),(0,3),(1,0),(1,1),(1,2),(1,3),(2,0),(2,1),(2,2),(2,3),(3,0),(3,1),(3,2),(3,3)]
 ```
 
+You can **used strings in list comprehension**
+
 ## Modules
 
 You can **define a module** by using the `module` and `where` keyword. The **module name should be capitalised**.
@@ -317,7 +319,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDAxNTkzOCwtMTAyMTM3NTU0MCwtMT
+eyJoaXN0b3J5IjpbLTE5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMT
 M2NTMzMTI0NywxMjA4NzE5NDg5LDg2MDMxNTYzMCwxNjE5Mjc1
 NDM1LC00NzAxNTQ0NzAsLTIzNzc0MzE0NSwxNDYwNDkxNTg2LD
 E3NjE3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxNDUy
