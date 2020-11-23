@@ -179,6 +179,7 @@ You can **retrieve an element from an list** by using the `!!` double exclamatio
 ```
 
 
+
 ## Modules
 
 You can **define a module** by using the `module` and `where` keyword. The **module name should be capitalised**.
@@ -202,11 +203,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3MjUxNjIsOTA1OTU5NzYzLDE3MDMwNj
-gyNjQsNzk3NzA4MzAsMTM2MDA1NTgwOSwxOTY2ODczMDI0LDE5
-MTIyNjI4OTAsLTI3MTk1NDkzMCwtMjk2NDY1OTUwLDEwNjg4Nz
-A2MjQsMTE5MDAwNDI3MywxMDY4NjE0MTg4LDEyODUzMzM0MTYs
-LTE5MTQ3MzQwNzAsLTE4MDIwNTcwNzksLTExMTg1OTU3MjIsLT
-g0NzU2OTU2MywtMTYyMjUxNDA0NywtMTQ0OTU0NjI1NiwtMTk5
-MjczNTM2NF19
+eyJoaXN0b3J5IjpbLTE1MDE2NDUzMTYsOTA1OTU5NzYzLDE3MD
+MwNjgyNjQsNzk3NzA4MzAsMTM2MDA1NTgwOSwxOTY2ODczMDI0
+LDE5MTIyNjI4OTAsLTI3MTk1NDkzMCwtMjk2NDY1OTUwLDEwNj
+g4NzA2MjQsMTE5MDAwNDI3MywxMDY4NjE0MTg4LDEyODUzMzM0
+MTYsLTE5MTQ3MzQwNzAsLTE4MDIwNTcwNzksLTExMTg1OTU3Mj
+IsLTg0NzU2OTU2MywtMTYyMjUxNDA0NywtMTQ0OTU0NjI1Niwt
+MTk5MjczNTM2NF19
 -->
