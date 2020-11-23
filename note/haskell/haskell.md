@@ -197,6 +197,8 @@ The **exception** to this is **lists of different lengths** where if a definitiv
 
 
 
+
+
 ## Modules
 
 You can **define a module** by using the `module` and `where` keyword. The **module name should be capitalised**.
@@ -220,11 +222,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTE3MDU1OSw1MTQ1MjE1MjEsLTIxND
-UyNDY4NzIsMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0
-NTMxNiw5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMz
-YwMDU1ODA5LDE5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMjcxOTU0
-OTMwLC0yOTY0NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0MjczLD
-EwNjg2MTQxODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMTgw
-MjA1NzA3OV19
+eyJoaXN0b3J5IjpbLTE4MDg5MzM4NTMsNTE0NTIxNTIxLC0yMT
+Q1MjQ2ODcyLDEyMjIxNzY4NTQsLTE5NTEyOTk5OTYsLTE1MDE2
+NDUzMTYsOTA1OTU5NzYzLDE3MDMwNjgyNjQsNzk3NzA4MzAsMT
+M2MDA1NTgwOSwxOTY2ODczMDI0LDE5MTIyNjI4OTAsLTI3MTk1
+NDkzMCwtMjk2NDY1OTUwLDEwNjg4NzA2MjQsMTE5MDAwNDI3My
+wxMDY4NjE0MTg4LDEyODUzMzM0MTYsLTE5MTQ3MzQwNzAsLTE4
+MDIwNTcwNzldfQ==
 -->
