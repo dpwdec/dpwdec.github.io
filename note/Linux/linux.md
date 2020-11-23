@@ -25,9 +25,9 @@ $ sudo !! # => evaluates to $ sudo touch mysecurefile.yml
 
 ## Service
 
-
+Linux uses service files
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNDE3NTU1OSwxOTA3Mzc4NjI4LDQxOT
-k5OTY3NywtMzk1NjQwMzIxLDE4Mjc5NTUwMiwtMTY0NjU5NDQ5
-OCwxMTg3MjAwMzI2LDEyMTk2MzMyODVdfQ==
+eyJoaXN0b3J5IjpbNDQ0MjU4NjkxLDE5MDczNzg2MjgsNDE5OT
+k5Njc3LC0zOTU2NDAzMjEsMTgyNzk1NTAyLC0xNjQ2NTk0NDk4
+LDExODcyMDAzMjYsMTIxOTYzMzI4NV19
 -->
