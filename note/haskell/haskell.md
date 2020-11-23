@@ -159,7 +159,11 @@ double'x = (*2) x
 
 ### Function Type Definitions
 
-
+You can **declare your function's type** by using the `::` double colon (type of) operator followed by the type signature of your function.
+```haskell
+sumThree :: Int -> Int -> Int -> Int
+sumThree x y z = x + y + z
+```
 
 ## Conditionals
 
@@ -202,11 +206,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTI2MzQ4NDYsLTEzNTAyMTAyLC01NT
-UyMTkzMSwtMjA5MzM0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2
-LC0xOTA3MTYyMDksLTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMT
-IwODcxOTQ4OSw4NjAzMTU2MzAsMTYxOTI3NTQzNSwtNDcwMTU0
-NDcwLC0yMzc3NDMxNDUsMTQ2MDQ5MTU4NiwxNzYxNzA0NjQsLT
-E4MDg5MzM4NTMsNTE0NTIxNTIxLC0yMTQ1MjQ2ODcyLDEyMjIx
-NzY4NTRdfQ==
+eyJoaXN0b3J5IjpbMTcwMDMxOTgsLTEzNTAyMTAyLC01NTUyMT
+kzMSwtMjA5MzM0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2LC0x
+OTA3MTYyMDksLTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMTIwOD
+cxOTQ4OSw4NjAzMTU2MzAsMTYxOTI3NTQzNSwtNDcwMTU0NDcw
+LC0yMzc3NDMxNDUsMTQ2MDQ5MTU4NiwxNzYxNzA0NjQsLTE4MD
+g5MzM4NTMsNTE0NTIxNTIxLC0yMTQ1MjQ2ODcyLDEyMjIxNzY4
+NTRdfQ==
 -->
