@@ -231,7 +231,11 @@ You can **create a descending list** by demonstrating a *negative* comma separat
 -- [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 ```
 
-You can **work with unbounded lists** by taking advantage of haskell's lazy evaluation. For example, if you wanted the first 
+You can **work with unbounded ranges** by taking advantage of haskell's lazy evaluation. For example, if you wanted the first 10 multiples of 2 you could leave the end of the range unbounded and then use the `take` function to get a specific number of elements from that range. The unbounded range would then **only be evaluated once it is called on** and condensed to a specific bounded list.
+```haskell
+
+```
+
 
 ## Modules
 
@@ -256,7 +260,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDQwODczOCwxNDYwNDkxNTg2LDE3Nj
+eyJoaXN0b3J5IjpbLTYwNjQ1MjY2NywxNDYwNDkxNTg2LDE3Nj
 E3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxNDUyNDY4
 NzIsMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0NTMxNi
 w5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMzYwMDU1
