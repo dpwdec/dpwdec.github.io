@@ -293,8 +293,11 @@ You can **combine multiple lists** by comma separating the ranges that the lists
 
 You can **use strings in list comprehension** just as you would any list of data.
 ```haskell
-
+[c | c <- "gOtorETail", c `elem` ['A'..'Z']]
+-- "OET"
 ```
+
+
 
 ## Modules
 
@@ -322,11 +325,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgyMjk0ODE2LC0xOTA3MTYyMDksLTEwMj
-EzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcxOTQ4OSw4NjAzMTU2
-MzAsMTYxOTI3NTQzNSwtNDcwMTU0NDcwLC0yMzc3NDMxNDUsMT
-Q2MDQ5MTU4NiwxNzYxNzA0NjQsLTE4MDg5MzM4NTMsNTE0NTIx
-NTIxLC0yMTQ1MjQ2ODcyLDEyMjIxNzY4NTQsLTE5NTEyOTk5OT
-YsLTE1MDE2NDUzMTYsOTA1OTU5NzYzLDE3MDMwNjgyNjQsNzk3
-NzA4MzBdfQ==
+eyJoaXN0b3J5IjpbLTk4OTA4NjIwMCw4ODIyOTQ4MTYsLTE5MD
+cxNjIwOSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMjA4NzE5
+NDg5LDg2MDMxNTYzMCwxNjE5Mjc1NDM1LC00NzAxNTQ0NzAsLT
+IzNzc0MzE0NSwxNDYwNDkxNTg2LDE3NjE3MDQ2NCwtMTgwODkz
+Mzg1Myw1MTQ1MjE1MjEsLTIxNDUyNDY4NzIsMTIyMjE3Njg1NC
+wtMTk1MTI5OTk5NiwtMTUwMTY0NTMxNiw5MDU5NTk3NjMsMTcw
+MzA2ODI2NF19
 -->
