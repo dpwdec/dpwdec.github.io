@@ -288,6 +288,7 @@ You can **add multiple comma separated predicates** to your list comprehension e
 You can **combine multiple lists** by comma separating the ranges that the lists are drawing from. This works like a 2D iterator, traversing the elements of the first list once and the elements of the second list as many times as there are elements in the first.
 ```haskell
 [(x, y) | x <- [0..5], y <- [0..5]]
+-- [(0,0),(0,1),(0,2),(0,3),(1,0),(1,1),(1,2),(1,3),(2,0),(2,1),(2,2),(2,3),(3,0),(3,1),(3,2),(3,3)]
 ```
 
 ## Modules
@@ -316,11 +317,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzE5MDg2NzYsLTEwMjEzNzU1NDAsLT
-EzNjUzMzEyNDcsMTIwODcxOTQ4OSw4NjAzMTU2MzAsMTYxOTI3
-NTQzNSwtNDcwMTU0NDcwLC0yMzc3NDMxNDUsMTQ2MDQ5MTU4Ni
-wxNzYxNzA0NjQsLTE4MDg5MzM4NTMsNTE0NTIxNTIxLC0yMTQ1
-MjQ2ODcyLDEyMjIxNzY4NTQsLTE5NTEyOTk5OTYsLTE1MDE2ND
-UzMTYsOTA1OTU5NzYzLDE3MDMwNjgyNjQsNzk3NzA4MzAsMTM2
-MDA1NTgwOV19
+eyJoaXN0b3J5IjpbLTEwMDAxNTkzOCwtMTAyMTM3NTU0MCwtMT
+M2NTMzMTI0NywxMjA4NzE5NDg5LDg2MDMxNTYzMCwxNjE5Mjc1
+NDM1LC00NzAxNTQ0NzAsLTIzNzc0MzE0NSwxNDYwNDkxNTg2LD
+E3NjE3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxNDUy
+NDY4NzIsMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0NT
+MxNiw5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMzYw
+MDU1ODA5XX0=
 -->
