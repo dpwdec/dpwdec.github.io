@@ -161,7 +161,10 @@ You can **concatenate one list to the end of another list** using the `++` doubl
 
 The `++` operator **can be slow** because it runs through the entirety of the list before appending to the end.
 
-You can **concatenate to the beginning of a list** us
+You can **concatenate to the beginning of a list** using the `:` colon operator.
+```haskell
+5:[1, 2, 3, 4] -- = [5, 1, 2, 3, 4]
+```
 
 ## Modules
 
@@ -186,11 +189,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgyMzMzMDQ1LDc5NzcwODMwLDEzNjAwNT
-U4MDksMTk2Njg3MzAyNCwxOTEyMjYyODkwLC0yNzE5NTQ5MzAs
-LTI5NjQ2NTk1MCwxMDY4ODcwNjI0LDExOTAwMDQyNzMsMTA2OD
-YxNDE4OCwxMjg1MzMzNDE2LC0xOTE0NzM0MDcwLC0xODAyMDU3
-MDc5LC0xMTE4NTk1NzIyLC04NDc1Njk1NjMsLTE2MjI1MTQwND
-csLTE0NDk1NDYyNTYsLTE5OTI3MzUzNjQsLTE2MTkwNDgyODQs
-MTg3NTYwNDI0MF19
+eyJoaXN0b3J5IjpbMTczOTU2MjMzOCw3OTc3MDgzMCwxMzYwMD
+U1ODA5LDE5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMjcxOTU0OTMw
+LC0yOTY0NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0MjczLDEwNj
+g2MTQxODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMTgwMjA1
+NzA3OSwtMTExODU5NTcyMiwtODQ3NTY5NTYzLC0xNjIyNTE0MD
+Q3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5MDQ4Mjg0
+LDE4NzU2MDQyNDBdfQ==
 -->
