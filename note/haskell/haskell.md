@@ -185,7 +185,7 @@ You can **compare lists** by using the standard comparison operators `<`, `<=`. 
 For example if we were comparing `[1, 2, 3]` with `[1, 4, 0]` using the `>` operator, the comparison will stop as soon as something is found that proves or disproves this. So, first `1` and `1` are compared and found to be equal so a call cannot be made, then `2` and `4` are compared and the function returns with `False`.
 ```haskell
 [1, 2, 3] > [1, 4, 0] -- = False
-
+[1, 2, 3] > [1, 2, 0] -- = True
 ```
 
 
@@ -213,11 +213,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMT
-UwMTY0NTMxNiw5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgz
-MCwxMzYwMDU1ODA5LDE5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMj
-cxOTU0OTMwLC0yOTY0NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0
-MjczLDEwNjg2MTQxODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MC
-wtMTgwMjA1NzA3OSwtMTExODU5NTcyMiwtODQ3NTY5NTYzLC0x
-NjIyNTE0MDQ3XX0=
+eyJoaXN0b3J5IjpbNDkzNzAzNDAsMTIyMjE3Njg1NCwtMTk1MT
+I5OTk5NiwtMTUwMTY0NTMxNiw5MDU5NTk3NjMsMTcwMzA2ODI2
+NCw3OTc3MDgzMCwxMzYwMDU1ODA5LDE5NjY4NzMwMjQsMTkxMj
+I2Mjg5MCwtMjcxOTU0OTMwLC0yOTY0NjU5NTAsMTA2ODg3MDYy
+NCwxMTkwMDA0MjczLDEwNjg2MTQxODgsMTI4NTMzMzQxNiwtMT
+kxNDczNDA3MCwtMTgwMjA1NzA3OSwtMTExODU5NTcyMiwtODQ3
+NTY5NTYzXX0=
 -->
