@@ -195,7 +195,7 @@ The **exception** to this is **lists of different lengths** where if a definitiv
 [1, 2, 3] > [1, 5] -- = False
 ```
 
-
+If you **compare lists for equality** using the `==` operator, it will only return `True` 
 
 
 
@@ -222,11 +222,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg5MzM4NTMsNTE0NTIxNTIxLC0yMT
-Q1MjQ2ODcyLDEyMjIxNzY4NTQsLTE5NTEyOTk5OTYsLTE1MDE2
-NDUzMTYsOTA1OTU5NzYzLDE3MDMwNjgyNjQsNzk3NzA4MzAsMT
-M2MDA1NTgwOSwxOTY2ODczMDI0LDE5MTIyNjI4OTAsLTI3MTk1
-NDkzMCwtMjk2NDY1OTUwLDEwNjg4NzA2MjQsMTE5MDAwNDI3My
-wxMDY4NjE0MTg4LDEyODUzMzM0MTYsLTE5MTQ3MzQwNzAsLTE4
-MDIwNTcwNzldfQ==
+eyJoaXN0b3J5IjpbLTgyMTA3NDUwOCwtMTgwODkzMzg1Myw1MT
+Q1MjE1MjEsLTIxNDUyNDY4NzIsMTIyMjE3Njg1NCwtMTk1MTI5
+OTk5NiwtMTUwMTY0NTMxNiw5MDU5NTk3NjMsMTcwMzA2ODI2NC
+w3OTc3MDgzMCwxMzYwMDU1ODA5LDE5NjY4NzMwMjQsMTkxMjI2
+Mjg5MCwtMjcxOTU0OTMwLC0yOTY0NjU5NTAsMTA2ODg3MDYyNC
+wxMTkwMDA0MjczLDEwNjg2MTQxODgsMTI4NTMzMzQxNiwtMTkx
+NDczNDA3MF19
 -->
