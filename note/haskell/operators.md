@@ -26,7 +26,7 @@ You **can only section the `-` minus operator with the operand in the right posi
 (1-) 2 -- = -1
 ```
 
-### $ operator
+## $ operator
 
 The `$` operator allows you to reduce the amount of brackets used in your code by applying the result of functions to one another as an `infixr` operator with a low priority, thus the right most part of an expression is evaluated and applied and then the next rightmost and so on.
 
@@ -44,7 +44,11 @@ The **definition of the `$` operator** is:
 ```haskell
 f $ a = f a
 ```
+
+## Conditionals
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTMyNTAzNSwxMjQxMDI1ODI1LDU2Nz
-Q2MTgyOV19
+eyJoaXN0b3J5IjpbMTQ5NTMwNDY0MywtMzg5MzI1MDM1LDEyND
+EwMjU4MjUsNTY3NDYxODI5XX0=
 -->
