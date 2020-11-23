@@ -203,6 +203,8 @@ If you **compare lists for equality** using the `==` operator, it will only retu
 
 
 
+
+
 ## Modules
 
 You can **define a module** by using the `module` and `where` keyword. The **module name should be capitalised**.
@@ -226,11 +228,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTMwNzg5ODAsLTE4MDg5MzM4NTMsNT
-E0NTIxNTIxLC0yMTQ1MjQ2ODcyLDEyMjIxNzY4NTQsLTE5NTEy
-OTk5OTYsLTE1MDE2NDUzMTYsOTA1OTU5NzYzLDE3MDMwNjgyNj
-QsNzk3NzA4MzAsMTM2MDA1NTgwOSwxOTY2ODczMDI0LDE5MTIy
-NjI4OTAsLTI3MTk1NDkzMCwtMjk2NDY1OTUwLDEwNjg4NzA2Mj
-QsMTE5MDAwNDI3MywxMDY4NjE0MTg4LDEyODUzMzM0MTYsLTE5
-MTQ3MzQwNzBdfQ==
+eyJoaXN0b3J5IjpbMTc2MTcwNDY0LC0xODA4OTMzODUzLDUxND
+UyMTUyMSwtMjE0NTI0Njg3MiwxMjIyMTc2ODU0LC0xOTUxMjk5
+OTk2LC0xNTAxNjQ1MzE2LDkwNTk1OTc2MywxNzAzMDY4MjY0LD
+c5NzcwODMwLDEzNjAwNTU4MDksMTk2Njg3MzAyNCwxOTEyMjYy
+ODkwLC0yNzE5NTQ5MzAsLTI5NjQ2NTk1MCwxMDY4ODcwNjI0LD
+ExOTAwMDQyNzMsMTA2ODYxNDE4OCwxMjg1MzMzNDE2LC0xOTE0
+NzM0MDcwXX0=
 -->
