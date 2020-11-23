@@ -211,7 +211,11 @@ init [1, 2, 3, 4, 5]
 
 ### Ranges
 
-
+You can **create a range** that automatically generates a list by using `..` double periods between the start and end of the ranges. This only works for things that can actually be operated on sequentially.
+```haskell
+[1..10]
+-- [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
 
 ## Modules
 
@@ -236,7 +240,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzI0NzAxNSwxNDYwNDkxNTg2LDE3Nj
+eyJoaXN0b3J5IjpbMTk0NzIzMDUyNiwxNDYwNDkxNTg2LDE3Nj
 E3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxNDUyNDY4
 NzIsMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0NTMxNi
 w5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMzYwMDU1
