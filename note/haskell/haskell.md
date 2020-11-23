@@ -203,7 +203,10 @@ If you **compare lists for equality** using the `==` operator, it will only retu
 
 ### Functions
 
-
+You can **get the front of a list except its last element** by using the `init` function.
+```haskell
+init [1, 2, 3, 4, 5] -- = 5
+```
 
 
 
@@ -230,7 +233,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MzY3NTEzNCwxNzYxNzA0NjQsLTE4MD
+eyJoaXN0b3J5IjpbMTY1MDExMTE5MSwxNzYxNzA0NjQsLTE4MD
 g5MzM4NTMsNTE0NTIxNTIxLC0yMTQ1MjQ2ODcyLDEyMjIxNzY4
 NTQsLTE5NTEyOTk5OTYsLTE1MDE2NDUzMTYsOTA1OTU5NzYzLD
 E3MDMwNjgyNjQsNzk3NzA4MzAsMTM2MDA1NTgwOSwxOTY2ODcz
