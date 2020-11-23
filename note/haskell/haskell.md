@@ -217,6 +217,11 @@ You can **create a range** that automatically generates a list by using `..` dou
 -- [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
+You can **define a step for a range** by submitting a step argument before the range.
+```haskell
+[
+```
+
 ## Modules
 
 You can **define a module** by using the `module` and `where` keyword. The **module name should be capitalised**.
@@ -240,11 +245,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzIzMDUyNiwxNDYwNDkxNTg2LDE3Nj
-E3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxNDUyNDY4
-NzIsMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0NTMxNi
-w5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMzYwMDU1
-ODA5LDE5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMjcxOTU0OTMwLC
-0yOTY0NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0MjczLDEwNjg2
-MTQxODhdfQ==
+eyJoaXN0b3J5IjpbLTE2OTkxMDg2MDMsMTQ2MDQ5MTU4NiwxNz
+YxNzA0NjQsLTE4MDg5MzM4NTMsNTE0NTIxNTIxLC0yMTQ1MjQ2
+ODcyLDEyMjIxNzY4NTQsLTE5NTEyOTk5OTYsLTE1MDE2NDUzMT
+YsOTA1OTU5NzYzLDE3MDMwNjgyNjQsNzk3NzA4MzAsMTM2MDA1
+NTgwOSwxOTY2ODczMDI0LDE5MTIyNjI4OTAsLTI3MTk1NDkzMC
+wtMjk2NDY1OTUwLDEwNjg4NzA2MjQsMTE5MDAwNDI3MywxMDY4
+NjE0MTg4XX0=
 -->
