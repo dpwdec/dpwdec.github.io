@@ -47,8 +47,8 @@ f $ a = f a
 
 ## Conditionals
 
-
+You can **express NOT EQUAL to** by using the `/=`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTMwNDY0MywtMzg5MzI1MDM1LDEyND
+eyJoaXN0b3J5IjpbMTE5ODc5NjIzMiwtMzg5MzI1MDM1LDEyND
 EwMjU4MjUsNTY3NDYxODI5XX0=
 -->
