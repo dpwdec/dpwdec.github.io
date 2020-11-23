@@ -22,8 +22,12 @@ You can **invoke a previous command** by using the `!!` double exclamation indic
 $ touch mysecurefile.yml
 $ sudo !! # => evaluates to $ sudo touch mysecurefile.yml
 ```
+
+## Service
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNzM3ODYyOCw0MTk5OTk2NzcsLTM5NT
-Y0MDMyMSwxODI3OTU1MDIsLTE2NDY1OTQ0OTgsMTE4NzIwMDMy
-NiwxMjE5NjMzMjg1XX0=
+eyJoaXN0b3J5IjpbMTAwNDE3NTU1OSwxOTA3Mzc4NjI4LDQxOT
+k5OTY3NywtMzk1NjQwMzIxLDE4Mjc5NTUwMiwtMTY0NjU5NDQ5
+OCwxMTg3MjAwMzI2LDEyMTk2MzMyODVdfQ==
 -->
