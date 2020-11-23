@@ -159,7 +159,12 @@ double'x = (*2) x
 
 ## Indenting
 
-##
+## Tuples
+
+You can **combine two lists** using the `zip` function. This pairs up each element at the same index in two lists.
+```haskell
+zip [1, 2,
+```
 
 
 ## Modules
@@ -188,11 +193,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk1ODgzNzMsLTU1NTIxOTMxLC0yMDkzMz
-QxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYsLTE5MDcxNjIwOSwt
-MTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMjA4NzE5NDg5LDg2MD
-MxNTYzMCwxNjE5Mjc1NDM1LC00NzAxNTQ0NzAsLTIzNzc0MzE0
-NSwxNDYwNDkxNTg2LDE3NjE3MDQ2NCwtMTgwODkzMzg1Myw1MT
-Q1MjE1MjEsLTIxNDUyNDY4NzIsMTIyMjE3Njg1NCwtMTk1MTI5
-OTk5Nl19
+eyJoaXN0b3J5IjpbMjMzMTY0NTA5LC01NTUyMTkzMSwtMjA5Mz
+M0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2LC0xOTA3MTYyMDks
+LTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcxOTQ4OSw4Nj
+AzMTU2MzAsMTYxOTI3NTQzNSwtNDcwMTU0NDcwLC0yMzc3NDMx
+NDUsMTQ2MDQ5MTU4NiwxNzYxNzA0NjQsLTE4MDg5MzM4NTMsNT
+E0NTIxNTIxLC0yMTQ1MjQ2ODcyLDEyMjIxNzY4NTQsLTE5NTEy
+OTk5OTZdfQ==
 -->
