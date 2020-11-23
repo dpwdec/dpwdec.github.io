@@ -269,7 +269,9 @@ replicate 3 10
 
 ### List comprehension
 
-Ranges are useful but limited in that they can only produce very limited sequences. You can **create more complex lists** using **list comprehensions**. 
+Ranges are useful but limited in that they can only produce very limited sequences. You can **create more complex lists** using **list comprehensions**.
+
+You can **create a list comprehension** by using the form `[function arg | 
 
 ## Modules
 
@@ -297,11 +299,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxOTI3NTQzNSwtNDcwMTU0NDcwLC0yMz
-c3NDMxNDUsMTQ2MDQ5MTU4NiwxNzYxNzA0NjQsLTE4MDg5MzM4
-NTMsNTE0NTIxNTIxLC0yMTQ1MjQ2ODcyLDEyMjIxNzY4NTQsLT
-E5NTEyOTk5OTYsLTE1MDE2NDUzMTYsOTA1OTU5NzYzLDE3MDMw
-NjgyNjQsNzk3NzA4MzAsMTM2MDA1NTgwOSwxOTY2ODczMDI0LD
-E5MTIyNjI4OTAsLTI3MTk1NDkzMCwtMjk2NDY1OTUwLDEwNjg4
-NzA2MjRdfQ==
+eyJoaXN0b3J5IjpbODYwMzE1NjMwLDE2MTkyNzU0MzUsLTQ3MD
+E1NDQ3MCwtMjM3NzQzMTQ1LDE0NjA0OTE1ODYsMTc2MTcwNDY0
+LC0xODA4OTMzODUzLDUxNDUyMTUyMSwtMjE0NTI0Njg3MiwxMj
+IyMTc2ODU0LC0xOTUxMjk5OTk2LC0xNTAxNjQ1MzE2LDkwNTk1
+OTc2MywxNzAzMDY4MjY0LDc5NzcwODMwLDEzNjAwNTU4MDksMT
+k2Njg3MzAyNCwxOTEyMjYyODkwLC0yNzE5NTQ5MzAsLTI5NjQ2
+NTk1MF19
 -->
