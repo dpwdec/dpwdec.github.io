@@ -233,7 +233,7 @@ You can **create a descending list** by demonstrating a *negative* comma separat
 
 You can **work with unbounded ranges** by taking advantage of haskell's lazy evaluation. For example, if you wanted the first 10 multiples of 2 you could leave the end of the range unbounded and then use the `take` function to get a specific number of elements from that range. The unbounded range would then **only be evaluated once it is called on** and condensed to a specific bounded list.
 ```haskell
-take 10 [2,4..]
+take 10 [2,4..] --unbounded range
 -- [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 ```
 
@@ -262,11 +262,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA0Mzc3MTAsMTQ2MDQ5MTU4NiwxNz
-YxNzA0NjQsLTE4MDg5MzM4NTMsNTE0NTIxNTIxLC0yMTQ1MjQ2
-ODcyLDEyMjIxNzY4NTQsLTE5NTEyOTk5OTYsLTE1MDE2NDUzMT
-YsOTA1OTU5NzYzLDE3MDMwNjgyNjQsNzk3NzA4MzAsMTM2MDA1
-NTgwOSwxOTY2ODczMDI0LDE5MTIyNjI4OTAsLTI3MTk1NDkzMC
-wtMjk2NDY1OTUwLDEwNjg4NzA2MjQsMTE5MDAwNDI3MywxMDY4
-NjE0MTg4XX0=
+eyJoaXN0b3J5IjpbLTc5NDI1NTYyOSwxNDYwNDkxNTg2LDE3Nj
+E3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxNDUyNDY4
+NzIsMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0NTMxNi
+w5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMzYwMDU1
+ODA5LDE5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMjcxOTU0OTMwLC
+0yOTY0NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0MjczLDEwNjg2
+MTQxODhdfQ==
 -->
