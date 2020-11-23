@@ -271,7 +271,7 @@ replicate 3 10
 
 Ranges are useful but limited in that they can only produce very limited sequences. You can **create more complex lists** using **list comprehensions**.
 
-You can **create a list comprehension** by using the form `[function arg | arg <- range, 
+You can **create a list comprehension** by using the form `[function arg | arg <- range, optional predicate}
 
 ## Modules
 
@@ -299,11 +299,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTY4MzUyNiw4NjAzMTU2MzAsMTYxOT
-I3NTQzNSwtNDcwMTU0NDcwLC0yMzc3NDMxNDUsMTQ2MDQ5MTU4
-NiwxNzYxNzA0NjQsLTE4MDg5MzM4NTMsNTE0NTIxNTIxLC0yMT
-Q1MjQ2ODcyLDEyMjIxNzY4NTQsLTE5NTEyOTk5OTYsLTE1MDE2
-NDUzMTYsOTA1OTU5NzYzLDE3MDMwNjgyNjQsNzk3NzA4MzAsMT
-M2MDA1NTgwOSwxOTY2ODczMDI0LDE5MTIyNjI4OTAsLTI3MTk1
-NDkzMF19
+eyJoaXN0b3J5IjpbMTI0MTg0MDIwLDg2MDMxNTYzMCwxNjE5Mj
+c1NDM1LC00NzAxNTQ0NzAsLTIzNzc0MzE0NSwxNDYwNDkxNTg2
+LDE3NjE3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxND
+UyNDY4NzIsMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0
+NTMxNiw5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMz
+YwMDU1ODA5LDE5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMjcxOTU0
+OTMwXX0=
 -->
