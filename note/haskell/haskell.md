@@ -100,8 +100,10 @@ The result of `mod` is **negative if the divisor is negative**.
 
 The `rem` function returns the remainder of dividing one number by another.
 ```haskell
-rem 2 7 -- = 2 (same as mod)
-rem (-13) 7 -- = -6 (differfent from mod)
+rem 2 7 
+-- 2 (same as mod)
+rem (-13) 7 
+-- -6 (differfent from mod)
 ```
 
 The result of `rem` is **negative if the dividend is negative**. The term **dividend** refers to the **thing that is being divided**.
@@ -124,13 +126,16 @@ Infix functions use the **infixr** type for **right associative functions**. For
 
 You can **use a function as an infix** by surrounding the function name with backticks ` if the function takes two arguments.
 ```haskell
-div 10 2 -- = 5
-10 `div` 2 -- = 5
+div 10 2 
+-- 5
+10 `div` 2 
+-- 5
 ```
 
 You can **use infix functions like regular functions** by surrounding them with `()` soft braces.
 ```haskell
-(+) 20 30 -- = 50
+(+) 20 30 
+-- 50
 ```
 
 You can **define your own infix functions** by surrounding them with `()` soft braces at definition.
@@ -156,14 +161,16 @@ Lists in Haskell are **homogenous**. They can only contain one type of data.
 
 You can **concatenate one list to the end of another list** using the `++` double plus operator.
 ```haskell
-[1, 2, 3] ++ [4, 5, 6] -- = [1, 2, 3, 4, 5, 6]
+[1, 2, 3] ++ [4, 5, 6] 
+-- [1, 2, 3, 4, 5, 6]
 ```
 
 The `++` operator **can be slow** because it runs through the entirety of the list before appending to the end.
 
 You can **concatenate a value to the front of a list** using the `:` colon operator. This value must **match the types** held in the list and can **only be applied in front of the list**.
 ```haskell
-5:[1, 2, 3, 4] -- = [5, 1, 2, 3, 4]
+5:[1, 2, 3, 4] 
+-- [5, 1, 2, 3, 4]
 ```
 
 You can **rewrite list creation using the colon operator** and indeed, list literals in haskell are syntactic sugar for this sort of operation.
@@ -174,8 +181,10 @@ You can **rewrite list creation using the colon operator** and indeed, list lite
 
 You can **retrieve an element from an list** by using the `!!` double exclamation (index) operator.
 ```haskell
-[1, 2, 3, 4] !! 2 -- = 3
-"Lewis Carroll" !! 6 -- = C
+[1, 2, 3, 4] !! 2 
+-- 3
+"Lewis Carroll" !! 6 
+-- C
 ```
 
 ### Comparison
@@ -278,11 +287,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTg0MDczNDQsMTQ2MDQ5MTU4NiwxNz
-YxNzA0NjQsLTE4MDg5MzM4NTMsNTE0NTIxNTIxLC0yMTQ1MjQ2
-ODcyLDEyMjIxNzY4NTQsLTE5NTEyOTk5OTYsLTE1MDE2NDUzMT
-YsOTA1OTU5NzYzLDE3MDMwNjgyNjQsNzk3NzA4MzAsMTM2MDA1
-NTgwOSwxOTY2ODczMDI0LDE5MTIyNjI4OTAsLTI3MTk1NDkzMC
-wtMjk2NDY1OTUwLDEwNjg4NzA2MjQsMTE5MDAwNDI3MywxMDY4
-NjE0MTg4XX0=
+eyJoaXN0b3J5IjpbMTMxNTA2NTg0MSwxNDYwNDkxNTg2LDE3Nj
+E3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxNDUyNDY4
+NzIsMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0NTMxNi
+w5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMzYwMDU1
+ODA5LDE5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMjcxOTU0OTMwLC
+0yOTY0NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0MjczLDEwNjg2
+MTQxODhdfQ==
 -->
