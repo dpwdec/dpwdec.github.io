@@ -154,10 +154,12 @@ double'x = (*2) x
 
 Lists in Haskell are **homogenous**. They can only contain one type of data.
 
-You can **concatenate two lists** using the `++` double plus operator.
+You can **concatenate one list to the end of another list** using the `++` double plus operator.
 ```haskell
 [1, 2, 3] ++ [4, 5, 6] -- = [1, 2, 3, 4, 5, 6]
 ```
+
+The `++` operator **can be slow** because it runs through the entirety of the list before appending to the end.
 
 ## Modules
 
@@ -182,11 +184,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3NzA4MzAsMTM2MDA1NTgwOSwxOTY2OD
-czMDI0LDE5MTIyNjI4OTAsLTI3MTk1NDkzMCwtMjk2NDY1OTUw
-LDEwNjg4NzA2MjQsMTE5MDAwNDI3MywxMDY4NjE0MTg4LDEyOD
-UzMzM0MTYsLTE5MTQ3MzQwNzAsLTE4MDIwNTcwNzksLTExMTg1
-OTU3MjIsLTg0NzU2OTU2MywtMTYyMjUxNDA0NywtMTQ0OTU0Nj
-I1NiwtMTk5MjczNTM2NCwtMTYxOTA0ODI4NCwxODc1NjA0MjQw
-LDcwMzcxNzQ1Nl19
+eyJoaXN0b3J5IjpbLTIxODQwMDcyMiw3OTc3MDgzMCwxMzYwMD
+U1ODA5LDE5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMjcxOTU0OTMw
+LC0yOTY0NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0MjczLDEwNj
+g2MTQxODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMTgwMjA1
+NzA3OSwtMTExODU5NTcyMiwtODQ3NTY5NTYzLC0xNjIyNTE0MD
+Q3LC0xNDQ5NTQ2MjU2LC0xOTkyNzM1MzY0LC0xNjE5MDQ4Mjg0
+LDE4NzU2MDQyNDBdfQ==
 -->
