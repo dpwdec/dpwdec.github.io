@@ -189,7 +189,10 @@ For example if we were comparing `[1, 2, 3]` with `[1, 4, 0]` using the `>` oper
 [1, 2, 3] > [0, 2, 100] -- = True
 ```
 
-The **exception** to this is **lists of different lengths**
+The **exception** to this is **lists of different lengths** where if a definitive call cannot be made the list with the shorter length is "less than".
+```haskell
+
+```
 
 
 
@@ -216,11 +219,11 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0NTIxNTIxLC0yMTQ1MjQ2ODcyLDEyMj
-IxNzY4NTQsLTE5NTEyOTk5OTYsLTE1MDE2NDUzMTYsOTA1OTU5
-NzYzLDE3MDMwNjgyNjQsNzk3NzA4MzAsMTM2MDA1NTgwOSwxOT
-Y2ODczMDI0LDE5MTIyNjI4OTAsLTI3MTk1NDkzMCwtMjk2NDY1
-OTUwLDEwNjg4NzA2MjQsMTE5MDAwNDI3MywxMDY4NjE0MTg4LD
-EyODUzMzM0MTYsLTE5MTQ3MzQwNzAsLTE4MDIwNTcwNzksLTEx
-MTg1OTU3MjJdfQ==
+eyJoaXN0b3J5IjpbMTcyNDQ4MzAwMyw1MTQ1MjE1MjEsLTIxND
+UyNDY4NzIsMTIyMjE3Njg1NCwtMTk1MTI5OTk5NiwtMTUwMTY0
+NTMxNiw5MDU5NTk3NjMsMTcwMzA2ODI2NCw3OTc3MDgzMCwxMz
+YwMDU1ODA5LDE5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMjcxOTU0
+OTMwLC0yOTY0NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0MjczLD
+EwNjg2MTQxODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMTgw
+MjA1NzA3OV19
 -->
