@@ -1,4 +1,8 @@
-
+---
+layout: page
+exclude: true
+title: Lists
+---
 
 ## Lists
 
@@ -140,5 +144,5 @@ You can **use strings in list comprehension** just as you would any list of data
 
 You can **nest list comprehensions**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTE1NjEzXX0=
+eyJoaXN0b3J5IjpbMTEyNDM0MTY4NV19
 -->
