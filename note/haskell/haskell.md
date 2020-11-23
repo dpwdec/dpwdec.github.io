@@ -161,7 +161,7 @@ You can **concatenate one list to the end of another list** using the `++` doubl
 
 The `++` operator **can be slow** because it runs through the entirety of the list before appending to the end.
 
-You can **concatenate to the beginning of a list** using the `:` colon operator.
+You can **concatenate to the a value to the front of a list** using the `:` colon operator.
 ```haskell
 5:[1, 2, 3, 4] -- = [5, 1, 2, 3, 4]
 ```
@@ -189,7 +189,7 @@ succ max 10 20 --Error
 succ (max 10 20) --21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTU2MjMzOCw3OTc3MDgzMCwxMzYwMD
+eyJoaXN0b3J5IjpbMTcwMzA2ODI2NCw3OTc3MDgzMCwxMzYwMD
 U1ODA5LDE5NjY4NzMwMjQsMTkxMjI2Mjg5MCwtMjcxOTU0OTMw
 LC0yOTY0NjU5NTAsMTA2ODg3MDYyNCwxMTkwMDA0MjczLDEwNj
 g2MTQxODgsMTI4NTMzMzQxNiwtMTkxNDczNDA3MCwtMTgwMjA1
