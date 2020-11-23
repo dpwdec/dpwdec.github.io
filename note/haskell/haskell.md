@@ -285,7 +285,10 @@ You can **add multiple comma separated predicates** to your list comprehension e
 -- [10, 11, 12, 14, 16, 17, 18, 20]
 ```
 
-You can **combine multiple lists** by comma separating 
+You can **combine multiple lists** by comma separating the ranges that the lists are drawing from. This works like a 2D iterator 
+```haskell
+
+```
 
 ## Modules
 
@@ -313,11 +316,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMT
-IwODcxOTQ4OSw4NjAzMTU2MzAsMTYxOTI3NTQzNSwtNDcwMTU0
-NDcwLC0yMzc3NDMxNDUsMTQ2MDQ5MTU4NiwxNzYxNzA0NjQsLT
-E4MDg5MzM4NTMsNTE0NTIxNTIxLC0yMTQ1MjQ2ODcyLDEyMjIx
-NzY4NTQsLTE5NTEyOTk5OTYsLTE1MDE2NDUzMTYsOTA1OTU5Nz
-YzLDE3MDMwNjgyNjQsNzk3NzA4MzAsMTM2MDA1NTgwOSwxOTY2
-ODczMDI0XX0=
+eyJoaXN0b3J5IjpbMzkwMDU3MzQ4LC0xMDIxMzc1NTQwLC0xMz
+Y1MzMxMjQ3LDEyMDg3MTk0ODksODYwMzE1NjMwLDE2MTkyNzU0
+MzUsLTQ3MDE1NDQ3MCwtMjM3NzQzMTQ1LDE0NjA0OTE1ODYsMT
+c2MTcwNDY0LC0xODA4OTMzODUzLDUxNDUyMTUyMSwtMjE0NTI0
+Njg3MiwxMjIyMTc2ODU0LC0xOTUxMjk5OTk2LC0xNTAxNjQ1Mz
+E2LDkwNTk1OTc2MywxNzAzMDY4MjY0LDc5NzcwODMwLDEzNjAw
+NTU4MDldfQ==
 -->
