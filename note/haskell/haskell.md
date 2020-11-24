@@ -201,7 +201,7 @@ badTuple x = fst x + snd x
 
 ### Lists
 
-You can **pattern match lists** by using defining the name for the lists element you want to destructure to, followed by the `:` operator and then the list. 
+You can **pattern match lists** by using defining the name for the lists element you want to destructure to, followed by the `:` operator and then the list in the form `x:myList`
 ```haskell
 head' :: [a] -> a
 head' (x:_) = x
@@ -252,11 +252,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTM5MDUzNTgsMjMzODc4Mjg3LC00Nj
-MwMDQwODQsMzA0MDM4MDg3LC03MjQ4NDY0NjcsNjQ5ODMwMjgz
-LDE3MDAzMTk4LC0xMDcyODA0NjI2LC04NDExNzcwOTQsLTE4Mz
-IwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkzMSwtMjA5MzM0MTkx
-LC05ODkwODYyMDAsODgyMjk0ODE2LC0xOTA3MTYyMDksLTEwMj
-EzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcxOTQ4OSw4NjAzMTU2
-MzBdfQ==
+eyJoaXN0b3J5IjpbMTUwMzgzNDE2NCwyMzM4NzgyODcsLTQ2Mz
+AwNDA4NCwzMDQwMzgwODcsLTcyNDg0NjQ2Nyw2NDk4MzAyODMs
+MTcwMDMxOTgsLTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMTgzMj
+AyNzI5NCwtMTM1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTEs
+LTk4OTA4NjIwMCw4ODIyOTQ4MTYsLTE5MDcxNjIwOSwtMTAyMT
+M3NTU0MCwtMTM2NTMzMTI0NywxMjA4NzE5NDg5LDg2MDMxNTYz
+MF19
 -->
