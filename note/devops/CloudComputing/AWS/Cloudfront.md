@@ -37,12 +37,14 @@ You can **use edge locations for writing and uploading files**.
 
 You will be **charged for clearing cached objects**.
 
+You can **delete a cloudfront distribution** by first selecting it and using the `Disable` option.
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzM5NjU5NywxNjIxODkwNjczLDExNT
-k0OTgxNDBdfQ==
+eyJoaXN0b3J5IjpbOTYyMzkxMzY5LDE2MjE4OTA2NzMsMTE1OT
+Q5ODE0MF19
 -->
