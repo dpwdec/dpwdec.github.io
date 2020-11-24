@@ -198,7 +198,7 @@ read "True" || False
 -- True
 ```
 
-In the examples above the **type that `read` outputs is inferred** by how it is used.
+In the examples above the **type that `read` outputs is inferred** by how it is used. However, if you use `read` on its own without
 
 ## Conditionals
 
@@ -241,7 +241,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTAzMTA4LC0xMDcyODA0NjI2LC04ND
+eyJoaXN0b3J5IjpbMTY2MzcxODI4LC0xMDcyODA0NjI2LC04ND
 ExNzcwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkz
 MSwtMjA5MzM0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2LC0xOT
 A3MTYyMDksLTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcx
