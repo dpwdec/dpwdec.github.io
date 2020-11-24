@@ -14,9 +14,9 @@ An **edge location** is a located server which caches content to be delivered.
 
 An **origin** is the location of the S3 bucket where the content was originally placed and which will be distributed by the CDN.
 
-
+A **distribution** is a collection of edge locations 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDA3MzcwNl19
+eyJoaXN0b3J5IjpbMTE1OTQ5ODE0MF19
 -->
