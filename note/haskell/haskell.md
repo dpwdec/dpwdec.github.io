@@ -167,7 +167,7 @@ sumThree x y z = x + y + z
 
 ### Pattern Matching
 
-You can **define multiple versions of the same function**
+You can **define multiple versions of the same function** that produce different results depending on their input. These function definitions will pattern m
 
 ## Conditionals
 
@@ -210,7 +210,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzQ0NjYxNSwxNzAwMzE5OCwtMTA3Mj
+eyJoaXN0b3J5IjpbMTgzMTU4MTYzMCwxNzAwMzE5OCwtMTA3Mj
 gwNDYyNiwtODQxMTc3MDk0LC0xODMyMDI3Mjk0LC0xMzUwMjEw
 MiwtNTU1MjE5MzEsLTIwOTMzNDE5MSwtOTg5MDg2MjAwLDg4Mj
 I5NDgxNiwtMTkwNzE2MjA5LC0xMDIxMzc1NTQwLC0xMzY1MzMx
