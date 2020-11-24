@@ -37,7 +37,7 @@ You can **use edge locations for writing and uploading files**.
 
 You will be **charged for clearing cached objects**.
 
-You can **delete a cloudfront distribution** by first selecting it and using the `Disable` option which will take a while to be taken down and it can then be deleted.
+You can **delete a cloudfront distribution** by first selecting it and using the `Disable` option. It will take a while to be taken down and it can then be deleted.
 
 
 
@@ -45,6 +45,6 @@ You can **delete a cloudfront distribution** by first selecting it and using the
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyMDk5NTgxLDE2MjE4OTA2NzMsMTE1OT
-Q5ODE0MF19
+eyJoaXN0b3J5IjpbLTE3ODM5MTIzODcsMTYyMTg5MDY3MywxMT
+U5NDk4MTQwXX0=
 -->
