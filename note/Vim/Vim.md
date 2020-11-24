@@ -31,11 +31,11 @@ You can **quit a file without saving** by using the `:q!` command.
 
 ### Visual Mode
 
-**Visual mode** allows you to select elements in a file visually.
+**Visual mode** allows you to select elements in a file visually by characters, lines and columns. Commands used here affect the selected content.
 
 You can **save a file a vim** by using the `:w` command followed by the name of the file if you are saving it for the first.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE3NTgwOTgsLTM5Njg0NjQ5MSwtMT
-g2NjAxMjk0MiwtNDY4MDg1MjU5LC0xMjExODAwNjc5LDExODUz
-NjQ2MDFdfQ==
+eyJoaXN0b3J5IjpbLTQ1NTM4ODYzMSwtMzk2ODQ2NDkxLC0xOD
+Y2MDEyOTQyLC00NjgwODUyNTksLTEyMTE4MDA2NzksMTE4NTM2
+NDYwMV19
 -->
