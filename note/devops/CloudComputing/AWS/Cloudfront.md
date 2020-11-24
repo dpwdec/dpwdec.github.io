@@ -25,10 +25,10 @@ There are two types of cloudfront distribution:
 - **Web Distribution** (fort websites)
 - **RMTP** (for streaming media)
 
-You can use **restrict bucket access** to only allow users to access S3 content hosted via cloudfront through the CDN.
+You can use **restrict bucket access** to only allow users to access S3 content hosted via cloudfront through the CDN by changing the `Restrict Bucket Access` optio
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDcxNDczNiwxNjIxODkwNjczLDExNT
-k0OTgxNDBdfQ==
+eyJoaXN0b3J5IjpbNzU2NTYwMDIsMTYyMTg5MDY3MywxMTU5ND
+k4MTQwXX0=
 -->
