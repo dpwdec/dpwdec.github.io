@@ -209,7 +209,11 @@ head' [1, 2, 3]
 -- 1
 ```
 
-This can be an arbitrary number of destructured variables.
+This can be **extended to an arbitrary number of destructured variables**.
+```haskell
+combineHead :: [a] -> (a, a)
+co
+```
 
 ## Conditionals
 
@@ -252,11 +256,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzgzNDE2NCwyMzM4NzgyODcsLTQ2Mz
-AwNDA4NCwzMDQwMzgwODcsLTcyNDg0NjQ2Nyw2NDk4MzAyODMs
-MTcwMDMxOTgsLTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMTgzMj
-AyNzI5NCwtMTM1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTEs
-LTk4OTA4NjIwMCw4ODIyOTQ4MTYsLTE5MDcxNjIwOSwtMTAyMT
-M3NTU0MCwtMTM2NTMzMTI0NywxMjA4NzE5NDg5LDg2MDMxNTYz
-MF19
+eyJoaXN0b3J5IjpbMTQyODM3MjYsMjMzODc4Mjg3LC00NjMwMD
+QwODQsMzA0MDM4MDg3LC03MjQ4NDY0NjcsNjQ5ODMwMjgzLDE3
+MDAzMTk4LC0xMDcyODA0NjI2LC04NDExNzcwOTQsLTE4MzIwMj
+cyOTQsLTEzNTAyMTAyLC01NTUyMTkzMSwtMjA5MzM0MTkxLC05
+ODkwODYyMDAsODgyMjk0ODE2LC0xOTA3MTYyMDksLTEwMjEzNz
+U1NDAsLTEzNjUzMzEyNDcsMTIwODcxOTQ4OSw4NjAzMTU2MzBd
+fQ==
 -->
