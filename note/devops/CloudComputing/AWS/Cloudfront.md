@@ -31,12 +31,14 @@ You can use **restrict bucket access** to only allow users to access S3 content 
 
 New cloudfront distributions typically take quite a while to set up at 30 minutes to an hour of creation time.
 
+You can access cloudfront content by visiting the `Domain Name` of the cloudfront content which will be a random string followed by `.cloudfront.net`.
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyMzA5NDMyLDE2MjE4OTA2NzMsMTE1OT
-Q5ODE0MF19
+eyJoaXN0b3J5IjpbLTc5MTUyMDM4NCwxNjIxODkwNjczLDExNT
+k0OTgxNDBdfQ==
 -->
