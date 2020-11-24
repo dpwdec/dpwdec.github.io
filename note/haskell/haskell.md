@@ -165,7 +165,11 @@ sumThree :: Int -> Int -> Int -> Int
 sumThree x y z = x + y + z
 ```
 
+## Type Variables (Generics)
 
+Haskell does not use have generics in the way that
+
+Functions that use type variables
 
 ## Conditionals
 
@@ -208,11 +212,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NT
-UyMTkzMSwtMjA5MzM0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2
-LC0xOTA3MTYyMDksLTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMT
-IwODcxOTQ4OSw4NjAzMTU2MzAsMTYxOTI3NTQzNSwtNDcwMTU0
-NDcwLC0yMzc3NDMxNDUsMTQ2MDQ5MTU4NiwxNzYxNzA0NjQsLT
-E4MDg5MzM4NTMsNTE0NTIxNTIxLC0yMTQ1MjQ2ODcyLDEyMjIx
-NzY4NTRdfQ==
+eyJoaXN0b3J5IjpbMjY3MjUwMzE5LC0xODMyMDI3Mjk0LC0xMz
+UwMjEwMiwtNTU1MjE5MzEsLTIwOTMzNDE5MSwtOTg5MDg2MjAw
+LDg4MjI5NDgxNiwtMTkwNzE2MjA5LC0xMDIxMzc1NTQwLC0xMz
+Y1MzMxMjQ3LDEyMDg3MTk0ODksODYwMzE1NjMwLDE2MTkyNzU0
+MzUsLTQ3MDE1NDQ3MCwtMjM3NzQzMTQ1LDE0NjA0OTE1ODYsMT
+c2MTcwNDY0LC0xODA4OTMzODUzLDUxNDUyMTUyMSwtMjE0NTI0
+Njg3Ml19
 -->
