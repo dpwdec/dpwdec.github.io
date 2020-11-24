@@ -167,10 +167,11 @@ sumThree x y z = x + y + z
 
 ### Pattern Matching
 
-You can **define multiple versions of the same function** that produce different results depending on their input. These function definitions will pattern match whatever argument is passed **in order of definition** and produce an output based on a matching input.
+You can **define multiple versions of the same function** that produce different results depending on their input. These function definitions will pattern match whatever argument is passed **in order of definition** and produce an output based on a matching input. The example below shows that if 
 ```haskell
 lucky :: (Integral a) => a -> String
-lucky 7 = "L
+lucky 7 = "LUCKY NUMBER SEVEN!"
+lucky x = "Sorry, you're out of luck, pal!"
 ```
 
 ## Conditionals
@@ -214,11 +215,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTI3NjAzLDE3MDAzMTk4LC0xMDcyOD
-A0NjI2LC04NDExNzcwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAy
-LC01NTUyMTkzMSwtMjA5MzM0MTkxLC05ODkwODYyMDAsODgyMj
-k0ODE2LC0xOTA3MTYyMDksLTEwMjEzNzU1NDAsLTEzNjUzMzEy
-NDcsMTIwODcxOTQ4OSw4NjAzMTU2MzAsMTYxOTI3NTQzNSwtND
-cwMTU0NDcwLC0yMzc3NDMxNDUsMTQ2MDQ5MTU4NiwxNzYxNzA0
-NjRdfQ==
+eyJoaXN0b3J5IjpbMTMzOTY4NjA3NywxNzAwMzE5OCwtMTA3Mj
+gwNDYyNiwtODQxMTc3MDk0LC0xODMyMDI3Mjk0LC0xMzUwMjEw
+MiwtNTU1MjE5MzEsLTIwOTMzNDE5MSwtOTg5MDg2MjAwLDg4Mj
+I5NDgxNiwtMTkwNzE2MjA5LC0xMDIxMzc1NTQwLC0xMzY1MzMx
+MjQ3LDEyMDg3MTk0ODksODYwMzE1NjMwLDE2MTkyNzU0MzUsLT
+Q3MDE1NDQ3MCwtMjM3NzQzMTQ1LDE0NjA0OTE1ODYsMTc2MTcw
+NDY0XX0=
 -->
