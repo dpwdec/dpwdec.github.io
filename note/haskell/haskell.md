@@ -165,7 +165,9 @@ sumThree :: Int -> Int -> Int -> Int
 sumThree x y z = x + y + z
 ```
 
-### Pattern Matching
+## Pattern Matching
+
+### Functions
 
 You can **define multiple versions of the same function** that produce different results depending on their input. These function definitions will pattern match whatever argument is passed **in order of definition** and produce an output based on a matching input. The example below shows that if a `7` is passed into the `lucky` function then it will return `"LUCKY NUMBER SEVEN!"` otherwise, if any other `x` is passed in it will return `"Sorry, you're out of luck, pal!"` If the `x` case had been *defined first* then `lucky` would only ever return the second case.
 ```haskell
@@ -180,6 +182,8 @@ factorial :: (Integral a) => a -> a
 factorial 0 = 1
 factorial n = n * factorial (n - 1)
 ```
+
+
 
 If you **define a pattern matched function that doesn't cover all input possibilities** and you call it with a value outside of its defined patterns you will get an `Non-exhaustive patterns` error.
 
@@ -238,11 +242,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzODc4Mjg3LC00NjMwMDQwODQsMzA0MD
-M4MDg3LC03MjQ4NDY0NjcsNjQ5ODMwMjgzLDE3MDAzMTk4LC0x
-MDcyODA0NjI2LC04NDExNzcwOTQsLTE4MzIwMjcyOTQsLTEzNT
-AyMTAyLC01NTUyMTkzMSwtMjA5MzM0MTkxLC05ODkwODYyMDAs
-ODgyMjk0ODE2LC0xOTA3MTYyMDksLTEwMjEzNzU1NDAsLTEzNj
-UzMzEyNDcsMTIwODcxOTQ4OSw4NjAzMTU2MzAsMTYxOTI3NTQz
-NV19
+eyJoaXN0b3J5IjpbLTIwNzY3MjE4NzQsMjMzODc4Mjg3LC00Nj
+MwMDQwODQsMzA0MDM4MDg3LC03MjQ4NDY0NjcsNjQ5ODMwMjgz
+LDE3MDAzMTk4LC0xMDcyODA0NjI2LC04NDExNzcwOTQsLTE4Mz
+IwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkzMSwtMjA5MzM0MTkx
+LC05ODkwODYyMDAsODgyMjk0ODE2LC0xOTA3MTYyMDksLTEwMj
+EzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcxOTQ4OSw4NjAzMTU2
+MzBdfQ==
 -->
