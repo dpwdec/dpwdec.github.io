@@ -23,10 +23,10 @@ You can **switch to `insert mode`** by pressing `i`, `I`, `a`, `A` or `o` in the
 
 ### Command Line Mode
 
-
+You can **switch to command line mode** with the `:` colon.
 
 You can **save a file a vim** by using the `:w` command followed by the name of the file if you are saving it for the first.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTI0MTI1ODEsLTE4NjYwMTI5NDIsLT
-Q2ODA4NTI1OSwtMTIxMTgwMDY3OSwxMTg1MzY0NjAxXX0=
+eyJoaXN0b3J5IjpbNDUwMDk0MDYzLC0xODY2MDEyOTQyLC00Nj
+gwODUyNTksLTEyMTE4MDA2NzksMTE4NTM2NDYwMV19
 -->
