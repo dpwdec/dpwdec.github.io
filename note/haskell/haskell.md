@@ -169,7 +169,11 @@ sumThree x y z = x + y + z
 
 Haskell does not use have generics in the way that
 
-Functions that use type variables are called **poly**
+Functions that use type variables are called **polymorphic functions**.
+
+Type variables are usually named in the format `a`, `b`, `c`, `d` ... etc.
+
+
 
 ## Conditionals
 
@@ -212,11 +216,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDgxNzAwNjIsLTE4MzIwMjcyOTQsLT
-EzNTAyMTAyLC01NTUyMTkzMSwtMjA5MzM0MTkxLC05ODkwODYy
-MDAsODgyMjk0ODE2LC0xOTA3MTYyMDksLTEwMjEzNzU1NDAsLT
-EzNjUzMzEyNDcsMTIwODcxOTQ4OSw4NjAzMTU2MzAsMTYxOTI3
-NTQzNSwtNDcwMTU0NDcwLC0yMzc3NDMxNDUsMTQ2MDQ5MTU4Ni
-wxNzYxNzA0NjQsLTE4MDg5MzM4NTMsNTE0NTIxNTIxLC0yMTQ1
-MjQ2ODcyXX0=
+eyJoaXN0b3J5IjpbNjM3MzI2OTksLTE4MzIwMjcyOTQsLTEzNT
+AyMTAyLC01NTUyMTkzMSwtMjA5MzM0MTkxLC05ODkwODYyMDAs
+ODgyMjk0ODE2LC0xOTA3MTYyMDksLTEwMjEzNzU1NDAsLTEzNj
+UzMzEyNDcsMTIwODcxOTQ4OSw4NjAzMTU2MzAsMTYxOTI3NTQz
+NSwtNDcwMTU0NDcwLC0yMzc3NDMxNDUsMTQ2MDQ5MTU4NiwxNz
+YxNzA0NjQsLTE4MDg5MzM4NTMsNTE0NTIxNTIxLC0yMTQ1MjQ2
+ODcyXX0=
 -->
