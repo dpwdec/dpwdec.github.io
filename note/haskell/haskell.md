@@ -177,7 +177,7 @@ Functions that use type variables are called **polymorphic functions**.
 Type variables are usually named in the format `a`, `b`, `c`, `d` ... etc.
 
 
-## Types Classes
+## Typesclasses
 
 Typeclasses are similar interfaces in object oriented languages or traits in Rust, they are used to describe a behavior that a type implements.
 
@@ -187,6 +187,8 @@ Below is an example of the `==` equality operator's type signature. The `=>` has
 ```
 
 The `Ord` typeclass takes types that can be ordered in a hierarchy. Types can only be part of `Ord` if they also implement `Eq`.
+
+The `Show` typeclass describes types that can be presented as strings.
 
 
 
@@ -232,7 +234,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQyOTM1MDUsLTEwNzI4MDQ2MjYsLT
+eyJoaXN0b3J5IjpbLTEwODAzMDcxNjYsLTEwNzI4MDQ2MjYsLT
 g0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NTIx
 OTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYsLT
 E5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMjA4
