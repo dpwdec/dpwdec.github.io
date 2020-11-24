@@ -167,7 +167,7 @@ sumThree x y z = x + y + z
 
 ## Type Variables (Generics)
 
-Haskell does not use have generics in the way that
+Haskell's version of generics are called Type Variables.
 ```haskell
 head :: [a] -> a
 ```
@@ -219,11 +219,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMT
-M1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIw
-MCw4ODIyOTQ4MTYsLTE5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMT
-M2NTMzMTI0NywxMjA4NzE5NDg5LDg2MDMxNTYzMCwxNjE5Mjc1
-NDM1LC00NzAxNTQ0NzAsLTIzNzc0MzE0NSwxNDYwNDkxNTg2LD
-E3NjE3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1MjE1MjEsLTIxNDUy
-NDY4NzJdfQ==
+eyJoaXN0b3J5IjpbLTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMT
+gzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQx
+OTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYsLTE5MDcxNjIwOSwtMT
+AyMTM3NTU0MCwtMTM2NTMzMTI0NywxMjA4NzE5NDg5LDg2MDMx
+NTYzMCwxNjE5Mjc1NDM1LC00NzAxNTQ0NzAsLTIzNzc0MzE0NS
+wxNDYwNDkxNTg2LDE3NjE3MDQ2NCwtMTgwODkzMzg1Myw1MTQ1
+MjE1MjFdfQ==
 -->
