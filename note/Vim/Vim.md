@@ -14,8 +14,10 @@ There are **three main modes**:
 
 You can **switch to `insert mode`** by pressing `i` in the `command mode`.
 
+You can **switch back to command mode** by using `ESC`.
+
 You can **save a file a vim** by using the `:w` command followed by the name of the file if you are saving it for the first.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0NDU2MzY4LC0xODY2MDEyOTQyLC00Nj
-gwODUyNTksLTEyMTE4MDA2NzksMTE4NTM2NDYwMV19
+eyJoaXN0b3J5IjpbMTQ1Nzc1MDQ4OSwtMTg2NjAxMjk0MiwtND
+Y4MDg1MjU5LC0xMjExODAwNjc5LDExODUzNjQ2MDFdfQ==
 -->
