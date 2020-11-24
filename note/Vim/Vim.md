@@ -27,13 +27,15 @@ You can **execute command line mode commands** by starting them with a `:` colon
 
 You can **switch to the vim help file** by using the `:help` or `:h` command.
 
+You can **quit a file without saving** by using the `:q!` command.
+
 ### Visual Mode
 
 **Visual mode** allows you to select elements in a file visually.
 
 You can **save a file a vim** by using the `:w` command followed by the name of the file if you are saving it for the first.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTk1OTg0ODYsLTM5Njg0NjQ5MSwtMT
+eyJoaXN0b3J5IjpbLTE2NzE3NTgwOTgsLTM5Njg0NjQ5MSwtMT
 g2NjAxMjk0MiwtNDY4MDg1MjU5LC0xMjExODAwNjc5LDExODUz
 NjQ2MDFdfQ==
 -->
