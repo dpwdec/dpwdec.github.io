@@ -185,7 +185,7 @@ If you **define a pattern matched function that doesn't cover all input possibil
 
 You can **pattern match** and **destructure tuple arguments to functions** directly in a function definition rather than referring to a tuple argument as a single variable, like `x` you can express it as `(x, y)` to put the values within the tuple into the scope of your function directly.
 ```haskell
-
+addTuple (Num a) => (a, a) -> a
 addTuple (x, y) = x + y
 ```
 
@@ -230,7 +230,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTIxMDg3NjksMzA0MDM4MDg3LC03Mj
+eyJoaXN0b3J5IjpbLTE5MjQ1MTM2OTAsMzA0MDM4MDg3LC03Mj
 Q4NDY0NjcsNjQ5ODMwMjgzLDE3MDAzMTk4LC0xMDcyODA0NjI2
 LC04NDExNzcwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NT
 UyMTkzMSwtMjA5MzM0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2
