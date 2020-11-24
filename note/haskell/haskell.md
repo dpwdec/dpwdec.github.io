@@ -175,6 +175,9 @@ lucky x = "Sorry, you're out of luck, pal!"
 ```
 
 This sort of pattern matching allows you **elegantly define recursive functions** as the final state of the recursion which would usually be defined by an `if` in the body of the function in other languages and just be pattern matched.
+```haskell
+
+```
 
 ## Conditionals
 
@@ -217,7 +220,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzY2MjYyMSw2NDk4MzAyODMsMTcwMD
+eyJoaXN0b3J5IjpbLTcyNDg0NjQ2Nyw2NDk4MzAyODMsMTcwMD
 MxOTgsLTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMTgzMjAyNzI5
 NCwtMTM1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTEsLTk4OT
 A4NjIwMCw4ODIyOTQ4MTYsLTE5MDcxNjIwOSwtMTAyMTM3NTU0
