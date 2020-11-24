@@ -18,9 +18,14 @@ A **distribution** is a collection of edge locations that serve content.
 
 Cloudfront **automatically roots user requests** to the fastest location to get content.
 
+There are two types of cloudfront distribution:
+
+- **Web Distribution**
+- **RMTP** (for streaming media)
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjYxNzMwNDEsMTYyMTg5MDY3MywxMT
-U5NDk4MTQwXX0=
+eyJoaXN0b3J5IjpbMTQyNjQ5MzkyOCwxNjIxODkwNjczLDExNT
+k0OTgxNDBdfQ==
 -->
