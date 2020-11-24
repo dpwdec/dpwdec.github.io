@@ -181,7 +181,9 @@ Type variables are usually named in the format `a`, `b`, `c`, `d` ... etc.
 
 Typeclasses are similar interfaces in object oriented languages or traits in Rust, they are used to describe a behavior that a type implements.
 
-
+```haskell
+== :: (Eq a)
+```
 
 ## Conditionals
 
@@ -224,7 +226,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzc0OTk4NCwtMTA3MjgwNDYyNiwtOD
+eyJoaXN0b3J5IjpbMTgxOTYyNzMyMCwtMTA3MjgwNDYyNiwtOD
 QxMTc3MDk0LC0xODMyMDI3Mjk0LC0xMzUwMjEwMiwtNTU1MjE5
 MzEsLTIwOTMzNDE5MSwtOTg5MDg2MjAwLDg4MjI5NDgxNiwtMT
 kwNzE2MjA5LC0xMDIxMzc1NTQwLC0xMzY1MzMxMjQ3LDEyMDg3
