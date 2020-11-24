@@ -16,9 +16,11 @@ An **origin** is the location of the S3 bucket where the content was originally 
 
 A **distribution** is a collection of edge locations that serve content.
 
+Cloudfront **automatically roots user requests** to the fastest location to get content.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzA5MjgyMywxNjIxODkwNjczLDExNT
-k0OTgxNDBdfQ==
+eyJoaXN0b3J5IjpbLTE3MjYxNzMwNDEsMTYyMTg5MDY3MywxMT
+U5NDk4MTQwXX0=
 -->
