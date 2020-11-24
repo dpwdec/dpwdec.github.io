@@ -10,6 +10,8 @@ Cloudfront in Amazon's CDN or **Content Delivery Network** which is a system of 
 - webpage origin
 - delivery server
 
+Cloud is a **network and content delivery** feature.
+
 An **edge location** is a located server which caches content to be delivered. Files are cached at edge locations according to a `TTL` or **Time to Live**. A `TTL` is given is seconds and is typically around 48 hours. The default Amazon TTL is 24 hours or 86400 seconds.
 
 An **origin** is the location of the S3 bucket where the content was originally placed and which will be distributed by the CDN.
@@ -25,7 +27,8 @@ There are two types of cloudfront distribution:
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTU4OTM3MiwxNjIxODkwNjczLDExNT
+eyJoaXN0b3J5IjpbLTE1NDE1MjQzNCwxNjIxODkwNjczLDExNT
 k0OTgxNDBdfQ==
 -->
