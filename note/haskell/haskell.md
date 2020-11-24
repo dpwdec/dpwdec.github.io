@@ -178,7 +178,7 @@ This sort of pattern matching allows you **elegantly define recursive functions*
 ```haskell
 factorial :: (Integral a) => a -> a
 factorial 0 = 1
-3.  factorial n = n * factorial (n - 1)
+factorial n = n * factorial (n - 1)
 ```
 
 ## Conditionals
@@ -222,11 +222,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4MjMzNjM4LC03MjQ4NDY0NjcsNjQ5OD
-MwMjgzLDE3MDAzMTk4LC0xMDcyODA0NjI2LC04NDExNzcwOTQs
-LTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkzMSwtMjA5Mz
-M0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2LC0xOTA3MTYyMDks
-LTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcxOTQ4OSw4Nj
-AzMTU2MzAsMTYxOTI3NTQzNSwtNDcwMTU0NDcwLC0yMzc3NDMx
-NDVdfQ==
+eyJoaXN0b3J5IjpbLTExMTEwNDM1NzMsLTcyNDg0NjQ2Nyw2ND
+k4MzAyODMsMTcwMDMxOTgsLTEwNzI4MDQ2MjYsLTg0MTE3NzA5
+NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NTIxOTMxLC0yMD
+kzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYsLTE5MDcxNjIw
+OSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMjA4NzE5NDg5LD
+g2MDMxNTYzMCwxNjE5Mjc1NDM1LC00NzAxNTQ0NzAsLTIzNzc0
+MzE0NV19
 -->
