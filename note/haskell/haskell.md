@@ -189,7 +189,10 @@ addTuple (Num a) => (a, a) -> a
 addTuple (x, y) = x + y
 ```
 
+The **less elegant solution** would be to destructure the tuple inside the body of the function.
+```haskell
 
+```
 
 ## Conditionals
 
@@ -232,11 +235,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MzAwNDA4NCwzMDQwMzgwODcsLTcyND
-g0NjQ2Nyw2NDk4MzAyODMsMTcwMDMxOTgsLTEwNzI4MDQ2MjYs
-LTg0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NT
-IxOTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYs
-LTE5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMj
-A4NzE5NDg5LDg2MDMxNTYzMCwxNjE5Mjc1NDM1LC00NzAxNTQ0
-NzBdfQ==
+eyJoaXN0b3J5IjpbLTExMDc0NzY3ODQsLTQ2MzAwNDA4NCwzMD
+QwMzgwODcsLTcyNDg0NjQ2Nyw2NDk4MzAyODMsMTcwMDMxOTgs
+LTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMT
+M1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIw
+MCw4ODIyOTQ4MTYsLTE5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMT
+M2NTMzMTI0NywxMjA4NzE5NDg5LDg2MDMxNTYzMCwxNjE5Mjc1
+NDM1XX0=
 -->
