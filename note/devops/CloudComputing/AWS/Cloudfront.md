@@ -20,12 +20,12 @@ Cloudfront **automatically roots user requests** to the fastest location to get 
 
 There are two types of cloudfront distribution:
 
-- **Web Distribution**
+- **Web Distribution** (fort websites)
 - **RMTP** (for streaming media)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjQ5MzkyOCwxNjIxODkwNjczLDExNT
+eyJoaXN0b3J5IjpbLTM4NTU4OTM3MiwxNjIxODkwNjczLDExNT
 k0OTgxNDBdfQ==
 -->
