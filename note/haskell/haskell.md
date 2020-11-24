@@ -216,7 +216,17 @@ maxBound :: Char
 -- '\1114111'
 ```
 
-The `Num` typeclass has members that behave like numbers.
+The `Num` typeclass has members that behave like numbers. Whole numbers **act like polymorphic constants** because they can stand in for many types that are members of the `Num` typeclass.
+```haskell
+20 :: Int
+-- 20
+20 :: Float
+-- 20.0
+20 :: Double
+-- 20.0
+```
+
+
 
 ## Conditionals
 
@@ -259,11 +269,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcxNTQ0MDgsLTEwNzI4MDQ2MjYsLTg0MT
-E3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NTIxOTMx
-LC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYsLTE5MD
-cxNjIwOSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMjA4NzE5
-NDg5LDg2MDMxNTYzMCwxNjE5Mjc1NDM1LC00NzAxNTQ0NzAsLT
-IzNzc0MzE0NSwxNDYwNDkxNTg2LDE3NjE3MDQ2NCwtMTgwODkz
-Mzg1M119
+eyJoaXN0b3J5IjpbMTI3NzUyNjE5MSwtMTA3MjgwNDYyNiwtOD
+QxMTc3MDk0LC0xODMyMDI3Mjk0LC0xMzUwMjEwMiwtNTU1MjE5
+MzEsLTIwOTMzNDE5MSwtOTg5MDg2MjAwLDg4MjI5NDgxNiwtMT
+kwNzE2MjA5LC0xMDIxMzc1NTQwLC0xMzY1MzMxMjQ3LDEyMDg3
+MTk0ODksODYwMzE1NjMwLDE2MTkyNzU0MzUsLTQ3MDE1NDQ3MC
+wtMjM3NzQzMTQ1LDE0NjA0OTE1ODYsMTc2MTcwNDY0LC0xODA4
+OTMzODUzXX0=
 -->
