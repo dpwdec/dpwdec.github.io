@@ -29,12 +29,14 @@ You can setup cloudfront to distribute S3 content when creating a new distributi
 
 You can use **restrict bucket access** to only allow users to access S3 content hosted via cloudfront through the CDN by changing the `Restrict Bucket Access` option to `Yes` when creating a distribution.
 
-New cloudfront distributions typically take quite a while to set up.
+New cloudfront distributions typically take quite a while to set up at 30 minutes to an hour of creation time.
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTMzOTEzNiwxNjIxODkwNjczLDExNT
-k0OTgxNDBdfQ==
+eyJoaXN0b3J5IjpbMjMyMzA5NDMyLDE2MjE4OTA2NzMsMTE1OT
+Q5ODE0MF19
 -->
