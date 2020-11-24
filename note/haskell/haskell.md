@@ -235,7 +235,8 @@ Operators that use `Num` **only work with the same type**, however, often haskel
 You can **convert integral numbers to more general numbers** using the `fromIntegral` function. This takes a number that is a member of the `Integral` typeclass and returns a member of the `Num` typeclass.
 ```haskell
 fromIntegral :: (Num b, Integral a) => a -> b
-
+formInrtegral (length [1, 2, 3, 4]) + 3.2
+-- 7.2
 ```
 
 ## Conditionals
@@ -279,11 +280,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQyNDY4ODQsLTEwNzI4MDQ2MjYsLT
-g0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NTIx
-OTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYsLT
-E5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMjA4
-NzE5NDg5LDg2MDMxNTYzMCwxNjE5Mjc1NDM1LC00NzAxNTQ0Nz
-AsLTIzNzc0MzE0NSwxNDYwNDkxNTg2LDE3NjE3MDQ2NCwtMTgw
-ODkzMzg1M119
+eyJoaXN0b3J5IjpbMjA5ODczMTU4NiwtMTA3MjgwNDYyNiwtOD
+QxMTc3MDk0LC0xODMyMDI3Mjk0LC0xMzUwMjEwMiwtNTU1MjE5
+MzEsLTIwOTMzNDE5MSwtOTg5MDg2MjAwLDg4MjI5NDgxNiwtMT
+kwNzE2MjA5LC0xMDIxMzc1NTQwLC0xMzY1MzMxMjQ3LDEyMDg3
+MTk0ODksODYwMzE1NjMwLDE2MTkyNzU0MzUsLTQ3MDE1NDQ3MC
+wtMjM3NzQzMTQ1LDE0NjA0OTE1ODYsMTc2MTcwNDY0LC0xODA4
+OTMzODUzXX0=
 -->
