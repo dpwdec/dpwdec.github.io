@@ -191,7 +191,7 @@ addTuple (x, y) = x + y
 
 The **less elegant solution** would be to destructure the tuple inside the body of the function.
 ```haskell
-
+badTuple (Num a)
 ```
 
 ## Conditionals
@@ -235,7 +235,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDc0NzY3ODQsLTQ2MzAwNDA4NCwzMD
+eyJoaXN0b3J5IjpbLTE2ODU5Mjg2MzcsLTQ2MzAwNDA4NCwzMD
 QwMzgwODcsLTcyNDg0NjQ2Nyw2NDk4MzAyODMsMTcwMDMxOTgs
 LTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMT
 M1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIw
