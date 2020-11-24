@@ -181,7 +181,7 @@ factorial 0 = 1
 factorial n = n * factorial (n - 1)
 ```
 
-
+If you **define a pattern matched function** that doesn't cover all possibilities 
 
 ## Conditionals
 
@@ -224,7 +224,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDg5NjgzNywtNzI0ODQ2NDY3LDY0OT
+eyJoaXN0b3J5IjpbMTA2MzY5Mzk2NSwtNzI0ODQ2NDY3LDY0OT
 gzMDI4MywxNzAwMzE5OCwtMTA3MjgwNDYyNiwtODQxMTc3MDk0
 LC0xODMyMDI3Mjk0LC0xMzUwMjEwMiwtNTU1MjE5MzEsLTIwOT
 MzNDE5MSwtOTg5MDg2MjAwLDg4MjI5NDgxNiwtMTkwNzE2MjA5
