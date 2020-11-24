@@ -181,7 +181,9 @@ factorial 0 = 1
 factorial n = n * factorial (n - 1)
 ```
 
-If you **define a pattern matched function** that doesn't cover all possibilities 
+If you **define a pattern matched function that doesn't cover all input possibilities** and you call it with a value outside of its defined patterns you will get an `Non-exhaustive patterns` error.
+
+
 
 ## Conditionals
 
@@ -224,11 +226,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzY5Mzk2NSwtNzI0ODQ2NDY3LDY0OT
-gzMDI4MywxNzAwMzE5OCwtMTA3MjgwNDYyNiwtODQxMTc3MDk0
-LC0xODMyMDI3Mjk0LC0xMzUwMjEwMiwtNTU1MjE5MzEsLTIwOT
-MzNDE5MSwtOTg5MDg2MjAwLDg4MjI5NDgxNiwtMTkwNzE2MjA5
-LC0xMDIxMzc1NTQwLC0xMzY1MzMxMjQ3LDEyMDg3MTk0ODksOD
-YwMzE1NjMwLDE2MTkyNzU0MzUsLTQ3MDE1NDQ3MCwtMjM3NzQz
-MTQ1XX0=
+eyJoaXN0b3J5IjpbMzA0MDM4MDg3LC03MjQ4NDY0NjcsNjQ5OD
+MwMjgzLDE3MDAzMTk4LC0xMDcyODA0NjI2LC04NDExNzcwOTQs
+LTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkzMSwtMjA5Mz
+M0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2LC0xOTA3MTYyMDks
+LTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcxOTQ4OSw4Nj
+AzMTU2MzAsMTYxOTI3NTQzNSwtNDcwMTU0NDcwLC0yMzc3NDMx
+NDVdfQ==
 -->
