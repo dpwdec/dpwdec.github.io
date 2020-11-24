@@ -186,7 +186,8 @@ Below is an example of the `==` equality operator's type signature. The `=>` has
 == :: (Eq a) => a -> a -> Bool
 ```
 
-The `Ord` typeclass takes types that can be ordered in a hierarchy.
+The `Ord` typeclass takes types that can be ordered in a hierarchy. Types can only be part of `Ord` if they also implement `Eq`.
+
 
 
 
@@ -231,7 +232,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDg1NTI3NzksLTEwNzI4MDQ2MjYsLT
+eyJoaXN0b3J5IjpbLTEwMzQyOTM1MDUsLTEwNzI4MDQ2MjYsLT
 g0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NTIx
 OTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYsLT
 E5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMjA4
