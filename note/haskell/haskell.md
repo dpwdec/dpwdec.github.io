@@ -217,7 +217,12 @@ combineHead [1, 2, 3]
 -- (1, 2)
 ```
 
+## Errors
 
+You can **trigger a haskell error** with an error message by using then `error` function.
+```haskell
+broken x = error "This function does not work!"
+```
 
 ## Conditionals
 
@@ -260,11 +265,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjEyNDE0OCwyMzM4NzgyODcsLTQ2Mz
-AwNDA4NCwzMDQwMzgwODcsLTcyNDg0NjQ2Nyw2NDk4MzAyODMs
-MTcwMDMxOTgsLTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMTgzMj
-AyNzI5NCwtMTM1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTEs
-LTk4OTA4NjIwMCw4ODIyOTQ4MTYsLTE5MDcxNjIwOSwtMTAyMT
-M3NTU0MCwtMTM2NTMzMTI0NywxMjA4NzE5NDg5LDg2MDMxNTYz
-MF19
+eyJoaXN0b3J5IjpbNTA0NzE0MDMzLC00MzIxMjQxNDgsMjMzOD
+c4Mjg3LC00NjMwMDQwODQsMzA0MDM4MDg3LC03MjQ4NDY0Njcs
+NjQ5ODMwMjgzLDE3MDAzMTk4LC0xMDcyODA0NjI2LC04NDExNz
+cwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkzMSwt
+MjA5MzM0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2LC0xOTA3MT
+YyMDksLTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcxOTQ4
+OV19
 -->
