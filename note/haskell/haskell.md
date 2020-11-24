@@ -174,7 +174,7 @@ lucky 7 = "LUCKY NUMBER SEVEN!"
 lucky x = "Sorry, you're out of luck, pal!"
 ```
 
-
+This sort of pattern matching allows you **elegantly define recursive functions** as the final state of the recursion which would usually be defined by an `if` in the body of the function in other languages and just be pattern matched.
 
 ## Conditionals
 
@@ -217,11 +217,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5ODMwMjgzLDE3MDAzMTk4LC0xMDcyOD
-A0NjI2LC04NDExNzcwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAy
-LC01NTUyMTkzMSwtMjA5MzM0MTkxLC05ODkwODYyMDAsODgyMj
-k0ODE2LC0xOTA3MTYyMDksLTEwMjEzNzU1NDAsLTEzNjUzMzEy
-NDcsMTIwODcxOTQ4OSw4NjAzMTU2MzAsMTYxOTI3NTQzNSwtND
-cwMTU0NDcwLC0yMzc3NDMxNDUsMTQ2MDQ5MTU4NiwxNzYxNzA0
-NjRdfQ==
+eyJoaXN0b3J5IjpbMTkyNzY2MjYyMSw2NDk4MzAyODMsMTcwMD
+MxOTgsLTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMTgzMjAyNzI5
+NCwtMTM1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTEsLTk4OT
+A4NjIwMCw4ODIyOTQ4MTYsLTE5MDcxNjIwOSwtMTAyMTM3NTU0
+MCwtMTM2NTMzMTI0NywxMjA4NzE5NDg5LDg2MDMxNTYzMCwxNj
+E5Mjc1NDM1LC00NzAxNTQ0NzAsLTIzNzc0MzE0NSwxNDYwNDkx
+NTg2XX0=
 -->
