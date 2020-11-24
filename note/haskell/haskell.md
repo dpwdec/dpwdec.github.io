@@ -211,8 +211,12 @@ The `Enum` typeclass can be sequentially ordered and enumerated. This includes t
 The `Bounded` has members that have an upper and a lower bound. You can **get these bounds** by using the `minBound` and `maxBound` functions.
 ```haskell
 minBound :: Int
--- 2147483648
+-- -2147483648
+maxBound :: Char
+-- '\1114111'
 ```
+
+
 
 ## Conditionals
 
@@ -255,11 +259,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDE3MTg2ODgsLTEwNzI4MDQ2MjYsLT
-g0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NTIx
-OTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYsLT
-E5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMjA4
-NzE5NDg5LDg2MDMxNTYzMCwxNjE5Mjc1NDM1LC00NzAxNTQ0Nz
-AsLTIzNzc0MzE0NSwxNDYwNDkxNTg2LDE3NjE3MDQ2NCwtMTgw
-ODkzMzg1M119
+eyJoaXN0b3J5IjpbMTgzNDM5OTQzMywtMTA3MjgwNDYyNiwtOD
+QxMTc3MDk0LC0xODMyMDI3Mjk0LC0xMzUwMjEwMiwtNTU1MjE5
+MzEsLTIwOTMzNDE5MSwtOTg5MDg2MjAwLDg4MjI5NDgxNiwtMT
+kwNzE2MjA5LC0xMDIxMzc1NTQwLC0xMzY1MzMxMjQ3LDEyMDg3
+MTk0ODksODYwMzE1NjMwLDE2MTkyNzU0MzUsLTQ3MDE1NDQ3MC
+wtMjM3NzQzMTQ1LDE0NjA0OTE1ODYsMTc2MTcwNDY0LC0xODA4
+OTMzODUzXX0=
 -->
