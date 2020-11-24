@@ -176,7 +176,9 @@ lucky x = "Sorry, you're out of luck, pal!"
 
 This sort of pattern matching allows you **elegantly define recursive functions** as the final state of the recursion which would usually be defined by an `if` in the body of the function in other languages and just be pattern matched.
 ```haskell
-
+factorial :: (Integral a) => a -> a
+factorial 0 = 1
+3.  factorial n = n * factorial (n - 1)
 ```
 
 ## Conditionals
@@ -220,11 +222,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDg0NjQ2Nyw2NDk4MzAyODMsMTcwMD
-MxOTgsLTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMTgzMjAyNzI5
-NCwtMTM1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTEsLTk4OT
-A4NjIwMCw4ODIyOTQ4MTYsLTE5MDcxNjIwOSwtMTAyMTM3NTU0
-MCwtMTM2NTMzMTI0NywxMjA4NzE5NDg5LDg2MDMxNTYzMCwxNj
-E5Mjc1NDM1LC00NzAxNTQ0NzAsLTIzNzc0MzE0NSwxNDYwNDkx
-NTg2XX0=
+eyJoaXN0b3J5IjpbOTM4MjMzNjM4LC03MjQ4NDY0NjcsNjQ5OD
+MwMjgzLDE3MDAzMTk4LC0xMDcyODA0NjI2LC04NDExNzcwOTQs
+LTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkzMSwtMjA5Mz
+M0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2LC0xOTA3MTYyMDks
+LTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcxOTQ4OSw4Nj
+AzMTU2MzAsMTYxOTI3NTQzNSwtNDcwMTU0NDcwLC0yMzc3NDMx
+NDVdfQ==
 -->
