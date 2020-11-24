@@ -176,13 +176,13 @@ config.hosts << "URL_OF_YOUR_EC2_INSTANCE"
 
 Route53 allows you to **create URL aliases for features**. These URLs are part of **hosted zones** which define the end of the URL.
 
-Each zone then contains a set of **records** which define aliases for a service and a further destination to forward requests to that record's alias to.
+Each zone then contains a set of **records** which define aliases for a service and a further destination (in the `route traffic to` property) to forward requests to that record's alias to.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNjE1OTIwMiwyNjAwNjk4NzcsLTIwMD
-g0MDA1NjcsMTczNzUwODg3NywtNzkxNTIzNDE4LC04MTU3MjY4
-OTEsNDQ0ODcwMTkwLC0zMjUyMzY1NjksMTMzNDkxNjU5NiwtOD
-cwNDY2NDAsLTQyNjY3MTM1NywtMTY0Njk4MjM2OCwtNDkyNzU4
-MTM0LC0yMjI0MjY0NzksNjI0NTk0NTA5XX0=
+eyJoaXN0b3J5IjpbOTc0MTEwNzAzLC04MTYxNTkyMDIsMjYwMD
+Y5ODc3LC0yMDA4NDAwNTY3LDE3Mzc1MDg4NzcsLTc5MTUyMzQx
+OCwtODE1NzI2ODkxLDQ0NDg3MDE5MCwtMzI1MjM2NTY5LDEzMz
+Q5MTY1OTYsLTg3MDQ2NjQwLC00MjY2NzEzNTcsLTE2NDY5ODIz
+NjgsLTQ5Mjc1ODEzNCwtMjIyNDI2NDc5LDYyNDU5NDUwOV19
 -->
