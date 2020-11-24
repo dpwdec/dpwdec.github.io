@@ -208,7 +208,11 @@ read "5" :: Float
 
 The `Enum` typeclass can be sequentially ordered and enumerated. This includes types that can be placed in ranges. Such as `Char` and `Int`.
 
-
+The `Bounded` has members that have an upper and a lower bound. You can **get these bounds** by using the `minBound` and `maxBound` functions.
+```haskell
+minBound :: Int
+-- 
+```
 
 ## Conditionals
 
@@ -251,7 +255,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEyODQzNDQ5LC0xMDcyODA0NjI2LC04ND
+eyJoaXN0b3J5IjpbNTM4MDg1MDM3LC0xMDcyODA0NjI2LC04ND
 ExNzcwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkz
 MSwtMjA5MzM0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2LC0xOT
 A3MTYyMDksLTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcx
