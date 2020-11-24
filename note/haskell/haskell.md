@@ -179,7 +179,9 @@ Type variables are usually named in the format `a`, `b`, `c`, `d` ... etc.
 
 ## Types Classes
 
-Typeclasses are similar interfaces in object oriented languages or traits in Rust, they are used
+Typeclasses are similar interfaces in object oriented languages or traits in Rust, they are used to describe a behavior that a type implements.
+
+
 
 ## Conditionals
 
@@ -222,11 +224,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzEyNDg3NDMsLTEwNzI4MDQ2MjYsLT
-g0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NTIx
-OTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYsLT
-E5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMjA4
-NzE5NDg5LDg2MDMxNTYzMCwxNjE5Mjc1NDM1LC00NzAxNTQ0Nz
-AsLTIzNzc0MzE0NSwxNDYwNDkxNTg2LDE3NjE3MDQ2NCwtMTgw
-ODkzMzg1M119
+eyJoaXN0b3J5IjpbMTMzNzc0OTk4NCwtMTA3MjgwNDYyNiwtOD
+QxMTc3MDk0LC0xODMyMDI3Mjk0LC0xMzUwMjEwMiwtNTU1MjE5
+MzEsLTIwOTMzNDE5MSwtOTg5MDg2MjAwLDg4MjI5NDgxNiwtMT
+kwNzE2MjA5LC0xMDIxMzc1NTQwLC0xMzY1MzMxMjQ3LDEyMDg3
+MTk0ODksODYwMzE1NjMwLDE2MTkyNzU0MzUsLTQ3MDE1NDQ3MC
+wtMjM3NzQzMTQ1LDE0NjA0OTE1ODYsMTc2MTcwNDY0LC0xODA4
+OTMzODUzXX0=
 -->
