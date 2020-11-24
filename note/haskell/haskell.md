@@ -198,13 +198,16 @@ read "True" || False
 -- True
 ```
 
-In the examples above the **type that `read` outputs is inferred** by how it is used. However, if you use `read` on its own without usage then the type returned is ambiguous and the compiler will complain. You can **resolve ambiguous types** by including a type annotation *after* the use of the function.
+In the examples above the **type that `read` outputs is inferred** by how it is used. However, if you use `read` on its own without usage then the type returned is ambiguous and the compiler will complain with `ambiguous type variable`. You can **resolve ambiguous types** by including a type annotation *after* the use of the function.
 ```haskell
 read "5" :: Int
 -- 5
 read "5" :: Float
 -- 5.0
 ```
+
+
+
 ## Conditionals
 
 ## Indenting
@@ -246,7 +249,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2Nzk3MjI0OSwtMTA3MjgwNDYyNiwtOD
+eyJoaXN0b3J5IjpbMTc2ODQ0OTE4OSwtMTA3MjgwNDYyNiwtOD
 QxMTc3MDk0LC0xODMyMDI3Mjk0LC0xMzUwMjEwMiwtNTU1MjE5
 MzEsLTIwOTMzNDE5MSwtOTg5MDg2MjAwLDg4MjI5NDgxNiwtMT
 kwNzE2MjA5LC0xMDIxMzc1NTQwLC0xMzY1MzMxMjQ3LDEyMDg3
