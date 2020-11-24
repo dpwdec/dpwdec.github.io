@@ -35,12 +35,14 @@ You can access cloudfront content by visiting the `Domain Name` of the cloudfron
 
 You can **use edge locations for writing and uploading files**.
 
+You will be **charged for clearing cached objects**.
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDgzMjk5NSwxNjIxODkwNjczLDExNT
+eyJoaXN0b3J5IjpbMTExNzM5NjU5NywxNjIxODkwNjczLDExNT
 k0OTgxNDBdfQ==
 -->
