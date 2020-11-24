@@ -174,7 +174,7 @@ lucky 7 = "LUCKY NUMBER SEVEN!"
 lucky x = "Sorry, you're out of luck, pal!"
 ```
 
-This sort of pattern matching allows you **elegantly define recursive functions** as the final state of the recursion which would usually be defined by an `if` in the body of the function in other languages and just be pattern matched.
+This sort of pattern matching allows you **elegantly define recursive functions** as the final state at the end of the recursion (in this case `0`) which would usually be defined by an `if` in the body of the function in other languages is instead just pattern matched when the function is called, thus retaining the clarity of the original function.
 ```haskell
 factorial :: (Integral a) => a -> a
 factorial 0 = 1
@@ -224,7 +224,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzM1NTE4MywtNzI0ODQ2NDY3LDY0OT
+eyJoaXN0b3J5IjpbLTE3NDg5NjgzNywtNzI0ODQ2NDY3LDY0OT
 gzMDI4MywxNzAwMzE5OCwtMTA3MjgwNDYyNiwtODQxMTc3MDk0
 LC0xODMyMDI3Mjk0LC0xMzUwMjEwMiwtNTU1MjE5MzEsLTIwOT
 MzNDE5MSwtOTg5MDg2MjAwLDg4MjI5NDgxNiwtMTkwNzE2MjA5
