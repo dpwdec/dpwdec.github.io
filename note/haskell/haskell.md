@@ -194,8 +194,10 @@ The `Read` typeclass describes **types that can coerced from a string form into 
 ```haskell
 read "8" - 3
 -- 5
-read "True"
+read "True" || False
+-- True
 ```
+
 
 
 ## Conditionals
@@ -239,7 +241,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDc3MzI3NDUsLTEwNzI4MDQ2MjYsLT
+eyJoaXN0b3J5IjpbLTE0NzcwOTY0NjQsLTEwNzI4MDQ2MjYsLT
 g0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NTIx
 OTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYsLT
 E5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMjA4
