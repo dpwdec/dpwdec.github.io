@@ -191,8 +191,11 @@ addTuple (x, y) = x + y
 
 The **less elegant solution** would be to destructure the tuple inside the body of the function.
 ```haskell
-badTuple (Num a)
+badTuple (Num a) => (a, a) ->
+badTuple x = fst x + snd x
 ```
+
+
 
 ## Conditionals
 
@@ -235,11 +238,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU5Mjg2MzcsLTQ2MzAwNDA4NCwzMD
-QwMzgwODcsLTcyNDg0NjQ2Nyw2NDk4MzAyODMsMTcwMDMxOTgs
-LTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMT
-M1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIw
-MCw4ODIyOTQ4MTYsLTE5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMT
-M2NTMzMTI0NywxMjA4NzE5NDg5LDg2MDMxNTYzMCwxNjE5Mjc1
-NDM1XX0=
+eyJoaXN0b3J5IjpbMjMzODc4Mjg3LC00NjMwMDQwODQsMzA0MD
+M4MDg3LC03MjQ4NDY0NjcsNjQ5ODMwMjgzLDE3MDAzMTk4LC0x
+MDcyODA0NjI2LC04NDExNzcwOTQsLTE4MzIwMjcyOTQsLTEzNT
+AyMTAyLC01NTUyMTkzMSwtMjA5MzM0MTkxLC05ODkwODYyMDAs
+ODgyMjk0ODE2LC0xOTA3MTYyMDksLTEwMjEzNzU1NDAsLTEzNj
+UzMzEyNDcsMTIwODcxOTQ4OSw4NjAzMTU2MzAsMTYxOTI3NTQz
+NV19
 -->
