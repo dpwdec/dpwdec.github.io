@@ -232,7 +232,11 @@ Operators that use `Num` **only work with the same type**, however, often haskel
 -- ERROR
 ```
 
-You can **convert integral numbers to more general numbers** using the `fromIntegral` function. This takes a number that is a member of the `Integral` typeclass and returns a member of the `Num` ty
+You can **convert integral numbers to more general numbers** using the `fromIntegral` function. This takes a number that is a member of the `Integral` typeclass and returns a member of the `Num` typeclass.
+```haskell
+fromIntegral :: (Num b, Integral a) => a -> b
+
+```
 
 ## Conditionals
 
@@ -275,7 +279,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTc2NDY4NDgsLTEwNzI4MDQ2MjYsLT
+eyJoaXN0b3J5IjpbLTEyMDQyNDY4ODQsLTEwNzI4MDQ2MjYsLT
 g0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NTIx
 OTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYsLT
 E5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMjA4
