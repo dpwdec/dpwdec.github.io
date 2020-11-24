@@ -4,7 +4,13 @@ exclude: true
 title: Cloudfront
 ---
 
-Cloudfront in Amazon's CDN or **Content Delivery Network**.
+Cloudfront in Amazon's CDN or **Content Delivery Network** which is a system of servers distributed geographically that serves content to users based on:
+
+- user location
+- webpage origin, and
+- delivery server
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDg1NjE1MV19
+eyJoaXN0b3J5IjpbMTU2NzcwNjc5Nl19
 -->
