@@ -6,6 +6,11 @@ exclude: true
 
 ## Code
 
+You can **install the VS code command line tool** by using `CMD + SHIFT + P` and using the `shell command` installation feature.
+```
+>shell command: Install 'code' command in PATH
+```
+
 You can **open a folder in VS code from the command line** by using the `code` keyword followed by the `r` flag and then the name of the folder.
 ```bash
 $ code -r MyProject
@@ -71,8 +76,8 @@ You can **create a new branch of your current project** by opening the vscode co
 >Git Checkout
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzQzNDE2MSwtNDQzMzM3OTMxLC02OT
-kwNjA2NDIsMjc4NjYwMzYxLC0xNDE5NTIwMzMwLDI2NDc2Mjk3
-MCwxMzE3Nzk3Mzk2LDEzODI2MzAxNDAsLTE3Mzc5MDI1NzEsLT
-EwMzg5MTAyMDNdfQ==
+eyJoaXN0b3J5IjpbLTE5OTY2ODYyOSwxNzIzNDM0MTYxLC00ND
+MzMzc5MzEsLTY5OTA2MDY0MiwyNzg2NjAzNjEsLTE0MTk1MjAz
+MzAsMjY0NzYyOTcwLDEzMTc3OTczOTYsMTM4MjYzMDE0MCwtMT
+czNzkwMjU3MSwtMTAzODkxMDIwM119
 -->
