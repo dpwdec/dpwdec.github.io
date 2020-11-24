@@ -183,7 +183,7 @@ factorial n = n * factorial (n - 1)
 
 If you **define a pattern matched function that doesn't cover all input possibilities** and you call it with a value outside of its defined patterns you will get an `Non-exhaustive patterns` error.
 
-You can **pattern match** and **destructure tuple arguments to functions** directly in a function definition rather than referring to a tuple argument as a single variable, like `x` you can express it as `(x, y)` to put the values within the tuple into the scope of your function directly.
+You can **pattern match** and **destructure tuple arguments to functions** directly in a function definition rather than referring to a tuple argument as a single variable like `x`. Instead you can express it as `(x, y)` to put the values within the tuple into the scope of your function directly.
 ```haskell
 addTuple (Num a) => (a, a) -> a
 addTuple (x, y) = x + y
@@ -230,11 +230,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQ1MTM2OTAsMzA0MDM4MDg3LC03Mj
-Q4NDY0NjcsNjQ5ODMwMjgzLDE3MDAzMTk4LC0xMDcyODA0NjI2
-LC04NDExNzcwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NT
-UyMTkzMSwtMjA5MzM0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2
-LC0xOTA3MTYyMDksLTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMT
-IwODcxOTQ4OSw4NjAzMTU2MzAsMTYxOTI3NTQzNSwtNDcwMTU0
-NDcwXX0=
+eyJoaXN0b3J5IjpbMTAzODU1NTgxNiwzMDQwMzgwODcsLTcyND
+g0NjQ2Nyw2NDk4MzAyODMsMTcwMDMxOTgsLTEwNzI4MDQ2MjYs
+LTg0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NT
+IxOTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYs
+LTE5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMj
+A4NzE5NDg5LDg2MDMxNTYzMCwxNjE5Mjc1NDM1LC00NzAxNTQ0
+NzBdfQ==
 -->
