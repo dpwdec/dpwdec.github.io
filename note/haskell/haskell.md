@@ -226,7 +226,7 @@ The `Num` typeclass has members that behave like numbers. Whole numbers **act li
 -- 20.0
 ```
 
-
+Operators that use `Num` **only work with the same type**, however, often haskell can automatically resolve these types to be the same *however* if you use explicit type annotations you can short circuit this behavior.
 
 ## Conditionals
 
@@ -269,11 +269,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzUyNjE5MSwtMTA3MjgwNDYyNiwtOD
-QxMTc3MDk0LC0xODMyMDI3Mjk0LC0xMzUwMjEwMiwtNTU1MjE5
-MzEsLTIwOTMzNDE5MSwtOTg5MDg2MjAwLDg4MjI5NDgxNiwtMT
-kwNzE2MjA5LC0xMDIxMzc1NTQwLC0xMzY1MzMxMjQ3LDEyMDg3
-MTk0ODksODYwMzE1NjMwLDE2MTkyNzU0MzUsLTQ3MDE1NDQ3MC
-wtMjM3NzQzMTQ1LDE0NjA0OTE1ODYsMTc2MTcwNDY0LC0xODA4
-OTMzODUzXX0=
+eyJoaXN0b3J5IjpbOTkwOTgyMTE5LC0xMDcyODA0NjI2LC04ND
+ExNzcwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkz
+MSwtMjA5MzM0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2LC0xOT
+A3MTYyMDksLTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcx
+OTQ4OSw4NjAzMTU2MzAsMTYxOTI3NTQzNSwtNDcwMTU0NDcwLC
+0yMzc3NDMxNDUsMTQ2MDQ5MTU4NiwxNzYxNzA0NjQsLTE4MDg5
+MzM4NTNdfQ==
 -->
