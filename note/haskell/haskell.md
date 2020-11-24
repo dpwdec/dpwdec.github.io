@@ -188,13 +188,13 @@ Below is an example of the `==` equality operator's type signature. The `=>` has
 
 The `Ord` typeclass takes types that can be ordered in a hierarchy. Types can only be part of `Ord` if they also implement `Eq`.
 
-The `Show` typeclass describes types that can be presented as strings.
+The `Show` typeclass describes **types that can be presented as strings**.
 
-The `Read` typeclass describes types that can coerced from a string form into their actual type. This can be demonstrated using the `read` function
+The `Read` typeclass describes **types that can coerced from a string form into their actual type**. This can be demonstrated using the `read` function
 ```haskell
 read "8" - 3
 -- 5
-
+read "True"
 ```
 
 
@@ -239,11 +239,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzNDUyNzQ1LC0xMDcyODA0NjI2LC04ND
-ExNzcwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkz
-MSwtMjA5MzM0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2LC0xOT
-A3MTYyMDksLTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcx
-OTQ4OSw4NjAzMTU2MzAsMTYxOTI3NTQzNSwtNDcwMTU0NDcwLC
-0yMzc3NDMxNDUsMTQ2MDQ5MTU4NiwxNzYxNzA0NjQsLTE4MDg5
-MzM4NTNdfQ==
+eyJoaXN0b3J5IjpbLTE5MDc3MzI3NDUsLTEwNzI4MDQ2MjYsLT
+g0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NTIx
+OTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYsLT
+E5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0NywxMjA4
+NzE5NDg5LDg2MDMxNTYzMCwxNjE5Mjc1NDM1LC00NzAxNTQ0Nz
+AsLTIzNzc0MzE0NSwxNDYwNDkxNTg2LDE3NjE3MDQ2NCwtMTgw
+ODkzMzg1M119
 -->
