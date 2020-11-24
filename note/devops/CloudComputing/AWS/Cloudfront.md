@@ -23,7 +23,7 @@ Cloudfront **automatically roots user requests** to the fastest location to get 
 There are two types of cloudfront distribution:
 
 - **Web Distribution** (fort websites)
-- **RMTP** (for streaming media)
+- **RMTP** (for streaming adobe flash media RMTP media)
 
 You can setup cloudfront to distribute S3 content when creating a new distribution.
 
@@ -33,12 +33,14 @@ New cloudfront distributions typically take quite a while to set up at 30 minute
 
 You can access cloudfront content by visiting the `Domain Name` of the cloudfront content which will be a random string followed by `.cloudfront.net`.
 
+You can **use edge locations for writing and uploading files**.
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MTUyMDM4NCwxNjIxODkwNjczLDExNT
+eyJoaXN0b3J5IjpbLTkyMDgzMjk5NSwxNjIxODkwNjczLDExNT
 k0OTgxNDBdfQ==
 -->
