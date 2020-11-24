@@ -25,10 +25,10 @@ There are two types of cloudfront distribution:
 - **Web Distribution** (fort websites)
 - **RMTP** (for streaming media)
 
-
+You can use **restrict bucket access** to only allow users to access S3 content hosted via 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDE1MjQzNCwxNjIxODkwNjczLDExNT
-k0OTgxNDBdfQ==
+eyJoaXN0b3J5IjpbLTE0NDQ0OTU5MzEsMTYyMTg5MDY3MywxMT
+U5NDk4MTQwXX0=
 -->
