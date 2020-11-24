@@ -189,6 +189,8 @@ addTuple (Num a) => (a, a) -> a
 addTuple (x, y) = x + y
 ```
 
+
+
 ## Conditionals
 
 ## Indenting
@@ -230,7 +232,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODU1NTgxNiwzMDQwMzgwODcsLTcyND
+eyJoaXN0b3J5IjpbLTQ2MzAwNDA4NCwzMDQwMzgwODcsLTcyND
 g0NjQ2Nyw2NDk4MzAyODMsMTcwMDMxOTgsLTEwNzI4MDQ2MjYs
 LTg0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NT
 IxOTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTYs
