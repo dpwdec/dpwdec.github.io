@@ -10,9 +10,13 @@ Cloudfront in Amazon's CDN or **Content Delivery Network** which is a system of 
 - webpage origin
 - delivery server
 
-An **edge location** is a located server which caches content to be deli
+An **edge location** is a located server which caches content to be delivered.
+
+An **origin** is the location of the S3 bucket where the content was originally placed and which will be distributed by the CDN.
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODc1Mjg4N119
+eyJoaXN0b3J5IjpbMTkwMDA3MzcwNl19
 -->
