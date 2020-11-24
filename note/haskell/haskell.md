@@ -214,8 +214,10 @@ This can be **extended to an arbitrary number of destructured variables**.
 combineHead :: [a] -> (a, a)
 combineHead (x:y:_) = (x, y)
 combineHead [1, 2, 3]
-- (1, 2)
+-- (1, 2)
 ```
+
+
 
 ## Conditionals
 
@@ -258,7 +260,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTMxOTkzOSwyMzM4NzgyODcsLTQ2Mz
+eyJoaXN0b3J5IjpbLTQzMjEyNDE0OCwyMzM4NzgyODcsLTQ2Mz
 AwNDA4NCwzMDQwMzgwODcsLTcyNDg0NjQ2Nyw2NDk4MzAyODMs
 MTcwMDMxOTgsLTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMTgzMj
 AyNzI5NCwtMTM1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTEs
