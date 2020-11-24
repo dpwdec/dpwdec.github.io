@@ -202,7 +202,10 @@ badTuple x = fst x + snd x
 ### Lists
 
 You can **pattern match lists** by using defining the name for the lists element you want to destructure to, followed by the `:` operator and then the list. 
-
+```haskell
+head' :: [a] -> a
+head'
+```
 
 This can be an arbitrary number of destructured variables.
 
@@ -247,11 +250,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODgxODMxMDQsMjMzODc4Mjg3LC00Nj
-MwMDQwODQsMzA0MDM4MDg3LC03MjQ4NDY0NjcsNjQ5ODMwMjgz
-LDE3MDAzMTk4LC0xMDcyODA0NjI2LC04NDExNzcwOTQsLTE4Mz
-IwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkzMSwtMjA5MzM0MTkx
-LC05ODkwODYyMDAsODgyMjk0ODE2LC0xOTA3MTYyMDksLTEwMj
-EzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcxOTQ4OSw4NjAzMTU2
-MzBdfQ==
+eyJoaXN0b3J5IjpbNTg1MTE4MDQzLDIzMzg3ODI4NywtNDYzMD
+A0MDg0LDMwNDAzODA4NywtNzI0ODQ2NDY3LDY0OTgzMDI4Mywx
+NzAwMzE5OCwtMTA3MjgwNDYyNiwtODQxMTc3MDk0LC0xODMyMD
+I3Mjk0LC0xMzUwMjEwMiwtNTU1MjE5MzEsLTIwOTMzNDE5MSwt
+OTg5MDg2MjAwLDg4MjI5NDgxNiwtMTkwNzE2MjA5LC0xMDIxMz
+c1NTQwLC0xMzY1MzMxMjQ3LDEyMDg3MTk0ODksODYwMzE1NjMw
+XX0=
 -->
