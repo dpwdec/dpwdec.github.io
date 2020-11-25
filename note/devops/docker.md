@@ -17,6 +17,11 @@ You can **see what images are available to run in docker** by using the `images`
 $ docker images
 ```
 
+This will **show the docker image's `IMAGE ID` field** which can be used to uniquely identify an image. You can **run docker images based on their `IMAGE ID`** by using the ID in place of the image's name.
+```bash
+$ docker 
+```
+
 ## Hub
 
 You can **find existing images to use as a base for your custom images** by using the [Docker Hub](https://hub.docker.com/) service. It is possible to **host private docker image repositories** in your own infrastructure.
@@ -45,7 +50,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjUwNjQ0OTQsMTQ3OTA3NzUwNiwxNT
-kwMTIyOTYzLC0xNzI5NDY5OTUyLDM2NjkwMDY3OSw0MDQyOTYz
-MDUsLTg1NzQzNzAzNF19
+eyJoaXN0b3J5IjpbLTE5MDc5Mzc1NzYsLTE4MjUwNjQ0OTQsMT
+Q3OTA3NzUwNiwxNTkwMTIyOTYzLC0xNzI5NDY5OTUyLDM2Njkw
+MDY3OSw0MDQyOTYzMDUsLTg1NzQzNzAzNF19
 -->
