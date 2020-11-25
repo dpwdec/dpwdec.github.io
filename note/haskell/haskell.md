@@ -180,7 +180,7 @@ If a **condition evaluates to false** it **falls through to the next expression*
 
 To **catch all other cases** it's a convention to use an `otherwise` variable.
 ```haskell
-
+numberSize :: (Ord a) => a -> String
 numerSize x
   | x < 0 = "Negative"
   | x <= 20 = "Twenty or less"
@@ -228,11 +228,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTQ2MjgwNSwtMTE1NTI4ODQ1LC02ND
-AxNTg4OTQsMTA4NzYxMTMxLDEwMTA5NTIwNDUsLTI0Mjg2NDI3
-MCwtODI0ODExODAsLTQyMDA2Njc5Myw1MDQ3MTQwMzMsLTQzMj
-EyNDE0OCwyMzM4NzgyODcsLTQ2MzAwNDA4NCwzMDQwMzgwODcs
-LTcyNDg0NjQ2Nyw2NDk4MzAyODMsMTcwMDMxOTgsLTEwNzI4MD
-Q2MjYsLTg0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDJd
-fQ==
+eyJoaXN0b3J5IjpbOTY4MTY2MDAyLC0xMTU1Mjg4NDUsLTY0MD
+E1ODg5NCwxMDg3NjExMzEsMTAxMDk1MjA0NSwtMjQyODY0Mjcw
+LC04MjQ4MTE4MCwtNDIwMDY2NzkzLDUwNDcxNDAzMywtNDMyMT
+I0MTQ4LDIzMzg3ODI4NywtNDYzMDA0MDg0LDMwNDAzODA4Nywt
+NzI0ODQ2NDY3LDY0OTgzMDI4MywxNzAwMzE5OCwtMTA3MjgwND
+YyNiwtODQxMTc3MDk0LC0xODMyMDI3Mjk0LC0xMzUwMjEwMl19
+
 -->
