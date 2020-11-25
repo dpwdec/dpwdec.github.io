@@ -191,7 +191,13 @@ numberSize x
 
 You can **apply a calculation to a set of guard conditionals** by using the `where` operator.
 ```haskell
-
+rename  ::  String  ->  String
+rename x
+       | y <=  0   =  "Nemo"
+       | y <  5    =  "Fiveo"
+       | y <  10   =  "Decaron"
+       | otherwise =  "Longbono"
+       where y = length x
 ```
 
 ## Conditionals
@@ -235,11 +241,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDU4NzIxNSwtMTc4NTYxMjc4LDE1NT
-gwNDI1MjgsOTY4MTY2MDAyLC0xMTU1Mjg4NDUsLTY0MDE1ODg5
-NCwxMDg3NjExMzEsMTAxMDk1MjA0NSwtMjQyODY0MjcwLC04Mj
-Q4MTE4MCwtNDIwMDY2NzkzLDUwNDcxNDAzMywtNDMyMTI0MTQ4
-LDIzMzg3ODI4NywtNDYzMDA0MDg0LDMwNDAzODA4NywtNzI0OD
-Q2NDY3LDY0OTgzMDI4MywxNzAwMzE5OCwtMTA3MjgwNDYyNl19
+eyJoaXN0b3J5IjpbLTE4MzY2OTQ1ODUsLTM4NDU4NzIxNSwtMT
+c4NTYxMjc4LDE1NTgwNDI1MjgsOTY4MTY2MDAyLC0xMTU1Mjg4
+NDUsLTY0MDE1ODg5NCwxMDg3NjExMzEsMTAxMDk1MjA0NSwtMj
+QyODY0MjcwLC04MjQ4MTE4MCwtNDIwMDY2NzkzLDUwNDcxNDAz
+MywtNDMyMTI0MTQ4LDIzMzg3ODI4NywtNDYzMDA0MDg0LDMwND
+AzODA4NywtNzI0ODQ2NDY3LDY0OTgzMDI4MywxNzAwMzE5OF19
 
 -->
