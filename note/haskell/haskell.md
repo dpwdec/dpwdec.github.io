@@ -187,6 +187,10 @@ numberSize x
           | otherwise = "Bigger than twenty"
 ```
 
+## Where
+
+
+
 ## Conditionals
 
 ## Indenting
@@ -228,7 +232,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjI1ODQ4MywxNTU4MDQyNTI4LDk2OD
+eyJoaXN0b3J5IjpbLTE3ODU2MTI3OCwxNTU4MDQyNTI4LDk2OD
 E2NjAwMiwtMTE1NTI4ODQ1LC02NDAxNTg4OTQsMTA4NzYxMTMx
 LDEwMTA5NTIwNDUsLTI0Mjg2NDI3MCwtODI0ODExODAsLTQyMD
 A2Njc5Myw1MDQ3MTQwMzMsLTQzMjEyNDE0OCwyMzM4NzgyODcs
