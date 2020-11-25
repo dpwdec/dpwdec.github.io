@@ -182,9 +182,9 @@ To **catch all other cases** it's a convention to use an `otherwise` variable.
 ```haskell
 numberSize :: (Ord a) => a -> String
 numberSize x
-  | x < 0     = "Negative"
-  | x <= 20   = "Twenty or less"
-  | otherwise = "Bigger than twenty"
+          | x < 0     = "Negative"
+          | x <= 20   = "Twenty or less"
+          | otherwise = "Bigger than twenty"
 ```
 
 ## Conditionals
@@ -228,7 +228,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjQzNzA4OCw5NjgxNjYwMDIsLTExNT
+eyJoaXN0b3J5IjpbMTU1ODA0MjUyOCw5NjgxNjYwMDIsLTExNT
 UyODg0NSwtNjQwMTU4ODk0LDEwODc2MTEzMSwxMDEwOTUyMDQ1
 LC0yNDI4NjQyNzAsLTgyNDgxMTgwLC00MjAwNjY3OTMsNTA0Nz
 E0MDMzLC00MzIxMjQxNDgsMjMzODc4Mjg3LC00NjMwMDQwODQs
