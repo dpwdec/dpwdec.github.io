@@ -178,7 +178,7 @@ Guard conditions allow you to **express function branches using boolean expressi
 
 If a **condition evaluates to false** it **falls through to the next expression**. 
 
-To catch al
+To **catch all other cases** 
 ```haskell
 
 ```
@@ -224,7 +224,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTg3MzA1MiwtNjQwMTU4ODk0LDEwOD
+eyJoaXN0b3J5IjpbMTU3NDk2MzY0MywtNjQwMTU4ODk0LDEwOD
 c2MTEzMSwxMDEwOTUyMDQ1LC0yNDI4NjQyNzAsLTgyNDgxMTgw
 LC00MjAwNjY3OTMsNTA0NzE0MDMzLC00MzIxMjQxNDgsMjMzOD
 c4Mjg3LC00NjMwMDQwODQsMzA0MDM4MDg3LC03MjQ4NDY0Njcs
