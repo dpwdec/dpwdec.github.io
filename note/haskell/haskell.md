@@ -233,7 +233,7 @@ tail' (_:x) = x
 
 ### As Patterns
 
-
+**As patterns** allow you to **pattern match structures while ALSO retaining the original**
 
 ## Errors
 
@@ -283,7 +283,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjY4MDg3NywtNDIwMDY2NzkzLDUwND
+eyJoaXN0b3J5IjpbMTQxMzkxNzAxNywtNDIwMDY2NzkzLDUwND
 cxNDAzMywtNDMyMTI0MTQ4LDIzMzg3ODI4NywtNDYzMDA0MDg0
 LDMwNDAzODA4NywtNzI0ODQ2NDY3LDY0OTgzMDI4MywxNzAwMz
 E5OCwtMTA3MjgwNDYyNiwtODQxMTc3MDk0LC0xODMyMDI3Mjk0
