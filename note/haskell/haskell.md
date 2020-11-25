@@ -219,7 +219,7 @@ combineHead [1, 2, 3]
 
 You can also **destructure. and pattern match lists directly** if you know they are of a static length that is known beforehand.
 ```haskell
-
+toTuple [x, y] = (x, y)
 ```
 
 
@@ -271,11 +271,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODUwMTE4NTcsNTA0NzE0MDMzLC00Mz
-IxMjQxNDgsMjMzODc4Mjg3LC00NjMwMDQwODQsMzA0MDM4MDg3
-LC03MjQ4NDY0NjcsNjQ5ODMwMjgzLDE3MDAzMTk4LC0xMDcyOD
-A0NjI2LC04NDExNzcwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAy
-LC01NTUyMTkzMSwtMjA5MzM0MTkxLC05ODkwODYyMDAsODgyMj
-k0ODE2LC0xOTA3MTYyMDksLTEwMjEzNzU1NDAsLTEzNjUzMzEy
-NDddfQ==
+eyJoaXN0b3J5IjpbLTUyMzkwNTgzMiw1MDQ3MTQwMzMsLTQzMj
+EyNDE0OCwyMzM4NzgyODcsLTQ2MzAwNDA4NCwzMDQwMzgwODcs
+LTcyNDg0NjQ2Nyw2NDk4MzAyODMsMTcwMDMxOTgsLTEwNzI4MD
+Q2MjYsLTg0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIs
+LTU1NTIxOTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOT
+Q4MTYsLTE5MDcxNjIwOSwtMTAyMTM3NTU0MCwtMTM2NTMzMTI0
+N119
 -->
