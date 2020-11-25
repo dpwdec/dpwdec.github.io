@@ -231,7 +231,7 @@ tail' :: [a] -> [a]
 tail' (_:x) = x
 ```
 
-
+You can also **destructure BOTH **
 
 ## Errors
 
@@ -281,7 +281,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg1ODI5MzA3LC00MjAwNjY3OTMsNTA0Nz
+eyJoaXN0b3J5IjpbNDc3MTc5MTA4LC00MjAwNjY3OTMsNTA0Nz
 E0MDMzLC00MzIxMjQxNDgsMjMzODc4Mjg3LC00NjMwMDQwODQs
 MzA0MDM4MDg3LC03MjQ4NDY0NjcsNjQ5ODMwMjgzLDE3MDAzMT
 k4LC0xMDcyODA0NjI2LC04NDExNzcwOTQsLTE4MzIwMjcyOTQs
