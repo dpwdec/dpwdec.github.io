@@ -17,9 +17,14 @@ You can **see what images are available to run in docker** by using the `images`
 $ docker images
 ```
 
-This will **show the docker image's `IMAGE ID` field** which can be used to uniquely identify an image. You can **run docker images based on their `IMAGE ID`** by using the ID in place of the image's name.
+This will **show the docker image's `IMAGE ID` field** (in truncated form) which can be used to uniquely identify an image. You can **run docker images based on their `IMAGE ID`** by using the ID in place of the image's name.
 ```bash
 $ docker run <IMAGE_ID>
+```
+
+You can see a **non truncated docker `IMAGE ID`** using the `--no-trunc` flag on the `images` command.
+```bash
+$ docker images --no-trunc
 ```
 
 ## Hub
@@ -50,7 +55,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODYwMTEyMCwtMTgyNTA2NDQ5NCwxND
+eyJoaXN0b3J5IjpbMjAwMjgxODQwNiwtMTgyNTA2NDQ5NCwxND
 c5MDc3NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAw
 Njc5LDQwNDI5NjMwNSwtODU3NDM3MDM0XX0=
 -->
