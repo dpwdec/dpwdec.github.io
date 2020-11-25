@@ -204,10 +204,10 @@ You can **define multiple function scope variables** using `where` by listing ot
 ```haskell
 rename  ::  String  ->  String
 rename x
-       | y <=  0   =  "Nemo"
-       | y <  5    =  "Fiveo"
-       | y <  10   =  "Decaron"
-       | otherwise =  "Longbono"
+       | y <=  nothing =  "Nemo"
+       | y <  small    =  "Fiveo"
+       | y <  medium   =  "Decaron"
+       | otherwise     =  "Longbono"
        where y = length x
              nothing = 0
              small = 5
@@ -255,11 +255,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODc2MDAyMSwtMTk2MDIxNzc5LDExNT
-MzODkzODMsLTM4NDU4NzIxNSwtMTc4NTYxMjc4LDE1NTgwNDI1
-MjgsOTY4MTY2MDAyLC0xMTU1Mjg4NDUsLTY0MDE1ODg5NCwxMD
-g3NjExMzEsMTAxMDk1MjA0NSwtMjQyODY0MjcwLC04MjQ4MTE4
-MCwtNDIwMDY2NzkzLDUwNDcxNDAzMywtNDMyMTI0MTQ4LDIzMz
-g3ODI4NywtNDYzMDA0MDg0LDMwNDAzODA4NywtNzI0ODQ2NDY3
-XX0=
+eyJoaXN0b3J5IjpbLTE5MzYyMTEzODIsLTE5NjAyMTc3OSwxMT
+UzMzg5MzgzLC0zODQ1ODcyMTUsLTE3ODU2MTI3OCwxNTU4MDQy
+NTI4LDk2ODE2NjAwMiwtMTE1NTI4ODQ1LC02NDAxNTg4OTQsMT
+A4NzYxMTMxLDEwMTA5NTIwNDUsLTI0Mjg2NDI3MCwtODI0ODEx
+ODAsLTQyMDA2Njc5Myw1MDQ3MTQwMzMsLTQzMjEyNDE0OCwyMz
+M4NzgyODcsLTQ2MzAwNDA4NCwzMDQwMzgwODcsLTcyNDg0NjQ2
+N119
 -->
