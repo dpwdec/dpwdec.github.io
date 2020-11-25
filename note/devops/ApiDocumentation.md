@@ -8,7 +8,12 @@ Swagger is a service that allows you to generate API documentation programmatica
 
 You can **validate an API specification** with the `validate` command of the `swagger-cli` tool. This will exit with an error if validation fails.
 ```bash
-npx swagger-cli validate <spec file>.yaml
+$ npx swagger-cli validate <spec file>.yaml
+```
+
+You can **validate an API specific with a more descriptive error message** using the `swagger-repo` tool.
+```bash
+$ npx swagger-repo validate <spec file>.yaml
 ```
 
 ## Parameters
@@ -36,6 +41,6 @@ $ npx redoc-cli bundle <spec file>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MjQxMDM1NSwxNDk0NDI3MTQ4LC0xND
+eyJoaXN0b3J5IjpbMTIyMjkwNjQ4NSwxNDk0NDI3MTQ4LC0xND
 U0MTg0NDQ1LC04MzgxNTAxNjMsMjMyODMxMDY1XX0=
 -->
