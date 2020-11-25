@@ -181,6 +181,10 @@ If a **condition evaluates to false** it **falls through to the next expression*
 To **catch all other cases** it's a convention to use an `otherwise` variable.
 ```haskell
 
+numerSize x
+  | x < 0 = "Negative"
+  | x <= 20 = "Twenty or less"
+  | x = "Bigger than twenty"
 ```
 
 ## Conditionals
@@ -224,11 +228,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTUyODg0NSwtNjQwMTU4ODk0LDEwOD
-c2MTEzMSwxMDEwOTUyMDQ1LC0yNDI4NjQyNzAsLTgyNDgxMTgw
-LC00MjAwNjY3OTMsNTA0NzE0MDMzLC00MzIxMjQxNDgsMjMzOD
-c4Mjg3LC00NjMwMDQwODQsMzA0MDM4MDg3LC03MjQ4NDY0Njcs
-NjQ5ODMwMjgzLDE3MDAzMTk4LC0xMDcyODA0NjI2LC04NDExNz
-cwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkzMV19
-
+eyJoaXN0b3J5IjpbMTgzNTQ2MjgwNSwtMTE1NTI4ODQ1LC02ND
+AxNTg4OTQsMTA4NzYxMTMxLDEwMTA5NTIwNDUsLTI0Mjg2NDI3
+MCwtODI0ODExODAsLTQyMDA2Njc5Myw1MDQ3MTQwMzMsLTQzMj
+EyNDE0OCwyMzM4NzgyODcsLTQ2MzAwNDA4NCwzMDQwMzgwODcs
+LTcyNDg0NjQ2Nyw2NDk4MzAyODMsMTcwMDMxOTgsLTEwNzI4MD
+Q2MjYsLTg0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDJd
+fQ==
 -->
