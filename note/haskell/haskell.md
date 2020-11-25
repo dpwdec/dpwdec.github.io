@@ -217,7 +217,7 @@ combineHead [1, 2, 3]
 -- (1, 2)
 ```
 
-You can also **destructure. and pattern matc lists directly** if you know their length.
+You can also **destructure. and pattern match lists directly** if you know they are of a static length that is known beforehand.
 ```haskell
 
 ```
@@ -271,11 +271,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0ODcwNDM1LDUwNDcxNDAzMywtNDMyMT
-I0MTQ4LDIzMzg3ODI4NywtNDYzMDA0MDg0LDMwNDAzODA4Nywt
-NzI0ODQ2NDY3LDY0OTgzMDI4MywxNzAwMzE5OCwtMTA3MjgwND
-YyNiwtODQxMTc3MDk0LC0xODMyMDI3Mjk0LC0xMzUwMjEwMiwt
-NTU1MjE5MzEsLTIwOTMzNDE5MSwtOTg5MDg2MjAwLDg4MjI5ND
-gxNiwtMTkwNzE2MjA5LC0xMDIxMzc1NTQwLC0xMzY1MzMxMjQ3
-XX0=
+eyJoaXN0b3J5IjpbLTE2ODUwMTE4NTcsNTA0NzE0MDMzLC00Mz
+IxMjQxNDgsMjMzODc4Mjg3LC00NjMwMDQwODQsMzA0MDM4MDg3
+LC03MjQ4NDY0NjcsNjQ5ODMwMjgzLDE3MDAzMTk4LC0xMDcyOD
+A0NjI2LC04NDExNzcwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAy
+LC01NTUyMTkzMSwtMjA5MzM0MTkxLC05ODkwODYyMDAsODgyMj
+k0ODE2LC0xOTA3MTYyMDksLTEwMjEzNzU1NDAsLTEzNjUzMzEy
+NDddfQ==
 -->
