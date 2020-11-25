@@ -217,6 +217,12 @@ combineHead [1, 2, 3]
 -- (1, 2)
 ```
 
+You can also **destructure. and pattern matc lists directly** if you know their length.
+```haskell
+
+```
+
+
 ## Errors
 
 You can **trigger a haskell error** with an error message by using then `error` function.
@@ -265,11 +271,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0NzE0MDMzLC00MzIxMjQxNDgsMjMzOD
-c4Mjg3LC00NjMwMDQwODQsMzA0MDM4MDg3LC03MjQ4NDY0Njcs
-NjQ5ODMwMjgzLDE3MDAzMTk4LC0xMDcyODA0NjI2LC04NDExNz
-cwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkzMSwt
-MjA5MzM0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2LC0xOTA3MT
-YyMDksLTEwMjEzNzU1NDAsLTEzNjUzMzEyNDcsMTIwODcxOTQ4
-OV19
+eyJoaXN0b3J5IjpbNjI0ODcwNDM1LDUwNDcxNDAzMywtNDMyMT
+I0MTQ4LDIzMzg3ODI4NywtNDYzMDA0MDg0LDMwNDAzODA4Nywt
+NzI0ODQ2NDY3LDY0OTgzMDI4MywxNzAwMzE5OCwtMTA3MjgwND
+YyNiwtODQxMTc3MDk0LC0xODMyMDI3Mjk0LC0xMzUwMjEwMiwt
+NTU1MjE5MzEsLTIwOTMzNDE5MSwtOTg5MDg2MjAwLDg4MjI5ND
+gxNiwtMTkwNzE2MjA5LC0xMDIxMzc1NTQwLC0xMzY1MzMxMjQ3
+XX0=
 -->
