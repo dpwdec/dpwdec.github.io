@@ -220,6 +220,7 @@ combineHead [1, 2, 3]
 You can also **destructure. and pattern match lists directly** if you know they are of a static length that is known beforehand.
 ```haskell
 toTuple [x, y] = (x, y)
+toTuple [3, 4] = (3, 4)
 ```
 
 
@@ -271,7 +272,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzkwNTgzMiw1MDQ3MTQwMzMsLTQzMj
+eyJoaXN0b3J5IjpbLTIyODIyOTU5OSw1MDQ3MTQwMzMsLTQzMj
 EyNDE0OCwyMzM4NzgyODcsLTQ2MzAwNDA4NCwzMDQwMzgwODcs
 LTcyNDg0NjQ2Nyw2NDk4MzAyODMsMTcwMDMxOTgsLTEwNzI4MD
 Q2MjYsLTg0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIs
