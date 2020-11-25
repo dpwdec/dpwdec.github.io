@@ -189,7 +189,7 @@ numberSize x
 
 ## Where
 
-You can **apply a calculation to a set of guard conditionals** by using the `where` operator.
+You can **apply a calculation to a set of guard conditionals** by using the `where` operator. In the example below the use of `where` allows use to only write the `length x` expression *once* and assign it to a variable that can then be used with each guard clause of the function.
 ```haskell
 rename  ::  String  ->  String
 rename x
@@ -241,11 +241,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzY2OTQ1ODUsLTM4NDU4NzIxNSwtMT
-c4NTYxMjc4LDE1NTgwNDI1MjgsOTY4MTY2MDAyLC0xMTU1Mjg4
-NDUsLTY0MDE1ODg5NCwxMDg3NjExMzEsMTAxMDk1MjA0NSwtMj
-QyODY0MjcwLC04MjQ4MTE4MCwtNDIwMDY2NzkzLDUwNDcxNDAz
-MywtNDMyMTI0MTQ4LDIzMzg3ODI4NywtNDYzMDA0MDg0LDMwND
-AzODA4NywtNzI0ODQ2NDY3LDY0OTgzMDI4MywxNzAwMzE5OF19
+eyJoaXN0b3J5IjpbMTE1MzM4OTM4MywtMzg0NTg3MjE1LC0xNz
+g1NjEyNzgsMTU1ODA0MjUyOCw5NjgxNjYwMDIsLTExNTUyODg0
+NSwtNjQwMTU4ODk0LDEwODc2MTEzMSwxMDEwOTUyMDQ1LC0yND
+I4NjQyNzAsLTgyNDgxMTgwLC00MjAwNjY3OTMsNTA0NzE0MDMz
+LC00MzIxMjQxNDgsMjMzODc4Mjg3LC00NjMwMDQwODQsMzA0MD
+M4MDg3LC03MjQ4NDY0NjcsNjQ5ODMwMjgzLDE3MDAzMTk4XX0=
 
 -->
