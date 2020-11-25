@@ -39,8 +39,13 @@ You can **pull a particular version of a docker image** by adding a `:` colon to
 ```bash
 $ docker pull <IMAGE_NAME>:<IMAGE_VERSION>
 ```
+
+For example:
+```bash
+$ docker pull ubuntu:16.04
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODEyMDcxMCwxNDc5MDc3NTA2LDE1OT
-AxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAwNjc5LDQwNDI5NjMw
-NSwtODU3NDM3MDM0XX0=
+eyJoaXN0b3J5IjpbLTE4MjUwNjQ0OTQsMTQ3OTA3NzUwNiwxNT
+kwMTIyOTYzLC0xNzI5NDY5OTUyLDM2NjkwMDY3OSw0MDQyOTYz
+MDUsLTg1NzQzNzAzNF19
 -->
