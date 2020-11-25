@@ -227,6 +227,7 @@ toTuple [3, 4, 5]
 
 You can also **destructure lists in reverse**, removing the first elements with an `_` and pattern matching the rest of the list.
 ```haskell
+tail' :: [a] -> [a]
 
 ```
 
@@ -278,7 +279,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDg5MDUzMSw1MDQ3MTQwMzMsLTQzMj
+eyJoaXN0b3J5IjpbLTU4MDc1NDE4MSw1MDQ3MTQwMzMsLTQzMj
 EyNDE0OCwyMzM4NzgyODcsLTQ2MzAwNDA4NCwzMDQwMzgwODcs
 LTcyNDg0NjQ2Nyw2NDk4MzAyODMsMTcwMDMxOTgsLTEwNzI4MD
 Q2MjYsLTg0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIs
