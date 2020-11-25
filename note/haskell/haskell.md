@@ -233,7 +233,7 @@ tail' (_:x) = x
 
 ### As Patterns
 
-**As patterns** allow you to **pattern match structures while ALSO retaining the original**
+**As patterns** allow you to **pattern match structures while ALSO retaining the original structure**. 
 
 ## Errors
 
@@ -283,11 +283,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzkxNzAxNywtNDIwMDY2NzkzLDUwND
-cxNDAzMywtNDMyMTI0MTQ4LDIzMzg3ODI4NywtNDYzMDA0MDg0
-LDMwNDAzODA4NywtNzI0ODQ2NDY3LDY0OTgzMDI4MywxNzAwMz
-E5OCwtMTA3MjgwNDYyNiwtODQxMTc3MDk0LC0xODMyMDI3Mjk0
-LC0xMzUwMjEwMiwtNTU1MjE5MzEsLTIwOTMzNDE5MSwtOTg5MD
-g2MjAwLDg4MjI5NDgxNiwtMTkwNzE2MjA5LC0xMDIxMzc1NTQw
-XX0=
+eyJoaXN0b3J5IjpbLTIwMjYxMTM1MDYsLTQyMDA2Njc5Myw1MD
+Q3MTQwMzMsLTQzMjEyNDE0OCwyMzM4NzgyODcsLTQ2MzAwNDA4
+NCwzMDQwMzgwODcsLTcyNDg0NjQ2Nyw2NDk4MzAyODMsMTcwMD
+MxOTgsLTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMTgzMjAyNzI5
+NCwtMTM1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTEsLTk4OT
+A4NjIwMCw4ODIyOTQ4MTYsLTE5MDcxNjIwOSwtMTAyMTM3NTU0
+MF19
 -->
