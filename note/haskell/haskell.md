@@ -235,7 +235,7 @@ tail' (_:x) = x
 
 **As patterns** allow you to **pattern match structures while ALSO retaining the original structure**. You can do this by putting a variable name that will contain the entire structure followed by a `@` at the beginning of the pattern matching.
 ```haskell
-start word@(x:_) = "The first element of" : word : "is" : x
+start word@(x:_) = "The first element of" : word : "is" : [x]
 ```
 
 ## Errors
@@ -286,11 +286,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0MDc5NTA5LC0yNDI4NjQyNzAsLTgyND
-gxMTgwLC00MjAwNjY3OTMsNTA0NzE0MDMzLC00MzIxMjQxNDgs
-MjMzODc4Mjg3LC00NjMwMDQwODQsMzA0MDM4MDg3LC03MjQ4ND
-Y0NjcsNjQ5ODMwMjgzLDE3MDAzMTk4LC0xMDcyODA0NjI2LC04
-NDExNzcwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NTUyMT
-kzMSwtMjA5MzM0MTkxLC05ODkwODYyMDAsODgyMjk0ODE2XX0=
-
+eyJoaXN0b3J5IjpbLTExMTEyMzMyNjcsLTI0Mjg2NDI3MCwtOD
+I0ODExODAsLTQyMDA2Njc5Myw1MDQ3MTQwMzMsLTQzMjEyNDE0
+OCwyMzM4NzgyODcsLTQ2MzAwNDA4NCwzMDQwMzgwODcsLTcyND
+g0NjQ2Nyw2NDk4MzAyODMsMTcwMDMxOTgsLTEwNzI4MDQ2MjYs
+LTg0MTE3NzA5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NT
+IxOTMxLC0yMDkzMzQxOTEsLTk4OTA4NjIwMCw4ODIyOTQ4MTZd
+fQ==
 -->
