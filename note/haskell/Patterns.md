@@ -1,4 +1,8 @@
-
+---
+layout: page
+exclude: true
+title: Pattern Matching
+---
 
 ## Functions
 
@@ -73,5 +77,5 @@ start "Hello"
 -- The first element of Hello is H
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NzQ4MjQ5OV19
+eyJoaXN0b3J5IjpbLTE3OTEwMTkxNjVdfQ==
 -->
