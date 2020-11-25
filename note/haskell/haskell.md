@@ -174,7 +174,7 @@ broken x = error "This function does not work!"
 
 ## Guards
 
-
+Guard conditions allow you to **express function pattern matching using boolean expressions**. 
 
 ## Conditionals
 
@@ -217,11 +217,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk5NjMyNTMsMTA4NzYxMTMxLDEwMT
-A5NTIwNDUsLTI0Mjg2NDI3MCwtODI0ODExODAsLTQyMDA2Njc5
-Myw1MDQ3MTQwMzMsLTQzMjEyNDE0OCwyMzM4NzgyODcsLTQ2Mz
-AwNDA4NCwzMDQwMzgwODcsLTcyNDg0NjQ2Nyw2NDk4MzAyODMs
-MTcwMDMxOTgsLTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMTgzMj
-AyNzI5NCwtMTM1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTFd
-fQ==
+eyJoaXN0b3J5IjpbOTQ2ODU2MTE5LDEwODc2MTEzMSwxMDEwOT
+UyMDQ1LC0yNDI4NjQyNzAsLTgyNDgxMTgwLC00MjAwNjY3OTMs
+NTA0NzE0MDMzLC00MzIxMjQxNDgsMjMzODc4Mjg3LC00NjMwMD
+QwODQsMzA0MDM4MDg3LC03MjQ4NDY0NjcsNjQ5ODMwMjgzLDE3
+MDAzMTk4LC0xMDcyODA0NjI2LC04NDExNzcwOTQsLTE4MzIwMj
+cyOTQsLTEzNTAyMTAyLC01NTUyMTkzMSwtMjA5MzM0MTkxXX0=
+
 -->
