@@ -19,7 +19,7 @@ $ docker images
 
 This will **show the docker image's `IMAGE ID` field** which can be used to uniquely identify an image. You can **run docker images based on their `IMAGE ID`** by using the ID in place of the image's name.
 ```bash
-$ docker 
+$ docker run <IMAGE_ID>
 ```
 
 ## Hub
@@ -50,7 +50,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDc5Mzc1NzYsLTE4MjUwNjQ0OTQsMT
-Q3OTA3NzUwNiwxNTkwMTIyOTYzLC0xNzI5NDY5OTUyLDM2Njkw
-MDY3OSw0MDQyOTYzMDUsLTg1NzQzNzAzNF19
+eyJoaXN0b3J5IjpbMTQ1ODYwMTEyMCwtMTgyNTA2NDQ5NCwxND
+c5MDc3NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAw
+Njc5LDQwNDI5NjMwNSwtODU3NDM3MDM0XX0=
 -->
