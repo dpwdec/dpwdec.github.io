@@ -176,7 +176,9 @@ broken x = error "This function does not work!"
 
 Guard conditions allow you to **express function branches using boolean expressions** instead of pattern matching. Guard conditions are expressed with a set of aligned `|` characters followed by the condition and assignment to the function body.
 
-If a **condition evaluates**
+If a **condition evaluates to false** it **falls through to the next expression**. 
+
+To catch al
 ```haskell
 
 ```
@@ -222,7 +224,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTU0ODExNiwtNjQwMTU4ODk0LDEwOD
+eyJoaXN0b3J5IjpbMTA4OTg3MzA1MiwtNjQwMTU4ODk0LDEwOD
 c2MTEzMSwxMDEwOTUyMDQ1LC0yNDI4NjQyNzAsLTgyNDgxMTgw
 LC00MjAwNjY3OTMsNTA0NzE0MDMzLC00MzIxMjQxNDgsMjMzOD
 c4Mjg3LC00NjMwMDQwODQsMzA0MDM4MDg3LC03MjQ4NDY0Njcs
