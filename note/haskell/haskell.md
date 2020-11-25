@@ -178,7 +178,7 @@ Guard conditions allow you to **express function branches using boolean expressi
 
 If a **condition evaluates to false** it **falls through to the next expression**. 
 
-To **catch all other cases** its a convention to use an `otherwise` variable.
+To **catch all other cases** it's a convention to use an `otherwise` variable.
 ```haskell
 
 ```
@@ -224,11 +224,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcyNjYwMjk4LC02NDAxNTg4OTQsMTA4Nz
-YxMTMxLDEwMTA5NTIwNDUsLTI0Mjg2NDI3MCwtODI0ODExODAs
-LTQyMDA2Njc5Myw1MDQ3MTQwMzMsLTQzMjEyNDE0OCwyMzM4Nz
-gyODcsLTQ2MzAwNDA4NCwzMDQwMzgwODcsLTcyNDg0NjQ2Nyw2
-NDk4MzAyODMsMTcwMDMxOTgsLTEwNzI4MDQ2MjYsLTg0MTE3Nz
-A5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NTIxOTMxXX0=
+eyJoaXN0b3J5IjpbLTExNTUyODg0NSwtNjQwMTU4ODk0LDEwOD
+c2MTEzMSwxMDEwOTUyMDQ1LC0yNDI4NjQyNzAsLTgyNDgxMTgw
+LC00MjAwNjY3OTMsNTA0NzE0MDMzLC00MzIxMjQxNDgsMjMzOD
+c4Mjg3LC00NjMwMDQwODQsMzA0MDM4MDg3LC03MjQ4NDY0Njcs
+NjQ5ODMwMjgzLDE3MDAzMTk4LC0xMDcyODA0NjI2LC04NDExNz
+cwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkzMV19
 
 -->
