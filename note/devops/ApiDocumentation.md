@@ -8,7 +8,7 @@ Swagger is a service that allows you to generate API documentation programmatica
 
 ## Parameters
 
-You can **define a list of parameters** by using the `paramters` tag and listing each parameter with a `-` hyphen before it. *It doesn't seem like there are any required fields for this list of information about a parameter*.
+You can **define a list of parameters** by using the `paramters` tag and listing each parameter with a `-` hyphen before it. *It doesn't seem like that there are any required fields for this list of information about a parameter*.
 ```yaml
 parameters:
   - in: query # first properties do not have to be consistent
@@ -31,6 +31,6 @@ $ npx redoc-cli bundle <spec file>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQxODQ0NDUsLTgzODE1MDE2MywyMz
-I4MzEwNjVdfQ==
+eyJoaXN0b3J5IjpbMTQ5NDQyNzE0OCwtMTQ1NDE4NDQ0NSwtOD
+M4MTUwMTYzLDIzMjgzMTA2NV19
 -->
