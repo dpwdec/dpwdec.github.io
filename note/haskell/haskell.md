@@ -240,7 +240,6 @@ start "Hello"
 -- The first element of Hello is H
 ```
 
-
 ## Errors
 
 You can **trigger a haskell error** with an error message by using then `error` function.
@@ -289,7 +288,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODE1NjAzMSwtMjQyODY0MjcwLC04Mj
+eyJoaXN0b3J5IjpbMTAxMDk1MjA0NSwtMjQyODY0MjcwLC04Mj
 Q4MTE4MCwtNDIwMDY2NzkzLDUwNDcxNDAzMywtNDMyMTI0MTQ4
 LDIzMzg3ODI4NywtNDYzMDA0MDg0LDMwNDAzODA4NywtNzI0OD
 Q2NDY3LDY0OTgzMDI4MywxNzAwMzE5OCwtMTA3MjgwNDYyNiwt
