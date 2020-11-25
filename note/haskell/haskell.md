@@ -233,7 +233,7 @@ tail' (_:x) = x
 
 ### As Patterns
 
-**As patterns** allow you to **pattern match structures while ALSO retaining the original structure**. 
+**As patterns** allow you to **pattern match structures while ALSO retaining the original structure**. You can do this by putting an `@` at the beginning of the pattern with 
 
 ## Errors
 
@@ -283,11 +283,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjYxMTM1MDYsLTQyMDA2Njc5Myw1MD
-Q3MTQwMzMsLTQzMjEyNDE0OCwyMzM4NzgyODcsLTQ2MzAwNDA4
-NCwzMDQwMzgwODcsLTcyNDg0NjQ2Nyw2NDk4MzAyODMsMTcwMD
-MxOTgsLTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMTgzMjAyNzI5
-NCwtMTM1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTEsLTk4OT
-A4NjIwMCw4ODIyOTQ4MTYsLTE5MDcxNjIwOSwtMTAyMTM3NTU0
-MF19
+eyJoaXN0b3J5IjpbLTgyNDgxMTgwLC00MjAwNjY3OTMsNTA0Nz
+E0MDMzLC00MzIxMjQxNDgsMjMzODc4Mjg3LC00NjMwMDQwODQs
+MzA0MDM4MDg3LC03MjQ4NDY0NjcsNjQ5ODMwMjgzLDE3MDAzMT
+k4LC0xMDcyODA0NjI2LC04NDExNzcwOTQsLTE4MzIwMjcyOTQs
+LTEzNTAyMTAyLC01NTUyMTkzMSwtMjA5MzM0MTkxLC05ODkwOD
+YyMDAsODgyMjk0ODE2LC0xOTA3MTYyMDksLTEwMjEzNzU1NDBd
+fQ==
 -->
