@@ -27,6 +27,10 @@ You can see a **non truncated docker `IMAGE ID`** using the `--no-trunc` flag on
 $ docker images --no-trunc
 ```
 
+## Dockerfile
+
+
+
 ## Hub
 
 You can **find existing images to use as a base for your custom images** by using the [Docker Hub](https://hub.docker.com/) service. It is possible to **host private docker image repositories** in your own infrastructure.
@@ -55,7 +59,8 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMjgxODQwNiwtMTgyNTA2NDQ5NCwxND
-c5MDc3NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAw
-Njc5LDQwNDI5NjMwNSwtODU3NDM3MDM0XX0=
+eyJoaXN0b3J5IjpbMTgwNjI3NjA1NiwyMDAyODE4NDA2LC0xOD
+I1MDY0NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2MywtMTcyOTQ2
+OTk1MiwzNjY5MDA2NzksNDA0Mjk2MzA1LC04NTc0MzcwMzRdfQ
+==
 -->
