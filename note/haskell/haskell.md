@@ -200,7 +200,10 @@ rename x
        where y = length x
 ```
 
-You can **define multiple variables function scope** using `
+You can **define multiple function scope variables** using `where` by listing other variables below the initial `where` clause, indented at the level of the first variable definition.
+```haskell
+
+```
 
 ## Conditionals
 
@@ -243,11 +246,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzEzNDIyNjIsMTE1MzM4OTM4MywtMz
-g0NTg3MjE1LC0xNzg1NjEyNzgsMTU1ODA0MjUyOCw5NjgxNjYw
-MDIsLTExNTUyODg0NSwtNjQwMTU4ODk0LDEwODc2MTEzMSwxMD
-EwOTUyMDQ1LC0yNDI4NjQyNzAsLTgyNDgxMTgwLC00MjAwNjY3
-OTMsNTA0NzE0MDMzLC00MzIxMjQxNDgsMjMzODc4Mjg3LC00Nj
-MwMDQwODQsMzA0MDM4MDg3LC03MjQ4NDY0NjcsNjQ5ODMwMjgz
-XX0=
+eyJoaXN0b3J5IjpbLTE5NjAyMTc3OSwxMTUzMzg5MzgzLC0zOD
+Q1ODcyMTUsLTE3ODU2MTI3OCwxNTU4MDQyNTI4LDk2ODE2NjAw
+MiwtMTE1NTI4ODQ1LC02NDAxNTg4OTQsMTA4NzYxMTMxLDEwMT
+A5NTIwNDUsLTI0Mjg2NDI3MCwtODI0ODExODAsLTQyMDA2Njc5
+Myw1MDQ3MTQwMzMsLTQzMjEyNDE0OCwyMzM4NzgyODcsLTQ2Mz
+AwNDA4NCwzMDQwMzgwODcsLTcyNDg0NjQ2Nyw2NDk4MzAyODNd
+fQ==
 -->
