@@ -30,12 +30,17 @@ You can **pull an image down from the docker hub to run locally** using the `pul
 $ docker pull <IMAGE_NAME>
 ```
 
+For example:
+```bash
+$ docker pull hello-world
+```
+
 You can **pull a particular version of a docker image** by adding a `:` colon to the name of an image followed by the version.
 ```bash
 $ docker pull <IMAGE_NAME>:<IMAGE_VERSION>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIzMzU2NDc3LDE0NzkwNzc1MDYsMTU5MD
-EyMjk2MywtMTcyOTQ2OTk1MiwzNjY5MDA2NzksNDA0Mjk2MzA1
-LC04NTc0MzcwMzRdfQ==
+eyJoaXN0b3J5IjpbMTEyODEyMDcxMCwxNDc5MDc3NTA2LDE1OT
+AxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAwNjc5LDQwNDI5NjMw
+NSwtODU3NDM3MDM0XX0=
 -->
