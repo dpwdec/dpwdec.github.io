@@ -175,6 +175,9 @@ broken x = error "This function does not work!"
 ## Guards
 
 Guard conditions allow you to **express function branches using boolean expressions** instead of pattern matching.
+```haskell
+
+```
 
 ## Conditionals
 
@@ -217,11 +220,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDE1ODg5NCwxMDg3NjExMzEsMTAxMD
-k1MjA0NSwtMjQyODY0MjcwLC04MjQ4MTE4MCwtNDIwMDY2Nzkz
-LDUwNDcxNDAzMywtNDMyMTI0MTQ4LDIzMzg3ODI4NywtNDYzMD
-A0MDg0LDMwNDAzODA4NywtNzI0ODQ2NDY3LDY0OTgzMDI4Mywx
-NzAwMzE5OCwtMTA3MjgwNDYyNiwtODQxMTc3MDk0LC0xODMyMD
-I3Mjk0LC0xMzUwMjEwMiwtNTU1MjE5MzEsLTIwOTMzNDE5MV19
+eyJoaXN0b3J5IjpbLTI1NTYxODI2NCwtNjQwMTU4ODk0LDEwOD
+c2MTEzMSwxMDEwOTUyMDQ1LC0yNDI4NjQyNzAsLTgyNDgxMTgw
+LC00MjAwNjY3OTMsNTA0NzE0MDMzLC00MzIxMjQxNDgsMjMzOD
+c4Mjg3LC00NjMwMDQwODQsMzA0MDM4MDg3LC03MjQ4NDY0Njcs
+NjQ5ODMwMjgzLDE3MDAzMTk4LC0xMDcyODA0NjI2LC04NDExNz
+cwOTQsLTE4MzIwMjcyOTQsLTEzNTAyMTAyLC01NTUyMTkzMV19
 
 -->
