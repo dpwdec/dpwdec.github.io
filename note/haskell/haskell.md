@@ -236,7 +236,10 @@ tail' (_:x) = x
 **As patterns** allow you to **pattern match structures while ALSO retaining the original structure**. You can do this by putting a variable name that will contain the entire structure followed by a `@` at the beginning of the pattern matching.
 ```haskell
 start word@(x:_) = "The first element of " ++ word ++ " is " ++ [x]
+start "Hello"
+-- The first element of Hello is H
 ```
+
 
 ## Errors
 
@@ -286,7 +289,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDczNzEzMSwtMjQyODY0MjcwLC04Mj
+eyJoaXN0b3J5IjpbMTgzODE1NjAzMSwtMjQyODY0MjcwLC04Mj
 Q4MTE4MCwtNDIwMDY2NzkzLDUwNDcxNDAzMywtNDMyMTI0MTQ4
 LDIzMzg3ODI4NywtNDYzMDA0MDg0LDMwNDAzODA4NywtNzI0OD
 Q2NDY3LDY0OTgzMDI4MywxNzAwMzE5OCwtMTA3MjgwNDYyNiwt
