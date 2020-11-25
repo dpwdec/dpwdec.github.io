@@ -172,7 +172,9 @@ You can **trigger a haskell error** with an error message by using then `error` 
 broken x = error "This function does not work!"
 ```
 
-#
+## Guards
+
+
 
 ## Conditionals
 
@@ -215,11 +217,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNDY3MTk2LDEwODc2MTEzMSwxMDEwOT
-UyMDQ1LC0yNDI4NjQyNzAsLTgyNDgxMTgwLC00MjAwNjY3OTMs
-NTA0NzE0MDMzLC00MzIxMjQxNDgsMjMzODc4Mjg3LC00NjMwMD
-QwODQsMzA0MDM4MDg3LC03MjQ4NDY0NjcsNjQ5ODMwMjgzLDE3
-MDAzMTk4LC0xMDcyODA0NjI2LC04NDExNzcwOTQsLTE4MzIwMj
-cyOTQsLTEzNTAyMTAyLC01NTUyMTkzMSwtMjA5MzM0MTkxXX0=
-
+eyJoaXN0b3J5IjpbLTIxMjk5NjMyNTMsMTA4NzYxMTMxLDEwMT
+A5NTIwNDUsLTI0Mjg2NDI3MCwtODI0ODExODAsLTQyMDA2Njc5
+Myw1MDQ3MTQwMzMsLTQzMjEyNDE0OCwyMzM4NzgyODcsLTQ2Mz
+AwNDA4NCwzMDQwMzgwODcsLTcyNDg0NjQ2Nyw2NDk4MzAyODMs
+MTcwMDMxOTgsLTEwNzI4MDQ2MjYsLTg0MTE3NzA5NCwtMTgzMj
+AyNzI5NCwtMTM1MDIxMDIsLTU1NTIxOTMxLC0yMDkzMzQxOTFd
+fQ==
 -->
