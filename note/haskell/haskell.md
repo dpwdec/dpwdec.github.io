@@ -174,7 +174,7 @@ broken x = error "This function does not work!"
 
 ## Guards
 
-Guard conditions allow you to **express function branches using boolean expressions** instead of pattern matching. Guard conditions are expressed with a set of aligned `|` characters.
+Guard conditions allow you to **express function branches using boolean expressions** instead of pattern matching. Guard conditions are expressed with a set of aligned `|` characters followed by the condition and assignment to the function body. 
 ```haskell
 
 ```
@@ -220,11 +220,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1MzcxMzIwLC02NDAxNTg4OTQsMTA4Nz
-YxMTMxLDEwMTA5NTIwNDUsLTI0Mjg2NDI3MCwtODI0ODExODAs
-LTQyMDA2Njc5Myw1MDQ3MTQwMzMsLTQzMjEyNDE0OCwyMzM4Nz
-gyODcsLTQ2MzAwNDA4NCwzMDQwMzgwODcsLTcyNDg0NjQ2Nyw2
-NDk4MzAyODMsMTcwMDMxOTgsLTEwNzI4MDQ2MjYsLTg0MTE3Nz
-A5NCwtMTgzMjAyNzI5NCwtMTM1MDIxMDIsLTU1NTIxOTMxXX0=
-
+eyJoaXN0b3J5IjpbLTE4ODk1ODkyMTEsLTY0MDE1ODg5NCwxMD
+g3NjExMzEsMTAxMDk1MjA0NSwtMjQyODY0MjcwLC04MjQ4MTE4
+MCwtNDIwMDY2NzkzLDUwNDcxNDAzMywtNDMyMTI0MTQ4LDIzMz
+g3ODI4NywtNDYzMDA0MDg0LDMwNDAzODA4NywtNzI0ODQ2NDY3
+LDY0OTgzMDI4MywxNzAwMzE5OCwtMTA3MjgwNDYyNiwtODQxMT
+c3MDk0LC0xODMyMDI3Mjk0LC0xMzUwMjEwMiwtNTU1MjE5MzFd
+fQ==
 -->
