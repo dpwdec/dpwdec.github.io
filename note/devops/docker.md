@@ -24,8 +24,13 @@ You can **find existing images to use as a base for your custom images** by usin
 The Docker Hub has a registry and repository structure for holding images.
 
 **Official** images hosted on the hub are maintained by the creators of the service they host and should be go to for hosting docker content.
+
+You can **pull an image down from the docker hub to run locally** using the `pull` command followed by the name of the image.
+```bash
+$ docker pull <IMAGE_NAME>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTA3NzUwNiwxNTkwMTIyOTYzLC0xNz
-I5NDY5OTUyLDM2NjkwMDY3OSw0MDQyOTYzMDUsLTg1NzQzNzAz
-NF19
+eyJoaXN0b3J5IjpbMTk0ODM0MzA3NywxNDc5MDc3NTA2LDE1OT
+AxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAwNjc5LDQwNDI5NjMw
+NSwtODU3NDM3MDM0XX0=
 -->
