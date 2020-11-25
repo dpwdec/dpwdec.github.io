@@ -12,6 +12,10 @@ Applicatons are **deployed in three steps**:
  2. Building a docker image file
  3. Running the docker image file in docker
 
+You can **see what images are available to run in docker** by using the `images` command.
+```bash
+$ docker images
+```
 
 ## Hub
 
@@ -21,7 +25,7 @@ The Docker Hub has a registry and repository structure for holding images.
 
 **Official** images hosted on the hub are maintained by the creators of the service they host and should be go to for hosting docker content.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTgzNjE2MSwxNTkwMTIyOTYzLC0xNz
+eyJoaXN0b3J5IjpbMTQ3OTA3NzUwNiwxNTkwMTIyOTYzLC0xNz
 I5NDY5OTUyLDM2NjkwMDY3OSw0MDQyOTYzMDUsLTg1NzQzNzAz
 NF19
 -->
