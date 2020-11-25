@@ -214,6 +214,8 @@ rename x
              medium = 10
 ```
 
+
+
 ## Conditionals
 
 ## Indenting
@@ -255,7 +257,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzYyMTEzODIsLTE5NjAyMTc3OSwxMT
+eyJoaXN0b3J5IjpbLTE3ODk0NTEwMjYsLTE5NjAyMTc3OSwxMT
 UzMzg5MzgzLC0zODQ1ODcyMTUsLTE3ODU2MTI3OCwxNTU4MDQy
 NTI4LDk2ODE2NjAwMiwtMTE1NTI4ODQ1LC02NDAxNTg4OTQsMT
 A4NzYxMTMxLDEwMTA5NTIwNDUsLTI0Mjg2NDI3MCwtODI0ODEx
