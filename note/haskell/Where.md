@@ -44,7 +44,9 @@ where strip firstname lastname = [head firstname] ++  "."  ++ [head lastname]
 
 You can **nest `where` blocks within functions**. The nested `where` block **must be indented past the original `where` block's variable definitions**.
 
+You can **define pattern matched expressions** as part of a `where` block
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NzQ4NzYzNV19
+eyJoaXN0b3J5IjpbLTEzNzg4OTg1NjVdfQ==
 -->
