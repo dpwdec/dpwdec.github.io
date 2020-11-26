@@ -200,7 +200,7 @@ rename x
        where y = length x
 ```
 
-You can **define multiple function scope variables** using `where` by listing other variables below the initial `where` clause, indented at the level of the first variable definition.
+You can **define multiple function scoped variables** using `where` by listing other variables below the initial `where` clause, indented at the level of the first variable definition.
 ```haskell
 rename  ::  String  ->  String
 rename x
@@ -213,6 +213,8 @@ rename x
              small = 5
              medium = 10
 ```
+
+You can **use pattern matching inside a `where**
 
 
 ## Conditionals
@@ -256,11 +258,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTg4NDE5NiwtMTk2MDIxNzc5LDExNT
-MzODkzODMsLTM4NDU4NzIxNSwtMTc4NTYxMjc4LDE1NTgwNDI1
-MjgsOTY4MTY2MDAyLC0xMTU1Mjg4NDUsLTY0MDE1ODg5NCwxMD
-g3NjExMzEsMTAxMDk1MjA0NSwtMjQyODY0MjcwLC04MjQ4MTE4
-MCwtNDIwMDY2NzkzLDUwNDcxNDAzMywtNDMyMTI0MTQ4LDIzMz
-g3ODI4NywtNDYzMDA0MDg0LDMwNDAzODA4NywtNzI0ODQ2NDY3
+eyJoaXN0b3J5IjpbLTEyNzE3NDQ0NSwtNTY5ODg0MTk2LC0xOT
+YwMjE3NzksMTE1MzM4OTM4MywtMzg0NTg3MjE1LC0xNzg1NjEy
+NzgsMTU1ODA0MjUyOCw5NjgxNjYwMDIsLTExNTUyODg0NSwtNj
+QwMTU4ODk0LDEwODc2MTEzMSwxMDEwOTUyMDQ1LC0yNDI4NjQy
+NzAsLTgyNDgxMTgwLC00MjAwNjY3OTMsNTA0NzE0MDMzLC00Mz
+IxMjQxNDgsMjMzODc4Mjg3LC00NjMwMDQwODQsMzA0MDM4MDg3
 XX0=
 -->
