@@ -184,7 +184,11 @@ addTwoThree x y =
   in  x' + y'
 ```
 
-You can **use the `let` with `in`** pattern **almost anywhere**.
+You can **use the `let` with `in`** pattern **almost anywhere** as an expression in itself.
+```haskell
+(let x = 10 in x + 1) * 2
+--
+```
 
 
 ## Conditionals
@@ -228,7 +232,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NTA5Mjk5NywyMDk5MDkyNTIxLC0zMj
+eyJoaXN0b3J5IjpbMjA3MzgzNzQ0MSwyMDk5MDkyNTIxLC0zMj
 U0NDY5OTYsLTEyNjM1NDg0MTMsLTk4MzgyMjMyLDMwNjIwNjEy
 MCwxMTAwNjM5NjQ3LC01Njk4ODQxOTYsLTE5NjAyMTc3OSwxMT
 UzMzg5MzgzLC0zODQ1ODcyMTUsLTE3ODU2MTI3OCwxNTU4MDQy
