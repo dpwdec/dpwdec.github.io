@@ -234,9 +234,10 @@ head' xs = case xs of [] -> error "No head for empty lists!"
                       (x:_) -> x
 ```
 
-You **cannot use boolean expressions** with `case`.
+You **cannot use boolean expressions** with `case` statement like a guard clause.
 ```haskell
 pattern x = case x of x > 0 -> "Not negative"
+-- ERROR
 ```
 
 
@@ -281,11 +282,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTI3ODgwNCwxNTQyNDY0NjA5LC01Mj
-EyNzMxMiwtMTUwNzA3OTAwMCwtMTg4NTYyNjg0OCw5OTM0NjE4
-MiwyMDE4MzM3NywtNjYwODIxNTc2LDIwOTkwOTI1MjEsLTMyNT
-Q0Njk5NiwtMTI2MzU0ODQxMywtOTgzODIyMzIsMzA2MjA2MTIw
-LDExMDA2Mzk2NDcsLTU2OTg4NDE5NiwtMTk2MDIxNzc5LDExNT
-MzODkzODMsLTM4NDU4NzIxNSwtMTc4NTYxMjc4LDE1NTgwNDI1
-MjhdfQ==
+eyJoaXN0b3J5IjpbNDEwNDU3NzQ1LDE1NDI0NjQ2MDksLTUyMT
+I3MzEyLC0xNTA3MDc5MDAwLC0xODg1NjI2ODQ4LDk5MzQ2MTgy
+LDIwMTgzMzc3LC02NjA4MjE1NzYsMjA5OTA5MjUyMSwtMzI1ND
+Q2OTk2LC0xMjYzNTQ4NDEzLC05ODM4MjIzMiwzMDYyMDYxMjAs
+MTEwMDYzOTY0NywtNTY5ODg0MTk2LC0xOTYwMjE3NzksMTE1Mz
+M4OTM4MywtMzg0NTg3MjE1LC0xNzg1NjEyNzgsMTU1ODA0MjUy
+OF19
 -->
