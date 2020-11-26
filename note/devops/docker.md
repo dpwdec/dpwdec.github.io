@@ -42,7 +42,10 @@ FROM ubuntu
 RUN apt-get install -y python3
 ```
 
-The `MAINTAINER` directive has been **deprecated**. However if you can **add meta to your dockerfile** using the `LABEL` directive.
+The `MAINTAINER` directive has been **deprecated**. However if you can **add meta to your dockerfile** using the `LABEL` directive which takes a key-value pair assigned with an `=`.
+```docker
+LABEL maintainer="me@some-website.com"
+```
 
 ## Hub
 
@@ -72,7 +75,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTY1MDcxNywtODk4NDA1MTE4LC0xMj
+eyJoaXN0b3J5IjpbLTk3MzAzMzIxNCwtODk4NDA1MTE4LC0xMj
 k0MzYzMDI0LDkwODk2MzYzNywxODA2Mjc2MDU2LDIwMDI4MTg0
 MDYsLTE4MjUwNjQ0OTQsMTQ3OTA3NzUwNiwxNTkwMTIyOTYzLC
 0xNzI5NDY5OTUyLDM2NjkwMDY3OSw0MDQyOTYzMDUsLTg1NzQz
