@@ -220,6 +220,8 @@ where y = length x
       (nothing, small, medium) = (0, 5, 10)
 ```
 
+You can **define functions inside a `where` block** that can be used in the context of your 
+
 
 ## Conditionals
 
@@ -262,11 +264,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODA3MTksMTEwMDYzOTY0NywtNTY5OD
-g0MTk2LC0xOTYwMjE3NzksMTE1MzM4OTM4MywtMzg0NTg3MjE1
-LC0xNzg1NjEyNzgsMTU1ODA0MjUyOCw5NjgxNjYwMDIsLTExNT
-UyODg0NSwtNjQwMTU4ODk0LDEwODc2MTEzMSwxMDEwOTUyMDQ1
-LC0yNDI4NjQyNzAsLTgyNDgxMTgwLC00MjAwNjY3OTMsNTA0Nz
-E0MDMzLC00MzIxMjQxNDgsMjMzODc4Mjg3LC00NjMwMDQwODRd
-fQ==
+eyJoaXN0b3J5IjpbMTczMTEyMjU2NywxMTAwNjM5NjQ3LC01Nj
+k4ODQxOTYsLTE5NjAyMTc3OSwxMTUzMzg5MzgzLC0zODQ1ODcy
+MTUsLTE3ODU2MTI3OCwxNTU4MDQyNTI4LDk2ODE2NjAwMiwtMT
+E1NTI4ODQ1LC02NDAxNTg4OTQsMTA4NzYxMTMxLDEwMTA5NTIw
+NDUsLTI0Mjg2NDI3MCwtODI0ODExODAsLTQyMDA2Njc5Myw1MD
+Q3MTQwMzMsLTQzMjEyNDE0OCwyMzM4NzgyODcsLTQ2MzAwNDA4
+NF19
 -->
