@@ -242,7 +242,7 @@ pattern x = case x of x > 0 -> "Not negative"
 
 However you **can use `case` to match the result of an expression** and do something.
 ```haskell
-pattern x = case x > 0 of True -> "Not negative"
+pattern x = case x > 0 of True -> "Not negative!"
 						  False -> "Is negative!"
 ```
 
@@ -288,11 +288,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDAwMDk0ODIsMTU0MjQ2NDYwOSwtNT
-IxMjczMTIsLTE1MDcwNzkwMDAsLTE4ODU2MjY4NDgsOTkzNDYx
-ODIsMjAxODMzNzcsLTY2MDgyMTU3NiwyMDk5MDkyNTIxLC0zMj
-U0NDY5OTYsLTEyNjM1NDg0MTMsLTk4MzgyMjMyLDMwNjIwNjEy
-MCwxMTAwNjM5NjQ3LC01Njk4ODQxOTYsLTE5NjAyMTc3OSwxMT
-UzMzg5MzgzLC0zODQ1ODcyMTUsLTE3ODU2MTI3OCwxNTU4MDQy
-NTI4XX0=
+eyJoaXN0b3J5IjpbODg5MzM5OTU5LDE1NDI0NjQ2MDksLTUyMT
+I3MzEyLC0xNTA3MDc5MDAwLC0xODg1NjI2ODQ4LDk5MzQ2MTgy
+LDIwMTgzMzc3LC02NjA4MjE1NzYsMjA5OTA5MjUyMSwtMzI1ND
+Q2OTk2LC0xMjYzNTQ4NDEzLC05ODM4MjIzMiwzMDYyMDYxMjAs
+MTEwMDYzOTY0NywtNTY5ODg0MTk2LC0xOTYwMjE3NzksMTE1Mz
+M4OTM4MywtMzg0NTg3MjE1LC0xNzg1NjEyNzgsMTU1ODA0MjUy
+OF19
 -->
