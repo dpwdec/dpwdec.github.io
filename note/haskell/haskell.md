@@ -177,7 +177,12 @@ broken x = error "This function does not work!"
 The `let` keyword is used to define locally scoped variables, in contrast to `where` which is used to define variables across all the variants of a function. Variables defined by `let` do **not span across guard clauses**.
 
 You can **combine `let` with `in`** to use the variables defined in `let` expressions with other expressions. This much more like standard imperative programming, defining what you need before making use of it and returning a value.
-```haske
+```haskell
+addTwoThree x y =
+  let x' = x *  2
+      y' = y *  3
+  in  x' + y'
+```
 
 
 ## Conditionals
@@ -221,7 +226,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjE4MDYwMTksMjA5OTA5MjUyMSwtMz
+eyJoaXN0b3J5IjpbLTE2OTU3MTkyNDcsMjA5OTA5MjUyMSwtMz
 I1NDQ2OTk2LC0xMjYzNTQ4NDEzLC05ODM4MjIzMiwzMDYyMDYx
 MjAsMTEwMDYzOTY0NywtNTY5ODg0MTk2LC0xOTYwMjE3NzksMT
 E1MzM4OTM4MywtMzg0NTg3MjE1LC0xNzg1NjEyNzgsMTU1ODA0
