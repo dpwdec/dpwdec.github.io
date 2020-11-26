@@ -174,7 +174,7 @@ broken x = error "This function does not work!"
 
 ## Let
 
-
+The `let` keyword is used to define locally scoped variables, in contrast to `where` which is used to define variables across all the variants of a function. Variables defined by `let` do **not span across guard clauses**.
 
 
 
@@ -220,7 +220,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzQ1MTkwNCwtMTI2MzU0ODQxMywtOT
+eyJoaXN0b3J5IjpbLTMyNTQ0Njk5NiwtMTI2MzU0ODQxMywtOT
 gzODIyMzIsMzA2MjA2MTIwLDExMDA2Mzk2NDcsLTU2OTg4NDE5
 NiwtMTk2MDIxNzc5LDExNTMzODkzODMsLTM4NDU4NzIxNSwtMT
 c4NTYxMjc4LDE1NTgwNDI1MjgsOTY4MTY2MDAyLC0xMTU1Mjg4
