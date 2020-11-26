@@ -46,10 +46,13 @@ You can **nest `where` blocks within functions**. The nested `where` block **mus
 
 You can **define pattern matched expressions** as part of a `where` block.
 ```haskell
-
+describeList xs = "The list is " ++ what xs
+  where what [] = "empty."
+        what [x] = "a singleton list."
+        what xs = "a longer list."
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzAzNTYyOV19
+eyJoaXN0b3J5IjpbLTEwOTMzNzU5NjZdfQ==
 -->
