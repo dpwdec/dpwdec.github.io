@@ -222,8 +222,12 @@ where y = length x
 
 You can **define functions inside a `where` block** that can be used in the context of your main function.
 ```haskell
-
+initials  :: [(String, String)] -> [String]
+initials names = [strip f l | (f, l) <- names]
+where strip firstname lastname = [head firstname] ++  "."  ++ [head lastname]
 ```
+
+You can **nest `where` blocks within functions**
 
 
 ## Conditionals
@@ -267,11 +271,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2MjA2MTIwLDExMDA2Mzk2NDcsLTU2OT
-g4NDE5NiwtMTk2MDIxNzc5LDExNTMzODkzODMsLTM4NDU4NzIx
-NSwtMTc4NTYxMjc4LDE1NTgwNDI1MjgsOTY4MTY2MDAyLC0xMT
-U1Mjg4NDUsLTY0MDE1ODg5NCwxMDg3NjExMzEsMTAxMDk1MjA0
-NSwtMjQyODY0MjcwLC04MjQ4MTE4MCwtNDIwMDY2NzkzLDUwND
-cxNDAzMywtNDMyMTI0MTQ4LDIzMzg3ODI4NywtNDYzMDA0MDg0
-XX0=
+eyJoaXN0b3J5IjpbOTAwMjI3MzQsMzA2MjA2MTIwLDExMDA2Mz
+k2NDcsLTU2OTg4NDE5NiwtMTk2MDIxNzc5LDExNTMzODkzODMs
+LTM4NDU4NzIxNSwtMTc4NTYxMjc4LDE1NTgwNDI1MjgsOTY4MT
+Y2MDAyLC0xMTU1Mjg4NDUsLTY0MDE1ODg5NCwxMDg3NjExMzEs
+MTAxMDk1MjA0NSwtMjQyODY0MjcwLC04MjQ4MTE4MCwtNDIwMD
+Y2NzkzLDUwNDcxNDAzMywtNDMyMTI0MTQ4LDIzMzg3ODI4N119
+
 -->
