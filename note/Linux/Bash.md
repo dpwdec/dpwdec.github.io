@@ -6,7 +6,7 @@ title: Bash
 
 You can **check if a variable is null** using the `-z` operator. This **returns true if the argument IS null**.
 ```bash
-test -z $MY_VAR
+test -z $MY_VAR # -> true
 ```
 
 ## Scripts
@@ -32,5 +32,5 @@ $ sh my_script.sh
 $ bash my_script.sh
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDE3NDk5LDcwNjYwMzQ0MV19
+eyJoaXN0b3J5IjpbMTQ2NzA5NjEwMSw3MDY2MDM0NDFdfQ==
 -->
