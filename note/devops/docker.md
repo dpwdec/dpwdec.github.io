@@ -36,7 +36,11 @@ You can **base your docker image on an existing docker image** using the `FROM` 
 FROM <IMAGE_NAME>
 ```
 
-You can **customise your image** by using the `RUN` command to 
+You can **customise your image** by using the `RUN` command to execute a command in the environment that the image is based on. In the example below the dockerfile starts from the ubuntu environment and installs python.
+```docker
+FROM ubuntu
+RUN apt-g
+```
 
 ## Hub
 
@@ -66,8 +70,8 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQzNjMwMjQsOTA4OTYzNjM3LDE4MD
-YyNzYwNTYsMjAwMjgxODQwNiwtMTgyNTA2NDQ5NCwxNDc5MDc3
-NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAwNjc5LD
-QwNDI5NjMwNSwtODU3NDM3MDM0XX0=
+eyJoaXN0b3J5IjpbMTI5NjU5MTc0NSwtMTI5NDM2MzAyNCw5MD
+g5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2LC0xODI1MDY0
+NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2MywtMTcyOTQ2OTk1Mi
+wzNjY5MDA2NzksNDA0Mjk2MzA1LC04NTc0MzcwMzRdfQ==
 -->
