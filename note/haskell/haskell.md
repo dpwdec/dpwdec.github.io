@@ -199,6 +199,7 @@ let half x = x / 2 in (half 4, half 10.2, half 3)
 You can **inline multiple `let` declarations** by separating the `let`s with `;` semicolons.
 ```haskell
 let square x = x * x; half x = x / 2 in (square 4, half 10.2, square 3, half (square 10))
+-- (16,5.1,9,50.0)
 ```
 
 
@@ -243,11 +244,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTEyMDc2NTMsLTY2MDgyMTU3NiwyMD
-k5MDkyNTIxLC0zMjU0NDY5OTYsLTEyNjM1NDg0MTMsLTk4Mzgy
-MjMyLDMwNjIwNjEyMCwxMTAwNjM5NjQ3LC01Njk4ODQxOTYsLT
-E5NjAyMTc3OSwxMTUzMzg5MzgzLC0zODQ1ODcyMTUsLTE3ODU2
-MTI3OCwxNTU4MDQyNTI4LDk2ODE2NjAwMiwtMTE1NTI4ODQ1LC
-02NDAxNTg4OTQsMTA4NzYxMTMxLDEwMTA5NTIwNDUsLTI0Mjg2
-NDI3MF19
+eyJoaXN0b3J5IjpbLTIwMDAxMzA5LC02NjA4MjE1NzYsMjA5OT
+A5MjUyMSwtMzI1NDQ2OTk2LC0xMjYzNTQ4NDEzLC05ODM4MjIz
+MiwzMDYyMDYxMjAsMTEwMDYzOTY0NywtNTY5ODg0MTk2LC0xOT
+YwMjE3NzksMTE1MzM4OTM4MywtMzg0NTg3MjE1LC0xNzg1NjEy
+NzgsMTU1ODA0MjUyOCw5NjgxNjYwMDIsLTExNTUyODg0NSwtNj
+QwMTU4ODk0LDEwODc2MTEzMSwxMDEwOTUyMDQ1LC0yNDI4NjQy
+NzBdfQ==
 -->
