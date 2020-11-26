@@ -47,7 +47,7 @@ The `MAINTAINER` directive has been **deprecated**. However if you can **add met
 LABEL maintainer="my_name@some-website.com"
 ```
 
-You can **build an image from your `Dockerfile`** using the `build` command.
+You can **build an image from your `Dockerfile`** using the `build` command. You can **pass this any filename** which contains valid docker instructions.
 ```bash
 $ docker build Dockerfile
 ```
@@ -80,9 +80,9 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzU2NTEzNTQsLTg5ODQwNTExOCwtMT
-I5NDM2MzAyNCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4
-NDA2LC0xODI1MDY0NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2My
-wtMTcyOTQ2OTk1MiwzNjY5MDA2NzksNDA0Mjk2MzA1LC04NTc0
-MzcwMzRdfQ==
+eyJoaXN0b3J5IjpbODM0NjA2MTYyLC04OTg0MDUxMTgsLTEyOT
+QzNjMwMjQsOTA4OTYzNjM3LDE4MDYyNzYwNTYsMjAwMjgxODQw
+NiwtMTgyNTA2NDQ5NCwxNDc5MDc3NTA2LDE1OTAxMjI5NjMsLT
+E3Mjk0Njk5NTIsMzY2OTAwNjc5LDQwNDI5NjMwNSwtODU3NDM3
+MDM0XX0=
 -->
