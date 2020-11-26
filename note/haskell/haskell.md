@@ -192,7 +192,7 @@ You can **use the `let` with `in`** pattern **almost anywhere** as an expression
 
 You can **define local functions** using it as well.
 ```haskell
-let half = x / 2 i
+let half x = x / 2 in (half 4, half 10.2, half 3)
 ```
 
 
@@ -237,11 +237,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NzAyMzA3NSwyMDk5MDkyNTIxLC0zMj
-U0NDY5OTYsLTEyNjM1NDg0MTMsLTk4MzgyMjMyLDMwNjIwNjEy
-MCwxMTAwNjM5NjQ3LC01Njk4ODQxOTYsLTE5NjAyMTc3OSwxMT
-UzMzg5MzgzLC0zODQ1ODcyMTUsLTE3ODU2MTI3OCwxNTU4MDQy
-NTI4LDk2ODE2NjAwMiwtMTE1NTI4ODQ1LC02NDAxNTg4OTQsMT
-A4NzYxMTMxLDEwMTA5NTIwNDUsLTI0Mjg2NDI3MCwtODI0ODEx
-ODBdfQ==
+eyJoaXN0b3J5IjpbMTE0NjA5Mjg5LDIwOTkwOTI1MjEsLTMyNT
+Q0Njk5NiwtMTI2MzU0ODQxMywtOTgzODIyMzIsMzA2MjA2MTIw
+LDExMDA2Mzk2NDcsLTU2OTg4NDE5NiwtMTk2MDIxNzc5LDExNT
+MzODkzODMsLTM4NDU4NzIxNSwtMTc4NTYxMjc4LDE1NTgwNDI1
+MjgsOTY4MTY2MDAyLC0xMTU1Mjg4NDUsLTY0MDE1ODg5NCwxMD
+g3NjExMzEsMTAxMDk1MjA0NSwtMjQyODY0MjcwLC04MjQ4MTE4
+MF19
 -->
