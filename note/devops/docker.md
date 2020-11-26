@@ -36,6 +36,8 @@ You can **base your docker image on an existing docker image** using the `FROM` 
 FROM <IMAGE_NAME>
 ```
 
+Y
+
 ## Hub
 
 You can **find existing images to use as a base for your custom images** by using the [Docker Hub](https://hub.docker.com/) service. It is possible to **host private docker image repositories** in your own infrastructure.
@@ -64,7 +66,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzI1NzM4NDYsOTA4OTYzNjM3LDE4MD
+eyJoaXN0b3J5IjpbLTEzMzUyNTUwMjcsOTA4OTYzNjM3LDE4MD
 YyNzYwNTYsMjAwMjgxODQwNiwtMTgyNTA2NDQ5NCwxNDc5MDc3
 NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAwNjc5LD
 QwNDI5NjMwNSwtODU3NDM3MDM0XX0=
