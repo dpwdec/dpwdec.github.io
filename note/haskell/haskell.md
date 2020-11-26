@@ -177,7 +177,7 @@ broken x = error "This function does not work!"
 The `let` keyword is used to define locally scoped variables, in contrast to `where` which is used to define variables across all the variants of a function. Variables defined by `let` do **not span across guard clauses**.
 
 You can **combine `let` with `in`** to use the variables defined in `let` expressions with other expressions. This much more like standard imperative programming, defining what you need before making use of it and returning a value.
-
+```haske
 
 
 ## Conditionals
@@ -221,11 +221,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTA5MjUyMSwtMzI1NDQ2OTk2LC0xMj
-YzNTQ4NDEzLC05ODM4MjIzMiwzMDYyMDYxMjAsMTEwMDYzOTY0
-NywtNTY5ODg0MTk2LC0xOTYwMjE3NzksMTE1MzM4OTM4MywtMz
-g0NTg3MjE1LC0xNzg1NjEyNzgsMTU1ODA0MjUyOCw5NjgxNjYw
-MDIsLTExNTUyODg0NSwtNjQwMTU4ODk0LDEwODc2MTEzMSwxMD
-EwOTUyMDQ1LC0yNDI4NjQyNzAsLTgyNDgxMTgwLC00MjAwNjY3
-OTNdfQ==
+eyJoaXN0b3J5IjpbLTIxMjE4MDYwMTksMjA5OTA5MjUyMSwtMz
+I1NDQ2OTk2LC0xMjYzNTQ4NDEzLC05ODM4MjIzMiwzMDYyMDYx
+MjAsMTEwMDYzOTY0NywtNTY5ODg0MTk2LC0xOTYwMjE3NzksMT
+E1MzM4OTM4MywtMzg0NTg3MjE1LC0xNzg1NjEyNzgsMTU1ODA0
+MjUyOCw5NjgxNjYwMDIsLTExNTUyODg0NSwtNjQwMTU4ODk0LD
+EwODc2MTEzMSwxMDEwOTUyMDQ1LC0yNDI4NjQyNzAsLTgyNDgx
+MTgwXX0=
 -->
