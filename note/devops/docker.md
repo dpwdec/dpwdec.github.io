@@ -29,9 +29,7 @@ $ docker images --no-trunc
 
 ## Dockerfile
 
-The `Dockerfile` allows you **to define a blueprint for an image**.
-
-Capatilization of docker directives like `FROM` and `RUN` is **not mandatory** however it is **best practice**.
+The `Dockerfile` allows you **to define a blueprint for an image**. Capatilization of docker directives like `FROM` and `RUN` is **not mandatory** however it is **best practice**.
 
 You can **base your docker image on an existing docker image** using the `FROM` command followed by the name of the image (this can be as it appears on services like dockerhub).
 ```docker
@@ -72,7 +70,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjEwMzA2NiwtMTI5NDM2MzAyNCw5MD
+eyJoaXN0b3J5IjpbLTg5ODQwNTExOCwtMTI5NDM2MzAyNCw5MD
 g5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2LC0xODI1MDY0
 NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2MywtMTcyOTQ2OTk1Mi
 wzNjY5MDA2NzksNDA0Mjk2MzA1LC04NTc0MzcwMzRdfQ==
