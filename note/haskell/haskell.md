@@ -227,7 +227,7 @@ initials names = [strip f l | (f, l) <- names]
 where strip firstname lastname = [head firstname] ++  "."  ++ [head lastname]
 ```
 
-You can **nest `where` blocks within functions**
+You can **nest `where` blocks within functions**.
 
 
 ## Conditionals
@@ -271,11 +271,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwMjI3MzQsMzA2MjA2MTIwLDExMDA2Mz
-k2NDcsLTU2OTg4NDE5NiwtMTk2MDIxNzc5LDExNTMzODkzODMs
-LTM4NDU4NzIxNSwtMTc4NTYxMjc4LDE1NTgwNDI1MjgsOTY4MT
-Y2MDAyLC0xMTU1Mjg4NDUsLTY0MDE1ODg5NCwxMDg3NjExMzEs
-MTAxMDk1MjA0NSwtMjQyODY0MjcwLC04MjQ4MTE4MCwtNDIwMD
-Y2NzkzLDUwNDcxNDAzMywtNDMyMTI0MTQ4LDIzMzg3ODI4N119
-
+eyJoaXN0b3J5IjpbLTk4MzgyMjMyLDMwNjIwNjEyMCwxMTAwNj
+M5NjQ3LC01Njk4ODQxOTYsLTE5NjAyMTc3OSwxMTUzMzg5Mzgz
+LC0zODQ1ODcyMTUsLTE3ODU2MTI3OCwxNTU4MDQyNTI4LDk2OD
+E2NjAwMiwtMTE1NTI4ODQ1LC02NDAxNTg4OTQsMTA4NzYxMTMx
+LDEwMTA5NTIwNDUsLTI0Mjg2NDI3MCwtODI0ODExODAsLTQyMD
+A2Njc5Myw1MDQ3MTQwMzMsLTQzMjEyNDE0OCwyMzM4NzgyODdd
+fQ==
 -->
