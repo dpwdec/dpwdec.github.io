@@ -208,7 +208,7 @@ let (a, b, c) = (2, 4, 6) in a + b + c
 -- 12
 ```
 
-You can **use `let` with list comprehensions** to define variables and functions within the comprehensions scope. You can **use the output from the list destructuring directly in the `let` block** as part of its scope. In the example below `square` uses the output of `x <- [1..10]` directly
+You can **use `let` with list comprehensions** to define variables and functions within the comprehensions scope. You can **use the output from the list destructuring directly in the `let` block** as part of its scope. In the example below `square` uses the output of `x <- [1..10]` directly. You don't need `in` here because the context is implicit by being placed in a list comprehension.
 ```haskell
 [square | x <- [1..10], let square = x * x]
 -- [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
@@ -258,11 +258,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU2MjY4NDgsOTkzNDYxODIsMjAxOD
-MzNzcsLTY2MDgyMTU3NiwyMDk5MDkyNTIxLC0zMjU0NDY5OTYs
-LTEyNjM1NDg0MTMsLTk4MzgyMjMyLDMwNjIwNjEyMCwxMTAwNj
-M5NjQ3LC01Njk4ODQxOTYsLTE5NjAyMTc3OSwxMTUzMzg5Mzgz
-LC0zODQ1ODcyMTUsLTE3ODU2MTI3OCwxNTU4MDQyNTI4LDk2OD
-E2NjAwMiwtMTE1NTI4ODQ1LC02NDAxNTg4OTQsMTA4NzYxMTMx
-XX0=
+eyJoaXN0b3J5IjpbLTE1MDcwNzkwMDAsLTE4ODU2MjY4NDgsOT
+kzNDYxODIsMjAxODMzNzcsLTY2MDgyMTU3NiwyMDk5MDkyNTIx
+LC0zMjU0NDY5OTYsLTEyNjM1NDg0MTMsLTk4MzgyMjMyLDMwNj
+IwNjEyMCwxMTAwNjM5NjQ3LC01Njk4ODQxOTYsLTE5NjAyMTc3
+OSwxMTUzMzg5MzgzLC0zODQ1ODcyMTUsLTE3ODU2MTI3OCwxNT
+U4MDQyNTI4LDk2ODE2NjAwMiwtMTE1NTI4ODQ1LC02NDAxNTg4
+OTRdfQ==
 -->
