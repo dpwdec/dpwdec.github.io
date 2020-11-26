@@ -240,7 +240,11 @@ pattern x = case x of x > 0 -> "Not negative"
 -- ERROR
 ```
 
-However you **can use `case` to match the result of an expression** and do
+However you **can use `case` to match the result of an expression** and do something.
+```haskell
+pattern x = case x > 0 of True -> "Not negative"
+						  False -> "Is negative!"
+```
 
 
 ## Conditionals
@@ -284,7 +288,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDUwMzU4MDksMTU0MjQ2NDYwOSwtNT
+eyJoaXN0b3J5IjpbLTIxNDAwMDk0ODIsMTU0MjQ2NDYwOSwtNT
 IxMjczMTIsLTE1MDcwNzkwMDAsLTE4ODU2MjY4NDgsOTkzNDYx
 ODIsMjAxODMzNzcsLTY2MDgyMTU3NiwyMDk5MDkyNTIxLC0zMj
 U0NDY5OTYsLTEyNjM1NDg0MTMsLTk4MzgyMjMyLDMwNjIwNjEy
