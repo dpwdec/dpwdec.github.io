@@ -31,7 +31,7 @@ $ docker images --no-trunc
 
 The `Dockerfile` allows you **to define a blueprint for an image**.
 
-You can **base your docker image on an existing docker image** using the `FROM` command followed by the name of the image.
+You can **base your docker image on an existing docker image** using the `FROM` command followed by the name of the image (this can be as it appears on services like dockerhub).
 ```docker
 FROM <IMAGE_NAME>
 ```
@@ -64,8 +64,8 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTA0MDc0Miw5MDg5NjM2MzcsMTgwNj
-I3NjA1NiwyMDAyODE4NDA2LC0xODI1MDY0NDk0LDE0NzkwNzc1
-MDYsMTU5MDEyMjk2MywtMTcyOTQ2OTk1MiwzNjY5MDA2NzksND
-A0Mjk2MzA1LC04NTc0MzcwMzRdfQ==
+eyJoaXN0b3J5IjpbLTE3MzI1NzM4NDYsOTA4OTYzNjM3LDE4MD
+YyNzYwNTYsMjAwMjgxODQwNiwtMTgyNTA2NDQ5NCwxNDc5MDc3
+NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAwNjc5LD
+QwNDI5NjMwNSwtODU3NDM3MDM0XX0=
 -->
