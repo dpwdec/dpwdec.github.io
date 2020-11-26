@@ -227,7 +227,17 @@ case expression of pattern -> result
 				   pattern -> result
 ```
 
+The example below demonstrates **explicit `case` based pattern matching**.
+```haskell
+head' :: [a] -> a
+head' xs = case xs of [] -> error "No head for empty lists!"
+                      (x:_) -> x
+```
 
+You **cannot use boolean expressions** with `case`.
+```haskell
+
+```
 
 
 ## Conditionals
@@ -271,11 +281,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQxOTc0NDgsLTUyMTI3MzEyLC0xNT
-A3MDc5MDAwLC0xODg1NjI2ODQ4LDk5MzQ2MTgyLDIwMTgzMzc3
-LC02NjA4MjE1NzYsMjA5OTA5MjUyMSwtMzI1NDQ2OTk2LC0xMj
-YzNTQ4NDEzLC05ODM4MjIzMiwzMDYyMDYxMjAsMTEwMDYzOTY0
-NywtNTY5ODg0MTk2LC0xOTYwMjE3NzksMTE1MzM4OTM4MywtMz
-g0NTg3MjE1LC0xNzg1NjEyNzgsMTU1ODA0MjUyOCw5NjgxNjYw
-MDJdfQ==
+eyJoaXN0b3J5IjpbMTU0MjQ2NDYwOSwtNTIxMjczMTIsLTE1MD
+cwNzkwMDAsLTE4ODU2MjY4NDgsOTkzNDYxODIsMjAxODMzNzcs
+LTY2MDgyMTU3NiwyMDk5MDkyNTIxLC0zMjU0NDY5OTYsLTEyNj
+M1NDg0MTMsLTk4MzgyMjMyLDMwNjIwNjEyMCwxMTAwNjM5NjQ3
+LC01Njk4ODQxOTYsLTE5NjAyMTc3OSwxMTUzMzg5MzgzLC0zOD
+Q1ODcyMTUsLTE3ODU2MTI3OCwxNTU4MDQyNTI4LDk2ODE2NjAw
+Ml19
 -->
