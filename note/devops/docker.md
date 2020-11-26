@@ -42,6 +42,8 @@ FROM ubuntu
 RUN apt-get install -y python3
 ```
 
+The `MAINTAINER` directive has been **deprecated**. However if you can **add meta to your dockerfile** using the `LABEL` directive.
+
 ## Hub
 
 You can **find existing images to use as a base for your custom images** by using the [Docker Hub](https://hub.docker.com/) service. It is possible to **host private docker image repositories** in your own infrastructure.
@@ -70,8 +72,9 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODQwNTExOCwtMTI5NDM2MzAyNCw5MD
-g5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2LC0xODI1MDY0
-NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2MywtMTcyOTQ2OTk1Mi
-wzNjY5MDA2NzksNDA0Mjk2MzA1LC04NTc0MzcwMzRdfQ==
+eyJoaXN0b3J5IjpbLTcwOTY1MDcxNywtODk4NDA1MTE4LC0xMj
+k0MzYzMDI0LDkwODk2MzYzNywxODA2Mjc2MDU2LDIwMDI4MTg0
+MDYsLTE4MjUwNjQ0OTQsMTQ3OTA3NzUwNiwxNTkwMTIyOTYzLC
+0xNzI5NDY5OTUyLDM2NjkwMDY3OSw0MDQyOTYzMDUsLTg1NzQz
+NzAzNF19
 -->
