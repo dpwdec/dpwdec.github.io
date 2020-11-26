@@ -4,6 +4,11 @@ exclude: true
 title: Bash
 ---
 
+You can **check if a variable is null** using the `-z` operator. This **returns true if the argument IS null**.
+```bash
+test -z $MY_VAR
+```
+
 ## Scripts
 
 You can **create a bash script** by giving a file the `.sh` extension.
@@ -27,5 +32,5 @@ $ sh my_script.sh
 $ bash my_script.sh
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2NjAzNDQxXX0=
+eyJoaXN0b3J5IjpbLTIzMDE3NDk5LDcwNjYwMzQ0MV19
 -->
