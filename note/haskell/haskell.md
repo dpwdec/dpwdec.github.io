@@ -215,6 +215,9 @@ rename x
 ```
 
 You can **use pattern matching inside a `where` block**.
+```haskell
+
+```
 
 
 ## Conditionals
@@ -258,7 +261,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3MjUxNDEyLC01Njk4ODQxOTYsLTE5Nj
+eyJoaXN0b3J5IjpbNzQxMzEwOTIyLC01Njk4ODQxOTYsLTE5Nj
 AyMTc3OSwxMTUzMzg5MzgzLC0zODQ1ODcyMTUsLTE3ODU2MTI3
 OCwxNTU4MDQyNTI4LDk2ODE2NjAwMiwtMTE1NTI4ODQ1LC02ND
 AxNTg4OTQsMTA4NzYxMTMxLDEwMTA5NTIwNDUsLTI0Mjg2NDI3
