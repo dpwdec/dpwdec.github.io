@@ -212,7 +212,8 @@ You can **use `let` with list comprehensions** to define variables and functions
 ```haskell
 [square | x <- [1..10], let square = x * x]
 -- [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
--- Can be rewritten with explicit argumen
+-- Can be rewritten with explicit arguments as:
+[square x | x <- [1..10], let square x' = x' * x']
 ```
 
 
@@ -257,11 +258,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODExMTcxMSw5OTM0NjE4MiwyMDE4Mz
-M3NywtNjYwODIxNTc2LDIwOTkwOTI1MjEsLTMyNTQ0Njk5Niwt
-MTI2MzU0ODQxMywtOTgzODIyMzIsMzA2MjA2MTIwLDExMDA2Mz
-k2NDcsLTU2OTg4NDE5NiwtMTk2MDIxNzc5LDExNTMzODkzODMs
-LTM4NDU4NzIxNSwtMTc4NTYxMjc4LDE1NTgwNDI1MjgsOTY4MT
-Y2MDAyLC0xMTU1Mjg4NDUsLTY0MDE1ODg5NCwxMDg3NjExMzFd
-fQ==
+eyJoaXN0b3J5IjpbLTE4ODU2MjY4NDgsOTkzNDYxODIsMjAxOD
+MzNzcsLTY2MDgyMTU3NiwyMDk5MDkyNTIxLC0zMjU0NDY5OTYs
+LTEyNjM1NDg0MTMsLTk4MzgyMjMyLDMwNjIwNjEyMCwxMTAwNj
+M5NjQ3LC01Njk4ODQxOTYsLTE5NjAyMTc3OSwxMTUzMzg5Mzgz
+LC0zODQ1ODcyMTUsLTE3ODU2MTI3OCwxNTU4MDQyNTI4LDk2OD
+E2NjAwMiwtMTE1NTI4ODQ1LC02NDAxNTg4OTQsMTA4NzYxMTMx
+XX0=
 -->
