@@ -197,7 +197,9 @@ let half x = x / 2 in (half 4, half 10.2, half 3)
 ```
 
 You can **inline multiple `let` declarations** by separating the `let`s with `;` semicolons.
-`
+```haskell
+
+```
 
 
 ## Conditionals
@@ -241,11 +243,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwMzE3NjA3LC02NjA4MjE1NzYsMjA5OT
-A5MjUyMSwtMzI1NDQ2OTk2LC0xMjYzNTQ4NDEzLC05ODM4MjIz
-MiwzMDYyMDYxMjAsMTEwMDYzOTY0NywtNTY5ODg0MTk2LC0xOT
-YwMjE3NzksMTE1MzM4OTM4MywtMzg0NTg3MjE1LC0xNzg1NjEy
-NzgsMTU1ODA0MjUyOCw5NjgxNjYwMDIsLTExNTUyODg0NSwtNj
-QwMTU4ODk0LDEwODc2MTEzMSwxMDEwOTUyMDQ1LC0yNDI4NjQy
-NzBdfQ==
+eyJoaXN0b3J5IjpbLTc0MTk1MjkxMywtNjYwODIxNTc2LDIwOT
+kwOTI1MjEsLTMyNTQ0Njk5NiwtMTI2MzU0ODQxMywtOTgzODIy
+MzIsMzA2MjA2MTIwLDExMDA2Mzk2NDcsLTU2OTg4NDE5NiwtMT
+k2MDIxNzc5LDExNTMzODkzODMsLTM4NDU4NzIxNSwtMTc4NTYx
+Mjc4LDE1NTgwNDI1MjgsOTY4MTY2MDAyLC0xMTU1Mjg4NDUsLT
+Y0MDE1ODg5NCwxMDg3NjExMzEsMTAxMDk1MjA0NSwtMjQyODY0
+MjcwXX0=
 -->
