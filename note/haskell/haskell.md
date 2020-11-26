@@ -172,21 +172,6 @@ You can **trigger a haskell error** with an error message by using then `error` 
 broken x = error "This function does not work!"
 ```
 
-## Guards
-
-Guard conditions allow you to **express function branches using boolean expressions** instead of pattern matching. Guard conditions are expressed with a set of aligned `|` characters followed by the condition and assignment to the function body.
-
-If a **condition evaluates to false** it **falls through to the next expression**. 
-
-To **catch all other cases** it's a convention to use an `otherwise` variable.
-```haskell
-numberSize :: (Integral a) => a -> String
-numberSize x
-          | x < 0     = "Negative"
-          | x <= 20   = "Twenty or less"
-          | otherwise = "Bigger than twenty"
-```
-
 ## Where
 
 You can **set variables to be used in functions and guard conditionals** by using the `where` operator. This also called **binding**, because you are binding some information to the context of the function. In the example below the use of `where` allows use to only write the `length x` expression *once* and assign it to a variable that can then be used with each guard clause of the function.
@@ -273,11 +258,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjM1NDg0MTMsLTk4MzgyMjMyLDMwNj
-IwNjEyMCwxMTAwNjM5NjQ3LC01Njk4ODQxOTYsLTE5NjAyMTc3
-OSwxMTUzMzg5MzgzLC0zODQ1ODcyMTUsLTE3ODU2MTI3OCwxNT
-U4MDQyNTI4LDk2ODE2NjAwMiwtMTE1NTI4ODQ1LC02NDAxNTg4
-OTQsMTA4NzYxMTMxLDEwMTA5NTIwNDUsLTI0Mjg2NDI3MCwtOD
-I0ODExODAsLTQyMDA2Njc5Myw1MDQ3MTQwMzMsLTQzMjEyNDE0
-OF19
+eyJoaXN0b3J5IjpbLTI3NjMxMTU5MywtMTI2MzU0ODQxMywtOT
+gzODIyMzIsMzA2MjA2MTIwLDExMDA2Mzk2NDcsLTU2OTg4NDE5
+NiwtMTk2MDIxNzc5LDExNTMzODkzODMsLTM4NDU4NzIxNSwtMT
+c4NTYxMjc4LDE1NTgwNDI1MjgsOTY4MTY2MDAyLC0xMTU1Mjg4
+NDUsLTY0MDE1ODg5NCwxMDg3NjExMzEsMTAxMDk1MjA0NSwtMj
+QyODY0MjcwLC04MjQ4MTE4MCwtNDIwMDY2NzkzLDUwNDcxNDAz
+M119
 -->
