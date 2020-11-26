@@ -196,6 +196,8 @@ let half x = x / 2 in (half 4, half 10.2, half 3)
 -- (2.0, 5.1, 1.5)
 ```
 
+You can **inline multiple **
+
 
 ## Conditionals
 
@@ -238,7 +240,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTE0ODA5MCwyMDk5MDkyNTIxLC0zMj
+eyJoaXN0b3J5IjpbLTY2MDgyMTU3NiwyMDk5MDkyNTIxLC0zMj
 U0NDY5OTYsLTEyNjM1NDg0MTMsLTk4MzgyMjMyLDMwNjIwNjEy
 MCwxMTAwNjM5NjQ3LC01Njk4ODQxOTYsLTE5NjAyMTc3OSwxMT
 UzMzg5MzgzLC0zODQ1ODcyMTUsLTE3ODU2MTI3OCwxNTU4MDQy
