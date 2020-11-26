@@ -48,8 +48,8 @@ LABEL maintainer="my_name@some-website.com"
 ```
 
 You can **build an image from your `Dockerfile`** using the `build` command.
-```docker
-
+```bash
+$ docker build Dockerfile
 ```
 
 ## Hub
@@ -80,7 +80,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU3NjkxNTgsLTg5ODQwNTExOCwtMT
+eyJoaXN0b3J5IjpbLTExMzU2NTEzNTQsLTg5ODQwNTExOCwtMT
 I5NDM2MzAyNCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4
 NDA2LC0xODI1MDY0NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2My
 wtMTcyOTQ2OTk1MiwzNjY5MDA2NzksNDA0Mjk2MzA1LC04NTc0
