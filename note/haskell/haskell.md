@@ -202,6 +202,11 @@ let square x = x * x; half x = x / 2 in (square 4, half 10.2, square 3, half (sq
 -- (16, 5.1, 9, 50.0)
 ```
 
+You can **pattern match and destructure** using `let` expressions.
+```haskell
+
+```
+
 
 ## Conditionals
 
@@ -244,11 +249,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODMzNzcsLTY2MDgyMTU3NiwyMDk5MD
-kyNTIxLC0zMjU0NDY5OTYsLTEyNjM1NDg0MTMsLTk4MzgyMjMy
-LDMwNjIwNjEyMCwxMTAwNjM5NjQ3LC01Njk4ODQxOTYsLTE5Nj
-AyMTc3OSwxMTUzMzg5MzgzLC0zODQ1ODcyMTUsLTE3ODU2MTI3
-OCwxNTU4MDQyNTI4LDk2ODE2NjAwMiwtMTE1NTI4ODQ1LC02ND
-AxNTg4OTQsMTA4NzYxMTMxLDEwMTA5NTIwNDUsLTI0Mjg2NDI3
-MF19
+eyJoaXN0b3J5IjpbMTkyODMwOTE5NiwyMDE4MzM3NywtNjYwOD
+IxNTc2LDIwOTkwOTI1MjEsLTMyNTQ0Njk5NiwtMTI2MzU0ODQx
+MywtOTgzODIyMzIsMzA2MjA2MTIwLDExMDA2Mzk2NDcsLTU2OT
+g4NDE5NiwtMTk2MDIxNzc5LDExNTMzODkzODMsLTM4NDU4NzIx
+NSwtMTc4NTYxMjc4LDE1NTgwNDI1MjgsOTY4MTY2MDAyLC0xMT
+U1Mjg4NDUsLTY0MDE1ODg5NCwxMDg3NjExMzEsMTAxMDk1MjA0
+NV19
 -->
