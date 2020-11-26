@@ -220,6 +220,7 @@ You can **use `let` with list comprehensions** to define variables and functions
 
 
 
+
 ## Conditionals
 
 ## Indenting
@@ -261,7 +262,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTY5MDY4NywtMTUwNzA3OTAwMCwtMT
+eyJoaXN0b3J5IjpbMTMwNjY2OTU4NywtMTUwNzA3OTAwMCwtMT
 g4NTYyNjg0OCw5OTM0NjE4MiwyMDE4MzM3NywtNjYwODIxNTc2
 LDIwOTkwOTI1MjEsLTMyNTQ0Njk5NiwtMTI2MzU0ODQxMywtOT
 gzODIyMzIsMzA2MjA2MTIwLDExMDA2Mzk2NDcsLTU2OTg4NDE5
