@@ -205,7 +205,7 @@ let square x = x * x; half x = x / 2 in (square 4, half 10.2, square 3, half (sq
 You can **pattern match and destructure** using `let` expressions.
 ```haskell
 let (a, b, c) = (2, 4, 6) in a + b + c
-
+-- 16
 ```
 
 
@@ -250,7 +250,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjE2MTY2MSwyMDE4MzM3NywtNjYwOD
+eyJoaXN0b3J5IjpbMjEwODcyNDg2NiwyMDE4MzM3NywtNjYwOD
 IxNTc2LDIwOTkwOTI1MjEsLTMyNTQ0Njk5NiwtMTI2MzU0ODQx
 MywtOTgzODIyMzIsMzA2MjA2MTIwLDExMDA2Mzk2NDcsLTU2OT
 g4NDE5NiwtMTk2MDIxNzc5LDExNTMzODkzODMsLTM4NDU4NzIx
