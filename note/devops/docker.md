@@ -36,7 +36,7 @@ You can **base your docker image on an existing docker image** using the `FROM` 
 FROM <IMAGE_NAME>
 ```
 
-Y
+You can **customise your image** by using the `RUN` command to 
 
 ## Hub
 
@@ -66,7 +66,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzUyNTUwMjcsOTA4OTYzNjM3LDE4MD
+eyJoaXN0b3J5IjpbLTEyOTQzNjMwMjQsOTA4OTYzNjM3LDE4MD
 YyNzYwNTYsMjAwMjgxODQwNiwtMTgyNTA2NDQ5NCwxNDc5MDc3
 NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAwNjc5LD
 QwNDI5NjMwNSwtODU3NDM3MDM0XX0=
