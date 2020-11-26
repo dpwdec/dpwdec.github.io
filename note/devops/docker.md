@@ -59,7 +59,7 @@ You can also use `.` syntax if you are in a folder with a valid `Dockerfile`.
 $ docker build .
 ```
 
-Each step of docker bu
+After each step of docker build **produces an intermediate docker image** that is then removed before the next step is ready to run.
 
 ## Hub
 
@@ -89,9 +89,9 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjY2OTkyMyw1NDM2NTUxNTcsLTg5OD
-QwNTExOCwtMTI5NDM2MzAyNCw5MDg5NjM2MzcsMTgwNjI3NjA1
-NiwyMDAyODE4NDA2LC0xODI1MDY0NDk0LDE0NzkwNzc1MDYsMT
-U5MDEyMjk2MywtMTcyOTQ2OTk1MiwzNjY5MDA2NzksNDA0Mjk2
-MzA1LC04NTc0MzcwMzRdfQ==
+eyJoaXN0b3J5IjpbNzgzNzMyNjQsNTQzNjU1MTU3LC04OTg0MD
+UxMTgsLTEyOTQzNjMwMjQsOTA4OTYzNjM3LDE4MDYyNzYwNTYs
+MjAwMjgxODQwNiwtMTgyNTA2NDQ5NCwxNDc5MDc3NTA2LDE1OT
+AxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAwNjc5LDQwNDI5NjMw
+NSwtODU3NDM3MDM0XX0=
 -->
