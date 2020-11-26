@@ -220,7 +220,10 @@ where y = length x
       (nothing, small, medium) = (0, 5, 10)
 ```
 
-You can **define functions inside a `where` block** that can be used in the context of your 
+You can **define functions inside a `where` block** that can be used in the context of your main function.
+```haskell
+
+```
 
 
 ## Conditionals
@@ -264,11 +267,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTEyMjU2NywxMTAwNjM5NjQ3LC01Nj
-k4ODQxOTYsLTE5NjAyMTc3OSwxMTUzMzg5MzgzLC0zODQ1ODcy
-MTUsLTE3ODU2MTI3OCwxNTU4MDQyNTI4LDk2ODE2NjAwMiwtMT
-E1NTI4ODQ1LC02NDAxNTg4OTQsMTA4NzYxMTMxLDEwMTA5NTIw
-NDUsLTI0Mjg2NDI3MCwtODI0ODExODAsLTQyMDA2Njc5Myw1MD
-Q3MTQwMzMsLTQzMjEyNDE0OCwyMzM4NzgyODcsLTQ2MzAwNDA4
-NF19
+eyJoaXN0b3J5IjpbMzA2MjA2MTIwLDExMDA2Mzk2NDcsLTU2OT
+g4NDE5NiwtMTk2MDIxNzc5LDExNTMzODkzODMsLTM4NDU4NzIx
+NSwtMTc4NTYxMjc4LDE1NTgwNDI1MjgsOTY4MTY2MDAyLC0xMT
+U1Mjg4NDUsLTY0MDE1ODg5NCwxMDg3NjExMzEsMTAxMDk1MjA0
+NSwtMjQyODY0MjcwLC04MjQ4MTE4MCwtNDIwMDY2NzkzLDUwND
+cxNDAzMywtNDMyMTI0MTQ4LDIzMzg3ODI4NywtNDYzMDA0MDg0
+XX0=
 -->
