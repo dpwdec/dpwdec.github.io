@@ -218,7 +218,7 @@ You can **use `let` with list comprehensions** to define variables and functions
 
 ## Cases
 
-`case` statements are the actual Haskell language feature that syntactical features like pattern matching is based on.
+`case` statements are the actual Haskell language feature that syntactical features like pattern matching is based on. The `case` statement takes a structure, pattern matches it and executes an expression.
 
 You can **create a `case` statement** using the following format. Each branch of the case statement **must be aligned**.
 ```haskell
@@ -226,6 +226,8 @@ case expression of pattern -> result
 				   pattern -> result
 				   pattern -> result
 ```
+
+
 
 
 ## Conditionals
@@ -269,11 +271,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTI3MzEyLC0xNTA3MDc5MDAwLC0xOD
-g1NjI2ODQ4LDk5MzQ2MTgyLDIwMTgzMzc3LC02NjA4MjE1NzYs
-MjA5OTA5MjUyMSwtMzI1NDQ2OTk2LC0xMjYzNTQ4NDEzLC05OD
-M4MjIzMiwzMDYyMDYxMjAsMTEwMDYzOTY0NywtNTY5ODg0MTk2
-LC0xOTYwMjE3NzksMTE1MzM4OTM4MywtMzg0NTg3MjE1LC0xNz
-g1NjEyNzgsMTU1ODA0MjUyOCw5NjgxNjYwMDIsLTExNTUyODg0
-NV19
+eyJoaXN0b3J5IjpbLTE3NzQxOTc0NDgsLTUyMTI3MzEyLC0xNT
+A3MDc5MDAwLC0xODg1NjI2ODQ4LDk5MzQ2MTgyLDIwMTgzMzc3
+LC02NjA4MjE1NzYsMjA5OTA5MjUyMSwtMzI1NDQ2OTk2LC0xMj
+YzNTQ4NDEzLC05ODM4MjIzMiwzMDYyMDYxMjAsMTEwMDYzOTY0
+NywtNTY5ODg0MTk2LC0xOTYwMjE3NzksMTE1MzM4OTM4MywtMz
+g0NTg3MjE1LC0xNzg1NjEyNzgsMTU1ODA0MjUyOCw5NjgxNjYw
+MDJdfQ==
 -->
