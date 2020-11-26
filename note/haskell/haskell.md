@@ -208,7 +208,7 @@ let (a, b, c) = (2, 4, 6) in a + b + c
 -- 12
 ```
 
-You can
+You can **use `let` with list comprehensions**
 
 
 ## Conditionals
@@ -252,7 +252,7 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDc4MDA4Myw5OTM0NjE4MiwyMDE4Mz
+eyJoaXN0b3J5IjpbMTI1ODgzMDY2Miw5OTM0NjE4MiwyMDE4Mz
 M3NywtNjYwODIxNTc2LDIwOTkwOTI1MjEsLTMyNTQ0Njk5Niwt
 MTI2MzU0ODQxMywtOTgzODIyMzIsMzA2MjA2MTIwLDExMDA2Mz
 k2NDcsLTU2OTg4NDE5NiwtMTk2MDIxNzc5LDExNTMzODkzODMs
