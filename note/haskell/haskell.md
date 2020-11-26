@@ -172,11 +172,11 @@ You can **trigger a haskell error** with an error message by using then `error` 
 broken x = error "This function does not work!"
 ```
 
-## Let
+## Let / In
 
 The `let` keyword is used to define locally scoped variables, in contrast to `where` which is used to define variables across all the variants of a function. Variables defined by `let` do **not span across guard clauses**.
 
-
+You can **combine `let` with `in`** to use the variables defined in `let` expressions with other expressions. This much more like standard imperative programming, defining what you need before making i
 
 
 ## Conditionals
@@ -220,11 +220,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTQ0Njk5NiwtMTI2MzU0ODQxMywtOT
-gzODIyMzIsMzA2MjA2MTIwLDExMDA2Mzk2NDcsLTU2OTg4NDE5
-NiwtMTk2MDIxNzc5LDExNTMzODkzODMsLTM4NDU4NzIxNSwtMT
-c4NTYxMjc4LDE1NTgwNDI1MjgsOTY4MTY2MDAyLC0xMTU1Mjg4
-NDUsLTY0MDE1ODg5NCwxMDg3NjExMzEsMTAxMDk1MjA0NSwtMj
-QyODY0MjcwLC04MjQ4MTE4MCwtNDIwMDY2NzkzLDUwNDcxNDAz
-M119
+eyJoaXN0b3J5IjpbLTQwOTc4Mjc2NiwtMzI1NDQ2OTk2LC0xMj
+YzNTQ4NDEzLC05ODM4MjIzMiwzMDYyMDYxMjAsMTEwMDYzOTY0
+NywtNTY5ODg0MTk2LC0xOTYwMjE3NzksMTE1MzM4OTM4MywtMz
+g0NTg3MjE1LC0xNzg1NjEyNzgsMTU1ODA0MjUyOCw5NjgxNjYw
+MDIsLTExNTUyODg0NSwtNjQwMTU4ODk0LDEwODc2MTEzMSwxMD
+EwOTUyMDQ1LC0yNDI4NjQyNzAsLTgyNDgxMTgwLC00MjAwNjY3
+OTNdfQ==
 -->
