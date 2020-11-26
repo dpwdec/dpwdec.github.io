@@ -31,6 +31,8 @@ $ docker images --no-trunc
 
 The `Dockerfile` allows you **to define a blueprint for an image**.
 
+Capatilization of docker directives like `FROM` and `RUN` is **not mandatory** however it is **best practice**.
+
 You can **base your docker image on an existing docker image** using the `FROM` command followed by the name of the image (this can be as it appears on services like dockerhub).
 ```docker
 FROM <IMAGE_NAME>
@@ -70,8 +72,8 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1NTU0NjI4LC0xMjk0MzYzMDI0LDkwOD
-k2MzYzNywxODA2Mjc2MDU2LDIwMDI4MTg0MDYsLTE4MjUwNjQ0
-OTQsMTQ3OTA3NzUwNiwxNTkwMTIyOTYzLC0xNzI5NDY5OTUyLD
-M2NjkwMDY3OSw0MDQyOTYzMDUsLTg1NzQzNzAzNF19
+eyJoaXN0b3J5IjpbMjEzNjEwMzA2NiwtMTI5NDM2MzAyNCw5MD
+g5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2LC0xODI1MDY0
+NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2MywtMTcyOTQ2OTk1Mi
+wzNjY5MDA2NzksNDA0Mjk2MzA1LC04NTc0MzcwMzRdfQ==
 -->
