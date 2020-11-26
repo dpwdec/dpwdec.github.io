@@ -39,7 +39,7 @@ FROM <IMAGE_NAME>
 You can **customise your image** by using the `RUN` command to execute a command in the environment that the image is based on. In the example below the dockerfile starts from the ubuntu environment and installs python.
 ```docker
 FROM ubuntu
-RUN apt-g
+RUN apt-get install -y python3
 ```
 
 ## Hub
@@ -70,8 +70,8 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NjU5MTc0NSwtMTI5NDM2MzAyNCw5MD
-g5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2LC0xODI1MDY0
-NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2MywtMTcyOTQ2OTk1Mi
-wzNjY5MDA2NzksNDA0Mjk2MzA1LC04NTc0MzcwMzRdfQ==
+eyJoaXN0b3J5IjpbNDg1NTU0NjI4LC0xMjk0MzYzMDI0LDkwOD
+k2MzYzNywxODA2Mjc2MDU2LDIwMDI4MTg0MDYsLTE4MjUwNjQ0
+OTQsMTQ3OTA3NzUwNiwxNTkwMTIyOTYzLC0xNzI5NDY5OTUyLD
+M2NjkwMDY3OSw0MDQyOTYzMDUsLTg1NzQzNzAzNF19
 -->
