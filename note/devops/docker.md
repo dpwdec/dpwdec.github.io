@@ -52,6 +52,11 @@ You can **build an image from your `Dockerfile`** using the `build` command. You
 $ docker build Dockerfile
 ```
 
+You can also use `.` syntax if you are in a folder with a valid `Dockerfile`.
+```bash
+$ docker build .
+```
+
 ## Hub
 
 You can **find existing images to use as a base for your custom images** by using the [Docker Hub](https://hub.docker.com/) service. It is possible to **host private docker image repositories** in your own infrastructure.
@@ -80,7 +85,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0NjA2MTYyLC04OTg0MDUxMTgsLTEyOT
+eyJoaXN0b3J5IjpbNTQzNjU1MTU3LC04OTg0MDUxMTgsLTEyOT
 QzNjMwMjQsOTA4OTYzNjM3LDE4MDYyNzYwNTYsMjAwMjgxODQw
 NiwtMTgyNTA2NDQ5NCwxNDc5MDc3NTA2LDE1OTAxMjI5NjMsLT
 E3Mjk0Njk5NTIsMzY2OTAwNjc5LDQwNDI5NjMwNSwtODU3NDM3
