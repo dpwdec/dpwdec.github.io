@@ -47,6 +47,11 @@ The `MAINTAINER` directive has been **deprecated**. However if you can **add met
 LABEL maintainer="my_name@some-website.com"
 ```
 
+You can **build an image from your `Dockerfile`** using the `build` command.
+```docker
+
+```
+
 ## Hub
 
 You can **find existing images to use as a base for your custom images** by using the [Docker Hub](https://hub.docker.com/) service. It is possible to **host private docker image repositories** in your own infrastructure.
@@ -75,9 +80,9 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTA5OTk5NiwtODk4NDA1MTE4LC0xMj
-k0MzYzMDI0LDkwODk2MzYzNywxODA2Mjc2MDU2LDIwMDI4MTg0
-MDYsLTE4MjUwNjQ0OTQsMTQ3OTA3NzUwNiwxNTkwMTIyOTYzLC
-0xNzI5NDY5OTUyLDM2NjkwMDY3OSw0MDQyOTYzMDUsLTg1NzQz
-NzAzNF19
+eyJoaXN0b3J5IjpbLTE4NzU3NjkxNTgsLTg5ODQwNTExOCwtMT
+I5NDM2MzAyNCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4
+NDA2LC0xODI1MDY0NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2My
+wtMTcyOTQ2OTk1MiwzNjY5MDA2NzksNDA0Mjk2MzA1LC04NTc0
+MzcwMzRdfQ==
 -->
