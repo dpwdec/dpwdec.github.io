@@ -187,8 +187,10 @@ addTwoThree x y =
 You can **use the `let` with `in`** pattern **almost anywhere** as an expression in itself.
 ```haskell
 (let x = 10 in x + 1) * 2
---
+-- 22
 ```
+
+
 
 
 ## Conditionals
@@ -232,11 +234,11 @@ succ (max 10 20)
 -- 21
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MzgzNzQ0MSwyMDk5MDkyNTIxLC0zMj
-U0NDY5OTYsLTEyNjM1NDg0MTMsLTk4MzgyMjMyLDMwNjIwNjEy
-MCwxMTAwNjM5NjQ3LC01Njk4ODQxOTYsLTE5NjAyMTc3OSwxMT
-UzMzg5MzgzLC0zODQ1ODcyMTUsLTE3ODU2MTI3OCwxNTU4MDQy
-NTI4LDk2ODE2NjAwMiwtMTE1NTI4ODQ1LC02NDAxNTg4OTQsMT
-A4NzYxMTMxLDEwMTA5NTIwNDUsLTI0Mjg2NDI3MCwtODI0ODEx
-ODBdfQ==
+eyJoaXN0b3J5IjpbNzMwODE3OTksMjA5OTA5MjUyMSwtMzI1ND
+Q2OTk2LC0xMjYzNTQ4NDEzLC05ODM4MjIzMiwzMDYyMDYxMjAs
+MTEwMDYzOTY0NywtNTY5ODg0MTk2LC0xOTYwMjE3NzksMTE1Mz
+M4OTM4MywtMzg0NTg3MjE1LC0xNzg1NjEyNzgsMTU1ODA0MjUy
+OCw5NjgxNjYwMDIsLTExNTUyODg0NSwtNjQwMTU4ODk0LDEwOD
+c2MTEzMSwxMDEwOTUyMDQ1LC0yNDI4NjQyNzAsLTgyNDgxMTgw
+XX0=
 -->
