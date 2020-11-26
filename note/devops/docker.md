@@ -29,7 +29,8 @@ $ docker images --no-trunc
 
 ## Dockerfile
 
-The `Dockerfile` allows you to ı.
+The `Dockerfile` allows you **to define a blueprint for an image**.
+
 
 ## Hub
 
@@ -59,8 +60,8 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njk5Nzg0MzAsMTgwNjI3NjA1NiwyMD
-AyODE4NDA2LC0xODI1MDY0NDk0LDE0NzkwNzc1MDYsMTU5MDEy
-Mjk2MywtMTcyOTQ2OTk1MiwzNjY5MDA2NzksNDA0Mjk2MzA1LC
-04NTc0MzcwMzRdfQ==
+eyJoaXN0b3J5IjpbOTA4OTYzNjM3LDE4MDYyNzYwNTYsMjAwMj
+gxODQwNiwtMTgyNTA2NDQ5NCwxNDc5MDc3NTA2LDE1OTAxMjI5
+NjMsLTE3Mjk0Njk5NTIsMzY2OTAwNjc5LDQwNDI5NjMwNSwtOD
+U3NDM3MDM0XX0=
 -->
