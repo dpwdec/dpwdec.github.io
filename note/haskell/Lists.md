@@ -151,12 +151,10 @@ double3' range = filter predicate (map double range)
 
 This can be **rewritten** as a list comprehension with the `predicate` and `double` functions defined inline.
 ```haskell
-               Result
-                  |
 double3 range = [ dx | x <- [0..range], let dx = x *  2, dx `mod`  3  ==  0]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc0MjQzNTk0LDIwNjcyNDc3NTUsLTExMD
-g3Nzg5MiwxOTQ2OTgzNjMyLC0xNzY0ODUxNjU2LC0yMDQ2NjMx
-NzgwXX0=
+eyJoaXN0b3J5IjpbMjA2NzI0Nzc1NSwyMDY3MjQ3NzU1LC0xMT
+A4Nzc4OTIsMTk0Njk4MzYzMiwtMTc2NDg1MTY1NiwtMjA0NjYz
+MTc4MF19
 -->
