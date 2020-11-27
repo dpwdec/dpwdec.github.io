@@ -86,6 +86,8 @@ You can **give a docker image a name as it runs** by using the `--name` flag.
 $ docker container run --name some-name <IMAGE_NAME>
 ```
 
+You can **run a container interactively** by using the `-it` flag. This will allow you to execute commands inside the container through a command prompt *as if* you had connected or ssh'd into the conta
+
 ## Hub
 
 You can **find existing images to use as a base for your custom images** by using the [Docker Hub](https://hub.docker.com/) service. It is possible to **host private docker image repositories** in your own infrastructure.
@@ -114,9 +116,10 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODMxOTM5NywxNzI5NTY0ODQ3LDc4Mz
-czMjY0LDU0MzY1NTE1NywtODk4NDA1MTE4LC0xMjk0MzYzMDI0
-LDkwODk2MzYzNywxODA2Mjc2MDU2LDIwMDI4MTg0MDYsLTE4Mj
-UwNjQ0OTQsMTQ3OTA3NzUwNiwxNTkwMTIyOTYzLC0xNzI5NDY5
-OTUyLDM2NjkwMDY3OSw0MDQyOTYzMDUsLTg1NzQzNzAzNF19
+eyJoaXN0b3J5IjpbMTcxOTE1MjQxNywyMTE4MzE5Mzk3LDE3Mj
+k1NjQ4NDcsNzgzNzMyNjQsNTQzNjU1MTU3LC04OTg0MDUxMTgs
+LTEyOTQzNjMwMjQsOTA4OTYzNjM3LDE4MDYyNzYwNTYsMjAwMj
+gxODQwNiwtMTgyNTA2NDQ5NCwxNDc5MDc3NTA2LDE1OTAxMjI5
+NjMsLTE3Mjk0Njk5NTIsMzY2OTAwNjc5LDQwNDI5NjMwNSwtOD
+U3NDM3MDM0XX0=
 -->
