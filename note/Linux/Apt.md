@@ -11,7 +11,12 @@ You can **update the APT system** using the `update` command. APT knows what pac
 $ apt-get update
 ```
 
+You can **update all packages managed by APT to the latest version** by using the `upgrade` command.
+```bash
+$ apt-get upgrade
+```
 
+You can **update a specific package** by 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMzNjI5MzAsMTY1NTU1MzE4NF19
+eyJoaXN0b3J5IjpbLTE4MDg4MzEzNDUsMTY1NTU1MzE4NF19
 -->
