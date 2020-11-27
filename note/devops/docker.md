@@ -102,7 +102,7 @@ A running docker image will simply **`exit` once it has run** unless there is so
 
 You can **view a list of ALL containers, running or otherwise** using the `ps` command.
 ```bash
-$ docker container ps
+$ docker container ps -a
 ```
 
 ## Hub
@@ -133,11 +133,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3MzE2MTAsLTY5MDM3MjA1OCwtMjgyNT
-Q3MDE5LDE1MjUxNzU3MDAsNjA2MTE3Njg2LC0xMzk4MDExOTYs
-MjExODMxOTM5NywxNzI5NTY0ODQ3LDc4MzczMjY0LDU0MzY1NT
-E1NywtODk4NDA1MTE4LC0xMjk0MzYzMDI0LDkwODk2MzYzNywx
-ODA2Mjc2MDU2LDIwMDI4MTg0MDYsLTE4MjUwNjQ0OTQsMTQ3OT
-A3NzUwNiwxNTkwMTIyOTYzLC0xNzI5NDY5OTUyLDM2NjkwMDY3
-OV19
+eyJoaXN0b3J5IjpbLTE2NjYzOTU5NTIsNjE3MzE2MTAsLTY5MD
+M3MjA1OCwtMjgyNTQ3MDE5LDE1MjUxNzU3MDAsNjA2MTE3Njg2
+LC0xMzk4MDExOTYsMjExODMxOTM5NywxNzI5NTY0ODQ3LDc4Mz
+czMjY0LDU0MzY1NTE1NywtODk4NDA1MTE4LC0xMjk0MzYzMDI0
+LDkwODk2MzYzNywxODA2Mjc2MDU2LDIwMDI4MTg0MDYsLTE4Mj
+UwNjQ0OTQsMTQ3OTA3NzUwNiwxNTkwMTIyOTYzLC0xNzI5NDY5
+OTUyXX0=
 -->
