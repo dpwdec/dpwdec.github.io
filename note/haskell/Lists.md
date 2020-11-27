@@ -144,9 +144,17 @@ You can **nest list comprehensions**.
 
 You can **think of list comprehensions** as **just another version of the map filter** pattern. They allow you to take a range of values, apply a mapping to them and filter the results.
 ```haskell
-double3 list = filter 
+double3' range = filter p (map double range)
+    where predicate x = x `mod`  3  ==  0
+          double x    = x *  2
+```
+
+
+
+```haskell
+double3 lim = [ dx | x <- [0..lim], let dx = x *  2, dx `mod`  3  ==  0]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDg3Nzg5MiwxOTQ2OTgzNjMyLC0xNz
-Y0ODUxNjU2LC0yMDQ2NjMxNzgwXX0=
+eyJoaXN0b3J5IjpbLTIwMTUxMDg4OTgsLTExMDg3Nzg5MiwxOT
+Q2OTgzNjMyLC0xNzY0ODUxNjU2LC0yMDQ2NjMxNzgwXX0=
 -->
