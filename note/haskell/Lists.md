@@ -141,6 +141,8 @@ You can **use strings in list comprehension** just as you would any list of data
 ```
 
 You can **nest list comprehensions**.
+
+You can **think of list comprehensions** as **just another version of the map filter** pattern. They allow you to take an range of values, apply a mapping to them and filter the results. F
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDY2MzE3ODBdfQ==
+eyJoaXN0b3J5IjpbNTMxOTUzNzY5LC0yMDQ2NjMxNzgwXX0=
 -->
