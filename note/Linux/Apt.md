@@ -25,11 +25,13 @@ $ apt-get upgrade <PACKAGE_NAME>
 
 ## Cache
 
-You can **search through the database of packages** using the `search` command. This will search package names and descriptions about the packages.
+You can **search through the database of packages** using the `search` command. This will search package names and descriptions about the packages. This is a looser search method that can allow you to **search for packages without knowing the exact name of what you're looking for**.
 ```bash
 $ apt-cache search <SEARCH_TERM>
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk3NTE0MDksLTc5ODUwNDY3NSwxNj
-U1NTUzMTg0XX0=
+eyJoaXN0b3J5IjpbNTk3NTI2NDE5LC03OTg1MDQ2NzUsMTY1NT
+U1MzE4NF19
 -->
