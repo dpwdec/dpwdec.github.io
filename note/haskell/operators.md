@@ -54,7 +54,11 @@ You can **express NOT EQUAL to** by using the `/=` operator.  Different from the
 2 /= 2
 -- False
 ```
+
+## Piping
+
+Y
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2MjQ1NzgzLDk0NjI0NTc4MywtMzg5Mz
+eyJoaXN0b3J5IjpbMTA3NDUyOTY5LDk0NjI0NTc4MywtMzg5Mz
 I1MDM1LDEyNDEwMjU4MjUsNTY3NDYxODI5XX0=
 -->
