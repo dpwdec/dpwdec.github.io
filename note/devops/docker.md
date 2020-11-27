@@ -76,6 +76,8 @@ You can **run a docker image** using the `docker run` command.
 $ docker run <IMAGE_NAME>
 ```
 
+When you run an image you **create a container** which is the interactable, concrete version of an image. 
+
 You can **also use** `docker container run` which is the **updated docker command**.
 ```bash
 $ docker container run <IMAGE_NAME>
@@ -126,10 +128,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTE3NTcwMCw2MDYxMTc2ODYsLTEzOT
-gwMTE5NiwyMTE4MzE5Mzk3LDE3Mjk1NjQ4NDcsNzgzNzMyNjQs
-NTQzNjU1MTU3LC04OTg0MDUxMTgsLTEyOTQzNjMwMjQsOTA4OT
-YzNjM3LDE4MDYyNzYwNTYsMjAwMjgxODQwNiwtMTgyNTA2NDQ5
-NCwxNDc5MDc3NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5NTIsMz
-Y2OTAwNjc5LDQwNDI5NjMwNSwtODU3NDM3MDM0XX0=
+eyJoaXN0b3J5IjpbMTA5ODQxMzMzNywxNTI1MTc1NzAwLDYwNj
+ExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcsMTcyOTU2NDg0
+Nyw3ODM3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNTExOCwtMTI5ND
+M2MzAyNCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2
+LC0xODI1MDY0NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2MywtMT
+cyOTQ2OTk1MiwzNjY5MDA2NzksNDA0Mjk2MzA1LC04NTc0Mzcw
+MzRdfQ==
 -->
