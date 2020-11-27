@@ -57,13 +57,13 @@ You can **express NOT EQUAL to** by using the `/=` operator.  Different from the
 
 ## Piping
 
-You can **pipe data in a left to right manner** similar to a standard `|` pipe function using the `&` operator from the `Data.Function` library.
+You can **pipe data in a left to right manner** similar to a standard `|` pipe function using the `&` operator from the `Data.Function` library which sequential passes the result of each function into the next.
 ```haskell
 import Data.Function
 succ 3 & succ
 -- 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODg2NjE5MCw5NDYyNDU3ODMsLTM4OT
-MyNTAzNSwxMjQxMDI1ODI1LDU2NzQ2MTgyOV19
+eyJoaXN0b3J5IjpbLTEwMjg0NDAwODEsOTQ2MjQ1NzgzLC0zOD
+kzMjUwMzUsMTI0MTAyNTgyNSw1Njc0NjE4MjldfQ==
 -->
