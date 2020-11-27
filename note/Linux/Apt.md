@@ -6,7 +6,7 @@ title: Apt
 
 APT stands for **Advanced Package Tool** and is a command line system build on top of the Debian Linux **dpkg** system to allowing you install packages.
 
-
+## Get
 
 You can **update the APT system** using the `update` command. APT knows what packages are available for install based on its own database of potential installations., if its not updated you won't be able to find packages or know if newer versions are available.
 ```bash
@@ -23,6 +23,6 @@ You can **update a specific package** by submitting the package name *after* the
 $ apt-get upgrade <PACKAGE_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTg3OTY5LC03OTg1MDQ2NzUsMTY1NT
-U1MzE4NF19
+eyJoaXN0b3J5IjpbLTE0OTg5NTg2NjUsLTc5ODUwNDY3NSwxNj
+U1NTUzMTg0XX0=
 -->
