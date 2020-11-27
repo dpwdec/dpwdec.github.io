@@ -267,12 +267,16 @@ So `strip_path` in kong controls the routing? when I request the url it strips o
 - https://stackoverflow.com/questions/60356396/difference-between-executeasync-and-startasync-methods-in-backgroundservice-net difference between the asyncs
 - Scoped IConfigure Options https://andrewlock.net/the-dangers-and-gotchas-of-using-scoped-services-when-configuring-options-in-asp-net-core/#:~:text=CreateScope()%20.,EF%20Core%20migrations%2C%20for%20example.
 - 
+
+
+
+https://hackage.haskell.org/package/flow-1.0.21/docs/Flow.html -> haskell flow
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzY5NTg3NSw5Nzc4NTY2MDEsNjE4OT
-A5MDAzLC0xNjk4NzA0MzgzLDY3MDMxNjYyOCwxMDAzOTgyNDc3
-LDE1NTQ0OTU3MDgsMjEwMjE4NTExOCwtMTExNjU5NDUwMiwtMz
-MyMjY2OCwtMTI2MDA4NDYwLDE4NTQ2ODU3MTgsMTg3NjUxNTk0
-OCwtNzc1ODA0NTk0LDg1NjU1MjIzMSw0NzM5NDE1NzgsMTI3Mj
-g4MjE2NywtMTM2MzczOTE4OSw4NDE4MTUwNjYsMjIzNTQ1NDI4
-XX0=
+eyJoaXN0b3J5IjpbLTUwOTY4NTA2NCwxMjY3Njk1ODc1LDk3Nz
+g1NjYwMSw2MTg5MDkwMDMsLTE2OTg3MDQzODMsNjcwMzE2NjI4
+LDEwMDM5ODI0NzcsMTU1NDQ5NTcwOCwyMTAyMTg1MTE4LC0xMT
+E2NTk0NTAyLC0zMzIyNjY4LC0xMjYwMDg0NjAsMTg1NDY4NTcx
+OCwxODc2NTE1OTQ4LC03NzU4MDQ1OTQsODU2NTUyMjMxLDQ3Mz
+k0MTU3OCwxMjcyODgyMTY3LC0xMzYzNzM5MTg5LDg0MTgxNTA2
+Nl19
 -->
