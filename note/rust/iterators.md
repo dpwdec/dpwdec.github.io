@@ -8,12 +8,8 @@ exclude: true
 
 If you want to **combine the values of two iterators into a set of tuple pairs** you can use the `zip` function.
 ```rust
-(0..5).zip(0..10).for_each(|x| println("{:?}", x))
-// (0, 5)
-// (1, 6)
-// (2, 7)
-// (3, 8)
-// (4, 9)
+first_iterator.zip(second_iterator).collect::<Vec<(usize, usize)>>()
+// [(0, 5), (1, 6), (2, 7), (3, 8), (4, 9)]
 ```
 
 ## Functions that Return Iterators
@@ -32,6 +28,6 @@ fn return_split(word: &str) -> impl Iterator<Item = &str> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDUyOTI5MiwtMTEzNzQ0ODczMSwtNz
-Y4Nzg5NjgxLC03MTYwNTUwNjJdfQ==
+eyJoaXN0b3J5IjpbODM1OTgyMjgsMjExMDUyOTI5MiwtMTEzNz
+Q0ODczMSwtNzY4Nzg5NjgxLC03MTYwNTUwNjJdfQ==
 -->
