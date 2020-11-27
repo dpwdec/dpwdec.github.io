@@ -60,10 +60,10 @@ You can **express NOT EQUAL to** by using the `/=` operator.  Different from the
 You can **pipe data in a left to right manner** similar to a standard `|` pipe function using the `&` operator from the `Data.Function` library which sequential passes the result of each function into the next.
 ```haskell
 import Data.Function
-succ 3 & succ
+reverse [1, 2, 3, 4] & head & succ
 -- 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjg0NDAwODEsOTQ2MjQ1NzgzLC0zOD
-kzMjUwMzUsMTI0MTAyNTgyNSw1Njc0NjE4MjldfQ==
+eyJoaXN0b3J5IjpbMTM5MzcxNTg1OCw5NDYyNDU3ODMsLTM4OT
+MyNTAzNSwxMjQxMDI1ODI1LDU2NzQ2MTgyOV19
 -->
