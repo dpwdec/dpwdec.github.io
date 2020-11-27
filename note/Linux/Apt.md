@@ -28,7 +28,7 @@ You can **uninstall a package** using the `remove` command,
 $ apt-get remove <PACKAGE_NAME>
 ```
 
-You can **uninstall a package AND remove any configuration files** using the `purge` command.
+You can **uninstall a package AND remove any configuration files** using the `purge` command. This is useful if you've messed up the configuration of a file and want to completely start from scratch.
 ```bash
 $ apt-get purge <PACKAGE_NAME>
 ```
@@ -52,6 +52,6 @@ $ apt-cache showpkg
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Njg2Mzc2OSwtOTE2NTU3MzY1LC03OT
+eyJoaXN0b3J5IjpbLTQyNDk1OTcxNiwtOTE2NTU3MzY1LC03OT
 g1MDQ2NzUsMTY1NTU1MzE4NF19
 -->
