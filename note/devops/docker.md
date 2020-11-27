@@ -93,11 +93,16 @@ You can **run a container interactively** by using the `-it` flag. This will all
 $ docker container run -it <IMAGE_NAME>
 ```
 
-A running docker image will simply exit once it has run unless there is some process keeping it open such as the `-it` interactive process.
-
 You can **view a list of containers currently running on a system** using the `ls` command with the `container` command.
 ```bash
 $ docker container ls
+```
+
+A running docker image will simply **`exit` once it has run** unless there is some process keeping it open such as the `-it` interactive process. When a container exits it does not disappear but goes into a stopped state.
+
+You can **view a list of all containers running or otherwise** using the `ps` command.
+```bash
+$ docker container ps
 ```
 
 ## Hub
@@ -128,11 +133,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU1MjU3OTcsLTI4MjU0NzAxOSwxNT
-I1MTc1NzAwLDYwNjExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMTkz
-OTcsMTcyOTU2NDg0Nyw3ODM3MzI2NCw1NDM2NTUxNTcsLTg5OD
-QwNTExOCwtMTI5NDM2MzAyNCw5MDg5NjM2MzcsMTgwNjI3NjA1
-NiwyMDAyODE4NDA2LC0xODI1MDY0NDk0LDE0NzkwNzc1MDYsMT
-U5MDEyMjk2MywtMTcyOTQ2OTk1MiwzNjY5MDA2NzksNDA0Mjk2
-MzA1XX0=
+eyJoaXN0b3J5IjpbLTY5MDM3MjA1OCwtMjgyNTQ3MDE5LDE1Mj
+UxNzU3MDAsNjA2MTE3Njg2LC0xMzk4MDExOTYsMjExODMxOTM5
+NywxNzI5NTY0ODQ3LDc4MzczMjY0LDU0MzY1NTE1NywtODk4ND
+A1MTE4LC0xMjk0MzYzMDI0LDkwODk2MzYzNywxODA2Mjc2MDU2
+LDIwMDI4MTg0MDYsLTE4MjUwNjQ0OTQsMTQ3OTA3NzUwNiwxNT
+kwMTIyOTYzLC0xNzI5NDY5OTUyLDM2NjkwMDY3OSw0MDQyOTYz
+MDVdfQ==
 -->
