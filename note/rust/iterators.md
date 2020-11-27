@@ -4,6 +4,13 @@ layout: page
 exclude: true
 ---
 
+## Zip
+
+If you want to **combine the values of two iterators into a set of tuple pairs** you can use the `zip` function.
+```rust
+(0..5).zip(0..10).for_each(|x| println
+```
+
 ## Functions that Return Iterators
 
 You can **return an iterator from a function** by directly returning the structure the structure that an iterators yields.
@@ -20,6 +27,6 @@ fn return_split(word: &str) -> impl Iterator<Item = &str> {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzc0NDg3MzEsLTc2ODc4OTY4MSwtNz
-E2MDU1MDYyXX0=
+eyJoaXN0b3J5IjpbMTQxNjUyNzAwNSwtMTEzNzQ0ODczMSwtNz
+Y4Nzg5NjgxLC03MTYwNTUwNjJdfQ==
 -->
