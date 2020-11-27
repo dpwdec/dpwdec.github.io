@@ -95,7 +95,7 @@ $ docker container run -it <IMAGE_NAME>
 
 A running docker image will simply exit once it has run unless there is some process keeping it open such as the `-it` interactive process.
 
-You can **view a list of containers running on a system** using the `ls` command with the `container` command.
+You can **view a list of containers currently running on a system** using the `ls` command with the `container` command.
 ```bash
 $ docker container ls
 ```
@@ -128,11 +128,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjU0NzAxOSwxNTI1MTc1NzAwLDYwNj
-ExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcsMTcyOTU2NDg0
-Nyw3ODM3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNTExOCwtMTI5ND
-M2MzAyNCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2
-LC0xODI1MDY0NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2MywtMT
-cyOTQ2OTk1MiwzNjY5MDA2NzksNDA0Mjk2MzA1LC04NTc0Mzcw
-MzRdfQ==
+eyJoaXN0b3J5IjpbLTE4NjU1MjU3OTcsLTI4MjU0NzAxOSwxNT
+I1MTc1NzAwLDYwNjExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMTkz
+OTcsMTcyOTU2NDg0Nyw3ODM3MzI2NCw1NDM2NTUxNTcsLTg5OD
+QwNTExOCwtMTI5NDM2MzAyNCw5MDg5NjM2MzcsMTgwNjI3NjA1
+NiwyMDAyODE4NDA2LC0xODI1MDY0NDk0LDE0NzkwNzc1MDYsMT
+U5MDEyMjk2MywtMTcyOTQ2OTk1MiwzNjY5MDA2NzksNDA0Mjk2
+MzA1XX0=
 -->
