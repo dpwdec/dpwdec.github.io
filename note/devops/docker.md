@@ -110,6 +110,11 @@ You can **start a container that has stopped** using the `start` command. You ca
 $ docker container start <CONTAINER_NAME>
 ```
 
+You can **enter a running container from outside** using the `attach` command and the name or id of the running container.
+```bash
+
+```
+
 ## Hub
 
 You can **find existing images to use as a base for your custom images** by using the [Docker Hub](https://hub.docker.com/) service. It is possible to **host private docker image repositories** in your own infrastructure.
@@ -138,11 +143,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjA0MjM1NSwxNzUzMTI5ODkyLDYxNz
-MxNjEwLC02OTAzNzIwNTgsLTI4MjU0NzAxOSwxNTI1MTc1NzAw
-LDYwNjExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcsMTcyOT
-U2NDg0Nyw3ODM3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNTExOCwt
-MTI5NDM2MzAyNCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyOD
-E4NDA2LC0xODI1MDY0NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2
-M119
+eyJoaXN0b3J5IjpbOTk4NjcxNDMyLDE3NTMxMjk4OTIsNjE3Mz
+E2MTAsLTY5MDM3MjA1OCwtMjgyNTQ3MDE5LDE1MjUxNzU3MDAs
+NjA2MTE3Njg2LC0xMzk4MDExOTYsMjExODMxOTM5NywxNzI5NT
+Y0ODQ3LDc4MzczMjY0LDU0MzY1NTE1NywtODk4NDA1MTE4LC0x
+Mjk0MzYzMDI0LDkwODk2MzYzNywxODA2Mjc2MDU2LDIwMDI4MT
+g0MDYsLTE4MjUwNjQ0OTQsMTQ3OTA3NzUwNiwxNTkwMTIyOTYz
+XX0=
 -->
