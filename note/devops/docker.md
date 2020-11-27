@@ -105,7 +105,7 @@ You can **view a list of ALL containers, running or otherwise** using the `ps -a
 $ docker container ps -a
 ```
 
-You can **start a container that has stopped** using the `start` command. You can use the container 
+You can **start a container that has stopped** using the `start` command. You can use the container name here or the id of the container that is listed under `PORTS` when the `ps` command is used.
 ```bash
 $ docker container start <CONTAINER_NAME>
 ```
@@ -138,11 +138,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NDA3MTYxNSwxNzUzMTI5ODkyLDYxNz
-MxNjEwLC02OTAzNzIwNTgsLTI4MjU0NzAxOSwxNTI1MTc1NzAw
-LDYwNjExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcsMTcyOT
-U2NDg0Nyw3ODM3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNTExOCwt
-MTI5NDM2MzAyNCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyOD
-E4NDA2LC0xODI1MDY0NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2
-M119
+eyJoaXN0b3J5IjpbLTIwMTY5Nzc3ODgsMTc1MzEyOTg5Miw2MT
+czMTYxMCwtNjkwMzcyMDU4LC0yODI1NDcwMTksMTUyNTE3NTcw
+MCw2MDYxMTc2ODYsLTEzOTgwMTE5NiwyMTE4MzE5Mzk3LDE3Mj
+k1NjQ4NDcsNzgzNzMyNjQsNTQzNjU1MTU3LC04OTg0MDUxMTgs
+LTEyOTQzNjMwMjQsOTA4OTYzNjM3LDE4MDYyNzYwNTYsMjAwMj
+gxODQwNiwtMTgyNTA2NDQ5NCwxNDc5MDc3NTA2LDE1OTAxMjI5
+NjNdfQ==
 -->
