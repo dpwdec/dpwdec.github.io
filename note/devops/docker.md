@@ -81,6 +81,10 @@ You can **also use** `docker container run` which is the **updated docker comman
 $ docker container run <IMAGE_NAME>
 ```
 
+You can **give a docker image a name as it runs** by using the `--name` flag.
+```bash
+$ docker container run --name some-name <IMAGE_
+```
 
 ## Hub
 
@@ -110,10 +114,9 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTkzNDg1NDMsMTcyOTU2NDg0Nyw3OD
-M3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNTExOCwtMTI5NDM2MzAy
-NCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2LC0xOD
-I1MDY0NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2MywtMTcyOTQ2
-OTk1MiwzNjY5MDA2NzksNDA0Mjk2MzA1LC04NTc0MzcwMzRdfQ
-==
+eyJoaXN0b3J5IjpbMzcwOTQ2MjQ2LDE3Mjk1NjQ4NDcsNzgzNz
+MyNjQsNTQzNjU1MTU3LC04OTg0MDUxMTgsLTEyOTQzNjMwMjQs
+OTA4OTYzNjM3LDE4MDYyNzYwNTYsMjAwMjgxODQwNiwtMTgyNT
+A2NDQ5NCwxNDc5MDc3NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5
+NTIsMzY2OTAwNjc5LDQwNDI5NjMwNSwtODU3NDM3MDM0XX0=
 -->
