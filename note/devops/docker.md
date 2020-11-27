@@ -100,7 +100,7 @@ $ docker container ls
 
 A running docker image will simply **`exit` once it has run** unless there is some process keeping it open such as the `-it` interactive process. When a container exits it does not disappear but goes into a stopped state.
 
-You can **view a list of ALL containers, running or otherwise** using the `ps` command.
+You can **view a list of ALL containers, running or otherwise** using the `ps -a` command.
 ```bash
 $ docker container ps -a
 ```
@@ -133,11 +133,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjYzOTU5NTIsNjE3MzE2MTAsLTY5MD
-M3MjA1OCwtMjgyNTQ3MDE5LDE1MjUxNzU3MDAsNjA2MTE3Njg2
-LC0xMzk4MDExOTYsMjExODMxOTM5NywxNzI5NTY0ODQ3LDc4Mz
-czMjY0LDU0MzY1NTE1NywtODk4NDA1MTE4LC0xMjk0MzYzMDI0
-LDkwODk2MzYzNywxODA2Mjc2MDU2LDIwMDI4MTg0MDYsLTE4Mj
-UwNjQ0OTQsMTQ3OTA3NzUwNiwxNTkwMTIyOTYzLC0xNzI5NDY5
-OTUyXX0=
+eyJoaXN0b3J5IjpbMTc1MzEyOTg5Miw2MTczMTYxMCwtNjkwMz
+cyMDU4LC0yODI1NDcwMTksMTUyNTE3NTcwMCw2MDYxMTc2ODYs
+LTEzOTgwMTE5NiwyMTE4MzE5Mzk3LDE3Mjk1NjQ4NDcsNzgzNz
+MyNjQsNTQzNjU1MTU3LC04OTg0MDUxMTgsLTEyOTQzNjMwMjQs
+OTA4OTYzNjM3LDE4MDYyNzYwNTYsMjAwMjgxODQwNiwtMTgyNT
+A2NDQ5NCwxNDc5MDc3NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5
+NTJdfQ==
 -->
