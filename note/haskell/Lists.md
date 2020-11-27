@@ -152,9 +152,9 @@ double3' range = filter predicate (map double range)
 
 
 ```haskell
-double3 lim = [ dx | x <- [0..lim], let dx = x *  2, dx `mod`  3  ==  0]
+double3 range = [ dx | x <- [0..range], let dx = x *  2, dx `mod`  3  ==  0]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzA5OTM1NDUsLTExMDg3Nzg5MiwxOT
-Q2OTgzNjMyLC0xNzY0ODUxNjU2LC0yMDQ2NjMxNzgwXX0=
+eyJoaXN0b3J5IjpbNTgyODU0NzQ5LC0xMTA4Nzc4OTIsMTk0Nj
+k4MzYzMiwtMTc2NDg1MTY1NiwtMjA0NjYzMTc4MF19
 -->
