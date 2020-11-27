@@ -19,6 +19,8 @@ You can **see what images are available to run in docker** by using the `images`
 $ docker images
 ```
 
+Yo
+
 This will **show the docker image's `IMAGE ID` field** (in truncated form) which can be used to uniquely identify an image. You can **run docker images based on their `IMAGE ID`** by using the ID in place of the image's name.
 ```bash
 $ docker run <IMAGE_ID>
@@ -93,7 +95,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ1NzU1MjgsNzgzNzMyNjQsNTQzNj
+eyJoaXN0b3J5IjpbLTE5NzExNDEzNzgsNzgzNzMyNjQsNTQzNj
 U1MTU3LC04OTg0MDUxMTgsLTEyOTQzNjMwMjQsOTA4OTYzNjM3
 LDE4MDYyNzYwNTYsMjAwMjgxODQwNiwtMTgyNTA2NDQ5NCwxND
 c5MDc3NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAw
