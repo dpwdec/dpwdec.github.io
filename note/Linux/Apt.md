@@ -30,8 +30,13 @@ You can **search through the database of packages** using the `search` command. 
 $ apt-cache search <SEARCH_TERM>
 ```
 
+You can **search only package names specifically** using the `pkgnames` command.
+```bash
+$ apt-cache pkgnames <SEARCH_TERM>
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk3NTI2NDE5LC03OTg1MDQ2NzUsMTY1NT
-U1MzE4NF19
+eyJoaXN0b3J5IjpbLTMxNDA3ODAzNSwtNzk4NTA0Njc1LDE2NT
+U1NTMxODRdfQ==
 -->
