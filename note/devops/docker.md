@@ -91,7 +91,7 @@ You can **run a container interactively** by using the `-it` flag. This will all
 $ docker container run -it <IMAGE_NAME>
 ```
 
-A running docker image will simply exit
+A running docker image will simply exit once it has run unless there is some process keeping it open such as the `-it` interactive process.
 
 ## Hub
 
@@ -121,10 +121,10 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzgwNTY5OTksLTEzOTgwMTE5NiwyMT
-E4MzE5Mzk3LDE3Mjk1NjQ4NDcsNzgzNzMyNjQsNTQzNjU1MTU3
-LC04OTg0MDUxMTgsLTEyOTQzNjMwMjQsOTA4OTYzNjM3LDE4MD
-YyNzYwNTYsMjAwMjgxODQwNiwtMTgyNTA2NDQ5NCwxNDc5MDc3
-NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAwNjc5LD
-QwNDI5NjMwNSwtODU3NDM3MDM0XX0=
+eyJoaXN0b3J5IjpbNjA2MTE3Njg2LC0xMzk4MDExOTYsMjExOD
+MxOTM5NywxNzI5NTY0ODQ3LDc4MzczMjY0LDU0MzY1NTE1Nywt
+ODk4NDA1MTE4LC0xMjk0MzYzMDI0LDkwODk2MzYzNywxODA2Mj
+c2MDU2LDIwMDI4MTg0MDYsLTE4MjUwNjQ0OTQsMTQ3OTA3NzUw
+NiwxNTkwMTIyOTYzLC0xNzI5NDY5OTUyLDM2NjkwMDY3OSw0MD
+QyOTYzMDUsLTg1NzQzNzAzNF19
 -->
