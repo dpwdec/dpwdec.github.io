@@ -81,6 +81,7 @@ You can **also use** `docker container run` which is the **updated docker comman
 $ docker container run <IMAGE_NAME>
 ```
 
+
 ## Hub
 
 You can **find existing images to use as a base for your custom images** by using the [Docker Hub](https://hub.docker.com/) service. It is possible to **host private docker image repositories** in your own infrastructure.
@@ -109,9 +110,10 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTU2NDg0Nyw3ODM3MzI2NCw1NDM2NT
-UxNTcsLTg5ODQwNTExOCwtMTI5NDM2MzAyNCw5MDg5NjM2Mzcs
-MTgwNjI3NjA1NiwyMDAyODE4NDA2LC0xODI1MDY0NDk0LDE0Nz
-kwNzc1MDYsMTU5MDEyMjk2MywtMTcyOTQ2OTk1MiwzNjY5MDA2
-NzksNDA0Mjk2MzA1LC04NTc0MzcwMzRdfQ==
+eyJoaXN0b3J5IjpbLTEyMTkzNDg1NDMsMTcyOTU2NDg0Nyw3OD
+M3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNTExOCwtMTI5NDM2MzAy
+NCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2LC0xOD
+I1MDY0NDk0LDE0NzkwNzc1MDYsMTU5MDEyMjk2MywtMTcyOTQ2
+OTk1MiwzNjY5MDA2NzksNDA0Mjk2MzA1LC04NTc0MzcwMzRdfQ
+==
 -->
