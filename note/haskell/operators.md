@@ -61,9 +61,9 @@ You can **pipe data in a left to right manner** similar to a standard `|` pipe f
 ```haskell
 import Data.Function
 succ 3 & succ
---
+-- 5
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1MDcyNTA1LDk0NjI0NTc4MywtMzg5Mz
-I1MDM1LDEyNDEwMjU4MjUsNTY3NDYxODI5XX0=
+eyJoaXN0b3J5IjpbMjEyODg2NjE5MCw5NDYyNDU3ODMsLTM4OT
+MyNTAzNSwxMjQxMDI1ODI1LDU2NzQ2MTgyOV19
 -->
