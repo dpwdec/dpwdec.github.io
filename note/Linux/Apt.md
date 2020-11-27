@@ -16,7 +16,10 @@ You can **update all packages managed by APT to the latest version** by using th
 $ apt-get upgrade
 ```
 
-You can **update a specific package** by 
+You can **update a specific package** by submitting the package name *after* the `upgrade` command.
+```bash
+$ apt-get upgrade <PACKAGE_NAME>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg4MzEzNDUsMTY1NTU1MzE4NF19
+eyJoaXN0b3J5IjpbLTc5ODUwNDY3NSwxNjU1NTUzMTg0XX0=
 -->
