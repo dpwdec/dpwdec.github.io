@@ -23,6 +23,16 @@ You can **update a specific package** by submitting the package name *after* the
 $ apt-get upgrade <PACKAGE_NAME>
 ```
 
+You can **uninstall a package** using the `remove` command,
+```bash
+$ apt-get remove <PACKAGE_NAME>
+```
+
+You can **uninstall a package AND remove any configuration files** using the `purge` command.
+```bash
+
+```
+
 ## Cache
 
 You can **search through the database of packages** using the `search` command. This will search package names and descriptions about the packages. This is a looser search method that can allow you to **search for packages without knowing the exact name of what you're looking for**.
@@ -42,6 +52,6 @@ $ apt-cache showpkg
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNjU1NzM2NSwtNzk4NTA0Njc1LDE2NT
-U1NTMxODRdfQ==
+eyJoaXN0b3J5IjpbOTEyMzY2NzQ0LC05MTY1NTczNjUsLTc5OD
+UwNDY3NSwxNjU1NTUzMTg0XX0=
 -->
