@@ -12,6 +12,8 @@ Applicatons are **deployed in three steps**:
  2. Building a docker image file
  3. Running the docker image file in docker
 
+## Images
+
 You can **see what images are available to run in docker** by using the `images` command.
 ```bash
 $ docker images
@@ -89,9 +91,9 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzNzMyNjQsNTQzNjU1MTU3LC04OTg0MD
-UxMTgsLTEyOTQzNjMwMjQsOTA4OTYzNjM3LDE4MDYyNzYwNTYs
-MjAwMjgxODQwNiwtMTgyNTA2NDQ5NCwxNDc5MDc3NTA2LDE1OT
-AxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAwNjc5LDQwNDI5NjMw
-NSwtODU3NDM3MDM0XX0=
+eyJoaXN0b3J5IjpbMzA5MTIyMzAwLDc4MzczMjY0LDU0MzY1NT
+E1NywtODk4NDA1MTE4LC0xMjk0MzYzMDI0LDkwODk2MzYzNywx
+ODA2Mjc2MDU2LDIwMDI4MTg0MDYsLTE4MjUwNjQ0OTQsMTQ3OT
+A3NzUwNiwxNTkwMTIyOTYzLC0xNzI5NDY5OTUyLDM2NjkwMDY3
+OSw0MDQyOTYzMDUsLTg1NzQzNzAzNF19
 -->
