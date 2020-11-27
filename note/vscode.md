@@ -75,9 +75,13 @@ You can **create a new branch of your current project** by opening the vscode co
 ```
 >Git Checkout
 ```
+
+## Tab
+
+You can **toggle tab to move focus** instead of inserting tabs by pressing `CTRL + SHIFT + M` on m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTY2ODYyOSwxNzIzNDM0MTYxLC00ND
-MzMzc5MzEsLTY5OTA2MDY0MiwyNzg2NjAzNjEsLTE0MTk1MjAz
-MzAsMjY0NzYyOTcwLDEzMTc3OTczOTYsMTM4MjYzMDE0MCwtMT
-czNzkwMjU3MSwtMTAzODkxMDIwM119
+eyJoaXN0b3J5IjpbMTEwMDYxNzQ3NCwtMTk5NjY4NjI5LDE3Mj
+M0MzQxNjEsLTQ0MzMzNzkzMSwtNjk5MDYwNjQyLDI3ODY2MDM2
+MSwtMTQxOTUyMDMzMCwyNjQ3NjI5NzAsMTMxNzc5NzM5NiwxMz
+gyNjMwMTQwLC0xNzM3OTAyNTcxLC0xMDM4OTEwMjAzXX0=
 -->
