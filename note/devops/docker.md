@@ -76,6 +76,10 @@ You can **run a docker image** using the `docker run` command.
 $ docker run <IMAGE_NAME>
 ```
 
+You can **also use** `docker container run` which is the **updated docker command**.
+```bash
+$ docker container run <IMAGE_NAME>
+```
 
 ## Hub
 
@@ -105,9 +109,9 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTk0ODMzLDc4MzczMjY0LDU0MzY1NT
-E1NywtODk4NDA1MTE4LC0xMjk0MzYzMDI0LDkwODk2MzYzNywx
-ODA2Mjc2MDU2LDIwMDI4MTg0MDYsLTE4MjUwNjQ0OTQsMTQ3OT
-A3NzUwNiwxNTkwMTIyOTYzLC0xNzI5NDY5OTUyLDM2NjkwMDY3
-OSw0MDQyOTYzMDUsLTg1NzQzNzAzNF19
+eyJoaXN0b3J5IjpbMTcyOTU2NDg0Nyw3ODM3MzI2NCw1NDM2NT
+UxNTcsLTg5ODQwNTExOCwtMTI5NDM2MzAyNCw5MDg5NjM2Mzcs
+MTgwNjI3NjA1NiwyMDAyODE4NDA2LC0xODI1MDY0NDk0LDE0Nz
+kwNzc1MDYsMTU5MDEyMjk2MywtMTcyOTQ2OTk1MiwzNjY5MDA2
+NzksNDA0Mjk2MzA1LC04NTc0MzcwMzRdfQ==
 -->
