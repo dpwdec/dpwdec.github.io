@@ -35,8 +35,13 @@ You can **search only package names specifically** using the `pkgnames` command.
 $ apt-cache pkgnames <SEARCH_TERM>
 ```
 
+You can **see data about a package** such as version, dependencies etc. using the `showpkg` command,
+```bash
+$ apt-cache showpkg
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNDA3ODAzNSwtNzk4NTA0Njc1LDE2NT
+eyJoaXN0b3J5IjpbLTkxNjU1NzM2NSwtNzk4NTA0Njc1LDE2NT
 U1NTMxODRdfQ==
 -->
