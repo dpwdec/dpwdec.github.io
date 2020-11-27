@@ -91,6 +91,8 @@ You can **run a container interactively** by using the `-it` flag. This will all
 $ docker container run -it <IMAGE_NAME>
 ```
 
+A running docker image will simply exit
+
 ## Hub
 
 You can **find existing images to use as a base for your custom images** by using the [Docker Hub](https://hub.docker.com/) service. It is possible to **host private docker image repositories** in your own infrastructure.
@@ -119,10 +121,10 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTgwMTE5NiwyMTE4MzE5Mzk3LDE3Mj
-k1NjQ4NDcsNzgzNzMyNjQsNTQzNjU1MTU3LC04OTg0MDUxMTgs
-LTEyOTQzNjMwMjQsOTA4OTYzNjM3LDE4MDYyNzYwNTYsMjAwMj
-gxODQwNiwtMTgyNTA2NDQ5NCwxNDc5MDc3NTA2LDE1OTAxMjI5
-NjMsLTE3Mjk0Njk5NTIsMzY2OTAwNjc5LDQwNDI5NjMwNSwtOD
-U3NDM3MDM0XX0=
+eyJoaXN0b3J5IjpbLTE5NzgwNTY5OTksLTEzOTgwMTE5NiwyMT
+E4MzE5Mzk3LDE3Mjk1NjQ4NDcsNzgzNzMyNjQsNTQzNjU1MTU3
+LC04OTg0MDUxMTgsLTEyOTQzNjMwMjQsOTA4OTYzNjM3LDE4MD
+YyNzYwNTYsMjAwMjgxODQwNiwtMTgyNTA2NDQ5NCwxNDc5MDc3
+NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAwNjc5LD
+QwNDI5NjMwNSwtODU3NDM3MDM0XX0=
 -->
