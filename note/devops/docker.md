@@ -76,14 +76,14 @@ You can **run a docker image** using the `docker run` command.
 $ docker run <IMAGE_NAME>
 ```
 
-When you run an image you **create a container** which is the interactable, concrete version of an image. 
+When you run an image you **create a container** which is the interactable, concrete version of an image.
 
 You can **also use** `docker container run` which is the **updated docker command**.
 ```bash
 $ docker container run <IMAGE_NAME>
 ```
 
-You can **give a docker image a name as it runs** by using the `--name` flag.
+You can **give a docker image a name as it runs** by using the `--name` flag. If you don't give your container
 ```bash
 $ docker container run --name some-name <IMAGE_NAME>
 ```
@@ -128,7 +128,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5ODQxMzMzNywxNTI1MTc1NzAwLDYwNj
+eyJoaXN0b3J5IjpbMTAxNjg0MzQ4MCwxNTI1MTc1NzAwLDYwNj
 ExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcsMTcyOTU2NDg0
 Nyw3ODM3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNTExOCwtMTI5ND
 M2MzAyNCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2
