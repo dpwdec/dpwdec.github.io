@@ -29,6 +29,8 @@ You can see a **non truncated docker `IMAGE ID`** using the `--no-trunc` flag on
 $ docker images --no-trunc
 ```
 
+
+
 ## Dockerfile
 
 The `Dockerfile` allows you **to define a blueprint for an image**. Capatilization of docker directives like `FROM` and `RUN` is **not mandatory** however it is **best practice**.
@@ -91,9 +93,9 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5MTIyMzAwLDc4MzczMjY0LDU0MzY1NT
-E1NywtODk4NDA1MTE4LC0xMjk0MzYzMDI0LDkwODk2MzYzNywx
-ODA2Mjc2MDU2LDIwMDI4MTg0MDYsLTE4MjUwNjQ0OTQsMTQ3OT
-A3NzUwNiwxNTkwMTIyOTYzLC0xNzI5NDY5OTUyLDM2NjkwMDY3
-OSw0MDQyOTYzMDUsLTg1NzQzNzAzNF19
+eyJoaXN0b3J5IjpbLTEzMzQ1NzU1MjgsNzgzNzMyNjQsNTQzNj
+U1MTU3LC04OTg0MDUxMTgsLTEyOTQzNjMwMjQsOTA4OTYzNjM3
+LDE4MDYyNzYwNTYsMjAwMjgxODQwNiwtMTgyNTA2NDQ5NCwxND
+c5MDc3NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5NTIsMzY2OTAw
+Njc5LDQwNDI5NjMwNSwtODU3NDM3MDM0XX0=
 -->
