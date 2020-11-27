@@ -112,7 +112,7 @@ $ docker container start <CONTAINER_NAME>
 
 You can **enter a running container from outside** using the `attach` command and the name or id of the running container.
 ```bash
-docker atta
+$ docker attach <CONTAINER_NAME>
 ```
 
 ## Hub
@@ -143,7 +143,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0MjI4NDcwLDk5ODY3MTQzMiwxNzUzMT
+eyJoaXN0b3J5IjpbNDE1NjcyOTIwLDk5ODY3MTQzMiwxNzUzMT
 I5ODkyLDYxNzMxNjEwLC02OTAzNzIwNTgsLTI4MjU0NzAxOSwx
 NTI1MTc1NzAwLDYwNjExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMT
 kzOTcsMTcyOTU2NDg0Nyw3ODM3MzI2NCw1NDM2NTUxNTcsLTg5
