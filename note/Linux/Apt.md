@@ -22,7 +22,14 @@ You can **update a specific package** by submitting the package name *after* the
 ```bash
 $ apt-get upgrade <PACKAGE_NAME>
 ```
+
+## Cache
+
+You can **search through the database of packages** using the `search` command. This will search
+```bash
+$ apt-cache search <SEARCH_TERM>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTg5NTg2NjUsLTc5ODUwNDY3NSwxNj
+eyJoaXN0b3J5IjpbLTExOTM2NzMzMTAsLTc5ODUwNDY3NSwxNj
 U1NTUzMTg0XX0=
 -->
