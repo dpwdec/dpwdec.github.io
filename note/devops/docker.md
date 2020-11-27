@@ -93,6 +93,11 @@ $ docker container run -it <IMAGE_NAME>
 
 A running docker image will simply exit once it has run unless there is some process keeping it open such as the `-it` interactive process.
 
+You can **view a list of containers running on a system** using the `ls` command with the `container` command.
+```bash
+$ docker container ls
+```
+
 ## Hub
 
 You can **find existing images to use as a base for your custom images** by using the [Docker Hub](https://hub.docker.com/) service. It is possible to **host private docker image repositories** in your own infrastructure.
@@ -121,10 +126,10 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA2MTE3Njg2LC0xMzk4MDExOTYsMjExOD
-MxOTM5NywxNzI5NTY0ODQ3LDc4MzczMjY0LDU0MzY1NTE1Nywt
-ODk4NDA1MTE4LC0xMjk0MzYzMDI0LDkwODk2MzYzNywxODA2Mj
-c2MDU2LDIwMDI4MTg0MDYsLTE4MjUwNjQ0OTQsMTQ3OTA3NzUw
-NiwxNTkwMTIyOTYzLC0xNzI5NDY5OTUyLDM2NjkwMDY3OSw0MD
-QyOTYzMDUsLTg1NzQzNzAzNF19
+eyJoaXN0b3J5IjpbMTUyNTE3NTcwMCw2MDYxMTc2ODYsLTEzOT
+gwMTE5NiwyMTE4MzE5Mzk3LDE3Mjk1NjQ4NDcsNzgzNzMyNjQs
+NTQzNjU1MTU3LC04OTg0MDUxMTgsLTEyOTQzNjMwMjQsOTA4OT
+YzNjM3LDE4MDYyNzYwNTYsMjAwMjgxODQwNiwtMTgyNTA2NDQ5
+NCwxNDc5MDc3NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5NTIsMz
+Y2OTAwNjc5LDQwNDI5NjMwNSwtODU3NDM3MDM0XX0=
 -->
