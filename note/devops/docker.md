@@ -86,7 +86,10 @@ You can **give a docker image a name as it runs** by using the `--name` flag.
 $ docker container run --name some-name <IMAGE_NAME>
 ```
 
-You can **run a container interactively** by using the `-it` flag. This will allow you to execute commands inside the container through a command prompt *as if* you had connected or ssh'd into the conta
+You can **run a container interactively** by using the `-it` flag. This will allow you to execute commands inside the container through a command prompt *as if* you had connected or ssh'd into the container.
+```bash
+$ docker container run -it <IMAGE_NAME>
+```
 
 ## Hub
 
@@ -116,7 +119,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTE1MjQxNywyMTE4MzE5Mzk3LDE3Mj
+eyJoaXN0b3J5IjpbLTEzOTgwMTE5NiwyMTE4MzE5Mzk3LDE3Mj
 k1NjQ4NDcsNzgzNzMyNjQsNTQzNjU1MTU3LC04OTg0MDUxMTgs
 LTEyOTQzNjMwMjQsOTA4OTYzNjM3LDE4MDYyNzYwNTYsMjAwMj
 gxODQwNiwtMTgyNTA2NDQ5NCwxNDc5MDc3NTA2LDE1OTAxMjI5
