@@ -83,7 +83,7 @@ $ docker container run <IMAGE_NAME>
 
 You can **give a docker image a name as it runs** by using the `--name` flag.
 ```bash
-$ docker container run --name some-name <IMAGE_
+$ docker container run --name some-name <IMAGE_NAME>
 ```
 
 ## Hub
@@ -114,9 +114,9 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwOTQ2MjQ2LDE3Mjk1NjQ4NDcsNzgzNz
-MyNjQsNTQzNjU1MTU3LC04OTg0MDUxMTgsLTEyOTQzNjMwMjQs
-OTA4OTYzNjM3LDE4MDYyNzYwNTYsMjAwMjgxODQwNiwtMTgyNT
-A2NDQ5NCwxNDc5MDc3NTA2LDE1OTAxMjI5NjMsLTE3Mjk0Njk5
-NTIsMzY2OTAwNjc5LDQwNDI5NjMwNSwtODU3NDM3MDM0XX0=
+eyJoaXN0b3J5IjpbMjExODMxOTM5NywxNzI5NTY0ODQ3LDc4Mz
+czMjY0LDU0MzY1NTE1NywtODk4NDA1MTE4LC0xMjk0MzYzMDI0
+LDkwODk2MzYzNywxODA2Mjc2MDU2LDIwMDI4MTg0MDYsLTE4Mj
+UwNjQ0OTQsMTQ3OTA3NzUwNiwxNTkwMTIyOTYzLC0xNzI5NDY5
+OTUyLDM2NjkwMDY3OSw0MDQyOTYzMDUsLTg1NzQzNzAzNF19
 -->
