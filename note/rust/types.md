@@ -11,6 +11,13 @@ let map = HashMap::<i32, str>::new();
 // old alternative
 let set: HashSet<i32> = HashSet::new();
 ```
+
+## Collect
+
+You can **type annotate an iterator's collect method** by following the call to `collect` with `::` double colons followed by the type in angled brackets and then invoking the function.
+```rust
+let result = (0..10).map
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTQ1MjY4Ml19
+eyJoaXN0b3J5IjpbNjAwNjg5ODcwLDIwMzU0NTI2ODJdfQ==
 -->
