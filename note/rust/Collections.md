@@ -14,10 +14,10 @@ match map.get_mut('a') {
   Some(v) => v.push(1),
   None => println!("None!")
 }
-//
+// {'a': [0, 1]}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTk0ODI2MDgsNTU1MjI0Nzk2LC0xNz
-I3NTU1OF19
+eyJoaXN0b3J5IjpbNTQ0MjUyODAwLDU1NTIyNDc5NiwtMTcyNz
+U1NThdfQ==
 -->
