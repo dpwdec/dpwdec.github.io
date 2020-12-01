@@ -14,12 +14,25 @@ You can **give your lambda access to an S3 bucket** by modifying the policies on
 2. Choose `Add inline policy` and then the `JSON` tab
 3. Add the following code into the policy
 
+```json
+{ 
+  "Version": "2012-10-17", 
+  "Statement": [ 
+    { 
+       "Sid": "ExampleStmt", 
+       "Action": [ "s3:GetObject" ], 
+       "Effect": "Allow", 
+       "Resource": [ "arn:aws:s3:::AWSDOC-EXAMPLE-BUCKET/*" ] 
+     } 
+   ]
+ }
+```
 
 ## AWS SDK
 
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4OTUxNzE2NCwxMTM3NzEzNTUwLDEwOD
+eyJoaXN0b3J5IjpbLTIxNjI5MzYxMCwxMTM3NzEzNTUwLDEwOD
 Y5MzEyODgsMTk5NTk0NjcyMl19
 -->
