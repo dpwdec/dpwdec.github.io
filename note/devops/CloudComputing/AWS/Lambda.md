@@ -28,7 +28,7 @@ You can **give your lambda access to an S3 bucket** by modifying the policies on
  }
 ```
 
-This **works if the S3 bucket and lambda are in the same AWS account** *and* access to the S3 bucket is not explicitly denied. Otherwise you must **enable permissions in S3** as well for the execution role associated with your lambda. You can do this by editing the S3 buckets `bucket policy
+This **works if the S3 bucket and lambda are in the same AWS account** *and* access to the S3 bucket is not explicitly denied. Otherwise you must **enable permissions in S3** as well for the execution role associated with your lambda. You can do this by editing the S3 bucket's `bucket policy`.
 ```json
 {
    "Id":"ExamplePolicy",
@@ -58,6 +58,6 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExMjMxMDM0LDExMzc3MTM1NTAsMTA4Nj
-kzMTI4OCwxOTk1OTQ2NzIyXX0=
+eyJoaXN0b3J5IjpbLTE4MDI4ODczNzcsMzExMjMxMDM0LDExMz
+c3MTM1NTAsMTA4NjkzMTI4OCwxOTk1OTQ2NzIyXX0=
 -->
