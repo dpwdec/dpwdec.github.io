@@ -12,7 +12,7 @@ You can **give your lambda access to an S3 bucket** by modifying the policies on
 
 1. Going the execution roles `Permissions` tab in `IAM`
 2. Choose `Add inline policy` and then the `JSON` tab
-3. Add the following code into the policy
+3. Add the following code into the policy and `Create Policy`
 
 ```json
 { 
@@ -28,11 +28,13 @@ You can **give your lambda access to an S3 bucket** by modifying the policies on
  }
 ```
 
+This **works if the S3 bucket and lambda are in the same AWS account** otherwise you must 
+
 ## AWS SDK
 
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjI5MzYxMCwxMTM3NzEzNTUwLDEwOD
-Y5MzEyODgsMTk5NTk0NjcyMl19
+eyJoaXN0b3J5IjpbNjI3NzQyMzc3LDExMzc3MTM1NTAsMTA4Nj
+kzMTI4OCwxOTk1OTQ2NzIyXX0=
 -->
