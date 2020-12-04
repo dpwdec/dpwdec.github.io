@@ -15,6 +15,12 @@ You can **create a new IAM role for lambda execution** using the `iam` command l
 $ aws iam create-role --role-name lambda-ex --assume-role-policy-document file://trust-policy.json
 ```
 
+## SAM
+
+SAM is a **Severless Application Model** and allows you to define the structure of complex lambda's using YAML, such as external dependencies and other integrated services (like Databases, Buckets etc.)
+
+
+
 ## S3 Access
 
 You can **give your lambda access to an S3 bucket** by [modifying the policies](https://aws.amazon.com/premiumsupport/knowledge-center/lambda-execution-role-s3-bucket/#:~:text=Create%20an%20AWS%20Identity%20and,the%20Lambda%20function's%20execution%20role.&text=Verify%20that%20the%20bucket%20policy,the%20Lambda%20function's%20execution%20role.) on the lambda's **execution role**. You can do this by:
@@ -67,7 +73,7 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDUyMzE4OCw4MTE5MjM3MjcsMzExMj
-MxMDM0LDExMzc3MTM1NTAsMTA4NjkzMTI4OCwxOTk1OTQ2NzIy
-XX0=
+eyJoaXN0b3J5IjpbLTI0MzczNjMwMSwxNDcwNTIzMTg4LDgxMT
+kyMzcyNywzMTEyMzEwMzQsMTEzNzcxMzU1MCwxMDg2OTMxMjg4
+LDE5OTU5NDY3MjJdfQ==
 -->
