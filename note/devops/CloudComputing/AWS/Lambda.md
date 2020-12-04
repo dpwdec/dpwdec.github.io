@@ -138,13 +138,18 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 }
 ```
 
+You can **load a resource from S3 using the AWS SDK** with the `S3` object.
+```js
+
+```
+
 ## AWS SDK
 
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk1NDgzNzIsMTczNzMwODE5MSw5MT
-Y0NzkyMCwtMjQzNzM2MzAxLDE0NzA1MjMxODgsODExOTIzNzI3
-LDMxMTIzMTAzNCwxMTM3NzEzNTUwLDEwODY5MzEyODgsMTk5NT
-k0NjcyMl19
+eyJoaXN0b3J5IjpbMTQ4MzAzNTM5NywxNzM3MzA4MTkxLDkxNj
+Q3OTIwLC0yNDM3MzYzMDEsMTQ3MDUyMzE4OCw4MTE5MjM3Mjcs
+MzExMjMxMDM0LDExMzc3MTM1NTAsMTA4NjkzMTI4OCwxOTk1OT
+Q2NzIyXX0=
 -->
