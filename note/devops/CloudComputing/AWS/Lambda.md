@@ -80,7 +80,9 @@ SAM is a **Severless Application Model** and allows you to define the structure 
 
 ## Context
 
-T
+The **second argument to a lambda function** is a `context` object which **contains metadata about the function**. Examples are in j
+
+You can **strong text**
 
 ## S3 Access
 
@@ -134,7 +136,7 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDI2MTk3MiwxNzM3MzA4MTkxLDkxNj
+eyJoaXN0b3J5IjpbMTQ5MzY0NzEyMCwxNzM3MzA4MTkxLDkxNj
 Q3OTIwLC0yNDM3MzYzMDEsMTQ3MDUyMzE4OCw4MTE5MjM3Mjcs
 MzExMjMxMDM0LDExMzc3MTM1NTAsMTA4NjkzMTI4OCwxOTk1OT
 Q2NzIyXX0=
