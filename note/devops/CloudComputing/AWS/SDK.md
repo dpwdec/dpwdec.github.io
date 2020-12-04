@@ -15,7 +15,10 @@ aws_access_key_id = <YOUR_ACCESS_KEY_ID>`
 aws_secret_access_key = <YOUR_SECRET_ACCESS_KEY>
 ```
 
-You also **may need a to add a session token** if you are using session based AWS access which you can do with the `aws_sess
+You also **may need a to add a session token** if you are using session based AWS access which you can do by adding the `aws_session_token` property to the `credentials` file as well as the key and secret key properties.
+```yaml
+aws_session_token = <YOUR_SESSION_TOKEN>
+```
 
 ## S3
 
@@ -38,6 +41,6 @@ getS3Content = () => {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODI0OTM3NSwtMTA2Nzg0MjM5NSw2ND
-gyMzU0NTQsLTE0NzA4NTg2NDFdfQ==
+eyJoaXN0b3J5IjpbMTMxNTcxMjQzLC0xMDY3ODQyMzk1LDY0OD
+IzNTQ1NCwtMTQ3MDg1ODY0MV19
 -->
