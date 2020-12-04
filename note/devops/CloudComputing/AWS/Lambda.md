@@ -138,31 +138,14 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 }
 ```
 
-You can **load a resource from S3 using standard AWS SDK integration** once these permissions are set up.
-
-You can **load a resource from S3 using the AWS SDK** with the `S3` object. Example given using Javascript.
-```js
-var AWS = require('aws-sdk');
-
-getS3Content = () => {
-  var s3 = new AWS.S3();
-  var params = { Bucket: "my-bucket", Key: "my-file.txt" };
-  var data = await s3.getObject(params).promise();
-  try {
-    data = await s3.getObject(params).promise();
-  } catch (e){
-    data = e.toString();
-  }
-  return data.Body.toString();
-}
-```
+You can **load a resource from S3 using standard AWS SDK integration** in the body of your lambda once these permissions are set up.
 
 ## AWS SDK
 
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzNDgzMjcwLDE3MzczMDgxOTEsOTE2ND
+eyJoaXN0b3J5IjpbMTAzMDkyNDc0LDE3MzczMDgxOTEsOTE2ND
 c5MjAsLTI0MzczNjMwMSwxNDcwNTIzMTg4LDgxMTkyMzcyNywz
 MTEyMzEwMzQsMTEzNzcxMzU1MCwxMDg2OTMxMjg4LDE5OTU5ND
 Y3MjJdfQ==
