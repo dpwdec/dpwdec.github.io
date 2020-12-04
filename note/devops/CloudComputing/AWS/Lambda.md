@@ -20,14 +20,20 @@ The **associated trust policy** is:
 {  
 "Version": "2012-10-17", 
 "Statement": [ 
-  {  
-    "Effect": "Allow", 
-    "Principal": {  
-       "Service": "lambda.amazonaws.com" }, 
-       "Action": "sts:AssumeRole" 
-     } 
+    {  
+     "Effect": "Allow", 
+     "Principal": {  
+       "Service": "lambda.amazonaws.com" 
+      }, 
+      "Action": "sts:AssumeRole" 
+    } 
   ] 
 }
+```
+
+You can **also create the policy inline**:
+```bash
+$ 
 ```
 
 ## SAM
@@ -88,7 +94,7 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4OTI3MzY3LC0yNDM3MzYzMDEsMTQ3MD
+eyJoaXN0b3J5IjpbLTY4NTk5NDM1LC0yNDM3MzYzMDEsMTQ3MD
 UyMzE4OCw4MTE5MjM3MjcsMzExMjMxMDM0LDExMzc3MTM1NTAs
 MTA4NjkzMTI4OCwxOTk1OTQ2NzIyXX0=
 -->
