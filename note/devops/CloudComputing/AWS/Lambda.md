@@ -43,6 +43,10 @@ $ aws lambda create-function --function-name my-function \
   --role <LAMDA_ROLE_ARN>
 ```
 
+## Dependencies
+
+
+
 ## SAM
 
 SAM is a **Severless Application Model** and allows you to define the structure of complex lambda's using YAML, such as external dependencies and other integrated services (like Databases, Buckets etc.)
@@ -101,7 +105,7 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjgyNTA2NjMsLTI0MzczNjMwMSwxND
-cwNTIzMTg4LDgxMTkyMzcyNywzMTEyMzEwMzQsMTEzNzcxMzU1
-MCwxMDg2OTMxMjg4LDE5OTU5NDY3MjJdfQ==
+eyJoaXN0b3J5IjpbOTE2NDc5MjAsLTI0MzczNjMwMSwxNDcwNT
+IzMTg4LDgxMTkyMzcyNywzMTEyMzEwMzQsMTEzNzcxMzU1MCwx
+MDg2OTMxMjg4LDE5OTU5NDY3MjJdfQ==
 -->
