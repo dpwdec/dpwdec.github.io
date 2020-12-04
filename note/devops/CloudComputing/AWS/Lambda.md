@@ -6,7 +6,7 @@ title: Lambda
 
 Lambda's run using an **execution role** which is just an `IAM` role that the lambda assumes the permissions of when it runs.
 
-## CLI
+## Deployment
 
 
 
@@ -62,7 +62,7 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzQ4OTk3Nyw4MTE5MjM3MjcsMzExMj
+eyJoaXN0b3J5IjpbLTY3NTQ2MjA4MCw4MTE5MjM3MjcsMzExMj
 MxMDM0LDExMzc3MTM1NTAsMTA4NjkzMTI4OCwxOTk1OTQ2NzIy
 XX0=
 -->
