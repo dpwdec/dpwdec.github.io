@@ -60,10 +60,16 @@ You can **package dependency code** with your lambda.
 
 ### Node
 
-For Node based lambda's you can simply `zip` up your lambda as normal using a recursive `zip` command to also zip the `node_modules` folder. These dependencies can then be `require`d when the lambda is called.
+For Node based lambda's you can simply `zip` up your lambda as normal using a recursive `zip` command to also zip the `node_modules` folder. These dependencies can then be `require`d when the lambda is called. An example file structure for the lambda is shown below.
+```
+my-lambda
+├── index.js
+└── node_modules
+	├── dependency.js
+    └── anotherDependency.js
 ```
 
-```
+You ca
 
 ## SAM
 
@@ -123,7 +129,7 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODYyMTI0Nyw5MTY0NzkyMCwtMjQzNz
-M2MzAxLDE0NzA1MjMxODgsODExOTIzNzI3LDMxMTIzMTAzNCwx
-MTM3NzEzNTUwLDEwODY5MzEyODgsMTk5NTk0NjcyMl19
+eyJoaXN0b3J5IjpbLTE0MDUwNDUyMjUsOTE2NDc5MjAsLTI0Mz
+czNjMwMSwxNDcwNTIzMTg4LDgxMTkyMzcyNywzMTEyMzEwMzQs
+MTEzNzcxMzU1MCwxMDg2OTMxMjg4LDE5OTU5NDY3MjJdfQ==
 -->
