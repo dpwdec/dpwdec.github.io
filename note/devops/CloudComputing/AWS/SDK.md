@@ -15,6 +15,8 @@ aws_access_key_id = <YOUR_ACCESS_KEY_ID>`
 aws_secret_access_key = <YOUR_SECRET_ACCESS_KEY>
 ```
 
+You also **may need a to add a session token** if you are using session based AWS access which you can do with the `aws_sess
+
 ## S3
 
 ### Javascript
@@ -36,6 +38,6 @@ getS3Content = () => {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjc4NDIzOTUsNjQ4MjM1NDU0LC0xND
-cwODU4NjQxXX0=
+eyJoaXN0b3J5IjpbLTE1ODI0OTM3NSwtMTA2Nzg0MjM5NSw2ND
+gyMzU0NTQsLTE0NzA4NTg2NDFdfQ==
 -->
