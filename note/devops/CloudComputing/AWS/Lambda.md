@@ -6,6 +6,10 @@ title: Lambda
 
 Lambda's run using an **execution role** which is just an `IAM` role that the lambda assumes the permissions of when it runs.
 
+## CLI
+
+
+
 ## S3 Access
 
 You can **give your lambda access to an S3 bucket** by [modifying the policies](https://aws.amazon.com/premiumsupport/knowledge-center/lambda-execution-role-s3-bucket/#:~:text=Create%20an%20AWS%20Identity%20and,the%20Lambda%20function's%20execution%20role.&text=Verify%20that%20the%20bucket%20policy,the%20Lambda%20function's%20execution%20role.) on the lambda's **execution role**. You can do this by:
@@ -58,6 +62,7 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExOTIzNzI3LDMxMTIzMTAzNCwxMTM3Nz
-EzNTUwLDEwODY5MzEyODgsMTk5NTk0NjcyMl19
+eyJoaXN0b3J5IjpbLTgxNzQ4OTk3Nyw4MTE5MjM3MjcsMzExMj
+MxMDM0LDExMzc3MTM1NTAsMTA4NjkzMTI4OCwxOTk1OTQ2NzIy
+XX0=
 -->
