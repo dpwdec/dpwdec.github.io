@@ -69,7 +69,10 @@ my-lambda
     └── anotherDependency.js
 ```
 
-You ca
+You can then **zip your lambda recursively** using the `-r` flag targeting the folder which the lambda is stored in.
+```bash
+$ zip -r my-function.zip .
+```
 
 ## SAM
 
@@ -129,7 +132,7 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDUwNDUyMjUsOTE2NDc5MjAsLTI0Mz
-czNjMwMSwxNDcwNTIzMTg4LDgxMTkyMzcyNywzMTEyMzEwMzQs
-MTEzNzcxMzU1MCwxMDg2OTMxMjg4LDE5OTU5NDY3MjJdfQ==
+eyJoaXN0b3J5IjpbMTczNzMwODE5MSw5MTY0NzkyMCwtMjQzNz
+M2MzAxLDE0NzA1MjMxODgsODExOTIzNzI3LDMxMTIzMTAzNCwx
+MTM3NzEzNTUwLDEwODY5MzEyODgsMTk5NTk0NjcyMl19
 -->
