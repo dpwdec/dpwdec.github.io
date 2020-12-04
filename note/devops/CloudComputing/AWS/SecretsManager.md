@@ -23,9 +23,9 @@ $ aws secretsmanager get-secret-value --secret-id <SECRET_NAME> --version-stage 
 
 You can **retrieve data about a secret** such as ARN, name etc. but *not* the actual encoded string using the `describe-secret` command.
 ```bash
-$ aws secretsmanager describe-secret --secret-id <S
+$ aws secretsmanager describe-secret --secret-id <SECRET_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTI3MjIyNiwtOTA0OTcwNDYsLTEwNj
-QxODQzODZdfQ==
+eyJoaXN0b3J5IjpbLTExNDg3NTc2ODMsLTkwNDk3MDQ2LC0xMD
+Y0MTg0Mzg2XX0=
 -->
