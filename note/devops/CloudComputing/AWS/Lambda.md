@@ -82,10 +82,10 @@ SAM is a **Severless Application Model** and allows you to define the structure 
 
 The **second argument to a lambda function** is a `context` object which **contains metadata about the function**. Examples are in Javascript but similar functions exist in a range of languages.
 
-You can **get the name of the currently running function** by using the `functionName` property.
+You can **get the name of the currently running function** by using the `functionName` property, this is whatever name was set in AWS.
 ```js
 exports.handle = async (event, context) => {
-  return context.functionName // -=
+  return context.functionName // "my-function"
 }
 ```
 
@@ -141,8 +141,8 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyMDkxNjkzLDE3MzczMDgxOTEsOTE2ND
-c5MjAsLTI0MzczNjMwMSwxNDcwNTIzMTg4LDgxMTkyMzcyNywz
-MTEyMzEwMzQsMTEzNzcxMzU1MCwxMDg2OTMxMjg4LDE5OTU5ND
-Y3MjJdfQ==
+eyJoaXN0b3J5IjpbLTUxODYzMjcwMiwxNzM3MzA4MTkxLDkxNj
+Q3OTIwLC0yNDM3MzYzMDEsMTQ3MDUyMzE4OCw4MTE5MjM3Mjcs
+MzExMjMxMDM0LDExMzc3MTM1NTAsMTA4NjkzMTI4OCwxOTk1OT
+Q2NzIyXX0=
 -->
