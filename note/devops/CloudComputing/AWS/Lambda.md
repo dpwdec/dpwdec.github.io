@@ -78,7 +78,9 @@ $ zip -r my-function.zip .
 
 SAM is a **Severless Application Model** and allows you to define the structure of complex lambda's using YAML, such as external dependencies and other integrated services (like Databases, Buckets etc.)
 
+## Context
 
+T
 
 ## S3 Access
 
@@ -132,7 +134,8 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNzMwODE5MSw5MTY0NzkyMCwtMjQzNz
-M2MzAxLDE0NzA1MjMxODgsODExOTIzNzI3LDMxMTIzMTAzNCwx
-MTM3NzEzNTUwLDEwODY5MzEyODgsMTk5NTk0NjcyMl19
+eyJoaXN0b3J5IjpbMTIzNDI2MTk3MiwxNzM3MzA4MTkxLDkxNj
+Q3OTIwLC0yNDM3MzYzMDEsMTQ3MDUyMzE4OCw4MTE5MjM3Mjcs
+MzExMjMxMDM0LDExMzc3MTM1NTAsMTA4NjkzMTI4OCwxOTk1OT
+Q2NzIyXX0=
 -->
