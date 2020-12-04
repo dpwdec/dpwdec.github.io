@@ -10,7 +10,7 @@ Lambda's run using an **execution role** which is just an `IAM` role that the la
 
 You can **deploy a lambda using the AWS CLI** by creating an execution role and creating a lambda pointing to that execution role with the code for the lambda zipped up.
 
-You can **create a new IAM role for lambda execution** using the `iam` command line tool and the `create-role` command. This should come along with a `trust-policy.json` file in the same directory which you run the command from that defines the roles privileges.
+You must **create a new IAM role for lambda execution** using the `iam` command line tool and the `create-role` command. This should come along with a `trust-policy.json` file in the same directory which you run the command from that defines the roles privileges.
 ```bash
 $ aws iam create-role --role-name <LAMBDA_ROLE_NAME> --assume-role-policy-document file://trust-policy.json
 ```
@@ -36,7 +36,10 @@ You can **also create the policy inline**:
 $ aws iam create-role --role-name lambda-ex --assume-role-policy-document '{"Version": "2012-10-17","Statement": [{ "Effect": "Allow", "Principal": {"Service": "lambda.amazonaws.com"}, "Action": "sts:AssumeRole"}]}'
 ```
 
-
+You can **create a function** and **deploy it for the first time** by using the 
+```bash
+$ aws lambda create-function --function-name my-function \ --zip-file fileb://function.zip --handler index.handler --runtime nodejs12.x \ --role arn:aws:iam::`123456789012`:role/lambda-ex``
+```
 
 ## SAM
 
@@ -96,7 +99,7 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjMyNTIyMCwtMjQzNzM2MzAxLDE0Nz
+eyJoaXN0b3J5IjpbLTU4MTc3Njk5NywtMjQzNzM2MzAxLDE0Nz
 A1MjMxODgsODExOTIzNzI3LDMxMTIzMTAzNCwxMTM3NzEzNTUw
 LDEwODY5MzEyODgsMTk5NTk0NjcyMl19
 -->
