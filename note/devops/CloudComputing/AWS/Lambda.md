@@ -36,9 +36,11 @@ You can **also create the policy inline**:
 $ aws iam create-role --role-name lambda-ex --assume-role-policy-document '{"Version": "2012-10-17","Statement": [{ "Effect": "Allow", "Principal": {"Service": "lambda.amazonaws.com"}, "Action": "sts:AssumeRole"}]}'
 ```
 
-You can **create a function** and **deploy it for the first time** by using the 
+You can **create a function** and **deploy it for the first time** by `zip`ping your code and then using the the `create-function` utility on `lambda` with the code and execution role ARN for the lambda
 ```bash
-$ aws lambda create-function --function-name my-function \ --zip-file fileb://function.zip --handler index.handler --runtime nodejs12.x \ --role arn:aws:iam::`123456789012`:role/lambda-ex``
+$ aws lambda create-function --function-name my-function \ 
+  --zip-file fileb://function.zip --handler index.handler --runtime nodejs12.x \ 
+  --role <LAMDA_ROLE_ARN>
 ```
 
 ## SAM
@@ -99,7 +101,7 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTc3Njk5NywtMjQzNzM2MzAxLDE0Nz
+eyJoaXN0b3J5IjpbMTg1OTk0MzQ3NCwtMjQzNzM2MzAxLDE0Nz
 A1MjMxODgsODExOTIzNzI3LDMxMTIzMTAzNCwxMTM3NzEzNTUw
 LDEwODY5MzEyODgsMTk5NTk0NjcyMl19
 -->
