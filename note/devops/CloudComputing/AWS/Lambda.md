@@ -8,6 +8,8 @@ Lambda's run using an **execution role** which is just an `IAM` role that the la
 
 ## CLI
 
+You can find more information about Lambda 
+
 ### Deploying a new lambda
 
 You can **deploy a lambda using the AWS CLI** by creating an execution role and creating a lambda pointing to that execution role with the code for the lambda zipped up.
@@ -141,8 +143,8 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxODYzMjcwMiwxNzM3MzA4MTkxLDkxNj
-Q3OTIwLC0yNDM3MzYzMDEsMTQ3MDUyMzE4OCw4MTE5MjM3Mjcs
-MzExMjMxMDM0LDExMzc3MTM1NTAsMTA4NjkzMTI4OCwxOTk1OT
-Q2NzIyXX0=
+eyJoaXN0b3J5IjpbODc5ODEzMTgxLDE3MzczMDgxOTEsOTE2ND
+c5MjAsLTI0MzczNjMwMSwxNDcwNTIzMTg4LDgxMTkyMzcyNywz
+MTEyMzEwMzQsMTEzNzcxMzU1MCwxMDg2OTMxMjg4LDE5OTU5ND
+Y3MjJdfQ==
 -->
