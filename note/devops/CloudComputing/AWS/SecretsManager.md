@@ -18,9 +18,14 @@ You can **view sample code in a range of languages that retrieves your secret** 
 
 You can **retrieve secret values** using the AWS CLI's `get-secret-value` command.
 ```bash
-aws secretsmanager get-secret-value --secret-id <SECRET_NAME> --version-stage AWSCURRENT
+$ aws secretsmanager get-secret-value --secret-id <SECRET_NAME> --version-stage AWSCURRENT
+```
+
+You can **retrieve data about a secret** such as ARN, name etc. but *not* the actual encoded string using the `describe-secret` command.
+```bash
+$ aws secretsmanager describe-secret --secret-id <S
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1MDczMzgyLC05MDQ5NzA0NiwtMTA2ND
-E4NDM4Nl19
+eyJoaXN0b3J5IjpbMTM1OTI3MjIyNiwtOTA0OTcwNDYsLTEwNj
+QxODQzODZdfQ==
 -->
