@@ -16,11 +16,11 @@ You can **view sample code in a range of languages that retrieves your secret** 
 
 ## Retrieval
 
-You can **retrieve secret values** using the AWS CLI's `get-secret-value` command. There can be multiple versions of a secret curretnly
+You can **retrieve secret values** using the AWS CLI's `get-secret-value` command.
 ```bash
 aws secretsmanager get-secret-value --secret-id <SECRET_NAME> --version-stage AWSCURRENT
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk5NDA5ODQsLTkwNDk3MDQ2LC0xMD
-Y0MTg0Mzg2XX0=
+eyJoaXN0b3J5IjpbMzE1MDczMzgyLC05MDQ5NzA0NiwtMTA2ND
+E4NDM4Nl19
 -->
