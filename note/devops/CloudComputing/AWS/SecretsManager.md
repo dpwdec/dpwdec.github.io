@@ -8,6 +8,7 @@ title: Secrets Manager
 
 You can **store any type of data as a set of key-value pairs** by using the "Other type of secrets" option when storing a new secret. A single secret can accomplish several pairs of data.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjQxODQzODZdfQ==
+eyJoaXN0b3J5IjpbMTU1NDYwNzIxMiwtMTA2NDE4NDM4Nl19
 -->
