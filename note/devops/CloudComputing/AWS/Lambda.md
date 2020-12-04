@@ -47,7 +47,12 @@ $ aws lambda create-function --function-name my-function \
 
 ### Updating
 
-
+You can **update your lambda's code** using the `update-function-code` command.
+```bash
+$ aws lambda update-function-code \
+    --function-name  my-function \
+    --zip-file fileb://my-function.zip
+```
 
 ## Dependencies
 
@@ -111,7 +116,7 @@ This **works if the S3 bucket and lambda are in the same AWS account** *and* acc
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzI3MDk2OSw5MTY0NzkyMCwtMjQzNz
-M2MzAxLDE0NzA1MjMxODgsODExOTIzNzI3LDMxMTIzMTAzNCwx
-MTM3NzEzNTUwLDEwODY5MzEyODgsMTk5NTk0NjcyMl19
+eyJoaXN0b3J5IjpbNjM0MDM1NTMsOTE2NDc5MjAsLTI0MzczNj
+MwMSwxNDcwNTIzMTg4LDgxMTkyMzcyNywzMTEyMzEwMzQsMTEz
+NzcxMzU1MCwxMDg2OTMxMjg4LDE5OTU5NDY3MjJdfQ==
 -->
