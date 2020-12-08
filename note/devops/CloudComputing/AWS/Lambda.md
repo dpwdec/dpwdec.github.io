@@ -146,9 +146,9 @@ You **do not need to package the AWS SDK** with a lambda. The SDK is automatical
 
 ## Lambda @ Edge
 
-
+The **Lambda @ Edge** service allows you to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDQwMzU2NiwxMDMwOTI0NzQsMTczNz
+eyJoaXN0b3J5IjpbLTk4NjU3OTcxNiwxMDMwOTI0NzQsMTczNz
 MwODE5MSw5MTY0NzkyMCwtMjQzNzM2MzAxLDE0NzA1MjMxODgs
 ODExOTIzNzI3LDMxMTIzMTAzNCwxMTM3NzEzNTUwLDEwODY5Mz
 EyODgsMTk5NTk0NjcyMl19
