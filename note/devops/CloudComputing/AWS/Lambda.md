@@ -157,9 +157,9 @@ Lambda @ Edge **functions like a middleware** intercepting CloudFront requests a
 - `Viewer Request`
 - `Viewer Response`
 
-
+You can **create a Lambda @ Edge** by creating a regular lambda in the `us-east-1` region.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Mzk3MDc0NSwtODg1OTM3NDEzLDEwMz
+eyJoaXN0b3J5IjpbMTg4NDMxMzMwOSwtODg1OTM3NDEzLDEwMz
 A5MjQ3NCwxNzM3MzA4MTkxLDkxNjQ3OTIwLC0yNDM3MzYzMDEs
 MTQ3MDUyMzE4OCw4MTE5MjM3MjcsMzExMjMxMDM0LDExMzc3MT
 M1NTAsMTA4NjkzMTI4OCwxOTk1OTQ2NzIyXX0=
