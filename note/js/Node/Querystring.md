@@ -11,9 +11,12 @@ You can **start using `querystring`** by requiring it.
 const qs = require('querystring')
 ```
 
-You can **use querystring utility** to `parse` query strings in a client's query into a Javascript object of key-value pairs.
+You can **turn a querystring into an object** by using the `parse` method.
+```js
+const query = 'name=M
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzNDY2NTIyXX0=
+eyJoaXN0b3J5IjpbLTgyMTIxMDAwOV19
 -->
