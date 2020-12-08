@@ -41,16 +41,18 @@ You can **delete a cloudfront distribution** by first selecting it and using the
 
 ## Caching
 
-You can **disable cloudfront caching** (usually for the purposes of prototyping. By:
+You can **disable cloudfront caching** (usually for the purposes of prototyping.
 
-1. Navigating to the Cloudfront distribution you want to modify.
-2. Go
+1. Navigate to the Cloudfront distribution you want to modify.
+2. Go to the `Behaviors` tab and select the behavior pattern you want to change.
+3. Click the `Edit` button above.
+4. Change the `Caching Policy` section to `Managed-CachingDisabled`.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTM2MzM1MCwtMjEyODExODk4OCwtMT
+eyJoaXN0b3J5IjpbMTA4Njk2NjY0OCwtMjEyODExODk4OCwtMT
 c4MzkxMjM4NywxNjIxODkwNjczLDExNTk0OTgxNDBdfQ==
 -->
