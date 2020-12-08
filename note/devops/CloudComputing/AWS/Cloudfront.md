@@ -39,12 +39,18 @@ You will be **charged for clearing cached objects**.
 
 You can **delete a cloudfront distribution** by first selecting it and using the `Disable` option. It will take a while to be taken down and it can then be deleted.
 
+## Caching
+
+You can **disable cloudfront caching** (usually for the purposes of prototyping. By:
+
+1. Navigating to the Cloudfront distribution you want to modify.
+2. 
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODM5MTIzODcsMTYyMTg5MDY3MywxMT
-U5NDk4MTQwXX0=
+eyJoaXN0b3J5IjpbLTcyNTUwMDg5OCwtMTc4MzkxMjM4NywxNj
+IxODkwNjczLDExNTk0OTgxNDBdfQ==
 -->
