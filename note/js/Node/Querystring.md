@@ -11,7 +11,7 @@ You can **start using `querystring`** by requiring it.
 const qs = require('querystring')
 ```
 
-You can **turn a querystring into an object** by using the `parse` method.
+You can **turn a querystring into an object** by using the `parse` method. The `querystring` utility is not intelligent enough to type values correctly and simply parses everything as a string.
 ```js
 const query = 'name=Mephisto&age=908'
 const values = qs.parse(query)
@@ -20,5 +20,5 @@ const values = qs.parse(query)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzAxNDI5NF19
+eyJoaXN0b3J5IjpbLTI5OTMwNzMwXX0=
 -->
