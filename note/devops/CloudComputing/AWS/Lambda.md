@@ -164,9 +164,11 @@ You can **create a Lambda @ Edge** by:
 3. Go to `Add Trigger` and select `CloudFront` as the trigger type. You then need to provided the ARN of the CloudFront distribution that you want to trigger the Lambda and pick the type of event.
 4. Wait for the Lambda to be deployed and then try and access a file in your distribution to check that it is running.
 
-B
+**BEWARE:** Lambda @ Edge code is **also cached at edge locations** so if you want to prototype a solution and tests changes you will need to temporary disable caching as part of the CloudFront distribution that triggers the lambda.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjA1NjY1MCwtMTM4MTQ0ODY5NiwtOD
+eyJoaXN0b3J5IjpbLTczMzk0OTU3MywtMTM4MTQ0ODY5NiwtOD
 g1OTM3NDEzLDEwMzA5MjQ3NCwxNzM3MzA4MTkxLDkxNjQ3OTIw
 LC0yNDM3MzYzMDEsMTQ3MDUyMzE4OCw4MTE5MjM3MjcsMzExMj
 MxMDM0LDExMzc3MTM1NTAsMTA4NjkzMTI4OCwxOTk1OTQ2NzIy
