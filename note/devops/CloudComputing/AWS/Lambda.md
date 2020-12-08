@@ -160,10 +160,10 @@ Lambda @ Edge **functions like a middleware** intercepting CloudFront requests a
 You can **create a Lambda @ Edge** by:
 
 1. Creating a CloudFront distribution for some S3 content. Make sure the S3 bucket and content is set to public access. This data can be **stored in any region**.
-2.  creating a regular lambda in the `us-east-1` region.
+2.  Creating a regular lambda in the `us-east-1` region with appropriate Lambda @ Edge code.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4NDY2NDAxLC04ODU5Mzc0MTMsMTAzMD
-kyNDc0LDE3MzczMDgxOTEsOTE2NDc5MjAsLTI0MzczNjMwMSwx
-NDcwNTIzMTg4LDgxMTkyMzcyNywzMTEyMzEwMzQsMTEzNzcxMz
-U1MCwxMDg2OTMxMjg4LDE5OTU5NDY3MjJdfQ==
+eyJoaXN0b3J5IjpbLTcwOTAwNDU5OSwtODg1OTM3NDEzLDEwMz
+A5MjQ3NCwxNzM3MzA4MTkxLDkxNjQ3OTIwLC0yNDM3MzYzMDEs
+MTQ3MDUyMzE4OCw4MTE5MjM3MjcsMzExMjMxMDM0LDExMzc3MT
+M1NTAsMTA4NjkzMTI4OCwxOTk1OTQ2NzIyXX0=
 -->
