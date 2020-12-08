@@ -15,10 +15,10 @@ You can **turn a querystring into an object** by using the `parse` method.
 ```js
 const query = 'name=Mephisto&age=908'
 const values = qs.parse(query)
-// => { name: 'Mephisto', Age: 908 }
+// => { name: 'Mephisto', Age: '908' }
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwMzM1MTAyXX0=
+eyJoaXN0b3J5IjpbLTQwMzAxNDI5NF19
 -->
