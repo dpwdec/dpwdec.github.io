@@ -150,9 +150,12 @@ The **Lambda @ Edge** service allows you to run lambda code at an edge location 
 
 Lambda @ Edge is **only available in the `us-east-1` region**.
 
-Lambda @ Edge **functions like a middleware** intercepting CloudFront requests and modifying them in some way. There are four options
+Lambda @ Edge **functions like a middleware** intercepting CloudFront requests and modifying them in some way. There are four options for `CloudFront Events` that can trigger the Lambda @ Edge:
+
+- `Origin Request` - triggers when a client makes a request
+- `Origin Response` - triggers when the origin returns content (can be used for modifying data and meta-data in the response
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY4NDA5NDgsLTg4NTkzNzQxMywxMD
+eyJoaXN0b3J5IjpbLTEyMTM2NjgxNDUsLTg4NTkzNzQxMywxMD
 MwOTI0NzQsMTczNzMwODE5MSw5MTY0NzkyMCwtMjQzNzM2MzAx
 LDE0NzA1MjMxODgsODExOTIzNzI3LDMxMTIzMTAzNCwxMTM3Nz
 EzNTUwLDEwODY5MzEyODgsMTk5NTk0NjcyMl19
