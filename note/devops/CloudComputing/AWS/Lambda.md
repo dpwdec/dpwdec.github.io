@@ -147,9 +147,13 @@ You **do not need to package the AWS SDK** with a lambda. The SDK is automatical
 ## Lambda @ Edge
 
 The **Lambda @ Edge** service allows you to run lambda code at an edge location that is triggered by requests by to content from the CloudFront CDN.
+
+Lambda @ Edge is **only available in the `us-east-1` region**.
+
+Lambda @ Edge **functions like a middleware** intercepting CloudFront requests and modifying them in some way. There are four options
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTkzNzQxMywxMDMwOTI0NzQsMTczNz
-MwODE5MSw5MTY0NzkyMCwtMjQzNzM2MzAxLDE0NzA1MjMxODgs
-ODExOTIzNzI3LDMxMTIzMTAzNCwxMTM3NzEzNTUwLDEwODY5Mz
-EyODgsMTk5NTk0NjcyMl19
+eyJoaXN0b3J5IjpbLTEzNDY4NDA5NDgsLTg4NTkzNzQxMywxMD
+MwOTI0NzQsMTczNzMwODE5MSw5MTY0NzkyMCwtMjQzNzM2MzAx
+LDE0NzA1MjMxODgsODExOTIzNzI3LDMxMTIzMTAzNCwxMTM3Nz
+EzNTUwLDEwODY5MzEyODgsMTk5NTk0NjcyMl19
 -->
