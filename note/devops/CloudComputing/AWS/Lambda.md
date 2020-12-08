@@ -161,10 +161,14 @@ You can **create a Lambda @ Edge** by:
 
 1. Creating a CloudFront distribution for some S3 content. Make sure the S3 bucket and content is set to public access. This data can be **stored in any region**.
 2.  Creating a regular lambda in the `us-east-1` region with appropriate Lambda @ Edge code.
-3. Go to `Add Trigger` and select `CloudFront` as the trigger.
+3. Go to `Add Trigger` and select `CloudFront` as the trigger type. You then need to provided the ARN of the CloudFront distribution that you want to trigger the Lambda and pick the type of event.
+4. Wait for the Lambda to be deployed and then try and access a file in your distribution to check that it is running.
+
+B
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODE0NDg2OTYsLTg4NTkzNzQxMywxMD
-MwOTI0NzQsMTczNzMwODE5MSw5MTY0NzkyMCwtMjQzNzM2MzAx
-LDE0NzA1MjMxODgsODExOTIzNzI3LDMxMTIzMTAzNCwxMTM3Nz
-EzNTUwLDEwODY5MzEyODgsMTk5NTk0NjcyMl19
+eyJoaXN0b3J5IjpbMTE5NjA1NjY1MCwtMTM4MTQ0ODY5NiwtOD
+g1OTM3NDEzLDEwMzA5MjQ3NCwxNzM3MzA4MTkxLDkxNjQ3OTIw
+LC0yNDM3MzYzMDEsMTQ3MDUyMzE4OCw4MTE5MjM3MjcsMzExMj
+MxMDM0LDExMzc3MTM1NTAsMTA4NjkzMTI4OCwxOTk1OTQ2NzIy
+XX0=
 -->
