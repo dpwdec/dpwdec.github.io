@@ -144,9 +144,12 @@ You can **load a resource from S3 using standard AWS SDK integration** in the bo
 
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
+## Lambda @ Edge
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDkyNDc0LDE3MzczMDgxOTEsOTE2ND
-c5MjAsLTI0MzczNjMwMSwxNDcwNTIzMTg4LDgxMTkyMzcyNywz
-MTEyMzEwMzQsMTEzNzcxMzU1MCwxMDg2OTMxMjg4LDE5OTU5ND
-Y3MjJdfQ==
+eyJoaXN0b3J5IjpbMTE5MDQwMzU2NiwxMDMwOTI0NzQsMTczNz
+MwODE5MSw5MTY0NzkyMCwtMjQzNzM2MzAxLDE0NzA1MjMxODgs
+ODExOTIzNzI3LDMxMTIzMTAzNCwxMTM3NzEzNTUwLDEwODY5Mz
+EyODgsMTk5NTk0NjcyMl19
 -->
