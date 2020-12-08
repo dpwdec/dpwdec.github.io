@@ -148,7 +148,8 @@ You **do not need to package the AWS SDK** with a lambda. The SDK is automatical
 
 You can **give a lambda access to a SecretsManager secret** by modifying the lambda's associated execution role in `IAM` to have access to secrets manager. To do this:
 
-1. Navigate to IAM and the a
+1. Navigate to IAM and the Lambda's associated execution role.
+2. 
 
 ## Lambda @ Edge
 
@@ -174,7 +175,7 @@ You can **create a Lambda @ Edge** by:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2OTIxNzQxLC03MzM5NDk1NzMsLTEzOD
+eyJoaXN0b3J5IjpbMzExMTQ2MDEzLC03MzM5NDk1NzMsLTEzOD
 E0NDg2OTYsLTg4NTkzNzQxMywxMDMwOTI0NzQsMTczNzMwODE5
 MSw5MTY0NzkyMCwtMjQzNzM2MzAxLDE0NzA1MjMxODgsODExOT
 IzNzI3LDMxMTIzMTAzNCwxMTM3NzEzNTUwLDEwODY5MzEyODgs
