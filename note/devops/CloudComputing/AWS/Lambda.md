@@ -152,11 +152,15 @@ Lambda @ Edge is **only available in the `us-east-1` region**.
 
 Lambda @ Edge **functions like a middleware** intercepting CloudFront requests and modifying them in some way. There are four options for `CloudFront Events` that can trigger the Lambda @ Edge:
 
-- `Origin Request` - triggers when a client makes a request
-- `Origin Response` - triggers when the origin returns content (can be used for modifying data and meta-data in the response
+- `Origin Request` - triggers when a client makes a request (can be used for authenticating or modifying requests)
+- `Origin Response` - triggers when the origin returns content (can be used for modifying data and meta-data in the response)
+- `Viewer Request`
+- `Viewer Response`
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTM2NjgxNDUsLTg4NTkzNzQxMywxMD
-MwOTI0NzQsMTczNzMwODE5MSw5MTY0NzkyMCwtMjQzNzM2MzAx
-LDE0NzA1MjMxODgsODExOTIzNzI3LDMxMTIzMTAzNCwxMTM3Nz
-EzNTUwLDEwODY5MzEyODgsMTk5NTk0NjcyMl19
+eyJoaXN0b3J5IjpbMjA3Mzk3MDc0NSwtODg1OTM3NDEzLDEwMz
+A5MjQ3NCwxNzM3MzA4MTkxLDkxNjQ3OTIwLC0yNDM3MzYzMDEs
+MTQ3MDUyMzE4OCw4MTE5MjM3MjcsMzExMjMxMDM0LDExMzc3MT
+M1NTAsMTA4NjkzMTI4OCwxOTk1OTQ2NzIyXX0=
 -->
