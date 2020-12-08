@@ -144,6 +144,12 @@ You can **load a resource from S3 using standard AWS SDK integration** in the bo
 
 You **do not need to package the AWS SDK** with a lambda. The SDK is automatically installed on the default lambda run times.
 
+## SecretsManager
+
+You can **give a lambda access to a SecretsManager secret** by modifying the lambda's associated execution role in `IAM` to have access to secrets manager. To do this:
+
+1. Navigate to IAM and the a
+
 ## Lambda @ Edge
 
 The **Lambda @ Edge** service allows you to run lambda code at an edge location that is triggered by requests by to content from the CloudFront CDN.
@@ -168,9 +174,9 @@ You can **create a Lambda @ Edge** by:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzk0OTU3MywtMTM4MTQ0ODY5NiwtOD
-g1OTM3NDEzLDEwMzA5MjQ3NCwxNzM3MzA4MTkxLDkxNjQ3OTIw
-LC0yNDM3MzYzMDEsMTQ3MDUyMzE4OCw4MTE5MjM3MjcsMzExMj
-MxMDM0LDExMzc3MTM1NTAsMTA4NjkzMTI4OCwxOTk1OTQ2NzIy
-XX0=
+eyJoaXN0b3J5IjpbNzg2OTIxNzQxLC03MzM5NDk1NzMsLTEzOD
+E0NDg2OTYsLTg4NTkzNzQxMywxMDMwOTI0NzQsMTczNzMwODE5
+MSw5MTY0NzkyMCwtMjQzNzM2MzAxLDE0NzA1MjMxODgsODExOT
+IzNzI3LDMxMTIzMTAzNCwxMTM3NzEzNTUwLDEwODY5MzEyODgs
+MTk5NTk0NjcyMl19
 -->
