@@ -48,11 +48,18 @@ You can **disable cloudfront caching** (usually for the purposes of prototyping.
 3. Click the `Edit` button above.
 4. Change the `Caching Policy` section to `Managed-CachingDisabled`.
 
+## OAI
+
+You can use **Origin Access Identity** to **give cloudfront access to the contents of a restricted S3 bucket**. 
+
+1. Go to your cloudfront distribution
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Njk2NjY0OCwtMjEyODExODk4OCwtMT
-c4MzkxMjM4NywxNjIxODkwNjczLDExNTk0OTgxNDBdfQ==
+eyJoaXN0b3J5IjpbLTExODkyMTg3MzEsMTA4Njk2NjY0OCwtMj
+EyODExODk4OCwtMTc4MzkxMjM4NywxNjIxODkwNjczLDExNTk0
+OTgxNDBdfQ==
 -->
