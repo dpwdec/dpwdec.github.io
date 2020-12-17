@@ -52,14 +52,17 @@ You can **disable cloudfront caching** (usually for the purposes of prototyping.
 
 You can use **Origin Access Identity** to **give cloudfront access to the contents of a restricted S3 bucket**. 
 
-1. Go to your cloudfront distribution
+1. Go to a cloudfront distribution that has been set up with an S3 origin
+2. Go to the `Origins and Origin Groups` tab and selected the S3 origin you want to give access to and click `Edit`
+3. Set `Restrict Bucket Access` to `yes`
+4. 
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODkyMTg3MzEsMTA4Njk2NjY0OCwtMj
-EyODExODk4OCwtMTc4MzkxMjM4NywxNjIxODkwNjczLDExNTk0
-OTgxNDBdfQ==
+eyJoaXN0b3J5IjpbNDA0MDMwNTE0LDEwODY5NjY2NDgsLTIxMj
+gxMTg5ODgsLTE3ODM5MTIzODcsMTYyMTg5MDY3MywxMTU5NDk4
+MTQwXX0=
 -->
