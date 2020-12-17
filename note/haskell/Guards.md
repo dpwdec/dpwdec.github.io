@@ -30,9 +30,15 @@ maximum' (x:xs)
 
 Pattern matching with guards can also **fall through to further patterned matched conditions** if no `otherwise` case is specified.
 ```haskell
-
+fall  :: (Num  a, Eq  a, Ord  a) =>  a  -> [Char]
+fall x
+     | x <  0  =  "Less than zero"
+fall 10  =  "x is 10"
+fall x
+     | x <  10  =  "Less than 10"
+     | otherwise =  "Greater than 10"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTcyOTg1MywxNzgxODgyMDUsMTc2Mz
-gwNTMwOSwzMTExMTM3NjFdfQ==
+eyJoaXN0b3J5IjpbMjM5MjIxNTYzLC03Nzk3Mjk4NTMsMTc4MT
+g4MjA1LDE3NjM4MDUzMDksMzExMTEzNzYxXX0=
 -->
