@@ -19,9 +19,15 @@ numberSize x
 
 You can **combine guard clauses with normal pattern matching**.
 ```haskell
-
+maximum' :: (Ord a) => [a] -> a
+maximum' [] = error "maximum of empty list"
+maximum' [x] = x
+maximum' (x:xs)
+         | x > maxTail = x
+         | otherwise = maxTail
+         where maxTail = maximum' xs
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzNzI5MjgsMTc2MzgwNTMwOSwzMTExMT
-M3NjFdfQ==
+eyJoaXN0b3J5IjpbMTc4MTg4MjA1LDE3NjM4MDUzMDksMzExMT
+EzNzYxXX0=
 -->
