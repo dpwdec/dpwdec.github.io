@@ -39,7 +39,9 @@ You can **generate a zero dependency HTML file for your spec** by using the `red
 $ npx redoc-cli bundle <spec file>
 ``` 
 
+You can find **a template for doing basic redoc styling** [here](https://github.com/Redocly/redoc/blob/master/src/theme.ts).
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MDc3MzU2XX0=
+eyJoaXN0b3J5IjpbLTIzOTI5ODY3NCw0NzUwNzczNTZdfQ==
 -->
