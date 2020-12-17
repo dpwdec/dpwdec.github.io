@@ -17,7 +17,11 @@ numberSize x
           | otherwise = "Bigger than twenty"
 ```
 
+You can **combine guard clauses with normal pattern matching**.
+```haskell
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MzgwNTMwOSwzMTExMTM3NjFdfQ==
+eyJoaXN0b3J5IjpbMjgzNzI5MjgsMTc2MzgwNTMwOSwzMTExMT
+M3NjFdfQ==
 -->
