@@ -55,14 +55,15 @@ You can use **Origin Access Identity** to **give cloudfront access to the conten
 1. Go to a cloudfront distribution that has been set up with an S3 origin
 2. Go to the `Origins and Origin Groups` tab and selected the S3 origin you want to give access to and click `Edit`
 3. Set `Restrict Bucket Access` to `yes`
-4. 
-
+4. If you don't have an OAI user then selected `Create a New Identity` otherwise use an existing one.
+5. Select `Yes, Update Bucket Policy` to update access to the S3 origin with this user.
+6. Click `Yes, Edit`
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0MDMwNTE0LDEwODY5NjY2NDgsLTIxMj
+eyJoaXN0b3J5IjpbMjM2NjM0MDIyLDEwODY5NjY2NDgsLTIxMj
 gxMTg5ODgsLTE3ODM5MTIzODcsMTYyMTg5MDY3MywxMTU5NDk4
 MTQwXX0=
 -->
