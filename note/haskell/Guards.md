@@ -27,7 +27,12 @@ maximum' (x:xs)
          | otherwise = maxTail
          where maxTail = maximum' xs
 ```
+
+Pattern matching with guards can also **fall through to further patterned matched conditions** if no `otherwise` case is specified.
+```haskell
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MTg4MjA1LDE3NjM4MDUzMDksMzExMT
-EzNzYxXX0=
+eyJoaXN0b3J5IjpbLTc3OTcyOTg1MywxNzgxODgyMDUsMTc2Mz
+gwNTMwOSwzMTExMTM3NjFdfQ==
 -->
