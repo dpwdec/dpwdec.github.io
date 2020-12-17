@@ -174,11 +174,13 @@ You can **create a Lambda @ Edge** by:
 
 **BEWARE:** Lambda @ Edge code is **also cached at edge locations** so if you want to prototype a solution and tests changes you will need to temporary disable caching as part of the CloudFront distribution that triggers the lambda.
 
+It's also important to note that **the cloudfront distributio**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2NTg1NTY2LC03MzM5NDk1NzMsLTEzOD
-E0NDg2OTYsLTg4NTkzNzQxMywxMDMwOTI0NzQsMTczNzMwODE5
-MSw5MTY0NzkyMCwtMjQzNzM2MzAxLDE0NzA1MjMxODgsODExOT
-IzNzI3LDMxMTIzMTAzNCwxMTM3NzEzNTUwLDEwODY5MzEyODgs
-MTk5NTk0NjcyMl19
+eyJoaXN0b3J5IjpbNDIxMDc1NzQ3LDgwNjU4NTU2NiwtNzMzOT
+Q5NTczLC0xMzgxNDQ4Njk2LC04ODU5Mzc0MTMsMTAzMDkyNDc0
+LDE3MzczMDgxOTEsOTE2NDc5MjAsLTI0MzczNjMwMSwxNDcwNT
+IzMTg4LDgxMTkyMzcyNywzMTEyMzEwMzQsMTEzNzcxMzU1MCwx
+MDg2OTMxMjg4LDE5OTU5NDY3MjJdfQ==
 -->
