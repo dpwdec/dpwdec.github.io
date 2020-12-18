@@ -292,7 +292,7 @@ succ (max 10 20)
 
 In Haskell you should **define structures as what they ARE not by HOW the compute should work them out**. Defining things in this way makes it much easier to reason about recursive functions and work in a functional way.
 
-For example, consider a function that returns the length of a list. Define imperatively it would look ;ike a list of instructions of how to calculate the length. something like this:
+For example, consider a function that returns the length of a list. Define imperatively it would look like a list of instructions, something like this:
 ```
 Initialize a value x at 0
 Iterate through the list adding 1 to x for each value in the list
@@ -300,17 +300,20 @@ Until you reach the end of the list
 Output x
 ```
 
-Define declaratively instead we can say **what the length of the list IS**. We can define this as:
+Define declaratively instead we can say **what the length of the list IS**. We can define this as by using the `LENGTH` within its own definition signalling its recursive nature, its implicit that the `tail` of a list is everything but the first element.
 ```
 List LENGTH is 1 plus LENGTH of the tail of the list
 ```
 
+In Haskell this would look like:
+```haskell
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NjM3NjczNCwyOTkzMzg0NSw4ODkzMz
-k5NTksMTU0MjQ2NDYwOSwtNTIxMjczMTIsLTE1MDcwNzkwMDAs
-LTE4ODU2MjY4NDgsOTkzNDYxODIsMjAxODMzNzcsLTY2MDgyMT
-U3NiwyMDk5MDkyNTIxLC0zMjU0NDY5OTYsLTEyNjM1NDg0MTMs
-LTk4MzgyMjMyLDMwNjIwNjEyMCwxMTAwNjM5NjQ3LC01Njk4OD
-QxOTYsLTE5NjAyMTc3OSwxMTUzMzg5MzgzLC0zODQ1ODcyMTVd
-fQ==
+eyJoaXN0b3J5IjpbMTE1ODA1LDI5OTMzODQ1LDg4OTMzOTk1OS
+wxNTQyNDY0NjA5LC01MjEyNzMxMiwtMTUwNzA3OTAwMCwtMTg4
+NTYyNjg0OCw5OTM0NjE4MiwyMDE4MzM3NywtNjYwODIxNTc2LD
+IwOTkwOTI1MjEsLTMyNTQ0Njk5NiwtMTI2MzU0ODQxMywtOTgz
+ODIyMzIsMzA2MjA2MTIwLDExMDA2Mzk2NDcsLTU2OTg4NDE5Ni
+wtMTk2MDIxNzc5LDExNTMzODkzODMsLTM4NDU4NzIxNV19
 -->
