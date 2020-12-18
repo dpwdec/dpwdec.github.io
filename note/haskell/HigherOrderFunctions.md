@@ -9,8 +9,9 @@ You can **define a higher order function** by bracketing function input in the f
 twice :: (a -> a) -> a -> a
 twice f x = f (f x)
 twice (+3) 10
+-- 16
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODA0MzUyMiwtMjA0MzM3Nzc1MiwxNT
+eyJoaXN0b3J5IjpbMTQ0NDM2OTQ4MSwtMjA0MzM3Nzc1MiwxNT
 UwODU5OTU5XX0=
 -->
