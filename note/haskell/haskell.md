@@ -173,9 +173,13 @@ max 4 5
 (max 4) 5
 ```
 
-This bracketing to indicate function return can be **extended to function type definitions**.
+This bracketing to indicate function return can be **extended to function type definitions**. This is just syntactic sugar for an `->` which just indicates the return of a partially applied function.
 ```haskell
 f (Int a) => a -> a -> a -> a
+f x y z = x + y + z
+-- can be re-written as
+f (Int a) => a -> (a -> (a -> a))
+f x y z = x + y + z
 ```
 
 ## Errors
@@ -325,7 +329,7 @@ length' []  =  0
 length' (x:xs) =  1  + length' xs
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQzMjk0NDEsLTI0NTM3NjIzLC04Nz
+eyJoaXN0b3J5IjpbLTEyMjA2ODQ4MDIsLTI0NTM3NjIzLC04Nz
 k4MTUzOTIsMTE1ODA1LDI5OTMzODQ1LDg4OTMzOTk1OSwxNTQy
 NDY0NjA5LC01MjEyNzMxMiwtMTUwNzA3OTAwMCwtMTg4NTYyNj
 g0OCw5OTM0NjE4MiwyMDE4MzM3NywtNjYwODIxNTc2LDIwOTkw
