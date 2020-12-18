@@ -10,8 +10,11 @@ twice :: (a -> a) -> a -> a
 twice f x = f (f x)
 twice (+3) 10
 -- 16
+m2 = (*2)
+twice m2 10
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDM2OTQ4MSwtMjA0MzM3Nzc1MiwxNT
+eyJoaXN0b3J5IjpbLTQwNjExNTU0NiwtMjA0MzM3Nzc1MiwxNT
 UwODU5OTU5XX0=
 -->
