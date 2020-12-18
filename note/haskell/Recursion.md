@@ -11,7 +11,11 @@ f 1 = 1
 f x = x + sumf (x -  1)
 ```
 
+## Edge Cases
+
+Edge cases often **return the identity element** of the input in quest
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDg0NzYwMSwxMDczNjA4MjYyXX0=
+eyJoaXN0b3J5IjpbLTEzMDgwMDU5MjcsMTY4MDg0NzYwMSwxMD
+czNjA4MjYyXX0=
 -->
