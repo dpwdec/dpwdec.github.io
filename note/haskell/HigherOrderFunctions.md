@@ -1,7 +1,8 @@
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
+---
+layout: page
+exclude: true
+title: Higher Order Functions
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTU1MDg1OTk1OV19
 -->
