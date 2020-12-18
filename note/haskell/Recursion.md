@@ -16,10 +16,10 @@ f x = x + sumf (x -  1)
 **Edge cases** often **return the identity element** of the output in question. For example, in a function that sums a list of integers the identity would be an `0` because this is the additive identity of addition.
 ```haskell
 lsum  :: (Num  a) => [a] ->  a
-lsum []  =  0
+lsum []  =  0 -- Edge case returns additive identity
 lsum (x:xs) = x + lsum xs
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg1MDE1MTg1LC0xMjYyNzg5ODE3LDE2OD
-A4NDc2MDEsMTA3MzYwODI2Ml19
+eyJoaXN0b3J5IjpbMjA5MTA2Mjk3MywtMTI2Mjc4OTgxNywxNj
+gwODQ3NjAxLDEwNzM2MDgyNjJdfQ==
 -->
