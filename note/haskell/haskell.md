@@ -165,6 +165,10 @@ sumThree :: Int -> Int -> Int -> Int
 sumThree x y z = x + y + z
 ```
 
+### Currying
+
+Haskell functions are curried by default.
+
 ## Errors
 
 You can **trigger a haskell error** with an error message by using then `error` function.
@@ -312,10 +316,10 @@ length' []  =  0
 length' (x:xs) =  1  + length' xs
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTgxNTM5MiwxMTU4MDUsMjk5MzM4ND
-UsODg5MzM5OTU5LDE1NDI0NjQ2MDksLTUyMTI3MzEyLC0xNTA3
-MDc5MDAwLC0xODg1NjI2ODQ4LDk5MzQ2MTgyLDIwMTgzMzc3LC
-02NjA4MjE1NzYsMjA5OTA5MjUyMSwtMzI1NDQ2OTk2LC0xMjYz
-NTQ4NDEzLC05ODM4MjIzMiwzMDYyMDYxMjAsMTEwMDYzOTY0Ny
-wtNTY5ODg0MTk2LC0xOTYwMjE3NzksMTE1MzM4OTM4M119
+eyJoaXN0b3J5IjpbLTI0NTM3NjIzLC04Nzk4MTUzOTIsMTE1OD
+A1LDI5OTMzODQ1LDg4OTMzOTk1OSwxNTQyNDY0NjA5LC01MjEy
+NzMxMiwtMTUwNzA3OTAwMCwtMTg4NTYyNjg0OCw5OTM0NjE4Mi
+wyMDE4MzM3NywtNjYwODIxNTc2LDIwOTkwOTI1MjEsLTMyNTQ0
+Njk5NiwtMTI2MzU0ODQxMywtOTgzODIyMzIsMzA2MjA2MTIwLD
+ExMDA2Mzk2NDcsLTU2OTg4NDE5NiwtMTk2MDIxNzc5XX0=
 -->
