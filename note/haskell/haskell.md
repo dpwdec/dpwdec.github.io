@@ -144,9 +144,14 @@ You can **use infix functions like regular functions** by surrounding them with 
 -- 50
 ```
 
-You can **partially apply infix functions** by surrounding them with brackets and supplying one half of the functions definition.
+You can **partially apply infix functions** by surrounding them with brackets and supplying one half of the function's arguments in its definition. You can indicate either of the infix function's arguments based on the context of where it appears next to the function indicator.
 ```haskell
-
+f = (/10) -- right side of function partially applied
+f 100
+-- 10.0
+f' = (10/) -- left side of function partially applied
+f' 2
+-- 5.0
 ```
 
 You can **define your own infix functions** by surrounding them with `()` soft braces at definition.
@@ -334,7 +339,7 @@ length' []  =  0
 length' (x:xs) =  1  + length' xs
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5OTQ2MDExLC0xMjIwNjg0ODAyLC0yND
+eyJoaXN0b3J5IjpbMzEzMzI4NDk3LC0xMjIwNjg0ODAyLC0yND
 UzNzYyMywtODc5ODE1MzkyLDExNTgwNSwyOTkzMzg0NSw4ODkz
 Mzk5NTksMTU0MjQ2NDYwOSwtNTIxMjczMTIsLTE1MDcwNzkwMD
 AsLTE4ODU2MjY4NDgsOTkzNDYxODIsMjAxODMzNzcsLTY2MDgy
