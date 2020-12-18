@@ -167,10 +167,15 @@ sumThree x y z = x + y + z
 
 ### Currying
 
-Haskell **functions with multiple arguments are *always* curried.** Leaving a space between two arguments indicates function application.
+Haskell **functions with multiple arguments are *always* curried.** Leaving a space between two arguments indicates function application. The following function calls are equivalent.
 ```haskell
 max 4 5
 (max 4) 5
+```
+
+This bracketing to indicate function return can be **extended to function type definitions**.
+```haskell
+f (Int a) => a -> a -> a -> a
 ```
 
 ## Errors
@@ -320,10 +325,10 @@ length' []  =  0
 length' (x:xs) =  1  + length' xs
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2OTUwODg4LC0yNDUzNzYyMywtODc5OD
-E1MzkyLDExNTgwNSwyOTkzMzg0NSw4ODkzMzk5NTksMTU0MjQ2
-NDYwOSwtNTIxMjczMTIsLTE1MDcwNzkwMDAsLTE4ODU2MjY4ND
-gsOTkzNDYxODIsMjAxODMzNzcsLTY2MDgyMTU3NiwyMDk5MDky
-NTIxLC0zMjU0NDY5OTYsLTEyNjM1NDg0MTMsLTk4MzgyMjMyLD
-MwNjIwNjEyMCwxMTAwNjM5NjQ3LC01Njk4ODQxOTZdfQ==
+eyJoaXN0b3J5IjpbLTE1NjQzMjk0NDEsLTI0NTM3NjIzLC04Nz
+k4MTUzOTIsMTE1ODA1LDI5OTMzODQ1LDg4OTMzOTk1OSwxNTQy
+NDY0NjA5LC01MjEyNzMxMiwtMTUwNzA3OTAwMCwtMTg4NTYyNj
+g0OCw5OTM0NjE4MiwyMDE4MzM3NywtNjYwODIxNTc2LDIwOTkw
+OTI1MjEsLTMyNTQ0Njk5NiwtMTI2MzU0ODQxMywtOTgzODIyMz
+IsMzA2MjA2MTIwLDExMDA2Mzk2NDcsLTU2OTg4NDE5Nl19
 -->
