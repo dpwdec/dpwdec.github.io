@@ -6,8 +6,9 @@ title: Higher Order Functions
 
 You can **define a higher order function** by bracketing function input in the functions type definition.
 ```haskell
-twice :: 
+twice :: (a
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDMzNzc3NTIsMTU1MDg1OTk1OV19
+eyJoaXN0b3J5IjpbMTkwNDgwNzA3MywtMjA0MzM3Nzc1MiwxNT
+UwODU5OTU5XX0=
 -->
