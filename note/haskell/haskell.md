@@ -288,15 +288,17 @@ succ (max 10 20)
 -- 21
 ```
 
-## Declaritive vs Imperative
+## Declarative vs Imperative
 
-In Haskell
+In Haskell you should **define structures as what they ARE not by HOW the compute should work them out**. Defining things in this way makes it much easier to reason about recursive functions and work in a functional way.
+
+For example, consider a function that returns the length of a list. Define imperatively it 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk5MzM4NDUsODg5MzM5OTU5LDE1NDI0Nj
-Q2MDksLTUyMTI3MzEyLC0xNTA3MDc5MDAwLC0xODg1NjI2ODQ4
-LDk5MzQ2MTgyLDIwMTgzMzc3LC02NjA4MjE1NzYsMjA5OTA5Mj
-UyMSwtMzI1NDQ2OTk2LC0xMjYzNTQ4NDEzLC05ODM4MjIzMiwz
-MDYyMDYxMjAsMTEwMDYzOTY0NywtNTY5ODg0MTk2LC0xOTYwMj
-E3NzksMTE1MzM4OTM4MywtMzg0NTg3MjE1LC0xNzg1NjEyNzhd
-fQ==
+eyJoaXN0b3J5IjpbLTExMjUwMTU2NzcsMjk5MzM4NDUsODg5Mz
+M5OTU5LDE1NDI0NjQ2MDksLTUyMTI3MzEyLC0xNTA3MDc5MDAw
+LC0xODg1NjI2ODQ4LDk5MzQ2MTgyLDIwMTgzMzc3LC02NjA4Mj
+E1NzYsMjA5OTA5MjUyMSwtMzI1NDQ2OTk2LC0xMjYzNTQ4NDEz
+LC05ODM4MjIzMiwzMDYyMDYxMjAsMTEwMDYzOTY0NywtNTY5OD
+g0MTk2LC0xOTYwMjE3NzksMTE1MzM4OTM4MywtMzg0NTg3MjE1
+XX0=
 -->
