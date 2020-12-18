@@ -167,7 +167,11 @@ sumThree x y z = x + y + z
 
 ### Currying
 
-Haskell functions with multiple arguments are *a curried by default.
+Haskell **functions with multiple arguments are *always* curried.** Leaving a space between two arguments indicates function application.
+```haskell
+max 4 5
+(max 4) 5
+```
 
 ## Errors
 
@@ -316,10 +320,10 @@ length' []  =  0
 length' (x:xs) =  1  + length' xs
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTE0OTYzMiwtMjQ1Mzc2MjMsLTg3OT
-gxNTM5MiwxMTU4MDUsMjk5MzM4NDUsODg5MzM5OTU5LDE1NDI0
-NjQ2MDksLTUyMTI3MzEyLC0xNTA3MDc5MDAwLC0xODg1NjI2OD
-Q4LDk5MzQ2MTgyLDIwMTgzMzc3LC02NjA4MjE1NzYsMjA5OTA5
-MjUyMSwtMzI1NDQ2OTk2LC0xMjYzNTQ4NDEzLC05ODM4MjIzMi
-wzMDYyMDYxMjAsMTEwMDYzOTY0NywtNTY5ODg0MTk2XX0=
+eyJoaXN0b3J5IjpbNzc2OTUwODg4LC0yNDUzNzYyMywtODc5OD
+E1MzkyLDExNTgwNSwyOTkzMzg0NSw4ODkzMzk5NTksMTU0MjQ2
+NDYwOSwtNTIxMjczMTIsLTE1MDcwNzkwMDAsLTE4ODU2MjY4ND
+gsOTkzNDYxODIsMjAxODMzNzcsLTY2MDgyMTU3NiwyMDk5MDky
+NTIxLC0zMjU0NDY5OTYsLTEyNjM1NDg0MTMsLTk4MzgyMjMyLD
+MwNjIwNjEyMCwxMTAwNjM5NjQ3LC01Njk4ODQxOTZdfQ==
 -->
