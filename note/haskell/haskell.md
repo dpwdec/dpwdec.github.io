@@ -144,6 +144,11 @@ You can **use infix functions like regular functions** by surrounding them with 
 -- 50
 ```
 
+You can **partially apply infix functions** by surrounding them with brackets and supplying one half of the functions definition.
+```haskell
+
+```
+
 You can **define your own infix functions** by surrounding them with `()` soft braces at definition.
 ```haskell
 
@@ -329,10 +334,10 @@ length' []  =  0
 length' (x:xs) =  1  + length' xs
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjA2ODQ4MDIsLTI0NTM3NjIzLC04Nz
-k4MTUzOTIsMTE1ODA1LDI5OTMzODQ1LDg4OTMzOTk1OSwxNTQy
-NDY0NjA5LC01MjEyNzMxMiwtMTUwNzA3OTAwMCwtMTg4NTYyNj
-g0OCw5OTM0NjE4MiwyMDE4MzM3NywtNjYwODIxNTc2LDIwOTkw
-OTI1MjEsLTMyNTQ0Njk5NiwtMTI2MzU0ODQxMywtOTgzODIyMz
-IsMzA2MjA2MTIwLDExMDA2Mzk2NDcsLTU2OTg4NDE5Nl19
+eyJoaXN0b3J5IjpbNDY5OTQ2MDExLC0xMjIwNjg0ODAyLC0yND
+UzNzYyMywtODc5ODE1MzkyLDExNTgwNSwyOTkzMzg0NSw4ODkz
+Mzk5NTksMTU0MjQ2NDYwOSwtNTIxMjczMTIsLTE1MDcwNzkwMD
+AsLTE4ODU2MjY4NDgsOTkzNDYxODIsMjAxODMzNzcsLTY2MDgy
+MTU3NiwyMDk5MDkyNTIxLC0zMjU0NDY5OTYsLTEyNjM1NDg0MT
+MsLTk4MzgyMjMyLDMwNjIwNjEyMCwxMTAwNjM5NjQ3XX0=
 -->
