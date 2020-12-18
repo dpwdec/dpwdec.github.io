@@ -157,6 +157,8 @@ f' 2
 You **cannot partially apply the `-` minus operator**. Applications like `(-4)` do not produce a function that subtracts 4 for convenience. Instead, to **create a partially applied subtraction function** use the `subtract` function.
 ```haskell
 s = subtract 4
+s 10
+-- 6
 ```
 
 You can **define your own infix functions** by surrounding them with `()` soft braces at definition.
@@ -346,10 +348,10 @@ length' []  =  0
 length' (x:xs) =  1  + length' xs
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwODM5OTY0LDMxMzMyODQ5NywtMTIyMD
-Y4NDgwMiwtMjQ1Mzc2MjMsLTg3OTgxNTM5MiwxMTU4MDUsMjk5
-MzM4NDUsODg5MzM5OTU5LDE1NDI0NjQ2MDksLTUyMTI3MzEyLC
-0xNTA3MDc5MDAwLC0xODg1NjI2ODQ4LDk5MzQ2MTgyLDIwMTgz
-Mzc3LC02NjA4MjE1NzYsMjA5OTA5MjUyMSwtMzI1NDQ2OTk2LC
-0xMjYzNTQ4NDEzLC05ODM4MjIzMiwzMDYyMDYxMjBdfQ==
+eyJoaXN0b3J5IjpbLTE3MjQ5ODE2NjIsMzEzMzI4NDk3LC0xMj
+IwNjg0ODAyLC0yNDUzNzYyMywtODc5ODE1MzkyLDExNTgwNSwy
+OTkzMzg0NSw4ODkzMzk5NTksMTU0MjQ2NDYwOSwtNTIxMjczMT
+IsLTE1MDcwNzkwMDAsLTE4ODU2MjY4NDgsOTkzNDYxODIsMjAx
+ODMzNzcsLTY2MDgyMTU3NiwyMDk5MDkyNTIxLC0zMjU0NDY5OT
+YsLTEyNjM1NDg0MTMsLTk4MzgyMjMyLDMwNjIwNjEyMF19
 -->
