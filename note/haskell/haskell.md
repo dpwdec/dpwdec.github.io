@@ -192,6 +192,8 @@ f (Int a) => a -> (a -> (a -> a))
 f x y z = x + y + z
 ```
 
+Partially applied functions **cannot be displayed in GHCI**.
+
 ## Errors
 
 You can **trigger a haskell error** with an error message by using then `error` function.
@@ -339,10 +341,10 @@ length' []  =  0
 length' (x:xs) =  1  + length' xs
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzMzI4NDk3LC0xMjIwNjg0ODAyLC0yND
-UzNzYyMywtODc5ODE1MzkyLDExNTgwNSwyOTkzMzg0NSw4ODkz
-Mzk5NTksMTU0MjQ2NDYwOSwtNTIxMjczMTIsLTE1MDcwNzkwMD
-AsLTE4ODU2MjY4NDgsOTkzNDYxODIsMjAxODMzNzcsLTY2MDgy
-MTU3NiwyMDk5MDkyNTIxLC0zMjU0NDY5OTYsLTEyNjM1NDg0MT
-MsLTk4MzgyMjMyLDMwNjIwNjEyMCwxMTAwNjM5NjQ3XX0=
+eyJoaXN0b3J5IjpbLTE2MzgzMjQ0NzIsMzEzMzI4NDk3LC0xMj
+IwNjg0ODAyLC0yNDUzNzYyMywtODc5ODE1MzkyLDExNTgwNSwy
+OTkzMzg0NSw4ODkzMzk5NTksMTU0MjQ2NDYwOSwtNTIxMjczMT
+IsLTE1MDcwNzkwMDAsLTE4ODU2MjY4NDgsOTkzNDYxODIsMjAx
+ODMzNzcsLTY2MDgyMTU3NiwyMDk5MDkyNTIxLC0zMjU0NDY5OT
+YsLTEyNjM1NDg0MTMsLTk4MzgyMjMyLDMwNjIwNjEyMF19
 -->
