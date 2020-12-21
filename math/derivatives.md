@@ -479,6 +479,24 @@ You can **apply the chain rule to derivatives of \\( e \\)**. For \\( e^{3x} \\)
 
 You can write any exponential function in terms of \\( e \\) by describing the base of \\( e \\) followed by the exponents. For example \\( 2^{x} \\) is the same as \\( e^{ln2x} \\). To take the derivative of this we can use the chain rule again to get \\( e^{ln2x} \\) as the derivative of the outer function, i.e. itself, multiplied by the derviative of the inner function which just uses the standard power rule \\( ln2x' = ln2 \\) because \\( ln2 \\) is just an alias for a constant that \\( e \\) should be raised to to equal 2.
 
+## Notation
+
+There are several notation considerations with the different ways of describing derivatives.
+
+The derivative of a function can be written in several different ways:
+
+\\[ f' = \frac{\Delta f}{\Delta x} = \frac{dy}{dx} = \frac{d}{dx}f = \frac{d}{dx}y \\]
+
+There is also a distinction that is made between the *average* and *instantaneous* rates of change.
+
+The **average rate of change over a period** is often written as:
+
+\\[ \frac{\Delta x}{\Delta y} \\]
+
+Where as the **instantaneous rate of change** (the change that represents a tangent to a single point on the graph) is written as:
+
+\\[ \frac{dy}{dx} \\]
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMjE0Mjk0MTA3OCwtNjI2MzQ0MTIsNDk4Nj
 EwODkwXX0=
