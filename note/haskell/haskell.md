@@ -114,6 +114,10 @@ rem (-13) 7
 
 The result of `rem` is **negative if the dividend is negative**. The term **dividend** refers to the **thing that is being divided**.
 
+### Zip With
+
+The `zipwith` function does not create tuples out of its inputs but instead takes two lists and applies a function that takes each indexed pair of items as its inputs and 
+
 ## Functions
 
 When defining a function it **must start with a lowercase letter**.
@@ -348,7 +352,7 @@ length' []  =  0
 length' (x:xs) =  1  + length' xs
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQ5ODE2NjIsMzEzMzI4NDk3LC0xMj
+eyJoaXN0b3J5IjpbLTEyNTU4MDQ5MzksMzEzMzI4NDk3LC0xMj
 IwNjg0ODAyLC0yNDUzNzYyMywtODc5ODE1MzkyLDExNTgwNSwy
 OTkzMzg0NSw4ODkzMzk5NTksMTU0MjQ2NDYwOSwtNTIxMjczMT
 IsLTE1MDcwNzkwMDAsLTE4ODU2MjY4NDgsOTkzNDYxODIsMjAx
