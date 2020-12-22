@@ -116,7 +116,7 @@ The result of `rem` is **negative if the dividend is negative**. The term **divi
 
 ### Zip With
 
-The `zipwith` function does not create tuples out of its inputs but instead takes two lists and applies a function that takes each indexed pair of items as its inputs and outputs an array
+The `zipwith` function is a higher order function that takes another function and two arrays as its argument. Unlike `zip` it does not create tuples out of its inputs but instead applies the input function to each indexed pair as the arguments to the function and outputs an array of the re
 
 ## Functions
 
@@ -352,10 +352,10 @@ length' []  =  0
 length' (x:xs) =  1  + length' xs
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA0Mzk0ODU3LDMxMzMyODQ5NywtMTIyMD
-Y4NDgwMiwtMjQ1Mzc2MjMsLTg3OTgxNTM5MiwxMTU4MDUsMjk5
-MzM4NDUsODg5MzM5OTU5LDE1NDI0NjQ2MDksLTUyMTI3MzEyLC
-0xNTA3MDc5MDAwLC0xODg1NjI2ODQ4LDk5MzQ2MTgyLDIwMTgz
-Mzc3LC02NjA4MjE1NzYsMjA5OTA5MjUyMSwtMzI1NDQ2OTk2LC
-0xMjYzNTQ4NDEzLC05ODM4MjIzMiwzMDYyMDYxMjBdfQ==
+eyJoaXN0b3J5IjpbLTEyNDgzNTY3NTUsMzA0Mzk0ODU3LDMxMz
+MyODQ5NywtMTIyMDY4NDgwMiwtMjQ1Mzc2MjMsLTg3OTgxNTM5
+MiwxMTU4MDUsMjk5MzM4NDUsODg5MzM5OTU5LDE1NDI0NjQ2MD
+ksLTUyMTI3MzEyLC0xNTA3MDc5MDAwLC0xODg1NjI2ODQ4LDk5
+MzQ2MTgyLDIwMTgzMzc3LC02NjA4MjE1NzYsMjA5OTA5MjUyMS
+wtMzI1NDQ2OTk2LC0xMjYzNTQ4NDEzLC05ODM4MjIzMl19
 -->
