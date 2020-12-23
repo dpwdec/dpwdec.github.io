@@ -364,23 +364,22 @@ length' (x:xs) =  1  + length' xs
 
 Because of Haskell's laziness, even several chained `map` and `filter` functions will still only result in the list being passed over once.
 
-A clear example of a good use of laziness can be seen in the task **strong text**
+A clear example of a good use of laziness can be seen in the task **find the largest number between 1 and 100, 000 that is divisible by 3829**
 
 ```haskell
-f  :: (Integral  a, Ord  a) =>  a  ->  a  ->  
+f :: (Integral  a, Ord  a) =>  a  ->  a  ->  
 f = maximum $ filter p [1..100000]
-    where p x = x `mod` div ==  0 
+    where p x = x `mod` 3829 ==  0 
 
-f'  :: (Integral  a, Ord  a) =>  a  ->  a  ->  a
+f' :: (Integral  a, Ord  a) =>  a  ->  a  ->  a
 f' lim div = head (filter p [100000,99999..])
-    where p x = x `mod` div ==  0
+    where p x = x `mod` 3829 ==  0
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTAxNzYxODEsMTE3ODE3MTg5MywtMT
-gxNDQ4NTA2MiwzMDQzOTQ4NTcsMzEzMzI4NDk3LC0xMjIwNjg0
-ODAyLC0yNDUzNzYyMywtODc5ODE1MzkyLDExNTgwNSwyOTkzMz
-g0NSw4ODkzMzk5NTksMTU0MjQ2NDYwOSwtNTIxMjczMTIsLTE1
-MDcwNzkwMDAsLTE4ODU2MjY4NDgsOTkzNDYxODIsMjAxODMzNz
-csLTY2MDgyMTU3NiwyMDk5MDkyNTIxLC0zMjU0NDY5OTZdfQ==
-
+eyJoaXN0b3J5IjpbLTg2MzUzNzY0NiwxMTc4MTcxODkzLC0xOD
+E0NDg1MDYyLDMwNDM5NDg1NywzMTMzMjg0OTcsLTEyMjA2ODQ4
+MDIsLTI0NTM3NjIzLC04Nzk4MTUzOTIsMTE1ODA1LDI5OTMzOD
+Q1LDg4OTMzOTk1OSwxNTQyNDY0NjA5LC01MjEyNzMxMiwtMTUw
+NzA3OTAwMCwtMTg4NTYyNjg0OCw5OTM0NjE4MiwyMDE4MzM3Ny
+wtNjYwODIxNTc2LDIwOTkwOTI1MjEsLTMyNTQ0Njk5Nl19
 -->
