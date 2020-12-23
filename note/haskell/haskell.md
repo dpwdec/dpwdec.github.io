@@ -364,8 +364,7 @@ length' (x:xs) =  1  + length' xs
 
 Because of Haskell's laziness, even several chained `map` and `filter` functions will still only result in the list being passed over once.
 
-A clear example of a good use of laziness can be seen in the task **find the largest number between 1 and 100, 000 that is divisible by 3829**. The first solution below, is a more imperative solution and does not make good use of laziness, it iterates from `1` to `100000` to create a list of results and then gets the `maximum` value from that list, leading to many evaluations than is required. In the `f'` solution the list is iterated in reverse and the head is taken from the list as the final return for the function, this means that as soon as the `filter` function 
-
+A clear example of a good use of laziness can be seen in the task **find the largest number between 1 and 100, 000 that is divisible by 3829**. The first solution below, is a more imperative solution and does not make good use of laziness, it iterates from `1` to `100000` to create a list of results and then gets the `maximum` value from that list, leading to many evaluations than is required. In the `f'` solution the list is iterated in reverse and the head is taken from the list as the final return for the function, this means that as soon as the `filter` function finds a suitable value, even though the list in infinite, *that* will be the first value in the list and thus the `head` of the list can be immediately evaluated and returned and a solution found with a fraction of the actions.23
 ```haskell
 f :: (Integral  a, Ord  a) =>  a  ->  a  ->  
 f = maximum $ filter p [1..100000]
@@ -376,7 +375,7 @@ f' lim div = head (filter p [100000,99999..])
     where p x = x `mod` 3829 ==  0
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDY5NjU4MiwxMTc4MTcxODkzLC0xOD
+eyJoaXN0b3J5IjpbMjA3NDQ3Nzk0OCwxMTc4MTcxODkzLC0xOD
 E0NDg1MDYyLDMwNDM5NDg1NywzMTMzMjg0OTcsLTEyMjA2ODQ4
 MDIsLTI0NTM3NjIzLC04Nzk4MTUzOTIsMTE1ODA1LDI5OTMzOD
 Q1LDg4OTMzOTk1OSwxNTQyNDY0NjA5LC01MjEyNzMxMiwtMTUw
