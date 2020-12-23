@@ -363,12 +363,24 @@ length' (x:xs) =  1  + length' xs
 ## Laziness
 
 Because of Haskell's laziness, even several chained `map` and `filter` functions will still only result in the list being passed over once.
+
+A clear example of a good use of laziness can be seen in the task **strong text**
+
+```haskell
+f  :: (Integral  a, Ord  a) =>  a  ->  a  ->  
+f = maximum $ filter p [1..100000]
+    where p x = x `mod` div ==  0 
+
+f'  :: (Integral  a, Ord  a) =>  a  ->  a  ->  a
+f' lim div = head (filter p [100000,99999..])
+    where p x = x `mod` div ==  0
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODE3MTg5MywtMTgxNDQ4NTA2MiwzMD
-QzOTQ4NTcsMzEzMzI4NDk3LC0xMjIwNjg0ODAyLC0yNDUzNzYy
-MywtODc5ODE1MzkyLDExNTgwNSwyOTkzMzg0NSw4ODkzMzk5NT
-ksMTU0MjQ2NDYwOSwtNTIxMjczMTIsLTE1MDcwNzkwMDAsLTE4
-ODU2MjY4NDgsOTkzNDYxODIsMjAxODMzNzcsLTY2MDgyMTU3Ni
-wyMDk5MDkyNTIxLC0zMjU0NDY5OTYsLTEyNjM1NDg0MTNdfQ==
+eyJoaXN0b3J5IjpbLTExMTAxNzYxODEsMTE3ODE3MTg5MywtMT
+gxNDQ4NTA2MiwzMDQzOTQ4NTcsMzEzMzI4NDk3LC0xMjIwNjg0
+ODAyLC0yNDUzNzYyMywtODc5ODE1MzkyLDExNTgwNSwyOTkzMz
+g0NSw4ODkzMzk5NTksMTU0MjQ2NDYwOSwtNTIxMjczMTIsLTE1
+MDcwNzkwMDAsLTE4ODU2MjY4NDgsOTkzNDYxODIsMjAxODMzNz
+csLTY2MDgyMTU3NiwyMDk5MDkyNTIxLC0zMjU0NDY5OTZdfQ==
 
 -->
