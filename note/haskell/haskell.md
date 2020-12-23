@@ -128,10 +128,10 @@ maximum [5, 60, 4012, 67, 1, 43, 3]
 
 ### Take While
 
-You can **iterate over a list WHILE something is true** by using the `takewhile` function. This function takes a predicate function and evaluates each element of a list until it returns false.
+You can **iterate over a list WHILE something is true** by using the `takewhile` function. This function takes a predicate function and evaluates each element of a list until it returns false. The example below takes from an infinite list starting at `1` until it reaches `10`.
 ```haskell
 takeWhile (<10) [1..]
--- [1, 2, 3, 4, 5, 6, 7, 8, 
+-- [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
 ## Functions
@@ -383,10 +383,11 @@ f' lim div = head (filter p [100000,99999..])
     where p x = x `mod` 3829 ==  0
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzM1NTMyMiwxMjM4MzcwMzYzLDExNz
-gxNzE4OTMsLTE4MTQ0ODUwNjIsMzA0Mzk0ODU3LDMxMzMyODQ5
-NywtMTIyMDY4NDgwMiwtMjQ1Mzc2MjMsLTg3OTgxNTM5MiwxMT
-U4MDUsMjk5MzM4NDUsODg5MzM5OTU5LDE1NDI0NjQ2MDksLTUy
-MTI3MzEyLC0xNTA3MDc5MDAwLC0xODg1NjI2ODQ4LDk5MzQ2MT
-gyLDIwMTgzMzc3LC02NjA4MjE1NzYsMjA5OTA5MjUyMV19
+eyJoaXN0b3J5IjpbLTEwNzc1MjM0ODcsMTIzODM3MDM2MywxMT
+c4MTcxODkzLC0xODE0NDg1MDYyLDMwNDM5NDg1NywzMTMzMjg0
+OTcsLTEyMjA2ODQ4MDIsLTI0NTM3NjIzLC04Nzk4MTUzOTIsMT
+E1ODA1LDI5OTMzODQ1LDg4OTMzOTk1OSwxNTQyNDY0NjA5LC01
+MjEyNzMxMiwtMTUwNzA3OTAwMCwtMTg4NTYyNjg0OCw5OTM0Nj
+E4MiwyMDE4MzM3NywtNjYwODIxNTc2LDIwOTkwOTI1MjFdfQ==
+
 -->
