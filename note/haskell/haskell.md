@@ -354,9 +354,9 @@ length' (x:xs) =  1  + length' xs
 
 ## Laziness
 
-
+Because of Haskell's laziness, even several chained `map` and `filter` functions will still only result in the list being passed over once.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1Njc5NzIxNSwtMTgxNDQ4NTA2MiwzMD
+eyJoaXN0b3J5IjpbLTIxMzk0MjU4NiwtMTgxNDQ4NTA2MiwzMD
 QzOTQ4NTcsMzEzMzI4NDk3LC0xMjIwNjg0ODAyLC0yNDUzNzYy
 MywtODc5ODE1MzkyLDExNTgwNSwyOTkzMzg0NSw4ODkzMzk5NT
 ksMTU0MjQ2NDYwOSwtNTIxMjczMTIsLTE1MDcwNzkwMDAsLTE4
