@@ -118,6 +118,14 @@ The result of `rem` is **negative if the dividend is negative**. The term **divi
 
 The `zipwith` function is a higher order function that takes another function and two arrays as its argument. Unlike `zip` it does not create tuples out of its inputs but instead applies the input function to each indexed pair as the arguments to the function and outputs an array of the results. It's similar to a fold in this respect.
 
+### Maximum
+
+You can **get the largest element of a list** with the `maximum` function.
+```haskell
+maximum [5, 60, 4012, 67, 1, 43, 3]
+-- 4012
+```
+
 ## Functions
 
 When defining a function it **must start with a lowercase letter**.
@@ -356,7 +364,7 @@ length' (x:xs) =  1  + length' xs
 
 Because of Haskell's laziness, even several chained `map` and `filter` functions will still only result in the list being passed over once.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzk0MjU4NiwtMTgxNDQ4NTA2MiwzMD
+eyJoaXN0b3J5IjpbMTE3ODE3MTg5MywtMTgxNDQ4NTA2MiwzMD
 QzOTQ4NTcsMzEzMzI4NDk3LC0xMjIwNjg0ODAyLC0yNDUzNzYy
 MywtODc5ODE1MzkyLDExNTgwNSwyOTkzMzg0NSw4ODkzMzk5NT
 ksMTU0MjQ2NDYwOSwtNTIxMjczMTIsLTE1MDcwNzkwMDAsLTE4
