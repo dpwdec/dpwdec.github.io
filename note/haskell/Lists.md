@@ -153,8 +153,10 @@ This can be **rewritten** as a list comprehension with the `predicate` and `doub
 ```haskell
 double3 range = [ dx | x <- [0..range], let dx = x *  2, dx `mod`  3  ==  0]
 ```
+
+The parity of list comprehensions and `map` `filter` functions is noted, however, Haskell resources stress that `map` is preferable, especially in cases of a `map` of a `map` as it is more readable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzI0Nzc1NSwyMDY3MjQ3NzU1LC0xMT
-A4Nzc4OTIsMTk0Njk4MzYzMiwtMTc2NDg1MTY1NiwtMjA0NjYz
-MTc4MF19
+eyJoaXN0b3J5IjpbLTEzNTk2MzEwMjAsMjA2NzI0Nzc1NSwyMD
+Y3MjQ3NzU1LC0xMTA4Nzc4OTIsMTk0Njk4MzYzMiwtMTc2NDg1
+MTY1NiwtMjA0NjYzMTc4MF19
 -->
