@@ -39,12 +39,15 @@ fall x
      | otherwise =  "Greater than 10"
 ```
 
-You can **insert any function that evaluates to a `Bool` as a guard condition** because it simply whether something is true or false that controls whether a guard is executed or not.
+You can **insert any function that evaluates to a `Bool` as a guard condition** because it simply whether something is true or false that controls whether a guard is executed or not. In the example below the `p x` invocation in the guard condition will either evaluate to `True` or `False`.
 ```haskell
 filter' :: (a -> Bool) -> [a] -> [a]
+filter p (x:xs)
+    | p x = x : filter p xs
+    | otherwise = filter p xs
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwODcxMjM1LDI4NjIzNjQyMiwtNzc5Nz
-I5ODUzLDE3ODE4ODIwNSwxNzYzODA1MzA5LDMxMTExMzc2MV19
-
+eyJoaXN0b3J5IjpbLTE3NTE0ODc4OTAsMjg2MjM2NDIyLC03Nz
+k3Mjk4NTMsMTc4MTg4MjA1LDE3NjM4MDUzMDksMzExMTEzNzYx
+XX0=
 -->
