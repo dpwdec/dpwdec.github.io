@@ -75,7 +75,7 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
 You can **create an ansible playbook that will run locally** by creating the playbook with the `hosts` pointing to your local machine.
 
 ```yaml
-# my_local_playbook.yaml
+# my_local_playbook.yml
 ---
 
 - hosts: 127.0.0.1
@@ -83,7 +83,10 @@ You can **create an ansible playbook that will run locally** by creating the pla
     # tasks here
 ```
 
-
+You can **run the local playbook** using the `ansible-playbook` command.
+```bash
+$ ansible-playbook my_local_playbook.yml
+```
 
 ## Modules
 
@@ -119,7 +122,7 @@ The `shell` and `command` modules are very similar and can often be interchangea
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjMxODUyMjksNTcyMjU4OTIsOTAyOD
-A3NTk3LDMwNjI3MTU3MSwyMTY0NDE3NjUsLTMzNjM3MjM0NF19
+eyJoaXN0b3J5IjpbMTc3MDYzNDg5MSw1NzIyNTg5Miw5MDI4MD
+c1OTcsMzA2MjcxNTcxLDIxNjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
 
 -->
