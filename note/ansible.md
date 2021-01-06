@@ -119,10 +119,14 @@ The `shell` and `command` modules are very similar and can often be interchangea
   shell: echo "some text" | tee -a file.txt
 ```
 
+### Debug
+
+When **outputting a value**
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDYzNDg5MSw1NzIyNTg5Miw5MDI4MD
+eyJoaXN0b3J5IjpbLTY5NTk5ODY2Miw1NzIyNTg5Miw5MDI4MD
 c1OTcsMzA2MjcxNTcxLDIxNjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
 
 -->
