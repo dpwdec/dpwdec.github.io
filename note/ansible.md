@@ -121,12 +121,20 @@ The `shell` and `command` modules are very similar and can often be interchangea
 
 ### Debug
 
-When **printing the value of a variable using the `debug` module** you **must use the templated version of the variable**
+When **printing the value of a variable using the `debug` module** you **must use the templated version of the variable** other ansible will simply output the literal string variable name.
+```yaml
+- name: Set my_var
+  set_fact:
+    my_var: Hello
+
+- debug:
+    msg:
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3OTgzNjIxMCw1NzIyNTg5Miw5MDI4MD
-c1OTcsMzA2MjcxNTcxLDIxNjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
+eyJoaXN0b3J5IjpbLTIwMDU2MjIxNzQsNTcyMjU4OTIsOTAyOD
+A3NTk3LDMwNjI3MTU3MSwyMTY0NDE3NjUsLTMzNjM3MjM0NF19
 
 -->
