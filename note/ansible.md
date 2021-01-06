@@ -121,12 +121,12 @@ The `shell` and `command` modules are very similar and can often be interchangea
 
 ### Debug
 
-When **outputting a value**
+When **printing the value of a variable using the `debug` module** you **must use the templated version of the variable**
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTk5ODY2Miw1NzIyNTg5Miw5MDI4MD
+eyJoaXN0b3J5IjpbMTc3OTgzNjIxMCw1NzIyNTg5Miw5MDI4MD
 c1OTcsMzA2MjcxNTcxLDIxNjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
 
 -->
