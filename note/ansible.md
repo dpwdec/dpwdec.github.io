@@ -10,7 +10,10 @@ Ansible **uses `ssh` to connect with instances** that it manages keeping it very
 
 ## Installation
 
-You can **install ansible** on OSX using `pip
+You can **install ansible** on OSX using `pip` or `pip3`.
+```bash
+$ pip install ansible
+```
 
 ## Overview
 
@@ -71,6 +74,10 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
 
 You can **test an ansible playbook locally** by creating the playbook with the `hosts` pointing to your local machine.
 
+```yaml
+
+```
+
 ## Modules
 
 Modules are Ansible dependencies that can be used to execute functionality.
@@ -105,7 +112,7 @@ The `shell` and `command` modules are very similar and can often be interchangea
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzMjIzNjU0LDU3MjI1ODkyLDkwMjgwNz
-U5NywzMDYyNzE1NzEsMjE2NDQxNzY1LC0zMzYzNzIzNDRdfQ==
+eyJoaXN0b3J5IjpbLTE0OTMyODUxMzIsNTcyMjU4OTIsOTAyOD
+A3NTk3LDMwNjI3MTU3MSwyMTY0NDE3NjUsLTMzNjM3MjM0NF19
 
 -->
