@@ -128,13 +128,16 @@ When **printing the value of a variable using the `debug` module** you **must us
     my_var: Hello
 
 - debug:
-    msg:
+    msg: my_var
+
+- debug:
+    msg: "{{ my_var }}"
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU2MjIxNzQsNTcyMjU4OTIsOTAyOD
-A3NTk3LDMwNjI3MTU3MSwyMTY0NDE3NjUsLTMzNjM3MjM0NF19
+eyJoaXN0b3J5IjpbMzI2MDczOTE3LDU3MjI1ODkyLDkwMjgwNz
+U5NywzMDYyNzE1NzEsMjE2NDQxNzY1LC0zMzYzNzIzNDRdfQ==
 
 -->
