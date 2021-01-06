@@ -4,7 +4,7 @@ exclude: true
 title: Ansible
 ---
 
-Ansible uses **playbooks** which contain the instructions used to set up nodes. Ansible is essentially just a way of converting bash commands into a nicely written `YAML` format.
+Ansible uses **playbooks** which contain the instructions used to set up nodes. Ansible is essentially just a way of converting series of commands (such as bash commands) into a nicely written `YAML` format that can be executed on multiple hosts and replicated easily.
 
 Ansible **uses `ssh` to connect with instances** that it manages keeping it very **secure**.
 
@@ -97,6 +97,7 @@ The `shell` and `command` modules are very similar and can often be interchangea
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyMjU4OTIsOTAyODA3NTk3LDMwNjI3MT
-U3MSwyMTY0NDE3NjUsLTMzNjM3MjM0NF19
+eyJoaXN0b3J5IjpbLTEzNzUzMTc0MjAsNTcyMjU4OTIsOTAyOD
+A3NTk3LDMwNjI3MTU3MSwyMTY0NDE3NjUsLTMzNjM3MjM0NF19
+
 -->
