@@ -128,16 +128,22 @@ When **printing the value of a variable using the `debug` module** you **must us
     my_var: Hello
 
 - debug:
-    msg: my_var
+    msg: my_var # outputs my_var literal
 
 - debug:
-    msg: "{{ my_var }}"
+    msg: "{{ my_var }}" # outputs the value of my_var
+```
+
+The output for this would be:
+```
+TASK [set scripts] ********************************************
+ok: [127.0.0.1]
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2MDczOTE3LDU3MjI1ODkyLDkwMjgwNz
-U5NywzMDYyNzE1NzEsMjE2NDQxNzY1LC0zMzYzNzIzNDRdfQ==
+eyJoaXN0b3J5IjpbMTg0NjY5Mzk0MCw1NzIyNTg5Miw5MDI4MD
+c1OTcsMzA2MjcxNTcxLDIxNjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
 
 -->
