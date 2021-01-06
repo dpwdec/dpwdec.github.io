@@ -8,6 +8,10 @@ Ansible uses **playbooks** which contain the instructions used to set up nodes. 
 
 Ansible **uses `ssh` to connect with instances** that it manages keeping it very **secure**.
 
+## Installation
+
+You can **install ansible** on OSX using `pip
+
 ## Overview
 
 Below is an **example Ansible file** which sets out the basic structure of an Ansible play book.
@@ -63,7 +67,9 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
       # task here
 ```
 
-## Local Te
+## Local Testing
+
+You can **test an ansible playbook locally** by creating the playbook with the `hosts` pointing to your local machine.
 
 ## Modules
 
@@ -99,7 +105,7 @@ The `shell` and `command` modules are very similar and can often be interchangea
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNTY5MDgwNCw1NzIyNTg5Miw5MDI4MD
-c1OTcsMzA2MjcxNTcxLDIxNjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
+eyJoaXN0b3J5IjpbOTEzMjIzNjU0LDU3MjI1ODkyLDkwMjgwNz
+U5NywzMDYyNzE1NzEsMjE2NDQxNzY1LC0zMzYzNzIzNDRdfQ==
 
 -->
