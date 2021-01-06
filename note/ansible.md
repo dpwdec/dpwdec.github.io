@@ -63,6 +63,8 @@ You can **create a set of tasks for a play** by using the `tasks` tag. Tasks can
       # task here
 ```
 
+## Local Te
+
 ## Modules
 
 Modules are Ansible dependencies that can be used to execute functionality.
@@ -97,7 +99,7 @@ The `shell` and `command` modules are very similar and can often be interchangea
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzUzMTc0MjAsNTcyMjU4OTIsOTAyOD
-A3NTk3LDMwNjI3MTU3MSwyMTY0NDE3NjUsLTMzNjM3MjM0NF19
+eyJoaXN0b3J5IjpbMTAwNTY5MDgwNCw1NzIyNTg5Miw5MDI4MD
+c1OTcsMzA2MjcxNTcxLDIxNjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
 
 -->
