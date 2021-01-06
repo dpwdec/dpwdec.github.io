@@ -136,14 +136,21 @@ When **printing the value of a variable using the `debug` module** you **must us
 
 The output for this would be:
 ```
-TASK [set scripts] ********************************************
-ok: [127.0.0.1]
+TASK [debug] ***************************************************************************************************************************************************************************
+ok: [127.0.0.1] => {
+    "msg": "my_var"
+}
+
+TASK [debug] **************************************
+ok: [127.0.0.1] => {
+    "msg": "Hello"
+}
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjY5Mzk0MCw1NzIyNTg5Miw5MDI4MD
-c1OTcsMzA2MjcxNTcxLDIxNjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
-
+eyJoaXN0b3J5IjpbLTMxNTgwMzQ4OCwxODQ2NjkzOTQwLDU3Mj
+I1ODkyLDkwMjgwNzU5NywzMDYyNzE1NzEsMjE2NDQxNzY1LC0z
+MzYzNzIzNDRdfQ==
 -->
