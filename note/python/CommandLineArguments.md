@@ -13,7 +13,7 @@ for arg in sys.argv:
 	print(arg)
 ```
 
-Below is an example of the above script called with a list space separated inputs. The 
+Below is an example of the above script called with a list space separated inputs. The **first argument** at index `0` in the `argv` property will be the script that was called for python execution, followed by the arguments used.
 ```bash
 $ python3 args.py 1 hello 3.2
 > args.py
@@ -22,6 +22,6 @@ $ python3 args.py 1 hello 3.2
 > 3.2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA3OTIzMDUsMTk1NzMwNTQ2NiwxNz
-kxOTcxOTk4XX0=
+eyJoaXN0b3J5IjpbMjAzNzA2OTQ4MiwxOTU3MzA1NDY2LDE3OT
+E5NzE5OThdfQ==
 -->
