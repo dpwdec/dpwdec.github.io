@@ -13,8 +13,15 @@ for arg in sys.argv:
 	print(arg)
 ```
 
-I
+Below is an example of the above script called with a list space separated inputs. The 
+```bash
+$ python3 args.py 1 hello 3.2
+> args.py
+> 1
+> hello
+> 3.2
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDU3MDMyOCwxOTU3MzA1NDY2LDE3OT
-E5NzE5OThdfQ==
+eyJoaXN0b3J5IjpbLTE2ODA3OTIzMDUsMTk1NzMwNTQ2NiwxNz
+kxOTcxOTk4XX0=
 -->
