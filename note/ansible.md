@@ -219,7 +219,7 @@ If you want to **poll a list of asynchronous tasks until all of them complete** 
   with_items: "{{ async_tasks }}"
 ```
 
-You can **check a list of asynchronous tasks for completion of all task** with a set number of overall retries by using a recursive looping solution with a task check after retrieving the `async_status` of each task in the list.
+You can **check a list of asynchronous tasks for completion of all task** with a set number of overall retries by using a recursive looping solution with a task check after retrieving the `async_status` of each task in the list. In the example below the async tasks are passed into a recursive task that retrieves the current async statuses
 ```yaml
 # main.yml
 - name: Set addresses
@@ -245,6 +245,7 @@ You can **check a list of asynchronous tasks for completion of all task** with a
   include: check_async_results.yml
 ```
 
+The corresponding include file which runs the recursive loop that checks for task completion.
 ```yaml
 # check_async_results.yml
 ---
@@ -288,9 +289,9 @@ You can **check a list of asynchronous tasks for completion of all task** with a
   - include_tasks: check_async_results.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMzcxMTc4NSwtMjAyNDExODIxLDk4OD
-Q2ODE2MiwtNTIyMjgxNjU0LDIxMjk0NzE0NCw2OTg1OTkxLDEz
-NjUyNzgwMTUsMTMwNTM1Nzc2NSwtMzE1ODAzNDg4LDE4NDY2OT
-M5NDAsNTcyMjU4OTIsOTAyODA3NTk3LDMwNjI3MTU3MSwyMTY0
-NDE3NjUsLTMzNjM3MjM0NF19
+eyJoaXN0b3J5IjpbLTEwOTU0NjYxNTksLTIwMjQxMTgyMSw5OD
+g0NjgxNjIsLTUyMjI4MTY1NCwyMTI5NDcxNDQsNjk4NTk5MSwx
+MzY1Mjc4MDE1LDEzMDUzNTc3NjUsLTMxNTgwMzQ4OCwxODQ2Nj
+kzOTQwLDU3MjI1ODkyLDkwMjgwNzU5NywzMDYyNzE1NzEsMjE2
+NDQxNzY1LC0zMzYzNzIzNDRdfQ==
 -->
