@@ -193,12 +193,15 @@ You can **check the status of asynchronous tasks** using the `async_status` modu
   delay: 10
 ```
 
-If you want to **poll a list of asynchronous tasks until all of them complete** you will have to use ansible's recursive solution for coupling the retrieval 
+If you want to **poll a list of asynchronous tasks until all of them complete** 
+
+
+you will have to use ansible's recursive solution for coupling the retrieval 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjkyMjI5NCwyMTI5NDcxNDQsNjk4NT
-k5MSwxMzY1Mjc4MDE1LDEzMDUzNTc3NjUsLTMxNTgwMzQ4OCwx
-ODQ2NjkzOTQwLDU3MjI1ODkyLDkwMjgwNzU5NywzMDYyNzE1Nz
-EsMjE2NDQxNzY1LC0zMzYzNzIzNDRdfQ==
+eyJoaXN0b3J5IjpbLTEyMTU1MzM2NTIsMjEyOTQ3MTQ0LDY5OD
+U5OTEsMTM2NTI3ODAxNSwxMzA1MzU3NzY1LC0zMTU4MDM0ODgs
+MTg0NjY5Mzk0MCw1NzIyNTg5Miw5MDI4MDc1OTcsMzA2MjcxNT
+cxLDIxNjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
 -->
