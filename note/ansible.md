@@ -159,11 +159,11 @@ You can **send an asynchronous requests** by adding the `async` and `poll` prope
   poll: 3
 ```
 
-
+You can **run tasks in a truly asynchronous fashion** by setting the `poll` property to `0`. Ansible will the immediately move onto the next task and the tasks will just run until they complete, fail or timeout in a true 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTM1Nzc2NSwtMzE1ODAzNDg4LDE4ND
-Y2OTM5NDAsNTcyMjU4OTIsOTAyODA3NTk3LDMwNjI3MTU3MSwy
-MTY0NDE3NjUsLTMzNjM3MjM0NF19
+eyJoaXN0b3J5IjpbNTk4NzQ2ODM1LDEzMDUzNTc3NjUsLTMxNT
+gwMzQ4OCwxODQ2NjkzOTQwLDU3MjI1ODkyLDkwMjgwNzU5Nywz
+MDYyNzE1NzEsMjE2NDQxNzY1LC0zMzYzNzIzNDRdfQ==
 -->
