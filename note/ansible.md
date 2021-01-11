@@ -242,12 +242,76 @@ You can **check a list of asynchronous tasks for completion of all task** with a
 
 ```yaml
 # check_async_results.yml
+---
 
+- name: Group of tasks that are tightly coupled
+  block:
+    - name: Increment the retry count
+      set_fact:
+      retry_count: "{{ retry_count | int + 1 }}"
+
+    - name: Poll async task result
+      async_status:
+        jid: "{{ item.ansible_job_id }}"
+    with_items: "{{ async_tasks }}"
+    register: async_task_result
+
+  - name: Check all jobs finished
+
+set_fact:
+
+finished_status: "{{ async_task_result
+
+| to_json
+
+| from_json
+
+| json_query('results[*].finished')
+
+| select('equalto', 1)
+
+| list
+
+| length == async_task_result | length }}"
+
+  
+
+- name: Fail unfinished instance status requests
+
+fail:
+
+msg: Not all instance requests returned yet
+
+when: finished_status == false
+
+  
+
+rescue:
+
+- fail:
+
+msg: Maximum retries of instance status request checks reached
+
+when: retry_count | int > max_retries | int
+
+  
+
+- name: Sleep between retries
+
+wait_for:
+
+timeout: 10  # seconds
+
+delegate_to: 127.0.0.1
+
+  
+
+- include_tasks: check_async_results.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQxMTgyMSw5ODg0NjgxNjIsLTUyMj
-I4MTY1NCwyMTI5NDcxNDQsNjk4NTk5MSwxMzY1Mjc4MDE1LDEz
-MDUzNTc3NjUsLTMxNTgwMzQ4OCwxODQ2NjkzOTQwLDU3MjI1OD
-kyLDkwMjgwNzU5NywzMDYyNzE1NzEsMjE2NDQxNzY1LC0zMzYz
-NzIzNDRdfQ==
+eyJoaXN0b3J5IjpbLTIwOTYxOTI2MjEsLTIwMjQxMTgyMSw5OD
+g0NjgxNjIsLTUyMjI4MTY1NCwyMTI5NDcxNDQsNjk4NTk5MSwx
+MzY1Mjc4MDE1LDEzMDUzNTc3NjUsLTMxNTgwMzQ4OCwxODQ2Nj
+kzOTQwLDU3MjI1ODkyLDkwMjgwNzU5NywzMDYyNzE1NzEsMjE2
+NDQxNzY1LC0zMzYzNzIzNDRdfQ==
 -->
