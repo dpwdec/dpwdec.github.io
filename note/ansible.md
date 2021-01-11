@@ -193,7 +193,7 @@ You can **check the status of asynchronous tasks** using the `async_status` modu
   delay: 10
 ```
 
-If you want to **poll a list of asynchronous tasks until all of them complete** you can use the `with_items` command with `async_status` and wait until each registered job completes *however*, this unfortunately **executes synchronously** and so each task will be checked for the number of specified retries with the delay before moving onto the next async item in the list to check, instead of checking all items for resolution then retrying and checking all items in the list until all have resolved. However, this still can be useful for simple sets of asynchronous tasks that are expected to resolve quickly and are interdependent.
+If you want to **poll a list of asynchronous tasks until all of them complete** you can use the `with_items` command with `async_status` and wait until each registered job completes *however*, this unfortunately **executes synchronously** and so each task will be checked for the number of specified retries with the delay before moving onto the next async item in the list to check, instead of checking all items for resolution then retrying and checking all items in the list until all have resolved. However, this still can be useful for simple sets of asynchronous tasks that are expected to resolve quickly and are interdependent. In the example, if the first task does not resolve the `async_status` loop will check that task `100` times
 ```yaml
 - name: Set addresses
   set_fact:
@@ -206,7 +206,8 @@ If you want to **poll a list of asynchronous tasks until all of them complete** 
   command: example-long-running-api-request --with-address {{ item }}
   async: 30
   poll: 0
-  register: async_task
+  register: async_tasks # list of async tasks
+  with_items: "{{ addresses }}"
 
 - name: Poll async task result
   async_status:
@@ -215,7 +216,7 @@ If you want to **poll a list of asynchronous tasks until all of them complete** 
   until: job_result.finished
   retries: 100
   delay: 10
-  with_items: 
+  with_items: "{{ async_tasks }}"
 ```
 
 
@@ -223,9 +224,9 @@ you will have to use ansible's recursive solution for coupling the retrieval
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxNzgzNTc2LDk4ODQ2ODE2MiwtNTIyMj
-gxNjU0LDIxMjk0NzE0NCw2OTg1OTkxLDEzNjUyNzgwMTUsMTMw
-NTM1Nzc2NSwtMzE1ODAzNDg4LDE4NDY2OTM5NDAsNTcyMjU4OT
-IsOTAyODA3NTk3LDMwNjI3MTU3MSwyMTY0NDE3NjUsLTMzNjM3
-MjM0NF19
+eyJoaXN0b3J5IjpbLTMwOTQ4MzE1MSw5ODg0NjgxNjIsLTUyMj
+I4MTY1NCwyMTI5NDcxNDQsNjk4NTk5MSwxMzY1Mjc4MDE1LDEz
+MDUzNTc3NjUsLTMxNTgwMzQ4OCwxODQ2NjkzOTQwLDU3MjI1OD
+kyLDkwMjgwNzU5NywzMDYyNzE1NzEsMjE2NDQxNzY1LC0zMzYz
+NzIzNDRdfQ==
 -->
