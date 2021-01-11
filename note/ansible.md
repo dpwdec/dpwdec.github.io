@@ -195,7 +195,15 @@ You can **check the status of asynchronous tasks** using the `async_status` modu
 
 If you want to **poll a list of asynchronous tasks until all of them complete** you can use the `with_items` command with `async_status` and wait until each registered job completes *however*, this unfortunately **executes synchronously** and so each task will be checked for the number of specified retries with the delay before moving onto the next async item in the list to check, instead of checking all items for resolution then retrying and checking all items in the list until all have resolved. However, this still can be useful for simple sets of asynchronous tasks that are expected to resolve quickly and are interdependent.
 ```yaml
+- name: Set addresses
+  set_fact:
+  
 
+- name: Make multiple async requests
+  command: example-long-running-api-request --with-address {{ item }}
+  async: 30
+  poll: 0
+  register: async_task
 
 - name: Poll async task result
   async_status:
@@ -212,9 +220,9 @@ you will have to use ansible's recursive solution for coupling the retrieval
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjM2OTkwMzgsOTg4NDY4MTYyLC01Mj
-IyODE2NTQsMjEyOTQ3MTQ0LDY5ODU5OTEsMTM2NTI3ODAxNSwx
-MzA1MzU3NzY1LC0zMTU4MDM0ODgsMTg0NjY5Mzk0MCw1NzIyNT
-g5Miw5MDI4MDc1OTcsMzA2MjcxNTcxLDIxNjQ0MTc2NSwtMzM2
-MzcyMzQ0XX0=
+eyJoaXN0b3J5IjpbMjA5MjI3OTY4OSw5ODg0NjgxNjIsLTUyMj
+I4MTY1NCwyMTI5NDcxNDQsNjk4NTk5MSwxMzY1Mjc4MDE1LDEz
+MDUzNTc3NjUsLTMxNTgwMzQ4OCwxODQ2NjkzOTQwLDU3MjI1OD
+kyLDkwMjgwNzU5NywzMDYyNzE1NzEsMjE2NDQxNzY1LC0zMzYz
+NzIzNDRdfQ==
 -->
