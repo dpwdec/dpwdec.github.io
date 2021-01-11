@@ -170,7 +170,7 @@ You can **run tasks in a truly asynchronous fashion** by setting the `poll` prop
   ...
 ```
 
-You can **check the status of asynchronous tasks** using the `async_status` module. You can use this like you would promise resolution of asynchronous tasks in other languages. For example, you may want to send a `poll = 0` asynchronous task off, execute some further ansible tasks while the original asynchronous task is executing and then poll the result of that original task at the later point when it is needed.
+You can **check the status of asynchronous tasks** using the `async_status` module. You can use this like you would promise resolution of asynchronous tasks in other languages. For example, you may want to send a `poll = 0` asynchronous task off, execute some further ansible tasks while the original asynchronous task is executing and then poll the result of that original task at the later point when it is needed. The `async_status` command takes an `ansible_job_id` from the original async request command which means the command needs to be logged with `register` when it is executed. When `async_status` executes 
 ```yaml
 - name: Make async request
   command: example-long-running-api-request
@@ -195,8 +195,8 @@ You can **check the status of asynchronous tasks** using the `async_status` modu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4NTk5MSwxMzY1Mjc4MDE1LDEzMDUzNT
-c3NjUsLTMxNTgwMzQ4OCwxODQ2NjkzOTQwLDU3MjI1ODkyLDkw
-MjgwNzU5NywzMDYyNzE1NzEsMjE2NDQxNzY1LC0zMzYzNzIzND
-RdfQ==
+eyJoaXN0b3J5IjpbLTY2OTkwMDE5MSw2OTg1OTkxLDEzNjUyNz
+gwMTUsMTMwNTM1Nzc2NSwtMzE1ODAzNDg4LDE4NDY2OTM5NDAs
+NTcyMjU4OTIsOTAyODA3NTk3LDMwNjI3MTU3MSwyMTY0NDE3Nj
+UsLTMzNjM3MjM0NF19
 -->
