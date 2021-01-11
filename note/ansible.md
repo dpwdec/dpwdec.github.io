@@ -236,12 +236,12 @@ You can **check a list of asynchronous tasks for completion of all task** with a
   with_items: "{{ addresses }}"
 
 - name: Include recursive async check loop
-  include: 
+  include: check_async_results.yml
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzM2NTY4MSw5ODg0NjgxNjIsLTUyMj
+eyJoaXN0b3J5IjpbMTU1OTA2MDI2Myw5ODg0NjgxNjIsLTUyMj
 I4MTY1NCwyMTI5NDcxNDQsNjk4NTk5MSwxMzY1Mjc4MDE1LDEz
 MDUzNTc3NjUsLTMxNTgwMzQ4OCwxODQ2NjkzOTQwLDU3MjI1OD
 kyLDkwMjgwNzU5NywzMDYyNzE1NzEsMjE2NDQxNzY1LC0zMzYz
