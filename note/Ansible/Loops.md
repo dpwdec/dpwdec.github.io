@@ -6,7 +6,7 @@ title: Loops
 
 ## Looping over a set of tasks
 
-
+You can **strong text**
 
 ## Looping over tightly coupled tasks using reties
 
@@ -50,5 +50,5 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk3ODUwOTUzLDEyMDQ5NzUxMjldfQ==
+eyJoaXN0b3J5IjpbLTU2NDgzNDAzNCwxMjA0OTc1MTI5XX0=
 -->
