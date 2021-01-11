@@ -149,12 +149,14 @@ ok: [127.0.0.1] => {
 
 ### Async
 
+Ansible executes in synchronous single threaded manner by default. *However*, it *is* possible to write **asynchronous style tasks in ansible** that send a set of requests off in a "fire and forget" manner, or `poll` the results of the requests for completion.
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0NTkzOTg5LC0zMTU4MDM0ODgsMTg0Nj
-Y5Mzk0MCw1NzIyNTg5Miw5MDI4MDc1OTcsMzA2MjcxNTcxLDIx
-NjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
+eyJoaXN0b3J5IjpbLTI5OTgwODg0MiwtMzE1ODAzNDg4LDE4ND
+Y2OTM5NDAsNTcyMjU4OTIsOTAyODA3NTk3LDMwNjI3MTU3MSwy
+MTY0NDE3NjUsLTMzNjM3MjM0NF19
 -->
