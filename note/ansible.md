@@ -221,6 +221,7 @@ If you want to **poll a list of asynchronous tasks until all of them complete** 
 
 You can **check a list of asynchronous tasks for completion of all task** with a set number of overall retries by using a recursive looping solution with a task check after retrieving the `async_status` of each task in the list.
 ```yaml
+# main.yml
 - name: Set addresses
   set_fact:
     addresses:
@@ -239,9 +240,12 @@ You can **check a list of asynchronous tasks for completion of all task** with a
   include: check_async_results.yml
 ```
 
+```yaml
+# check_async_results.yml
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTA2MDI2Myw5ODg0NjgxNjIsLTUyMj
+eyJoaXN0b3J5IjpbLTIwMjQxMTgyMSw5ODg0NjgxNjIsLTUyMj
 I4MTY1NCwyMTI5NDcxNDQsNjk4NTk5MSwxMzY1Mjc4MDE1LDEz
 MDUzNTc3NjUsLTMxNTgwMzQ4OCwxODQ2NjkzOTQwLDU3MjI1OD
 kyLDkwMjgwNzU5NywzMDYyNzE1NzEsMjE2NDQxNzY1LC0zMzYz
