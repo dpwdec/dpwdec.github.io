@@ -151,7 +151,7 @@ ok: [127.0.0.1] => {
 
 Ansible executes in synchronous single threaded manner by default. *However*, it *is* possible to write **asynchronous style tasks in ansible** that send a set of requests off in a "fire and forget" manner, or `poll` the results of the requests for completion.
 
-You can **send an asynchronous requests** by adding the `async` and `poll` properties to `command`s. The `async` property takes a number in seconds that represents the time which the request will run before timing out. The `poll` property
+You can **send an asynchronous requests** by adding the `async` and `poll` properties to `command`s. The `async` property takes a number in seconds that represents the time which the request will run before timing out. The `poll` property represents a time interval in seconds to wait and check the status of the request
 ```yaml
 - name: Make async request
   command: example-api-request --with-data {{ item }}
@@ -161,7 +161,7 @@ You can **send an asynchronous requests** by adding the `async` and `poll` prope
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyNzI1NDQsLTMxNTgwMzQ4OCwxODQ2Nj
-kzOTQwLDU3MjI1ODkyLDkwMjgwNzU5NywzMDYyNzE1NzEsMjE2
-NDQxNzY1LC0zMzYzNzIzNDRdfQ==
+eyJoaXN0b3J5IjpbMTI5OTk2Njc2NywtMzE1ODAzNDg4LDE4ND
+Y2OTM5NDAsNTcyMjU4OTIsOTAyODA3NTk3LDMwNjI3MTU3MSwy
+MTY0NDE3NjUsLTMzNjM3MjM0NF19
 -->
