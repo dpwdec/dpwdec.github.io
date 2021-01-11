@@ -237,7 +237,9 @@ You can **check a list of asynchronous tasks for completion of all task** with a
   with_items: "{{ addresses }}"
 
 - name: Initialise retries
-  set
+  set_fact:
+    max_retries: 10
+    retry_count: 0
 
 - name: Include recursive async check loop
   include: check_async_results.yml
@@ -286,9 +288,9 @@ You can **check a list of asynchronous tasks for completion of all task** with a
   - include_tasks: check_async_results.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1MzM4ODE0LC0yMDI0MTE4MjEsOTg4ND
-Y4MTYyLC01MjIyODE2NTQsMjEyOTQ3MTQ0LDY5ODU5OTEsMTM2
-NTI3ODAxNSwxMzA1MzU3NzY1LC0zMTU4MDM0ODgsMTg0NjY5Mz
-k0MCw1NzIyNTg5Miw5MDI4MDc1OTcsMzA2MjcxNTcxLDIxNjQ0
-MTc2NSwtMzM2MzcyMzQ0XX0=
+eyJoaXN0b3J5IjpbLTQzMzcxMTc4NSwtMjAyNDExODIxLDk4OD
+Q2ODE2MiwtNTIyMjgxNjU0LDIxMjk0NzE0NCw2OTg1OTkxLDEz
+NjUyNzgwMTUsMTMwNTM1Nzc2NSwtMzE1ODAzNDg4LDE4NDY2OT
+M5NDAsNTcyMjU4OTIsOTAyODA3NTk3LDMwNjI3MTU3MSwyMTY0
+NDE3NjUsLTMzNjM3MjM0NF19
 -->
