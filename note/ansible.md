@@ -184,12 +184,14 @@ You can **check the status of asynchronous tasks** using the `async_status` modu
 
 # more tasks here
 
-- name: Poll async tas
+- name: Poll async task result
+  async_status:
+    jid: "{{ async_task.ansible_job_id }}"
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDY3NDg5NSwxMzA1MzU3NzY1LC0zMT
+eyJoaXN0b3J5IjpbMTM2NTI3ODAxNSwxMzA1MzU3NzY1LC0zMT
 U4MDM0ODgsMTg0NjY5Mzk0MCw1NzIyNTg5Miw5MDI4MDc1OTcs
 MzA2MjcxNTcxLDIxNjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
 -->
