@@ -170,11 +170,11 @@ You can **run tasks in a truly asynchronous fashion** by setting the `poll` prop
   ...
 ```
 
-You can **check the status of asynchronous tasks** using the `async_status` module. Yo
+You can **check the status of asynchronous tasks** using the `async_status` module. You can use this like you would promise resolution of asynchronous tasks in other languages. For example, you may want to send a `poll = 0` asynchronous task off, execute some further ansible tasks while the original asynchronous task is executing and then poll the result 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDQ3NDExMiwxMzA1MzU3NzY1LC0zMT
-U4MDM0ODgsMTg0NjY5Mzk0MCw1NzIyNTg5Miw5MDI4MDc1OTcs
-MzA2MjcxNTcxLDIxNjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
+eyJoaXN0b3J5IjpbLTEyMjYyODUzNjgsMTMwNTM1Nzc2NSwtMz
+E1ODAzNDg4LDE4NDY2OTM5NDAsNTcyMjU4OTIsOTAyODA3NTk3
+LDMwNjI3MTU3MSwyMTY0NDE3NjUsLTMzNjM3MjM0NF19
 -->
