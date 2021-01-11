@@ -219,13 +219,28 @@ If you want to **poll a list of asynchronous tasks until all of them complete** 
   with_items: "{{ async_tasks }}"
 ```
 
-You can **check a list of asynchronous tasks for completion of all task** simultaneously on each try by using a recursive looping solution with a task check after retrieving the `async_status` of each task in the list.
+You can **check a list of asynchronous tasks for completion of all task** with a set number of overall retries by using a recursive looping solution with a task check after retrieving the `async_status` of each task in the list.
+```yaml
+- name: Set addresses
+  set_fact:
+    addresses:
+      - 1.2.2.10
+      - 6.1.3.10
+      - 9.5.6.10
+
+- name: Make multiple async requests
+  command: example-long-running-api-request --with-address {{ item }}
+  async: 30
+  poll: 0
+  register: async_tasks # list of async tasks
+  with_items: "{{ addresses }}"
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNzkxNTM3Myw5ODg0NjgxNjIsLTUyMj
-I4MTY1NCwyMTI5NDcxNDQsNjk4NTk5MSwxMzY1Mjc4MDE1LDEz
-MDUzNTc3NjUsLTMxNTgwMzQ4OCwxODQ2NjkzOTQwLDU3MjI1OD
-kyLDkwMjgwNzU5NywzMDYyNzE1NzEsMjE2NDQxNzY1LC0zMzYz
-NzIzNDRdfQ==
+eyJoaXN0b3J5IjpbLTExODU2NTkyMTcsOTg4NDY4MTYyLC01Mj
+IyODE2NTQsMjEyOTQ3MTQ0LDY5ODU5OTEsMTM2NTI3ODAxNSwx
+MzA1MzU3NzY1LC0zMTU4MDM0ODgsMTg0NjY5Mzk0MCw1NzIyNT
+g5Miw5MDI4MDc1OTcsMzA2MjcxNTcxLDIxNjQ0MTc2NSwtMzM2
+MzcyMzQ0XX0=
 -->
