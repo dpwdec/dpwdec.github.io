@@ -170,7 +170,7 @@ You can **run tasks in a truly asynchronous fashion** by setting the `poll` prop
   ...
 ```
 
-You can **check the status of asynchronous tasks** using the `async_status` module. You can use this like you would promise resolution of asynchronous tasks in other languages. For example, you may want to send a `poll = 0` asynchronous task off, execute some further ansible tasks while the original asynchronous task is executing and then poll the result of that original task at the later point when it is needed. The `async_status` command takes an `ansible_job_id` from the original async request command which means the command needs to be logged with `register` when it is executed. When `async_status` executes 
+You can **check the status of asynchronous tasks** using the `async_status` module. You can use this like you would promise resolution of asynchronous tasks in other languages. For example, you may want to send a `poll = 0` asynchronous task off, execute some further ansible tasks while the original asynchronous task is executing and then poll the result of that original task at the later point when it is needed. The `async_status` command takes an `ansible_job_id` from the original async request command which means the command needs to be logged with `register` when it is executed. When `async_status` executes it will run synchronously, blocking execution for the number of `retries` and the `delay` interval between retries until the asynchronous task times out, fails or completes.
 ```yaml
 - name: Make async request
   command: example-long-running-api-request
@@ -194,9 +194,11 @@ You can **check the status of asynchronous tasks** using the `async_status` modu
 ```
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTkwMDE5MSw2OTg1OTkxLDEzNjUyNz
-gwMTUsMTMwNTM1Nzc2NSwtMzE1ODAzNDg4LDE4NDY2OTM5NDAs
-NTcyMjU4OTIsOTAyODA3NTk3LDMwNjI3MTU3MSwyMTY0NDE3Nj
-UsLTMzNjM3MjM0NF19
+eyJoaXN0b3J5IjpbMjEyOTQ3MTQ0LDY5ODU5OTEsMTM2NTI3OD
+AxNSwxMzA1MzU3NzY1LC0zMTU4MDM0ODgsMTg0NjY5Mzk0MCw1
+NzIyNTg5Miw5MDI4MDc1OTcsMzA2MjcxNTcxLDIxNjQ0MTc2NS
+wtMzM2MzcyMzQ0XX0=
 -->
