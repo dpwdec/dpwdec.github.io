@@ -236,6 +236,9 @@ You can **check a list of asynchronous tasks for completion of all task** with a
   register: async_tasks # list of async tasks
   with_items: "{{ addresses }}"
 
+- name: Initialise retries
+  set
+
 - name: Include recursive async check loop
   include: check_async_results.yml
 ```
@@ -262,41 +265,30 @@ You can **check a list of asynchronous tasks for completion of all task** with a
       | to_json
       | from_json
       | json_query('results[*].finished')
-       | select('equalto', 1)
-        | list
-        | length == async_task_result | length }}"
+      | select('equalto', 1)
+      | list
+      | length == async_task_result | length }}"
 
-     - name: Fail unfinished instance status requests
-       fail:
-         msg: Not all instance requests returned yet
-       when: finished_status == false
-
+   - name: Fail unfinished instance status requests
+     fail:
+       msg: Not all instance requests returned yet
+     when: finished_status == false
   rescue:
+  - fail:
+     msg: Maximum retries of instance status request checks reached
+    when: retry_count | int > max_retries | int
 
-- fail:
+  - name: Sleep between retries
+    wait_for:
+      timeout: 10  # seconds
+    delegate_to: 127.0.0.1
 
-msg: Maximum retries of instance status request checks reached
-
-when: retry_count | int > max_retries | int
-
-  
-
-- name: Sleep between retries
-
-wait_for:
-
-timeout: 10  # seconds
-
-delegate_to: 127.0.0.1
-
-  
-
-- include_tasks: check_async_results.yml
+  - include_tasks: check_async_results.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzMxMDg4NywtMjAyNDExODIxLDk4OD
-Q2ODE2MiwtNTIyMjgxNjU0LDIxMjk0NzE0NCw2OTg1OTkxLDEz
-NjUyNzgwMTUsMTMwNTM1Nzc2NSwtMzE1ODAzNDg4LDE4NDY2OT
-M5NDAsNTcyMjU4OTIsOTAyODA3NTk3LDMwNjI3MTU3MSwyMTY0
-NDE3NjUsLTMzNjM3MjM0NF19
+eyJoaXN0b3J5IjpbNzI1MzM4ODE0LC0yMDI0MTE4MjEsOTg4ND
+Y4MTYyLC01MjIyODE2NTQsMjEyOTQ3MTQ0LDY5ODU5OTEsMTM2
+NTI3ODAxNSwxMzA1MzU3NzY1LC0zMTU4MDM0ODgsMTg0NjY5Mz
+k0MCw1NzIyNTg5Miw5MDI4MDc1OTcsMzA2MjcxNTcxLDIxNjQ0
+MTc2NSwtMzM2MzcyMzQ0XX0=
 -->
