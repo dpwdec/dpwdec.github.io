@@ -4,6 +4,12 @@ exclude: true
 title: Loops
 ---
 
+## Looping over a set of tasks
+
+
+
+## Looping over tightly coupled tasks using reties
+
 You can **loop over a group of tightly coupled tasks that may fail using retries delay** by recursively calling an `include` on a task using the `block` and `failure` commands. The example below is taken from [Jeff Martin's blog](https://dev.to/nodeselector/retrying-groups-of-tightly-coupled-tasks-in-ansible-579d). You can also define the `max_retries`, `retry_delay` and `retry_count` as facts *outside* of original recursive include.
 ```yaml
 - name: Group of tasks that are tightly coupled
@@ -15,9 +21,13 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     set_fact:
       retry_count: "{{ 0 if retry_count is undefined else retry_count | int + 1 }}"
 
-  - name: Some
+  - name: Some task
     setting_up:
-        some: prerequisite action
+        do_something: prerequisite action
+  
+    - name: Some other task
+      setting_up:
+        do_something: prerequisite action
 
   - name: Some task that might fail
     failing_task:
@@ -40,5 +50,5 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTA4NTkxODAsMTIwNDk3NTEyOV19
+eyJoaXN0b3J5IjpbNTk3ODUwOTUzLDEyMDQ5NzUxMjldfQ==
 -->
