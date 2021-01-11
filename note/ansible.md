@@ -159,11 +159,22 @@ You can **send an asynchronous requests** by adding the `async` and `poll` prope
   poll: 3
 ```
 
-You can **run tasks in a truly asynchronous fashion** by setting the `poll` property to `0`. Ansible will the immediately move onto the next task and the tasks will just run until they complete, fail or timeout in a true 
+You can **run tasks in a truly asynchronous fashion** by setting the `poll` property to `0`. Ansible will the immediately move onto the next task and the tasks will just run until they complete, fail or timeout.
+```yaml
+- name: Make async request
+  command: example-long-running-api-request
+  async: 30
+  poll: 0
+
+- name: Some other task
+  ...
+```
+
+You can **check the status of asynchronous tasks** using the `async_status` module. Yo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4NzQ2ODM1LDEzMDUzNTc3NjUsLTMxNT
-gwMzQ4OCwxODQ2NjkzOTQwLDU3MjI1ODkyLDkwMjgwNzU5Nywz
-MDYyNzE1NzEsMjE2NDQxNzY1LC0zMzYzNzIzNDRdfQ==
+eyJoaXN0b3J5IjpbLTMxMDQ3NDExMiwxMzA1MzU3NzY1LC0zMT
+U4MDM0ODgsMTg0NjY5Mzk0MCw1NzIyNTg5Miw5MDI4MDc1OTcs
+MzA2MjcxNTcxLDIxNjQ0MTc2NSwtMzM2MzcyMzQ0XX0=
 -->
