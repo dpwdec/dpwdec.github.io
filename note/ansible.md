@@ -197,7 +197,10 @@ If you want to **poll a list of asynchronous tasks until all of them complete** 
 ```yaml
 - name: Set addresses
   set_fact:
-  
+    addresses:
+      - 1.2.2.10
+      - 6.1.3.10
+      - 9.5.6.10
 
 - name: Make multiple async requests
   command: example-long-running-api-request --with-address {{ item }}
@@ -220,9 +223,9 @@ you will have to use ansible's recursive solution for coupling the retrieval
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjI3OTY4OSw5ODg0NjgxNjIsLTUyMj
-I4MTY1NCwyMTI5NDcxNDQsNjk4NTk5MSwxMzY1Mjc4MDE1LDEz
-MDUzNTc3NjUsLTMxNTgwMzQ4OCwxODQ2NjkzOTQwLDU3MjI1OD
-kyLDkwMjgwNzU5NywzMDYyNzE1NzEsMjE2NDQxNzY1LC0zMzYz
-NzIzNDRdfQ==
+eyJoaXN0b3J5IjpbODAxNzgzNTc2LDk4ODQ2ODE2MiwtNTIyMj
+gxNjU0LDIxMjk0NzE0NCw2OTg1OTkxLDEzNjUyNzgwMTUsMTMw
+NTM1Nzc2NSwtMzE1ODAzNDg4LDE4NDY2OTM5NDAsNTcyMjU4OT
+IsOTAyODA3NTk3LDMwNjI3MTU3MSwyMTY0NDE3NjUsLTMzNjM3
+MjM0NF19
 -->
