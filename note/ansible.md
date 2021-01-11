@@ -219,7 +219,7 @@ If you want to **poll a list of asynchronous tasks until all of them complete** 
   with_items: "{{ async_tasks }}"
 ```
 
-You can **check a list of asynchronous tasks for completion of all task** with a set number of overall retries by using a recursive looping solution with a task check after retrieving the `async_status` of each task in the list. In the example below the async tasks are passed into a recursive task that retrieves the current async statuses
+You can **check a list of asynchronous tasks for completion of all task** with a set number of overall retries by using a recursive looping solution with a task check after retrieving the `async_status` of each task in the list. In the example below the async tasks are passed into a recursive task that retrieves the current async statuses of the tasks and then uses the jinja query language to check that all tasks are completed. It then uses the `fail` and `rescue` clauses to recursively call itself until the `max_retries` is reached. On each check it sleeps for `10` seconds.
 ```yaml
 # main.yml
 - name: Set addresses
@@ -289,9 +289,9 @@ The corresponding include file which runs the recursive loop that checks for tas
   - include_tasks: check_async_results.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU0NjYxNTksLTIwMjQxMTgyMSw5OD
-g0NjgxNjIsLTUyMjI4MTY1NCwyMTI5NDcxNDQsNjk4NTk5MSwx
-MzY1Mjc4MDE1LDEzMDUzNTc3NjUsLTMxNTgwMzQ4OCwxODQ2Nj
-kzOTQwLDU3MjI1ODkyLDkwMjgwNzU5NywzMDYyNzE1NzEsMjE2
-NDQxNzY1LC0zMzYzNzIzNDRdfQ==
+eyJoaXN0b3J5IjpbNTI5NjEyNzYsLTIwMjQxMTgyMSw5ODg0Nj
+gxNjIsLTUyMjI4MTY1NCwyMTI5NDcxNDQsNjk4NTk5MSwxMzY1
+Mjc4MDE1LDEzMDUzNTc3NjUsLTMxNTgwMzQ4OCwxODQ2NjkzOT
+QwLDU3MjI1ODkyLDkwMjgwNzU5NywzMDYyNzE1NzEsMjE2NDQx
+NzY1LC0zMzYzNzIzNDRdfQ==
 -->
