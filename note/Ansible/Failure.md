@@ -11,7 +11,8 @@ You can **make an ansible playbook throw an exception** and fail using the `fail
     msg: This task failed
 ```
 
-
+You can **bundle a when condition into a failure** using the `fail_when` command.
+```y
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDExNTUxNSw4OTg4NTI1NzVdfQ==
+eyJoaXN0b3J5IjpbLTIwNTE4MDE5MzcsODk4ODUyNTc1XX0=
 -->
