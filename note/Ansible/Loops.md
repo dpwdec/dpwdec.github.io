@@ -45,13 +45,14 @@ You can also **alias the names of items that you pass into the `include`d playbo
 
 - name: Run set of tasks
   # assignment to a new name here
-  include: tasks.yml letters={{ item }}
+  include: tasks.yml letter={{ item }}
   loop: "{{ my_list }}"
 ```
 
-The corresponding include file:
+The corresponding include file, truncated for ease of reading:
 ```yaml
-
+- debug:
+    msg: "List item is {{ letter }}"
 ```
 
 ## Looping over tightly coupled tasks using retries
@@ -96,6 +97,6 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODU5OTAzOCwxNTA4MzM2MjkwLC03NT
-kwNjY5ODEsMTIwNDk3NTEyOV19
+eyJoaXN0b3J5IjpbMjkyNjY3OTg5LDE1MDgzMzYyOTAsLTc1OT
+A2Njk4MSwxMjA0OTc1MTI5XX0=
 -->
