@@ -52,6 +52,7 @@ You can also **alias the names of items that you pass into the `include`d playbo
 
 The corresponding include file, truncated for ease of reading:
 ```yaml
+# tasks.yml
 - debug:
     msg: "List item is {{ letter }}"
 ```
@@ -98,6 +99,6 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODM4NTA3OCwxNTA4MzM2MjkwLC03NT
-kwNjY5ODEsMTIwNDk3NTEyOV19
+eyJoaXN0b3J5IjpbLTE2NDczNzk1NzEsMTUwODMzNjI5MCwtNz
+U5MDY2OTgxLDEyMDQ5NzUxMjldfQ==
 -->
