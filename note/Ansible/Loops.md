@@ -6,7 +6,7 @@ title: Loops
 
 ## Looping over a set of tasks
 
-You can **loop over a set of multiple tasks** by placing the tasks you want to loop over in a separate file and using an `include` on them with the `loop` command.
+You can **loop over a set of multiple tasks** by placing the tasks you want to loop over in a separate file and using an `include` on them with the `with_items` command. 
 ```yaml
 
 ```
@@ -53,5 +53,6 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTA2Njk4MSwxMjA0OTc1MTI5XX0=
+eyJoaXN0b3J5IjpbMTUwODMzNjI5MCwtNzU5MDY2OTgxLDEyMD
+Q5NzUxMjldfQ==
 -->
