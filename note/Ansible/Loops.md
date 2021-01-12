@@ -4,7 +4,9 @@ exclude: true
 title: Loops
 ---
 
+## Loop Vars
 
+You can **strong text**
 
 ## Ignore Loop Cases
 
@@ -155,8 +157,8 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDI2NjIsMTc3NzgxOTAxOCwxNTI5NT
-czMjIsMzU5MzM0OTY0LC0xMDc0MTk4MzY0LC0zNTMxMjQyMTYs
-MTQyOTg2MDkwOCwtMTY0NzM3OTU3MSwxNTA4MzM2MjkwLC03NT
-kwNjY5ODEsMTIwNDk3NTEyOV19
+eyJoaXN0b3J5IjpbNzA1ODczMDY5LDE3Nzc4MTkwMTgsMTUyOT
+U3MzIyLDM1OTMzNDk2NCwtMTA3NDE5ODM2NCwtMzUzMTI0MjE2
+LDE0Mjk4NjA5MDgsLTE2NDczNzk1NzEsMTUwODMzNjI5MCwtNz
+U5MDY2OTgxLDEyMDQ5NzUxMjldfQ==
 -->
