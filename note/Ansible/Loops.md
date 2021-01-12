@@ -89,8 +89,10 @@ You can **take the cartesian product of two sets of lists** (by nesting them) us
     - [1, 2, 3]
     - ["a", "b", "c"]
 
-# => "1 : a", "1 : b", "1 : c", "2: a"
+# => "1 : a", "1 : b", "1 : c", "2 : a", "2 : b" etc...
 ```
+
+
 
 ## Looping over a set of tasks
 
@@ -188,9 +190,9 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5MzcwOTUwLDEyODU3MDUxNDMsMTQ1ND
-A3OTQ2MiwxOTM2MjkzNzUxLDE0MjAwNjc3MTMsMTc3NzgxOTAx
-OCwxNTI5NTczMjIsMzU5MzM0OTY0LC0xMDc0MTk4MzY0LC0zNT
-MxMjQyMTYsMTQyOTg2MDkwOCwtMTY0NzM3OTU3MSwxNTA4MzM2
-MjkwLC03NTkwNjY5ODEsMTIwNDk3NTEyOV19
+eyJoaXN0b3J5IjpbLTEzNjg4ODQ2NjQsMTI4NTcwNTE0MywxND
+U0MDc5NDYyLDE5MzYyOTM3NTEsMTQyMDA2NzcxMywxNzc3ODE5
+MDE4LDE1Mjk1NzMyMiwzNTkzMzQ5NjQsLTEwNzQxOTgzNjQsLT
+M1MzEyNDIxNiwxNDI5ODYwOTA4LC0xNjQ3Mzc5NTcxLDE1MDgz
+MzYyOTAsLTc1OTA2Njk4MSwxMjA0OTc1MTI5XX0=
 -->
