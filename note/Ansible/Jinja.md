@@ -35,6 +35,11 @@ You can **use comparative functions** with the `select` filter, such as `greater
 
 You can **destructure JSON** using the `json_query` filter in jinja.
 
+You can **match arrays of objects** using a `*` character and pull out nested properties of that array of objects into a new array.
+```yaml
+
+```
+
 ## Defining Custom Filters
 
 You can **define custom jinja filters** using python code. To do this, First create a folder in the top level of your ansible project called `filter_plugins` and create a file in the folder called `my_filters.py`.
@@ -63,7 +68,7 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5NDg0NTk4LDMzMTQ5MTIzLC0xMTc0Nz
-A5MDEyLDExNTIzMDc5NjQsMTU4MzU0MDUxOCwtMTg1NTAyMjI0
-N119
+eyJoaXN0b3J5IjpbMTQyNjQ2NTk3OCw4Mjk0ODQ1OTgsMzMxND
+kxMjMsLTExNzQ3MDkwMTIsMTE1MjMwNzk2NCwxNTgzNTQwNTE4
+LC0xODU1MDIyMjQ3XX0=
 -->
