@@ -31,6 +31,18 @@ TASK [debug] **************************************
 ok: [127.0.0.1] => {
     "msg": "1"
 }
+
+TASK [debug] **************************************
+failed: [127.0.0.1] => {
+    "msg": "2"
+}
+
+TASK [debug] **************************************
+ok: [127.0.0.1] => {
+    "msg": "3"
+}
+
+... etc.
 ```
 
 ## Looping over a set of tasks
@@ -130,8 +142,8 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjUyMzIwLDM1OTMzNDk2NCwtMTA3ND
-E5ODM2NCwtMzUzMTI0MjE2LDE0Mjk4NjA5MDgsLTE2NDczNzk1
-NzEsMTUwODMzNjI5MCwtNzU5MDY2OTgxLDEyMDQ5NzUxMjldfQ
-==
+eyJoaXN0b3J5IjpbLTE0MjI2NDQxNjQsMzU5MzM0OTY0LC0xMD
+c0MTk4MzY0LC0zNTMxMjQyMTYsMTQyOTg2MDkwOCwtMTY0NzM3
+OTU3MSwxNTA4MzM2MjkwLC03NTkwNjY5ODEsMTIwNDk3NTEyOV
+19
 -->
