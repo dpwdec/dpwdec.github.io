@@ -4,6 +4,8 @@ exclude: true
 title: Loops
 ---
 
+
+
 ## Ignore Loop Cases
 
 You can **ignore cases in a loop** using the `failed_when` command. This works with a range of conditional operators, such as `>`, `==` etc. and will ignore any cases in iteration that meet the `failed_when` condition.
@@ -153,8 +155,8 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NzgxOTAxOCwxNTI5NTczMjIsMzU5Mz
-M0OTY0LC0xMDc0MTk4MzY0LC0zNTMxMjQyMTYsMTQyOTg2MDkw
-OCwtMTY0NzM3OTU3MSwxNTA4MzM2MjkwLC03NTkwNjY5ODEsMT
-IwNDk3NTEyOV19
+eyJoaXN0b3J5IjpbMTAyNDI2NjIsMTc3NzgxOTAxOCwxNTI5NT
+czMjIsMzU5MzM0OTY0LC0xMDc0MTk4MzY0LC0zNTMxMjQyMTYs
+MTQyOTg2MDkwOCwtMTY0NzM3OTU3MSwxNTA4MzM2MjkwLC03NT
+kwNjY5ODEsMTIwNDk3NTEyOV19
 -->
