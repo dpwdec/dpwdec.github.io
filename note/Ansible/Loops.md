@@ -49,7 +49,11 @@ fatal: [127.0.0.1]: FAILED! => {"msg": "All items completed"}
 
 If you don't want the entire playbook to fail once the loop completes you must append `ignore_errors` to these loop case command.
 ```yaml
-
+- name: Ignore 2
+  debug:
+    msg: "{{ item }}"
+  failed_when: item == 2
+  ignore_errors: yes
 ```
 
 ## Looping over a set of tasks
@@ -149,7 +153,7 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NzM2OTg1LDM1OTMzNDk2NCwtMTA3ND
+eyJoaXN0b3J5IjpbMTUyOTU3MzIyLDM1OTMzNDk2NCwtMTA3ND
 E5ODM2NCwtMzUzMTI0MjE2LDE0Mjk4NjA5MDgsLTE2NDczNzk1
 NzEsMTUwODMzNjI5MCwtNzU5MDY2OTgxLDEyMDQ5NzUxMjldfQ
 ==
