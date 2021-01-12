@@ -104,6 +104,10 @@ You can **create a nested loop** using the **Jinja filter** `product` to generat
     z: ["*", "&", "^"
 ``` 
 
+## Traversing Lists in Objects
+
+
+
 ## Looping over a set of tasks
 
 You can **loop over a set of multiple tasks with a collection** by placing the tasks you want to loop over in a separate file and using an `include` on them with the `loop` command. The items of the collection will be available inside the included file as `{{ item }}` and each item from the collection will be subbed into the included on each iteration of the loop. The outer run task would be:
@@ -200,10 +204,11 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjkxODkxNSwtMTQxMzU2MTU5MywxOD
-Q1NTc2NzAyLC0xMzY4ODg0NjY0LDEyODU3MDUxNDMsMTQ1NDA3
-OTQ2MiwxOTM2MjkzNzUxLDE0MjAwNjc3MTMsMTc3NzgxOTAxOC
-wxNTI5NTczMjIsMzU5MzM0OTY0LC0xMDc0MTk4MzY0LC0zNTMx
-MjQyMTYsMTQyOTg2MDkwOCwtMTY0NzM3OTU3MSwxNTA4MzM2Mj
-kwLC03NTkwNjY5ODEsMTIwNDk3NTEyOV19
+eyJoaXN0b3J5IjpbLTE5MDUwNzU1NDYsMTA2NjkxODkxNSwtMT
+QxMzU2MTU5MywxODQ1NTc2NzAyLC0xMzY4ODg0NjY0LDEyODU3
+MDUxNDMsMTQ1NDA3OTQ2MiwxOTM2MjkzNzUxLDE0MjAwNjc3MT
+MsMTc3NzgxOTAxOCwxNTI5NTczMjIsMzU5MzM0OTY0LC0xMDc0
+MTk4MzY0LC0zNTMxMjQyMTYsMTQyOTg2MDkwOCwtMTY0NzM3OT
+U3MSwxNTA4MzM2MjkwLC03NTkwNjY5ODEsMTIwNDk3NTEyOV19
+
 -->
