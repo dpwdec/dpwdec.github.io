@@ -92,7 +92,7 @@ You can **take the cartesian product of two sets of lists** (by nesting them) us
 # => "1 : a", "1 : b", "1 : c", "2 : a", "2 : b" etc...
 ```
 
-You can **create a nested loop** using the **Jinja filter** `product` to generate a cartesian product of two lists in conjunction with the `loop` command, *however* this could just as easily be used in other places to generate an n-dimensional list. Importantly, the first list is passed via a `|` pipe into the `product` filter which takes a list of other lists to combine it with, you can
+You can **create a nested loop** using the **Jinja filter** `product` to generate a cartesian product of two lists in conjunction with the `loop` command, *however* this could just as easily be used in other places to generate an n-dimensional list. Importantly, the first list is passed via a `|` pipe into the `product` filter which takes a comma separated set of spread arguments of other lists to combine it with, from 1 to N.
 ```yaml
 - name: create list
   debug:
@@ -200,10 +200,10 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTExMTM5MzYsLTE0MTM1NjE1OTMsMT
-g0NTU3NjcwMiwtMTM2ODg4NDY2NCwxMjg1NzA1MTQzLDE0NTQw
-Nzk0NjIsMTkzNjI5Mzc1MSwxNDIwMDY3NzEzLDE3Nzc4MTkwMT
-gsMTUyOTU3MzIyLDM1OTMzNDk2NCwtMTA3NDE5ODM2NCwtMzUz
-MTI0MjE2LDE0Mjk4NjA5MDgsLTE2NDczNzk1NzEsMTUwODMzNj
-I5MCwtNzU5MDY2OTgxLDEyMDQ5NzUxMjldfQ==
+eyJoaXN0b3J5IjpbMTA2NjkxODkxNSwtMTQxMzU2MTU5MywxOD
+Q1NTc2NzAyLC0xMzY4ODg0NjY0LDEyODU3MDUxNDMsMTQ1NDA3
+OTQ2MiwxOTM2MjkzNzUxLDE0MjAwNjc3MTMsMTc3NzgxOTAxOC
+wxNTI5NTczMjIsMzU5MzM0OTY0LC0xMDc0MTk4MzY0LC0zNTMx
+MjQyMTYsMTQyOTg2MDkwOCwtMTY0NzM3OTU3MSwxNTA4MzM2Mj
+kwLC03NTkwNjY5ODEsMTIwNDk3NTEyOV19
 -->
