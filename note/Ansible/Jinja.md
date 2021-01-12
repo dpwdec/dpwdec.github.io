@@ -26,18 +26,13 @@ Next define a class in the `my_filters` file called `FilterModule` that inherits
 ```py
 # my_filters.py
 class FilterModule(object):
-  def  filters(self):
+  def filters(self):
     return { 'my_filter': self.my_filter }
 
-  
-
-def  a_filter(self, a_variable):
-
-a_new_variable = a_variable +  ' CRAZY NEW FILTER'
-
-return a_new_variable
+  def my_filter(self, x):
+    return x +  ' this is my filter'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDEzOTMyNzEsMTE1MjMwNzk2NCwxNT
+eyJoaXN0b3J5IjpbLTEyMzc4OTY2OTgsMTE1MjMwNzk2NCwxNT
 gzNTQwNTE4LC0xODU1MDIyMjQ3XX0=
 -->
