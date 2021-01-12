@@ -4,7 +4,7 @@ exclude: true
 title: Jinja
 ---
 
-
+Jinja templating in ansible allows you to apply a set of 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNTM1NDY4N119
+eyJoaXN0b3J5IjpbLTExMDgwMjM3NDldfQ==
 -->
