@@ -6,7 +6,10 @@ title: Loops
 
 ## Loop Vars
 
-You can **strong text**
+You can **rename the default name of items in an iterated list** which is `item` by default using the `loop_control` and `loop_var` properties.
+```yaml
+- na
+```
 
 ## Ignore Loop Cases
 
@@ -157,8 +160,8 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1ODczMDY5LDE3Nzc4MTkwMTgsMTUyOT
-U3MzIyLDM1OTMzNDk2NCwtMTA3NDE5ODM2NCwtMzUzMTI0MjE2
-LDE0Mjk4NjA5MDgsLTE2NDczNzk1NzEsMTUwODMzNjI5MCwtNz
-U5MDY2OTgxLDEyMDQ5NzUxMjldfQ==
+eyJoaXN0b3J5IjpbMTQxMDYwNTkzOSwxNzc3ODE5MDE4LDE1Mj
+k1NzMyMiwzNTkzMzQ5NjQsLTEwNzQxOTgzNjQsLTM1MzEyNDIx
+NiwxNDI5ODYwOTA4LC0xNjQ3Mzc5NTcxLDE1MDgzMzYyOTAsLT
+c1OTA2Njk4MSwxMjA0OTc1MTI5XX0=
 -->
