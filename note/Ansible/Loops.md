@@ -6,7 +6,7 @@ title: Loops
 
 ## Ignore Loop Cases
 
-You can **ignore cases in a loop** using the `failed_when` command. This works with a range of conditional operators, such as `>`, `==` etc. and will ignore any cases in iteration that meet the `failed_when` condition. You must append `ignore_errors` to these loop case ignores otherwise after the loop case has execute the entire playbook will fail.
+You can **ignore cases in a loop** using the `failed_when` command. This works with a range of conditional operators, such as `>`, `==` etc. and will ignore any cases in iteration that meet the `failed_when` condition.
 ```yaml
 - name: Create list
   set_fact:
@@ -43,6 +43,13 @@ ok: [127.0.0.1] => {
 }
 
 ... etc.
+
+fatal: [127.0.0.1]: FAILED! => {"msg": "All items completed"}
+```
+
+If you don't want the entire playbook to fail once the loop completes you must append `ignore_errors` to these loop case command.
+```yaml
+
 ```
 
 ## Looping over a set of tasks
@@ -142,8 +149,8 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI2NDQxNjQsMzU5MzM0OTY0LC0xMD
-c0MTk4MzY0LC0zNTMxMjQyMTYsMTQyOTg2MDkwOCwtMTY0NzM3
-OTU3MSwxNTA4MzM2MjkwLC03NTkwNjY5ODEsMTIwNDk3NTEyOV
-19
+eyJoaXN0b3J5IjpbMTM1NzM2OTg1LDM1OTMzNDk2NCwtMTA3ND
+E5ODM2NCwtMzUzMTI0MjE2LDE0Mjk4NjA5MDgsLTE2NDczNzk1
+NzEsMTUwODMzNjI5MCwtNzU5MDY2OTgxLDEyMDQ5NzUxMjldfQ
+==
 -->
