@@ -104,7 +104,7 @@ You can **create a nested loop** using the **Jinja filter** `product` to generat
     z: ["*", "&", "^"
 ``` 
 
-## Traversing Lists in Objects
+## Traversing Lists inside Objects
 
 You can **traverse lists nested as properties inside objects** (or dicts) by using the `with_subelements` command. This takes a list of objects as its first input (which must be using handlebars format) and then the name of the key to traverse through which should be a list. The loop will then output the original object and each element in the nested collection. The collection elements are available at the `item.1` position and the original object at `item.0`.
 ```yaml
@@ -220,11 +220,11 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxOTQ1NjY1MCwxMDY2OTE4OTE1LC0xND
-EzNTYxNTkzLDE4NDU1NzY3MDIsLTEzNjg4ODQ2NjQsMTI4NTcw
-NTE0MywxNDU0MDc5NDYyLDE5MzYyOTM3NTEsMTQyMDA2NzcxMy
-wxNzc3ODE5MDE4LDE1Mjk1NzMyMiwzNTkzMzQ5NjQsLTEwNzQx
-OTgzNjQsLTM1MzEyNDIxNiwxNDI5ODYwOTA4LC0xNjQ3Mzc5NT
-cxLDE1MDgzMzYyOTAsLTc1OTA2Njk4MSwxMjA0OTc1MTI5XX0=
-
+eyJoaXN0b3J5IjpbLTEyMzEzNzQ4MjksMTkxOTQ1NjY1MCwxMD
+Y2OTE4OTE1LC0xNDEzNTYxNTkzLDE4NDU1NzY3MDIsLTEzNjg4
+ODQ2NjQsMTI4NTcwNTE0MywxNDU0MDc5NDYyLDE5MzYyOTM3NT
+EsMTQyMDA2NzcxMywxNzc3ODE5MDE4LDE1Mjk1NzMyMiwzNTkz
+MzQ5NjQsLTEwNzQxOTgzNjQsLTM1MzEyNDIxNiwxNDI5ODYwOT
+A4LC0xNjQ3Mzc5NTcxLDE1MDgzMzYyOTAsLTc1OTA2Njk4MSwx
+MjA0OTc1MTI5XX0=
 -->
