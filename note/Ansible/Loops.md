@@ -22,7 +22,15 @@ You can **ignore cases in a loop** using the `failed_when` command. This works w
 
 The output for this will be:
 ```
+TASK [debug] ***************************************************************************************************************************************************************************
+ok: [127.0.0.1] => {
+    "msg": "my_var"
+}
 
+TASK [debug] **************************************
+ok: [127.0.0.1] => {
+    "msg": "1"
+}
 ```
 
 ## Looping over a set of tasks
@@ -122,8 +130,8 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDEyMjY2MywzNTkzMzQ5NjQsLTEwNz
-QxOTgzNjQsLTM1MzEyNDIxNiwxNDI5ODYwOTA4LC0xNjQ3Mzc5
-NTcxLDE1MDgzMzYyOTAsLTc1OTA2Njk4MSwxMjA0OTc1MTI5XX
-0=
+eyJoaXN0b3J5IjpbMTU3MjUyMzIwLDM1OTMzNDk2NCwtMTA3ND
+E5ODM2NCwtMzUzMTI0MjE2LDE0Mjk4NjA5MDgsLTE2NDczNzk1
+NzEsMTUwODMzNjI5MCwtNzU5MDY2OTgxLDEyMDQ5NzUxMjldfQ
+==
 -->
