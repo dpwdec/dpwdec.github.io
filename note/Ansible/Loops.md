@@ -22,6 +22,7 @@ You can **loop over a set of multiple tasks with a collection** by placing the t
 
 And the corresponding `include`d task would be:
 ```yaml
+# tasks.yml
 - name: Do something with the list items
   some_command: "{{ item }}"
 
@@ -97,6 +98,6 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyNjY3OTg5LDE1MDgzMzYyOTAsLTc1OT
-A2Njk4MSwxMjA0OTc1MTI5XX0=
+eyJoaXN0b3J5IjpbMjEwODM4NTA3OCwxNTA4MzM2MjkwLC03NT
+kwNjY5ODEsMTIwNDk3NTEyOV19
 -->
