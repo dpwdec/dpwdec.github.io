@@ -119,7 +119,9 @@ You can **traverse lists nested as properties inside objects** (or dicts) by usi
     msg: "{{ item.1 }}"
   with_subelements:
     - "{{ objects }}" # name of the collection of objects
-    - -
+    - key_2 # name of the key which is a collection inside the individual objects
+
+# => a, b, y, z
 ```
 
 ## Looping over a set of tasks
@@ -218,11 +220,11 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTgwMTk3NzgsMTA2NjkxODkxNSwtMT
-QxMzU2MTU5MywxODQ1NTc2NzAyLC0xMzY4ODg0NjY0LDEyODU3
-MDUxNDMsMTQ1NDA3OTQ2MiwxOTM2MjkzNzUxLDE0MjAwNjc3MT
-MsMTc3NzgxOTAxOCwxNTI5NTczMjIsMzU5MzM0OTY0LC0xMDc0
-MTk4MzY0LC0zNTMxMjQyMTYsMTQyOTg2MDkwOCwtMTY0NzM3OT
-U3MSwxNTA4MzM2MjkwLC03NTkwNjY5ODEsMTIwNDk3NTEyOV19
+eyJoaXN0b3J5IjpbMTkxOTQ1NjY1MCwxMDY2OTE4OTE1LC0xND
+EzNTYxNTkzLDE4NDU1NzY3MDIsLTEzNjg4ODQ2NjQsMTI4NTcw
+NTE0MywxNDU0MDc5NDYyLDE5MzYyOTM3NTEsMTQyMDA2NzcxMy
+wxNzc3ODE5MDE4LDE1Mjk1NzMyMiwzNTkzMzQ5NjQsLTEwNzQx
+OTgzNjQsLTM1MzEyNDIxNiwxNDI5ODYwOTA4LC0xNjQ3Mzc5NT
+cxLDE1MDgzMzYyOTAsLTc1OTA2Njk4MSwxMjA0OTc1MTI5XX0=
 
 -->
