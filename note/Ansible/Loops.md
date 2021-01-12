@@ -32,7 +32,7 @@ And the corresponding `include`d task would be:
     msg: "List item is {{ item }}"
 ```
 
-
+You can **r**
 
 ## Looping over tightly coupled tasks using retries
 
@@ -76,6 +76,6 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1MjUzMTAyLDE1MDgzMzYyOTAsLTc1OT
-A2Njk4MSwxMjA0OTc1MTI5XX0=
+eyJoaXN0b3J5IjpbLTc1OTc4OTg0MSwxNTA4MzM2MjkwLC03NT
+kwNjY5ODEsMTIwNDk3NTEyOV19
 -->
