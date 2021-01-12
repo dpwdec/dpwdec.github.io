@@ -32,7 +32,16 @@ class FilterModule(object):
   def my_filter(self, x):
     return x +  ' this is my filter'
 ```
+
+You **can then use the filter in your ansible code** as you would any other jinja filter.
+```yaml
+- name: Use my filter
+  debug:
+    msg: "{{ item | my_filter }}"
+  with_items: [ 'a', 'b', 'c' ]
+ 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzc4OTY2OTgsMTE1MjMwNzk2NCwxNT
+eyJoaXN0b3J5IjpbLTE3NDMxNTc3NTAsMTE1MjMwNzk2NCwxNT
 gzNTQwNTE4LC0xODU1MDIyMjQ3XX0=
 -->
