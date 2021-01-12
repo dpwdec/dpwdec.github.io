@@ -6,7 +6,7 @@ title: Loops
 
 ## Looping over a set of tasks
 
-You can **loop over a set of multiple tasks with a collection** by placing the tasks you want to loop over in a separate file and using an `include` on them with the `loop` command. The items of the collection will be available inside the included file as `{{ item }}`. The outer run task would be:
+You can **loop over a set of multiple tasks with a collection** by placing the tasks you want to loop over in a separate file and using an `include` on them with the `loop` command. The items of the collection will be available inside the included file as `{{ item }}` and each item from the collection will be subbed into the included on each iteration of the loop. The outer run task would be:
 ```yaml
 - name: Create list
   set_fact:
@@ -17,7 +17,15 @@ You can **loop over a set of multiple tasks with a collection** by placing the t
 
 - name: Run set of tasks
   include: tasks.yml
-  
+  loop: "{{ my_list }}"
+```
+
+And the corresponding `include`d task would be:
+```yaml
+- name: Do something with the list items
+  some_command: "{{ item }}"
+
+- name: Do something el
 ```
 
 ## Looping over tightly coupled tasks using retries
@@ -62,6 +70,6 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzUyODAsMTUwODMzNjI5MCwtNzU5MD
-Y2OTgxLDEyMDQ5NzUxMjldfQ==
+eyJoaXN0b3J5IjpbMTQ4MjAwMTIxOSwxNTA4MzM2MjkwLC03NT
+kwNjY5ODEsMTIwNDk3NTEyOV19
 -->
