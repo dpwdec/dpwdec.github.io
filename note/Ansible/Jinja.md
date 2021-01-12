@@ -19,11 +19,16 @@ You can **generate a list in a range** using the `range` filter with the start a
 
 ## Select
 
-You can **use comparative functions** with the `select` filter, such as `greaterthan` or `equalto`. T
+You can **use comparative functions** with the `select` filter, such as `greaterthan` or `equalto`. These must be passed into select inside `''` apostrophes followed by the value they are comparing against.
 ```yaml
-- name: Select greaterthan
+- name: Rename var
   debug:
-    msg:
+    msg: "{{ item }}"
+  with_items: "{{ my_list | select('greaterthan', 5) | list }}"
+
+vars:
+
+my_list: [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
 ```
 
 ## Defining Custom Filters
@@ -54,7 +59,7 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTk4NTM5OSwzMzE0OTEyMywtMTE3ND
+eyJoaXN0b3J5IjpbMTA3MjM4OTAxMCwzMzE0OTEyMywtMTE3ND
 cwOTAxMiwxMTUyMzA3OTY0LDE1ODM1NDA1MTgsLTE4NTUwMjIy
 NDddfQ==
 -->
