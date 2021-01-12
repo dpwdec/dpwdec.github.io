@@ -27,6 +27,8 @@ You can **use comparative functions** with the `select` filter, such as `greater
   with_items: "{{ my_list | select('greaterthan', 5) | list }}"
   vars:
     my_list: [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+
+# => 6, 7, 8, 9
 ```
 
 ## Defining Custom Filters
@@ -57,7 +59,7 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTkxNDY3NCwzMzE0OTEyMywtMTE3ND
+eyJoaXN0b3J5IjpbLTQ1NDk0NjI2NCwzMzE0OTEyMywtMTE3ND
 cwOTAxMiwxMTUyMzA3OTY0LDE1ODM1NDA1MTgsLTE4NTUwMjIy
 NDddfQ==
 -->
