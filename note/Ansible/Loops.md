@@ -4,7 +4,12 @@ exclude: true
 title: Loops
 ---
 
+## Sequence
 
+You can **run a loop with a traditional start and end sequence** without the use of a list by using the `with_sequence` command.
+```yaml
+
+```
 
 ## Loop Vars
 
@@ -167,7 +172,7 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTk5NTEwOSwxOTM2MjkzNzUxLDE0Mj
+eyJoaXN0b3J5IjpbMTQ1NDA3OTQ2MiwxOTM2MjkzNzUxLDE0Mj
 AwNjc3MTMsMTc3NzgxOTAxOCwxNTI5NTczMjIsMzU5MzM0OTY0
 LC0xMDc0MTk4MzY0LC0zNTMxMjQyMTYsMTQyOTg2MDkwOCwtMT
 Y0NzM3OTU3MSwxNTA4MzM2MjkwLC03NTkwNjY5ODEsMTIwNDk3
