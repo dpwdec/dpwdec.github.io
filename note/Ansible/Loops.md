@@ -11,7 +11,9 @@ You can **rename the default name of items in an iterated list** which is `item`
 - name: Rename loop
   debug:
     msg: "{{ my_loop_var }}"
-  
+  with_items: [1, 2, 3, 4, 5]
+  loop_control:
+    loop_var: my_loop_var
 ```
 
 ## Ignore Loop Cases
@@ -163,7 +165,7 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjYwNDEzMiwxNzc3ODE5MDE4LDE1Mj
+eyJoaXN0b3J5IjpbMTQyMDA2NzcxMywxNzc3ODE5MDE4LDE1Mj
 k1NzMyMiwzNTkzMzQ5NjQsLTEwNzQxOTgzNjQsLTM1MzEyNDIx
 NiwxNDI5ODYwOTA4LC0xNjQ3Mzc5NTcxLDE1MDgzMzYyOTAsLT
 c1OTA2Njk4MSwxMjA0OTc1MTI5XX0=
