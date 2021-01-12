@@ -17,8 +17,13 @@ You can **generate a list in a range** using the `range` filter with the start a
 # => [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
+## Defining Custom Filters
+
+You can **define custom jinja filters** using python code. To do this.
+
+1. Create a folder in the top level of your ansible project called `filter_plugins`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzNTM0NTc5LDE1ODM1NDA1MTgsLTE4NT
-UwMjIyNDddfQ==
+eyJoaXN0b3J5IjpbMTE1MjMwNzk2NCwxNTgzNTQwNTE4LC0xOD
+U1MDIyMjQ3XX0=
 -->
