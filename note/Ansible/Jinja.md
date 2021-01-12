@@ -39,9 +39,12 @@ You **can then use the filter in your ansible code** as you would any other jinj
   debug:
     msg: "{{ item | my_filter }}"
   with_items: [ 'a', 'b', 'c' ]
- 
+
+# => a this is my filter 
+# => b this is my filter
+# => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDMxNTc3NTAsMTE1MjMwNzk2NCwxNT
-gzNTQwNTE4LC0xODU1MDIyMjQ3XX0=
+eyJoaXN0b3J5IjpbMTY2OTEzOTI4NiwxMTUyMzA3OTY0LDE1OD
+M1NDA1MTgsLTE4NTUwMjIyNDddfQ==
 -->
