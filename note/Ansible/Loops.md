@@ -80,7 +80,7 @@ If you **don't want the entire playbook to fail once the loop completes** you mu
 
 ## Nested Loops
 
-You can **take the cartesian product of two sets of lists** (by nesting them) using the `with_nested` command.
+You can **take the cartesian product of two sets of lists** (by nesting them) using the `with_nested` command. You can specify which component of the nested p
 ```yaml
 
 ```
@@ -181,9 +181,9 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzA2MjYxMiwxMjg1NzA1MTQzLDE0NT
-QwNzk0NjIsMTkzNjI5Mzc1MSwxNDIwMDY3NzEzLDE3Nzc4MTkw
-MTgsMTUyOTU3MzIyLDM1OTMzNDk2NCwtMTA3NDE5ODM2NCwtMz
-UzMTI0MjE2LDE0Mjk4NjA5MDgsLTE2NDczNzk1NzEsMTUwODMz
-NjI5MCwtNzU5MDY2OTgxLDEyMDQ5NzUxMjldfQ==
+eyJoaXN0b3J5IjpbOTQ3MjM4NDMsMTI4NTcwNTE0MywxNDU0MD
+c5NDYyLDE5MzYyOTM3NTEsMTQyMDA2NzcxMywxNzc3ODE5MDE4
+LDE1Mjk1NzMyMiwzNTkzMzQ5NjQsLTEwNzQxOTgzNjQsLTM1Mz
+EyNDIxNiwxNDI5ODYwOTA4LC0xNjQ3Mzc5NTcxLDE1MDgzMzYy
+OTAsLTc1OTA2Njk4MSwxMjA0OTc1MTI5XX0=
 -->
