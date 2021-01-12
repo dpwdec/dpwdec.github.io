@@ -12,7 +12,9 @@ You can **make an ansible playbook throw an exception** and fail using the `fail
 ```
 
 You can **bundle a when condition into a failure** using the `fail_when` command.
-```y
+```yaml
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE4MDE5MzcsODk4ODUyNTc1XX0=
+eyJoaXN0b3J5IjpbOTY3NDQ3MTU1LDg5ODg1MjU3NV19
 -->
