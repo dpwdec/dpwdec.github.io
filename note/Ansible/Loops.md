@@ -82,7 +82,7 @@ If you **don't want the entire playbook to fail once the loop completes** you mu
 
 You can **take the cartesian product of two sets of lists** (by nesting them) using the `with_nested` command. You can specify which component of the nested element you want to access by appending a `.` to the `item` variable. This specification is zero indexed. So items in the first list are indexed at `.0` in the second list at `.1` and so on.
 ```yaml
-- name: create files
+- name: Nested list
   debug:
     msg: "{{ item.0 }} : {{ item.1 }}"
   with_nested:
@@ -92,7 +92,10 @@ You can **take the cartesian product of two sets of lists** (by nesting them) us
 # => "1 : a", "1 : b", "1 : c", "2 : a", "2 : b" etc...
 ```
 
+You can **create a nested loop** using the **Jinja filter** `product` to execute the cartesian product of two lists.
+```yaml
 
+``` 
 
 ## Looping over a set of tasks
 
@@ -190,9 +193,10 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg4ODQ2NjQsMTI4NTcwNTE0MywxND
-U0MDc5NDYyLDE5MzYyOTM3NTEsMTQyMDA2NzcxMywxNzc3ODE5
-MDE4LDE1Mjk1NzMyMiwzNTkzMzQ5NjQsLTEwNzQxOTgzNjQsLT
-M1MzEyNDIxNiwxNDI5ODYwOTA4LC0xNjQ3Mzc5NTcxLDE1MDgz
-MzYyOTAsLTc1OTA2Njk4MSwxMjA0OTc1MTI5XX0=
+eyJoaXN0b3J5IjpbMTg0NTU3NjcwMiwtMTM2ODg4NDY2NCwxMj
+g1NzA1MTQzLDE0NTQwNzk0NjIsMTkzNjI5Mzc1MSwxNDIwMDY3
+NzEzLDE3Nzc4MTkwMTgsMTUyOTU3MzIyLDM1OTMzNDk2NCwtMT
+A3NDE5ODM2NCwtMzUzMTI0MjE2LDE0Mjk4NjA5MDgsLTE2NDcz
+Nzk1NzEsMTUwODMzNjI5MCwtNzU5MDY2OTgxLDEyMDQ5NzUxMj
+ldfQ==
 -->
