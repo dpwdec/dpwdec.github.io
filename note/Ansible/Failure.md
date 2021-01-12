@@ -8,8 +8,8 @@ You can **make an ansible playbook throw an exception** and fail using the `fail
 ```yaml
 - name: Make playbook fail
   fail:
-    msg: This ta
+    msg: This task failed
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTMxOTI2Nl19
+eyJoaXN0b3J5IjpbODk4ODUyNTc1XX0=
 -->
