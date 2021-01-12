@@ -8,7 +8,10 @@ title: Loops
 
 You can **run a loop with a traditional start and end sequence** without the use of a list by using the `with_sequence` command with the `start` and `end` of the loop defined using `=` assignment.
 ```yaml
-- name: Run se
+- name: Run sequence
+  debug:
+    msg: "{{ item }}"
+  with_sequence: start=0 end=10
 ```
 
 ## Loop Vars
@@ -172,9 +175,9 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTYyMzI2NjEsMTQ1NDA3OTQ2MiwxOT
-M2MjkzNzUxLDE0MjAwNjc3MTMsMTc3NzgxOTAxOCwxNTI5NTcz
-MjIsMzU5MzM0OTY0LC0xMDc0MTk4MzY0LC0zNTMxMjQyMTYsMT
-QyOTg2MDkwOCwtMTY0NzM3OTU3MSwxNTA4MzM2MjkwLC03NTkw
-NjY5ODEsMTIwNDk3NTEyOV19
+eyJoaXN0b3J5IjpbMTI4NTcwNTE0MywxNDU0MDc5NDYyLDE5Mz
+YyOTM3NTEsMTQyMDA2NzcxMywxNzc3ODE5MDE4LDE1Mjk1NzMy
+MiwzNTkzMzQ5NjQsLTEwNzQxOTgzNjQsLTM1MzEyNDIxNiwxND
+I5ODYwOTA4LC0xNjQ3Mzc5NTcxLDE1MDgzMzYyOTAsLTc1OTA2
+Njk4MSwxMjA0OTc1MTI5XX0=
 -->
