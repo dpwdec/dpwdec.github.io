@@ -37,16 +37,12 @@ You can **destructure JSON** using the `json_query` filter in jinja.
 
 You can **match arrays of objects** using a `*` character and pull out nested properties of that array of objects into a new array.
 ```yaml
-- name: get stuff
-debug:
-
-msg: "{{ item }}"
-
-with_items: "{{ object | json_query('property[*].x') }}"
-
-vars:
-
-object: { property: [ { x: 1 }, { x: 2 } ] }
+- name: get nested json
+  debug:
+    msg: "{{ item }}"
+  with_items: "{{ object | json_query('property[*].x') }}"
+  vars:
+    object: { property: [ { x: 1 }, { x: 2 } ] }
 ```
 
 ## Defining Custom Filters
@@ -77,7 +73,7 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1MTgyNTYxLDE0MjY0NjU5NzgsODI5ND
-g0NTk4LDMzMTQ5MTIzLC0xMTc0NzA5MDEyLDExNTIzMDc5NjQs
-MTU4MzU0MDUxOCwtMTg1NTAyMjI0N119
+eyJoaXN0b3J5IjpbLTE3ODAyNjg5MjQsMTQyNjQ2NTk3OCw4Mj
+k0ODQ1OTgsMzMxNDkxMjMsLTExNzQ3MDkwMTIsMTE1MjMwNzk2
+NCwxNTgzNTQwNTE4LC0xODU1MDIyMjQ3XX0=
 -->
