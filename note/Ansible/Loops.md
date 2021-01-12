@@ -8,7 +8,10 @@ title: Loops
 
 You can **rename the default name of items in an iterated list** which is `item` by default using the `loop_control` and `loop_var` properties.
 ```yaml
-- na
+- name: Rename loop
+  debug:
+    msg: "{{ my_loop_var }}"
+  
 ```
 
 ## Ignore Loop Cases
@@ -160,7 +163,7 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDYwNTkzOSwxNzc3ODE5MDE4LDE1Mj
+eyJoaXN0b3J5IjpbLTcyNjYwNDEzMiwxNzc3ODE5MDE4LDE1Mj
 k1NzMyMiwzNTkzMzQ5NjQsLTEwNzQxOTgzNjQsLTM1MzEyNDIx
 NiwxNDI5ODYwOTA4LC0xNjQ3Mzc5NTcxLDE1MDgzMzYyOTAsLT
 c1OTA2Njk4MSwxMjA0OTc1MTI5XX0=
