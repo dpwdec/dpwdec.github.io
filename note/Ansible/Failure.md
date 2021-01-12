@@ -1,7 +1,15 @@
+---
+layout: page
+exclude: true
+title: Failure
+---
 
-
-
-> Written with [StackEdit](https://stackedit.io/).
+You can **make an ansible playbook throw an exception** and fail using the `fail` command. You can use the `msg` field to output an error message on failure.
+```yaml
+- name: Make playbook fail
+  fail:
+    msg: This ta
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTc3OTMxOTI2Nl19
 -->
