@@ -11,6 +11,13 @@ You can **ignore cases in a loop** using the `failed_when` command. This works w
 - name: Create list
   set_fact:
     my_list: [1, 2, 3, 4, 5]
+
+# Prints every item apart from 2
+
+- name: Ignore 2
+  debug:
+    msg: "{{ item }}"
+  failed_when: item == 2
     
 ```
 
@@ -111,8 +118,8 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjk2MzI2OTgsMzU5MzM0OTY0LC0xMD
-c0MTk4MzY0LC0zNTMxMjQyMTYsMTQyOTg2MDkwOCwtMTY0NzM3
-OTU3MSwxNTA4MzM2MjkwLC03NTkwNjY5ODEsMTIwNDk3NTEyOV
-19
+eyJoaXN0b3J5IjpbMTQ1MjQ2NzExNSwzNTkzMzQ5NjQsLTEwNz
+QxOTgzNjQsLTM1MzEyNDIxNiwxNDI5ODYwOTA4LC0xNjQ3Mzc5
+NTcxLDE1MDgzMzYyOTAsLTc1OTA2Njk4MSwxMjA0OTc1MTI5XX
+0=
 -->
