@@ -94,7 +94,13 @@ You can **take the cartesian product of two sets of lists** (by nesting them) us
 
 You can **create a nested loop** using the **Jinja filter** `product` to generate a cartesian product of two lists in conjunction with the `loop` command, *however* this could just as easily be used in other places to generate an n-dimensional list.
 ```yaml
-
+- name: create list
+  debug:
+    msg: "{{ item.0 }} : {{ item.1 }}"
+  loop: "{{ x | product(y) }}"
+  vars:
+    x: [1, 2, 3]
+    y: ["a", "b", "c"]
 ``` 
 
 ## Looping over a set of tasks
@@ -193,10 +199,10 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTM1NjE1OTMsMTg0NTU3NjcwMiwtMT
-M2ODg4NDY2NCwxMjg1NzA1MTQzLDE0NTQwNzk0NjIsMTkzNjI5
-Mzc1MSwxNDIwMDY3NzEzLDE3Nzc4MTkwMTgsMTUyOTU3MzIyLD
-M1OTMzNDk2NCwtMTA3NDE5ODM2NCwtMzUzMTI0MjE2LDE0Mjk4
-NjA5MDgsLTE2NDczNzk1NzEsMTUwODMzNjI5MCwtNzU5MDY2OT
-gxLDEyMDQ5NzUxMjldfQ==
+eyJoaXN0b3J5IjpbLTE0MTEwMjExMTgsLTE0MTM1NjE1OTMsMT
+g0NTU3NjcwMiwtMTM2ODg4NDY2NCwxMjg1NzA1MTQzLDE0NTQw
+Nzk0NjIsMTkzNjI5Mzc1MSwxNDIwMDY3NzEzLDE3Nzc4MTkwMT
+gsMTUyOTU3MzIyLDM1OTMzNDk2NCwtMTA3NDE5ODM2NCwtMzUz
+MTI0MjE2LDE0Mjk4NjA5MDgsLTE2NDczNzk1NzEsMTUwODMzNj
+I5MCwtNzU5MDY2OTgxLDEyMDQ5NzUxMjldfQ==
 -->
