@@ -19,11 +19,15 @@ You can **generate a list in a range** using the `range` filter with the start a
 
 ## Defining Custom Filters
 
-You can **define custom jinja filters** using python code. To do this, First create a folder in the top level of your ansible project called `filter_plugins` and create a file in the folder called `my_plugins.py`.
+You can **define custom jinja filters** using python code. To do this, First create a folder in the top level of your ansible project called `filter_plugins` and create a file in the folder called `my_filters.py`.
 
-Next define a class in the 
-3. Define a
+Next define a class in the `my_filters` file called `FilterModule` that inherits from the `Object` class. This should `return` an object that contains a dictionary of the different filter names as used in jinja code aliased to the functions that execute the filters.
+
+```py
+# my_filters.py
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExNzk4OTIsMTE1MjMwNzk2NCwxNTgzNT
-QwNTE4LC0xODU1MDIyMjQ3XX0=
+eyJoaXN0b3J5IjpbNzAwMDczNjU5LDExNTIzMDc5NjQsMTU4Mz
+U0MDUxOCwtMTg1NTAyMjI0N119
 -->
