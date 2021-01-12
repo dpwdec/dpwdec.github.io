@@ -35,7 +35,7 @@ You can **use comparative functions** with the `select` filter, such as `greater
 
 You can **destructure JSON** using the `json_query` filter in jinja.
 
-You can **match arrays of objects** using a `*` character and pull out nested properties of that array of objects into a new array.
+You can **match arrays of objects** using a `*` character and pull out nested properties of that array of objects into a new array. In the example below the `*` matches with every element in the `property` array property of `object` and then gets all the `x`s from those objects.
 ```yaml
 - name: get nested json
   debug:
@@ -73,7 +73,7 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODAyNjg5MjQsMTQyNjQ2NTk3OCw4Mj
-k0ODQ1OTgsMzMxNDkxMjMsLTExNzQ3MDkwMTIsMTE1MjMwNzk2
-NCwxNTgzNTQwNTE4LC0xODU1MDIyMjQ3XX0=
+eyJoaXN0b3J5IjpbMjEwOTg5NTUxOCwxNDI2NDY1OTc4LDgyOT
+Q4NDU5OCwzMzE0OTEyMywtMTE3NDcwOTAxMiwxMTUyMzA3OTY0
+LDE1ODM1NDA1MTgsLTE4NTUwMjIyNDddfQ==
 -->
