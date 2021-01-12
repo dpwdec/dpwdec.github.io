@@ -4,7 +4,7 @@ exclude: true
 title: Jinja
 ---
 
-Jinja templating in ansible allows you to apply a set of  
+Jinja templating in ansible allows you to u
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTUwMjIyNDddfQ==
+eyJoaXN0b3J5IjpbMTcwNzY5OTU1MiwtMTg1NTAyMjI0N119
 -->
