@@ -4,6 +4,8 @@ exclude: true
 title: Loops
 ---
 
+## 
+
 ## Looping over a set of tasks
 
 You can **loop over a set of multiple tasks with a collection** by placing the tasks you want to loop over in a separate file and using an `include` on them with the `loop` command. The items of the collection will be available inside the included file as `{{ item }}` and each item from the collection will be subbed into the included on each iteration of the loop. The outer run task would be:
@@ -101,7 +103,7 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzEyNDIxNiwxNDI5ODYwOTA4LC0xNj
-Q3Mzc5NTcxLDE1MDgzMzYyOTAsLTc1OTA2Njk4MSwxMjA0OTc1
-MTI5XX0=
+eyJoaXN0b3J5IjpbLTEwNzQxOTgzNjQsLTM1MzEyNDIxNiwxND
+I5ODYwOTA4LC0xNjQ3Mzc5NTcxLDE1MDgzMzYyOTAsLTc1OTA2
+Njk4MSwxMjA0OTc1MTI5XX0=
 -->
