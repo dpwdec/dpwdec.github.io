@@ -4,7 +4,7 @@ exclude: true
 title: Loops
 ---
 
-## 
+## Ignore 
 
 ## Looping over a set of tasks
 
@@ -103,7 +103,7 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQxOTgzNjQsLTM1MzEyNDIxNiwxND
-I5ODYwOTA4LC0xNjQ3Mzc5NTcxLDE1MDgzMzYyOTAsLTc1OTA2
-Njk4MSwxMjA0OTc1MTI5XX0=
+eyJoaXN0b3J5IjpbNjA3MjM2MzQyLC0xMDc0MTk4MzY0LC0zNT
+MxMjQyMTYsMTQyOTg2MDkwOCwtMTY0NzM3OTU3MSwxNTA4MzM2
+MjkwLC03NTkwNjY5ODEsMTIwNDk3NTEyOV19
 -->
