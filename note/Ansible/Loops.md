@@ -34,7 +34,19 @@ And the corresponding `include`d task would be:
 
 You can **replace the `loop` command with the `with_items` command** and the **functionality will be identical**.
 
+You can also **alias the names of items that you pass into the `include`d playbook** so that you don't *have* to use item by including an assignment after the file that is to be `include`d.
+```yaml
+- name: Create list
+  set_fact:
+    my_list:
+      - a
+      - b
+      - c
 
+- name: Run set of tasks
+  include: tasks.yml letters={{ my_list
+  loop: "{{ my_list }}"
+```
 
 ## Looping over tightly coupled tasks using retries
 
@@ -78,6 +90,6 @@ You can **loop over a group of tightly coupled tasks that may fail using retries
     - include_tasks: coupled_task_group.yml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDkwNDgyMzMsMTUwODMzNjI5MCwtNz
-U5MDY2OTgxLDEyMDQ5NzUxMjldfQ==
+eyJoaXN0b3J5IjpbMTAzNzcyOTM3NSwxNTA4MzM2MjkwLC03NT
+kwNjY5ODEsMTIwNDk3NTEyOV19
 -->
