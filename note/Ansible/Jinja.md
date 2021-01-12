@@ -19,6 +19,13 @@ You can **generate a list in a range** using the `range` filter with the start a
 
 ## Select
 
+You can **use comparative functions** with the `select` filter, such as `greaterthan` or `equalto`.
+```yaml
+- name: Select greaterthan
+  debug:
+    msg:
+```
+
 ## Defining Custom Filters
 
 You can **define custom jinja filters** using python code. To do this, First create a folder in the top level of your ansible project called `filter_plugins` and create a file in the folder called `my_filters.py`.
@@ -47,6 +54,6 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3Njc3MjQyNCwtMTE3NDcwOTAxMiwxMT
-UyMzA3OTY0LDE1ODM1NDA1MTgsLTE4NTUwMjIyNDddfQ==
+eyJoaXN0b3J5IjpbMzMxNDkxMjMsLTExNzQ3MDkwMTIsMTE1Mj
+MwNzk2NCwxNTgzNTQwNTE4LC0xODU1MDIyMjQ3XX0=
 -->
