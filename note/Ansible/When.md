@@ -24,7 +24,7 @@ There is also a subtlety in the order of evaluation. The evaluation process of `
     - true # this never gets evaluated
 ```
 
-This allows you to do useful things with uninitialised variables that might break upon evaluation which also rely on conditions further up the chain. 
+This allows you to **do useful things with uninitialised variables that might break upon evaluation** which also rely on conditions further up the chain. In the example below, if
 ```yaml
 - name: Load some JSON
   command: some-CLI-that-gets-JSON
@@ -34,7 +34,13 @@ This allows you to do useful things with uninitialised variables that might brea
   set_fact:
     json_cli_property: "{{ json_cli_result.property }}"
   when: json_cli_result != ''
+
+- name: Do something with JSON property
+  command: do-something-with "{{ json_cli_property }}"
+  when:
+    - json_cli_result != ''
+    - json_cli_property == 'done'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTczMjIwOSwxNDE3NDY4MjM3XX0=
+eyJoaXN0b3J5IjpbMjA2ODM0MjkwMiwxNDE3NDY4MjM3XX0=
 -->
