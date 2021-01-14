@@ -21,7 +21,7 @@ You can **see what images are available to run in docker** by using the `images`
 $ docker images
 ```
 
-You can **also use** the `docker image ls` command, which is the **updated image listing commander**.
+You can **also use** the `docker image ls` command, which is the **updated image listing command**.
 ```bash
 $ docker image ls
 ```
@@ -150,11 +150,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMTE5Nzg4MywxNDkyODMzMTAsNDE1Nj
-cyOTIwLDk5ODY3MTQzMiwxNzUzMTI5ODkyLDYxNzMxNjEwLC02
-OTAzNzIwNTgsLTI4MjU0NzAxOSwxNTI1MTc1NzAwLDYwNjExNz
-Y4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcsMTcyOTU2NDg0Nyw3
-ODM3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNTExOCwtMTI5NDM2Mz
-AyNCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2XX0=
+eyJoaXN0b3J5IjpbLTE1MzMyMjExMDYsMTQ5MjgzMzEwLDQxNT
+Y3MjkyMCw5OTg2NzE0MzIsMTc1MzEyOTg5Miw2MTczMTYxMCwt
+NjkwMzcyMDU4LC0yODI1NDcwMTksMTUyNTE3NTcwMCw2MDYxMT
+c2ODYsLTEzOTgwMTE5NiwyMTE4MzE5Mzk3LDE3Mjk1NjQ4NDcs
+NzgzNzMyNjQsNTQzNjU1MTU3LC04OTg0MDUxMTgsLTEyOTQzNj
+MwMjQsOTA4OTYzNjM3LDE4MDYyNzYwNTYsMjAwMjgxODQwNl19
 
 -->
