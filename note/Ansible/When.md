@@ -14,7 +14,7 @@ You can **evaluate a single command against multiple conditions** by listing boo
     - false
 ```
 
-There is also a subtlety in the order of evaluation. The evaluation process of `when` stops as soon as a false condition is found. In the example below the second `true` condition does *not* get evaluated because the `when` commands evaluation stops being evaluated when it encounters its first `false`. This allows you to do useful things with uninitialised variables that might break upon evaluation which also rely on conditions further up the chain. 
+There is also a subtlety in the order of evaluation. The evaluation process of `when` stops as soon as a false condition is found. In the example below the second `true` condition does *not* get evaluated because the `when` commands evaluation stops being evaluated when it encounters its first `false`. 
 ```yaml
 - name: Do something
   debug:
@@ -23,6 +23,18 @@ There is also a subtlety in the order of evaluation. The evaluation process of `
     - false    
     - true # this never gets evaluated
 ```
+
+This allows you to do useful things with uninitialised variables that might break upon evaluation which also rely on conditions further up the chain. 
+```yaml
+- name: Load some JSON
+  command: some-CLI-that-gets-JSON
+  register: json_cli_result
+
+- name: Get some JSON property
+  set_fact:
+    json_cli_property: "{{ json_cli_result.property }}"
+  when: json_cli_result != ''
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzQ2ODIzN119
+eyJoaXN0b3J5IjpbLTY5NTczMjIwOSwxNDE3NDY4MjM3XX0=
 -->
