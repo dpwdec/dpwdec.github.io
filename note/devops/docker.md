@@ -95,7 +95,7 @@ You can **run a container interactively** by using the `-it` flag. This will all
 $ docker container run -it <IMAGE_NAME>
 ```
 
-You can **view a list of containers currently running on a system** using the `ls` command with the `container` command.
+You can **view a list of containers currently running on a system** using the `ls` command with the `container` command. This **does not show containers that are stopped**.
 ```bash
 $ docker container ls
 ```
@@ -145,11 +145,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTM0MTkwNCwxNDkyODMzMTAsNDE1Nj
-cyOTIwLDk5ODY3MTQzMiwxNzUzMTI5ODkyLDYxNzMxNjEwLC02
-OTAzNzIwNTgsLTI4MjU0NzAxOSwxNTI1MTc1NzAwLDYwNjExNz
-Y4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcsMTcyOTU2NDg0Nyw3
-ODM3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNTExOCwtMTI5NDM2Mz
-AyNCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2XX0=
+eyJoaXN0b3J5IjpbNjQwNjE0MDczLDE0OTI4MzMxMCw0MTU2Nz
+I5MjAsOTk4NjcxNDMyLDE3NTMxMjk4OTIsNjE3MzE2MTAsLTY5
+MDM3MjA1OCwtMjgyNTQ3MDE5LDE1MjUxNzU3MDAsNjA2MTE3Nj
+g2LC0xMzk4MDExOTYsMjExODMxOTM5NywxNzI5NTY0ODQ3LDc4
+MzczMjY0LDU0MzY1NTE1NywtODk4NDA1MTE4LC0xMjk0MzYzMD
+I0LDkwODk2MzYzNywxODA2Mjc2MDU2LDIwMDI4MTg0MDZdfQ==
 
 -->
