@@ -10,7 +10,9 @@ Applicatons are **deployed in three steps**:
 
  1. Creating a `Dockerfile` that describes how a docker image is built
  2. Building a docker image file
- 3. Running the docker image file in docker
+ 3. Running the docker image file in docker as a container
+
+A `Dockerfile` creates an image an image file is then `run` to create a container and a container can be started stopped and interacted with *after* creation.
 
 ## Images
 
@@ -143,11 +145,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MjgzMzEwLDQxNTY3MjkyMCw5OTg2Nz
-E0MzIsMTc1MzEyOTg5Miw2MTczMTYxMCwtNjkwMzcyMDU4LC0y
-ODI1NDcwMTksMTUyNTE3NTcwMCw2MDYxMTc2ODYsLTEzOTgwMT
-E5NiwyMTE4MzE5Mzk3LDE3Mjk1NjQ4NDcsNzgzNzMyNjQsNTQz
-NjU1MTU3LC04OTg0MDUxMTgsLTEyOTQzNjMwMjQsOTA4OTYzNj
-M3LDE4MDYyNzYwNTYsMjAwMjgxODQwNiwtMTgyNTA2NDQ5NF19
+eyJoaXN0b3J5IjpbMTcxNTM0MTkwNCwxNDkyODMzMTAsNDE1Nj
+cyOTIwLDk5ODY3MTQzMiwxNzUzMTI5ODkyLDYxNzMxNjEwLC02
+OTAzNzIwNTgsLTI4MjU0NzAxOSwxNTI1MTc1NzAwLDYwNjExNz
+Y4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcsMTcyOTU2NDg0Nyw3
+ODM3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNTExOCwtMTI5NDM2Mz
+AyNCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2XX0=
 
 -->
