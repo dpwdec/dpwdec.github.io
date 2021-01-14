@@ -24,7 +24,7 @@ There is also a subtlety in the order of evaluation. The evaluation process of `
     - true # this never gets evaluated
 ```
 
-This allows you to **do useful things with uninitialised variables that might break upon evaluation** which also rely on conditions further up the chain. In the example below, if
+This allows you to **do useful things with uninitialised variables that might break upon evaluation** which also rely on conditions further up the chain. In the example below, if the `some-CLI` command fails it will return an empty string, and so, when we want to `Do Something` with the `property` component of the expected JSON object it will fail when trying to evaluate that property for a specific state, in this case, `done`. By checking that `json_cli_result
 ```yaml
 - name: Load some JSON
   command: some-CLI-that-gets-JSON
@@ -42,5 +42,5 @@ This allows you to **do useful things with uninitialised variables that might br
     - json_cli_property == 'done'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODM0MjkwMiwxNDE3NDY4MjM3XX0=
+eyJoaXN0b3J5IjpbNzcyMDM0MDk0LDE0MTc0NjgyMzddfQ==
 -->
