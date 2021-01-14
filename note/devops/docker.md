@@ -112,10 +112,12 @@ You can **view a list of ALL containers, running or otherwise** and information 
 $ docker container ps -a
 ```
 
-You can **delete a container** using the `rm` command followed by the id of the container.
+You can **delete a container** using the `rm` command followed by the id of the container or the container name
 ```bash
-$ docker container rm <CONTAINER_ID>
+$ docker container rm <CONTAINER_ID/CONTAINER_NAME>
 ```
+
+You can **remove multiple containers simultaneously** by space separat
 
 You can **start a container that has stopped** using the `start` command. You can use the container name here or the `CONTAINER ID` (which is displayed when using the `ps` command.
 ```bash
@@ -155,7 +157,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI1MTgyOSwxNDkyODMzMTAsNDE1Nj
+eyJoaXN0b3J5IjpbLTM5MjcyMjQ5MywxNDkyODMzMTAsNDE1Nj
 cyOTIwLDk5ODY3MTQzMiwxNzUzMTI5ODkyLDYxNzMxNjEwLC02
 OTAzNzIwNTgsLTI4MjU0NzAxOSwxNTI1MTc1NzAwLDYwNjExNz
 Y4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcsMTcyOTU2NDg0Nyw3
