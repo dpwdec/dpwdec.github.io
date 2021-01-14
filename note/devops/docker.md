@@ -117,7 +117,10 @@ You can **delete a container** using the `rm` command followed by the id of the 
 $ docker container rm <CONTAINER_ID/CONTAINER_NAME>
 ```
 
-You can **remove multiple containers simultaneously** by space separat
+You can **remove multiple containers simultaneously** by space separating the container identifiers that you want to remove.
+```bash
+
+```
 
 You can **start a container that has stopped** using the `start` command. You can use the container name here or the `CONTAINER ID` (which is displayed when using the `ps` command.
 ```bash
@@ -157,7 +160,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MjcyMjQ5MywxNDkyODMzMTAsNDE1Nj
+eyJoaXN0b3J5IjpbLTk4OTg1MTkyNCwxNDkyODMzMTAsNDE1Nj
 cyOTIwLDk5ODY3MTQzMiwxNzUzMTI5ODkyLDYxNzMxNjEwLC02
 OTAzNzIwNTgsLTI4MjU0NzAxOSwxNTI1MTc1NzAwLDYwNjExNz
 Y4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcsMTcyOTU2NDg0Nyw3
