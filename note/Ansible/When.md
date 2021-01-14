@@ -14,7 +14,15 @@ You can **evaluate a single command against multiple conditions** by listing boo
     - false
 ```
 
-There is also a subtlety in the order of evaluation. This process stops evaluation of `when` as soon
+There is also a subtlety in the order of evaluation. The evaluation process of `when` stops as soon as a false condition is found. In the example below the second `true` condition does *not* get evaluated because the `when` commands evaluation stops being evaluated when it encounters its first `false`. This allows you to do useful 
+```yaml
+- name: Do something
+  debug:
+    msg: Some message
+  when:
+    - false    
+    - true # this never gets evaluated
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDAxMTA1ODJdfQ==
+eyJoaXN0b3J5IjpbLTE0Nzk4NjY5ODJdfQ==
 -->
