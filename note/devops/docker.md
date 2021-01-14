@@ -14,7 +14,7 @@ Applicatons are **deployed in three steps**:
 
 ## Images
 
-You can **see what images are available to run in docker** by using the `images` command.
+You can **see what images are available to run in docker** by using the `images` command. This list is added to when you build a new container.
 ```bash
 $ docker images
 ```
@@ -143,11 +143,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE1NjcyOTIwLDk5ODY3MTQzMiwxNzUzMT
-I5ODkyLDYxNzMxNjEwLC02OTAzNzIwNTgsLTI4MjU0NzAxOSwx
-NTI1MTc1NzAwLDYwNjExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMT
-kzOTcsMTcyOTU2NDg0Nyw3ODM3MzI2NCw1NDM2NTUxNTcsLTg5
-ODQwNTExOCwtMTI5NDM2MzAyNCw5MDg5NjM2MzcsMTgwNjI3Nj
-A1NiwyMDAyODE4NDA2LC0xODI1MDY0NDk0LDE0NzkwNzc1MDZd
-fQ==
+eyJoaXN0b3J5IjpbMTQ5MjgzMzEwLDQxNTY3MjkyMCw5OTg2Nz
+E0MzIsMTc1MzEyOTg5Miw2MTczMTYxMCwtNjkwMzcyMDU4LC0y
+ODI1NDcwMTksMTUyNTE3NTcwMCw2MDYxMTc2ODYsLTEzOTgwMT
+E5NiwyMTE4MzE5Mzk3LDE3Mjk1NjQ4NDcsNzgzNzMyNjQsNTQz
+NjU1MTU3LC04OTg0MDUxMTgsLTEyOTQzNjMwMjQsOTA4OTYzNj
+M3LDE4MDYyNzYwNTYsMjAwMjgxODQwNiwtMTgyNTA2NDQ5NF19
+
 -->
