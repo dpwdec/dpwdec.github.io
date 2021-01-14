@@ -100,6 +100,11 @@ You can **view a list of containers currently running on a system** using the `l
 $ docker container ls
 ```
 
+You can **view a list of ALL containers** whether they are **stopped or running** by using the `-a` flag with the `ls` command.
+```bash
+$ docker container ls -a
+```
+
 A running docker image will simply **`exit` once it has run** unless there is some process keeping it open such as the `-it` interactive process. When a container exits it does not disappear but goes into a stopped state.
 
 You can **view a list of ALL containers, running or otherwise** and information about them using the `ps -a` command.
@@ -145,11 +150,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwNjE0MDczLDE0OTI4MzMxMCw0MTU2Nz
-I5MjAsOTk4NjcxNDMyLDE3NTMxMjk4OTIsNjE3MzE2MTAsLTY5
-MDM3MjA1OCwtMjgyNTQ3MDE5LDE1MjUxNzU3MDAsNjA2MTE3Nj
-g2LC0xMzk4MDExOTYsMjExODMxOTM5NywxNzI5NTY0ODQ3LDc4
-MzczMjY0LDU0MzY1NTE1NywtODk4NDA1MTE4LC0xMjk0MzYzMD
-I0LDkwODk2MzYzNywxODA2Mjc2MDU2LDIwMDI4MTg0MDZdfQ==
+eyJoaXN0b3J5IjpbMTAwMTE5Nzg4MywxNDkyODMzMTAsNDE1Nj
+cyOTIwLDk5ODY3MTQzMiwxNzUzMTI5ODkyLDYxNzMxNjEwLC02
+OTAzNzIwNTgsLTI4MjU0NzAxOSwxNTI1MTc1NzAwLDYwNjExNz
+Y4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcsMTcyOTU2NDg0Nyw3
+ODM3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNTExOCwtMTI5NDM2Mz
+AyNCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2XX0=
 
 -->
