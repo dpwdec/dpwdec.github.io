@@ -119,7 +119,7 @@ $ docker container rm <CONTAINER_ID/CONTAINER_NAME>
 
 You can **remove multiple containers simultaneously** by space separating the container identifiers that you want to remove.
 ```bash
-
+$ docker container rm <CONTAINER_ID_1> <CONTAINER_ID_2> <CONTAINER_ID_3> # etc.
 ```
 
 You can **start a container that has stopped** using the `start` command. You can use the container name here or the `CONTAINER ID` (which is displayed when using the `ps` command.
@@ -160,11 +160,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4OTg1MTkyNCwxNDkyODMzMTAsNDE1Nj
-cyOTIwLDk5ODY3MTQzMiwxNzUzMTI5ODkyLDYxNzMxNjEwLC02
-OTAzNzIwNTgsLTI4MjU0NzAxOSwxNTI1MTc1NzAwLDYwNjExNz
-Y4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcsMTcyOTU2NDg0Nyw3
-ODM3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNTExOCwtMTI5NDM2Mz
-AyNCw5MDg5NjM2MzcsMTgwNjI3NjA1NiwyMDAyODE4NDA2XX0=
+eyJoaXN0b3J5IjpbLTIwODM4MTYyOTksMTQ5MjgzMzEwLDQxNT
+Y3MjkyMCw5OTg2NzE0MzIsMTc1MzEyOTg5Miw2MTczMTYxMCwt
+NjkwMzcyMDU4LC0yODI1NDcwMTksMTUyNTE3NTcwMCw2MDYxMT
+c2ODYsLTEzOTgwMTE5NiwyMTE4MzE5Mzk3LDE3Mjk1NjQ4NDcs
+NzgzNzMyNjQsNTQzNjU1MTU3LC04OTg0MDUxMTgsLTEyOTQzNj
+MwMjQsOTA4OTYzNjM3LDE4MDYyNzYwNTYsMjAwMjgxODQwNl19
 
 -->
