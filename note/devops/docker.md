@@ -71,7 +71,7 @@ $ docker build .
 
 After each step of docker build **produces an intermediate docker image** that is then removed before the next step is ready to run.
 
-## Running
+## Containers
 
 You can **run a docker image** using the `docker run` command.
 ```bash
@@ -150,7 +150,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzMyMjExMDYsMTQ5MjgzMzEwLDQxNT
+eyJoaXN0b3J5IjpbLTE2MTcxODAzNDMsMTQ5MjgzMzEwLDQxNT
 Y3MjkyMCw5OTg2NzE0MzIsMTc1MzEyOTg5Miw2MTczMTYxMCwt
 NjkwMzcyMDU4LC0yODI1NDcwMTksMTUyNTE3NTcwMCw2MDYxMT
 c2ODYsLTEzOTgwMTE5NiwyMTE4MzE5Mzk3LDE3Mjk1NjQ4NDcs
