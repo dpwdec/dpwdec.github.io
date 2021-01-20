@@ -13,7 +13,7 @@ Expressed more formally, this is:
 
 \\[ p = log_b v \text{ is equivalent to } v = b^p\\]
 
-### Basic Examples
+## Basic Examples
 
 **1)** Given the logarithm \\( log_2 16 \\) what power must you raise `2` to, to get `16`?
 
@@ -23,7 +23,7 @@ We know that \\( p = log_2 16 \\) where \\( p \\) is the power we are searching 
 
 \\[ p = log_4 16 \text{, so } 16 = 4^p \text{, so } p = 2 \\\\ \text{ therefore: } log_4 16 = 2\\]
 
-### Natural Logarithms and E
+## Natural Logarithms and E
 
 A **natural logarithm** asks what the special exponential constant \\( e \\) needs to be raised by to equal the natural logs result. For example, \\( ln2 \\) is the same as \\( log_e 2 \\).
 
@@ -32,3 +32,8 @@ You can **write a number is terms of \\( e \\)** by raising e to the natural log
 \\[ e^{ln64} = 64 \\]
 \\[ e^{ln2.334} = 2.334 \\]
 \\[ e^{ln\pi} = \pi \\]
+
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEzNDY5NjU2NTFdfQ==
+-->
