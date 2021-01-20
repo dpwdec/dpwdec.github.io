@@ -33,7 +33,10 @@ You can **write a number is terms of \\( e \\)** by raising e to the natural log
 \\[ e^{ln2.334} = 2.334 \\]
 \\[ e^{ln\pi} = \pi \\]
 
+## Division Using Logarithms
+
+You can **translate division into logarithms and use subtraction instead**. This has the effect of compressing large numbers into much more computable ranges that only require addition and subtraction to work with.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY5NjU2NTFdfQ==
+eyJoaXN0b3J5IjpbLTIxNjA0NjI3NV19
 -->
