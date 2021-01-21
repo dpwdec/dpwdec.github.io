@@ -35,8 +35,8 @@ You can **write a number is terms of \\( e \\)** by raising e to the natural log
 
 ## Division Using Logarithms
 
-You can **translate division into logarithms and use subtraction instead**. This has the effect of compressing large numbers into much more computable ranges that only require addition and subtraction to work with.
+You can **translate division into logarithms and use subtraction instead**. This has the effect of compressing large numbers into much more computable ranges that only require addition and subtraction to work with. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjA0NjI3NV19
+eyJoaXN0b3J5IjpbLTEyMzM2MTEyMTMsLTIxNjA0NjI3NV19
 -->
