@@ -96,8 +96,9 @@ fs.unlink(path, (err) => { // delete file asynchronously
 });
 ```
 
-You can **copy a file  from one directory to another** using the `createReadStream` and `createWriteStream` functions with a `pipe`. This is useful as it **allows you to be agnostic about the content you are copying**. For example, if you had to read the content 
+You can **copy a file  from one directory to another** using the `createReadStream` and `createWriteStream` functions with a `pipe`. This is useful as it **allows you to be agnostic about the content you are copying**. For example, if you had to read the content into the programs memory in an opinionated way, things like images, text, audio etc. would need special configurations to avoid corruption, so, by simply reading the files in as a stream of data and piping that stream directly to an output file, nothing is altered in any way and this gives you a very easy way to copy files between two locations using node.
 ```js
+const fs = require('fs')
 fs.createReadStream('test.log').pipe(fs.createWriteStream('newLog.log'));
 ```
 
@@ -194,5 +195,6 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4MjIxMzQ4LC0xNDIzOTM2NzY1XX0=
+eyJoaXN0b3J5IjpbLTEzNTcyMTQ0ODgsLTE0MjM5MzY3NjVdfQ
+==
 -->
