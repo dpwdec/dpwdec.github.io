@@ -96,6 +96,11 @@ fs.unlink(path, (err) => { // delete file asynchronously
 });
 ```
 
+You can **copy a file  from one directory to another** using the `createReadStream` and `createWriteStream` functions with a `pipe`. This is useful as it **allows you to be agnostic about the content you are copying**. For example, if you had to read the content 
+```js
+fs.createReadStream('test.log').pipe(fs.createWriteStream('newLog.log'));
+```
+
 ## Process
 
 You can **make your node application exit** by using the `.exit` method on the process object.
@@ -189,5 +194,5 @@ $ browserify main.js -o bundle.js
 
 After this, all you need to do is require the `bundle.js` on a page as a script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjM5MzY3NjVdfQ==
+eyJoaXN0b3J5IjpbNjk4MjIxMzQ4LC0xNDIzOTM2NzY1XX0=
 -->
