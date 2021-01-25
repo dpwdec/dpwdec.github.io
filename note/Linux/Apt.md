@@ -35,7 +35,7 @@ $ apt-get purge <PACKAGE_NAME>
 
 You can **automatically say "yes" to all installation prompts when installing** by using the `-y`, `--yes` or `--assume-yes` flags.
 ```bash
-$ apt-get purge <PACKAGE_NAME>
+$ apt-get install -y <PACKAGE_NAME>
 ```
 
 ## Cache
@@ -57,6 +57,6 @@ $ apt-cache showpkg
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzAyMzIzOCwtNDI0OTU5NzE2LC05MT
+eyJoaXN0b3J5IjpbMjAxMjAwNzA0NiwtNDI0OTU5NzE2LC05MT
 Y1NTczNjUsLTc5ODUwNDY3NSwxNjU1NTUzMTg0XX0=
 -->
