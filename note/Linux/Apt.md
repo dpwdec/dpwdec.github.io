@@ -33,6 +33,11 @@ You can **uninstall a package AND remove any configuration files** using the `pu
 $ apt-get purge <PACKAGE_NAME>
 ```
 
+You can **automatically say "yes" to all installation prompts when installing** by using the `-y`, `--yes` or `--assume-yes` flags.
+```bash
+$ apt-get purge <PACKAGE_NAME>
+```
+
 ## Cache
 
 You can **search through the database of packages** using the `search` command. This will search package names and descriptions about the packages. This is a looser search method that can allow you to **search for packages without knowing the exact name of what you're looking for**.
@@ -52,6 +57,6 @@ $ apt-cache showpkg
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDk1OTcxNiwtOTE2NTU3MzY1LC03OT
-g1MDQ2NzUsMTY1NTU1MzE4NF19
+eyJoaXN0b3J5IjpbLTUyNzAyMzIzOCwtNDI0OTU5NzE2LC05MT
+Y1NTczNjUsLTc5ODUwNDY3NSwxNjU1NTUzMTg0XX0=
 -->
