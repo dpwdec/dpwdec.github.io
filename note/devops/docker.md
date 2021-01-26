@@ -90,7 +90,7 @@ $ docker tag <IMAGE_ID> <IMAGE_REPO_NAME>:<IMAGE_TAG>
 
 For example, if I wanted to push an image to the `blob` repository of the `sanchez.utsunomiya` repo with the tag `v1`.
 ```bash
-$ docker tag <IMAGE_ID> sanchez.utsunomiya
+$ docker tag <IMAGE_ID> sanchez.utsunomiya/blob:v1
 ```
 
 ## Containers
@@ -182,7 +182,7 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NzY1MTU3MSwtODU0NjA2Nzg1LC0yMD
+eyJoaXN0b3J5IjpbMjA3MTYxODk5OCwtODU0NjA2Nzg1LC0yMD
 gzODE2Mjk5LDE0OTI4MzMxMCw0MTU2NzI5MjAsOTk4NjcxNDMy
 LDE3NTMxMjk4OTIsNjE3MzE2MTAsLTY5MDM3MjA1OCwtMjgyNT
 Q3MDE5LDE1MjUxNzU3MDAsNjA2MTE3Njg2LC0xMzk4MDExOTYs
