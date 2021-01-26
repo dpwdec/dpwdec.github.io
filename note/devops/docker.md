@@ -14,6 +14,8 @@ Applicatons are **deployed in three steps**:
 
 A `Dockerfile` creates an image an image file is then `run` to create a container and a container can be started stopped and interacted with *after* creation.
 
+Use an **alpine image** if possible as they are very small.
+
 ## Images
 
 You can **see what images are available to run in docker** by using the `images` command. This list is added to when you build a new container.
@@ -192,11 +194,11 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2MTcyNzA1LDE3NzkzMDg3NDIsMjA3MT
-YxODk5OCwtODU0NjA2Nzg1LC0yMDgzODE2Mjk5LDE0OTI4MzMx
-MCw0MTU2NzI5MjAsOTk4NjcxNDMyLDE3NTMxMjk4OTIsNjE3Mz
-E2MTAsLTY5MDM3MjA1OCwtMjgyNTQ3MDE5LDE1MjUxNzU3MDAs
-NjA2MTE3Njg2LC0xMzk4MDExOTYsMjExODMxOTM5NywxNzI5NT
-Y0ODQ3LDc4MzczMjY0LDU0MzY1NTE1NywtODk4NDA1MTE4XX0=
+eyJoaXN0b3J5IjpbMjE5ODEzODY2LDk0NjE3MjcwNSwxNzc5Mz
+A4NzQyLDIwNzE2MTg5OTgsLTg1NDYwNjc4NSwtMjA4MzgxNjI5
+OSwxNDkyODMzMTAsNDE1NjcyOTIwLDk5ODY3MTQzMiwxNzUzMT
+I5ODkyLDYxNzMxNjEwLC02OTAzNzIwNTgsLTI4MjU0NzAxOSwx
+NTI1MTc1NzAwLDYwNjExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMT
+kzOTcsMTcyOTU2NDg0Nyw3ODM3MzI2NCw1NDM2NTUxNTddfQ==
 
 -->
