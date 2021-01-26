@@ -71,6 +71,10 @@ $ docker build .
 
 After each step of docker build **produces an intermediate docker image** that is then removed before the next step is ready to run.
 
+## Images
+
+You can **show a list of images on your system** using the `
+
 ## Containers
 
 You can **run a docker image** using the `docker run` command.
@@ -160,11 +164,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODM4MTYyOTksMTQ5MjgzMzEwLDQxNT
-Y3MjkyMCw5OTg2NzE0MzIsMTc1MzEyOTg5Miw2MTczMTYxMCwt
-NjkwMzcyMDU4LC0yODI1NDcwMTksMTUyNTE3NTcwMCw2MDYxMT
-c2ODYsLTEzOTgwMTE5NiwyMTE4MzE5Mzk3LDE3Mjk1NjQ4NDcs
-NzgzNzMyNjQsNTQzNjU1MTU3LC04OTg0MDUxMTgsLTEyOTQzNj
-MwMjQsOTA4OTYzNjM3LDE4MDYyNzYwNTYsMjAwMjgxODQwNl19
+eyJoaXN0b3J5IjpbODA1MTM4NDY3LC0yMDgzODE2Mjk5LDE0OT
+I4MzMxMCw0MTU2NzI5MjAsOTk4NjcxNDMyLDE3NTMxMjk4OTIs
+NjE3MzE2MTAsLTY5MDM3MjA1OCwtMjgyNTQ3MDE5LDE1MjUxNz
+U3MDAsNjA2MTE3Njg2LC0xMzk4MDExOTYsMjExODMxOTM5Nywx
+NzI5NTY0ODQ3LDc4MzczMjY0LDU0MzY1NTE1NywtODk4NDA1MT
+E4LC0xMjk0MzYzMDI0LDkwODk2MzYzNywxODA2Mjc2MDU2XX0=
 
 -->
