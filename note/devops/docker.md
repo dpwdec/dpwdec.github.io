@@ -73,7 +73,12 @@ After each step of docker build **produces an intermediate docker image** that i
 
 ## Images
 
-You can **show a list of images on your system** using the `
+You can **show a list of images on your system** using the `images` command.
+```bash
+$ docker images
+```
+
+You can **delete an image** using the `rmi` command - which stands for "remove image" - followed by 
 
 ## Containers
 
@@ -164,11 +169,11 @@ For example:
 $ docker pull ubuntu:16.04
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1MTM4NDY3LC0yMDgzODE2Mjk5LDE0OT
-I4MzMxMCw0MTU2NzI5MjAsOTk4NjcxNDMyLDE3NTMxMjk4OTIs
-NjE3MzE2MTAsLTY5MDM3MjA1OCwtMjgyNTQ3MDE5LDE1MjUxNz
-U3MDAsNjA2MTE3Njg2LC0xMzk4MDExOTYsMjExODMxOTM5Nywx
-NzI5NTY0ODQ3LDc4MzczMjY0LDU0MzY1NTE1NywtODk4NDA1MT
-E4LC0xMjk0MzYzMDI0LDkwODk2MzYzNywxODA2Mjc2MDU2XX0=
+eyJoaXN0b3J5IjpbLTg1NDYwNjc4NSwtMjA4MzgxNjI5OSwxND
+kyODMzMTAsNDE1NjcyOTIwLDk5ODY3MTQzMiwxNzUzMTI5ODky
+LDYxNzMxNjEwLC02OTAzNzIwNTgsLTI4MjU0NzAxOSwxNTI1MT
+c1NzAwLDYwNjExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcs
+MTcyOTU2NDg0Nyw3ODM3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNT
+ExOCwtMTI5NDM2MzAyNCw5MDg5NjM2MzcsMTgwNjI3NjA1Nl19
 
 -->
