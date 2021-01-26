@@ -184,14 +184,19 @@ $ docker pull ubuntu:16.04
 
 You can **log in to docker hub** using the `login` command.
 ```bash
-docker login
+$ docker login
+```
+
+You can **push an image to docker hub** by using the `push` command with the repository path (which should match the image name) as an argument.
+```bash
+$ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3OTMwODc0MiwyMDcxNjE4OTk4LC04NT
-Q2MDY3ODUsLTIwODM4MTYyOTksMTQ5MjgzMzEwLDQxNTY3Mjky
-MCw5OTg2NzE0MzIsMTc1MzEyOTg5Miw2MTczMTYxMCwtNjkwMz
-cyMDU4LC0yODI1NDcwMTksMTUyNTE3NTcwMCw2MDYxMTc2ODYs
-LTEzOTgwMTE5NiwyMTE4MzE5Mzk3LDE3Mjk1NjQ4NDcsNzgzNz
-MyNjQsNTQzNjU1MTU3LC04OTg0MDUxMTgsLTEyOTQzNjMwMjRd
-fQ==
+eyJoaXN0b3J5IjpbLTk5NjgyNzAzMywxNzc5MzA4NzQyLDIwNz
+E2MTg5OTgsLTg1NDYwNjc4NSwtMjA4MzgxNjI5OSwxNDkyODMz
+MTAsNDE1NjcyOTIwLDk5ODY3MTQzMiwxNzUzMTI5ODkyLDYxNz
+MxNjEwLC02OTAzNzIwNTgsLTI4MjU0NzAxOSwxNTI1MTc1NzAw
+LDYwNjExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcsMTcyOT
+U2NDg0Nyw3ODM3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNTExOF19
+
 -->
