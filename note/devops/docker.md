@@ -187,16 +187,16 @@ You can **log in to docker hub** using the `login` command.
 $ docker login
 ```
 
-You can **push an image to docker hub** by using the `push` command with the repository path (which should match the image name) as an argument.
+You can **push an image to docker hub** by using the `push` command with your username and the repository path (which should match the image name) as an argument.
 ```bash
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjgyNzAzMywxNzc5MzA4NzQyLDIwNz
-E2MTg5OTgsLTg1NDYwNjc4NSwtMjA4MzgxNjI5OSwxNDkyODMz
-MTAsNDE1NjcyOTIwLDk5ODY3MTQzMiwxNzUzMTI5ODkyLDYxNz
-MxNjEwLC02OTAzNzIwNTgsLTI4MjU0NzAxOSwxNTI1MTc1NzAw
-LDYwNjExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTcsMTcyOT
-U2NDg0Nyw3ODM3MzI2NCw1NDM2NTUxNTcsLTg5ODQwNTExOF19
+eyJoaXN0b3J5IjpbOTQ2MTcyNzA1LDE3NzkzMDg3NDIsMjA3MT
+YxODk5OCwtODU0NjA2Nzg1LC0yMDgzODE2Mjk5LDE0OTI4MzMx
+MCw0MTU2NzI5MjAsOTk4NjcxNDMyLDE3NTMxMjk4OTIsNjE3Mz
+E2MTAsLTY5MDM3MjA1OCwtMjgyNTQ3MDE5LDE1MjUxNzU3MDAs
+NjA2MTE3Njg2LC0xMzk4MDExOTYsMjExODMxOTM5NywxNzI5NT
+Y0ODQ3LDc4MzczMjY0LDU0MzY1NTE1NywtODk4NDA1MTE4XX0=
 
 -->
