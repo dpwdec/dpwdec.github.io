@@ -190,7 +190,7 @@ You can **map ports on a local machine to ports on a docker container** using th
 $ docker container run -p 1234:8080 <CONATINER_NAME>
 ```
 
-If **want to output show the output of scripts that are run in docker** by calling them from a bash script.
+You can **show the output of scripts that are run in docker** by calling them from a bash script.
 
 ## Hub
 
@@ -230,11 +230,11 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzkzODYwOCwtMTE4NzcxNjA3NSwtMj
-EwNDU5MzYzMyw5NTAxNzg2ODksLTE5Njg4OTg2MDUsLTEzMDM0
-MzI2MTcsLTEyMTAyNTg0NywyMTk4MTM4NjYsOTQ2MTcyNzA1LD
-E3NzkzMDg3NDIsMjA3MTYxODk5OCwtODU0NjA2Nzg1LC0yMDgz
-ODE2Mjk5LDE0OTI4MzMxMCw0MTU2NzI5MjAsOTk4NjcxNDMyLD
-E3NTMxMjk4OTIsNjE3MzE2MTAsLTY5MDM3MjA1OCwtMjgyNTQ3
-MDE5XX0=
+eyJoaXN0b3J5IjpbMTg5NTY4NTY3MCwxMjAzOTM4NjA4LC0xMT
+g3NzE2MDc1LC0yMTA0NTkzNjMzLDk1MDE3ODY4OSwtMTk2ODg5
+ODYwNSwtMTMwMzQzMjYxNywtMTIxMDI1ODQ3LDIxOTgxMzg2Ni
+w5NDYxNzI3MDUsMTc3OTMwODc0MiwyMDcxNjE4OTk4LC04NTQ2
+MDY3ODUsLTIwODM4MTYyOTksMTQ5MjgzMzEwLDQxNTY3MjkyMC
+w5OTg2NzE0MzIsMTc1MzEyOTg5Miw2MTczMTYxMCwtNjkwMzcy
+MDU4XX0=
 -->
