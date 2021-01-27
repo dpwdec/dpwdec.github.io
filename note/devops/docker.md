@@ -76,6 +76,11 @@ WORKDIR working
 WORKDIR directory
 ```
 
+You can **expose ports on your docker container** so that it can listen for external traffic using the `EXPOSE` directive.
+```docker
+EXPOSE 8080
+```
+
 ### Building
 
 You can **build an image from your `Dockerfile`** using the `build` command. You can **pass this any filename** which contains valid docker instructions.
@@ -216,11 +221,11 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njg4OTg2MDUsLTEzMDM0MzI2MTcsLT
-EyMTAyNTg0NywyMTk4MTM4NjYsOTQ2MTcyNzA1LDE3NzkzMDg3
-NDIsMjA3MTYxODk5OCwtODU0NjA2Nzg1LC0yMDgzODE2Mjk5LD
-E0OTI4MzMxMCw0MTU2NzI5MjAsOTk4NjcxNDMyLDE3NTMxMjk4
-OTIsNjE3MzE2MTAsLTY5MDM3MjA1OCwtMjgyNTQ3MDE5LDE1Mj
-UxNzU3MDAsNjA2MTE3Njg2LC0xMzk4MDExOTYsMjExODMxOTM5
-N119
+eyJoaXN0b3J5IjpbLTE1ODQ1ODc3MTcsLTE5Njg4OTg2MDUsLT
+EzMDM0MzI2MTcsLTEyMTAyNTg0NywyMTk4MTM4NjYsOTQ2MTcy
+NzA1LDE3NzkzMDg3NDIsMjA3MTYxODk5OCwtODU0NjA2Nzg1LC
+0yMDgzODE2Mjk5LDE0OTI4MzMxMCw0MTU2NzI5MjAsOTk4Njcx
+NDMyLDE3NTMxMjk4OTIsNjE3MzE2MTAsLTY5MDM3MjA1OCwtMj
+gyNTQ3MDE5LDE1MjUxNzU3MDAsNjA2MTE3Njg2LC0xMzk4MDEx
+OTZdfQ==
 -->
