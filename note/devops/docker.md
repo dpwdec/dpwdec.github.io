@@ -64,6 +64,7 @@ You can use the **copy files from an external source to your docker container** 
 COPY my/local/file.txt some/container/directory
 ```
 
+You can **set a working directory inside a co**
 
 ### Building
 
@@ -205,11 +206,11 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDM0MzI2MTcsLTEyMTAyNTg0NywyMT
-k4MTM4NjYsOTQ2MTcyNzA1LDE3NzkzMDg3NDIsMjA3MTYxODk5
-OCwtODU0NjA2Nzg1LC0yMDgzODE2Mjk5LDE0OTI4MzMxMCw0MT
-U2NzI5MjAsOTk4NjcxNDMyLDE3NTMxMjk4OTIsNjE3MzE2MTAs
-LTY5MDM3MjA1OCwtMjgyNTQ3MDE5LDE1MjUxNzU3MDAsNjA2MT
-E3Njg2LC0xMzk4MDExOTYsMjExODMxOTM5NywxNzI5NTY0ODQ3
+eyJoaXN0b3J5IjpbLTc0NTkzNTc2MiwtMTMwMzQzMjYxNywtMT
+IxMDI1ODQ3LDIxOTgxMzg2Niw5NDYxNzI3MDUsMTc3OTMwODc0
+MiwyMDcxNjE4OTk4LC04NTQ2MDY3ODUsLTIwODM4MTYyOTksMT
+Q5MjgzMzEwLDQxNTY3MjkyMCw5OTg2NzE0MzIsMTc1MzEyOTg5
+Miw2MTczMTYxMCwtNjkwMzcyMDU4LC0yODI1NDcwMTksMTUyNT
+E3NTcwMCw2MDYxMTc2ODYsLTEzOTgwMTE5NiwyMTE4MzE5Mzk3
 XX0=
 -->
