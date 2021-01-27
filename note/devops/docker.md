@@ -185,7 +185,10 @@ $ docker attach <CONTAINER_NAME>
 
 ### Ports
 
-You can **strong text**
+You can **map ports on a local machine to ports on a docker container** using the `-p` flag when running the container followed by the port on your local machine and the port on the docker container separated by a `:` colon. The example below maps the ports `1234` on the local machine to port `8080` on the running container.
+```bash
+$ docker container run -p 1234:8080 <CONATINER_NAME>
+```
 
 ## Hub
 
@@ -225,11 +228,11 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDM3MDY2NywtMTk2ODg5ODYwNSwtMT
-MwMzQzMjYxNywtMTIxMDI1ODQ3LDIxOTgxMzg2Niw5NDYxNzI3
-MDUsMTc3OTMwODc0MiwyMDcxNjE4OTk4LC04NTQ2MDY3ODUsLT
-IwODM4MTYyOTksMTQ5MjgzMzEwLDQxNTY3MjkyMCw5OTg2NzE0
-MzIsMTc1MzEyOTg5Miw2MTczMTYxMCwtNjkwMzcyMDU4LC0yOD
-I1NDcwMTksMTUyNTE3NTcwMCw2MDYxMTc2ODYsLTEzOTgwMTE5
-Nl19
+eyJoaXN0b3J5IjpbOTUwMTc4Njg5LC0xOTY4ODk4NjA1LC0xMz
+AzNDMyNjE3LC0xMjEwMjU4NDcsMjE5ODEzODY2LDk0NjE3Mjcw
+NSwxNzc5MzA4NzQyLDIwNzE2MTg5OTgsLTg1NDYwNjc4NSwtMj
+A4MzgxNjI5OSwxNDkyODMzMTAsNDE1NjcyOTIwLDk5ODY3MTQz
+MiwxNzUzMTI5ODkyLDYxNzMxNjEwLC02OTAzNzIwNTgsLTI4Mj
+U0NzAxOSwxNTI1MTc1NzAwLDYwNjExNzY4NiwtMTM5ODAxMTk2
+XX0=
 -->
