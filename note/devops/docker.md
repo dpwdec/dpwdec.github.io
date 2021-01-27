@@ -191,7 +191,10 @@ $ docker container run -p 1234:8080 <CONATINER_NAME>
 ```
 
 You can **show the output of scripts that are run in docker** by calling them from a bash script. In the example below the `Dockerfile` would use `CMD [ "sh", "script.sh" ]` with the `script` calling the node script.
-```b
+```bash
+#!/bin/bash
+node my-script.js
+```
 
 ## Hub
 
@@ -231,11 +234,11 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODcwNzE1MzcsMTg5NTY4NTY3MCwxMj
-AzOTM4NjA4LC0xMTg3NzE2MDc1LC0yMTA0NTkzNjMzLDk1MDE3
-ODY4OSwtMTk2ODg5ODYwNSwtMTMwMzQzMjYxNywtMTIxMDI1OD
-Q3LDIxOTgxMzg2Niw5NDYxNzI3MDUsMTc3OTMwODc0MiwyMDcx
-NjE4OTk4LC04NTQ2MDY3ODUsLTIwODM4MTYyOTksMTQ5MjgzMz
-EwLDQxNTY3MjkyMCw5OTg2NzE0MzIsMTc1MzEyOTg5Miw2MTcz
-MTYxMF19
+eyJoaXN0b3J5IjpbMTYzNDg3NTMxLDE4OTU2ODU2NzAsMTIwMz
+kzODYwOCwtMTE4NzcxNjA3NSwtMjEwNDU5MzYzMyw5NTAxNzg2
+ODksLTE5Njg4OTg2MDUsLTEzMDM0MzI2MTcsLTEyMTAyNTg0Ny
+wyMTk4MTM4NjYsOTQ2MTcyNzA1LDE3NzkzMDg3NDIsMjA3MTYx
+ODk5OCwtODU0NjA2Nzg1LC0yMDgzODE2Mjk5LDE0OTI4MzMxMC
+w0MTU2NzI5MjAsOTk4NjcxNDMyLDE3NTMxMjk4OTIsNjE3MzE2
+MTBdfQ==
 -->
