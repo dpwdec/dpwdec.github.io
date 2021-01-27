@@ -59,6 +59,8 @@ The `MAINTAINER` directive has been **deprecated**. However if you can **add met
 LABEL maintainer="my_name@some-website.com"
 ```
 
+You can use the **copy files from an external source to your docker container** using the `CO
+
 ### Building
 
 You can **build an image from your `Dockerfile`** using the `build` command. You can **pass this any filename** which contains valid docker instructions.
@@ -199,11 +201,11 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTAyNTg0NywyMTk4MTM4NjYsOTQ2MT
-cyNzA1LDE3NzkzMDg3NDIsMjA3MTYxODk5OCwtODU0NjA2Nzg1
-LC0yMDgzODE2Mjk5LDE0OTI4MzMxMCw0MTU2NzI5MjAsOTk4Nj
-cxNDMyLDE3NTMxMjk4OTIsNjE3MzE2MTAsLTY5MDM3MjA1OCwt
-MjgyNTQ3MDE5LDE1MjUxNzU3MDAsNjA2MTE3Njg2LC0xMzk4MD
-ExOTYsMjExODMxOTM5NywxNzI5NTY0ODQ3LDc4MzczMjY0XX0=
-
+eyJoaXN0b3J5IjpbMTM4MjA4NjY1MSwtMTIxMDI1ODQ3LDIxOT
+gxMzg2Niw5NDYxNzI3MDUsMTc3OTMwODc0MiwyMDcxNjE4OTk4
+LC04NTQ2MDY3ODUsLTIwODM4MTYyOTksMTQ5MjgzMzEwLDQxNT
+Y3MjkyMCw5OTg2NzE0MzIsMTc1MzEyOTg5Miw2MTczMTYxMCwt
+NjkwMzcyMDU4LC0yODI1NDcwMTksMTUyNTE3NTcwMCw2MDYxMT
+c2ODYsLTEzOTgwMTE5NiwyMTE4MzE5Mzk3LDE3Mjk1NjQ4NDdd
+fQ==
 -->
