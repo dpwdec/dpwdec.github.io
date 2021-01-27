@@ -64,7 +64,15 @@ You can use the **copy files from an external source to your docker container** 
 COPY my/local/file.txt some/container/directory
 ```
 
-You can **set a working directory inside a container** using the `WORKDIR` command. This takes a path as an argument which subsequent `RUN`, `COPY`, `CMD` etc. commands will run from. If the directory specified doesn't exist it in the
+You can **set a working directory inside a container** using the `WORKDIR` command. This takes a path as an argument which subsequent `RUN`, `COPY`, `CMD` etc. commands will run from. If the directory specified doesn't exist it in the container it will be created.
+```docker
+WORKDIR /usr/my/working/directory
+```
+
+You can **call the `WORKDIR` command multiple times**, each time it will create the new working directory *relative* to the last call.
+```docker
+WORKDIR /usr
+```
 
 ### Building
 
@@ -206,11 +214,11 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzIwNTIwNywtMTMwMzQzMjYxNywtMT
-IxMDI1ODQ3LDIxOTgxMzg2Niw5NDYxNzI3MDUsMTc3OTMwODc0
-MiwyMDcxNjE4OTk4LC04NTQ2MDY3ODUsLTIwODM4MTYyOTksMT
-Q5MjgzMzEwLDQxNTY3MjkyMCw5OTg2NzE0MzIsMTc1MzEyOTg5
-Miw2MTczMTYxMCwtNjkwMzcyMDU4LC0yODI1NDcwMTksMTUyNT
-E3NTcwMCw2MDYxMTc2ODYsLTEzOTgwMTE5NiwyMTE4MzE5Mzk3
-XX0=
+eyJoaXN0b3J5IjpbODkzMDYyMjc4LC0xMzAzNDMyNjE3LC0xMj
+EwMjU4NDcsMjE5ODEzODY2LDk0NjE3MjcwNSwxNzc5MzA4NzQy
+LDIwNzE2MTg5OTgsLTg1NDYwNjc4NSwtMjA4MzgxNjI5OSwxND
+kyODMzMTAsNDE1NjcyOTIwLDk5ODY3MTQzMiwxNzUzMTI5ODky
+LDYxNzMxNjEwLC02OTAzNzIwNTgsLTI4MjU0NzAxOSwxNTI1MT
+c1NzAwLDYwNjExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTdd
+fQ==
 -->
