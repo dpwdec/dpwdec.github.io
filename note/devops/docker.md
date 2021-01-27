@@ -121,7 +121,7 @@ $ docker container run -it <IMAGE_NAME>
 
 You can **make your container not exit once it runs** by running it in **detached mode** using the `-d` flag.
 ```bash
-$ docker container run -d 
+$ docker container run -d <IMAGE_NAME>
 ```
 
 You can **view a list of containers currently running on a system** using the `ls` command with the `container` command. This **does not show containers that are stopped**.
@@ -199,7 +199,7 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzgwMzg0NCwyMTk4MTM4NjYsOTQ2MT
+eyJoaXN0b3J5IjpbLTEyMTAyNTg0NywyMTk4MTM4NjYsOTQ2MT
 cyNzA1LDE3NzkzMDg3NDIsMjA3MTYxODk5OCwtODU0NjA2Nzg1
 LC0yMDgzODE2Mjk5LDE0OTI4MzMxMCw0MTU2NzI5MjAsOTk4Nj
 cxNDMyLDE3NTMxMjk4OTIsNjE3MzE2MTAsLTY5MDM3MjA1OCwt
