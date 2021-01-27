@@ -190,7 +190,7 @@ You can **map ports on a local machine to ports on a docker container** using th
 $ docker container run -p 1234:8080 <CONATINER_NAME>
 ```
 
-
+If **want to output show the output of script**
 
 ## Hub
 
@@ -230,7 +230,7 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDAwMDIyMzcsLTIxMDQ1OTM2MzMsOT
+eyJoaXN0b3J5IjpbLTExODc3MTYwNzUsLTIxMDQ1OTM2MzMsOT
 UwMTc4Njg5LC0xOTY4ODk4NjA1LC0xMzAzNDMyNjE3LC0xMjEw
 MjU4NDcsMjE5ODEzODY2LDk0NjE3MjcwNSwxNzc5MzA4NzQyLD
 IwNzE2MTg5OTgsLTg1NDYwNjc4NSwtMjA4MzgxNjI5OSwxNDky
