@@ -69,9 +69,11 @@ You can **set a working directory inside a container** using the `WORKDIR` comma
 WORKDIR /usr/my/working/directory
 ```
 
-You can **call the `WORKDIR` command multiple times**, each time it will create the new working directory *relative* to the last call.
+You can **call the `WORKDIR` command multiple times**, each time it will create the new working directory *relative* to the last call. The example below outputs the working directory `/usr/working/directory/`.
 ```docker
 WORKDIR /usr
+WORKDIR working
+WORKDIR directory
 ```
 
 ### Building
@@ -214,11 +216,11 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzMDYyMjc4LC0xMzAzNDMyNjE3LC0xMj
-EwMjU4NDcsMjE5ODEzODY2LDk0NjE3MjcwNSwxNzc5MzA4NzQy
-LDIwNzE2MTg5OTgsLTg1NDYwNjc4NSwtMjA4MzgxNjI5OSwxND
-kyODMzMTAsNDE1NjcyOTIwLDk5ODY3MTQzMiwxNzUzMTI5ODky
-LDYxNzMxNjEwLC02OTAzNzIwNTgsLTI4MjU0NzAxOSwxNTI1MT
-c1NzAwLDYwNjExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMTkzOTdd
-fQ==
+eyJoaXN0b3J5IjpbLTE5Njg4OTg2MDUsLTEzMDM0MzI2MTcsLT
+EyMTAyNTg0NywyMTk4MTM4NjYsOTQ2MTcyNzA1LDE3NzkzMDg3
+NDIsMjA3MTYxODk5OCwtODU0NjA2Nzg1LC0yMDgzODE2Mjk5LD
+E0OTI4MzMxMCw0MTU2NzI5MjAsOTk4NjcxNDMyLDE3NTMxMjk4
+OTIsNjE3MzE2MTAsLTY5MDM3MjA1OCwtMjgyNTQ3MDE5LDE1Mj
+UxNzU3MDAsNjA2MTE3Njg2LC0xMzk4MDExOTYsMjExODMxOTM5
+N119
 -->
