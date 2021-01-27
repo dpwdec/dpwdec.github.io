@@ -119,6 +119,8 @@ You can **run a container interactively** by using the `-it` flag. This will all
 $ docker container run -it <IMAGE_NAME>
 ```
 
+You can **make your container not exit once it runs** by 
+
 You can **view a list of containers currently running on a system** using the `ls` command with the `container` command. This **does not show containers that are stopped**.
 ```bash
 $ docker container ls
@@ -194,11 +196,11 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE5ODEzODY2LDk0NjE3MjcwNSwxNzc5Mz
-A4NzQyLDIwNzE2MTg5OTgsLTg1NDYwNjc4NSwtMjA4MzgxNjI5
-OSwxNDkyODMzMTAsNDE1NjcyOTIwLDk5ODY3MTQzMiwxNzUzMT
-I5ODkyLDYxNzMxNjEwLC02OTAzNzIwNTgsLTI4MjU0NzAxOSwx
-NTI1MTc1NzAwLDYwNjExNzY4NiwtMTM5ODAxMTk2LDIxMTgzMT
-kzOTcsMTcyOTU2NDg0Nyw3ODM3MzI2NCw1NDM2NTUxNTddfQ==
+eyJoaXN0b3J5IjpbLTE2Mjk2MTIxLDIxOTgxMzg2Niw5NDYxNz
+I3MDUsMTc3OTMwODc0MiwyMDcxNjE4OTk4LC04NTQ2MDY3ODUs
+LTIwODM4MTYyOTksMTQ5MjgzMzEwLDQxNTY3MjkyMCw5OTg2Nz
+E0MzIsMTc1MzEyOTg5Miw2MTczMTYxMCwtNjkwMzcyMDU4LC0y
+ODI1NDcwMTksMTUyNTE3NTcwMCw2MDYxMTc2ODYsLTEzOTgwMT
+E5NiwyMTE4MzE5Mzk3LDE3Mjk1NjQ4NDcsNzgzNzMyNjRdfQ==
 
 -->
