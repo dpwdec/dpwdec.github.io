@@ -190,7 +190,7 @@ You can **map ports on a local machine to ports on a docker container** using th
 $ docker container run -p 1234:8080 <CONATINER_NAME>
 ```
 
-You can **show the output of scripts that are run in docker** by calling them from a bash script. In the example below the `Dockerfile` would use `CMD [ "sh", "script.sh" ]` which uses the `node` command 
+You can **show the output of scripts that are run in docker** by calling them from a bash script. In the example below the `Dockerfile` would use `CMD [ "sh", "script.sh" ]` which uses the `node` command to call a script, the `console.log` commands of which will show their output.
 ```bash
 #!/bin/bash
 echo "Output from Script"
@@ -235,11 +235,11 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTkwNDYwMDMsMTg5NTY4NTY3MCwxMj
-AzOTM4NjA4LC0xMTg3NzE2MDc1LC0yMTA0NTkzNjMzLDk1MDE3
-ODY4OSwtMTk2ODg5ODYwNSwtMTMwMzQzMjYxNywtMTIxMDI1OD
-Q3LDIxOTgxMzg2Niw5NDYxNzI3MDUsMTc3OTMwODc0MiwyMDcx
-NjE4OTk4LC04NTQ2MDY3ODUsLTIwODM4MTYyOTksMTQ5MjgzMz
-EwLDQxNTY3MjkyMCw5OTg2NzE0MzIsMTc1MzEyOTg5Miw2MTcz
-MTYxMF19
+eyJoaXN0b3J5IjpbLTk3NTc5MjU5NCwxODk1Njg1NjcwLDEyMD
+M5Mzg2MDgsLTExODc3MTYwNzUsLTIxMDQ1OTM2MzMsOTUwMTc4
+Njg5LC0xOTY4ODk4NjA1LC0xMzAzNDMyNjE3LC0xMjEwMjU4ND
+csMjE5ODEzODY2LDk0NjE3MjcwNSwxNzc5MzA4NzQyLDIwNzE2
+MTg5OTgsLTg1NDYwNjc4NSwtMjA4MzgxNjI5OSwxNDkyODMzMT
+AsNDE1NjcyOTIwLDk5ODY3MTQzMiwxNzUzMTI5ODkyLDYxNzMx
+NjEwXX0=
 -->
