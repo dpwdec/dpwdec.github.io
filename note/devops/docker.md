@@ -183,6 +183,10 @@ You can **enter a running container from outside** using the `attach` command an
 $ docker attach <CONTAINER_NAME>
 ```
 
+### Ports
+
+
+
 ## Hub
 
 You can **find existing images to use as a base for your custom images** by using the [Docker Hub](https://hub.docker.com/) service. It is possible to **host private docker image repositories** in your own infrastructure.
@@ -221,11 +225,11 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQ1ODc3MTcsLTE5Njg4OTg2MDUsLT
-EzMDM0MzI2MTcsLTEyMTAyNTg0NywyMTk4MTM4NjYsOTQ2MTcy
-NzA1LDE3NzkzMDg3NDIsMjA3MTYxODk5OCwtODU0NjA2Nzg1LC
-0yMDgzODE2Mjk5LDE0OTI4MzMxMCw0MTU2NzI5MjAsOTk4Njcx
-NDMyLDE3NTMxMjk4OTIsNjE3MzE2MTAsLTY5MDM3MjA1OCwtMj
-gyNTQ3MDE5LDE1MjUxNzU3MDAsNjA2MTE3Njg2LC0xMzk4MDEx
-OTZdfQ==
+eyJoaXN0b3J5IjpbMTUxNzU1Njc4NiwtMTk2ODg5ODYwNSwtMT
+MwMzQzMjYxNywtMTIxMDI1ODQ3LDIxOTgxMzg2Niw5NDYxNzI3
+MDUsMTc3OTMwODc0MiwyMDcxNjE4OTk4LC04NTQ2MDY3ODUsLT
+IwODM4MTYyOTksMTQ5MjgzMzEwLDQxNTY3MjkyMCw5OTg2NzE0
+MzIsMTc1MzEyOTg5Miw2MTczMTYxMCwtNjkwMzcyMDU4LC0yOD
+I1NDcwMTksMTUyNTE3NTcwMCw2MDYxMTc2ODYsLTEzOTgwMTE5
+Nl19
 -->
