@@ -7,7 +7,8 @@ def parse_directory(node, path):
         path += f"{node['name']}/"
         return f"<br><l>{node['name']}</l><ul>{''.join([parse_directory(x, path) for x in node['contents']])}</ul>"
     else:
-        return f"<l><a href='{path + node['name'].replace('.md', '')}'>{name}</a></l><br>"
+        page_title = subprocess.run(f"cat {path.replace('/', '', 1) + node['name']} | grep title | head | sed 's/title: //'", capture_output=True, shell=True).stdout.decode('utf-8')
+        return f"<l><a href='{path + node['name'].replace('.md', '')}'>{page_title}</a></l><br>"
 
 
 html = open("content_directory/directory_base.md").read()
@@ -15,8 +16,6 @@ html = open("content_directory/directory_base.md").read()
 html += "<ul>"
 
 file_structure = json.loads(subprocess.run("tree -J", capture_output = True, shell = True).stdout)
-
-# print(list(filter(lambda x: x["name"] == "math" or x["name"] == "note", file_structure[0]["contents"])))
 
 for x in filter(lambda x: x["name"] == "math" or x["name"] == "note", file_structure[0]["contents"]):
     html += parse_directory(x, "/")
