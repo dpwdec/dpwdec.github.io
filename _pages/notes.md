@@ -73,7 +73,6 @@ title: Notes index
 </a></l><br><l><a href='/note/Devops/Proxy'>Proxy
 </a></l><br><l><a href='/note/Devops/REST'>REST
 </a></l><br><l><a href='/note/Devops/Www'>Web Structures
-    <title>a cat</title>
 </a></l><br></ul><l><a href='/note/Discord'>Discord
 </a></l><br><l><a href='/note/DiscordJs'>Discord.js
 </a></l><br><l><a href='/note/Dmd'>dmd
@@ -109,10 +108,6 @@ title: Notes index
 </a></l><br><l><a href='/note/JS/Node/QueryString'>querstring
 </a></l><br></ul></ul><l><a href='/note/JetBrains'>JetBrains
 </a></l><br><l><a href='/note/Latex'>Latex
-You can **set the title of your document in the preamble** using the `title` property.
-\title{My Document}
-Importantly, none of these will appear by default in the actual document, if you want to render this information to display in the document with a title you will need to use the `maketitle` command inside the `begin` tags of the document. This will print the formatted information defined in the premable to the document.
-\maketitle
 </a></l><br><br><l>Linux</l><ul><l><a href='/note/Linux/Apt'>Apt
 </a></l><br><l><a href='/note/Linux/Bash'>Bash
 </a></l><br><l><a href='/note/Linux/Cut'>Cut
@@ -137,10 +132,7 @@ Importantly, none of these will appear by default in the actual document, if you
 </a></l><br><l><a href='/note/Rider'>Rider
 </a></l><br><l><a href='/note/Rk61'>rk61
 </a></l><br><l><a href='/note/Rspec'>RSpec
-To add **a color coded documentation mode** to tests, which will display passing test titles use the `color` and `documentation` flags.
 </a></l><br><l><a href='/note/Sinatra'>Sinatra
-You can **write route titles as `RegEx` expressions** if you want to match a route to a particular class of URL extension in your application by containing the route name inside `/.../` slashes. You also **must escape the opening `/`** with a `\`.
-<a href="/post/<%= post.id %>"> <%= post.title %> </a>
 </a></l><br><l><a href='/note/Sql'>SQL
 </a></l><br><l><a href='/note/SqlAlchemy'>SQL Alchemy
 </a></l><br><l><a href='/note/Stuff'></a></l><br><l><a href='/note/Travis'>Travis CI
