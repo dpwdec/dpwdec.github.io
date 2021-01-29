@@ -8,7 +8,7 @@ def parse_directory(node, path):
 
     if node["type"] == "directory":
         path += f"{node['name']}/"
-        return f"<br><l>{node['name']}</l><ul>{''.join([parse_directory(x, path) for x in node['contents']])}</ul>"
+        return f"<br><l>{node['name'].capitalize()}</l><ul>{''.join([parse_directory(x, path) for x in node['contents']])}</ul>"
     else:
         page_title = subprocess\
             .run(f"cat {path.replace('/', '', 1) + node['name']} | grep title: | head | sed 's/title: //'", capture_output=True, shell=True)\

@@ -2,7 +2,7 @@
 layout: page
 title: Notes index
 ---
-<ul><br><l>math</l><ul><l><a href='/math/Derivatives'>Derivatives
+<ul><br><l>Math</l><ul><l><a href='/math/Derivatives'>Derivatives
 </a></l><br><l><a href='/math/Exponents'>ExponentLogarithms
 </a></l><br><l><a href='/math/Limits'>Limits
 </a></l><br><l><a href='/math/Linalg'>Linear Algebra
@@ -10,7 +10,7 @@ title: Notes index
 </a></l><br><l><a href='/math/PointSlope'>Point Slope Formula
 </a></l><br><l><a href='/math/Sets'>Linear Algebra
 </a></l><br><br><l>Trigonometry</l><ul><l><a href='/math/Trigonometry/SumAndDifference'>Trigonometric Sum and Difference Formulas
-</a></l><br></ul></ul><br><l>note</l><ul><l><a href='/note/Actix'>Actix Web
+</a></l><br></ul></ul><br><l>Note</l><ul><l><a href='/note/Actix'>Actix Web
 </a></l><br><br><l>Ansible</l><ul><l><a href='/note/Ansible/Ansible'>Ansible
 </a></l><br><l><a href='/note/Ansible/Async'>Async
 </a></l><br><l><a href='/note/Ansible/Failure'>Failure
@@ -51,7 +51,7 @@ title: Notes index
 </a></l><br><br><l>Databases</l><ul><l><a href='/note/Databases/Db'>Databases
 </a></l><br><l><a href='/note/Databases/Migrations'>Migrations
 </a></l><br></ul><l><a href='/note/Datamapper'>Datamapper
-</a></l><br><br><l>Devops</l><ul><br><l>CloudComputing</l><ul><br><l>AWS</l><ul><l><a href='/note/Devops/CloudComputing/AWS/ALB'>ALB
+</a></l><br><br><l>Devops</l><ul><br><l>Cloudcomputing</l><ul><br><l>Aws</l><ul><l><a href='/note/Devops/CloudComputing/AWS/ALB'>ALB
 </a></l><br><l><a href='/note/Devops/CloudComputing/AWS/AWS'>aws
 </a></l><br><l><a href='/note/Devops/CloudComputing/AWS/CLI'>CLI
 </a></l><br><l><a href='/note/Devops/CloudComputing/AWS/Cloudfront'>Cloudfront
@@ -92,7 +92,7 @@ title: Notes index
 </a></l><br></ul><l><a href='/note/Heroku'>Heroku
 </a></l><br><l><a href='/note/Html'>HTML
 </a></l><br><l><a href='/note/Ieee754'>IEEE754
-</a></l><br><br><l>JS</l><ul><l><a href='/note/JS/Ajax'>Ajax
+</a></l><br><br><l>Js</l><ul><l><a href='/note/JS/Ajax'>Ajax
 </a></l><br><l><a href='/note/JS/Cypress'>Cypress
 </a></l><br><l><a href='/note/JS/Dotenv'>Dotenv
 </a></l><br><l><a href='/note/JS/Express'>Express
@@ -142,7 +142,7 @@ title: Notes index
 </a></l><br><l><a href='/note/VsCode'>Vs Code
 </a></l><br><l><a href='/note/YoutubeData'>Youtube Data
 </a></l><br><l><a href='/note/ruby'>Ruby
-</a></l><br><br><l>rust</l><ul><l><a href='/note/rust/Collections'>Collections
+</a></l><br><br><l>Rust</l><ul><l><a href='/note/rust/Collections'>Collections
 </a></l><br><l><a href='/note/rust/Enums'>Enums
 </a></l><br><l><a href='/note/rust/Iterators'>Iterators
 </a></l><br><l><a href='/note/rust/Lifetimes'>Lifetimes
