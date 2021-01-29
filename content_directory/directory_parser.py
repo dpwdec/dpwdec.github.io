@@ -5,24 +5,14 @@ def parse_directory(node, path):
 
     if node["type"] == "directory":
         path += f"{node['name']}/"
-
         return f"<br><l>{node['name']}</l><ul>{''.join([parse_directory(x, path) for x in node['contents']])}</ul>"
-
-        # html = f"<br><l>{name}</l><ul>"
-        # for x in node["contents"]:
-        #     html += parse_directory(x, path)
-        # html += "</ul>"
-        # return html
     else:
-        path += node["name"].replace(".md", "")
-        return f"<l><a href=\"{path}\">{name}</a></l><br>"
+        return f"<l><a href='{path + node['name'].replace('.md', '')}'>{name}</a></l><br>"
 
 
 html = open("content_directory/directory_base.md").read()
 
 html += "<ul>"
-
-print(html)
 
 file_structure = json.loads(subprocess.run("tree -J", capture_output = True, shell = True).stdout)
 
