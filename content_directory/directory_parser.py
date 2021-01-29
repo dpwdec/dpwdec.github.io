@@ -1,5 +1,8 @@
 import subprocess, json
 
+def match_directory(node):
+    return node['name'] == 'math' or node['name'] == 'note'
+
 def parse_directory(node, path):
     name = node["name"]
 
@@ -15,7 +18,7 @@ def parse_directory(node, path):
 
 file_structure = json.loads(subprocess.run("tree -J", capture_output=True, shell=True).stdout)
 
-content = open("content_directory/directory_base.md").read() + f"<ul>{''.join([parse_directory(x, '/') for x in filter(lambda x: x['name'] == 'math' or x['name'] == 'note', file_structure[0]['contents'])])}</ul>"
+content = open("content_directory/directory_base.md").read() + f"<ul>{''.join([parse_directory(x, '/') for x in filter(match_directory, file_structure[0]['contents'])])}</ul>"
 
 with open("_pages/notes.md", "w") as directory_index:
     directory_index.write(content)
