@@ -26,13 +26,14 @@ const parseFile = (file, path) => {
     .replace('.md', '');
   path += `${pathName}`
 
-  titleName = pathName.match(/[A-Z][a-z0-9]+/g);
-  if(titleName == null) { 
-    titleName = pathName 
-  } else { 
-    // TODO: Join consecutive capital letters
-    titleName = titleName.join(' ') 
-  }
+  titleName = pathName;
+  // titleName = pathName.match(/[A-Z][a-z0-9]+/g);
+  // if(titleName == null) { 
+  //   titleName = pathName 
+  // } else { 
+  //   // TODO: Join consecutive capital letters
+  //   titleName = titleName.join(' ') 
+  // }
   html += `<l><a href="${path}">${titleName}</a></l><br>`
 }
 
