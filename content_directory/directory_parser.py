@@ -13,17 +13,9 @@ def parse_directory(node, path):
             .decode('utf-8')
         return f"<l><a href='{path + node['name'].replace('.md', '')}'>{page_title}</a></l><br>"
 
-
-html = open("content_directory/directory_base.md").read()
-
-html += "<ul>"
-
 file_structure = json.loads(subprocess.run("tree -J", capture_output=True, shell=True).stdout)
 
-for x in filter(lambda x: x["name"] == "math" or x["name"] == "note", file_structure[0]["contents"]):
-    html += parse_directory(x, "/")
-
-html += "</ul>"
+content = open("content_directory/directory_base.md").read() + f"<ul>{''.join([parse_directory(x, '/') for x in filter(lambda x: x['name'] == 'math' or x['name'] == 'note', file_structure[0]['contents'])])}</ul>"
 
 with open("_pages/notes.md", "w") as directory_index:
-    directory_index.write(html)
+    directory_index.write(content)
