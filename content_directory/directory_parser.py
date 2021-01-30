@@ -8,12 +8,16 @@ def match_directory(name: str) -> bool:
 def parse_directory(node: dict, path: str) -> str:
     if node["type"] == "directory":
         path += f"{node['name']}/"
-        return f"<br><l>{node['name'].capitalize()}</l><ul>{''.join([parse_directory(x, path) for x in node['contents']])}</ul>"
+        # TODO: separate & capitalise directory name on _ underscore characters
+        directory_name = node['name'].capitalize()
+        directory_content = ''.join(
+            parse_directory(child, path)
+            for child in node['contents'])
+        return f"<br><l>{directory_name}</l><ul>{directory_content}</ul>"
     else:
-        page_title = subprocess\
-            .run(f"cat {path.replace('/', '', 1) + node['name']} | grep title: | head | sed 's/title: //'", capture_output=True, shell=True)\
-            .stdout\
-            .decode('utf-8')
+        # gather meta data from file about its title
+        command = f"cat {path.replace('/', '', 1) + node['name']} | grep title: | head | sed 's/title: //'"
+        page_title = subprocess.run(command, capture_output=True, shell=True).stdout.decode('utf-8')
         return f"<l><a href='{path + node['name'].replace('.md', '')}'>{page_title}</a></l><br>"
 
 # generate file structure JSON using tree command
