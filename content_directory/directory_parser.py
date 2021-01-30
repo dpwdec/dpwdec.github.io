@@ -2,10 +2,10 @@
 import subprocess, json
 
 # lambda to match only required sub directories
-def match_directory(node):
-    return node['name'] == 'math' or node['name'] == 'note'
+def match_directory(name: str) -> bool:
+    return name in {'math', 'note'}
 
-def parse_directory(node, path):
+def parse_directory(node: dict, path: str) -> str:
     name = node["name"]
 
     if node["type"] == "directory":
@@ -21,8 +21,17 @@ def parse_directory(node, path):
 # generate file structure JSON using tree command
 file_structure = json.loads(subprocess.run("tree -J", capture_output=True, shell=True).stdout)
 
-# append content to base directory file by recursively stepping through JSON
-content = open("content_directory/directory_base.md").read() + f"<ul>{''.join([parse_directory(x, '/') for x in filter(match_directory, file_structure[0]['contents'])])}</ul>"
+# parse content file nodes recursively into HTML
+parsed_nodes = ''.join(
+    parse_directory(node, '/') 
+    for node in file_structure[0]['contents'] 
+    if match_directory(node['name']))
+
+# open notes page template file
+base = open("content_directory/directory_base.md").read()
+
+# append HTML to template stub
+content = base + f"<ul>{parsed_nodes}</ul>"
 
 # write results to the directory page
 with open("_pages/notes.md", "w") as directory_index:
