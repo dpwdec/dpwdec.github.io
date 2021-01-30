@@ -6,8 +6,6 @@ def match_directory(name: str) -> bool:
     return name in {'math', 'note'}
 
 def parse_directory(node: dict, path: str) -> str:
-    name = node["name"]
-
     if node["type"] == "directory":
         path += f"{node['name']}/"
         return f"<br><l>{node['name'].capitalize()}</l><ul>{''.join([parse_directory(x, path) for x in node['contents']])}</ul>"
