@@ -15,8 +15,8 @@ You can also embed some html page with a sketch in via iFrame
 
 ## Dom Elements
 
-
+P5 supports a range of dom elements that can be generated on and inserted into the same page as your sketch and then used by your sketch for creating interactive interface elements
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTY5OTczOTIsMTUyNDE5NzM5MSwtNj
-AwMDcxMTU2XX0=
+eyJoaXN0b3J5IjpbLTI4MDAzMzU4MCwtMTY5Njk5NzM5MiwxNT
+I0MTk3MzkxLC02MDAwNzExNTZdfQ==
 -->
