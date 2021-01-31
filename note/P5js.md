@@ -17,11 +17,11 @@ You can also embed some html page with a sketch in via iFrame
 
 P5 supports a range of DOM elements that can be generated on and inserted into the same page as your sketch and then used by your sketch for creating interactive interface elements. By **default, new DOM elements are created *below* your sketch**. Creating elements using the P5 framework inside the sketch code gives you easy access to the dom elements allowing you retrieve data from and interact with them easily.
 
-You can **create a slider element** using the `createSlider` function.
+You can **create a slider element** using the `createSlider()` function. You can **get the value inside a slider** using the `value()` function whi
 ```js
-create
+mySlider = createSlider();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjEwMDAwMzMsLTE2OTY5OTczOTIsMT
-UyNDE5NzM5MSwtNjAwMDcxMTU2XX0=
+eyJoaXN0b3J5IjpbODU2MzE0NDExLC0xNjk2OTk3MzkyLDE1Mj
+QxOTczOTEsLTYwMDA3MTE1Nl19
 -->
