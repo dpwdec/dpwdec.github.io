@@ -7,7 +7,7 @@ p5.js is a javascript implementation of the processing graphics library optimise
 
 ## Embedding
 
-The simplest way to **embed a p5 sketch file in another web page** is it simply list it in a `<script>` tag inside the your main `HTML` file. However, doing this **does not allow you to control where the sketch appears on your page**.
+The simplest way to **embed a p5 sketch file in another web page** is it simply list it in a `<script>` tag inside the your main `HTML` file along with the P5.js library. However, doing this **does not allow you to control where the sketch appears on your page**.
 ```html
 
 ```
@@ -28,6 +28,6 @@ You can **get the value inside a slider** using the `value()` function which sho
 mySlider.value(); // => 50
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzMDM1NzgwLC0xNjk2OTk3MzkyLDE1Mj
-QxOTczOTEsLTYwMDA3MTE1Nl19
+eyJoaXN0b3J5IjpbMTEzODUyMzkzOSwtMTY5Njk5NzM5MiwxNT
+I0MTk3MzkxLC02MDAwNzExNTZdfQ==
 -->
