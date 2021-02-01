@@ -1,15 +1,31 @@
 # script that recursively parses JSON folder structure into an static HTML page
 import subprocess, json
+from typing import List
 
-# lambda to match only required sub directories
+# recursively join file word lists that contain single character acronyms
+# folders must have acronyms separated by underscores, For example:
+# To get the output "API" the corresponding directory is called "a_p_i"
+def join_with_acronyms(words: List[str]) -> str:
+    current_word, *tail = words
+    if len(tail) > 0:
+        next_word, *tail = tail
+        insert = "" if len(current_word) == 1 and len(next_word) == 1 else " "
+        return current_word + insert + join_with_acronyms([next_word] + tail)
+    else:
+        return current_word
+
+
+# function to match only required sub directories
 def match_directory(name: str) -> bool:
     return name in {'math', 'note'}
 
 def parse_directory(node: dict, path: str) -> str:
     if node["type"] == "directory":
         path += f"{node['name']}/"
-        # TODO: separate & capitalise directory name on _ underscore characters
-        directory_name = node['name'].capitalize()
+        # Separate and capitalize folder titles based on _
+        directory_name = join_with_acronyms(
+            word.capitalize()
+            for word in node['name'].split('_'))
         directory_content = ''.join(
             parse_directory(child, path)
             for child in node['contents'])
