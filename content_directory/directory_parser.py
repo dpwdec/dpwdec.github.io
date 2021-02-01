@@ -8,9 +8,9 @@ from typing import List
 def join_with_acronyms(words: List[str]) -> str:
     current_word, *tail = words
     if len(tail) > 0:
-        next_word, *tail = tail
+        next_word = tail[0]
         insert = "" if len(current_word) == 1 and len(next_word) == 1 else " "
-        return current_word + insert + join_with_acronyms([next_word] + tail)
+        return current_word + insert + join_with_acronyms(tail)
     else:
         return current_word
 
