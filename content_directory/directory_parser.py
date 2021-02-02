@@ -33,7 +33,7 @@ def parse_directory(node: dict, path: str) -> str:
     else:
         # gather meta data from file about its title
         command = f"cat {path.replace('/', '', 1) + node['name']} | grep title: | head | sed 's/title: //'"
-        page_title = subprocess.run(command, capture_output=True, shell=True).stdout.decode('utf-8')
+        page_title = subprocess.run(command, capture_output=True, shell=True).stdout.decode('utf-8').split('\n')
         return f"<l><a href='{path + node['name'].replace('.md', '')}'>{page_title}</a></l><br>"
 
 # generate file structure JSON using tree command
@@ -54,3 +54,9 @@ content = base + f"<ul>{parsed_nodes}</ul>"
 # write results to the directory page
 with open("_pages/notes.md", "w") as directory_index:
     directory_index.write(content)
+
+# TODO: Update to edit file in place with bash script
+tidy_content = subprocess.run("html-beautify _pages/notes.md", capture_output=True, shell=True).stdout.decode('utf-8')
+
+with open("_pages/notes.md", "w") as directory_index:
+    directory_index.write(tidy_content)
