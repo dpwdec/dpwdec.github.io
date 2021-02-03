@@ -5,8 +5,8 @@ exclude: true
 ---
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
-
-<script src="https://dpwdec.github.io/sketch_visualisations/sine_ratio.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
 
 The **derivative of the sine function is the cosine function**.
 
@@ -47,6 +47,26 @@ But **why does \\( \frac{cos(\Delta x - 1)}{\Delta x} \\) evaluate to \\( 0 \\) 
 
 In the \\( sin \\) case, both \\( sin(\Delta x) \\) and \\( \Delta x \\) approach zero at the same rate even at very small amounts. For example, \\( sin(0.005) \approx 0.0049999 \\) and \\( \frac{0.0049999}{0.005} \approx 1 \\) there this part of the expression approximates \\( 1 \\) as the \\( \lim_{\Delta x \to 0} \\) but *never* for the actual case of \\( 0 \\).
 
-<div id="sine_ratio"></div>
+<iframe frameBorder="0" height=200 srcdoc="<html>
+  <head>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js'></script>
+  </head>
+  <body>
+    <div id='sine_ratio'></div>
+    <script src='https://cdn.jsdelivr.net/gh/dpwdec/sketch_visualisations/sine_ratio/sine_ratio.js'></script>
+  </body>
+</html>"></iframe>
 
 In the \\( cos \\) case, \\( \frac{cos(\Delta x - 1)}{\Delta x} \\) and \\( \Delta x \\) diverge. The difference between \\( \Delta x \\) and \\( \frac{cos(\Delta x - 1)}{\Delta x} \\) is large, with **the subtractive numerator function being much much smaller** than the denominator. So when they are divided you get an even more tiny number that gets closer and closer to \\( 0 \\). For example \\( cos(0.001) = 0.9999995 \\) but \\( cos(0.001) - 1 = -4.99999958e-7 \\) an extremely tiny number, while \\( \Delta x \\) is still just \\( 0.001 \\), so, \\( \frac{-4.99999958e-7}{0.001} \\) is *another* tiny number that just gets closer and closer to zero.
+
+<iframe frameBorder="0" height=200 srcdoc="<html>
+  <head>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js'></script>
+  </head>
+  <body>
+    <div id='cos_ratio'></div>
+    <script src='https://cdn.jsdelivr.net/gh/dpwdec/sketch_visualisations/cos_ratio/cos_ratio.js'></script>
+  </body>
+</html>"></iframe>
