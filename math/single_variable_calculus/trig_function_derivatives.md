@@ -6,6 +6,8 @@ exclude: true
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
 
+<script src="https://dpwdec.github.io/sketch_visualisations/sine_ratio.js"></script>
+
 The **derivative of the sine function is the cosine function**.
 
 \\[ \lim_{x \to 0} \frac{d}{dx} sin x = cos x \\]
@@ -44,5 +46,7 @@ The left hand expression evaluates to \\( sin(x) \cdot 0 \\) which equals \\( 0 
 But **why does \\( \frac{cos(\Delta x - 1)}{\Delta x} \\) evaluate to \\( 0 \\) but \\( \frac{sin(x)}{\Delta x}) \\) evaluates to \\( 1 \\)?** Its not immediately clear as it seems like both of them just approach something like \\( \frac{0}{0} \\) which would be \\( undefined \\). The **important intuition here** is the ratios between the denominator and numerator and the rate at which \\( cos \\) and \\( sin \\) approach the respective limits in comparison to \\( \Delta x \\).
 
 In the \\( sin \\) case, both \\( sin(\Delta x) \\) and \\( \Delta x \\) approach zero at the same rate even at very small amounts. For example, \\( sin(0.005) \approx 0.0049999 \\) and \\( \frac{0.0049999}{0.005} \approx 1 \\) there this part of the expression approximates \\( 1 \\) as the \\( \lim_{\Delta x \to 0} \\) but *never* for the actual case of \\( 0 \\).
+
+<div id="sine_ratio"></div>
 
 In the \\( cos \\) case, \\( \frac{cos(\Delta x - 1)}{\Delta x} \\) and \\( \Delta x \\) diverge. The difference between \\( \Delta x \\) and \\( \frac{cos(\Delta x - 1)}{\Delta x} \\) is large, with **the subtractive numerator function being much much smaller** than the denominator. So when they are divided you get an even more tiny number that gets closer and closer to \\( 0 \\). For example \\( cos(0.001) = 0.9999995 \\) but \\( cos(0.001) - 1 = -4.99999958e-7 \\) an extremely tiny number, while \\( \Delta x \\) is still just \\( 0.001 \\), so, \\( \frac{-4.99999958e-7}{0.001} \\) is *another* tiny number that just gets closer and closer to zero.
