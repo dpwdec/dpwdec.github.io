@@ -36,7 +36,14 @@ You can **remove the default drop shadow border around an `<iframe>` element** u
 ```
 
 You can **insert HTML code directly into an `<iframe>` element** instead of using the `src` attribute to load a separate page using the `srcdoc` property.
+```html
+<iframe srcdoc="<html>
+  <body>
+    <h1>This is my page</h1>
+  </body>
+<html>"></iframe>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjk1OTU1NSwtMTE2MTgwNDMzOCwxMT
+eyJoaXN0b3J5IjpbMTY0NzE0NTgxNywtMTE2MTgwNDMzOCwxMT
 A4Mzk5MzA3LDE2MzE5NjE5NjksNzM0MjgyMDIxXX0=
 -->
