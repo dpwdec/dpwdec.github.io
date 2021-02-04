@@ -28,10 +28,13 @@ You can **link to internal elements in an HTML document** by using the `a` tag t
 <h1 id="a_heading">Hello</h1>
 ```
 
-## IFrames
+## IFrame
 
-You can **remove the default drop shadow border around an `<iframe>` element** using the `frameBorder`
+You can **remove the default drop shadow border around an `<iframe>` element** using the `frameBorder` property set to `0`.
+```html
+<iframe src="https://somewebsite.com" frameBorder="0"></iframe>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTkwNzI0OSwtMTE2MTgwNDMzOCwxMT
-A4Mzk5MzA3LDE2MzE5NjE5NjksNzM0MjgyMDIxXX0=
+eyJoaXN0b3J5IjpbLTExMDY5ODEzNzIsLTExNjE4MDQzMzgsMT
+EwODM5OTMwNywxNjMxOTYxOTY5LDczNDI4MjAyMV19
 -->
