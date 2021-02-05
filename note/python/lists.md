@@ -12,6 +12,15 @@ print(x) # => 1
 print(y) # => 2
 print(tail) # => [3, 4, 5, 6, 7]
 ```
+
+The "tail" of the list will an empty list `[]` *if* you consume all the values in the list by destructuring.
+```python
+xs = [1, 2]
+x, y, *tail = xs
+print(x) # => 1
+print(y) # => 2
+print(tail) # => []
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTcyMTgyM119
+eyJoaXN0b3J5IjpbMjA0MzMwNDk4Nl19
 -->
