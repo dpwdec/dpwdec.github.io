@@ -42,8 +42,11 @@ def higher_order_function(func: callable) -> callable:
 
 The `list` type is included as part of the default set of python type hints.
 ```python
-
+def joiner(words: list) -> str:
+  return ' '.join(words)
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDI0NzI5XX0=
+eyJoaXN0b3J5IjpbMTI4Mzg3NTA5NSwtNTY0MjQ3MjldfQ==
 -->
