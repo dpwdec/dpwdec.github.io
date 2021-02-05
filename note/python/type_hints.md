@@ -46,9 +46,21 @@ def joiner(words: list) -> str:
   return ' '.join(words)
 ```
 
-However, **this list type CANNOT contain types**, you cannot specify for readers that the `list` being passed into `joiner` the function above should contain `str` types.
+However, **this list type CANNOT contain types**, you cannot specify for readers that the `list` being passed into `joiner` the function above should contain `str` types. The code below will not work.
+```python
+# does not work
+def joiner(words: list[str]) -> str:
+  return ' '.join(words)
+```
+
+To **specify internal list types** you need to `import` the `List` type from the `typing` library.
+```python
+from typing 
+def joiner(words: List[str]) -> str:
+  return ' '.join(words)
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Nzg3NjkwMiwtNTY0MjQ3MjldfQ==
+eyJoaXN0b3J5IjpbLTgzNDA4MTI2NywtNTY0MjQ3MjldfQ==
 -->
