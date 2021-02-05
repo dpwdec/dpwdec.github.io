@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 
-You can type **small syllabary characters** by adding `x` before the character you want to type. Useful when writing phonetic transliterations of non japanese words. For example, the word `フィト
+You can type **small syllabary characters** by adding `x` before the character you want to type. Useful when writing phonetic transliterations of non japanese words. For example, the word `ディタ` would be written as `dexi`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYwMzczOTM5XX0=
+eyJoaXN0b3J5IjpbMjg3MDcxNzQxXX0=
 -->
