@@ -18,7 +18,10 @@ some_list_function(
   for x in some_list)
 ```
 
+There *is* a `filter` function built into python that takes a list and a 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzQ4Nzc4OSwtMTEyNjI2MzU0Nl19
+eyJoaXN0b3J5IjpbLTk4MTgwODIyMiwxNTkzNDg3Nzg5LC0xMT
+I2MjYzNTQ2XX0=
 -->
