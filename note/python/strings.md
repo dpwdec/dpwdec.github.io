@@ -11,10 +11,10 @@ You can **remove a character from a python script** using the `strip` function. 
 
 If you want to **remove trailing characters at the end of a string** use the `rstrip` method. 
 
-You **must use single quotes `''` inside an `f` string** if you want to specify string types inside of it. For example, using the property from a `dict` inside an `f` string.
+You **must use single quotes `''` inside an `f` string** if you want to specify string types inside of it. For example, using the property from a `dict` inside an `f` string. The following would break if `dict_key` was surrounded by `""` double quotes.
 ```python
 my_string = f"Get some value from {my_dict['dict_key']} for this string"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4ODQyMTU5M119
+eyJoaXN0b3J5IjpbLTI0NjIwMTQ1OV19
 -->
