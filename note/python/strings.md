@@ -15,6 +15,11 @@ You **must use single quotes `''` inside an `f` string** if you want to specify 
 ```python
 my_string = f"Get some value from {my_dict['dict_key']} for this string"
 ```
+
+You can **replace an N number of occurrences of a substring within a string** by using a third argument slot in the `replace` method to indicate how many instances you want replaced.
+```python
+"There
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NjIwMTQ1OV19
+eyJoaXN0b3J5IjpbLTE0MzU1MTgxMTZdfQ==
 -->
