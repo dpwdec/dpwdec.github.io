@@ -10,6 +10,8 @@ You can **remove a character from a python script** using the `strip` function. 
 ```
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTcwMTA5MDRdfQ==
+eyJoaXN0b3J5IjpbODI2MzU4Nzg4XX0=
 -->
