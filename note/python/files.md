@@ -9,6 +9,8 @@ You can **write to a file** by using the `open` function with the `"w"` argument
 with open('output.txt', 'w') as output_file:
   output_file.write('Here is some text to output to this file.')
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4Mzg4MDUxN119
+eyJoaXN0b3J5IjpbMTY3OTIxMTQyNV19
 -->
