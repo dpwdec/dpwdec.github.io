@@ -8,8 +8,11 @@ Jsdelivr is an "open source CDN" that allows you to remotely load Javascript int
 
 Jsdelivr also seems quite opinionated about what it *will* work with, for example, I was not able to get it to load HTML code as the `src` for an `iframe` element. Instead it just displayed the raw html content as text.
 
-You can **load files from a public github repo** using a `user`, `repo`, `path` pattern appended to the Jsdeliv
+You can **load files from a public github repo** using a `user`, `repo`, `path` pattern appended to the Jsdelivr CDN source URL.
+```
+https://cdn.jsdelivr.net/gh/<GITHUB_USERNAME>/<PROJECT_NAME>/<DIRECTORY_PATH(S)>/dummy-js-file.js**
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU3ODc2OTksLTIyNzU5MDUwMV19
+eyJoaXN0b3J5IjpbMTE2OTc3NjA0OCwtMjI3NTkwNTAxXX0=
 -->
