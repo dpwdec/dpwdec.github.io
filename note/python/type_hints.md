@@ -46,7 +46,9 @@ def joiner(words: list) -> str:
   return ' '.join(words)
 ```
 
+However, **this list type CANNOT contain types**, you cannot specify for readers that the `list` being passed into `joiner` the function above should contain `str` types.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4Mzg3NTA5NSwtNTY0MjQ3MjldfQ==
+eyJoaXN0b3J5IjpbLTQ3Nzg3NjkwMiwtNTY0MjQ3MjldfQ==
 -->
