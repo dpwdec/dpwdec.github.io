@@ -10,9 +10,11 @@ Jsdelivr also seems quite opinionated about what it *will* work with, for exampl
 
 You can **load files from a public github repo** using a `user`, `repo`, `path` pattern appended to the Jsdelivr CDN source URL.
 ```
-https://cdn.jsdelivr.net/gh/<GITHUB_USERNAME>/<PROJECT_NAME>/<DIRECTORY_PATH(S)>/dummy-js-file.js**
+https://cdn.jsdelivr.net/gh/<GITHUB_USERNAME>/<PROJECT_NAME>/<DIRECTORY_PATH>/<FILE_NAME>.js
 ```
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTc3NjA0OCwtMjI3NTkwNTAxXX0=
+eyJoaXN0b3J5IjpbLTY5NTIyMjIwMSwtMjI3NTkwNTAxXX0=
 -->
