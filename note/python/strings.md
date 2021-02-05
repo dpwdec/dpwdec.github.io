@@ -23,11 +23,13 @@ print(x.replace("fox", "badger", 2))
 # => 'There once was a badger from badgerton who was in love with a fox.'
 ```
 
-You can **substitute dictionary values into strings** by putting the name of keys of properties in the dictionary into the string and the using the `format` method with the dictionary as an argument.
+You can **substitute dictionary values into strings** by putting the name of keys of properties in the dictionary into the string and the using the `format` method with the dictionary as an argument prepended by two `**` asterisks.
 ```python
-
+person = { "name": "Montgomery", "age": 200 }
+print('His name is {name} and his age is {age}.'.format(**person))
+# => 'His name is Montgomery and h
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzkzMjg0MiwtNDk1Mjc0Nzg4LDY1Nz
-Q1ODMyMl19
+eyJoaXN0b3J5IjpbLTgxMTI5NTczMiwxMTMzOTMyODQyLC00OT
+UyNzQ3ODgsNjU3NDU4MzIyXX0=
 -->
