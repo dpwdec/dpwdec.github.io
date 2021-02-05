@@ -30,7 +30,14 @@ print(x) # => 1
 print(y) # => 2
 ```
 
-You can **destructure a list in reverse** taking the "init" and "
+You can **destructure a list in reverse** taking the "init" and "last" elements from a list by including the `*` property first.
+```python
+*init, head = [1, 2, 3, 4, 5]
+print(init) # => [1, 2, 3, 4]
+print(head) # => 5
+```
+
+You can **match arbitrarily on these ele**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAwNDExMDMyLDEwNzMzMjY0ODldfQ==
+eyJoaXN0b3J5IjpbNTAxNDI2ODMyLDEwNzMzMjY0ODldfQ==
 -->
