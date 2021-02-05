@@ -22,6 +22,8 @@ x = "There once was a fox from foxton who was in love with a fox."
 print(x.replace("fox", "badger", 2))
 # => 'There once was a badger from badgerton who was in love with a fox.'
 ```
+
+You can **substitute dictionary properties into strings** by putting the name of
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3NDU4MzIyXX0=
+eyJoaXN0b3J5IjpbMjc2ODYxNzgzLDY1NzQ1ODMyMl19
 -->
