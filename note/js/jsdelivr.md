@@ -13,8 +13,9 @@ You can **load files from a public github repo** using a `user`, `repo`, `path` 
 https://cdn.jsdelivr.net/gh/<GITHUB_USERNAME>/<PROJECT_NAME>/<DIRECTORY_PATH>/<FILE_NAME>.js
 ```
 
+You can **force load the latest version of an asset** by adding the `@latest` tag
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTIyMjIwMSwtMjI3NTkwNTAxXX0=
+eyJoaXN0b3J5IjpbMTY1Mjg5MjMyMSwtMjI3NTkwNTAxXX0=
 -->
