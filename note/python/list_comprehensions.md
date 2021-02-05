@@ -18,10 +18,10 @@ some_list_function(
   for x in some_list)
 ```
 
-There *is* a `filter` function built into python that takes a list and a predicate to filter that list again. However, its much easier to use the filter built into list comprehension syntax if you want to operate on the contents of the list at the same time rather than *just* filter it.
+There *is* a `filter` function built into python that takes a list and a predicate to filter that list again. However, its much easier to use the filter built into list comprehension syntax with the `if` statement, if you want to operate on the contents of the list at the same time rather than *just* filter it.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDI4NjQxLDE1OTM0ODc3ODksLTExMj
-YyNjM1NDZdfQ==
+eyJoaXN0b3J5IjpbMTA4MzY5NjI2NiwxNTkzNDg3Nzg5LC0xMT
+I2MjYzNTQ2XX0=
 -->
