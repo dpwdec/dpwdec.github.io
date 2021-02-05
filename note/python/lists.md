@@ -21,6 +21,11 @@ print(x) # => 1
 print(y) # => 2
 print(tail) # => []
 ```
+
+If you **don't intend to use the "tail" values** then you should destructure them into an underscore `_` character.
+```python
+xs =
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MzMwNDk4Nl19
+eyJoaXN0b3J5IjpbMjA3ODM3MDE5NV19
 -->
