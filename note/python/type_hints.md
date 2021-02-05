@@ -40,7 +40,10 @@ def higher_order_function(func: callable) -> callable:
 
 ## list
 
+The `list` type is included as part of the default set of python type hints.
+```python
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NjE4MDIzNV19
+eyJoaXN0b3J5IjpbLTU2NDI0NzI5XX0=
 -->
