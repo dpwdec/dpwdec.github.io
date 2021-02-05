@@ -53,14 +53,15 @@ def joiner(words: list[str]) -> str:
   return ' '.join(words)
 ```
 
-To **specify internal list types** you need to `import` the `List` type from the `typing` library.
+To **specify internal list types** you need to `import` the `List` type `from` the `typing` library.
 ```python
-from typing 
+from typing import List
 def joiner(words: List[str]) -> str:
   return ' '.join(words)
 ```
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDA4MTI2NywtNTY0MjQ3MjldfQ==
+eyJoaXN0b3J5IjpbMTIwNzg5OTE2NCwtNTY0MjQ3MjldfQ==
 -->
