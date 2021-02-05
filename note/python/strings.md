@@ -9,9 +9,9 @@ You can **remove a character from a python script** using the `strip` function. 
 'hello there\n'.strip('\n') # => 'hello there'
 ```
 
-
+If you want to **remove trailing characters at the end of a string** use the `rstrip` method. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2MzU4Nzg4XX0=
+eyJoaXN0b3J5IjpbMTEwMjU3MTk3NF19
 -->
