@@ -18,9 +18,9 @@ You can **force load the latest version of an asset** by adding the `@latest` ta
 https://cdn.jsdelivr.net/gh/<GITHUB_USERNAME>/<PROJECT_NAME>@latest/<DIRECTORY_PATH>/<FILE_NAME>.js
 ```
 
-
+You can **automatically minify a loaded file** by adding `.min` after the file name between `.js`. This is load a minified version of a file if one exists, *otherwise* it will create a minifi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzQ0NTgzNywtMjI3NTkwNTAxXX0=
+eyJoaXN0b3J5IjpbLTk3OTU3NDM0MSwtMjI3NTkwNTAxXX0=
 -->
