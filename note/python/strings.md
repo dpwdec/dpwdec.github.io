@@ -18,8 +18,9 @@ my_string = f"Get some value from {my_dict['dict_key']} for this string"
 
 You can **replace an N number of occurrences of a substring within a string** by using a third argument slot in the `replace` method to indicate how many instances you want replaced.
 ```python
-"There
+x = "There once was a fox from foxton who was in love with a fox."
+x.replace("fox", "badger", 2)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU1MTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTU5ODE1NTQ0XX0=
 -->
