@@ -11,7 +11,7 @@ You can **remove a character from a python script** using the `strip` function. 
 
 If you want to **remove trailing characters at the end of a string** use the `rstrip` method. 
 
-
+You **must use single quotes `''` inside an `f` string** if you want to specify string types inside of it.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjU3MTk3NF19
+eyJoaXN0b3J5IjpbMTg4ODA0ODc2OF19
 -->
