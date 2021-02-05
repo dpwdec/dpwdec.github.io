@@ -29,6 +29,8 @@ x, y, *_ = xs
 print(x) # => 1
 print(y) # => 2
 ```
+
+You can **destructure a list in reverse** taking the "init" and "
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MzMyNjQ4OV19
+eyJoaXN0b3J5IjpbMzAwNDExMDMyLDEwNzMzMjY0ODldfQ==
 -->
