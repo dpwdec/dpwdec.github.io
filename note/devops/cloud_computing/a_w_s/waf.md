@@ -8,7 +8,10 @@ AWS WAF stands for **Web Application Firewall** and is used to control how HTTP(
 
 - Cloudfront Distributions
 - API Gateways
-- Application Load Bla
+- Application Load Balancers
+- Amazon GraphQL API
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxMjQwNzkzLC0yODM5ODkwNDhdfQ==
+eyJoaXN0b3J5IjpbMjE0MjkxNDAxOSwtMjgzOTg5MDQ4XX0=
 -->
