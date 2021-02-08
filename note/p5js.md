@@ -13,7 +13,7 @@ The simplest way to **embed a p5 sketch file in another web page** is it simply 
 <script src="mySkethch.js"></script>
 ```
 
-
+You can **add a sketch to a div on a page** to more easily position it, using the `p5` constructor with the element that the sketch should appear in as an argument. The sketch will 
 
 You can also embed some html page with a sketch in via iFrame
 
@@ -31,6 +31,6 @@ You can **get the value inside a slider** using the `value()` function which sho
 mySlider.value(); // => 50
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDUyNTk3MiwtMTA1MTY2OTk1MywtMT
+eyJoaXN0b3J5IjpbMTM0NDkxNjYzMSwtMTA1MTY2OTk1MywtMT
 Y5Njk5NzM5MiwxNTI0MTk3MzkxLC02MDAwNzExNTZdfQ==
 -->
