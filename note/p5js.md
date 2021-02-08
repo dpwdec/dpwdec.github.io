@@ -44,22 +44,15 @@ let sketch = function(p) {
 
 This solution is ok, but it can get messy with multiple containers and multiple sketches that clash and cause issues. It also means version controlling sketch code in an awkward and verbose format.
 
-Another easy way to **embed processing sketches on web pages AND control their positioning** is to use an `<iframe>` element which loads the original simple page from the first processing embedding example but *inside* an iframe so its position is controllable.
+Another easy way to **embed processing sketches on web pages AND control their positioning** is to use an `<iframe>` element which loads the original simple page from the first processing embedding example but *inside* an iframe so its position is controllable.  The `height` and `width` of the `<iframe>` should be set to match 
 ```html
 <body>
-  <iframe srcdoc="
+  <iframe width="600" height="600" frameBorder="0" srcdoc="
     <head>
       <script src='cdn.p5.js'></script>
       <script src='cdn.sketch.js'></script>
     </head>">
   </iframe>
-
-<iframe srcdoc="<html>
-  <body>
-    <h1>This is my page</h1>
-  </body>
-<html>"></iframe>
-
 </body>
 ```
 
@@ -77,6 +70,6 @@ You can **get the value inside a slider** using the `value()` function which sho
 mySlider.value(); // => 50
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzkwNTI1NSwtMTA1MTY2OTk1MywtMT
-Y5Njk5NzM5MiwxNTI0MTk3MzkxLC02MDAwNzExNTZdfQ==
+eyJoaXN0b3J5IjpbOTQ3MzI0NDIsLTEwNTE2Njk5NTMsLTE2OT
+Y5OTczOTIsMTUyNDE5NzM5MSwtNjAwMDcxMTU2XX0=
 -->
