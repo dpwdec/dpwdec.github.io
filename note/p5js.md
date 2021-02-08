@@ -21,7 +21,25 @@ You can **add a sketch to a div on a page** to more easily position it, using th
 </head>
 <body>
   <div id="container"></div>
+  <script>
+    new p5(sketch, 'container')
+  </script>
 </body>
+```
+
+The corresponding sketch file would then be in the format.
+```js
+let sketch = function(p) {
+ 
+  p.setup = function(){
+    p.createCanvas(100, 100);
+    p.background(0);
+  }
+
+  p.draw = function() {
+    
+  }
+};
 ```
 
 You can also embed some html page with a sketch in via iFrame
@@ -40,6 +58,6 @@ You can **get the value inside a slider** using the `value()` function which sho
 mySlider.value(); // => 50
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxMDAxMTA4LC0xMDUxNjY5OTUzLC0xNj
+eyJoaXN0b3J5IjpbMjM5OTY0NDYwLC0xMDUxNjY5OTUzLC0xNj
 k2OTk3MzkyLDE1MjQxOTczOTEsLTYwMDA3MTE1Nl19
 -->
