@@ -7,11 +7,15 @@ p5.js is a javascript implementation of the processing graphics library optimise
 
 ## Embedding
 
+### Direct Embedding
+
 The simplest way to **embed a p5 sketch file in another web page** is it simply list it in a `<script>` tag inside the your main `HTML` file along with the P5.js library. However, doing this **does not allow you to control where the sketch appears on your page**.
 ```html
 <script src="p5.js"></script>
 <script src="mySketch.js"></script>
 ```
+
+### Embedding with Div
 
 You can **add a sketch to a div on a page** to more easily position it, using the `p5` constructor with the element that the sketch should appear in as an argument. The sketch will also need to be written as an encapsulated function that contains an argument from which the sketch elements are created. In the example below, `mySketch` loads the sketch code and then the call in the `<script>` tag at the bottom of the page initialises the sketch inside the `div` container.
 ```html
@@ -44,7 +48,9 @@ let sketch = function(p) {
 
 This solution is ok, but it can get messy with multiple containers and multiple sketches that clash and cause issues. It also means version controlling sketch code in an awkward and verbose format.
 
-Another easy way to **embed processing sketches on web pages AND control their positioning** is to use an `<iframe>` element which loads the original simple page from the first processing embedding example but *inside* an iframe so its position is controllable.  The `height` and `width` of the `<iframe>` should be set to match 
+### Embedding with iframe
+
+Another easy way to **embed processing sketches on web pages AND control their positioning** is to use an `<iframe>` element which can just simple page from the first processing embedding example above but *inside* an iframe element, the position of which is controllable. The `height` and `width` of the `<iframe>` should be set to match the sketches di
 ```html
 <body>
   <iframe width="600" height="600" frameBorder="0" srcdoc="
@@ -70,6 +76,6 @@ You can **get the value inside a slider** using the `value()` function which sho
 mySlider.value(); // => 50
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3MzI0NDIsLTEwNTE2Njk5NTMsLTE2OT
-Y5OTczOTIsMTUyNDE5NzM5MSwtNjAwMDcxMTU2XX0=
+eyJoaXN0b3J5IjpbLTUzNTM2NTM5OSwtMTA1MTY2OTk1MywtMT
+Y5Njk5NzM5MiwxNTI0MTk3MzkxLC02MDAwNzExNTZdfQ==
 -->
