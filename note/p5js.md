@@ -50,7 +50,7 @@ This solution is ok, but it can get messy with multiple containers and multiple 
 
 ### Embedding with iframe
 
-Another easy way to **embed processing sketches on web pages AND control their positioning** is to use an `<iframe>` element which can just simple page from the first processing embedding example above but *inside* an iframe element, the position of which is controllable. The `height` and `width` of the `<iframe>` should be set to match the sketches di
+Another easy way to **embed processing sketches on web pages AND control their positioning** is to use an `<iframe>` element which can just simple page from the first processing embedding example above but *inside* an iframe element, the position of which is controllable. The `height` and `width` of the `<iframe>` should be set to match the sketches dimensions or be slightly bigger so it can be easily displayed.
 ```html
 <body>
   <iframe width="600" height="600" frameBorder="0" srcdoc="
@@ -61,6 +61,8 @@ Another easy way to **embed processing sketches on web pages AND control their p
   </iframe>
 </body>
 ```
+
+I also use the `srcdoc` property of the `<iframe>` element for the html page as loading in *extra* HTML from a remote source to an `<iframe>` is sometimes seen as a risk by browsers and blocked so you might run into issues otherwise. You *can* embed the sketch code directly i
 
 ## Dom Elements
 
@@ -76,6 +78,6 @@ You can **get the value inside a slider** using the `value()` function which sho
 mySlider.value(); // => 50
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTM2NTM5OSwtMTA1MTY2OTk1MywtMT
-Y5Njk5NzM5MiwxNTI0MTk3MzkxLC02MDAwNzExNTZdfQ==
+eyJoaXN0b3J5IjpbLTE0NzMxMTM5OTAsLTEwNTE2Njk5NTMsLT
+E2OTY5OTczOTIsMTUyNDE5NzM5MSwtNjAwMDcxMTU2XX0=
 -->
