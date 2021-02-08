@@ -5,7 +5,7 @@ exclude: true
 ---
 p5.js is a javascript implementation of the processing graphics library optimised to run in the browser. 
 
-The p5.js implementation also contains support for creating a manipulating DOM elements and virtually anything you can do to a webopage
+The p5.js implementation also contains support for creating a manipulating DOM elements and virtually anything you can do to a webpage in vanilla javascript you can also do inside a p5.js sketch.
 
 ## Embedding
 
@@ -64,7 +64,7 @@ Another easy way to **embed processing sketches on web pages AND control their p
 </body>
 ```
 
-I also use the `srcdoc` property of the `<iframe>` element for the html page as loading in *extra* HTML from a remote source to an `<iframe>` is sometimes seen as a risk by browsers and blocked so you might run into issues otherwise. You *can* embed the sketch code directly into the `srcdoc` as well, but I prefer to load the sketch code and p5.js library from a CDN, such as jsdelivr.
+I also use the `srcdoc` property of the `<iframe>` element for the html page as loading in *extra* HTML from a remote source to an `<iframe>` is sometimes seen as a risk by browsers and blocked so you might run into issues otherwise. You *can* embed the sketch code directly into the `srcdoc` as well, but I prefer to load the sketch code and p5.js library from a CDN, such as jsdelivr. This allows you to source control your sketch code in a separate project and maintain a separation of concerns while easily updating page content.
 
 ## Dom Elements
 
@@ -80,6 +80,6 @@ You can **get the value inside a slider** using the `value()` function which sho
 mySlider.value(); // => 50
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ2MTcwOTEwLC0xMDUxNjY5OTUzLC0xNj
-k2OTk3MzkyLDE1MjQxOTczOTEsLTYwMDA3MTE1Nl19
+eyJoaXN0b3J5IjpbLTEwNjc3NjkxMjEsLTEwNTE2Njk5NTMsLT
+E2OTY5OTczOTIsMTUyNDE5NzM5MSwtNjAwMDcxMTU2XX0=
 -->
