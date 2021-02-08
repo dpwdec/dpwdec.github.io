@@ -49,7 +49,8 @@ Another easy way to **embed processing sketches on web pages AND control their p
 <body>
   <iframe srcdoc="
     <head>
-    
+      <script src='cdn.p5.js'></script>
+      <script src='cdn.sketch.js'></script>
     </head>">
   </iframe>
 
@@ -76,6 +77,6 @@ You can **get the value inside a slider** using the `value()` function which sho
 mySlider.value(); // => 50
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxOTQ3OTQxMCwtMTA1MTY2OTk1MywtMT
+eyJoaXN0b3J5IjpbMTkxNzkwNTI1NSwtMTA1MTY2OTk1MywtMT
 Y5Njk5NzM5MiwxNTI0MTk3MzkxLC02MDAwNzExNTZdfQ==
 -->
