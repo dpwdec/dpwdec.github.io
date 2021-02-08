@@ -47,11 +47,18 @@ This solution is ok, but it can get messy with multiple containers and multiple 
 Another easy way to **embed processing sketches on web pages AND control their positioning** is to use an `<iframe>` element which loads the original simple page from the first processing embedding example but *inside* an iframe so its position is controllable.
 ```html
 <body>
-  <iframe srcdoc="<head>
-    <script src='p5.js'></script>
-    <script src='mySketch.js'></script>
+  <iframe srcdoc="
+    <head>
+    
     </head>">
   </iframe>
+
+<iframe srcdoc="<html>
+  <body>
+    <h1>This is my page</h1>
+  </body>
+<html>"></iframe>
+
 </body>
 ```
 
@@ -69,6 +76,6 @@ You can **get the value inside a slider** using the `value()` function which sho
 mySlider.value(); // => 50
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0Njg5MzgwOCwtMTA1MTY2OTk1MywtMT
+eyJoaXN0b3J5IjpbMTkxOTQ3OTQxMCwtMTA1MTY2OTk1MywtMT
 Y5Njk5NzM5MiwxNTI0MTk3MzkxLC02MDAwNzExNTZdfQ==
 -->
