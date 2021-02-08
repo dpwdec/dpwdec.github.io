@@ -12,7 +12,12 @@ The simplest way to **embed a p5 sketch file in another web page** is it simply 
 <script src="mySketch.js"></script>
 ```
 
-## 
+## Parenting
+
+You can **embed elements created in p5 to HTML elements on the page** using the `parent` function which takes the `id` of a container element on the page as its argument. This solution is ok, but it can get messy with multiple containers and multiple sketches that clash and cause issues.
+```js
+
+```
 
 ## Embedding with Div
 
@@ -64,5 +69,5 @@ Another easy way to **embed processing sketches on web pages AND control their p
 I also use the `srcdoc` property of the `<iframe>` element for the html page as loading in *extra* HTML from a remote source to an `<iframe>` is sometimes seen as a risk by browsers and blocked so you might run into issues otherwise. You *can* embed the sketch code directly into the `srcdoc` as well, but I prefer to load the sketch code and p5.js library from a CDN, such as jsdelivr. This allows you to source control your sketch code in a separate project and maintain a separation of concerns while easily updating page content.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTYzNDg1OF19
+eyJoaXN0b3J5IjpbLTE2MTYwNjMyNTZdfQ==
 -->
