@@ -4,7 +4,11 @@ exclude: true
 title: WAF
 ---
 
-AWS WAF stands for **application firewall**.
+AWS WAF stands for **Web Application Firewall** and is used to control how HTTP(S) requests to:
+
+- Cloudfront Distributions
+- API Gateways
+- Application Load Bla
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjE0ODcxNiwtMjgzOTg5MDQ4XX0=
+eyJoaXN0b3J5IjpbMzgxMjQwNzkzLC0yODM5ODkwNDhdfQ==
 -->
