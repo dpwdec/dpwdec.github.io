@@ -27,7 +27,7 @@ You can **add a sketch to a div on a page** to more easily position it, using th
 </body>
 ```
 
-The corresponding sketch file would then be in the format as below with the `p` argument to the `sketch` function
+The corresponding sketch file would then be in the format as below with the `p` argument to the `sketch` function containing the processing specific functions.
 ```js
 let sketch = function(p) {
  
@@ -41,6 +41,10 @@ let sketch = function(p) {
   }
 };
 ```
+
+This solution is ok, but it can get messy with multiple containers and multiple sketches that clash and cause issues. It also means version controlling sketch code in an awkward and verbose format.
+
+Another easy way to **embed processing sketches on web pages AND control their positioning**
 
 You can also embed some html page with a sketch in via iFrame
 
@@ -58,6 +62,6 @@ You can **get the value inside a slider** using the `value()` function which sho
 mySlider.value(); // => 50
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzkyNDU2OTAsLTEwNTE2Njk5NTMsLT
+eyJoaXN0b3J5IjpbLTEyOTk3ODg2NzAsLTEwNTE2Njk5NTMsLT
 E2OTY5OTczOTIsMTUyNDE5NzM5MSwtNjAwMDcxMTU2XX0=
 -->
