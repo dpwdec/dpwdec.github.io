@@ -13,7 +13,7 @@ AWS WAF stands for **Web Application Firewall** and is used to control how HTTP(
 
 You can **view and configure amazon's web application firewall service** by going to the `Amazon Firewall Manager` dashboard.
 
-WAFs are defined using WAF Web ACLs (Web  Control Lists) and can limit requests based on:
+WAFs are defined using "WAF Web ACLs" (Web  Control Lists) and can limit requests based on (but not limited to):
 
 - Scripts in requests
 - IP Address ranges
@@ -24,6 +24,6 @@ WAFs are defined using WAF Web ACLs (Web  Control Lists) and can limit requests 
 
 You can **create a WAF ACL rule that lets ALL traffic in** by using the `0.0.0.0/32` specifier for range of IP addresses that the WAF should allow.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTcwNTQ3NSwxMDczNTk5NDY3LC0yOD
-M5ODkwNDhdfQ==
+eyJoaXN0b3J5IjpbLTE2MDA4NDM5MTMsMTA3MzU5OTQ2NywtMj
+gzOTg5MDQ4XX0=
 -->
