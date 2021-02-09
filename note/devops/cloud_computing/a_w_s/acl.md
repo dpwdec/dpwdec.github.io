@@ -4,7 +4,7 @@ exclude: true
 title: ACL
 ---
 
-ACL s
+ACL stands for **access control list** and is used to control who can access properties
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NTczMjY2XX0=
+eyJoaXN0b3J5IjpbMTk1NTgzMDIwNV19
 -->
