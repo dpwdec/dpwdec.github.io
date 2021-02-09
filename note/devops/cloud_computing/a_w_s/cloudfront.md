@@ -59,11 +59,12 @@ You can use **Origin Access Identity** to **give cloudfront access to the conten
 5. Select `Yes, Update Bucket Policy` to update access to the S3 origin with this user.
 6. Click `Yes, Edit`
 
+Origin Access Identity 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2NjM0MDIyLDEwODY5NjY2NDgsLTIxMj
-gxMTg5ODgsLTE3ODM5MTIzODcsMTYyMTg5MDY3MywxMTU5NDk4
-MTQwXX0=
+eyJoaXN0b3J5IjpbLTI4MDQ0NDYwLDIzNjYzNDAyMiwxMDg2OT
+Y2NjQ4LC0yMTI4MTE4OTg4LC0xNzgzOTEyMzg3LDE2MjE4OTA2
+NzMsMTE1OTQ5ODE0MF19
 -->
