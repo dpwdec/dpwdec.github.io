@@ -26,7 +26,7 @@ $ git reset <file>
 
 You can **show current remotes on a project** by using the `show origin` command.
 ```bash
-$ git remote show originhuntr
+$ git remote show origin
 ```
 
 ## Rebasing
@@ -68,7 +68,7 @@ $ git rm -r --cached <path/to/folder>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDEyNDM1NCwtNjgyNjU5NzgwLDE1NT
-E5MjA5NDEsLTE2MDA1MzMyNDcsLTgxODE1Mjg1MywtMjA2MzU5
-ODY2Nl19
+eyJoaXN0b3J5IjpbNjQ5NTQyMzAxLC0xNzQxMjQzNTQsLTY4Mj
+Y1OTc4MCwxNTUxOTIwOTQxLC0xNjAwNTMzMjQ3LC04MTgxNTI4
+NTMsLTIwNjM1OTg2NjZdfQ==
 -->
