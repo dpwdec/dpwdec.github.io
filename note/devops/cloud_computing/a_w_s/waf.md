@@ -20,10 +20,10 @@ WAFs are defined using Web ACLs (Web  Control Lists) and can limit requests base
 - Geographical locations
 - Requests length (such as query strings)
 
-These Web ACLs are different from the ACLs that are used to configure 
+*These Web ACLs are different from the ACLs that are used to configure S3 buckets!*
 
 You can **create a WAF ACL rule that lets ALL traffic in** by using the `0.0.0.0/32` specifier for range of IP addresses that the WAF should allow.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0MDExNzU5LDEwNzM1OTk0NjcsLTI4Mz
-k4OTA0OF19
+eyJoaXN0b3J5IjpbMTc0NDc1MzQzMywxMDczNTk5NDY3LC0yOD
+M5ODkwNDhdfQ==
 -->
