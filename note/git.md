@@ -29,7 +29,15 @@ You can **show current remotes on a project** by using the `show origin` command
 $ git remote show origin
 ```
 
-You can **remove a git remote** using the `rm` command
+You can **add a git remote** using the `add` command followed by the name of the remote and then a link to the repo that the remote should point to.
+```bash
+$ git remote add 
+```
+
+You can **remove a git remote** using the `rm` command followed by the name of the remote.
+```bash
+$ git remote rm <REMOTE_NAME>
+```
 
 ## Rebasing
 You can **merge the current version of the master branch into another branch** by checking out your branch then using the `pull` command with `origin master`. This known as *rebasing* your branch with the project.
@@ -70,7 +78,7 @@ $ git rm -r --cached <path/to/folder>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODExODI0NCw2NDk1NDIzMDEsLTE3ND
-EyNDM1NCwtNjgyNjU5NzgwLDE1NTE5MjA5NDEsLTE2MDA1MzMy
-NDcsLTgxODE1Mjg1MywtMjA2MzU5ODY2Nl19
+eyJoaXN0b3J5IjpbLTgyNDE1NzM1LDY0OTU0MjMwMSwtMTc0MT
+I0MzU0LC02ODI2NTk3ODAsMTU1MTkyMDk0MSwtMTYwMDUzMzI0
+NywtODE4MTUyODUzLC0yMDYzNTk4NjY2XX0=
 -->
