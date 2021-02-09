@@ -31,7 +31,7 @@ $ git remote show origin
 
 You can **add a git remote** using the `add` command followed by the name of the remote and then a link to the repo that the remote should point to.
 ```bash
-$ git remote add 
+$ git remote add <REMOTE_NAME> <LINK_TO_REMOTE>
 ```
 
 You can **remove a git remote** using the `rm` command followed by the name of the remote.
@@ -78,7 +78,7 @@ $ git rm -r --cached <path/to/folder>
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDE1NzM1LDY0OTU0MjMwMSwtMTc0MT
+eyJoaXN0b3J5IjpbNzA0OTY0MjI2LDY0OTU0MjMwMSwtMTc0MT
 I0MzU0LC02ODI2NTk3ODAsMTU1MTkyMDk0MSwtMTYwMDUzMzI0
 NywtODE4MTUyODUzLC0yMDYzNTk4NjY2XX0=
 -->
