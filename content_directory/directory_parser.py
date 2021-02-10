@@ -2,6 +2,9 @@
 import subprocess, json
 from typing import List
 
+# configuration kwargs for subprocess
+sp_config = { "shell": True, "capture_output": True }
+
 # recursively join file word lists that contain single character acronyms
 # folders must have acronyms separated by underscores, For example:
 # To get the output "API" the corresponding directory is called "a_p_i"
@@ -33,11 +36,11 @@ def parse_directory(node: dict, path: str) -> str:
     else:
         # gather meta data from file about its title
         command = f"cat {path.replace('/', '', 1) + node['name']} | grep title: | head | sed 's/title: //'"
-        page_title = subprocess.run(command, capture_output=True, shell=True).stdout.decode('utf-8').split('\n')
+        page_title = subprocess.run(command, **sp_config).stdout.decode('utf-8').split('\n')
         return f"<l><a href='{path + node['name'].replace('.md', '')}'>{page_title}</a></l><br>"
 
 # generate file structure JSON using tree command
-file_structure = json.loads(subprocess.run("tree -J", capture_output=True, shell=True).stdout)
+file_structure = json.loads(subprocess.run("tree -J", **sp_config).stdout)
 
 # parse content file nodes recursively into HTML
 parsed_nodes = ''.join(
@@ -56,7 +59,7 @@ with open("_pages/notes.md", "w") as directory_index:
     directory_index.write(content)
 
 # TODO: Update to edit file in place with bash script
-tidy_content = subprocess.run("html-beautify _pages/notes.md", capture_output=True, shell=True).stdout.decode('utf-8')
+tidy_content = subprocess.run("html-beautify _pages/notes.md", **sp_config).stdout.decode('utf-8')
 
 with open("_pages/notes.md", "w") as directory_index:
     directory_index.write(tidy_content)
