@@ -20,9 +20,10 @@ If `shell` is set to `False` then the command should simply name another program
 
 If you want to **get output from the command that is run** and **store this output into a value that can be used by the python script that called this process** set the `capture_output` argument to `True`. This captures the `stdout` and `stderr` from the executing command which can be referenced from the object that the command returns. This is returned in the form of a byte string that needs to be `decode`d into some value - usually a string using `utf-8`.
 ```python
-subprocess.run("echo Hello World", shell=True, capture_output=True).stdo
+message = subprocess.run("echo Hello World", shell=True, capture_output=True).stdout.decode('utf-8')
+print(message) # => "Hello World"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODI5OTI1M119
+eyJoaXN0b3J5IjpbMTYwOTE3MDEyMF19
 -->
