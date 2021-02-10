@@ -18,8 +18,8 @@ subprocess.run("echo Hello World", shell=True)
 
 If `shell` is set to `False` then the command should simply name another program to execute.
 
-If you want to capture the output 
+If you want to **get output from the command that is run** and **store this output into a value that can be used by the python script that called this process** set the `capture_output` argument to `True`. This captures the `stdout` and `stderr` from th
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTYzNDg3NV19
+eyJoaXN0b3J5IjpbMTk0MTc5MzY1N119
 -->
