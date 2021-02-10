@@ -11,7 +11,7 @@ To **start using subprocess** you need to import the `subprocess` dependency. Th
 import subprocess
 ```
 
-
+You can **execute a command** by using the `run` method on `subprocess` and a string that contains 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzc5Mjg5MjRdfQ==
+eyJoaXN0b3J5IjpbLTE5MTUyODQ1NDVdfQ==
 -->
