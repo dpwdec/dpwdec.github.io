@@ -75,12 +75,12 @@ CMD ["sh", "my_script.sh"] # json form
 
 ## ENV
 
-You can **set environment variables that persist in the container environment** by using the `ENV` command. There are a number of rules for what is valid as environment variables which can be found in the main docs.
+You can **set environment variables that persist in the container environment** by using the `ENV` command. There are a number of rules for what is valid as environment variables which can be found in the [main docs](https://docs.docker.com/engine/reference/builder/#env) for `ENV`.
 ```docker
-
+ENV MY_VAR="Some variable data"
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTM2MjE5ODIsMTg0Nzc4NDg0MCwtMT
-M2ODYwODU0NF19
+eyJoaXN0b3J5IjpbLTcwNTQwNzQ4OCwxODQ3Nzg0ODQwLC0xMz
+Y4NjA4NTQ0XX0=
 -->
