@@ -52,7 +52,7 @@ $ docker build .
 
 After each step of docker build **produces an intermediate docker image** that is then removed before the next step is ready to run.
 
-You can **give a docker image a name at the same as building it** by using the `-t` or `--tag` flags.
+You can **give a docker image a name at the same as building it** by using the `-t` or `--tag` flags. The following would create an image called `my_image` in the images list.
 ```bash
 $ docker build . -t my_image 
 ```
@@ -199,6 +199,6 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDEzNjU5OSwtMjIzNTAyMjUwLC0xNz
-cwODY1Mjk5LC05MDYwNDIxNjNdfQ==
+eyJoaXN0b3J5IjpbOTY4OTQxMjg3LC0yMjM1MDIyNTAsLTE3Nz
+A4NjUyOTksLTkwNjA0MjE2M119
 -->
