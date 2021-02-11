@@ -81,7 +81,6 @@ You can **expose ports on your docker container** so that it can listen for exte
 EXPOSE 8080
 ```
 
-
 You can **run a command when your docker image starts** by using the `CMD` directive. There can **only be one** of these in a `Dockerfile`. This command only runs once the docker image actually starts, where as the `RUN` command is committed to the image as it builds. `CMD` can be written using `shell` form *or* `json` form.
 ```docker
 CMD sh my_script.sh        # shell form
@@ -242,7 +241,7 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzIyNDczNywtMTM1Mzg5ODE2Miw3Nj
+eyJoaXN0b3J5IjpbLTkwNjA0MjE2MywtMTM1Mzg5ODE2Miw3Nj
 YxMTM1NTUsNTIzOTAyOTE3LC05NzU3OTI1OTQsMTg5NTY4NTY3
 MCwxMjAzOTM4NjA4LC0xMTg3NzE2MDc1LC0yMTA0NTkzNjMzLD
 k1MDE3ODY4OSwtMTk2ODg5ODYwNSwtMTMwMzQzMjYxNywtMTIx
