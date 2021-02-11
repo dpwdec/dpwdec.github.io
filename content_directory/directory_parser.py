@@ -36,7 +36,7 @@ def parse_directory(node: dict, path: str) -> str:
     else:
         # gather meta data from file about its title
         command = f"cat {path.replace('/', '', 1) + node['name']} | grep title: | head | sed 's/title: //'"
-        page_title = subprocess.run(command, **sp_config).stdout.decode('utf-8').split('\n')
+        page_title = subprocess.run(command, **sp_config).stdout.decode('utf-8').strip('\n')
         return f"<l><a href='{path + node['name'].replace('.md', '')}'>{page_title}</a></l><br>"
 
 # generate file structure JSON using tree command
