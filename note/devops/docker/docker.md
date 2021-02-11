@@ -52,6 +52,8 @@ $ docker build .
 
 After each step of docker build **produces an intermediate docker image** that is then removed before the next step is ready to run.
 
+You can **give a docker image a name at the same as bui**
+
 ## Images
 
 You can **show a list of images on your system** using the `images` command.
@@ -194,6 +196,6 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzUwMjI1MCwtMTc3MDg2NTI5OSwtOT
-A2MDQyMTYzXX0=
+eyJoaXN0b3J5IjpbMjA3MDcyNDg3NCwtMjIzNTAyMjUwLC0xNz
+cwODY1Mjk5LC05MDYwNDIxNjNdfQ==
 -->
