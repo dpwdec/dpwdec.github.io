@@ -196,6 +196,8 @@ You can **map ports on a local machine to ports on a docker container** using th
 $ docker container run -p 1234:8080 <CONATINER_NAME>
 ```
 
+The `-p` flag overrides `EXPORT` commands defined in the docker file as well.
+
 You can **show the output of scripts that are run in docker** by calling them from a bash script. In the example below the `Dockerfile` would use `CMD [ "sh", "script.sh" ]` which uses the `node` command to call a script, the `console.log` commands of which will show their output.
 ```bash
 #!/bin/bash
@@ -241,5 +243,5 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjA0MjE2M119
+eyJoaXN0b3J5IjpbNjIxNzY0MTEzLC05MDYwNDIxNjNdfQ==
 -->
