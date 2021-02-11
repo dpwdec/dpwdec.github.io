@@ -24,10 +24,8 @@ RUN apt-get install -y python3
 You can **add metadata to your docker image** by using the `LABEL` directive.
 ```docker
 LABEL version="1.0"
-```
 LABEL description="This text illustrates \
 that label-values can span multiple lines."
-
 ```
 
 The `MAINTAINER` directive has been **deprecated**. However if you can **add meta to your dockerfile** using the `LABEL` directive which takes a key-value pair assigned with an `=`.
@@ -72,5 +70,5 @@ CMD ["sh", "my_script.sh"] # json form
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDM2Mzg1NF19
+eyJoaXN0b3J5IjpbLTEzNjg2MDg1NDRdfQ==
 -->
