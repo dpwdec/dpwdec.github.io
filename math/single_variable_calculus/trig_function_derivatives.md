@@ -43,7 +43,7 @@ The left hand expression evaluates to \\( sin(x) \cdot 0 \\) which equals \\( 0 
 
 \\[ \lim_{x \to 0} \frac{d}{dx} sin x = cos x \\]
 
-But **why does \\( \frac{cos(\Delta x - 1)}{\Delta x} \\) evaluate to \\( 0 \\) but \\( \frac{sin(x)}{\Delta x}) \\) evaluates to \\( 1 \\)?** Its not immediately clear as it seems like both of them just approach something like \\( \frac{0}{0} \\) which would be \\( undefined \\). The **important intuition here** is the ratios between the denominator and numerator and the rate at which \\( cos \\) and \\( sin \\) approach the respective limits in comparison to \\( \Delta x \\).
+But **why does \\( \frac{cos(\Delta x - 1)}{\Delta x} \\) evaluate to \\( 0 \\) but \\( \frac{sin(\Delta x)}{\Delta x}) \\) evaluates to \\( 1 \\)?** Its not immediately clear as it seems like both of them just approach something like \\( \frac{0}{0} \\) which would be \\( undefined \\). The **important intuition here** is the ratios between the denominator and numerator and the rate at which \\( cos \\) and \\( sin \\) approach the respective limits in comparison to \\( \Delta x \\).
 
 In the \\( sin \\) case, both \\( sin(\Delta x) \\) and \\( \Delta x \\) approach zero at the same rate even at very small amounts. For example, \\( sin(0.005) \approx 0.0049999 \\) and \\( \frac{0.0049999}{0.005} \approx 1 \\) there this part of the expression approximates \\( 1 \\) as the \\( \lim_{\Delta x \to 0} \\) but *never* for the actual case of \\( 0 \\).
 
@@ -68,5 +68,18 @@ In the \\( cos \\) case, \\( \frac{cos(\Delta x - 1)}{\Delta x} \\) and \\( \Del
   <body>
     <div id='cos_ratio'></div>
     <script src='https://cdn.jsdelivr.net/gh/dpwdec/sketch_visualisations/cos_ratio/cos_ratio.js'></script>
+  </body>
+</html>"></iframe>
+
+We can also leverage a visual interpretation of the \\( sin(\Delta x) \\) to see why dividing by \\( \Delta x \\) evaluates to \\( 1 \\). In the example below \\( \theta \\) represents the arc length of the circle in radians which, if we view its change as \\( \Delta x \\) has the same relationship with \\( sin(\theta ) \\) as \\( \frac{sin(\Delta x)}{\Delta x} \\). From the visualisation below, we can see that as \\( \theta \\) reaches very small values the line representing \\( sin(\theta) \\) overlaps the arc *almost* exactly and becomes almost equal to it. And, dividing to things that are *almost* equal, *almost* equals \\( 1 \\). With limits we can simply evaluate this to \\( 1 \\).
+
+<iframe frameBorder="0" height="500" width="500" srcdoc="<html>
+  <head>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js'></script>
+  </head>
+  <body>
+    <div id='cos_ratio'></div>
+    <script src='https://cdn.jsdelivr.net/gh/dpwdec/sketch_visualisations/sine_ratio/sine_ratio_geometry.js'></script>
   </body>
 </html>"></iframe>
