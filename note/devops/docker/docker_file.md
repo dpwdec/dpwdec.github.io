@@ -23,6 +23,10 @@ RUN apt-get install -y python3
 
 You can **add metadata to your docker image** by using the `LABEL` directive.
 ```docker
+LABEL version="1.0"
+```
+LABEL description="This text illustrates \
+that label-values can span multiple lines."
 
 ```
 
@@ -68,5 +72,5 @@ CMD ["sh", "my_script.sh"] # json form
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzA2NDE5OV19
+eyJoaXN0b3J5IjpbLTU4MDM2Mzg1NF19
 -->
