@@ -61,6 +61,8 @@ You can **expose ports on your docker container** so that it can listen for exte
 EXPOSE 8080
 ```
 
+The intention of `EXPOSE` is more as documentation for the user of the image to show them which ports this docker image will output data from.
+
 ## CMD
 
 You can **run a command when your docker image starts** by using the `CMD` directive. There can **only be one** of these in a `Dockerfile`. This command only runs once the docker image actually starts, where as the `RUN` command is committed to the image as it builds. `CMD` can be written using `shell` form *or* `json` form.
@@ -70,5 +72,5 @@ CMD ["sh", "my_script.sh"] # json form
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg2MDg1NDRdfQ==
+eyJoaXN0b3J5IjpbODkzMDk4MTI2LC0xMzY4NjA4NTQ0XX0=
 -->
