@@ -38,55 +38,6 @@ You can see a **non truncated docker `IMAGE ID`** using the `--no-trunc` flag on
 $ docker images --no-trunc
 ```
 
-
-## Dockerfile
-
-The `Dockerfile` allows you **to define a blueprint for an image**. Capatilization of docker directives like `FROM` and `RUN` is **not mandatory** however it is **best practice**.
-
-You can **base your docker image on an existing docker image** using the `FROM` command followed by the name of the image (this can be as it appears on services like dockerhub).
-```docker
-FROM <IMAGE_NAME>
-```
-
-You can **customise your image** by using the `RUN` command to execute a command in the environment that the image is based on. In the example below the dockerfile starts from the ubuntu environment and installs python.
-```docker
-FROM ubuntu
-RUN apt-get install -y python3
-```
-
-The `MAINTAINER` directive has been **deprecated**. However if you can **add meta to your dockerfile** using the `LABEL` directive which takes a key-value pair assigned with an `=`.
-```docker
-LABEL maintainer="my_name@some-website.com"
-```
-
-You can use the **copy files from an external source to your docker container** using the `COPY` directive. This takes the file source on the machine building the image followed by the destination *inside* the targeted container image.
-```docker
-COPY my/local/file.txt some/container/directory
-```
-
-You can **set a working directory inside a container** using the `WORKDIR` command. This takes a path as an argument which subsequent `RUN`, `COPY`, `CMD` etc. commands will run from. If the directory specified doesn't exist it in the container it will be created.
-```docker
-WORKDIR /usr/my/working/directory
-```
-
-You can **call the `WORKDIR` command multiple times**, each time it will create the new working directory *relative* to the last call. The example below outputs the working directory `/usr/working/directory/`.
-```docker
-WORKDIR /usr
-WORKDIR working
-WORKDIR directory
-```
-
-You can **expose ports on your docker container** so that it can listen for external traffic using the `EXPOSE` directive.
-```docker
-EXPOSE 8080
-```
-
-You can **run a command when your docker image starts** by using the `CMD` directive. There can **only be one** of these in a `Dockerfile`. This command only runs once the docker image actually starts, where as the `RUN` command is committed to the image as it builds. `CMD` can be written using `shell` form *or* `json` form.
-```docker
-CMD sh my_script.sh        # shell form
-CMD ["sh", "my_script.sh"] # json form
-```
-
 ### Building
 
 You can **build an image from your `Dockerfile`** using the `build` command. You can **pass this any filename** which contains valid docker instructions.
@@ -243,5 +194,6 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA4NjUyOTksLTkwNjA0MjE2M119
+eyJoaXN0b3J5IjpbLTIyMzUwMjI1MCwtMTc3MDg2NTI5OSwtOT
+A2MDQyMTYzXX0=
 -->
