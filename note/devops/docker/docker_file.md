@@ -40,6 +40,8 @@ You can use the **copy files from an external source to your docker container** 
 COPY my/local/file.txt some/container/directory
 ```
 
+`COPY` will not copy the `Dockerfile` into the image.
+
 ## Workdir
 
 You can **set a working directory inside a container** using the `WORKDIR` command. This takes a path as an argument which subsequent `RUN`, `COPY`, `CMD` etc. commands will run from. If the directory specified doesn't exist it in the container it will be created.
@@ -72,5 +74,6 @@ CMD ["sh", "my_script.sh"] # json form
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0Nzc4NDg0MCwtMTM2ODYwODU0NF19
+eyJoaXN0b3J5IjpbMTkxMTUxNDA5MiwxODQ3Nzg0ODQwLC0xMz
+Y4NjA4NTQ0XX0=
 -->
