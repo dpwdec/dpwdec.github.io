@@ -80,7 +80,9 @@ You can **set environment variables that persist in the container environment** 
 ENV MY_VAR="Some variable data"
 ```
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTU0OTg4OCwxODQ3Nzg0ODQwLC0xMz
-Y4NjA4NTQ0XX0=
+eyJoaXN0b3J5IjpbODA3NTc4MTQwLDE4NDc3ODQ4NDAsLTEzNj
+g2MDg1NDRdfQ==
 -->
