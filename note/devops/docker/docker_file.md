@@ -61,7 +61,7 @@ You can **expose ports on your docker container** so that it can listen for exte
 EXPOSE 8080
 ```
 
-The intention of `EXPOSE` is more as documentation for the user of the image to show them which ports this docker image will output data from.
+The intention of `EXPOSE` is as documentation for the user of the image to show them which ports this docker image will output data from. It is the system that starts a container based on this image that will have to link one of its internal ports to the port on the container to listen for information.
 
 ## CMD
 
@@ -72,5 +72,5 @@ CMD ["sh", "my_script.sh"] # json form
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzMDk4MTI2LC0xMzY4NjA4NTQ0XX0=
+eyJoaXN0b3J5IjpbMTg0Nzc4NDg0MCwtMTM2ODYwODU0NF19
 -->
