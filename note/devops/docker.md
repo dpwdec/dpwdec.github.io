@@ -81,7 +81,10 @@ You can **expose ports on your docker container** so that it can listen for exte
 EXPOSE 8080
 ```
 
-You can **run a command when your docker image starts** by using the `CMD` directive. There can **only be one** of these in a `Dockerfile`. 
+You can **run a command when your docker image starts** by using the `CMD` directive. There can **only be one** of these in a `Dockerfile`. This command only runs once the docker image actually starts, where as the `RUN` command is committed to the image as it builds.
+```docker
+
+```
 
 ### Building
 
@@ -237,11 +240,11 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY2MTEzNTU1LDUyMzkwMjkxNywtOTc1Nz
-kyNTk0LDE4OTU2ODU2NzAsMTIwMzkzODYwOCwtMTE4NzcxNjA3
-NSwtMjEwNDU5MzYzMyw5NTAxNzg2ODksLTE5Njg4OTg2MDUsLT
-EzMDM0MzI2MTcsLTEyMTAyNTg0NywyMTk4MTM4NjYsOTQ2MTcy
-NzA1LDE3NzkzMDg3NDIsMjA3MTYxODk5OCwtODU0NjA2Nzg1LC
-0yMDgzODE2Mjk5LDE0OTI4MzMxMCw0MTU2NzI5MjAsOTk4Njcx
-NDMyXX0=
+eyJoaXN0b3J5IjpbLTEzNTM4OTgxNjIsNzY2MTEzNTU1LDUyMz
+kwMjkxNywtOTc1NzkyNTk0LDE4OTU2ODU2NzAsMTIwMzkzODYw
+OCwtMTE4NzcxNjA3NSwtMjEwNDU5MzYzMyw5NTAxNzg2ODksLT
+E5Njg4OTg2MDUsLTEzMDM0MzI2MTcsLTEyMTAyNTg0NywyMTk4
+MTM4NjYsOTQ2MTcyNzA1LDE3NzkzMDg3NDIsMjA3MTYxODk5OC
+wtODU0NjA2Nzg1LC0yMDgzODE2Mjk5LDE0OTI4MzMxMCw0MTU2
+NzI5MjBdfQ==
 -->
