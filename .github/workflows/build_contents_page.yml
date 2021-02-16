@@ -15,13 +15,10 @@ jobs:
         with:
           python-version: '3.x'
       
-      - name: print directory structure
-        run: ls -a
-      
-      - name: incrememnt counter test
+      - name: parser directory structure
         run: python3 content_directory/directory_parser.py
       
-      - name: update text file
+      - name: update contents page
         uses: test-room-7/action-update-file@v1
         with:
           file-path: _pages/notes.md
