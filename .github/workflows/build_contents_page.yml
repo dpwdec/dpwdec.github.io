@@ -18,9 +18,9 @@ jobs:
       - name: incrememnt counter test
         run: python3 updater.py
       
-      # - name: update text file
-      #   uses: test-room-7/action-update-file@v1
-      #   with:
-      #     file-path: ./update.txt
-      #     commit-msg: increment counter
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: update text file
+        uses: test-room-7/action-update-file@v1
+        with:
+          file-path: ./update.txt
+          commit-msg: increment counter
+          github-token: ${{ secrets.GITHUB_TOKEN }}
