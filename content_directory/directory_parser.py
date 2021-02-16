@@ -63,3 +63,5 @@ tidy_content = subprocess.run("html-beautify _pages/notes.md", **sp_config).stdo
 
 with open("_pages/notes.md", "w") as directory_index:
     directory_index.write(tidy_content)
+
+print("Parsed directory complete")
