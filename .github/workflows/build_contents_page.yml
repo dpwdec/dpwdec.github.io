@@ -15,6 +15,9 @@ jobs:
         with:
           python-version: '3.x'
       
+      - name: print directory structure
+        run: ls -a
+      
       - name: incrememnt counter test
         run: | 
           python3 content_parser_copy.py
