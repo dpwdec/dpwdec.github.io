@@ -16,7 +16,10 @@ The **sum formula for cosine**:
 
 The **difference formula for cosine**:
 
-\\[ cos(x - y) = cos(x)cos(y) + sin(x)sin(y) \\]
+\\[ cos(x -0 y) = cos(x)cos(y) + sin(x)sin(y) \\]
 
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTUxNjI5MjU1N119
+-->
