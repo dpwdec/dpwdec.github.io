@@ -19,8 +19,7 @@ jobs:
         run: ls -a
       
       - name: incrememnt counter test
-        run: | 
-          python3 content_parser_copy.py
+        run: python3 content_directory/directory_parser.py
       
       - name: update text file
         uses: test-room-7/action-update-file@v1
