@@ -16,7 +16,8 @@ jobs:
           python-version: '3.x'
       
       - name: incrememnt counter test
-        run: python3 content_directory/content_parser.py
+        working-directory: content_directory
+        run: python3 content_parser.py
       
       - name: update text file
         uses: test-room-7/action-update-file@v1
