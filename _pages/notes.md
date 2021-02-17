@@ -117,9 +117,16 @@ title: Notes index
         <l><a href='/note/discord'>Discord</a></l><br>
         <l><a href='/note/discord_js'>Discord.js</a></l><br>
         <l><a href='/note/dmd'>dmd</a></l><br>
-        <l><a href='/note/flask'>Flask</a></l><br>
-        <l><a href='/note/func_prog'>Functional Programming</a></l><br>
-        <l><a href='/note/git'>Git</a></l><br>
+        <l><a href='/note/flask'>Flask</a></l><br><br>
+        <l>Functional Programming</l>
+        <ul>
+            <l><a href='/note/functional_programming/func_prog'>Functional Programming</a></l><br>
+        </ul><br>
+        <l>Git</l>
+        <ul>
+            <l><a href='/note/git/diff'>Git Diff</a></l><br>
+            <l><a href='/note/git/git'>Git</a></l><br>
+        </ul>
         <l><a href='/note/gmail'>Gmail</a></l><br><br>
         <l>Haskell</l>
         <ul>
