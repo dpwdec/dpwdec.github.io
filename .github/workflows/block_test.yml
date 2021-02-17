@@ -7,6 +7,8 @@ jobs:
       result: ${{ steps.set_return.outputs.result }}
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
       - name: make a result
         id: set_return
         run: echo "::set-output name=result::true"
@@ -18,4 +20,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: do again
-        run: echo "Hello"
+        run: ls -a
