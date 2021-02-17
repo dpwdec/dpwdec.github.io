@@ -23,6 +23,7 @@ title: Notes index
     </ul><br>
     <l>Note</l>
     <ul>
+        <l><a href='/note/actions'>Github Actions</a></l><br>
         <l><a href='/note/actix'>Actix Web</a></l><br><br>
         <l>Ansible</l>
         <ul>
@@ -124,7 +125,6 @@ title: Notes index
         </ul><br>
         <l>Git</l>
         <ul>
-            <l><a href='/note/git/actions'>Github Actions</a></l><br>
             <l><a href='/note/git/diff'>Git Diff</a></l><br>
             <l><a href='/note/git/git'>Git</a></l><br>
         </ul>
