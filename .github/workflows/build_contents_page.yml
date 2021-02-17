@@ -4,7 +4,7 @@ on: [push]
   # - cron: "* * * * *"
 jobs:
   resources:
-    name: update resources
+    name: update contents page from directory structure
     runs-on: ubuntu-latest
     steps:
       - name: checkout
