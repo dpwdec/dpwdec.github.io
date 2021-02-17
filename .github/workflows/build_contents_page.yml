@@ -15,7 +15,13 @@ jobs:
         with:
           python-version: '3.x'
       
-      - name: parser directory structure
+      - name: install node
+        uses: actions/setup-node@v1
+
+      - name: install HTML beautify
+        run: npm i -g js-beautify
+      
+      - name: parse directory structure
         run: python3 content_directory/directory_parser.py
       
       - name: update contents page

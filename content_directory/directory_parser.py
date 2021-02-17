@@ -48,12 +48,8 @@ parsed_nodes = ''.join(
     for node in file_structure[0]['contents'] 
     if match_directory(node['name']))
 
-print(f"parsed nodes {parsed_nodes}")
-
 # open notes page template file
 base = open("content_directory/directory_base.md").read()
-
-print(f"base is {base}")
 
 # append HTML to template stub
 content = base + f"<ul>{parsed_nodes}</ul>"
