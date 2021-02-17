@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: make a result
         id: set_return
-        run: echo "::set-output name=run_job::true"
+        run: echo "::set-output name=result::true"
   
   do_something:
     name: do something if true
