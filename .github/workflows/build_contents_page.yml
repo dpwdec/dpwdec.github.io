@@ -3,6 +3,14 @@ on: [push]
   # schedule:
   # - cron: "* * * * *"
 jobs:
+  ds_change:
+    name: check if directory structure changed
+    outputs:
+      ds_updated: ${{ steps.set_updated.outputs.ds_updated }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
   resources:
     name: update contents page from directory structure
     runs-on: ubuntu-latest
