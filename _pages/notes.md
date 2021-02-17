@@ -124,6 +124,7 @@ title: Notes index
         </ul><br>
         <l>Git</l>
         <ul>
+            <l><a href='/note/git/actions'>Github Actions</a></l><br>
             <l><a href='/note/git/diff'>Git Diff</a></l><br>
             <l><a href='/note/git/git'>Git</a></l><br>
         </ul>
