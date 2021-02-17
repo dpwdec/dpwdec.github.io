@@ -1,4 +1,4 @@
-change = `git diff --name-only --diff-filter=RAD HEAD^ HEAD`
+change=`git diff --name-only --diff-filter=RAD HEAD^ HEAD`
 if [ -z $change ]; then
     echo "hello"
 else
