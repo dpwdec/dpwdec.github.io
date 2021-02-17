@@ -11,13 +11,15 @@ jobs:
     steps:
       - name: checkout code
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
       # - name: take diff of directory structure from previous commit
 
       - name: check if directory changed
         id: set_updated
         run: |
-          # change=`git diff --name-only --diff-filter=RAD HEAD^ HEAD`
-          change=`git diff --name-only --diff-filter=RAD origin/master^ HEAD`
+          change=`git diff --name-only --diff-filter=RAD HEAD^ HEAD`
+          # change=`git diff --name-only --diff-filter=RAD origin/master^ HEAD`
           if [ -z $change ]; then
             echo "::set-output name=ds_updated::false"
           else
