@@ -4,7 +4,7 @@ jobs:
   check:
     name: make a check
     outputs:
-      result: ${{ steps.set_return.outputs.return_value }}
+      result: ${{ steps.set_return.outputs.result }}
     runs-on: ubuntu-latest
     steps:
       - name: make a result
