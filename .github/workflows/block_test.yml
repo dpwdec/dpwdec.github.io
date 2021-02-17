@@ -1,0 +1,21 @@
+name: block_teste
+on: [push]
+jobs:
+  check:
+    name: make a check
+    outputs:
+      result: ${{ steps.set_return.outputs.return_value }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: make a result
+        id: set_return
+        run: echo "::set-output name=run_job::true"
+  
+  do_something:
+    name: do something if true
+    needs: check
+    if: needs.check.outputs.result == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: do again
+        run: echo "Hello"
