@@ -9,10 +9,22 @@ jobs:
       ds_updated: ${{ steps.set_updated.outputs.ds_updated }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: checkout code
         uses: actions/checkout@v2
-  resources:
+      - name: check if directory changed
+        id: set_updated
+        run: |
+          change=`git diff --name-only --diff-filter=RAD HEAD^ HEAD`
+          if [ -z $change ]; then
+            echo "::set-output name=ds_updated::false"
+          else
+            echo "::set-output name=ds_updated::true"
+          fi
+
+  update_contents_page:
     name: update contents page from directory structure
+    needs: ds_change
+    if: needs.ds_change.outputs.ds_updated == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: checkout
