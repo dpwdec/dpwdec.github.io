@@ -127,7 +127,8 @@ title: Notes index
         <ul>
             <l><a href='/note/git/diff'>Git Diff</a></l><br>
             <l><a href='/note/git/git'>Git</a></l><br>
-        </ul>
+        </ul<a href='/note/func_prog'>Functional Programming</a></l><br>
+        <l><a href='/note/git'>Git</a></l><br>
         <l><a href='/note/gmail'>Gmail</a></l><br><br>
         <l>Haskell</l>
         <ul>
@@ -779,5 +780,5 @@ ql</a></l><br><l><a href='"/note/sSql_aAlchemy'">SQLql Alchemy
 </a></l><br><l><a href='"/note/rust/Types'">Types
 </a></l><br></ul></ul></ul>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTI5MDU3NTNdfQ==
+eyJoaXN0b3J5IjpbMTU4MDg0ODM4NiwtMTE5MjkwNTc1M119
 -->
