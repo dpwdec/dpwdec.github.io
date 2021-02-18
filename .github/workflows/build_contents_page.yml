@@ -1,7 +1,7 @@
 name: build_contents_page
 on:
   schedule:
-  - cron: "* * * * *"
+  - cron: "* 4 * * *"
 jobs:
   update_contents_page:
     name: update contents page from directory structure
