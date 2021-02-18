@@ -56,7 +56,7 @@ WORKDIR working
 WORKDIR directory
 ```
 
-If the 
+If the **directory does not already exist** then `WORKDIR` will **create a new directory** on the images file system.
 
 ## Expose
 
@@ -85,6 +85,6 @@ ENV MY_VAR="Some variable data"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTgxNDM4MCw4MDc1NzgxNDAsMTg0Nz
+eyJoaXN0b3J5IjpbMTg0NjczNDI5Miw4MDc1NzgxNDAsMTg0Nz
 c4NDg0MCwtMTM2ODYwODU0NF19
 -->
