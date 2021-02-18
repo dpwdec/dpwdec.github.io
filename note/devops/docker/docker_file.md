@@ -56,6 +56,8 @@ WORKDIR working
 WORKDIR directory
 ```
 
+If the 
+
 ## Expose
 
 You can **expose ports on your docker container** so that it can listen for external traffic using the `EXPOSE` directive.
@@ -83,6 +85,6 @@ ENV MY_VAR="Some variable data"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3NTc4MTQwLDE4NDc3ODQ4NDAsLTEzNj
-g2MDg1NDRdfQ==
+eyJoaXN0b3J5IjpbMTQ2OTgxNDM4MCw4MDc1NzgxNDAsMTg0Nz
+c4NDg0MCwtMTM2ODYwODU0NF19
 -->
