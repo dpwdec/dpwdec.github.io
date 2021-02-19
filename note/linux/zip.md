@@ -25,8 +25,17 @@ $ > /project
 $ zip -r out/code.zip src
 ```
 
+Then the structure of the zip would show the `src` folder inside the root of the `.zip` file followed by the content that was zipped.
+```
+code.zip
+└── src
+	├── my_file
+    └── another_file
+```
+
+However, if you `cd` *into* the `src` folder and then run the `zip` command... The root of the `.zip` file will exclude the containing folder.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwNzg4ODU5LDEyNDkxODM4OCwtMTYxND
-EzNzE4OF19
+eyJoaXN0b3J5IjpbLTE2ODkzNzQyOTEsMTI0OTE4Mzg4LC0xNj
+E0MTM3MTg4XX0=
 -->
