@@ -10,8 +10,8 @@ When a DNS service contains a link to another DNS service this is known as a **m
 
 DNS services run on port 53 of whatever IP address they point to. Does DNSMasq work by acting as the server on the local host and then forwarding requests when an nslookup is called?
 
-On linux machines `resolv.conf` also factors into this 
+On linux machines `resolv.conf` also factors into this in some way?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxNDUzMDEyLDQ5MjMyNzcyLC0xODc2NT
-MwNjQ5LC0xODE2NjgzNTgsLTE4MTY2ODM1OF19
+eyJoaXN0b3J5IjpbLTE2MTUwMDMzMyw0OTIzMjc3MiwtMTg3Nj
+UzMDY0OSwtMTgxNjY4MzU4LC0xODE2NjgzNThdfQ==
 -->
