@@ -42,8 +42,13 @@ $ zip -r ../out/code.zip .
 ```
 
 The root of the `.zip` file will exclude the containing folder.
+```
+code.zip
+├── my_file
+└── another_file
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDYyNDM1LDEyNDkxODM4OCwtMTYxND
+eyJoaXN0b3J5IjpbNjUwMTY0NTY0LDEyNDkxODM4OCwtMTYxND
 EzNzE4OF19
 -->
