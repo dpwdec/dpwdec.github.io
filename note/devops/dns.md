@@ -7,7 +7,9 @@ exclude: true
 DNS or **Domain Name System** is a service that holds IP address records for domains. You can query a DNS service with a human readable domain name path and it will return the IP address of that the calling service can then route to.
 
 When a DNS service contains a link to another DNS service this is known as a **merged** set of DNS records. For example, we might have service `A` that holds DNS records for a range of IPs on the domain `foo.com` and entry to `bar.com` which links to an upstream server `B` which holds records for a range of IPs on `bar.com`. We then have an application which needs information about `bar.com` IPs but can only send requests to service `A`. In this case `A` will propagate the request for the application upstream to service `B` which has all the records for `bar.com` and then return them down the chain to the application.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyMzI3NzIsLTE4NzY1MzA2NDksLTE4MT
-Y2ODM1OCwtMTgxNjY4MzU4XX0=
+eyJoaXN0b3J5IjpbLTEyMjA1OTkyMDAsNDkyMzI3NzIsLTE4Nz
+Y1MzA2NDksLTE4MTY2ODM1OCwtMTgxNjY4MzU4XX0=
 -->
