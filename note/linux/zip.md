@@ -18,8 +18,15 @@ project
     └── another_file
 ```
 
-If yo
+If you run the following commanding to `zip` at the top level of the `project` pointing to `src` and outputting to `out`...
+```bash
+$ pwd
+$ > /project
+$ zip -r out/code.zip src
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5MDE5MTgsMTI0OTE4Mzg4LC0xNjE0MT
-M3MTg4XX0=
+eyJoaXN0b3J5IjpbNTMwNzg4ODU5LDEyNDkxODM4OCwtMTYxND
+EzNzE4OF19
 -->
