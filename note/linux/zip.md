@@ -9,8 +9,10 @@ You can **`zip` everything in a folder structure recursively** by using the `-r`
 $ zip -r place/to/zip/file.zip source/of/content
 ```
 
+If you want to **zip match the root **
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTE4Mzg4LC0xNjE0MTM3MTg4XX0=
+eyJoaXN0b3J5IjpbLTc0MDk2OTQ5OCwxMjQ5MTgzODgsLTE2MT
+QxMzcxODhdfQ==
 -->
