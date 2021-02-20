@@ -6,7 +6,11 @@ exclude: true
 
 ## Checkout
 
-By default 
+You can **checkout a**
+```yaml
+- name: checkout code
+  uses: actions/checkout@v2
+```
 
 ## Scheduled Jobs
 
@@ -14,6 +18,6 @@ Scheduled jobs are **not guaranteed to run** *or* **guaranteed to run on time**.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTM2OTM5MDYsLTE4MDAwMTA2NzJdfQ
+eyJoaXN0b3J5IjpbLTIwMjkyMDU3NTgsLTE4MDAwMTA2NzJdfQ
 ==
 -->
