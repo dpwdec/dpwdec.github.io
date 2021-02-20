@@ -6,7 +6,7 @@ exclude: true
 
 ## Checkout
 
-
+By default 
 
 ## Scheduled Jobs
 
@@ -14,5 +14,6 @@ Scheduled jobs are **not guaranteed to run** *or* **guaranteed to run on time**.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2MzkzNzY0LC0xODAwMDEwNjcyXX0=
+eyJoaXN0b3J5IjpbLTEwNTM2OTM5MDYsLTE4MDAwMTA2NzJdfQ
+==
 -->
