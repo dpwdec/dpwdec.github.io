@@ -6,7 +6,7 @@ exclude: true
 
 ## Checkout
 
-You can **checkout a**
+You can **checkout the repos code upon which your code is running** using the `checkout` action.
 ```yaml
 - name: checkout code
   uses: actions/checkout@v2
@@ -18,6 +18,5 @@ Scheduled jobs are **not guaranteed to run** *or* **guaranteed to run on time**.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjkyMDU3NTgsLTE4MDAwMTA2NzJdfQ
-==
+eyJoaXN0b3J5IjpbMjEwMDU2NjU1MywtMTgwMDAxMDY3Ml19
 -->
