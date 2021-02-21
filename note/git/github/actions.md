@@ -31,7 +31,7 @@ You can use the `HEAD` tag in a github actions job to **point to the current com
 git diff origin/master^ HEAD
 ```
 
-This is also the method used to **diff pull reque
+This is also the method used to **diff pull requests with the master branch** of a project, by comparing `HEAD` and `origin/master^`.
 
 ## Scheduled Jobs
 
@@ -39,6 +39,6 @@ Scheduled jobs are **not guaranteed to run** *or* **guaranteed to run on time**.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDY0NDY0MzAsLTExMzA4MDI0NjcsMT
-M5MzQ2NjgzOSwyMTAwNTY2NTUzLC0xODAwMDEwNjcyXX0=
+eyJoaXN0b3J5IjpbLTc5OTE2NDU3MywtMTEzMDgwMjQ2NywxMz
+kzNDY2ODM5LDIxMDA1NjY1NTMsLTE4MDAwMTA2NzJdfQ==
 -->
