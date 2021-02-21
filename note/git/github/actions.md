@@ -6,7 +6,7 @@ exclude: true
 
 ## Checkout
 
-You can **checkout the repos code upon which your code is running** using the `checkout` action.
+You can **checkout the code from the repo on which your github action CI job is running** using the `checkout` action. This adds the repos content to the containerized file system that is running the CI job. You can call subsequent actions on the code *as if* you were in the root of that file system. The `checkout` action downloads the code in a 
 ```yaml
 - name: checkout code
   uses: actions/checkout@v2
@@ -18,5 +18,6 @@ Scheduled jobs are **not guaranteed to run** *or* **guaranteed to run on time**.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDU2NjU1MywtMTgwMDAxMDY3Ml19
+eyJoaXN0b3J5IjpbLTE2MzkzNTE1NTIsMjEwMDU2NjU1MywtMT
+gwMDAxMDY3Ml19
 -->
