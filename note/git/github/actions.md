@@ -12,7 +12,11 @@ You can **checkout the code from the repo on which your github action CI job is 
   uses: actions/checkout@v2
 ```
 
-You can **include previous commit history in your checkout** by using the `fetch-depth` property on `checkout`. This defaults to `1`, hence the 
+You can **include previous commit history in your checkout** by using the `fetch-depth` property on `checkout`. This defaults to `1`, hence the detached head behavior observed above. If set it `0` it will **checkout ALL commits for all branches**. For example, if you wanted to checkout the current commit and the previous commit - to `git diff` them - you would use a `fetch-depth` of `2`.
+```yaml
+- name: checkout code
+  uses: actions/checkout@v2
+```
 
 ## Scheduled Jobs
 
@@ -20,6 +24,6 @@ Scheduled jobs are **not guaranteed to run** *or* **guaranteed to run on time**.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjM4NTU0NiwxMzkzNDY2ODM5LDIxMD
+eyJoaXN0b3J5IjpbLTIwNjY5MDcyNiwxMzkzNDY2ODM5LDIxMD
 A1NjY1NTMsLTE4MDAwMTA2NzJdfQ==
 -->
