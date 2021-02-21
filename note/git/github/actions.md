@@ -26,12 +26,19 @@ You can **include previous commit history in your checkout** by using the `fetch
 
 You can use the `HEAD` tag in a github actions job to **point to the current commit** that the CI is running on.
 
+*However* you cannot use the `HEAD^` relative tag to point to the previous commit in the branch *even* with a fetch depth greater than 1. Instead you should use the `origin/master^` tag to point to the previous commits on the master branch.
+```bash
+git diff origin/master^ HEAD
+```
+
+This is also the method used to **diff pull reque
+
 ## Scheduled Jobs
 
 Scheduled jobs are **not guaranteed to run** *or* **guaranteed to run on time**. When a scheduled job is called a request is made to Github actions machines for the job to run and is run once a node is free. This can vary the time from 3-10 minutes but it can be as long as an hour and can sometimes not be run at all if the lag time is long enough. More information [here](https://upptime.js.org/blog/2021/01/22/github-actions-schedule-not-working/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA4MDI0NjcsMTM5MzQ2NjgzOSwyMT
-AwNTY2NTUzLC0xODAwMDEwNjcyXX0=
+eyJoaXN0b3J5IjpbLTE3NDY0NDY0MzAsLTExMzA4MDI0NjcsMT
+M5MzQ2NjgzOSwyMTAwNTY2NTUzLC0xODAwMDEwNjcyXX0=
 -->
