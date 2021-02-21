@@ -22,12 +22,16 @@ You can **include previous commit history in your checkout** by using the `fetch
     fetch-depth: 2
 ```
 
+## Commit Tags
+
+You can use the `HEAD` tag in a github actions job to **point to the current commit** that the CI is running on.
+
 ## Scheduled Jobs
 
 Scheduled jobs are **not guaranteed to run** *or* **guaranteed to run on time**. When a scheduled job is called a request is made to Github actions machines for the job to run and is run once a node is free. This can vary the time from 3-10 minutes but it can be as long as an hour and can sometimes not be run at all if the lag time is long enough. More information [here](https://upptime.js.org/blog/2021/01/22/github-actions-schedule-not-working/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjI2ODAzMCwxMzkzNDY2ODM5LDIxMD
-A1NjY1NTMsLTE4MDAwMTA2NzJdfQ==
+eyJoaXN0b3J5IjpbLTExMzA4MDI0NjcsMTM5MzQ2NjgzOSwyMT
+AwNTY2NTUzLC0xODAwMDEwNjcyXX0=
 -->
