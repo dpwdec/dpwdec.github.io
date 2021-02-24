@@ -19,13 +19,14 @@ You can **show just the names of the file that changed** when calling running a 
 $ git diff --name-only HEAD^ HEAD
 ```
 
-You can **limit the type of changes that get displayed by the diff** using the `diff-filter` flag followed by a string of letters that indicate different actions. For example, the `diff` query below will only pick up diffs between the commits for files that are *added* to the project.
+You can **limit the type of changes that get displayed by the diff** using the `diff-filter` flag followed by a string of letters that indicate different actions. For example, the `diff` query below will only pick up diffs between the commits for files that are *added* `A` or *deleted* `D` to the project.
 ```bash
-$ git diff --diff-filter=A HEAD^ HEAD
+$ git diff --diff-filter=AD HEAD^ HEAD
 ```
 
+You can **diff files that are moved** by using the `R` filter for *rename*. Git count
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzMjIyNDUsLTMzNjcyNjc1OSwtMjIwNz
-A0M119
+eyJoaXN0b3J5IjpbOTEwNTIwMTA3LC0zMzY3MjY3NTksLTIyMD
+cwNDNdfQ==
 -->
