@@ -35,7 +35,7 @@ This is also the method used to **diff pull requests with the master branch** of
 
 ## Scheduled Jobs
 
-You can **run a CI job on a periodic schedule** by using the `schedule` tag with `on` and then `cron` tag followed by a valid cron string. The example below 
+You can **run a CI job on a periodic schedule** by using the `schedule` tag with `on` and then `cron` tag followed by a valid cron string. The example below will trigger this job at `23:59` everyday.
 ```yaml
 on:
   schedule:
@@ -44,9 +44,11 @@ on:
 
 Scheduled jobs are **not guaranteed to run** *or* **guaranteed to run on time**. When a scheduled job is called a request is made to Github actions machines for the job to run and is run once a node is free. This can vary the time from 3-10 minutes but it can be as long as an hour and can sometimes not be run at all if the lag time is long enough. More information [here](https://upptime.js.org/blog/2021/01/22/github-actions-schedule-not-working/).
 
+## Update files
 
+You can update files that are modified during a CI job using the `test-room-7/action-update-file@v1` action.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTE4NTExMSwxNjU4OTU3NDUxLC03OT
-kxNjQ1NzMsLTExMzA4MDI0NjcsMTM5MzQ2NjgzOSwyMTAwNTY2
-NTUzLC0xODAwMDEwNjcyXX0=
+eyJoaXN0b3J5IjpbLTE3NzIzMzU5MzUsMTc1MTE4NTExMSwxNj
+U4OTU3NDUxLC03OTkxNjQ1NzMsLTExMzA4MDI0NjcsMTM5MzQ2
+NjgzOSwyMTAwNTY2NTUzLC0xODAwMDEwNjcyXX0=
 -->
