@@ -18,6 +18,8 @@ You can **show just the names of the file that changed** when calling running a 
 ```bash
 $ git diff --name-only HEAD^ HEAD
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDcwNDNdfQ==
+eyJoaXN0b3J5IjpbLTMzNjcyNjc1OSwtMjIwNzA0M119
 -->
