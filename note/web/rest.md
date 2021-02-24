@@ -20,7 +20,7 @@ The **REST** specification states that **when returning a `201` created status**
 
 ## HATEOAS
 
-**HATEOES** stands for **Hypermedia as the Engine of Application State** and describes a REST architecture where a client requests information about a resource and then uses the response from the server to actions that are returned about the resource. Therefore the client needs no knowledge of the API beforehand to interact with it but can **use hypermedia links in the response** to find actions to take against the resource. The **actions available that can be taken by client on a resource change depending on the state of the resource**. For example, we could have an API that returns account information.
+**HATEOAS** stands for **Hypermedia as the Engine of Application State** and describes a REST architecture where a client requests information about a resource and then uses the response from the server to actions that are returned about the resource. Therefore the client needs no knowledge of the API beforehand to interact with it but can **use hypermedia links in the response** to find actions to take against the resource. The **actions available that can be taken by client on a resource change depending on the state of the resource**. For example, we could have an API that returns account information.
 ```
 GET service.com/accounts/12345
 ```
@@ -60,5 +60,5 @@ However if the account is overdrawn then the state of the links returned by the 
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjAzMDI4M119
+eyJoaXN0b3J5IjpbOTYwMDg2ODQxLC02MzYwMzAyODNdfQ==
 -->
