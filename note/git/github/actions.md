@@ -55,8 +55,16 @@ You can update files that are modified during a CI job using the `test-room-7/ac
     commit-msg: Update file.txt
     github-token: ${{ secrets.GITHUB_TOKEN }}
 ```
+
+You can **update multiple files** by using the multi-line yaml block with the `|` indicator.
+```yaml
+file-path: |
+  path/to/file_1.txt
+  path/to/file_2.txt
+  path/to/file_3.txt
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1ODE4OTExLDE3NTExODUxMTEsMTY1OD
-k1NzQ1MSwtNzk5MTY0NTczLC0xMTMwODAyNDY3LDEzOTM0NjY4
-MzksMjEwMDU2NjU1MywtMTgwMDAxMDY3Ml19
+eyJoaXN0b3J5IjpbLTkzMjIwMDI0NCwxNzUxMTg1MTExLDE2NT
+g5NTc0NTEsLTc5OTE2NDU3MywtMTEzMDgwMjQ2NywxMzkzNDY2
+ODM5LDIxMDA1NjY1NTMsLTE4MDAwMTA2NzJdfQ==
 -->
