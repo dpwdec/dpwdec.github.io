@@ -35,7 +35,7 @@ This is also the method used to **diff pull requests with the master branch** of
 
 ## Scheduled Jobs
 
-You can **run a CI job on a periodic schedule** by using the `schedule` tag with `on` and then `cron` tag followed by a valid cron string. The example below
+You can **run a CI job on a periodic schedule** by using the `schedule` tag with `on` and then `cron` tag followed by a valid cron string. The example below 
 ```yaml
 on:
   schedule:
@@ -46,7 +46,7 @@ Scheduled jobs are **not guaranteed to run** *or* **guaranteed to run on time**.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODk1NzQ1MSwtNzk5MTY0NTczLC0xMT
-MwODAyNDY3LDEzOTM0NjY4MzksMjEwMDU2NjU1MywtMTgwMDAx
-MDY3Ml19
+eyJoaXN0b3J5IjpbMTc1MTE4NTExMSwxNjU4OTU3NDUxLC03OT
+kxNjQ1NzMsLTExMzA4MDI0NjcsMTM5MzQ2NjgzOSwyMTAwNTY2
+NTUzLC0xODAwMDEwNjcyXX0=
 -->
