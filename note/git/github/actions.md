@@ -35,18 +35,18 @@ This is also the method used to **diff pull requests with the master branch** of
 
 ## Scheduled Jobs
 
-You can **run a CI job on a periodic schedule** by using the `schedule` tag with `on` and then `cron` tag followed by a valid cron string.
+You can **run a CI job on a periodic schedule** by using the `schedule` tag with `on` and then `cron` tag followed by a valid cron string. The example below
 ```yaml
 on:
   schedule:
-  - cron: ""
+  - cron: "59 23 * * *"
 ```
 
 Scheduled jobs are **not guaranteed to run** *or* **guaranteed to run on time**. When a scheduled job is called a request is made to Github actions machines for the job to run and is run once a node is free. This can vary the time from 3-10 minutes but it can be as long as an hour and can sometimes not be run at all if the lag time is long enough. More information [here](https://upptime.js.org/blog/2021/01/22/github-actions-schedule-not-working/).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTAwNzE4NiwtNzk5MTY0NTczLC0xMT
+eyJoaXN0b3J5IjpbMTY1ODk1NzQ1MSwtNzk5MTY0NTczLC0xMT
 MwODAyNDY3LDEzOTM0NjY4MzksMjEwMDU2NjU1MywtMTgwMDAx
 MDY3Ml19
 -->
