@@ -46,9 +46,12 @@ Scheduled jobs are **not guaranteed to run** *or* **guaranteed to run on time**.
 
 ## Update files
 
-You can update files that are modified during a CI job using the `test-room-7/action-update-file@v1` action.
+You can update files that are modified during a CI job using the `test-room-7/action-update-file@v1` action. This takes a path to the `file-path` to the file that has changed, a commit message and a `github-token` for committing that can be loaded directly from the actions environment. The changed file will then be changed on the current branch.
+```yaml
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzIzMzU5MzUsMTc1MTE4NTExMSwxNj
-U4OTU3NDUxLC03OTkxNjQ1NzMsLTExMzA4MDI0NjcsMTM5MzQ2
-NjgzOSwyMTAwNTY2NTUzLC0xODAwMDEwNjcyXX0=
+eyJoaXN0b3J5IjpbLTg3NzczMDYxNSwxNzUxMTg1MTExLDE2NT
+g5NTc0NTEsLTc5OTE2NDU3MywtMTEzMDgwMjQ2NywxMzkzNDY2
+ODM5LDIxMDA1NjY1NTMsLTE4MDAwMTA2NzJdfQ==
 -->
