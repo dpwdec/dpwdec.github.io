@@ -19,7 +19,9 @@ You can **show just the names of the file that changed** when calling running a 
 $ git diff --name-only HEAD^ HEAD
 ```
 
+You can **limit the type of changes that get displayed by the diff** using the `diff-filter`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjcyNjc1OSwtMjIwNzA0M119
+eyJoaXN0b3J5IjpbLTEyNjExOTYxMTAsLTMzNjcyNjc1OSwtMj
+IwNzA0M119
 -->
