@@ -24,9 +24,12 @@ You can **limit the type of changes that get displayed by the diff** using the `
 $ git diff --diff-filter=AD HEAD^ HEAD
 ```
 
-You can **diff files that are moved** by using the `R` filter for *rename*. Git counts files that get moved to different 
+You can **diff files that are moved** by using the `R` filter for *rename*. Git counts files that get moved to a different location in the project as *renamed* file and thus uses the `R` `diff-filter` tag.
+```bash
+$ git diff --diff-filter=R HEAD^ HEAD
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI3MzkxNDMsLTMzNjcyNjc1OSwtMj
-IwNzA0M119
+eyJoaXN0b3J5IjpbNTU3NDE0NzUyLC0xNDUyNzM5MTQzLC0zMz
+Y3MjY3NTksLTIyMDcwNDNdfQ==
 -->
