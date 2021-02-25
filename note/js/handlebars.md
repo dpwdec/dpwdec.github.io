@@ -37,7 +37,6 @@ Handlebars.registerHelper('foo', x => x.toUpperCase())
 let source = '{{foo "Belinda"}}'
 let template = Handlebars.compile(source)
 template({}) // => BELINDA
-
 ```
 
 You can **pass the result of a templated value into a helper** by space separating the arguments to the helper.
@@ -68,8 +67,8 @@ You can **ensure that a string is safe** by using the `SafeString` function.
 new Handlebars.SafeString("<div>HTML content!</div>");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTA5MzEyMzMsLTIwMjk4ODQxOTEsMz
-k0NDE0NTg1LC02OTk4MTU0NCwtNjgxODYzMjgyLDIwMDkxMTAy
-MDMsMTg5ODM4NjYwLDExNDkyODkzOCwtMzkyNDM5MjI1LDYwMD
-M0ODY5MCwtMTg1OTM2Njg4Nl19
+eyJoaXN0b3J5IjpbMTgzODI5MTEyMSwtMjAyOTg4NDE5MSwzOT
+Q0MTQ1ODUsLTY5OTgxNTQ0LC02ODE4NjMyODIsMjAwOTExMDIw
+MywxODk4Mzg2NjAsMTE0OTI4OTM4LC0zOTI0MzkyMjUsNjAwMz
+Q4NjkwLC0xODU5MzY2ODg2XX0=
 -->
