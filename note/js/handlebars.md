@@ -7,7 +7,7 @@ exclude: true
 You can **achieve basic templating with a dictionary of values in handlebars** by running a `compile` on a handlebars template and then passing a dictionary of values to fill in to the `template`.
 ```js
 const  template  = Handlebars.compile("My name is {{ name }} and my age is {{ age }}.")
-const  result  =  template({name:  "Roberto", age: 3})
+const  result  =  template({ name:  "Roberto", age: 3 })
 ```
 
 ## Values
@@ -58,7 +58,7 @@ You can **ensure that a string is safe** by using the `SafeString` function.
 new Handlebars.SafeString("<div>HTML content!</div>");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTY5MTE1NSwtNjk5ODE1NDQsLTY4MT
-g2MzI4MiwyMDA5MTEwMjAzLDE4OTgzODY2MCwxMTQ5Mjg5Mzgs
-LTM5MjQzOTIyNSw2MDAzNDg2OTAsLTE4NTkzNjY4ODZdfQ==
+eyJoaXN0b3J5IjpbODMwMDgyMTMxLC02OTk4MTU0NCwtNjgxOD
+YzMjgyLDIwMDkxMTAyMDMsMTg5ODM4NjYwLDExNDkyODkzOCwt
+MzkyNDM5MjI1LDYwMDM0ODY5MCwtMTg1OTM2Njg4Nl19
 -->
