@@ -24,7 +24,7 @@ OPTIONS /doc HTTP/1.1
 Access-Control-Request-Method: POST
 ```
 
-The server then responds with the supported methods, the allowed origins and the allowed headers.
+The server then responds with the supported methods, the allowed origins and the allowed headers. 
 ```
 HTTP/1.1 204 No Content
 Access-Control-Allow-Origin: https://foo.example
@@ -32,11 +32,13 @@ Access-Control-Allow-Methods: POST, GET, OPTIONS
 Access-Control-Allow-Headers: X-PINGOTHER, Content-Type
 ```
 
+The `Access-Control-Allow-Headers` notifies the browser what headers can be sent with the actual cross origin request.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDI1MzAxNyw0NjQzNDU1NCw4MDg2OT
-c0MjIsLTE2MDA1ODU2MDgsLTExMjcyNzg4OTJdfQ==
+eyJoaXN0b3J5IjpbMTEzMDQxNzg5OCwtODM0MjUzMDE3LDQ2ND
+M0NTU0LDgwODY5NzQyMiwtMTYwMDU4NTYwOCwtMTEyNzI3ODg5
+Ml19
 -->
