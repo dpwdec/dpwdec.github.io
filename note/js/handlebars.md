@@ -8,6 +8,7 @@ You can **achieve basic templating with a dictionary of values in handlebars** b
 ```js
 const  template  = Handlebars.compile("My name is {{ name }} and my age is {{ age }}.")
 const  result  =  template({ name:  "Roberto", age: 3 })
+// => My name is Roberto and my age is 3.
 ```
 
 ## Values
@@ -58,7 +59,7 @@ You can **ensure that a string is safe** by using the `SafeString` function.
 new Handlebars.SafeString("<div>HTML content!</div>");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwMDgyMTMxLC02OTk4MTU0NCwtNjgxOD
+eyJoaXN0b3J5IjpbMzk0NDE0NTg1LC02OTk4MTU0NCwtNjgxOD
 YzMjgyLDIwMDkxMTAyMDMsMTg5ODM4NjYwLDExNDkyODkzOCwt
 MzkyNDM5MjI1LDYwMDM0ODY5MCwtMTg1OTM2Njg4Nl19
 -->
