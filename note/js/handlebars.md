@@ -31,6 +31,12 @@ You can also **create a helper that resolves to a single value without arguments
 registerHelper('myValue', () => 0)
 ```
 
+You can **pass a value directly into a helper that takes an argument** by surrounding the argument within the handlebars template with `""` quotes.
+```js
+Handlebars.registerHelper('foo', x => x.toUpperCase())
+let source = '{{foo "Belinda"}}'
+```
+
 You can **pass the result of a templated value into a helper** by space separating the arguments to the helper.
 ```js
 Handlebars.registerHelper('foo', x => x.toUpperCase())
@@ -59,8 +65,8 @@ You can **ensure that a string is safe** by using the `SafeString` function.
 new Handlebars.SafeString("<div>HTML content!</div>");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk4ODQxOTEsMzk0NDE0NTg1LC02OT
-k4MTU0NCwtNjgxODYzMjgyLDIwMDkxMTAyMDMsMTg5ODM4NjYw
-LDExNDkyODkzOCwtMzkyNDM5MjI1LDYwMDM0ODY5MCwtMTg1OT
-M2Njg4Nl19
+eyJoaXN0b3J5IjpbOTMzMzE1MDkzLC0yMDI5ODg0MTkxLDM5ND
+QxNDU4NSwtNjk5ODE1NDQsLTY4MTg2MzI4MiwyMDA5MTEwMjAz
+LDE4OTgzODY2MCwxMTQ5Mjg5MzgsLTM5MjQzOTIyNSw2MDAzND
+g2OTAsLTE4NTkzNjY4ODZdfQ==
 -->
