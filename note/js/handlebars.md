@@ -43,7 +43,7 @@ template(data) // => 'TEMPESTUA'
 You can **nest helpers** by enclosing the helper return types that are arguments for other helpers in `()` brackets. The brackets will not be rendered.
 ```js
 Handlebars.registerHelper('foo', x => x.toUpperCase())
-Handlebars.registerHelper('bar' () => 'hello')
+Handlebars.registerHelper('bar', () => 'hello')
 let source = '{{foo (bar)}}'
 let data = {}
 let template = Handlebars.compile(source)
@@ -59,7 +59,8 @@ You can **ensure that a string is safe** by using the `SafeString` function.
 new Handlebars.SafeString("<div>HTML content!</div>");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0NDE0NTg1LC02OTk4MTU0NCwtNjgxOD
-YzMjgyLDIwMDkxMTAyMDMsMTg5ODM4NjYwLDExNDkyODkzOCwt
-MzkyNDM5MjI1LDYwMDM0ODY5MCwtMTg1OTM2Njg4Nl19
+eyJoaXN0b3J5IjpbLTIwMjk4ODQxOTEsMzk0NDE0NTg1LC02OT
+k4MTU0NCwtNjgxODYzMjgyLDIwMDkxMTAyMDMsMTg5ODM4NjYw
+LDExNDkyODkzOCwtMzkyNDM5MjI1LDYwMDM0ODY5MCwtMTg1OT
+M2Njg4Nl19
 -->
