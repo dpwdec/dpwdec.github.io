@@ -35,6 +35,9 @@ You can **pass a value directly into a helper that takes an argument** by surrou
 ```js
 Handlebars.registerHelper('foo', x => x.toUpperCase())
 let source = '{{foo "Belinda"}}'
+let template = Handlebars.compile(source)
+template({}) // => BELINDA
+
 ```
 
 You can **pass the result of a templated value into a helper** by space separating the arguments to the helper.
@@ -65,8 +68,8 @@ You can **ensure that a string is safe** by using the `SafeString` function.
 new Handlebars.SafeString("<div>HTML content!</div>");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzMzE1MDkzLC0yMDI5ODg0MTkxLDM5ND
-QxNDU4NSwtNjk5ODE1NDQsLTY4MTg2MzI4MiwyMDA5MTEwMjAz
-LDE4OTgzODY2MCwxMTQ5Mjg5MzgsLTM5MjQzOTIyNSw2MDAzND
-g2OTAsLTE4NTkzNjY4ODZdfQ==
+eyJoaXN0b3J5IjpbLTIwOTA5MzEyMzMsLTIwMjk4ODQxOTEsMz
+k0NDE0NTg1LC02OTk4MTU0NCwtNjgxODYzMjgyLDIwMDkxMTAy
+MDMsMTg5ODM4NjYwLDExNDkyODkzOCwtMzkyNDM5MjI1LDYwMD
+M0ODY5MCwtMTg1OTM2Njg4Nl19
 -->
