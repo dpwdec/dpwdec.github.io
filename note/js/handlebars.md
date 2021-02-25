@@ -4,7 +4,10 @@ layout: page
 exclude: true
 ---
 
-You can **achieve basic templating with a dictionary of values in handlebars** by running a `compile` on a handlebars template and then passing a dictionary of values to fill in to the `template`
+You can **achieve basic templating with a dictionary of values in handlebars** by running a `compile` on a handlebars template and then passing a dictionary of values to fill in to the `template`.
+```js
+
+```
 
 ## Values
 
@@ -54,7 +57,7 @@ You can **ensure that a string is safe** by using the `SafeString` function.
 new Handlebars.SafeString("<div>HTML content!</div>");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MDA4MDgyNSwtNjgxODYzMjgyLDIwMD
-kxMTAyMDMsMTg5ODM4NjYwLDExNDkyODkzOCwtMzkyNDM5MjI1
-LDYwMDM0ODY5MCwtMTg1OTM2Njg4Nl19
+eyJoaXN0b3J5IjpbLTY5OTgxNTQ0LC02ODE4NjMyODIsMjAwOT
+ExMDIwMywxODk4Mzg2NjAsMTE0OTI4OTM4LC0zOTI0MzkyMjUs
+NjAwMzQ4NjkwLC0xODU5MzY2ODg2XX0=
 -->
