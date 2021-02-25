@@ -12,7 +12,8 @@ Browsers **establish whether a real request is safe to send** by making a **pref
 
 An API can **allow ALL origins to access it** by setting the `Access-Control-Allow-Origin` header a `*`.
 ```
-
+HTTP/1.1 204 No Content
+Access-Control-Allow-Origin: *
 ```
 
 ## Preflight flow
@@ -36,6 +37,6 @@ Access-Control-Allow-Headers: X-PINGOTHER, Content-Type
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMTc4Nzc1LDQ2NDM0NTU0LDgwODY5Nz
-QyMiwtMTYwMDU4NTYwOCwtMTEyNzI3ODg5Ml19
+eyJoaXN0b3J5IjpbLTgzNDI1MzAxNyw0NjQzNDU1NCw4MDg2OT
+c0MjIsLTE2MDA1ODU2MDgsLTExMjcyNzg4OTJdfQ==
 -->
