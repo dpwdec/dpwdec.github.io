@@ -4,9 +4,11 @@ layout: page
 exclude: true
 ---
 
-CORS (**Cross Origin Resource Sharing**) is a security feature as part of browsers. It only effects APIs that are interacted with directly through a browser. Browsers use CORS to block requests to endpoints that are at a different origin from the site that is making the call unless the endpoint that is being called explicitly permits traffic by returning a response with the `Access-Control-Allow-Origin` header pointing to the calling origin.
+CORS (**Cross Origin Resource Sharing**) is a security feature as part of browsers. It only effects APIs that are interacted with directly through a browser. Browsers use CORS to block requests to endpoints that are at a different origin from the site that is making the call unless the endpoint that is being called explicitly permits traffic by returning a response with the `Access-Control-Allow-Origin` header pointing to the calling origin. Browsers will block all responses from origins that do not allow traffic from the current calling site. This acts as a security feature to protect browser users.
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0NzYzMzA2LC0xMTI3Mjc4ODkyXX0=
+eyJoaXN0b3J5IjpbLTE4MTQ3MDk4MiwtMTEyNzI3ODg5Ml19
 -->
