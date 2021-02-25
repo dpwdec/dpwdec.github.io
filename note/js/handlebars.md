@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 
-You can **achieve basic templating with a dictionary of values in handlebars** by 
+You can **achieve basic templating with a dictionary of values in handlebars** by ru
 
 ## Values
 
@@ -54,7 +54,7 @@ You can **ensure that a string is safe** by using the `SafeString` function.
 new Handlebars.SafeString("<div>HTML content!</div>");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MTg2MzI4MiwyMDA5MTEwMjAzLDE4OT
-gzODY2MCwxMTQ5Mjg5MzgsLTM5MjQzOTIyNSw2MDAzNDg2OTAs
-LTE4NTkzNjY4ODZdfQ==
+eyJoaXN0b3J5IjpbLTE5NDkxNDI4OTUsLTY4MTg2MzI4MiwyMD
+A5MTEwMjAzLDE4OTgzODY2MCwxMTQ5Mjg5MzgsLTM5MjQzOTIy
+NSw2MDAzNDg2OTAsLTE4NTkzNjY4ODZdfQ==
 -->
