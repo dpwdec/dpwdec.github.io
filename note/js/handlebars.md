@@ -4,6 +4,8 @@ layout: page
 exclude: true
 ---
 
+You can **achieve basic templating with a dictionary of values in handlebars** by 
+
 ## Values
 
 You **cannot put too templated values next to each other within the same template block**.
@@ -52,7 +54,7 @@ You can **ensure that a string is safe** by using the `SafeString` function.
 new Handlebars.SafeString("<div>HTML content!</div>");
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwOTExMDIwMywxODk4Mzg2NjAsMTE0OT
-I4OTM4LC0zOTI0MzkyMjUsNjAwMzQ4NjkwLC0xODU5MzY2ODg2
-XX0=
+eyJoaXN0b3J5IjpbLTY4MTg2MzI4MiwyMDA5MTEwMjAzLDE4OT
+gzODY2MCwxMTQ5Mjg5MzgsLTM5MjQzOTIyNSw2MDAzNDg2OTAs
+LTE4NTkzNjY4ODZdfQ==
 -->
