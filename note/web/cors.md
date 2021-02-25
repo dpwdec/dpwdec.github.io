@@ -10,6 +10,11 @@ Browsers use CORS to block requests to endpoints that are at a different origin 
 
 Browsers **establish whether a real request is safe to send** by making a **preflight request** to the endpoint with an `OPTIONS` HTTP verb that tells the browser whether or not the current origin is permitted to read information from the request server. If the current origin is permitted then the real request will be sent.
 
+An API can **allow ALL origins to access it** by setting the `Access-Control-Allow-Origin` header a `*`.
+```
+
+```
+
 ## Preflight flow
 
 The browser does this with the `OPTIONS` verb and a `Access-Control-Request-Method` property describing what sort of request it would like to make.
@@ -31,6 +36,6 @@ Access-Control-Allow-Headers: X-PINGOTHER, Content-Type
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0MzQ1NTQsODA4Njk3NDIyLC0xNjAwNT
-g1NjA4LC0xMTI3Mjc4ODkyXX0=
+eyJoaXN0b3J5IjpbMjIzMTc4Nzc1LDQ2NDM0NTU0LDgwODY5Nz
+QyMiwtMTYwMDU4NTYwOCwtMTEyNzI3ODg5Ml19
 -->
