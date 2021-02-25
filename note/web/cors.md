@@ -18,13 +18,19 @@ OPTIONS /doc HTTP/1.1
 Access-Control-Request-Method: POST
 ```
 
-The server then responds with the supported methods, the allow
+The server then responds with the supported methods, the allowed origins and the allowed headers.
+```
+HTTP/1.1 204 No Content
+Access-Control-Allow-Origin: https://foo.example
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Allow-Headers: X-PINGOTHER, Content-Type
+```
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA4Njk3NDIyLC0xNjAwNTg1NjA4LC0xMT
-I3Mjc4ODkyXX0=
+eyJoaXN0b3J5IjpbNDY0MzQ1NTQsODA4Njk3NDIyLC0xNjAwNT
+g1NjA4LC0xMTI3Mjc4ODkyXX0=
 -->
