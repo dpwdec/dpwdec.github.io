@@ -4,6 +4,8 @@ layout: page
 exclude: true
 ---
 
+The `log` command **runs on whatever branch is currently checked out**.
+
 You can **apply filters for particular types of changes** to the `log` command using the `--diff-filter` flag. The example below will only show logs for files that were added.
 ```bash
 $ git log --raw --no-merges --diff-filter=A
@@ -28,5 +30,5 @@ $ git log --raw --no-merges --since="2 day ago" --diff-filter=RAD --pretty=forma
 
 Wherever `git log --raw --no-merges` is used it can be replaced with `whatchanged`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzg0MTU3OV19
+eyJoaXN0b3J5IjpbNzI1MTg0Nzg1LDEwMzc4NDE1NzldfQ==
 -->
