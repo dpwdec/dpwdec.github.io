@@ -68,11 +68,18 @@ file-path: |
 
 You can **make a job dependent on another job** using the `needs` tag. This should specify the name of a job that should complete successfully before the current job runs.
 ```yaml
-
+jobs:
+  job_1:
+    # body of job
+  job_2:
+    needs: job_1
+    # body of job
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxOTQxNzI2LC05MzIyMDAyNDQsMTc1MT
-E4NTExMSwxNjU4OTU3NDUxLC03OTkxNjQ1NzMsLTExMzA4MDI0
-NjcsMTM5MzQ2NjgzOSwyMTAwNTY2NTUzLC0xODAwMDEwNjcyXX
-0=
+eyJoaXN0b3J5IjpbLTE5MzI4MzMyODMsLTkzMjIwMDI0NCwxNz
+UxMTg1MTExLDE2NTg5NTc0NTEsLTc5OTE2NDU3MywtMTEzMDgw
+MjQ2NywxMzkzNDY2ODM5LDIxMDA1NjY1NTMsLTE4MDAwMTA2Nz
+JdfQ==
 -->
