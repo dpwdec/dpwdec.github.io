@@ -84,10 +84,12 @@ my_job:
   - name: Job that outputs a value
     outputs:
       my_output: ${{ steps.output_value.outputs.my_output }}
+    runs_on: ubuntu-latest
+    
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk1MzQxNzgsMTAwNjA1OTk0NiwtOT
-MyMjAwMjQ0LDE3NTExODUxMTEsMTY1ODk1NzQ1MSwtNzk5MTY0
-NTczLC0xMTMwODAyNDY3LDEzOTM0NjY4MzksMjEwMDU2NjU1My
-wtMTgwMDAxMDY3Ml19
+eyJoaXN0b3J5IjpbLTg1NDUyNzM0MSwxMDA2MDU5OTQ2LC05Mz
+IyMDAyNDQsMTc1MTE4NTExMSwxNjU4OTU3NDUxLC03OTkxNjQ1
+NzMsLTExMzA4MDI0NjcsMTM5MzQ2NjgzOSwyMTAwNTY2NTUzLC
+0xODAwMDEwNjcyXX0=
 -->
