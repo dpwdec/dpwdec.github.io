@@ -64,6 +64,8 @@ file-path: |
   path/to/file_3.txt
 ```
 
+It's worth noting that if this action is **triggered by a commit / push** the actions API is intelligent enough to *not* trigger again when 
+
 ## Needs
 
 You can **make a job dependent on another job** using the `needs` tag. This should specify the name of a job that should complete successfully before the current job runs.
@@ -110,8 +112,8 @@ another_job:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTI3MzAxODcsMTAwNjA1OTk0NiwtOT
-MyMjAwMjQ0LDE3NTExODUxMTEsMTY1ODk1NzQ1MSwtNzk5MTY0
-NTczLC0xMTMwODAyNDY3LDEzOTM0NjY4MzksMjEwMDU2NjU1My
-wtMTgwMDAxMDY3Ml19
+eyJoaXN0b3J5IjpbMTE3MDgzODEwNSwtMTI1MjczMDE4NywxMD
+A2MDU5OTQ2LC05MzIyMDAyNDQsMTc1MTE4NTExMSwxNjU4OTU3
+NDUxLC03OTkxNjQ1NzMsLTExMzA4MDI0NjcsMTM5MzQ2NjgzOS
+wyMTAwNTY2NTUzLC0xODAwMDEwNjcyXX0=
 -->
