@@ -83,7 +83,7 @@ jobs:
     # body of job
   job_2:
     needs: job_1
-    if
+    if: job_1.path.to.property == 'true'
   
 ```
 
@@ -108,7 +108,7 @@ another_job:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTA0MDM0MiwxMDA2MDU5OTQ2LC05Mz
+eyJoaXN0b3J5IjpbMTE5NjE4ODI4OCwxMDA2MDU5OTQ2LC05Mz
 IyMDAyNDQsMTc1MTE4NTExMSwxNjU4OTU3NDUxLC03OTkxNjQ1
 NzMsLTExMzA4MDI0NjcsMTM5MzQ2NjgzOSwyMTAwNTY2NTUzLC
 0xODAwMDEwNjcyXX0=
