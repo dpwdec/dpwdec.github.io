@@ -78,14 +78,14 @@ jobs:
 
 ## Outputs
 
-You can **output the result of** so it can be referred to from other steps using the `id` property.
+You can **output the result of a step from a job** by using the `outputs` tag and specifying 
 ```yaml
 my_job:
   - name: Do something
     id: something_job
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDU1MjE1MywxMDA2MDU5OTQ2LC05Mz
+eyJoaXN0b3J5IjpbMTA4NjkxNzU4NCwxMDA2MDU5OTQ2LC05Mz
 IyMDAyNDQsMTc1MTE4NTExMSwxNjU4OTU3NDUxLC03OTkxNjQ1
 NzMsLTExMzA4MDI0NjcsMTM5MzQ2NjgzOSwyMTAwNTY2NTUzLC
 0xODAwMDEwNjcyXX0=
