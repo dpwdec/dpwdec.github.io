@@ -31,14 +31,14 @@ $ git diff --diff-filter=R HEAD^ HEAD
 
 ## Period diff
 
-You can **do a diff on commits between to dates** by passing the result of `rev-list` into a `diff` command. 
+You can **do a diff on commits between to dates** by passing the result of `rev-list` into a `diff` command. The command below will run a `diff` between all commits that occurred in the last day.
 ```bash
-$ git diff $(git rev-list -n1 --before="1 day ago" master)
+$ git diff --name-only $(git rev-list -n1 --before="1 day ago" master)
 ```
 
 You can see more information about this [here](https://stackoverflow.com/questions/1161609/how-can-i-get-the-diff-between-all-the-commits-that-occurred-between-two-dates-w).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI0Nzc5OTYsNDU5MDI3MzIwLC0xOT
-YzOTUzMjA3LC0xNDUyNzM5MTQzLC0zMzY3MjY3NTksLTIyMDcw
-NDNdfQ==
+eyJoaXN0b3J5IjpbMjYxMDAxODk5LDQ1OTAyNzMyMCwtMTk2Mz
+k1MzIwNywtMTQ1MjczOTE0MywtMzM2NzI2NzU5LC0yMjA3MDQz
+XX0=
 -->
