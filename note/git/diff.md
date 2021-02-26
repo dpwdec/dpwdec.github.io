@@ -1,5 +1,5 @@
 ---
-title: Git Diff
+title: diff
 layout: page
 exclude: true
 ---
@@ -38,7 +38,7 @@ $ git diff --name-only $(git rev-list -n1 --before="1 day ago" master)
 
 You can see more information about this [here](https://stackoverflow.com/questions/1161609/how-can-i-get-the-diff-between-all-the-commits-that-occurred-between-two-dates-w).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxMDAxODk5LDQ1OTAyNzMyMCwtMTk2Mz
-k1MzIwNywtMTQ1MjczOTE0MywtMzM2NzI2NzU5LC0yMjA3MDQz
-XX0=
+eyJoaXN0b3J5IjpbLTkwNzMyNjE1LDI2MTAwMTg5OSw0NTkwMj
+czMjAsLTE5NjM5NTMyMDcsLTE0NTI3MzkxNDMsLTMzNjcyNjc1
+OSwtMjIwNzA0M119
 -->
