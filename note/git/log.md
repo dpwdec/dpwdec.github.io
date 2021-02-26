@@ -25,6 +25,8 @@ You can **format the log results to show ONLY the names of a files that changed*
 ```bash
 $ git log --raw --no-merges --since="2 day ago" --diff-filter=RAD --pretty=format: --name-only
 ```
+
+Wherever `git log --raw --no-merges` is used it can be replaced with `whatchanged`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDE4MjEzNV19
+eyJoaXN0b3J5IjpbMTAzNzg0MTU3OV19
 -->
