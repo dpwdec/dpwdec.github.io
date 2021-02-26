@@ -29,7 +29,8 @@ You can **diff files that are moved** by using the `R` filter for *rename*. Git 
 $ git diff --diff-filter=R HEAD^ HEAD
 ```
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU3NDE0NzUyLC0xNDUyNzM5MTQzLC0zMz
+eyJoaXN0b3J5IjpbODM4MjUwMzgyLC0xNDUyNzM5MTQzLC0zMz
 Y3MjY3NTksLTIyMDcwNDNdfQ==
 -->
