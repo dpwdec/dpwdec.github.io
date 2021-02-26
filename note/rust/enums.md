@@ -61,10 +61,10 @@ let x_mapped = x
   .map(|n| n - 1) // => Some(19)
 ```
 
-The `
+The `Option` enum supports the equivalent of a `flat_map` function with a function called `and_then`. This is useful to avoid situations in which the `map`ping results in nested `Option` structures, such as `
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzM3MzQ0OCwtMTgxNTExNTEsMTU0OT
-YyMjc3OV19
+eyJoaXN0b3J5IjpbLTE4Njc5MzU1MTIsLTE4MTUxMTUxLDE1ND
+k2MjI3NzldfQ==
 -->
