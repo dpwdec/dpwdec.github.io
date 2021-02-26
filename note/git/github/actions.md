@@ -90,9 +90,14 @@ my_job:
         id: output_value # set step id so it can be referenced at the job level
         run: |
           echo "::set-output name=my_output::true"
+
+another_job:
+  - nam
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTYzNDg2NTUsMTAwNjA1OTk0NiwtOT
+eyJoaXN0b3J5IjpbLTExNTU3NzA2NjEsMTAwNjA1OTk0NiwtOT
 MyMjAwMjQ0LDE3NTExODUxMTEsMTY1ODk1NzQ1MSwtNzk5MTY0
 NTczLC0xMTMwODAyNDY3LDEzOTM0NjY4MzksMjEwMDU2NjU1My
 wtMTgwMDAxMDY3Ml19
