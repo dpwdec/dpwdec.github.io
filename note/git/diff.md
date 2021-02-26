@@ -31,8 +31,8 @@ $ git diff --diff-filter=R HEAD^ HEAD
 
 ## Period diff
 
-You can **strong text**
+You can **do a diff on commits between to **
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjM5NTMyMDcsLTE0NTI3MzkxNDMsLT
-MzNjcyNjc1OSwtMjIwNzA0M119
+eyJoaXN0b3J5IjpbLTExMDkyNzcxNDYsLTE5NjM5NTMyMDcsLT
+E0NTI3MzkxNDMsLTMzNjcyNjc1OSwtMjIwNzA0M119
 -->
