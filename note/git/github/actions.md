@@ -104,13 +104,14 @@ my_job:
 
 another_job:
   - name: Job that relies on output
-    needs: my_job
+    needs: my_job # rely on output and load reference to output
+    if: needs.my_job
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTE0ODkzOSwxMDA2MDU5OTQ2LC05Mz
-IyMDAyNDQsMTc1MTE4NTExMSwxNjU4OTU3NDUxLC03OTkxNjQ1
-NzMsLTExMzA4MDI0NjcsMTM5MzQ2NjgzOSwyMTAwNTY2NTUzLC
-0xODAwMDEwNjcyXX0=
+eyJoaXN0b3J5IjpbNDkzNDAzMTAwLDEwMDYwNTk5NDYsLTkzMj
+IwMDI0NCwxNzUxMTg1MTExLDE2NTg5NTc0NTEsLTc5OTE2NDU3
+MywtMTEzMDgwMjQ2NywxMzkzNDY2ODM5LDIxMDA1NjY1NTMsLT
+E4MDAwMTA2NzJdfQ==
 -->
