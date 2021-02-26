@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 
-Yo
+You can **show a list of everything that changed by date**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQwNjI0NTFdfQ==
+eyJoaXN0b3J5IjpbMTUwMDU4ODg2MF19
 -->
