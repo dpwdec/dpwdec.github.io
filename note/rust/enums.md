@@ -50,7 +50,12 @@ fn execute(pr: protocol) {
 
 You can **implement methods on enums**.
 
+## Option
+
+You can **map the contents of an option enum WITHOUT having to unwrap it** by using the `map` function. This will `map` the value *inside* the `Option` *if* it contains a value, 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTUxMTUxLDE1NDk2MjI3NzldfQ==
+eyJoaXN0b3J5IjpbMTUxOTUwOTYyNSwtMTgxNTExNTEsMTU0OT
+YyMjc3OV19
 -->
