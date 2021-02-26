@@ -78,10 +78,14 @@ jobs:
 
 ## Step ID
 
-You can ı
+You can **you can add an ID to a step** so it can be referred to from other steps using the `id` property.
+```yaml
+my_job:
+  
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjA1OTk0NiwtOTMyMjAwMjQ0LDE3NT
-ExODUxMTEsMTY1ODk1NzQ1MSwtNzk5MTY0NTczLC0xMTMwODAy
-NDY3LDEzOTM0NjY4MzksMjEwMDU2NjU1MywtMTgwMDAxMDY3Ml
-19
+eyJoaXN0b3J5IjpbMTAwOTYwMjI1NiwxMDA2MDU5OTQ2LC05Mz
+IyMDAyNDQsMTc1MTE4NTExMSwxNjU4OTU3NDUxLC03OTkxNjQ1
+NzMsLTExMzA4MDI0NjcsMTM5MzQ2NjgzOSwyMTAwNTY2NTUzLC
+0xODAwMDEwNjcyXX0=
 -->
