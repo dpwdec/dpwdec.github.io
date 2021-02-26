@@ -11,9 +11,9 @@ $ git log --raw --no-merges --diff-filter=A
 
 ## Period Log
 
-You can **see a log of what changed over a period** by using the `since`
+You can **see a log of what changed over a period** by using the `since` 
 ```bash
-$ git log --raw --no-merges --since="2 day ago" --diff-filter=RAD --pretty=format: --name-only
+$ git log --raw --no-merges --since="1 day ago"
 ```
 
 ```bash
@@ -21,8 +21,8 @@ git log --raw --no-merges --since="2 day ago" --diff-filter=RAD
 ```
 
 ```bash
-git log --raw --no-merges --since="2 day ago" --diff-filter=RAD --pretty=format: --name-only
+$ git log --raw --no-merges --since="2 day ago" --diff-filter=RAD --pretty=format: --name-only
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY3MzE0MjIzXX0=
+eyJoaXN0b3J5IjpbMzg0MzM4NzY0XX0=
 -->
