@@ -83,11 +83,11 @@ You can **output the result of a step from a job** by using the `outputs` tag an
 my_job:
   - name: Job that outputs a value
     outputs:
-      my_output: ${{ steps.output_value. }}
+      my_output: ${{ steps.output_value.outputs.my_output }}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTgyODYzNTUsMTAwNjA1OTk0NiwtOT
-MyMjAwMjQ0LDE3NTExODUxMTEsMTY1ODk1NzQ1MSwtNzk5MTY0
-NTczLC0xMTMwODAyNDY3LDEzOTM0NjY4MzksMjEwMDU2NjU1My
-wtMTgwMDAxMDY3Ml19
+eyJoaXN0b3J5IjpbMzM1NDMxMTg3LDEwMDYwNTk5NDYsLTkzMj
+IwMDI0NCwxNzUxMTg1MTExLDE2NTg5NTc0NTEsLTc5OTE2NDU3
+MywtMTEzMDgwMjQ2NywxMzkzNDY2ODM5LDIxMDA1NjY1NTMsLT
+E4MDAwMTA2NzJdfQ==
 -->
