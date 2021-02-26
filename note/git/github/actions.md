@@ -78,7 +78,7 @@ jobs:
 
 ## Outputs
 
-You can **output the result of a step from a job** by using the `outputs` tag and specifying the `steps`, `id` and output parameter. The output parameter and the name of the property being output should match. You can set an output using a bash block that `echo`s the `set-output` command.
+You can **output the result of a step from a job** by using the `outputs` tag and specifying the `steps`, `id` and `outputs` parameter with a name. The output parameter and the name of the property being output should match. You can set an output using a bash block that `echo`s the `set-output` command.
 ```yaml
 my_job:
   - name: Job that outputs a value
@@ -86,8 +86,8 @@ my_job:
       my_output: ${{ steps.output_value.outputs.my_output }}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1NDMxMTg3LDEwMDYwNTk5NDYsLTkzMj
-IwMDI0NCwxNzUxMTg1MTExLDE2NTg5NTc0NTEsLTc5OTE2NDU3
-MywtMTEzMDgwMjQ2NywxMzkzNDY2ODM5LDIxMDA1NjY1NTMsLT
-E4MDAwMTA2NzJdfQ==
+eyJoaXN0b3J5IjpbLTIxMjk1MzQxNzgsMTAwNjA1OTk0NiwtOT
+MyMjAwMjQ0LDE3NTExODUxMTEsMTY1ODk1NzQ1MSwtNzk5MTY0
+NTczLC0xMTMwODAyNDY3LDEzOTM0NjY4MzksMjEwMDU2NjU1My
+wtMTgwMDAxMDY3Ml19
 -->
