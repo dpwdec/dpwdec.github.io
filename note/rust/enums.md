@@ -50,7 +50,33 @@ fn execute(pr: protocol) {
 
 You can **implement methods on enums**.
 
+## Option
+
+You can **map the contents of an option enum WITHOUT having to unwrap it** by using the `map` function. This will `map` the value *inside* the `Option` *if* it contains a value, otherwise it will continue to be none. This allows you to work with the values inside an `Option` in a "lazy" manner and only `unwrap` it when it is needed.
+```rust
+let x = Some(10)
+
+let x_mapped = x
+  .map(|n| n + 10) // => Some(20)
+  .map(|n| n - 1) // => Some(19)
+```
+
+The `Option` enum supports the equivalent of a `flat_map` function with a function called `and_then`. This is useful to avoid situations in which the `map`ping results in nested `Option` structures, such as `Option<Option<u32>>`. In the example below the `divide` function *also* returns an option to handle the `0` case of division. By using `and_then` the nested `Option` resolves to a single `Option` value.
+```rust
+let x = Some(10)
+
+let x_mapped = x
+  .map(|n| n + 10) // => Some(20)
+  .map(|n| n - 2) // => Some(18)
+  .and_then(|n| divide(2, n)) // => Some(9)
+
+fn divide(divisor: u32, x: u32) -> Option<u32> {
+  if divisor != 0 { Some(x / divisor) } else { None }
+}
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTUxMTUxLDE1NDk2MjI3NzldfQ==
+eyJoaXN0b3J5IjpbLTYxMjgxNzU5NiwtMTgxNTExNTEsMTU0OT
+YyMjc3OV19
 -->
