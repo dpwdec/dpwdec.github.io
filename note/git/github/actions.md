@@ -88,11 +88,12 @@ my_job:
     steps:
       - name: Set output
         id: output_value # set step id so it can be referenced at the job level
-        
+        run: |
+          echo "::set-output name=my_output::
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjI5OTAxMzksMTAwNjA1OTk0NiwtOT
-MyMjAwMjQ0LDE3NTExODUxMTEsMTY1ODk1NzQ1MSwtNzk5MTY0
-NTczLC0xMTMwODAyNDY3LDEzOTM0NjY4MzksMjEwMDU2NjU1My
-wtMTgwMDAxMDY3Ml19
+eyJoaXN0b3J5IjpbMTEyODgyNzcwMywxMDA2MDU5OTQ2LC05Mz
+IyMDAyNDQsMTc1MTE4NTExMSwxNjU4OTU3NDUxLC03OTkxNjQ1
+NzMsLTExMzA4MDI0NjcsMTM5MzQ2NjgzOSwyMTAwNTY2NTUzLC
+0xODAwMDEwNjcyXX0=
 -->
