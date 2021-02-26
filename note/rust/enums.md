@@ -52,10 +52,17 @@ You can **implement methods on enums**.
 
 ## Option
 
-You can **map the contents of an option enum WITHOUT having to unwrap it** by using the `map` function. This will `map` the value *inside* the `Option` *if* it contains a value, 
+You can **map the contents of an option enum WITHOUT having to unwrap it** by using the `map` function. This will `map` the value *inside* the `Option` *if* it contains a value, otherwise it will continue to be none. This allows you to work with the values inside an `Option` in a "lazy" manner and only `unwrap` it when it is needed.
+```rust
+let x = Some(10)
+
+let x_mapped = x
+  .map(|n| n + 10) // => Some(20)
+  .map(|n| n - 1) /./
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTUwOTYyNSwtMTgxNTExNTEsMTU0OT
+eyJoaXN0b3J5IjpbLTg2MjQyNDc3OSwtMTgxNTExNTEsMTU0OT
 YyMjc3OV19
 -->
