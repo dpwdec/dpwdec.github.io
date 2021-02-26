@@ -69,10 +69,14 @@ let x_mapped = x
   .map(|n| n + 10) // => Some(20)
   .map(|n| n - 2) // => Some(18)
   .and_then(|n| divide(2, n)) // => Some(9)
+
+fn divide(divisor: u32, x: u32) -> Option<u32> {
+  Some(x / divisor)
+}
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTYyMDc4NSwtMTgxNTExNTEsMTU0OT
-YyMjc3OV19
+eyJoaXN0b3J5IjpbLTE5MjA2MDM0MjUsLTE4MTUxMTUxLDE1ND
+k2MjI3NzldfQ==
 -->
