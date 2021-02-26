@@ -24,7 +24,10 @@ You can **include previous commit history in your checkout** by using the `fetch
 
 ## Working Directory
 
-You can **strong text**
+You can **set the working directory of a command to run** by using the `working-directory` tag.
+```yaml
+
+```
 
 ## Commit Tags
 
@@ -116,8 +119,8 @@ another_job:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODY1MTIzNSwtNDE2NDc0NTQsLTEyNT
-I3MzAxODcsMTAwNjA1OTk0NiwtOTMyMjAwMjQ0LDE3NTExODUx
-MTEsMTY1ODk1NzQ1MSwtNzk5MTY0NTczLC0xMTMwODAyNDY3LD
-EzOTM0NjY4MzksMjEwMDU2NjU1MywtMTgwMDAxMDY3Ml19
+eyJoaXN0b3J5IjpbOTk1NDExMzkzLC00MTY0NzQ1NCwtMTI1Mj
+czMDE4NywxMDA2MDU5OTQ2LC05MzIyMDAyNDQsMTc1MTE4NTEx
+MSwxNjU4OTU3NDUxLC03OTkxNjQ1NzMsLTExMzA4MDI0NjcsMT
+M5MzQ2NjgzOSwyMTAwNTY2NTUzLC0xODAwMDEwNjcyXX0=
 -->
