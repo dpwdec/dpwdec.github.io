@@ -58,11 +58,13 @@ let x = Some(10)
 
 let x_mapped = x
   .map(|n| n + 10) // => Some(20)
-  .map(|n| n - 1) /./
+  .map(|n| n - 1) // => Some(19)
 ```
+
+The `
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjQyNDc3OSwtMTgxNTExNTEsMTU0OT
+eyJoaXN0b3J5IjpbMTEzNzM3MzQ0OCwtMTgxNTExNTEsMTU0OT
 YyMjc3OV19
 -->
