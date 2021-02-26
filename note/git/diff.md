@@ -33,8 +33,9 @@ $ git diff --diff-filter=R HEAD^ HEAD
 
 You can **do a diff on commits between to dates** by passing the result of `rev-list` into a `diff` command. 
 
-You can 
+You can see more in
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5MDI3MzIwLC0xOTYzOTUzMjA3LC0xND
-UyNzM5MTQzLC0zMzY3MjY3NTksLTIyMDcwNDNdfQ==
+eyJoaXN0b3J5IjpbLTE2Mzc2NTQ0NzEsNDU5MDI3MzIwLC0xOT
+YzOTUzMjA3LC0xNDUyNzM5MTQzLC0zMzY3MjY3NTksLTIyMDcw
+NDNdfQ==
 -->
