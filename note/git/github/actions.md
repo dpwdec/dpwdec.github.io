@@ -22,6 +22,10 @@ You can **include previous commit history in your checkout** by using the `fetch
     fetch-depth: 2
 ```
 
+## Working Directory
+
+You can **strong text**
+
 ## Commit Tags
 
 You can use the `HEAD` tag in a github actions job to **point to the current commit** that the CI is running on.
@@ -112,8 +116,8 @@ another_job:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjQ3NDU0LC0xMjUyNzMwMTg3LDEwMD
-YwNTk5NDYsLTkzMjIwMDI0NCwxNzUxMTg1MTExLDE2NTg5NTc0
-NTEsLTc5OTE2NDU3MywtMTEzMDgwMjQ2NywxMzkzNDY2ODM5LD
-IxMDA1NjY1NTMsLTE4MDAwMTA2NzJdfQ==
+eyJoaXN0b3J5IjpbMTU2ODY1MTIzNSwtNDE2NDc0NTQsLTEyNT
+I3MzAxODcsMTAwNjA1OTk0NiwtOTMyMjAwMjQ0LDE3NTExODUx
+MTEsMTY1ODk1NzQ1MSwtNzk5MTY0NTczLC0xMTMwODAyNDY3LD
+EzOTM0NjY4MzksMjEwMDU2NjU1MywtMTgwMDAxMDY3Ml19
 -->
