@@ -61,7 +61,7 @@ let x_mapped = x
   .map(|n| n - 1) // => Some(19)
 ```
 
-The `Option` enum supports the equivalent of a `flat_map` function with a function called `and_then`. This is useful to avoid situations in which the `map`ping results in nested `Option` structures, such as `Option<Option<u32>>`. In the example below the `divide` function *also* returns an option to handle the `0` case of division. 
+The `Option` enum supports the equivalent of a `flat_map` function with a function called `and_then`. This is useful to avoid situations in which the `map`ping results in nested `Option` structures, such as `Option<Option<u32>>`. In the example below the `divide` function *also* returns an option to handle the `0` case of division. By using `and_then` the nested `Option` resolves to a single `Option` value.
 ```rust
 let x = Some(10)
 
@@ -77,6 +77,6 @@ fn divide(divisor: u32, x: u32) -> Option<u32> {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODI5MTQzNjQsLTE4MTUxMTUxLDE1ND
-k2MjI3NzldfQ==
+eyJoaXN0b3J5IjpbLTYxMjgxNzU5NiwtMTgxNTExNTEsMTU0OT
+YyMjc3OV19
 -->
