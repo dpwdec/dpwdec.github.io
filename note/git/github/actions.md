@@ -64,7 +64,7 @@ file-path: |
   path/to/file_3.txt
 ```
 
-It's worth noting that if this action is **triggered by a commit / push** the actions API is intelligent enough to *not* trigger again when 
+It's worth noting that if this action is **triggered by a commit / push** the actions API is intelligent enough to *not* trigger again when an action commits.
 
 ## Needs
 
@@ -112,8 +112,8 @@ another_job:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDgzODEwNSwtMTI1MjczMDE4NywxMD
-A2MDU5OTQ2LC05MzIyMDAyNDQsMTc1MTE4NTExMSwxNjU4OTU3
-NDUxLC03OTkxNjQ1NzMsLTExMzA4MDI0NjcsMTM5MzQ2NjgzOS
-wyMTAwNTY2NTUzLC0xODAwMDEwNjcyXX0=
+eyJoaXN0b3J5IjpbLTQxNjQ3NDU0LC0xMjUyNzMwMTg3LDEwMD
+YwNTk5NDYsLTkzMjIwMDI0NCwxNzUxMTg1MTExLDE2NTg5NTc0
+NTEsLTc5OTE2NDU3MywtMTEzMDgwMjQ2NywxMzkzNDY2ODM5LD
+IxMDA1NjY1NTMsLTE4MDAwMTA2NzJdfQ==
 -->
