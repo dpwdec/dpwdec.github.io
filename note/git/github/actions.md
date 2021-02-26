@@ -76,6 +76,17 @@ jobs:
     # body of job
 ```
 
+You also **use the `needs` tag so that a job can reference another job that it relies on**.
+```yaml
+jobs:
+  job_1:
+    # body of job
+  job_2:
+    needs: job_1
+    if
+  
+```
+
 ## Outputs
 
 You can **output the result of a step from a job** by using the `outputs` tag and specifying the `steps`, `id` and `outputs` parameter with a name. The output parameter and the name of the property being output should match. You can set an output using a bash block that `echo`s the `set-output` command. 
@@ -92,13 +103,13 @@ my_job:
           echo "::set-output name=my_output::true"
 
 another_job:
-  - nam
+  - name: Job that relies on output
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU3NzA2NjEsMTAwNjA1OTk0NiwtOT
-MyMjAwMjQ0LDE3NTExODUxMTEsMTY1ODk1NzQ1MSwtNzk5MTY0
-NTczLC0xMTMwODAyNDY3LDEzOTM0NjY4MzksMjEwMDU2NjU1My
-wtMTgwMDAxMDY3Ml19
+eyJoaXN0b3J5IjpbLTQxMTA0MDM0MiwxMDA2MDU5OTQ2LC05Mz
+IyMDAyNDQsMTc1MTE4NTExMSwxNjU4OTU3NDUxLC03OTkxNjQ1
+NzMsLTExMzA4MDI0NjcsMTM5MzQ2NjgzOSwyMTAwNTY2NTUzLC
+0xODAwMDEwNjcyXX0=
 -->
