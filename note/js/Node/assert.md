@@ -13,8 +13,8 @@ const assert = require('assert')
 
 You can **run a strict equality assertion** by using the `strictEqual` on the `assert` object.
 ```js
-assert.strictEqual(10, 9) // => ERR_ASSERTION
+assert.strictEqual(10, 9) // => ERR_ASSERTION 10 !== 9
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODIyODYzLC0yMTgxMTkyOTNdfQ==
+eyJoaXN0b3J5IjpbLTIwNDI3NTQ3MjAsLTIxODExOTI5M119
 -->
