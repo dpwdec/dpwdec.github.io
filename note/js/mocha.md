@@ -4,6 +4,11 @@ layout: page
 exclude: true
 ---
 
+You can **run mocha** by setting the `test` script in `npm` to `mocha`
+```
+
+```
+
 Mocha testing libraries **work with the default assertion library in node**.
 ```js
 const  assert  =  require('assert')
@@ -15,5 +20,5 @@ describe('Some test', () => {
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzIyNjEyMV19
+eyJoaXN0b3J5IjpbLTM2MDI1Njg2N119
 -->
