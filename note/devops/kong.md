@@ -83,10 +83,10 @@ $ curl -X POST http://<admin-hostname>:8001/services/<service>/plugins \
 
 ## DecK
 
-DecK is a **desired state synchronisation tool** that allows you to synchronise a configuration (defined as a `.yaml` file) 
+DecK is a **desired state synchronisation tool** that allows you to set kong's configuration using a configuration file (defined using `.yaml`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1MzA3MDYzLC0xMzY4MTE1ODk0LC0xOT
-Q5NDQyMTQzLDE1NzUxMDU5NjcsLTIwNTQ0MTE3NzksLTkwNzk0
-Mjg5OSwxNzUyMjMyNjksLTQwNzA0NzU1MywyMDQ0ODM5MDc2LD
-UxNjA4NzUxMCwtMTI0MTI2OTg0MCwtNTI5ODAxODExXX0=
+eyJoaXN0b3J5IjpbLTgzOTI0MjM1NCwtMTM2ODExNTg5NCwtMT
+k0OTQ0MjE0MywxNTc1MTA1OTY3LC0yMDU0NDExNzc5LC05MDc5
+NDI4OTksMTc1MjIzMjY5LC00MDcwNDc1NTMsMjA0NDgzOTA3Ni
+w1MTYwODc1MTAsLTEyNDEyNjk4NDAsLTUyOTgwMTgxMV19
 -->
