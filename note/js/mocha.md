@@ -11,7 +11,7 @@ You can **run mocha** by setting the `test` script in `npm` to `mocha`. Calling 
 },
 ```
 
-Mocha testing libraries **work with the default assertion library in node**.
+You can **do assertions in mocha** by using the default `assert`ion library in node.
 ```js
 const  assert  =  require('assert')
 
@@ -22,5 +22,5 @@ describe('Some test', () => {
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjQ2NjAzXX0=
+eyJoaXN0b3J5IjpbLTIxMDc1NTI0OTZdfQ==
 -->
