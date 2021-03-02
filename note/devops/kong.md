@@ -83,10 +83,10 @@ $ curl -X POST http://<admin-hostname>:8001/services/<service>/plugins \
 
 ## DecK
 
-
+DecK is a **desired state synchronisation tool** that allows you to synchronise a configuration (defined as a `.yaml` file) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjgxMTU4OTQsLTE5NDk0NDIxNDMsMT
-U3NTEwNTk2NywtMjA1NDQxMTc3OSwtOTA3OTQyODk5LDE3NTIy
-MzI2OSwtNDA3MDQ3NTUzLDIwNDQ4MzkwNzYsNTE2MDg3NTEwLC
-0xMjQxMjY5ODQwLC01Mjk4MDE4MTFdfQ==
+eyJoaXN0b3J5IjpbNTA1MzA3MDYzLC0xMzY4MTE1ODk0LC0xOT
+Q5NDQyMTQzLDE1NzUxMDU5NjcsLTIwNTQ0MTE3NzksLTkwNzk0
+Mjg5OSwxNzUyMjMyNjksLTQwNzA0NzU1MywyMDQ0ODM5MDc2LD
+UxNjA4NzUxMCwtMTI0MTI2OTg0MCwtNTI5ODAxODExXX0=
 -->
