@@ -15,6 +15,7 @@ eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ
 SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 ```
 
+The JWT contains a `Header`, `Payload` (with associated user information) and `Signature`.
 ```
 (Header)
 .
@@ -44,5 +45,6 @@ There are two types of claims:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODk1Mzg1NiwtMTEyMDI4MjM2NF19
+eyJoaXN0b3J5IjpbLTE3ODYyMDUwNDYsLTExMjAyODIzNjRdfQ
+==
 -->
