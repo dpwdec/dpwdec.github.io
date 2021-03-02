@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 
-You can **run mocha** by setting the `test` script in `npm` to `mocha`
+You can **run mocha** by setting the `test` script in `npm` to `mocha`. Calling `npm test` will then run the mocha test suite.
 ```json
 "scripts": {
   "test": "mocha"
@@ -22,5 +22,5 @@ describe('Some test', () => {
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTIwOTgyNV19
+eyJoaXN0b3J5IjpbMTk3MjQ2NjAzXX0=
 -->
