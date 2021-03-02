@@ -10,7 +10,7 @@ The OIDC spec is an attempt to **standardise authentication using the OAUTH prot
 
 Instead of transmitting a standard **bearer token** during the OAUTH flow, instead the OIDC flow transmits a JWT or **JSON Web Token** to the client which encodes identifiable information about the user, such as user ID or email address.
 
-There is generally a `userinfo` endpoint on the OIDC client that the 
+There is generally a `userinfo` endpoint on the OIDC client that the applications can call with a valid JWT to get more information about the user.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTAxMzk5OF19
+eyJoaXN0b3J5IjpbLTE0OTMxNDM0ODZdfQ==
 -->
