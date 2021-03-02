@@ -5,8 +5,10 @@ exclude: true
 ---
 
 You can **run mocha** by setting the `test` script in `npm` to `mocha`
-```
-
+```json
+"scripts": {
+  "test": "mocha"
+},
 ```
 
 Mocha testing libraries **work with the default assertion library in node**.
@@ -20,5 +22,5 @@ describe('Some test', () => {
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDI1Njg2N119
+eyJoaXN0b3J5IjpbLTcxMTIwOTgyNV19
 -->
