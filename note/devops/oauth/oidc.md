@@ -8,7 +8,7 @@ OIDC or **Open ID Connect** is a service built *on top* of the OAUTH spec to all
 
 The OIDC spec is an attempt to **standardise authentication using the OAUTH protocol**.
 
-
+Instead of transmitting a standard **bearer token** during the OAUTH flow, instead the OIDC flow transmits a JWT or **JSON Web Token** to the client which encodes identifiable information about the user, such as user ID or email address.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTE1MTExNV19
+eyJoaXN0b3J5IjpbLTE1NTcwOTU0NTBdfQ==
 -->
