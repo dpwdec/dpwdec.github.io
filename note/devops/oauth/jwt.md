@@ -30,7 +30,7 @@ The JWT contains a `Header`, `Payload` (with associated user information, also s
 
 The `Claims` section of the JWT can be decoded by your application to extract authentication information.
 
-The `Signature` is used to **confirm that the contents of the JWT has not been altered in flight**. By checking the `Signature` against the 
+The `Signature` is used to **confirm that the contents of the JWT has not been altered in flight**. By checking the `Signature` against the OAUTH client's private key.
 
 ## Claims
 
@@ -49,5 +49,6 @@ There are two types of claims:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4OTMwOTY2NywtMTEyMDI4MjM2NF19
+eyJoaXN0b3J5IjpbLTE5MjE3OTU3MjMsLTExMjAyODIzNjRdfQ
+==
 -->
