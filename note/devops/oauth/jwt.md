@@ -4,6 +4,10 @@ layout: page
 exclude: true
 ---
 
+## Anatomy of a JWT
+
+
+
 ```
 (Header)
 .
@@ -31,5 +35,5 @@ There are two types of claims:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODE1MTE5N119
+eyJoaXN0b3J5IjpbMTk5ODI5MTM3OV19
 -->
