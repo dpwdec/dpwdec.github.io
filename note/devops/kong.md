@@ -89,10 +89,12 @@ You can **output the current configuration of kong** using the `dump` command. T
 ```bash
 $ deck dump
 ```
+
+You **can apply a `.yaml` configuration to kong** using the `sync` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxMTUzNTI0LC0xMDI3MzAwODAwLDQ2NT
-UyNDI5NywtMTM2ODExNTg5NCwtMTk0OTQ0MjE0MywxNTc1MTA1
-OTY3LC0yMDU0NDExNzc5LC05MDc5NDI4OTksMTc1MjIzMjY5LC
-00MDcwNDc1NTMsMjA0NDgzOTA3Niw1MTYwODc1MTAsLTEyNDEy
-Njk4NDAsLTUyOTgwMTgxMV19
+eyJoaXN0b3J5IjpbMTk1NTg0ODg1MSwtMTAyNzMwMDgwMCw0Nj
+U1MjQyOTcsLTEzNjgxMTU4OTQsLTE5NDk0NDIxNDMsMTU3NTEw
+NTk2NywtMjA1NDQxMTc3OSwtOTA3OTQyODk5LDE3NTIyMzI2OS
+wtNDA3MDQ3NTUzLDIwNDQ4MzkwNzYsNTE2MDg3NTEwLC0xMjQx
+MjY5ODQwLC01Mjk4MDE4MTFdfQ==
 -->
