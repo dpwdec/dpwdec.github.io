@@ -28,7 +28,7 @@ The JWT contains a `Header`, `Payload` (with associated user information, also s
 (Signature)
 ```
 
-The `Claims` section of the JWT can be decoded by your application to find out information 
+The `Claims` section of the JWT can be decoded by your application to extract authentication information.
 
 ## Claims
 
@@ -47,5 +47,5 @@ There are two types of claims:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3Nzg1MDk4LC0xMTIwMjgyMzY0XX0=
+eyJoaXN0b3J5IjpbNjU2NTA1ODY4LC0xMTIwMjgyMzY0XX0=
 -->
