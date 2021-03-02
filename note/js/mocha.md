@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 
-Mocha testing libnrar
+Mocha testing libraries **work with the default assertion library in node**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY2NTEyNzNdfQ==
+eyJoaXN0b3J5IjpbLTExNTI1NzIzMDVdfQ==
 -->
