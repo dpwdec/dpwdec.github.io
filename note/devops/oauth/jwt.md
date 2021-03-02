@@ -6,7 +6,7 @@ exclude: true
 
 ## Anatomy of a JWT
 
-Below is an example. JWT formatted so show the differ
+Below is an example. JWT formatted so show the different parts of a valid JWT. Usually these will just be displayed as a single long string.
 ```
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 .
@@ -44,5 +44,5 @@ There are two types of claims:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjAyODIzNjRdfQ==
+eyJoaXN0b3J5IjpbLTI2ODk1Mzg1NiwtMTEyMDI4MjM2NF19
 -->
