@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 
-Node **supports assertions as part of the standard library** using the `assert` library. 
+Node **supports assertions as part of the standard library** using the `assert` library. If an `assert` fails (without a test library) it will raise an `ERR_ASSERTION` wh
 
 You **start using node assertions** by `require`ing `assert`.
 ```js
@@ -16,5 +16,5 @@ You can **run a strict equality assertion** by using the `strictEqual` on the `a
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODExOTI5M119
+eyJoaXN0b3J5IjpbLTE3MTU4ODYwNzAsLTIxODExOTI5M119
 -->
