@@ -6,13 +6,22 @@ exclude: true
 
 ## Anatomy of a JWT
 
-
+Below is an example. JWT formatted so show the differ
+```
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+.
+eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ
+.
+SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+```
 
 ```
 (Header)
 .
 {
-
+  "sub": "1234567890",
+  "name": "John Doe",
+  "iat": 1516239022
 }
 .
 (Signature)
@@ -35,5 +44,5 @@ There are two types of claims:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODI5MTM3OV19
+eyJoaXN0b3J5IjpbLTExMjAyODIzNjRdfQ==
 -->
