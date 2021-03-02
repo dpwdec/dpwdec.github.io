@@ -80,9 +80,13 @@ You can **add a preinstalled plug in to a kong service** by using the `plugins` 
 $ curl -X POST http://<admin-hostname>:8001/services/<service>/plugins \  
   --data  "name=<plugin-name>"
 ```
+
+## DecK
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk0NDIxNDMsMTU3NTEwNTk2NywtMj
-A1NDQxMTc3OSwtOTA3OTQyODk5LDE3NTIyMzI2OSwtNDA3MDQ3
-NTUzLDIwNDQ4MzkwNzYsNTE2MDg3NTEwLC0xMjQxMjY5ODQwLC
-01Mjk4MDE4MTFdfQ==
+eyJoaXN0b3J5IjpbLTEzNjgxMTU4OTQsLTE5NDk0NDIxNDMsMT
+U3NTEwNTk2NywtMjA1NDQxMTc3OSwtOTA3OTQyODk5LDE3NTIy
+MzI2OSwtNDA3MDQ3NTUzLDIwNDQ4MzkwNzYsNTE2MDg3NTEwLC
+0xMjQxMjY5ODQwLC01Mjk4MDE4MTFdfQ==
 -->
