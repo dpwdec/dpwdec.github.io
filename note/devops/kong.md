@@ -85,11 +85,14 @@ $ curl -X POST http://<admin-hostname>:8001/services/<service>/plugins \
 
 DecK is a **desired state synchronisation tool** that allows you to set kong's configuration using a configuration file (defined in `yaml`).
 
-You can **output the**
+You can **output the current configuration of kong** using the `dump` command.
+```bash
+$ deck dump
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4Mjg5NjIsNDY1NTI0Mjk3LC0xMzY4MT
-E1ODk0LC0xOTQ5NDQyMTQzLDE1NzUxMDU5NjcsLTIwNTQ0MTE3
-NzksLTkwNzk0Mjg5OSwxNzUyMjMyNjksLTQwNzA0NzU1MywyMD
-Q0ODM5MDc2LDUxNjA4NzUxMCwtMTI0MTI2OTg0MCwtNTI5ODAx
-ODExXX0=
+eyJoaXN0b3J5IjpbLTEwMjczMDA4MDAsNDY1NTI0Mjk3LC0xMz
+Y4MTE1ODk0LC0xOTQ5NDQyMTQzLDE1NzUxMDU5NjcsLTIwNTQ0
+MTE3NzksLTkwNzk0Mjg5OSwxNzUyMjMyNjksLTQwNzA0NzU1My
+wyMDQ0ODM5MDc2LDUxNjA4NzUxMCwtMTI0MTI2OTg0MCwtNTI5
+ODAxODExXX0=
 -->
