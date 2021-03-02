@@ -10,6 +10,11 @@ You **start using node assertions** by `require`ing `assert`.
 ```js
 const assert = require('assert')
 ```
+
+You can **run a strict equality assertion** by using the `strictEqual` on the `assert` object.
+```js
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTEwNTQwMF19
+eyJoaXN0b3J5IjpbLTIxODExOTI5M119
 -->
