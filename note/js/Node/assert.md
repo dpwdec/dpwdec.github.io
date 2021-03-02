@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 
-Node supports a 
+Node **supports a assertions as part of the default library** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyMjE0Mjk0XX0=
+eyJoaXN0b3J5IjpbNjI4NzcxMjcyXX0=
 -->
