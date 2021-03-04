@@ -10,7 +10,11 @@ Array(0) // => []
 new Array(0) // => []
 ```
 
-
+You can **create an empty array with a length** by using a larger length argument to the Array function.
+```js
+let x = Array(5)
+x.length // => 5
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxMTk3NjYzXX0=
+eyJoaXN0b3J5IjpbLTU2NzA4MDE3OV19
 -->
