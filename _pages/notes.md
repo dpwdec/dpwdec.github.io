@@ -99,15 +99,13 @@ title: Notes index
                 <l><a href='/note/devops/cloud_computing/cloud_computing'>Cloud Computing</a></l><br>
             </ul>
             <l><a href='/note/devops/containerisation'>Containerisation</a></l><br>
-            <l><a href='/note/devops/curl'>Curl</a></l><br>
-            <l><a href='/note/devops/dns'>DNS</a></l><br><br>
+            <l><a href='/note/devops/curl'>Curl</a></l><br><br>
             <l>Docker</l>
             <ul>
                 <l><a href='/note/devops/docker/docker'>Docker</a></l><br>
                 <l><a href='/note/devops/docker/docker_file'>Dockerfile</a></l><br>
                 <l><a href='/note/devops/docker/images'>Images</a></l><br>
             </ul>
-            <l><a href='/note/devops/jwt'>JWT</a></l><br>
             <l><a href='/note/devops/kong'>Kong</a></l><br>
             <l><a href='/note/devops/microservices'>Microservices</a></l><br><br>
             <l>Oauth</l>
@@ -115,11 +113,9 @@ title: Notes index
                 <l><a href='/note/devops/oauth/jwt'>JWT</a></l><br>
                 <l><a href='/note/devops/oauth/oauth'>OAuth</a></l><br>
                 <l><a href='/note/devops/oauth/oidc'>OIDC</a></l><br>
-            </ul<a href='/note/devops/oauth'>OAuth</a></l><br>
+            </ul>
             <l><a href='/note/devops/open_api_spec'>OpenAPISpec</a></l><br>
             <l><a href='/note/devops/proxy'>Proxy</a></l><br>
-            <l><a href='/note/devops/rest'>REST</a></l><br>
-            <l><a href='/note/devops/www'>Web Structures</a></l><br>
         </ul>
         <l><a href='/note/discord'>Discord</a></l><br>
         <l><a href='/note/discord_js'>Discord.js</a></l><br>
@@ -131,16 +127,15 @@ title: Notes index
         </ul><br>
         <l>Git</l>
         <ul>
-            <l><a href='/note/git/diff'>dGit Diff</a></l><br>
+            <l><a href='/note/git/diff'>diff</a></l><br>
             <l><a href='/note/git/git'>Git</a></l><br><br>
- 
-           <l>Github</l>
+            <l>Github</l>
             <ul>
                 <l><a href='/note/git/github/actions'>Github Actions</a></l><br>
             </ul>
-            <l></ul</ul<a href='/note/git/log'>lofunc_prog'>Functional Programming</a></l><br>
+            <l><a href='/note/git/log'>log</a></l><br>
             <l><a href='/note/git/whatchanged'>whatchanged</a></l><br>
-        </ul'>Git</a></l><br>
+        </ul>
         <l><a href='/note/gmail'>Gmail</a></l><br><br>
         <l>Haskell</l>
         <ul>
@@ -260,6 +255,7 @@ title: Notes index
         <l><a href='/note/vs_code'>Vs Code</a></l><br><br>
         <l>Web</l>
         <ul>
+            <l><a href='/note/web/cookies'>Cookies</a></l><br>
             <l><a href='/note/web/cors'>CORS</a></l><br>
             <l><a href='/note/web/dns'>DNS</a></l><br>
             <l><a href='/note/web/rest'>REST</a></l><br>
@@ -267,6 +263,4 @@ title: Notes index
         </ul>
         <l><a href='/note/youtube_data'>Youtube Data</a></l><br>
     </ul>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MjczNDA3Ml19
--->
+</ul>
