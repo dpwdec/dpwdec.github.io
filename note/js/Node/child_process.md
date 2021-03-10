@@ -46,7 +46,10 @@ const  asyncChildProcess  = () => {
     const bin = spawn('curl', ['-v', '-O', 'http://my_binary.org'])
     bin.on('close', code => {
       console.log(`Curl exited with ${code}`)
+      resolve()
     })
+  })
+}
     
 
   
@@ -64,6 +67,6 @@ resolve()
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU1ODA1OCw3NzY3NDI4ODQsLTE5MT
-Q0Mzk0MzEsLTExODM5MTcyODZdfQ==
+eyJoaXN0b3J5IjpbMjI5NjQzMzI4LDc3Njc0Mjg4NCwtMTkxND
+QzOTQzMSwtMTE4MzkxNzI4Nl19
 -->
