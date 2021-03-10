@@ -22,11 +22,11 @@ The `spawn` function returns a `ChildProcess` instance object that supports a se
 You can **access the output of a command** using the `stdout` property and the `on` function with `data`.
 ```js
 const ls = spawn('ls')
-ls.stdout.on('data', data => { console.log(data) }
+ls.stdout.on('data', data => { console.log(data) })
 ```
 
  and returns an object that logs events when that command executes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzM1MTA4NzcsLTExODM5MTcyODZdfQ
+eyJoaXN0b3J5IjpbLTEwMDM4MTYwNzgsLTExODM5MTcyODZdfQ
 ==
 -->
