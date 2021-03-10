@@ -17,8 +17,8 @@ You can **use a command with arguments** by appending them as an argument to the
 spawn('curl', ['-v', '-O', 'http://my_binary.org'])
 ```
 
-
+The `spawn` function returns a `ChildProcess` instance object that supports a set of event listeners that occur when a `child_process` command runs.
  and returns an object that logs events when that command executes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODM5MTcyODZdfQ==
+eyJoaXN0b3J5IjpbNDk3NDU4MDU0LC0xMTgzOTE3Mjg2XX0=
 -->
