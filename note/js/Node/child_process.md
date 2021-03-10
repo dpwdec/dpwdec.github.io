@@ -25,12 +25,20 @@ const ls = spawn('ls')
 ls.stdout.on('data', data => { console.log(data) })
 ```
 
+You can **access command errors** using the `stderr` property and the `on` function with `data`.
+```js
+const ls = spawn('ls')
+ls.stderr.on('data', data => { console.error(data) })
+```
+
 You can **trigger an event when the child process finishes** using the `close` event directly on the `ChildProcess` object.
 ```js
 const ls = spawn('ls')
 ls.on('close', code => { console.log(`Return code was ${code}`) })
 ```
+
+You can
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzkyNzk2OCwtMTkxNDQzOTQzMSwtMT
+eyJoaXN0b3J5IjpbMTUxMzYwNTIyNiwtMTkxNDQzOTQzMSwtMT
 E4MzkxNzI4Nl19
 -->
