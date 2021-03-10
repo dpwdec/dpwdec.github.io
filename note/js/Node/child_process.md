@@ -39,7 +39,7 @@ ls.on('close', code => { console.log(`Return code was ${code}`) })
 
 ### Async Child Processes
 
-You can **execute child processes asynchronously** by wrapping the child process call in a `Promise` that resolves once an event (usually the `close` event) has completed.
+You can **execute child processes asynchronously** by wrapping the child process call in a `Promise` that `resolve`s once an event (usually the `close` event) has completed.
 ```js
 const  asyncChildProcess  = () => {
   return  new  Promise(resolve => {
@@ -50,23 +50,8 @@ const  asyncChildProcess  = () => {
     })
   })
 }
-    
-
-  
-
-deck.on('close', code => {
-
-console.log(`Deck exited with ${code}`)
-
-resolve()
-
-})
-
-})
-
-}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5NjQzMzI4LDc3Njc0Mjg4NCwtMTkxND
-QzOTQzMSwtMTE4MzkxNzI4Nl19
+eyJoaXN0b3J5IjpbMTI5MjExODA1MCw3NzY3NDI4ODQsLTE5MT
+Q0Mzk0MzEsLTExODM5MTcyODZdfQ==
 -->
