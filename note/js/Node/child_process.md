@@ -27,9 +27,10 @@ ls.stdout.on('data', data => { console.log(data) })
 
 You can **trigger an event when the child process finishes** using the `close` event directly on the `ChildProcess` object.
 ```js
-c
+const ls = spawn('ls')
+ls.on('close', code => { console.log(`Return code was ${code}`) })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjcwMDI1NywtMTkxNDQzOTQzMSwtMT
+eyJoaXN0b3J5IjpbLTM1MzkyNzk2OCwtMTkxNDQzOTQzMSwtMT
 E4MzkxNzI4Nl19
 -->
