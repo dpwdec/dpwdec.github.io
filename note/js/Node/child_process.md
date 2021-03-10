@@ -24,9 +24,7 @@ You can **access the output of a command** using the `stdout` property and the `
 const ls = spawn('ls')
 ls.stdout.on('data', data => { console.log(data) })
 ```
-
- and returns an object that logs events when that command executes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM4MTYwNzgsLTExODM5MTcyODZdfQ
+eyJoaXN0b3J5IjpbLTE5MTQ0Mzk0MzEsLTExODM5MTcyODZdfQ
 ==
 -->
