@@ -41,9 +41,27 @@ ls.on('close', code => { console.log(`Return code was ${code}`) })
 
 You can **execute child processes asynchronously** by wrapping the child process call in a `Promise` that resolves once an event (usually the `close` event) has completed.
 ```js
+const  f  = () => {
 
+return  new  Promise(resolve => {
+
+const  deck  =  spawn('deck')
+
+  
+
+deck.on('close', code => {
+
+console.log(`Deck exited with ${code}`)
+
+resolve()
+
+})
+
+})
+
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2NzQyODg0LC0xOTE0NDM5NDMxLC0xMT
-gzOTE3Mjg2XX0=
+eyJoaXN0b3J5IjpbMTc5OTU1MzQwNCw3NzY3NDI4ODQsLTE5MT
+Q0Mzk0MzEsLTExODM5MTcyODZdfQ==
 -->
