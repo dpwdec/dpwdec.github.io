@@ -9,9 +9,8 @@ exclude: true
 You can **execute a sub process on the command line** by using the `spawn` function from the `child_process` library. The `spawn` function takes a command as an argument and returns an object that logs events when that command executes.
 ```js
 const { spawn } = require('child_process')
-
-const ls = spawn('ls')
+spawn('ls') // command executes here
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjY3NTEyNl19
+eyJoaXN0b3J5IjpbLTQzNTE1OTk3NF19
 -->
