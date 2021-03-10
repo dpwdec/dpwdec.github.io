@@ -17,9 +17,16 @@ You can **use a command with arguments** by appending them as an argument to the
 spawn('curl', ['-v', '-O', 'http://my_binary.org'])
 ```
 
-The `spawn` function returns a `ChildProcess` instance object that supports a set of event listeners that occur when a `child_process` command runs. You can **access these event listeners** by assigning the output of the `spawn` command and using the `on` function of the object
+The `spawn` function returns a `ChildProcess` instance object that supports a set of event listeners that occur when a `child_process` command runs. You can **access these event listeners** by assigning the output of the `spawn` command and using the `on` function of the `ChildProcess` object.
+
+You can **access the output of a command** using the `stdout` property and the `on` function with `data`.
+```js
+const ls = spawn('ls')
+ls.stdout.on('data', data => { console.log(data) }
+```
 
  and returns an object that logs events when that command executes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTgzNTgyMSwtMTE4MzkxNzI4Nl19
+eyJoaXN0b3J5IjpbLTEyNzM1MTA4NzcsLTExODM5MTcyODZdfQ
+==
 -->
