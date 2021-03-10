@@ -37,8 +37,13 @@ const ls = spawn('ls')
 ls.on('close', code => { console.log(`Return code was ${code}`) })
 ```
 
-You can
+### Async Child Processes
+
+You can **execute child processes asynchronously** by wrapping the child process call in a `Promise` that resolves once an event (usually the `close` event) has completed.
+```js
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzYwNTIyNiwtMTkxNDQzOTQzMSwtMT
-E4MzkxNzI4Nl19
+eyJoaXN0b3J5IjpbNzc2NzQyODg0LC0xOTE0NDM5NDMxLC0xMT
+gzOTE3Mjg2XX0=
 -->
