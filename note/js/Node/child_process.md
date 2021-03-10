@@ -12,9 +12,12 @@ const { spawn } = require('child_process')
 spawn('ls') // command executes here
 ```
 
-Yo
+You can **use a command with arguments** by appending them as an argument to the `spawn` command as an array of strings.
+```js
+spawn('curl', ['-v', '-O', 'http://my_binary.org'])
+```
 
  and returns an object that logs events when that command executes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Nzk3NzAxNF19
+eyJoaXN0b3J5IjpbMTQ3MjUwNDkwNF19
 -->
