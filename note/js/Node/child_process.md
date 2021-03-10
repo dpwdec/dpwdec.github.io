@@ -10,7 +10,8 @@ You can **execute a sub process on the command line** by using the `spawn` funct
 ```js
 const { spawn } = require('child_process')
 
+const ls = spawn('ls')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwMzE3MjgwXX0=
+eyJoaXN0b3J5IjpbMTg2MjY3NTEyNl19
 -->
