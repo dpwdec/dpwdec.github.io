@@ -159,6 +159,7 @@ title: Notes index
             <l>Node</l>
             <ul>
                 <l><a href='/note/js/Node/assert'>Assert</a></l><br>
+                <l><a href='/note/js/Node/child_process'>Child Process</a></l><br>
                 <l><a href='/note/js/Node/node'>Node</a></l><br>
                 <l><a href='/note/js/Node/query_string'>querstring</a></l><br>
             </ul>
