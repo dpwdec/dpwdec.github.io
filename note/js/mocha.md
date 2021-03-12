@@ -24,7 +24,10 @@ describe('Some test', () => {
 
 ## Code Runner
 
+You can **run mocha from a javascript file** to control how it runs and manage its configuration as code by using the `Mocha` object.
+```js
 
+```
 
 ## Grep
 
@@ -33,6 +36,6 @@ You can **only run a specific command in mocha** by using the `grep` command wit
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA2OTYzNTIsNzk4NzI4NDY5LC0yMT
-A3NTUyNDk2XX0=
+eyJoaXN0b3J5IjpbODM2MTg5NDkyLDc5ODcyODQ2OSwtMjEwNz
+U1MjQ5Nl19
 -->
