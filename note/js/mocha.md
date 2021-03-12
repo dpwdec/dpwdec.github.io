@@ -37,7 +37,7 @@ mocha.run()
 
 ### Grep
 
-You can **only run a specific tests in mocha** by using the `grep` command with a regex that matches those tests. The `grep` only applies to `it` blocks and does *not* filter by `describe`.
+You can **only run a specific tests in mocha** by using the `grep` command *on the `mocha` object* with a regex that matches those tests. The `grep` only applies to `it` blocks and does *not* filter by `describe`.
 ```js
 mocha.grep('/foo/')
 ```
@@ -59,9 +59,9 @@ describe('tests', () => {
 
 You can **invert mocha test selection** by appending the `invert` function to the `grep`.
 ```js
-
+mocha.grep('/foo/').invert()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwNzg4NDY4LDc5ODcyODQ2OSwtMjEwNz
-U1MjQ5Nl19
+eyJoaXN0b3J5IjpbMTUyMDMzMDc3MSw3OTg3Mjg0NjksLTIxMD
+c1NTI0OTZdfQ==
 -->
