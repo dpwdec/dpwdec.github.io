@@ -70,7 +70,6 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
-  kramdown (>= 2.3.0)
 
 BUNDLED WITH
    1.17.2
