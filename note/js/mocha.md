@@ -57,11 +57,11 @@ describe('tests', () => {
 })
 ```
 
-You can **invert mocha test selection** by appending the `invert` function to the `grep`.
+You can **invert mocha test selection** by appending the `invert` function to the `grep`. Given the example test cases above only `bar` would be run.
 ```js
 mocha.grep('/foo/').invert()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDMzMDc3MSw3OTg3Mjg0NjksLTIxMD
-c1NTI0OTZdfQ==
+eyJoaXN0b3J5IjpbLTEwMjgxMjQyMjUsNzk4NzI4NDY5LC0yMT
+A3NTUyNDk2XX0=
 -->
