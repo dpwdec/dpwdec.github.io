@@ -14,10 +14,15 @@ services:
     build: ./path/to/directory/
 ```
 
-You can **build all images associated with a docker service composition** by using the `build` command. This will build all `Dockerfile`s that are referenced in the `docker-compose.yaml` file.
+You can **build all images associated with a docker service composition** by using the `build` command. This will build all `Dockerfile`s that are referenced in the `docker-compose.yaml` file. It's important to note that you **must re-run this command before starting your service** each time a `Dockerfile` changes.
 ```bash
 $ docker compose build
 ```
+
+You can **start a service composed of docker containers** (and spin up / network all the associated containers) using the `up` command.
+```bash
+$ docker compose up
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ0NTIzNjUsMTc2NDc2NTUxOV19
+eyJoaXN0b3J5IjpbNDk1OTk1MzkzLDE3NjQ3NjU1MTldfQ==
 -->
