@@ -61,7 +61,9 @@ You can **invert mocha test selection** by appending the `invert` function to th
 ```js
 mocha.grep('/foo/').invert()
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjgxMjQyMjUsNzk4NzI4NDY5LC0yMT
-A3NTUyNDk2XX0=
+eyJoaXN0b3J5IjpbNTAyMDMxMTMxLDc5ODcyODQ2OSwtMjEwNz
+U1MjQ5Nl19
 -->
