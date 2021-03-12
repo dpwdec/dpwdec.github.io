@@ -80,9 +80,29 @@ You can **add a preinstalled plug in to a kong service** by using the `plugins` 
 $ curl -X POST http://<admin-hostname>:8001/services/<service>/plugins \  
   --data  "name=<plugin-name>"
 ```
+
+## DecK
+
+DecK is a **desired state synchronisation tool** that allows you to set kong's configuration using a configuration file (defined in `yaml`).
+
+You can **output the current configuration of kong** using the `dump` command. This will output the configuration as `.yaml` file from the `localhost:8001` port that hosts the current instance of kong.
+```bash
+$ deck dump
+```
+
+You **can apply a `.yaml` configuration to kong** using the `sync` command. By default this will post to the `localhost:8001` port for kong and set the kong's configuration so that it matches source file provided. The `-s` flag specifies the *source* file to use.
+```bash
+$ deck sync -s path/to/config.yaml
+```
+
+You can **run deck commands on remote deployments of kong** by using the `--kong-addr` flag. In the example below the `sync` command will post to a remote version of kong hosted at `my-kong.com`.
+```bash
+$ deck sync --kong-addr http://my-kong.com:8001 -s path/to/config.yaml
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk0NDIxNDMsMTU3NTEwNTk2NywtMj
-A1NDQxMTc3OSwtOTA3OTQyODk5LDE3NTIyMzI2OSwtNDA3MDQ3
-NTUzLDIwNDQ4MzkwNzYsNTE2MDg3NTEwLC0xMjQxMjY5ODQwLC
-01Mjk4MDE4MTFdfQ==
+eyJoaXN0b3J5IjpbLTE0ODgyOTA3OTIsLTEwMjczMDA4MDAsND
+Y1NTI0Mjk3LC0xMzY4MTE1ODk0LC0xOTQ5NDQyMTQzLDE1NzUx
+MDU5NjcsLTIwNTQ0MTE3NzksLTkwNzk0Mjg5OSwxNzUyMjMyNj
+ksLTQwNzA0NzU1MywyMDQ0ODM5MDc2LDUxNjA4NzUxMCwtMTI0
+MTI2OTg0MCwtNTI5ODAxODExXX0=
 -->

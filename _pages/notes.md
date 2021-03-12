@@ -106,10 +106,14 @@ title: Notes index
                 <l><a href='/note/devops/docker/docker_file'>Dockerfile</a></l><br>
                 <l><a href='/note/devops/docker/images'>Images</a></l><br>
             </ul>
-            <l><a href='/note/devops/jwt'>JWT</a></l><br>
             <l><a href='/note/devops/kong'>Kong</a></l><br>
-            <l><a href='/note/devops/microservices'>Microservices</a></l><br>
-            <l><a href='/note/devops/oauth'>OAuth</a></l><br>
+            <l><a href='/note/devops/microservices'>Microservices</a></l><br><br>
+            <l>Oauth</l>
+            <ul>
+                <l><a href='/note/devops/oauth/jwt'>JWT</a></l><br>
+                <l><a href='/note/devops/oauth/oauth'>OAuth</a></l><br>
+                <l><a href='/note/devops/oauth/oidc'>OIDC</a></l><br>
+            </ul>
             <l><a href='/note/devops/open_api_spec'>OpenAPISpec</a></l><br>
             <l><a href='/note/devops/proxy'>Proxy</a></l><br>
         </ul>
@@ -150,9 +154,12 @@ title: Notes index
         <l><a href='/note/ieee_754'>IEEE754</a></l><br>
         <l><a href='/note/jet_brains'>JetBrains</a></l><br><br>
         <l>Js</l>
-        <ul><br>
+        <ul>
+            <l><a href='/note/js/Array'>Array</a></l><br><br>
             <l>Node</l>
             <ul>
+                <l><a href='/note/js/Node/assert'>Assert</a></l><br>
+                <l><a href='/note/js/Node/child_process'>Child Process</a></l><br>
                 <l><a href='/note/js/Node/node'>Node</a></l><br>
                 <l><a href='/note/js/Node/query_string'>querstring</a></l><br>
             </ul>
@@ -168,6 +175,7 @@ title: Notes index
             <l><a href='/note/js/jquery'>jQuery</a></l><br>
             <l><a href='/note/js/jsdelivr'>jsdelivr</a></l><br>
             <l><a href='/note/js/jsdom'>Javascript DOM</a></l><br>
+            <l><a href='/note/js/mocha'>Mocha</a></l><br>
             <l><a href='/note/js/mongo_db'>MongoDB</a></l><br><br>
             <l>P5js</l>
             <ul>
@@ -248,6 +256,7 @@ title: Notes index
         <l><a href='/note/vs_code'>Vs Code</a></l><br><br>
         <l>Web</l>
         <ul>
+            <l><a href='/note/web/cookies'>Cookies</a></l><br>
             <l><a href='/note/web/cors'>CORS</a></l><br>
             <l><a href='/note/web/dns'>DNS</a></l><br>
             <l><a href='/note/web/rest'>REST</a></l><br>

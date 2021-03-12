@@ -20,6 +20,5 @@ The source service save the `auth token` and uses it every time the user wants i
 
 The access token is a JWT token.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzczMDEyNDAsMTA2NjQzOTc4MCwtMT
-k3MjAxMTI1Nl19
+eyJoaXN0b3J5IjpbLTE1MzczMDEyNDBdfQ==
 -->
