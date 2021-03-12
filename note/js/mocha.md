@@ -26,7 +26,7 @@ describe('Some test', () => {
 
 You can **run mocha from a javascript file** to control how it runs and manage its configuration as code by using the `Mocha` object.
 ```js
-
+const Mocha = require('mocha')
 ```
 
 ## Grep
@@ -36,6 +36,6 @@ You can **only run a specific command in mocha** by using the `grep` command wit
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2MTg5NDkyLDc5ODcyODQ2OSwtMjEwNz
+eyJoaXN0b3J5IjpbOTM3NjAwMzQyLDc5ODcyODQ2OSwtMjEwNz
 U1MjQ5Nl19
 -->
