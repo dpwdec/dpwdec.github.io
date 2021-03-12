@@ -37,11 +37,11 @@ mocha.run()
 
 ### Grep
 
-You can **only run a specific command in mocha** by using the `grep` command with a regex.
+You can **only run a specific tests in mocha** by using the `grep` command with a regex that matches those tests.
 ```js
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4Nzk2MzkxLDc5ODcyODQ2OSwtMjEwNz
-U1MjQ5Nl19
+eyJoaXN0b3J5IjpbLTE5MDk4ODE2NzEsNzk4NzI4NDY5LC0yMT
+A3NTUyNDk2XX0=
 -->
