@@ -56,7 +56,12 @@ describe('tests', () => {
   })
 })
 ```
+
+You can **invert mocha test selection** by appending the `invert` function to the `grep`.
+```js
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODY0NDk0NCw3OTg3Mjg0NjksLTIxMD
-c1NTI0OTZdfQ==
+eyJoaXN0b3J5IjpbOTIwNzg4NDY4LDc5ODcyODQ2OSwtMjEwNz
+U1MjQ5Nl19
 -->
