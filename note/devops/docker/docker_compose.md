@@ -19,10 +19,10 @@ You can **build all images associated with a docker service composition** by usi
 $ docker compose build
 ```
 
-You can **start a service composed of docker containers** (and spin up / network all the associated containers) using the `up` command.
+You can **start a service composed of docker containers** (and spin up / network all the associated containers) using the `up` command. This command **does NOT rebuild docker images** when run.
 ```bash
 $ docker compose up
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk1OTk1MzkzLDE3NjQ3NjU1MTldfQ==
+eyJoaXN0b3J5IjpbMTM3MjgyNTk1MiwxNzY0NzY1NTE5XX0=
 -->
