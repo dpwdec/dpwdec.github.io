@@ -12,6 +12,11 @@ services:
   my_service:
     build: ./path/to/directory/
 ```
+
+You can **build all images associated with a docker service composition** by using the `build` command.
+```bash
+$ docker compose build
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTc2NTc3NCwxNzY0NzY1NTE5XX0=
+eyJoaXN0b3J5IjpbLTE2NTQwMTkwNzMsMTc2NDc2NTUxOV19
 -->
