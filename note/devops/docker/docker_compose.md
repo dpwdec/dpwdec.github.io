@@ -13,10 +13,10 @@ services:
     build: ./path/to/directory/
 ```
 
-You can **build all images associated with a docker service composition** by using the `build` command.
+You can **build all images associated with a docker service composition** by using the `build` command. This will build all `Dockerfile`s that are referenced in the `docker-compose.yaml` file.
 ```bash
 $ docker compose build
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTQwMTkwNzMsMTc2NDc2NTUxOV19
+eyJoaXN0b3J5IjpbNTkxMDM2OTEzLDE3NjQ3NjU1MTldfQ==
 -->
