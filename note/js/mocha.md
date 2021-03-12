@@ -24,8 +24,10 @@ describe('Some test', () => {
 
 ## Grep
 
+You can **only run a specific command in mocha** by using the `grep` command with a regex.
+```js
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjc4NDYwNjYsLTIxMDc1NTI0OTZdfQ
-==
+eyJoaXN0b3J5IjpbNzk4NzI4NDY5LC0yMTA3NTUyNDk2XX0=
 -->
