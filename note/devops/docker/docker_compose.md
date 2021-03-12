@@ -8,6 +8,7 @@ You can **network together multiple containers** to create a single service usin
 
 You can **point a docker compose service at a `Dockerfile` on the local file system to `build` from** by using the `build` command and a path to the directory containing the target `Dockerfile`.
 ```yaml
+# docker-compose.yml
 services:
   my_service:
     build: ./path/to/directory/
@@ -18,5 +19,5 @@ You can **build all images associated with a docker service composition** by usi
 $ docker compose build
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkxMDM2OTEzLDE3NjQ3NjU1MTldfQ==
+eyJoaXN0b3J5IjpbLTE2MjQ0NTIzNjUsMTc2NDc2NTUxOV19
 -->
