@@ -42,7 +42,7 @@ Bring the first term of each fraction outside of the divisor to separate them.
 
 \\[ f(x + \Delta x)\frac{g(x + \Delta x) - g(x)}{\Delta x} + g(x)\frac{ f(x + \Delta x) - f(x)}{\Delta x} \\]
 
-We now have the derivative defined in four distinct units: \\( f(x + \Delta x) \\), \\( frac{(g(x + \Delta x) - g(x))}{\Delta x} \\), \\( g(x) \\) and \\( \frac{f(x + \Delta x) - f(x)}{\Delta x} \\). This format is starting to look suspiciously like \\( u'v + v'u \\). The last piece of puzzle is to define individuals limits for each part of this expression and use the limit sum rule to combine them.
+We now have the derivative defined in four distinct units: \\( f(x + \Delta x) \\), \\( \frac{(g(x + \Delta x) - g(x))}{\Delta x} \\), \\( g(x) \\) and \\( \frac{f(x + \Delta x) - f(x)}{\Delta x} \\). This format is starting to look suspiciously like \\( u'v + v'u \\). The last piece of puzzle is to define individuals limits for each part of this expression and use the limit sum rule to combine them.
 
 \\[ \lim_{x \to 0} f(x + \Delta x) = f(x) \\]
 
