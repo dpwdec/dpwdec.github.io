@@ -35,13 +35,13 @@ mocha.addFile('myTest.js')
 mocha.run()
 ```
 
-## Grep
+### Grep
 
 You can **only run a specific command in mocha** by using the `grep` command with a regex.
 ```js
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjI2MjI4Miw3OTg3Mjg0NjksLTIxMD
-c1NTI0OTZdfQ==
+eyJoaXN0b3J5IjpbNzk4Nzk2MzkxLDc5ODcyODQ2OSwtMjEwNz
+U1MjQ5Nl19
 -->
