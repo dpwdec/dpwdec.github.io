@@ -24,9 +24,15 @@ describe('Some test', () => {
 
 ## Code Runner
 
-You can **run mocha from a javascript file** to control how it runs and manage its configuration as code by using the `Mocha` object.
+You can **run mocha from a javascript file** to control how it runs and manage its configuration as code by using the `Mocha` object. This requires creating a `new` object with `mocha` and then adding the tests you want to `run`.
 ```js
 const Mocha = require('mocha')
+// instantiate mocha object
+let mocha = new Mocha()
+// add tests to be run
+mocha.addFile('myTest.js')
+// run test suite
+mocha.run()
 ```
 
 ## Grep
@@ -36,6 +42,6 @@ You can **only run a specific command in mocha** by using the `grep` command wit
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3NjAwMzQyLDc5ODcyODQ2OSwtMjEwNz
-U1MjQ5Nl19
+eyJoaXN0b3J5IjpbMjAwNjI2MjI4Miw3OTg3Mjg0NjksLTIxMD
+c1NTI0OTZdfQ==
 -->
