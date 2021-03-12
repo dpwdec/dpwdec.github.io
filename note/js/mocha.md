@@ -41,7 +41,20 @@ You can **only run a specific tests in mocha** by using the `grep` command with 
 ```js
 mocha.grep('/foo/')
 ```
+```js
+const  assert  =  require('assert')
+
+describe('tests', () => {
+  it('foo', () => {
+    assert.strictEqual(10, 10)
+  })
+  
+  it('bar', () => {
+    assert.strictEqual(true, true)
+  })
+})
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTI0MDIxNzgsNzk4NzI4NDY5LC0yMT
-A3NTUyNDk2XX0=
+eyJoaXN0b3J5IjpbNzkyOTY3MzQzLDc5ODcyODQ2OSwtMjEwNz
+U1MjQ5Nl19
 -->
