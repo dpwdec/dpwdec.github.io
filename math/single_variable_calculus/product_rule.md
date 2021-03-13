@@ -67,3 +67,43 @@ Which is the same as \\( (f(x)g(x))' \\) thus proving the product rule.
 This **generalises further to finding the derivate of expressions with more than two functions multipled together** so that you take the derivate of each individual function multiplied by the other functions and added together for each combination of functions, in the form:
 
 \\[ g(x)h(x)f(x)' = g(x)'h(x)f(x) + g(x)h(x)'f(x) + g(x)h(x)f(x)' \\]
+
+### Visualising the Product Rule
+
+You can **visualise the product rule** using simple geometric shapes. For example, in the case of two functions being multiplied together you can imagine this as a rectangle who's length is given by the first function and who's width is given by the second function. The example below shows a box, the length of which is given by the function `sin(x)` and the height of which is given by `x^2`.
+
+```
+┏━━sin(x)━━┓
+┏━━━━━━━━━━┓ ┓
+┃          ┃ ┃
+┃          ┃ x^2
+┃          ┃ ┃
+┗━━━━━━━━━━┛ ┛
+```
+
+If you were to increase `x` slightly you would get 3 new pieces of area: `A`, `B` and `C`.
+
+```
+┏━━━━━━━━━━┓ ┏━┓
+┃          ┃ ┃ ┃
+┃          ┃ ┃A┃
+┃          ┃ ┃ ┃
+┗━━━━━━━━━━┛ ┗━┛
+┏━━━━━━━━━━┓ ┏━┓
+┃     B    ┃ ┃C┃
+┗━━━━━━━━━━┛ ┗━┛
+```
+
+The areas of these different sections are:
+
+\\[ A = \Delta sin(x)x^2 \\]
+
+\\[ B = sin(x)\Delta x^2 \\]
+
+\\[ C = \Delta sin(x) \Delta x^2 \\]
+
+We can ignore `C` because the change of a `Δ` value raised to a power is negligible. That means the whole change of this expression over a tiny `Δx` is the area of `A` plus the area of `B` which is the same as product rule outlined above. So the solution would be:
+
+\\[ cos(x)x^2 + sin(x)2x \\]
+
+This geometric intuition can be **generalised to three dimensions** to implicate what happens with a higher number of functions. In that case you would end up with *three* cuboids that describe the derivative of the function.
