@@ -14,6 +14,7 @@ title: Notes index
         <l><a href='/math/sets'>Linear Algebra</a></l><br><br>
         <l>Single Variable Calculus</l>
         <ul>
+            <l><a href='/math/single_variable_calculus/product_rule'>Product Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/trig_function_derivatives'>Trigonometric Function Derivatives</a></l><br>
         </ul><br>
         <l>Trigonometry</l>
@@ -103,6 +104,7 @@ title: Notes index
             <l>Docker</l>
             <ul>
                 <l><a href='/note/devops/docker/docker'>Docker</a></l><br>
+                <l><a href='/note/devops/docker/docker_compose'>Docker Compose</a></l><br>
                 <l><a href='/note/devops/docker/docker_file'>Dockerfile</a></l><br>
                 <l><a href='/note/devops/docker/images'>Images</a></l><br>
             </ul>
@@ -174,8 +176,12 @@ title: Notes index
             <l><a href='/note/js/jest'>Jest</a></l><br>
             <l><a href='/note/js/jquery'>jQuery</a></l><br>
             <l><a href='/note/js/jsdelivr'>jsdelivr</a></l><br>
-            <l><a href='/note/js/jsdom'>Javascript DOM</a></l><br>
-            <l><a href='/note/js/mocha'>Mocha</a></l><br>
+            <l><a href='/note/js/jsdom'>Javascript DOM</a></l><br><br>
+            <l>Mocha</l>
+            <ul>
+                <l><a href='/note/js/mocha/code_runner'>Code Runner</a></l><br>
+                <l><a href='/note/js/mocha/mocha'>Mocha</a></l><br>
+            </ul>
             <l><a href='/note/js/mongo_db'>MongoDB</a></l><br><br>
             <l>P5js</l>
             <ul>
