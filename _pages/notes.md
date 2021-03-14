@@ -15,6 +15,7 @@ title: Notes index
         <l>Single Variable Calculus</l>
         <ul>
             <l><a href='/math/single_variable_calculus/product_rule'>Product Rule</a></l><br>
+            <l><a href='/math/single_variable_calculus/quotient_rule'>Product Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/trig_function_derivatives'>Trigonometric Function Derivatives</a></l><br>
         </ul><br>
         <l>Trigonometry</l>
