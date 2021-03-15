@@ -19,6 +19,8 @@ There are **session cookies** and **persistent cookies**.
 
 **Third party cookies** are cookies created by applications not directly linked the website that the user is on. *How can this happen?* One common way is adverts. Adverts loaded onto a webpage by third party advertisers have permission to add cookies to your browser even if you never click on the adverts. These cookies can harvest analytics information and history and then use this to collect information.
 
+### Cookie Setting
+
 Cookies are **set by the server** using the `set-cookie` header in the HTTP response object.
 
 ### HTTP Only
@@ -55,8 +57,9 @@ document.cookie = 'foo=bar;max-age=60;secure=true'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDg1MDM3NSwtOTcwOTcwNjMyLC03Nz
-cyNzk0NzAsLTE0NjQzMDE3OTIsMTIxMjQzNzkwNyw5MDg3Njc3
-MzQsLTMzMDU5MDQ3MSw4NjI3NzIzNDcsOTc5NTU0Mzc2LDYwNj
-k3MjA1OSwtNzExMTU2NTk3LDExNzgwOTc1NDRdfQ==
+eyJoaXN0b3J5IjpbNTEyNDg3NTM4LDE2MDQ4NTAzNzUsLTk3MD
+k3MDYzMiwtNzc3Mjc5NDcwLC0xNDY0MzAxNzkyLDEyMTI0Mzc5
+MDcsOTA4NzY3NzM0LC0zMzA1OTA0NzEsODYyNzcyMzQ3LDk3OT
+U1NDM3Niw2MDY5NzIwNTksLTcxMTE1NjU5NywxMTc4MDk3NTQ0
+XX0=
 -->
