@@ -28,7 +28,7 @@ When a cookie **expires** it is deleted by the browser and *not* sent to the ser
 
 There are **session cookies** and **persistent cookies**.
 
-- **Sessions cookies** are stored in RAM and never saved to the hard-drive. These are generally cookies that don't have a `Max-Age` or  They are deleted when you leave a website and used for maintaining user privacy.
+- **Sessions cookies** are stored in RAM and never saved to the hard-drive. These are generally cookies that don't have a `Max-Age` or  or `expires` property set so that they are deleted when you leave a website. They are generally used for maintaining user privacy.
 - **Persistent cookies** are saved and automatically removed when their expiration date is reached. These are primarily used for **authentication** and **personalisation**.
 
 **Third party cookies** are cookies created by applications not directly linked the website that the user is on. *How can this happen?* One common way is adverts. Adverts loaded onto a webpage by third party advertisers have permission to add cookies to your browser even if you never click on the adverts. These cookies can harvest analytics information and history and then use this to collect information.
@@ -68,7 +68,7 @@ document.cookie = 'foo=bar;max-age=60;secure=true'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM0MzcyMDksNjM1MTA2NTY5LDE2MD
+eyJoaXN0b3J5IjpbLTE1MjkzMDIyOTYsNjM1MTA2NTY5LDE2MD
 Q4NTAzNzUsLTk3MDk3MDYzMiwtNzc3Mjc5NDcwLC0xNDY0MzAx
 NzkyLDEyMTI0Mzc5MDcsOTA4NzY3NzM0LC0zMzA1OTA0NzEsOD
 YyNzcyMzQ3LDk3OTU1NDM3Niw2MDY5NzIwNTksLTcxMTE1NjU5
