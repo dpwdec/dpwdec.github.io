@@ -8,7 +8,7 @@ exclude: true
 
 ### Set-Cookie Header
 
-Cookies are **set by the server** using the `set-cookie` header in the HTTP response object. 
+Cookies are **set by the server** using the `Set-Cookie` header in the HTTP response object. When the browser receives the `Set-Cookie` header it stores a cookie locally
 ```
 Set-Cookie: foo=bar;
 ```
@@ -68,9 +68,9 @@ document.cookie = 'foo=bar;max-age=60;secure=true'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzNjQ3NzMsNjM1MTA2NTY5LDE2MDQ4NT
-AzNzUsLTk3MDk3MDYzMiwtNzc3Mjc5NDcwLC0xNDY0MzAxNzky
-LDEyMTI0Mzc5MDcsOTA4NzY3NzM0LC0zMzA1OTA0NzEsODYyNz
-cyMzQ3LDk3OTU1NDM3Niw2MDY5NzIwNTksLTcxMTE1NjU5Nywx
-MTc4MDk3NTQ0XX0=
+eyJoaXN0b3J5IjpbLTEyMDgxNzAzMDksNjM1MTA2NTY5LDE2MD
+Q4NTAzNzUsLTk3MDk3MDYzMiwtNzc3Mjc5NDcwLC0xNDY0MzAx
+NzkyLDEyMTI0Mzc5MDcsOTA4NzY3NzM0LC0zMzA1OTA0NzEsOD
+YyNzcyMzQ3LDk3OTU1NDM3Niw2MDY5NzIwNTksLTcxMTE1NjU5
+NywxMTc4MDk3NTQ0XX0=
 -->
