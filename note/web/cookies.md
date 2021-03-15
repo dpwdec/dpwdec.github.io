@@ -19,6 +19,8 @@ There are **session cookies** and **persistent cookies**.
 
 **Third party cookies** are cookies created by applications not directly linked the website that the user is on. *How can this happen?* One common way is adverts. Adverts loaded onto a webpage by third party advertisers have permission to add cookies to your browser even if you never click on the adverts. These cookies can harvest analytics information and history and then use this to collect information.
 
+Cookies are **set by the server** using the `set-cookie` header in the HTTP response object.
+
 ### HTTP Only
 
 Cookies that are marked with `httponly` **cannot be edited by the client side scripts**. They are not visible to client side scripts and manipulation and can only be edited when sent to the server. Attempts by client side scripts to read cookies marked with `httpOnly` will cause the browser to simply return an empty string.
@@ -53,8 +55,8 @@ document.cookie = 'foo=bar;max-age=60;secure=true'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDk3MDYzMiwtNzc3Mjc5NDcwLC0xND
-Y0MzAxNzkyLDEyMTI0Mzc5MDcsOTA4NzY3NzM0LC0zMzA1OTA0
-NzEsODYyNzcyMzQ3LDk3OTU1NDM3Niw2MDY5NzIwNTksLTcxMT
-E1NjU5NywxMTc4MDk3NTQ0XX0=
+eyJoaXN0b3J5IjpbMTYwNDg1MDM3NSwtOTcwOTcwNjMyLC03Nz
+cyNzk0NzAsLTE0NjQzMDE3OTIsMTIxMjQzNzkwNyw5MDg3Njc3
+MzQsLTMzMDU5MDQ3MSw4NjI3NzIzNDcsOTc5NTU0Mzc2LDYwNj
+k3MjA1OSwtNzExMTU2NTk3LDExNzgwOTc1NDRdfQ==
 -->
