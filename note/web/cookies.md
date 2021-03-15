@@ -6,7 +6,7 @@ exclude: true
 
 **Cookies** are **key-value pairs of information** stored locally in a browser. 
 
-### Set-Cookie Header
+### Cookie Setting and the Set-Cookie Header
 
 Cookies are **set by the server** using the `Set-Cookie` header in the HTTP response object. When the browser receives the `Set-Cookie` header it stores a cookie locally
 ```
@@ -20,13 +20,13 @@ Set-Cookie: foo=bar; max-age=60; secure
 
 You can **set multiple cookies** by including multiple `Set-Cookie` headers in the server response.
 
-Most servers will include some friendly API for setting cookies on a HTTP response. But, at the base level all they are doing is 
-
-If a user leaves a website for some time the cookie will remain stored on their machine so that when they return to a website their cookie (if not expired) can be sent back to the server to retrieve a information about the user. This is essentially the technology that allows user sessions to function. 
+Most servers will include some friendly API for setting cookies on a HTTP response. But, at the base level all they are doing is  manipulating the `Set-Cookie` header.
 
 A cookie is **updated** when a server sends a new cookie. This **can happen asynchronously** if you have a page that makes asynchronous calls to a server that update cookie then that will be displayed in the browser.
 
 When a cookie **expires** it is deleted by the browser and *not* sent to the server.
+
+If a user leaves a website for some time the cookie will remain stored on their machine so that when they return to a website their cookie (if not expired) can be sent back to the server to retrieve a information about the user. This is essentially the technology that allows user sessions to function. 
 
 There are **session cookies** and **persistent cookies**.
 
@@ -70,7 +70,7 @@ document.cookie = 'foo=bar;max-age=60;secure=true'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxNzgwMjI5LDYzNTEwNjU2OSwxNjA0OD
+eyJoaXN0b3J5IjpbOTk5NjgxNjQ5LDYzNTEwNjU2OSwxNjA0OD
 UwMzc1LC05NzA5NzA2MzIsLTc3NzI3OTQ3MCwtMTQ2NDMwMTc5
 MiwxMjEyNDM3OTA3LDkwODc2NzczNCwtMzMwNTkwNDcxLDg2Mj
 c3MjM0Nyw5Nzk1NTQzNzYsNjA2OTcyMDU5LC03MTExNTY1OTcs
