@@ -17,13 +17,13 @@ There are **session cookies** and **persistent cookies**.
 - **Sessions cookies** are stored in RAM and never saved to the hard-drive. They are deleted when you leave a website and used for maintaining user privacy.
 - **Persistent cookies** are saved and automatically removed when their expiration date is reached. These are primarily used for **authentication** and **personalisation**.
 
-
+**Third party cookies** are cookies created by applications not directly linked the website that the user is on
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDExMTgzNDMsODYyNzcyMzQ3LDk3OT
+eyJoaXN0b3J5IjpbLTEwNDUzNjU0MjYsODYyNzcyMzQ3LDk3OT
 U1NDM3Niw2MDY5NzIwNTksLTcxMTE1NjU5NywxMTc4MDk3NTQ0
 XX0=
 -->
