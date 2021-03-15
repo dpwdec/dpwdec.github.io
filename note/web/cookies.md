@@ -21,7 +21,12 @@ There are **session cookies** and **persistent cookies**.
 
 ### Cookie Setting
 
-Cookies are **set by the server** using the `set-cookie` header in the HTTP response object. Cookie properties are set by appending a `;` semi-colon separated list of key-value paired properties to the cookie name assignment. 
+Cookies are **set by the server** using the `set-cookie` header in the HTTP response object. 
+```
+Set-Cookie: foo=bar;
+```
+
+Cookie properties are set by appending a `;` semi-colon separated list of key-value paired properties to the cookie name assignment. 
 ```
 Set-Cookie: foo=bar; max-age=60; secure
 ```
@@ -51,7 +56,7 @@ document.cookie // => 'foo=eggs; bar=qux; spam=ham'
 
 You can **only set one cookie at a time** using this method.
 
-You can **set properties on cookies** by appending a `;` semi-colon separated list of key-value paired properties to the cookie name assignment. The example below creates a cookie that lives for `60` seconds and can only be sent over the https protocol.
+You can **set properties on cookies** in the same way as as the `Set-Cookie` header, by appending a `;` semi-colon separated list of key-value paired properties to the cookie name assignment. The example below creates a cookie that lives for `60` seconds and can only be sent over the https protocol.
 ```js
 document.cookie = 'foo=bar;max-age=60;secure=true'
 ```
@@ -60,7 +65,7 @@ document.cookie = 'foo=bar;max-age=60;secure=true'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODQ1OTI3OCwxNjA0ODUwMzc1LC05Nz
+eyJoaXN0b3J5IjpbMTkwOTIxMTA3MiwxNjA0ODUwMzc1LC05Nz
 A5NzA2MzIsLTc3NzI3OTQ3MCwtMTQ2NDMwMTc5MiwxMjEyNDM3
 OTA3LDkwODc2NzczNCwtMzMwNTkwNDcxLDg2Mjc3MjM0Nyw5Nz
 k1NTQzNzYsNjA2OTcyMDU5LC03MTExNTY1OTcsMTE3ODA5NzU0
