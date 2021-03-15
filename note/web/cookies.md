@@ -31,6 +31,8 @@ Cookie properties are set by appending a `;` semi-colon separated list of key-va
 Set-Cookie: foo=bar; max-age=60; secure
 ```
 
+You can **set multiple cookies** by including multiple `Set-Cookie` headers in the server response.
+
 ### HTTP Only
 
 Cookies that are marked with `httponly` **cannot be edited by the client side scripts**. They are not visible to client side scripts and manipulation and can only be edited when sent to the server. Attempts by client side scripts to read cookies marked with `httpOnly` will cause the browser to simply return an empty string.
@@ -65,9 +67,9 @@ document.cookie = 'foo=bar;max-age=60;secure=true'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwOTIxMTA3MiwxNjA0ODUwMzc1LC05Nz
-A5NzA2MzIsLTc3NzI3OTQ3MCwtMTQ2NDMwMTc5MiwxMjEyNDM3
-OTA3LDkwODc2NzczNCwtMzMwNTkwNDcxLDg2Mjc3MjM0Nyw5Nz
-k1NTQzNzYsNjA2OTcyMDU5LC03MTExNTY1OTcsMTE3ODA5NzU0
-NF19
+eyJoaXN0b3J5IjpbNjM1MTA2NTY5LDE2MDQ4NTAzNzUsLTk3MD
+k3MDYzMiwtNzc3Mjc5NDcwLC0xNDY0MzAxNzkyLDEyMTI0Mzc5
+MDcsOTA4NzY3NzM0LC0zMzA1OTA0NzEsODYyNzcyMzQ3LDk3OT
+U1NDM3Niw2MDY5NzIwNTksLTcxMTE1NjU5NywxMTc4MDk3NTQ0
+XX0=
 -->
