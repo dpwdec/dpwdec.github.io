@@ -63,6 +63,8 @@ document.cookie // => 'foo=eggs; bar=qux; spam=ham'
 
 You can **only set one cookie at a time** using this method.
 
+**Updating cookies on the client side** is **not used especially often** with the preference being to update on the server side instead.
+
 You can **set properties on cookies** in the same way as as the `Set-Cookie` header, by appending a `;` semi-colon separated list of key-value paired properties to the cookie name assignment. The example below creates a cookie that lives for `60` seconds and is `secure` so that it can only be sent over the https protocol. *You can set boolean cookie properties to true simply by including the property keyword*.
 ```js
 document.cookie = 'foo=bar; max-age=60; secure'
@@ -72,7 +74,7 @@ document.cookie = 'foo=bar; max-age=60; secure'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MzAxMTM1MywtMTQ3Njc0ODI3Niw2Mz
+eyJoaXN0b3J5IjpbMjExMzY0MTk2MiwtMTQ3Njc0ODI3Niw2Mz
 UxMDY1NjksMTYwNDg1MDM3NSwtOTcwOTcwNjMyLC03NzcyNzk0
 NzAsLTE0NjQzMDE3OTIsMTIxMjQzNzkwNyw5MDg3Njc3MzQsLT
 MzMDU5MDQ3MSw4NjI3NzIzNDcsOTc5NTU0Mzc2LDYwNjk3MjA1
