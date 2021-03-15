@@ -21,7 +21,7 @@ There are **session cookies** and **persistent cookies**.
 
 ### HTTP Only
 
-Cookies that are marked with `httponly` **cannot be edited by the client**. They are not visible to client side scripts and manipulation and can only be edited when sent to the server.
+Cookies that are marked with `httponly` **cannot be edited by the client side scripts**. They are not visible to client side scripts and manipulation and can only be edited when sent to the server.
 
 You can **see a list of cookies that can be edited client side in your browser** by using the `cookie` property of the `document` object. It returns a list of cookies in a string as key-value pairs, with each pair separated by a `;` semi-colon and single white space.
 ```js
@@ -53,8 +53,8 @@ document.cookie = 'foo=bar;max-age=60;secure=true'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzI3OTQ3MCwtMTQ2NDMwMTc5MiwxMj
-EyNDM3OTA3LDkwODc2NzczNCwtMzMwNTkwNDcxLDg2Mjc3MjM0
-Nyw5Nzk1NTQzNzYsNjA2OTcyMDU5LC03MTExNTY1OTcsMTE3OD
-A5NzU0NF19
+eyJoaXN0b3J5IjpbNjU4MTU4NDkxLC03NzcyNzk0NzAsLTE0Nj
+QzMDE3OTIsMTIxMjQzNzkwNyw5MDg3Njc3MzQsLTMzMDU5MDQ3
+MSw4NjI3NzIzNDcsOTc5NTU0Mzc2LDYwNjk3MjA1OSwtNzExMT
+U2NTk3LDExNzgwOTc1NDRdfQ==
 -->
