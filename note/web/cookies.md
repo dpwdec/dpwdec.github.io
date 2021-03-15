@@ -28,6 +28,8 @@ When a cookie **expires** it is deleted by the browser and *not* sent to the ser
 
 If a user leaves a website for some time the cookie will remain stored on their machine so that when they return to a website their cookie (if not expired) can be sent back to the server to retrieve a information about the user. This is essentially the technology that allows user sessions to function. 
 
+### Cookie Types
+
 There are **session cookies** and **persistent cookies**.
 
 - **Sessions cookies** are stored in RAM and never saved to the hard-drive. These are generally cookies that don't have a `Max-Age` or  or `expires` property set so that they are deleted when you leave a website. They are generally used for maintaining user privacy.
@@ -70,7 +72,7 @@ document.cookie = 'foo=bar;max-age=60;secure=true'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk5NjgxNjQ5LDYzNTEwNjU2OSwxNjA0OD
+eyJoaXN0b3J5IjpbNDE5NjA5MjM1LDYzNTEwNjU2OSwxNjA0OD
 UwMzc1LC05NzA5NzA2MzIsLTc3NzI3OTQ3MCwtMTQ2NDMwMTc5
 MiwxMjEyNDM3OTA3LDkwODc2NzczNCwtMzMwNTkwNDcxLDg2Mj
 c3MjM0Nyw5Nzk1NTQzNzYsNjA2OTcyMDU5LC03MTExNTY1OTcs
