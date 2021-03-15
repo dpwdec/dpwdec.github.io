@@ -15,13 +15,13 @@ When a cookie **expires** it is deleted by the browser and *not* sent to the ser
 There are **session cookies** and **persistent cookies**.
 
 - **Sessions cookies** are stored in RAM and never saved to the hard-drive. They are deleted when you leave a website and used for maintaining user privacy.
-- **Persistent cookies** are saved and automatically removed when their expiration date is reached
+- **Persistent cookies** are saved and automatically removed when their expiration date is reached. 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyNjMzMTA3LDg2Mjc3MjM0Nyw5Nzk1NT
-QzNzYsNjA2OTcyMDU5LC03MTExNTY1OTcsMTE3ODA5NzU0NF19
-
+eyJoaXN0b3J5IjpbLTExMjY5NTQxNDMsODYyNzcyMzQ3LDk3OT
+U1NDM3Niw2MDY5NzIwNTksLTcxMTE1NjU5NywxMTc4MDk3NTQ0
+XX0=
 -->
