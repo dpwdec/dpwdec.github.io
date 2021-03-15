@@ -243,6 +243,10 @@ You can **set the power of a root** by enclosing the power in `[]` square bracke
 
 You can **make the code text BIGGER** by *selecting* the code and then using the `CMD` and `+` keybinding for zooming. This can also be used for **making code text smaller**.
 
+## Mathematical Notation
+
+You can **create a multiplication dot** using the `\cdot` directive.
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTQ2MTIyNTIxNSwtNDI0Njk2MDI5LDkxMT
 U3ODMsMjAyNzY3OTEzNSw5MjEyNTE2OTMsLTMxMjY5MTAyNSwt
