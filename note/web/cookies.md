@@ -21,7 +21,10 @@ There are **session cookies** and **persistent cookies**.
 
 ### Cookie Setting
 
-Cookies are **set by the server** using the `set-cookie` header in the HTTP response object.
+Cookies are **set by the server** using the `set-cookie` header in the HTTP response object. Cookie properties are set by appending a `;` semi-colon separated list of key-value paired properties to the cookie name assignment. 
+```
+Set-Cookie: 
+```
 
 ### HTTP Only
 
@@ -57,9 +60,9 @@ document.cookie = 'foo=bar;max-age=60;secure=true'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyNDg3NTM4LDE2MDQ4NTAzNzUsLTk3MD
-k3MDYzMiwtNzc3Mjc5NDcwLC0xNDY0MzAxNzkyLDEyMTI0Mzc5
-MDcsOTA4NzY3NzM0LC0zMzA1OTA0NzEsODYyNzcyMzQ3LDk3OT
-U1NDM3Niw2MDY5NzIwNTksLTcxMTE1NjU5NywxMTc4MDk3NTQ0
-XX0=
+eyJoaXN0b3J5IjpbLTE1MzQ3MzY0MjYsMTYwNDg1MDM3NSwtOT
+cwOTcwNjMyLC03NzcyNzk0NzAsLTE0NjQzMDE3OTIsMTIxMjQz
+NzkwNyw5MDg3Njc3MzQsLTMzMDU5MDQ3MSw4NjI3NzIzNDcsOT
+c5NTU0Mzc2LDYwNjk3MjA1OSwtNzExMTU2NTk3LDExNzgwOTc1
+NDRdfQ==
 -->
