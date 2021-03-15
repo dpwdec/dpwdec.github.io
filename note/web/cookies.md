@@ -32,15 +32,18 @@ document.cookie // => 'foo=baz; bar=qux'
 
 You can **update a cookie client side** by simply setting a key-value pair string on the `document.cookie` property. This *does not* overwrite the entire list of cookies and is intelligent enough to simply add or modify a cookie.
 ```js
+//retrieve existing cookies
 document.cookie // => 'foo=baz; bar=qux'
-document.cooki
+// modify existing cookie
+document.cookie = 'foo=eggs'
+document.cookie // => 'foo=eggs; bar=qux'
 ```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTI3OTM0NTksOTA4NzY3NzM0LC0zMz
+eyJoaXN0b3J5IjpbLTE3MjI2MTMxOTcsOTA4NzY3NzM0LC0zMz
 A1OTA0NzEsODYyNzcyMzQ3LDk3OTU1NDM3Niw2MDY5NzIwNTks
 LTcxMTE1NjU5NywxMTc4MDk3NTQ0XX0=
 -->
