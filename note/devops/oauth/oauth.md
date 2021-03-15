@@ -8,6 +8,8 @@ OAuth2.0 is used for **authorization** *NOT* authentication. The purpose of the 
 
 When a user **gives permission to one application to access another application on their behalf** this called **delegated access**.
 
+The **resource owner** is the user 
+
 ## OAuth Flow
 
 
@@ -20,5 +22,5 @@ The source service save the `auth token` and uses it every time the user wants i
 
 The access token is a JWT token.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzczMDEyNDBdfQ==
+eyJoaXN0b3J5IjpbMTUxNjM5MjU3NF19
 -->
