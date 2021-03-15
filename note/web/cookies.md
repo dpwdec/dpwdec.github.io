@@ -12,8 +12,13 @@ A cookie is **updated** when a server sends a new cookie. This **can happen asyn
 
 When a cookie **expires** it is deleted by the browser and *not* sent to the server.
 
+There are **session cookies** and **persistent cookies**.
+
+- **Sessions cookies** are stored in RAM and never saved to the hard-drive. They are deleted when you leave a website and used 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYyNzcyMzQ3LDk3OTU1NDM3Niw2MDY5Nz
-IwNTksLTcxMTE1NjU5NywxMTc4MDk3NTQ0XX0=
+eyJoaXN0b3J5IjpbMjEzOTkxMjAxNyw4NjI3NzIzNDcsOTc5NT
+U0Mzc2LDYwNjk3MjA1OSwtNzExMTU2NTk3LDExNzgwOTc1NDRd
+fQ==
 -->
