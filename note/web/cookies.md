@@ -19,11 +19,15 @@ There are **session cookies** and **persistent cookies**.
 
 **Third party cookies** are cookies created by applications not directly linked the website that the user is on. *How can this happen?* One common way is adverts. Adverts loaded onto a webpage by third party advertisers have permission to add cookies to your browser even if you never click on the adverts. These cookies can harvest analytics information and history and then use this to collect information.
 
+### HTTP Only
+
+Cookies that are marked with `httponly` **cannot be edited by the client**. They are not visible to client side scripts and manipulation and can only be edited when sent to the server.
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMDU5MDQ3MSw4NjI3NzIzNDcsOTc5NT
-U0Mzc2LDYwNjk3MjA1OSwtNzExMTU2NTk3LDExNzgwOTc1NDRd
-fQ==
+eyJoaXN0b3J5IjpbMTEwMTk3NTIzOCwtMzMwNTkwNDcxLDg2Mj
+c3MjM0Nyw5Nzk1NTQzNzYsNjA2OTcyMDU5LC03MTExNTY1OTcs
+MTE3ODA5NzU0NF19
 -->
