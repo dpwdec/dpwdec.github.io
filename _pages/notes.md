@@ -181,7 +181,8 @@ title: Notes index
             <l>Mocha</l>
             <ul>
                 <l><a href='/note/js/mocha/code_runner'>Code Runner</a></l><br>
-                <l><a href='/note/js/mocha/mocha'>Mocha</a></l><br>
+                <l>/mocha'>
+            </ul<a href='/note/js/mocha/mocha'>Mocha</a></l><br>
             </ul>
             <l><a href='/note/js/mongo_db'>MongoDB</a></l><br><br>
             <l>P5js</l>
@@ -272,3 +273,6 @@ title: Notes index
         <l><a href='/note/youtube_data'>Youtube Data</a></l><br>
     </ul>
 </ul>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTgzNDEyNTM4Ml19
+-->
