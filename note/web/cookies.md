@@ -25,14 +25,14 @@ Cookies that are marked with `httponly` **cannot be edited by the client**. They
 
 You can **see a list of cookies that can be edited client side in your browser** by using the `cookie` property.
 ```js
-document.cookie // => 'cookie_1=value;'
+document.cookie // => 'foo=baz; bar=qux'
 ```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxNjE2NjEsLTMzMDU5MDQ3MSw4NjI3Nz
+eyJoaXN0b3J5IjpbNTc1Mzg5MTksLTMzMDU5MDQ3MSw4NjI3Nz
 IzNDcsOTc5NTU0Mzc2LDYwNjk3MjA1OSwtNzExMTU2NTk3LDEx
 NzgwOTc1NDRdfQ==
 -->
