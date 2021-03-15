@@ -42,11 +42,13 @@ document.cookie = 'spam=ham'
 document.cookie // => 'foo=eggs; bar=qux; spam=ham'
 ```
 
+You can **only set one cookie at a time** using this method.
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjQzNzkwNyw5MDg3Njc3MzQsLTMzMD
-U5MDQ3MSw4NjI3NzIzNDcsOTc5NTU0Mzc2LDYwNjk3MjA1OSwt
-NzExMTU2NTk3LDExNzgwOTc1NDRdfQ==
+eyJoaXN0b3J5IjpbLTE0NjQzMDE3OTIsMTIxMjQzNzkwNyw5MD
+g3Njc3MzQsLTMzMDU5MDQ3MSw4NjI3NzIzNDcsOTc5NTU0Mzc2
+LDYwNjk3MjA1OSwtNzExMTU2NTk3LDExNzgwOTc1NDRdfQ==
 -->
