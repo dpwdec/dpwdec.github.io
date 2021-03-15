@@ -65,16 +65,16 @@ You can **only set one cookie at a time** using this method.
 
 You can **set properties on cookies** in the same way as as the `Set-Cookie` header, by appending a `;` semi-colon separated list of key-value paired properties to the cookie name assignment. The example below creates a cookie that lives for `60` seconds and can only be sent over the https protocol.
 ```js
-document.cookie = 'foo=bar;max-age=60;secure=true'
+document.cookie = 'foo=bar; max-age=60; secure'
 ```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5NjA5MjM1LDYzNTEwNjU2OSwxNjA0OD
-UwMzc1LC05NzA5NzA2MzIsLTc3NzI3OTQ3MCwtMTQ2NDMwMTc5
-MiwxMjEyNDM3OTA3LDkwODc2NzczNCwtMzMwNTkwNDcxLDg2Mj
-c3MjM0Nyw5Nzk1NTQzNzYsNjA2OTcyMDU5LC03MTExNTY1OTcs
-MTE3ODA5NzU0NF19
+eyJoaXN0b3J5IjpbLTE0NzY3NDgyNzYsNjM1MTA2NTY5LDE2MD
+Q4NTAzNzUsLTk3MDk3MDYzMiwtNzc3Mjc5NDcwLC0xNDY0MzAx
+NzkyLDEyMTI0Mzc5MDcsOTA4NzY3NzM0LC0zMzA1OTA0NzEsOD
+YyNzcyMzQ3LDk3OTU1NDM3Niw2MDY5NzIwNTksLTcxMTE1NjU5
+NywxMTc4MDk3NTQ0XX0=
 -->
