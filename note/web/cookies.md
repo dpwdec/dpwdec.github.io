@@ -44,11 +44,17 @@ document.cookie // => 'foo=eggs; bar=qux; spam=ham'
 
 You can **only set one cookie at a time** using this method.
 
+You can **set properties on cookies** by appending a `;` semi-colon separated list of key-value paired properties to the cookie name assignment.
+```js
+document.cookie = 'foo=bar;
+```
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjQzMDE3OTIsMTIxMjQzNzkwNyw5MD
-g3Njc3MzQsLTMzMDU5MDQ3MSw4NjI3NzIzNDcsOTc5NTU0Mzc2
-LDYwNjk3MjA1OSwtNzExMTU2NTk3LDExNzgwOTc1NDRdfQ==
+eyJoaXN0b3J5IjpbLTIwMzAwMjY5MTEsLTE0NjQzMDE3OTIsMT
+IxMjQzNzkwNyw5MDg3Njc3MzQsLTMzMDU5MDQ3MSw4NjI3NzIz
+NDcsOTc5NTU0Mzc2LDYwNjk3MjA1OSwtNzExMTU2NTk3LDExNz
+gwOTc1NDRdfQ==
 -->
