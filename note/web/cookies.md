@@ -6,6 +6,20 @@ exclude: true
 
 **Cookies** are **key-value pairs of information** stored locally in a browser. 
 
+### Set-Cookie Header
+
+Cookies are **set by the server** using the `set-cookie` header in the HTTP response object. 
+```
+Set-Cookie: foo=bar;
+```
+
+Cookie properties are set by appending a `;` semi-colon separated list of key-value paired properties to the cookie name assignment. 
+```
+Set-Cookie: foo=bar; max-age=60; secure
+```
+
+You can **set multiple cookies** by including multiple `Set-Cookie` headers in the server response.
+
 If a user leaves a website for some time the cookie will remain stored on their machine so that when they return to a website their cookie (if not expired) can be sent back to the server to retrieve a information about the user. This is essentially the technology that allows user sessions to function. 
 
 A cookie is **updated** when a server sends a new cookie. This **can happen asynchronously** if you have a page that makes asynchronous calls to a server that update cookie then that will be displayed in the browser.
@@ -19,19 +33,6 @@ There are **session cookies** and **persistent cookies**.
 
 **Third party cookies** are cookies created by applications not directly linked the website that the user is on. *How can this happen?* One common way is adverts. Adverts loaded onto a webpage by third party advertisers have permission to add cookies to your browser even if you never click on the adverts. These cookies can harvest analytics information and history and then use this to collect information.
 
-### Cookie Setting
-
-Cookies are **set by the server** using the `set-cookie` header in the HTTP response object. 
-```
-Set-Cookie: foo=bar;
-```
-
-Cookie properties are set by appending a `;` semi-colon separated list of key-value paired properties to the cookie name assignment. 
-```
-Set-Cookie: foo=bar; max-age=60; secure
-```
-
-You can **set multiple cookies** by including multiple `Set-Cookie` headers in the server response.
 
 ### HTTP Only
 
@@ -67,9 +68,9 @@ document.cookie = 'foo=bar;max-age=60;secure=true'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM1MTA2NTY5LDE2MDQ4NTAzNzUsLTk3MD
-k3MDYzMiwtNzc3Mjc5NDcwLC0xNDY0MzAxNzkyLDEyMTI0Mzc5
-MDcsOTA4NzY3NzM0LC0zMzA1OTA0NzEsODYyNzcyMzQ3LDk3OT
-U1NDM3Niw2MDY5NzIwNTksLTcxMTE1NjU5NywxMTc4MDk3NTQ0
-XX0=
+eyJoaXN0b3J5IjpbMjgzNjQ3NzMsNjM1MTA2NTY5LDE2MDQ4NT
+AzNzUsLTk3MDk3MDYzMiwtNzc3Mjc5NDcwLC0xNDY0MzAxNzky
+LDEyMTI0Mzc5MDcsOTA4NzY3NzM0LC0zMzA1OTA0NzEsODYyNz
+cyMzQ3LDk3OTU1NDM3Niw2MDY5NzIwNTksLTcxMTE1NjU5Nywx
+MTc4MDk3NTQ0XX0=
 -->
