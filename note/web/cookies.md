@@ -37,13 +37,15 @@ document.cookie // => 'foo=baz; bar=qux'
 // modify existing cookie
 document.cookie = 'foo=eggs'
 document.cookie // => 'foo=eggs; bar=qux'
+// add new cookie
+document.cookie = 'spam=ham' // => 'foo=eggs; bar=qux'
 ```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjI2MTMxOTcsOTA4NzY3NzM0LC0zMz
-A1OTA0NzEsODYyNzcyMzQ3LDk3OTU1NDM3Niw2MDY5NzIwNTks
-LTcxMTE1NjU5NywxMTc4MDk3NTQ0XX0=
+eyJoaXN0b3J5IjpbMTgxNjk0OTMzMSw5MDg3Njc3MzQsLTMzMD
+U5MDQ3MSw4NjI3NzIzNDcsOTc5NTU0Mzc2LDYwNjk3MjA1OSwt
+NzExMTU2NTk3LDExNzgwOTc1NDRdfQ==
 -->
