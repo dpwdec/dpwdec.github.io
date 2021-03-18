@@ -4,27 +4,29 @@ layout: page
 exclude: true
 ---
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
 The **chain rule** is used for taking the derivative of functions *inside* other functions i.e. derivatives in the domain of **function composition**. For example, the function:
 
 
-[\\ sin(x^2) \\]
+\\[ sin(x^2) \\]
 
 is a **composition** of the two functions (lets call them `g` and `h`):
 
 
-[\\ g(x) = sin(x) \\]
+\\[ g(x) = sin(x) \\]
 
-[\\ h(x) = x^2 \\]
+\\[ h(x) = x^2 \\]
 
 With the function `h` plugged into the `x` input on function `g`.
 
 The **chain rule** states that **the derivative of two composed functions is the derivative of the outer function multiplied by the derivative of the inner function**. So in the example of above this would mean that:
 
-[\\ sin(x^2)' = \\]
+\\[ sin(x^2)' = \\]
 
-[\\ cos(x^2)2x \\]
+\\[ cos(x^2)2x \\]
 
 More generally:
 
@@ -46,4 +48,9 @@ This is algebraically equivalent to the product of the two derivatives
 
 \\[ \frac{\Delta f}{\Delta x} = \frac{\Delta f}{\Delta g} \cdot \frac{\Delta g}{\Delta x} \\]
 
-The two \\( \Delta g \\) numerator and denominator cancel here showing that they are equivalent. Thus proving the chain rule.
+The two \\( \Delta g \\) numerator and denominator cancel here 
+
+
+\\[ \frac{\Delta f}{\cancel{\Delta g}} \cdot \frac{\cancel{\Delta g}}{\Delta x} \\]
+
+showing that the two expressions are equivalent to \\( \frac{\Delta f}{\Delta x} \\). Thus proving the chain rule.
