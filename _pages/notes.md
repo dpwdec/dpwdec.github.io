@@ -14,6 +14,8 @@ title: Notes index
         <l><a href='/math/sets'>Linear Algebra</a></l><br><br>
         <l>Single Variable Calculus</l>
         <ul>
+            <l><a href='/math/single_variable_calculus/chain_rule'>Chain Rule</a></l><br>
+            <l><a href='/math/single_variable_calculus/higher_derivatives'>Higher Derivatives</a></l><br>
             <l><a href='/math/single_variable_calculus/product_rule'>Product Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/quotient_rule'>Product Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/reciprocals'>Reciprocals</a></l><br>
