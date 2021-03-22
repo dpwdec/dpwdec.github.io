@@ -49,7 +49,7 @@ document.cookie // => 'foo=baz; bar=qux'
 
 ### Path
 
-The `path` attribute on a cookie is a security feature that **controls where a cookie can be sent**. A cookie's `path` attribute must match the path that it is being sent to.
+The `path` attribute on a cookie is a security feature that **controls where a cookie can be sent**. If a cookie's `path` attribute matches the p
 
 ## Client Side Cookie Editing
 
@@ -78,10 +78,10 @@ document.cookie = 'foo=bar; max-age=60; secure'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxMjc4MjAsLTE5OTI1MTkzMjEsLTM5MT
-M2ODY3NSwtMTQ3Njc0ODI3Niw2MzUxMDY1NjksMTYwNDg1MDM3
-NSwtOTcwOTcwNjMyLC03NzcyNzk0NzAsLTE0NjQzMDE3OTIsMT
-IxMjQzNzkwNyw5MDg3Njc3MzQsLTMzMDU5MDQ3MSw4NjI3NzIz
-NDcsOTc5NTU0Mzc2LDYwNjk3MjA1OSwtNzExMTU2NTk3LDExNz
-gwOTc1NDRdfQ==
+eyJoaXN0b3J5IjpbMTIwODAzNTIxMywtMTk5MjUxOTMyMSwtMz
+kxMzY4Njc1LC0xNDc2NzQ4Mjc2LDYzNTEwNjU2OSwxNjA0ODUw
+Mzc1LC05NzA5NzA2MzIsLTc3NzI3OTQ3MCwtMTQ2NDMwMTc5Mi
+wxMjEyNDM3OTA3LDkwODc2NzczNCwtMzMwNTkwNDcxLDg2Mjc3
+MjM0Nyw5Nzk1NTQzNzYsNjA2OTcyMDU5LC03MTExNTY1OTcsMT
+E3ODA5NzU0NF19
 -->
