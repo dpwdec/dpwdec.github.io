@@ -89,17 +89,17 @@ You can **set properties on cookies** in the same way as as the `Set-Cookie` hea
 document.cookie = 'foo=bar; max-age=60; secure'
 ```
 
-For security reasons, cookie meta-data like `path`, 
+To curtail the malicious editing of cookies, cookie meta-data like `path`, `domain` and `expires` are not visible on client side scripts, like Javascript's `document.cookie`. 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzODkyODI5LC0xMDQxOTE0MzU5LDE4Mz
-QyNjAxOTIsLTE4NDMxODAwMDIsNTk4Mzk2Mzk2LC0xOTkyNTE5
-MzIxLC0zOTEzNjg2NzUsLTE0NzY3NDgyNzYsNjM1MTA2NTY5LD
-E2MDQ4NTAzNzUsLTk3MDk3MDYzMiwtNzc3Mjc5NDcwLC0xNDY0
-MzAxNzkyLDEyMTI0Mzc5MDcsOTA4NzY3NzM0LC0zMzA1OTA0Nz
-EsODYyNzcyMzQ3LDk3OTU1NDM3Niw2MDY5NzIwNTksLTcxMTE1
-NjU5N119
+eyJoaXN0b3J5IjpbMjEyOTExMDI1OSwtMTA0MTkxNDM1OSwxOD
+M0MjYwMTkyLC0xODQzMTgwMDAyLDU5ODM5NjM5NiwtMTk5MjUx
+OTMyMSwtMzkxMzY4Njc1LC0xNDc2NzQ4Mjc2LDYzNTEwNjU2OS
+wxNjA0ODUwMzc1LC05NzA5NzA2MzIsLTc3NzI3OTQ3MCwtMTQ2
+NDMwMTc5MiwxMjEyNDM3OTA3LDkwODc2NzczNCwtMzMwNTkwND
+cxLDg2Mjc3MjM0Nyw5Nzk1NTQzNzYsNjA2OTcyMDU5LC03MTEx
+NTY1OTddfQ==
 -->
