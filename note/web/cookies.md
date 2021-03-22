@@ -54,7 +54,7 @@ The `path` attribute on a cookie is a security feature that **controls where a c
 Cookie: foo=bar; Path=/about
 ```
 
-If this cookie was sent to the `http://some-website.com/about` then *the cookie will be passed through* and will be accessible by the server from the request. However, if the cookie was sent to `http://some-website.com/contact`
+If this cookie was sent to the `http://some-website.com/about` then *the cookie will be passed through* and will be accessible by the server from the request. However, if the cookie was sent to `http://some-website.com/contact` 
 
 ## Client Side Cookie Editing
 
@@ -83,10 +83,10 @@ document.cookie = 'foo=bar; max-age=60; secure'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODc3OTI0OSw1OTgzOTYzOTYsLTE5OT
-I1MTkzMjEsLTM5MTM2ODY3NSwtMTQ3Njc0ODI3Niw2MzUxMDY1
-NjksMTYwNDg1MDM3NSwtOTcwOTcwNjMyLC03NzcyNzk0NzAsLT
-E0NjQzMDE3OTIsMTIxMjQzNzkwNyw5MDg3Njc3MzQsLTMzMDU5
-MDQ3MSw4NjI3NzIzNDcsOTc5NTU0Mzc2LDYwNjk3MjA1OSwtNz
-ExMTU2NTk3LDExNzgwOTc1NDRdfQ==
+eyJoaXN0b3J5IjpbLTE2NTY5OTI3NDEsNTk4Mzk2Mzk2LC0xOT
+kyNTE5MzIxLC0zOTEzNjg2NzUsLTE0NzY3NDgyNzYsNjM1MTA2
+NTY5LDE2MDQ4NTAzNzUsLTk3MDk3MDYzMiwtNzc3Mjc5NDcwLC
+0xNDY0MzAxNzkyLDEyMTI0Mzc5MDcsOTA4NzY3NzM0LC0zMzA1
+OTA0NzEsODYyNzcyMzQ3LDk3OTU1NDM3Niw2MDY5NzIwNTksLT
+cxMTE1NjU5NywxMTc4MDk3NTQ0XX0=
 -->
