@@ -11,7 +11,7 @@ title: Notes index
         <l><a href='/math/linear_algebra'>Linear Algebra</a></l><br>
         <l><a href='/math/logarithms'>Logarithms</a></l><br>
         <l><a href='/math/point_slope'>Point Slope Formula</a></l><br>
-        <l><a href='/math/sets'>Linear Algebra</a></l><br><br>
+        <l><a href='/math/sets'>Sets</a></l><br><br>
         <l>Single Variable Calculus</l>
         <ul>
             <l><a href='/math/single_variable_calculus/chain_rule'>Chain Rule</a></l><br>
@@ -20,7 +20,8 @@ title: Notes index
             <l><a href='/math/single_variable_calculus/quotient_rule'>Product Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/reciprocals'>Reciprocals</a></l><br>
             <l><a href='/math/single_variable_calculus/trig_function_derivatives'>Trigonometric Function Derivatives</a></l><br>
-        </ul><br>
+        </ul>
+        <l><a href='/math/tangent_lines'>Tangent Lines</a></l><br><br>
         <l>Trigonometry</l>
         <ul>
             <l><a href='/math/trigonometry/sum_and_difference_formulas'>Trigonometric Sum and Difference Formulas</a></l><br>
