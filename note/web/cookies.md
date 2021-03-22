@@ -66,6 +66,8 @@ Cookies **are scoped by a `domain` property**. A cookie can **only be sent to a 
 
 Browsers also do not allow you access the `domain` property of a cookie directly in scripts etc.
 
+Browsers will block cookies that come with a different 
+
 ## Client Side Cookie Editing
 
 You can **update a cookie client side** by simply setting a key-value pair string on the `document.cookie` property. This *does not* overwrite the entire list of cookies and is intelligent enough to simply add or modify a cookie.
@@ -95,11 +97,11 @@ To curtail the malicious editing of cookies, cookie meta-data like `path`, `doma
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzMTc2ODgxLDIxMjkxMTAyNTksLTEwND
-E5MTQzNTksMTgzNDI2MDE5MiwtMTg0MzE4MDAwMiw1OTgzOTYz
-OTYsLTE5OTI1MTkzMjEsLTM5MTM2ODY3NSwtMTQ3Njc0ODI3Ni
-w2MzUxMDY1NjksMTYwNDg1MDM3NSwtOTcwOTcwNjMyLC03Nzcy
-Nzk0NzAsLTE0NjQzMDE3OTIsMTIxMjQzNzkwNyw5MDg3Njc3Mz
-QsLTMzMDU5MDQ3MSw4NjI3NzIzNDcsOTc5NTU0Mzc2LDYwNjk3
-MjA1OV19
+eyJoaXN0b3J5IjpbMTczNDUxNTc0MywyMTI5MTEwMjU5LC0xMD
+QxOTE0MzU5LDE4MzQyNjAxOTIsLTE4NDMxODAwMDIsNTk4Mzk2
+Mzk2LC0xOTkyNTE5MzIxLC0zOTEzNjg2NzUsLTE0NzY3NDgyNz
+YsNjM1MTA2NTY5LDE2MDQ4NTAzNzUsLTk3MDk3MDYzMiwtNzc3
+Mjc5NDcwLC0xNDY0MzAxNzkyLDEyMTI0Mzc5MDcsOTA4NzY3Nz
+M0LC0zMzA1OTA0NzEsODYyNzcyMzQ3LDk3OTU1NDM3Niw2MDY5
+NzIwNTldfQ==
 -->
