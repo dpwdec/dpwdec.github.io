@@ -64,7 +64,7 @@ A **cookie with an empty path will be sent to any path** by the client.
 
 Cookies **are scoped by a `domain` property**. A cookie can **only be sent to a domain that matches the domain it was created on**, thus stopping cookies from being sent cross site. Browsers will block cookies from being sent to any domain other than the domain the cookie was created on.
 
-Browsers 
+Browsers also do not allow you access the `domain` property of a cookie directly in scripts etc.
 
 ## Client Side Cookie Editing
 
@@ -95,11 +95,11 @@ To curtail the malicious editing of cookies, cookie meta-data like `path`, `doma
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTExMDI1OSwtMTA0MTkxNDM1OSwxOD
-M0MjYwMTkyLC0xODQzMTgwMDAyLDU5ODM5NjM5NiwtMTk5MjUx
-OTMyMSwtMzkxMzY4Njc1LC0xNDc2NzQ4Mjc2LDYzNTEwNjU2OS
-wxNjA0ODUwMzc1LC05NzA5NzA2MzIsLTc3NzI3OTQ3MCwtMTQ2
-NDMwMTc5MiwxMjEyNDM3OTA3LDkwODc2NzczNCwtMzMwNTkwND
-cxLDg2Mjc3MjM0Nyw5Nzk1NTQzNzYsNjA2OTcyMDU5LC03MTEx
-NTY1OTddfQ==
+eyJoaXN0b3J5IjpbOTAzMTc2ODgxLDIxMjkxMTAyNTksLTEwND
+E5MTQzNTksMTgzNDI2MDE5MiwtMTg0MzE4MDAwMiw1OTgzOTYz
+OTYsLTE5OTI1MTkzMjEsLTM5MTM2ODY3NSwtMTQ3Njc0ODI3Ni
+w2MzUxMDY1NjksMTYwNDg1MDM3NSwtOTcwOTcwNjMyLC03Nzcy
+Nzk0NzAsLTE0NjQzMDE3OTIsMTIxMjQzNzkwNyw5MDg3Njc3Mz
+QsLTMzMDU5MDQ3MSw4NjI3NzIzNDcsOTc5NTU0Mzc2LDYwNjk3
+MjA1OV19
 -->
