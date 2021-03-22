@@ -56,7 +56,7 @@ Cookie: foo=bar; Path=/about
 
 If this cookie was sent to the `http://some-website.com/about` then *the cookie will be passed through* and will be accessible by the server from the request. However, if the cookie was sent to `http://some-website.com/contact` (or any other url path that does not match the cookie's path property)  then *the cookie will not be sent by the browser*.
 
-If **no path is set** then the cookie defaults to an empty `/` path. 
+If **no path is set** then the cookie defaults to an empty `/` path. A **cookie with an empty path will be forwarded to any path**.
 
 ## Client Side Cookie Editing
 
@@ -85,10 +85,10 @@ document.cookie = 'foo=bar; max-age=60; secure'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA4OTE2NzAwLC0xODQzMTgwMDAyLDU5OD
-M5NjM5NiwtMTk5MjUxOTMyMSwtMzkxMzY4Njc1LC0xNDc2NzQ4
-Mjc2LDYzNTEwNjU2OSwxNjA0ODUwMzc1LC05NzA5NzA2MzIsLT
-c3NzI3OTQ3MCwtMTQ2NDMwMTc5MiwxMjEyNDM3OTA3LDkwODc2
-NzczNCwtMzMwNTkwNDcxLDg2Mjc3MjM0Nyw5Nzk1NTQzNzYsNj
-A2OTcyMDU5LC03MTExNTY1OTcsMTE3ODA5NzU0NF19
+eyJoaXN0b3J5IjpbLTYzMTA4NzQ3OSwtMTg0MzE4MDAwMiw1OT
+gzOTYzOTYsLTE5OTI1MTkzMjEsLTM5MTM2ODY3NSwtMTQ3Njc0
+ODI3Niw2MzUxMDY1NjksMTYwNDg1MDM3NSwtOTcwOTcwNjMyLC
+03NzcyNzk0NzAsLTE0NjQzMDE3OTIsMTIxMjQzNzkwNyw5MDg3
+Njc3MzQsLTMzMDU5MDQ3MSw4NjI3NzIzNDcsOTc5NTU0Mzc2LD
+YwNjk3MjA1OSwtNzExMTU2NTk3LDExNzgwOTc1NDRdfQ==
 -->
