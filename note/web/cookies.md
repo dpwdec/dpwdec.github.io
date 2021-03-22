@@ -54,6 +54,8 @@ The `path` attribute on a cookie is a security feature that **controls where a c
 Cookie: foo=bar; Path=/about
 ```
 
+If this cookie was sent to the 
+
 ## Client Side Cookie Editing
 
 You can **update a cookie client side** by simply setting a key-value pair string on the `document.cookie` property. This *does not* overwrite the entire list of cookies and is intelligent enough to simply add or modify a cookie.
@@ -81,7 +83,7 @@ document.cookie = 'foo=bar; max-age=60; secure'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxMjI3OTkxLDU5ODM5NjM5NiwtMTk5Mj
+eyJoaXN0b3J5IjpbNTYwMDUzODQxLDU5ODM5NjM5NiwtMTk5Mj
 UxOTMyMSwtMzkxMzY4Njc1LC0xNDc2NzQ4Mjc2LDYzNTEwNjU2
 OSwxNjA0ODUwMzc1LC05NzA5NzA2MzIsLTc3NzI3OTQ3MCwtMT
 Q2NDMwMTc5MiwxMjEyNDM3OTA3LDkwODc2NzczNCwtMzMwNTkw
