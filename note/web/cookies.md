@@ -66,9 +66,9 @@ Cookies **are scoped by a `domain` property**. A cookie can **only be sent to a 
 
 Browsers also do not allow you access the `domain` property of a cookie directly in scripts etc.
 
-Browsers will **block cookies that come with a different domain than domain on which they are received**.
+Browsers will **block cookies that come with a different domain than domain on which they are received**. For example, if I loaded up a page at `http://some-website.com` and then website responded with a `Set-Cookie` header for a cookie with a different domain, in the case below, `another-website.com` the browser would then **automatically block the cookie from being created**.
 ```
-Set-Cookie: foo=bar; domain=another-
+Set-Cookie: foo=bar; domain=another-website.com
 ```
  
 
@@ -101,11 +101,11 @@ To curtail the malicious editing of cookies, cookie meta-data like `path`, `doma
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU3ODMwMzAsMjEyOTExMDI1OSwtMT
-A0MTkxNDM1OSwxODM0MjYwMTkyLC0xODQzMTgwMDAyLDU5ODM5
-NjM5NiwtMTk5MjUxOTMyMSwtMzkxMzY4Njc1LC0xNDc2NzQ4Mj
-c2LDYzNTEwNjU2OSwxNjA0ODUwMzc1LC05NzA5NzA2MzIsLTc3
-NzI3OTQ3MCwtMTQ2NDMwMTc5MiwxMjEyNDM3OTA3LDkwODc2Nz
-czNCwtMzMwNTkwNDcxLDg2Mjc3MjM0Nyw5Nzk1NTQzNzYsNjA2
-OTcyMDU5XX0=
+eyJoaXN0b3J5IjpbLTU4Nzk2OTYzOSwyMTI5MTEwMjU5LC0xMD
+QxOTE0MzU5LDE4MzQyNjAxOTIsLTE4NDMxODAwMDIsNTk4Mzk2
+Mzk2LC0xOTkyNTE5MzIxLC0zOTEzNjg2NzUsLTE0NzY3NDgyNz
+YsNjM1MTA2NTY5LDE2MDQ4NTAzNzUsLTk3MDk3MDYzMiwtNzc3
+Mjc5NDcwLC0xNDY0MzAxNzkyLDEyMTI0Mzc5MDcsOTA4NzY3Nz
+M0LC0zMzA1OTA0NzEsODYyNzcyMzQ3LDk3OTU1NDM3Niw2MDY5
+NzIwNTldfQ==
 -->
