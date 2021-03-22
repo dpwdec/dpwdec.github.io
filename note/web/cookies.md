@@ -49,7 +49,7 @@ document.cookie // => 'foo=baz; bar=qux'
 
 ### Path
 
-
+The `path` attribute on a cookie 
 
 ## Client Side Cookie Editing
 
@@ -78,10 +78,10 @@ document.cookie = 'foo=bar; max-age=60; secure'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI1MTkzMjEsLTM5MTM2ODY3NSwtMT
-Q3Njc0ODI3Niw2MzUxMDY1NjksMTYwNDg1MDM3NSwtOTcwOTcw
-NjMyLC03NzcyNzk0NzAsLTE0NjQzMDE3OTIsMTIxMjQzNzkwNy
-w5MDg3Njc3MzQsLTMzMDU5MDQ3MSw4NjI3NzIzNDcsOTc5NTU0
-Mzc2LDYwNjk3MjA1OSwtNzExMTU2NTk3LDExNzgwOTc1NDRdfQ
-==
+eyJoaXN0b3J5IjpbLTIxMzI1MTkxNzMsLTE5OTI1MTkzMjEsLT
+M5MTM2ODY3NSwtMTQ3Njc0ODI3Niw2MzUxMDY1NjksMTYwNDg1
+MDM3NSwtOTcwOTcwNjMyLC03NzcyNzk0NzAsLTE0NjQzMDE3OT
+IsMTIxMjQzNzkwNyw5MDg3Njc3MzQsLTMzMDU5MDQ3MSw4NjI3
+NzIzNDcsOTc5NTU0Mzc2LDYwNjk3MjA1OSwtNzExMTU2NTk3LD
+ExNzgwOTc1NDRdfQ==
 -->
