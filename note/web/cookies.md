@@ -47,6 +47,10 @@ You can **see a list of cookies that can be edited client side in your browser**
 document.cookie // => 'foo=baz; bar=qux'
 ```
 
+### Path
+
+
+
 ## Client Side Cookie Editing
 
 You can **update a cookie client side** by simply setting a key-value pair string on the `document.cookie` property. This *does not* overwrite the entire list of cookies and is intelligent enough to simply add or modify a cookie.
@@ -74,9 +78,10 @@ document.cookie = 'foo=bar; max-age=60; secure'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTM2ODY3NSwtMTQ3Njc0ODI3Niw2Mz
-UxMDY1NjksMTYwNDg1MDM3NSwtOTcwOTcwNjMyLC03NzcyNzk0
-NzAsLTE0NjQzMDE3OTIsMTIxMjQzNzkwNyw5MDg3Njc3MzQsLT
-MzMDU5MDQ3MSw4NjI3NzIzNDcsOTc5NTU0Mzc2LDYwNjk3MjA1
-OSwtNzExMTU2NTk3LDExNzgwOTc1NDRdfQ==
+eyJoaXN0b3J5IjpbLTE5OTI1MTkzMjEsLTM5MTM2ODY3NSwtMT
+Q3Njc0ODI3Niw2MzUxMDY1NjksMTYwNDg1MDM3NSwtOTcwOTcw
+NjMyLC03NzcyNzk0NzAsLTE0NjQzMDE3OTIsMTIxMjQzNzkwNy
+w5MDg3Njc3MzQsLTMzMDU5MDQ3MSw4NjI3NzIzNDcsOTc5NTU0
+Mzc2LDYwNjk3MjA1OSwtNzExMTU2NTk3LDExNzgwOTc1NDRdfQ
+==
 -->
