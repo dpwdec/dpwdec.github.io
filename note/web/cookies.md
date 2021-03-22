@@ -62,7 +62,7 @@ A **cookie with an empty path will be sent to any path** by the client.
 
 ### Domain
 
-Cookies **are scoped by a `domain` property**. A cookie can **only be sent to a domain that **
+Cookies **are scoped by a `domain` property**. A cookie can **only be sent to a domain that matches the domain it was created on**, thus stopping cookies from being sent cross site.
 
 ## Client Side Cookie Editing
 
@@ -91,11 +91,11 @@ document.cookie = 'foo=bar; max-age=60; secure'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1MzYwMzU0LDE4MzQyNjAxOTIsLTE4ND
-MxODAwMDIsNTk4Mzk2Mzk2LC0xOTkyNTE5MzIxLC0zOTEzNjg2
-NzUsLTE0NzY3NDgyNzYsNjM1MTA2NTY5LDE2MDQ4NTAzNzUsLT
-k3MDk3MDYzMiwtNzc3Mjc5NDcwLC0xNDY0MzAxNzkyLDEyMTI0
-Mzc5MDcsOTA4NzY3NzM0LC0zMzA1OTA0NzEsODYyNzcyMzQ3LD
-k3OTU1NDM3Niw2MDY5NzIwNTksLTcxMTE1NjU5NywxMTc4MDk3
-NTQ0XX0=
+eyJoaXN0b3J5IjpbLTE4MTI1MTI1MTgsMTgzNDI2MDE5MiwtMT
+g0MzE4MDAwMiw1OTgzOTYzOTYsLTE5OTI1MTkzMjEsLTM5MTM2
+ODY3NSwtMTQ3Njc0ODI3Niw2MzUxMDY1NjksMTYwNDg1MDM3NS
+wtOTcwOTcwNjMyLC03NzcyNzk0NzAsLTE0NjQzMDE3OTIsMTIx
+MjQzNzkwNyw5MDg3Njc3MzQsLTMzMDU5MDQ3MSw4NjI3NzIzND
+csOTc5NTU0Mzc2LDYwNjk3MjA1OSwtNzExMTU2NTk3LDExNzgw
+OTc1NDRdfQ==
 -->
