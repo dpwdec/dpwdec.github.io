@@ -60,6 +60,10 @@ If **no path is set** then the cookie defaults to an empty `/` path.
 
 A **cookie with an empty path will be sent to any path** by the client.
 
+### Domain
+
+C
+
 ## Client Side Cookie Editing
 
 You can **update a cookie client side** by simply setting a key-value pair string on the `document.cookie` property. This *does not* overwrite the entire list of cookies and is intelligent enough to simply add or modify a cookie.
@@ -87,10 +91,11 @@ document.cookie = 'foo=bar; max-age=60; secure'
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDI2MDE5MiwtMTg0MzE4MDAwMiw1OT
-gzOTYzOTYsLTE5OTI1MTkzMjEsLTM5MTM2ODY3NSwtMTQ3Njc0
-ODI3Niw2MzUxMDY1NjksMTYwNDg1MDM3NSwtOTcwOTcwNjMyLC
-03NzcyNzk0NzAsLTE0NjQzMDE3OTIsMTIxMjQzNzkwNyw5MDg3
-Njc3MzQsLTMzMDU5MDQ3MSw4NjI3NzIzNDcsOTc5NTU0Mzc2LD
-YwNjk3MjA1OSwtNzExMTU2NTk3LDExNzgwOTc1NDRdfQ==
+eyJoaXN0b3J5IjpbOTk1MjAxNjYsMTgzNDI2MDE5MiwtMTg0Mz
+E4MDAwMiw1OTgzOTYzOTYsLTE5OTI1MTkzMjEsLTM5MTM2ODY3
+NSwtMTQ3Njc0ODI3Niw2MzUxMDY1NjksMTYwNDg1MDM3NSwtOT
+cwOTcwNjMyLC03NzcyNzk0NzAsLTE0NjQzMDE3OTIsMTIxMjQz
+NzkwNyw5MDg3Njc3MzQsLTMzMDU5MDQ3MSw4NjI3NzIzNDcsOT
+c5NTU0Mzc2LDYwNjk3MjA1OSwtNzExMTU2NTk3LDExNzgwOTc1
+NDRdfQ==
 -->
