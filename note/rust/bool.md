@@ -14,7 +14,11 @@ let r = x.then(|| "true!"); // => Some("true!")
 let s = y.then(|| "false!"); // => None
 ```
 
-You can **reverse the action done by a boolean** by using the `not` function from the `std::ops::{Not}` library. This is useful if the structure only has a positive predicate method but
+You can **reverse the action done by a boolean** by using the `not` function from the `std::ops::{Not}` library. This is useful if the structure only has a positive predicate method but you want to do something in the negative case only. For example, below we have a case where we want to do something if the `x` is *not* empty, however, the `vec`
+```rust
+let x = vec![1, 2, 3]
+let y = x.is_empty().not().then(|| "Not empty"); // => Some("Not Empty")
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcxMzUxMDE0LC0xNjg3MDE0NjQxXX0=
+eyJoaXN0b3J5IjpbNTUzNjM5NTAzLC0xNjg3MDE0NjQxXX0=
 -->
