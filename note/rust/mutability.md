@@ -10,7 +10,14 @@ let mut x = vec![
   vec![1, 2, 3],
   vec![4, 5, 6]
 ]
+
+// mutate outside vec by entirely replacing an entry
+x[0] = vec![7, 8, 9]
+
+// mutate an inner vec by changing an entry
+
+x[1][
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODM2MjUxOF19
+eyJoaXN0b3J5IjpbLTQwMDE3NDM0MF19
 -->
