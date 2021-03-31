@@ -40,7 +40,7 @@ let mut x = vec![1, 2, 3, 4];
 x.iter_mut().for_each(|x| *x += 1); // => [2, 3, 4, 5]
 ```
 
-When **iterating mutably over nested structures** all outer and inner structures *must* use `iter_mut` regardless of how nested the structure is that is actually changing. Using an `iter` method on one of the iterations below while changing the inner structure would cause the same mutabili
+When **iterating mutably over nested structures** all outer and inner structures *must* use `iter_mut` regardless of how nested the structure is that is actually changing. Using an `iter` method on one of the iterations below while changing the inner structure would cause the same mutability and borrowing options seen above.
 ```rust
 let mut x = vec![vec![1, 2, 3], vec![4, 5, 6]];   
 x
@@ -52,7 +52,7 @@ x
 }); // => [[2, 3, 4], [5, 6, 7]]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3NzM1NDEsODU1OTg5MTc5LDgzNTk4Mj
-I4LDIxMTA1MjkyOTIsLTExMzc0NDg3MzEsLTc2ODc4OTY4MSwt
-NzE2MDU1MDYyXX0=
+eyJoaXN0b3J5IjpbMTI0OTA0NjY5MCw4NTU5ODkxNzksODM1OT
+gyMjgsMjExMDUyOTI5MiwtMTEzNzQ0ODczMSwtNzY4Nzg5Njgx
+LC03MTYwNTUwNjJdfQ==
 -->
