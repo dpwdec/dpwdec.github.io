@@ -39,8 +39,13 @@ x.iter().for_each(|x| *x += 1); // ERROR
 let mut x = vec![1, 2, 3, 4]; 
 x.iter_mut().for_each(|x| *x += 1); // => [2, 3, 4, 5]
 ```
+
+When **iterating mutably over nested structures** all outer and inner structures *must* use `iter_mut` regardless of how nested the structure is that is actually changing.
+```rust
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1OTg5MTc5LDgzNTk4MjI4LDIxMTA1Mj
-kyOTIsLTExMzc0NDg3MzEsLTc2ODc4OTY4MSwtNzE2MDU1MDYy
-XX0=
+eyJoaXN0b3J5IjpbLTE0Nzc5OTc3MzQsODU1OTg5MTc5LDgzNT
+k4MjI4LDIxMTA1MjkyOTIsLTExMzc0NDg3MzEsLTc2ODc4OTY4
+MSwtNzE2MDU1MDYyXX0=
 -->
