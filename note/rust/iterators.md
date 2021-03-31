@@ -30,9 +30,13 @@ fn return_split(word: &str) -> impl Iterator<Item = &str> {
 
 ## Mutable Iterators
 
-You can **mutate the objects in a mutable structure with an iterator** by using the `iter_mut()` function.
+You can **mutate the objects in a mutable structure with an iterator** by using the `iter_mut()` function. It seems logical that if you mark a structure as `mut` and then use `iter` or `into_iter` the r
+```rust
+let mut x = vec![1, 2, 3, 4];  
+x.iter().for_each(|x| *x += 1); // ERROR: 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjA3NjAzOSw4MzU5ODIyOCwyMTEwNT
-I5MjkyLC0xMTM3NDQ4NzMxLC03Njg3ODk2ODEsLTcxNjA1NTA2
-Ml19
+eyJoaXN0b3J5IjpbNzE0NTIwNDcxLDgzNTk4MjI4LDIxMTA1Mj
+kyOTIsLTExMzc0NDg3MzEsLTc2ODc4OTY4MSwtNzE2MDU1MDYy
+XX0=
 -->
