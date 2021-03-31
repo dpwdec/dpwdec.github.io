@@ -27,7 +27,12 @@ fn return_split(word: &str) -> impl Iterator<Item = &str> {
   word.split(' ')
 }
 ```
+
+## Mutable Iterators
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1OTgyMjgsMjExMDUyOTI5MiwtMTEzNz
-Q0ODczMSwtNzY4Nzg5NjgxLC03MTYwNTUwNjJdfQ==
+eyJoaXN0b3J5IjpbLTQ3MTUzMjE5MSw4MzU5ODIyOCwyMTEwNT
+I5MjkyLC0xMTM3NDQ4NzMxLC03Njg3ODk2ODEsLTcxNjA1NTA2
+Ml19
 -->
