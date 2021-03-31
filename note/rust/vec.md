@@ -13,6 +13,8 @@ x.dedup(); // => [1, 2, 3, 2]
 let mut y = [1, 2, 2, 3];
 y,dedup(); // => [1, 2, 3]
 ```
+
+You can **remove all duplicate elements in an array REGARDLESS of position** by using the `unique()` method on `vec`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjA3NDMwNywtMTA1ODI5NjY0XX0=
+eyJoaXN0b3J5IjpbLTIwNjA5OTc5MDgsLTEwNTgyOTY2NF19
 -->
