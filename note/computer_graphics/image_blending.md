@@ -8,11 +8,19 @@ You can **evenly blend *n* number of images** by simply scaling the value of eac
 ```python
 n = 4
 blend_ratio = 1 / n
-x = (p_1 * blend_ratio) + (p_1 * blend_ratio)
+x = (p_1 * blend_ratio) + (p_2 * blend_ratio) + (p_3 * blend_ratio) + (p_4 * blend_ratio)
+```
+
+However, in an actually implementation you *may have to apply the blend to each channel of each pixel (rgb etc.) and then add to each corresponding channel in the output pixel*. For example
+
+```python
+n = 4
+blend_ratio = 1 / n
+x_red_channel = (p_1.red_channel * blend_ratio) + (p_2.red_channel  * blend_ratio) + (p_3.red_channel  * blend_ratio) + (p_4.red_channel  * blend_ratio)
 ```
 
 https://homepages.inf.ed.ac.uk/rbf/HIPR2/blend.htm
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzU0Mjk5MF19
+eyJoaXN0b3J5IjpbODUzNjQzOTkxXX0=
 -->
