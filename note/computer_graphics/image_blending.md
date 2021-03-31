@@ -26,8 +26,8 @@ x = make_pixel_from_channels(x_red_channel, x_green_channel, x_blue_channel)
 
 ```
 
-More information [here](https://homepages.inf.ed.ac.uk/rbf/HIPR2/blend.htm)
+More information [here](https://homepages.inf.ed.ac.uk/rbf/HIPR2/blend.htm).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODE2NTM3NF19
+eyJoaXN0b3J5IjpbODYyNjAyMTc2XX0=
 -->
