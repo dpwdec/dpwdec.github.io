@@ -30,9 +30,9 @@ fn return_split(word: &str) -> impl Iterator<Item = &str> {
 
 ## Mutable Iterators
 
-
+You can **mutate the objects in a mutable structure with an iterator** by using the `iter_mut()` function.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTUzMjE5MSw4MzU5ODIyOCwyMTEwNT
+eyJoaXN0b3J5IjpbLTU4MjA3NjAzOSw4MzU5ODIyOCwyMTEwNT
 I5MjkyLC0xMTM3NDQ4NzMxLC03Njg3ODk2ODEsLTcxNjA1NTA2
 Ml19
 -->
