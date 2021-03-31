@@ -16,11 +16,18 @@ However, in an actually implementation you *may have to apply the blend to each 
 ```python
 n = 4
 blend_ratio = 1 / n
-x_red_channel = (p_1.red_channel * blend_ratio) + (p_2.red_channel  * blend_ratio) + (p_3.red_channel  * blend_ratio) + (p_4.red_channel  * blend_ratio)
+x_red_channel = (p_1.red_channel * blend_ratio) + (p_2.red_channel  * blend_ratio) + (p_3.red_channel  * blend_ratio) + (p_4.red_channel * blend_ratio)
+
+x_green_channel = (p_1.x_green_channel * blend_ratio) + (p_2.x_green_channel  * blend_ratio) + (p_3.x_green_channel  * blend_ratio) + (p_4.x_green_channel * blend_ratio)
+
+x_blue_channel = (p_1.x_blue_channel * blend_ratio) + (p_2.x_blue_channel  * blend_ratio) + (p_3.x_blue_channel  * blend_ratio) + (p_4.x_blue_channel * blend_ratio)
+
+x = make_pixel_from_channels(x_red_channel, x_green_channel, x_blue_channel)
+
 ```
 
-https://homepages.inf.ed.ac.uk/rbf/HIPR2/blend.htm
+More information [here](https://homepages.inf.ed.ac.uk/rbf/HIPR2/blend.htm)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzNjQzOTkxXX0=
+eyJoaXN0b3J5IjpbLTExODE2NTM3NF19
 -->
