@@ -12,12 +12,12 @@ let mut x = vec![
 ]
 
 // mutate outside vec by entirely replacing an entry
-x[0] = vec![7, 8, 9]
+x[0] = vec![7, 8, 9]; // => [[7, 8, 9], [4, 5, 6]]
 
 // mutate an inner vec by changing an entry
 
-x[1][
+x[1][2] = 1; // [[7, 8, 9], [4, 5, 1]]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDE3NDM0MF19
+eyJoaXN0b3J5IjpbMTY1Mzk4MTcxN119
 -->
