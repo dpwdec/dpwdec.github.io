@@ -8,11 +8,11 @@ title: Notes index
         <l><a href='/math/derivatives'>Derivatives</a></l><br>
         <l><a href='/math/exponents'>ExponentLogarithms</a></l><br>
         <l><a href='/math/limits'>Limits</a></l><br>
-        <l><a href='/math/linear_algebra'>inear lgebra</a></l><br>
+        <l><a href='/math/linear_algebra'>Linear Algebra</a></l><br>
         <l><a href='/math/logarithms'>Logarithms</a></l><br>
         <l><a href='/math/point_slope'>Point Slope Formula</a></l><br>
-        <l><a href='/math/sets'>Setsinear lger</a></l><br><br>
-        <l>ingle ariablealculus</l>
+        <l><a href='/math/sets'>Sets</a></l><br><br>
+        <l>Single Variable Calculus</l>
         <ul>
             <l><a href='/math/single_variable_calculus/chain_rule'>Chain Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/higher_derivatives'>Higher Derivatives</a></l><br>
@@ -75,7 +75,11 @@ title: Notes index
             <l><a href='/note/c_sharp/Xunit'>XUnit</a></l><br>
         </ul>
         <l><a href='/note/capybara'>Sinatra</a></l><br>
-        <l><a href='/note/cmd_line'>Command Line</a></l><br>
+        <l><a href='/note/cmd_line'>Command Line</a></l><br><br>
+        <l>Computer Graphics</l>
+        <ul>
+            <l><a href='/note/computer_graphics/image_blending'>Image Blending</a></l><br>
+        </ul>
         <l><a href='/note/css'>CSS</a></l><br>
         <l><a href='/note/data_mapper'>Datamapper</a></l><br><br>
         <l>Databases</l>
@@ -185,8 +189,7 @@ title: Notes index
             <l>Mocha</l>
             <ul>
                 <l><a href='/note/js/mocha/code_runner'>Code Runner</a></l><br>
-                <l>/mocha'>
-            </ul<a href='/note/js/mocha/mocha'>Mocha</a></l><br>
+                <l><a href='/note/js/mocha/mocha'>Mocha</a></l><br>
             </ul>
             <l><a href='/note/js/mongo_db'>MongoDB</a></l><br><br>
             <l>P5js</l>
@@ -206,6 +209,7 @@ title: Notes index
             <l><a href='/note/linux/apt'>Apt</a></l><br>
             <l><a href='/note/linux/bash'>Bash</a></l><br>
             <l><a href='/note/linux/cut'>Cut</a></l><br>
+            <l><a href='/note/linux/imagemagick'>Imagemagick</a></l><br>
             <l><a href='/note/linux/jq'>JQ</a></l><br>
             <l><a href='/note/linux/linux'>Linux </a></l><br>
             <l><a href='/note/linux/mkdir'>Mkdir</a></l><br>
@@ -245,14 +249,17 @@ title: Notes index
         <l><a href='/note/ruby'>Ruby</a></l><br><br>
         <l>Rust</l>
         <ul>
+            <l><a href='/note/rust/bool'>Bool</a></l><br>
             <l><a href='/note/rust/collections'>Collections</a></l><br>
             <l><a href='/note/rust/enums'>Enums</a></l><br>
             <l><a href='/note/rust/iterators'>Iterators</a></l><br>
             <l><a href='/note/rust/lifetimes'>Lifetimes</a></l><br>
+            <l><a href='/note/rust/mutability'>Mutability</a></l><br>
             <l><a href='/note/rust/operators'>Operators</a></l><br>
             <l><a href='/note/rust/rust'>Rust</a></l><br>
             <l><a href='/note/rust/structs'>Structs</a></l><br>
             <l><a href='/note/rust/types'>Types</a></l><br>
+            <l><a href='/note/rust/vec'>Vec</a></l><br>
         </ul>
         <l><a href='/note/sinatra'>Sinatra</a></l><br>
         <l><a href='/note/sql'>SQL</a></l><br>
@@ -277,6 +284,3 @@ title: Notes index
         <l><a href='/note/youtube_data'>Youtube Data</a></l><br>
     </ul>
 </ul>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODMzODI3Ml19
--->
