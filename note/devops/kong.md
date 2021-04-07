@@ -54,6 +54,10 @@ You can **stop kong running** using the `kong stop` command.
 $ kong stop
 ```
 
+## HTTP/S
+
+Kong defaults to using the HTTP and 
+
 ## Services
 
 **Services** are the name given to **upstream microservice APIs** that kong acts as a gateway to. A service can contain many **routes** which specify *how* requests that reach kong are sent to upstream services.
@@ -100,9 +104,9 @@ You can **run deck commands on remote deployments of kong** by using the `--kong
 $ deck sync --kong-addr http://my-kong.com:8001 -s path/to/config.yaml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODgyOTA3OTIsLTEwMjczMDA4MDAsND
-Y1NTI0Mjk3LC0xMzY4MTE1ODk0LC0xOTQ5NDQyMTQzLDE1NzUx
-MDU5NjcsLTIwNTQ0MTE3NzksLTkwNzk0Mjg5OSwxNzUyMjMyNj
-ksLTQwNzA0NzU1MywyMDQ0ODM5MDc2LDUxNjA4NzUxMCwtMTI0
-MTI2OTg0MCwtNTI5ODAxODExXX0=
+eyJoaXN0b3J5IjpbLTEyMDg0MTU3NDgsLTE0ODgyOTA3OTIsLT
+EwMjczMDA4MDAsNDY1NTI0Mjk3LC0xMzY4MTE1ODk0LC0xOTQ5
+NDQyMTQzLDE1NzUxMDU5NjcsLTIwNTQ0MTE3NzksLTkwNzk0Mj
+g5OSwxNzUyMjMyNjksLTQwNzA0NzU1MywyMDQ0ODM5MDc2LDUx
+NjA4NzUxMCwtMTI0MTI2OTg0MCwtNTI5ODAxODExXX0=
 -->
