@@ -62,9 +62,9 @@ When **configuring Kong to use HTTPS** you should bear in mind that Kong keeps t
 
 ## Redirection and Kong Browser URLs
 
-When returning web content to a browser for display from an upstream URI, **the URL of the page should NOT change**. 
+When returning web content to a browser for display from an upstream URI, **the URL of the page should NOT change**, matching the initial URL that the user made a request to and . 
 
-However, **if the content that Kong receives back is in some way redirected then this *can* cause redirection issues**. 
+However, **if the content that Kong receives back is in some way redirected then this can cause browser URL to display a different location from the initial Kong request**. 
 
 For example, if I visit `www.yolo-42.com` in my browser, but have set up a Kong instance to manage ingress traffic to my site that forwards requests for web content for the homepage to an upstream S3 service with its own url (whatever that may be), the URL I see in my browser still remains as `www.yolo-42.com` because Kong simply returns this content itself. *However*, if the content that Kong forwards to has instead been moved in some way and returns a redirection response, such as a `301`, then the browser will receive that redirection notice from Kong after the initial request and follow the redirection link to return the content from the new location, in the process changing the URL displayed in the browser (because its now visiting a new location not tied to Kong) to whatever the redirect location is and then returns that content.
 
@@ -114,9 +114,9 @@ You can **run deck commands on remote deployments of kong** by using the `--kong
 $ deck sync --kong-addr http://my-kong.com:8001 -s path/to/config.yaml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0MTkyNjQ2LC0xNDg4MjkwNzkyLC0xMD
-I3MzAwODAwLDQ2NTUyNDI5NywtMTM2ODExNTg5NCwtMTk0OTQ0
-MjE0MywxNTc1MTA1OTY3LC0yMDU0NDExNzc5LC05MDc5NDI4OT
-ksMTc1MjIzMjY5LC00MDcwNDc1NTMsMjA0NDgzOTA3Niw1MTYw
-ODc1MTAsLTEyNDEyNjk4NDAsLTUyOTgwMTgxMV19
+eyJoaXN0b3J5IjpbLTY4OTQ4NDg2NywtMTQ4ODI5MDc5MiwtMT
+AyNzMwMDgwMCw0NjU1MjQyOTcsLTEzNjgxMTU4OTQsLTE5NDk0
+NDIxNDMsMTU3NTEwNTk2NywtMjA1NDQxMTc3OSwtOTA3OTQyOD
+k5LDE3NTIyMzI2OSwtNDA3MDQ3NTUzLDIwNDQ4MzkwNzYsNTE2
+MDg3NTEwLC0xMjQxMjY5ODQwLC01Mjk4MDE4MTFdfQ==
 -->
