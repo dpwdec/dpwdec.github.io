@@ -60,9 +60,9 @@ Kong defaults to forwarding requests to upstream URIs using the HTTP protocol *o
 
 When **configuring Kong to use HTTPS** you should bear in mind that Kong keeps the port and protocol configuration separate, so, if the protocol is set to HTTPS the port will *still* default to 80 even though the correct port for HTTPS traffic is port 403. Because of this you **must set both the port and protocol to the appropriate values** when configuring Kong to forward HTTPS traffic.
 
-## Redirection
+## Redirection URIs
 
-
+When returning web content to a browser for display from an upstream URI, **the URL of the page should NOT change**. However, if the content that Kong receives back is in some way redirected then thi
 
 ## Services
 
@@ -110,7 +110,7 @@ You can **run deck commands on remote deployments of kong** by using the `--kong
 $ deck sync --kong-addr http://my-kong.com:8001 -s path/to/config.yaml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzUwMTQ1MCwtMTQ4ODI5MDc5MiwtMT
+eyJoaXN0b3J5IjpbLTkyNDg2MDcwOSwtMTQ4ODI5MDc5MiwtMT
 AyNzMwMDgwMCw0NjU1MjQyOTcsLTEzNjgxMTU4OTQsLTE5NDk0
 NDIxNDMsMTU3NTEwNTk2NywtMjA1NDQxMTc3OSwtOTA3OTQyOD
 k5LDE3NTIyMzI2OSwtNDA3MDQ3NTUzLDIwNDQ4MzkwNzYsNTE2
