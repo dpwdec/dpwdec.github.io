@@ -15,10 +15,6 @@ You can **set the default region for the AWS CLI** by `export`ing a region envir
 ```bash
 $ export AWS_DEFAULT_REGION=<REGION>
 ```
-
-## S3 URI
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTQ4OTQyNCwxMTcyMTgyMTY4XX0=
+eyJoaXN0b3J5IjpbMTE3MjE4MjE2OCwxMTcyMTgyMTY4XX0=
 -->
