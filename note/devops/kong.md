@@ -62,7 +62,7 @@ When **configuring Kong to use HTTPS** you should bear in mind that Kong keeps t
 
 ## Redirection URIs
 
-When returning web content to a browser for display from an upstream URI, **the URL of the page should NOT change**. However, if the content that Kong receives back is in some way redirected then this CAN cause redirection issues. For example, if I visit `www.yolo-42.com` in my browser, but have set up a Kong instance to manage ingress traffic to my site that forwards requests for web content for the homepage to an upstream S3 service with its own url (whatever that may be), the URL I see in my browser still remains as `www.yolo-42.com` because Kong simply returns this content itself. *However*, if the content that Kong forwards to has instead been moved in some way and returns a redirection response, such as a `301`, then the browser will receive that redirection
+When returning web content to a browser for display from an upstream URI, **the URL of the page should NOT change**. However, if the content that Kong receives back is in some way redirected then this CAN cause redirection issues. For example, if I visit `www.yolo-42.com` in my browser, but have set up a Kong instance to manage ingress traffic to my site that forwards requests for web content for the homepage to an upstream S3 service with its own url (whatever that may be), the URL I see in my browser still remains as `www.yolo-42.com` because Kong simply returns this content itself. *However*, if the content that Kong forwards to has instead been moved in some way and returns a redirection response, such as a `301`, then the browser will receive that redirection notice from Kong after the initial request and follow the redirection link to return the content from the new location, in the process changing the URL displayed in the browser (because its now visiting a to whatever the redirected service is.
 
 ## Services
 
@@ -110,9 +110,9 @@ You can **run deck commands on remote deployments of kong** by using the `--kong
 $ deck sync --kong-addr http://my-kong.com:8001 -s path/to/config.yaml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTIyMTY3MTQsLTE0ODgyOTA3OTIsLT
-EwMjczMDA4MDAsNDY1NTI0Mjk3LC0xMzY4MTE1ODk0LC0xOTQ5
-NDQyMTQzLDE1NzUxMDU5NjcsLTIwNTQ0MTE3NzksLTkwNzk0Mj
-g5OSwxNzUyMjMyNjksLTQwNzA0NzU1MywyMDQ0ODM5MDc2LDUx
-NjA4NzUxMCwtMTI0MTI2OTg0MCwtNTI5ODAxODExXX0=
+eyJoaXN0b3J5IjpbMTk4NjkyMTE1OCwtMTQ4ODI5MDc5MiwtMT
+AyNzMwMDgwMCw0NjU1MjQyOTcsLTEzNjgxMTU4OTQsLTE5NDk0
+NDIxNDMsMTU3NTEwNTk2NywtMjA1NDQxMTc3OSwtOTA3OTQyOD
+k5LDE3NTIyMzI2OSwtNDA3MDQ3NTUzLDIwNDQ4MzkwNzYsNTE2
+MDg3NTEwLC0xMjQxMjY5ODQwLC01Mjk4MDE4MTFdfQ==
 -->
