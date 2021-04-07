@@ -56,7 +56,9 @@ $ kong stop
 
 ## HTTP/S
 
-Kong defaults to forwarding requests to upstream URIs using the HTTP protocol on port 80. This can be an issue if the upstream service you are  When configuring Ko
+Kong defaults to forwarding requests to upstream URIs using the HTTP protocol on port 80. This can be an **issue if the upstream service that Kong is forwarding to is designed to working using HTTPS traffic** (for example, a cloudfront distribution). 
+
+When configuring Kong to use HTTP
 
 ## Services
 
@@ -104,7 +106,7 @@ You can **run deck commands on remote deployments of kong** by using the `--kong
 $ deck sync --kong-addr http://my-kong.com:8001 -s path/to/config.yaml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTIwODYyOCwtMTQ4ODI5MDc5MiwtMT
+eyJoaXN0b3J5IjpbMTg0ODM5MjY1NiwtMTQ4ODI5MDc5MiwtMT
 AyNzMwMDgwMCw0NjU1MjQyOTcsLTEzNjgxMTU4OTQsLTE5NDk0
 NDIxNDMsMTU3NTEwNTk2NywtMjA1NDQxMTc3OSwtOTA3OTQyOD
 k5LDE3NTIyMzI2OSwtNDA3MDQ3NTUzLDIwNDQ4MzkwNzYsNTE2
