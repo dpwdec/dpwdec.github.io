@@ -62,7 +62,7 @@ When **configuring Kong to use HTTPS** you should bear in mind that Kong keeps t
 
 ## Redirection URIs
 
-When returning web content to a browser for display from an upstream URI, **the URL of the page should NOT change**. However, if the content that Kong receives back is in some way redirected then thi
+When returning web content to a browser for display from an upstream URI, **the URL of the page should NOT change**. However, if the content that Kong receives back is in some way redirected then this CAN cause redirection issues. For example, if I visit `www.yolo-42.com` but have set up a Kong instance to ma
 
 ## Services
 
@@ -110,9 +110,9 @@ You can **run deck commands on remote deployments of kong** by using the `--kong
 $ deck sync --kong-addr http://my-kong.com:8001 -s path/to/config.yaml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDg2MDcwOSwtMTQ4ODI5MDc5MiwtMT
-AyNzMwMDgwMCw0NjU1MjQyOTcsLTEzNjgxMTU4OTQsLTE5NDk0
-NDIxNDMsMTU3NTEwNTk2NywtMjA1NDQxMTc3OSwtOTA3OTQyOD
-k5LDE3NTIyMzI2OSwtNDA3MDQ3NTUzLDIwNDQ4MzkwNzYsNTE2
-MDg3NTEwLC0xMjQxMjY5ODQwLC01Mjk4MDE4MTFdfQ==
+eyJoaXN0b3J5IjpbNTU2NDIxNTExLC0xNDg4MjkwNzkyLC0xMD
+I3MzAwODAwLDQ2NTUyNDI5NywtMTM2ODExNTg5NCwtMTk0OTQ0
+MjE0MywxNTc1MTA1OTY3LC0yMDU0NDExNzc5LC05MDc5NDI4OT
+ksMTc1MjIzMjY5LC00MDcwNDc1NTMsMjA0NDgzOTA3Niw1MTYw
+ODc1MTAsLTEyNDEyNjk4NDAsLTUyOTgwMTgxMV19
 -->
