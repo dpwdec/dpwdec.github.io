@@ -168,7 +168,10 @@ node my-script.js
 
 ### External Services
 
-You can **access the localhost address of the machine hosting a container** by using the `host.docker.internal` address within the container. For example, if I was hosting a proxy service inside a container such that I make a request on my local machine that roots the request to the proxy service inside the container which then needs to make a further request to another port on the local mach
+You can **access the localhost address of the machine hosting a container** by using the `host.docker.internal` address within the container. For example, if I was hosting a proxy service inside a container such that I make a request on my local machine that roots the request to the proxy service inside the container which then needs to make a further request to another port on the local machine outside of the container, this can be done with the `host.docker.internal` address. This can be treated as a stand in for `localhost` when referring to the host machine. The example below shows a command executed from within a  if I had spun up a service
+```bash
+$ curl http://host.docker.internal:8000
+```
 
 ## Hub
 
@@ -208,7 +211,7 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTIxNzk0OSwxODYwMTY4OTc1LDk2OD
+eyJoaXN0b3J5IjpbLTM4MzQwMDc5MywxODYwMTY4OTc1LDk2OD
 k0MTI4NywtMjIzNTAyMjUwLC0xNzcwODY1Mjk5LC05MDYwNDIx
 NjNdfQ==
 -->
