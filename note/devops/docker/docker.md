@@ -145,7 +145,10 @@ You can **enter a running container from outside** using the `attach` command an
 $ docker attach <CONTAINER_NAME>
 ```
 
-You can **go inside a container that is already running** similatly to
+You can **go inside a container that is already running** in a similar manner to ssh logging into an external machine. This allows you access the command line of a container that is currently executing and sitting idly but not stopped by using the `exec` command.
+```bash
+$ docker exec -i -t <CONTAINER_NAME> bash
+```
 
 ### Ports
 
@@ -201,6 +204,6 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTUyMzU5MDMsOTY4OTQxMjg3LC0yMj
-M1MDIyNTAsLTE3NzA4NjUyOTksLTkwNjA0MjE2M119
+eyJoaXN0b3J5IjpbMTg2MDE2ODk3NSw5Njg5NDEyODcsLTIyMz
+UwMjI1MCwtMTc3MDg2NTI5OSwtOTA2MDQyMTYzXX0=
 -->
