@@ -37,7 +37,9 @@ $ kong start some/folder/path/kong.conf
 
 Kong runs **consumer ports** on `8000` for standard requests and `8443` for SSL requests and **admin ports** on `8001` for standard requests and `8444` for SSL requests. Kong is **configured by making HTTP requests to the admin ports**.
 
-#
+## Paths
+
+By **default kong strips out path extensions** with the `strip_path` property. This means, any matched path will just go to the root `/` path on the upstream API. Set `strip_path` to false if you want the path information to be preserved when it reaches the upstream.
 
 ## Commands
 
@@ -116,10 +118,10 @@ You can **run deck commands on remote deployments of kong** by using the `--kong
 $ deck sync --kong-addr http://my-kong.com:8001 -s path/to/config.yaml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNDUwNjI5MSw1MzA3NjgyNzIsLTE0OD
-gyOTA3OTIsLTEwMjczMDA4MDAsNDY1NTI0Mjk3LC0xMzY4MTE1
-ODk0LC0xOTQ5NDQyMTQzLDE1NzUxMDU5NjcsLTIwNTQ0MTE3Nz
-ksLTkwNzk0Mjg5OSwxNzUyMjMyNjksLTQwNzA0NzU1MywyMDQ0
-ODM5MDc2LDUxNjA4NzUxMCwtMTI0MTI2OTg0MCwtNTI5ODAxOD
-ExXX0=
+eyJoaXN0b3J5IjpbNTU2MTMwMzQzLDUzMDc2ODI3MiwtMTQ4OD
+I5MDc5MiwtMTAyNzMwMDgwMCw0NjU1MjQyOTcsLTEzNjgxMTU4
+OTQsLTE5NDk0NDIxNDMsMTU3NTEwNTk2NywtMjA1NDQxMTc3OS
+wtOTA3OTQyODk5LDE3NTIyMzI2OSwtNDA3MDQ3NTUzLDIwNDQ4
+MzkwNzYsNTE2MDg3NTEwLC0xMjQxMjY5ODQwLC01Mjk4MDE4MT
+FdfQ==
 -->
