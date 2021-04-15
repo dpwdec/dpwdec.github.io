@@ -37,6 +37,8 @@ $ kong start some/folder/path/kong.conf
 
 Kong runs **consumer ports** on `8000` for standard requests and `8443` for SSL requests and **admin ports** on `8001` for standard requests and `8444` for SSL requests. Kong is **configured by making HTTP requests to the admin ports**.
 
+#
+
 ## Commands
 
 You can **start kong with a debug log at set up** by using the `vv` flag.
@@ -114,9 +116,10 @@ You can **run deck commands on remote deployments of kong** by using the `--kong
 $ deck sync --kong-addr http://my-kong.com:8001 -s path/to/config.yaml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwNzY4MjcyLC0xNDg4MjkwNzkyLC0xMD
-I3MzAwODAwLDQ2NTUyNDI5NywtMTM2ODExNTg5NCwtMTk0OTQ0
-MjE0MywxNTc1MTA1OTY3LC0yMDU0NDExNzc5LC05MDc5NDI4OT
-ksMTc1MjIzMjY5LC00MDcwNDc1NTMsMjA0NDgzOTA3Niw1MTYw
-ODc1MTAsLTEyNDEyNjk4NDAsLTUyOTgwMTgxMV19
+eyJoaXN0b3J5IjpbMTYzNDUwNjI5MSw1MzA3NjgyNzIsLTE0OD
+gyOTA3OTIsLTEwMjczMDA4MDAsNDY1NTI0Mjk3LC0xMzY4MTE1
+ODk0LC0xOTQ5NDQyMTQzLDE1NzUxMDU5NjcsLTIwNTQ0MTE3Nz
+ksLTkwNzk0Mjg5OSwxNzUyMjMyNjksLTQwNzA0NzU1MywyMDQ0
+ODM5MDc2LDUxNjA4NzUxMCwtMTI0MTI2OTg0MCwtNTI5ODAxOD
+ExXX0=
 -->
