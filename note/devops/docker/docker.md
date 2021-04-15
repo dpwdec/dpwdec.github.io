@@ -145,6 +145,8 @@ You can **enter a running container from outside** using the `attach` command an
 $ docker attach <CONTAINER_NAME>
 ```
 
+You can **go inside a container that is already running** similatly to
+
 ### Ports
 
 You can **map ports on a local machine to ports on a docker container** using the `-p` flag when running the container followed by the port on your local machine and the port on the docker container separated by a `:` colon. The example below maps the ports `1234` on the local machine to port `8080` on the running container. This means that any traffic fired from your local machine to `localhost:1234` will return a response from the running container.
@@ -199,6 +201,6 @@ You can **push an image to docker hub** by using the `push` command with your us
 $ docker push <USER_NAME>/<REPOSITORY_NAME>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4OTQxMjg3LC0yMjM1MDIyNTAsLTE3Nz
-A4NjUyOTksLTkwNjA0MjE2M119
+eyJoaXN0b3J5IjpbLTE3NTUyMzU5MDMsOTY4OTQxMjg3LC0yMj
+M1MDIyNTAsLTE3NzA4NjUyOTksLTkwNjA0MjE2M119
 -->
