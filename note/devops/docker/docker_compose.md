@@ -23,6 +23,14 @@ You can **start a service composed of docker containers** (and spin up / network
 ```bash
 $ docker compose up
 ```
+
+You can **keep a container that is initialised using docker compose running** by using the `tail` command as an initial execution task for the container.
+```yaml
+  my_service:
+    image: ubuntu
+    command: tail -F anything
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjgyNTk1MiwxNzY0NzY1NTE5XX0=
+eyJoaXN0b3J5IjpbMTcwNTQ5NTQ1MCwxMzcyODI1OTUyLDE3Nj
+Q3NjU1MTldfQ==
 -->
