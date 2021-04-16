@@ -8,11 +8,11 @@ title: Notes index
         <l><a href='/math/derivatives'>Derivatives</a></l><br>
         <l><a href='/math/exponents'>ExponentLogarithms</a></l><br>
         <l><a href='/math/limits'>Limits</a></l><br>
-        <l><a href='/math/linear_algebra'>inearlgebra</a></l><br>
+        <l><a href='/math/linear_algebra'>Linear Algebra</a></l><br>
         <l><a href='/math/logarithms'>Logarithms</a></l><br>
         <l><a href='/math/point_slope'>Point Slope Formula</a></l><br>
-        <l><a href='/math/sets'>Setsinear lger</a></l><br><br>
-        <l>ingle ariablealculus</l>
+        <l><a href='/math/sets'>Sets</a></l><br><br>
+        <l>Single Variable Calculus</l>
         <ul>
             <l><a href='/math/single_variable_calculus/chain_rule'>Chain Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/higher_derivatives'>Higher Derivatives</a></l><br>
@@ -191,8 +191,7 @@ title: Notes index
             <l>Mocha</l>
             <ul>
                 <l><a href='/note/js/mocha/code_runner'>Code Runner</a></l><br>
-                <l>/mocha'>
-            </ul<a href='/note/js/mocha/mocha'>Mocha</a></l><br>
+                <l><a href='/note/js/mocha/mocha'>Mocha</a></l><br>
             </ul>
             <l><a href='/note/js/mongo_db'>MongoDB</a></l><br><br>
             <l>P5js</l>
@@ -229,6 +228,7 @@ title: Notes index
             <l><a href='/note/python/argparse'>argparse</a></l><br>
             <l><a href='/note/python/command_line_arguments'>Command Line Arguments</a></l><br>
             <l><a href='/note/python/files'>Files</a></l><br>
+            <l><a href='/note/python/http_server'>HTTP Server</a></l><br>
             <l><a href='/note/python/injector'>Injector</a></l><br>
             <l><a href='/note/python/json'>json</a></l><br>
             <l><a href='/note/python/list_comprehensions'>List Comprehensions</a></l><br>
@@ -254,6 +254,7 @@ title: Notes index
         <ul>
             <l><a href='/note/rust/bool'>Bool</a></l><br>
             <l><a href='/note/rust/collections'>Collections</a></l><br>
+            <l><a href='/note/rust/concurrency'>Concurrency</a></l><br>
             <l><a href='/note/rust/enums'>Enums</a></l><br>
             <l><a href='/note/rust/iterators'>Iterators</a></l><br>
             <l><a href='/note/rust/lifetimes'>Lifetimes</a></l><br>
@@ -287,6 +288,3 @@ title: Notes index
         <l><a href='/note/youtube_data'>Youtube Data</a></l><br>
     </ul>
 </ul>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTQ0NjYzN119
--->
