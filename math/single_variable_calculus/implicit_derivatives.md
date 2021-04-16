@@ -79,3 +79,47 @@ Now we want to re-arrange this derivative to be in terms of \\( \frac{d}{dx}y \\
 \\[ \frac{d}{dx}y = \frac{-x}{y} \\]
 
 This solves the derivative of \\( y \\) implicitly with much less headache the original explciit approach where we had to re-arrange the original equation and substitute that equation back into the function at the end.
+
+## Implicit derivative without substitution
+
+You can **take an implicit derivative of a function** that doesn't require you to subtitute the function for the value of \\( y \\) in the final derivative but instead use the value of \\( y \\) at a point directly. This is confusing as previous work with derivatives explored functions like \\( \frac{d}{dx}x^2 = 2x \\) where a single value for \\( x \\) was plugged into the derivative to find the rate of change at the point, for example at \\( 3 \\) the slope is \\( 6 \\). However, the following example has a derivative in terms of \\( x \\) *and* \\( y \\) so a point in those terms has to substituted to get the value of the slope.
+
+This example uses the function
+
+\\[ y^3 + x^3 = 3xy \\]
+
+It's possible to solve this in terms of \\( y \\) but difficult and messy, so let's just go straight to solving implicitly by taking the deriative of this entire function. Note, that we have to idea what value of \\( y \\) is for this function in terms of \\( x \\).
+
+\\[ \frac{d}{dx}( y^3 + x^3 = 3xy ) \\]
+
+\\[ 3y^2 \frac{d}{dx}y + 3x^2 = 3y + 3x\frac{d}{dx}y \\]
+
+We use the product rule \\( u'v + v'u \\) on the right side of the function. The first \\( x \\) dissapears because \\( (x^1)' = 1 \cdot x^0 = 1 \\) and the quotient always remains when taking the derivative of a non constant term.
+
+Next group the \\( \frac{d}{dx}y \\) terms and \\( x \\) / \\( y \\) terms.
+
+\\[ 3y^2 \frac{d}{dx}y - 3x\frac{d}{dx}y = 3y - 3x^2 \\]
+
+Factorise out of the \\( \frac{d}{dx}y \\).
+
+\\[ \frac{d}{dx}y(3y^2 - 3x) = 3y - 3x^2 \\]
+
+Divide by \\( 3y^2 - 3x \\) to separate the \\( \frac{d}{dx}y \\)
+
+\\[ \frac{d}{dx}y = \frac{3y - 3x^2}{3y^2 - 3x} \\]
+
+The derivative of \\( y \\) is therefore
+
+\\[ \frac{d}{dx}y = \frac{y - x^2}{y^2 - x} \\]
+
+Which gives a function in terms of \\( x \\) and \\( y \\) into which we can substitute values to find the derivative at that point. For example, at point \\( (\frac{4}{3}, \frac{2}{3}) \\) the derivative is
+
+\\[ \frac{
+    \frac{2}{3} - \frac{16}{9}
+}{
+    \frac{4}{9} - \frac{4}{3}
+} \\]
+
+\\[ = \frac{6 - 16}{4 - 12} = \frac{5}{4} \\]
+
+We can therefore see that we can solve derivative problems even without ever knowing the value of a function input or output in explicit terms.

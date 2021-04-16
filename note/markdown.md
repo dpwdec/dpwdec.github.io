@@ -6,6 +6,11 @@ exclude: true
 
 You can **set the output port for your jekyll preview server** using `jekyll serve --port 4000`.
 
+You can **load assets into jekyll** by putting them in the assets folder and referencing them via a path. The example below demonstrates how to load an image file via jekyll.
+```md
+![image](/assets/images/your-image.jpg)
+```
+
 ## Wrapping markdown in HTML
 
 **By default most markdown compilers will ignore markdown compilation of elements wrapped in HTML elements**, such as a `div`. To indicate to the compiler that you want the elements inside the div rendered you must set the `markdown` element flag to equal `"1"`.
