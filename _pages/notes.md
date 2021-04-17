@@ -17,6 +17,7 @@ title: Notes index
             <l><a href='/math/single_variable_calculus/chain_rule'>Chain Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/higher_derivatives'>Higher Derivatives</a></l><br>
             <l><a href='/math/single_variable_calculus/implicit_derivatives'>Implicit Derivatives</a></l><br>
+            <l><a href='/math/single_variable_calculus/inverse_functions'>Inverse Functions</a></l><br>
             <l><a href='/math/single_variable_calculus/product_rule'>Product Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/quotient_rule'>Product Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/rational_exponents'>Rational Exponents</a></l><br>
