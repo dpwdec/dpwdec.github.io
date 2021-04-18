@@ -1,5 +1,5 @@
 ---
-title: Product Rule
+title: Quotient Rule
 layout: page
 exclude: true
 ---
