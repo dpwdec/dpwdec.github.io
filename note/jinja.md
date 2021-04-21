@@ -57,7 +57,7 @@ Data: Even
 {% end if %}
 ```
 
-You can **remove white space and new line generation** between jinja if statements that don't get templated by adding `-` signs before 
+You can **remove white space and new line generation** between jinja if statements that don't get templated by adding `-` signs before or after the `{% %}` statement markers to remove different amounts of white space.
 
 ## Defining Custom Filters
 
@@ -87,6 +87,5 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTA2Mjg4MzYsLTEwMjk2OTc5ODBdfQ
-==
+eyJoaXN0b3J5IjpbLTMwMjU0NDgyMSwtMTAyOTY5Nzk4MF19
 -->
