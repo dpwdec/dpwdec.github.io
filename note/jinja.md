@@ -58,7 +58,7 @@ even
 number.
 ```
 
-You can **remove white space and new line generation** between jinja if statements
+You can **remove white space and new line generation** between jinja if statements that don't get template
 
 ## Defining Custom Filters
 
@@ -88,5 +88,6 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NzQwMDU1MSwtMTAyOTY5Nzk4MF19
+eyJoaXN0b3J5IjpbLTEwMDk3MjMyNDQsLTEwMjk2OTc5ODBdfQ
+==
 -->
