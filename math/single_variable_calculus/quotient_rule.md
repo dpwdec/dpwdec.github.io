@@ -1,5 +1,5 @@
 ---
-title: Quotient Rule
+title: QuotienProduct Rule
 layout: page
 exclude: true
 ---
@@ -93,3 +93,6 @@ Which is equivalent to
 Thus proving the quotient rule.
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTMzOTk4MDY0XX0=
+-->
