@@ -51,9 +51,9 @@ You can **match arrays of objects** using a `*` character and pull out nested pr
 
 You can **create if statements in a jinja template** using the `{% %}` brackets.
 ```
-This is an
+Type: X
 {% if number % 2 == 0 %}
-even
+Data: Even
 {% end if %}
 number.
 ```
@@ -88,6 +88,5 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDk3MjMyNDQsLTEwMjk2OTc5ODBdfQ
-==
+eyJoaXN0b3J5IjpbMTg2Njk1Njg1LC0xMDI5Njk3OTgwXX0=
 -->
