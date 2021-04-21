@@ -47,6 +47,8 @@ You can **match arrays of objects** using a `*` character and pull out nested pr
     object: { property: [ { x: 1 }, { x: 2 } ] }
 ```
 
+## 
+
 ## Defining Custom Filters
 
 You can **define custom jinja filters** using python code. To do this, First create a folder in the top level of your ansible project called `filter_plugins` and create a file in the folder called `my_filters.py`.
@@ -75,5 +77,5 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTkwMDY0OF19
+eyJoaXN0b3J5IjpbMTA5NjcyMzU2Ml19
 -->
