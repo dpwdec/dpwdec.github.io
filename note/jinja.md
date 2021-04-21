@@ -6,7 +6,7 @@ title: Jinja
 
 Jinja templating can also be used in ansible and allows you to use the more programmatic functionality of the jinja engine to processes ansible data, such as filters, templating etc.
 
-Jinja can be used in python *or* 
+Jinja can be used in python, web pages *or* ansible templates. The examples below don't distinguish but the jinja concepts stay the same.
 
 ## Range
 
@@ -75,5 +75,5 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjY2MjE3NF19
+eyJoaXN0b3J5IjpbLTkwNTkwMDY0OF19
 -->
