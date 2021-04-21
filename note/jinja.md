@@ -49,7 +49,7 @@ You can **match arrays of objects** using a `*` character and pull out nested pr
 
 ## If statements
 
-You can **create if statements in a jinja template** using the `{% %}` brackets. In the 
+You can **create if statements in a jinja template** using the `{% %}` brackets. In the example below we template a `Data` field if the `number` variable is even otherwise we don't template anything.
 ```
 Type: {{ number }}
 {% if number % 2 == 0 %}
@@ -57,7 +57,7 @@ Data: Even
 {% end if %}
 ```
 
-You can **remove white space and new line generation** between jinja if statements that don't get template
+You can **remove white space and new line generation** between jinja if statements that don't get templated by adding `-` signs before 
 
 ## Defining Custom Filters
 
@@ -87,6 +87,6 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE4MDIwMDcsLTEwMjk2OTc5ODBdfQ
+eyJoaXN0b3J5IjpbLTEyNTA2Mjg4MzYsLTEwMjk2OTc5ODBdfQ
 ==
 -->
