@@ -54,9 +54,11 @@ You can **create if statements in a jinja template** using the `{% %}` brackets.
 This is an
 {% if number % 2 == 0 %}
 even
-{% end
-
+{% end if %}
+number.
 ```
+
+You can **remove white space and new line generation** between jinja if statements
 
 ## Defining Custom Filters
 
@@ -86,5 +88,5 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjk2OTc5ODBdfQ==
+eyJoaXN0b3J5IjpbMTYwOTAyMjI4NCwtMTAyOTY5Nzk4MF19
 -->
