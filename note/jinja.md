@@ -47,7 +47,9 @@ You can **match arrays of objects** using a `*` character and pull out nested pr
     object: { property: [ { x: 1 }, { x: 2 } ] }
 ```
 
-## 
+## If statements
+
+You can **create if statements in a jinja template** 
 
 ## Defining Custom Filters
 
@@ -77,5 +79,5 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjcyMzU2Ml19
+eyJoaXN0b3J5IjpbMTcwMzQ3MTU0OV19
 -->
