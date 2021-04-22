@@ -14,6 +14,16 @@ services:
     build: ./path/to/directory/
 ```
 
+You can **also point to a local and custom named `Dockerfile`s** by specifying a `context` directory and a custom `Dockerfile` name.
+```yaml
+# docker-compose.yml
+services:
+  my_service:
+    build:
+      context: ./path/to/directory
+      
+```
+
 You can **build all images associated with a docker service composition** by using the `build` command. This will build all `Dockerfile`s that are referenced in the `docker-compose.yaml` file. It's important to note that you **must re-run this command before starting your service** each time a `Dockerfile` changes.
 ```bash
 $ docker compose build
@@ -31,6 +41,6 @@ You can **keep a container that is initialised using docker compose running** by
     command: tail -F anything
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTQ5NTQ1MCwxMzcyODI1OTUyLDE3Nj
-Q3NjU1MTldfQ==
+eyJoaXN0b3J5IjpbLTE1MDgyMTAyMjgsMTM3MjgyNTk1MiwxNz
+Y0NzY1NTE5XX0=
 -->
