@@ -28,9 +28,9 @@ x.some(e => e % 2 === 1) // => false
 
 ## Async
 
-By
+You **cannot use `await` and with the `forEach` method** on an array. Each branch of the `forEach` method will trigger asynchronously. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxNzU3MjIwLC0zNjIzODk2MywtNTY3MD
-gwMTc5XX0=
+eyJoaXN0b3J5IjpbLTE4NjAzNDkxMDcsLTM2MjM4OTYzLC01Nj
+cwODAxNzldfQ==
 -->
