@@ -52,9 +52,9 @@ You can **match arrays of objects** using a `*` character and pull out nested pr
 You can **create if statements in a jinja template** using the `{<PERCENT> <PERCENT>}` brackets. In the example below we template a `Data` field if the `number` variable is even otherwise we don't template anything.
 ```
 Type: {{ number }}
-{% if number % 2 == 0 %}
+{<PERCENT> if number % 2 == 0 <PERCENT>}
 Data: Even
-{% end if %}
+{<PERCENT> end if <PERCENT>}
 Environment: OS
 ```
 
@@ -93,7 +93,7 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUwMDA2NzI0LDc3MjE5MTY4NCwtNzM2MD
+eyJoaXN0b3J5IjpbOTUyOTY1MzE2LDc3MjE5MTY4NCwtNzM2MD
 E0MzkyLDE2MjM2MjU3MjYsLTE1MzkzNDE5NTcsLTEwMjk2OTc5
 ODBdfQ==
 -->
