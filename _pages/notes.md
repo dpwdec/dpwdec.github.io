@@ -8,11 +8,11 @@ title: Notes index
         <l><a href='/math/derivatives'>Derivatives</a></l><br>
         <l><a href='/math/exponents'>ExponentLogarithms</a></l><br>
         <l><a href='/math/limits'>Limits</a></l><br>
-        <l><a href='/math/linear_algebra'>inearlgebra</a></l><br>
+        <l><a href='/math/linear_algebra'>Linear Algebra</a></l><br>
         <l><a href='/math/logarithms'>Logarithms</a></l><br>
         <l><a href='/math/point_slope'>Point Slope Formula</a></l><br>
-        <l><a href='/math/sets'>Setsinear lger</a></l><br><br>
-        <l>ingle ariable alculus</l>
+        <l><a href='/math/sets'>Sets</a></l><br><br>
+        <l>Single Variable Calculus</l>
         <ul>
             <l><a href='/math/single_variable_calculus/chain_rule'>Chain Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/higher_derivatives'>Higher Derivatives</a></l><br>
@@ -39,7 +39,6 @@ title: Notes index
             <l><a href='/note/ansible/ansible'>Ansible</a></l><br>
             <l><a href='/note/ansible/async'>Async</a></l><br>
             <l><a href='/note/ansible/failure'>Failure</a></l><br>
-            <l><a href='/note/ansible/jinja'>Jinja</a></l><br>
             <l><a href='/note/ansible/loops'>Loops</a></l><br>
             <l><a href='/note/ansible/when'>When</a></l><br>
         </ul><br>
@@ -166,7 +165,8 @@ title: Notes index
         <l><a href='/note/heroku'>Heroku</a></l><br>
         <l><a href='/note/html'>HTML</a></l><br>
         <l><a href='/note/ieee_754'>IEEE754</a></l><br>
-        <l><a href='/note/jet_brains'>JetBrains</a></l><br><br>
+        <l><a href='/note/jet_brains'>JetBrains</a></l><br>
+        <l><a href='/note/jinja'>Jinja</a></l><br><br>
         <l>Js</l>
         <ul>
             <l><a href='/note/js/Array'>Array</a></l><br><br>
@@ -192,8 +192,7 @@ title: Notes index
             <l>Mocha</l>
             <ul>
                 <l><a href='/note/js/mocha/code_runner'>Code Runner</a></l><br>
-                <l>/mocha'>
-            </ul<a href='/note/js/mocha/mocha'>Mocha</a></l><br>
+                <l><a href='/note/js/mocha/mocha'>Mocha</a></l><br>
             </ul>
             <l><a href='/note/js/mongo_db'>MongoDB</a></l><br><br>
             <l>P5js</l>
@@ -290,6 +289,3 @@ title: Notes index
         <l><a href='/note/youtube_data'>Youtube Data</a></l><br>
     </ul>
 </ul>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE2NTYxNjVdfQ==
--->
