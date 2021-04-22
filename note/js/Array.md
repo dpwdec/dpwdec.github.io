@@ -32,11 +32,14 @@ You **cannot use `await` and with the `forEach` method** on an array. Each branc
 
 You can **run a synchronous loop through an array** by using the `for...of` syntax.
 ```js
-l
+let x [1, 2, 3, 4, 5]
+for (const n of x) {
+  synchronousFunction(n)
+}
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjIxOTE2NjcsLTM2MjM4OTYzLC01Nj
+eyJoaXN0b3J5IjpbLTIwNDgxMDQwNTcsLTM2MjM4OTYzLC01Nj
 cwODAxNzldfQ==
 -->
