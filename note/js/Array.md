@@ -16,7 +16,10 @@ let x = Array(5)
 x.length // => 5
 ```
 
-You can **check if even one element in an array meets a condition** using the `some` funct
+## Methods
+
+You can **check if even one element in an array meets a condition** using the `some` method.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzQ1MDE3NSwtNTY3MDgwMTc5XX0=
+eyJoaXN0b3J5IjpbLTE0NTM3ODczNjQsLTU2NzA4MDE3OV19
 -->
