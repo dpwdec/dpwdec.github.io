@@ -21,7 +21,7 @@ services:
   my_service:
     build:
       context: ./path/to/directory
-      
+      dockerfile: Dockerfile
 ```
 
 You can **build all images associated with a docker service composition** by using the `build` command. This will build all `Dockerfile`s that are referenced in the `docker-compose.yaml` file. It's important to note that you **must re-run this command before starting your service** each time a `Dockerfile` changes.
@@ -41,6 +41,6 @@ You can **keep a container that is initialised using docker compose running** by
     command: tail -F anything
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDgyMTAyMjgsMTM3MjgyNTk1MiwxNz
+eyJoaXN0b3J5IjpbLTExMTgzNzI3OTAsMTM3MjgyNTk1MiwxNz
 Y0NzY1NTE5XX0=
 -->
