@@ -28,9 +28,15 @@ x.some(e => e % 2 === 1) // => false
 
 ## Async
 
-You **cannot use `await` and with the `forEach` method** on an array. Each branch of the `forEach` method will trigger asynchronously. 
+You **cannot use `await` and with the `forEach` method** on an array. Each branch of the `forEach` method will trigger asynchronously and simultaneously, so the loop will not work if it needs to execute synchronously . 
+
+You can **run a synchronous loop through an array** by using the `for...of` syntax.
+```js
+l
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjAzNDkxMDcsLTM2MjM4OTYzLC01Nj
+eyJoaXN0b3J5IjpbLTEyNjIxOTE2NjcsLTM2MjM4OTYzLC01Nj
 cwODAxNzldfQ==
 -->
