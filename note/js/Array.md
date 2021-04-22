@@ -20,8 +20,9 @@ x.length // => 5
 
 You can **check if even one element in an array meets a condition** using the `some` method.
 ```js
+let x = [2, 4, 6, 7, 10]
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDI2NTE1MTEsLTU2NzA4MDE3OV19
+eyJoaXN0b3J5IjpbOTQyNDY2MDkxLC01NjcwODAxNzldfQ==
 -->
