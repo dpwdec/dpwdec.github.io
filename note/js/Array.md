@@ -26,7 +26,7 @@ let x = [2, 4, 6, 8, 10]
 x.some(e => e % 2 === 1) // => false
 ```
 
-## Async
+## Synchronous vs Async Iteration
 
 You **cannot use `await` and with the `forEach` method** on an array. Each branch of the `forEach` method will trigger asynchronously and simultaneously, so the loop will not work if it needs to execute synchronously . 
 
@@ -40,6 +40,6 @@ for (const n of x) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDgxMDQwNTcsLTM2MjM4OTYzLC01Nj
-cwODAxNzldfQ==
+eyJoaXN0b3J5IjpbMTgwMDkzNjk0NCwtMzYyMzg5NjMsLTU2Nz
+A4MDE3OV19
 -->
