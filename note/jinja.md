@@ -60,9 +60,9 @@ Environment: OS
 
 You can **remove white space and new line generation** between jinja if statements that don't get templated by adding `-` signs before or after the `{<PERCENT> <PERCENT>}` statement markers to remove different amounts of white space. Differing bracket markers such as `{<PERCENT> <PERCENT>}`, `{<PERCENT> <PERCENT>}` will strip out differing amounts of white space when if templating happens. The example below will strip out all newline and blank spaces when the if statement is not templated.
 ```
-{% if number % 2 == 0 -%}
+{<PERCENT> if number % 2 == 0 -<PERCENT>}
 Data: Even
-{% end if -%}
+{<PERCENT> end if -<PERCENT>}
 ```
 
 ## Defining Custom Filters
@@ -93,7 +93,7 @@ You **can then use the filter in your ansible code** as you would any other jinj
 # => c this is my filter
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyOTY1MzE2LDc3MjE5MTY4NCwtNzM2MD
-E0MzkyLDE2MjM2MjU3MjYsLTE1MzkzNDE5NTcsLTEwMjk2OTc5
-ODBdfQ==
+eyJoaXN0b3J5IjpbMTA4OTAxOTMzMiw3NzIxOTE2ODQsLTczNj
+AxNDM5MiwxNjIzNjI1NzI2LC0xNTM5MzQxOTU3LC0xMDI5Njk3
+OTgwXX0=
 -->
