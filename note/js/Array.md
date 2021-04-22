@@ -15,6 +15,8 @@ You can **create an empty array with a length** by using a larger length argumen
 let x = Array(5)
 x.length // => 5
 ```
+
+You can **check if even one element in an array meets a condition** using the `some` funct
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzA4MDE3OV19
+eyJoaXN0b3J5IjpbLTgxMzQ1MDE3NSwtNTY3MDgwMTc5XX0=
 -->
