@@ -26,7 +26,11 @@ let x = [2, 4, 6, 8, 10]
 x.some(e => e % 2 === 1) // => false
 ```
 
+## Async
+
+By
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjM4OTYzLC01NjcwODAxNzldfQ==
+eyJoaXN0b3J5IjpbNzkxNzU3MjIwLC0zNjIzODk2MywtNTY3MD
+gwMTc5XX0=
 -->
