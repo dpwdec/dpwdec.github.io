@@ -17,7 +17,9 @@ SNS topics can be consumed by:
 SNS can work **application to application** (HTTP / SQS) OR **application to person** (Email / Texts).
 
 `disableSubscriptionsoverrides` property in retries can allow subscribers to the topic to set overrides on how they want to consume an sns topic.
+
+You can **filter which subscribers get a message** from a topic by using a **subscription filter policy**. This usually relates to contextual data published along with the message to the topic by the publisher. For example, an order topic that marks messages as either "games" or "
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3NTQxMjExLDE3NjUzMjEwMTcsLTEzOD
-Y1OTY3OTVdfQ==
+eyJoaXN0b3J5IjpbMTUzNDMwNjM3NywyNTc1NDEyMTEsMTc2NT
+MyMTAxNywtMTM4NjU5Njc5NV19
 -->
