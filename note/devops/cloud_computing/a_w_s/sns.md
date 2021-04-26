@@ -15,6 +15,9 @@ SNS topics can be consumed by:
 - Email
 
 SNS can work **application to application** (HTTP / SQS) OR **application to person** (Email / Texts).
+
+`disableSubscriptionsoverrides` property in retries can allow subscribers to the topic to set overrides on how they want to consume an sns topic.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTMyMTAxNywtMTM4NjU5Njc5NV19
+eyJoaXN0b3J5IjpbMjU3NTQxMjExLDE3NjUzMjEwMTcsLTEzOD
+Y1OTY3OTVdfQ==
 -->
