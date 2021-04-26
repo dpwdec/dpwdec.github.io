@@ -19,7 +19,9 @@ SNS can work **application to application** (HTTP / SQS) OR **application to per
 `disableSubscriptionsoverrides` property in retries can allow subscribers to the topic to set overrides on how they want to consume an sns topic.
 
 You can **filter which subscribers get a message** from a topic by using a **subscription filter policy**. This usually relates to contextual data published along with the message to the topic by the publisher. For example, an order topic that marks messages as either "games" or "movies" type purchases.
+
+By default SNS will try and send messages to subscribers for 48 hours. After that period the message will be lost unless **dead letter queue** is enabled which is a store of messages that have not yet been received.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzI4NzY3OCwyNTc1NDEyMTEsMTc2NT
-MyMTAxNywtMTM4NjU5Njc5NV19
+eyJoaXN0b3J5IjpbMTU2MzgwNDI5NiwxMDUzMjg3Njc4LDI1Nz
+U0MTIxMSwxNzY1MzIxMDE3LC0xMzg2NTk2Nzk1XX0=
 -->
