@@ -8,15 +8,16 @@ title: Notes index
         <l><a href='/math/derivatives'>Derivatives</a></l><br>
         <l><a href='/math/exponents'>ExponentLogarithms</a></l><br>
         <l><a href='/math/limits'>Limits</a></l><br>
-        <l><a href='/math/linear_algebra'>inearlgebr        <l><a href='/math/logarithms'>Logarithms</a></l><br>
+        <l><a href='/math/linear_algebra'>Linear Algebra</a></l><br>
+        <l><a href='/math/logarithms'>Logarithms</a></l><br>
         <l><a href='/math/point_slope'>Point Slope Formula</a></l><br>
-        <l><a href='/math/sets'>Setsinear lger</a></l><br><br>
-        <l>ingle ariable alculus</l>
+        <l><a href='/math/sets'>Sets</a></l><br><br>
+        <l>Single Variable Calculus</l>
         <ul>
             <l><a href='/math/single_variable_calculus/chain_rule'>Chain Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/higher_derivatives'>Higher Derivatives</a></l><br>
             <l><a href='/math/single_variable_calculus/implicit_derivatives'>Implicit Derivatives</a></l><br>
-/math/single_variable_calculus/inverse_functions'>Inverse Functions</a></l><br>
+            <l><a href='/math/single_variable_calculus/inverse_functions'>Inverse Functions</a></l><br>
             <l><a href='/math/single_variable_calculus/product_rule'>Product Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/quotient_rule'>QuotienProduct Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/rational_exponents'>Rational Exponents</a></l><br>
@@ -38,7 +39,7 @@ title: Notes index
             <l><a href='/note/ansible/ansible'>Ansible</a></l><br>
             <l><a href='/note/ansible/async'>Async</a></l><br>
             <l><a href='/note/ansible/failure'>Failure</a></l><br>
-            <l><a href='            <l><a href='/note/ansible/loops'>Loops</a></l><br>
+            <l><a href='/note/ansible/loops'>Loops</a></l><br>
             <l><a href='/note/ansible/when'>When</a></l><br>
         </ul><br>
         <l>Architecture</l>
@@ -51,7 +52,7 @@ title: Notes index
         <l>C Sharp</l>
         <ul>
             <l><a href='/note/c_sharp/Asp'>ASP</a></l><br>
-/note/c_sharp/Async'>Async</a></l><br>
+            <l><a href='/note/c_sharp/Async'>Async</a></l><br>
             <l><a href='/note/c_sharp/Attributes'>Attributes</a></l><br>
             <l><a href='/note/c_sharp/Automapper'>Automapper</a></l><br>
             <l><a href='/note/c_sharp/Binary'>Binary</a></l><br>
@@ -105,6 +106,7 @@ title: Notes index
                     <l><a href='/note/devops/cloud_computing/a_w_s/s3'>S3</a></l><br>
                     <l><a href='/note/devops/cloud_computing/a_w_s/sdk'>SDK</a></l><br>
                     <l><a href='/note/devops/cloud_computing/a_w_s/secrets_manager'>Secrets Manager</a></l><br>
+                    <l><a href='/note/devops/cloud_computing/a_w_s/sns'>Simple Notification Service</a></l><br>
                     <l><a href='/note/devops/cloud_computing/a_w_s/waf'>WAF</a></l><br>
                 </ul>
                 <l><a href='/note/devops/cloud_computing/cloud_computing'>Cloud Computing</a></l><br>
@@ -191,8 +193,7 @@ title: Notes index
             <l>Mocha</l>
             <ul>
                 <l><a href='/note/js/mocha/code_runner'>Code Runner</a></l><br>
-                <l>/mocha'>
-            </ul<a href='/note/js/mocha/mocha'>Mocha</a></l><br>
+                <l><a href='/note/js/mocha/mocha'>Mocha</a></l><br>
             </ul>
             <l><a href='/note/js/mongo_db'>MongoDB</a></l><br><br>
             <l>P5js</l>
@@ -289,6 +290,3 @@ title: Notes index
         <l><a href='/note/youtube_data'>Youtube Data</a></l><br>
     </ul>
 </ul>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDczMTI4NThdfQ==
--->
