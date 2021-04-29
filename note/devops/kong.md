@@ -108,6 +108,8 @@ You can **output the current configuration of kong** using the `dump` command. T
 $ deck dump
 ```
 
+You **cannot run the `dump` command on an ALB or general cluster of deployed kong instances** you must run the dump directly on a single running kong instance.
+
 You **can apply a `.yaml` configuration to kong** using the `sync` command. By default this will post to the `localhost:8001` port for kong and set the kong's configuration so that it matches source file provided. The `-s` flag specifies the *source* file to use.
 ```bash
 $ deck sync -s path/to/config.yaml
@@ -118,10 +120,10 @@ You can **run deck commands on remote deployments of kong** by using the `--kong
 $ deck sync --kong-addr http://my-kong.com:8001 -s path/to/config.yaml
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2MTMwMzQzLDUzMDc2ODI3MiwtMTQ4OD
-I5MDc5MiwtMTAyNzMwMDgwMCw0NjU1MjQyOTcsLTEzNjgxMTU4
-OTQsLTE5NDk0NDIxNDMsMTU3NTEwNTk2NywtMjA1NDQxMTc3OS
-wtOTA3OTQyODk5LDE3NTIyMzI2OSwtNDA3MDQ3NTUzLDIwNDQ4
-MzkwNzYsNTE2MDg3NTEwLC0xMjQxMjY5ODQwLC01Mjk4MDE4MT
-FdfQ==
+eyJoaXN0b3J5IjpbMTc4MTY2MzUxLDU1NjEzMDM0Myw1MzA3Nj
+gyNzIsLTE0ODgyOTA3OTIsLTEwMjczMDA4MDAsNDY1NTI0Mjk3
+LC0xMzY4MTE1ODk0LC0xOTQ5NDQyMTQzLDE1NzUxMDU5NjcsLT
+IwNTQ0MTE3NzksLTkwNzk0Mjg5OSwxNzUyMjMyNjksLTQwNzA0
+NzU1MywyMDQ0ODM5MDc2LDUxNjA4NzUxMCwtMTI0MTI2OTg0MC
+wtNTI5ODAxODExXX0=
 -->
