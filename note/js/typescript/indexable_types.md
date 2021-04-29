@@ -16,6 +16,23 @@ let MyObject = {}
 
 MyObject["id"] = 20
 ```
+
+You can **nest interfaces inside indexable properties**.
+```ts
+interface IMyObject {
+  [index: string]: number
+}
+
+interface IPerson {
+  name: string
+}
+
+let MyObject = {}
+
+MyObject["person"] = {
+  name: "Jamal"
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1ODEzMDM1XX0=
+eyJoaXN0b3J5IjpbNjk3NDM5NDg0XX0=
 -->
