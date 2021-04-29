@@ -33,6 +33,8 @@ MyObject["person"] = {
   name: "Jamal"
 }
 ```
+
+You can also use indexable types 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjgwNDc3Nl19
+eyJoaXN0b3J5IjpbLTM4OTY1OTQyMF19
 -->
