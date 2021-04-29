@@ -8,11 +8,10 @@ title: Notes index
         <l><a href='/math/derivatives'>Derivatives</a></l><br>
         <l><a href='/math/exponents'>ExponentLogarithms</a></l><br>
         <l><a href='/math/limits'>Limits</a></l><br>
-        <l><a href='/math/linear_algebra'>Linear Algebra</a></l><br>
-        <l><a href='/math/logarithms'>Logarithms</a></l><br>
+        <l><a href='/math/linear_algebra'>inearlgebr        <l><a href='/math/logarithms'>Logarithms</a></l><br>
         <l><a href='/math/point_slope'>Point Slope Formula</a></l><br>
-        <l><a href='/math/sets'>Sets</a></l><br><br>
-        <l>Single Variable Calculus</l>
+        <l><a href='/math/sets'>Setsinearlger</a></l><br><br>
+        <l>ingle ariable alculus</l>
         <ul>
             <l><a href='/math/single_variable_calculus/chain_rule'>Chain Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/higher_derivatives'>Higher Derivatives</a></l><br>
@@ -27,8 +26,7 @@ title: Notes index
         <l><a href='/math/tangent_lines'>Tangent Lines</a></l><br><br>
         <l>Trigonometry</l>
         <ul>
-            <l><a href='/math/trigonometry/sum_and_difference_formulas'>Trigonometric Sum and Difference Formulas</a></l><br>
-        </ul>
+            <l><a href='/math/trigonometry/sum_and_difference_formulas'>Trigonometric Sum and Difference For        </ul>
     </ul><br>
     <l>Note</l>
     <ul>
@@ -39,8 +37,8 @@ title: Notes index
             <l><a href='/note/ansible/ansible'>Ansible</a></l><br>
             <l><a href='/note/ansible/async'>Async</a></l><br>
             <l><a href='/note/ansible/failure'>Failure</a></l><br>
-            <l><a href='/note/ansible/loops'>Loops</a></l><br>
-            <l><a href='/note/ansible/when'>When</a></l><br>
+            <l><a href='            <l><a href='/note/ansible/loops'>Loops</a></l><br>
+/note/ansible/when'>When</a></l><br>
         </ul><br>
         <l>Architecture</l>
         <ul>
@@ -55,7 +53,7 @@ title: Notes index
             <l><a href='/note/c_sharp/Async'>Async</a></l><br>
             <l><a href='/note/c_sharp/Attributes'>Attributes</a></l><br>
             <l><a href='/note/c_sharp/Automapper'>Automapper</a></l><br>
-            <l><a href='/note/c_sharp/Binary'>Binary</a></l><br>
+/note/c_sharp/Binary'>Binary</a></l><br>
             <l><a href='/note/c_sharp/Collections'>Collections</a></l><br>
             <l><a href='/note/c_sharp/CommandLineUtils'>Command Line Utils</a></l><br>
             <l><a href='/note/c_sharp/DataAnnotations'>Data Annotations</a></l><br>
@@ -193,7 +191,8 @@ title: Notes index
             <l>Mocha</l>
             <ul>
                 <l><a href='/note/js/mocha/code_runner'>Code Runner</a></l><br>
-                <l><a href='/note/js/mocha/mocha'>Mocha</a></l><br>
+                <l>/mocha'>
+            </ul<a href='/note/js/mocha/mocha'>Mocha</a></l><br>
             </ul>
             <l><a href='/note/js/mongo_db'>MongoDB</a></l><br><br>
             <l>P5js</l>
@@ -290,3 +289,6 @@ title: Notes index
         <l><a href='/note/youtube_data'>Youtube Data</a></l><br>
     </ul>
 </ul>
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTIyNzg4MzAwXX0=
+-->
