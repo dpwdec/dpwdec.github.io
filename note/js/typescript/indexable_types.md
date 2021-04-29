@@ -14,8 +14,8 @@ interface IMyObject {
 
 let MyObject = {}
 
-MyObject["
+MyObject["id"] = 20
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDA3MTUxMDNdfQ==
+eyJoaXN0b3J5IjpbMTgwNjg5NjM4XX0=
 -->
