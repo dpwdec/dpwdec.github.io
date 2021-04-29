@@ -34,7 +34,7 @@ MyObject["person"] = {
 }
 ```
 
-You can also use indexable types 
+You can also use indexable types to create type bound arrays.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTY1OTQyMF19
+eyJoaXN0b3J5IjpbOTkxOTc4MzI5XX0=
 -->
