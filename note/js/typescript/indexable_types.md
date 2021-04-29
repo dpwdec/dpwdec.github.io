@@ -6,7 +6,7 @@ exclude: true
 
 **Indexable Types** allow you to add arbitrary indexable properties to typescript objects which are still constrained by types.
 
-To **declare an indexable type** put the keyword `index` in `[]` square brackets with either a `number` or `string` type followed by the type that the index will hold. *Typescript objects can only be indexed by `number` of `string`*.
+To **declare an indexable type** put the keyword `index` in `[]` square brackets with either a `number` or `string` type followed by the type that the index will hold. *Typescript objects can only be indexed by `number` of `string`*. In the example below we add an indexable `string` property - so that this object can indexed by arbitrary `string`s similar to a dictionary. We constrain this to only accept `number` types.
 ```ts
 interface IMyObject {
   [index: string]: number
@@ -17,5 +17,5 @@ let MyObject = {}
 MyObject["id"] = 20
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjg5NjM4XX0=
+eyJoaXN0b3J5IjpbOTk1ODEzMDM1XX0=
 -->
