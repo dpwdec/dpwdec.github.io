@@ -17,7 +17,7 @@ let MyObject = {}
 MyObject["id"] = 20
 ```
 
-You can **nest interfaces inside indexable properties**.
+You can **nest interfaces inside indexable properties**. If you try to add a value to an indexable field that does not match the declared type than typescript will not compile.
 ```ts
 interface IMyObject {
   [index: string]: number
@@ -34,5 +34,5 @@ MyObject["person"] = {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk3NDM5NDg0XX0=
+eyJoaXN0b3J5IjpbLTUyNjgwNDc3Nl19
 -->
