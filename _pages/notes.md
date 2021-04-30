@@ -8,10 +8,11 @@ title: Notes index
         <l><a href='/math/derivatives'>Derivatives</a></l><br>
         <l><a href='/math/exponents'>ExponentLogarithms</a></l><br>
         <l><a href='/math/limits'>Limits</a></l><br>
-        <l><a href='/math/linear_algebra'>inearlgebr        <l><a href='/math/logarithms'>Logarithms</a></l><br>
+        <l><a href='/math/linear_algebra'>Linear Algebra</a></l><br>
+        <l><a href='/math/logarithms'>Logarithms</a></l><br>
         <l><a href='/math/point_slope'>Point Slope Formula</a></l><br>
-        <l><a href='/math/sets'>Setsinearlger</a></l><br><br>
-        <l>ingle ariable alculus</l>
+        <l><a href='/math/sets'>Sets</a></l><br><br>
+        <l>Single Variable Calculus</l>
         <ul>
             <l><a href='/math/single_variable_calculus/chain_rule'>Chain Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/higher_derivatives'>Higher Derivatives</a></l><br>
@@ -26,7 +27,8 @@ title: Notes index
         <l><a href='/math/tangent_lines'>Tangent Lines</a></l><br><br>
         <l>Trigonometry</l>
         <ul>
-            <l><a href='/math/trigonometry/sum_and_difference_formulas'>Trigonometric Sum and Difference For        </ul>
+            <l><a href='/math/trigonometry/sum_and_difference_formulas'>Trigonometric Sum and Difference Formulas</a></l><br>
+        </ul>
     </ul><br>
     <l>Note</l>
     <ul>
@@ -37,8 +39,8 @@ title: Notes index
             <l><a href='/note/ansible/ansible'>Ansible</a></l><br>
             <l><a href='/note/ansible/async'>Async</a></l><br>
             <l><a href='/note/ansible/failure'>Failure</a></l><br>
-            <l><a href='            <l><a href='/note/ansible/loops'>Loops</a></l><br>
-/note/ansible/when'>When</a></l><br>
+            <l><a href='/note/ansible/loops'>Loops</a></l><br>
+            <l><a href='/note/ansible/when'>When</a></l><br>
         </ul><br>
         <l>Architecture</l>
         <ul>
@@ -53,7 +55,7 @@ title: Notes index
             <l><a href='/note/c_sharp/Async'>Async</a></l><br>
             <l><a href='/note/c_sharp/Attributes'>Attributes</a></l><br>
             <l><a href='/note/c_sharp/Automapper'>Automapper</a></l><br>
-/note/c_sharp/Binary'>Binary</a></l><br>
+            <l><a href='/note/c_sharp/Binary'>Binary</a></l><br>
             <l><a href='/note/c_sharp/Collections'>Collections</a></l><br>
             <l><a href='/note/c_sharp/CommandLineUtils'>Command Line Utils</a></l><br>
             <l><a href='/note/c_sharp/DataAnnotations'>Data Annotations</a></l><br>
@@ -94,10 +96,14 @@ title: Notes index
                 <l>AWS</l>
                 <ul>
                     <l><a href='/note/devops/cloud_computing/a_w_s/acl'>ACL</a></l><br>
-                    <l><a href='/note/devops/cloud_computing/a_w_s/alb'>ALB</a></l><br>
                     <l><a href='/note/devops/cloud_computing/a_w_s/aws'>aws</a></l><br>
                     <l><a href='/note/devops/cloud_computing/a_w_s/cli'>CLI</a></l><br>
-                    <l><a href='/note/devops/cloud_computing/a_w_s/cloudfront'>Cloudfront</a></l><br>
+                    <l><a href='/note/devops/cloud_computing/a_w_s/cloudfront'>Cloudfront</a></l><br><br>
+                    <l>Ec 2</l>
+                    <ul>
+                        <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/alb'>ALB</a></l><br>
+                        <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/asg'>Auto Scaling Groups</a></l><br>
+                    </ul>
                     <l><a href='/note/devops/cloud_computing/a_w_s/iam'>IAM</a></l><br>
                     <l><a href='/note/devops/cloud_computing/a_w_s/lambda'>Lambda</a></l><br>
                     <l><a href='/note/devops/cloud_computing/a_w_s/route_53'>Route 53</a></l><br>
@@ -191,8 +197,7 @@ title: Notes index
             <l>Mocha</l>
             <ul>
                 <l><a href='/note/js/mocha/code_runner'>Code Runner</a></l><br>
-                <l>/mocha'>
-            </ul<a href='/note/js/mocha/mocha'>Mocha</a></l><br>
+                <l><a href='/note/js/mocha/mocha'>Mocha</a></l><br>
             </ul>
             <l><a href='/note/js/mongo_db'>MongoDB</a></l><br><br>
             <l>P5js</l>
@@ -200,6 +205,10 @@ title: Notes index
                 <l><a href='/note/js/p5js/dom_elements'>DOM Elements</a></l><br>
                 <l><a href='/note/js/p5js/embedding'>Embedding</a></l><br>
                 <l><a href='/note/js/p5js/p5js'>p5.js</a></l><br>
+            </ul><br>
+            <l>Typescript</l>
+            <ul>
+                <l><a href='/note/js/typescript/indexable_types'>Indexable Types</a></l><br>
             </ul>
         </ul><br>
         <l>Language</l>
@@ -289,6 +298,3 @@ title: Notes index
         <l><a href='/note/youtube_data'>Youtube Data</a></l><br>
     </ul>
 </ul>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyNzg4MzAwXX0=
--->
