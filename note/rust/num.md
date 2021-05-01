@@ -14,7 +14,15 @@ fn cast<D: ToPrimitive, T: NumCast>(x: D) -> T {
 }
 ```
 
-There are also a **range of predefined conversion methods** in the `Num` crate that allow you to convert between mismatch types in specific cases.
+There are also a **range of predefined conversion methods** in the `Num` crate that allow you to convert between mismatched types to a specific type *in* a generic case.
+```rust
+use num_traits::ToPrimitive; 
+
+fn cast<T: ToPrimitive>(x: T) -> u32 {  
+    x.to_u32().unwrap()  
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQzOTU3NjgsMTMzNjAwNjI4OV19
+eyJoaXN0b3J5IjpbLTE5OTA2NDExMjIsLTEzMzQzOTU3NjgsMT
+MzNjAwNjI4OV19
 -->
