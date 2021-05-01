@@ -13,6 +13,8 @@ fn cast<D: ToPrimitive, T: NumCast>(x: D) -> T {
     T::from(x).unwrap()  
 }
 ```
+
+There are also a **range of predefined conversion methods** in the `Num` crate that allow you to convert between mismatch types in specific cases.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjAwNjI4OV19
+eyJoaXN0b3J5IjpbLTEzMzQzOTU3NjgsMTMzNjAwNjI4OV19
 -->
