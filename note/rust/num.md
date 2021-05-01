@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 
-You can **convert between differently generically defined types** using the `num-traits` crate's `ToPrimitive` and `NumCast` traits. This is only necessary if the generic types in this conversion differ, in the example below the generic `D` only has to be some fo
+You can **convert between differently generically defined types** using the `num-traits` crate's `ToPrimitive` and `NumCast` traits. This is only necessary if the generic types in this conversion differ, in the example below the generic `D` only has to be some form of primitive or something can be converted `ToPrimitive` and represented in that way. The type it is being turned into `T` must support the `NumCast` trait which enables casting `from` arbitrary values. This conversion will fail with a `None` if the conversion cannot take place.
 ```rust
 use num_traits::cast::NumCast;  
 use num_traits::ToPrimitive;  
@@ -14,5 +14,5 @@ fn cast<D: ToPrimitive, T: NumCast>(x: D) -> T {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDg4ODM1MjJdfQ==
+eyJoaXN0b3J5IjpbMTMzNjAwNjI4OV19
 -->
