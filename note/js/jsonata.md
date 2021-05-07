@@ -79,6 +79,7 @@ You can **select a higher level on a nested match** by nesting `[]` square brack
 
 Nested query for the example data `Data 02`. Notice that query **returns the entirety of the user object even though the match is made on a lower level property**.
 ```js
+// Query on Data 02
 Users[Addresses[Number=20]] =>
 {
   "name": "John",
@@ -96,6 +97,6 @@ You can **execute simple functions on object properties** such us combination by
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDMyMjM2OSwxODM4ODEyNDg1LC0yMD
+eyJoaXN0b3J5IjpbMTU3MzAyODQ4MCwxODM4ODEyNDg1LC0yMD
 k3ODk4MzUxLC0xMzY2NzEyNDk2LC02NDY3ODg2NDNdfQ==
 -->
