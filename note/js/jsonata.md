@@ -92,7 +92,7 @@ Users[Addresses[Number=20]] =>
 }
 ```
 
-You can **execute simple functions on object properties** such us combination by using `()` brackets with operators after the property you are selecting with `.` dot syntax.
+You can **execute simple functions on object properties** such us combination by using `()` brackets with operators after the property you are selecting with `.` dot syntax. The `&` syntax below is used for concatenating strings, but you can use standard numeric operators for purely numeric data.
 ```js
 // Query on Data 02
 Users.(name & " " & age) =>
@@ -102,6 +102,6 @@ Users.(name & " " & age) =>
 ]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTYwLDE4Mzg4MTI0ODUsLTIwOTc4OT
-gzNTEsLTEzNjY3MTI0OTYsLTY0Njc4ODY0M119
+eyJoaXN0b3J5IjpbLTU2NjE3OTQ5MCwxODM4ODEyNDg1LC0yMD
+k3ODk4MzUxLC0xMzY2NzEyNDk2LC02NDY3ODg2NDNdfQ==
 -->
