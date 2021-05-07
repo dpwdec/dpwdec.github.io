@@ -77,7 +77,7 @@ You can **select a higher level on a nested match** by nesting `[]` square brack
 }
 ```
 
-Nested query for the example data `Data 02`. Notice that query returns the entirety of the user object even though the match is made on a lower level property.
+Nested query for the example data `Data 02`. Notice that query **returns the entirety of the user object even though the match is made on a lower level property**.
 ```js
 Users[Addresses[Number=20]] =>
 {
@@ -91,8 +91,9 @@ Users[Addresses[Number=20]] =>
 },
 ```
 
-
+You can **execute simple functions on object properties** such us combination by using `()` brackets with operators after the property you are selecting.
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODgxMjQ4NSwtMjA5Nzg5ODM1MSwtMT
-M2NjcxMjQ5NiwtNjQ2Nzg4NjQzXX0=
+eyJoaXN0b3J5IjpbLTQxMzQ5MTM1OCwxODM4ODEyNDg1LC0yMD
+k3ODk4MzUxLC0xMzY2NzEyNDk2LC02NDY3ODg2NDNdfQ==
 -->
