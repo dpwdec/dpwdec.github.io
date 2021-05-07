@@ -39,7 +39,16 @@ Users[age='10'].name =>
 "Mark"
 ```
 
-You can **maintain selection of a higher level object** by nesting `
+You can **select a property based on whether it exists** for data with irregular formatting by using placing the name of a property in the `[]` predicate.
+```js
+// Query on Data 01
+Users[height] =>
+{
+  "name": "John",
+  "age": 20,
+  "height": 185
+},
+```
 
 You can **select a higher level on a nested match** by nesting `[]` square brackets containing predicates.
 ```js
@@ -66,6 +75,6 @@ You can **select a higher level on a nested match** by nesting `[]` square brack
 Users[Addresses[Number=20]]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxNjQ2ODAsLTIwOTc4OTgzNTEsLTEzNj
-Y3MTI0OTYsLTY0Njc4ODY0M119
+eyJoaXN0b3J5IjpbMTMxNDA2NzcxMywtMjA5Nzg5ODM1MSwtMT
+M2NjcxMjQ5NiwtNjQ2Nzg4NjQzXX0=
 -->
