@@ -67,6 +67,11 @@ You can **select a higher level on a nested match** by nesting `[]` square brack
     {
       "name": "Mark",
       "age": 10
+      "Addresses": [
+        {
+		  "Number": 40,
+        }
+      ]
     }
   ]
 }
@@ -85,7 +90,9 @@ Users[Addresses[Number=20]] =>
   ]
 },
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjM5MDcxMiwtMjA5Nzg5ODM1MSwtMT
+eyJoaXN0b3J5IjpbMTgzODgxMjQ4NSwtMjA5Nzg5ODM1MSwtMT
 M2NjcxMjQ5NiwtNjQ2Nzg4NjQzXX0=
 -->
