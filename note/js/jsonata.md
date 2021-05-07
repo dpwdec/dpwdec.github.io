@@ -12,7 +12,8 @@ You can **match an object in an array** by adding `[]` square brackets and using
   "Users": [
     {
       "name": "John",
-      "age": 20
+      "age": 20,
+      "height": 185
     },
     {
       "name": "Mark",
@@ -65,6 +66,6 @@ You can **select a higher level on a nested match** by nesting `[]` square brack
 Users[Addresses[Number=20]]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTc4OTgzNTEsLTEzNjY3MTI0OTYsLT
-Y0Njc4ODY0M119
+eyJoaXN0b3J5IjpbMzUxNjQ2ODAsLTIwOTc4OTgzNTEsLTEzNj
+Y3MTI0OTYsLTY0Njc4ODY0M119
 -->
