@@ -97,10 +97,11 @@ You can **execute simple functions on object properties** such us combination by
 // Query on Data 02
 Users.(name & " " & age) =>
 [
-  "John
+  "John, 20",
+  "Mark, 10"
 ]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzQ3NTIyOCwxODM4ODEyNDg1LC0yMD
-k3ODk4MzUxLC0xMzY2NzEyNDk2LC02NDY3ODg2NDNdfQ==
+eyJoaXN0b3J5IjpbLTI2NTYwLDE4Mzg4MTI0ODUsLTIwOTc4OT
+gzNTEsLTEzNjY3MTI0OTYsLTY0Njc4ODY0M119
 -->
