@@ -38,7 +38,7 @@ Users[age='10'].name =>
 "Mark"
 ```
 
-You can **maintain select of a higher level object**
+You can **maintain selection of a higher level object** by nesting `
 
 You can **select a higher level on a nested match** by nesting `[]` square brackets containing predicates.
 ```js
@@ -65,6 +65,6 @@ You can **select a higher level on a nested match** by nesting `[]` square brack
 Users[Addresses[Number=20]]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0MTM2MTQ2LC0xMzY2NzEyNDk2LC02ND
-Y3ODg2NDNdfQ==
+eyJoaXN0b3J5IjpbLTIwOTc4OTgzNTEsLTEzNjY3MTI0OTYsLT
+Y0Njc4ODY0M119
 -->
