@@ -40,9 +40,29 @@ Users[age='10'].name =>
 
 You can **select a higher level on a nested match** by nesting `[]` square brackets containing predicates.
 ```js
+{
+  "Users": [
+    {
+      "name": "John",
+      "age": 20
+      "Addresses": [
+        {
+		  "Number": 20
+        }
+      ]
+    },
+    {
+      "name": "Mark",
+      "age": 10
+    }
+  ]
+}
+```
 
+```js
+Users[
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5NjMzMjM5LC0xMzY2NzEyNDk2LC02ND
-Y3ODg2NDNdfQ==
+eyJoaXN0b3J5IjpbLTExMjYwOTE1NjEsLTEzNjY3MTI0OTYsLT
+Y0Njc4ODY0M119
 -->
