@@ -60,9 +60,9 @@ You can **select a higher level on a nested match** by nesting `[]` square brack
 ```
 
 ```js
-Users[
+Users[Addresses[Number=20]]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjYwOTE1NjEsLTEzNjY3MTI0OTYsLT
-Y0Njc4ODY0M119
+eyJoaXN0b3J5IjpbLTM3Mzc0MTk5MCwtMTM2NjcxMjQ5NiwtNj
+Q2Nzg4NjQzXX0=
 -->
