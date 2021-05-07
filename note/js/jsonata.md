@@ -52,6 +52,7 @@ Users[height] =>
 
 You can **select a higher level on a nested match** by nesting `[]` square brackets containing predicates.
 ```js
+// Data 02
 {
   "Users": [
     {
@@ -75,6 +76,6 @@ You can **select a higher level on a nested match** by nesting `[]` square brack
 Users[Addresses[Number=20]]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDA2NzcxMywtMjA5Nzg5ODM1MSwtMT
-M2NjcxMjQ5NiwtNjQ2Nzg4NjQzXX0=
+eyJoaXN0b3J5IjpbNTcxNzU5MjExLC0yMDk3ODk4MzUxLC0xMz
+Y2NzEyNDk2LC02NDY3ODg2NDNdfQ==
 -->
