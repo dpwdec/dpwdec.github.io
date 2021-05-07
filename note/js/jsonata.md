@@ -30,7 +30,7 @@ Users[age='10'] =>
 }
 ```
 
-
+You can **select a sub property on a matched object**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Njc4ODY0M119
+eyJoaXN0b3J5IjpbNDU1MDM1ODI5LC02NDY3ODg2NDNdfQ==
 -->
