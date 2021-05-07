@@ -22,12 +22,15 @@ You can **match an object in an array** by adding `[]` square brackets and using
 
 ---
 
-Users[age='10']
+Users[age='10'] =>
+
 {
   "name": "Mark",
   "age": 10
 }
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODU2MTk5OF19
+eyJoaXN0b3J5IjpbLTY0Njc4ODY0M119
 -->
