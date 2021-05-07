@@ -6,7 +6,7 @@ exclude: true
 
 You can **match an object in an array** by adding `[]` square brackets and using an `=` equals sign with the field you want to select.
 ```js
-// Da
+// Data 01
 {
   "Organisation": "Thunkcorp",
   "Users": [
@@ -22,6 +22,7 @@ You can **match an object in an array** by adding `[]` square brackets and using
 }
 ```
 
+Query for the example data `Data 01`...
 ```js
 Users[age='10'] =>
 {
@@ -32,9 +33,12 @@ Users[age='10'] =>
 
 You can **select a sub property on a matched object**  using the standard `.` dot syntax.
 ```js
+// Query on Data 01
 Users[age='10'].name =>
 "Mark"
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI0MjIyOTcsLTY0Njc4ODY0M119
+eyJoaXN0b3J5IjpbLTEzNjY3MTI0OTYsLTY0Njc4ODY0M119
 -->
