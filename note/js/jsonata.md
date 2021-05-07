@@ -38,8 +38,11 @@ Users[age='10'].name =>
 "Mark"
 ```
 
-Yo
+You can **select a higher level on a nested match** by nesting `[]` square brackets containing predicates.
+```js
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTQ4NzE5NCwtMTM2NjcxMjQ5NiwtNj
-Q2Nzg4NjQzXX0=
+eyJoaXN0b3J5IjpbODc5NjMzMjM5LC0xMzY2NzEyNDk2LC02ND
+Y3ODg2NDNdfQ==
 -->
