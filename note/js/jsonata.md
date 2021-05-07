@@ -92,8 +92,10 @@ Users[Addresses[Number=20]] =>
 ```
 
 You can **execute simple functions on object properties** such us combination by using `()` brackets with operators after the property you are selecting.
+```js
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzQ5MTM1OCwxODM4ODEyNDg1LC0yMD
+eyJoaXN0b3J5IjpbLTcxMDMyMjM2OSwxODM4ODEyNDg1LC0yMD
 k3ODk4MzUxLC0xMzY2NzEyNDk2LC02NDY3ODg2NDNdfQ==
 -->
