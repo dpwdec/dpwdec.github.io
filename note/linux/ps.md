@@ -8,6 +8,14 @@ The `ps` command stands for **process status** and is used to show running proce
 ```
 $ ps
 ```
+
+## Killing processes
+
+You can **kill a process by its process id** (or pid) using the `kill` command.
+```bash
+kill <PROCESS_ID>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjIzNTQ1MjQsMjExNDk3OTI2OF19
+eyJoaXN0b3J5IjpbNDEwNjQ4MzAzLC0xMDYyMzU0NTI0LDIxMT
+Q5NzkyNjhdfQ==
 -->
