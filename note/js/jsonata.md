@@ -117,7 +117,7 @@ Users[$count(Addresses)>1] =>
 }
 ```
 
-You can **filter an array based on its contents** by using the `i
+You can **filter an array based on its contents** by using the `in` in-fix function within a predicate.
 
 
 ## Functions
@@ -132,7 +132,7 @@ Users.(name & " " & age) =>
 ]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjUwMzM1NjYsNzM2MTIxMzg3LC01Nj
-YxNzk0OTAsMTgzODgxMjQ4NSwtMjA5Nzg5ODM1MSwtMTM2Njcx
-MjQ5NiwtNjQ2Nzg4NjQzXX0=
+eyJoaXN0b3J5IjpbODI3MjYyMDIsNzM2MTIxMzg3LC01NjYxNz
+k0OTAsMTgzODgxMjQ4NSwtMjA5Nzg5ODM1MSwtMTM2NjcxMjQ5
+NiwtNjQ2Nzg4NjQzXX0=
 -->
