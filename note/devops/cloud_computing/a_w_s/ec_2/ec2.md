@@ -8,6 +8,8 @@ You can **SSH onto an Amazon Linux machine** by using the `ec2-user` user for th
 ```bash
 $ ssh -i <KEY> ec2-user@<IP_ADDRESS>
 ```
+
+To **run a web server on an ec2 machine that can be routed to from an external source** the host of the web server application needs to be set to `0.0.0.0` otherwise you will get a `Connection refused` error because the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzI2MTY5Ml19
+eyJoaXN0b3J5IjpbLTE2NTkzODMwMjEsMTEzNzI2MTY5Ml19
 -->
