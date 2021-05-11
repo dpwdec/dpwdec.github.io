@@ -150,8 +150,10 @@ Users.(name & " " & age) =>
   "Mark, 10"
 ]
 ```
+
+You can **concatenate the results of two arrays** using the `$append` function. This is useful for combining the results of two queries on a data set.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjQxMTI2LDczNjEyMTM4NywtNTY2MT
+eyJoaXN0b3J5IjpbOTA0NjA4OTgyLDczNjEyMTM4NywtNTY2MT
 c5NDkwLDE4Mzg4MTI0ODUsLTIwOTc4OTgzNTEsLTEzNjY3MTI0
 OTYsLTY0Njc4ODY0M119
 -->
