@@ -4,6 +4,10 @@ layout: page
 exclude: true
 ---
 
+## Predicates
+
+You can **select an object using a predicate expression** (some expression that evaluates to true or false using `[]` square brackets.
+
 You can **match an object in an array** by adding `[]` square brackets and using an `=` equals sign with the field you want to select.
 ```js
 // Data 01
@@ -38,10 +42,6 @@ You can **select a sub property on a matched object**  using the standard `.` do
 Users[age='10'].name =>
 "Mark"
 ```
-
-## Predicates
-
-You can **select an object using a predicate expression** (some expression that evaluates to true or false using `[]` square brackets.
 
 You can **select a property based on whether it exists** for data with irregular formatting by using placing the name of a property in the `[]` predicate.
 ```js
@@ -96,6 +96,10 @@ Users[Addresses[Number=20]] =>
 }
 ```
 
+You can **execute functions within predicate expressi**
+
+## Functions
+
 You can **execute simple functions on object properties** such us combination by using `()` brackets with operators after the property you are selecting with `.` dot syntax. The `&` syntax below is used for concatenating strings, but you can use standard numeric operators for purely numeric data.
 ```js
 // Query on Data 02
@@ -106,7 +110,7 @@ Users.(name & " " & age) =>
 ]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjMzMzIzNSwtNTY2MTc5NDkwLDE4Mz
+eyJoaXN0b3J5IjpbLTExNDE1Mjc5MiwtNTY2MTc5NDkwLDE4Mz
 g4MTI0ODUsLTIwOTc4OTgzNTEsLTEzNjY3MTI0OTYsLTY0Njc4
 ODY0M119
 -->
