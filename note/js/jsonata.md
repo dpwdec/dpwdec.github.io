@@ -100,6 +100,19 @@ Users[Addresses[Number=20]] =>
 ```
 
 You can **execute functions within predicate expressions** to filter objects based on conditions.
+```js
+// Query on Data 02
+Users[$count(Addresses)>1] =>
+{
+  "name": "John",
+  "age": 20
+  "Addresses": [
+    {
+     "Number": 20
+    }
+  ]
+}
+```
 
 
 ## Functions
@@ -114,7 +127,7 @@ Users.(name & " " & age) =>
 ]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTAzMjkxNywtNTY2MTc5NDkwLDE4Mz
-g4MTI0ODUsLTIwOTc4OTgzNTEsLTEzNjY3MTI0OTYsLTY0Njc4
-ODY0M119
+eyJoaXN0b3J5IjpbNzM2MTIxMzg3LC01NjYxNzk0OTAsMTgzOD
+gxMjQ4NSwtMjA5Nzg5ODM1MSwtMTM2NjcxMjQ5NiwtNjQ2Nzg4
+NjQzXX0=
 -->
