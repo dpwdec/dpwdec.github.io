@@ -61,7 +61,7 @@ You can **select a higher level on a nested match** by nesting `[]` square brack
   "Users": [
     {
       "name": "John",
-      "age": 20
+      "age": 20,
       "Addresses": [
         {
 		  "Number": 20
@@ -73,10 +73,10 @@ You can **select a higher level on a nested match** by nesting `[]` square brack
     },
     {
       "name": "Mark",
-      "age": 10
+      "age": 10,
       "Addresses": [
         {
-		  "Number": 40,
+		  "Number": 40
         }
       ]
     }
@@ -99,7 +99,7 @@ Users[Addresses[Number=20]] =>
 }
 ```
 
-You can **execute functions within predicate expressions** to filter objects based on conditions.
+You can **execute functions within predicate expressions** to filter objects based on conditions. In the example below the 
 ```js
 // Query on Data 02
 Users[$count(Addresses)>1] =>
@@ -109,6 +109,9 @@ Users[$count(Addresses)>1] =>
   "Addresses": [
     {
      "Number": 20
+    },
+    {
+      "Number": 25
     }
   ]
 }
@@ -127,7 +130,7 @@ Users.(name & " " & age) =>
 ]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2MTIxMzg3LC01NjYxNzk0OTAsMTgzOD
-gxMjQ4NSwtMjA5Nzg5ODM1MSwtMTM2NjcxMjQ5NiwtNjQ2Nzg4
-NjQzXX0=
+eyJoaXN0b3J5IjpbMTk5ODMzNDczMSw3MzYxMjEzODcsLTU2Nj
+E3OTQ5MCwxODM4ODEyNDg1LC0yMDk3ODk4MzUxLC0xMzY2NzEy
+NDk2LC02NDY3ODg2NDNdfQ==
 -->
