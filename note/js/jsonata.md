@@ -99,7 +99,7 @@ Users[Addresses[Number=20]] =>
 }
 ```
 
-You can **execute functions within predicate expressions** to filter objects based on conditions. In the example below the 
+You can **execute functions within predicate expressions** to filter objects based on conditions. In the example below the `$count` function is used to get the length of the array and then the conditional `>1` is used on the result. This is then evaluated in the `[]` brackets and applied as a predicate to select.
 ```js
 // Query on Data 02
 Users[$count(Addresses)>1] =>
@@ -117,6 +117,8 @@ Users[$count(Addresses)>1] =>
 }
 ```
 
+You can **filter an array based on its contents** by using the `i
+
 
 ## Functions
 
@@ -130,7 +132,7 @@ Users.(name & " " & age) =>
 ]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODMzNDczMSw3MzYxMjEzODcsLTU2Nj
-E3OTQ5MCwxODM4ODEyNDg1LC0yMDk3ODk4MzUxLC0xMzY2NzEy
-NDk2LC02NDY3ODg2NDNdfQ==
+eyJoaXN0b3J5IjpbLTEzMjUwMzM1NjYsNzM2MTIxMzg3LC01Nj
+YxNzk0OTAsMTgzODgxMjQ4NSwtMjA5Nzg5ODM1MSwtMTM2Njcx
+MjQ5NiwtNjQ2Nzg4NjQzXX0=
 -->
