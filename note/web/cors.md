@@ -18,7 +18,7 @@ Access-Control-Allow-Origin: *
 
 ## Preflight flow
 
-The browser does this with the `OPTIONS` verb, an `Access-Control-Request-Method` property describing what sort of request it would like to make and the `Origin` 
+The browser does this with the `OPTIONS` verb, an `Access-Control-Request-Method` property describing what sort of request it would like to make, and finally the `Origin` from which it would like be allowed to make those requests.
 ```
 OPTIONS /doc HTTP/1.1
 Access-Control-Request-Method: POST
@@ -39,7 +39,7 @@ The `Access-Control-Allow-Headers` notifies the browser what headers can be sent
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTI2MjQ5ODQsMTEzMDQxNzg5OCwtOD
+eyJoaXN0b3J5IjpbLTIxNDQ3MTIwMTIsMTEzMDQxNzg5OCwtOD
 M0MjUzMDE3LDQ2NDM0NTU0LDgwODY5NzQyMiwtMTYwMDU4NTYw
 OCwtMTEyNzI3ODg5Ml19
 -->
