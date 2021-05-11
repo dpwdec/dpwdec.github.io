@@ -56,8 +56,8 @@ letter.repeat(5) // => 'ddddd'
 
 You can **replace all occurrences of a set of characters** in a string using regular expression paired with the `replace` function with the `g` flag appended to the end of the regex. The `+` regex modifier does not work for this functionality in javascript.
 ```js
-"some* string}[& with^ w#eird stuff$$ in@".replace(/[^a-z]/g, '')
+"some* string}[& with^ w#eird stuff$$ in@".replace(/[^a-z\s]/g, '')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTE0NTk2OV19
+eyJoaXN0b3J5IjpbMzMwMjI3MzU0XX0=
 -->
