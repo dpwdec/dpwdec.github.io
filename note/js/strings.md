@@ -53,6 +53,8 @@ letter.repeat(5) // => 'ddddd'
 // directly in a string
 'd'.repeat(5) // => 'ddddd'
 ```
+
+You can **replace all occurrences of a set of characters** in a string using regular expression paired with the `replace` function with the `g` flag appended to the end of the regex. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA3MDExODJdfQ==
+eyJoaXN0b3J5IjpbMjEzNDA2MjIxNV19
 -->
