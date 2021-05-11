@@ -39,6 +39,10 @@ Users[age='10'].name =>
 "Mark"
 ```
 
+## Predicates
+
+You can **select an object using a predicate expression** (some expression that evaluates to true or false using `[]` square brackets.
+
 You can **select a property based on whether it exists** for data with irregular formatting by using placing the name of a property in the `[]` predicate.
 ```js
 // Query on Data 01
@@ -102,6 +106,7 @@ Users.(name & " " & age) =>
 ]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NjE3OTQ5MCwxODM4ODEyNDg1LC0yMD
-k3ODk4MzUxLC0xMzY2NzEyNDk2LC02NDY3ODg2NDNdfQ==
+eyJoaXN0b3J5IjpbMTk2MjMzMzIzNSwtNTY2MTc5NDkwLDE4Mz
+g4MTI0ODUsLTIwOTc4OTgzNTEsLTEzNjY3MTI0OTYsLTY0Njc4
+ODY0M119
 -->
