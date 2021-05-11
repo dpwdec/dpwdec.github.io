@@ -65,6 +65,9 @@ You can **select a higher level on a nested match** by nesting `[]` square brack
       "Addresses": [
         {
 		  "Number": 20
+        },
+        {
+          "Number": 25
         }
       ]
     },
@@ -96,7 +99,8 @@ Users[Addresses[Number=20]] =>
 }
 ```
 
-You can **execute functions within predicate expressi**
+You can **execute functions within predicate expressions** to filter objects based on conditions.
+
 
 ## Functions
 
@@ -110,7 +114,7 @@ Users.(name & " " & age) =>
 ]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDE1Mjc5MiwtNTY2MTc5NDkwLDE4Mz
+eyJoaXN0b3J5IjpbMTY2MTAzMjkxNywtNTY2MTc5NDkwLDE4Mz
 g4MTI0ODUsLTIwOTc4OTgzNTEsLTEzNjY3MTI0OTYsLTY0Njc4
 ODY0M119
 -->
