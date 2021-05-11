@@ -118,7 +118,7 @@ Users[$count(Addresses)>1] =>
 ```
 
 You can **filter an array based on its contents** by using the `in` in-fix function within a predicate.
-```json
+```js
 // Data 03
 [
   {
@@ -128,6 +128,11 @@ You can **filter an array based on its contents** by using the `in` in-fix funct
     "data": [4, 5, 6]
   }
 ]
+```
+
+Query for example `Data 03`.
+```
+
 ```
 
 
@@ -143,7 +148,7 @@ Users.(name & " " & age) =>
 ]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzIwNTY3OCw3MzYxMjEzODcsLTU2Nj
-E3OTQ5MCwxODM4ODEyNDg1LC0yMDk3ODk4MzUxLC0xMzY2NzEy
-NDk2LC02NDY3ODg2NDNdfQ==
+eyJoaXN0b3J5IjpbLTE2ODE5MzA2MDUsNzM2MTIxMzg3LC01Nj
+YxNzk0OTAsMTgzODgxMjQ4NSwtMjA5Nzg5ODM1MSwtMTM2Njcx
+MjQ5NiwtNjQ2Nzg4NjQzXX0=
 -->
