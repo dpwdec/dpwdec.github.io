@@ -130,9 +130,12 @@ You can **filter an array based on its contents** by using the `in` in-fix funct
 ]
 ```
 
-Query for example `Data 03`.
-```
-
+Query for example `Data 03` selects only the object which has a `4` occurring in its `data` property.
+```js
+*[4 in data] =>
+{
+  "data": [4, 5, 6]
+}
 ```
 
 
@@ -148,7 +151,7 @@ Users.(name & " " & age) =>
 ]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODE5MzA2MDUsNzM2MTIxMzg3LC01Nj
-YxNzk0OTAsMTgzODgxMjQ4NSwtMjA5Nzg5ODM1MSwtMTM2Njcx
-MjQ5NiwtNjQ2Nzg4NjQzXX0=
+eyJoaXN0b3J5IjpbLTM0NjQxMTI2LDczNjEyMTM4NywtNTY2MT
+c5NDkwLDE4Mzg4MTI0ODUsLTIwOTc4OTgzNTEsLTEzNjY3MTI0
+OTYsLTY0Njc4ODY0M119
 -->
