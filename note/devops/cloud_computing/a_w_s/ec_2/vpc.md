@@ -16,6 +16,8 @@ External ingress and outgress is managed by an **internet gateway**.
 
 Security groups are grouped under VPCs and VPC provides a convenient way to manage these security groups.
 
+You can use **route tables** defined within a VPC to **control the routi**
+
 ## Subnets
 
 A subnet is a **subnetwork within a VPC**.  A subnet **spans only ONE availability zone**. A subnet is made up of some subset of the IP ranges within the VPC. 
@@ -26,9 +28,9 @@ An **instance added to the VPC** will then **receive an IP address from WITHIN t
 
 ### Network Access Control List
 
-**Network Acess Control Lists** or **NACLs** are **applied at the subnet level** and work similar to security groups controlling what can access a particular subnet.
+**Network Acess Control Lists** or **NACLs** are **applied at the subnet level** and work similar to security groups controlling what can access a particular subnet. This is only useful if you want differing security across subnets, *otherwise* its probably easier to use security groups applied to instances.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTcxNzk5ODVdfQ==
+eyJoaXN0b3J5IjpbLTE5MDE5NDg5MzJdfQ==
 -->
