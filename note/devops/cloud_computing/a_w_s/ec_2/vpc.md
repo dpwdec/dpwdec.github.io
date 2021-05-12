@@ -14,6 +14,8 @@ Instances receive an **internal IP address** so that they can reached from withi
 
 External ingress and outgress is managed by an **internet gateway**.
 
+Security groups are grouped under VPCs and VPC provides a convenient way to manage these security groups.
+
 ## Subnets
 
 A subnet is a **subnetwork within a VPC**.  A subnet **spans only ONE availability zone**. A subnet is made up of some subset of the IP ranges within the VPC. 
@@ -22,7 +24,9 @@ For example if the VPC range is `1.1.1.1` to `30.30.30.30` then the first subnet
 
 An **instance added to the VPC** will then **receive an IP address from WITHIN the subnet IP range**.
 
+### Network Access Control List
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODAwMTExNl19
+eyJoaXN0b3J5IjpbLTExMTM3NjA0MzRdfQ==
 -->
