@@ -18,7 +18,7 @@ A subnet is a **subnetwork within a VPC**.
 
 A subnet **spans only ONE availability zone**.
 
-A subnet is made up of some subset of the IP ranges within the 
+A subnet is made up of some subset of the IP ranges within the VPC. For example if the VPC range is `1.1.1.1` to `100.100.100.100` then the first subnet 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTIzODg3NDhdfQ==
+eyJoaXN0b3J5IjpbMTYwMjM0MzE2OF19
 -->
