@@ -26,7 +26,9 @@ An **instance added to the VPC** will then **receive an IP address from WITHIN t
 
 ### Network Access Control List
 
+**Network Acess Control Lists** or **NACLs** are **applied at the subnet level** and work similar to security groups controlling what can access a particular subnet.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTM3NjA0MzRdfQ==
+eyJoaXN0b3J5IjpbLTE4OTcxNzk5ODVdfQ==
 -->
