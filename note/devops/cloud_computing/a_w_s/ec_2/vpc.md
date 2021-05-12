@@ -10,9 +10,11 @@ VPC allows you to isolate features into their own networks within a single AWS a
 
 The **default VPC** is the default account VPC that all features on an account are placed into.
 
+Instances receive an **internal IP address** so that they can reached from within the virtual network. And an **external IP address** that allows them to be reached from outside the network.
+
 ## Subnets
 
 A subnet is a **subnetwork within a VPC**. A subnet **spans only ONE availability zone**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODU1NzUyOV19
+eyJoaXN0b3J5IjpbLTQ3NjIxNTI3Ml19
 -->
