@@ -1,7 +1,7 @@
 ---
 layout: page
 exclude: true
-title: ALB
+title: Application Load Balancers
 ---
 
 An ALB or **Application Load Balancer** is used for a number of tasks such as:
@@ -12,5 +12,5 @@ An ALB or **Application Load Balancer** is used for a number of tasks such as:
 
 You can **access ALBs in the load**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTgzNDA5XX0=
+eyJoaXN0b3J5IjpbMTM3MjAzNzU1N119
 -->
