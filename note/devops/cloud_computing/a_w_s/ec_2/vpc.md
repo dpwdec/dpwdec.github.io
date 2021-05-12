@@ -31,7 +31,7 @@ Through a combination of route tables and IP address type assignment you can **p
 
 A **NAT Gateway** allows features in private subnet to access internet resources by redirecting outgoing requests through the VPC route table to the gateway.
 
-**NAT** sta
+**NAT** stands for **network address translation**.
 
 ## Subnets
 
@@ -47,5 +47,5 @@ An **instance added to the VPC** will then **receive an IP address from WITHIN t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5MzM4NTc4XX0=
+eyJoaXN0b3J5IjpbLTEwMjg0NjE4MTddfQ==
 -->
