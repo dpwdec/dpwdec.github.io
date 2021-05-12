@@ -25,6 +25,15 @@ $ sudo !! # => evaluates to $ sudo touch mysecurefile.yml
 
 You can **create global environment variables** for all users by adding to the `/etc/environment` file.
 
+## Sudo
+
+You can **assume the sudo user role** using the `-s` flag on the `sudo` command. This essentially starts a shell with root user.
+```bash
+sudo -s
+```
+
+This is useful if you want to use a command like `source
+
 ## Systemd
 
 
@@ -33,8 +42,8 @@ You can **create global environment variables** for all users by adding to the `
 
 Linux uses service files to define how a service should start.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTU5NjMwNzQsLTE1ODM2NDQwNTcsND
-Q0MjU4NjkxLDE5MDczNzg2MjgsNDE5OTk5Njc3LC0zOTU2NDAz
-MjEsMTgyNzk1NTAyLC0xNjQ2NTk0NDk4LDExODcyMDAzMjYsMT
-IxOTYzMzI4NV19
+eyJoaXN0b3J5IjpbMTIwOTI1ODE2MywtMTM1NTk2MzA3NCwtMT
+U4MzY0NDA1Nyw0NDQyNTg2OTEsMTkwNzM3ODYyOCw0MTk5OTk2
+NzcsLTM5NTY0MDMyMSwxODI3OTU1MDIsLTE2NDY1OTQ0OTgsMT
+E4NzIwMDMyNiwxMjE5NjMzMjg1XX0=
 -->
