@@ -27,6 +27,12 @@ You can **control the assignment of public IP addresses** using VPC.
 
 Through a combination of route tables and IP address type assignment you can **private subnets** and **public subnets**. This allows you to put publicly accessible resources, like web servers in a public subnet and database servers in the private subnet thus controlling access to resources and improving security.
 
+### NAT Gateway
+
+A **NAT Gateway** allows features in private subnet to access internet resources by redirecting outgoing requests through the VPC route table to the gateway.
+
+**NAT** sta
+
 ## Subnets
 
 A subnet is a **subnetwork within a VPC**.  A subnet **spans only ONE availability zone**. A subnet is made up of some subset of the IP ranges within the VPC. 
@@ -41,5 +47,5 @@ An **instance added to the VPC** will then **receive an IP address from WITHIN t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyNjc0MzUxXX0=
+eyJoaXN0b3J5IjpbNjg5MzM4NTc4XX0=
 -->
