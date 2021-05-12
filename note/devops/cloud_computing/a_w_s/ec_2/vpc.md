@@ -16,7 +16,9 @@ External ingress and outgress is managed by an **internet gateway**.
 
 Security groups are grouped under VPCs and VPC provides a convenient way to manage these security groups.
 
-You can use **route tables** defined within a VPC to **control the routi**
+You can use **route tables** defined within a VPC to **control the routing outgoing network requests**. These route tables can control if
+- traffic can leave the VPC
+- traffic can travel to other instances within the VPC
 
 ## Subnets
 
@@ -32,5 +34,5 @@ An **instance added to the VPC** will then **receive an IP address from WITHIN t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE5NDg5MzJdfQ==
+eyJoaXN0b3J5IjpbMTcwNzg5MTk2OV19
 -->
