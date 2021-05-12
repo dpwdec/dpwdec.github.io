@@ -25,7 +25,7 @@ Using route tables, even if the security group for the VPC is compromised then t
 
 You can **control the assignment of public IP addresses** using VPC.
 
-Through a combination of route tables and IP address type assignment you can **private subnets** and **public subnets**.
+Through a combination of route tables and IP address type assignment you can **private subnets** and **public subnets**. This allows you to put publicly accessible resources, like web servers in a public subnet and database servers in the private subnet thus controlling access to resources and improving security.
 
 ## Subnets
 
@@ -41,5 +41,5 @@ An **instance added to the VPC** will then **receive an IP address from WITHIN t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3NzA2MjQ1XX0=
+eyJoaXN0b3J5IjpbOTQyNjc0MzUxXX0=
 -->
