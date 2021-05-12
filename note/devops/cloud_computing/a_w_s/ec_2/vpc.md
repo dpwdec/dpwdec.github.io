@@ -25,6 +25,8 @@ Using route tables, even if the security group for the VPC is compromised then t
 
 You can **control the assignment of public IP addresses** using VPC.
 
+Through a combination of route tables and IP address type assignment you can **private subnets** and **public subnets**.
+
 ## Subnets
 
 A subnet is a **subnetwork within a VPC**.  A subnet **spans only ONE availability zone**. A subnet is made up of some subset of the IP ranges within the VPC. 
@@ -39,5 +41,5 @@ An **instance added to the VPC** will then **receive an IP address from WITHIN t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxMTM4OTk4XX0=
+eyJoaXN0b3J5IjpbMzk3NzA2MjQ1XX0=
 -->
