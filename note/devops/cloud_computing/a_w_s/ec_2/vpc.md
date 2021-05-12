@@ -14,13 +14,13 @@ Instances receive an **internal IP address** so that they can reached from withi
 
 ## Subnets
 
-A subnet is a **subnetwork within a VPC**. 
+A subnet is a **subnetwork within a VPC**.  A subnet **spans only ONE availability zone**. A subnet is made up of some subset of the IP ranges within the VPC. 
 
-A subnet **spans only ONE availability zone**.
-
-A subnet is made up of some subset of the IP ranges within the VPC. For example if the VPC range is `1.1.1.1` to `30.30.30.30` then the first subnet (of two) might use the `1.1.1.1` to `15.15.15.15` range, and the second, the `16.16.16.16` to `30.30.30.30` range within the VPC. 
+For example if the VPC range is `1.1.1.1` to `30.30.30.30` then the first subnet (of two) might use the `1.1.1.1` to `15.15.15.15` range, and the second, the `16.16.16.16` to `30.30.30.30` range within the VPC. 
 
 An **instance added to the VPC** will then **receive an IP address from WITHIN the subnet IP range**.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTA2OTUwMDNdfQ==
+eyJoaXN0b3J5IjpbLTM1MjY0NTgxOV19
 -->
