@@ -17,7 +17,10 @@ You can **access an SQS queue** using the `get_queue_by_name` method on the `sqs
 queue = sqs.get_queue_by_name(QueueName="your-queue-name")
 ```
 
+You can **access messages from the queue** using the `receive_messages` method on the `queue` object.
+```py
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzE4MTA1MiwxMDQzNTk2NzQ2XX0=
+eyJoaXN0b3J5IjpbLTc3NjI5MzU0NCwxMDQzNTk2NzQ2XX0=
 -->
