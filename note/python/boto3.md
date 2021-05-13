@@ -25,9 +25,15 @@ for message in queue.receive_messages():
 
 You can **delete a message from the queue** using the `delete` method on the `message`.
 ```py
+for message in queue.receive_messages():
+  message.delete()
+```
+
+You can **load a message into a dictionary** using `json.loads` on the `body` of the message.
+```py
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQ1ODczOTMsNzkxMzM3NTQ4LC03Nz
-YyOTM1NDQsMTA0MzU5Njc0Nl19
+eyJoaXN0b3J5IjpbNjQxODkxNDQ4LDc5MTMzNzU0OCwtNzc2Mj
+kzNTQ0LDEwNDM1OTY3NDZdfQ==
 -->
