@@ -12,7 +12,8 @@ The **DLQ must match the queue type for the main queue**, whether that be a **st
 
 ## FIFO Queues
 
-FIFO queues allow to **ensure all messages sent to the queue are unique** by turning on the **Content-Based Deduplication** option.
+FIFO queues allow to **ensure all messages sent to the queue are unique** by turning on the **Content-Based Deduplication** option. The d
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTE2MzY5NjMsOTczNDkwMjk1XX0=
+eyJoaXN0b3J5IjpbMTU5NjY3NDI0OCwtMTk5MTYzNjk2Myw5Nz
+M0OTAyOTVdfQ==
 -->
