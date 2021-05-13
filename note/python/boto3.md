@@ -17,12 +17,12 @@ You can **access an SQS queue** using the `get_queue_by_name` method on the `sqs
 queue = sqs.get_queue_by_name(QueueName="your-queue-name")
 ```
 
-You can **access messages from the queue** using the `receive_messages` method on the `queue` object.
+You can **access messages from the queue** using the `receive_messages` method on the `queue` object. It seems that there is no guarantee on the number of the messages that will be consumed.
 ```py
 for message in queue.receive_messages():
   print(f"{message.body}")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxMzM3NTQ4LC03NzYyOTM1NDQsMTA0Mz
-U5Njc0Nl19
+eyJoaXN0b3J5IjpbLTQ3NDg2OTk3Myw3OTEzMzc1NDgsLTc3Nj
+I5MzU0NCwxMDQzNTk2NzQ2XX0=
 -->
