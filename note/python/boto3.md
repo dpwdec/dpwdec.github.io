@@ -19,8 +19,10 @@ queue = sqs.get_queue_by_name(QueueName="your-queue-name")
 
 You can **access messages from the queue** using the `receive_messages` method on the `queue` object.
 ```py
-
+for message in queue.receive_messages():
+  print(f"{message.body}")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjI5MzU0NCwxMDQzNTk2NzQ2XX0=
+eyJoaXN0b3J5IjpbNzkxMzM3NTQ4LC03NzYyOTM1NDQsMTA0Mz
+U5Njc0Nl19
 -->
