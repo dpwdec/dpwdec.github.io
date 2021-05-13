@@ -4,6 +4,10 @@ layout: page
 exclude: true
 ---
 
+Boto is a python library for interacting with AWS web services.
+
+Boto is named after the freshwater Boto dolphin which swims in Amazonian rivers. An animal that is suited to smoothly navigating the Amazon is; a library that smoothly navigates the AWS APIs.
+
 ## SQS
 
 You can **start using SQS** by referencing the `"sqs"` boto3 `resource` and adding a region with the `region_name` field.
@@ -36,6 +40,6 @@ for message in queue.receive_messages():
   print(content["some field"])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyODI0MjA5LDc5MTMzNzU0OCwtNzc2Mj
-kzNTQ0LDEwNDM1OTY3NDZdfQ==
+eyJoaXN0b3J5IjpbMTUyMzcyODA5MSw4MzI4MjQyMDksNzkxMz
+M3NTQ4LC03NzYyOTM1NDQsMTA0MzU5Njc0Nl19
 -->
