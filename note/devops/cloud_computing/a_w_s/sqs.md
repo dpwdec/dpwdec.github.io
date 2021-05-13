@@ -15,7 +15,9 @@ The **DLQ must match the queue type for the main queue**, whether that be a **st
 FIFO messages are grouped under a `Message Group ID` which ensures that messages of the same group are delivered in a FIFO manner. Presumably this means that you could be delivering two different groups of messages to a FIFO queue - *a* and *b* where you care about the ordering of messages relative to their own group but don't care about what order *a* and *b* messages came in with respect to each other.
 
 FIFO queues allow to **ensure all messages sent to the queue are unique** by turning on the `Content-Based Deduplication` option. The deduplication option is controlled by the `Message Deduplication ID`.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjkwOTE0OTcsLTE5OTE2MzY5NjMsOT
-czNDkwMjk1XX0=
+eyJoaXN0b3J5IjpbLTExMTcwMDA0NSwtMTk5MTYzNjk2Myw5Nz
+M0OTAyOTVdfQ==
 -->
