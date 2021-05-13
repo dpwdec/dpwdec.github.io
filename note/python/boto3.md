@@ -31,9 +31,11 @@ for message in queue.receive_messages():
 
 You can **load a message into a dictionary** using `json.loads` on the `body` of the message.
 ```py
-
+for message in queue.receive_messages():
+  content = json.loads(message.body)
+  print(content["some field"])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxODkxNDQ4LDc5MTMzNzU0OCwtNzc2Mj
+eyJoaXN0b3J5IjpbODMyODI0MjA5LDc5MTMzNzU0OCwtNzc2Mj
 kzNTQ0LDEwNDM1OTY3NDZdfQ==
 -->
