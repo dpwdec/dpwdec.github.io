@@ -8,13 +8,11 @@ title: Notes index
         <l><a href='/math/derivatives'>Derivatives</a></l><br>
         <l><a href='/math/exponents'>ExponentLogarithms</a></l><br>
         <l><a href='/math/limits'>Limits</a></l><br>
-        <l><a href='/math/linear_algebra'>r>
-r>
-r>
-r>
-ieargebr        <l><a href='/math/logarithms'>Logarithms</a></l><br>
+        <l><a href='/math/linear_algebra'>Linear Algebra</a></l><br>
+        <l><a href='/math/logarithms'>Logarithms</a></l><br>
         <l><a href='/math/point_slope'>Point Slope Formula</a></l><br>
-        <l><a href='/math/sets'>Setsinearlger</a></l><br><b        <l>ingle ariable alculus</l>
+        <l><a href='/math/sets'>Sets</a></l><br><br>
+        <l>Single Variable Calculus</l>
         <ul>
             <l><a href='/math/single_variable_calculus/chain_rule'>Chain Rule</a></l><br>
             <l><a href='/math/single_variable_calculus/higher_derivatives'>Higher Derivatives</a></l><br>
@@ -29,7 +27,8 @@ ieargebr        <l><a href='/math/logarithms'>Logarithms</a></l><br>
         <l><a href='/math/tangent_lines'>Tangent Lines</a></l><br><br>
         <l>Trigonometry</l>
         <ul>
-            <l><a href='/math/trigonometry/sum_and_difference_formulas'>Trigonometric Sum and Difference For        </ul>
+            <l><a href='/math/trigonometry/sum_and_difference_formulas'>Trigonometric Sum and Difference Formulas</a></l><br>
+        </ul>
     </ul><br>
     <l>Note</l>
     <ul>
@@ -37,11 +36,10 @@ ieargebr        <l><a href='/math/logarithms'>Logarithms</a></l><br>
         <l><a href='/note/actix'>Actix Web</a></l><br><br>
         <l>Ansible</l>
         <ul>
-            <l><a href='/note/ansible/ansible'>Ansible/note/ansible/failure'>Failure</a></l><br>
-            <l><a href='failure'>Failure</a></l><br>
-c</a></l><br>
-/note/ansible/failure'>Failure</a></l><br>
-            <l><a href='            <l><a href='/note/ansible/loops'>Loops</a></l><br>
+            <l><a href='/note/ansible/ansible'>Ansible</a></l><br>
+            <l><a href='/note/ansible/async'>Async</a></l><br>
+            <l><a href='/note/ansible/failure'>Failure</a></l><br>
+            <l><a href='/note/ansible/loops'>Loops</a></l><br>
             <l><a href='/note/ansible/when'>When</a></l><br>
         </ul><br>
         <l>Architecture</l>
@@ -103,7 +101,7 @@ c</a></l><br>
                     <l><a href='/note/devops/cloud_computing/a_w_s/cloudfront'>Cloudfront</a></l><br><br>
                     <l>Ec 2</l>
                     <ul>
-                        <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/alb'>Application Load BalancersLB</a></l><br>
+                        <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/alb'>Application Load Balancers</a></l><br>
                         <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/asg'>Auto Scaling Groups</a></l><br>
                         <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/ec2'>EC2</a></l><br>
                         <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/vpc'>Virtual Private Cloud</a></l><br>
@@ -115,6 +113,7 @@ c</a></l><br>
                     <l><a href='/note/devops/cloud_computing/a_w_s/sdk'>SDK</a></l><br>
                     <l><a href='/note/devops/cloud_computing/a_w_s/secrets_manager'>Secrets Manager</a></l><br>
                     <l><a href='/note/devops/cloud_computing/a_w_s/sns'>Simple Notification Service</a></l><br>
+                    <l><a href='/note/devops/cloud_computing/a_w_s/sqs'>Simple Queue Service</a></l><br>
                     <l><a href='/note/devops/cloud_computing/a_w_s/waf'>WAF</a></l><br>
                 </ul>
                 <l><a href='/note/devops/cloud_computing/cloud_computing'>Cloud Computing</a></l><br>
@@ -170,12 +169,14 @@ c</a></l><br>
             <l><a href='/note/haskell/recursion'>Recursion</a></l><br>
             <l><a href='/note/haskell/types'>Types</a></l><br>
             <l><a href='/note/haskell/where'>Where</a></l><br>
-    <l><a href='/note/heroku'>Heroku</a></l><br>
+        </ul>
+        <l><a href='/note/heroku'>Heroku</a></l><br>
         <l><a href='/note/html'>HTML</a></l><br>
         <l><a href='/note/ieee_754'>IEEE754</a></l><br>
         <l><a href='/note/jet_brains'>JetBrains</a></l><br>
-        <l><a href='/note/jinja'>Jinja</a></l><br>
-       <ul<a href='/note/ja'>a</a></l><br><br>
+        <l><a href='/note/jinja'>Jinja</a></l><br><br>
+        <l>Js</l>
+        <ul><br>
             <l>Node</l>
             <ul>
                 <l><a href='/note/js/Node/assert'>Assert</a></l><br>
@@ -184,7 +185,7 @@ c</a></l><br>
                 <l><a href='/note/js/Node/query_string'>querstring</a></l><br>
             </ul>
             <l><a href='/note/js/ajax'>Ajax</a></l><br>
-            <l><a href='/note/ja'>a</a></l><br>
+            <l><a href='/note/js/array'>Array</a></l><br>
             <l><a href='/note/js/cypress'>Cypress</a></l><br>
             <l><a href='/note/js/dot_env'>Dotenv</a></l><br>
             <l><a href='/note/js/express'>Express</a></l><br>
@@ -200,8 +201,7 @@ c</a></l><br>
             <l>Mocha</l>
             <ul>
                 <l><a href='/note/js/mocha/code_runner'>Code Runner</a></l><br>
-                <l>/mocha'>
-            </ul<a href='/note/js/mocha/mocha'>Mocha</a></l><br>
+                <l><a href='/note/js/mocha/mocha'>Mocha</a></l><br>
             </ul>
             <l><a href='/note/js/mongo_db'>MongoDB</a></l><br><br>
             <l>P5js</l>
@@ -241,6 +241,7 @@ c</a></l><br>
         <l>Python</l>
         <ul>
             <l><a href='/note/python/argparse'>argparse</a></l><br>
+            <l><a href='/note/python/boto3'>Boto 3</a></l><br>
             <l><a href='/note/python/command_line_arguments'>Command Line Arguments</a></l><br>
             <l><a href='/note/python/files'>Files</a></l><br>
             <l><a href='/note/python/http_server'>HTTP Server</a></l><br>
@@ -305,6 +306,3 @@ c</a></l><br>
         <l><a href='/note/youtube_data'>Youtube Data</a></l><br>
     </ul>
 </ul>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3NDIwOTNdfQ==
--->
