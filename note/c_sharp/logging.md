@@ -61,7 +61,13 @@ You can **add configuration data from the `context` object** using the `AddConfi
   );
 });
 ```
+
+You can **specify which sources can be logged to** using the `Add*` methods on the `logging` object.
+```csharp
+logging.AddDebug()
+loggin
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5Mjc5MTk0NSwxMjQ2MzU3MDQyLDE5Mz
-kzOTMyMzIsNTUzNDQ0NDk1XX0=
+eyJoaXN0b3J5IjpbLTE0MTE1OTU5OTMsMTY5Mjc5MTk0NSwxMj
+Q2MzU3MDQyLDE5MzkzOTMyMzIsNTUzNDQ0NDk1XX0=
 -->
