@@ -24,7 +24,7 @@ By default, the built in dotnet logger will log to
 - TraceSource
 - AzureAppServicesFile
 - AzureAppServicesBlob
-- ApplicationInsights
+- ApplicationInsights (Azure Specific)
 
 You can **customise logging configurations** by appending the `ConfigureLogging` function to the `Host` builder in the `CreateHostBuilder` function. This function takes a `context` and a `logging` object. 
 
@@ -52,6 +52,6 @@ You can **add configuration data from the `context` object** using the `AddConfi
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MzIwMTg4OCwxMjQ2MzU3MDQyLDE5Mz
+eyJoaXN0b3J5IjpbLTEzMjgzNTMzMiwxMjQ2MzU3MDQyLDE5Mz
 kzOTMyMzIsNTUzNDQ0NDk1XX0=
 -->
