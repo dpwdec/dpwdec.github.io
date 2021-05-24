@@ -62,12 +62,12 @@ You can **add configuration data from the `context` object** using the `AddConfi
 });
 ```
 
-You can **specify which sources can be logged to** using the `Add*` methods on the `logging` object.
+You can **specify which sources can be logged to** using the `Add*` methods on the `logging` object. The example below adds *both* console and debug logging, however, if you don't include this then the feature will not be able to log to these channels.
 ```csharp
 logging.AddDebug()
-loggin
+logging.AddConsole()
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTE1OTU5OTMsMTY5Mjc5MTk0NSwxMj
-Q2MzU3MDQyLDE5MzkzOTMyMzIsNTUzNDQ0NDk1XX0=
+eyJoaXN0b3J5IjpbNTYyNjg1MDE5LDE2OTI3OTE5NDUsMTI0Nj
+M1NzA0MiwxOTM5MzkzMjMyLDU1MzQ0NDQ5NV19
 -->
