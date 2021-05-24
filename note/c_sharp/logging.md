@@ -15,16 +15,16 @@ info: Microsoft.Hosting.Lifetime[0]
 ```
 ...is part of logs output by microsoft's default logging behavior and picked up the default configured logging architecture.
 
-By default, the built in dotnet logger will log to
+By default, the built in dotnet logger will log to:
 
 - Debug
 - Console
 - EventSource (?)
 - EventLog (?)
-- TraceSource
-- AzureAppServicesFile
-- AzureAppServicesBlob
-- ApplicationInsights (Azure Specific)
+- TraceSource (Requires a NuGet package)
+- AzureAppServicesFile (Requires a NuGet package)
+- AzureAppServicesBlob (Requires a NuGet package)
+- ApplicationInsights (Azure Specific) (Requires a NuGet package)
 
 You can **customise logging configurations** by appending the `ConfigureLogging` function to the `Host` builder in the `CreateHostBuilder` function. This function takes a `context` and a `logging` object. 
 
@@ -52,6 +52,6 @@ You can **add configuration data from the `context` object** using the `AddConfi
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjgzNTMzMiwxMjQ2MzU3MDQyLDE5Mz
-kzOTMyMzIsNTUzNDQ0NDk1XX0=
+eyJoaXN0b3J5IjpbNjA5MTI4ODM2LDEyNDYzNTcwNDIsMTkzOT
+M5MzIzMiw1NTM0NDQ0OTVdfQ==
 -->
