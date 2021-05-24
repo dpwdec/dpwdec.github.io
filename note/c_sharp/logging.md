@@ -13,7 +13,7 @@ info: Microsoft.Hosting.Lifetime[0]
 ```
 is part of logs output by microsoft's default logging behavior and picked up the default configured logging architecture.
 
-You can **customise**
+You can **customise logging configurations** by appending the `ConfigureLogging` function to the `Host` builder in the `CreateHostBuilder` function.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTI1MDIyNCw1NTM0NDQ0OTVdfQ==
+eyJoaXN0b3J5IjpbLTYyNTgwMTc5OSw1NTM0NDQ0OTVdfQ==
 -->
