@@ -4,7 +4,7 @@ layout: page
 exclude: true
 ---
 
-
+## Default Logging
 
 Logging for dotnet applications is configured by default in the `CreateDefaultBuilder` method in the `Program.cs` file.
 
@@ -41,6 +41,6 @@ You can **add configuration data from the `context` object** using the `AddConfi
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzEyOTgyLDEyNDYzNTcwNDIsMTkzOT
+eyJoaXN0b3J5IjpbNzYwNzA2Nzc0LDEyNDYzNTcwNDIsMTkzOT
 M5MzIzMiw1NTM0NDQ0OTVdfQ==
 -->
