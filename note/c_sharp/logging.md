@@ -31,9 +31,14 @@ logging.ClearProviders();
 
 You can **add configuration data from the `context` object** using the `AddConfiguration` method in conjunction with the `context` data. In the example below this will load the `"Logging"` section from the `appsettings.json` file and use that as input for the `logging` object's configuration.
 ```csharp
-logging
+.ConfigureLogging((context, logging) =>
+{
+  logging.AddConfiguration(
+    context.Configuration.GetSection("Logging")
+  );
+});
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2NTE5Mzg1LDE5MzkzOTMyMzIsNTUzND
+eyJoaXN0b3J5IjpbMTcwODExODY5LDE5MzkzOTMyMzIsNTUzND
 Q0NDk1XX0=
 -->
