@@ -6,6 +6,10 @@ exclude: true
 
 ## Default Logging
 
+Microsoft provides a built in logging framework for dotnet applications.
+
+### Overview
+
 Logging for dotnet applications is configured by default in the `CreateDefaultBuilder` method in the `Program.cs` file.
 
 The logging you see when you start a default dotnet application for the first time, something like...
@@ -29,6 +33,8 @@ By default, the built in dotnet logger will log to:
 For **anything else**, such as text file logging or SQL server logging you will **have to integrate a third party library**.
 
 The dotnet logging library is **designed to run synchronously** as logging calls should never be long running.
+
+### Configuration
 
 You can **customise logging configurations** by appending the `ConfigureLogging` function to the `Host` builder in the `CreateHostBuilder` function. This function takes a `context` and a `logging` object. 
 
@@ -56,6 +62,6 @@ You can **add configuration data from the `context` object** using the `AddConfi
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDYyMDg3MSwxMjQ2MzU3MDQyLDE5Mz
+eyJoaXN0b3J5IjpbMTY5Mjc5MTk0NSwxMjQ2MzU3MDQyLDE5Mz
 kzOTMyMzIsNTUzNDQ0NDk1XX0=
 -->
