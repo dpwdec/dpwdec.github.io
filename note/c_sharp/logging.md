@@ -75,13 +75,16 @@ public MyClass(ILogger<MyClass> logger) { ... }
 
 This will cause logs emitted by this class' logger to have an identifying log line entry.
 ```
-Info: MyLoggingProject.MyClass
+Info: MyLoggingProject.MyClass[0]
       Log message here
 ```
 
+You can **add a logging id to your log messages** by adding an integer argument to the logging functions. This defaults to `0`.
+```csharp
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQ3NDQ2NDYsNTYyNjg1MDE5LDE2OT
-I3OTE5NDUsMTI0NjM1NzA0MiwxOTM5MzkzMjMyLDU1MzQ0NDQ5
-NV19
+eyJoaXN0b3J5IjpbNjg1NDQ1ODExLC0xMTc0NzQ0NjQ2LDU2Mj
+Y4NTAxOSwxNjkyNzkxOTQ1LDEyNDYzNTcwNDIsMTkzOTM5MzIz
+Miw1NTM0NDQ0OTVdfQ==
 -->
