@@ -12,6 +12,8 @@ info: Microsoft.Hosting.Lifetime[0]
       Now listening on https://localhost:5001
 ```
 is part of logs output by microsoft's default logging behavior and picked up the default configured logging architecture.
+
+You can **customise**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzNDQ0NDk1XX0=
+eyJoaXN0b3J5IjpbMTYzMTI1MDIyNCw1NTM0NDQ0OTVdfQ==
 -->
