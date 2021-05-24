@@ -81,10 +81,18 @@ Info: MyLoggingProject.MyClass[0]
 
 You can **add a logging id to your log messages** by adding an integer argument to the logging functions. This defaults to `0`.
 ```csharp
+_logger.LogInformation(1001, "Log message here");
+```
+
+Would result in the `[]` changing to accommodate the log id.
+```
+Info: MyLoggingProject.MyClass[10001]
+      Log message here
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1NDQ1ODExLC0xMTc0NzQ0NjQ2LDU2Mj
+eyJoaXN0b3J5IjpbODIzMDE1OTIxLC0xMTc0NzQ0NjQ2LDU2Mj
 Y4NTAxOSwxNjkyNzkxOTQ1LDEyNDYzNTcwNDIsMTkzOTM5MzIz
 Miw1NTM0NDQ0OTVdfQ==
 -->
