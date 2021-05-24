@@ -97,11 +97,15 @@ There are several levels of logging offered by the default logger.
 _logger.LogTrace("Log trace");
 _logger.LogDebug("Log debug");
 _logger.LogInformation("Log information");
+_logger.LogWarn("Log warning");
+_logger.LogError("log error");
+_logger.LogCritical("log critical");
 ```
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDEwNDI5Niw4MjMwMTU5MjEsLTExNz
-Q3NDQ2NDYsNTYyNjg1MDE5LDE2OTI3OTE5NDUsMTI0NjM1NzA0
-MiwxOTM5MzkzMjMyLDU1MzQ0NDQ5NV19
+eyJoaXN0b3J5IjpbMzU3Njk5MjE5LDEzMDQxMDQyOTYsODIzMD
+E1OTIxLC0xMTc0NzQ0NjQ2LDU2MjY4NTAxOSwxNjkyNzkxOTQ1
+LDEyNDYzNTcwNDIsMTkzOTM5MzIzMiw1NTM0NDQ0OTVdfQ==
 -->
