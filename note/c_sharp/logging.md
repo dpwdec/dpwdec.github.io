@@ -102,10 +102,14 @@ _logger.LogError("log error");
 _logger.LogCritical("log critical");
 ```
 
+- Trace Logs: for detailed views of what is going on, may contain application secrets
+- Debug logs: standard debugging logs f
+- Information Logs: standard application flow logs
+- Warning logs: for when an error is encountered but can be handled, like handling an exception
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3Njk5MjE5LDEzMDQxMDQyOTYsODIzMD
-E1OTIxLC0xMTc0NzQ0NjQ2LDU2MjY4NTAxOSwxNjkyNzkxOTQ1
-LDEyNDYzNTcwNDIsMTkzOTM5MzIzMiw1NTM0NDQ0OTVdfQ==
+eyJoaXN0b3J5IjpbLTgxNjkwOTQ4MCwxMzA0MTA0Mjk2LDgyMz
+AxNTkyMSwtMTE3NDc0NDY0Niw1NjI2ODUwMTksMTY5Mjc5MTk0
+NSwxMjQ2MzU3MDQyLDE5MzkzOTMyMzIsNTUzNDQ0NDk1XX0=
 -->
