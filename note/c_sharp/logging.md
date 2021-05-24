@@ -28,6 +28,8 @@ By default, the built in dotnet logger will log to:
 
 For **anything else**, such as text file logging or SQL server logging you will **have to integrate a third party library**.
 
+The dotnet logging library is **designed to run synchronously** as logging calls should never be long running.
+
 You can **customise logging configurations** by appending the `ConfigureLogging` function to the `Host` builder in the `CreateHostBuilder` function. This function takes a `context` and a `logging` object. 
 
 - The `context` object is **loaded from the `appsettings.json`** and allows you to target different sections of the json file using the `Configuration.GetSection` method.
@@ -54,6 +56,6 @@ You can **add configuration data from the `context` object** using the `AddConfi
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2MDY5NjYwLDEyNDYzNTcwNDIsMTkzOT
-M5MzIzMiw1NTM0NDQ0OTVdfQ==
+eyJoaXN0b3J5IjpbMTMxMDYyMDg3MSwxMjQ2MzU3MDQyLDE5Mz
+kzOTMyMzIsNTUzNDQ0NDk1XX0=
 -->
