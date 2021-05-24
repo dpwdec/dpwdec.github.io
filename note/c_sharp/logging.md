@@ -68,12 +68,20 @@ logging.AddDebug()
 logging.AddConsole()
 ```
 
-You can **add a category to a piece of a log information** by creating a type on the logger that is created. The example shows a 
+You can **add a category to a piece of a log information** by creating a type on the logger that is created. The example shows a dependency injected `ILogger` with the `MyClass` type.
 ```csharp
 public MyClass(ILogger<MyClass> logger) { ... }
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1MDQ1NDQsNTYyNjg1MDE5LDE2OTI3OT
-E5NDUsMTI0NjM1NzA0MiwxOTM5MzkzMjMyLDU1MzQ0NDQ5NV19
 
+This will cause logs emitted by this class' logger to have an identifying log line entry.
+```
+Info: MyLoggingProject.MyClass
+      Log message here
+```
+
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExNzQ3NDQ2NDYsNTYyNjg1MDE5LDE2OT
+I3OTE5NDUsMTI0NjM1NzA0MiwxOTM5MzkzMjMyLDU1MzQ0NDQ5
+NV19
 -->
