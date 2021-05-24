@@ -67,7 +67,13 @@ You can **specify which sources can be logged to** using the `Add*` methods on t
 logging.AddDebug()
 logging.AddConsole()
 ```
+
+You can **add a category to a piece of a log information** by creating a type on the logger that is created. The example shows a 
+```csharp
+public MyClass(ILogger<MyClass> logger) { ... }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyNjg1MDE5LDE2OTI3OTE5NDUsMTI0Nj
-M1NzA0MiwxOTM5MzkzMjMyLDU1MzQ0NDQ5NV19
+eyJoaXN0b3J5IjpbOTM1MDQ1NDQsNTYyNjg1MDE5LDE2OTI3OT
+E5NDUsMTI0NjM1NzA0MiwxOTM5MzkzMjMyLDU1MzQ0NDQ5NV19
+
 -->
