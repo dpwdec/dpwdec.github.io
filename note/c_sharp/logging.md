@@ -29,7 +29,7 @@ You can **clear default logging behavior** by using the `ClearProviders` method 
 logging.ClearProviders();
 ```
 
-You can **add configuration data from the `context` object** using the `AddConfiguration` method in conjunction with the `context` data. In the example below this will load the `"Logging"` section from the `appsettings.json` file and use that as input for the `logging` object's configuration.
+You can **add configuration data from the `context` object** using the `AddConfiguration` method in conjunction with the `context` data. In the example below this will load the entire json object that represents the `"Logging"` section from the `appsettings.json` file and use that as input for the `logging` object's configuration.
 ```csharp
 .ConfigureLogging((context, logging) =>
 {
@@ -39,6 +39,6 @@ You can **add configuration data from the `context` object** using the `AddConfi
 });
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODExODY5LDE5MzkzOTMyMzIsNTUzND
-Q0NDk1XX0=
+eyJoaXN0b3J5IjpbMTI0NjM1NzA0MiwxOTM5MzkzMjMyLDU1Mz
+Q0NDQ5NV19
 -->
