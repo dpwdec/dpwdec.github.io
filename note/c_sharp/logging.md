@@ -13,7 +13,10 @@ info: Microsoft.Hosting.Lifetime[0]
 ```
 is part of logs output by microsoft's default logging behavior and picked up the default configured logging architecture.
 
-You can **customise logging configurations** by appending the `ConfigureLogging` function to the `Host` builder in the `CreateHostBuilder` function. This function takes a `context` and a `logging` object. The `logging` object is **used to configure how logging works**.
+You can **customise logging configurations** by appending the `ConfigureLogging` function to the `Host` builder in the `CreateHostBuilder` function. This function takes a `context` and a `logging` object. 
+
+- The `context` object 
+- The `logging` object is **used to configure how logging works**.
 ```csharp
 .ConfigureLogging((context, logging) =>
 {
@@ -21,7 +24,10 @@ You can **customise logging configurations** by appending the `ConfigureLogging`
 });
 ```
 
-You can **clear default logging behavior** by using the `ClearProviders
+You can **clear default logging behavior** by using the `ClearProviders` method on the `logging` object.
+```csharp
+logging.ClearProviders();
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzc5MTI2Nyw1NTM0NDQ0OTVdfQ==
+eyJoaXN0b3J5IjpbMTkzOTM5MzIzMiw1NTM0NDQ0OTVdfQ==
 -->
