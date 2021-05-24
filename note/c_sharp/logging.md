@@ -90,9 +90,18 @@ Info: MyLoggingProject.MyClass[10001]
       Log message here
 ```
 
+### Logger Levels
+
+There are several levels of logging offered by the default logger.
+```csharp
+_logger.LogTrace("Log trace");
+_logger.LogT("Log trace");
+_logger.LogTrace("Log trace");
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzMDE1OTIxLC0xMTc0NzQ0NjQ2LDU2Mj
-Y4NTAxOSwxNjkyNzkxOTQ1LDEyNDYzNTcwNDIsMTkzOTM5MzIz
-Miw1NTM0NDQ0OTVdfQ==
+eyJoaXN0b3J5IjpbMTU4MTAwNzUzMyw4MjMwMTU5MjEsLTExNz
+Q3NDQ2NDYsNTYyNjg1MDE5LDE2OTI3OTE5NDUsMTI0NjM1NzA0
+MiwxOTM5MzkzMjMyLDU1MzQ0NDQ5NV19
 -->
