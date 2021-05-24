@@ -15,7 +15,7 @@ is part of logs output by microsoft's default logging behavior and picked up the
 
 You can **customise logging configurations** by appending the `ConfigureLogging` function to the `Host` builder in the `CreateHostBuilder` function. This function takes a `context` and a `logging` object. 
 
-- The `context` object 
+- The `context` object is **loaded from the `appsettings.json`** and allows you to target different sections of the json file using the `Configuration.GetSectiio
 - The `logging` object is **used to configure how logging works**.
 ```csharp
 .ConfigureLogging((context, logging) =>
@@ -29,5 +29,6 @@ You can **clear default logging behavior** by using the `ClearProviders` method 
 logging.ClearProviders();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTM5MzIzMiw1NTM0NDQ0OTVdfQ==
+eyJoaXN0b3J5IjpbMTA1OTY3NzE5NiwxOTM5MzkzMjMyLDU1Mz
+Q0NDQ5NV19
 -->
