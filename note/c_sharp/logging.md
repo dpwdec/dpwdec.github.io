@@ -103,13 +103,15 @@ _logger.LogCritical("log critical");
 ```
 
 - Trace Logs: for detailed views of what is going on, may contain application secrets
-- Debug logs: standard debugging logs f
+- Debug logs: standard debugging logs for application functionality
 - Information Logs: standard application flow logs
 - Warning logs: for when an error is encountered but can be handled, like handling an exception
+- Error logs: for exceptions that might actually crash part of the application and stop a piece of functionality from working, for example a database being uncontactable
+- Critical logs: for when the application is actually going to crash entirely
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNjkwOTQ4MCwxMzA0MTA0Mjk2LDgyMz
-AxNTkyMSwtMTE3NDc0NDY0Niw1NjI2ODUwMTksMTY5Mjc5MTk0
-NSwxMjQ2MzU3MDQyLDE5MzkzOTMyMzIsNTUzNDQ0NDk1XX0=
+eyJoaXN0b3J5IjpbLTE1NjczOTMyNzYsMTMwNDEwNDI5Niw4Mj
+MwMTU5MjEsLTExNzQ3NDQ2NDYsNTYyNjg1MDE5LDE2OTI3OTE5
+NDUsMTI0NjM1NzA0MiwxOTM5MzkzMjMyLDU1MzQ0NDQ5NV19
 -->
