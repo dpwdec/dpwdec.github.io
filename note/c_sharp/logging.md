@@ -110,8 +110,11 @@ _logger.LogCritical("log critical");
 - Critical logs: for when the application is actually going to crash entirely
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjczOTMyNzYsMTMwNDEwNDI5Niw4Mj
-MwMTU5MjEsLTExNzQ3NDQ2NDYsNTYyNjg1MDE5LDE2OTI3OTE5
-NDUsMTI0NjM1NzA0MiwxOTM5MzkzMjMyLDU1MzQ0NDQ5NV19
+eyJoaXN0b3J5IjpbMTQzNjU1NzUzNiwtMTU2NzM5MzI3NiwxMz
+A0MTA0Mjk2LDgyMzAxNTkyMSwtMTE3NDc0NDY0Niw1NjI2ODUw
+MTksMTY5Mjc5MTk0NSwxMjQ2MzU3MDQyLDE5MzkzOTMyMzIsNT
+UzNDQ0NDk1XX0=
 -->
