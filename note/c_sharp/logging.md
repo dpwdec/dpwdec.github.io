@@ -111,15 +111,15 @@ _logger.LogCritical("log critical");
 
 ### String interpolation
 
-It's better to **not use direct string interpolation** using the `$` dollar sign interpolation. Instead its better to use classic interpolation with the interpolated arguments added *after* the log line. The reason to do this is that the interpolated "args" array after the log message can be stored by some loggers as data fields that allow you to interrogate the data separately, such as searching for log errors by time. This cannot be done if the field is directly interpolated as a string into the log message.
+It's better to **not use direct string interpolation** using the `$` dollar sign interpolation. Instead its better to use classic interpolation with the interpolated arguments added *after* the log line. The reason to do this is that the interpolated "args" array after the log message can be stored by some loggers as data fields that allow you to interrogate the data separately, such as searching for log errors by time. This cannot be done if the field is directly interpolated as a string into the log message. This is generally done when using **structured** or **semantic** logging frameworks.
 ```csharp
 _logger.LogError("Server crashes at {time}", DateTime.Now);
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzkwMDc5MCwtMTU2NzM5MzI3NiwxMz
-A0MTA0Mjk2LDgyMzAxNTkyMSwtMTE3NDc0NDY0Niw1NjI2ODUw
-MTksMTY5Mjc5MTk0NSwxMjQ2MzU3MDQyLDE5MzkzOTMyMzIsNT
-UzNDQ0NDk1XX0=
+eyJoaXN0b3J5IjpbLTExODU2MjU5MDUsLTc2NzkwMDc5MCwtMT
+U2NzM5MzI3NiwxMzA0MTA0Mjk2LDgyMzAxNTkyMSwtMTE3NDc0
+NDY0Niw1NjI2ODUwMTksMTY5Mjc5MTk0NSwxMjQ2MzU3MDQyLD
+E5MzkzOTMyMzIsNTUzNDQ0NDk1XX0=
 -->
