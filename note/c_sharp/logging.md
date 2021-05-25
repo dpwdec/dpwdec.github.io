@@ -109,11 +109,16 @@ _logger.LogCritical("log critical");
 - Error logs: for exceptions that might actually crash part of the application and stop a piece of functionality from working, for example a database being uncontactable
 - Critical logs: for when the application is actually going to crash entirely
 
+### String interpolation
 
+It's better to **not use direct string interpolation** using the `$` dollar sign interpolation. Instead its better to use classic interpolation with the interpolated arguments added *after* the log line.
+```csharp
+_logger.LogError("
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjU1NzUzNiwtMTU2NzM5MzI3NiwxMz
+eyJoaXN0b3J5IjpbLTU5OTAwNzQ3NywtMTU2NzM5MzI3NiwxMz
 A0MTA0Mjk2LDgyMzAxNTkyMSwtMTE3NDc0NDY0Niw1NjI2ODUw
 MTksMTY5Mjc5MTk0NSwxMjQ2MzU3MDQyLDE5MzkzOTMyMzIsNT
 UzNDQ0NDk1XX0=
