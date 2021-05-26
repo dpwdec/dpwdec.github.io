@@ -59,6 +59,13 @@ var myTask = Task<int>.Factory.StartNew(() => 1001);
 var result = await myTask; // => 1001
 ```
 
+### Synchronous Results
+
+You can **get the result of a task synchronously** by calling the `GetAwait()` and `GetResult()` methods.
+```csharp
+var result = myTask.GetAwaiter().GetResult();
+```
+
 ### When
 
 You can **`await` the completion of multiple tasks simultaneously** by using the `WhenAll` method. This method accepts an arbitrary number of tasks as its arguments and returns another `Task` that resolves when all the supplied tasks complete.
@@ -109,8 +116,8 @@ Task.Delay(3000).Wait();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjMzODY5MiwyMDIxODIyNTE2LDEzMD
-cwNjMzMzksLTk4NzMyMzcxNCwxNTE1MjUyMTAyLC0xOTEzOTIz
-MTY2LDEzMTU2MjAyMTUsLTEyMTM5NTQ4NzQsNTQxOTk3NzQzLC
-0yNzM5NTk1MzcsLTE2Njg3NjcxM119
+eyJoaXN0b3J5IjpbMzExMDcyMDkyLDIwMjE4MjI1MTYsMTMwNz
+A2MzMzOSwtOTg3MzIzNzE0LDE1MTUyNTIxMDIsLTE5MTM5MjMx
+NjYsMTMxNTYyMDIxNSwtMTIxMzk1NDg3NCw1NDE5OTc3NDMsLT
+I3Mzk1OTUzNywtMTY2ODc2NzEzXX0=
 -->
