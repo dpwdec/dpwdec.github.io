@@ -53,6 +53,8 @@ public async MyMethod()
 }
 ```
 
+You can **create a task that returns something** using the `Factory` property on a typed task with the 
+
 ### When
 
 You can **`await` the completion of multiple tasks simultaneously** by using the `WhenAll` method. This method accepts an arbitrary number of tasks as its arguments and returns another `Task` that resolves when all the supplied tasks complete.
@@ -103,8 +105,8 @@ Task.Delay(3000).Wait();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTgyMjUxNiwxMzA3MDYzMzM5LC05OD
-czMjM3MTQsMTUxNTI1MjEwMiwtMTkxMzkyMzE2NiwxMzE1NjIw
-MjE1LC0xMjEzOTU0ODc0LDU0MTk5Nzc0MywtMjczOTU5NTM3LC
-0xNjY4NzY3MTNdfQ==
+eyJoaXN0b3J5IjpbNTkwMzEzOTgxLDIwMjE4MjI1MTYsMTMwNz
+A2MzMzOSwtOTg3MzIzNzE0LDE1MTUyNTIxMDIsLTE5MTM5MjMx
+NjYsMTMxNTYyMDIxNSwtMTIxMzk1NDg3NCw1NDE5OTc3NDMsLT
+I3Mzk1OTUzNywtMTY2ODc2NzEzXX0=
 -->
