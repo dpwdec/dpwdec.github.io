@@ -53,7 +53,10 @@ public async MyMethod()
 }
 ```
 
-You can **create a task that returns something** using the `Factory` property on a typed task with the 
+You can **create a task that returns something** using the `Factory` property on a typed task with the `StartNew` method. This task can then be resolved as normal
+```csharp
+
+```
 
 ### When
 
@@ -105,8 +108,8 @@ Task.Delay(3000).Wait();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwMzEzOTgxLDIwMjE4MjI1MTYsMTMwNz
-A2MzMzOSwtOTg3MzIzNzE0LDE1MTUyNTIxMDIsLTE5MTM5MjMx
-NjYsMTMxNTYyMDIxNSwtMTIxMzk1NDg3NCw1NDE5OTc3NDMsLT
-I3Mzk1OTUzNywtMTY2ODc2NzEzXX0=
+eyJoaXN0b3J5IjpbMTIzMTA1ODExMSwyMDIxODIyNTE2LDEzMD
+cwNjMzMzksLTk4NzMyMzcxNCwxNTE1MjUyMTAyLC0xOTEzOTIz
+MTY2LDEzMTU2MjAyMTUsLTEyMTM5NTQ4NzQsNTQxOTk3NzQzLC
+0yNzM5NTk1MzcsLTE2Njg3NjcxM119
 -->
