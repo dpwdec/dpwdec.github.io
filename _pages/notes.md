@@ -281,6 +281,7 @@ title: Notes index
             <l><a href='/note/rust/num'>Num</a></l><br>
             <l><a href='/note/rust/operators'>Operators</a></l><br>
             <l><a href='/note/rust/rust'>Rust</a></l><br>
+            <l><a href='/note/rust/strings'>Strings</a></l><br>
             <l><a href='/note/rust/structs'>Structs</a></l><br>
             <l><a href='/note/rust/types'>Types</a></l><br>
             <l><a href='/note/rust/vec'>Vec</a></l><br>
