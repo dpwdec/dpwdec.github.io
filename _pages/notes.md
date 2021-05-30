@@ -5,8 +5,12 @@ title: Notes index
 <ul><br>
     <l>Math</l>
     <ul>
-        <l><a href='/math/derivatives'>Derivatives</a></l><br>
-        <l><a href='/math/exponents'>ExponentLogarithms</a></l><br>
+        <l><a href='/math/derivatives'>Derivatives</a></l><br><br>
+        <l>Exponentials</l>
+        <ul>
+            <l><a href='/math/exponentials/e'>E</a></l><br>
+            <l><a href='/math/exponentials/exponents'>ExponentLogarithms</a></l><br>
+        </ul>
         <l><a href='/math/limits'>Limits</a></l><br>
         <l><a href='/math/linear_algebra'>Linear Algebra</a></l><br>
         <l><a href='/math/logarithms'>Logarithms</a></l><br>
