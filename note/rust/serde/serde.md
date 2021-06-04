@@ -12,7 +12,10 @@ If you want to **use the derive macros** for serde serialization and other featu
 serde = { version = "1.0", features = ["derive"] }
 ```
 
+## Convert between formats
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDUwNzg4MzksLTEwOTk0OTI4NzFdfQ
+eyJoaXN0b3J5IjpbLTE3NTc0MDI0MzYsLTEwOTk0OTI4NzFdfQ
 ==
 -->
