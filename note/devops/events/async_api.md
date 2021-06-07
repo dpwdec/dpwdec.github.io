@@ -21,7 +21,8 @@ Brokers generally contain a set of **channels** that hold **different sorts of m
 
 ## Structure
 
-The `info` section of the spec contains a 
+The `info` section of the spec contains a `title` object. *However*, it's not clear how this interacts with the broker, channels model. Is this just a convenient way of grouping different channels?
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzA0NTMwMCwtOTg1MDEyMjU2XX0=
+eyJoaXN0b3J5IjpbLTg2MDgzMTkxOSwtOTg1MDEyMjU2XX0=
 -->
