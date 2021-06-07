@@ -18,6 +18,10 @@ Messages are often catalogued as *either* **events** or **commands**.
 ## Channels
 
 Brokers generally contain a set of **channels** that hold **different sorts of messages**, one channel for user sign ups, one channel for new purchases etc. These are sometimes can *topics, routing keys* or *event types*.
+
+## Structure
+
+The `info` section of the spec contains a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTAxMjI1Nl19
+eyJoaXN0b3J5IjpbLTExNzA0NTMwMCwtOTg1MDEyMjU2XX0=
 -->
