@@ -31,8 +31,8 @@ There are a range of `protocol` properties that describe the connection type for
 
 ### Channels
 
-The `operationId` property defines the name of the function that should take care of the functionality 
+The `operationId` property defines the name of the function that should take care of the functionality of pushing events for a particular channel.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTM2MDcyNiwxMjM2ODY2NjAsLTg2MD
-gzMTkxOSwtOTg1MDEyMjU2XX0=
+eyJoaXN0b3J5IjpbOTk1NTY1OTI0LDEyMzY4NjY2MCwtODYwOD
+MxOTE5LC05ODUwMTIyNTZdfQ==
 -->
