@@ -25,8 +25,8 @@ The `info` section of the spec contains a `title` object. *However*, it's not cl
 
 ### Servers
 
-The server section of the AsyncAPI **defines where and how to **
+The server section of the AsyncAPI **defines where and how to connect for events**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDQ3MzM5MTQsLTg2MDgzMTkxOSwtOT
-g1MDEyMjU2XX0=
+eyJoaXN0b3J5IjpbOTk2MDI0MjYyLC04NjA4MzE5MTksLTk4NT
+AxMjI1Nl19
 -->
