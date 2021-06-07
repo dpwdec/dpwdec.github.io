@@ -28,7 +28,11 @@ The `info` section of the spec contains a `title` object. *However*, it's not cl
 The server section of the AsyncAPI **defines where and how to connect for events**.
 
 There are a range of `protocol` properties that describe the connection type for an event. This *can be HTTP*.
+
+### Channels
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjg2NjYwLC04NjA4MzE5MTksLTk4NT
-AxMjI1Nl19
+eyJoaXN0b3J5IjpbLTQ4MDQxMTk4NSwxMjM2ODY2NjAsLTg2MD
+gzMTkxOSwtOTg1MDEyMjU2XX0=
 -->
