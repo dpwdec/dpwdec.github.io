@@ -15,7 +15,9 @@ Messages are often catalogued as *either* **events** or **commands**.
 - Events communicate that something happened
 - Commands indicate to the subscribe that it should do something
 
+## Channels
 
+B
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDczODU5M119
+eyJoaXN0b3J5IjpbMTM0Mjk2MTQ1N119
 -->
