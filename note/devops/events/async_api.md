@@ -31,8 +31,8 @@ There are a range of `protocol` properties that describe the connection type for
 
 ### Channels
 
-
+The `operationId` property defines the name of the function that should take care of the functionality 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDQxMTk4NSwxMjM2ODY2NjAsLTg2MD
+eyJoaXN0b3J5IjpbMTQ4NTM2MDcyNiwxMjM2ODY2NjAsLTg2MD
 gzMTkxOSwtOTg1MDEyMjU2XX0=
 -->
