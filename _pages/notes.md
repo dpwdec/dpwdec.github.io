@@ -9,51 +9,53 @@ title: Notes index
         <l>Exponentials</l>
         <ul>
             <l><a href='/math/exponentials/e'>E</a></l><br>
-            <l><a href='/math/exponentials<a href='/math/exponents'>ExponentLogarithms</a></l><br>
+            <l><a href='/math/exponentials/exponents'>ExponentLogarithms</a></l><br>
         </ul>
-        <l> th/limits'>Limits</a></l><br>
+        <l><a href='/math/limits'>Limits</a></l><br>
         <l><a href='/math/linear_algebra'>Linear Algebra</a></l><br>
         <l><a href='/math/logarithms'>Logarithms</a></l><br>
         <l><a href='/math/point_slope'>Point Slope Formula</a></l><br>
         <l><a href='/math/sets'>Sets</a></l><br><br>
-        <l>Single Variable Calcul    <ul>
+        <l>Single Variable Calculus</l>
+        <ul>
             <l><a href='/math/single_variable_calculus/chain_rule'>Chain Rule</a></l><br>
-            <l><a href='/math/single_variable_calculus/higher_derivatives'> Derivatives</a></l><br>
-            <l><a href='/math/single_variable_calculus/implicit_derivatives'>Impli Derivatives</a></l><br>
+            <l><a href='/math/single_variable_calculus/higher_derivatives'>Higher Derivatives</a></l><br>
+            <l><a href='/math/single_variable_calculus/implicit_derivatives'>Implicit Derivatives</a></l><br>
             <l><a href='/math/single_variable_calculus/inverse_functions'>Inverse Functions</a></l><br>
-            <l><a href='/math/single_variable_calculus/product_rule'>Product Rule'/math/single_variable_calculus/quotient_rule'>QuotienProduct Rule</a></l><br>
-            <l><a href=blhe'/math/single_variable_calculus/rational_exponents'>Rat/l><br>
+            <l><a href='/math/single_variable_calculus/product_rule'>Product Rule</a></l><br>
+            <l><a href='/math/single_variable_calculus/quotient_rule'>QuotienProduct Rule</a></l><br>
+            <l><a href='/math/single_variable_calculus/rational_exponents'>Rational Exponents</a></l><br>
             <l><a href='/math/single_variable_calculus/reciprocals'>Reciprocals</a></l><br>
             <l><a href='/math/single_variable_calculus/trig_function_derivatives'>Trigonometric Function Derivatives</a></l><br>
         </ul>
-        <l><a href='/math/tangent_lines'>Tangent Lines     <l>ct'>Web</a></l>>
-        <l>Trigonoryl>
-             <l><a href='/math/trigonometry/sum_and_difference_formulas'>Trigonometric Sum and Difference Formulas</a></l><b'/r>
+        <l><a href='/math/tangent_lines'>Tangent Lines</a></l><br><br>
+        <l>Trigonometry</l>
+        <ul>
+            <l><a href='/math/trigonometry/sum_and_difference_formulas'>Trigonometric Sum and Difference Formulas</a></l><br>
         </ul>
     </ul><br>
-    <l>Noe</l>
-    <ulote/a
- o    ctix '>Actix tWeb</ae/l></l><br><br>
-        <l>Ansiblel>
-        <ul
-    >
-            <l><a href='/note/ansible/ansible'>Ansible</a></l><bote/anse'>Ansible/>r>
-            <l><a href=blhe'/note/ansible/async'>Async</a></l><bre/ac>>
-            <l><a href='/note/ansee</a></l><br'/neailr <l><a href='/note>
+    <l>Note</l>
+    <ul>
+        <l><a href='/note/actix'>Actix Web</a></l><br><br>
+        <l>Ansible</l>
+        <ul>
+            <l><a href='/note/ansible/ansible'>Ansible</a></l><br>
+            <l><a href='/note/ansible/async'>Async</a></l><br>
+            <l><a href='/note/ansible/failure'>Failure</a></l><br>
             <l><a href='/note/ansible/loops'>Loops</a></l><br>
-            <l><a href='/note/ansible/when'>When<>
+            <l><a href='/note/ansible/when'>When</a></l><br>
+        </ul><br>
         <l>Architecture</l>
         <ul>
-  rece Formula>
+            <l><a href='/note/architecture/concerns'>Concerns</a></l><br>
+            <l><a href='/note/architecture/oop'>OOP</a></l><br>
         </ul>
-            <l><a href='/note/architecture/concerns'>Concerns</a></l>            <l><a href='/note/architecture/oop'>OOP</a></l><br>
-        </ul>
-        <l><a href=>'/nr>
-        <l>'/nte/</l><br><bribe</l>
+        <l><a href='/note/atom'>atom</a></l><br>
+        <l><a href='/note/c'>C</a></l><br><br>
         <l>C Sharp</l>
         <ul>
-          <l><a href='/note/c_sharp/Asp'>ASP</a></l><br>
-            <l><a href='/note/c_sharp/Async'>Asyncr>
+            <l><a href='/note/c_sharp/Asp'>ASP</a></l><br>
+            <l><a href='/note/c_sharp/Async'>Async</a></l><br>
             <l><a href='/note/c_sharp/Attributes'>Attributes</a></l><br>
             <l><a href='/note/c_sharp/Automapper'>Automapper</a></l><br>
             <l><a href='/note/c_sharp/Binary'>Binary</a></l><br>
@@ -104,9 +106,9 @@ title: Notes index
                     <l><a href='/note/devops/cloud_computing/a_w_s/cloudfront'>Cloudfront</a></l><br><br>
                     <l>Ec 2</l>
                     <ul>
-                  <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/alb'>Application Load Balancers</a></l><br>
+                        <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/alb'>Application Load Balancers</a></l><br>
                         <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/asg'>Auto Scaling Groups</a></l><br>
-                      <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/ec2'>EC2</a></l><br>
+                        <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/ec2'>EC2</a></l><br>
                         <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/vpc'>Virtual Private Cloud</a></l><br>
                     </ul>
                     <l><a href='/note/devops/cloud_computing/a_w_s/iam'>IAM</a></l><br>
@@ -119,7 +121,7 @@ title: Notes index
                     <l><a href='/note/devops/cloud_computing/a_w_s/sqs'>Simple Queue Service</a></l><br>
                     <l><a href='/note/devops/cloud_computing/a_w_s/waf'>WAF</a></l><br>
                 </ul>
-              <l><a href='/note/devops/cloud_computing/cloud_computing'>Cloud Computing</a></l><br>
+                <l><a href='/note/devops/cloud_computing/cloud_computing'>Cloud Computing</a></l><br>
             </ul>
             <l><a href='/note/devops/containerisation'>Containerisation</a></l><br>
             <l><a href='/note/devops/curl'>Curl</a></l><br><br>
@@ -165,8 +167,7 @@ title: Notes index
             <l><a href='/note/git/log'>log</a></l><br>
             <l><a href='/note/git/whatchanged'>whatchanged</a></l><br>
         </ul>
-        <l><a href='/note/gmail'>Gm></l>J</l>
-       <ul><br>
+        <l><a href='/note/gmail'>Gmail</a></l><br><br>
         <l>Haskell</l>
         <ul>
             <l><a href='/note/haskell/guards'>Guards</a></l><br>
@@ -183,16 +184,17 @@ title: Notes index
         <l><a href='/note/html'>HTML</a></l><br>
         <l><a href='/note/ieee_754'>IEEE754</a></l><br>
         <l><a href='/note/jet_brains'>JetBrains</a></l><br>
-         ></l><br><>
-    ><><br>     <l>Js</l>
+        <l><a href='/note/jinja'>Jinja</a></l><br><br>
+        <l>Js</l>
         <ul><br>
-            <l>>
-            <l>
-                <l><a href='/note/ js/Node/assert'>Assert</a></l><br>
-                js/Node/child_process'>Child Process</a></l><br>
+            <l>Node</l>
+            <ul>
+                <l><a href='/note/js/Node/assert'>Assert</a></l><br>
+                <l><a href='/note/js/Node/child_process'>Child Process</a></l><br>
                 <l><a href='/note/js/Node/node'>Node</a></l><br>
-                <l><a href='/note/js/Node/query_string'>querstring</a></l>l>
-            <>Ajax</a></l><br>
+                <l><a href='/note/js/Node/query_string'>querstring</a></l><br>
+            </ul>
+            <l><a href='/note/js/ajax'>Ajax</a></l><br>
             <l><a href='/note/js/array'>Array</a></l><br>
             <l><a href='/note/js/cypress'>Cypress</a></l><br>
             <l><a href='/note/js/dot_env'>Dotenv</a></l><br>
@@ -206,12 +208,15 @@ title: Notes index
             <l><a href='/note/js/jsdelivr'>jsdelivr</a></l><br>
             <l><a href='/note/js/jsdom'>Javascript DOM</a></l><br>
             <l><a href='/note/js/jsonata'>Jsonata</a></l><br><br>
-            <l>l>
+            <l>Mocha</l>
+            <ul>
                 <l><a href='/note/js/mocha/code_runner'>Code Runner</a></l><br>
                 <l><a href='/note/js/mocha/mocha'>Mocha</a></l><br>
             </ul>
             <l><a href='/note/js/mongo_db'>MongoDB</a></l><br><br>
-            <l>P5js<l><a href='/note/js/p5js/dom_elements'>DOM Elements</a></l><br>
+            <l>P5js</l>
+            <ul>
+                <l><a href='/note/js/p5js/dom_elements'>DOM Elements</a></l><br>
                 <l><a href='/note/js/p5js/embedding'>Embedding</a></l><br>
                 <l><a href='/note/js/p5js/p5js'>p5.js</a></l><br>
             </ul>
@@ -316,6 +321,3 @@ title: Notes index
         <l><a href='/note/youtube_data'>Youtube Data</a></l><br>
     </ul>
 </ul>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzYxNTk0OV19
--->
