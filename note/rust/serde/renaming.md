@@ -24,6 +24,8 @@ enum HttpMethod {
   // etc.
 }
 ```
+
+You can even **define seperate rules for serialization and deserialization** by using the `rename_all` attribute like a function and adding `deserialize` and `serialize` kwargs to it. This allows us to deserialize our HTTP verbs from uppercase and then perhaps serialize them to a separate script in their lowercase representation where they get called by some worker service.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxMzUzMjcwXX0=
+eyJoaXN0b3J5IjpbOTE4NDA0MDMwXX0=
 -->
