@@ -17,7 +17,11 @@ true + false = true
 {{ #if or( eq(true) eq(true)) }}
 true + true = true
 {{ /if }}
+
+{{ #if or( eq(true) eq(true)) }}
+false + false = true
+{{ /if }}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTY4MTMzNzhdfQ==
+eyJoaXN0b3J5IjpbMjk3NDY2NDEwXX0=
 -->
