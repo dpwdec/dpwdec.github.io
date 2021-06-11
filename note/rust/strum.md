@@ -6,7 +6,7 @@ exclude: true
 
 Strum is a library that offers a range of utilities relating enums.
 
-You can use strum to **deserialize an enum from a string representation** by using the `EnumString` trait with the `std::str::FromStr` method.
+You can use strum to **deserialize an enum from a string representation** by using the `EnumString` trait with the `std::str::FromStr` method. The `strum(serialize = "<PATTERN>")` attribute is added with the different deserialization pattern that you want to use to match from. In the example below we
 ```rust
 use strum_macros::EnumString;
 use std::str::FromStr;
@@ -42,5 +42,5 @@ fn main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODc2MzMzMywxMzk4OTg5NTcyXX0=
+eyJoaXN0b3J5IjpbLTgwNjI1Njk1MSwxMzk4OTg5NTcyXX0=
 -->
