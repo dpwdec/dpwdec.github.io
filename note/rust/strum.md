@@ -29,7 +29,7 @@ If you provide no serialization attributes then the `to_string` will simply prod
 use strum_macros::ToString;
 use std::string::ToString;
 
-#[derive(EnumString)]
+#[derive(ToString)]
 enum Color {
   #[strum(to_string = "red", serialize = "red", serialize "r")]
   Red,
@@ -61,6 +61,6 @@ fn main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY4Nzg2NTcyLDEzNDM5ODg3OCwxMzk4OT
-g5NTcyXX0=
+eyJoaXN0b3J5IjpbLTUwMTk4MDAxNCwxMzQzOTg4NzgsMTM5OD
+k4OTU3Ml19
 -->
