@@ -20,6 +20,10 @@ enum Color {
   #[strum(serialize = "blue", serialize "b")]
   Blue
 }
+
+fn main() {
+  Color::from_str("r")
+}
 ```
 
 You can **serialize an enum to a string** using the `ToString` trait with the `std::string::ToString` method. Its important to note that **this uses the SAME `serialization` attribute as the deserialization pattern** which can make it awkward if you want to deserialize from lots of different patterns but serialize using only a single pattern. In this case its better to use the `to_string` attribute. In the example below the string could be deserialized from `"red"` or `"r"` but only gets serialized to a string as `"red"`.
@@ -61,6 +65,6 @@ fn main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTk4MDAxNCwxMzQzOTg4NzgsMTM5OD
-k4OTU3Ml19
+eyJoaXN0b3J5IjpbLTEwNjYzMDY3MTgsMTM0Mzk4ODc4LDEzOT
+g5ODk1NzJdfQ==
 -->
