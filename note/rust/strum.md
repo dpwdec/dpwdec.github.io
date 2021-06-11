@@ -17,7 +17,7 @@ enum Color {
   Red,
   #[strum(serialize = "green", serialize "g")]
   Green,
-  
+  #[strum(serialize = "blue", serialize "b")]
   Blue
 }
 ```
@@ -42,5 +42,5 @@ fn main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzg3NTMwMDMsMTM5ODk4OTU3Ml19
+eyJoaXN0b3J5IjpbLTgxODc2MzMzMywxMzk4OTg5NTcyXX0=
 -->
