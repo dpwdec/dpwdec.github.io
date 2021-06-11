@@ -22,7 +22,21 @@ enum Color {
 }
 ```
 
-You can **serialize an enum to a string** using the `ToString` trait with the `std::string::ToString` method.
+You can **serialize an enum to a string** using the `ToString` trait with the `std::string::ToString` method. Its important to note that **this uses the SAME `serialization` attribute as the deserialization pattern** which can make it awkward if you want to deserialize from lots of different patterns but serialize using only a single pattern. In this case its better to use the `to_string` attribute.
+```rust
+use strum_macros::ToString;
+use std::str::FromStr;
+
+#[derive(EnumString)]
+enum Color {
+  #[strum(serialize = "red", serialize "r")]
+  Red,
+  #[strum(serialize = "green", serialize "g")]
+  Green,
+  #[strum(serialize = "blue", serialize "b")]
+  Blue
+}
+```
 
 You can **enumerate all variants of an enum** by using the `EnumIter` strum macro to derive the enumeration function and the `IntoEnumIterator` import to actually use the enumeration functionality. This will require the `strum` and `strum_macros` crates.
 ```rust
@@ -44,6 +58,6 @@ fn main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2NTU3MzE5LDEzNDM5ODg3OCwxMzk4OT
-g5NTcyXX0=
+eyJoaXN0b3J5IjpbLTE3MjUxOTc2MjUsMTM0Mzk4ODc4LDEzOT
+g5ODk1NzJdfQ==
 -->
