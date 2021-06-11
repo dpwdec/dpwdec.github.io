@@ -13,7 +13,11 @@ You can **create an IF statement for multiple OR conditions** using the `or` and
 {{ #if or( eq(true) eq(false)) }}
 true + false = true
 {{ /if }}
+
+{{ #if or( eq(true) eq(true)) }}
+true + true = true
+{{ /if }}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzU3ODg2OTBdfQ==
+eyJoaXN0b3J5IjpbLTE2OTY4MTMzNzhdfQ==
 -->
