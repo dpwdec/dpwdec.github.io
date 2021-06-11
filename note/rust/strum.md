@@ -35,7 +35,7 @@ enum Color {
 }
 
 fn main() {
-  Color::Red.to_string() // 
+  Color::Red.to_string() // => red
 }
 ```
 
@@ -59,6 +59,6 @@ fn main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjYxNjMwNCwxMzQzOTg4NzgsMTM5OD
-k4OTU3Ml19
+eyJoaXN0b3J5IjpbLTQxMDQwMzg2LDEzNDM5ODg3OCwxMzk4OT
+g5NTcyXX0=
 -->
