@@ -23,6 +23,8 @@ enum Color {
 ```
 
 You can **serialize an enum to a string** using the `ToString` trait with the `std::string::ToString` method. Its important to note that **this uses the SAME `serialization` attribute as the deserialization pattern** which can make it awkward if you want to deserialize from lots of different patterns but serialize using only a single pattern. In this case its better to use the `to_string` attribute. In the example below the string could be deserialized from `"red"` or `"r"` but only gets serialized to a string as `"red"`.
+
+If you provide no serialization attributes then the `to_string` will simply produced a literal representation of the enum name. So in the example below `Red` would just be serialized as `"Red"`.
 ```rust
 use strum_macros::ToString;
 use std::string::ToString;
@@ -59,6 +61,6 @@ fn main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MzAzNjM1OCwxMzQzOTg4NzgsMTM5OD
-k4OTU3Ml19
+eyJoaXN0b3J5IjpbNzY4Nzg2NTcyLDEzNDM5ODg3OCwxMzk4OT
+g5NTcyXX0=
 -->
