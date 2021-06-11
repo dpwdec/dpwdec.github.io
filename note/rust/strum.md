@@ -15,7 +15,9 @@ use std::str::FromStr;
 enum Color {
   #[strum(serialize = "red", serialize "r")]
   Red,
+  #[strum(serialize = "green", serialize "g")]
   Green,
+  
   Blue
 }
 ```
@@ -40,5 +42,5 @@ fn main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTg0MTMxOTMsMTM5ODk4OTU3Ml19
+eyJoaXN0b3J5IjpbLTE0Nzg3NTMwMDMsMTM5ODk4OTU3Ml19
 -->
