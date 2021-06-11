@@ -28,7 +28,7 @@ fn main() {
 
 You can **serialize an enum to a string** using the `ToString` trait with the `std::string::ToString` method. It's important to note that **this uses the SAME `serialization` attribute as the deserialization pattern** which can make it awkward if you want to deserialize from lots of different patterns but serialize using only a single pattern. In this case it's better to use the `to_string` attribute. In the example below the string could be deserialized from `"Red"` or `"r"` but only gets serialized to a string as `"red"`. It seems if you don't make this explicit which variant you want as serialization then it will seemingly choose one at random.
 
-U
+It also seems like you don't necessarily need the 
 
 If you provide no serialization attributes then the `to_string` will simply produced a literal representation of the enum name. So in the example below `Red` would just be serialized as `"Red"`.
 ```rust
@@ -67,6 +67,6 @@ fn main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA2OTI3ODQ1LDMzNTg3MzExOCwxMzQzOT
-g4NzgsMTM5ODk4OTU3Ml19
+eyJoaXN0b3J5IjpbLTE0MjAzMDg0ODgsMzM1ODczMTE4LDEzND
+M5ODg3OCwxMzk4OTg5NTcyXX0=
 -->
