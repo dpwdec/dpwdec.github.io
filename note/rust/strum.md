@@ -11,6 +11,7 @@ You can use strum to **deserialize an enum from a string representation** by usi
 use strum_macros::EnumString;
 use std::str::FromStr;
 
+#[derive(EnumString)]
 enum Color {
   Red,
   Green,
@@ -38,5 +39,5 @@ fn main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY1Mjg1MzQzLDEzOTg5ODk1NzJdfQ==
+eyJoaXN0b3J5IjpbMTUzNjY1Njg2OCwxMzk4OTg5NTcyXX0=
 -->
