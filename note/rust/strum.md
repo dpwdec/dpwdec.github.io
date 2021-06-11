@@ -22,6 +22,8 @@ enum Color {
 }
 ```
 
+You can **serialize an enum to a string** using the `ToString` trait with the `
+
 You can **enumerate all variants of an enum** by using the `EnumIter` strum macro to derive the enumeration function and the `IntoEnumIterator` import to actually use the enumeration functionality. This will require the `strum` and `strum_macros` crates.
 ```rust
 use strum::IntoEnumIterator;
@@ -42,5 +44,6 @@ fn main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0Mzk4ODc4LDEzOTg5ODk1NzJdfQ==
+eyJoaXN0b3J5IjpbMTI2NTQ3MzgxMiwxMzQzOTg4NzgsMTM5OD
+k4OTU3Ml19
 -->
