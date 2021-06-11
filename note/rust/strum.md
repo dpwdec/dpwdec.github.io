@@ -8,6 +8,8 @@ Strum is a library that offers a range of utilities relating enums.
 
 You can use strum to **deserialize an enum from a string representation** by using the `EnumString` trait with the `std::str::FromStr` method.
 ```rust
+
+
 enum Color {
   Red,
   Green,
@@ -35,5 +37,5 @@ fn main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3ODU3MjgxLDEzOTg5ODk1NzJdfQ==
+eyJoaXN0b3J5IjpbMTAxNDcyNDgyOSwxMzk4OTg5NTcyXX0=
 -->
