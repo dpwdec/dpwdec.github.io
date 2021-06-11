@@ -33,6 +33,10 @@ enum Color {
   Red,
   // other colors
 }
+
+fn main() {
+  Color::Red.to_string() // 
+}
 ```
 
 You can **enumerate all variants of an enum** by using the `EnumIter` strum macro to derive the enumeration function and the `IntoEnumIterator` import to actually use the enumeration functionality. This will require the `strum` and `strum_macros` crates.
@@ -55,6 +59,6 @@ fn main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDU4Njg3MCwxMzQzOTg4NzgsMTM5OD
+eyJoaXN0b3J5IjpbLTM0MjYxNjMwNCwxMzQzOTg4NzgsMTM5OD
 k4OTU3Ml19
 -->
