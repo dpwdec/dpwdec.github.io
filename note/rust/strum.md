@@ -22,7 +22,7 @@ enum Color {
 }
 
 fn main() {
-  Color::from_str("r")
+  Color::from_str("r").unwrap() // => Color::Red
 }
 ```
 
@@ -65,6 +65,6 @@ fn main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjYzMDY3MTgsMTM0Mzk4ODc4LDEzOT
-g5ODk1NzJdfQ==
+eyJoaXN0b3J5IjpbMjUwNDc5MDQ3LDEzNDM5ODg3OCwxMzk4OT
+g5NTcyXX0=
 -->
