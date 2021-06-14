@@ -32,7 +32,13 @@ def parse_directory(node: dict, path: str) -> str:
         directory_content = ''.join(
             parse_directory(child, path)
             for child in node['contents'])
-        return f"<br><l>{directory_name}</l><ul>{directory_content}</ul>"
+        return f"""
+        <l>
+        <input type="checkbox" id="{directory_name}">
+        <label for="{directory_name}">{directory_name}</label>
+        <ul>{directory_content}</ul>
+        </l>
+        """
     else:
         # gather meta data from file about its title
         command = f"cat {path.replace('/', '', 1) + node['name']} | grep title: | head | sed 's/title: //'"

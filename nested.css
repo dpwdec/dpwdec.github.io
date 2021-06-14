@@ -1,16 +1,11 @@
----
-layout: page
-title: Notes index
----
-<style>
-    /* @import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 body{
   font-family: "Roboto", "Sans Serif";
   font-size: 18pt;
   color: #000000;
   background: #FFFFFF;
-} */
+}
 
 ul{
   list-style: none;
@@ -48,5 +43,3 @@ input[type="checkbox"]:checked ~ ul{
   transition: transform .2s ease-out;
   transform: scaleY(1); 
 }
-
-</style>
