@@ -61,3 +61,34 @@ That value is \\( e \\).
 Maximum possible growth exponential growth rate can be calculated as
 
 \\[ maximum\ growth = \lim_{n \to ∞} (1 + \frac{1}{n})^n \\]
+
+## Varying the growth time
+
+Why is \\( \sqrt e \\) equal to growth over a period of \\( 0.5 \\) units?
+
+It makes sense because if we imagine that raising the equation \\( 1 + \frac{1}{n} \\) to the power of \\( n \\) is essentially *repeated multiplication*.
+
+\\[ (1 + \frac{1}{n})(1 + \frac{1}{n})(1 + \frac{1}{n})(1 + \frac{1}{n})... \\]
+
+until we reach \\( e \\).
+
+We can therefore imagine that if we split this period into two equal periods that take half the time of the original period it would mean that 
+
+\\[ (half period) * (half period) = e \\]
+
+And therefore a \\( half period \\) must be equal to \\( \sqrt e \\).
+
+This must also be true if the *rate* of the calculation is set to \\( 50% \\), or \\( 0.5 \\). Such that
+
+\\[ \lim_{n \to ∞} (1 + \frac{.5}{n})^n  \\]
+
+After **two** periods of compounding at a rate of \\( .5 \\) we would have reached a total compound of \\( e \\) which means that 
+
+\\[ (half rate) * (half rate) = e \\]
+
+And therefore a \\( half rate \\) must be equal to \\( \sqrt e \\).
+
+## Time and Rate
+
+What this ultimately reveals is that **time and rate are interchangeable in compounding**.
+
