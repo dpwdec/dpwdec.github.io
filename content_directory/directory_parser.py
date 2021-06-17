@@ -36,7 +36,7 @@ def parse_directory(node: dict, path: str) -> str:
         return f"""
         <l>
         <input type="checkbox" id="{directory_name}">
-        <label for="{directory_name}">{directory_name}</label>
+        <label for="{directory_name}">📁  {directory_name}</label>
         <ul>{directory_content}</ul>
         </l>
         """

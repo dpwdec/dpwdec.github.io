@@ -14,7 +14,7 @@ body{
 
 ul{
   list-style: none;
-  margin: 0;
+  /* margin: 0; */
   padding: 0;
 }
 

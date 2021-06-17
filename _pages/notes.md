@@ -14,7 +14,7 @@ body{
 
     ul {
         list-style: none;
-        margin: 0;
+        /* margin: 0; */
         padding: 0;
     }
 
@@ -52,12 +52,12 @@ body{
 
         <l>
             <input type="checkbox" id="Math">
-            <label for="Math">Math</label>
+            <label for="Math">📁 Math</label>
             <ul>
                 <l><a href='/math/derivatives'>Derivatives</a></l><br>
                 <l>
                     <input type="checkbox" id="Exponentials">
-                    <label for="Exponentials">Exponentials</label>
+                    <label for="Exponentials">📁 Exponentials</label>
                     <ul>
                         <l><a href='/math/exponentials/e'>E</a></l><br>
                         <l><a href='/math/exponentials/exponents'>ExponentLogarithms</a></l><br>
@@ -70,7 +70,7 @@ body{
                 <l><a href='/math/sets'>Sets</a></l><br>
                 <l>
                     <input type="checkbox" id="Single Variable Calculus">
-                    <label for="Single Variable Calculus">Single Variable Calculus</label>
+                    <label for="Single Variable Calculus">📁 Single Variable Calculus</label>
                     <ul>
                         <l><a href='/math/single_variable_calculus/chain_rule'>Chain Rule</a></l><br>
                         <l><a href='/math/single_variable_calculus/higher_derivatives'>Higher Derivatives</a></l><br>
@@ -86,7 +86,7 @@ body{
                 <l><a href='/math/tangent_lines'>Tangent Lines</a></l><br>
                 <l>
                     <input type="checkbox" id="Trigonometry">
-                    <label for="Trigonometry">Trigonometry</label>
+                    <label for="Trigonometry">📁 Trigonometry</label>
                     <ul>
                         <l><a href='/math/trigonometry/sum_and_difference_formulas'>Trigonometric Sum and Difference Formulas</a></l><br>
                     </ul>
@@ -96,12 +96,12 @@ body{
 
         <l>
             <input type="checkbox" id="Note">
-            <label for="Note">Note</label>
+            <label for="Note">📁 Note</label>
             <ul>
                 <l><a href='/note/actix'>Actix Web</a></l><br>
                 <l>
                     <input type="checkbox" id="Ansible">
-                    <label for="Ansible">Ansible</label>
+                    <label for="Ansible">📁 Ansible</label>
                     <ul>
                         <l><a href='/note/ansible/ansible'>Ansible</a></l><br>
                         <l><a href='/note/ansible/async'>Async</a></l><br>
@@ -113,7 +113,7 @@ body{
 
                 <l>
                     <input type="checkbox" id="Architecture">
-                    <label for="Architecture">Architecture</label>
+                    <label for="Architecture">📁 Architecture</label>
                     <ul>
                         <l><a href='/note/architecture/concerns'>Concerns</a></l><br>
                         <l><a href='/note/architecture/oop'>OOP</a></l><br>
@@ -123,7 +123,7 @@ body{
                 <l><a href='/note/c'>C</a></l><br>
                 <l>
                     <input type="checkbox" id="C Sharp">
-                    <label for="C Sharp">C Sharp</label>
+                    <label for="C Sharp">📁 C Sharp</label>
                     <ul>
                         <l><a href='/note/c_sharp/Asp'>ASP</a></l><br>
                         <l><a href='/note/c_sharp/Async'>Async</a></l><br>
@@ -157,7 +157,7 @@ body{
                 <l><a href='/note/cmd_line'>Command Line</a></l><br>
                 <l>
                     <input type="checkbox" id="Computer Graphics">
-                    <label for="Computer Graphics">Computer Graphics</label>
+                    <label for="Computer Graphics">📁 Computer Graphics</label>
                     <ul>
                         <l><a href='/note/computer_graphics/image_blending'>Image Blending</a></l><br>
                     </ul>
@@ -166,7 +166,7 @@ body{
                 <l><a href='/note/data_mapper'>Datamapper</a></l><br>
                 <l>
                     <input type="checkbox" id="Databases">
-                    <label for="Databases">Databases</label>
+                    <label for="Databases">📁 Databases</label>
                     <ul>
                         <l><a href='/note/databases/db'>Databases</a></l><br>
                         <l><a href='/note/databases/migrations'>Migrations</a></l><br>
@@ -175,15 +175,15 @@ body{
 
                 <l>
                     <input type="checkbox" id="Devops">
-                    <label for="Devops">Devops</label>
+                    <label for="Devops">📁 Devops</label>
                     <ul>
                         <l>
                             <input type="checkbox" id="Cloud Computing">
-                            <label for="Cloud Computing">Cloud Computing</label>
+                            <label for="Cloud Computing">📁 Cloud Computing</label>
                             <ul>
                                 <l>
                                     <input type="checkbox" id="AWS">
-                                    <label for="AWS">AWS</label>
+                                    <label for="AWS">📁 AWS</label>
                                     <ul>
                                         <l><a href='/note/devops/cloud_computing/a_w_s/acl'>ACL</a></l><br>
                                         <l><a href='/note/devops/cloud_computing/a_w_s/aws'>aws</a></l><br>
@@ -191,7 +191,7 @@ body{
                                         <l><a href='/note/devops/cloud_computing/a_w_s/cloudfront'>Cloudfront</a></l><br>
                                         <l>
                                             <input type="checkbox" id="Ec 2">
-                                            <label for="Ec 2">Ec 2</label>
+                                            <label for="Ec 2">📁 Ec 2</label>
                                             <ul>
                                                 <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/alb'>Application Load Balancers</a></l><br>
                                                 <l><a href='/note/devops/cloud_computing/a_w_s/ec_2/asg'>Auto Scaling Groups</a></l><br>
@@ -217,7 +217,7 @@ body{
                         <l><a href='/note/devops/curl'>Curl</a></l><br>
                         <l>
                             <input type="checkbox" id="Docker">
-                            <label for="Docker">Docker</label>
+                            <label for="Docker">📁 Docker</label>
                             <ul>
                                 <l><a href='/note/devops/docker/docker'>Docker</a></l><br>
                                 <l><a href='/note/devops/docker/docker_compose'>Docker Compose</a></l><br>
@@ -229,7 +229,7 @@ body{
                         <l><a href='/note/devops/microservices'>Microservices</a></l><br>
                         <l>
                             <input type="checkbox" id="Oauth">
-                            <label for="Oauth">Oauth</label>
+                            <label for="Oauth">📁 Oauth</label>
                             <ul>
                                 <l><a href='/note/devops/oauth/jwt'>JWT</a></l><br>
                                 <l><a href='/note/devops/oauth/oauth'>OAuth</a></l><br>
@@ -246,7 +246,7 @@ body{
                 <l><a href='/note/flask'>Flask</a></l><br>
                 <l>
                     <input type="checkbox" id="Functional Programming">
-                    <label for="Functional Programming">Functional Programming</label>
+                    <label for="Functional Programming">📁 Functional Programming</label>
                     <ul>
                         <l><a href='/note/functional_programming/func_prog'>Functional Programming</a></l><br>
                     </ul>
@@ -254,13 +254,13 @@ body{
 
                 <l>
                     <input type="checkbox" id="Git">
-                    <label for="Git">Git</label>
+                    <label for="Git">📁 Git</label>
                     <ul>
                         <l><a href='/note/git/diff'>diff</a></l><br>
                         <l><a href='/note/git/git'>Git</a></l><br>
                         <l>
                             <input type="checkbox" id="Github">
-                            <label for="Github">Github</label>
+                            <label for="Github">📁 Github</label>
                             <ul>
                                 <l><a href='/note/git/github/actions'>Github Actions</a></l><br>
                                 <l><a href='/note/git/github/searching'>Searching</a></l><br>
@@ -273,7 +273,7 @@ body{
                 <l><a href='/note/gmail'>Gmail</a></l><br>
                 <l>
                     <input type="checkbox" id="Haskell">
-                    <label for="Haskell">Haskell</label>
+                    <label for="Haskell">📁 Haskell</label>
                     <ul>
                         <l><a href='/note/haskell/guards'>Guards</a></l><br>
                         <l><a href='/note/haskell/haskell'>Haskell</a></l><br>
@@ -293,11 +293,11 @@ body{
                 <l><a href='/note/jinja'>Jinja</a></l><br>
                 <l>
                     <input type="checkbox" id="Js">
-                    <label for="Js">Js</label>
+                    <label for="Js">📁 Js</label>
                     <ul>
                         <l>
                             <input type="checkbox" id="Node">
-                            <label for="Node">Node</label>
+                            <label for="Node">📁 Node</label>
                             <ul>
                                 <l><a href='/note/js/Node/assert'>Assert</a></l><br>
                                 <l><a href='/note/js/Node/child_process'>Child Process</a></l><br>
@@ -321,7 +321,7 @@ body{
                         <l><a href='/note/js/jsonata'>Jsonata</a></l><br>
                         <l>
                             <input type="checkbox" id="Mocha">
-                            <label for="Mocha">Mocha</label>
+                            <label for="Mocha">📁 Mocha</label>
                             <ul>
                                 <l><a href='/note/js/mocha/code_runner'>Code Runner</a></l><br>
                                 <l><a href='/note/js/mocha/mocha'>Mocha</a></l><br>
@@ -330,7 +330,7 @@ body{
                         <l><a href='/note/js/mongo_db'>MongoDB</a></l><br>
                         <l>
                             <input type="checkbox" id="P5js">
-                            <label for="P5js">P5js</label>
+                            <label for="P5js">📁 P5js</label>
                             <ul>
                                 <l><a href='/note/js/p5js/dom_elements'>DOM Elements</a></l><br>
                                 <l><a href='/note/js/p5js/embedding'>Embedding</a></l><br>
@@ -340,7 +340,7 @@ body{
                         <l><a href='/note/js/strings'>Strings</a></l><br>
                         <l>
                             <input type="checkbox" id="Typescript">
-                            <label for="Typescript">Typescript</label>
+                            <label for="Typescript">📁 Typescript</label>
                             <ul>
                                 <l><a href='/note/js/typescript/indexable_types'>Indexable Types</a></l><br>
                             </ul>
@@ -350,7 +350,7 @@ body{
 
                 <l>
                     <input type="checkbox" id="Language">
-                    <label for="Language">Language</label>
+                    <label for="Language">📁 Language</label>
                     <ul>
                         <l><a href='/note/language/japanese_keyboard'>Japanese Keyboard</a></l><br>
                     </ul>
@@ -358,7 +358,7 @@ body{
                 <l><a href='/note/latex'>Latex</a></l><br>
                 <l>
                     <input type="checkbox" id="Linux">
-                    <label for="Linux">Linux</label>
+                    <label for="Linux">📁 Linux</label>
                     <ul>
                         <l><a href='/note/linux/apt'>Apt</a></l><br>
                         <l><a href='/note/linux/bash'>Bash</a></l><br>
@@ -378,7 +378,7 @@ body{
                 <l><a href='/note/psql'>PostgreSQL</a></l><br>
                 <l>
                     <input type="checkbox" id="Python">
-                    <label for="Python">Python</label>
+                    <label for="Python">📁 Python</label>
                     <ul>
                         <l><a href='/note/python/argparse'>argparse</a></l><br>
                         <l><a href='/note/python/boto3'>Boto 3</a></l><br>
@@ -401,7 +401,7 @@ body{
                 <l><a href='/note/refactoring'>Refactoring</a></l><br>
                 <l>
                     <input type="checkbox" id="Regular Expressions">
-                    <label for="Regular Expressions">Regular Expressions</label>
+                    <label for="Regular Expressions">📁 Regular Expressions</label>
                     <ul>
                         <l><a href='/note/regular_expressions/mode_modifiers'>Mode Modifiers</a></l><br>
                     </ul>
@@ -412,7 +412,7 @@ body{
                 <l><a href='/note/ruby'>Ruby</a></l><br>
                 <l>
                     <input type="checkbox" id="Rust">
-                    <label for="Rust">Rust</label>
+                    <label for="Rust">📁 Rust</label>
                     <ul>
                         <l><a href='/note/rust/bool'>Bool</a></l><br>
                         <l><a href='/note/rust/collections'>Collections</a></l><br>
@@ -439,7 +439,7 @@ body{
                 <l><a href='/note/unit_test'>Unittest</a></l><br>
                 <l>
                     <input type="checkbox" id="Vim">
-                    <label for="Vim">Vim</label>
+                    <label for="Vim">📁 Vim</label>
                     <ul>
                         <l><a href='/note/vim/vim'>Vim</a></l><br>
                     </ul>
@@ -448,7 +448,7 @@ body{
                 <l><a href='/note/vs_code'>Vs Code</a></l><br>
                 <l>
                     <input type="checkbox" id="Web">
-                    <label for="Web">Web</label>
+                    <label for="Web">📁 Web</label>
                     <ul>
                         <l><a href='/note/web/cookies'>Cookies</a></l><br>
                         <l><a href='/note/web/cors'>CORS</a></l><br>
