@@ -19,10 +19,8 @@ ul{
 }
 
 label{
-/*   display: block; */
   cursor: pointer;
   padding: 10px;
-/*   border: 1px solid #000000; */
   border-bottom: none;
 }
 
@@ -48,5 +46,6 @@ input[type="checkbox"]:checked ~ ul{
   transition: transform .2s ease-out;
   transform: scaleY(1); 
 }
+
 
 </style>

@@ -32,6 +32,7 @@ def parse_directory(node: dict, path: str) -> str:
         directory_content = ''.join(
             parse_directory(child, path)
             for child in node['contents'])
+        
         return f"""
         <l>
         <input type="checkbox" id="{directory_name}">
@@ -40,7 +41,9 @@ def parse_directory(node: dict, path: str) -> str:
         </l>
         """
     else:
-        # gather meta data from file about its title
+        # gather meta data from file about its title to display on the contents page
+        # this is because file names are not enough to give the correct title for the contents page
+        # instead each file contains a "title" metadata markdown field which is used
         command = f"cat {path.replace('/', '', 1) + node['name']} | grep title: | head | sed 's/title: //'"
         page_title = subprocess.run(command, **sp_config).stdout.decode('utf-8').strip('\n')
         return f"<l><a href='{path + node['name'].replace('.md', '')}'>{page_title}</a></l><br>"
@@ -49,10 +52,17 @@ def parse_directory(node: dict, path: str) -> str:
 file_structure = json.loads(subprocess.run("tree -J", **sp_config).stdout)
 
 # parse content file nodes recursively into HTML
-parsed_nodes = ''.join(
-    parse_directory(node, '/') 
-    for node in file_structure[0]['contents'] 
-    if match_directory(node['name']))
+# contained in div tags to fix accordion styling issues
+parsed_nodes = f"""
+    <div name="contents-index">
+    {
+        ''.join(
+        parse_directory(node, '/') 
+        for node in file_structure[0]['contents'] 
+        if match_directory(node['name']))
+    }
+    </div>
+    """
 
 # open notes page template file
 base = open("content_directory/directory_base.md").read()
