@@ -36,8 +36,13 @@ p {
 
 ## before / after
 
-
+You can **add text content to a `before` / `after` relative tags** by enclosing the `content` inside `""` quote marks. If you don't include the content inside quote marks it will not be parsed as valid css.
+```css
+p::before {
+  content: "some text"
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjI3NDI5NjIsMjAyMDgxNzc4OCwtMT
-g1MTEwMzc3MCwtNDcwMjc1NTk4XX0=
+eyJoaXN0b3J5IjpbNzEwMDQzNDY5LDIwMjA4MTc3ODgsLTE4NT
+ExMDM3NzAsLTQ3MDI3NTU5OF19
 -->
