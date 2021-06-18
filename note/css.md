@@ -47,9 +47,11 @@ p::before {
 
 You can **alter the styling of an element based on the state of a checkbox that is associated with it** by adding the `:checked` property to the `input[type="checkbox"]` followed by a `~` tilde character and then the element you want to style.
 ```css
-
+input[type="checkbox"]:checked ~ label {
+  background: red
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0NDI0NzM4LDcxMDA0MzQ2OSwyMDIwOD
-E3Nzg4LC0xODUxMTAzNzcwLC00NzAyNzU1OThdfQ==
+eyJoaXN0b3J5IjpbLTIxMjM5OTYwNzIsNzEwMDQzNDY5LDIwMj
+A4MTc3ODgsLTE4NTExMDM3NzAsLTQ3MDI3NTU5OF19
 -->
