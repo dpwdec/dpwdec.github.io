@@ -42,7 +42,11 @@ p::before {
   content: "some text"
 }
 ```
+
+## checkbox
+
+You can **alter the styling of an element based on the state of a checkbox that is associated with it** by adding the `:checked` property to the `input[type="check
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMDQzNDY5LDIwMjA4MTc3ODgsLTE4NT
-ExMDM3NzAsLTQ3MDI3NTU5OF19
+eyJoaXN0b3J5IjpbLTY3MzA0MTMwMiw3MTAwNDM0NjksMjAyMD
+gxNzc4OCwtMTg1MTEwMzc3MCwtNDcwMjc1NTk4XX0=
 -->
