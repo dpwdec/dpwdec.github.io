@@ -26,7 +26,8 @@ div {
   margin: auto
 }
 ```
-> Written with [StackEdit](https://stackedit.io/).
+
+By default **white space is stripped by HTML displays** meaning that trying to add element spacing 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDI3NTU5OF19
+eyJoaXN0b3J5IjpbLTE4NTExMDM3NzAsLTQ3MDI3NTU5OF19
 -->
