@@ -1,34 +1,21 @@
 ---
 layout: page
-title: Notes index
+title: 📂
 ---
 <style>
-    /* @import url(https://fonts.googleapis.com/css?family=Roboto);
-
-body{
-  font-family: "Roboto", "Sans Serif";
-  font-size: 18pt;
-  color: #000000;
-  background: #FFFFFF;
-} */
 
 ul{
   list-style: none;
-  /* margin: 0; */
   padding: 0;
+  margin-bottom: 2px;
+  margin-top: 0px;
 }
 
 label{
   cursor: pointer;
-  padding: 10px;
   border-bottom: none;
+  font-weight: 450 
 }
-
-ul ul li{
-  padding: 10px;
-  background: #FFFFFF;
-}
-
 
 input[type="checkbox"]{
   position: absolute;
@@ -47,5 +34,16 @@ input[type="checkbox"]:checked ~ ul{
   transform: scaleY(1); 
 }
 
+/* turns the check into a closed folder by target labels AFTER an input */
+input + label:before {
+    content: "📁";
+    margin-right: 10px;
+}
+
+/* toggles to open folder on label when checked */
+input[type="checkbox"]:checked ~ label:before {
+  content: "📂";
+  margin-right: 10px;
+}
 
 </style>

@@ -2,6 +2,8 @@
 import subprocess, json
 from typing import List
 
+root_dirs = {'math', 'programming'}
+
 # configuration kwargs for subprocess
 sp_config = { "shell": True, "capture_output": True }
 
@@ -20,7 +22,7 @@ def join_with_acronyms(words: List[str]) -> str:
 
 # function to match only required sub directories
 def match_directory(name: str) -> bool:
-    return name in {'math', 'note'}
+    return name in root_dirs
 
 def parse_directory(node: dict, path: str) -> str:
     if node["type"] == "directory":
@@ -32,11 +34,11 @@ def parse_directory(node: dict, path: str) -> str:
         directory_content = ''.join(
             parse_directory(child, path)
             for child in node['contents'])
-        
+        # checked if else opens root level directories by default
         return f"""
         <l>
-        <input type="checkbox" id="{directory_name}">
-        <label for="{directory_name}">📁  {directory_name}</label>
+        <input type="checkbox" id="{directory_name}" {"checked" if match_directory(node['name']) else ""}>
+        <label for="{directory_name}">{directory_name}</label>
         <ul>{directory_content}</ul>
         </l>
         """
@@ -49,7 +51,9 @@ def parse_directory(node: dict, path: str) -> str:
         return f"<l><a href='{path + node['name'].replace('.md', '')}'>{page_title}</a></l><br>"
 
 # generate file structure JSON using tree command
-file_structure = json.loads(subprocess.run("tree -J", **sp_config).stdout)
+# the -J flag generates JSON and the --dirsfirst command lists directories over files first in ordering
+# this is mirrored in the display of the file structure on the final page
+file_structure = json.loads(subprocess.run("tree -J --dirsfirst", **sp_config).stdout)
 
 # parse content file nodes recursively into HTML
 # contained in div tags to fix accordion styling issues
