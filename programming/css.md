@@ -56,7 +56,7 @@ The **subsequent sibling selector** allows you to **select subsequent elements**
 
 ## checkbox
 
-You can **alter the styling of an element based on the state of a checkbox that is associated with it** by adding the `:checked` property to the `input[type="checkbox"]` followed by a `~` tilde character and then the element you want to style. The example below changes a label background to red when the associated checkbox is toggled.
+You can **alter the styling of an elements based on the state of a checkbox that is associated with it** by using the `:checked` (and unchecked or default) property to of `input[type="checkbox"]`. An easy way to do this is to use the subsequent sibling selector `~` tilde character to 
 ```css
 input[type="checkbox"]:checked ~ label {
   background: red
@@ -64,6 +64,7 @@ input[type="checkbox"]:checked ~ label {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTI2NDA4NCw3MTAwNDM0NjksMjAyMD
-gxNzc4OCwtMTg1MTEwMzc3MCwtNDcwMjc1NTk4XX0=
+eyJoaXN0b3J5IjpbLTUzMjgzMDYxNSwxNzIxMjY0MDg0LDcxMD
+A0MzQ2OSwyMDIwODE3Nzg4LC0xODUxMTAzNzcwLC00NzAyNzU1
+OThdfQ==
 -->
