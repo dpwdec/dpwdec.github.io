@@ -65,9 +65,15 @@ input[type="checkbox"]:checked ~ p {
 
 In the example below the default version of the `input` element is used to style the `p` element when it is unchecked and the `:checked` element is used to style it when toggled on.
 
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="dkowski" data-slug-hash="LYWvYMP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Checkbox association">
+  <span>See the Pen <a href="https://codepen.io/dkowski/pen/LYWvYMP">
+  Checkbox association</a> by Dkowski (<a href="https://codepen.io/dkowski">@dkowski</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMzE0OTAxNiwxNzIxMjY0MDg0LDcxMD
-A0MzQ2OSwyMDIwODE3Nzg4LC0xODUxMTAzNzcwLC00NzAyNzU1
-OThdfQ==
+eyJoaXN0b3J5IjpbLTIwNTc3MTEyMTUsMTcyMTI2NDA4NCw3MT
+AwNDM0NjksMjAyMDgxNzc4OCwtMTg1MTEwMzc3MCwtNDcwMjc1
+NTk4XX0=
 -->
