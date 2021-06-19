@@ -45,7 +45,14 @@ p::before {
 
 ## Subsequent Sibling Selector, or the ~ Tilde
 
-The **subsequent sibling selector** allows you to **select subsequent elements** on a page **relative to another element** *IF* they **share the same parent element**. In the example below, the `p` element text before the `x` class line is not styled but the two elements after it *are* styled. Furthermore, the last element inside a `div` - which gives it a different parent from the `x` class element - is ignored.
+The **subsequent sibling selector** allows you to **select subsequent elements** on a page **relative to another element** *IF* they **share the same parent element**. 
+```css
+.x ~ p {
+  color: blue
+}
+```
+
+In the example below, the `p` element text before the `x` class line is not styled but the two elements after it *are* styled. Furthermore, the last element inside a `div` - which gives it a different parent from the `x` class element - is ignored.
 
 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="dkowski" data-slug-hash="abJxZMx" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Tilde CSS selector example">
   <span>See the Pen <a href="https://codepen.io/dkowski/pen/abJxZMx">
@@ -73,7 +80,7 @@ In the example below the default version of the `input` element is used to style
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTc3MTEyMTUsMTcyMTI2NDA4NCw3MT
-AwNDM0NjksMjAyMDgxNzc4OCwtMTg1MTEwMzc3MCwtNDcwMjc1
-NTk4XX0=
+eyJoaXN0b3J5IjpbMjA5OTA4Mzk0NywxNzIxMjY0MDg0LDcxMD
+A0MzQ2OSwyMDIwODE3Nzg4LC0xODUxMTAzNzcwLC00NzAyNzU1
+OThdfQ==
 -->
