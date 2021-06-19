@@ -54,17 +54,17 @@ The **subsequent sibling selector** allows you to **select subsequent elements**
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-## checkbox
+## Checkbox
 
-You can **alter the styling of an elements based on the state of a checkbox that is associated with it** by using the `:checked` (and unchecked or default) property to of `input[type="checkbox"]`. An easy way to do this is to use the subsequent sibling selector `~` tilde character to 
+You can **alter the styling of an elements based on the state of a checkbox that is associated with it** by using the `:checked` (and unchecked or default) property of the `input[type="checkbox"]`. An easy way to do this is to use the subsequent sibling selector `~` tilde character to target specific elements
 ```css
-input[type="checkbox"]:checked ~ label {
-  background: red
+input[type="checkbox"]:checked ~ p {
+  color: blue
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjgzMDYxNSwxNzIxMjY0MDg0LDcxMD
-A0MzQ2OSwyMDIwODE3Nzg4LC0xODUxMTAzNzcwLC00NzAyNzU1
-OThdfQ==
+eyJoaXN0b3J5IjpbLTE1NzgxNjg4MzMsMTcyMTI2NDA4NCw3MT
+AwNDM0NjksMjAyMDgxNzc4OCwtMTg1MTEwMzc3MCwtNDcwMjc1
+NTk4XX0=
 -->
