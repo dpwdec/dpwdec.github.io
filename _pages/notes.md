@@ -487,7 +487,6 @@ title: 📂
                 <l><a href='/programming/sinatra'>Sinatra</a></l><br>
                 <l><a href='/programming/sql'>SQL</a></l><br>
                 <l><a href='/programming/sql_alchemy'>SQL Alchemy</a></l><br>
-                <l><a href='/programming/stuff'></a></l><br>
                 <l><a href='/programming/travis'>Travis CI</a></l><br>
                 <l><a href='/programming/unit_test'>Unittest</a></l><br>
                 <l><a href='/programming/virtualenv'>Virtual Env</a></l><br>
