@@ -46,8 +46,4 @@ input[type="checkbox"]:checked ~ label:before {
   margin-right: 10px;
 }
 
-</style>Notes index
----
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTQ0NjA5NV19
--->
+</style>
