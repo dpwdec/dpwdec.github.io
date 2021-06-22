@@ -173,6 +173,18 @@ You can **access the localhost address of the machine hosting a container** by u
 $ curl http://host.docker.internal:8000
 ```
 
+## Copying
+
+You can **copy a file from your host file system to a docker container** using the `docker cp` command followed by the target file and then the container ID followed by a `:` colon and the path to the where you want the file copied to.
+```bash
+docker cp ./path/on/host <CONTAINER_ID>:/path/on/container/
+```
+
+You can **copy a file from inside a docker container to your host file system** by reversing the above process.
+```bash
+docker cp <CONTAINER_ID>:/path/on/container/ ./path/on/host 
+```
+
 ## Hub
 
 You can **find existing images to use as a base for your custom images** by using the [Docker Hub](https://hub.docker.com/) service. It is possible to **host private docker image repositories** in your own infrastructure.
