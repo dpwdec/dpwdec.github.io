@@ -8,10 +8,12 @@ You can **turn off warnings for unused variables** such as `'variable' is declar
 ```json
 {
   "compilerOptions": {
-    
+	 ...
+    "noUnusedLoals": true,
+    ...
   }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDIxNjUxOV19
+eyJoaXN0b3J5IjpbLTk0NzQ1MzYyMSwxMTIwMjE2NTE5XX0=
 -->
