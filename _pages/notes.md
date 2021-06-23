@@ -332,6 +332,7 @@ eyJoaXN0b3J5IjpbLTEwOTA5NTI5MDMsLTU2OTQ0NjA5NV19
                             <label for="Typescript">Typescript</label>
                             <ul>
                                 <l><a href='/programming/js/typescript/indexable_types'>Indexable Types</a></l><br>
+                                <l><a href='/programming/js/typescript/typescript'>Typescript</a></l><br>
                             </ul>
                         </l>
                         <l><a href='/programming/js/ajax'>Ajax</a></l><br>
