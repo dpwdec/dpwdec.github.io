@@ -40,6 +40,11 @@ input + label:before {
     margin-right: 10px;
 }
 
+.file_content:before {
+  content: "📄";
+  margin-right: 10px;
+}
+
 /* toggles to open folder on label when checked */
 input[type="checkbox"]:checked ~ label:before {
   content: "📂";

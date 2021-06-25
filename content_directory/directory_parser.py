@@ -48,7 +48,7 @@ def parse_directory(node: dict, path: str) -> str:
         # instead each file contains a "title" metadata markdown field which is used
         command = f"cat {path.replace('/', '', 1) + node['name']} | grep title: | head | sed 's/title: //'"
         page_title = subprocess.run(command, **sp_config).stdout.decode('utf-8').strip('\n')
-        return f"<l><a href='{path + node['name'].replace('.md', '')}'>{page_title}</a></l><br>"
+        return f"<l class=\"file_content\"><a href='{path + node['name'].replace('.md', '')}'>{page_title}</a></l><br>"
 
 # generate file structure JSON using tree command
 # the -J flag generates JSON and the --dirsfirst command lists directories over files first in ordering
