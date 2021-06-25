@@ -53,7 +53,9 @@ arr.Where(x => x == 6)
    .First(); // => 0
 ```
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NjI0NDY3NywtMTQyMzA3NTAyMCwxND
-M5NjI0MzQ1LDE2ODAyNDQzODEsLTQ5ODM5MjU5NF19
--->
+You can **concatenate two enumerables** by using the `Concat` method. The `Concat` method returns an `IEnumerable` so you will need to cast to another data structure to use with a method such as `ToList`.
+```csharp
+var x = new List<int> {1, 2};
+var y = new List<int> {3, 4};
+x.Concat(y).ToList(); // => [1, 2, 3, 4]
+```

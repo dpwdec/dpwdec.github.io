@@ -22,6 +22,5 @@ true + true = true
 false + false = true
 {{ /if }}
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzA0MzYyOTRdfQ==
--->
+
+You can find a **list of other available rust handlebars helpers** [here](https://docs.rs/handlebars/4.0.1/handlebars/#built-in-helpers).
