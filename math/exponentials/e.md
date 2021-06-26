@@ -62,33 +62,57 @@ Maximum possible growth exponential growth rate can be calculated as
 
 \\[ maximum\ growth = \lim_{n \to ∞} (1 + \frac{1}{n})^n \\]
 
-## Varying the growth time
+## Varying Growth Time
 
 Why is \\( \sqrt e \\) equal to growth over a period of \\( 0.5 \\) units?
 
-It makes sense because if we imagine that raising the equation \\( 1 + \frac{1}{n} \\) to the power of \\( n \\) is essentially *repeated multiplication*.
+It makes sense because if we imagine that raising the equation \\( 1 + \frac{1}{n} \\) to the power of \\( n \\) is essentially *repeated multiplication* it follows that
 
 \\[ (1 + \frac{1}{n})(1 + \frac{1}{n})(1 + \frac{1}{n})(1 + \frac{1}{n})... \\]
 
-until we reach \\( e \\).
+is repeated until we reach \\( e \\).
 
-We can therefore imagine that if we split this period into two equal periods that take half the time of the original period it would mean that 
+We can therefore imagine that if we split this single period into two equal periods that take half the time of the original period it would mean that 
 
-\\[ (half period) * (half period) = e \\]
+\\[ half\ period \times half\ period = e \\]
 
-And therefore a \\( half period \\) must be equal to \\( \sqrt e \\).
+And therefore a \\( half\ period \\) must be equal to \\( \sqrt e \\).
 
-This must also be true if the *rate* of the calculation is set to \\( 50% \\), or \\( 0.5 \\). Such that
+## Varying Growth Rate
+
+If the *rate* at which a process is compounded is varied this same effect can alos be observed. For example, if the *rate* is set to \\( 50% \\), or \\( 0.5 \\). Such that
 
 \\[ \lim_{n \to ∞} (1 + \frac{.5}{n})^n  \\]
 
-After **two** periods of compounding at a rate of \\( .5 \\) we would have reached a total compound of \\( e \\) which means that 
+After **two** periods of compounding at a rate of \\( .5 \\) we would have reached a total compound of \\( e \\) which means that
 
-\\[ (half rate) * (half rate) = e \\]
+\\[ one\ period\ at\ half\ rate \times one\ period\ at\ half\ rate = e \\]
 
-And therefore a \\( half rate \\) must be equal to \\( \sqrt e \\).
+And therefore a \\( one\ period\ at\ half\ rate \\) must be equal to \\( \sqrt e \\).
 
 ## Time and Rate
 
-What this ultimately reveals is that **time and rate are interchangeable in compounding**.
+What these ideas about time and rate ultimately reveal is that **time and rate are merged into a single entity** when combined as an exponent with \\( e \\) in the form \\( e^x \\).
 
+Taking from the examples of *time* and *rate* varying above we can represent them as
+
+\\[ e^\frac{1}{2} \\]
+
+This is the same as \\( \sqrt e \\) which can mean the total result after either:
+
+- One \\( half\ period \\) of compounding, or
+- Two periods of compounding at \\( half\ rate \\)
+
+Demonstrating that both time and rate are interchangeable and merged when applied to \\( e \\) *because* \\( e \\) represents a neutral one hundred base rate *and* time from which to manipulate.
+
+We can **summarise the relationship between rate and time as**
+
+\\[ growth = e^{rate \times time} \\]
+
+For example, if we have a rate of \\( 5% \\) or \\( 0.05 \\) return over 10 years we would calculate it as
+
+\\[ growth = e^{0.05 \times 10} \\]
+
+\\[ = e^{0.5} \\]
+
+This is the same as a \\( 50% \\) rate for 1 year, or even a \\( 25% \\) rate for 2 years. You can **combine any growth and time period together with \\( e \\) to calculate the growth rate**.
