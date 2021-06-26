@@ -116,3 +116,25 @@ For example, if we have a rate of \\( 5% \\) or \\( 0.05 \\) return over 10 year
 \\[ = e^{0.5} \\]
 
 This is the same as a \\( 50% \\) rate for 1 year, or even a \\( 25% \\) rate for 2 years. You can **combine any growth and time period together with \\( e \\) to calculate the growth rate**.
+
+## Negative Rates
+
+The rate at which something changes **can be negative**. This is often used to model processes that degrade or decay over time. Below is a graph showing \\( e \\) with a negative rate of \\( -1 \\). The rate at which this graph shrinks is exponentially fast and then slows at a slower and slower rate approaching zero more and more closely.
+
+<iframe src="https://www.desmos.com/calculator/qggrh88pop?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+The important concept to understand with negative growth rates is that **as the thing growing negatively (read: shrinking) gets smaller and smaller, it grows negatively (read: shrinks) more and more slowly**.
+
+For example, if we have some radioactive isotope that starts with \\( 100g \\) of radioactive material and decays at a rate of \\( 100% \\) how much will be left after one year?
+
+The intuitive answer is to say *none* because \\( 100% \\) of it will have decayed away. *However* this is not correct because for every moment that some of the isotope decays away the amount of decay in real terms will slow down.
+
+After 6 months at \\( 100% \\) decay there will be \\( 50g \\) of radioactive material left, but now, at a \\( 100% \\) decay rate it will only lose \\( 50g \\) per year, if we wait another three months we will have lost another \\( 12.5g \\) of material and have \\( 37.5g \\) left but now we will only lose \\( 37.5g \\) of material per year and it will take even longer to reach no material left. Every time the material decays it gets slower and slower.
+
+We can calculate how much material is left after a year as
+
+\\[ 100 \times e^{-1} \\]
+
+\\[ = 36.7879441171 \\]
+
+So still have \\( 36.7879441171g \\) of material left a year later!
