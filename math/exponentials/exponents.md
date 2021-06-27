@@ -1,5 +1,5 @@
 ---
-title: ExponentLogarithms
+title: Exponents
 layout: page
 exclude: true
 ---

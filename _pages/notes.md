@@ -65,7 +65,8 @@ eyJoaXN0b3J5IjpbLTEwOTA5NTI5MDMsLTU2OTQ0NjA5NV19
                     <label for="Exponentials">Exponentials</label>
                     <ul>
                         <l class="file_content"><a href='/math/exponentials/e'>E</a></l><br>
-                        <l class="file_content"><a href='/math/exponentials/exponents'>ExponentLogarithms</a></l><br>
+                        <l class="file_content"><a href='/math/exponentials/exponentials_in_other_bases'>Exponents in bases other than e</a></l><br>
+                        <l class="file_content"><a href='/math/exponentials/exponents'>Exponents</a></l><br>
                     </ul>
                 </l>
 
