@@ -50,9 +50,6 @@ title: 📂
         margin-right: 10px;
     }
 </style>
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTA5NTI5MDMsLTU2OTQ0NjA5NV19
--->
 <ul>
     <div name="contents-index">
 
@@ -126,44 +123,6 @@ eyJoaXN0b3J5IjpbLTEwOTA5NTI5MDMsLTU2OTQ0NjA5NV19
                     <ul>
                         <l class="file_content"><a href='/programming/architecture/concerns'>Concerns</a></l><br>
                         <l class="file_content"><a href='/programming/architecture/oop'>OOP</a></l><br>
-                    </ul>
-                </l>
-
-                <l>
-                    <input type="checkbox" id="C Sharp">
-                    <label for="C Sharp">C Sharp</label>
-                    <ul>
-                        <l class="file_content"><a href='/programming/c_sharp/Asp'>ASP</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Async'>Async</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Attributes'>Attributes</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Automapper'>Automapper</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Binary'>Binary</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Collections'>Collections</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/CommandLineUtils'>Command Line Utils</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/DataAnnotations'>Data Annotations</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/DependencyInjection'>Dependency Injection</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Dotnet'>.NET</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Dynamic'>Dynamic</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/EntityFramework'>Entity Framework</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/ExtensionMethods'>Extension Methods</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Functions'>Functions</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Guid'>Guid</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Ienum'>IEnumerable and IEnumerator</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Json'>JSON</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Loops'>Loops</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Moq'>Moq</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Nuget'>Nuget</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Nunit'>NUnit</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Rm'>Resource Management</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Types'>Resource Management</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/Xunit'>XUnit</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/conditionals'>Conditionals</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/logging'>Logging</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/start_up'>Start Up</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/static_properties'>Static Properties</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/strings'>Strings</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/xeger'>Xeger</a></l><br>
-                        <l class="file_content"><a href='/programming/c_sharp/yamldotnet'>YamlDotNet</a></l><br>
                     </ul>
                 </l>
 
@@ -259,6 +218,45 @@ eyJoaXN0b3J5IjpbLTEwOTA5NTI5MDMsLTU2OTQ0NjA5NV19
                         <l class="file_content"><a href='/programming/devops/microservices'>Microservices</a></l><br>
                         <l class="file_content"><a href='/programming/devops/open_api_spec'>OpenAPISpec</a></l><br>
                         <l class="file_content"><a href='/programming/devops/proxy'>Proxy</a></l><br>
+                    </ul>
+                </l>
+
+                <l>
+                    <input type="checkbox" id="Dotnet">
+                    <label for="Dotnet">Dotnet</label>
+                    <ul>
+                        <l class="file_content"><a href='/programming/dotnet/Asp'>ASP</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Async'>Async</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Attributes'>Attributes</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Automapper'>Automapper</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Binary'>Binary</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Collections'>Collections</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/CommandLineUtils'>Command Line Utils</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/DataAnnotations'>Data Annotations</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/DependencyInjection'>Dependency Injection</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Dotnet'>.NET</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Dynamic'>Dynamic</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/EntityFramework'>Entity Framework</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/ExtensionMethods'>Extension Methods</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Functions'>Functions</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Guid'>Guid</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Ienum'>IEnumerable and IEnumerator</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Json'>JSON</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Loops'>Loops</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Moq'>Moq</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Nuget'>Nuget</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Nunit'>NUnit</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Rm'>Resource Management</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Types'>Resource Management</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Xunit'>XUnit</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/conditionals'>Conditionals</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/embedded_resources'>Embedded Resources</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/logging'>Logging</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/start_up'>Start Up</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/static_properties'>Static Properties</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/strings'>Strings</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/xeger'>Xeger</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/yamldotnet'>YamlDotNet</a></l><br>
                     </ul>
                 </l>
 
