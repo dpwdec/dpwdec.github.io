@@ -161,6 +161,7 @@ eyJoaXN0b3J5IjpbLTEwOTA5NTI5MDMsLTU2OTQ0NjA5NV19
                         <l class="file_content"><a href='/programming/c_sharp/logging'>Logging</a></l><br>
                         <l class="file_content"><a href='/programming/c_sharp/start_up'>Start Up</a></l><br>
                         <l class="file_content"><a href='/programming/c_sharp/static_properties'>Static Properties</a></l><br>
+                        <l class="file_content"><a href='/programming/c_sharp/strings'>Strings</a></l><br>
                         <l class="file_content"><a href='/programming/c_sharp/xeger'>Xeger</a></l><br>
                         <l class="file_content"><a href='/programming/c_sharp/yamldotnet'>YamlDotNet</a></l><br>
                     </ul>
