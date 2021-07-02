@@ -24,11 +24,6 @@ You can **build your project** (without running it), using the `build` command.
 $ dotnet build
 ```
 
-You can **run tests from a test project** by using the `test` command.
-```bash
-$ dotnet test
-```
-
 ## Releasing
 
 You can **execute an application from the command line on mac** by navigating to the app's `.dll` file in the project's `bin` folder and using the `dotnet` command to execute it. This allows you to run the application with its own command line flags etc.

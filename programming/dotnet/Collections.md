@@ -59,3 +59,9 @@ var x = new List<int> {1, 2};
 var y = new List<int> {3, 4};
 x.Concat(y).ToList(); // => [1, 2, 3, 4]
 ```
+
+You can **return an arbitrary slice of an array from its heard** by using the `Skip` method to *skip* a number of elements.
+```csharp
+var x = new List<int> {1, 2, 3, 4, 6};
+x.Skip(1) // => {2, 3, 4, 6}
+```

@@ -225,6 +225,14 @@ title: 📂
                     <input type="checkbox" id="Dotnet">
                     <label for="Dotnet">Dotnet</label>
                     <ul>
+                        <l>
+                            <input type="checkbox" id="Project Tooling">
+                            <label for="Project Tooling">Project Tooling</label>
+                            <ul>
+                                <l class="file_content"><a href='/programming/dotnet/project_tooling/publish'>Publish</a></l><br>
+                                <l class="file_content"><a href='/programming/dotnet/project_tooling/test'>Test</a></l><br>
+                            </ul>
+                        </l>
                         <l class="file_content"><a href='/programming/dotnet/Asp'>ASP</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/Async'>Async</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/Attributes'>Attributes</a></l><br>
@@ -249,10 +257,12 @@ title: 📂
                         <l class="file_content"><a href='/programming/dotnet/Rm'>Resource Management</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/Types'>Resource Management</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/Xunit'>XUnit</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/command_line_parser'>Command Line Parser</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/conditionals'>Conditionals</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/embedded_resources'>Embedded Resources</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/enums'>Enums</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/file_system'>File System</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/logging'>Logging</a></l><br>
-                        <l class="file_content"><a href='/programming/dotnet/publish'>Publish</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/start_up'>Start Up</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/static_properties'>Static Properties</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/strings'>Strings</a></l><br>
@@ -394,6 +404,14 @@ title: 📂
                     <input type="checkbox" id="Python">
                     <label for="Python">Python</label>
                     <ul>
+                        <l>
+                            <input type="checkbox" id="Data Classes">
+                            <label for="Data Classes">Data Classes</label>
+                            <ul>
+                                <l class="file_content"><a href='/programming/python/data_classes/named_tuples'>Named Tuples</a></l><br>
+                                <l class="file_content"><a href='/programming/python/data_classes/record_class'>Record Class</a></l><br>
+                            </ul>
+                        </l>
                         <l class="file_content"><a href='/programming/python/argparse'>argparse</a></l><br>
                         <l class="file_content"><a href='/programming/python/boto3'>Boto 3</a></l><br>
                         <l class="file_content"><a href='/programming/python/command_line_arguments'>Command Line Arguments</a></l><br>
