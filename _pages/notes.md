@@ -252,6 +252,7 @@ title: 📂
                         <l class="file_content"><a href='/programming/dotnet/conditionals'>Conditionals</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/embedded_resources'>Embedded Resources</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/logging'>Logging</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/publish'>Publish</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/start_up'>Start Up</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/static_properties'>Static Properties</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/strings'>Strings</a></l><br>
