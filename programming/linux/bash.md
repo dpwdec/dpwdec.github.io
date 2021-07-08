@@ -4,6 +4,15 @@ exclude: true
 title: Bash
 ---
 
+You can **assign a varaible** using the `=` equals operator. However, its *important to note in bash scripting that if you add spaces between the assignment then the variable will NOT be assigned*.
+```bash
+# variable is assigned correctly
+MY_VAR="foo"
+
+# variable is not assigned correctly at all
+MY_VAR = "foo"
+```
+
 You can **check if a variable is null** using the `-z` operator. This **returns true if the argument IS null**.
 ```bash
 test -z $MY_VAR # -> true
@@ -31,6 +40,3 @@ You can also **execute bash scripts** using the `sh` or `bash` commands.
 $ sh my_script.sh
 $ bash my_script.sh
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzA5NjEwMSw3MDY2MDM0NDFdfQ==
--->
