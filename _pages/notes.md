@@ -226,11 +226,11 @@ title: 📂
                     <label for="Dotnet">Dotnet</label>
                     <ul>
                         <l>
-                            <input type="checkbox" id="Project Tooling">
-                            <label for="Project Tooling">Project Tooling</label>
+                            <input type="checkbox" id="Cli">
+                            <label for="Cli">Cli</label>
                             <ul>
-                                <l class="file_content"><a href='/programming/dotnet/project_tooling/publish'>Publish</a></l><br>
-                                <l class="file_content"><a href='/programming/dotnet/project_tooling/test'>Test</a></l><br>
+                                <l class="file_content"><a href='/programming/dotnet/cli/publish'>Publish</a></l><br>
+                                <l class="file_content"><a href='/programming/dotnet/cli/test'>Test</a></l><br>
                             </ul>
                         </l>
                         <l class="file_content"><a href='/programming/dotnet/Asp'>ASP</a></l><br>
@@ -493,6 +493,7 @@ title: 📂
                     </ul>
                 </l>
                 <l class="file_content"><a href='/programming/actix'>Actix Web</a></l><br>
+                <l class="file_content"><a href='/programming/artifactory'>Artifactory</a></l><br>
                 <l class="file_content"><a href='/programming/atom'>atom</a></l><br>
                 <l class="file_content"><a href='/programming/c'>C</a></l><br>
                 <l class="file_content"><a href='/programming/capybara'>Sinatra</a></l><br>
