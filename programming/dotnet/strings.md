@@ -44,11 +44,17 @@ And a string haiku
 ";
 ```
 
-You can add `"` double quote characters in a multi-line by using a `""` *double* double quote.
+You can **add `"` double quote characters in a multi-line string** by using a `""` *double* double quote.
 ```csharp
 var x = @"
 {
     ""data"": ""test""
 }
 ";
+```
+
+You can **join an array of elements by a character** using the `Join` method on `string`. This takes a string that will join the array and then the array to be joined.
+```csharp
+var x = new string[] {"a", "b", "c"};
+string.Join("-", x); // => a-b-c
 ```
