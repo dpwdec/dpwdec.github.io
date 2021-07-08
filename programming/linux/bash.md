@@ -18,6 +18,7 @@ You can **check if a variable is null** using the `-z` operator. This **returns 
 test -z $MY_VAR # -> true
 ```
 
+
 ## Scripts
 
 You can **create a bash script** by giving a file the `.sh` extension.
@@ -39,4 +40,20 @@ You can also **execute bash scripts** using the `sh` or `bash` commands.
 ```bash
 $ sh my_script.sh
 $ bash my_script.sh
+```
+
+You can **get positional arguments passed when calling a bash script** by using `$<ARGUMENT_NUMBER>` to access the arguments. For example for the script
+```bash
+# my_script.sh
+#!/bin/bash
+echo $1
+echo $2
+```
+
+Then passing in two arguments `Hello` and `world!` as space separated arguments will automatically be put into the `$1` and `$2` variables. This can go up arbitrarily high depdending on how mant arguments you pass in.
+```bash
+my_script.sh Hello world!
+# Output:
+# Hello
+# world!
 ```
