@@ -57,3 +57,16 @@ my_script.sh Hello world!
 # Hello
 # world!
 ```
+
+## Ternary
+
+You can **create a "ternary-like" statement** by surrounding the condition of the statement with `[[]]` double square brackets and then using the `&&` and `||` symbols to separate the conditions.
+```bash
+[[ <CONDITION> ]] && <IF_TRUE> || <IF_FALSE>
+```
+
+For example
+```bash
+[[ 1 != 2 ]] && echo "Not Equal!" || echo "Equal!"
+# => Not Equal!
+```
