@@ -6,7 +6,7 @@ exclude: true
 
 Docker volumes allow you to **persist data between container executions**. They are docker's preferred way of working with data.
 
-**Importantly!** docker volumes are **entirely managed by docker**. This means that they are not directly accessible or reachable on your host machines file system and are instead sequestered in a linux VM.
+**Importantly!** docker volumes are **entirely managed by docker**. This means that they are not directly accessible or reachable on your host machines file system and are instead sequestered in a linux VM. This can be useful, as it means *the data persisted by docker is entirely separate from the file system that the container is running on*.
 
 **Multiple containers can access a single volume at once** while they are running.
 
@@ -43,7 +43,7 @@ docker run --volume <VOLUME_NAME>:<PATH_ON_CONTAINER> <IMAGE_ID>
 
 If using the `--mount` flag you can submit options as key value pairs after the flag. There are
 
-- `type`: can be `bind`, `volume` or `tmpfs`
+- `type`: can be `bind`, `volume` or `tmpfs` *This is also the default type across other invocations of the `--mount` command*
 - `source` or `src`: the name of the volume
 - `destination`, `dst` or `target`: the path on the container to be mounted to
 - `readonly`: allows you to control whether the container has write permissions to the volume
@@ -79,3 +79,10 @@ docker run --volume my-vol:/data:ro --name data-container ubuntu:16.04
 ```
 
 You can **see how a mount is working with a container** from the `Mounts` section of the output from running `docker inspect`.
+
+You can **populate data from a container to a volume** by mounting a *new* volume to a folder on a container that contains data. *This only works if it is a brand new volume*, otherwise the data will not populate and the existing volume will overwrite the container's internal volume. For example, if I have a container with an `internal` directory with some data in and I run...
+```bash
+docker run --mount src=new-volume,destination=/internal ubuntu:16.04
+```
+
+Then the data that was in the `internal` folder on the container will be avialable on the volume.
