@@ -70,3 +70,22 @@ For example
 [[ 1 != 2 ]] && echo "Not Equal!" || echo "Equal!"
 # => Not Equal!
 ```
+
+## Operating System
+
+You can **test whether a script is running in a Linux or OSX (or other?) environment** by using the `uname` property against the name of system environment.
+```bash
+if [ "$(uname)" == "Darwin" ]
+then
+  echo "We're on Mac!"
+elif [ "$(uname)" == "Linux" ]
+then
+  echo "We're a cool kid!"
+fi
+```
+
+You can also **get these values directly in the terminal** by simply typing `uname`. The *default argument for this command is `-s`*.
+```bash
+$ uname
+Linux
+```
