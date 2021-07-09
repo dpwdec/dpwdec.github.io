@@ -103,9 +103,9 @@ You can **run a container interactively** by using the `-it` flag. This will all
 $ docker container run -it <IMAGE_NAME>
 ```
 
-You can **make your container not exit once it runs** by running it in **detached mode** using the `-d` flag.
+You can **make your container run in the backaground and not exit immediately once it starts** by running it in **detached mode** using the `-t` and `-d` flag.
 ```bash
-$ docker container run -d <IMAGE_NAME>
+$ docker container run -t -d <IMAGE_NAME>
 ```
 
 You can **view a list of containers currently running on a system** using the `ls` command with the `container` command. This **does not show containers that are stopped**.
