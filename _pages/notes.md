@@ -214,6 +214,7 @@ title: 📂
                     <input type="checkbox" id="Docker">
                     <label for="Docker">Docker</label>
                     <ul>
+                        <l class="file_content"><a href='/programming/docker/bind_mounts'>Bind Mounts</a></l><br>
                         <l class="file_content"><a href='/programming/docker/docker'>Docker</a></l><br>
                         <l class="file_content"><a href='/programming/docker/docker_compose'>Docker Compose</a></l><br>
                         <l class="file_content"><a href='/programming/docker/docker_file'>Dockerfile</a></l><br>
