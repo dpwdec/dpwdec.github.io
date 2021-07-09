@@ -185,17 +185,6 @@ title: 📂
                         </l>
 
                         <l>
-                            <input type="checkbox" id="Docker">
-                            <label for="Docker">Docker</label>
-                            <ul>
-                                <l class="file_content"><a href='/programming/devops/docker/docker'>Docker</a></l><br>
-                                <l class="file_content"><a href='/programming/devops/docker/docker_compose'>Docker Compose</a></l><br>
-                                <l class="file_content"><a href='/programming/devops/docker/docker_file'>Dockerfile</a></l><br>
-                                <l class="file_content"><a href='/programming/devops/docker/images'>Images</a></l><br>
-                            </ul>
-                        </l>
-
-                        <l>
                             <input type="checkbox" id="Events">
                             <label for="Events">Events</label>
                             <ul>
@@ -218,6 +207,18 @@ title: 📂
                         <l class="file_content"><a href='/programming/devops/microservices'>Microservices</a></l><br>
                         <l class="file_content"><a href='/programming/devops/open_api_spec'>OpenAPISpec</a></l><br>
                         <l class="file_content"><a href='/programming/devops/proxy'>Proxy</a></l><br>
+                    </ul>
+                </l>
+
+                <l>
+                    <input type="checkbox" id="Docker">
+                    <label for="Docker">Docker</label>
+                    <ul>
+                        <l class="file_content"><a href='/programming/docker/docker'>Docker</a></l><br>
+                        <l class="file_content"><a href='/programming/docker/docker_compose'>Docker Compose</a></l><br>
+                        <l class="file_content"><a href='/programming/docker/docker_file'>Dockerfile</a></l><br>
+                        <l class="file_content"><a href='/programming/docker/images'>Images</a></l><br>
+                        <l class="file_content"><a href='/programming/docker/volumes'>Volumes</a></l><br>
                     </ul>
                 </l>
 
