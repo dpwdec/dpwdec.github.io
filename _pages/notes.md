@@ -423,6 +423,7 @@ title: 📂
                         <l class="file_content"><a href='/programming/python/json'>json</a></l><br>
                         <l class="file_content"><a href='/programming/python/list_comprehensions'>List Comprehensions</a></l><br>
                         <l class="file_content"><a href='/programming/python/lists'>Lists</a></l><br>
+                        <l class="file_content"><a href='/programming/python/print'>Print</a></l><br>
                         <l class="file_content"><a href='/programming/python/py_test'>Pytest</a></l><br>
                         <l class="file_content"><a href='/programming/python/python'>Python</a></l><br>
                         <l class="file_content"><a href='/programming/python/repl'>REPL</a></l><br>
