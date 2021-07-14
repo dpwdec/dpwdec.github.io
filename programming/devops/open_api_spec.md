@@ -30,6 +30,19 @@ parameters:
     type: integer
 ```
 
+## Inheritance
+
+You can **inherit from schemas that are already defined** and extend them in new schemas by using the `allOf` property when defining a schema with the `$ref` property as a path to the schema that you are inheriting from as a named property under the `allOf` property.
+```yaml
+# child_schema
+properties: object
+allOf:
+  $ref: path/to/parent/schema.yaml
+extendedProperty:
+  type: string
+  description: This is a property being added to the child schema on top of those in the parent
+```
+
 ## ReDoc
 
 ReDoc is a service built on top of Swagger that allows you to turn Swagger specs easily into HTML.
