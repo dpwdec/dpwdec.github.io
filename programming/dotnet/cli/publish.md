@@ -53,6 +53,20 @@ You can **trim the size of self-contained applications** by using the `PublishTr
 dotnet publish -p:PublishTrimmed=true
 ```
 
+## Debugger
+
+You can **bundle the project's debugger `.pdb` file with the binary** by setting the `DebugType` property to embedded.
+```bash
+dotnet publish <ARGS> -p:DebugType=embedded
+```
+
+You can also set this in the project's `.csproj` file.
+```xml
+<PropertyGroup>
+  <DebugType>embedded</DebugType>
+</PropertyGroup>
+```
+
 ## Native Libraries
 
 The `IncludeNativeLibrariesForSelfExtract` is used to make `5.x` .NET application to behave the same as a `3.x` application. When a `3.x` .NET application starts it creates a temporary extraction folder that it runs code out of, where as `5.x` applications load that code into memory. This `IncludeNativeLibrariesForSelfExtract` simply makes the `5.x` deploy behave the same as the `3.x`.
