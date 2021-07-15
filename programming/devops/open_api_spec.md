@@ -43,6 +43,32 @@ extendedProperty:
   description: This is a property being added to the child schema on top of those in the parent
 ```
 
+## Required vs Nulable
+
+Previous versions of the OpenAPI spec used the `nullable` boolean tag to indicate when a property on a schema was optional. 
+```yaml
+properties: object
+requiredProperty:
+  type: string
+optionalProperty:
+  type: string
+  nullable: true
+```
+
+However, this is being superseeded by the `required` property. Which represents a array of parameters defined on the object that are **required**. You can still use the `nullable` tag with `required` if you want.
+```yaml
+properties: object
+requiredProperty:
+  type: string
+anotherRequiredProperty:
+  type: number
+optionalProperty:
+  type: string
+required:
+  - requiredProperty
+  - anotherRequiredProperty
+```
+
 ## ReDoc
 
 ReDoc is a service built on top of Swagger that allows you to turn Swagger specs easily into HTML.
