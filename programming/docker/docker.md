@@ -103,6 +103,10 @@ You can **run a container interactively** by using the `-it` flag. This will all
 $ docker container run -it <IMAGE_NAME>
 ```
 
+The `-i` flag is short for `--interactive` and keeps the `STDIN` channel open to the container when run. This means you can still send commands to your container but you won't have the features of terminal hooked up to input and output. 
+
+The `-t` flag which is short for `tty` creates a pseudo terminal hooked up to the inputs allowing you to interact with the container in a terminal like manner.
+
 You can **make your container run in the backaground and not exit immediately once it starts** by running it in **detached mode** using the `-t` and `-d` flag.
 ```bash
 $ docker container run -t -d <IMAGE_NAME>
@@ -144,6 +148,16 @@ You can **enter a running container from outside** using the `attach` command an
 ```bash
 $ docker attach <CONTAINER_NAME>
 ```
+
+You can **attach multiple terminals to a single container** and this will cause input one of the attached terminals to be echoed on the other terminals.
+
+For example, you can start a container running interactively in the background, and then later attach to it.
+```bash
+docker container run -itd <IMAGE_NAME>
+docker attach <CONTAINER_NAME>
+```
+
+You can **leave a container in your terminal** without stopping it by typing `CTRL + P` `CTRL + Q` one after another.
 
 You can **go inside a container that is already running** in a similar manner to ssh logging into an external machine. This allows you access the command line of a container that is currently executing and sitting idly but not stopped by using the `exec` command.
 ```bash

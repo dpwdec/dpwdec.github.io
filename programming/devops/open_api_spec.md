@@ -69,6 +69,16 @@ required:
   - anotherRequiredProperty
 ```
 
+## Paths
+
+You can **define an api path** using your documentation project's folder structure. For example, a `GET` route for the path `users/{id}/details` would be inside a `get.yaml` file inside the corresponding folder structure. All paths are all placed inside the `paths` folder as their base.
+```
+path
+└── users   
+    └── {id}
+        └── details
+```
+
 ## ReDoc
 
 ReDoc is a service built on top of Swagger that allows you to turn Swagger specs easily into HTML.
