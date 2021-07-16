@@ -37,6 +37,20 @@ You can **write a number is terms of \\( e \\)** by raising e to the natural log
 
 You can **translate division into logarithms and use subtraction instead**. This has the effect of compressing large numbers into much more computable ranges that only require addition and subtraction to work with. 
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM2MTEyMTMsLTIxNjA0NjI3NV19
--->
+## Diminishing Returns
+
+Logarithmic curves can be used to **model processes that suffer from diminishing returns**.
+
+Looking at the graph of \\( f(x) = log_2(x) \\) we can see that the graph rises sharply at the beginning and then slowly converges to a single value. So each subsequent step on the \\( x \\) axis leads to smaller increase than the last step.
+
+<iframe src="https://www.desmos.com/calculator/jl4nr89fu1?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+You can **stretch and squash a logarithmic graph** by changing the base. A smaller base will result in a graph that climbs over a longer period and the reverse is true for a larger base. 
+
+For example, imagine we have a corn crop that yields ~100kg of corn with 5kg of fertilizer. And each additional kilogram of ferilizer has a logarithmic relationship with yield. We could model this curve and relationship as where \\( x \\) is amount of fertilizer.
+
+\\[ yield = log_{1.4}(x) \times 21 \\]
+
+<iframe src="https://www.desmos.com/calculator/ezggudp5va?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+The \\( 1.4 \\) base and scalar of \\( 21 \\) are essentially arbitrary and simply make the graph pass through approximately \\( 100 \\) at \\( x = 5 \\). From this we can that going from \\( 5 \\) to \\( 6 \\) kilograms of fertlizer yields a 12 kilogram improvement in yield, however this drops to an improvement of 9 for 7 killograms. By the time we get to 20kg of fertilizer the rate of improvement has dropped to just 3kg of output per 1kg of extra fertlizer.

@@ -64,6 +64,7 @@ title: 📂
                         <l class="file_content"><a href='/math/exponentials/e'>E</a></l><br>
                         <l class="file_content"><a href='/math/exponentials/exponentials_in_other_bases'>Exponents in bases other than e</a></l><br>
                         <l class="file_content"><a href='/math/exponentials/exponents'>Exponents</a></l><br>
+                        <l class="file_content"><a href='/math/exponentials/logarithms'>Logarithms</a></l><br>
                         <l class="file_content"><a href='/math/exponentials/natural_logarithm'>Natural Logarithm</a></l><br>
                     </ul>
                 </l>
@@ -94,7 +95,6 @@ title: 📂
                 <l class="file_content"><a href='/math/derivatives'>Derivatives</a></l><br>
                 <l class="file_content"><a href='/math/limits'>Limits</a></l><br>
                 <l class="file_content"><a href='/math/linear_algebra'>Linear Algebra</a></l><br>
-                <l class="file_content"><a href='/math/logarithms'>Logarithms</a></l><br>
                 <l class="file_content"><a href='/math/point_slope'>Point Slope Formula</a></l><br>
                 <l class="file_content"><a href='/math/sets'>Sets</a></l><br>
                 <l class="file_content"><a href='/math/tangent_lines'>Tangent Lines</a></l><br>
@@ -392,12 +392,14 @@ title: 📂
                         <l class="file_content"><a href='/programming/linux/apt'>Apt</a></l><br>
                         <l class="file_content"><a href='/programming/linux/bash'>Bash</a></l><br>
                         <l class="file_content"><a href='/programming/linux/cut'>Cut</a></l><br>
+                        <l class="file_content"><a href='/programming/linux/file_descriptors'>File Descriptors</a></l><br>
                         <l class="file_content"><a href='/programming/linux/imagemagick'>Imagemagick</a></l><br>
                         <l class="file_content"><a href='/programming/linux/jq'>JQ</a></l><br>
                         <l class="file_content"><a href='/programming/linux/linux'>Linux </a></l><br>
                         <l class="file_content"><a href='/programming/linux/mkdir'>Mkdir</a></l><br>
                         <l class="file_content"><a href='/programming/linux/ps'>Ps</a></l><br>
                         <l class="file_content"><a href='/programming/linux/tee'>Tee</a></l><br>
+                        <l class="file_content"><a href='/programming/linux/tty'>TTY</a></l><br>
                         <l class="file_content"><a href='/programming/linux/zip'>Zip</a></l><br>
                     </ul>
                 </l>
