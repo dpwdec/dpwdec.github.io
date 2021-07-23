@@ -64,8 +64,15 @@ title: 📂
                         <l class="file_content"><a href='/math/exponentials/e'>E</a></l><br>
                         <l class="file_content"><a href='/math/exponentials/exponentials_in_other_bases'>Exponents in bases other than e</a></l><br>
                         <l class="file_content"><a href='/math/exponentials/exponents'>Exponents</a></l><br>
-                        <l class="file_content"><a href='/math/exponentials/logarithms'>Logarithms</a></l><br>
-                        <l class="file_content"><a href='/math/exponentials/natural_logarithm'>Natural Logarithm</a></l><br>
+                    </ul>
+                </l>
+
+                <l>
+                    <input type="checkbox" id="Logarithms">
+                    <label for="Logarithms">Logarithms</label>
+                    <ul>
+                        <l class="file_content"><a href='/math/logarithms/logarithms'>Logarithms</a></l><br>
+                        <l class="file_content"><a href='/math/logarithms/natural_logarithm'>Natural Logarithm</a></l><br>
                     </ul>
                 </l>
 
