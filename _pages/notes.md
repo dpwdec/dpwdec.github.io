@@ -73,6 +73,8 @@ title: 📂
                     <ul>
                         <l class="file_content"><a href='/math/logarithms/logarithms'>Logarithms</a></l><br>
                         <l class="file_content"><a href='/math/logarithms/natural_logarithm'>Natural Logarithm</a></l><br>
+                        <l class="file_content"><a href='/math/logarithms/power_rule'>Power Rule</a></l><br>
+                        <l class="file_content"><a href='/math/logarithms/product_rule'>Product Rule</a></l><br>
                     </ul>
                 </l>
 
