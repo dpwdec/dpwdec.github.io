@@ -27,7 +27,7 @@ func main() {
     // store second func
     func(x int) int {
       return x / 2
-    }
+    },
   }
 
   funcs[1](10) // => 5
