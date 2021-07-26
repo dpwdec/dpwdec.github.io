@@ -16,3 +16,8 @@ To **create a new line** you must use *FOUR* backlashes `\\\\`. This is because 
 a + b \\\\
 b + a
 ```
+
+You can **add a square root with a different base** by putting the root in square brackets after the `sqrt` keyword.
+```latex
+\sqrt[3]{9}
+```
