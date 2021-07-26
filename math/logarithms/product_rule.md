@@ -20,6 +20,8 @@ You can **write any log as a composition of other logs**.
 
 \\[ log_3(10) = log_3(3) + log_3(3 \frac{1}{3}) \\]
 
+## Time Interpretation
+
 We can use the **time interpretation of logarithms** to clarify why this is the case.
 
 You can **interpret the multiplication of log inputs** as growing for a set amount of time and then growing again. For example, if we want to calculate the time to grow by a factor of \\( 16 \\) we can just use \\( ln(16) \\) but we can also break this down into \\( ln(4) + ln(4) \\). What this means intuitively is that we grow four times for some period and then we grow *another* four times resulting in a total \\( \times 16 \\) growth over two equal time periods.

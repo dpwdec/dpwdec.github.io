@@ -24,20 +24,6 @@ We know that \\( p = log_2 16 \\) where \\( p \\) is the power we are searching 
 
 \\[ p = log_4 16 \text{, so } 16 = 4^p \text{, so } p = 2 \\\\ \text{ therefore: } log_4 16 = 2\\]
 
-## Logarithmic Multiplication
-
-You can **decompose the multiplication of two inputs to a log function** by *adding* the two individual logs together. The log functions must share the same for this to work.
-
-\\[ log_x(a \times b) = log_x(a) + log_x(b) \\]
-
-You can **write any log as a composition of other logs**.
-
-\\[ ln(20) = ln(10) + ln(2) \\]
-
-\\[ log_2(17) = log_2(8.5) + log_2(8.5) \\]
-
-\\[ log_3(10) = log_3(3) + log_3(3 \frac{1}{3}) \\]
-
 ## Logarithmic Division
 
 You can **translate division into logarithms and use subtraction instead**. This has the effect of compressing large numbers into much more computable ranges that only require addition and subtraction to work with.
