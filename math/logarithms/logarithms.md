@@ -13,6 +13,13 @@ Expressed more formally, this is:
 
 \\[ p = log_b v \text{ is equivalent to } v = b^p\\]
 
+## Notation
+
+When the \\( log \\) is written *without* a base it usually indicates a base \\( 10 \\) log.
+
+So, often
+
+\\[ log(10) = 1 \\]
 
 ## Basic Examples
 
