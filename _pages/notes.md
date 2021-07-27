@@ -313,6 +313,7 @@ title: 📂
                     <input type="checkbox" id="Go">
                     <label for="Go">Go</label>
                     <ul>
+                        <l class="file_content"><a href='/programming/go/enum'>enum</a></l><br>
                         <l class="file_content"><a href='/programming/go/fmt'>fmt</a></l><br>
                         <l class="file_content"><a href='/programming/go/functions'>functions</a></l><br>
                     </ul>
