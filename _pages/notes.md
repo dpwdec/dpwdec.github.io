@@ -313,8 +313,11 @@ title: 📂
                     <input type="checkbox" id="Go">
                     <label for="Go">Go</label>
                     <ul>
+                        <l class="file_content"><a href='/programming/go/enum'>enum</a></l><br>
                         <l class="file_content"><a href='/programming/go/fmt'>fmt</a></l><br>
                         <l class="file_content"><a href='/programming/go/functions'>functions</a></l><br>
+                        <l class="file_content"><a href='/programming/go/import'>import</a></l><br>
+                        <l class="file_content"><a href='/programming/go/package'>package</a></l><br>
                     </ul>
                 </l>
 
@@ -441,6 +444,14 @@ title: 📂
                             <ul>
                                 <l class="file_content"><a href='/programming/python/data_classes/named_tuples'>Named Tuples</a></l><br>
                                 <l class="file_content"><a href='/programming/python/data_classes/record_class'>Record Class</a></l><br>
+                            </ul>
+                        </l>
+
+                        <l>
+                            <input type="checkbox" id="Libraries">
+                            <label for="Libraries">Libraries</label>
+                            <ul>
+                                <l class="file_content"><a href='/programming/python/libraries/gspread'>gspread</a></l><br>
                             </ul>
                         </l>
                         <l class="file_content"><a href='/programming/python/argparse'>argparse</a></l><br>
