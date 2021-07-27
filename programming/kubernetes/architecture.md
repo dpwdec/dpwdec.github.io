@@ -28,4 +28,12 @@ A master node runs 4 Kubernetes processes:
 4. **etcd** is a **key value store of the cluster state**. Any time that the state of the cluster changes - a pod being brought up, a pod going down etc. - this state change is stored in `etcd`.
 > The Controller Manager and Scheduler processes rely on the data from etcd to make decisions. This is how the scheduler knows what resources are available, or how CM knows when a pod goes down, or how API Server returns query data to an end user about the cluster. *No application data is stored here*.
 
-Kubernetes clusters **can have multiple master nodes**. In this case, **calls to the API Server are load balanced** and **data is distributed between the etcd processes**.
+Kubernetes clusters **can have multiple master nodes**. In this case, **calls to the API Server are load balanced** and **data is distributed between the etcd processes**. You should usually have **at least two master nodes in a production setting**. Master nodes are also generally **provisioned on smaller infrastructure** because they don't actually handle any of the requests or do any of the work.
+
+## API Server
+
+You can **talk to the API server in a number of different ways**:
+
+1. UI
+2. API calls (web?)
+3. *CLI* usually with the `Kubectl` tool 

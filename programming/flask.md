@@ -21,6 +21,11 @@ You can **run the application in debug mode** so that it displays errors on the 
 app.run(debug=True)
 ```
 
+You can **specify a port to run on** by passing in the `port` kwarg.
+```py
+app.run(port=80)
+```
+
 ## Routes
 
 You can **define an application route** by using the `app.route` method as a decorator for your controller functions. The argument to the `route` method is the url extension that will route to that controller function.
@@ -55,7 +60,7 @@ def add():
   # do something with the data here
 ```
 
-You can **handle JSON data from a POST request** by using the `json` property of the `request` object. JSON is parsed from the `request` object into python code as a `dict`.
+You can **handle JSON data from a POST request** by using the `json` property of the `request` object. JSON is parsed from the `request` object into python code as a `dict`. *Don't forget to add `Content-Type: application/json` before testing these requests manually.*
 ```py
 @app.route("/echo", methods=["POST"])
 def echo():

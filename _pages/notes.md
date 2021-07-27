@@ -71,6 +71,7 @@ title: 📂
                     <input type="checkbox" id="Logarithms">
                     <label for="Logarithms">Logarithms</label>
                     <ul>
+                        <l class="file_content"><a href='/math/logarithms/change_of_base'>Change of Base</a></l><br>
                         <l class="file_content"><a href='/math/logarithms/logarithms'>Logarithms</a></l><br>
                         <l class="file_content"><a href='/math/logarithms/natural_logarithm'>Natural Logarithm</a></l><br>
                         <l class="file_content"><a href='/math/logarithms/power_rule'>Power Rule</a></l><br>
@@ -403,7 +404,9 @@ title: 📂
                     <label for="Kubernetes">Kubernetes</label>
                     <ul>
                         <l class="file_content"><a href='/programming/kubernetes/architecture'>Architecture</a></l><br>
+                        <l class="file_content"><a href='/programming/kubernetes/kubectl'>Kubectl</a></l><br>
                         <l class="file_content"><a href='/programming/kubernetes/kubernetes'>Kubernetes</a></l><br>
+                        <l class="file_content"><a href='/programming/kubernetes/minikube'>Minikube</a></l><br>
                     </ul>
                 </l>
 
