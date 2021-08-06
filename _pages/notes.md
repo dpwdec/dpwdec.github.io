@@ -82,6 +82,14 @@ title: 📂
                 </l>
 
                 <l>
+                    <input type="checkbox" id="Sequences">
+                    <label for="Sequences">Sequences</label>
+                    <ul>
+                        <l class="file_content"><a href='/math/sequences/sigma_notation'>Sigma Notation</a></l><br>
+                    </ul>
+                </l>
+
+                <l>
                     <input type="checkbox" id="Single Variable Calculus">
                     <label for="Single Variable Calculus">Single Variable Calculus</label>
                     <ul>
