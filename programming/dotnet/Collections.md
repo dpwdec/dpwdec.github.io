@@ -65,3 +65,21 @@ You can **return an arbitrary slice of an array from its heard** by using the `S
 var x = new List<int> {1, 2, 3, 4, 6};
 x.Skip(1) // => {2, 3, 4, 6}
 ```
+
+You can **collect a linq statement into a dictionary** using the `ToDictionary` method. This takes two closures one that should return the `Key` for the dictionary from the iterable data, the other which should return the value.
+```csharp
+var x = new Dictionary<string, int>()
+{
+  { "Nasa", 100 },
+  { "Spx", 6 },
+  { "Asx", 120 }
+}
+
+x
+  // convert dictionary to iterable of entries
+  .Where(y => y.Value > 50)
+  // convert iterable entries via Key and Value properties back to dictionary
+  .ToDictionary(y => y.Key, y =< y.Value);
+
+// => { Nasa: 100, Asx: 120 }
+```
