@@ -10,7 +10,15 @@ The **logarithmic product rule** states that
 
 \\[ log_x(a \times b) = log_x(a) + log_x(b) \\]
 
-You can **decompose the multiplication of two inputs to a log function** by *adding* the two individual logs together. The log functions must share the same for this to work.
+You can **decompose the multiplication of two inputs to a log function** by *adding* the two individual logs together. The log functions must share the same base for this to work.
+
+The logarithm exhibits this behavior because a \\( log \\) is simply a way of rewriting the exponent and so *any* product of two numbers expressed as exponents is additive.
+
+\\[ 2^2 * 2^4 = 2^6 \\]
+
+The exponents can isolated using \\( log \\) notation, and the above expression rewritten.
+
+\\[ log_2(4) + log_2(16) = log_2(64) = log_2(4 * 16) \\]
 
 You can **write any log as a composition of other logs**.
 

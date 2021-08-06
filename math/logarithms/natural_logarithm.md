@@ -24,7 +24,7 @@ The **natural log is usually written as**
 
 \\[ ln(x) \\]
 
-## Time interpretation
+# Time interpretation
 
 The natural log can be **interpreted as the time that it takes to grow by a specific amount**. For example, if you had an investment compounding at \\( 100% \\) and you wanted to know how long it would take for the investment to grow by \\( 12 \\) times, you could compute this by taking the natural log of \\( 12 \\), or \\( ln(12) \\) which is \\( 2.484~ \\). So it would take almost 2.5 years to get a 12 times increase in your original amount.
 
@@ -45,3 +45,29 @@ You can **interpret the multiplication of log inputs** as growing for a set amou
 You can **interpret the division of log inputs** as growing for a set of amount of time and then *shrinking* back in to another amount. The example below is the same as growing the amount for a period until it gets to \\( 2 \\) times its original size and then shrinking until the amount \\( 3 \\) times smaller than that. This makes sense because fractional exponents give you amounts in the past.
 
 \\[ ln(\frac{2}{3}) = ln(2) - ln(3) \\]
+
+## Other Bases
+
+We can **apply the time interpretation to other rates** by reintroducing the idea that \\( rate \\) and \\( time \\) are linked in the exponent of \\( e \\).
+
+For example, \\( ln(10) \\) tells us how long it would take to grow by \\( 10 \\) times at \\( 100% \\) growth rate. So
+
+\\[ ln(10) = 2.3 \\]
+
+Which means that
+
+\\[ e^{2.3} = 10 \\]
+
+Because we know that growth and rate are linked this means that
+
+\\[ e^{1 \cdot 2.3} = 10 \\]
+
+Where \\( 1 \\) in the exponent represents a growth rate of \\( 100% \\).
+
+So, if instead we wanted a growth rate of \\( 2% \\) we could rewrite the exponent as \\( rate \cdot \ time \\) which should equal \\( 2.3 \\).
+
+\\[ 0.02 \cdot \ time = 2.3 \\]
+
+\\[ \frac{2.3}{0.02} = 115 \\]
+
+So it would take 115 years to grow by \\( 10 \\) times at a rate of \\( 2% \\).

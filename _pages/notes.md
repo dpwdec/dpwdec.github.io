@@ -71,11 +71,13 @@ title: 📂
                     <input type="checkbox" id="Logarithms">
                     <label for="Logarithms">Logarithms</label>
                     <ul>
+                        <l class="file_content"><a href='/math/logarithms/base_switch'>Base Switch</a></l><br>
                         <l class="file_content"><a href='/math/logarithms/change_of_base'>Change of Base</a></l><br>
                         <l class="file_content"><a href='/math/logarithms/logarithms'>Logarithms</a></l><br>
                         <l class="file_content"><a href='/math/logarithms/natural_logarithm'>Natural Logarithm</a></l><br>
                         <l class="file_content"><a href='/math/logarithms/power_rule'>Power Rule</a></l><br>
                         <l class="file_content"><a href='/math/logarithms/product_rule'>Product Rule</a></l><br>
+                        <l class="file_content"><a href='/math/logarithms/quotient_rule'>Quotient Rule</a></l><br>
                     </ul>
                 </l>
 
