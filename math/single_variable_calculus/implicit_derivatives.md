@@ -30,7 +30,7 @@ We've now re-arranged the equation to state \\( y \\) in terms of \\( x \\).
 
 ## The explicit approach
 
-First let's **try and take the and we can now take an explicit derivative** of this function (which you should already know how to do) so that we can appreciate the elegance of the implicit solution afterwards.
+First let's **try and take the explicit derivative** of this function (which you should already know how to do) so that we can appreciate the elegance of the implicit solution afterwards.
 
 First re-arrange the function use a rational exponent:
 
@@ -62,7 +62,7 @@ First, **take the derivative of sides of the equation**.
 
 \\[ \frac{d}{dx}(x^2 + y^2) = \frac{d}{dx}1 \\]
 
-Apply the sum rulke to take the derivative of each of the terms in the left side of the equation
+Apply the sum rule to take the derivative of each of the terms in the left side of the equation
 
 \\[ \frac{d}{dx}x^2 + \frac{d}{dx}y^2 = \frac{d}{dx}1 \\]
 
