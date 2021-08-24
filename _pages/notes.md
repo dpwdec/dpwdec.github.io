@@ -488,6 +488,15 @@ title: 📂
                 </l>
 
                 <l>
+                    <input type="checkbox" id="React">
+                    <label for="React">React</label>
+                    <ul>
+                        <l class="file_content"><a href='/programming/react/generator-templates'>Generator Templates</a></l><br>
+                        <l class="file_content"><a href='/programming/react/react'>React</a></l><br>
+                    </ul>
+                </l>
+
+                <l>
                     <input type="checkbox" id="Regular Expressions">
                     <label for="Regular Expressions">Regular Expressions</label>
                     <ul>
@@ -573,7 +582,6 @@ title: 📂
                 <l class="file_content"><a href='/programming/mathjax'>Mathjax</a></l><br>
                 <l class="file_content"><a href='/programming/multer'>Multer</a></l><br>
                 <l class="file_content"><a href='/programming/psql'>PostgreSQL</a></l><br>
-                <l class="file_content"><a href='/programming/react'>React</a></l><br>
                 <l class="file_content"><a href='/programming/refactoring'>Refactoring</a></l><br>
                 <l class="file_content"><a href='/programming/rider'>Rider</a></l><br>
                 <l class="file_content"><a href='/programming/rk61'>rk61</a></l><br>
