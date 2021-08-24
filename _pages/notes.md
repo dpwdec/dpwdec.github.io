@@ -411,6 +411,15 @@ title: 📂
                 </l>
 
                 <l>
+                    <input type="checkbox" id="Kafka">
+                    <label for="Kafka">Kafka</label>
+                    <ul>
+                        <l class="file_content"><a href='/programming/kafka/kafka'>Kafka</a></l><br>
+                        <l class="file_content"><a href='/programming/kafka/topics'>Topics</a></l><br>
+                    </ul>
+                </l>
+
+                <l>
                     <input type="checkbox" id="Kubernetes">
                     <label for="Kubernetes">Kubernetes</label>
                     <ul>
