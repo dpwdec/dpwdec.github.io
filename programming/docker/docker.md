@@ -164,6 +164,11 @@ You can **go inside a container that is already running** in a similar manner to
 $ docker exec -i -t <CONTAINER_NAME> bash
 ```
 
+You can **enter a non bash based container** using the `entry-point` flag.
+```bash
+docker run -it --entrypoint /bin/bash <CONTAINER_NAME>
+```
+
 ### Ports
 
 You can **map ports on a local machine to ports on a docker container** using the `-p` flag when running the container followed by the port on your local machine and the port on the docker container separated by a `:` colon. The example below maps the ports `1234` on the local machine to port `8080` on the running container. This means that any traffic fired from your local machine to `localhost:1234` will return a response from the running container.
