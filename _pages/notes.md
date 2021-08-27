@@ -68,6 +68,17 @@ title: 📂
                 </l>
 
                 <l>
+                    <input type="checkbox" id="Linear Algebra">
+                    <label for="Linear Algebra">Linear Algebra</label>
+                    <ul>
+                        <l class="file_content"><a href='/math/linear_algebra/linear_algebra'>Linear Algebra</a></l><br>
+                        <l class="file_content"><a href='/math/linear_algebra/point_slope'>Point Slope Formula</a></l><br>
+                        <l class="file_content"><a href='/math/linear_algebra/standard_form'>Standard Form</a></l><br>
+                        <l class="file_content"><a href='/math/linear_algebra/tangent_lines'>Tangent Lines</a></l><br>
+                    </ul>
+                </l>
+
+                <l>
                     <input type="checkbox" id="Logarithms">
                     <label for="Logarithms">Logarithms</label>
                     <ul>
@@ -114,10 +125,7 @@ title: 📂
                 </l>
                 <l class="file_content"><a href='/math/derivatives'>Derivatives</a></l><br>
                 <l class="file_content"><a href='/math/limits'>Limits</a></l><br>
-                <l class="file_content"><a href='/math/linear_algebra'>Linear Algebra</a></l><br>
-                <l class="file_content"><a href='/math/point_slope'>Point Slope Formula</a></l><br>
                 <l class="file_content"><a href='/math/sets'>Sets</a></l><br>
-                <l class="file_content"><a href='/math/tangent_lines'>Tangent Lines</a></l><br>
             </ul>
         </l>
 
