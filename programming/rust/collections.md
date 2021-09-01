@@ -16,8 +16,3 @@ match map.get_mut('a') {
 }
 // {'a': [0, 1]}
 ```
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0MjUyODAwLDU1NTIyNDc5NiwtMTcyNz
-U1NThdfQ==
--->
