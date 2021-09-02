@@ -540,6 +540,7 @@ title: 📂
                         <l class="file_content"><a href='/programming/rust/concurrency'>Concurrency</a></l><br>
                         <l class="file_content"><a href='/programming/rust/enums'>Enums</a></l><br>
                         <l class="file_content"><a href='/programming/rust/files'>Files</a></l><br>
+                        <l class="file_content"><a href='/programming/rust/functions'>Functions</a></l><br>
                         <l class="file_content"><a href='/programming/rust/handlebars'>Handlebars</a></l><br>
                         <l class="file_content"><a href='/programming/rust/iterators'>Iterators</a></l><br>
                         <l class="file_content"><a href='/programming/rust/itertools'>Itertools</a></l><br>
