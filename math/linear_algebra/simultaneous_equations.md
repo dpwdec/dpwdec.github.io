@@ -22,6 +22,8 @@ A system of linear equations with two unknowns (namely \\( x \\) and \\( y \\)) 
 
 \\[ cx + dy = n \\]
 
+With unique co-efficients indicated by \\( a \\), \\( b \\), \\( c \\) and  \\( d \\).
+
 ## Parallel Lines
 
 You can **show that a system of two dimensional linear equations has a solution** *if* **the gradient of the two equations is different**. For the system of equations
@@ -32,10 +34,9 @@ You can **show that a system of two dimensional linear equations has a solution*
 
 A solution exists if
 
-\\[ ad - bc \notequal 0 \\]
+\\[ ad - bc \neq 0 \\]
 
-
-If the gradient was the same it would mean that the lines are **parallel** and would never meet. Therefore there would be solution.
+If the gradient of the lines is the same it would mean that the lines are **parallel** and would never meet. Therefore there would be no solution.
 
 To show this **convert the standard form of the equations into *y intercept form*** by dividing by the associated co-efficient of \\( y \\) and subtracting the \\( x \\) term.
 
@@ -55,3 +56,12 @@ In standard form as
 
 Now that the gradient is isolated as \\( \frac{a}{b}x \\) and \\( \frac{c}{d}x \\) respectively it is clear that if \\( \frac{a}{b} = \frac{c}{d} \\) then the lines are parallel and this system of equations does *not* have a solution.
 
+This can be stated more elegantly by cross multiplying each side of the equation by their denominators to get
+
+\\[ ad = cb \\]
+
+If this case then the lines are parallel. This is just a restating of the above fractional form. This where the rule that *if*
+
+\\[ ad - cb \neq 0 \\]
+
+Then the lines are parallel and the system has no solution.
