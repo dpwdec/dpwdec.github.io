@@ -71,6 +71,7 @@ title: 📂
                     <input type="checkbox" id="Linear Algebra">
                     <label for="Linear Algebra">Linear Algebra</label>
                     <ul>
+                        <l class="file_content"><a href='/math/linear_algebra/gaussian_elimination'>Gaussian Elimination</a></l><br>
                         <l class="file_content"><a href='/math/linear_algebra/linear_algebra'>Linear Algebra</a></l><br>
                         <l class="file_content"><a href='/math/linear_algebra/point_slope'>Point Slope Formula</a></l><br>
                         <l class="file_content"><a href='/math/linear_algebra/simultaneous_equations'>Simultaneous Equations</a></l><br>
