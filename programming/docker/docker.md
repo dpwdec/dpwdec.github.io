@@ -164,7 +164,7 @@ You can **go inside a container that is already running** in a similar manner to
 $ docker exec -i -t <CONTAINER_NAME> bash
 ```
 
-You can **enter a non bash based container** using the `entry-point` flag.
+You can **enter a non bash based container** using the `entrypoint` flag.
 ```bash
 docker run -it --entrypoint /bin/bash <CONTAINER_NAME>
 ```
