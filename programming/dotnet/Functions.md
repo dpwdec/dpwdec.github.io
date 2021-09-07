@@ -55,8 +55,20 @@ You can **define an anonymous function without a return type** by using the `Act
 Action<int> EchoInt = i => Console.WriteLine(i);
 ```
 
+## Splat Arguments
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNTgzODI3LDE0OTg1ODIyODUsLTEwNz
-Q0ODgxOTcsNTM2NDE4OTk5LC0xNTc0NDY4OTMzXX0=
--->
+You can **pass multiple arguments to a function** using the `param` keyword and then accessing the arguments as an array.
+```csharp
+void EchoNumbers(params int[] foo)
+{
+  foreach(int i in foo)
+  {
+    Console.WriteLine(i);
+  }
+}
+
+EchoNumbers(1, 2, 3);
+// => 1
+// => 2
+// -> 3
+```
