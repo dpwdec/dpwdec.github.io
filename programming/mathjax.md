@@ -41,3 +41,16 @@ The incorrect way is
 Which produces
 
 \\[ \Sigma^{n}_{x} \\]
+
+You can **create a matrix** using the `start` and `end` properties with the `matrix`, `bmatrix` and `pmatrix` tags. Matrix row ends are indicated by a `\` which requires a triple escaped `\\\` slash when writing in the mathjax syntax.
+```latex
+\begin{matrix} a & b \\\ c & d \end{matrix}
+\begin{bmatrix} a & b \\\ c & d \end{bmatrix}
+\begin{pmatrix} a & b \\\ c & d \end{pmatrix}
+```
+
+These respectively produce
+
+\\[ \begin{matrix} a & b \\\ c & d \end{matrix} \\]
+\\[ \begin{bmatrix} a & b \\\ c & d \end{bmatrix} \\]
+\\[ \begin{pmatrix} a & b \\\ c & d \end{pmatrix} \\]

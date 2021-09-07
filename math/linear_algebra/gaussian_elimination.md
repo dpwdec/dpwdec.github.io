@@ -4,6 +4,8 @@ layout: page
 exclude: true
 ---
 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+
 Gaussian elimination is an algorithmic like process of solving a system of linear equations by reducing unknowns in the system until a single unknown has been isolated and then plugging the unknown back into the system.
 
 For a system of \\( n \\) equations with \\( n \\) variables
