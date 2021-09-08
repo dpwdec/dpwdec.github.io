@@ -41,9 +41,24 @@ You can **represent the entire system including the solution in a single matrix*
 2 & -1 & 1 & 6 \\\ \end{bmatrix}
 \\]
 
+## Ax Form
+
+
+
 ## Matrix operations
 
 You can **multiply or divide every element in a matrix row** to manipulat the coefficients and the solution easily. For example we can turn \\( x + 2x + 3z = 18 \\) into \\( 2x + 4x + 6z = 36 \\) easily by doing
 
 \\[ \begin{bmatrix} 1 & 2 & 3 & 18 \end{bmatrix} \cdot \begin{bmatrix} 2 \end{bmatrix} = \begin{bmatrix} 2 & 4 & 6 & 36 \end{bmatrix} \\]
+
+## Row-Echelon Form
+
+A **row-echelon** form matrix has
+
+- Every non-zero number is not brlow a row containing a \\( 0 \\)
+- Every row's **pivot** - first non zero number - is right of the pivot in the row above
+
+\\[ \begin{bmatrix} 1 & 2 & 3 & 4 & 5 \\\ 0 & 0 & 6 & 7 & 8 \\\ 0 & 0 & 0 & 9 & 10 \end{bmatrix} \\]
+
+Is an example of a valid row-echelon matrix.
 
