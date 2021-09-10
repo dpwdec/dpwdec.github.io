@@ -43,13 +43,35 @@ You can **represent the entire system including the solution in a single matrix*
 
 ## Ax Form
 
+You can **express a the matrix form of a system of linear equations as another equation**
 
+\\[ Ax = b \\]
+
+Where
+
+- \\( A \\) is the matrix of coefficients
+- \\( x \\) is the unknowns, and
+- \\( b \\) is the solution
+
+There is a **value that \\( b \\) can take such that there is always a solution for \\( x \\) no matter what \\( A \\) is**. This is
+
+\\[ Ax = 0 \\]
+
+Where every element in \\( b \\) is \\( 0 \\) then the matrix solution can satisfied by setting every element of \\( x \\) to \\( 0 \\) as well so that when the coefficients are multiplied they also equal \\( 0 \\).
+
+\\[ \begin{bmatrix} 1 & 2 & 3 \\\ 
+3 & 4 & 1 \\\ 
+2 & -1 & 1 \\\ \end{bmatrix}
+\cdot \begin{bmatrix} 0 \\\ 0 \\\ 0 \end{bmatrix}
+= \begin{bmatrix} 0 \\\ 0 \\\ 0 \end{bmatrix} \\]
 
 ## Matrix operations
 
-You can **multiply or divide every element in a matrix row** to manipulat the coefficients and the solution easily. For example we can turn \\( x + 2x + 3z = 18 \\) into \\( 2x + 4x + 6z = 36 \\) easily by doing
+You can **multiply or divide every element in a matrix row** to manipulate the coefficients and the solution easily. For example we can turn \\( x + 2x + 3z = 18 \\) into \\( 2x + 4x + 6z = 36 \\) easily by doing
 
 \\[ \begin{bmatrix} 1 & 2 & 3 & 18 \end{bmatrix} \cdot \begin{bmatrix} 2 \end{bmatrix} = \begin{bmatrix} 2 & 4 & 6 & 36 \end{bmatrix} \\]
+
+You can **subtract or add matrix rows to one another**.
 
 ## Row-Echelon Form
 
