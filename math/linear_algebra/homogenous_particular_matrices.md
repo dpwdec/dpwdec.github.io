@@ -12,6 +12,8 @@ The **homogenous** solution uses the coefficients of the matrix for \\( Ax = 0 \
 
 The **particular** solution uses some addition of a constant for \\( Ax = b \\).
 
+## Discussion
+
 You can **state the variable components in a matrix in terms some other variable in the matrix**, where \\( x \\) and \\( y \\) are stated in terms of \\( z \\), for example.
 
 We can transform the matrix below to achieve this.
@@ -67,5 +69,15 @@ The first column *and* the second column are a solution to the \\( Ax = b \\) ca
 These are known as the **homogenous** and **particular** solutions to a system of equations. **Every system of equations can be split into a homogenous and particular solution**.
 
 The unknown \\( z \\) can also take **any real number** i.e. \\( z \in \mathbb{R} \\) as a solution to this system of equations.
+
+For example, if we pick \\( z \\) to be \\( 1 \\) and then plug the values for the homogenous solution back into the equation represented by the first row of the original matrix we get
+
+\\[ 1 \cdot (2 \cdot 1) + 2 \cdot (\frac{1}{2} \cdot 1) - 3 \cdot 1 \\]
+
+\\[ 2 + 1 - 3 = 0 \\]
+
+For whatever value of \\( z \\) that we pick, if we just use this homogenous solution as the values for the unknowns the solution will always be \\( 0 \\). 
+
+*But even in the particular case you can pick any value?*
 
 There is also nothing special about isolating \\( z \\) here. You could isolate \\( x \\) and express the other unknowns in terms of it and then use any \\( x \\) for the homogenous and particular solutions.
