@@ -67,3 +67,5 @@ The first column *and* the second column are a solution to the \\( Ax = b \\) ca
 These are known as the **homogenous** and **particular** solutions to a system of equations. **Every system of equations can be split into a homogenous and particular solution**.
 
 The unknown \\( z \\) can also take **any real number** i.e. \\( z \in \mathbb{R} \\) as a solution to this system of equations.
+
+There is also nothing special about isolating \\( z \\) here. You could isolate \\( x \\) and express the other unknowns in terms of it and then use any \\( x \\) for the homogenous and particular solutions.
