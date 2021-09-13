@@ -54,3 +54,8 @@ These respectively produce
 \\[ \begin{matrix} a & b \\\ c & d \end{matrix} \\]
 \\[ \begin{bmatrix} a & b \\\ c & d \end{bmatrix} \\]
 \\[ \begin{pmatrix} a & b \\\ c & d \end{pmatrix} \\]
+
+You can **typset the real number symbol \\( \mathbb{R]} \\) using the `mathbb` indicator and passing `R` to it as an argument.
+```latex
+\mathbb{R}
+```
