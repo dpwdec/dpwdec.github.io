@@ -44,8 +44,3 @@ An **instance added to the VPC** will then **receive an IP address from WITHIN t
 ### Network Access Control List
 
 **Network Acess Control Lists** or **NACLs** are **applied at the subnet level** and work similar to security groups controlling what can access a particular subnet. This is only useful if you want differing security across subnets, *otherwise* its probably easier to use security groups applied to instances.
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyMzU4MTk5XX0=
--->
