@@ -239,6 +239,7 @@ title: 📂
                             <label for="Terraform">Terraform</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/devops/terraform/commands'>Commands</a></l><br>
+                                <l class="file_content"><a href='/programming/devops/terraform/output'>Output</a></l><br>
                                 <l class="file_content"><a href='/programming/devops/terraform/project_structure'>Project Structure</a></l><br>
                                 <l class="file_content"><a href='/programming/devops/terraform/providers'>Providers</a></l><br>
                                 <l class="file_content"><a href='/programming/devops/terraform/references'>References</a></l><br>
