@@ -238,13 +238,33 @@ title: 📂
                             <input type="checkbox" id="Terraform">
                             <label for="Terraform">Terraform</label>
                             <ul>
+                                <l>
+                                    <input type="checkbox" id="Functions">
+                                    <label for="Functions">Functions</label>
+                                    <ul>
+                                        <l class="file_content"><a href='/programming/devops/terraform/functions/try'>Try</a></l><br>
+                                    </ul>
+                                </l>
+
+                                <l>
+                                    <input type="checkbox" id="Meta Arguments">
+                                    <label for="Meta Arguments">Meta Arguments</label>
+                                    <ul>
+                                        <l class="file_content"><a href='/programming/devops/terraform/meta_arguments/count'>Count</a></l><br>
+                                        <l class="file_content"><a href='/programming/devops/terraform/meta_arguments/for_each'>For Each</a></l><br>
+                                    </ul>
+                                </l>
                                 <l class="file_content"><a href='/programming/devops/terraform/commands'>Commands</a></l><br>
+                                <l class="file_content"><a href='/programming/devops/terraform/locals'>Locals</a></l><br>
+                                <l class="file_content"><a href='/programming/devops/terraform/modules'>Modules</a></l><br>
                                 <l class="file_content"><a href='/programming/devops/terraform/output'>Output</a></l><br>
+                                <l class="file_content"><a href='/programming/devops/terraform/path'>Path</a></l><br>
                                 <l class="file_content"><a href='/programming/devops/terraform/project_structure'>Project Structure</a></l><br>
                                 <l class="file_content"><a href='/programming/devops/terraform/providers'>Providers</a></l><br>
                                 <l class="file_content"><a href='/programming/devops/terraform/references'>References</a></l><br>
                                 <l class="file_content"><a href='/programming/devops/terraform/resources'>Resources</a></l><br>
                                 <l class="file_content"><a href='/programming/devops/terraform/terraform'>Terraform</a></l><br>
+                                <l class="file_content"><a href='/programming/devops/terraform/variables'>Variables</a></l><br>
                             </ul>
                         </l>
                         <l class="file_content"><a href='/programming/devops/containerisation'>Containerisation</a></l><br>

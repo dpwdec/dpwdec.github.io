@@ -1,0 +1,1 @@
+python3 content_directory/directory_parser.py 
