@@ -255,6 +255,7 @@ title: 📂
                                     </ul>
                                 </l>
                                 <l class="file_content"><a href='/programming/devops/terraform/commands'>Commands</a></l><br>
+                                <l class="file_content"><a href='/programming/devops/terraform/data'>Data</a></l><br>
                                 <l class="file_content"><a href='/programming/devops/terraform/locals'>Locals</a></l><br>
                                 <l class="file_content"><a href='/programming/devops/terraform/modules'>Modules</a></l><br>
                                 <l class="file_content"><a href='/programming/devops/terraform/output'>Output</a></l><br>
