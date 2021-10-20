@@ -38,6 +38,17 @@ public class Data
 }
 ```
 
+You can **deserialize enum properties from JSON** by using the adding a `JsonStringEnumConverter` object to the list of `Converters` as part of your `JsonSerializerOptions` object. *It seems that this inherits the case inseitivity of the serializer options*.
+```csharp
+// load raw json above
+
+var serializerOptions = new JsonSerializerOptions();
+serializerOptions.PropertyNameCaseInsensitive = true;
+serializerOptions.Add(new JsonStringEnumConverter());
+
+var deserializedObject = JsonSerializer<MyClass>(rawJson, serializerOptions);
+```
+
 ## Newtonsoft
 
 Don't use it.

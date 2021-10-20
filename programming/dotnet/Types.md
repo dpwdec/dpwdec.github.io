@@ -1,5 +1,5 @@
 ---
-title: Resource Management
+title: Types
 layout: page
 exclude: true
 ---

@@ -324,7 +324,7 @@ title: 📂
                         <l class="file_content"><a href='/programming/dotnet/Nuget'>Nuget</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/Nunit'>NUnit</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/Rm'>Resource Management</a></l><br>
-                        <l class="file_content"><a href='/programming/dotnet/Types'>Resource Management</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/Types'>Types</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/Xunit'>XUnit</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/classes'>Classes</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/command_line_parser'>Command Line Parser</a></l><br>
