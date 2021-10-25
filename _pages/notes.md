@@ -298,7 +298,9 @@ title: 📂
                             <input type="checkbox" id="Cli">
                             <label for="Cli">Cli</label>
                             <ul>
+                                <l class="file_content"><a href='/programming/dotnet/cli/project'>Project</a></l><br>
                                 <l class="file_content"><a href='/programming/dotnet/cli/publish'>Publish</a></l><br>
+                                <l class="file_content"><a href='/programming/dotnet/cli/solution'>Solution</a></l><br>
                                 <l class="file_content"><a href='/programming/dotnet/cli/test'>Test</a></l><br>
                             </ul>
                         </l>
