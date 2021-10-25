@@ -334,10 +334,12 @@ title: 📂
                         <l class="file_content"><a href='/programming/dotnet/embedded_resources'>Embedded Resources</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/enums'>Enums</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/file_system'>File System</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/fluent_assertions'>Fluent Assertions</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/logging'>Logging</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/start_up'>Start Up</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/static_properties'>Static Properties</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/strings'>Strings</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/testing'>Testing</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/xeger'>Xeger</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/yamldotnet'>YamlDotNet</a></l><br>
                     </ul>

@@ -97,10 +97,3 @@ You can **assert against an object's type** by using the `BeOfType` method in co
 var myString = "Watermelon";
 myString.Should().BeOfType(typeof(string));
 ```
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjUzMzY5OCwtODc5MTczOTM3LC0xOT
-E2NTAwMDM4LC02MTI2OTIxOSwxMTIxMzk0NzAsNTY1NzgwNjIy
-LC0xNTk3MzIxODczLDIxMTg5NDg1MTEsLTIwNjE3MTY0ODldfQ
-==
--->
