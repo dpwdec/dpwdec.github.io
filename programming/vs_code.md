@@ -79,9 +79,7 @@ You can **create a new branch of your current project** by opening the vscode co
 ## Tab
 
 You can **toggle tab to move focus** instead of inserting tabs by pressing `CTRL + SHIFT + M` on Mac and `CTRL + M` on Windows.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NzU5MTY0NiwtMTk5NjY4NjI5LDE3Mj
-M0MzQxNjEsLTQ0MzMzNzkzMSwtNjk5MDYwNjQyLDI3ODY2MDM2
-MSwtMTQxOTUyMDMzMCwyNjQ3NjI5NzAsMTMxNzc5NzM5NiwxMz
-gyNjMwMTQwLC0xNzM3OTAyNTcxLC0xMDM4OTEwMjAzXX0=
--->
+
+## Error Highlighting
+
+If your **dotnet code is missing error highlighting in editor** you probably need to restart Omnisharp. Do this with `CTRL + SHIFT + P` and then `>Restart Omnisharp`.

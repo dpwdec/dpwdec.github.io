@@ -235,6 +235,21 @@ title: 📂
                         </l>
 
                         <l>
+                            <input type="checkbox" id="Pulumi">
+                            <label for="Pulumi">Pulumi</label>
+                            <ul>
+                                <l>
+                                    <input type="checkbox" id="Dotnet">
+                                    <label for="Dotnet">Dotnet</label>
+                                    <ul>
+                                        <l class="file_content"><a href='/programming/devops/pulumi/dotnet/running'>Running</a></l><br>
+                                    </ul>
+                                </l>
+                                <l class="file_content"><a href='/programming/devops/pulumi/setup'>Set Up</a></l><br>
+                            </ul>
+                        </l>
+
+                        <l>
                             <input type="checkbox" id="Terraform">
                             <label for="Terraform">Terraform</label>
                             <ul>
@@ -336,10 +351,10 @@ title: 📂
                         <l class="file_content"><a href='/programming/dotnet/file_system'>File System</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/fluent_assertions'>Fluent Assertions</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/logging'>Logging</a></l><br>
+                        <l class="file_content"><a href='/programming/dotnet/project'>Project</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/start_up'>Start Up</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/static_properties'>Static Properties</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/strings'>Strings</a></l><br>
-                        <l class="file_content"><a href='/programming/dotnet/testing'>Testing</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/xeger'>Xeger</a></l><br>
                         <l class="file_content"><a href='/programming/dotnet/yamldotnet'>YamlDotNet</a></l><br>
                     </ul>
