@@ -239,10 +239,10 @@ title: 📂
                             <label for="Pulumi">Pulumi</label>
                             <ul>
                                 <l>
-                                    <input type="checkbox" id="Dotnet">
-                                    <label for="Dotnet">Dotnet</label>
+                                    <input type="checkbox" id="Dotnet Pulumi">
+                                    <label for="Dotnet Pulumi">Dotnet Pulumi</label>
                                     <ul>
-                                        <l class="file_content"><a href='/programming/devops/pulumi/dotnet/running'>Running</a></l><br>
+                                        <l class="file_content"><a href='/programming/devops/pulumi/dotnet_pulumi/running'>Running</a></l><br>
                                     </ul>
                                 </l>
                                 <l class="file_content"><a href='/programming/devops/pulumi/setup'>Set Up</a></l><br>
