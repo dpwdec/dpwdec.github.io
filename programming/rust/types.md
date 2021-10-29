@@ -18,6 +18,33 @@ You can **type annotate an iterator's collect method** by following the call to 
 ```rust
 let result = (0..10).collect::<Vec<u32>>();
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjYzNjI1MCwyMDM1NDUyNjgyXX0=
--->
+
+## Floating point bit representation
+
+You can **convert a floating point number to and from its bit representation** by using the `to_bits` and `from_bits` functions on floating point types.
+```rust
+fn  main() {
+  let x: f64 = 5.2;
+  let y: u64 = x.to_bits();
+  let z: f64 = f64::from_bits(y.clone()); // => 5.2
+}
+```
+
+You can **make conversion from a bit repesentation of a floating point number less verbose by using a trait implementation *on* the bit type**.
+```rust
+trait BitConversion {
+    fn to_f64(&self) -> f64;
+}
+
+impl BitConversion for u64 {
+    fn to_f64(&self) -> f64 {
+        f64::from_bits(self.clone())
+    }
+}
+
+fn main() {
+  let x: f64 = 5.2;
+  let y: u64 = x.to_bits();
+  let z: f64 = y.to_f64() // => 5.2
+}
+```
