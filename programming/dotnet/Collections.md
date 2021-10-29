@@ -79,7 +79,26 @@ x
   // convert dictionary to iterable of entries
   .Where(y => y.Value > 50)
   // convert iterable entries via Key and Value properties back to dictionary
-  .ToDictionary(y => y.Key, y =< y.Value);
+  .ToDictionary(y => y.Key, y => y.Value);
 
 // => { Nasa: 100, Asx: 120 }
+```
+
+You can **perform a cartesian product on two lists**, the equivalent of nested `foreach` statements by using the `SelectMany` method. The first argument is a function that takes each element of the collection that the `SelectMany` method is called on and returns another list that that element will be combined with. The second argument is a function that takes as its first argument an individual value from the first collection and as its second argument each value from the collection returned in the first function argument for `SelectMany`.
+```csharp
+var xs = List<int> { 1, 2, 3 };
+var ys = List<string> { "a", "b", "c" };
+
+var product = x
+  .SelectMany(
+    // return the list that you want to take the product with here
+    x => ys,
+    // cartesian product available here
+    (x, y) => {
+      return $"{x}: {y}";
+    }
+  )
+  .ToList();
+
+// => ["1a", "1b", "1c", "2a", "2b", "2c", "3a", "3b", "3c"]
 ```
