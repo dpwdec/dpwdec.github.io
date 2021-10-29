@@ -1,5 +1,5 @@
 # script that recursively parses JSON folder structure into an static HTML page
-import subprocess, json
+import subprocess, json, random, string
 from typing import List
 
 root_dirs = {'math', 'programming'}
@@ -19,6 +19,10 @@ def join_with_acronyms(words: List[str]) -> str:
     else:
         return current_word
 
+# used for deduping directory names
+def random_string() -> str:
+    return "".join(random.choice(string.ascii_letters) for _ in range(10))
+
 
 # function to match only required sub directories
 def match_directory(name: str) -> bool:
@@ -35,10 +39,15 @@ def parse_directory(node: dict, path: str) -> str:
             parse_directory(child, path)
             for child in node['contents'])
         # checked if else opens root level directories by default
+
+        # use a id to dedup CSS properties
+        directory_id = random_string()
+
+        # template the content
         return f"""
         <l>
-        <input type="checkbox" id="{directory_name}" {"checked" if match_directory(node['name']) else ""}>
-        <label for="{directory_name}">{directory_name}</label>
+        <input type="checkbox" id="{directory_id}" {"checked" if match_directory(node['name']) else ""}>
+        <label for="{directory_id}">{directory_name}</label>
         <ul>{directory_content}</ul>
         </l>
         """
