@@ -102,3 +102,11 @@ var product = x
 
 // => ["1a", "1b", "1c", "2a", "2b", "2c", "3a", "3b", "3c"]
 ```
+
+You can **mutate a collection via concatenation** by using the `AddRange` method. This is different from the `Concat` function which instead returns a new collection.
+```csharp
+var x = new List<int> { 1, 2, 3 };
+var y = new List<int> { 4, 5, 6 };
+x.AddRange(y);
+// x is now equal to [1, 2, 3, 4, 5, 6]
+```
