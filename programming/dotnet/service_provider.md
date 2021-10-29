@@ -13,7 +13,7 @@ static void Main(string[] args)
   var serviceCollection = new ServiceCollection();
   var serviceProvider = serviceCollection
     // add services here
-    .AddSingle<ISomeInterface, SomeInterfaceImplementation>()
+    .AddSingleton<ISomeInterface, SomeInterfaceImplementation>()
     .BuildServiceProdiver();
 }
 ```
