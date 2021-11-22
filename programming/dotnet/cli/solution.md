@@ -8,3 +8,5 @@ You can **add a project to your solution** by navigating to your project's root 
 ```bash
 dotnet sln add path/to/project/folder
 ```
+
+You can **remove a project from your solution** using the same command format but replacing `add` with `remove`.

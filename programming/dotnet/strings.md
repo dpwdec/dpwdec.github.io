@@ -35,7 +35,7 @@ You can **match a pattern to the end of a string** using the `EndsWith` method.
 
 ## Multiline string literals
 
-You can **create a multiline string** by using a `@` symbol before a string literal. This allows you to create multiline strings that mirror text files.
+You can **create a multiline string** by using a `@` symbol before a string literal. This allows you to create multiline strings that mirror text files. The `@` strings also *auto escape* special characters like a `\` so they don't need to be manually escaped.
 ```csharp
 var x = @"
 This is a lovely

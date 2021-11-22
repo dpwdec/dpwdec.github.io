@@ -36,3 +36,10 @@ using RunEnvironment = System.Environment;
 using ModelEnvironment = Models.Environment;
 using Deployment.Environment; // this version of environment can be used directly
 ```
+
+## Instance Creation from Types
+
+You can **create an instance of an object from its type** using the `Activator` class.
+```csharp
+ObjectType instance = (ObjectType) Activator.CreateInstance(ObjectType);
+```
