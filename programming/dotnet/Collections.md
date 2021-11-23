@@ -110,3 +110,14 @@ var y = new List<int> { 4, 5, 6 };
 x.AddRange(y);
 // x is now equal to [1, 2, 3, 4, 5, 6]
 ```
+
+You can **flatten a list of lists** using the `SelectMany` method.
+```csharp
+var x = new List<List<int>>
+{
+  new List<int> {1, 2},
+  new List<int> {3, 4},
+}
+
+var flat = x.SelectMant(y => y).ToList(); // [1, 2, 3, 4]
+```
