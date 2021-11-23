@@ -114,7 +114,7 @@ var jawJson = File.ReadAllText("./data.json");
 var result = JsonSerializer.Deserialize<MyClass>(rawJson, serializerOptions);
 ```
 
-This is important to remember when traversing the JSON reader for your object. Your custom reader will **traverse from the beginning of the object** and **must only return the created object once it has reached its end**. Functionally this means you must reach a `JsonTokenType.EndObject` enum variant when returning. If you do this incorrectly you will get a `reader read too much or too little` exception when deserializing.
+This is important to remember when traversing the JSON reader for your object. Your custom reader will **traverse from the beginning of the object** and **must only return the created object once it has reached its end**. Functionally this means you must reach a `JsonTokenType.EndObject` enum variant when returning. If you do this incorrectly you will get a `read too much or not enough` exception when deserializing. More detail [here](https://stackoverflow.com/questions/62147178/system-text-json-deserialization-fails-with-jsonexception-read-to-much-or-not-e).
 ```csharp
 if (reader.TokenType == JsonTokenType.EndObject)
 {
@@ -216,6 +216,8 @@ public override T Read(
 ```
 
 ### Polymorphic Deserialization
+
+There's some general info on polymorphic deserialization in dotnet [here](https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-converters-how-to?pivots=dotnet-6-0#support-polymorphic-deserialization).
 
 The example below shows **how to accomplish polymorphic deserialization in dotnet**. The `Person` class contains a `Job` field of type `Role` that can be a concrete polymoprhic instance of the abstract `Role` class, either `Doctor` or `Dentist`. In this case the custom deserializer needs to traverse the JSON of the object until it finds a *discrimator* - i.e. some clue in the object structure about what type of subclass this object is - in this case we use the name of the property on the object; if its a `Doctor` object it will have the property `HospitalId` otherwise its a dentist. The reader then creates an instance of the correct subclass and returns that instance when it reaches the end of the reader.
 
