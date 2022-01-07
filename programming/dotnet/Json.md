@@ -280,7 +280,7 @@ public class Doctor : Role
 
   public override string JobAction()
   {
-    return "Fixing this dude's spleen."
+    return "Fixing this dude's spleen.";
   }
 }
 
@@ -290,7 +290,7 @@ public class Dentist : Role
 
   public override string JobAction()
   {
-    return "Fixing this lady's molar."
+    return "Fixing this lady's molar.";
   }
 }
 
@@ -347,6 +347,61 @@ public class RoleDeserializer : JsonConverter<Role>
     // return the empty object if we reach the end with out anything
     // could raise an exception here if required
     return role;
+  }
+
+  // there will also be an unimplmeneted version of the Write function below
+}
+```
+
+**The above solution works, but is awkward** because it requires you to deserialize everything manually while also figuring out what the object type is. Given that you can actually traverse the `Utf8JsonReader`'s content multiple times you can instead use a discriminator function with a copy of the reader to find the correct type *then* use standard deserialization to with a built in deserializer to deserialize the correct sub class.
+
+The example below uses a `RoleType` enum and a discriminator function. The `Discriminate` function takes the `reader` traverses the JSON once to find a discriminating property and returns what type of subclass the json is. Then a `switch` statement on the result of this uses a standard `JsonSerializer.Deserialize()` with the matching subclass type and a string version of the content from the reader. This makes things much easier as once the type of subclass has been ascertained the default deserialization code that comes with dotnet can be used. This is much less error prone and doesn't require updates to the deserialzation patterns when the subclasses or base class change. Only new enum variants and discriminators need to be introduced. **IMPORTANT:** the `GetReaderAsString` function does not have an example implementation here yet, but this would require you to traverse the reader and correctly push the properties with their JSON representation into a string, including `"` and `:` characters.
+```csharp
+public enum RoleType
+{
+  Doctor,
+  Dentist
+}
+
+public class RoleDeserializer : JsonConverter<Role>
+{
+  public RoleType Discriminate(Utf8JsonReader reader)
+  {
+    while (reader.Reader())
+    {
+      if (reader.TokenType == JsonTokenType.PropertyName)
+      {
+        if (reader.GetString() == "HospitalId")
+        {
+          return RoleType.Doctor;
+        }
+      }
+    }
+    return RoleType.Dentist;
+  }
+
+  public override Role Read(
+    ref Utf8JsonReader reader, 
+    Type typeToConvert, 
+    JsonSerializerOptions options)
+  {
+
+    // figure out what type of subclass this is
+    switch (Discriminate(reader))
+    {
+      // deserialize using a standard deserializer
+      case RoleType.Doctor:
+        return JsonSerializer.Deserialize<Doctor>(GetReaderAsString(ref reader));
+      case RoleType.Dentist:
+        return JsonSerializer.Deserialize<Dentist>(GetReaderAsString(ref reader));
+    }
+
+    return new Doctor();
+  }
+
+  public string GetReaderAsString(ref Utf8JsonReader reader)
+  {
+    // parse the reader into a string
   }
 
   // there will also be an unimplmeneted version of the Write function below
