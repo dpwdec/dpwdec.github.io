@@ -215,6 +215,44 @@ public override T Read(
 }
 ```
 
+At first it appears like you can only traverse the `Utf8JsonReader` once through. However, you can **traverse the reader multiple times** and even **duplicate the reader content** by passing the reader into a function *without* the `ref` keyword. Not using the `ref` keyword will not mutate the "base" reader that the `Read` method uses. If you pass the `reader` into a function *with* the `ref` keyword that function will continue to mutate the state of the reader that the deserializer passes out for the next stage of deserialization.
+```csharp
+public override T Read(
+  ref Utf8JsonReader reader, 
+  Type typeToConvert, 
+  JsonSerializerOptions options)
+{
+  ReadDataThrough(reader);
+  // reader is still positioned at start
+  Assert.Equals(reader.TokenType, JsonTokenType.StartObject);
+
+  ReadDataThroughMut(ref reader);
+
+  // reader is now positioned where the mut function finished
+  Assert.Equals(reader.TokenType, JsonTokenType.StartArray);
+
+  // ---SNIP--- other deserialization stuff
+}
+
+// read through the entirety of the json WITHOUT mutating the base reader
+public void ReadDataThrough(Utf8JsonReader reader)
+{
+  while (reader.Read())
+  {
+    if (reader.TokenType == JsonTokenType.EndObject) { break; }
+  }
+}
+
+// read through to a start array property that mutates the base reader
+public void ReadDataThroughMut(ref Utf8JsonReader reader)
+{
+  while (reader.Read())
+  {
+    if (reader.TokenType == JsonTokenType.StartArray) { break; }
+  }
+}
+```
+
 ### Polymorphic Deserialization
 
 There's some general info on polymorphic deserialization in dotnet [here](https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-converters-how-to?pivots=dotnet-6-0#support-polymorphic-deserialization).
