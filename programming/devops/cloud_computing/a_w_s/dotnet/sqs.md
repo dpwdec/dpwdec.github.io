@@ -38,7 +38,7 @@ await sqsClient.DeleteMessageAsync(
 );
 ```
 
-You can **drain a queue** by continually polling and deleting messages from the queue until the queue is empty.
+You can **drain a queue** by continually polling and deleting messages from the queue until the queue is empty. *This is actual a terrible solution and the AWS client comes with a way to do this.*
 ```csharp
 do
 {
@@ -62,4 +62,18 @@ do
     // sleep to not overload API and keep consistency of deletions and access to queue
     Thread.Sleep(1000);
 } while(true)
+```
+
+You can **drain a queue** more easily using the `PurgeQueueAsync` function.
+```csharp
+await sqsClient.PurgeQueueAsync(queueUrl);
+```
+
+You can **change the visibility timeout of a message** by using the `ChangeMessageVisibilityAsync` method with the queue URL, message receipt and the value of the new visibility timeout.
+```csharp
+await sqsClient.ChangeMessageVisibilityAsync(
+    queueUrl,
+    messageReceiptHandle,
+    10
+);
 ```

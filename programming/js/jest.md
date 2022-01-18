@@ -152,8 +152,15 @@ const error = new Error("Promise failed.");
 let mockFunction = jest.fn();
 mockFunction.mockReturnValue(Promise.reject(error));
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODA2Mjg0LDQ5MTAxNzE0NywxMDE2Nz
-c5MjY0LDE3NDM1NDMxMTQsLTE4MDgyNzM4MzIsNDQ4Nzg5MzI3
-LC0xNTAxODU4NzQ2LC0xNTAwOTU0NjcwLDc0ODYzOTExNV19
--->
+
+### Log Output
+
+You can **show `console.log` output using the `--silent` flag set to false. It's also easier to just run using `npx` when you want to see console output.
+```bash
+npx jest --silent=false
+```
+
+Also, possibly valid is
+```bash
+npm test --silent=false
+```
