@@ -42,3 +42,12 @@ for (const n of x) {
   synchronousFunction(n)
 }
 ```
+
+## Index and value iteration
+
+You can **iterate an index and value of an array in a `for`/`of` loop** using the `entries` function and array destructuring.
+```js
+for (const [index, value] of ['a', 'b', 'c'].entries()) {
+  console.log(index, value) // 1a, 2b, 3c
+}
+```
