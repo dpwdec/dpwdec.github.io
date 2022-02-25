@@ -42,19 +42,24 @@ $ docker images --no-trunc
 
 You can **build an image from your `Dockerfile`** using the `build` command. You can **pass this any filename** which contains valid docker instructions.
 ```bash
-$ docker build Dockerfile
+docker build Dockerfile
 ```
 
 You can also use `.` syntax if you are in a folder with a valid `Dockerfile`.
 ```bash
-$ docker build .
+docker build .
 ```
 
 After each step of docker build **produces an intermediate docker image** that is then removed before the next step is ready to run.
 
 You can **give a docker image a name at the same as building it** by using the `-t` or `--tag` flags. The following would create an image called `my_image` in the images list.
 ```bash
-$ docker build . -t my_image 
+docker build . -t my_image 
+```
+
+You can **show docker build output without steps being collapsed** by using the `--progress` flag set to `plain`.
+```bash
+docker build --progress=plain .
 ```
 
 ## Images
