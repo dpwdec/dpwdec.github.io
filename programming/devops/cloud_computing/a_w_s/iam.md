@@ -60,6 +60,3 @@ You can **add tags** as key value pairs which contain meta-data about your IAM u
 ## Password Policy
 
 You can **set a password policy** for IAM users by clicking the `Set Password Policy` from the `Account Settings` menu item on the left.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTgyNjg1M119
--->

@@ -58,6 +58,13 @@ my_script.sh Hello world!
 # world!
 ```
 
+## Results
+
+You can **check the outcome result of the last command run** using the `$?` variable. This will be either a `0` or `1` depending on whether the command succeeded.
+```bash
+echo $1
+```
+
 ## Ternary
 
 You can **create a "ternary-like" statement** by surrounding the condition of the statement with `[[]]` double square brackets and then using the `&&` and `||` symbols to separate the conditions.

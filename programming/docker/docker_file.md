@@ -19,6 +19,18 @@ FROM ubuntu
 RUN apt-get install -y python3
 ```
 
+A docker build will fail if the command that `RUN` called `exit`s with a non-zero return code. *However*, this can be problematic when you include nested scripts as part of your docker file. For example `RUN my-complex-script.sh`. If there are points in the script where script failure should fail the build these needed to be tested and an `exit 1` called to return the correct failing exit code, otherwise the script will simply run, even with failures and return a success code of `0`. 
+
+The example below shows an extract of a test command being run as part of a script, if this was run with the docker `RUN` command directly then its failure would stop the build, *however*, because of its inclusion inside the script this
+won't happen unless the result of the `test` command is checked with the `$?` variable and an `exit 1` command called if it is non-zero.
+```bash
+# my-complex-script.sh
+# --- snip other complex script stuff ---
+
+npm test
+if [ $? -e 1 ]; then exit 1; fi
+```
+
 ## Label
 
 You can **add metadata to your docker image** by using the `LABEL` directive.
@@ -82,9 +94,23 @@ You can **set environment variables that persist in the container environment** 
 ENV MY_VAR="Some variable data"
 ```
 
+## ARG
 
+You can **pass run time environment variables into a docker container during the build process** by using the `--build-arg` flag in conjunction with the `ARG` keyword in your `Dockerfile`. *Note that if you pass in a `--build-arg` without the `ARG` property defined in the file then it won't be picked up, a confusing quirk that can make you wonder why the args you are passing in are not working.* 
+```bash
+docker build . --build-arg MY_ARG=my_value
+```
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjczNDI5Miw4MDc1NzgxNDAsMTg0Nz
-c4NDg0MCwtMTM2ODYwODU0NF19
--->
+The corresponding `Dockerfile` would be:
+```docker
+FROM ubuntu
+
+ARG MY_ARG
+
+# stuff that uses the MY_ARG context down here such as a script or test run
+```
+
+You can **pass in multiple arguments** by using multiple `--build-arg` flags.
+```bash
+docker build . --build-arg FOO=bar --build-arg BAZ=qux --build-arg EGGS=spam
+```
