@@ -61,10 +61,11 @@ You can use **Origin Access Identity** to **give cloudfront access to the conten
 
 Origin Access Identity uses a Cloudfront access role which you can view by going to the `Origin Access Identity` tab in the Cloudfront dashboard.
 
+## Access Denied and File Targeting
 
+If you try to access a cloudfront distribution without specifying an object from the bucket that the distribution targets you will receive an **access denied error**. Instead, you need to add an extension that specifies the specific object. For example, if you have an object if your bucket called `index.html` then you would need to use the cloudfront URL and the name of the file.
+```
+GET http://cloudfronturl.com/<FILE_IN_BUCKET>
+```
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NzM1NjQ5NCwtMjgwNDQ0NjAsMjM2Nj
-M0MDIyLDEwODY5NjY2NDgsLTIxMjgxMTg5ODgsLTE3ODM5MTIz
-ODcsMTYyMTg5MDY3MywxMTU5NDk4MTQwXX0=
--->
+You can also **set a default root object** that will default to a file in the bucket.
