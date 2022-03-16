@@ -52,7 +52,7 @@ x.forEach(n => n.toUpperCase()) // throws an error because number cannot be conv
 
 ## Narrowing
 
-When working with **union types** that require a narrowing of the types context to take an action **typescript will automatically infer type narrowing** from conditionals.
+When working with **union types** that require a narrowing of the types context to take an action **typescript will automatically infer type narrowing** from conditionals overlaying its compiler type checking narrowing on the javsscript runtime for `if`/`else`.
 ```ts
 const f = (x: number | string) => {
   return x.toUpperCase(); // error because function not on number
@@ -63,6 +63,19 @@ const f = (x: number | string) => {
     return x.toUpperCase(); // state of x is automatically inferred as string
   } else {
     return x;
+  }
+}
+```
+
+Both **arrays and `null` are `typeof` `"object"`**. Type guarding using `typeof x == "object"` will *not* narrow down types that can be array and `null`.
+
+You can **narrow types based on equality of values**. In the example below, if `x` and `y` are equal they both must be of type `string` which the typescript compiler can infer.
+```ts
+const f = (x: number | string, y: string) => {
+  if (x === y) {
+    x.toUpperCase();
+  } else {
+    // do nothing
   }
 }
 ```
