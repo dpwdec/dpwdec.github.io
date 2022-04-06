@@ -256,6 +256,15 @@ x = makeObject(20);
 y = makeObject(30);
 x + y // => 50
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDM1NjE4MTBdfQ==
--->
+
+## Object Iteration
+
+You can **iterate through the values of an object's fields with an index** by using the `Object.values` function to convert the entries and then the `entries` function to create an iterator.
+```js
+const x = { a: "a", b: "b" };
+for (const [index, val] of Object.values(x).entries()) { 
+  console.log(index, val) 
+}
+// => 0 a
+// => 1 b
+```

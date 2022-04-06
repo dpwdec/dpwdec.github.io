@@ -184,3 +184,30 @@ testString("hello"); // => "hello"
 testString(null); // ERROR
 ```
 
+## Unions
+
+You can **build up more complex types from previously defined types** to create composite types, sort of like *reverse inheritance* where you move to a more general taxonomy of these from specific instances.
+```ts
+type Circle = { kind: "circle", radius: number };
+type Square = { kind: "square", size: number };
+type Shape = Circle | Square;
+```
+
+### Discriminated Unions
+
+The above `Circle` and `Square` types are an example of a *discriminated union* because there is a discriminator property, namely the `kind` property on each object that can be used to discriminate between object's of the same class. This is a kind of *bottom up* definition of types using composites of these two object schemas into the `Shape` type (as opposed to a top down approach of something like inheritance). This allows you to write code like that below where a union with a common discriminating type can be called to narrow to a specific type that has specific values that are used.
+```ts
+const getShapeValue(shape: Shape) {
+  // shape.kind is callable because both objects in the union have this field
+  if (shape.kind == "circle") {
+    return shape.radius;
+  }
+  return shape.size;
+}
+```
+
+## Never
+
+If all types in a statement are eliminated then the passed in type becomes `never` which is also an error.
+
+

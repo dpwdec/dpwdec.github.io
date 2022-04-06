@@ -27,6 +27,7 @@ var myString = 'my string';
 ```
 
 ## Variables
+
 You can **define a new variable in Javascript** using the `var` keyword.
 ```js
 var x = 5;

@@ -119,5 +119,24 @@ var x = new List<List<int>>
   new List<int> {3, 4},
 }
 
-var flat = x.SelectMant(y => y).ToList(); // [1, 2, 3, 4]
+var flat = x.SelectMany(y => y).ToList(); // [1, 2, 3, 4]
+```
+
+You can get functionality that is **similar to a linq based ForEach statement** by using the `AsParallel` function with the `ForAll` function. This is useful when you want to in some way mutate values in an object or collection *without* explicitly mapping them as the `ForAll` returns a `void` value.
+```csharp
+class Counter
+{
+  public int N { get; set; }
+}
+
+var x = new List<Counter>()
+{
+  new Counter() { N = 1},
+  new Counter() { N = 2},
+  new Counter() { N = 3},
+};
+  
+x.AsParallel().ForAll(counter => counter.N = counter.N + 1);
+
+foreach (var counter in x) { counter.N } // => 2, 3, 4
 ```

@@ -116,10 +116,24 @@ It's better to **not use direct string interpolation** using the `$` dollar sign
 _logger.LogError("Server crashes at {time}", DateTime.Now);
 ```
 
+## Loggers in testing
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODU2MjU5MDUsLTc2NzkwMDc5MCwtMT
-U2NzM5MzI3NiwxMzA0MTA0Mjk2LDgyMzAxNTkyMSwtMTE3NDc0
-NDY0Niw1NjI2ODUwMTksMTY5Mjc5MTk0NSwxMjQ2MzU3MDQyLD
-E5MzkzOTMyMzIsNTUzNDQ0NDk1XX0=
--->
+If you want to **unit test a class that has a logger in its dependency graph** but functionality of that logger is not required. You can inject a `NullLoggerFactory` from the `Microsoft.Extensions.Logging` library to create a logger with the `CreateLogger` method that requires an arbitrary logger name.
+```csharp
+using Microsoft.Extensions.Logging;
+
+class MyClass
+{
+  private readonly ILogger _logger;
+  MyClass(ILogger logger)
+  {
+    _logger = logger;
+  }
+}
+
+// test code
+
+var myClass = new MyClass(
+  new NullLoggerFactory().CreateLogger("null");
+)
+```
