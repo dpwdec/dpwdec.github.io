@@ -4,6 +4,23 @@ layout: page
 exclude: true
 ---
 
+You can **generate a config file for typescript** by using the `tsc` compiler command with the `--init` flag.
+```bash
+tsc --init
+```
+
+You can **configure files to be included or excluded from compilation** by using the `include` and `exclude` arrays at the root of the `tsconfig.json` file object.
+```json
+// tsconfig.json
+{
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    // standard compiler options here
+  }
+}
+```
+
 By default **typescript will update compiled output files even if there are compilation errors**. You can **stop typescript from compiling if there are compilation errors** by using the `--noEmitOnError` flag.
 ```bash
 tsc --noEmitOnError my-app.ts
