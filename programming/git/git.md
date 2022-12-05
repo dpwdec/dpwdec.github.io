@@ -52,6 +52,11 @@ You **exit the rebasing commit window** that appears after running a `pull origi
 
 ## Branches
 
+You can **create a branch from a branch** by using the `checkout` command to create a new branch with second argument being the name of the branch off of which to branch. *If this second argument is left blank you just branch from master.*
+```bash
+git checkout -b <NEW_BRANCH_NAME> <BRANCH_TO_BRANCH_FROM_NAME>
+```
+
 
 ## gitignore
 
