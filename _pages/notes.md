@@ -54,12 +54,12 @@ title: 📂
     <div name="contents-index">
 
         <l>
-            <input type="checkbox" id="BoacDUFhVl" checked>
-            <label for="BoacDUFhVl">Math</label>
+            <input type="checkbox" id="XzywwpPVeR" checked>
+            <label for="XzywwpPVeR">Math</label>
             <ul>
                 <l>
-                    <input type="checkbox" id="bRvfikgFcp">
-                    <label for="bRvfikgFcp">Exponentials</label>
+                    <input type="checkbox" id="wWSpxrhPdt">
+                    <label for="wWSpxrhPdt">Exponentials</label>
                     <ul>
                         <l class="file_content"><a href='/math/exponentials/e'>E</a></l><br>
                         <l class="file_content"><a href='/math/exponentials/exponentials_in_other_bases'>Exponents in bases other than e</a></l><br>
@@ -68,8 +68,8 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="cftNsYWlus">
-                    <label for="cftNsYWlus">Linear Algebra</label>
+                    <input type="checkbox" id="cEIzxxIcFf">
+                    <label for="cEIzxxIcFf">Linear Algebra</label>
                     <ul>
                         <l class="file_content"><a href='/math/linear_algebra/gaussian_elimination'>Gaussian Elimination</a></l><br>
                         <l class="file_content"><a href='/math/linear_algebra/homogenous_particular_matrices'>Homogenous and Particular Matrix Components</a></l><br>
@@ -83,8 +83,8 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="jxQCJLvkQS">
-                    <label for="jxQCJLvkQS">Logarithms</label>
+                    <input type="checkbox" id="octfdevMdX">
+                    <label for="octfdevMdX">Logarithms</label>
                     <ul>
                         <l class="file_content"><a href='/math/logarithms/base_switch'>Base Switch</a></l><br>
                         <l class="file_content"><a href='/math/logarithms/change_of_base'>Change of Base</a></l><br>
@@ -97,16 +97,16 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="CiBnBnLXpM">
-                    <label for="CiBnBnLXpM">Sequences</label>
+                    <input type="checkbox" id="CcEuyaPKgA">
+                    <label for="CcEuyaPKgA">Sequences</label>
                     <ul>
                         <l class="file_content"><a href='/math/sequences/sigma_notation'>Sigma Notation</a></l><br>
                     </ul>
                 </l>
 
                 <l>
-                    <input type="checkbox" id="ietAiaTZgO">
-                    <label for="ietAiaTZgO">Single Variable Calculus</label>
+                    <input type="checkbox" id="dDPGjQuZMk">
+                    <label for="dDPGjQuZMk">Single Variable Calculus</label>
                     <ul>
                         <l class="file_content"><a href='/math/single_variable_calculus/chain_rule'>Chain Rule</a></l><br>
                         <l class="file_content"><a href='/math/single_variable_calculus/higher_derivatives'>Higher Derivatives</a></l><br>
@@ -121,8 +121,8 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="yDRSSroTMA">
-                    <label for="yDRSSroTMA">Trigonometry</label>
+                    <input type="checkbox" id="qgNPZViMIQ">
+                    <label for="qgNPZViMIQ">Trigonometry</label>
                     <ul>
                         <l class="file_content"><a href='/math/trigonometry/sum_and_difference_formulas'>Trigonometric Sum and Difference Formulas</a></l><br>
                     </ul>
@@ -134,12 +134,12 @@ title: 📂
         </l>
 
         <l>
-            <input type="checkbox" id="VanbZVftgK" checked>
-            <label for="VanbZVftgK">Programming</label>
+            <input type="checkbox" id="ZbeUGGHmLk" checked>
+            <label for="ZbeUGGHmLk">Programming</label>
             <ul>
                 <l>
-                    <input type="checkbox" id="pBfmnGvvRw">
-                    <label for="pBfmnGvvRw">Ansible</label>
+                    <input type="checkbox" id="UxDGbJTzYT">
+                    <label for="UxDGbJTzYT">Ansible</label>
                     <ul>
                         <l class="file_content"><a href='/programming/ansible/ansible'>Ansible</a></l><br>
                         <l class="file_content"><a href='/programming/ansible/async'>Async</a></l><br>
@@ -150,8 +150,8 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="SmHLZcrjKA">
-                    <label for="SmHLZcrjKA">Architecture</label>
+                    <input type="checkbox" id="xhTIUTrKAz">
+                    <label for="xhTIUTrKAz">Architecture</label>
                     <ul>
                         <l class="file_content"><a href='/programming/architecture/concerns'>Concerns</a></l><br>
                         <l class="file_content"><a href='/programming/architecture/oop'>OOP</a></l><br>
@@ -159,16 +159,16 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="cuOGQiluIw">
-                    <label for="cuOGQiluIw">Computer Graphics</label>
+                    <input type="checkbox" id="cGpTzASgEd">
+                    <label for="cGpTzASgEd">Computer Graphics</label>
                     <ul>
                         <l class="file_content"><a href='/programming/computer_graphics/image_blending'>Image Blending</a></l><br>
                     </ul>
                 </l>
 
                 <l>
-                    <input type="checkbox" id="lRMbEVbTKe">
-                    <label for="lRMbEVbTKe">Databases</label>
+                    <input type="checkbox" id="JkvnuWfhjO">
+                    <label for="JkvnuWfhjO">Databases</label>
                     <ul>
                         <l class="file_content"><a href='/programming/databases/db'>Databases</a></l><br>
                         <l class="file_content"><a href='/programming/databases/migrations'>Migrations</a></l><br>
@@ -176,20 +176,20 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="AMCkhlqdBZ">
-                    <label for="AMCkhlqdBZ">Devops</label>
+                    <input type="checkbox" id="ioEMpHlnLN">
+                    <label for="ioEMpHlnLN">Devops</label>
                     <ul>
                         <l>
-                            <input type="checkbox" id="UJgPDEGKnt">
-                            <label for="UJgPDEGKnt">Cloud Providers</label>
+                            <input type="checkbox" id="rqhSQhPBKT">
+                            <label for="rqhSQhPBKT">Cloud Providers</label>
                             <ul>
                                 <l>
-                                    <input type="checkbox" id="yUctixiaDQ">
-                                    <label for="yUctixiaDQ">AWS</label>
+                                    <input type="checkbox" id="tnDcabMOdx">
+                                    <label for="tnDcabMOdx">AWS</label>
                                     <ul>
                                         <l>
-                                            <input type="checkbox" id="MtbYlpmdVE">
-                                            <label for="MtbYlpmdVE">Cli</label>
+                                            <input type="checkbox" id="NAZSwvOMqq">
+                                            <label for="NAZSwvOMqq">Cli</label>
                                             <ul>
                                                 <l class="file_content"><a href='/programming/devops/cloud_providers/a_w_s/cli/configure'>Configure</a></l><br>
                                                 <l class="file_content"><a href='/programming/devops/cloud_providers/a_w_s/cli/sts'>STS</a></l><br>
@@ -197,8 +197,8 @@ title: 📂
                                         </l>
 
                                         <l>
-                                            <input type="checkbox" id="YjIPesihRV">
-                                            <label for="YjIPesihRV">Dotnet</label>
+                                            <input type="checkbox" id="dZwOlNCFvf">
+                                            <label for="dZwOlNCFvf">Dotnet</label>
                                             <ul>
                                                 <l class="file_content"><a href='/programming/devops/cloud_providers/a_w_s/dotnet/credentials'>Credentials</a></l><br>
                                                 <l class="file_content"><a href='/programming/devops/cloud_providers/a_w_s/dotnet/sns'>SNS</a></l><br>
@@ -207,8 +207,8 @@ title: 📂
                                         </l>
 
                                         <l>
-                                            <input type="checkbox" id="URHUhPaRaT">
-                                            <label for="URHUhPaRaT">Ec 2</label>
+                                            <input type="checkbox" id="eGNlFEKLUR">
+                                            <label for="eGNlFEKLUR">Ec 2</label>
                                             <ul>
                                                 <l class="file_content"><a href='/programming/devops/cloud_providers/a_w_s/ec_2/alb'>Application Load Balancers</a></l><br>
                                                 <l class="file_content"><a href='/programming/devops/cloud_providers/a_w_s/ec_2/asg'>Auto Scaling Groups</a></l><br>
@@ -237,28 +237,28 @@ title: 📂
                         </l>
 
                         <l>
-                            <input type="checkbox" id="SZnlbFwmtL">
-                            <label for="SZnlbFwmtL">Events</label>
+                            <input type="checkbox" id="VAKEEEmKji">
+                            <label for="VAKEEEmKji">Events</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/devops/events/async_api'>Async APIs</a></l><br>
                             </ul>
                         </l>
 
                         <l>
-                            <input type="checkbox" id="NdxQlvgIyw">
-                            <label for="NdxQlvgIyw">Localstack</label>
+                            <input type="checkbox" id="UKaBpxirDt">
+                            <label for="UKaBpxirDt">Localstack</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/devops/localstack/aws_cli'>AWS CLI</a></l><br>
                             </ul>
                         </l>
 
                         <l>
-                            <input type="checkbox" id="lBFzBdRueJ">
-                            <label for="lBFzBdRueJ">Pulumi</label>
+                            <input type="checkbox" id="KtvfqsICzH">
+                            <label for="KtvfqsICzH">Pulumi</label>
                             <ul>
                                 <l>
-                                    <input type="checkbox" id="byUymuilXf">
-                                    <label for="byUymuilXf">Dotnet</label>
+                                    <input type="checkbox" id="XoOKrFZYCx">
+                                    <label for="XoOKrFZYCx">Dotnet</label>
                                     <ul>
                                         <l class="file_content"><a href='/programming/devops/pulumi/dotnet/dependency_injection'>Running</a></l><br>
                                         <l class="file_content"><a href='/programming/devops/pulumi/dotnet/explicit_dependencies'>Explicit Dependencies</a></l><br>
@@ -274,8 +274,8 @@ title: 📂
                         </l>
 
                         <l>
-                            <input type="checkbox" id="TwOwxtviNi">
-                            <label for="TwOwxtviNi">Serverless Framework</label>
+                            <input type="checkbox" id="vvZXCqfQOg">
+                            <label for="vvZXCqfQOg">Serverless Framework</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/devops/serverless_framework/functions'>Functions</a></l><br>
                                 <l class="file_content"><a href='/programming/devops/serverless_framework/middleware'>Middleware</a></l><br>
@@ -287,20 +287,20 @@ title: 📂
                         </l>
 
                         <l>
-                            <input type="checkbox" id="QTDWlVnrku">
-                            <label for="QTDWlVnrku">Terraform</label>
+                            <input type="checkbox" id="weQPxyVmQJ">
+                            <label for="weQPxyVmQJ">Terraform</label>
                             <ul>
                                 <l>
-                                    <input type="checkbox" id="bmjJPDboGt">
-                                    <label for="bmjJPDboGt">Functions</label>
+                                    <input type="checkbox" id="uvVIBkLdxA">
+                                    <label for="uvVIBkLdxA">Functions</label>
                                     <ul>
                                         <l class="file_content"><a href='/programming/devops/terraform/functions/try'>Try</a></l><br>
                                     </ul>
                                 </l>
 
                                 <l>
-                                    <input type="checkbox" id="VskmbMpamC">
-                                    <label for="VskmbMpamC">Meta Arguments</label>
+                                    <input type="checkbox" id="zTisVeyzlS">
+                                    <label for="zTisVeyzlS">Meta Arguments</label>
                                     <ul>
                                         <l class="file_content"><a href='/programming/devops/terraform/meta_arguments/count'>Count</a></l><br>
                                         <l class="file_content"><a href='/programming/devops/terraform/meta_arguments/for_each'>For Each</a></l><br>
@@ -330,8 +330,8 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="qRerbCqnPF">
-                    <label for="qRerbCqnPF">Docker</label>
+                    <input type="checkbox" id="cUABJYFIRG">
+                    <label for="cUABJYFIRG">Docker</label>
                     <ul>
                         <l class="file_content"><a href='/programming/docker/bind_mounts'>Bind Mounts</a></l><br>
                         <l class="file_content"><a href='/programming/docker/docker'>Docker</a></l><br>
@@ -343,12 +343,12 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="wqQZLzNezq">
-                    <label for="wqQZLzNezq">Dotnet</label>
+                    <input type="checkbox" id="DoDqsjVHpi">
+                    <label for="DoDqsjVHpi">Dotnet</label>
                     <ul>
                         <l>
-                            <input type="checkbox" id="seDsBOYCaa">
-                            <label for="seDsBOYCaa">Cli</label>
+                            <input type="checkbox" id="qubwmLiVnD">
+                            <label for="qubwmLiVnD">Cli</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/dotnet/cli/project'>Project</a></l><br>
                                 <l class="file_content"><a href='/programming/dotnet/cli/publish'>Publish</a></l><br>
@@ -402,20 +402,20 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="KXrMYcRlyq">
-                    <label for="KXrMYcRlyq">Functional Programming</label>
+                    <input type="checkbox" id="rAGKYxkoKY">
+                    <label for="rAGKYxkoKY">Functional Programming</label>
                     <ul>
                         <l class="file_content"><a href='/programming/functional_programming/func_prog'>Functional Programming</a></l><br>
                     </ul>
                 </l>
 
                 <l>
-                    <input type="checkbox" id="kiGrynMlyf">
-                    <label for="kiGrynMlyf">Git</label>
+                    <input type="checkbox" id="kyQXjQymHe">
+                    <label for="kyQXjQymHe">Git</label>
                     <ul>
                         <l>
-                            <input type="checkbox" id="ekFKfFOEIf">
-                            <label for="ekFKfFOEIf">Github</label>
+                            <input type="checkbox" id="DObLQAiNAB">
+                            <label for="DObLQAiNAB">Github</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/git/github/actions'>Github Actions</a></l><br>
                                 <l class="file_content"><a href='/programming/git/github/searching'>Searching</a></l><br>
@@ -430,8 +430,8 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="XcHRpWCifh">
-                    <label for="XcHRpWCifh">Go</label>
+                    <input type="checkbox" id="FZiCauOLqA">
+                    <label for="FZiCauOLqA">Go</label>
                     <ul>
                         <l class="file_content"><a href='/programming/go/enum'>enum</a></l><br>
                         <l class="file_content"><a href='/programming/go/fmt'>fmt</a></l><br>
@@ -442,8 +442,8 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="dMuOqtJEpe">
-                    <label for="dMuOqtJEpe">Haskell</label>
+                    <input type="checkbox" id="RbCpYVfkle">
+                    <label for="RbCpYVfkle">Haskell</label>
                     <ul>
                         <l class="file_content"><a href='/programming/haskell/guards'>Guards</a></l><br>
                         <l class="file_content"><a href='/programming/haskell/haskell'>Haskell</a></l><br>
@@ -458,12 +458,12 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="MhIUxjsksU">
-                    <label for="MhIUxjsksU">Js</label>
+                    <input type="checkbox" id="cTSVtqXjfc">
+                    <label for="cTSVtqXjfc">Js</label>
                     <ul>
                         <l>
-                            <input type="checkbox" id="aYVXvIfefJ">
-                            <label for="aYVXvIfefJ">Node</label>
+                            <input type="checkbox" id="LliasGzbVh">
+                            <label for="LliasGzbVh">Node</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/js/Node/assert'>Assert</a></l><br>
                                 <l class="file_content"><a href='/programming/js/Node/child_process'>Child Process</a></l><br>
@@ -473,8 +473,8 @@ title: 📂
                         </l>
 
                         <l>
-                            <input type="checkbox" id="YqHEIwMygj">
-                            <label for="YqHEIwMygj">D3</label>
+                            <input type="checkbox" id="CKiLiOawXm">
+                            <label for="CKiLiOawXm">D3</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/js/d3/color'>Color</a></l><br>
                                 <l class="file_content"><a href='/programming/js/d3/svg'>SVG</a></l><br>
@@ -483,8 +483,8 @@ title: 📂
                         </l>
 
                         <l>
-                            <input type="checkbox" id="LluJKKdxXX">
-                            <label for="LluJKKdxXX">Mocha</label>
+                            <input type="checkbox" id="snvBoZAYQj">
+                            <label for="snvBoZAYQj">Mocha</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/js/mocha/code_runner'>Code Runner</a></l><br>
                                 <l class="file_content"><a href='/programming/js/mocha/mocha'>Mocha</a></l><br>
@@ -492,8 +492,8 @@ title: 📂
                         </l>
 
                         <l>
-                            <input type="checkbox" id="eqheTjCmxB">
-                            <label for="eqheTjCmxB">P5js</label>
+                            <input type="checkbox" id="SjIgRzPXdB">
+                            <label for="SjIgRzPXdB">P5js</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/js/p5js/dom_elements'>DOM Elements</a></l><br>
                                 <l class="file_content"><a href='/programming/js/p5js/embedding'>Embedding</a></l><br>
@@ -502,12 +502,12 @@ title: 📂
                         </l>
 
                         <l>
-                            <input type="checkbox" id="yuJFjawPGe">
-                            <label for="yuJFjawPGe">Typescript</label>
+                            <input type="checkbox" id="CcrOjLEtAQ">
+                            <label for="CcrOjLEtAQ">Typescript</label>
                             <ul>
                                 <l>
-                                    <input type="checkbox" id="JCTbrbDfMM">
-                                    <label for="JCTbrbDfMM">Testing</label>
+                                    <input type="checkbox" id="tPSgVvANlE">
+                                    <label for="tPSgVvANlE">Testing</label>
                                     <ul>
                                         <l class="file_content"><a href='/programming/js/typescript/testing/jest'>Jest</a></l><br>
                                     </ul>
@@ -542,8 +542,8 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="qnoLYMRkGE">
-                    <label for="qnoLYMRkGE">Kafka</label>
+                    <input type="checkbox" id="LQkALLNCpF">
+                    <label for="LQkALLNCpF">Kafka</label>
                     <ul>
                         <l class="file_content"><a href='/programming/kafka/kafka'>Kafka</a></l><br>
                         <l class="file_content"><a href='/programming/kafka/topics'>Topics</a></l><br>
@@ -551,8 +551,8 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="iVasgbZmXK">
-                    <label for="iVasgbZmXK">Kubernetes</label>
+                    <input type="checkbox" id="HSgcLJCfhT">
+                    <label for="HSgcLJCfhT">Kubernetes</label>
                     <ul>
                         <l class="file_content"><a href='/programming/kubernetes/architecture'>Architecture</a></l><br>
                         <l class="file_content"><a href='/programming/kubernetes/kubectl'>Kubectl</a></l><br>
@@ -562,20 +562,20 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="hCyyFspyiK">
-                    <label for="hCyyFspyiK">Language</label>
+                    <input type="checkbox" id="btEuzsPRgJ">
+                    <label for="btEuzsPRgJ">Language</label>
                     <ul>
                         <l class="file_content"><a href='/programming/language/japanese_keyboard'>Japanese Keyboard</a></l><br>
                     </ul>
                 </l>
 
                 <l>
-                    <input type="checkbox" id="qyekEKNLRL">
-                    <label for="qyekEKNLRL">Linux</label>
+                    <input type="checkbox" id="PnsloUkQsp">
+                    <label for="PnsloUkQsp">Linux</label>
                     <ul>
                         <l>
-                            <input type="checkbox" id="XIrcQppmzj">
-                            <label for="XIrcQppmzj">Bash</label>
+                            <input type="checkbox" id="OncxhmeHSo">
+                            <label for="OncxhmeHSo">Bash</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/linux/bash/bash'>Bash</a></l><br>
                                 <l class="file_content"><a href='/programming/linux/bash/conditionals'>Conditionals</a></l><br>
@@ -599,8 +599,8 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="jdAoIYvpRj">
-                    <label for="jdAoIYvpRj">Oauth</label>
+                    <input type="checkbox" id="ViXkgAmjmS">
+                    <label for="ViXkgAmjmS">Oauth</label>
                     <ul>
                         <l class="file_content"><a href='/programming/oauth/jwt'>JWT</a></l><br>
                         <l class="file_content"><a href='/programming/oauth/oauth'>OAuth</a></l><br>
@@ -609,12 +609,12 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="ylyGCiXaOA">
-                    <label for="ylyGCiXaOA">Python</label>
+                    <input type="checkbox" id="vCoYSOKYxW">
+                    <label for="vCoYSOKYxW">Python</label>
                     <ul>
                         <l>
-                            <input type="checkbox" id="LLdbKnJzeZ">
-                            <label for="LLdbKnJzeZ">Data Classes</label>
+                            <input type="checkbox" id="smGxuXQoec">
+                            <label for="smGxuXQoec">Data Classes</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/python/data_classes/named_tuples'>Named Tuples</a></l><br>
                                 <l class="file_content"><a href='/programming/python/data_classes/record_class'>Record Class</a></l><br>
@@ -622,8 +622,8 @@ title: 📂
                         </l>
 
                         <l>
-                            <input type="checkbox" id="EOmEmhzlRC">
-                            <label for="EOmEmhzlRC">Libraries</label>
+                            <input type="checkbox" id="KOWPayrImb">
+                            <label for="KOWPayrImb">Libraries</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/python/libraries/gspread'>gspread</a></l><br>
                             </ul>
@@ -648,8 +648,8 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="qsOuUVPRRW">
-                    <label for="qsOuUVPRRW">React</label>
+                    <input type="checkbox" id="TOAAAomfof">
+                    <label for="TOAAAomfof">React</label>
                     <ul>
                         <l class="file_content"><a href='/programming/react/generator-templates'>Generator Templates</a></l><br>
                         <l class="file_content"><a href='/programming/react/react'>React</a></l><br>
@@ -657,20 +657,20 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="aJPDpqkafX">
-                    <label for="aJPDpqkafX">Regular Expressions</label>
+                    <input type="checkbox" id="dSiRKXJvhq">
+                    <label for="dSiRKXJvhq">Regular Expressions</label>
                     <ul>
                         <l class="file_content"><a href='/programming/regular_expressions/mode_modifiers'>Mode Modifiers</a></l><br>
                     </ul>
                 </l>
 
                 <l>
-                    <input type="checkbox" id="qSVndyhxYT">
-                    <label for="qSVndyhxYT">Rust</label>
+                    <input type="checkbox" id="QBPsUEvvUs">
+                    <label for="QBPsUEvvUs">Rust</label>
                     <ul>
                         <l>
-                            <input type="checkbox" id="MoAEMXwdYy">
-                            <label for="MoAEMXwdYy">Serde</label>
+                            <input type="checkbox" id="zHUthiqVbX">
+                            <label for="zHUthiqVbX">Serde</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/rust/serde/defaults'>Defaults</a></l><br>
                                 <l class="file_content"><a href='/programming/rust/serde/renaming'>Renaming</a></l><br>
@@ -703,12 +703,12 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="MkmBjhlPFM">
-                    <label for="MkmBjhlPFM">Shaders</label>
+                    <input type="checkbox" id="LnISazXXiC">
+                    <label for="LnISazXXiC">Shaders</label>
                     <ul>
                         <l>
-                            <input type="checkbox" id="diocKzLuUw">
-                            <label for="diocKzLuUw">Glsl</label>
+                            <input type="checkbox" id="ZbHCLjwzOv">
+                            <label for="ZbHCLjwzOv">Glsl</label>
                             <ul>
                                 <l class="file_content"><a href='/programming/shaders/glsl/webgl'>Web GL</a></l><br>
                             </ul>
@@ -717,16 +717,16 @@ title: 📂
                 </l>
 
                 <l>
-                    <input type="checkbox" id="pZHJukTWhV">
-                    <label for="pZHJukTWhV">Vim</label>
+                    <input type="checkbox" id="sHZZeaguZY">
+                    <label for="sHZZeaguZY">Vim</label>
                     <ul>
                         <l class="file_content"><a href='/programming/vim/vim'>Vim</a></l><br>
                     </ul>
                 </l>
 
                 <l>
-                    <input type="checkbox" id="WhVBHzeHmU">
-                    <label for="WhVBHzeHmU">Web</label>
+                    <input type="checkbox" id="OHQhbNXheM">
+                    <label for="OHQhbNXheM">Web</label>
                     <ul>
                         <l class="file_content"><a href='/programming/web/cookies'>Cookies</a></l><br>
                         <l class="file_content"><a href='/programming/web/cors'>CORS</a></l><br>
