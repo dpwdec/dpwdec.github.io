@@ -4,6 +4,13 @@ layout: page
 exclude: true
 ---
 
+## Chain and Once
+
+You can **add a single element to an existing iterator** using the `once` and `chain` functions. This allows you to include an additional iterator element that might be an exceptional case to the other mapped iterator elements. The `chain` function stitches two iterators together and the `once` function produces an iterator with a single element.
+```rust
+(0..5).chain(std::iter::once(6)) // [0, 1, 2, 3, 4, 5]
+```
+
 ## Zip
 
 If you want to **combine the values of two iterators into a set of tuple pairs** you can use the `zip` function.
@@ -51,8 +58,3 @@ x
     .for_each(|z| *z += 1)  
 }); // => [[2, 3, 4], [5, 6, 7]]
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTA0NjY5MCw4NTU5ODkxNzksODM1OT
-gyMjgsMjExMDUyOTI5MiwtMTEzNzQ0ODczMSwtNzY4Nzg5Njgx
-LC03MTYwNTUwNjJdfQ==
--->
